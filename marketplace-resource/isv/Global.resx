@@ -1,0 +1,3374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Msg_ImgEdit_NonAdmin_NotAllowed" xml:space="preserve">
+    <value>is not allowed to edit VHD image published by another user #</value>
+  </data>
+  <data name="Msg_ImgPublish_Blob_Url_Invalid" xml:space="preserve">
+    <value>A valid Azure Blob url to a vhd image is required &lt;br/&gt; http://&amp;lt;storage-account-name&amp;gt;.blob.core.chinacloudapi.cn/&amp;lt;container-name&amp;gt;/&amp;lt;blob-name&amp;gt; or http://&amp;lt;storage-account-name&amp;gt;.blob.core.windows.net/&amp;lt;container-name&amp;gt;/&amp;lt;blob-name&amp;gt;</value>
+  </data>
+  <data name="Msg_ImgPublish_Blob_Url_Toolong" xml:space="preserve">
+    <value>Blob URL is too long. The limit is 256 characters</value>
+  </data>
+  <data name="Msg_ImgPublish_Desc_Length_Limit" xml:space="preserve">
+    <value>Image description is limited to 1024 characters</value>
+  </data>
+  <data name="Msg_ImgPublish_Each_Package_Name" xml:space="preserve">
+    <value>Each package name</value>
+  </data>
+  <data name="Msg_ImgPublish_Each_Tag_Name" xml:space="preserve">
+    <value>Each tag name</value>
+  </data>
+  <data name="Msg_ImgPublish_Name_Length_Limit" xml:space="preserve">
+    <value>Image name is limited to 50 characters</value>
+  </data>
+  <data name="Msg_ImgPublish_Name_Required" xml:space="preserve">
+    <value>Image name is required</value>
+  </data>
+  <data name="Msg_ImgPublish_Packages_Length_Limit" xml:space="preserve">
+    <value>List of packages is too long. The limit is 256 characters </value>
+  </data>
+  <data name="Msg_ImgPublish_Package_Char_Allowed" xml:space="preserve">
+    <value>Should contain only letter, number, space, dash (-) or (.)</value>
+  </data>
+  <data name="Msg_ImgPublish_Package_Length_Limit" xml:space="preserve">
+    <value>Should be atleast 2 characters and not more than 40 characters</value>
+  </data>
+  <data name="Msg_ImgPublish_Package_Nosequence_Dashdot" xml:space="preserve">
+    <value>Every dash (-) and (.) character must be immediately preceded and followed by a letter or number</value>
+  </data>
+  <data name="Msg_ImgPublish_Package_Startend_Alphanum" xml:space="preserve">
+    <value>Should start and end with letter or number</value>
+  </data>
+  <data name="Msg_ImgPublish_Platform_Required" xml:space="preserve">
+    <value>Platform is required</value>
+  </data>
+  <data name="Msg_ImgPublish_Platform_TooLong" xml:space="preserve">
+    <value>Platform name is too long</value>
+  </data>
+  <data name="Msg_ImgPublish_Recommend_Package" xml:space="preserve">
+    <value>We strongly recommed you to provide packages</value>
+  </data>
+  <data name="Msg_ImgPublish_Tags_Length_Limit" xml:space="preserve">
+    <value>List of tags (keywords) is too long. The limit is 256 characters</value>
+  </data>
+  <data name="Msg_Shared_Accept_ISVPolicy" xml:space="preserve">
+    <value>Accepting Azure Marketplace Term of Use and the publisher agreement is required</value>
+  </data>
+  <data name="Msg_ImgPublish_Term_Url_Invalid" xml:space="preserve">
+    <value>Image legal terms URL should be a valid url with maximum length 256</value>
+  </data>
+  <data name="Msg_ImgPublish_Version_Desc_Length_Limit" xml:space="preserve">
+    <value>Image version description is limited to 1024 characters</value>
+  </data>
+  <data name="Msg_ImgUpgrade_Admin_NotAllowed" xml:space="preserve">
+    <value>Even admin users cannot upgrade image on behalf of another user #</value>
+  </data>
+  <data name="Msg_NonAdmin_User" xml:space="preserve">
+    <value>Non-admin user #</value>
+  </data>
+  <data name="View_Title" xml:space="preserve">
+    <value>Marketplace - find, deploy and share OSS images for Azure</value>
+  </data>
+  <data name="View_List_Index_Intro_Text1" xml:space="preserve">
+    <value>VM Depot is a community-driven catalog of preconfigured operating systems, applications, and development stacks that can easily be deployed on Azure. Find your favorite software and deploy it in minutes, or join the community, build a virtual machine image, and share it with others. &lt;a href="~/documentation/index"&gt;Learn more.&lt;/a&gt;</value>
+  </data>
+  <data name="View_List_Index_Intro_Text2" xml:space="preserve">
+    <value>VM Depot is brought to you by Microsoft Open Technologies, Inc., a subsidiary of Microsoft Corporation and operated by Beijing 21 Vianet Broadband Data Center Co., Ltd in China. The virtual machine images on this site are provided and licensed to you by community members. Microsoft Open Technologies or 21 Vianet does not screen these images for compatibility or performance, and does not provide any license rights or support for them.</value>
+  </data>
+  <data name="View_Shared_Classic_VHD" xml:space="preserve">
+    <value>Virtual Machine Images</value>
+  </data>
+  <data name="Msg_CommentLimit_512" xml:space="preserve">
+    <value>Comment should not exceed 512 characters</value>
+  </data>
+  <data name="Msg_Image_DeleteConfirm" xml:space="preserve">
+    <value>Are you sure you want to delete this image?</value>
+  </data>
+  <data name="Msg_ImgPublish_EndPoint_LclDupNotAllowed" xml:space="preserve">
+    <value>Given Local port is already used for one of the endpoints (*)</value>
+  </data>
+  <data name="Msg_ImgPublish_EndPoint_PubDupNotAllowed" xml:space="preserve">
+    <value>Given Public port is already used for one of the endpoints (*)</value>
+  </data>
+  <data name="Msg_ImgPublish_EndPoint_ShouldBeInRange" xml:space="preserve">
+    <value>Both Public port and Local port should be in the range [1-65535]</value>
+  </data>
+  <data name="Msg_ImgPublish_EndPoint_ShouldBeInt" xml:space="preserve">
+    <value>Both Public port and Local port should be numbers</value>
+  </data>
+  <data name="Msg_ImgRate_Blocked" xml:space="preserve">
+    <value>You are blocked from rating and commenting by an administrator</value>
+  </data>
+  <data name="Msg_ImgRate_NeedSignIn" xml:space="preserve">
+    <value>You need to &lt;a href="{0}"&gt;&lt;b&gt;sign in&lt;/b&gt;&lt;/a&gt; to rate, comment or vote</value>
+  </data>
+  <data name="Msg_ImgRate_NoSelfRate" xml:space="preserve">
+    <value>You cannot rate your own image</value>
+  </data>
+  <data name="Msg_RateVote_NeedSignIn" xml:space="preserve">
+    <value>You need to sign in to vote</value>
+  </data>
+  <data name="Msg_RateVote_NoSelfVote" xml:space="preserve">
+    <value>You cannot vote for your comment</value>
+  </data>
+  <data name="Msg_WhyReport_Comment" xml:space="preserve">
+    <value>Why are you reporting this comment</value>
+  </data>
+  <data name="View_lbl_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="View_lbl_Cancel_Cap" xml:space="preserve">
+    <value>CANCEL</value>
+  </data>
+  <data name="View_lbl_Comment_Fmt" xml:space="preserve">
+    <value>comment</value>
+  </data>
+  <data name="View_lbl_Comments_Fmt" xml:space="preserve">
+    <value>comments</value>
+  </data>
+  <data name="View_lbl_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="View_lbl_DeleteIt" xml:space="preserve">
+    <value>Delete it</value>
+  </data>
+  <data name="View_lbl_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="View_lbl_EndPoints" xml:space="preserve">
+    <value>EndPoints</value>
+  </data>
+  <data name="View_lbl_ImageLegal" xml:space="preserve">
+    <value>Image legal terms URL</value>
+  </data>
+  <data name="View_lbl_ImageName" xml:space="preserve">
+    <value>Image Name</value>
+  </data>
+  <data name="View_lbl_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="View_lbl_LclPort" xml:space="preserve">
+    <value>Local Port</value>
+  </data>
+  <data name="View_lbl_Log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="View_lbl_NoComments" xml:space="preserve">
+    <value>0 comments</value>
+  </data>
+  <data name="View_lbl_NoVotes" xml:space="preserve">
+    <value>No votes</value>
+  </data>
+  <data name="View_lbl_Packages" xml:space="preserve">
+    <value>Packages</value>
+  </data>
+  <data name="View_lbl_Platform" xml:space="preserve">
+    <value>Platform</value>
+  </data>
+  <data name="View_lbl_Post_Cap" xml:space="preserve">
+    <value>POST</value>
+  </data>
+  <data name="View_lbl_Publisher" xml:space="preserve">
+    <value>Publisher</value>
+  </data>
+  <data name="View_lbl_PubPort" xml:space="preserve">
+    <value>Public Port</value>
+  </data>
+  <data name="View_lbl_RateAdd" xml:space="preserve">
+    <value>Add new comment or rating</value>
+  </data>
+  <data name="View_lbl_RateEdit" xml:space="preserve">
+    <value>Edit your comment or rating</value>
+  </data>
+  <data name="View_lbl_Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="View_lbl_Save_Cap" xml:space="preserve">
+    <value>SAVE</value>
+  </data>
+  <data name="View_lbl_Showing" xml:space="preserve">
+    <value>Showing </value>
+  </data>
+  <data name="View_lbl_SignIn" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="View_lbl_Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="View_lbl_Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="View_lbl_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="View_lbl_UploadedDate" xml:space="preserve">
+    <value>Uploaded date</value>
+  </data>
+  <data name="View_lbl_Vote_Fmt" xml:space="preserve">
+    <value>vote</value>
+  </data>
+  <data name="View_lbl_Votes_Fmt" xml:space="preserve">
+    <value>votes</value>
+  </data>
+  <data name="View_Shared_DistPickPartial_lbl_Other" xml:space="preserve">
+    <value>Other Distribution</value>
+  </data>
+  <data name="View_Shared_DistPickPartial_lbl_Supported" xml:space="preserve">
+    <value>Azure-Endorsed Distributions</value>
+  </data>
+  <data name="View_Shared_DistPickPartial_Supported_Text" xml:space="preserve">
+    <value>The above distributions have been tested and are &lt;a href="https://www.windowsazure.com/en-us/manage/linux/other-resources/endorsed-distributions/"&gt;currently supported on Azure&lt;/a&gt;. Please test your image thoroughly before publishing to VM Depot.</value>
+  </data>
+  <data name="View_Shared_EPPartial_lbl_NewEP" xml:space="preserve">
+    <value>Add New EndPoint</value>
+  </data>
+  <data name="View_ttip_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="View_ttip_CancelClose" xml:space="preserve">
+    <value>Cancel and close</value>
+  </data>
+  <data name="View_ttip_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="View_Vhd_Index_Delete_ttip_MinOneLoc" xml:space="preserve">
+    <value>You should select at least one location. To delete this image, use Delete button.</value>
+  </data>
+  <data name="View_Vhd_Index_Edit_Text" xml:space="preserve">
+    <value>Edit Image Details</value>
+  </data>
+  <data name="View_Shared_MMP_Policy" xml:space="preserve">
+    <value>I agree to the &lt;a target="_blank" href="{0}"&gt;terms of use&lt;/a&gt;.</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_Desc" xml:space="preserve">
+    <value>Image description</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_NewThumbnail" xml:space="preserve">
+    <value>Upload new thumbnail</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_Packages" xml:space="preserve">
+    <value>Packages, comma-separated</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_Publish" xml:space="preserve">
+    <value>PUBLISH</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_PublishUrl" xml:space="preserve">
+    <value>URL of the VHD file to publish</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_Regions" xml:space="preserve">
+    <value>Regions</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_RmThumbnail" xml:space="preserve">
+    <value>Remove this thumbnail</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_Tags" xml:space="preserve">
+    <value>Tags, comma-separated</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_Thumbnail" xml:space="preserve">
+    <value>Upload thumbnail</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_Upgrade" xml:space="preserve">
+    <value>PUBLISH UPGRADE</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_UpgradeUrl" xml:space="preserve">
+    <value>URL of the VHD file to publish an upgrade</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_VerDesc" xml:space="preserve">
+    <value>Image version description</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_VerDesc_Limit" xml:space="preserve">
+    <value>Limit: 10 to 1024 characters</value>
+  </data>
+  <data name="View_Required_Text" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_Text" xml:space="preserve">
+    <value>Publish an Image</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_ttip_MinOneLoc" xml:space="preserve">
+    <value>You should select at least one location.</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_ttip_Publish" xml:space="preserve">
+    <value>Publish an Image</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_ttip_Upgrade" xml:space="preserve">
+    <value>Publish Upgrade</value>
+  </data>
+  <data name="View_Vhd_Index_Upgrade_Text" xml:space="preserve">
+    <value>Publish Upgrade Image</value>
+  </data>
+  <data name="View_Vhd_Show_ImgRate_lbl_NoRatesOrComments" xml:space="preserve">
+    <value>No ratings or comments</value>
+  </data>
+  <data name="View_Vhd_Show_ImgRate_lbl_RateOrAndComment_Fmt" xml:space="preserve">
+    <value>rating and/or comment</value>
+  </data>
+  <data name="View_Vhd_Show_ImgRate_lbl_RatesOrAndComments_Fmt" xml:space="preserve">
+    <value>ratings and/or comments</value>
+  </data>
+  <data name="View_Vhd_Show_ImgRate_ttip_New" xml:space="preserve">
+    <value>Post your rating and comment</value>
+  </data>
+  <data name="View_Vhd_Show_ImgRate_ttip_Update" xml:space="preserve">
+    <value>Post your updates of rating and comment</value>
+  </data>
+  <data name="View_Vhd_Show_lbl_NewVersion" xml:space="preserve">
+    <value>Newer version</value>
+  </data>
+  <data name="View_Vhd_Show_lbl_NewVersions" xml:space="preserve">
+    <value>Newer versions</value>
+  </data>
+  <data name="View_Vhd_Show_lbl_OldVersion" xml:space="preserve">
+    <value>Older version</value>
+  </data>
+  <data name="View_Vhd_Show_lbl_OldVersions" xml:space="preserve">
+    <value>Older versions</value>
+  </data>
+  <data name="View_Vhd_Show_lbl_Regions" xml:space="preserve">
+    <value>Region(s)</value>
+  </data>
+  <data name="View_Vhd_Show_ReportImg_Text" xml:space="preserve">
+    <value>Support for these images is provided either by the image publisher or by the community through the comments section. You should only report images that you believe present a security risk and/or contain illegal, offensive or inappropriate content. For all other issues please either contact the publisher directly or leave a comment below.</value>
+  </data>
+  <data name="Msg_ClickToContact" xml:space="preserve">
+    <value>Click here to contact this user</value>
+  </data>
+  <data name="Msg_CommentBlocked" xml:space="preserve">
+    <value>Blocked: Comment</value>
+  </data>
+  <data name="Msg_CommentRequired" xml:space="preserve">
+    <value>A comment must be provided</value>
+  </data>
+  <data name="Msg_ImgDelete_ImgVersionAlreadyDeleted" xml:space="preserve">
+    <value>Looks like this image version is already removed</value>
+  </data>
+  <data name="Msg_ImgEdit_OnlyAllowedForOwnImages" xml:space="preserve">
+    <value>You are not allowed to edit image published by another user</value>
+  </data>
+  <data name="Msg_ImgNotFound" xml:space="preserve">
+    <value>Image not found</value>
+  </data>
+  <data name="Msg_ImgPublish_Blocked" xml:space="preserve">
+    <value>You are blocked from publishing or upgrading by administrator</value>
+  </data>
+  <data name="Msg_ImgPublish_PublishCount" xml:space="preserve">
+    <value>Currently published images</value>
+  </data>
+  <data name="Msg_ImgPublish_ReachedQuota" xml:space="preserve">
+    <value>You reached your publish quota</value>
+  </data>
+  <data name="Msg_PublishBlocked" xml:space="preserve">
+    <value>Blocked: Publish</value>
+  </data>
+  <data name="Msg_RateVote_AlreadyUnVoted" xml:space="preserve">
+    <value>Already unvoted</value>
+  </data>
+  <data name="Msg_RateVote_AlreadyVoted" xml:space="preserve">
+    <value>Already voted</value>
+  </data>
+  <data name="Msg_RateVote_NoVoteForOwnVhdComment" xml:space="preserve">
+    <value>Voting to own comment or vhd comments are not allowed</value>
+  </data>
+  <data name="Msg_Report_AlreadyReported" xml:space="preserve">
+    <value>You have already reported this comment</value>
+  </data>
+  <data name="Msg_Report_NeedSignIn" xml:space="preserve">
+    <value>You need to be signed in to report</value>
+  </data>
+  <data name="Msg_Report_NoReportEmptyComment" xml:space="preserve">
+    <value>You cannot report empty comment</value>
+  </data>
+  <data name="Msg_Report_NoSelfReport" xml:space="preserve">
+    <value>You cannot report your own comment</value>
+  </data>
+  <data name="Msg_SelectRegionForScript1" xml:space="preserve">
+    <value>Please select a region to see deployment command line.</value>
+  </data>
+  <data name="Msg_Signup_InvalidUrl" xml:space="preserve">
+    <value>Enter a valid url (should start with http:// or https:// and max 256 characters).</value>
+  </data>
+  <data name="Msg_Signup_RequiredNameOrOrganization" xml:space="preserve">
+    <value>You must enter either your name or your organization</value>
+  </data>
+  <data name="View_lbl_ACSProvider" xml:space="preserve">
+    <value>ACS name identifier and provider</value>
+  </data>
+  <data name="View_lbl_AdminFlag" xml:space="preserve">
+    <value>Admin Flag</value>
+  </data>
+  <data name="View_lbl_AdminSettings" xml:space="preserve">
+    <value>Admin Settings</value>
+  </data>
+  <data name="View_lbl_Blog" xml:space="preserve">
+    <value>Blog</value>
+  </data>
+  <data name="View_lbl_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="View_lbl_Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="View_lbl_EmailAddress" xml:space="preserve">
+    <value>Email address</value>
+  </data>
+  <data name="View_lbl_Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="View_lbl_FaceBook" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="View_lbl_LastActivityDate" xml:space="preserve">
+    <value>Last Activity Date</value>
+  </data>
+  <data name="View_lbl_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="View_lbl_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="View_lbl_Organization" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="View_lbl_Rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="View_lbl_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="View_lbl_Subscribe" xml:space="preserve">
+    <value>Subscribe</value>
+  </data>
+  <data name="view_lbl_TrustedUser" xml:space="preserve">
+    <value>Trusted User</value>
+  </data>
+  <data name="View_lbl_Url_Cap" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="View_lbl_VisibilityOnlyYou" xml:space="preserve">
+    <value>only visible to you</value>
+  </data>
+  <data name="View_lbl_VisibilityOnlyYouAdmin" xml:space="preserve">
+    <value>only visible to you or site administrators</value>
+  </data>
+  <data name="View_lbl_Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="View_Shared_SignupPartial_CreateProfile_Header" xml:space="preserve">
+    <value>Create User Profile</value>
+  </data>
+  <data name="View_Shared_SignupPartial_EditProfile_Header" xml:space="preserve">
+    <value>Edit Account Details</value>
+  </data>
+  <data name="View_Shared_VotingPartial_ttip_UnVote" xml:space="preserve">
+    <value>Remove your vote</value>
+  </data>
+  <data name="View_Shared_VotingPartial_ttip_Vote" xml:space="preserve">
+    <value>Vote for this comment</value>
+  </data>
+  <data name="View_User_Show_lbl_AvgRatingForUserImages" xml:space="preserve">
+    <value>Average rating given to user's published images</value>
+  </data>
+  <data name="View_User_Show_lbl_PublishCount" xml:space="preserve">
+    <value>Publish count</value>
+  </data>
+  <data name="View_User_Show_lbl_RatingCount" xml:space="preserve">
+    <value>Rating and comment count</value>
+  </data>
+  <data name="View_User_Show_UserImages_Header" xml:space="preserve">
+    <value>Images Published by {0}</value>
+  </data>
+  <data name="View_User_Show_UserRatings_Header" xml:space="preserve">
+    <value>Reviews by {0}</value>
+  </data>
+  <data name="View_User_Show_YourImages_Header" xml:space="preserve">
+    <value>Images Published by You</value>
+  </data>
+  <data name="View_YourRatings_Header" xml:space="preserve">
+    <value>Reviews by You</value>
+  </data>
+  <data name="View_VMDepotHyphen" xml:space="preserve">
+    <value>Marketplace - {0}</value>
+  </data>
+  <data name="Msg_NoPublish_QuotaExeeded" xml:space="preserve">
+    <value>You cannot publish any image because you exceeded your quota.</value>
+  </data>
+  <data name="Msg_NoPublish_QuotaReached" xml:space="preserve">
+    <value>You cannot publish any image because you reached your quota.</value>
+  </data>
+  <data name="Msg_PublishBlocked_ContactAdmin" xml:space="preserve">
+    <value>You cannot publish or upgrade any image because a site administrator blocked you. 
+        &lt;br /&gt;Please contact administrators if you have any questions.</value>
+  </data>
+  <data name="Msg_ThisIsYou" xml:space="preserve">
+    <value>This is you.</value>
+  </data>
+  <data name="Msg_WhyReport_User" xml:space="preserve">
+    <value>Why are you reporting this user</value>
+  </data>
+  <data name="Msg_YouAreAdmin" xml:space="preserve">
+    <value>You are an administrator of this site</value>
+  </data>
+  <data name="View_lbl_Administrator" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="View_lbl_Images_Fmt" xml:space="preserve">
+    <value>images</value>
+  </data>
+  <data name="View_lbl_Image_Fmt" xml:space="preserve">
+    <value>image</value>
+  </data>
+  <data name="View_lbl_ModifiedTime" xml:space="preserve">
+    <value>Modified time</value>
+  </data>
+  <data name="View_lbl_NoImages" xml:space="preserve">
+    <value>No images</value>
+  </data>
+  <data name="View_lbl_Published" xml:space="preserve">
+    <value>Published</value>
+  </data>
+  <data name="View_lbl_PublishQuota" xml:space="preserve">
+    <value>Publishing Quota</value>
+  </data>
+  <data name="View_lbl_Quota" xml:space="preserve">
+    <value>Quota</value>
+  </data>
+  <data name="Msg_PublishQuota_Text_Fmt" xml:space="preserve">
+    <value> {0}, up to {1} GB each, up to {2} versions of each</value>
+  </data>
+  <data name="Msg_RequiresValidEmail" xml:space="preserve">
+    <value>A valid Email address is required</value>
+  </data>
+  <data name="Msg_Signup_RequiredFields1" xml:space="preserve">
+    <value>Either your name or organization is required. A valid email address is required. You also need to accept the terms of use. Everything else is optional</value>
+  </data>
+  <data name="Msg_Signup_RequiredFields2" xml:space="preserve">
+    <value>Either your name or organization is required. A valid email address is required. Everything else is optional.</value>
+  </data>
+  <data name="View_lbl_Ok_Caps" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="View_lbl_AcceptingTOU" xml:space="preserve">
+    <value>I accept the terms of use. &lt;a target="_blank" href="{0}"&gt;View terms of use&lt;/a&gt;</value>
+  </data>
+  <data name="View_lbl_BlogURL" xml:space="preserve">
+    <value>Blog URL</value>
+  </data>
+  <data name="View_lbl_CommentBlocked" xml:space="preserve">
+    <value>Comment Blocked</value>
+  </data>
+  <data name="View_lbl_MaxImgCountQuota" xml:space="preserve">
+    <value>Quota for Max Image Count</value>
+  </data>
+  <data name="View_lbl_MaxImgSizeQuota" xml:space="preserve">
+    <value>Quota for Max Image Size, GB</value>
+  </data>
+  <data name="View_lbl_PublishBlocked" xml:space="preserve">
+    <value>Publish Blocked</value>
+  </data>
+  <data name="View_lbl_RemovePhoto" xml:space="preserve">
+    <value>Remove this photo</value>
+  </data>
+  <data name="View_lbl_UploadNewPhoto" xml:space="preserve">
+    <value>Upload new photo</value>
+  </data>
+  <data name="View_lbl_UploadPhoto" xml:space="preserve">
+    <value>Upload photo</value>
+  </data>
+  <data name="View_lbl_WebsiteURL" xml:space="preserve">
+    <value>Website URL</value>
+  </data>
+  <data name="View_ProfileCreate_ttip" xml:space="preserve">
+    <value>Create user profile</value>
+  </data>
+  <data name="View_ProfileUpdate_ttip" xml:space="preserve">
+    <value>Update user profile</value>
+  </data>
+  <data name="View_Shared_SignupPartial_DefaultUsrSettings_Text_fmt" xml:space="preserve">
+    <value>Current default user settings: max image count is {0}, max image size is {1}&lt;br /&gt;Use -1 below to reflect these defaults</value>
+  </data>
+  <data name="View_Shared_SignupPartial_ttip_AdminFlag" xml:space="preserve">
+    <value>Will the user be shown as admin to other users? This flag is updated on every user login using ACS. It is used to display, and does not give or revoke any admin rights. If you just removed someone from administrators using ACS, you may want to clear this flag, without waiting for them to log in</value>
+  </data>
+  <data name="Msg_ArgumentTooLong" xml:space="preserve">
+    <value>{0}  is too long</value>
+  </data>
+  <data name="Msg_DefaultWithText_Fmt" xml:space="preserve">
+    <value>default ({0})</value>
+  </data>
+  <data name="Msg_ImageFile_NeedSigninBeforeBlobUpload" xml:space="preserve">
+    <value>Need to verify sign-in before uploading a blob</value>
+  </data>
+  <data name="Msg_ImageFile_ShouldNot_Fmt" xml:space="preserve">
+    <value>Image should be .jpg, .jpe, .jpeg, .png or .gif, not {0}</value>
+  </data>
+  <data name="Msg_ImageFile_SizeLimit_Fmt" xml:space="preserve">
+    <value>Image file should be under{0} KB</value>
+  </data>
+  <data name="Msg_ImageFile_TypeShouldNot_Fmt" xml:space="preserve">
+    <value>Image type should be jpeg, png or gif, not {0}</value>
+  </data>
+  <data name="Msg_ImageFile_VerificationFailed" xml:space="preserve">
+    <value>Verification of icon image failed</value>
+  </data>
+  <data name="Msg_IncorrectInputData" xml:space="preserve">
+    <value>Incorrect input data</value>
+  </data>
+  <data name="Msg_IncorrectInputState" xml:space="preserve">
+    <value>Incorrect input state</value>
+  </data>
+  <data name="Msg_Notification_BlockingStatus" xml:space="preserve">
+    <value>blocking status</value>
+  </data>
+  <data name="Msg_Notification_CommentBlocked" xml:space="preserve">
+    <value>You are now blocked from commenting.</value>
+  </data>
+  <data name="Msg_Notification_CommentUnBlocked" xml:space="preserve">
+    <value>You are no longer blocked from commenting!</value>
+  </data>
+  <data name="Msg_Notification_MaxImageCountUpdated_Fmt" xml:space="preserve">
+    <value>Your max image count has been updated to: {0}</value>
+  </data>
+  <data name="Msg_Notification_MaxImageSizeUpdated_Fmt" xml:space="preserve">
+    <value>Your max image size has been updated to: {0}</value>
+  </data>
+  <data name="Msg_Notification_PublishBlocked" xml:space="preserve">
+    <value>You are now blocked from publishing.</value>
+  </data>
+  <data name="Msg_Notification_PublishUnBlocked" xml:space="preserve">
+    <value>You are no longer blocked from publishing!</value>
+  </data>
+  <data name="Msg_Notification_Quota" xml:space="preserve">
+    <value>quota</value>
+  </data>
+  <data name="Msg_Notification_StatusChange_Fmt1" xml:space="preserve">
+    <value>Your {0} was changed by a system administrator</value>
+  </data>
+  <data name="Msg_Notification_StatusChange_Fmt2" xml:space="preserve">
+    <value>Your {0} and {1} were changed by a system administrator</value>
+  </data>
+  <data name="Msg_Notification_StatusChange_Fmt3" xml:space="preserve">
+    <value>Your {0}, {1} and {2} were changed by a system administrator</value>
+  </data>
+  <data name="Msg_Notification_TrustedStatus" xml:space="preserve">
+    <value>trusted status</value>
+  </data>
+  <data name="Msg_Notification_YouAreNotTrustedUser" xml:space="preserve">
+    <value>You are no longer a trusted user.</value>
+  </data>
+  <data name="Msg_Notification_YouAreTrustedUser" xml:space="preserve">
+    <value>You are now a trusted user! Congratulations!</value>
+  </data>
+  <data name="Msg_UserEditDenied" xml:space="preserve">
+    <value>You cannot edit this user info</value>
+  </data>
+  <data name="Msg_UserUpdate_OnlyAdminOrOwner" xml:space="preserve">
+    <value>Only admins or the users themselves can edit user records</value>
+  </data>
+  <data name="View_lbl_DeployScript" xml:space="preserve">
+    <value>Deployment Script</value>
+  </data>
+  <data name="View_Shared_TACTemplate_TAC_Text2" xml:space="preserve">
+    <value>I acknowledge that I am getting this software from the publisher indicated and that the publisher’s &lt;a target="_blank" href="{0}"&gt;legal terms&lt;/a&gt;  apply to it. Microsoft does not provide rights for this software.</value>
+  </data>
+  <data name="Msg_Email_MissingRequiresSettings" xml:space="preserve">
+    <value>Missing requied settings to send mail</value>
+  </data>
+  <data name="Msg_MailHasBeenSent" xml:space="preserve">
+    <value>The mail has been sent successfully</value>
+  </data>
+  <data name="Msg_RequiresEmailSubjectText" xml:space="preserve">
+    <value>Need email, subject and text</value>
+  </data>
+  <data name="Msg_RequiresSubject" xml:space="preserve">
+    <value>Subject is required</value>
+  </data>
+  <data name="Msg_RequiresText" xml:space="preserve">
+    <value>Text is required</value>
+  </data>
+  <data name="View_Conatct_Index_lbl_EnterCharsYouSee" xml:space="preserve">
+    <value>Enter the characters you see</value>
+  </data>
+  <data name="View_Contact_Confirmation_Confirm_Header" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="View_Contact_Index_ttip_SendMail" xml:space="preserve">
+    <value>Send mail</value>
+  </data>
+  <data name="View_lbl_From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="View_lbl_Locations" xml:space="preserve">
+    <value>Locations</value>
+  </data>
+  <data name="View_lbl_Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="View_lbl_New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="View_lbl_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="View_lbl_Operation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="View_lbl_Prev" xml:space="preserve">
+    <value>Prev</value>
+  </data>
+  <data name="View_lbl_Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="View_lbl_Submit_Cap" xml:space="preserve">
+    <value>SUBMIT</value>
+  </data>
+  <data name="View_lbl_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="View_lbl_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="View_lbl_My_Vhd_Publish_Time" xml:space="preserve">
+    <value>Publish Time</value>
+  </data>
+  <data name="View_lbl_TotalMB" xml:space="preserve">
+    <value>Total MB</value>
+  </data>
+  <data name="View_lbl_YourEmail" xml:space="preserve">
+    <value>Your Email</value>
+  </data>
+  <data name="View_List_Messages_lbl_NewMessages" xml:space="preserve">
+    <value>New Messages</value>
+  </data>
+  <data name="View_List_Messages_lbl_ReadMessages" xml:space="preserve">
+    <value>Read Messages</value>
+  </data>
+  <data name="View_List_Messages_ttip_NotificationTimeUTC" xml:space="preserve">
+    <value>Notification time, UTC</value>
+  </data>
+  <data name="View_List_Messages_YourNotifications_Header" xml:space="preserve">
+    <value>Your Notifications</value>
+  </data>
+  <data name="View_List_Scheduled_lbl_ScheduledOperations" xml:space="preserve">
+    <value>Scheduled Image Operations</value>
+  </data>
+  <data name="View_List_StatusCompleted_lbl_CompletedOperations" xml:space="preserve">
+    <value>Completed Operations</value>
+  </data>
+  <data name="View_List_StatusPending_lbl_InprogressOperations" xml:space="preserve">
+    <value>Inprogress Image Operations</value>
+  </data>
+  <data name="View_List_Status_PublishStatus_Header" xml:space="preserve">
+    <value>My Image Publish Status</value>
+  </data>
+  <data name="Msg_Errors_403" xml:space="preserve">
+    <value>You're trying to access a page that you don't have permission to view.</value>
+  </data>
+  <data name="Msg_Errors_404" xml:space="preserve">
+    <value>Unfortunately, the page you've requested couldn't be found. Please verify that you have the correct address, and if so please &lt;a href="{0}"&gt;contact us&lt;/a&gt; so that we can look into the issue.</value>
+  </data>
+  <data name="Msg_Errors_EmailError" xml:space="preserve">
+    <value>Apparently, not even our email server works today. Please send us a note at
+&lt;a href="mailto:juniwang@microsoft.com"&gt;juniwang@microsoft.com&lt;/a&gt;, and we'll get this sorted out.</value>
+  </data>
+  <data name="Msg_Errors_Exception" xml:space="preserve">
+    <value>Unfortunately, we've run into a problem while trying to handle your request. If you would like to provide details of what you were trying to do, please &lt;a href="{0}"&gt;contact us&lt;/a&gt; so that we can look into the issue.</value>
+  </data>
+  <data name="Msg_Errors_Exceptions_ViewDetails" xml:space="preserve">
+    <value>View exception details</value>
+  </data>
+  <data name="View_Errors_403_Header" xml:space="preserve">
+    <value>You can't do that</value>
+  </data>
+  <data name="View_Errors_404_Header" xml:space="preserve">
+    <value>Page Not Found</value>
+  </data>
+  <data name="View_Errors_EmailError_Header" xml:space="preserve">
+    <value>We're having a very bad day</value>
+  </data>
+  <data name="View_Errors_Exception_Header" xml:space="preserve">
+    <value>Server Error</value>
+  </data>
+  <data name="View_lbl_ContactUS" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="View_lbl_DateAdded" xml:space="preserve">
+    <value>Date Added</value>
+  </data>
+  <data name="View_lbl_Featured" xml:space="preserve">
+    <value>Featured</value>
+  </data>
+  <data name="View_lbl_MSOpenTechInc" xml:space="preserve">
+    <value>&amp;copy; 2014 Microsoft Open Technologies, Inc.Beijing ICP 09042378 No. -18</value>
+  </data>
+  <data name="View_lbl_PrivacyCookies" xml:space="preserve">
+    <value>Privacy &amp; Cookies</value>
+  </data>
+  <data name="View_List_ListPartial_lbl_SortBy" xml:space="preserve">
+    <value>Sort by</value>
+  </data>
+  <data name="View_Admin_CommentReports_Header" xml:space="preserve">
+    <value>Comment Reports</value>
+  </data>
+  <data name="View_Admin_ImageFeatures_Header" xml:space="preserve">
+    <value>List of Images</value>
+  </data>
+  <data name="View_Admin_ImageFeatures_ttip_Reset" xml:space="preserve">
+    <value>Reset image feature original state</value>
+  </data>
+  <data name="View_Admin_ImageFeatures_ttip_Submit" xml:space="preserve">
+    <value>Submit changes in image feature</value>
+  </data>
+  <data name="View_Admin_ImageReports_Header" xml:space="preserve">
+    <value>Image Reports</value>
+  </data>
+  <data name="View_Admin_Log_Comment_Header" xml:space="preserve">
+    <value>Comment Log</value>
+  </data>
+  <data name="View_Admin_Log_Image_Header" xml:space="preserve">
+    <value>Image Log</value>
+  </data>
+  <data name="View_Admin_Log_Profile_Header" xml:space="preserve">
+    <value>Profile Log</value>
+  </data>
+  <data name="View_Admin_Log_Rating_Header" xml:space="preserve">
+    <value>Rating Log</value>
+  </data>
+  <data name="View_Admin_Reports_lbl_DeleteSelComment" xml:space="preserve">
+    <value>Delete selected comments</value>
+  </data>
+  <data name="View_Admin_Reports_ttip_DeleteComment" xml:space="preserve">
+    <value>Delete this comment and rating</value>
+  </data>
+  <data name="View_Admin_Reports_ttip_DeleteSelComment" xml:space="preserve">
+    <value>Delete selected comments and any associated ratings</value>
+  </data>
+  <data name="View_Admin_UserReports_Header" xml:space="preserve">
+    <value>User Reports</value>
+  </data>
+  <data name="View_Admin_Users_ttip_Blocked" xml:space="preserve">
+    <value>Is the user blocked? E.g.: Publish block or Comment block</value>
+  </data>
+  <data name="View_Admin_User_Header" xml:space="preserve">
+    <value>User Info</value>
+  </data>
+  <data name="View_Admin_Publisher_Header" xml:space="preserve">
+    <value>Publisher Info</value>
+  </data>
+  <data name="View_lbl_AvgRating" xml:space="preserve">
+    <value>Average Rating</value>
+  </data>
+  <data name="View_lbl_Blocked" xml:space="preserve">
+    <value>Blocked</value>
+  </data>
+  <data name="View_lbl_Commented" xml:space="preserve">
+    <value>Commented</value>
+  </data>
+  <data name="View_lbl_Deleted" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="View_lbl_Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="View_lbl_ImageComment" xml:space="preserve">
+    <value>Image Comment</value>
+  </data>
+  <data name="View_lbl_LastActivity" xml:space="preserve">
+    <value>Last activity</value>
+  </data>
+  <data name="View_lbl_MaxGB" xml:space="preserve">
+    <value>Max GB</value>
+  </data>
+  <data name="View_lbl_MaxImages" xml:space="preserve">
+    <value>Max Images</value>
+  </data>
+  <data name="View_lbl_NoneFound" xml:space="preserve">
+    <value>None Found</value>
+  </data>
+  <data name="View_lbl_ReportComment" xml:space="preserve">
+    <value>Report Comment</value>
+  </data>
+  <data name="View_lbl_ReportedBy" xml:space="preserve">
+    <value>ReportedBy</value>
+  </data>
+  <data name="View_lbl_Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="View_lbl_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="View_lbl_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="View_lbl_Trusted" xml:space="preserve">
+    <value>Trusted</value>
+  </data>
+  <data name="View_lbl_User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Msg_ManageFeaturedImg" xml:space="preserve">
+    <value>Manage Image Feature</value>
+  </data>
+  <data name="Msg_ShouldbeAdmin" xml:space="preserve">
+    <value>You need to be administrator to access this page.</value>
+  </data>
+  <data name="View_lbl_PublishStatus" xml:space="preserve">
+    <value>Publish Status</value>
+  </data>
+  <data name="View_Admin_Entites_ListOf_Fmt" xml:space="preserve">
+    <value>List of {0}</value>
+  </data>
+  <data name="View_Admin_Entities_ttip_Reset" xml:space="preserve">
+    <value>Reset approvals and rejections to original state</value>
+  </data>
+  <data name="View_Admin_Entities_ttip_Submit" xml:space="preserve">
+    <value>Submit changes in approvals or rejections</value>
+  </data>
+  <data name="View_lbl_ActionDate" xml:space="preserve">
+    <value>Action Date</value>
+  </data>
+  <data name="View_lbl_Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="View_lbl_Count" xml:space="preserve">
+    <value>count</value>
+  </data>
+  <data name="View_lbl_Images" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="View_lbl_Platforms" xml:space="preserve">
+    <value>Platforms</value>
+  </data>
+  <data name="View_lbl_Rejected" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="View_lbl_DeleteVhdVersion" xml:space="preserve">
+    <value>DeleteVersion</value>
+  </data>
+  <data name="View_lbl_RequestDate" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="View_lbl_Term" xml:space="preserve">
+    <value>Term</value>
+  </data>
+  <data name="View_lbl_AccountDetails" xml:space="preserve">
+    <value>Account Details</value>
+  </data>
+  <data name="View_lbl_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="View_lbl_BrowseImages" xml:space="preserve">
+    <value>Browse Images</value>
+  </data>
+  <data name="View_lbl_Delete_Caps" xml:space="preserve">
+    <value>DELETE</value>
+  </data>
+  <data name="View_lbl_Edit_Caps" xml:space="preserve">
+    <value>EDIT</value>
+  </data>
+  <data name="View_lbl_Forums" xml:space="preserve">
+    <value>Forums</value>
+  </data>
+  <data name="View_lbl_Glance" xml:space="preserve">
+    <value>At a Glance</value>
+  </data>
+  <data name="View_lbl_Help_Caps" xml:space="preserve">
+    <value>HELP</value>
+  </data>
+  <data name="View_lbl_LearnMore" xml:space="preserve">
+    <value>Learn More</value>
+  </data>
+  <data name="View_lbl_LocationID" xml:space="preserve">
+    <value>LocationID</value>
+  </data>
+  <data name="View_lbl_Manage" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="View_lbl_MyAccount" xml:space="preserve">
+    <value>My Account</value>
+  </data>
+  <data name="View_lbl_MyImages" xml:space="preserve">
+    <value>My Images</value>
+  </data>
+  <data name="View_lbl_MyReviews" xml:space="preserve">
+    <value>My Reviews</value>
+  </data>
+  <data name="View_lbl_Notifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="View_lbl_Notification_Caps" xml:space="preserve">
+    <value>NOTIFICATIONS</value>
+  </data>
+  <data name="View_lbl_Share_Caps" xml:space="preserve">
+    <value>SHARE</value>
+  </data>
+  <data name="View_lbl_SignInJoinCommunity" xml:space="preserve">
+    <value>&lt;a href="{0}"&gt;&lt;b&gt;Sign in&lt;/b&gt;&lt;/a&gt; and join the community</value>
+  </data>
+  <data name="View_lbl_SignOut" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+  <data name="View_lbl_UpdatedTime" xml:space="preserve">
+    <value>Updated Time</value>
+  </data>
+  <data name="View_lbl_Upgrade_Caps" xml:space="preserve">
+    <value>PUBLISH UPGRADE</value>
+  </data>
+  <data name="View_lbl_Users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="View_lbl_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="View_lbl_VhdSize" xml:space="preserve">
+    <value>Vhd Size</value>
+  </data>
+  <data name="View_lbl_View_Caps" xml:space="preserve">
+    <value>VIEW</value>
+  </data>
+  <data name="View_lb_DeployScript_Caps" xml:space="preserve">
+    <value>DEPLOYMENT SCRIPT</value>
+  </data>
+  <data name="View_lb_Publish_Caps" xml:space="preserve">
+    <value>PUBLISH</value>
+  </data>
+  <data name="View_Shared_ImageLogPartial_Header" xml:space="preserve">
+    <value>Version Log</value>
+  </data>
+  <data name="View_Sign_Login_Header" xml:space="preserve">
+    <value>Sign in using:</value>
+  </data>
+  <data name="View_lbl_LinkedIn" xml:space="preserve">
+    <value>LinkedIn</value>
+  </data>
+  <data name="View_lbl_ShareOn" xml:space="preserve">
+    <value>Share On:</value>
+  </data>
+  <data name="View_Shared_Master_ShareImage" xml:space="preserve">
+    <value>I found this interesting image for Azure on {0}</value>
+  </data>
+  <data name="View_Shared_Master_ShareImages" xml:space="preserve">
+    <value>I found these interesting image for Azure on {0}</value>
+  </data>
+  <data name="View_Shared_RatingPartial_ttip_NoRating" xml:space="preserve">
+    <value>no rating</value>
+  </data>
+  <data name="View_lbl_AllRegions" xml:space="preserve">
+    <value>All regions</value>
+  </data>
+  <data name="View_ttip_ClearSearch" xml:space="preserve">
+    <value>Clear search</value>
+  </data>
+  <data name="View_ttip_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Msg_Logout_SigningOut" xml:space="preserve">
+    <value>Signing out</value>
+  </data>
+  <data name="View_StatusPending_CancelOnLocation_ttip" xml:space="preserve">
+    <value>Cancel copying to {0} location</value>
+  </data>
+  <data name="View_lbl_NotClearNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Msg_Invalid_Captacha" xml:space="preserve">
+    <value>Captcha is not valid</value>
+  </data>
+  <data name="RSS_Description" xml:space="preserve">
+    <value>Using VM Depot and Azure, Developers can create and share images of Linux-based virtual machines. VM Depot is brought to you by Microsoft Open Technologies, Inc., a subsidiary of Microsoft Corporation.</value>
+  </data>
+  <data name="Current_Culture_Code" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="View_lbl_Copy" xml:space="preserve">
+    <value>Copy </value>
+  </data>
+  <data name="View_lbl_CancelCopy" xml:space="preserve">
+    <value>Cancel Copy</value>
+  </data>
+  <data name="View_lbl_UpdateLocations" xml:space="preserve">
+    <value>Update Locations</value>
+  </data>
+  <data name="View_lbl_CopystateAborted" xml:space="preserve">
+    <value>Aborted</value>
+  </data>
+  <data name="View_lbl_CopyStateFailed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="View_lbl_CopystateInvalid" xml:space="preserve">
+    <value>Invalid</value>
+  </data>
+  <data name="View_lbl_CopyStatePending" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="View_lbl_CopyStateSuccess" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="Msg_ImgPublish_Platform_Criteria" xml:space="preserve">
+    <value>Platform name should not exceed 50 characters and it should not include comma</value>
+  </data>
+  <data name="Msg_Errors_Exceptions_HideDetails" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="Msg_SignIn_OrgID_Message" xml:space="preserve">
+    <value>To SignIn, You must have an organization ID [e.g. someone@example.partner.onmschina.cn] assigned by your organization's Azure Active Directory (AD). If you do not have one, you can sign up.</value>
+  </data>
+  <data name="Share_Images_Text" xml:space="preserve">
+    <value>I found these interesting images for Azure on VM Depot </value>
+  </data>
+  <data name="Share_Image_Text" xml:space="preserve">
+    <value>I found this interesting image for Azure on VM Dpeot </value>
+  </data>
+  <data name="View_lbl_HelpSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="View_lbl_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="View_lbl_OperationID" xml:space="preserve">
+    <value>Operation ID</value>
+  </data>
+  <data name="View_lbl_VMDeployStatus" xml:space="preserve">
+    <value>VM Deploy Status</value>
+  </data>
+  <data name="Msg_ImgPublish_Description_Required" xml:space="preserve">
+    <value>Image description is required</value>
+  </data>
+  <data name="View_lbl_AllCurrentandFutureRegions" xml:space="preserve">
+    <value>All current and future regions</value>
+  </data>
+  <data name="View_lbl_AllCurrentRegions" xml:space="preserve">
+    <value>All current regions</value>
+  </data>
+  <data name="View_lbl_AllFutureRegions" xml:space="preserve">
+    <value>All future regions</value>
+  </data>
+  <data name="View_lbl_FutureRegions" xml:space="preserve">
+    <value>; future regions</value>
+  </data>
+  <data name="View_lbl_ProcessingWaitSpin" xml:space="preserve">
+    <value>Processing your request, please wait...</value>
+  </data>
+  <data name="View_lbl_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="View_lbl_AvailableInFutureRegions" xml:space="preserve">
+    <value>Available in future regions</value>
+  </data>
+  <data name="Msg_InvalidEmailAddress" xml:space="preserve">
+    <value>In valid email address</value>
+  </data>
+  <data name="Msg_InvalidPhone" xml:space="preserve">
+    <value>In valid phone</value>
+  </data>
+  <data name="Msg_InvalidLegalTermsdUrl" xml:space="preserve">
+    <value>Legal terms URL should be a valid url with maximum length {0}.</value>
+  </data>
+  <data name="Msg_InvalidPlatformNameLength" xml:space="preserve">
+    <value>Platform is limited to {0} characters</value>
+  </data>
+  <data name="Msg_InvalidVhdUrl" xml:space="preserve">
+    <value>Invalid VHD file URL</value>
+  </data>
+  <data name="Msg_OrganizationNameMaxLength" xml:space="preserve">
+    <value>Organization name is limited to {0} characters.</value>
+  </data>
+  <data name="Msg_TermsandConditionAccept" xml:space="preserve">
+    <value>Accepting Terms and conditions is required for publishing and upgrading</value>
+  </data>
+  <data name="Msg_UserNameMaxLength" xml:space="preserve">
+    <value>Name is limited to {0} characters.</value>
+  </data>
+  <data name="Msg_VhdUrlMaxLength" xml:space="preserve">
+    <value>VHD file URL is limited to {0} characters.</value>
+  </data>
+  <data name="View_lbl_CreateVM_ToolTip" xml:space="preserve">
+    <value>Create an Azure VM based on </value>
+  </data>
+  <data name="Msg_404Error" xml:space="preserve">
+    <value>404 This is not the web page you are looking for.</value>
+  </data>
+  <data name="Msg_AzureProfileSessionExpired" xml:space="preserve">
+    <value>The server session for your Azure profile expired, please &lt;a href="{2}?vhdId={0}&amp;version={1}"&gt; retry &lt;/a&gt;</value>
+  </data>
+  <data name="Msg_AzureSubscriptionNull" xml:space="preserve">
+    <value>'Azure Subscription'</value>
+  </data>
+  <data name="Msg_CloudServiceNameValidate" xml:space="preserve">
+    <value>&lt;font color=\"red\"&gt;The DNS name is required and can contain only letters, numbers and hyphens. &lt;br/&gt; It must start and end with a letter or a number. &lt;br/&gt; It must contain between 3 and 63 characters. &lt;/font&gt;</value>
+  </data>
+  <data name="Msg_FailedSubscriptionRetrieval" xml:space="preserve">
+    <value>We failed to retrieve any of your subscription</value>
+  </data>
+  <data name="Msg_ImgIdNull" xml:space="preserve">
+    <value>'ImageID'</value>
+  </data>
+  <data name="Msg_ImgNotAvailable" xml:space="preserve">
+    <value>Image is not available</value>
+  </data>
+  <data name="Msg_ImgVersionIdNull" xml:space="preserve">
+    <value>'ImageVersionID'</value>
+  </data>
+  <data name="Msg_NoRegionFoundForSubscription1" xml:space="preserve">
+    <value>No region found under the received 'Azure Subscription'</value>
+  </data>
+  <data name="Msg_NoRegionFoundForSubscription2" xml:space="preserve">
+    <value>The region {0} not found under the received 'Azure Subscription</value>
+  </data>
+  <data name="Msg_NoSubscriptions" xml:space="preserve">
+    <value>There is no Azure subscriptions avilable in your Azure profile. Set a different profile &lt;a href="{2}?vhdId={0}&amp;version={1}&amp;removeKey=true"&gt; OK &lt;/a&gt;</value>
+  </data>
+  <data name="Msg_NoSubscriptionsForImage" xml:space="preserve">
+    <value>We are sorry, there is no subscription in your azure profile which supports the regions in which this image is avialable. Try a some other image. To set different profile click &lt;a href="{2}?vhdId={0}&amp;version={1}&amp;removeKey=true"&gt; here &lt;/a&gt;</value>
+  </data>
+  <data name="Msg_PasswordMismatch" xml:space="preserve">
+    <value>&lt;font color=\"red\"&gt; The passwords that you entered do not match. &lt;/font&gt;</value>
+  </data>
+  <data name="Msg_PasswordValidate" xml:space="preserve">
+    <value>&lt;font color=\"red\"&gt; The password is required and must conform to 5 of the following:  &lt;br/&gt; a lowercase character &lt;br/&gt; an uppercase character &lt;br/&gt; a number &lt;br/&gt; a special character &lt;br/&gt; minimum length should be 8 &lt;/font&gt;</value>
+  </data>
+  <data name="Msg_RegionNull" xml:space="preserve">
+    <value>'Region'</value>
+  </data>
+  <data name="Msg_SetValidPublishProfile1" xml:space="preserve">
+    <value>Please set a valid publish profile file</value>
+  </data>
+  <data name="Msg_SetValidPublishProfile2" xml:space="preserve">
+    <value>Please set a valid publish profile file. Failed to parse the current profile</value>
+  </data>
+  <data name="Msg_StorageAccountNameValidate" xml:space="preserve">
+    <value>&lt;font color=\"red\"&gt;The storage account should be between 3 and 24 characters long. &lt;br/&gt; It must contain only lowercase letters and numbers&lt;/font&gt;</value>
+  </data>
+  <data name="Msg_StorageAccountNull" xml:space="preserve">
+    <value>'Storage Account'</value>
+  </data>
+  <data name="Msg_UserNameValidate" xml:space="preserve">
+    <value>&lt;font color=\"red\"&gt;The user name is required and must contain between 3 and 20 characters. &lt;/font&gt;</value>
+  </data>
+  <data name="Msg_VMNameValidate" xml:space="preserve">
+    <value>&lt;font color=\"red\"&gt;The VM name is required and can contain only letters, numbers and hyphens. &lt;br/&gt; It must start and end with a letter or a number. &lt;br/&gt; It must contain between 3 and 15 characters. &lt;/font&gt;</value>
+  </data>
+  <data name="Msg_VmSizeNotAvailableForSubscription" xml:space="preserve">
+    <value>The VM Size {0} is not available in region {1} under the received 'Azure Subscription'</value>
+  </data>
+  <data name="Msg_VMSizeNull" xml:space="preserve">
+    <value>'VM Size'</value>
+  </data>
+  <data name="Msg__AzureProfileAuthFailed" xml:space="preserve">
+    <value>We have been unable to authenticate using the Azure subscription profile you have provided. This might be due to deletion of corresponding management certificate in Azure portal. Please obtain a new &lt;a target="_blank" href="http://go.microsoft.com/fwlink/?LinkId=254432"&gt;Azure publish profile&lt;/a&gt; and update your &lt;a href="{2}?vhdId={0}&amp;version={1}&amp;removeKey=true"&gt;VM Depot configuration&lt;/a&gt;.</value>
+  </data>
+  <data name="View_Launch_DeployVM_Title" xml:space="preserve">
+    <value>Deploy VM - VM configuration</value>
+  </data>
+  <data name="Msg_InvalidAzureProfile" xml:space="preserve">
+    <value>&lt;br/&gt;&lt;br&gt;Your azure profile is invalid, this might be due to deletion of corrosponding management certificate in Azure portal. Please get new Azure publish profile and &lt;a href="~/VM/Launch?vhdId={0}&amp;version={1}&amp;removeKey=true"&gt; retry &lt;/a&gt;</value>
+  </data>
+  <data name="View_Launch_lbl_VMDeployWait" xml:space="preserve">
+    <value>Scheduling VM deployment, please wait...</value>
+  </data>
+  <data name="View_Launch_Show_lbl_AzureSubscription" xml:space="preserve">
+    <value>Azure Subscription</value>
+  </data>
+  <data name="View_Launch_Show_lbl_ConfigEndpointsTooltip" xml:space="preserve">
+    <value>You can configure, add, or remove the endpoints that other resources can use to communicate with your virtual machine.</value>
+  </data>
+  <data name="View_Launch_Show_lbl_ImgLicenseText" xml:space="preserve">
+    <value>This image is provided and licensed to you by community members. Microsoft Open Technologies, Inc., does not screen these images for security, compatibility or performance, and does not provide any license rights or support for them. By using unsupported images, you might forfeit Azure availability SLA.</value>
+  </data>
+  <data name="View_Launch_Show_lbl_Region" xml:space="preserve">
+    <value>Region/Virtual Network</value>
+  </data>
+  <data name="View_Launch_Show_lbl_StorageAccount" xml:space="preserve">
+    <value>Storage Account</value>
+  </data>
+  <data name="View_Launch_Show_lbl_UpdateCurrAzureSubscription_Tooltip" xml:space="preserve">
+    <value>Update current Azure subscription(s) in your browser local store.</value>
+  </data>
+  <data name="View_lbl_AdvancedText" xml:space="preserve">
+    <value>ADVANCED</value>
+  </data>
+  <data name="View_lbl_ChooseVMSizesTooltip" xml:space="preserve">
+    <value>The virtual machine size, choose a size based on the compute resources needed to run applications and workloads.</value>
+  </data>
+  <data name="View_lbl_DNSName" xml:space="preserve">
+    <value>DNS name</value>
+  </data>
+  <data name="View_lbl_UserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="View_lbl_VMName" xml:space="preserve">
+    <value>VM Name</value>
+  </data>
+  <data name="View_lbl_VmNameTooltip" xml:space="preserve">
+    <value>The virtual machine name, consider giving a name that describes what it will be used for, but short enough to be easy to use.</value>
+  </data>
+  <data name="View_lbl_VMSize" xml:space="preserve">
+    <value>VM Size</value>
+  </data>
+  <data name="View_DeployResult_lbl_DeployVMRequestStatus" xml:space="preserve">
+    <value>You can close this page and later view the current status on the &lt;a href="{0}"&gt;VM Deploy Status&lt;/a&gt; page at any time.</value>
+  </data>
+  <data name="View_DeployResult_lbl_DeployVMRequestStatusOnEmail1" xml:space="preserve">
+    <value>Your request to deploy Azure Virtual Machine has been scheduled, you will be notified &lt;text&gt; by email to &lt;/text&gt; &lt;b&gt;&lt;i&gt;{0}&lt;/i&gt;&lt;/b&gt; once your virtual machine is ready to use (usually within around 15-25 minutes). You can view the current status below. &lt;br /&gt;</value>
+  </data>
+  <data name="View_DeployResult_lbl_DeployVMRequestStatusOnEmail2" xml:space="preserve">
+    <value>Your request to deploy Azure Virtual Machine has been scheduled, you will be notified &lt;text&gt;through email&lt;/text&gt; once your virtual machine is ready to use (usually within around 15-25 minutes). You can view the current status below. &lt;br /&gt;</value>
+  </data>
+  <data name="View_DeployResult_lbl_Title" xml:space="preserve">
+    <value>Deploy VM - VM deployment status</value>
+  </data>
+  <data name="View_lbl_CheckDnsAvailability" xml:space="preserve">
+    <value>Checking for DNS name availability...</value>
+  </data>
+  <data name="View_lbl_CheckEndpointAvailability" xml:space="preserve">
+    <value>Checking for endpoints availability...</value>
+  </data>
+  <data name="View_lbl_CloudServiceCheckAvailableFailed" xml:space="preserve">
+    <value>Request to check the cloud service availability failed, please &lt;a id="RetryCheckCloudServiceAvailability" href="#"&gt;retry&lt;/a&gt;</value>
+  </data>
+  <data name="View_lbl_EndpointCheckAvailableFailed" xml:space="preserve">
+    <value>Request to check endpoints availability failed, please &lt;a id="RetryCheckEndpointAvailability" href="#"&gt;retry&lt;/a&gt;</value>
+  </data>
+  <data name="View_lbl_PublicEndpoint" xml:space="preserve">
+    <value>Public port: </value>
+  </data>
+  <data name="View_lbl_EndpointOccupied" xml:space="preserve">
+    <value> is occupied, please change the mapping port. </value>
+  </data>
+  <data name="View_lbl_DnsAvailable" xml:space="preserve">
+    <value>This DNS name is available. </value>
+  </data>
+  <data name="View_lbl_DnsNotAvailable" xml:space="preserve">
+    <value>This DNS name is not available. </value>
+  </data>
+  <data name="View_VM_StorageAccountPickerPartial_Lbl_CreateNewCloudService" xml:space="preserve">
+    <value>Create new Cloud Service</value>
+  </data>
+  <data name="View_VM_StorageAccountPickerPartial_Lbl_UseExistedCloudService" xml:space="preserve">
+    <value>Use Existed Cloud Service</value>
+  </data>
+  <data name="View_lbl_CloudServicePortsOccupied" xml:space="preserve">
+    <value>Some public ports of this cloud service are occupied: </value>
+  </data>
+  <data name="View_lbl_CloudServicePortsOccupiedReminder" xml:space="preserve">
+    <value>Please don't use above occupied public ports(e.g. map to other public ports if ports for remote control are occupied), otherwise the deployment might fail. </value>
+  </data>
+  <data name="View_lbl_VMDNSNameTooltip" xml:space="preserve">
+    <value>The DNS name for the virtual machine, this is the name people use to find your website or you use to connect to your virtual machine.</value>
+  </data>
+  <data name="View_VM_DeployResult_RequestId_Lbl" xml:space="preserve">
+    <value>Your request ID is: {0} Please include this in any support requests regarding this deployment.</value>
+  </data>
+  <data name="Msg_ReservedUserNamesNotAllowed" xml:space="preserve">
+    <value>The user names '{0} ' are not allowed.</value>
+  </data>
+  <data name="View_lbl_ConfirmPassword" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="View_lbl_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="View_VM_RegionPickerPartial_FetchStorageAccountFailedMsg" xml:space="preserve">
+    <value>Request to fetch storage accounts for the current region failed, please &lt;a id="RetryGetStorageAccountNames" href="#"&gt;retry&lt;/a&gt;</value>
+  </data>
+  <data name="View_VM_RegionPickerPartial_RegionSelectTitle" xml:space="preserve">
+    <value>The Azure data center region in which the virtual machine will be created.</value>
+  </data>
+  <data name="View_VM_StatusCompletedPartial_Lbl_CloudServiceName" xml:space="preserve">
+    <value>Cloud Service (VM Name)</value>
+  </data>
+  <data name="View_VM_StatusCompletedPartial_Lbl_Failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="View_VM_StatusCompletedPartial_Lbl_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="View_VM_StatusCompletedPartial_Lbl_ImageDetailUrl" xml:space="preserve">
+    <value>Image Detail Url</value>
+  </data>
+  <data name="View_VM_StatusCompletedPartial_Lbl_StatusMsg" xml:space="preserve">
+    <value>Status Message</value>
+  </data>
+  <data name="View_VM_StatusCompletedPartial_Lbl_Succeeded" xml:space="preserve">
+    <value>Succeeded</value>
+  </data>
+  <data name="View_VM_StatusCompletedPartial_Lbl_Time" xml:space="preserve">
+    <value>Deployment Time</value>
+  </data>
+  <data name="View_VM_StatusCompletedPartial_Lbl_Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="View_VM_StatusCompletedPartial_Msg_VMReady" xml:space="preserve">
+    <value>VM based on {0} is ready:</value>
+  </data>
+  <data name="View_VM_StatusCompletedPartial_Title" xml:space="preserve">
+    <value>Completed VM Operations</value>
+  </data>
+  <data name="View_VM_Status_Title" xml:space="preserve">
+    <value>My VM Deploy Request Status</value>
+  </data>
+  <data name="View_VM_StorageAccountPickerPartial_Lbl_CreateNewStorageAcc" xml:space="preserve">
+    <value>Create new Storage Account</value>
+  </data>
+  <data name="View_VM_StorageAccountPickerPartial_Lbl_CurrStorageAcc" xml:space="preserve">
+    <value>Current Storage Accounts</value>
+  </data>
+  <data name="View_VM_StorageAccountPickerPartial_Lbl_NoStorageAccExists" xml:space="preserve">
+    <value>No storage account exists</value>
+  </data>
+  <data name="View_VM_StorageAccountPickerPartial_Lbl_SelStorageAcc" xml:space="preserve">
+    <value>The storage account that will be used to store the disk associated with the Virtual machine.</value>
+  </data>
+  <data name="View_VM_SusbsriptionPickerPartial_Lbl_SelAzureSubsriptionTitle" xml:space="preserve">
+    <value>The Azure subscription in which the virtual machine will be created.</value>
+  </data>
+  <data name="View_VM_SusbsriptionPickerPartial_Msg_RegionFetchingFailed" xml:space="preserve">
+    <value>&lt;font color="red"&gt; Request to fetch the regions for the current subscription failed, please &lt;a id="{0}" href="#"&gt;retry&lt;/a&gt; &lt;/font&gt;</value>
+  </data>
+  <data name="View_VM_SusbsriptionPickerPartial_Msg_CloudServiceFetchingFailed" xml:space="preserve">
+    <value>&lt;font color="red"&gt; Request to fetch the cloud services for the current subscription failed, please &lt;a id="{0}" href="#"&gt;retry&lt;/a&gt; &lt;/font&gt;</value>
+  </data>
+  <data name="Msg_Error" xml:space="preserve">
+    <value>There was an error processing your request.</value>
+  </data>
+  <data name="View_Lbl_AdminText" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="View_Lbl_NoText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="View_lbl_View_TitleCase" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="View_ProfileLogPartial_Lbl_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="View_ProfileLogPartial_Lbl_Flags" xml:space="preserve">
+    <value>Flags</value>
+  </data>
+  <data name="View_ProfileLogPartial_Lbl_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="View_ProfileLogPartial_Lbl_Organization" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="View_ProfileLogPartial_Lbl_UpdatedTime" xml:space="preserve">
+    <value>Updated Time</value>
+  </data>
+  <data name="View_ProfileLogPartial_Lbl_Urls" xml:space="preserve">
+    <value>Urls</value>
+  </data>
+  <data name="View_ProfileLogPartial_Lbl_VhdLimit" xml:space="preserve">
+    <value>Vhd Limit</value>
+  </data>
+  <data name="View_Lbl_CommentText" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="View_Lbl_PublishText" xml:space="preserve">
+    <value>Publish</value>
+  </data>
+  <data name="Lbl_RegionChinaEast" xml:space="preserve">
+    <value>China East</value>
+  </data>
+  <data name="Lbl_RegionChinaNorth" xml:space="preserve">
+    <value>China North</value>
+  </data>
+  <data name="Lbl_lbl_SelectVirtualNetwork" xml:space="preserve">
+    <value>Select Virtual Network</value>
+  </data>
+  <data name="Lbl_lbl_SelectSubnet" xml:space="preserve">
+    <value>Select Subnet</value>
+  </data>
+  <data name="View_DeployResult_lbl_Confirmation" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="View_lbl_Photo" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="View_lbl_DeleteThisVersion" xml:space="preserve">
+    <value>Delete this version</value>
+  </data>
+  <data name="View_lbl_QQ" xml:space="preserve">
+    <value>QQ</value>
+  </data>
+  <data name="View_lbl_WeChat" xml:space="preserve">
+    <value>WeChat</value>
+  </data>
+  <data name="View_lbl_Weibo" xml:space="preserve">
+    <value>Weibo</value>
+  </data>
+  <data name="View_Master_ISV_Registration" xml:space="preserve">
+    <value>ISV Registration</value>
+  </data>
+  <data name="View_lbl_Free" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="View_lbl_Preferential_Price" xml:space="preserve">
+    <value>Preferential Price:</value>
+  </data>
+  <data name="View_lbl_SKU" xml:space="preserve">
+    <value>SKU</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_Deployment" xml:space="preserve">
+    <value>Deployment </value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_RecommendedInstanceType" xml:space="preserve">
+    <value>recommended Instance Type</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_Scope" xml:space="preserve">
+    <value>Scope</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_Source" xml:space="preserve">
+    <value>Source Website</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_ServiceHours" xml:space="preserve">
+    <value>Service Hours</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_ServiceProviderName" xml:space="preserve">
+    <value>Service Provider Name</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_shortDesc" xml:space="preserve">
+    <value>Image short description</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_Telephone" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_VirtualMachineCount" xml:space="preserve">
+    <value>Virtual machine count</value>
+  </data>
+  <data name="View_ISV_ApplyAzureAccount" xml:space="preserve">
+    <value>Create Azure Account</value>
+  </data>
+  <data name="View_lbl_MyImage_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="View_lbl_MyImage_Update" xml:space="preserve">
+    <value>Upgrade Vhd version</value>
+  </data>
+  <data name="View_lbl_Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="View_lbl_OperatingSystem" xml:space="preserve">
+    <value>Operating System</value>
+  </data>
+  <data name="View_lbl_Faild" xml:space="preserve">
+    <value>Faild</value>
+  </data>
+  <data name="View_lbl_Pending" xml:space="preserve">
+    <value>Inprogress</value>
+  </data>
+  <data name="View_lbl_Succeed" xml:space="preserve">
+    <value>Succeed</value>
+  </data>
+  <data name="Msg_SignIn_SignupButton" xml:space="preserve">
+    <value>Sign up now</value>
+  </data>
+  <data name="Msg_SignIn_OrgID" xml:space="preserve">
+    <value>Sign in with Azure Active Directory Organization ID</value>
+  </data>
+  <data name="View_ISV_Not_Found" xml:space="preserve">
+    <value>ISV not found</value>
+  </data>
+  <data name="View_VM_StatusCompletedPartial_Lbl_Property" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="View_lbl_Header_Portal" xml:space="preserve">
+    <value>Azure</value>
+  </data>
+  <data name="View_lbl_Header_Image" xml:space="preserve">
+    <value>Azure Marketplace</value>
+  </data>
+  <data name="View_APP_Name" xml:space="preserve">
+    <value>Image Marketplace</value>
+  </data>
+  <data name="View_lbl_Documentation_Publisher_Guide" xml:space="preserve">
+    <value>Publisher Guide</value>
+  </data>
+  <data name="View_lbl_ISV" xml:space="preserve">
+    <value>ISV</value>
+  </data>
+  <data name="View_lbl_Status_Info" xml:space="preserve">
+    <value>Status Info</value>
+  </data>
+  <data name="View_Vhd_Index_Current_SourceBlobUrl" xml:space="preserve">
+    <value>Current VHD Blob Url</value>
+  </data>
+  <data name="View_VM_StatusPendingPartial_Title" xml:space="preserve">
+    <value>Deploying virtual machines</value>
+  </data>
+  <data name="View_VM_StatusPendingPartial_Deploying" xml:space="preserve">
+    <value>Deploying</value>
+  </data>
+  <data name="View_Shared_AzureTip" xml:space="preserve">
+    <value>Tip:</value>
+  </data>
+  <data name="View_Shared_ARM_Text" xml:space="preserve">
+    <value> ARM Template</value>
+  </data>
+  <data name="View_Shared_ARM_Text_Long" xml:space="preserve">
+    <value> Azure Resource Manager Template</value>
+  </data>
+  <data name="View_Vhd_Index_PublishARM_Text" xml:space="preserve">
+    <value>Publish Azure Resource Manager Template</value>
+  </data>
+  <data name="View_lbl_View_Image_Log" xml:space="preserve">
+    <value>View Activity Log</value>
+  </data>
+  <data name="View_lbl_View_UserProfile_Log" xml:space="preserve">
+    <value>View user profile log</value>
+  </data>
+  <data name="View_VHD_Need_ISV" xml:space="preserve">
+    <value>You cannot publish image.</value>
+  </data>
+  <data name="View_lbl_Deploy" xml:space="preserve">
+    <value>Create Virtual Machine</value>
+  </data>
+  <data name="View_lbl_CreateARM_ToolTip" xml:space="preserve">
+    <value>CreateARM, based on</value>
+  </data>
+  <data name="View_Vhd_Index_Arm_Upgrade_Text" xml:space="preserve">
+    <value>Publish Upgrade Azure Resource Manager Template</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_Arm_UpgradeUrl" xml:space="preserve">
+    <value>URL of the ARM Template file to publish an upgrade</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_Arm_VerDesc" xml:space="preserve">
+    <value>ARM Template version description</value>
+  </data>
+  <data name="View_lbl_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="View_Admin_Email_Header" xml:space="preserve">
+    <value>Email List</value>
+  </data>
+  <data name="View_lbl_Required_Field" xml:space="preserve">
+    <value>Contain &lt;font color="red"&gt;*&lt;/font&gt; items must be filled, thank for your cooperation</value>
+  </data>
+  <data name="View_lbl_ISV_List" xml:space="preserve">
+    <value>ISV list</value>
+  </data>
+  <data name="Msg_ImageFile_SizeVerificationFailed" xml:space="preserve">
+    <value>Image size is not 1: 1</value>
+  </data>
+  <data name="View_lbl_Cloud_Server_Price" xml:space="preserve">
+    <value>Price of Cloud Server:</value>
+  </data>
+  <data name="View_lbl_View_Fee" xml:space="preserve">
+    <value>View price</value>
+  </data>
+  <data name="View_ARMLaunch_DeployVM_Title" xml:space="preserve">
+    <value>Azure Deploy - ARM configuration</value>
+  </data>
+  <data name="View_ARMTrialLaunch_DeployVM_Title" xml:space="preserve">
+    <value>Azure Deploy - ARM configuration</value>
+  </data>
+  <data name="View_lbl_Apply_For_Trial" xml:space="preserve">
+    <value>Apply for trial</value>
+  </data>
+  <data name="View_Shared_Trail" xml:space="preserve">
+    <value>Solution</value>
+  </data>
+  <data name="View_VM_StatusCompletedPartial_Lbl_Exception" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="View_VM_StatusCompletedPartial_Lbl_ExceptionDetails" xml:space="preserve">
+    <value>Exception Detail</value>
+  </data>
+  <data name="View_Shared_OrgId" xml:space="preserve">
+    <value>OrgID</value>
+  </data>
+  <data name="View_lbl_ISV_Name" xml:space="preserve">
+    <value>ISV Name</value>
+  </data>
+  <data name="View_Shared_Third_party" xml:space="preserve">
+    <value>I am sure you are using  &lt;a target="_blank" href="{0}"&gt;third-party products in the relevant provisions of the Azure &lt;/a&gt;.</value>
+  </data>
+  <data name="Msg_ImgPChina_Publish_Agreement" xml:space="preserve">
+    <value>Accepting Azure PChina Mirror Market Publisher Agreement is required</value>
+  </data>
+  <data name="View_Shared_Publish_Agreement" xml:space="preserve">
+    <value>I agree to the &lt;a target="_blank" href="{0}"&gt;Azure PChina Mirror Market Publisher Agreement&lt;/a&gt;.</value>
+  </data>
+  <data name="Msg_Shared_Accept_All" xml:space="preserve">
+    <value>You must accept the Azure Marketplace ISV policy and third-party user agreement.</value>
+  </data>
+  <data name="Msg_InvalidImageVersionDescMinLength" xml:space="preserve">
+    <value>The version description must contain at least 10 charactors.</value>
+  </data>
+  <data name="View_Shared_Not_Available" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="Msg_ImgPublish_Source_Url_Invalid" xml:space="preserve">
+    <value>The source url is not a valid url.</value>
+  </data>
+  <data name="Msg_SignIn_OrgID_Again" xml:space="preserve">
+    <value>SignIn Again</value>
+  </data>
+  <data name="View_Sign_ReLogin_Header" xml:space="preserve">
+    <value>Signin again using:</value>
+  </data>
+  <data name="Msg_Required" xml:space="preserve">
+    <value>The {0} field is required.</value>
+  </data>
+  <data name="View_lbl_PublisherLicenseAgreement" xml:space="preserve">
+    <value>Publisher license agreement</value>
+  </data>
+  <data name="View_lbl_FeedbackContent" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="View_lbl_FeedbackType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Validate_EmailAddress" xml:space="preserve">
+    <value>The {0} field is not a valid e-mail address.</value>
+  </data>
+  <data name="Validate_MaxLength" xml:space="preserve">
+    <value>The field {0} must be a string with a maximum length of {1}.</value>
+  </data>
+  <data name="Validate_StringLength" xml:space="preserve">
+    <value>The field {0} must be a string with a minimum length of {2} and a maximum length of {1}.</value>
+  </data>
+  <data name="View_Admin_Feedback_Header" xml:space="preserve">
+    <value>Feedback list</value>
+  </data>
+  <data name="View_lbl_Feedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="View_lbl_FeedbackTime" xml:space="preserve">
+    <value>Feedback time</value>
+  </data>
+  <data name="View_Lb_Category_Commercial" xml:space="preserve">
+    <value>Commercial Software</value>
+  </data>
+  <data name="View_Lb_Category_Dev_Tools" xml:space="preserve">
+    <value>Development and Operation Tools</value>
+  </data>
+  <data name="View_Lb_Category_Infrastructure" xml:space="preserve">
+    <value>Infrastructure</value>
+  </data>
+  <data name="View_Lb_Category_Open_Source" xml:space="preserve">
+    <value>Open Source</value>
+  </data>
+  <data name="View_Lb_Category_Solution_Collateral" xml:space="preserve">
+    <value>Solution Collateral</value>
+  </data>
+  <data name="View_Shared_Material_Library" xml:space="preserve">
+    <value>Material library</value>
+  </data>
+  <data name="Msg_Notification_CanApproveISV" xml:space="preserve">
+    <value>You can approve ISV now.</value>
+  </data>
+  <data name="Msg_Notification_CannotApproveISV" xml:space="preserve">
+    <value>You can no longer approve ISV.</value>
+  </data>
+  <data name="View_lbl_ISVApprover" xml:space="preserve">
+    <value>ISV Approver</value>
+  </data>
+  <data name="View_lbl_ApproveDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="View_ISV_Status_Approving" xml:space="preserve">
+    <value>Approving</value>
+  </data>
+  <data name="View_ISV_Status_Fail" xml:space="preserve">
+    <value>Fail</value>
+  </data>
+  <data name="View_ISV_Status_Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="View_ISV_Status_Waiting" xml:space="preserve">
+    <value>Waiting</value>
+  </data>
+  <data name="View_lbl_ISVStep1Approver" xml:space="preserve">
+    <value>ISV Step1 Approver</value>
+  </data>
+  <data name="View_lbl_ISVStep2Approver" xml:space="preserve">
+    <value>ISV Step2 Approver</value>
+  </data>
+  <data name="View_lbl_ISVStep3Approver" xml:space="preserve">
+    <value>ISV Step3 Approver</value>
+  </data>
+  <data name="Msg_Notification_ISVNode1Approver" xml:space="preserve">
+    <value>You are now ISV Step1 Approver.</value>
+  </data>
+  <data name="Msg_Notification_ISVNode2Approver" xml:space="preserve">
+    <value>Your are now ISV Step2 approver.</value>
+  </data>
+  <data name="Msg_Notification_ISVNode3Approver" xml:space="preserve">
+    <value>Your are now ISV Step2 approver.</value>
+  </data>
+  <data name="Msg_Notification_NotISVNode1Approver" xml:space="preserve">
+    <value>Your are no longer ISV Step1 approver.</value>
+  </data>
+  <data name="Msg_Notification_NotISVNode2Approver" xml:space="preserve">
+    <value>You are no longer ISV Step2 approver.</value>
+  </data>
+  <data name="Msg_Notification_NotISVNode3Approver" xml:space="preserve">
+    <value>Your are no longer ISV Step3 approver.</value>
+  </data>
+  <data name="Msg_Notification_ISVApproveStatus" xml:space="preserve">
+    <value>ISV approve status.</value>
+  </data>
+  <data name="View_Shared_Search_PlaceHolder" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="View_Vhd_Index_Publish_lbl_OpenSource" xml:space="preserve">
+    <value>Open Source</value>
+  </data>
+  <data name="View_lbl_MyImage_ApplyOnSelves" xml:space="preserve">
+    <value>Apply on selves</value>
+  </data>
+  <data name="Msg_ManageImgIndex" xml:space="preserve">
+    <value>Manage Image Index</value>
+  </data>
+  <data name="View_Admin_ImageIndex_ttip_Submit" xml:space="preserve">
+    <value>Submit Images to update index</value>
+  </data>
+  <data name="View_lbl_ESReIndex" xml:space="preserve">
+    <value>ReIndex ES</value>
+  </data>
+  <data name="View_lbl_DeploymentType" xml:space="preserve">
+    <value>Image Type</value>
+  </data>
+  <data name="View_lbl_VhdFrom" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="View_lbl_ApprovedTime" xml:space="preserve">
+    <value>Review Date</value>
+  </data>
+  <data name="View_lbl_AzureAccount" xml:space="preserve">
+    <value>Azure Account</value>
+  </data>
+  <data name="Msg_offerId_AlreadyExists" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Msg_RequiresValidVersion" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="View_Validate_ImageSize" xml:space="preserve">
+    <value>镜像尺寸必须选择1到6个</value>
+  </data>
+  <data name="Msg_KeeplessPublisherID" xml:space="preserve">
+    <value>Keep less PublisherID</value>
+  </data>
+  <data name="View_lbl_AppliedOnboard" xml:space="preserve">
+    <value>Review in Progress</value>
+  </data>
+  <data name="Msg_Delete" xml:space="preserve">
+    <value>您确定要删除？</value>
+  </data>
+  <data name="Msg_Download" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="Msg_InputEmailPromptMessage" xml:space="preserve">
+    <value>如果有多个邮箱地址，请用半角分号（;）连接。</value>
+    <comment>邮箱输入提示信息</comment>
+  </data>
+  <data name="Msg_InputSearchVhd" xml:space="preserve">
+    <value>搜索镜像</value>
+    <comment>所有镜像-&gt;查询框的默认提示文本</comment>
+  </data>
+  <data name="Msg_Required_SelectEmailType" xml:space="preserve">
+    <value>请选择邮件类型</value>
+    <comment>表单验证信息</comment>
+  </data>
+  <data name="Msg_SelectGroup" xml:space="preserve">
+    <value>- 请选择分组 -</value>
+    <comment>下拉框默认文本</comment>
+  </data>
+  <data name="Msg_Vhd_DeleteVhdContent" xml:space="preserve">
+    <value>一旦删除，该服务不能再恢复</value>
+    <comment>管理员批准ISV提交的删除镜像请求时，提示信息的内容</comment>
+  </data>
+  <data name="Msg_Vhd_DeleteVhdTitle" xml:space="preserve">
+    <value>您确定要删除该服务？</value>
+    <comment>管理员批准ISV提交的删除镜像请求时，提示信息的标题</comment>
+  </data>
+  <data name="Msg_Vhd_RejectDeleteVhdTitle" xml:space="preserve">
+    <value>您确定要拒绝该服务的删除申请？</value>
+    <comment>管理员拒绝ISV提交的删除镜像请求时，提示信息的标题</comment>
+  </data>
+  <data name="View_Admin_VhdInformation" xml:space="preserve">
+    <value>镜像信息</value>
+    <comment>发布镜像填写表单时的标题</comment>
+  </data>
+  <data name="View_lbl_Approval" xml:space="preserve">
+    <value>批准</value>
+  </data>
+  <data name="View_lbl_ApproveStatus" xml:space="preserve">
+    <value>审批结果</value>
+    <comment>管理员审批的所有表格中，都需要“审批结果”列，展示镜像服务当前的审批状态</comment>
+  </data>
+  <data name="View_lbl_Categories" xml:space="preserve">
+    <value>类别</value>
+    <comment>所有镜像（Admin）-&gt;查看-&gt;表单的类别标签</comment>
+  </data>
+  <data name="View_lbl_DateOfApply" xml:space="preserve">
+    <value>申请日期</value>
+    <comment>镜像服务的申请时间</comment>
+  </data>
+  <data name="View_lbl_DeleteApply" xml:space="preserve">
+    <value>删除申请</value>
+    <comment>删除申请列表的标题</comment>
+  </data>
+  <data name="View_lbl_EnglishName" xml:space="preserve">
+    <value>英文名称</value>
+    <comment>所有镜像（Admin）-&gt;查看-&gt;表单标签</comment>
+  </data>
+  <data name="View_lbl_ImageDocument" xml:space="preserve">
+    <value>文档</value>
+    <comment>表单列名（镜像信息）</comment>
+  </data>
+  <data name="View_lbl_LastModifiedDate" xml:space="preserve">
+    <value>最后修改日期</value>
+    <comment>最后一次修改日期</comment>
+  </data>
+  <data name="View_lbl_Logos" xml:space="preserve">
+    <value>Logos</value>
+  </data>
+  <data name="View_lbl_OfferId" xml:space="preserve">
+    <value>Offer Id</value>
+    <comment>表单列名（镜像信息）</comment>
+  </data>
+  <data name="View_lbl_OfferVersion" xml:space="preserve">
+    <value>版本号</value>
+    <comment>表单列名（镜像信息）</comment>
+  </data>
+  <data name="View_lbl_PublisherId" xml:space="preserve">
+    <value>Publisher Id</value>
+  </data>
+  <data name="View_lbl_Reject" xml:space="preserve">
+    <value>拒绝</value>
+  </data>
+  <data name="View_lbl_ShortDescription" xml:space="preserve">
+    <value>简要描述</value>
+    <comment>所有镜像（Admin）-&gt;查看-&gt;表单标签</comment>
+  </data>
+  <data name="View_lbl_VhdName" xml:space="preserve">
+    <value>服务名称</value>
+    <comment>管理员审批的所有表格中，都需要“服务名称”列，用于展示镜像服务的名称</comment>
+  </data>
+  <data name="View_Settled_Title" xml:space="preserve">
+    <value>我的服务商</value>
+    <comment>Me.chtml文件中，我的服务商列表的标题</comment>
+  </data>
+  <data name="View_lbl_Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="View_lbl_Activated" xml:space="preserve">
+    <value>已激活</value>
+    <comment>服务商（Admin）-&gt;服务商列表审批状态列的状态</comment>
+  </data>
+  <data name="View_lbl_ActiveStatus" xml:space="preserve">
+    <value>激活状态</value>
+    <comment>服务商（Admin）-&gt;服务商列表审批状态列的状态</comment>
+  </data>
+  <data name="View_lbl_ApplicationId" xml:space="preserve">
+    <value>Application Id</value>
+  </data>
+  <data name="View_lbl_AppliedOnVersion" xml:space="preserve">
+    <value>新版本申请</value>
+  </data>
+  <data name="View_lbl_ApprovalStatus" xml:space="preserve">
+    <value>审批状态</value>
+    <comment>服务商（Admin）-&gt;服务商列表审批状态列的列名</comment>
+  </data>
+  <data name="View_lbl_Arm" xml:space="preserve">
+    <value>ARM</value>
+  </data>
+  <data name="View_lbl_CompanyName" xml:space="preserve">
+    <value>公司名称</value>
+    <comment>服务商（Admin）-&gt;服务商列表公司名称列的列名</comment>
+  </data>
+  <data name="View_lbl_HandOff_URL" xml:space="preserve">
+    <value>Handoff URL</value>
+  </data>
+  <data name="View_lbl_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="View_lbl_InActivated" xml:space="preserve">
+    <value>未激活</value>
+    <comment>表单列状态(ISV信息)</comment>
+  </data>
+  <data name="View_lbl_Modify_HandOff_URL" xml:space="preserve">
+    <value>Modify Handoff URL</value>
+  </data>
+  <data name="View_lbl_Modify_PIR_HandoffURL" xml:space="preserve">
+    <value>Modify PIR/Handoff URL</value>
+  </data>
+  <data name="View_lbl_Offer" xml:space="preserve">
+    <value>Offer</value>
+  </data>
+  <data name="View_lbl_PIR_Image_Name" xml:space="preserve">
+    <value>PIR ImageName</value>
+  </data>
+  <data name="View_lbl_PublishedVhd" xml:space="preserve">
+    <value>已上架</value>
+  </data>
+  <data name="View_lbl_Solution" xml:space="preserve">
+    <value>Solution</value>
+  </data>
+  <data name="View_lbl_UpdateContent" xml:space="preserve">
+    <value>更新内容</value>
+    <comment>编辑申请页面，更新内容列的列名</comment>
+  </data>
+  <data name="View_lbl_Vhd" xml:space="preserve">
+    <value>VM</value>
+    <comment>虚拟机镜像的缩写</comment>
+  </data>
+  <data name="View_lbl_VhdRequest" xml:space="preserve">
+    <value>编辑申请</value>
+  </data>
+  <data name="View_Shared_Published_ARM" xml:space="preserve">
+    <value>Published ARM Templates</value>
+  </data>
+  <data name="View_Shared_Published_Classic_VHD" xml:space="preserve">
+    <value>Published VM Images</value>
+  </data>
+  <data name="View_Shared_Published_Trail" xml:space="preserve">
+    <value>Published Custom Solutions</value>
+  </data>
+  <data name="View_lbl_Modify" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="View_Document_CommonProblems" xml:space="preserve">
+    <value>常见问题</value>
+    <comment>文档与帮助菜单的常见问题页面，大标题</comment>
+  </data>
+  <data name="View_Document_DeploymentOrUseVhd" xml:space="preserve">
+    <value>镜像部署与使用</value>
+    <comment>文档与帮助-&gt;镜像部署与使用分类</comment>
+  </data>
+  <data name="View_Document_GeneralProblems" xml:space="preserve">
+    <value>通用和常见问题</value>
+    <comment>文档与帮助-&gt;通用和常见问题分类</comment>
+  </data>
+  <data name="View_Document_MakeOrDevelopVhd" xml:space="preserve">
+    <value>镜像制作与开发</value>
+    <comment>文档与帮助-&gt;镜像制作与开发分类</comment>
+  </data>
+  <data name="View_Document_PublishOrMaintainVhd" xml:space="preserve">
+    <value>镜像发布与维护</value>
+    <comment>文档与帮助-&gt;镜像发布与维护分类</comment>
+  </data>
+  <data name="View_Document_RelatedWithAzure" xml:space="preserve">
+    <value>Azure 相关</value>
+    <comment>文档与帮助菜单的常见问题页面，问题分类</comment>
+  </data>
+  <data name="View_Feeback_Question_Apply" xml:space="preserve">
+    <value>申请问题</value>
+    <comment>用户反馈页面，下拉框选项</comment>
+  </data>
+  <data name="View_Feeback_Question_FillForm" xml:space="preserve">
+    <value>填表问题</value>
+    <comment>用户反馈页面，下拉框选项</comment>
+  </data>
+  <data name="View_Feeback_Question_Other" xml:space="preserve">
+    <value>其他</value>
+    <comment>用户反馈页面，下拉框选项</comment>
+  </data>
+  <data name="View_Feeback_Question_PublishVhd" xml:space="preserve">
+    <value>镜像发布问题</value>
+    <comment>用户反馈页面，下拉框选项</comment>
+  </data>
+  <data name="View_lbl_CollapseAll" xml:space="preserve">
+    <value>全部折叠</value>
+    <comment>点击的按钮</comment>
+  </data>
+  <data name="View_lbl_ExpandAll" xml:space="preserve">
+    <value>全部展开</value>
+    <comment>点击的按钮</comment>
+  </data>
+  <data name="View_lbl_UserFeedback" xml:space="preserve">
+    <value>用户反馈</value>
+    <comment>用户反馈页面，标题</comment>
+  </data>
+  <data name="Msg_DeleteRejectContent" xml:space="preserve">
+    <value>您正要申请删除的服务有未上架的版本，请先删除所有此服务的未上架版本再提交删除申请。</value>
+  </data>
+  <data name="Msg_DeleteVersion" xml:space="preserve">
+    <value>您确定要删除该版本吗？</value>
+  </data>
+  <data name="Msg_DeleteVersionContent" xml:space="preserve">
+    <value>一旦删除，该版本不能再恢复</value>
+  </data>
+  <data name="Msg_Notification_DeleteAccount" xml:space="preserve">
+    <value>您确定要删除此账号么？</value>
+  </data>
+  <data name="Msg_Required_InputApprovalNote" xml:space="preserve">
+    <value>拒绝时必须填写审批备注</value>
+    <comment>show页面，表单验证</comment>
+  </data>
+  <data name="Msg_SendOfferFailed" xml:space="preserve">
+    <value>申请发送失败</value>
+  </data>
+  <data name="Msg_SendOfferSuccessfully" xml:space="preserve">
+    <value>申请发送成功</value>
+  </data>
+  <data name="Msg_SubmitDeleteOffer" xml:space="preserve">
+    <value>确认提交删除申请吗？</value>
+  </data>
+  <data name="Msg_SubmitDeleteOfferContent" xml:space="preserve">
+    <value>我们将在审批后彻底删除此服务，删除后无法恢复。</value>
+  </data>
+  <data name="View_ISV_AddUser" xml:space="preserve">
+    <value>新增用户</value>
+    <comment>服务商用户管理页面，新增用户标题</comment>
+  </data>
+  <data name="View_ISV_Approval" xml:space="preserve">
+    <value>通过审批</value>
+    <comment>‘通过审批’文本，用做标题或者表格中的内容</comment>
+  </data>
+  <data name="View_ISV_ApprovalOperation" xml:space="preserve">
+    <value>审批操作</value>
+  </data>
+  <data name="View_ISV_AuditISV" xml:space="preserve">
+    <value>服务商审批</value>
+  </data>
+  <data name="View_ISV_AzureCustomer" xml:space="preserve">
+    <value>Azure 客服</value>
+    <comment>服务商入驻页面，疑难解答与意见建议模块内容</comment>
+  </data>
+  <data name="View_ISV_AzureIssuesAndAnswers" xml:space="preserve">
+    <value>Azure 及市场相关的具体问题和解答</value>
+    <comment>服务商入驻页面，疑难解答与意见建议模块内容</comment>
+  </data>
+  <data name="View_ISV_AzureMarketIntroduction" xml:space="preserve">
+    <value>Azure 市场介绍</value>
+  </data>
+  <data name="View_ISV_AzureMarketIntroductionDesc" xml:space="preserve">
+    <value>&lt;p&gt;Azure 市场由世纪互联运营，是一个联机应用程序和服务市场，它通过独立软件服务商（ISV）能够成为 Azure 客户（Customer）提供多种形式的解决方案，包括单机VM，ARM以及解决方案。单机VM镜像仅限于部署单台虚拟机应用；ARM可以一键部署多台VM虚拟机、虚拟机镜像、虚拟网络、Subnet、负载均衡器、存储资源等各种Azure资源；解决方案提供各种应用场景下的应用系统方案。&lt;/p&gt;&lt;p&gt;Azure 市场和 Azure 云平台有世纪互联运营。无论服务商或者 Azure 用户，均可以在 Azure 云平台注册 Azure 账号，并通过此账号注册和登录Azure 市场（注意Global Azure 和中国版 Azure 的账号不能通用）。所有的注册流程均通过在线方式完成。&lt;/p&gt;&lt;p&gt;由于 Azure 市场基于 Azure 云平台，因此软件服务商可以充分利用Azure云平台的强大资源整合能力，开发高品质的软件，并制作成镜像。镜像测试可以通过强大的PowerShell和Azure-cli来完成。&lt;/p&gt;&lt;p&gt;服务商在 Azure 市场注册后，便可以在 Azure 市场发布、测试和管理镜像。注意服务商必须在中国大陆有法人实体，方能注册审批通过。&lt;/p&gt;&lt;p&gt;Azure 用户通过 Azure 市场，可以将VM镜像或者ARM一键部署到 Azure 云平台，并在 Azure 云平台查看和管理部署的资源。&lt;/p&gt;</value>
+    <comment>服务商入驻页面，Azure 市场介绍标题下的正文</comment>
+  </data>
+  <data name="View_ISV_AzureMarketIntroductionPicDesc" xml:space="preserve">
+    <value>上图描述了服务商、客户和 Azure 市场的关系。</value>
+  </data>
+  <data name="View_ISV_AzureRelatedFeedback" xml:space="preserve">
+    <value>Azure 市场相关反馈</value>
+    <comment>服务商入驻页面，疑难解答与意见建议模块内容</comment>
+  </data>
+  <data name="View_ISV_AzureRelatedIssue" xml:space="preserve">
+    <value>Azure 相关问题及 Azure 开发需求</value>
+    <comment>服务商入驻页面，疑难解答与意见建议模块内容</comment>
+  </data>
+  <data name="View_ISV_AzureTechnicalSupport" xml:space="preserve">
+    <value>Azure 市场技术支持</value>
+    <comment>服务商入驻页面，疑难解答与意见建议模块内容</comment>
+  </data>
+  <data name="View_ISV_BasicInfo" xml:space="preserve">
+    <value>基本信息</value>
+    <comment>服务商入驻，立即入驻的第一阶段</comment>
+  </data>
+  <data name="View_ISV_BusinessLicense" xml:space="preserve">
+    <value>营业执照</value>
+  </data>
+  <data name="View_ISV_BusinessLicenseUpload" xml:space="preserve">
+    <value>营业执照扫描上传</value>
+    <comment>服务商入驻-&gt;基本信息-&gt;表单标签</comment>
+  </data>
+  <data name="View_ISV_CompanyAddress" xml:space="preserve">
+    <value>公司地址</value>
+  </data>
+  <data name="View_ISV_CompanyArea" xml:space="preserve">
+    <value>公司所在地区</value>
+    <comment>服务商入驻，立即入驻，填写基本信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_CompanyBasicInfo" xml:space="preserve">
+    <value>公司基本信息</value>
+    <comment>服务商入驻，立即入驻，填写基本信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_CompanyContactEmail" xml:space="preserve">
+    <value>联系人邮箱</value>
+  </data>
+  <data name="View_ISV_CompanyDetailAddress" xml:space="preserve">
+    <value>公司详细地址</value>
+    <comment>服务商入驻，立即入驻，填写基本信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_CompanyEmail" xml:space="preserve">
+    <value>公司邮箱</value>
+  </data>
+  <data name="View_ISV_CompanyEnglishName" xml:space="preserve">
+    <value>英文公司简称</value>
+  </data>
+  <data name="View_ISV_CompanyEnglishNamePrompt" xml:space="preserve">
+    <value>公司简称的英文版本。最多30个英文字母。</value>
+    <comment>服务商入驻，立即入驻，填写基本信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_CompanyName" xml:space="preserve">
+    <value>公司简称</value>
+  </data>
+  <data name="View_ISV_CompanyNamePrompt" xml:space="preserve">
+    <value>在用户界面中我们主要使用这个名称。最多15个汉字或30个英文字母。</value>
+    <comment>服务商入驻，立即入驻，填写基本信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_CompanyPhone" xml:space="preserve">
+    <value>公司电话</value>
+  </data>
+  <data name="View_ISV_CompanyWebsite" xml:space="preserve">
+    <value>公司网站</value>
+  </data>
+  <data name="View_ISV_ContactName" xml:space="preserve">
+    <value>联系人姓名</value>
+  </data>
+  <data name="View_ISV_ContactPhone" xml:space="preserve">
+    <value>联系人电话</value>
+  </data>
+  <data name="View_ISV_CustomerInfo" xml:space="preserve">
+    <value>客服信息</value>
+    <comment>服务商入驻，立即入驻的第三阶段</comment>
+  </data>
+  <data name="View_ISV_ExamplePrompt" xml:space="preserve">
+    <value>如：xxxx@xxxx.partner.onmschina.cn</value>
+    <comment>服务商入驻，立即入驻，填写基本信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_FillApplication" xml:space="preserve">
+    <value>请填写下面的表格以完成申请过程，我们会尽快审批并联系您告知结果。</value>
+    <comment>服务商入驻，立即入驻的大标题下提示文本</comment>
+  </data>
+  <data name="View_ISV_FillMoreInfo" xml:space="preserve">
+    <value>尽可能多地填写完善的信息，能够加速审批进程。</value>
+    <comment>服务商入驻，立即入驻，填写基本信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_InformationOf" xml:space="preserve">
+    <value>的信息</value>
+    <comment>(ISVCompanyName)的信息</comment>
+  </data>
+  <data name="View_ISV_ISVApplyInformation" xml:space="preserve">
+    <value>ISV申请信息</value>
+  </data>
+  <data name="View_ISV_ISVId" xml:space="preserve">
+    <value>服务商ID</value>
+  </data>
+  <data name="View_ISV_License" xml:space="preserve">
+    <value>版权说明</value>
+  </data>
+  <data name="View_ISV_LicenseDescription" xml:space="preserve">
+    <value>例如：xx软件公司依法独立享有该软件之所有权利，此镜像为用户提供免费试用。该软件试用者（含个人、法人或其他组织）：&amp;lt;br&amp;gt;1.非经xx公司授权许可，不得下载、传播。&amp;lt;br&amp;gt;2.对其功能、性能、界面，可以进行必要的修改，但不得去除Powered By xx公司的版本标示。&amp;lt;br&amp;gt;凡有上述侵权行为的个人、法人或其它组织，必须立即停止侵权并对其侵权造成的一切不良后果承担全部责任。</value>
+    <comment>服务商入驻，立即入驻，填写产品信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_MarketInfo" xml:space="preserve">
+    <value>市场信息</value>
+    <comment>服务商入驻，立即入驻，填写产品信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_MarketInfoUseRange" xml:space="preserve">
+    <value>本信息主要用户审批用，不会用于页面展示</value>
+    <comment>服务商入驻，立即入驻，填写产品信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_MarketingType" xml:space="preserve">
+    <value>主要市场推广方式</value>
+  </data>
+  <data name="View_ISV_MarketingTypeDesc" xml:space="preserve">
+    <value>如：线上广告、线下地推</value>
+    <comment>服务商入驻，立即入驻，填写产品信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_MarketIntroduction" xml:space="preserve">
+    <value>目标市场</value>
+  </data>
+  <data name="View_ISV_MarketIntroductionDesc" xml:space="preserve">
+    <value>完善市场介绍，最多1000个字。</value>
+    <comment>服务商入驻，立即入驻，填写产品信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_Next" xml:space="preserve">
+    <value>下一步</value>
+    <comment>服务商入驻，立即入驻，填写基本信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_Operating" xml:space="preserve">
+    <value>操作中</value>
+  </data>
+  <data name="View_ISV_OrganizationCode" xml:space="preserve">
+    <value>双软认证编号 或 机构代码ID</value>
+    <comment>翻译为OrganizationCode</comment>
+  </data>
+  <data name="View_ISV_Previous" xml:space="preserve">
+    <value>上一步</value>
+  </data>
+  <data name="View_ISV_Product" xml:space="preserve">
+    <value>产品</value>
+  </data>
+  <data name="View_ISV_ProductAuthCert" xml:space="preserve">
+    <value>产品授权证明文件</value>
+  </data>
+  <data name="View_ISV_ProductDesc" xml:space="preserve">
+    <value>产品介绍</value>
+    <comment>服务商入驻，立即入驻，填写产品信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_ProductDescPrompt" xml:space="preserve">
+    <value>本信息主要用户审批用，不会用于页面展示。 尽可能多地填写完善的信息，能够加速审批进程。</value>
+    <comment>服务商入驻，立即入驻，填写产品信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_ProductDescription" xml:space="preserve">
+    <value>解决方案和产品介绍</value>
+    <comment>服务商入驻-&gt;产品信息-&gt;表单内容</comment>
+  </data>
+  <data name="View_ISV_ProductDescriptionValidate" xml:space="preserve">
+    <value>完善产品介绍，最多3000个字。</value>
+    <comment>服务商入驻，立即入驻，填写产品信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_ProductionInfo" xml:space="preserve">
+    <value>产品信息</value>
+    <comment>服务商入驻，立即入驻的第二阶段</comment>
+  </data>
+  <data name="View_ISV_PublishAll" xml:space="preserve">
+    <value>全部发布</value>
+  </data>
+  <data name="View_ISV_RegisterCompanyName" xml:space="preserve">
+    <value>公司注册名称</value>
+  </data>
+  <data name="View_ISV_ReturnAzureMarketplace" xml:space="preserve">
+    <value>回到 Azure 市场首页</value>
+    <comment>按钮</comment>
+  </data>
+  <data name="View_ISV_SalesChannel" xml:space="preserve">
+    <value>主要销售渠道</value>
+  </data>
+  <data name="View_ISV_SalesChannelDesc" xml:space="preserve">
+    <value>如：代理商、线下分销、线上应用市场</value>
+    <comment>服务商入驻，立即入驻，填写产品信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_SettledImmediately" xml:space="preserve">
+    <value>立即入驻</value>
+  </data>
+  <data name="View_ISV_Showcases" xml:space="preserve">
+    <value>成功案例</value>
+  </data>
+  <data name="View_ISV_ShowcasesDesc" xml:space="preserve">
+    <value>完善成功案例，最多2000个字。</value>
+    <comment>服务商入驻，立即入驻，填写产品信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_SubmitSuccessNotification" xml:space="preserve">
+    <value>您的服务商注册申请已经成功提交，Azure 市场会及时开始审批您的申请。如果需要补充信息或材料，我们会通过您申请中预留的联系方式和您取得联系。如果您有任何其他问题请联系</value>
+  </data>
+  <data name="View_ISV_TargetCustomers" xml:space="preserve">
+    <value>主要客户</value>
+  </data>
+  <data name="View_ISV_TargetMarketShare" xml:space="preserve">
+    <value>目标市场份额</value>
+  </data>
+  <data name="View_ISV_Together" xml:space="preserve">
+    <value>立即成为 Azure 市场合作伙伴&lt;br&gt;一起扬帆起航</value>
+    <comment>服务商入驻的标题</comment>
+  </data>
+  <data name="View_ISV_Troubleshoot" xml:space="preserve">
+    <value>疑难解答与意见建议</value>
+  </data>
+  <data name="View_ISV_UniqueIdentification" xml:space="preserve">
+    <value>您的公司在 Azure 系统中的唯一标识。</value>
+    <comment>服务商入驻，立即入驻，填写基本信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_UniqueIdentificationValidate" xml:space="preserve">
+    <value>只能包含小写字母，数字，减号或下划线。例如: microsoft</value>
+    <comment>服务商入驻，立即入驻，填写基本信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_UpdateRole" xml:space="preserve">
+    <value>更改权限</value>
+    <comment>服务商用户管理页面，修改权限标题</comment>
+  </data>
+  <data name="View_ISV_UploadAttachment" xml:space="preserve">
+    <value>上传附件</value>
+    <comment>服务商入驻，立即入驻，填写基本信息表单的提示文字</comment>
+  </data>
+  <data name="View_ISV_UserManage" xml:space="preserve">
+    <value>服务商用户管理</value>
+    <comment>服务商用户管理页面，服务商用户管理标题</comment>
+  </data>
+  <data name="View_ISV_VerifyAsAzurePartner" xml:space="preserve">
+    <value>验证为Azure 市场伙伴</value>
+    <comment>服务商入驻，立即入驻的大标题</comment>
+  </data>
+  <data name="View_ISV_ViewAzureMarketplace" xml:space="preserve">
+    <value>去 Azure 市场查看</value>
+    <comment>已上架服务列表，“去 Azure 市场查看”按钮</comment>
+  </data>
+  <data name="View_ISV_WithoutStatusInfo" xml:space="preserve">
+    <value>没有状态信息</value>
+  </data>
+  <data name="View_lbl_AddMore" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="View_lbl_HelpDesc" xml:space="preserve">
+    <value>丰富的参考文档，面向服务商和用户的部署指南</value>
+    <comment>服务商入驻页面，疑难解答与意见建议模块内容</comment>
+  </data>
+  <data name="View_lbl_Permission" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="View_lbl_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="View_Required_BusinessLicense" xml:space="preserve">
+    <value>必须上传营业执照扫描件</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Validate_BusinessLicenseSize" xml:space="preserve">
+    <value>扫描件不能大于2M</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Validate_BusinessLicense" xml:space="preserve">
+    <value>扫描件必须是jpg或jpeg格式的</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Required_CompanyAddress" xml:space="preserve">
+    <value>必须填写公司详细地址</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Required_CompanyContactEmail" xml:space="preserve">
+    <value>必须填写联系人邮箱</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Required_CompanyEmail" xml:space="preserve">
+    <value>必须填写公司邮箱</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Required_DisplayNameEn" xml:space="preserve">
+    <value>必须填写英文公司简称</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Validate_DisplayNameEnValidate" xml:space="preserve">
+    <value>最多30个英文字母。</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Required_DisplayName" xml:space="preserve">
+    <value>必须填写公司简称</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Validate_DisplayNameValidate" xml:space="preserve">
+    <value>最多15个汉字或30个英文字母。</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Required_CompanyPhone" xml:space="preserve">
+    <value>必须填写公司电话</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Required_CompanyWebsite" xml:space="preserve">
+    <value>必须填写公司网站</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Validate_CompanyWebsiteMaxLength" xml:space="preserve">
+    <value>公司网站长度不能超过</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Required_CompanyContactName" xml:space="preserve">
+    <value>必须填写联系人姓名</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Required_CompanyContactPhone" xml:space="preserve">
+    <value>必须填写联系人电话</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Validate_Email" xml:space="preserve">
+    <value>请输入有效的电子邮件地址</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Required_PublisherId" xml:space="preserve">
+    <value>必须填写服务商ID</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Validate_PublisherIdRegistered" xml:space="preserve">
+    <value>此ID已经被注册</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Validate_PublisherId" xml:space="preserve">
+    <value>只能包含小写字母，数字或减号。发布后不可修改</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Required_OrganizationCode" xml:space="preserve">
+    <value>必须填写机构代码</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Validate_ClaimName" xml:space="preserve">
+    <value>请填写正确的 Azure 中国账号</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Validate_ProdAuthCertLength" xml:space="preserve">
+    <value>产品授权证明文件不能大于2M</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Validate_ProdAuthCert" xml:space="preserve">
+    <value>产品授权证明文件必须是jpg或jpeg格式的</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Required_CompanyName" xml:space="preserve">
+    <value>必须填写公司注册名称</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Validate_CompanyWebsiteUrl" xml:space="preserve">
+    <value>请输入有效的网站地址</value>
+    <comment>服务商入驻，立即入驻的表单验证</comment>
+  </data>
+  <data name="View_Require_PictureMaxLengthValidate" xml:space="preserve">
+    <value>上传的图片大小不能超过</value>
+  </data>
+  <data name="View_Shared_Area" xml:space="preserve">
+    <value>地区</value>
+  </data>
+  <data name="View_Shared_Company" xml:space="preserve">
+    <value>公司</value>
+  </data>
+  <data name="View_Shared_Country" xml:space="preserve">
+    <value>国家</value>
+  </data>
+  <data name="View_Shared_IncorrectFormat" xml:space="preserve">
+    <value>格式不正确</value>
+    <comment>表单验证，格式不正确</comment>
+  </data>
+  <data name="View_Shared_Marketplace" xml:space="preserve">
+    <value>市场</value>
+  </data>
+  <data name="View_Shared_Microsoft" xml:space="preserve">
+    <value>微软</value>
+  </data>
+  <data name="View_Shared_NotNull" xml:space="preserve">
+    <value>不能为空</value>
+    <comment>表单验证，不能为空</comment>
+  </data>
+  <data name="View_Shared_Tip" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="Msg_AnswerDate" xml:space="preserve">
+    <value>我们将在一个工作日内给您答复，谢谢！</value>
+  </data>
+  <data name="Msg_MaxLength100" xml:space="preserve">
+    <value>最长100个字</value>
+  </data>
+  <data name="Msg_Notification_CustomerInfo" xml:space="preserve">
+    <value>注意一般开源软件不能填写客服信息，否则可能可能造成版权法律问题。</value>
+    <comment>发布或更新镜像，联系方式后的文字提示</comment>
+  </data>
+  <data name="Msg_Required_LegalURL" xml:space="preserve">
+    <value>URL 地址不合法</value>
+  </data>
+  <data name="Msg_Required_NameNotNull" xml:space="preserve">
+    <value>名称不能为空</value>
+  </data>
+  <data name="Msg_Required_RepeatedURL" xml:space="preserve">
+    <value>URL 重复</value>
+  </data>
+  <data name="Msg_Vhd_ApproveApply" xml:space="preserve">
+    <value>您确定要批准该申请？</value>
+  </data>
+  <data name="Msg_Vhd_RejectApply" xml:space="preserve">
+    <value>请填写拒绝申请的原因：</value>
+    <comment>管理员拒绝用户申请时，需要填写拒绝申请的原因。</comment>
+  </data>
+  <data name="Msg_Vhd_ReturnApply" xml:space="preserve">
+    <value>请填写退回申请的原因：</value>
+    <comment>管理员退回用户申请时，需要填写退回申请的原因。</comment>
+  </data>
+  <data name="Msg_Vhd_SubmitApply" xml:space="preserve">
+    <value>您确定要提交该申请？</value>
+  </data>
+  <data name="Msg_WorkDay" xml:space="preserve">
+    <value>工作日</value>
+    <comment>发布或更新镜像，服务时间下拉框中的一项</comment>
+  </data>
+  <data name="View_ISV_Contact" xml:space="preserve">
+    <value>联系方式</value>
+  </data>
+  <data name="View_ISV_ISVIdRuleDesc" xml:space="preserve">
+    <value>只能包含小写字母，数字，减号或下划线。例如：windows-server-2016, sql-server-2016</value>
+    <comment>发布、更新镜像时表单中服务ID下方提示信息</comment>
+  </data>
+  <data name="View_ISV_ISVIdUsedDesc" xml:space="preserve">
+    <value>与服务商ID一同组成 Azure 系统中的唯一标识。发布后不可修改。</value>
+    <comment>发布、更新镜像时表单中服务ID下方提示信息</comment>
+  </data>
+  <data name="View_ISV_NewPublishDescription1" xml:space="preserve">
+    <value>您的服务已成功提交，请于</value>
+  </data>
+  <data name="View_ISV_NewPublishDescription2" xml:space="preserve">
+    <value>未上架服务</value>
+  </data>
+  <data name="View_ISV_NewPublishDescription3" xml:space="preserve">
+    <value>查看，修改或进行预览，并在确认无误后申请上架。如果需要补充信息或者发布存在技术问题，我们会通过您预留的联系方式和您取得联系。如果您有任何其他有关发布的问题请联系</value>
+    <comment>上传状态页面，文本</comment>
+  </data>
+  <data name="View_ISV_UploadAttachmentDesc" xml:space="preserve">
+    <value>用于上传主模板文件引用各种其他模板文件或安装包等。</value>
+    <comment>发布、更新镜像时表单的‘上传附件’的提示信息</comment>
+  </data>
+  <data name="View_ISV_VhdPublishUrlDesc" xml:space="preserve">
+    <value>填写要上传的VHD文件的公共URL。</value>
+    <comment>发布、更新镜像时表单的'Vhd文件路径'的描述信息</comment>
+  </data>
+  <data name="View_ISV_VhdPublishUrlPrompt" xml:space="preserve">
+    <value>例如下面的url:https://mystorage.blob.core.chin-acloudapi.cn/vhds/myapp-7.14-centos7.2-2016-08-04.vhd，“mystorage”是 Azure 中的存储账号，&amp;#58;vhds&amp;#58;是容器名称，&amp;#58;myapp-7.14-centos7.2 -2016-08-04.vhd&amp;#58;是vhd文件名称，注意&amp;#58;vhds&amp;#58;在Azure中必须设置为&amp;#58;公共Blob&amp;#58;属性。</value>
+    <comment>发布、更新镜像时表单的'Vhd文件路径'左边的提示信息</comment>
+  </data>
+  <data name="View_lbl_AddHelpDocument" xml:space="preserve">
+    <value>添加新的文档</value>
+    <comment>发布、更新镜像时，表单中帮助文档的添加文档按钮</comment>
+  </data>
+  <data name="View_lbl_ChangeToPublishArm" xml:space="preserve">
+    <value>切换发布 ARM 模板</value>
+    <comment>新发布vhd时，vhd页面的一个链接，跳转到新发布arm</comment>
+  </data>
+  <data name="View_lbl_ChangeToPublishVhd" xml:space="preserve">
+    <value>切换发布虚拟机镜像</value>
+    <comment>新发布arm时，arm页面的一个链接，跳转到新发布vhd</comment>
+  </data>
+  <data name="View_lbl_ContinueEdit" xml:space="preserve">
+    <value>继续编辑</value>
+    <comment>提交审批按钮</comment>
+  </data>
+  <data name="View_lbl_Cover" xml:space="preserve">
+    <value>封面</value>
+    <comment>发布、更新镜像时表单的封面(这是一个Label)</comment>
+  </data>
+  <data name="View_lbl_CoverDesc" xml:space="preserve">
+    <value>这张图片将出现在 Azure 门户和 Azure 市场中您的产品详细页。分辨率必须为533x324</value>
+    <comment>发布、更新镜像时表单的封面的提示信息</comment>
+  </data>
+  <data name="View_lbl_DescriptionDesc" xml:space="preserve">
+    <value>一般包含该服务的产品详情、使用说明和技术详情三部分，支持富文本编辑，可以采用多种文字格式，并可以插入图片、表格等内容形式。&amp;lt;br /&amp;gt;下面几点需要注意：&amp;lt;br /&amp;gt;1. 软件说明一般200字左右。 &amp;lt;br /&amp;gt;2. 技术详情一般包括登录说明、软件安装位置、系统启动停止操作、log查找等。</value>
+    <comment>发布、更新镜像时表单的详细信息的提示信息</comment>
+  </data>
+  <data name="View_lbl_DocumentName" xml:space="preserve">
+    <value>文档名称</value>
+    <comment>发布、更新镜像时，表单中帮助文档列表的文档名称</comment>
+  </data>
+  <data name="View_lbl_DocumentUrlAddress" xml:space="preserve">
+    <value>文档 URL 地址</value>
+    <comment>发布、更新镜像时，表单中帮助文档列表的文档URL地址</comment>
+  </data>
+  <data name="View_lbl_Editing" xml:space="preserve">
+    <value>编辑中</value>
+    <comment>镜像的状态</comment>
+  </data>
+  <data name="View_lbl_EndPointsDesc" xml:space="preserve">
+    <value>多个端口请用逗号拼接(例如：123,456)</value>
+    <comment>发布、更新镜像时表单的'端口'左边的描述信息</comment>
+  </data>
+  <data name="View_lbl_EndPointsPrompt" xml:space="preserve">
+    <value>镜像部署时，缺省提供的端口服务。注意端口号22为Linux虚拟机缺省的ssh登陆端口，端口号3389为Windows虚拟机缺省的远程登录端口，不需要手动添加。</value>
+    <comment>发布、更新镜像时表单的'端口'左边的提示信息</comment>
+  </data>
+  <data name="View_lbl_HelpDocument" xml:space="preserve">
+    <value>帮助文档</value>
+    <comment>发布、更新镜像时，表单中帮助文档</comment>
+  </data>
+  <data name="View_lbl_HelpDocumentExample" xml:space="preserve">
+    <value>如:</value>
+    <comment>帮助文档下的例子</comment>
+  </data>
+  <data name="View_lbl_HelpDocumentNotification" xml:space="preserve">
+    <value>注意：如果使用 Github Markdown 转制的页面，请去掉尾部的 &lt;code&gt;.md&lt;/code&gt; 后缀。</value>
+    <comment>帮助文档下的描述内容</comment>
+  </data>
+  <data name="View_lbl_Information" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="View_lbl_InputPublishName" xml:space="preserve">
+    <value>输入平台发行版名称</value>
+    <comment>发布或更新镜像，表单平台输入框</comment>
+  </data>
+  <data name="View_lbl_LessThanThree" xml:space="preserve">
+    <value>最多3个</value>
+  </data>
+  <data name="View_lbl_OfferVersionRuleDesc" xml:space="preserve">
+    <value>格式为&amp;lt;number&amp;gt;.&amp;lt;number&amp;gt;.&amp;lt;number&amp;gt;，如1.0.0。</value>
+    <comment>发布、更新镜像时表单中版本号下方提示信息</comment>
+  </data>
+  <data name="View_lbl_OfferVersionUsedDesc" xml:space="preserve">
+    <value>请注意次版本号用于标识您的服务在 Azure 系统中的版本，并非您提供的软件或服务的版本号。</value>
+    <comment>发布、更新镜像时表单中版本号下方提示信息</comment>
+  </data>
+  <data name="View_lbl_OtherPublishVersion" xml:space="preserve">
+    <value>其它发行版</value>
+    <comment>发布或更新镜像，平台下拉框的‘其它发行版’选项</comment>
+  </data>
+  <data name="View_lbl_PageNotification" xml:space="preserve">
+    <value>本信息会用于审批和展示，带 &lt;font color="red"&gt;*&lt;/font&gt; 号的为必填项，请填写完整，谢谢配合。</value>
+    <comment>发布，更新vhd、arm或者solution时，页面顶部文本提示信息</comment>
+  </data>
+  <data name="View_lbl_PlatformDescription1" xml:space="preserve">
+    <value>已有的发行版是通过了测试并且支持 Azure。在发布至</value>
+    <comment>发布或更新镜像，表单平台的描述信息</comment>
+  </data>
+  <data name="View_lbl_PlatformDescription2" xml:space="preserve">
+    <value>市场前，请全面测试您的镜像。</value>
+    <comment>发布或更新镜像，表单平台的描述信息</comment>
+  </data>
+  <data name="View_lbl_Publish" xml:space="preserve">
+    <value>发布</value>
+  </data>
+  <data name="View_lbl_PublishSourceDesc" xml:space="preserve">
+    <value>一般填写该软件或服务的主站地址</value>
+    <comment>发布、更新镜像时表单的来源网站的提示信息</comment>
+  </data>
+  <data name="View_lbl_Return" xml:space="preserve">
+    <value>退回</value>
+    <comment>退回按钮，管理员审批时，将ISV发送的请求退回到上一个状态，即退回给ISV重新编辑</comment>
+  </data>
+  <data name="View_lbl_Review" xml:space="preserve">
+    <value>审批</value>
+    <comment>管理员审批ISV发送过来的请求</comment>
+  </data>
+  <data name="View_lbl_ShortDescriptionDesc" xml:space="preserve">
+    <value>简要描述该服务的基本功能、特点和适用范围等。</value>
+    <comment>发布、更新镜像时表单的简要描述的提示信息</comment>
+  </data>
+  <data name="View_lbl_SKURuleDesc" xml:space="preserve">
+    <value>只能包含小写字母，数字，减号或下划线。例如：datacenter_zh-cn, express_en-us</value>
+    <comment>发布、更新镜像时表单中SKU下方提示信息</comment>
+  </data>
+  <data name="View_lbl_SKUUsedDesc" xml:space="preserve">
+    <value>用于描述语言，级别，收费模式等，只有一种SKU的情况可写standard。发布后不可修改。</value>
+    <comment>发布、更新镜像时表单中SKU下方提示信息</comment>
+  </data>
+  <data name="View_lbl_SubmitOffer" xml:space="preserve">
+    <value>提交审批</value>
+    <comment>提交审批按钮</comment>
+  </data>
+  <data name="View_lbl_Updating" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="View_lbl_Upload" xml:space="preserve">
+    <value>上传</value>
+    <comment>上传按钮</comment>
+  </data>
+  <data name="View_lbl_UploadARMUrlDesc" xml:space="preserve">
+    <value>如果您的ARM 模板由多个文件组成，请将主模板文件上传到这里，引用的其他模板文件作为附件上传。</value>
+    <comment>发布、更新镜像时表单的‘上传ARM 模板文件’的提示信息</comment>
+  </data>
+  <data name="View_lbl_UploadMorePictures" xml:space="preserve">
+    <value>更多图片</value>
+    <comment>发布、更新镜像时表单的更多图片(这是一个Label)</comment>
+  </data>
+  <data name="View_lbl_UploadMorePicturesDesc" xml:space="preserve">
+    <value>这张图片将出现在 Azure 市场中您的产品详细页。截图分辨率必须为533x324</value>
+    <comment>发布、更新镜像时表单的更多图片的提示信息</comment>
+  </data>
+  <data name="View_lbl_UploadOtherPictures" xml:space="preserve">
+    <value>上传其他图片（PNG格式）</value>
+    <comment>发布、更新镜像时表单的上传其他图片(这是一个Label)</comment>
+  </data>
+  <data name="View_lbl_UploadPictures" xml:space="preserve">
+    <value>上传图标（PNG格式）</value>
+    <comment>发布、更新镜像时表单的上传图标(这是一个Label)</comment>
+  </data>
+  <data name="View_lbl_UploadPicturesDesc" xml:space="preserve">
+    <value>至少115x115</value>
+    <comment>发布、更新镜像时表单的上传图标的提示信息</comment>
+  </data>
+  <data name="View_lbl_UserAgreement" xml:space="preserve">
+    <value>最终用户协议</value>
+  </data>
+  <data name="View_Required_ARMVersionDescription" xml:space="preserve">
+    <value>请填 Azure 资源管理模板版本描述</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_VersionDescriptionMaxLength" xml:space="preserve">
+    <value>Azure 资源管理模板版本描述的上限为1024个字符</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_VersionDescriptionMinLength" xml:space="preserve">
+    <value>Azure 资源管理模板版本描述的下限为10个字符</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_BlobUrl" xml:space="preserve">
+    <value>ARM 模板文件的网址必填</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_DescriptionMinLength" xml:space="preserve">
+    <value>详细描述至少需要10个字符</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_PortRange" xml:space="preserve">
+    <value>端口必须介于[1 - 65535]区间</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_PortNumberOnly" xml:space="preserve">
+    <value>端口只能包含数字</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_PortFormatError" xml:space="preserve">
+    <value>端口格式错误</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_PortCannotDuplicate" xml:space="preserve">
+    <value>端口不可重复</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_EulaEx" xml:space="preserve">
+    <value>需要填写最终用户协议网址</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_EulaFile" xml:space="preserve">
+    <value>需要上传最终用户协议网址</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_FormNotValidate" xml:space="preserve">
+    <value>表单中有未通过验证的项</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_Id" xml:space="preserve">
+    <value>必须填写ID</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_IdExist" xml:space="preserve">
+    <value>该ID已经存在</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_IdMaxLengthOf50" xml:space="preserve">
+    <value>ID不能超过50个字符</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_IdRule" xml:space="preserve">
+    <value>ID必须只包含小写字母数字字符，短划线或下划线</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_ImageFile" xml:space="preserve">
+    <value>必须上传图标</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_ImageFileSize" xml:space="preserve">
+    <value>图标不能大于200K</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_ImageFileSquareMinWidth" xml:space="preserve">
+    <value>该图标必须为最低115px宽的正方形</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_ImageHeight" xml:space="preserve">
+    <value>该图标高必须为115</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_ImageMaxSize" xml:space="preserve">
+    <value>图片不能大于1MB</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_ImageOldLogoSize" xml:space="preserve">
+    <value>老的图标不符合要求，请重新上传</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_ImagePNG" xml:space="preserve">
+    <value>图片必须是PNG格式的</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_ImageWidth" xml:space="preserve">
+    <value>该图标宽必须为255</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_LargerVersionNum" xml:space="preserve">
+    <value>版本号必须大于之前的版本</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_LogoPNG" xml:space="preserve">
+    <value>Logo必须是PNG格式的</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_ScreenShotCoverSize" xml:space="preserve">
+    <value>该图片尺寸必须为（宽533x高324）</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_ScreenShotCoverLogoSize" xml:space="preserve">
+    <value>老的图片不符合要求，请重新上传</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_ScreenShotMaxCount" xml:space="preserve">
+    <value>图片不能超过4张</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_SelectCategory" xml:space="preserve">
+    <value>需要勾选类型</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_SelectCategoryNum" xml:space="preserve">
+    <value>类型必须选择1到3个</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_ShortDescription" xml:space="preserve">
+    <value>请填写简要描述</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_ShortDescriptionRule" xml:space="preserve">
+    <value>必须为长度50以内的中文或者长度100以内的英文</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_SKU" xml:space="preserve">
+    <value>需要填写SKU</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_SKUMaxLength" xml:space="preserve">
+    <value>SKU不能超过50个字符</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_SKURegex" xml:space="preserve">
+    <value>SKU必须只包含小写字母数字字符，短划线或下划线</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_SourceEx" xml:space="preserve">
+    <value>需要填写来源网站</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_BlobUrlMaxLength" xml:space="preserve">
+    <value>有效网址并且不超过 256 个字符</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_VersionDescription" xml:space="preserve">
+    <value>请填写镜像版本描述</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_VersionInfo" xml:space="preserve">
+    <value>需要填写版本号信息</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_VersionInfoRule" xml:space="preserve">
+    <value>版本号格式必须为number.number.number</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Required_VhdEnglishName" xml:space="preserve">
+    <value>需要填写英文名称</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_VhdEnglishNameRule" xml:space="preserve">
+    <value>英文名称不能包含中文</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Validate_VhdNameLength" xml:space="preserve">
+    <value>必须为长度25以内的中文或者长度50以内的英文</value>
+    <comment>发布（或更新或新版本）镜像时表单验证</comment>
+  </data>
+  <data name="View_Shared_ARMInfo" xml:space="preserve">
+    <value>Azure 资源管理模板信息</value>
+  </data>
+  <data name="View_Shared_TrailInfo" xml:space="preserve">
+    <value>定制服务信息</value>
+  </data>
+  <data name="View_Vhd_Address" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="View_Vhd_ARMAttachment" xml:space="preserve">
+    <value>ARM附件</value>
+    <comment>查看编辑申请比对数据，ARM附件</comment>
+  </data>
+  <data name="View_Vhd_Cover" xml:space="preserve">
+    <value>截屏</value>
+    <comment>查看编辑申请比对数据，展示截屏的比对图片</comment>
+  </data>
+  <data name="View_Vhd_Data" xml:space="preserve">
+    <value>数据</value>
+    <comment>版本数据展示时，列名称</comment>
+  </data>
+  <data name="View_Vhd_GetGithubZip" xml:space="preserve">
+    <value>获取GitHub用的zip</value>
+  </data>
+  <data name="View_Vhd_GetPIRCode" xml:space="preserve">
+    <value>获取发布PIR镜像命令</value>
+  </data>
+  <data name="View_Vhd_InnerVersionNum" xml:space="preserve">
+    <value>内部版本号</value>
+    <comment>version表的一个字段</comment>
+  </data>
+  <data name="View_Vhd_InvalidISVGuide" xml:space="preserve">
+    <value>请阅读&lt;a href="~/documentation/publishguide" target="_blank"&gt; Azure 市场服务商指南&lt;/a&gt;查看详细流程。</value>
+    <comment>不能发布镜像时提示页面的文本内容</comment>
+  </data>
+  <data name="View_Vhd_InvalidISVPrompt" xml:space="preserve">
+    <value>您还不能发布服务。您必须&lt;a href="~/isv/new" target="_blank"&gt;认证&lt;/a&gt;成为 Azure 市场合作伙伴。</value>
+    <comment>不能发布镜像时提示页面的文本内容</comment>
+  </data>
+  <data name="View_Vhd_Link" xml:space="preserve">
+    <value>链接</value>
+    <comment>查看版本信息的行标题</comment>
+  </data>
+  <data name="View_Vhd_OriginalData" xml:space="preserve">
+    <value>原数据</value>
+  </data>
+  <data name="View_Vhd_PublishVersionAfterApproval" xml:space="preserve">
+    <value>管理员审批后才能发布新版本的镜像！</value>
+    <comment>‘已经存在一个版本更新’提示页面的文本内容</comment>
+  </data>
+  <data name="View_Vhd_UpdateData" xml:space="preserve">
+    <value>更改后</value>
+  </data>
+  <data name="View_Vhd_UploadLogo" xml:space="preserve">
+    <value>上传Logo</value>
+    <comment>查看编辑申请比对数据，展示Logo的比对图片</comment>
+  </data>
+  <data name="View_Vhd_VersionExist" xml:space="preserve">
+    <value>已经存在一个版本更新。</value>
+    <comment>‘已经存在一个版本更新’提示页面的文本内容</comment>
+  </data>
+  <data name="View_Vhd_ViewDetail" xml:space="preserve">
+    <value>查看详情</value>
+    <comment>查看编辑申请比对数据，页面顶部文字（Admin权限可看到）</comment>
+  </data>
+  <data name="Msg_NeedAzureSubscription" xml:space="preserve">
+    <value>开始使用微软 Azure ，你需要一个 Azure 订阅</value>
+  </data>
+  <data name="Msg_NoAzureSubscription" xml:space="preserve">
+    <value>您没有 Azure 订阅</value>
+  </data>
+  <data name="Msg_NotValidatedAzureSubscription" xml:space="preserve">
+    <value>我们无法找到您作为服务管理员或共同管理员的任何 Azure 订阅。&amp;lt;br /&amp;gt;您已使用 Azure 活动目录&amp;lt;b&amp;gt;{0}&amp;lt;/b&amp;gt;中的用户&amp;lt;b&amp;gt;{1}&amp;lt;/b&amp;gt;登录。&amp;lt;br /&amp;gt;如果这不是你预期要使用的帐户，请&amp;lt;a href="~/Sign/Logout"&amp;gt;登出&amp;lt;/a&amp;gt;并使用其他帐户登录。&amp;lt;br /&amp;gt;</value>
+    <comment>订阅Azure，提示信息</comment>
+  </data>
+  <data name="Msg_SignIn_AzureAccountMessage" xml:space="preserve">
+    <value>如果您还没有 Azure 中国账号，请联系您所在组织的管理员。管理员可以登录 Azure &lt;a href="https://manage.windowsazure.cn" target="_blank"&gt;管理门户&lt;/a&gt;，使用 Azure Active Directory(AAD) 来创建您的 Azure 中国账号。</value>
+    <comment>登录页面提示信息</comment>
+  </data>
+  <data name="Msg_SignIn_NoAzureSubscribe" xml:space="preserve">
+    <value>如果您还没有 Azure 订阅</value>
+    <comment>登录页面提示信息</comment>
+  </data>
+  <data name="Msg_SubscribeAzure" xml:space="preserve">
+    <value>请先&lt;a href="https://www.azure.cn/pricing/pia/" target="_blank"&gt;购买&lt;/a&gt; Azure 账号及订阅。您也可以申请&lt;a href="https://www.azure.cn/pricing/1rmb-trial/" target="_blank"&gt;免费试用&lt;/a&gt;。</value>
+    <comment>订阅Azure，提示信息</comment>
+  </data>
+  <data name="View_lbl_IsNotISV" xml:space="preserve">
+    <value>您还没有申请成为服务商。</value>
+    <comment>我的信息-&gt;如果我的服务商列表为空，会显示该提示信息</comment>
+  </data>
+  <data name="View_lbl_ManageUser" xml:space="preserve">
+    <value>管理用户</value>
+    <comment>我的信息-&gt;我的服务商列表中'管理用户'链接按钮</comment>
+  </data>
+  <data name="View_lbl_Whole" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="View_ThirdPartyProduct" xml:space="preserve">
+    <value>第三方产品。</value>
+    <comment>第三方产品。</comment>
+  </data>
+  <data name="View_ThirdPartyProduct_Four" xml:space="preserve">
+    <value>(iv) 如果您配合服务安装或使用了任何第三方产品，则您安装和使用此类产品的方式不应导致我们的知识产权或技术必须承担本协议未包括的任何义务。</value>
+    <comment>第三方产品。条例四</comment>
+  </data>
+  <data name="View_ThirdPartyProduct_One" xml:space="preserve">
+    <value>(i) 我们可能会向您提供第三方产品。对第三方产品的使用将受您和提供该第三方产品的第三方签订的单独条款的约束。为了方便起见，我们可能在您的服务账单中包含针对第三方产品的收费。不过我们（以及我们的服务商）不对第三方产品承担任何责任。</value>
+    <comment>第三方产品。条例一</comment>
+  </data>
+  <data name="View_ThirdPartyProduct_Three" xml:space="preserve">
+    <value>(iii) 如果您配合服务安装或使用了任何第三方产品，则您（而非我们）应通过相应行动（例如，通过使用应用程序编程接口或作为服务一部分的其他技术手段），监管和控制此类产品在服务中的安装和使用。我们将不会私自运行此类第三方产品，也不会创建任何副本。</value>
+    <comment>第三方产品。条例三</comment>
+  </data>
+  <data name="View_ThirdPartyProduct_Two" xml:space="preserve">
+    <value>(ii) 对于您配合服务安装或使用的任何第三方产品，您应独自承担责任。我们并不是管辖您对任何第三方产品的使用的任何条款的当事方，亦不受该等条款约束。</value>
+    <comment>第三方产品。条例二</comment>
+  </data>
+  <data name="Msg_AddFailed" xml:space="preserve">
+    <value>添加失败</value>
+    <comment>服务商添加重复成员失败，提示信息</comment>
+  </data>
+  <data name="Msg_AddSucceeded" xml:space="preserve">
+    <value>添加成功</value>
+    <comment>服务商添加重复成员成功，提示信息</comment>
+  </data>
+  <data name="Msg_CannotDeleteApprovedOffer" xml:space="preserve">
+    <value>不能直接删除已经通过审批的服务</value>
+    <comment>删除vhd版本时，校验该版本，如果已经审批通过了，就不能删除，显示该提示信息</comment>
+  </data>
+  <data name="Msg_ConfirmPublishUpdateContent" xml:space="preserve">
+    <value>这是一个新版本的更新内容，你是否要申请上架这个新版本。</value>
+    <comment>正在编辑(左侧菜单栏)-&gt;提交审批，点击提交审批按钮，如果是修改了新版本内容，显示该提示信息</comment>
+  </data>
+  <data name="Msg_DeleteFailed" xml:space="preserve">
+    <value>删除失败</value>
+    <comment>服务商删除成员信息时，删除失败</comment>
+  </data>
+  <data name="Msg_DeleteSucceeded" xml:space="preserve">
+    <value>删除成功</value>
+    <comment>服务商删除成员信息时，删除成功</comment>
+  </data>
+  <data name="Msg_DoNotReSubmitFeedback" xml:space="preserve">
+    <value>您的反馈正在处理中，请勿重复提交。</value>
+    <comment>提交反馈表单时，重复提交反馈，给出的提示信息</comment>
+  </data>
+  <data name="Msg_FeedBackFailed" xml:space="preserve">
+    <value>您的反馈提交失败</value>
+    <comment>提交反馈表单时，提交反馈失败的提示信息</comment>
+  </data>
+  <data name="Msg_FeedBackSucceeded" xml:space="preserve">
+    <value>您的反馈已提交</value>
+    <comment>提交反馈表单时，提交反馈成功的提示信息</comment>
+  </data>
+  <data name="Msg_ImageIsNotPNG" xml:space="preserve">
+    <value>上传的图片不是PNG格式</value>
+    <comment>发布或更新镜像填写表单时，验证上传的图片不是PNG格式，提示信息</comment>
+  </data>
+  <data name="Msg_InvalidCode" xml:space="preserve">
+    <value>无效的激活码</value>
+    <comment>验证Token不匹配时，提示信息</comment>
+  </data>
+  <data name="Msg_InvalidClaimName" xml:space="preserve">
+    <value>无效的 Azure 中国账号</value>
+    <comment>程序抛出异常的提示信息</comment>
+  </data>
+  <data name="Msg_NeedDeleteUnpublishedVersion" xml:space="preserve">
+    <value>您正要申请删除的服务有未上架的版本，请先删除所有此服务的未上架版本再提交删除申请</value>
+    <comment>ISV删除已经上架的版本时，会检测是否存在未上架的版本，如果存在，则不允许删除，并显示该提示信息</comment>
+  </data>
+  <data name="Msg_NoPermission" xml:space="preserve">
+    <value>亲爱的用户，您没有权限进行该操作</value>
+    <comment>服务商修改成员信息时，数据库中检测该成员权限不够，提示信息</comment>
+  </data>
+  <data name="Msg_NotISV" xml:space="preserve">
+    <value>您还没有认证成为ISV</value>
+    <comment>验证ISV失败，提示信息</comment>
+  </data>
+  <data name="Msg_SaveSucceeded" xml:space="preserve">
+    <value>保存成功</value>
+  </data>
+  <data name="Msg_SubmitDeleteApplySuccess" xml:space="preserve">
+    <value>提交删除申请成功</value>
+    <comment>ISV提交删除已经上架的版本申请成功</comment>
+  </data>
+  <data name="Msg_UpdateFailed" xml:space="preserve">
+    <value>更新失败</value>
+    <comment>服务商修改成员信息时，更新失败</comment>
+  </data>
+  <data name="Msg_UpdateSucceeded" xml:space="preserve">
+    <value>更新成功</value>
+    <comment>服务商修改成员信息时，更新成功</comment>
+  </data>
+  <data name="Msg_UserAlreadyExist" xml:space="preserve">
+    <value>用户已存在</value>
+    <comment>服务商添加重复成员时，提示信息</comment>
+  </data>
+  <data name="Msg_UserNotExist" xml:space="preserve">
+    <value>用户不存在</value>
+    <comment>服务商修改成员信息时，数据库中检测不到该成员，提示信息</comment>
+  </data>
+  <data name="View_List_AllVhds" xml:space="preserve">
+    <value>所有镜像</value>
+    <comment>菜单列表-&gt;所有镜像</comment>
+  </data>
+  <data name="View_List_Editing" xml:space="preserve">
+    <value>正在编辑</value>
+    <comment>菜单列表-&gt;正在编辑</comment>
+  </data>
+  <data name="View_List_MyInformation" xml:space="preserve">
+    <value>我的信息</value>
+    <comment>菜单列表-&gt;我的信息</comment>
+  </data>
+  <data name="View_List_PublishedOffer" xml:space="preserve">
+    <value>已上架服务</value>
+    <comment>菜单列表-&gt;已上架服务</comment>
+  </data>
+  <data name="View_List_OffersToBePublished" xml:space="preserve">
+    <value>未上架服务</value>
+    <comment>菜单列表-&gt;未上架服务</comment>
+  </data>
+  <data name="View_ISV_CompanyCity" xml:space="preserve">
+    <value>请填写城市</value>
+    <comment>服务商入驻-&gt;公司所在城市</comment>
+  </data>
+  <data name="View_Required_CompanyCity" xml:space="preserve">
+    <value>必须填写公司所在城市</value>
+    <comment>服务商入驻-&gt;公司所在城市（必填的验证信息）</comment>
+  </data>
+  <data name="View_ImageSizes" xml:space="preserve">
+    <value>{0} ({1}核 {2}MB)</value>
+  </data>
+  <data name="View_ImageSizes_Title" xml:space="preserve">
+    <value>推荐虚拟机大小</value>
+  </data>
+  <data name="View_Validate_ImageSize_Required" xml:space="preserve">
+    <value>请选择虚拟机大小</value>
+  </data>
+  <data name="View_Validate_ImageSize_MaxSize" xml:space="preserve">
+    <value>选择的虚拟机数量最大为{0}个</value>
+  </data>
+  <data name="View_vhd_leadsGen_addtionalEmails" xml:space="preserve">
+    <value>Additional Email Contacts</value>
+  </data>
+  <data name="View_vhd_leadsGen_ConnectString" xml:space="preserve">
+    <value>Connect String</value>
+  </data>
+  <data name="View_vhd_leadsGen_disable" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="View_vhd_leadsGen_enable" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="View_Vhd_LeadsGen_Title" xml:space="preserve">
+    <value>Collect user's information</value>
+  </data>
+  <data name="Msg_NoDeleteOwn" xml:space="preserve">
+    <value>您不能删除自己信息</value>
+    <comment>删除自己记录时提示信息</comment>
+  </data>
+  <data name="Msg_NoUpdateOwnSuperAdmin" xml:space="preserve">
+    <value>您不能更改自己的管理权限</value>
+    <comment>管理权限的管理员不允许修改自己的管理权限，否则显示该提示信息</comment>
+  </data>
+  <data name="Msg_PleaseLoginAgain" xml:space="preserve">
+    <value>即将跳转到登录页，请重新登录</value>
+    <comment>跳转到登录页时，提示信息</comment>
+  </data>
+  <data name="Msg_ShouldbeSuperAdmin" xml:space="preserve">
+    <value>您需要管理权限</value>
+    <comment>管理-&gt;用户-&gt;没有管理权限的用户操作时，提示信息</comment>
+  </data>
+  <data name="View_ISV_AddAdmin" xml:space="preserve">
+    <value>新增管理员</value>
+  </data>
+  <data name="View_ISV_SuperAdmin" xml:space="preserve">
+    <value>管理权限</value>
+  </data>
+  <data name="View_ISV_UpdateAdmin" xml:space="preserve">
+    <value>更改管理员权限</value>
+  </data>
+  <data name="View_ISV_Insight" xml:space="preserve">
+    <value>Insight</value>
+  </data>
+  <data name="View_Vhd_PricingModel_BYOL" xml:space="preserve">
+    <value>BYOL</value>
+  </data>
+  <data name="View_Vhd_PricingModel_BYOL_Free30" xml:space="preserve">
+    <value>Free trial (30 days)</value>
+  </data>
+  <data name="View_Vhd_PricingModel_BYOL_Free90" xml:space="preserve">
+    <value>Free trial (90 days)</value>
+  </data>
+  <data name="View_Vhd_PricingModel_BYOL_NoFree" xml:space="preserve">
+    <value>No free trial</value>
+  </data>
+  <data name="View_Vhd_PricingModel_BYOL_Type" xml:space="preserve">
+    <value>BYOL Type</value>
+  </data>
+  <data name="View_Vhd_PricingModel_Free" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="View_Vhd_PricingModel_Title" xml:space="preserve">
+    <value>Pricing Model</value>
+  </data>
+  <data name="Msg_ApprovalUpdate" xml:space="preserve">
+    <value>操作完成，同意了该更新内容。</value>
+  </data>
+  <data name="Msg_DisapprovalUpdate" xml:space="preserve">
+    <value>操作完成，拒绝了该更新内容。</value>
+  </data>
+  <data name="Msg_NotExistOffer" xml:space="preserve">
+    <value>这个申请不存在或者已经被审核过了</value>
+  </data>
+  <data name="Msg_ReturnSucceeded" xml:space="preserve">
+    <value>操作完成，退回了该更新内容。</value>
+  </data>
+  <data name="Msg_SendEmailFailed" xml:space="preserve">
+    <value>通知邮件发送失败。</value>
+  </data>
+  <data name="View_ISV_DataDiskPublishUrlDesc" xml:space="preserve">
+    <value>填写要上传的Data Disk文件的公共URL。</value>
+  </data>
+</root>
