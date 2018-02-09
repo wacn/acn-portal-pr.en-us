@@ -914,9 +914,6 @@
   <data name="View_lbl_Featured" xml:space="preserve">
     <value>Featured</value>
   </data>
-  <data name="View_lbl_MSOpenTechInc" xml:space="preserve">
-    <value>&amp;copy; 2014 Microsoft Open Technologies, Inc.Beijing ICP 09042378 No. -18</value>
-  </data>
   <data name="View_lbl_PrivacyCookies" xml:space="preserve">
     <value>Privacy &amp; Cookies</value>
   </data>
@@ -2349,7 +2346,7 @@
     <comment>服务商入驻，立即入驻，填写基本信息表单的提示文字</comment>
   </data>
   <data name="View_ISV_InformationOf" xml:space="preserve">
-    <value>的信息</value>
+    <value>{0}的信息</value>
     <comment>(ISVCompanyName)的信息</comment>
   </data>
   <data name="View_ISV_ISVApplyInformation" xml:space="preserve">
@@ -3367,8 +3364,5 @@
   </data>
   <data name="Msg_SendEmailFailed" xml:space="preserve">
     <value>通知邮件发送失败。</value>
-  </data>
-  <data name="View_ISV_DataDiskPublishUrlDesc" xml:space="preserve">
-    <value>填写要上传的Data Disk文件的公共URL。</value>
   </data>
 </root>
