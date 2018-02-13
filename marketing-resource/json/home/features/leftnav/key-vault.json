@@ -1,0 +1,54 @@
+{"service": "Key Vault", 
+"id": "leftnav_product_key-vault", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_key-vault_details", 
+	"articles": 
+		[
+			{"link": "/home/features/key-vault/", 
+			"id": "leftnav_product_key-vault_function", 
+			"title": "Product functionality"}, 
+			{"link": "/pricing/details/key-vault/", 
+			"id": "leftnav_product_key-vault_pricing", 
+			"title": "Price details"},
+			{"link": "/pricing/calculator/key-vault/", 
+			"id": "leftnav_product_key-vault_calculator", 
+			"title": "Price calculator"},
+			{"link": "https://docs.azure.cn/key-vault/", 
+			"id": "leftnav_product_key-vault_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/key-vault/", 
+			"id": "leftnav_product_key-vault_sla", 
+			"title": "Service level agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_key-vault_related", 
+	"articles": 
+		[
+			{"link": "/home/features/web-site/", 
+			"id": "leftnav_product_web-site_function", 
+			"title": "Web app"}, 
+			{"link": "/home/features/expressroute/", 
+			"id": "leftnav_product_expressroute_function", 
+			"title": "ExpressRoute"},
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_storage_function", 
+			"title": "Storage"},
+			{"link": "/home/features/virtual-network/", 
+			"id": "leftnav_product_networking_function", 
+			"title": "Virtual network"}
+		]
+	}, 
+	{"group": "Related documentation and links", 
+	"id": "leftnav_product_key-vault_others", 
+	"articles": 
+		[
+			{"link": "https://docs.azure.cn/key-vault/key-vault-get-started/", 
+			"id": "leftnav_product_key-vault_articles_key-vault-get-started", 
+			"title": "Begin using the Key Vault"}
+		]
+	}
+]
+}

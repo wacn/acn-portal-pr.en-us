@@ -1,0 +1,57 @@
+{"service": "HDInsight", 
+"id": "leftnav_product_hdinsight", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_hdinsight_details", 
+	"articles": 
+		[
+			{"link": "/home/features/hdinsight/", 
+			"id": "leftnav_product_hdinsight_function", 
+			"title": "HDInsight"}, 
+			{"link": "/pricing/details/hdinsight/", 
+			"id": "leftnav_product_hdinsight_pricing", 
+			"title": "Price details"},
+			{"link": "/pricing/calculator/hdinsight/", 
+			"id": "leftnav_product_hdinsight_calculator", 
+			"title": "Price calculator"},
+			{"link": "https://docs.azure.cn/hdinsight/", 
+			"id": "leftnav_product_hdinsight_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/hdinsight/", 
+			"id": "leftnav_product_hdinsight_sla", 
+			"title": "Service level agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_hdinsight_related", 
+	"articles": 
+		[
+			{"link": "/home/features/sql-database/", 
+			"id": "leftnav_product_sql-database_function", 
+			"title": "SQL database"}, 
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_function", 
+			"title": "Virtual machine"}, 
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_storage_function", 
+			"title": "Storage"},
+			{"link": "/home/features/virtual-network/", 
+			"id": "leftnav_product_networking_function", 
+			"title": "Virtual network"}		
+		]
+	}, 
+	{"group": "Related documentation and links", 
+	"id": "leftnav_product_hdinsight_others", 
+	"articles": 
+		[
+			{"link": "/solutions/data-analysis/", 
+			"id": "leftnav_product_hdinsight_solutions_data-analysis", 
+			"title": "Data analysis solutions"},
+			{"link": "https://docs.azure.cn/hdinsight/", 
+			"id": "leftnav_product_hdinsight_articles_hdinsight-hadoop-tutorial-get-started-windows-v1", 
+			"title": "Execute a simple network configuration unit query"}
+		]
+	}
+]
+}

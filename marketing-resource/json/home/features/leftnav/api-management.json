@@ -1,0 +1,69 @@
+{"service": "API management", 
+"id": "leftnav_product_api-management", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_api-management_details", 
+	"articles": 
+		[
+			{"link": "/home/features/api-management/", 
+			"id": "leftnav_product_api-management_function", 
+			"title": "Product functionality"}, 
+			{"link": "/pricing/details/api-management/", 
+			"id": "leftnav_product_api-management_pricing", 
+			"title": "Price details"},
+			{"link": "/pricing/calculator/api-management/", 
+			"id": "leftnav_product_api-management_calculator", 
+			"title": "Price calculator"},
+			{"link": "https://docs.azure.cn/api-management/", 
+			"id": "leftnav_product_api-management_documentation", 
+			"title": "Documentation"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_api-management_related", 
+	"articles": 
+		[
+			{"link": "/home/features/virtual-network/", 
+			"id": "leftnav_product_networking_function", 
+			"title": "Virtual network"},
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_function", 
+			"title": "Virtual machine"},
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_storage_function", 
+			"title": "Storage"}			
+		]
+	}, 
+	{"group": "Related documentation and links", 
+	"id": "leftnav_product_api-management_others", 
+	"articles": 
+		[
+			{"link": "https://docs.azure.cn/zh-cn/api-management/api-management-key-concepts", 
+			"id": "leftnav_product_api-management-key-concepts", 
+			"title": "What is API Management?"},
+			{"link": "https://docs.azure.cn/zh-cn/api-management/api-management-get-started", 
+			"id": "leftnav_product_api-management-get-started", 
+			"title": "Managing your first API in Azure API Management"},
+			{"link": "https://docs.azure.cn/zh-cn/api-management/api-management-howto-create-apis", 
+			"id": "leftnav_product_api-management-howto-create-apis", 
+			"title": "How to create an API in Azure API Management"},
+			{"link": "https://docs.azure.cn/zh-cn/api-management/api-management-faq", 
+			"id": "leftnav_product_api-management-faq", 
+			"title": "Answers to FAQs with Azure API Management"},
+			{"link": "https://docs.azure.cn/zh-cn/api-management/api-management-howto-cache", 
+			"id": "leftnav_product_api-management-howto-cache", 
+			"title": "Add caching to improve performance in Azure API Management"},
+			{"link": "https://docs.azure.cn/zh-cn/api-management/api-management-howto-product-with-rules", 
+			"id": "leftnav_product_api-management-howto-product-with-rules", 
+			"title": "Using Azure API Management to help protect against API rate-limiting"},
+			{"link": "https://docs.azure.cn/zh-cn/api-management/api-management-howto-add-operations", 
+			"id": "leftnav_product_api-management-howto-add-operations", 
+			"title": "How to operate the API cache in Azure API Management"},
+			{"link": "https://docs.azure.cn/zh-cn/api-management/api-management-howto-add-products", 
+			"id": "leftnav_product_api-management-howto-add-products", 
+			"title": "How to create and publish products in Azure API Management"}		
+		]
+	}
+]
+}

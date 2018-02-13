@@ -1,0 +1,60 @@
+{"service": "Azure IoT kit", 
+"id": "leftnav_product_iot-suite", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_iot-suite_details", 
+	"articles": 
+		[
+			{"link": "/home/features/iot-suite/", 
+			"id": "leftnav_product_iot-suite", 
+			"title": "Product functionality"},
+			{"link": "https://docs.azure.cn/iot-suite/", 
+			"id": "leftnav_product_iot-suite", 
+			"title": "Documentation"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_iot-hub_related", 
+	"articles": 
+		[
+			{"link": "/home/features/iot-hub/", 
+			"id": "leftnav_product_iot-hub", 
+			"title": "Azure IoT Center"}, 
+			{"link": "/home/features/stream-analytics/", 
+			"id": "leftnav_product_stream-analytics", 
+			"title": "Flow analysis"}, 
+			{"link": "/home/features/notification-hubs/", 
+			"id": "leftnav_product_notification-hubs", 
+			"title": "Notification Center"}, 
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_storage", 
+			"title": "Storage"}
+		]
+	}, 
+	{"group": "Related documentation and links", 
+	"id": "leftnav_product_iot-hub_others", 
+	"articles": 
+		[
+			{"link": "/solutions/data-analysis/", 
+			"id": "leftnav_iot-suite_data-analysis", 
+			"title": "Data analysis solutions"},
+			{"link": "/solutions/iot/", 
+			"id": "leftnav_iot-suite_iot", 
+			"title": "Connected Devices solutions"},
+			{"link": "https://docs.azure.cn/iot-suite/iot-suite-what-is-azure-iot/", 
+			"id": "leftnav_iot-suite_iot-suite-what-is-azure-iot", 
+			"title": "Azure and connected devices"},
+			{"link": "https://docs.azure.cn/iot-suite/iot-suite-overview/", 
+			"id": "leftnav_iot-suite_iot-suite-overview",  
+			"title": "What is the Azure IoT kit?"},
+			{"link": "https://docs.azure.cn/iot-suite/iot-suite-getstarted-preconfigured-solutions/", 
+			"id": "leftnav_iot-suite_iot-suite-getstarted-preconfigured-solutions", 
+			"title": "Azure IoT kit preconfigured installation basics"},
+			{"link": "https://docs.azure.cn/iot-suite/iot-suite-remote-monitoring-sample-walkthrough/", 
+			"id": "leftnav_iot-suite_iot-suite-remote-monitoring-sample-walkthrough", 
+			"title": "Azure IoT kit remote monitoring preconfigured installation tutorial"}
+		]
+	}
+]
+}

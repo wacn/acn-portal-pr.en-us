@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <umbTextpage id="18482" parentID="12022" level="3" writerID="106" creatorID="94" nodeType="1059" template="11" sortOrder="0" createDate="2013-05-05T16:51:50" updateDate="2014-11-11T02:23:53" nodeName="Overview" urlName="overview" writerName="content" creatorName="xunfan" path="-1,11978,12022,18482" isDoc="" isResponsive="true">
+    <bodyText><![CDATA[
+      
+      <style type="text/css">
+      	@media only screen and (min-width: 980px){
+      		#nav_item_pri{
+		      	margin-right:14%;
+		      }
+      	}
+      	.overview-content .nav_item{
+      	height:280px;
+      	}
+	      	
+      </style>
+			<div class="overview-content">
+				<div class="container">
+					<div id="price_overview_nav" class="page_body_nav">
+						<h1>
+							<a id="overview_anchor_knowPrice" class="anchor"></a> Understanding pricing for all services
+							<br />
+						</h1>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="nav_item" id="nav_item_pri">
+								<a id="overview_anchor_cal" class="anchor"></a>
+								<h2 class="nav_title">
+									Calculate
+								</h2>
+								<ul title="Calculate" class="low-price">
+									<li>
+										<a id="price_overview_cal_virtual-machines" href="/pricing/details/virtual-machines/" class="single-link"> Virtual machine </a>
+									</li>
+									<li>
+										<a id="price_overview_cal_virtual-machine-scale-sets" href="/pricing/details/virtual-machine-scale-sets/" class="single-link"> Virtual machine scale sets </a>
+									</li>
+									
+									<li>
+										<a id="pricing_overview_cal_app-service" href="/pricing/details/app-service/" class="single-link">App service</a>
+									</li>
+									
+									<li>
+										<a id="price_overview_cal_batch" href="/pricing/details/batch/" class="single-link">Batch processing</a>
+									</li>
+									
+									<li>
+										<a id="price_overview_cal_service_fabric" href="/pricing/details/service-fabric/" class="single-link">Service Fabric</a>
+									</li>
+									
+									<li>
+										<a id="price_overview_cal_cloud-services" href="/pricing/details/cloud-services/" class="single-link"> Cloud services </a>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="nav_item" id="nav_item_pri">
+								<a id="overview_anchor_network" class="anchor"></a>
+								<h2 class="nav_title" >
+									Network
+								</h2>
+								<ul title="Network"  class="low-price">
+									<li>
+										<a id="pricing_overview_network_networking" href="/pricing/details/networking/" class="single-link">Virtual network</a>
+									</li>
+									<li>
+										<a id="pricing_overview_network_load-balancer" href="/pricing/details/load-balancer/" class="single-link">Load Balancer</a>
+									</li>
+									<li>
+										<a id="pricing_overview_network_application-gateway" href="/pricing/details/application-gateway/" class="single-link">App gateway</a>
+									</li>
+									<li>
+										<a id="pricing_overview_network_vpn_gateway" href="/pricing/details/vpn-gateway/" class="single-link">VPN network router</a>
+									</li>
+									<li>
+										<a id="pricing_overview_network_cdn" href="/pricing/details/cdn/" class="single-link">Content Delivery Network</a>
+									</li>
+									<li>
+										<a id="pricing_overview_network_traffic-manager" href="/pricing/details/traffic-manager/" class="single-link">Traffic volume manager</a>
+									</li>
+									<li>
+										<a id="pricing_overview_network_expressroute" href="/pricing/details/expressroute/" class="single-link">ExpressRoute</a>
+									</li>
+									<li>
+										<a id="pricing_overview_network_data-transfer" href="/pricing/details/data-transfer/" class="single-link">Data Transmission (Bandwidth)</a>
+									</li>
+									<li>
+										<a id="pricing_overview_network_reserved-ip-addresses" href="/pricing/details/reserved-ip-addresses/" class="single-link">IP Address</a>
+									</li>
+									<li>
+										<a id="pricing_overview_network_reserved-network-watcher" href="/pricing/details/network-watcher/" class="single-link">Network Observation Procedures</a>
+									</li>
+								</ul>
+							</div>
+						</div>									
+
+						<div class="col-md-3 col-xs-6">
+							<div class="nav_item" id="nav_item_pri">
+								<a id="overview_anchor_storage" class="anchor"></a>						
+								<h2 class="nav_title">
+									Storage
+								</h2>
+								<ul title="Storage"  class="low-price">
+									<li>
+										<a id="pricing_overview_storage_storage" href="/pricing/details/storage/" class="single-link">Storage</a>
+									</li>
+									<li>
+										<a id="pricing_overview_storage_back-up" href="/pricing/details/back-up/" class="single-link">Backup</a>
+									</li>
+									<li>
+										<a id="pricing_overview_storage_site-recovery" href="/pricing/details/site-recovery/" class="single-link">Website Recovery</a>
+									</li>
+								</ul>
+							</div>
+						</div>	
+
+
+						<div class="col-md-3 col-xs-6">
+							<div class="nav_item" id="nav_item_pri">
+								<a id="overview_anchor_network" class="anchor"></a>
+									<h2 class="nav_title">
+									Web + Mobile
+								</h2>
+								<ul title="Web + Mobile"  class="low-price">
+                                    <li>
+										<a id="pricing_overview_Web&Mobile_app-service" href="/pricing/details/app-service/" class="single-link">App service</a>
+									</li>
+									<li>
+										<a id="pricing_overview_Web&Mobile_mobile-services" href="/pricing/details/mobile-services/" class="single-link">Mobile Services</a>
+									</li>									
+									<li>
+										<a id="pricing_overview_Web&Mobile_cdn" href="/pricing/details/cdn/" class="single-link">Content Delivery Network</a>
+									</li>
+									<li>
+										<a id="pricing_overview_Web&Mobile_media-services" href="/pricing/details/media-services/" class="single-link">Media server</a>
+									</li>
+									<li>
+										<a id="pricing_overview_Web&Mobile_api-management" href="/pricing/details/api-management/" class="single-link">API management</a>
+									</li>
+
+									
+								</ul>
+							</div>
+						</div>						
+						
+						<div class="col-md-3 col-xs-6">
+							<div class="nav_item larger_item" id="nav_item_pri">
+								<a id="overview_anchor_database" class="anchor"></a>
+								<h2 class="nav_title">
+									Database
+								</h2>
+								<ul title="Database">
+									<li>
+										<a id="pricing_overview_database_sql-database" href="/pricing/details/sql-database/" class="single-link">SQL database</a>
+									</li>
+									<li>
+										<a id="pricing_overview_database_mysql" href="/pricing/details/mysql/" class="single-link"> MySQL Database on Azure </a>
+									</li>
+									<li>
+										<a id="pricing_overview_database_sql-data-warehouse" href="/pricing/details/sql-data-warehouse/" class="single-link">SQL data warehouse</a>
+									</li>
+									<li>
+										<a id="pricing_overview_database_sql_server_stretch_database" href="/pricing/details/sql-server-stretch-database/" class="single-link"> SQL Server Stretch Database </a>
+									</li>									
+									<li>
+										<a id="pricing_overview_database_cosmos-db" href="/pricing/details/cosmos-db/" class="single-link">Cosmos DB</a>
+									</li>
+									<li>
+										<a id="pricing_overview_database_redis-cache" href="/pricing/details/redis-cache/" class="single-link">Redis Cache</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="nav_item larger_item" id="nav_item_pri">
+								<a id="overview_anchor_analytics" class="anchor"></a>
+								<h2 class="nav_title">
+									Intelligence + Analysis
+								</h2>
+								<ul title="Intelligence + Analysis">
+									
+									<li>
+										<a id="pricing_overview_analytics_hdinsight" href="/pricing/details/hdinsight/" class="single-link">HDInsight</a>
+									</li>
+									<li>
+										<a id="pricing_overview_analytics_stream-analytics" href="/pricing/details/stream-analytics/" class="single-link">Flow analysis</a>
+									</li>
+									<li>
+										<a id="pricing_overview_analytics_cognitive-services" href="/pricing/details/cognitive-services/" class="single-link">Cognitive Services</a>
+									</li>
+									<li>
+										<a id="pricing_overview_analytics_power-bi-embedded" href="/pricing/details/power-bi-embedded/" class="single-link">Power BI Workspace Collection</a>
+									</li>
+									<li>
+										<a id="pricing_overview_analytics_analysis-services" href="/pricing/details/analysis-services/" class="single-link">Azure analysis services</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="nav_item" id="nav_item_pri">
+								<a id="overview_anchor_internet" class="anchor"></a>
+								<h2 class="nav_title">
+									Connected Devices
+								</h2>
+								<ul title="Connected Devices">
+									<li>
+										<a id="pricing_overview_internet_iot_hub" href="/pricing/details/iot-hub/" class="single-link">Azure IoT Center</a>
+									</li>
+									<li>
+										<a id="pricing_overview_internet_event-hubs" href="/pricing/details/event-hubs/" class="single-link">Event Center</a>
+									</li>
+									<li>
+										<a id="pricing_overview_internet_stream-analytics" href="/pricing/details/stream-analytics/" class="single-link">Flow analysis</a>
+									</li>
+									<li>
+										<a id="pricing_overview_internet_notification-hubs" href="/pricing/details/notification-hubs/" class="single-link">Notification Center</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="col-md-3 col-xs-6">
+							<div class="nav_item" id="nav_item_pri">
+								<a id="overview_anchor_integration" class="anchor"></a>
+								<h2 class="nav_title">
+									Enterprise Integration
+								</h2>
+								<ul title="Enterprise Integration">
+									<li>
+										<a id="pricing_overview_integration_messaging" href="/pricing/details/messaging/" class="single-link">Service Bus</a>
+									</li>
+									<li>
+										<a id="pricing_overview_integration_sql_server_stretch_database" href="/pricing/details/sql-server-stretch-database/" class="single-link"> SQL Server Stretch Database </a>
+									</li>									
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="nav_item" id="nav_item_pri">
+								<a id="overview_anchor_security" class="anchor"></a>
+								<h2 class="nav_title">
+									Security + Authentication
+								</h2>
+								<ul title="Security + Authentication">
+									<li>
+										<a id="pricing_overview_security_key-vault" href="/pricing/details/key-vault/" class="single-link">Key Vault </a>
+									</li>
+									<li>
+										<a id="pricing_overview_security_identity" href="/pricing/details/identity/" class="single-link">Azure Active Directory</a>
+									</li>
+									<li>
+										<a id="pricing_overview_security_multi-factor-authentication" href="/pricing/details/multi-factor-authentication/" class="single-link">Multi-Factor Authentication</a>
+									</li>
+								</ul>
+							</div>
+					   </div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="nav_item" id="nav_item_pri">
+								<a id="overview_anchor_manage" class="anchor"></a>
+								<h2 class="nav_title">
+									Monitoring + Supervision
+								</h2>
+								<ul title="Monitoring + Supervision">
+								<li>
+										<a id="pricing_overview_manage_automation" href="/pricing/details/automation/" class="single-link">Automation</a>
+									</li>
+								<li>
+										<a id="pricing_overview_manage_back-up" href="/pricing/details/back-up/" class="single-link">Backup</a>
+									</li>
+									<li>
+										<a id="pricing_overview_manage_site-recovery" href="/pricing/details/site-recovery/" class="single-link">Website Recovery</a>
+									</li>
+								<li>
+										<a id="pricing_overview_manage_scheduler" href="/pricing/details/scheduler/" class="single-link">Scheduler</a>
+									</li>
+
+
+								</ul>
+							</div>
+						</div>
+
+						<div class="clear" style="margin-bottom:25px;"></div>
+					</div>
+				</div>
+				<div style="clear:both"></div>
+				<div class="container more-detail">
+					<h1 class="word1">FAQs</h1>
+					<em>Expand All</em>
+					<ul>
+						<li>
+							<i class="icon icon-plus"></i>
+							<div>
+								<a id="A0">What is the specific procedure for requesting an invoice? What types of invoices are there? What are the space limits on an invoice?</a>
+								<section>
+									<p>Register at account.windowsazure.cn, click on Subscribe, Payment History, then Manage Invoices, then complete the application. For more information see: <a id="home_overview_fapiao" style="color:#00a8d9;" href="http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html">http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html. </a></p>
+									<p>Invoices include both special value-added tax invoices and ordinary value-added tax invoices.</p>
+									<p>Regarding invoice accounts, the client’s actual name must be used.</p>
+								</section>
+							</div>
+						</li>
+						<li>
+							<i class="icon icon-plus"></i>
+							<div>
+								<a id="A1">Can you apply for an invoice at any time? Where do you apply for an invoice?</a>
+								<section>
+									<p>After payment has been made, wait 3 days. After 3 days you can start applying for an invoice. If you have a special need, please contact the 21Vianet service center, call 86-10-84563652 or 400-089-0365.</p>
+									<p>You can click here to apply directly for an invoice: <a id="home_overview_LoginView" style="color:#00a8d9;" href="http://fapiao.cloud.21vianet.com/EmailAcount/LoginView">http://fapiao.cloud.21vianet.com/EmailAcount/LoginView </a>. You can also use the above address to contact someone about applying for an invoice.</p>
+									<p>Sign in to the Azure manager interface at: <a id="home_overview_account" style="color:#00a8d9;" href="http://account.windowsazure.cn">http://account.windowsazure.cn</a>, click on Subscribe, Payment History, then Manage Invoices.</p>
+								</section>
+							</div>
+						</li>
+						<li>
+							<i class="icon icon-plus"></i>
+							<div>
+								<a id="A2">What is the tax rate?</a>
+								<section>
+									<p>According to the government, the tax rate for 21Vianet cloud services is 6%.</p>
+								</section>
+							</div>
+						</li>
+						<li>
+							<i class="icon icon-plus"></i>
+							<div>
+								<a id="A3">Do I need to provide my license key if I upload my local Windows Server map to Azure?</a>
+								<section>
+									<p>No. Microsoft will use the Window Server license key provided by the currently running instance.</p>
+								</section>
+							</div>
+						</li>
+						<li>
+							<i class="icon icon-plus"></i>
+							<div>
+								<a id="A4">How do I register an invoice interface account? After successfully activating the account, what do I do if I can’t make out an invoice?</a>
+								<section>
+									<p>After clicking here to enter the invoice application interface, you must click the right corner of the page [Register Account] to register the account. On the registration information page, select the product you’ve purchased to register the Azure account.</p>
+									<p>If you are unable to open a ticket after activating your account, please contact our 21Vianet service center. Call: 86-10-84563652 or 400-089-0365.</p>
+								</section>
+							</div>
+						</li>
+						<li>
+							<i class="icon icon-plus"></i>
+							<div>
+								<a id="A5">After applying for an invoice, how do I get the invoice? Do I have to pay any extra costs?</a>
+								<section>
+									<p>You can get it through express delivery or get it yourself. 21Vianet includes the cost of express delivery. You can print and have express delivery through Shanghai Blue Cloud Technology Co., Ltd.</p>
+									<p>If you have previously chosen self-service, you can change this to express delivery. The self-service location is: Room 657, Building 3, No. 88 Keyuan Road, Pudong District, Shanghai.</p>
+								</section>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>		   
+		   
+    ]]></bodyText>
+    <umbracoNaviHide>0</umbracoNaviHide>
+    <pageTitle>To find out about all Azure pricing - Azure Cloud Computing</pageTitle>
+    <metaKeywords>Azure, Microsoft Cloud, Pricing, Service Pricing, Price calculator, Discounts, Invoicing</metaKeywords>
+    <metaDescription><![CDATA[Windows Azure provides detailed price information and you can find out the price of all services as well as preferential deals. It provides price estimates that allow you to quickly understand your costs. At the same time, it will provide you answers to FAQs related to purchasing and provide you consultation.]]></metaDescription>
+    <linkid>pricing-overview</linkid>
+    <urlDisplayName>Overview</urlDisplayName>
+    <headerExpose></headerExpose>
+    <footerExpose></footerExpose>
+    <disqusComments>0</disqusComments>
+    <metaCanonical></metaCanonical>
+    <isHeader>0</isHeader>
+    <pageTemplate></pageTemplate>
+    <localize>0</localize>
+    <localizePartial>0</localizePartial>
+    <sitemapHide>1</sitemapHide>
+    <headerText><![CDATA[]]></headerText>
+    <forbidPublish>0</forbidPublish>
+  </umbTextpage>
+</localize>

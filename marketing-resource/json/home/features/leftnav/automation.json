@@ -1,0 +1,61 @@
+{"service": "Automation", 
+"id": "leftnav_product_automation", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_automation_details", 
+	"articles": 
+		[
+			{"link": "/home/features/automation/", 
+			"id": "leftnav_product_automation_function", 
+			"title": "Product functionality"}, 
+			{"link": "/pricing/details/automation/", 
+			"id": "leftnav_product_automation_pricing", 
+			"title": "Price details"},
+			{"link": "/pricing/calculator/automation/", 
+			"id": "leftnav_product_automation_calculator", 
+			"title": "Price calculator"},
+			{"link": "https://docs.azure.cn/automation/", 
+			"id": "leftnav_product_automation_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/automation/", 
+			"id": "leftnav_product_automation_sla", 
+			"title": "Service level agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_automation_related", 
+	"articles": 
+		[
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_function", 
+			"title": "Virtual machine"},
+			{"link": "/home/features/sql-database/", 
+			"id": "leftnav_product_sql-database_function", 
+			"title": "SQL database"},
+			{"link": "/home/features/web-site/", 
+			"id": "leftnav_product_web-site_function", 
+			"title": "Web app"}, 
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_storage_function", 
+			"title": "Storage"}
+		]
+	}, 
+	{"group": "Related documentation and links", 
+	"id": "leftnav_product_automation_others", 
+	"articles": 
+		[
+			
+			{"link": "/solutions/virtual-machines/", 
+			"id": "leftnav_product_automation_solutions_virtual-machines", 
+			"title": "Virtual machine solutions"}, 
+			{"link": "/solutions/storage-backup-recovery-plan/", 
+			"id": "leftnav_product_automation_solutions_storage-backup-recovery-plan", 
+			"title": "Storage, backup and restore solutions"},
+			{"link": "//docs.azure.cn/zh-cn/automation/automation-first-runbook-textual/", 
+			"id": "leftnav_product_automation_articles_automation-create-runbook-from-samples", 
+			"title": "Azure automation basics"}
+		]
+	}
+]
+}

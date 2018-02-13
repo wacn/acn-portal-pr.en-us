@@ -1,0 +1,54 @@
+{"service": "SQL data warehouse", 
+"id": "leftnav_product_sql-data-warehouse", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_sql-data-warehouse_details", 
+	"articles": 
+		[
+			{"link": "/home/features/sql-data-warehouse/", 
+			"id": "leftnav_product_sql-data-warehouse_function", 
+			"title": "Product functionality"}, 
+			{"link": "/pricing/details/sql-data-warehouse/", 
+			"id": "leftnav_product_sql-data-warehouse_pricing", 
+			"title": "Price details"},
+			{"link": "/pricing/calculator/sql-data-warehouse/", 
+			"id": "leftnav_product_sql-data-warehouse_calculator", 
+			"title": "Price calculator"},
+			{"link": "https://docs.azure.cn/sql-data-warehouse/", 
+			"id": "leftnav_product_sql-data-warehouse_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/sql-data-warehouse/", 
+			"id": "leftnav_product_sql-data-warehouse_sla", 
+			"title": "Service level agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_sql-data-warehouse_related", 
+	"articles": 
+		[
+			{"link": "/home/features/sql-database/", 
+			"id": "leftnav_product_sql-database_function", 
+			"title": "SQL database"}, 
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_function", 
+			"title": "Virtual machine"}, 
+			{"link": "/home/features/virtual-network/", 
+			"id": "leftnav_product_networking_function", 
+			"title": "Virtual network"},
+			{"link": "/home/features/backup/", 
+			"id": "leftnav_product_back-up_function", 
+			"title": "Backup"}
+		]
+	}, 
+	{"group": "Related documentation and links", 
+	"id": "leftnav_product_sql-data-warehouse_others", 
+	"articles": 
+		[
+			{"link": "https://docs.azure.cn/sql-data-warehouse/sql-data-warehouse-get-started-provision-powershell/", 
+			"id": "leftnav_product_sql-data-warehouse_articles_sql-data-warehouse-get-started-provision-powershell", 
+			"title": "Generating the first database"}
+		]
+	}
+]
+}

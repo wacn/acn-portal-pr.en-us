@@ -1,0 +1,87 @@
+{"service": "Virtual machine scale sets", 
+"id": "leftnav_product_virtual-machine-scale-sets", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_virtual-machine-scale-sets_details", 
+	"articles": 
+		[
+			{"link": "/home/features/virtual-machine-scale-sets/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_function", 
+			"title": "Product functionality"}, 
+			{"link": "/pricing/details/virtual-machine-scale-sets/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_pricing", 
+			"title": "Price details"},
+			{"link": "/pricing/calculator/virtual-machine-scale-sets/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_calculator", 
+			"title": "Price calculator"},
+			{"link": "https://docs.azure.cn/virtual-machine-scale-sets/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/virtual-machine-scale-sets/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_support", 
+			"title": "Service level agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_virtual-machine-scale-sets_related", 
+	"articles": 
+		[
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_virtual-machines_function", 
+			"title": "Virtual machine"},
+			{"link": "/home/features/service-fabric/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_service-fabric_function", 
+			"title": "Service Fabric"},
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_storage_function", 
+			"title": "Storage"},
+			{"link": "/home/features/virtual-network/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_networking_function", 
+			"title": "Virtual network"}
+		]
+	}, 
+	{"group": "Related documentation and links", 
+	"id": "leftnav_product_virtual-machine-scale-sets_others", 
+	"articles": 
+		[
+			{"link": "https://docs.azure.cn/zh-cn/articles/azure-Iaas-user-manual-part1/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_articles_azure-Iaas-user-manual-part1", 
+			"title": "Azure IaaS user manual"}, 
+			{"link": "/solutions/virtual-machines/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_solutions_virtual-machines", 
+			"title": "Virtual machine solutions"}, 
+			{"link": "/solutions/high-performance-computing/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_solutions_high-performance-computing", 
+			"title": "High-Performance computing solutions"}, 
+			{"link": "/solutions/dev-test/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_solutions_dev-test", 
+			"title": "Development and testing solutions"},
+			{"link": "/solutions/storage-backup-recovery-plan/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_solutions_storage-backup-recovery-plan", 
+			"title": "Storage, backup and restore solutions"},
+			{"link": "https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-overview/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_articles_virtual-machine-scale-sets-overview", 
+			"title": "About virtual machine scale sets"},
+			{"link": "https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-design-overview/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_articles_virtual-machine-scale-sets-design-overview", 
+			"title": "Designing the scale of virtual machine scale sets"},
+			{"link": "https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-windows-create/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_articles_virtual-machine-scale-sets-windows-create", 
+			"title": "Creating Windows virtual machine scale sets"},
+			{"link": "https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-cli-quick-create/", 
+			"id": "leftnav_product_virtual-machine-scale-sets_articles_virtual-machine-scale-sets-cli-quick-create", 
+			"title": "Using Azure CLI to create virtual machine scale sets"}
+		]
+	}
+]
+}
+
+
+
+
+
+
+
+
+

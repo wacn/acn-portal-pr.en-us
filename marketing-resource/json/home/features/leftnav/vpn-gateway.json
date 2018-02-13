@@ -1,0 +1,60 @@
+{"service": "VPN network router", 
+"id": "leftnav_product_vpn-gateway", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_vpn-gateway_details", 
+	"articles": 
+		[
+			{"link": "/home/features/vpn-gateway/", 
+			"id": "leftnav_product_vpn-gateway_function", 
+			"title": "Product functionality"}, 
+			{"link": "/pricing/details/vpn-gateway/", 
+			"id": "leftnav_product_vpn-gateway_pricing", 
+			"title": "Price details"},
+			{"link": "/pricing/calculator/vpn-gateway/", 
+			"id": "leftnav_product_vpn-gateway_calculator", 
+			"title": "Price calculator"},
+			{"link": "https://docs.azure.cn/vpn-gateway/", 
+			"id": "leftnav_product_vpn-gateway_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/vpn-gateway/", 
+			"id": "leftnav_product_vpn-gateway_sla", 
+			"title": "Service level agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_vpn-gateway_related", 
+	"articles": 
+		[
+			{"link": "/home/features/virtual-network/", 
+			"id": "leftnav_product_networking_function", 
+			"title": "Virtual network"}, 
+			{"link": "/home/features/expressroute/", 
+			"id": "leftnav_product_expressroute_function", 
+			"title": "ExpressRoute"},
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_function", 
+			"title": "Virtual machine"},
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_storage_function", 
+			"title": "Storage"}			
+		]
+	}, 
+	{"group": "Related documentation and links", 
+	"id": "leftnav_product_vpn-gateway_others", 
+	"articles": 
+		[
+			{"link": "https://docs.azure.cn/vpn-gateway/vpn-gateway-site-to-site-create/", 
+			"id": "leftnav_product_vpn-gateway_articles_vpn-gateway-site-to-site-create", 
+			"title": "Creating a website to website link"},
+			{"link": "https://docs.azure.cn/vpn-gateway/vpn-gateway-point-to-site-create/", 
+			"id": "leftnav_product_vpn-gateway_articles_vpn-gateway-point-to-site-create", 
+			"title": "Creating a point to website link"},
+			{"link": "https://docs.azure.cn/vpn-gateway/vpn-gateway-vpn-faq/", 
+			"id": "leftnav_product_vpn-gateway_articles_vpn-gateway-vpn-faq", 
+			"title": "VPN router FAQs"}	
+		]
+	}
+]
+}

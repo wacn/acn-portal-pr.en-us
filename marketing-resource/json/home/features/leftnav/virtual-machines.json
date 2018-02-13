@@ -1,0 +1,87 @@
+{"service": "Virtual machine", 
+"id": "leftnav_product_virtual-machines", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_virtual-machines_details", 
+	"articles": 
+		[
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_function", 
+			"title": "Product functionality"}, 
+			{"link": "/pricing/details/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_pricing", 
+			"title": "Price details"},
+			{"link": "/pricing/calculator/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_calculator", 
+			"title": "Price calculator"},
+			{"link": "https://docs.azure.cn/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_sla", 
+			"title": "Service level agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_virtual-machines_related", 
+	"articles": 
+		[
+			{"link": "/home/features/web-site/", 
+			"id": "leftnav_product_web-site_function", 
+			"title": "Web app"}, 
+			{"link": "/home/features/expressroute/", 
+			"id": "leftnav_product_expressroute_function", 
+			"title": "ExpressRoute"},
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_storage_function", 
+			"title": "Storage"},
+			{"link": "/home/features/virtual-network/", 
+			"id": "leftnav_product_networking_function", 
+			"title": "Virtual network"}
+		]
+	}, 
+	{"group": "Related documentation and links", 
+	"id": "leftnav_product_virtual-machines_others", 
+	"articles": 
+		[
+			{"link": "https://docs.azure.cn/zh-cn/articles/azure-Iaas-user-manual-part1/", 
+			"id": "leftnav_product_virtual-machines_articles_azure-Iaas-user-manual-part1", 
+			"title": "Azure IaaS user manual"}, 
+			{"link": "/solutions/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_solutions_virtual-machines", 
+			"title": "Virtual machine solutions"}, 
+			{"link": "/solutions/high-performance-computing/", 
+			"id": "leftnav_product_virtual-machines_solutions_high-performance-computing", 
+			"title": "High-Performance computing solutions"}, 
+			{"link": "/solutions/dev-test/", 
+			"id": "leftnav_product_virtual-machines_solutions_dev-test", 
+			"title": "Development and testing solutions"},
+			{"link": "/solutions/storage-backup-recovery-plan/", 
+			"id": "leftnav_product_virtual-machines_solutions_storage-backup-recovery-plan", 
+			"title": "Storage, backup and restore solutions"},
+			{"link": "https://docs.azure.cn/virtual-machines/virtual-machines-windows-classic-tutorial/", 
+			"id": "leftnav_product_virtual-machines_articles_virtual-machines-windows-classic-tutorial", 
+			"title": "Creating and running a Windows Server virtual machine"},
+			{"link": "https://docs.azure.cn/zh-cn/virtual-machines/linux/quick-create-portal/", 
+			"id": "leftnav_product_virtual-machines_articles_virtual-machines-linux-tutorial-portal-rm", 
+			"title": "Creating and running a Linux virtual machine"},
+			{"link": "https://docs.azure.cn/virtual-machines/virtual-machines-windows-classic-faq/", 
+			"id": "leftnav_product_virtual-machines_articles_virtual-machines-windows-classic-faq", 
+			"title": "Azure Windows virtual machine FAQs"},
+			{"link": "https://docs.azure.cn/virtual-machines/virtual-machines-linux-classic-faq/", 
+			"id": "leftnav_product_virtual-machines_articles_virtual-machines-linux-classic-faq", 
+			"title": "Azure Linux virtual machine FAQs"}
+		]
+	}
+]
+}
+
+
+
+
+
+
+
+
+

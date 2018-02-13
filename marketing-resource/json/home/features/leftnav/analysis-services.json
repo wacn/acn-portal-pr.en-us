@@ -1,0 +1,60 @@
+{"service": "Azure analysis services", 
+"id": "leftnav_product_analysis-services", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_analysis-services_details", 
+	"articles": 
+		[
+			{"link": "/home/features/analysis-services/", 
+			"id": "leftnav_product_analysis-services_function", 
+			"title": "Product functionality"}, 
+			{"link": "/pricing/details/analysis-services/", 
+			"id": "leftnav_product_analysis-services_pricing", 
+			"title": "Price details"},
+			{"link": "/pricing/calculator/analysis-services/", 
+			"id": "leftnav_product_analysis-services_calculator", 
+			"title": "Price calculator"},
+			{"link": "//docs.azure.cn/analysis-services/", 
+			"id": "leftnav_product_analysis-services_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/analysis-services/", 
+			"id": "leftnav_product_analysis-services_sla", 
+			"title": "Service level agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_analysis-services_related", 
+	"articles": 
+		[
+			{"link": "/home/features/sql-data-warehouse/", 
+			"id": "leftnav_product_sql-data-warehouse_function", 
+			"title": "SQL data warehouse"}, 
+			{"link": "/home/features/sql-database/", 
+			"id": "leftnav_product_sql-database_function", 
+			"title": "SQL database"},
+			{"link": "/home/features/power-bi-embedded/", 
+			"id": "leftnav_product_power-bi-embedded_function", 
+			"title": "Power BI Workspace Collection"}
+		]
+	}, 
+	{"group": "Related documentation and links", 
+	"id": "leftnav_product_analysis-services_others", 
+	"articles": 
+		[
+			{"link": "//docs.azure.cn/zh-cn/analysis-services/analysis-services-overview/", 
+			"id": "leftnav_product_analysis-services-overview", 
+			"title": "What are Azure analytic services"},
+			{"link": "//docs.azure.cn/zh-cn/analysis-services/analysis-services-manage/", 
+			"id": "leftnav_product_analysis-services-manage", 
+			"title": "Managing Analysis Services"},
+			{"link": "//docs.azure.cn/zh-cn/analysis-services/analysis-services-deploy/", 
+			"id": "leftnav_product_analysis-services_articles_analysis-services-deploy", 
+			"title": " From an SSDT deployment model"},
+			{"link": "//docs.azure.cn/zh-cn/analysis-services/analysis-services-backup/", 
+			"id": "leftnav_product_analysis-services-backup", 
+			"title": "Backup and restore"}
+		]
+	}
+]
+}

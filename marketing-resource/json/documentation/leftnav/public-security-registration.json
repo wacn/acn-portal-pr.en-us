@@ -1,0 +1,30 @@
+{"service": "Public security registration", 
+"id": "leftnav_public-security-registration_level1", 
+"navigation": 
+[
+	{"group": "Public security website registration announcement", 
+	"id": "leftnav_public-security-registration-response", 
+	"articles": 
+		[
+			 {"link": "/support/announcement/network-security-announcement/", 
+			"id": "leftnav_network-security-announcement", 
+			"title": "Internet message service unit network security responsibility notification"}, 
+			{"link": "/support/announcement/public-security-registration/sh-announcement/", 
+			"id": "leftnav_public-security-registration_shanghai", 
+			"title": "Shanghai public security website registration announcement"}
+		]
+	}, 
+	{"group": "Help Center", 
+	"id": "leftnav_help_center", 
+	"articles": 
+		[
+			{"link": "/support/announcement/public-security-registration/process/", 
+			"id": "leftnavpublic-security-registration_process", 
+			"title": "Public security website registration process"},
+			{"link": "/support/announcement/public-security-registration/guidance/", 
+			"id": "leftnav_guidance", 
+			"title": "National public security organizations’ interconnected website security services platform IDC user manual"}
+		]
+	}
+]
+}

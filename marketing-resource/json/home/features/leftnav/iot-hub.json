@@ -1,0 +1,57 @@
+{"service": "Azure IoT Center", 
+"id": "leftnav_product_iot-hub", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_iot-hub_details", 
+	"articles": 
+		[
+			{"link": "/home/features/iot-hub/", 
+			"id": "leftnav_product_iot-hub_function", 
+			"title": "Azure IoT Center"}, 
+			{"link": "/home/features/iot-hub/iot-gateway-sdk", 
+			"id": "leftnav_product_iot-hub_iot-gateway-sdk", 
+			"title": "- Azure IoT gateway SDK"}, 
+			{"link": "/pricing/details/iot-hub/", 
+			"id": "leftnav_product_iot-hub_pricing", 
+			"title": "Price details"},
+			{"link": "/pricing/calculator/iot-hub/", 
+			"id": "leftnav_product_iot-hub_calculator", 
+			"title": "Price calculator"},
+			{"link": "https://docs.azure.cn/iot-hub/", 
+			"id": "leftnav_product_iot-hub_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/iot-hub/", 
+			"id": "leftnav_product_iot-hub_sla", 
+			"title": "Service level agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_iot-hub_related", 
+	"articles": 
+		[
+			{"link": "/home/features/web-site/", 
+			"id": "leftnav_product_web-site_function", 
+			"title": "Web app"}, 
+			{"link": "/home/features/stream-analytics/", 
+			"id": "leftnav_product_stream-analytics_function", 
+			"title": "Flow analysis"}, 
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_function", 
+			"title": "Virtual machine"}, 
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_storage_function", 
+			"title": "Storage"}
+		]
+	}, 
+	{"group": "Related documentation and links", 
+	"id": "leftnav_product_iot-hub_others", 
+	"articles": 
+		[
+			{"link": "https://docs.azure.cn/iot-hub/iot-hub-csharp-csharp-getstarted/", 
+			"id": "leftnav_product_iot-hub_articles_iot-hub-csharp-csharp-getstarted", 
+			"title": "IoT Center basics"}
+		]
+	}
+]
+}

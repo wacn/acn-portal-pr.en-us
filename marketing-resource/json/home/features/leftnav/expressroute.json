@@ -1,0 +1,66 @@
+{"service": "ExpressRoute", 
+"id": "leftnav_product_expressroute", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_expressroute_details", 
+	"articles": 
+		[
+			{"link": "/home/features/expressroute/", 
+			"id": "leftnav_product_expressroute_function", 
+			"title": "Product functionality"}, 
+			{"link": "/pricing/details/expressroute/", 
+			"id": "leftnav_product_expressroute_pricing", 
+			"title": "Price details"},
+			{"link": "/pricing/calculator/expressroute/", 
+			"id": "leftnav_product_expressroute_calculator", 
+			"title": "Price calculator"},
+			{"link": "https://docs.azure.cn/expressroute/", 
+			"id": "leftnav_product_expressroute_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/expressroute/", 
+			"id": "leftnav_product_expressroute_sla", 
+			"title": "Service level agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_expressroute_related", 
+	"articles": 
+		[
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_function", 
+			"title": "Virtual machine"},
+			{"link": "/home/features/virtual-network/", 
+			"id": "leftnav_product_networking_function", 
+			"title": "Virtual network"},
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_storage_function", 
+			"title": "Storage"},
+			{"link": "/home/features/cloud-services/", 
+			"id": "leftnav_product_cloud-services_function", 
+			"title": "Cloud services"}		
+		]
+	}, 
+	{"group": "Related documentation and links", 
+	"id": "leftnav_product_expressroute_others", 
+	"articles": 
+		[
+			{"link": "/solutions/virtual-machines/", 
+			"id": "leftnav_product_expressroute_solutions_virtual-machines", 
+			"title": "Virtual machine solutions"}, 
+			{"link": "/solutions/high-performance-computing/", 
+			"id": "leftnav_product_expressroute_solutions_high-performance-computing", 
+			"title": "High-Performance computing solutions"}, 
+			{"link": "/solutions/storage-backup-recovery-plan/", 
+			"id": "leftnav_product_expressroute_solutions_storage-backup-recovery-plan", 
+			"title": "Storage, backup and restore solutions"},
+			{"link": "https://docs.azure.cn/expressroute/expressroute-howto-circuit-classic/", 
+			"id": "leftnav_product_expressroute_articles_expressroute-howto-circuit-classic", 
+			"title": "Deploy ExpressRoute through an Exchange provider"}, 
+			{"link": "https://docs.azure.cn/expressroute/expressroute-faqs/", 
+			"id": "leftnav_product_expressroute_articles_expressroute-faqs", 
+			"title": "ExpressRoute FAQs"}
+		]
+	}
+]
+}
