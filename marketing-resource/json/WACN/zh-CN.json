@@ -1,0 +1,102 @@
+﻿{
+  "CALCULATOR_TYPE_LABEL": {
+    "desc": "calculator type label",
+    "title": "Select type"
+  },
+  "CALCULATOR_LEVEL_LABEL": {
+    "desc": "calculator level label",
+    "title":  "Configuration level"
+  },
+  "CALCULATOR_LEVEL_SELECTION_LABEL": {
+    "desc": "calculator level selection label",
+    "title": "Select configuration"
+  },
+  "CALCULATOR_RANGE_ERROR_MSG": {
+    "desc": "calculator count range error msg",
+    "title": "Please enter an integer between {} and {}."
+  },
+  "CALCULATOR_COUNT_RANGE_ERROR_MSG": {
+    "desc": "calculator range error msg",
+    "title": "Please enter an integer larger than {} and smaller than {}."
+  },
+  "CALCULATOR_DOUBLE_RANGE_ERROR_MSG": {
+    "desc": "calculator double range error msg",
+    "title": "Please enter an integer between {} and {}, {} and {}."
+  },
+  "CALCULATOR_FREE_LABEL": {
+    "desc": "calculator free label",
+    "title":  "Free"
+  },
+  "CALCULATOR_HOUR_LABEL": {
+    "desc": "calculator hour label",
+    "title":  "Hours"
+  },
+  "CALCULATOR_MONTH_LABEL": {
+    "desc": "calculator month label",
+    "title":  "Month"
+  },
+  "CALCULATOR_CHANGE_SETTING_MSG": {
+    "desc": "calculator change setting message",
+    "title":  "Changing the configuration and the corresponding quantity will automatically add another option"
+  },
+  "CALCULATOR_SIDE_BAR_EXPORT_LABEL1": {
+    "desc": "calculator side bar export label 1",
+    "title":  "Type"
+  },
+  "CALCULATOR_SIDE_BAR_EXPORT_LABEL2": {
+    "desc": "calculator side bar export label 2",
+    "title":  "Service"
+  },
+  "CALCULATOR_SIDE_BAR_EXPORT_LABEL3": {
+    "desc": "calculator side bar export label 3",
+    "title":  "Number"
+  },
+  "CALCULATOR_SIDE_BAR_EXPORT_LABEL4": {
+    "desc": "calculator side bar export label 4",
+    "title":  "Price"
+  },
+  "CALCULATOR_SIDE_BAR_EXPORT_LABEL5": {
+    "desc": "calculator side bar export label 5",
+    "title":  "Machine"
+  },
+  "CALCULATOR_SIDE_BAR_EXPORT_LABEL6": {
+    "desc": "calculator side bar export label 6",
+    "title":  "Total price"
+  },
+  "CALCULATOR_SIDE_BAR_SINA_BTN_LABEL1": {
+    "desc": "calculator side bar sina button label 1",
+    "title":  "Document Center"
+  },
+  "CALCULATOR_SIDE_BAR_SINA_BTN_LABEL2": {
+    "desc": "calculator side bar sina button label 2",
+    "title":  "Documentation"
+  },
+  "CALCULATOR_SIDE_BAR_SINA_BTN_LABEL3": {
+    "desc": "calculator side bar sina button label 3",
+    "title":  "Blog"
+  },
+  "CALCULATOR_SHOW_RELATED_RECOMMEND_HINT": {
+    "desc": "calculator show related service recommendation hint message",
+    "title": "Display relevant service recommendations that you may use"
+  },
+  "CALCULATOR_SHOW_RELATED_RECOMMEND_LABEL": {
+    "desc": "calculator show related service recommendation label",
+    "title":  "Display all recommended relevant services"
+  },
+  "CALCULATOR_HIDE_RELATED_RECOMMEND_LABEL": {
+    "desc": "calculator hide related service recommendation label",
+    "title":  "Hide all recommended relevant services"
+  },
+  "DOCUMENT_RIGHT_BOOKMAKR_TITLE": {
+    "desc": "documentation page right bookmark title",
+    "title":  "In this article:"
+  },
+  "TOGGLE_DETAIL_EXPAND_LABEL": {
+    "desc": "toggle detail expand label",
+    "title":  "Expand all"
+  },
+  "TOGGLE_DETAIL_COLLAPSE_LABEL": {
+    "desc": "toggle detail collapse label",
+    "title":  "Collapse all"
+  }
+}

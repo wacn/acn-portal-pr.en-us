@@ -1,0 +1,454 @@
+{
+  "RULES_NAME_NOT_EMPTY": {
+    "desc": "name can not be empty",
+    "title": "Name cannot be left blank"
+  },
+  "RULES_NAME_FORMAT_ERROR": {
+    "desc": "name format is not valid",
+    "title": "Name is in the wrong format"
+  },
+  "RULES_ID_NOT_EMPTY": {
+    "desc": "ID can not be empty",
+    "title": "ID number cannot be left blank"
+  },
+  "RULES_ID_FORMAT_ERROR": {
+    "desc": "ID format is not valid",
+    "title": "ID number is in the wrong format"
+  },
+  "RULES_EMAIL_NOT_EMPTY": {
+    "desc": "email can not be empty",
+    "title": "Please enter email address"
+  },
+  "RULES_EMAIL_FORMAT_ERROR": {
+    "desc": "email format is not valid",
+    "title": "Email address is in the wrong format"
+  },
+  "RULES_USER_PROFILING_NOT_EMPTY": {
+    "desc": "user profiling can not be empty",
+    "title": "Please select ID type information"
+  },
+  "RULES_USER_CONFIRM_NOT_EMPTY": {
+    "desc": "user confirm is needed",
+    "title": "Please check user confirmation information"
+  },
+  "RULES_USER_LANG_NOT_EMPTY": {
+    "desc": "user lang is needed",
+    "title": "Please select most commonly used language information"
+  },
+  "RULES_USER_IMAGE_NOT_EMPTY": {
+    "desc": "user image is needed",
+    "title": "A picture file must be selected"
+  },  
+  "RULES_USER_IMAGE_SIZE_ERROR": {
+    "desc": "user image size error",
+    "title": "File cannot exceed 4MB"
+  },  
+  "RULES_USER_IMAGE_DIMENSION_ERROR": {
+    "desc": "user image dimension is not valid",
+    "title": "Picture needs a resolution of at least 500 x 500"
+  },  
+  "RULES_USER_IMAGE_SELECTION": {
+    "desc": "select user image",
+    "title": "Please select picture"
+  },  
+  "RULES_ENTERPRISE_NAME_NOT_EMPTY": {
+    "desc": "enterprise name can not be empty",
+    "title": "Full name of company cannot be left blank"
+  },  
+  "RULES_ENTERPRISE_CODE_NOT_EMPTY": {
+    "desc": "enterprise code can not be empty",
+    "title": "Unified social credit code or registration number cannot be left blank"
+  },  
+  "SMS_CODE_ERROR_MESSAGE": {
+    "desc": "sms code error",
+    "title": "Verification code error"
+  },  
+  "REALNAME_SUBMIT_ERROR_MESSAGE_ALREADY_APPLIED": {
+    "desc": "user already applied the offer",
+    "title": "Already applied, cannot reapply"
+  },
+  "REALNAME_SUBMIT_ERROR_MESSAGE_IN_MAINTAIN_MODE": {
+    "desc": "real name form is in maintain mode",
+    "title": "The system is undergoing maintenance, please try again later"
+  },
+  "REALNAME_SUBMIT_ERROR_MESSAGE_INPUT_ERROR": {
+    "desc": "real name form has input error",
+    "title": "Input error, please resubmit after checking"
+  },
+  "REALNAME_SUBMIT_ERROR_MESSAGE_ID_CANNOT_APPLY": {
+    "desc": "your id can not apply the offer",
+    "title": "Your document is temporarily unable to apply"
+  },
+  "REALNAME_SUBMIT_ERROR_MESSAGE_SMS_CODE_EXPIRED": {
+    "desc": "your sms code has got expired",
+    "title": "Phone verification code has expired, please verify phone again"
+  },
+  "REALNAME_SUBMIT_ERROR_MESSAGE_SERVER_ERROR": {
+    "desc": "server error",
+    "title": "Server error, please try again later"
+  },
+  "REALNAME_SUBMIT_ERROR_MESSAGE_NOT_DUP_APPLY": {
+    "desc": "can not apply again",
+    "title": "A valid code has already been obtained, you cannot reapply"
+  },
+  "REALNAME_SUBMIT_ERROR_MESSAGE_EXCEED_DAILY_QUOTA": {
+    "desc": "daily quota has been exceeded",
+    "title": "Daily application quota has been exceeded, please apply again tomorrow"
+  },
+  "REALNAME_SUBMIT_ERROR_MESSAGE_INDIVIDUAL_NOT_PASS_CHECK": {
+    "desc": "individual not pass check",
+    "title": "Unable to pass ID authentication check, please check name, ID and relevant information entered"
+  },
+  "REALNAME_SUBMIT_ERROR_MESSAGE_INDIVIDUAL_ALREADY_APPLIED": {
+    "desc": "individual already apply the offer",
+    "title": "You have already applied for Azure services with this personal ID information, please use the phone number you bound at that time to resubmit your application. If you need help, please call the hotlines on 400-089-0365 or +86-010-8456-3652"
+  },
+  "REALNAME_SUBMIT_ERROR_MESSAGE_ENTERPRISE_NOT_PASS_CHECK": {
+    "desc": "enterprise not pass check",
+    "title": "Company information failed to pass system review, please check company name and unified social credit code entered"
+  },
+  "REALNAME_SUBMIT_ERROR_MESSAGE_ENTERPRISE_ALREADY_APPLIED": {
+    "desc": "enterprise already apply the offer",
+    "title": "You have already applied for Azure services with this company information, please use the phone number you bound at that time to resubmit your application. If you need help, please call the hotlines on 400-089-0365 or +86-010-8456-3652"
+  },
+  "REALNAME_SUBMIT_ERROR_MESSAGE_ENTERPRISE_CODE_NOT_PASS_CHECK": {
+    "desc": "enterprise code not pass check",
+    "title": "Company information failed to pass system review, please use the company’s unified social credit code"
+  },
+  "KIND_PIA_PAGE_TITLE_TEXT": {
+    "desc": "pia page tilte",
+    "title": "Azure prepaid product purchase application form"
+  },
+  "KIND_PIA_SIDE_DETAIL_TEXT": {
+    "desc": "pia page side detail",
+    "title": "Details for standard prepaid subscriptions"
+  },
+  "KIND_PIA_PRODUCT_TEXT": {
+    "desc": "pia product text",
+    "title": "Standard prepaid product"
+  },
+  "KIND_1RMB_PAGE_TITLE_TEXT": {
+    "desc": "1rmb page title",
+    "title": "Azure trial application form"
+  },
+  "KIND_1RMB_SIDE_DETAIL_TEXT": {
+    "desc": "1rmb page side detail",
+    "title": "Details for 1 yuan trial offer"
+  },
+  "KIND_1RMB_PRODUCT_TEXT": {
+    "desc": "1rmb product text",
+    "title": " 1 yuan trial"
+  },
+  "OFFER_NAME_1RMB" : {
+    "desc": "1rmb offer name",
+    "title": "1 yuan trial"
+  },
+  "OFFER_NAME_PIA" : {
+    "desc": "pia offer name",
+    "title": "Standard prepayment purchase"
+  },
+  "AZURE_PORTAL_KNOWLEDGE" : {
+    "desc": "azure portal knowledge",
+    "title": "Using the Azure portal" 
+  },
+  "ALL_FIELDS_BELOW_MADATORY": {
+    "desc": "all fields below are necessary",
+    "title": "The following options must all be filled in"
+  },
+  "APPLY_TYPE_AND_CONTACT_TYPE": {
+    "desc": "apply type and contact type",
+    "title": "Application type and contact details"
+  },
+  "APPLY_TYPE_AND_CONTACT_TYPE_HINT": {
+    "desc": "apply type and contact type hint",
+    "title": "Your contact telephone can only be used for individual or company trial applications"
+  },
+  "APPLY_TYPE_INDIVIDUAL": {
+    "desc": "apply by individual",
+    "title": "Individual application"
+  },
+  "APPLY_TYPE_ENTERPRISE": {
+    "desc": "apply by enterprise",
+    "title": "Company application"
+  },
+  "PHONENUMBER_LABEL": {
+    "desc": "phone number label",
+    "title": "Phone"
+  },
+  "PHONENUMBER_RULE_NOT_EMPTY": {
+    "desc": "phone number cannot be empty",
+    "title": "Phone number cannot be left blank"
+  },
+  "PHONENUMBER_RULE_FORMAT_NOT_VALID": {
+    "desc": "phone number format is not valid",
+    "title": "Phone number is in the wrong format"
+  },
+  "PHONENUMBER_PLACEHOLDER": {
+    "desc": "phone number input place holder",
+    "title": "Please enter your phone number"
+  },
+  "SMS_CODE_COUNTDOWN": {
+    "desc": "sms code count down text",
+    "title": "Countdown {n} seconds"
+  },
+  "GET_SMS_CODE_BUTTON_LABEL": {
+    "desc": "get sms code button label",
+    "title": "Get verification code"
+  },
+  "SMS_CODE_LABEL": {
+    "desc": "sms code label",
+    "title": "Verification code"
+  },
+  "SMS_CODE_RULE_NOT_EMPTY": {
+    "desc": "sms code cannot be empty",
+    "title": "Verification code cannot be left blank"
+  },
+  "SMS_CODE_RULE_FORMAT_NOT_VALID": {
+    "desc": "sms code format is not valid",
+    "title": "Verification code is in the wrong format"
+  },
+  "SMS_CODE_INPUT_PLACEHOLDER": {
+    "desc": "sms code input place holder",
+    "title": "Please enter the verification code you received"
+  },
+  "SMS_CODE_BUTTON_LABEL": {
+    "desc": "sms code button label",
+    "title": "Verification"
+  },
+  "ALREADY_FILL_INDIVIDUAL_INFO": {
+    "desc": "already fill in individual info for this phonenumber",
+    "title": "This phone number has already been submitted as personal information, please complete the individual application process."
+  },
+  "ALREADY_FILL_ENTERPRISE_INFO": {
+    "desc": "already fill in enterprise info for this phonenumber",
+    "title": "This phone number has already been submitted as company information, please complete the company application process."
+  },
+  "ALREADY_APPLY_1RMB_CLICK_TO_BUY_PIA": {
+    "desc": "already apply 1rmb free trial, click here to apply pia offer",
+    "title": "You have already applied for a 1 yuan trial. Please click <a href='/pricing/pia-waiting-list'> here </a> to purchase a standard prepaid product."
+  },
+  "USERNAME_LABEL": {
+    "desc": "user name label",
+    "title": "Name"
+  },
+  "USERNAME_INPUT_PLACEHOLDER": {
+    "desc": "user name input placeholder",
+    "title": "Please enter your name"
+  },
+  "ID_NUMBER_LABEL": {
+    "desc": "id number label",
+    "title": "ID number"
+  },
+  "ID_NUMBER_INPUT_PLACEHOLDER": {
+    "desc": "id number input placeholder",
+    "title": "Please enter your ID number"
+  },
+  "EMAIL_ADDR_LABEL": {
+    "desc": "email address label",
+    "title": "Email address"
+  },
+  "EMAIL_ADDR_INPUT_PLACEHOLDER": {
+    "desc": "email address input placeholder",
+    "title": "Please enter a valid email address for receiving the activation code"
+  },
+  "USER_PROFILE_LABEL": {
+    "desc": "user profile label",
+    "title": "ID type"
+  },
+  "USER_PROFILE_INPUT_PLACEHOLDER": {
+    "desc": "user profile input placeholder",
+    "title": "Please select your ID type"
+  },
+  "USER_MOST_USED_LANG_LABEL": {
+    "desc": "user most used lang label",
+    "title": "Most commonly used development language"
+  },
+  "USER_MOST_USED_LANG_INPUT_PLACEHOLDER": {
+    "desc": "user most used lang input placeholder",
+    "title": "Please select your most commonly used development language"
+  },
+  "ID_IMAGE_LABEL": {
+    "desc": "ID image label",
+    "title": "ID picture"
+  },
+  "ID_IMAGE_FRONT_LABEL": {
+    "desc": "ID image front label",
+    "title": "Upload front"
+  },
+  "ID_IMAGE_BACK_LABEL": {
+    "desc": "ID image back label",
+    "title": "Upload back"
+  },
+  "SUMBIT_BUTTON_LABEL": {
+    "desc": "submit button label",
+    "title": "Submit"
+  },
+  "BASIC_USER_INFO_AND_REALNAME_CHECK": {
+    "desc": "basic user info and realname check",
+    "title": "Basic information and real name authentication"
+  },
+  "INPUT_REAL_ID_INFO_HINT": {
+    "desc": "to ensure your account safty, please input your real ID info",
+    "title": "Please enter your genuine ID information so that your account is secure"
+  },
+  "PRIVACY_CONFIRM_MSG": {
+    "desc": "privacy confirm massage",
+    "title": "You agree to authorize us to verify the authenticity of the information submitted above, this includes entrusting third-party credit reporting agencies to perform authentication. For more information, please refer to <a href='/support/legal/privacy-statement' target='_blank' id='privacy-link-in-user-confirm-checkbox'> the privacy statement</a>."
+  },
+  "ID_IMAGE_REQ_LABEL": {
+    "desc": "image requirements label",
+    "title": "Illustrations and requirements:"
+  },
+  "ID_IMAGE_REQ_DETAILS1": {
+    "desc": "image detail requirements 1",
+    "title": "Each picture cannot exceed 4MB. JPG, JPEG, or PNG picture type formats are supported;"
+  },
+  "ID_IMAGE_REQ_DETAILS2": {
+    "desc": "image detail requirements 2",
+    "title": "Adjust the brightness, text should be clearly visible;"
+  },
+  "ID_IMAGE_REQ_DETAILS3": {
+    "desc": "image detail requirements 3",
+    "title": "Show the whole document, using 80% or more of the image area;"
+  },
+  "ENTERPRISE_FULLNAME_LABEL": {
+    "desc": "enterprise full name label",
+    "title": "Full company name"
+  },
+  "ENTERPRISE_FULLNAME_CONSISTENT_WITH_LICENSE": {
+    "desc": "enterprise full name must be consistent with your enterprise license",
+    "title": "The full company name must be the same as the name on the uploaded business license"
+  }, 
+  "ENTERPRISE_FULLNAME_INPUT_PLACEHOLDER": {
+    "desc": "enterprise full name input placeholder",
+    "title": "Please enter the full name of your company"
+  },
+  "ENTERPRISE_CODE_LABEL": {
+    "desc": "enterprise code label",
+    "title": "Unified social credit code or registration number"
+  },
+  "ENTERPRISE_CODE_INPUT_PLACEHOLDER": {
+    "desc": "enterprise code input placeholder",
+    "title": "Please enter the unified social credit code or registration number for your company"
+  },
+  "ENTERPRISE_LICENSE_IMAGE_LABEL": {
+    "desc": "enterprise license image label",
+    "title": "Picture of business license"
+  },
+  "UPLOAD_ENTERPRISE_LICENSE_IMAGE_LABEL": {
+    "desc": "upload enterprise license image label",
+    "title": "Upload business license"
+  },
+  "SIDE_BAR_KNOW_MORE": {
+    "desc": "know more",
+    "title": "Find out more"
+  },
+  "USER_ALREADY_HAS_1RMB_CODE": {
+    "desc": "user already has 1rmb code message",
+    "title": "You have already submitted an application for a 1 yuan trial, please continue to complete <a href={registerLink} target='_blank' id='quicklink_accoutprotal_signup'> the sign-up process</a>. If you need help, please call the hotlines on 400-089-0365 or +86-010-8456-3652."
+  },
+  "YOUR_PROVIDED_INFO_LABEL": {
+    "desc": "your provided info label",
+    "title": "The information you have provided is as follows:"
+  },
+  "YOUR_APPLY_HAS_PASS_REALNAME_CHECK_LABEL": {
+    "desc": "your apply has passed realname check label",
+    "title": "The application for running Microsoft Azure that you have submitted to 21Vianet has passed real name authentication."
+  },
+  "YOUR_APPLY_HAS_PASS_REALNAME_CHECK_AND_CLICK_SUBMIT": {
+    "desc": "your apply has passed realname check and click submit to continue",
+    "title": "Your ID information below has passed {userTypeName} its real name authentication review. Please click on Submit to continue completing the sign-up process."
+  },
+  "INDIVIDUAL_LABEL": {
+    "desc": "individual label",
+    "title": "Individual"
+  },
+  "ENTERPRISE_LABEL": {
+    "desc": "enterprise label",
+    "title": "Company"
+  },
+  "USER_IN_PENDING_MSG": {
+    "desc": "user is in pending message",
+    "title": "An application has already been submitted for the phone number you entered, we are verifying the information you have provided. We will reply by email with the application result within one working day after you submit your application, and guide you through the sign-up process."
+  },
+  "UNKNOWN_SERVER_RESPONSE": {
+    "desc": "unknown server response",
+    "title": "Unknown server response"
+  },
+  "FREE_TRIAL_LABEL_LONG": {
+    "desc": "free trial long label in pia page",
+    "title": "Apply for 1 yuan trial"
+  },
+  "FREE_TRIAL_LABEL_SHORT": {
+    "desc": "free trial short label in pia page",
+    "title": "Trial"
+  },
+  "1RMB_EXCEED_LIMIT_MSG1": {
+    "desc": "1rmb exceed limitation message 1",
+    "title": "Thank you for supporting Azure."
+  },
+  "1RMB_EXCEED_LIMIT_MSG2": {
+    "desc": "1rmb exceed limitation message 2",
+    "title": "Because today’s trial application quota has already been met, you are welcome to resubmit your application tomorrow."
+  },
+  "1RMB_EXCEED_LIMIT_MSG3": {
+    "desc": "1rmb exceed limitation message 3",
+    "title": "Thank you for your support and patience!"
+  },
+  "1RMB_EXCEED_LIMIT_MSG4": {
+    "desc": "1rmb exceed limitation message 4",
+    "title": "If you need to purchase a standard prepaid subscription, please click <a href='/pricing/pia-waiting-list/' class='anchor' id='trial_pia_waiting_list'>here</a>."
+  },
+  "MAINTAIN_PAGE_MSG1": {
+    "desc": "maintain page message 1",
+    "title": "Sorry, the system is undergoing maintenance, please try again later."
+  },
+  "MAINTAIN_PAGE_MSG2": {
+    "desc": "maintain page message 2",
+    "title": "If you’re still unable to resolve this please contact us on the service hotlines on 400-089-0365 or +86-10-84563652."
+  },
+  "FAIL_PAGE_MSG1": {
+    "desc": "fail page message 1",
+    "title": "Sorry, the network is busy, please click <a href='/pricing/1rmb-trial-full/' class='anchor' id='trial-failed'>here</a> to resubmit."
+  },
+  "IDENTITY_TYPE_DEVELOPER": {
+    "desc": "identity type developer",
+    "title": "Developer"
+  },
+  "IDENTITY_TYPE_IT_OPS": {
+    "desc": "identity type it ops",
+    "title": "IT operation and maintenance"
+  },
+  "IDENTITY_TYPE_IT_STUDENT": {
+    "desc": "identity type student",
+    "title": "Student"
+  },
+  "IDENTITY_TYPE_IT_FAN": {
+    "desc": "identity it fan",
+    "title": "IT enthusiast"
+  },
+  "IDENTITY_TYPE_OTHER": {
+    "desc": "identity type other",
+    "title": "Other"
+  },
+  "IDENTITY_TYPE_BIZ_DECIDER": {
+    "desc": "identity type business stake holder",
+    "title": "Business decision-maker"
+  },
+  "IDENTITY_TYPE_TECH": {
+    "desc": "identity type tech",
+    "title": "Technology decision-maker"
+  },
+  "IDENTITY_TYPE_ARCH": {
+    "desc": "identity type architect",
+    "title": "Architect"
+  },
+  "LANGUAGE_OTHER": {
+    "desc": "language other",
+    "title": "Other"
+  },
+  "LANGUAGE_NOT_USE": {
+    "desc": "language not use",
+    "title": "I don’t do development or use development language"
+  }
+}

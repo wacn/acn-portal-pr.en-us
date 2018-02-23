@@ -1,0 +1,498 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcceptPrivacyStatement" xml:space="preserve">
+    <value>Please accept the privacy statement and agreement</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="AccountMaxLengthError" xml:space="preserve">
+    <value>Username is too long</value>
+  </data>
+  <data name="Agreement" xml:space="preserve">
+    <value>Agreement</value>
+  </data>
+  <data name="AltEmail" xml:space="preserve">
+    <value>Other email contact details</value>
+  </data>
+  <data name="AltEmailFormatError" xml:space="preserve">
+    <value>Email address format does not comply</value>
+  </data>
+  <data name="AltEmailLengthError" xml:space="preserve">
+    <value>Email address is too long</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>And</value>
+  </data>
+  <data name="AzureSeverity" xml:space="preserve">
+    <value>Severity (&lt;a href="http://windowsazure.cn/support/plans/"&gt;details&lt;/a&gt; available)</value>
+  </data>
+  <data name="AzureSeverity_A" xml:space="preserve">
+    <value>A - Critical business impact, requires immediate attention</value>
+  </data>
+  <data name="AzureSeverity_B" xml:space="preserve">
+    <value>B - Medium business impact, business or service levels have declined, but work can be reasonably continued, just with less efficiency</value>
+  </data>
+  <data name="AzureSeverity_C" xml:space="preserve">
+    <value>C - Minor business impact, business is running smoothly with some service disruptions or no service disruptions</value>
+  </data>
+  <data name="AzureSubs" xml:space="preserve">
+    <value>Windows Azure subscription number</value>
+  </data>
+  <data name="AzureSubsMaxLengthError" xml:space="preserve">
+    <value>Windows Azure subscription number is too long</value>
+  </data>
+  <data name="AzureSupportForm_ApplyForSupport" xml:space="preserve">
+    <value>Application support</value>
+  </data>
+  <data name="AzureSupportForm_Description" xml:space="preserve">
+    <value>Please enter your details and describe the question you need support for.&lt;br /&gt;Our staff will contact you as soon as possible.</value>
+  </data>
+  <data name="CookieError" xml:space="preserve">
+    <value>Your browser’s security settings have blocked cookies from the website, therefore you are unable to submit forms.</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email address</value>
+  </data>
+  <data name="EmailFormatError" xml:space="preserve">
+    <value>Email address format does not comply. Please enter the full email address &amp;mdash; useraccount@example.com</value>
+  </data>
+  <data name="EmailMaxLengthError" xml:space="preserve">
+    <value>Email address is too long</value>
+  </data>
+  <data name="IAgree" xml:space="preserve">
+    <value>I agree</value>
+  </data>
+  <data name="InputAccount" xml:space="preserve">
+    <value>Please enter username</value>
+  </data>
+  <data name="InputAzureSubs" xml:space="preserve">
+    <value>Please enter Windows Azure subscription number</value>
+  </data>
+  <data name="InputDetailUserInfo" xml:space="preserve">
+    <value>Please enter your details:</value>
+  </data>
+  <data name="InputEmail" xml:space="preserve">
+    <value>Please enter email address</value>
+  </data>
+  <data name="InputName" xml:space="preserve">
+    <value>Please enter name</value>
+  </data>
+  <data name="InputPhone" xml:space="preserve">
+    <value>Please enter telephone number</value>
+  </data>
+  <data name="InputSurname" xml:space="preserve">
+    <value>Please enter last name</value>
+  </data>
+  <data name="InputTicketDetail" xml:space="preserve">
+    <value>Please enter detailed description of support question</value>
+  </data>
+  <data name="InputTicketTitle" xml:space="preserve">
+    <value>Please enter support question title</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NameMaxLengthError" xml:space="preserve">
+    <value>Name is too long</value>
+  </data>
+  <data name="O365SupportForm_ApplyForSuport" xml:space="preserve">
+    <value>Application support</value>
+  </data>
+  <data name="O365SupportForm_Description" xml:space="preserve">
+    <value>Please enter your details and describe the question you need support for.&lt;br /&gt;Our staff will contact you as soon as possible.</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telephone number</value>
+  </data>
+  <data name="PhoneFormatError" xml:space="preserve">
+    <value>Telephone number format does not comply</value>
+  </data>
+  <data name="PhoneMaxLengthError" xml:space="preserve">
+    <value>Telephone number is too long</value>
+  </data>
+  <data name="PrivacyStatement" xml:space="preserve">
+    <value>Privacy statement</value>
+  </data>
+  <data name="SelectPreferredContact" xml:space="preserve">
+    <value>Please select preferred contact method</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="SurnameMaxLengthError" xml:space="preserve">
+    <value>Last name is too long</value>
+  </data>
+  <data name="TicketDetail" xml:space="preserve">
+    <value>Please describe in detail the question you need support for (remaining characters:</value>
+  </data>
+  <data name="TicketDetailMaxLengthError" xml:space="preserve">
+    <value>Support question is too long</value>
+  </data>
+  <data name="TicketTitle" xml:space="preserve">
+    <value>Support question title</value>
+  </data>
+  <data name="TicketTitleMaxLengthError" xml:space="preserve">
+    <value>Title is too long</value>
+  </data>
+  <data name="TicketType" xml:space="preserve">
+    <value>Support type</value>
+  </data>
+  <data name="TicketTypeEmptyError" xml:space="preserve">
+    <value>Please select an option</value>
+  </data>
+  <data name="TicketType_Billing" xml:space="preserve">
+    <value>Billing questions</value>
+  </data>
+  <data name="TicketType_Contract" xml:space="preserve">
+    <value>Contract</value>
+  </data>
+  <data name="TicketType_ICP" xml:space="preserve">
+    <value>ICP record</value>
+  </data>
+  <data name="TicketType_Presales" xml:space="preserve">
+    <value>Product consulting</value>
+  </data>
+  <data name="TicketType_Technical" xml:space="preserve">
+    <value>Technology</value>
+  </data>
+  <data name="Attachement_CountError" xml:space="preserve">
+    <value>A maximum of 3 attachments can be uploaded</value>
+  </data>
+  <data name="Attachement_SizeError" xml:space="preserve">
+    <value>Files must be equal to or smaller than 2MB</value>
+  </data>
+  <data name="Attachement_TypeError" xml:space="preserve">
+    <value>Formats supported: jpg, jpeg, bmp, png, gif, txt, rar, zip, doc, docx, ini, conf, eml, xlsx, xls, pdf</value>
+  </data>
+  <data name="AltEmailHint" xml:space="preserve">
+    <value>A maximum of 2 contact methods, separated by commas(,)</value>
+  </data>
+  <data name="AttachFile" xml:space="preserve">
+    <value>Upload attachment</value>
+  </data>
+  <data name="SelectList_Blank" xml:space="preserve">
+    <value>Please select</value>
+  </data>
+  <data name="InputError" xml:space="preserve">
+    <value>Input error!</value>
+  </data>
+  <data name="TicketType_Quota" xml:space="preserve">
+    <value>Quota application</value>
+  </data>
+  <data name="TicketType_SubscriptionManagement" xml:space="preserve">
+    <value>Subscription management</value>
+  </data>
+  <data name="TicketType_Billing_L1Name" xml:space="preserve">
+    <value>Question type</value>
+  </data>
+  <data name="TicketType_Quota_L1Name" xml:space="preserve">
+    <value>Quota type</value>
+  </data>
+  <data name="TicketType_Suscription_L1Name" xml:space="preserve">
+    <value>Question type</value>
+  </data>
+  <data name="TicketType_Technical_L1Name" xml:space="preserve">
+    <value>Service type</value>
+  </data>
+  <data name="TicketType_Technical_L2Name" xml:space="preserve">
+    <value>Question type</value>
+  </data>
+  <data name="TicketType_Technical_L3Name" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="TicketType_Tip" xml:space="preserve">
+    <value>Note: The times for this kind of support are 09:00-18:00, Monday to Friday (excluding holidays). Our support personnel will contact you about the service request you submitted as quickly as possible on a working day</value>
+  </data>
+  <data name="OptionAQ1" xml:space="preserve">
+    <value>Has this problem affected your production environment?</value>
+  </data>
+  <data name="OptionAQ2" xml:space="preserve">
+    <value>Are you able to work with a technical support engineer 24/7 until the problem is resolved?</value>
+  </data>
+  <data name="OptionAQ3" xml:space="preserve">
+    <value>Has this problem affected more than one of your users?</value>
+  </data>
+  <data name="OptionAQ3_AffectedUserNum" xml:space="preserve">
+    <value>Please enter the number of customers that have been affected</value>
+  </data>
+  <data name="OptionAQ4" xml:space="preserve">
+    <value>Which of your services has this problem affected? (remaining characters: </value>
+  </data>
+  <data name="OptionAWarning" xml:space="preserve">
+    <value>Please ensure the authenticity of all information entered, otherwise your severity level may be downgraded!</value>
+  </data>
+  <data name="OptionA_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="OptionA_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Modal_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Modal_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OptionAEnableInfo" xml:space="preserve">
+    <value>A - Critical business impact, service levels have decreased significantly</value>
+  </data>
+  <data name="OptionAQ3_AffectedUserNumError" xml:space="preserve">
+    <value>Please enter a number.</value>
+  </data>
+  <data name="OptionA_Alert" xml:space="preserve">
+    <value>Sorry, your current situation does not meet the requirements for A, please select B or C as appropriate.</value>
+  </data>
+  <data name="Ticket_RightBrace" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="OptionACheckError" xml:space="preserve">
+    <value>Please select Yes or No.</value>
+  </data>
+  <data name="OptionAQ4_EmptyError" xml:space="preserve">
+    <value>Please enter a detailed description of the affected services.</value>
+  </data>
+  <data name="Homepage" xml:space="preserve">
+    <value>Return to homepage</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Log in again</value>
+  </data>
+  <data name="SupportLoadAccountError" xml:space="preserve">
+    <value>This Live account number is not supported, please try again using your Azure China account number (example format：xxx@yyy.partner.onmschina.cn, or corresponding account bound to AAD).</value>
+  </data>
+  <data name="SwitchAccount" xml:space="preserve">
+    <value>Switch accounts</value>
+  </data>
+  <data name="Ticket_LeftBrace" xml:space="preserve">
+    <value>(</value>
+  </data>
+  <data name="TicketType_Commerce_O365" xml:space="preserve">
+    <value>Business support</value>
+  </data>
+  <data name="TicketType_ICP_O365" xml:space="preserve">
+    <value>ICP record</value>
+  </data>
+  <data name="TicketType_Technical_O365" xml:space="preserve">
+    <value>Technical support</value>
+  </data>
+  <data name="O365ResultBodyFail" xml:space="preserve">
+    <value>We are unable to submit your application information. Please wait 10 minutes before reentering and resubmitting your application. Apologies for any inconvenience this may cause you.</value>
+  </data>
+  <data name="O365ResultBodySuccess1front" xml:space="preserve">
+    <value>We have received your support application and created a service event SR based on your problem description:</value>
+  </data>
+  <data name="O365ResultFooter1Fail" xml:space="preserve">
+    <value>You can contact 21Vianet’s support team for assistance:</value>
+  </data>
+  <data name="O365ResultFooter2Fail" xml:space="preserve">
+    <value>For telephone support, please call: +86 400 089 0365</value>
+  </data>
+  <data name="O365ResultFooter3Fail" xml:space="preserve">
+    <value>For email support, please contact: office365support@oe.21vianet.com</value>
+  </data>
+  <data name="O365ResultTitleFail" xml:space="preserve">
+    <value>Sorry</value>
+  </data>
+  <data name="O365ResultTitleSuccess" xml:space="preserve">
+    <value>Thank you</value>
+  </data>
+  <data name="O365ResultBodySuccess1behind" xml:space="preserve">
+    <value>We will contact you as soon as possible using the email address or telephone number you provided.</value>
+  </data>
+  <data name="TicketResultButtionRefill" xml:space="preserve">
+    <value>Reenter</value>
+  </data>
+  <data name="TicketResultButtionBackTo365" xml:space="preserve">
+    <value>Return to O365</value>
+  </data>
+  <data name="AzureResultBodyFail1" xml:space="preserve">
+    <value>We are unable to submit your application information, error code:</value>
+  </data>
+  <data name="AzureResultBodyFail2" xml:space="preserve">
+    <value>Please try reentering and resubmitting your application after making adjustments, or call 21Vianet’s support hotline directly for assistance (+86 400 089 0365).</value>
+  </data>
+  <data name="AzureResultBodyFail3" xml:space="preserve">
+    <value>Apologies for any inconvenience this may cause you.</value>
+  </data>
+  <data name="AzureResultBodyFailReason_Repeat" xml:space="preserve">
+    <value>Resubmit.</value>
+  </data>
+  <data name="AzureResultBodySuccess1behind" xml:space="preserve">
+    <value>Please leave your email address or phone number and the relevant support engineer will contact you as soon as possible.</value>
+  </data>
+  <data name="AzureResultBodySuccess1front" xml:space="preserve">
+    <value>We have created a service event SR for you based on your problem description:</value>
+  </data>
+  <data name="AzureResultBodySuccess2" xml:space="preserve">
+    <value>If you wish to find out about the progress of this event or you have any questions, you can call 21Vianet’s support hotline (+86 400 089 0365).</value>
+  </data>
+  <data name="AzureResultBodySuccess3" xml:space="preserve">
+    <value>Please provide the event number to the customer representative so that they can transfer you to the relevant engineer as quickly as possible.</value>
+  </data>
+  <data name="AzureTicketTitleFail" xml:space="preserve">
+    <value>Sorry, we are unable to submit your application information.</value>
+  </data>
+  <data name="AzureTicketTitleSuccess" xml:space="preserve">
+    <value>Azure support application submitted successfully!</value>
+  </data>
+  <data name="AzureResultBodyFailReasonOthers" xml:space="preserve">
+    <value>Other abnormality.</value>
+  </data>
+  <data name="AzureResultBodyFailReasonSameTicket" xml:space="preserve">
+    <value>The same work order already exists:</value>
+  </data>
+  <data name="TipOf21vMaintain" xml:space="preserve">
+    <value>We plan to perform routine system maintenance between 00:30 and 08:30 on October 22, 2017. The portal for creating these work orders will be temporarily closed during system maintenance. If you need support, please contact us on 21Vianet’s hotlines on 400-089-0365 or 010-84563652. We are very sorry for any inconvenience this causes and thank you for your continued understanding and support.</value>
+  </data>
+  <data name="AzureIdExpiredErrDiv" xml:space="preserve">
+    <value>This subscription has expired, please select another valid subscription.</value>
+  </data>
+  <data name="SupportPlanType" xml:space="preserve">
+    <value>Support plan</value>
+  </data>
+  <data name="TicketEventStartTime" xml:space="preserve">
+    <value>Time problem started</value>
+  </data>
+  <data name="TicketEventStartTime_Placeholder" xml:space="preserve">
+    <value>Please enter a time, for example, 13:11</value>
+  </data>
+  <data name="HistoryRecord" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="SearchRecordByCreateTimeTitle" xml:space="preserve">
+    <value>Query time when work order created</value>
+  </data>
+  <data name="SubmitApplication" xml:space="preserve">
+    <value>Submit application</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="SupportAzureNoPermissionErrorInfo" xml:space="preserve">
+    <value>You do not have permission to submit a SevA form</value>
+  </data>
+  <data name="SupportO365NotAdminErrorInfo" xml:space="preserve">
+    <value>Only administrator can submit form</value>
+  </data>
+</root>
