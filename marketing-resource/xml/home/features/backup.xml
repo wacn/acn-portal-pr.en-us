@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2014-10-20T09:41:59" urlName="virtual-machines" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="backup" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/media/images/production/backup.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/backup@2x.png" />
+                        <h2>Backup<span>Backup</span></h2>
+                        <h4>Simple, reliable, and economical integrated cloud backup.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_backup_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_backup_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h1>Backup your server to the cloud simply and reliably</h1>
+                <ul>
+                    <li>99.9% availability guaranteed</li>
+                    <li>Reliable offsite backup target</li>
+                    <li>Efficient incremental backups</li>
+                    <li>Data is secure and encrypted in transit and at rest</li>
+                    <li>Advanced workload protection</li>
+                    <li>Geo-replicated backup storage</li>
+                </ul>
+                <h2>Cloud backup features</h2>
+                <p>Data is at the heart of any organization, and backing up this data is a key part of business strategy. Cloud-based backup offers a reliable, inexpensive, and scalable solution with zero capital investment and minimal operational expense.</p>
+
+                <h2>Find out more about Azure Backup</h2>
+                <p>Azure Backup is a simple, reliable data protection solution that enables customers to backup their local data to Azure. It is rooted in Azure's world-class infrastructure and protects user data by means of two data centers in eastern and northern China.</p>
+
+                <h2>Familiar interface</h2>
+                <p>Azure Backup is easy to use and seamlessly protects data from Windows Server, Windows Server Essentials, and System Center Data Protection Manager (DPM). DPM protects various Microsoft workloads and easily extends its protection to Azure. Backups can be managed using PowerShell or through the Inbox user interface.</p>
+
+                <h2>Secure and reliable</h2>
+                <p>Your backup data is secure over the network and at rest. It is stored in geo-replicated storage which maintains 6 copies of your data across two Azure datacenters. With 99.9% service availability, Azure Backup provides operational stability.</p>
+
+                <h2>Efficient and flexible</h2>
+                <p>Azure Backup is highly efficient over the network and on your disk. Once the initial seeding is complete, only incremental changes will be sent at a defined frequency. Built-in features such as compression, encryption, long-term storage, and bandwidth throttling help improve IT efficiency.</p>
+
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>Find out more</h1>
+                <ul>
+                    <li><a id="feature_backup_backup_restore" href="https://docs.azure.cn/virtual-machines/windows/sql/virtual-machines-windows-use-storage-sql-server-backup-restore/">Configure Azure Backup</a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->      
+        
+    ]]></bodyText>
+    <pageTitle>Azure Cloud Backup Cloud Data - Azure cloud computing</pageTitle>
+    <metaKeywords>Azure, Backup, data backup, data protection</metaKeywords>
+    <metaDescription><![CDATA[Azure Backup backs up your server to the cloud simply, reliably, and economically.]]></metaDescription>
+    <linkid>tour-features-back-up</linkid>
+    <urlDisplayName>Backup</urlDisplayName>
+    <headerText><![CDATA[]]></headerText>
+  </TextpageLeftNav>
+</localize>

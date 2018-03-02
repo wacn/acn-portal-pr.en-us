@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2016-06-29T12:12:12" updateDate="2016-06-29T12:12:12" urlName="azure-portal" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="azure-portal" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div  class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/media/media,images,production,service-banner-ibiza-preview.jpg','imageHeight':'auto'}">
+                <div class="common-banner-image" style="background-size: 100% 100%;">
+                    <div class="common-banner-title">
+                        <!--<img src="//resource.cdn.azure.cn/marketing-resource/css/cloud-services@2x.png" />-->
+                        <h2>Azure portal<span>Azure portal</span></h2>
+                        <h4>Build, manage, and monitor everything from simple web apps to complex cloud applications in a single, unified console.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_cloud_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="azure-portal_trial">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h1>Build for the future now</h1>
+                <h2>An integrated work experience - anytime, anywhere</h2>
+                <p>View and manage your applications: virtual machines, virtual networks, storage, and cloud services. You can personalize your experience based on your priorities.</p>
+                <p>Azure portal <a id="home_sche_summary" href="https://docs.azure.cn/zh-cn/azure-portal-overview/">overview</a>.</p>
+
+                <h1><a id="scheduler-goodTool"></a>More personalized</h1>
+                <img src="//resource.cdn.azure.cn/marketing-resource/css/menhu1.png" alt="">
+
+                <h2 style="margin-top:20px;"><a id="scheduler-forDesign"></a>Easier, simpler, and faster</h2>
+                <p>This unified hub has radically simplified building, deploying, and managing cloud resources. Imagine a single easy-to-use console built just for you, your team, and your projects. You can customize the portal to fit your work and work style. Stay on top of the things that matter most by pinning them to your Startboard. Resize tiles to show just the right amount of detail and get insights across apps and resources.</p>
+
+                <h1><a id="scheduler-asynchronous" ></a>Role-based access control</h1>
+                <img src="//resource.cdn.azure.cn/marketing-resource/css/menhu2.png" alt="">
+
+                <h2>Enterprise-grade</h2>
+                <p>Role-based access control gives you precise control over which users can manage which Azure service functions. Grant explicit management and access rights for subscriptions, services, and operation levels to individuals and groups.</p>
+
+                <h1><a id="scheduler-planOperation01" class="anchor"></a>No more billing blind spots</h1>
+                <h2>See forecasted costs at a glance</h2>
+                <p>You can now easily track current and projected costs. The Azure portal automatically calculates your existing charges and forecasts your likely monthly charges, even if you’re managing hundreds of resources across several apps. It’s also easy to drill down into cross-cloud analytics and real-time active use data when you <a id="home_sche_summary_diagnosis" href="https://docs.azure.cn/monitoring-and-diagnostics/insights-how-to-use-diagnostics/">enable monitoring and diagnostics</a> and <a id="home_sche_summary_monitor" href="https://docs.azure.cn/monitoring-and-diagnostics/insights-how-to-customize-monitoring/">monitor service metrics</a>.</p>
+
+                <!--
+				<h1>Azure 门户</h1>
+                <p>欢迎使用 Azure 门户。该门户为您应用程序的管理提供了全新体验。目前通过 Azure 门户已经可以使用部分服务，您可以立刻开始体验。然而大部分其他服务目前依然只能通过
+                <a id="home_sche_Administration_classic" href="https://manage.windowsazure.cn">经典管理门户</a>使用。接下来几个月里， Azure 门户将陆续支持更多新服务和现有服务，还望您能继续关注。</p>
+				-->
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More --> <!-- END: Read-More --> <!-- BEGIN: Product-Detail-BottomBanner --> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!-- END: Product-Detail-BottomBanner -->                
+    
+    ]]></bodyText>
+    <pageTitle>Azure portal preview - Azure cloud computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-azure-portal</linkid>
+    <metaKeywords>Azure, Azure portal</metaKeywords>
+    <metaDescription><![CDATA[Use the Azure portal to build, manage, and monitor everything from simple web apps to complex cloud applications in a single, unified console. The Azure portal provides Azure users with an integrated deployment and management experience, with a simpler, faster, customizable operation interface and support for the brand new Resource Manager (ARM).]]></metaDescription>
+    <urlDisplayName>Azure portal</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

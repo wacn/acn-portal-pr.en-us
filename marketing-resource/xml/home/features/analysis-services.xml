@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-07-07T10:41:59" urlName="analysis-services" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="analysis-services" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: Cognitive-Services-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/css/images/service/product_banner_analysis-services.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/service/product-icon-analysis-services@2x.png" />
+                        <h2>Azure Analysis Services<span>Azure Analysis Services</span></h2>
+                        <h4>Proven analytics engine.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="analysis-services_1rmb-trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="analysis-services_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Cognitive-Services-TopBanner --> <!-- BEGIN: Cognitive-Services-Content -->
+            
+            
+            <div class="pricing-page-section">
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/analysis-services-get-started-quickly.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Get started quickly and scale with efficiency</h2>
+                        <p>Use Azure Resource Manager to create and deploy an Azure Analysis Services instance within seconds, use Backup and Restore to quickly move your existing models to Azure Analysis Services, and take advantage of the scalability, flexibility, and management benefits of the cloud. Scale up, scale down, or pause the service, and pay only for what you use.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/analysis-services-transform-complex-data.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Transform complex data into one version of the truth</h2>
+                        <p>Combine data from multiple sources into a single, trusted BI semantic model that’s easy to understand and use. Enable self-service and data discovery for business users by simplifying the view of data and its underlying structure.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/analysis-services-match-performance.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Match performance to the speed of business</h2>
+                        <p>Reduce the time taken to get insights on large and complex datasets. Fast response times mean your BI solution can meet the needs of your business users and keep pace with your business. Connect to real-time operational data using DirectQuery and watch business trends closely.</p>
+                    </div>
+                </div>
+				
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/analysis-services-provide-secured-access.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Provide secured access, whenever and wherever you need it</h2>
+                        <p>Make sure only authorized users can access your data models (no matter who they are), using role-based security and Azure Active Directory support. With 99.9% availability, your users can access critical information when they need it.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/analysis-services-accelerate-time-to-delivery.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Accelerate delivery time</h2>
+                        <p>Release your BI solutions in a predictable and highly secured way. Use the robust application lifecycle management functions to manage, deploy, test, and deliver your BI solution quickly and with confidence.</p>
+                    </div>
+                </div>
+				<div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/analysis-services-develop-familiar-environment.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Develop in a familiar environment</h2>
+                        <p>Focus on solving business problems, not learning new skills, when you use the familiar, integrated development environment of Visual Studio. Easily deploy your existing SQL Server 2016 tabular models to the cloud.</p>
+                    </div>
+                </div>				
+            </div>
+            <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: Cognitive-Services-Content -->
+                          
+    
+    ]]></bodyText>
+    <pageTitle>Azure Analysis Services – Azure cloud computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-services-analysis-services</linkid>
+    <metaKeywords>Azure, Azure Analysis Services</metaKeywords>
+    <metaDescription><![CDATA[Proven analytics engine.]]></metaDescription>
+    <urlDisplayName>Azure Analysis Services</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

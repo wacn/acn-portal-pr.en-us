@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-07-07T10:41:59" urlName="xio-storage" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <style type="text/css">
+                .container .pure-content .pricing-page-section{
+                    margin-top: -40px!important;
+                }
+                @media only screen and (max-width: 769px){
+                    .container .pure-content .pricing-page-section{
+                        margin-top: 0px!important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h3 style="font-weight:400;"><a id="storage-economic_highStorage" class="anchor"></a> <a id="xio_storage_sto" href="/home/features/storage/" style="color:#00a8d9" target="_blank">Storage</a><span>></span><a id="xio_storage_advantagesto" style="color:#00a8d9" href="javascript:void(0)">Advanced Storage</a></h2>
+                <h1>Advanced Storage</h1>
+                <p>Suitable for low-delay I/O intensive apps and high-throughput storage</p>
+                <p>Key Scenarios:</p>
+                <ul>
+                    <li>Sustain SQL Server virtual machines</li>
+                    <li>Create enterprise level, persistent apps</li>
+                    <li>Upgrade enterprise apps and migrate them to the cloud</li>
+                </ul>
+                <h2>Sustain SQL Server virtual machines</h2>
+                <p>Azure Advanced Storage is a specially designed DS series virtual machine with further strengthened disk performance. You can add many more permanent disks and, for your time-critical apps, these disks can provide a maximum of 32 TB or storage and exceed 50,000 IOPS; moreover, read operations will not exceed a delay of more than 1 microsecond.</p>
+
+                <h2>Low-Delay, high-throughput storage</h2>
+                <p>Azure advanced storage is based on new SSD storage for low-delay and high-throughput. It is designed to support requirements for severe enterprise workloads on the cloud.</p>
+
+                <h2>Durable and high-availability</h2>
+                <p>Azure Advanced Storage can automatically backup your data to assist in preventing unexpected hardware failures to ensure that your hardware is always available. Azure data persists in permanent storage, which is extremely important. Azure clients can depend on their data being permanent and having a high degree of fault tolerance for crucial apps. This is advanced storage that saves 3 copies of data within the same region.</p>
+                
+                <p><a style="margin-left:0;" id="feature_advancedStorage_docs" href="https://docs.azure.cn/" target="_blank" style="color:#00a8d9;">Advanced Storage Overview</a></p>
+            
+            </div>
+            <!-- END: Product-Detail-Content -->
+                          
+    
+    ]]></bodyText>
+    <pageTitle>Advanced Storage | Azure</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-xio-storage</linkid>
+    <metaKeywords>Azure, Advanced Storage, High-Throughput</metaKeywords>
+    <metaDescription><![CDATA[Azure Advanced Storage is a specially designed DS series virtual machine with further strengthened disk performance. You can add many more permanent disks and, for your time-critical apps, these disks can provide a maximum of 32 TB or storage and exceed 50,000 IOPS; moreover, read operations will not exceed a delay of more than 1 microsecond.]]></metaDescription>
+    <urlDisplayName>Advanced Storage</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

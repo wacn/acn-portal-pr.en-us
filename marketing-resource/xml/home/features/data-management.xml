@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <umbTextpage id="13952" parentID="13946" level="4" writerID="106" creatorID="22" nodeType="1059" template="1136" sortOrder="6" createDate="2012-07-24T21:16:42" updateDate="2014-10-30T06:19:21" nodeName="Data Management" urlName="data-management" writerName="content" creatorName="Brad" path="-1,11978,11979,13946,13952" isDoc="">
+    <bodyText><![CDATA[<div style="padding-bottom: 60px; margin-top: 40px; margin-left: 25px; margin-right: 18px;">
+<h1>Data management</h1>
+<h3>The best solution for meeting data requirements, readily available for everything from SQL Database to Blob Storage to Table</h3>
+<p>Windows Azure offers a variety of services to help you manage your data in the cloud. With SQL Database (formerly SQL Azure Database), you can quickly create and expand applications and extend them into the cloud using familiar tools and powerful SQL Server technology. Table provides NoSQL functionality at a low cost for applications with simple data access requirements. Blobs provide low cost storage solutions for data including video, audio, and images. All of this data can easily implement offsite multi-point backup, eliminating worries. You can also run SQL Server in a virtual machine on Windows Azure.</p>
+<h2>SQL Database</h2>
+<p>Relational database-as-a-service that helps cloud architects and developers obtain first-tier capabilities easily.</p>
+<p>Windows Azure SQL Database is a fully managed relational database service that can be managed flexibly. It possesses built-in high availability, offers predictable performance, and supports massive scale-out. Windows Azure offers a variety of services to help you manage your data in the cloud.</p>
+<p>With SQL Database, you can quickly create and expand applications and extend them into the cloud using familiar tools and powerful SQL Server technology. Table provides NoSQL functionality at a low cost for applications with simple data access requirements. Blobs provide low cost storage solutions for data including video, audio, and images. All of this data can easily implement offsite multi-point backup, eliminating worries. You can also run SQL Server in a virtual machine on Windows Azure.</p>
+<p>SQL Database enables organizations to quickly build, expand, and scale relational applications in the cloud using familiar tools.</p>
+<ul>
+<li><span>Scale to include thousands of databases</span></li>
+<li><span>Get predictable performance when scaling up or down</span></li>
+<li><span>Offers guaranteed availability with replication technology and continuous uptime SLAs</span></li>
+<li><span>Uses audit, restoration, and geo-replication technologies to protect data</span></li>
+<li><span>Uses DBA tasks that can be executed programmatically to improve operation and maintenance efficiency</span></li>
+<li><span>Self-management with near zero downtime</span></li>
+</ul>
+<h3>Enables flexible scaling and more measurable performance<sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-size: 18px;" class="wa-previewTag;">Preview</sup></h3>
+<p>With the power of Windows Azure, implement large-scale environments with thousands of databases through flexible scaling, to meet temporary or continuous requirements for high-throughput application models. Regardless of which service level you choose (Basic, Standard, or Advanced), you get more measurable performance with a fixed range of throughput that you can easily scale up or down based on your application needs. You can access insights into database performance indicators programmatically through the dashboard view, or check important database indicator information through the Management portal.</p>
+<p>Flavorus is developing new business through a hybrid internal environment/cloud architecture, and enabling massive scale-out during temporary peaks.</p>
+<h3>Client is using the efficiency of the cloud to unlock the potential of business applications</h3>
+<p align="left">Windows Azure SQL Database is an online relational database service that enables cloud architects and developers to easily use first-class SQL functions by providing predictable performance, scalability, business continuity, data protection, and near zero management, with the support of the powerful functions and coverage of Windows Azure.</p>
+<p>At a time when fast time to market and enterprise-class application capabilities have become critical, SQL Database is currently the best choice for designing cloud-based application solutions.</p>
+<ul>
+<li><span>Business applications: Prevents cost spikes caused by occasional peak load periods, helping clients to scale easily and cope with rapid growth in worldwide traffic.</span></li>
+<li><span>Web and mobile applications: Eliminates security risks and problems arising from hosted, publicly available applications and websites in data centers.</span></li>
+<li><span>Hybrid applications: Clients wishing to continue using existing local assets can get the best of both worlds by retaining their current assets locally (including policy-bound data), but extending some application content into the cloud, which enables innovation, scaling, global accessibility, and improved agility.</span></li>
+</ul>
+<p align="left"><a href="/partnerancasestudy/case-studies/">View more SQL Database client cases</a></p>
+<h3>Improve the business continuity of critical applications</h3>
+<p>Make sure that your data is available at any time with built-in replication technology and 99.9%* continuous uptime. 21Vianet will provide you with databases that meet SLA requirements, and improve application continuity and disaster preparedness for different service layers with built-in continuity options. SQL Database Premium (preview) performs active geo-replication, enabling you to create up to four secondary copies in any Windows Azure region and control when and where failover operations will take place. With self-service restore (preview), you have complete control over the recovery process and decide what content you want to restore from your backup data. In Premium services, SQL Database stores up to 35 days of backup for you to recover at any time.</p>
+<p>MYOB scales to thousands of databases as required and obtains protection with disaster recovery solutions and geo-replication technology.</p>
+<h3>Self-managing service enables near zero downtime maintenance</h3>
+<p>Using SQL Database helps you virtually eliminate any infrastructure maintenance because the service automatically installs the necessary software patches. The built-in system replication technology can also bring you inherent data protection mechanisms to ensure that continuous database uptime and system reliability meet your requirements. This means that developers and architects no longer need to face tedious maintenance work. In the event that the original system fails, the system replication technology can be automatically migrated to the new system, which can be enabled at any time.</p>
+<p>Pottermore migrated its applications to a Windows Azure PaaS environment to reduce the burden of managing and maintaining virtual machines.</p>
+<h3>Familiar tools and platforms to further promote productivity</h3>
+<p>Simplify management with APIs that can be accessed programmatically, at the same time as scaling to a large-scale environment with hundreds of databases, to boost the successful completion of development, operation, and maintenance tasks including scaling out or business continuity. SQL Database supports a variety of management tools, including REST API, PowerShell, Windows Azure Management portal (HTML5), and SQL Server Management Studio. It also supports a variety of popular platforms and technologies including .NET, Java, PHP, Ruby on Rails, and Node.js. Whether online or offline, you can develop your internal environment or cloud applications easily and seamlessly by means of integration with Visual Studio. You can extend your existing applications to the cloud. A cloud environment that supports the DAC Framework can help you easily migrate between internal environments and the cloud.</p>
+<p>By simplifying development efforts, Samsung Smart TV reduced its global business costs by 80%. With the support of the Premium version of SQL Database, thousands of concurrent users can sign into its industry-leading Smart TV product line simultaneously via the Internet.</p>
+<h3>Promote the successful completion of tasks related to security and compliance</h3>
+<p>Use the audit functions to simplify compliance tasks, fully understand the operations being performed in the database, and track activity in the records database. The dashboard view gives you a general overview of database activity and potential business problems or security risks. In addition, as part of Windows Azure’s compliance certification, SQL Database has obtained certifications from major cloud environment audit institutions, including HIPAA BAA, ISO/IEC 27001:2005, FedRAMP, and EU Model Clauses.</p>
+<p>“The firewall and security configurations in SQL Database are really simple. Our cloud-based services are now as secure as our data center-based services.” - Devan Govender, Chief Software Architect, BetOnSoft</p>
+<h3>Integrate different service layers to enable innovative design</h3>
+<p>As users continue to break through the boundaries of modern application innovation, a variety of cloud applications have emerged. Based on these patterns, SQL Database provides different service layers to support various database loads, from lightweight to heavyweight, allowing you to switch between different service layers or design innovative applications that integrate multiple service layers. With the power and broad coverage of Windows Azure, you can even mix and match other Windows Azure services with SQL Database to meet the unique needs of modern application design, reduce costs, improve resource usage, and take advantage of new business opportunities.</p>
+<ol>
+<li>Web and Enterprise versions: Provide cost-effective, scalable, hosted database services suitable for customers who want to reduce database management overheads, with built-in high availability mechanisms that meet their needs. The Web version is scalable to 10 GB, while the Enterprise version is scalable to 150 GB.</li>
+<li>Premium version: In addition to the features of the Web and Enterprise versions, the Premium version also possesses higher, more reliable performance that meets resource-intensive database needs (such as continuity requirements, massive concurrent requests, and predictable latency).</li>
+</ol>
+<p>Please visit the SQL Database <a href="/pricing/details/sql-database/">price information page</a> for details.</p>
+<h3>Related solutions</h3>
+<p style="font-weight: bold;">Create new cloud-based data management solutions</p>
+<p style="font-weight: bold;">Web applications</p>
+<p>Build cloud-based applications quickly</p>
+<p>Windows Azure provides a secure and flexible development and deployment environment for you to scale web applications of any size. Take advantage of your existing tools to create and deploy cloud applications that free you from the tedious work of managing your infrastructure.</p>
+<p style="font-weight: bold;">Data management</p>
+<p>Complete, flexible data services</p>
+<p>Windows Azure provides the right solution for your data needs, from SQL Database to blobs. Leverage existing skills and gain the scalability, flexibility, and cost advantages of Windows Azure data services.</p>
+<p style="font-weight: bold;">Infrastructure services</p>
+<p>Build it yourself or use it directly, we’ll help you run it</p>
+<p>Windows Azure provides demand-based infrastructure that supports dynamic scaling to suit your constantly changing business needs. Whether you want to create a new application or run an existing one, we offer best-in-class value for money and end-to-end support.</p>
+<p style="font-weight: bold;">Storage, backup, and recovery</p>
+<p>Lets you sit back and relax</p>
+<p>Windows Azure is the scalability, durability, cloud storage, backup, and recovery solution for all types and sizes of data, regardless of data size. It seamlessly connects with your existing infrastructure to cost-effectively enhance your business continuity strategy and provide storage architectures that include unstructured text or binary data, such as video, audio, and images.</p>
+<h3>Looking for more detailed information?</h3>
+<p style="font-weight: bold;"><a href="/pricing/overview/">Pricing details</a></p>
+<p>Explore purchase options and calculator</p>
+<p style="font-weight: bold;"><a href="/manage/services/sql-databases/">Documentation</a></p>
+<p>In-depth SQL Database documentation</p>
+<p style="font-weight: bold;"><a href="http://www.microsoftvirtualacademy.com/">Training</a></p>
+<p>Find a Windows Azure course at Microsoft Virtual Academy</p>
+<h2>Table</h2>
+<p>Table provides NoSQL functionality for applications that need to store large amounts of unstructured data. Table is an ISO 27001 certified hosting service that can automatically scale to meet throughputs of up to 100 TB. It can be accessed from virtually anywhere via REST and hosting APIs.</p>
+<h2>Blob (binary large object) Storage</h2>
+<p>Using blobs is the easiest way to store large amounts of unstructured text or binary data (such as video, audio, and images). Blob Storage is an ISO 27001 certified hosting service that can automatically scale to meet throughputs of up to 100 TB. It can be accessed from virtually anywhere via REST and hosted APIs.</p>
+<p>You can perform the following operations with Blob Storage:</p>
+<h3>Mount blobs easily as drives</h3>
+<p>Windows Azure Drive allows an application to mount a blob formatted as a single volume NTFS VM. You can use Windows Azure Drive to move virtual machines between private and public clouds.</p>
+</div>]]></bodyText>
+    <umbracoNaviHide>0</umbracoNaviHide>
+    <pageTitle>Windows Azure features: Data management</pageTitle>
+    <metaKeywords>SQL Azure, Blob Storage, Table</metaKeywords>
+    <metaDescription></metaDescription>
+    <linkid>tour-features-data</linkid>
+    <urlDisplayName>Data management</urlDisplayName>
+    <headerExpose />
+    <footerExpose />
+    <disqusComments>0</disqusComments>
+    <metaCanonical />
+    <isHeader>0</isHeader>
+    <pageTemplate />
+    <localize>0</localize>
+    <localizePartial>0</localizePartial>
+    <sitemapHide>0</sitemapHide>
+    <headerText><![CDATA[]]></headerText>
+    <forbidPublish>0</forbidPublish>
+  </umbTextpage>
+</localize>

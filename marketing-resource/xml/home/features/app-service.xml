@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2014-10-20T09:41:59" urlName="app-service" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="app-service" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+		   
+		    <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            
+            <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/css/images/service/product_banner_app_service-01.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/service/product-icon-appservice.png" />
+                        <h2>App Service<span>App Service</span></h2>
+                        <h4>Generate intelligent web and mobile apps.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <p>App Service is a cloud platform for building powerful web and mobile apps that can connect to data anywhere (in the cloud or locally).</p>
+				
+				<h2>Build scalable web apps</h2>             
+                <p>Use your favorite languages to code in IDE—build web apps and APIs more quickly than ever before using .NET, Node.js, PHP, Python, or Java. Use Visual Studio Team Services or GitHub and live-site debugging to become more agile through continuous integration. Easily change the scale of apps as required, with high availability.</p>
+                
+				<h2>Attractive mobile apps</h2>
+                <p>Build attractive iOS, Android, and Windows mobile apps. Add enterprise logins easily and connect to local resources securely. Create robust apps that are still useful in the event of network problems so that users can create and modify data even when they are offline. Broadcast custom push notifications to millions of devices in minutes.</p>
+
+                <h2>Simple integration</h2>
+                <p>Rapidly automate business processes with a visual design experience for business processes and workflows. Integrate with your SaaS and enterprise applications. Upon being used, these applications will be able to connect directly to dozens of cloud-based services and enterprise applications.<!--企业已准备好使用 Biztalk 功能实现 EAI/B2B 和业务流程的自动化。--></p>
+				
+				<ul class="cognitive-icon-group">
+				<li>
+                        <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/web-apps@2x.png"/></div>						      
+                        <div class="cognitive-text">
+                            <h2>Web apps</h2>
+                            <p>Create and deploy mission-critical web apps that scale with your business.</p>
+							<p><a id="app-service_web-apps" href="/home/features/app-service/web-apps/" class="single-link">Find out more ></a></p>
+                        </div>
+                </li>
+				
+				<li>
+                        <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/mobile-apps@2x.png"/></div>						      
+                        <div class="cognitive-text">
+                            <h2>Mobile apps</h2>
+                            <p>Build attractive iOS, Android, and Windows apps.</p>
+							<p><a id="app-service_mobile-apps" href="/home/features/app-service/mobile-apps/" class="single-link">Find out more ></a></p>
+                        </div>
+                </li>
+				
+				<li>
+                        <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/service/product-icon-api.png"/></div>						      
+                        <div class="cognitive-text">
+                            <h2>API apps</h2>
+                            <p>Use your choice of language for the rapid generation and use of APIs in the cloud.</p>
+							<p><a id="app-service_api-apps" href="/home/features/app-service/api-apps/" class="single-link">Find out more ></a></p>
+                        </div>
+                </li>
+                </ul><br/>
+				<div class="pricing-page-section link-group-container">
+				<h1>Find out more</h1>                
+                <ul>             
+                    <li><a href="https://docs.azure.cn/zh-cn/app-service/app-service-web-overview/" id="app-service_app-service-web-overview">Overview of web apps</a></li>
+                    <li><a href="https://docs.azure.cn/zh-cn/app-service/app-service-web-get-started-dotnet/" id="app-service_app-service-web-get-started-dotnet">Create ASP.NET web apps in Azure</a></li>                   
+                </ul>
+				</div>
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More --> <!--
+			<div class="pricing-page-section link-group-container">
+                <h1>了解更多</h1>
+                <p>从选择一种语言开始：</p>
+                <ul>
+                    <li><a href="https://docs.azure.cn/app-service-web/web-sites-nodejs-develop-deploy-mac/" id="home_virtual_mac">构建 Node.JS Web 应用并部署到 Azure</a></li>
+                    <li><a href="https://docs.azure.cn/app-service-web/web-sites-python-configure/" id="home_virtual_con">使用 Azure Web 应用配置 Python</a></li>
+                    <li><a href="https://www.azure.cn/home/usertypes/program/enterprise/" id="home_web_ent">详细了解企业级功能</a></li>
+                    <li><a href="https://docs.azure.cn/app-service-web/web-sites-php-sql-database-deploy-use-git/" id="home_web_deploy-use-git" target="_blank">PHP：创建并部署你的首个 Web 应用</a></li>
+                </ul>
+            </div>
+			--> <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
+    
+    ]]></bodyText>
+    <pageTitle>Azure App Service – Azure cloud computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-app-service</linkid>
+    <metaKeywords>Azure, App Service, Azure App Service, functions</metaKeywords>
+    <metaDescription><![CDATA[App Service is a cloud platform for building powerful web and mobile apps that can connect to data anywhere (in the cloud or locally).]]></metaDescription>
+    <urlDisplayName>App Service</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

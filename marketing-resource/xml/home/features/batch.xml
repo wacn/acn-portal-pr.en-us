@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-06-28T11:31:22" urlName="batch" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="batch" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/css/bacth.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/batch@2x.png" />
+                        <h2>Batch <sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">preview</sup></h2>
+                        <h4>Run large-scale parallel batch computing jobs</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_batch_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_batch_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h1>Cloud-scale job scheduling and compute management</h1>
+                <ul>
+                    <li>Scale to tens, hundreds, or thousands of virtual machines</li>
+                    <li>Cloud-enable batch and cluster applications</li>
+                    <li>Stage data and execute compute pipelines</li>
+                    <li>Auto-scale work in the queue</li>
+                    <li>Easily monitor job progress</li>
+                    <li>Pay for what you use with no capital investment</li>
+                </ul>
+
+                <h2>When you need batch cloud computing</h2>
+                <p>Azure Batch began with mainframe computers and punch cards. Today, it still plays a central role in business, engineering, science, and other areas that require running lots of automated tasks (processing bills and payroll, calculating portfolio risk, designing new products, presenting animated films, testing software, searching for energy, predicting the weather, and finding new cures for diseases). Previously, only a few people had access to the computing power for these scenarios. With Azure, that power is available to you when you need it, without a large amount of capital investment.</p>
+
+                <h2>Cloud-enable cluster applications</h2>
+                <p>Azure Batch runs the applications that you use on workstations and clusters. It’s easy to cloud-enable your executable programs and scripts to scale out. Azure Batch provides a queue to receive the work that you want to run and executes your applications. Describe the data that needs to be moved to the cloud for processing, how the data should be distributed, the parameters to use for each task, and the command to start the process. Think about it like an assembly line with multiple applications. With Azure Batch, you can share data easily between different steps and manage the execute procedure as a whole.</p>
+
+                <h2>Imagine running at 100x scale</h2>
+                <p>You use a workstation (maybe a small cluster), or you wait in a queue to run your jobs. What if you had access to 16 cores, 100 cores, 10,000 cores, or even 100,000 cores when you needed them, and only had to pay for what you used? With Azure Batch, this can be done. Avoid the bottlenecks and waiting that can limit your imagination. What jobs could you do on Azure that you can’t do today?</p>
+
+                <h2>Tell us what to execute</h2>
+                <p>At the core of Azure Batch is a high-scale job scheduling engine (that’s available to you as a managed service). Use our scheduler in the application to dispatch work. Batch can also work with cluster job schedulers or behind the scenes of your SaaS. You don’t need to write your own work queue, dispatcher, or monitor. Batch provides this to you as a service.</p>
+
+                <h2>We will take care of scale for you</h2>
+                <p>When you’re ready to run a job, Azure Batch starts a pool of compute virtual machines for you, installing applications and staging data, running jobs (including as many tasks as you have), identifying failures and re-queuing work, and scaling down the pool as work is completed. You can control scale to meet deadlines, manage costs, and run at the right scale for your application.</p>
+
+                <h2>Deliver solutions as a service</h2>
+                <p>Azure Batch processes jobs on demand (not on a predefined schedule), so your users run jobs in the cloud when they need to. You can use Azure batch to provide them with a solution more easily. Manage who can access Azure Batch and how many resources they can use, and ensure that requirements such as encryption are met. The rich monitoring function helps you to know what’s going on and identify problems. Detailed reporting helps you to track usage.</p>
+
+                <h2>Easy rendering</h2>
+                <p>Run your rendering jobs in the cloud using Azure Batch. Avoid the complexities of managing resources and significantly reduce the time needed to complete your jobs. Use the samples to learn how to use Batch together with Blender, a free open-source 3D animation suite that supports the whole 3D pipeline – modeling, rigging, animation, simulation, motion tracking, and even game creation. Whether you’re an individual or a studio, you can rely on Batch for photorealistic rendering, fast rigging, excellent simulations, and game creation. Azure Batch provides you with all the resources you need to render animation in a realistic time frame and meet project deadlines.</p>
+                
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+
+                <h1>Find out more</h1>
+                <ul>
+                    <li><a id="home_batch_php" href="https://docs.azure.cn/batch/batch-technical-overview/">Technical overview</a></li>
+                    <li><a id="home_batch_mac" href="https://docs.azure.cn/batch/batch-dotnet-get-started/">Getting started with the Azure Batch library for .NET</a></li>
+                    <li><a id="home_batch_con" href="https://msdn.microsoft.com/zh-cn/library/azure/dn820126">Batch REST API Reference</a></li>
+                    <li><a id="home_batch_ent" href="https://code.msdn.microsoft.com/site/search?f[0].Type=Topic&f[0].Value=Azure%20Batch&f[0].Text=Azure%20Batch">Batch code samples</a></li>
+                    <li><a id="home_batch_gitHub" href="https://github.com/Azure/azure-batch-apps-blender">Access samples provided on GitHub</a></li>
+                    
+                </ul>
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->          
+    
+    ]]></bodyText>
+    <pageTitle>Batch cloud computing - Azure cloud computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-batch</linkid>
+    <metaKeywords>Azure, Microsoft Cloud, Batch, easy rendering, VM pool, compute</metaKeywords>
+    <metaDescription><![CDATA[Azure Batch runs large-scale parallel batch computing jobs. It can scale to tens, hundreds, or thousands of virtual machines, cloud-enable batch and cluster applications, stage data and execute compute pipelines, auto-scale work in the queue, and easily monitor job progress.]]></metaDescription>
+    <urlDisplayName>Batch</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

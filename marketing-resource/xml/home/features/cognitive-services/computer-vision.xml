@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-07-07T10:41:59" urlName="cognitive-services-computer-vision" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="cognitive-services" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: Cognitive-Services-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/css/images/cognitive-computer-vision-slice-01.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,computer-vision.png" />
+                        <h2>Computer Vision API <span>Computer Vision</span></h2>
+                        <h4>Extract enrichment data from images to categorize and handle visual data, inspect images with computer assistance, providing help for curation services.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="computer-vision_1rmb-trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="computer-vision_pia">Purchase immediately<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Cognitive-Services-TopBanner --> <!-- BEGIN: Cognitive-Services-Content -->
+            
+            
+            <div class="pricing-page-section">
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/cognitive-services-computer-vision-analyze-an-image.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Analyze images</h2>
+                        <p>This feature can find visual object-related information. Using tags, descriptions, and specified domains identify content and mark as trustworthy. Installing the “Adult/Indecent” app enables adult content to be restricted. Recognize image types and color schemes.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/cognitive-services-computer-vision-read-text-in-images.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Read image text</h2>
+                        <p>Optical Character Recognition (OCR) can detect text in images and convert the detected characters into computer-readable text. It can analyze images and detect embedded text, create character streams, and enable searches. It can obtain text pictures and cut down on time and energy spent copying.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/cognitive-services-computer-vision-read01.jpg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Preview: read handwritten text in image</h2>
+                        <p>This technology (Handwriting OCR) will allow you to detect and capture hand written text in notes, letters, articles, white boards, and forms. It is suitable for different styles and backgrounds, for example white paper, yellow notes, and white boards.</p>
+                        <p>Handwritten text recognition already saves time and energy and by permitting the capture of text images eliminates the need for transcription for greater work efficiency. It digitizes handwriting so that it is available for rapid and easy searches. It can reduce the confusion of piles of paperwork.</p>
+                        <p>Note: This technology is available for preview and only works with English.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/cognitive-services-computer-vision-recognize-celebrities.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Recognizes celebrities and landmarks</h2>
+                        <p>Celebrity and landmark models are examples of specific domains of models. The celebrity model can recognize 20,000 business, political, sports, and entertainment celebrities. The landmark model can recognize 9,000 natural and man-made objects from around the world. Specific domain models are in the computer image API and performance is continuously being updated.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/cognitive-services-computer-video.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Near real-time analysis of video</h2>
+                        <p>Near real-time analysis of video: extracts video frames from a device and sends them to your choice of API using any computer vision API on the video file. It can rapidly get results from video.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/cognitive-services-computer-vision-generate-a-thumbnail.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Create thumbnails</h2>
+                        <p>Create a fully usable high-quality thumbnail storage memory based on any input image. Use the thumbnail to create a modified image to better satisfy your size, shape, and style needs. Use intelligent cropping to create thumbnails that have a different feel yet retain the aspect ratios of the original image.</p>
+                    </div>
+                </div>
+
+                <h1>Getting to know the cognitive services API</h1>
+                <ul class="cognitive-icon-group">
+                    <li>
+                        <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,face.png"/></div>
+                        <div class="cognitive-text">
+                            <h2>Face recognition API</h2>
+                            <p>Detects relatively similar faces based on similar images grouped together, recognizing in the images previously marked persons.</p>
+                            <p><a id="computer-vision_face" href="/home/features/cognitive-services/face/" class="single-link">Find out more<i class="icon icon-arrow-right-thin"></i></a></p>
+                        </div>
+                    </li>                    
+                    <li>
+                        <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,emotion.png"/></div>
+                        <div class="cognitive-text">
+                            <h2>Mood recognition API</h1>
+                            <p>Analyzes the face to detect emotions and responds according to a personalized setup.</p>
+                            <p><a id="computer-vision_emotion" href="/home/features/cognitive-services/emotion/" class="single-link">Find out more<i class="icon icon-arrow-right-thin"></i></a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,computer-vision.png"/></div>
+                        <div class="cognitive-text">
+                           <h2>Computer vision API</h2>
+                        <p>Extract enrichment data from images to categorize and handle visual data, inspect images with computer assistance, providing help for curation services.</p>
+                        <p><a id="computer-vision_computer-vision" href="/home/features/cognitive-services/computer-vision/" class="single-link">Find out more<i class="icon icon-arrow-right-thin"></i></a></p>
+                        </div>
+                    </li>
+                </ul>
+                    
+            </div>
+            <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: Cognitive-Services-Content -->
+                          
+    
+    ]]></bodyText>
+    <pageTitle>Computer Vision API_Intelligent Apps - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-cognitive-services-computer-vision</linkid>
+    <metaKeywords>Azure, Cognitive Services, Cognitive Services, Computer Vision</metaKeywords>
+    <metaDescription><![CDATA[Computer Vision API extracts enrichment information from visual data for analysis and processing; moreover, it protects your users from being disturbed by harmful content.]]></metaDescription>
+    <urlDisplayName>Cognitive Services - Computer Vision API</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

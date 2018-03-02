@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-06-30T17:41:59" urlName="sql-server-stretch-database" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="sql-server-stretch-database" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/css/sql-server-stretch%20database.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/sql-server-stretch-database@2x.png" />
+                        <h2>SQL<small>Server Stretch Database</small> </h2>
+                        <h4> can dynamically stretch cold and hot transactional data from SQL Server 2016 to Azure.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_sql-stretch_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_sql-stretch_pia">Purchase immediately<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h1>SQL Server Database can stretch to Azure</h1>
+                <ul>
+                    <li>Use limitless cloud storage to expand SQL Server</li>
+                    <li>Lower costs allow users to continuously use hot and cold data</li>
+                    <li>Online access and queries can stretch any data</li>
+                    <li>Effortlessly migrate data - no need to check or alter apps</li>
+                    <li>Use advanced security functions, including end-to-end encryption</li>
+                    <li>Lower the cost of on-premises data maintenance and storage</li>
+                </ul>
+                <h2>Lower costs allow continuous use of hot and cold data</h2>
+                <p>SQL Server Stretch Database permits you to dynamically stretch hot and cold data in Windows SQL Server 2016 to Azure. Traditionally stored hot data is not the same, and your data will be continuously accessed. With the support of Stretch Database, you won’t need to support costly long term data storage. At the same time, you definitely won’t need to expand expensive on-premises storage equipment and can instead stretch data to the cloud. Compared to buying even more enterprise level storage equipment, Azure storage can help you economize as much as 80% of your cost. You can select your service level based on data access rates and later expand or reduce as needed. <a id="sql-stretch-database_feature_price" href="/pricing/details/sql-server-stretch-database/" target="_blank">For details visit the SQL Server Stretch Database pricing details page</a>.</p>
+                
+                <h2>Effortlessly migrate data - No need to alter apps</h2>
+                <p>Whether on-premises or stretching to the cloud, you can seamlessly access SQL Server data. You can establish policies that determine where data is stored and SQL Server can help you move data in the background. After migration, the whole table will be available anytime online and can be queried anytime. You don’t need to modify your current queries or apps - all of these functions will be completely transparent.</p>
+
+                <h2>Using advanced security options</h2>
+                <p>If you will have a heavy demand to stretch apps to the cloud, you want to have ample security safeguards. Stretch Database is very secure. You can use the SQL Server<a id="sql-stretch-database_feature_encrypt" href="https://msdn.microsoft.com/zh-cn/library/bb934049.aspx" target="_blank">Anytime Encryption</a>function to encrypt data during transmission. <a id="sql-stretch-database_feature_security" href="https://msdn.microsoft.com/zh-cn/library/dn765131.aspx" target="_blank">Row-Level Security</a> and SQL Server’s other advanced security functions equally apply to the SQL Server Database. You don’t have to worry about expanding your data into the cloud.</p>
+
+                <h2>Simplify on-premises data maintenance</h2>
+                <p>Moving data into Azure will lower your need for on-premises maintenance and storage capacity. Compared to a non-stretched database, Stretch Database on-premises backup becomes faster and simpler. After stretching, data can be backed-up automatically and this will further reduce the time required for maintenance.</p>
+
+                <h2>Ease of administration</h2>
+                <p>You can easily start using the Stretch Database from within SQL Server Management Studio. You can use the Azure administration portal to configure other equipment, select performance level, expand or contract on demand, and keep costs under control.</p>
+
+                </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>Find out more</h1>
+                <ul>
+                    <li><a id="sql-stretch-database_feature_consultants" href="https://docs.azure.cn/sql-server-stretch-database/sql-server-stretch-database-identify-databases/" target="_blank">By running SQL Database Advisor you can decide about stretching a database or table </a></li>
+                    <li><a id="sql-stretch-database_feature_use" href="https://docs.azure.cn/sql-server-stretch-database/sql-server-stretch-database-enable-database/" target="_blank"> Start Using Stretch Database</a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
+    
+    ]]></bodyText>
+    <pageTitle>SQL Server Stretch Database - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-sql-server-stretch-database</linkid>
+    <metaKeywords>Azure, Microsoft Cloud, Azure SQL Server Stretch Database, Functionalities</metaKeywords>
+    <metaDescription><![CDATA[Azure SQL Server Stretch Database can dynamically stretch cold and hot transactional data from SQL Server 2016 to Azure and is a low-cost way to use warm and cold data anytime. There is no need to modify apps, so you can easily migrate data. You can use advanced security options to ensure complete security, simplifying on-premises data maintenance and  achieving effortless administration.]]></metaDescription>
+    <urlDisplayName>SQL Server Stretch Database</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

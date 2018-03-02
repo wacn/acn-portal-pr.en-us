@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <umbTextpage template="21" createDate="2017-12-04T11:20:07" updateDate="2017-12-04T11:34:25">
+    <bodyText><![CDATA[
+    
+         <p><tags
+            ms.service="icp"
+            ms.workload=""
+            ms.tgt_pltfrm=""
+            ms.devlang="na"
+            ms.topic="article"
+            ms.date="07/2017"
+            wacn.date="07/2017"
+            wacn.lang="cn" 
+            ms.author="will"/></p>
+        <h1>ICP registration operation analysis</h1><div class="tags-date"><div class="wacn-date">Final renewal date is July 2017</div></div>
+        <h2>Registration type</h2>
+        <p>Initial registration</br>
+        Original registration in Azure Cloud: Add a website, registration changes, registration sign off</br>
+        Original registration not in Azure Cloud: newly added website, newly added access
+         </br>
+        </br></p>
+        <h2>Registration of specific operations</h2>
+        <p>1. ICP registration procedures</p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-1.png" alt="Procedure" />
+        </br></p>
+        <p>2. Registration requirements for each province</p>
+        <p>Before registering, first know your own local administration’s registration requirements, this will make your audit by your local administration go smoothly.</br>
+        <a id="icp-new_special-request" href="//resource.cdn.azure.cn/marketing-resource/media/icp/备案信息填写要求20180115.doc">Download all provincial administration special requirements</a>
+        </br></p>
+        <p>3. Registration of specific operations</br>
+        3.1 Sign on to account</br>
+        3.1.1 Sign on to registration account Login website<a id="icp-new_cloud.21vianet" href="https://icp.cloud.21vianet.com">https://icp.cloud.21vianet.com</a></p>
+        <p>1) Click on “User sign on”.</br>
+        2) Enter sign-on mailbox. the system can default to using your sign-on mailbox as your login account. If the mailbox has already been signed into, then please change to another mailbox.</br>
+        3) Read and agree to the service agreement.</p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-2.png" alt="Procedure" /> <img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-3.png" alt="Procedure" />
+        </br></p>
+        <p>3.1.2 Fill in account information</p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-4.png" alt="Procedure" />
+        </br></p>
+        <p>3.2 Enter registration information</p>
+        <p>3.2.1 Log into registration system, click on New Registration, and verify the page</p>
+        <p>Fill in registration domain name and host certification information. The system can, based on the domain and host certification number, check whether a registration record already exists. If there isn’t a registration record, then it is a first-time registration.</p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-5.png" alt="Procedure" /> <img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-6.png" alt="Procedure" />
+        </br></p>
+        <p>3.2.2 For first time registration, skip to filling in the agent information</p>
+        <p>When filling in the agent information, pay attention to the following points:</p>
+        <p>1) The business license number acquired after integrating the business license, the organization code certificate, and the certificate of taxation registration into one document should be filled in as the unified social credit code.</br>
+        2) For the host contact address, fill it in accurately and in detail, for example the specific street and building number. for rural village units fill in the details regarding the village and town including the street number or mailbox number.</br>
+        3) For the investor or the higher-level unit in charge, if there isn’t a specific investor or unit in charge, fill the host name to continue.</br>
+        4) For the host’s responsible person, we recommend filling in the principal person responsible for the company that is hosting the registration, filling in the business license and legal representative information.</br>
+        5) For the office telephone and mobile number, it should correspond with the host location.</br>
+        6) If the certificate number of the person in charge ends in “X”, write it in capital letters.</p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-7.png" alt="Procedure" />
+        </br>
+        <img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-8.png" alt="Procedure" />
+        </br></p>
+        <p>3.2.3 Fill in website information</br>
+        1) Website name: you cannot use the domain or URL as the website name; if the host is not a national-level website, it cannot use “China” in the name.</br>
+        2) Webpage URL: Fill in the top level domain corresponding to the web address (for example www.abc.com); based on current administrative regulations, register the main top level domain and if the top level domain is an already registered second level domain it can usually be used.</br>
+        3) If the person responsible for the website and the person responsible for the host are not the same person, fill in separate mobile numbers and email addresses to distinguish them and the two cannot be the same.</br></p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-9.png" alt="Procedure" />
+        </br>
+        <img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-10.png" alt="Procedure" />
+        </br></p>
+        <p>3.2.4 Website access information</br>
+        1) Website IP address: must be filled out as part of your company’s network segment IP address.</br>
+        2) Website access methods: Users in Zhejiang Tianjin select “virtual host”, users in other areas select “other method”.</br>
+        3) Server location: Select “Beijing” or “Shanghai”.</br></p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-11.png" alt="Procedure" />
+        </br></p>
+        <p>3.3 Upload registration material</br>
+        Attention:</br></p>
+        <p>1) All appended documents must be “original color scanned” or an “original photograph” in jpg format.</br>
+       2) A mainland identity card must be effective for 3 months. Both sides of the identity card must appear in one image.</br>
+        3) On the “Website registration verification checklist” it is only necessary to fill in the “Website host name” (registering host name) and “Website domain” (www. is not needed); moreover, the “Person responsible for the website signature” must include a seal (each person registering must provide a seal). Please do not fill any information in the section marked “Signature and unit seal of the examiner”.</br>
+        4) Domain certificate: If the domain is registered in China, directly link to a search of the domain name registration vendor; if the domain is registered outside China, provide a screenshot of an Internet Whois lookup. The screenshot must clearly show the domain and the domain proprietor and registration authority</br>
+          <img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-12.png" alt="Procedure" />
+        </br>
+       5) The register of the domain certificate must be the host or legal representative.</br></p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-13.png" alt="Procedure" />
+        </br></p>
+        <p>3.4 Submit a registration information note</br>
+        1) if you need to submit multiple websites, return to the home page, click on “website information” and on that page click on “newly added website”, where you can continue to input websites.</br>
+        2) If there are no more websites to register, click “submit registration” and wait for verification.</br>
+        3) To ensure that the audit passes, do not turn on privacy protection during the audit period.</br></p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-14.png" alt="Procedure" /></br>
+        <img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-15.png" alt="procedure" /></br>
+        <img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-16.png" alt="Procedure" /></br>
+        </br></p>
+        <p>3.5 Registration tasks after registration information is submitted</br></p>
+        <ol>
+        <li>After submitting registration, we will conduct an audit within 2 business days and will let you know by mail or phone if there are any problems. Please make sure your phone is available and check your mail.</br></li>
+        <li>After the initial audit, we will mail you with the next steps. According to the mail, take a picture and the original website authentication list + network security responsibility agreement to the Azure in-person signing address, or take your own picture and mail the materials.</br></li>
+        <li>
+        In-person signing address:</br>
+        Beijing (this is also the address to mail material to): No. 1, Jiuxianqiao East Road, Chaoyang District, Beijing  Telephone: 4000890365  </br>
+        Shanghai: Room 657, Building 3, No. 88, Keyuan Road, Pudong District, Shanghai  Telephone: 4000890365</br>
+        </li>
+        <li>After we have received the paper documents and photographs, we will carry out an audit within 1.5 working days . If there are any problems during the audit period, we will call or email you about the materials that have problems. Please ensure that your telephone is available and check your mail. Once your information is found to be accurate and is verified, we will immediately report it to the administration.</br></li>
+        <li>
+       After registration is completed, the administration will notify the host’s responsible person by mail and text.</br>
+        Additionally: The audit period for local provincial administrations is estimated. (Note: the audit period is ultimately up to the administration)</br>
+        3 Weeks：Gansu, Yunnan</br>
+        2 Weeks: Beijing, Zhejiang, Hubei, Tianjin, Jiangxi, Guangxi, Hebei, Heilongjiang, Inner Mongolia</br>
+        1 Week: Guangdong, Jiangsu, Sichuan, Henan, Shanxi, Anhui, Fujian, Guizhou, Liaoning, Hainan, Hunan, Xinjiang, Shanxi, Ningxia, Chongqing</br>
+        3 Days: Shanghai</br>
+        </li>
+        <li>After the registration information is submitted: you can check on the progress of registration through the registration module.</li>
+        </ol>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/2-17.png" alt="Procedure" /></br>
+         7. If the administrative audit is not passed, we will call and mail you to inform you of the reason and assist you in submitting additional information. Please ensure your phone is available and check your mail.</br></p>
+        <p></br>
+        </br></p>
+    
+    ]]></bodyText>
+    <umbracoNaviHide>0</umbracoNaviHide>
+    <pageTitle>First-Time Registration | Azure</pageTitle>
+    <metaKeywords></metaKeywords>
+    <metaDescription><![CDATA[
+        
+            ICP first-time registration process
+            
+    ]]></metaDescription>
+    <linkid>0</linkid>
+    <urlDisplayName></urlDisplayName>
+    <headerExpose></headerExpose>
+    <footerExpose></footerExpose>
+    <disqusComments>0</disqusComments>
+    <metaCanonical></metaCanonical>
+    <isHeader>0</isHeader>
+    <pageTemplate>0</pageTemplate>
+    <localize>1</localize>
+    <localizePartial>0</localizePartial>
+    <sitemapHide>0</sitemapHide>
+    <banner>
+    </banner>
+  </umbTextpage>
+</localize>
