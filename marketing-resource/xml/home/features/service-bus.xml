@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2014-10-20T09:41:59" urlName="virtual-machines" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="service-bus" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/media/images/production/service_bus01.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/service-bus-icon01.png" />
+                        <h2><span>Service Bus</span></h2>
+                        <h4>Keep apps and devices connected in private cloud and public cloud scenarios.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_mess_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mess_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h2>Simplified enterprise cloud messaging</h2>
+                <p>When you need highly reliable cloud messaging services between apps and services, you can depend on Azure Service Bus, even if one or multiple apps and services are offline). This fully-managed service is available in every Azure region and eliminates the burden of server management and licensing. Its asynchronous operations can implement flexible message relaying, structured first-in, first-out (FIFO) message transfer, and publishing/subscription functions between the client and the server, making it ideally suited to tasks like subscription processing.</p>
+
+                <h2>Build scalable cloud solutions</h2>
+                <p>Asynchronous message transfer mode is the cornerstone of durable apps, and ensures that users can reliably upscale. Integrating cloud resources such as Azure SQL Database, Azure Storage and web apps with service bus message transfer allows you to deliver smooth operation under variable load conditions and achieve persistence, thereby overcoming intermittent failures.</p>
+
+                <h2>Run complex message transfer workflows</h2>
+                <p>Use complex routing to build durable message transfer topology and increase overall availability. The service bus is used to send messages to multiple subscribers and implement large-scale dispersed delivery of messages to downstream systems.</p>
+
+                <h2>Spanning hybrid cloud solutions to achieve high-security communication</h2>
+                <p>Access existing assets in any location without the need for complicated firewall, network or VPN configuration, and use the service bus relay’s hybrid connection functions. These services provide enhanced authentication and connections via the cloud, and allow you to view and monitor activity.</p>
+
+                <h2>Easily allow multiple apps to share one connection</h2>
+                <p>Save data in its original local location and use the service bus relay’s hybrid connection functions to access data from the cloud or any other location using individual secure connections.</p>
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Product-Detail-BottomBanner --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   
+        
+    ]]></bodyText>
+    <pageTitle>Azure Service Bus_Enterprise Integration - Azure Cloud Computing</pageTitle>
+    <metaKeywords>Azure, Service Bus, message transfer, app</metaKeywords>
+    <metaDescription><![CDATA[Azure Service Bus is a key part of the message deliver infrastructure that is built between apps and used to exchange messages between apps in a loosely coupled manner that improves scalability and flexibility.]]></metaDescription>
+    <linkid>home-features-messaging</linkid>
+    <urlDisplayName>Service Bus</urlDisplayName>
+    <headerText><![CDATA[]]></headerText>
+  </TextpageLeftNav>
+</localize>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-06-30T17:41:59" urlName="sql-data-warehouse" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="sql-data-warehouse" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/css/sql_database_warehouse.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/SQL_DW_icon.png" />
+                        <h2>SQL Data Warehouse <!-- <sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">预览</sup>--> <span>SQL Data Warehouse</span></h2>
+                        <h4>Fully-managed and highly scalable data warehousing services.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_warehouse_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_warehouse_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h1>Fully-managed and highly scalable data warehousing services.</h1>
+                <ul>
+                    <li>Massively parallel processing at the petabyte scale</li>
+                    <li>Independently scale computing and storage in seconds</li>
+                    <li>Perform Transact-SQL (T-SQL) queries for relational and non-relational data</li>
+                    <li>Complete enterprise-grade SQL Server experience</li>
+                    <li>Seamless coordination with Power BI, machine learning, HDInsight, and Data Factory (this will be brought online later)</li>
+                </ul>
+               
+                <h2>The industry’s first enterprise-grade cloud data warehouse can expand, contract and pause in seconds</h2>
+                <p>In the past, data warehousing required fixed storage devices and computing pools that generally resulted in poor utilization of expensive resources. With Azure SQL Data Warehouse. storage and computing are independently scalable, so you can use the optimal price-performance ratio to dynamically deploy, expand, contract, and even pause computing. SQL Data Warehouse can also utilize the powerful functions and convenience of T-SQL to enable you to easily integrate query results that span relational data in data warehouses and non-relational data in Azure Blob Storage. Visit Azure Portal and select “Add new function” to register for our restricted public preview version.</p>
+
+                <h2>Provides breakthrough price/performance queries</h2>
+                <p>SQL Data Warehouse uses Microsoft’s massively parallel processing (MPP) architecture to gain insights on acquisition time (rather than hardware) costs, with payment based on performance targets for basic data warehousing operations such as scanning, loading and query processing). SQL Data Warehouse uses the columnstore indexes within SQL Server’s internal storage and a cost-based advanced query optimizer to provide the best prices and performance.</p>
+                
+                <h2>Only pay for what you use when you need it</h2>
+                <p>As SQL Data Warehouse independently scales computing and storage, you only pay for query performance when it is needed. Unlike other cloud data warehouses that take hours or even days to make size adjustments, SQL Data Warehouse lets you increase or decrease computing capabilities in minutes, so you can make good use of cloud-scale storage and use query computing based on constantly changing performance requirements. When computing is paused, you just pay for storage at our market-leading on-demand per TB prices.</p>
+
+                <h2>Hybrid cloud with an enterprise-grade SQL Server experience</h2>
+                <p>SQL Data Warehouse is based on SQL Server’s time-tested relational database engine and includes the functions you would expect to find in enterprise data warehouses, including storage processes, user customizable functions, table partitioning, indexing, and collation. SQL Data Warehouse uses the same database engine as SQL Server and Microsoft Analytics Platform System to achieve consistency between cloud-based, local and device solutions, allowing you to select the optimal location to save data based on performance, security and scaling requirements. In terms of end-to-end solutions, it provides seamless data migration between local and cloud systems, as well as Extract, Transform and Load (ETL) processes.<!--
+				<a id="warehouse_documentation_integrate-solution-partners" href="https://docs.azure.cn/" target="_blank">详细了解我们不断增长的合作伙伴列表</a>。-->
+				</p>
+                
+                <h2>Query across relational and non-relational data</h2>
+                <p>Using PolyBase, you can seamlessly use Transact-SQL to perform queries that span relational data in relational databases and non-relational data in common Hadoop formats. Individual Transact-SQL commands integrate non-relational data in Azure Blob Storage with the relationships in the data warehouse, enabling you to perform deep data mining, reporting and analysis using existing Transact-SQL techniques.</p>
+                
+                <h2>Rapidly deploy secure infrastructure without maintenance costs</h2>
+                <p>You can quickly deploy SQL Data Warehouse in just a few seconds. The service is a fully-managed product/service that eliminates the hassle of spending time updating and maintaining software. SQL Data Warehouse has built-in backups that support self-service restoration. Once the service has acquired a snapshot of the database restore point, it will automatically backup your data to Azure Storage.</p>
+
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>Find out more</h1>
+                <ul>
+                    <li><a id="warehouse_documentation_overview-what-is" href="https://docs.azure.cn/sql-data-warehouse/sql-data-warehouse-overview-what-is/" target="_blank">What is SQL Data Warehouse?</a></li>
+                    <li><a id="warehouse_documentation_overview-develop" href="https://docs.azure.cn/sql-data-warehouse/sql-data-warehouse-overview-develop/" target="_blank">Develop</a></li>
+                    <li><a id="warehouse_documentation_manage-compute-overview" href="https://docs.azure.cn/sql-data-warehouse/sql-data-warehouse-manage-compute-overview/" target="_blank">Scalable performance</a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
+    
+    ]]></bodyText>
+    <pageTitle>Azure SQL Data Warehouse_Database Management Services - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-sql-data-warehouse</linkid>
+    <metaKeywords>Azure, Microsoft Cloud, Azure SQL Data Warehouse, functions</metaKeywords>
+    <metaDescription><![CDATA[Azure SQL Data Warehouse is a fully-managed, highly scalable data warehousing service that can perform massively parallel processing at the petabyte scale, independently scale computing and storage in seconds, and perform queries that span relational and non-relational data. It provides a complete enterprise-grade SQL Server experience and seamless cooperation with Power BI, machine learning, HDInsight and Data Factory (this will be brought online later).]]></metaDescription>
+    <urlDisplayName>SQL Data Warehouse</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

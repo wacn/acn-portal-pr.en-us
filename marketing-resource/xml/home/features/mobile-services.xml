@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-06-28T15:56:02" urlName="mobile-services" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="mobile-services" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+           <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/css/mobile_service.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/css/mobile-apps@2x.png" /> 
+                        <h2><span>Mobile Services</span> <sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">Preview</sup></h2>
+                        <h4>Supports iOS, Android and Windows Phone app backend development and allows you to make instant use of personalized services such as push real-time notifications, making it easy to create mobile apps that rely on Azure.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_mob_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mob_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h1>Backends that can build and host any mobile app</h1>
+                <ul>
+                    <li>iOS, Android, Windows, HTML5</li>
+                    <li>Support for customer-segmented push broadcasts</li>
+                    <li>Autoscaling for millions of devices</li>
+                    <li>Program the backend using C# or Node.js</li>
+                    <li>Implement Enterprise Single Sign-On with the help of Active Directory</li>
+                    <li>Integrated with SQL, Oracle, SAP and MongoDB</li>
+                    <li>Enterprise service-level agreements</li>
+                </ul>
+                
+                <h2>Construct scalable iOS, Android, and Windows apps</h2>
+                <p>Mobile Services provides you with a scalable and secure backend that can be used to provide enhanced apps for any platform (iOS, Android, Windows or Mac). Using Mobile Services, you can easily store app data locally or in the cloud, authenticate the user’s identity, and send push notifications, and you can also add your own custom backend logic using Node.js or C#.</p>
+
+                <h2>Build mobile apps for your employees</h2>
+                <p>With the help of Active Directory, you can easily authenticate your users, securely connect to local resources such as SAP, Oracle, SQL Server and SharePoint, and use cross-platform frameworks like Xamarin and PhoneGap to build enterprise-level apps for your employees.</p>
+
+                <h2>Broadcast push notifications to millions of devices in minutes</h2>
+                <p>Notification Hubs is a highly-scalable mobile push notification engine that can send millions of push notifications to iOS, Android, Windows or Kindle devices in just a few seconds. You can easily hook up Notification Hubs to the backend of any existing app, regardless of whether the backend is local or managed within Azure.</p>
+
+                <h2>Send your audience personalized notifications</h2>
+                <p>Notification Hubs uses dynamic segmentation and declarative per-user transforms based on the user’s interests, location and preferences, allowing you to send personalized and localized notifications. Every user can receive the right content in the right format at the right time, without the need to add any extra code to your apps.</p>
+                
+                <h2>Add social elements to apps</h2>
+                <p>With Mobile Services, you can configure your apps with just a few clicks to authenticate using Microsoft accounts. Once the user has been authenticated, you can not only provided an outstanding personalized experience through the social API, but also drive user participation and content sharing.</p>
+
+                <h2>Autoscaling to fit your business needs</h2>
+                <p>You can easily configure the built-in autoscaling functions for Mobile Services and Notification Hubs to match your apps. With autoscaling, you can automatically increase or decrease the speed at which resources are used and only pay for the content you use. And with the help of 21Vianet’s datacenters, you can cover every user in every area.</p>
+
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>Find out more</h1>
+                <p>Start Building Apps</p>
+                <ul>
+                    <li><a id="home_mobile_ios" href="https://docs.azure.cn/" >iOS and Javascript Backend</a></li>
+                    <li><a id="home_mobile_win" href="https://docs.azure.cn/" >Windows and .NET Backend</a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />                                                                                
+    
+    ]]></bodyText>
+    <pageTitle>Azure Mobile Services - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-mobile-services</linkid>
+    <metaKeywords>Azure, Microsoft Cloud, Mobile Services</metaKeywords>
+    <metaDescription><![CDATA[Azure Mobile Services supports iOS, Android and Windows Phone app backend development and automatically scales for your service needs, so that you can broadcast push notifications to millions of devices in minutes, allowing every user to receive the right content in the right format at the right time, Azure Mobile Services makes instant use of personalized services such as pushing real-time notifications, making it easy to create mobile apps that rely on Azure.]]></metaDescription>
+    <urlDisplayName>Mobile Services</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

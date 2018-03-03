@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2014-10-20T09:41:59" urlName="load-balancer" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="load-balancer" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/media/images/production/load-balancer-slice-01.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/loadbalancer-icon.png" />
+                        <h2><span>Load Balancer</span></h2>
+                        <h4>Enables improved availability and network performance for your apps</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="load-balancer_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="load-balancer_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                
+                <ul>
+                    <li>Instantly add scale to your app</li>
+                    <li>Load balances internet and private network traffic</li>
+                    <li>Increase app reliability by monitoring operational status</li>
+                    <li>Flexible NAT rules deliver greater security</li>
+                    <li>Direct integration with virtual machines and cloud services</li>
+                </ul>
+                
+                <h2>Simplifies load balancing for apps</h2>
+                <p>Built-in load balancing for cloud services and VMs enables you to create highly available and scalable apps in minutes. Azure Load Balancer supports TCP/UDP-based protocols (such as HTTP, HTTPS and SMTP), as well as protocols used for real-time audio and video messaging apps.</p>
+
+                <h2>Apps with high availability and reliable performance</h2>
+                <p>Load Balancer automatically scales up as app traffic increases, allowing your app to provide a better user experience without any reconfiguration or management of Load Balancer.</p>
+
+                <h2>Internal Load Balancer (ILB)</h2>
+                <p>Use the Internal Load Balancer (ILB) for traffic between VMs in your VPN, or use the Load Balancer to create multi-tier hybrid applications.</p>
+
+                <h2>Build highly reliable apps</h2>
+                <p>Load Balancer detects the operational status of an app instance, automatically removes abnormal instances, and restores them once they are operating normally again. With Load Balancer, you can significantly increase app uptime.</p>
+                
+                <h2>Protect your networks</h2>
+                <p>Control your inbound and outbound network traffic, and protect your private networks with built-in network address translation (NAT). Integrate network security groups with Load Balancer to protect your networks.</p>
+
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>Find out more</h1>
+                <ul>
+                    <li><a href="https://docs.azure.cn/load-balancer/load-balancer-overview/" id="load-balancer_articles_load-balancer_overview">Introduction to the Load Balancer</a></li>
+                    <li><a href="https://docs.azure.cn/load-balancer/load-balancer-internet-overview/" id="load-balancer_articles_load-balancer-internet-overview">Overview of the Internet-facing Load Balancer:</a></li>
+                    <li><a href="https://docs.azure.cn/load-balancer/load-balancer-internal-overview/" id="load-balancer_articles_load-balancer-internal-overview">Internal Load Balancer (ILB) Overview</a></li>                     
+                    <li><a href="https://docs.azure.cn/zh-cn/load-balancer/load-balancer-get-started-internet-portal/" id="load-balancer_articles_load-balancer-get-started-internet-arm-ps">Configure the Internet-facing Load Balancer</a></li>                
+                </ul>
+            </div>
+            <!-- END: Read-More --> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
+    
+    ]]></bodyText>
+    <pageTitle>Load Balancer - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-load-balancer</linkid>
+    <metaKeywords>Azure, Microsoft Cloud, load balancing</metaKeywords>
+    <metaDescription><![CDATA[Azure’s built-in cloud services and VM load balancing allows users to create highly available and scalable apps in minutes.]]></metaDescription>
+    <urlDisplayName>Load Balancer</urlDisplayName>
+  </TextpageLeftNav>
+</localize>
