@@ -1,4 +1,4 @@
-{"service": "Azure analysis services", 
+{"service": "Azure Analysis Services", 
 "id": "leftnav_product_analysis-services", 
 "navigation": 
 [
@@ -8,7 +8,7 @@
 		[
 			{"link": "/home/features/analysis-services/", 
 			"id": "leftnav_product_analysis-services_function", 
-			"title": "Product functionality"}, 
+			"title": "Product Functionality"}, 
 			{"link": "/pricing/details/analysis-services/", 
 			"id": "leftnav_product_analysis-services_pricing", 
 			"title": "Price details"},
@@ -32,7 +32,7 @@
 			"title": "SQL data warehouse"}, 
 			{"link": "/home/features/sql-database/", 
 			"id": "leftnav_product_sql-database_function", 
-			"title": "SQL database"},
+			"title": "SQL Database"},
 			{"link": "/home/features/power-bi-embedded/", 
 			"id": "leftnav_product_power-bi-embedded_function", 
 			"title": "Power BI Workspace Collection"}

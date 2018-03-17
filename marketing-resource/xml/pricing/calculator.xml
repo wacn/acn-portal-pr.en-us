@@ -93,9 +93,9 @@
   <img src='//resource.cdn.azure.cn/marketing-resource/css/img/right.png' />
 </div>
 <div class="calculator-filter">
-  <label class='calculator-filter-label'>Please select the estimate service you need</label>
+  <label class='calculator-filter-label'>Please select the estimation service you need</label>
   <div class="drop-list">
-    <span class="value" data-value="">Complete</span> <span class="arrow-down"></span>
+    <span class="value" data-value="">All</span> <span class="arrow-down"></span>
     <ul class='options hide'>
       <li>
         Select all
@@ -112,31 +112,31 @@
         <span class='checkbox-rect' id=calculator_downlist_filter_power-bi-embedded></span>Power BI Workspace Collection
       </li>
 	  <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_app-service></span>App service
+        <span class='checkbox-rect' id=calculator_downlist_filter_app-service></span>App Service
       </li>
       <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_virtual-machines></span>Virtual machine
+        <span class='checkbox-rect' id=calculator_downlist_filter_virtual-machines></span>Virtual Machine
       </li>
       <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_cloud-services></span>Cloud services
+        <span class='checkbox-rect' id=calculator_downlist_filter_cloud-services></span>Cloud Services
       </li>
       <li>
         <span class='checkbox-rect' id=calculator_downlist_filter_storage></span>Storage
       </li>
       <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_sql-database-basic></span>SQL database
+        <span class='checkbox-rect' id=calculator_downlist_filter_sql-database-basic></span>SQL Database
       </li>
       <li>
         <span class='checkbox-rect' id=calculator_downlist_filter_mobile-service></span>Mobile Services
       </li>
       <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_event-hubs></span>Event Center
+        <span class='checkbox-rect' id=calculator_downlist_filter_event-hubs></span>Event Hubs
       </li>
       <li>
         <span class='checkbox-rect' id=calculator_downlist_filter_automation></span>Automation
       </li>
         <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_media-services></span>Media server
+        <span class='checkbox-rect' id=calculator_downlist_filter_media-services></span>Media Services
       </li>
       <li>
         <span class='checkbox-rect' id=calculator_downlist_filter_site-recovery></span>Website Recovery
@@ -145,7 +145,7 @@
         <span class='checkbox-rect' id=calculator_downlist_filter_mysql-database-on-azure></span>MySQL Database on Azure
       </li>
 	  <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_stream-analytics></span>Flow analysis
+        <span class='checkbox-rect' id=calculator_downlist_filter_stream-analytics></span>Stream Analysis
       </li>
 	  <li>
         <span class='checkbox-rect' id=calculator_downlist_filter_redis-cache></span>Redis Cache
@@ -157,7 +157,7 @@
         <span class='checkbox-rect' id=calculator_downlist_filter_hdinsight></span>HDInsight
       </li>
 	  <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_cdn></span>Content Delivery Network
+        <span class='checkbox-rect' id=calculator_downlist_filter_cdn></span>CDN
       </li>
 	  <li>
         <span class='checkbox-rect' id=calculator_downlist_filter_schedule></span>Scheduler
@@ -169,22 +169,22 @@
         <span class='checkbox-rect' id=calculator_downlist_filter_service-bus></span>Service Bus
       </li>
 	  <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_virtual-network></span>VPN network router
+        <span class='checkbox-rect' id=calculator_downlist_filter_virtual-network></span>VPN Gateway
       </li>
 	  <li>
         <span class='checkbox-rect' id=calculator_downlist_filter_ip-address></span>IP Address
       </li>
 	  <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_traffic-manager></span>Traffic volume manager
+        <span class='checkbox-rect' id=calculator_downlist_filter_traffic-manager></span>Flow Manager
       </li>
 	  <li>
         <span class='checkbox-rect' id=calculator_downlist_filter_data-transfer></span>Data Transmission
       </li>
 	  <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_networking></span>Virtual network
+        <span class='checkbox-rect' id=calculator_downlist_filter_networking></span>Virtual Network
       </li>
       <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_application-gateway></span>App gateway
+        <span class='checkbox-rect' id=calculator_downlist_filter_application-gateway></span>App Gateway
       </li>
       <li>
         <span class='checkbox-rect' id=calculator_downlist_filter_expressroute></span>ExpressRoute
@@ -193,7 +193,7 @@
         <span class='checkbox-rect' id=calculator_downlist_filter_key-vault></span>Key Vault
       </li>
 	  <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_sql-data-warehouse></span>SQL data warehouse
+        <span class='checkbox-rect' id=calculator_downlist_filter_sql-data-warehouse></span>SQL data Warehouse
       </li>
 	  <li>
         <span class='checkbox-rect' id=calculator_downlist_filter_azure-iot-hub></span>Azure IoT Center
@@ -208,13 +208,13 @@
         <span class='checkbox-rect' id=calculator_downlist_filter_cognitive-services></span>Cognitive Services
       </li>
       <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_analysis-services></span>Azure analysis services
+        <span class='checkbox-rect' id=calculator_downlist_filter_analysis-services></span>Azure Analysis Services
       </li>
       <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_api-management></span>API management
+        <span class='checkbox-rect' id=calculator_downlist_filter_api-management></span>API Management
       </li>
       <li>
-        <span class='checkbox-rect' id=calculator_downlist_filter_analysis-services></span>Network Observation Procedures
+        <span class='checkbox-rect' id=calculator_downlist_filter_network-watcher></span>Network Observation Procedures
       </li>
     </ul>
   </div>
@@ -302,20 +302,20 @@
                 <a href="#" class="close" id="closeCalculator"></a>
             </div>
             <ul class="calcul-list">
-                <span class="nothing">You still have not selected your price estimate service. Adjust the left-hand amount to increase.</span>
+                <span class="nothing">You haven’t yet selected your price estimation service. Please add it by adjusting the amount on the left-hand side.</span>
             </ul>
             <div class="summary">
                 <div class="total">
                     Total Price
                     <p>
-                        <span class="num">￥1428.4</span> <span class="unit">/month</span>
+                        <span class="num">¥1428.4</span> <span class="unit">/month</span>
                     </p>
                 </div>
                 <div class="btn-group">
                     <a class="calcul-btn buy" href="/pricing/pia/" id="sidebarWinCalculBuy">Go to purchase</a> <a class="calcul-btn-white export" href="#" id="sidebarWinCalculExport">Export List</a> <a class="calcul-btn-white reset" href="#" id="sidebarWinCalculReset">Reset</a>
                 </div>
                 <p class="summary-text">
-                    Still hesitant? First <a href="/pricing/1rmb-trial/" id="sidebarWinCalculTry">try</a> these functions
+                    Still hesitating? First<a href="/pricing/1rmb-trial/" id="sidebarWinCalculTry">try</a> these functions
                 </p>
             </div>
         </div>
@@ -326,7 +326,7 @@
         <div class="modal modal-calculator hide">
             <div class="container">
                 <a href="#" class="close" id="closeCalculatorModal"></a>
-                <p>We can take services selected on different pages and add them on the right-hand list to merge the calculation. You can manually delete or clear.</p>
+                <p>We can take services selected on different pages and add them on the right-hand list combined calculation. You can manually delete or clear it.</p>
                 <span class="checkbox-rect"></span>Don’t prompt again <a class="btn btn-continue" href="#">I got it</a>
             </div>
         </div>
@@ -475,10 +475,10 @@
     <isResponsive>true</isResponsive>
     <umbracoNaviHide>1</umbracoNaviHide>
     <pageTitle>Comprehensive Azure Cloud Products Price Calculator - Azure Cloud Computing</pageTitle>
-    <metaKeywords>Azure, Price Calculator, Data Transmission, 1-yuan Trial</metaKeywords>
-    <metaDescription><![CDATA[Focused on your solutions, we calculate the usage cost of each Azure item. You can select whatever services needed, and different types, levels, deployments, instances, etc. You can easily check individual or total prices,estimate all necessary fees, clear items, and easily get a price quote. A 1-yuan trial gets you 1,500 RMB in service credits. It also can be applied directly as a pay-in-advance purchase of Azure, enjoying 99.99% of a service level agreement.]]></metaDescription>
+    <metaKeywords>Azure, Service Bus, Data Transmission, 1 RMB Trial</metaKeywords>
+    <metaDescription><![CDATA[For your solutions, we calculate the usage cost of each Azure service. You can select whatever services needed, and different types, levels, deployments, instances, etc. You can easily check individual or total prices, estimate all necessary fees, output lists, and easily get a price quote. A 1 RMB trial gets you ¥1500 in service credits. It also can be applied directly as an advance payment purchase of Azure, enjoying the highest 99.99% service level agreement.]]></metaDescription>
     <linkid>pricing-calculator</linkid>
-    <urlDisplayName>Complete Price calculator</urlDisplayName>
+    <urlDisplayName>Complete Price Calculator</urlDisplayName>
     <headerExpose>&lt;script type="text/javascript"&gt; var onPricingCalc="true";&lt;/script&gt;</headerExpose>
     <footerExpose></footerExpose>
     <disqusComments>0</disqusComments>

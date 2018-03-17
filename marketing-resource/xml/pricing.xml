@@ -30,10 +30,10 @@
 								</h2>
 								<ul title="Calculate" class="low-price">
 									<li>
-										<a id="price_overview_cal_virtual-machines" href="/pricing/details/virtual-machines/" class="single-link"> Virtual machine </a>
+										<a id="price_overview_cal_virtual-machines" href="/pricing/details/virtual-machines/" class="single-link"> Virtual Machine </a>
 									</li>
 									<li>
-										<a id="price_overview_cal_virtual-machine-scale-sets" href="/pricing/details/virtual-machine-scale-sets/" class="single-link"> Virtual machine scale sets </a>
+										<a id="price_overview_cal_virtual-machine-scale-sets" href="/pricing/details/virtual-machine-scale-sets/" class="single-link"> Virtual Machine scale sets </a>
 									</li>
 									
 									<li>
@@ -64,7 +64,7 @@
 								</h2>
 								<ul title="Network"  class="low-price">
 									<li>
-										<a id="pricing_overview_network_networking" href="/pricing/details/networking/" class="single-link">Virtual network</a>
+										<a id="pricing_overview_network_virtual-network" href="/pricing/details/virtual-network/" class="single-link">Virtual network</a>
 									</li>
 									<li>
 										<a id="pricing_overview_network_load-balancer" href="/pricing/details/load-balancer/" class="single-link">Load Balancer</a>
@@ -88,7 +88,7 @@
 										<a id="pricing_overview_network_data-transfer" href="/pricing/details/data-transfer/" class="single-link">Data Transmission (Bandwidth)</a>
 									</li>
 									<li>
-										<a id="pricing_overview_network_reserved-ip-addresses" href="/pricing/details/reserved-ip-addresses/" class="single-link">IP Address</a>
+										<a id="pricing_overview_network_ip-addresses" href="/pricing/details/ip-addresses/" class="single-link">IP Address</a>
 									</li>
 									<li>
 										<a id="pricing_overview_network_reserved-network-watcher" href="/pricing/details/network-watcher/" class="single-link">Network Observation Procedures</a>
@@ -108,7 +108,7 @@
 										<a id="pricing_overview_storage_storage" href="/pricing/details/storage/" class="single-link">Storage</a>
 									</li>
 									<li>
-										<a id="pricing_overview_storage_back-up" href="/pricing/details/back-up/" class="single-link">Backup</a>
+										<a id="pricing_overview_storage_backup" href="/pricing/details/backup/" class="single-link">Backup</a>
 									</li>
 									<li>
 										<a id="pricing_overview_storage_site-recovery" href="/pricing/details/site-recovery/" class="single-link">Website Recovery</a>
@@ -127,9 +127,6 @@
 								<ul title="Web + Mobile"  class="low-price">
                                     <li>
 										<a id="pricing_overview_Web&Mobile_app-service" href="/pricing/details/app-service/" class="single-link">App service</a>
-									</li>
-									<li>
-										<a id="pricing_overview_Web&Mobile_mobile-services" href="/pricing/details/mobile-services/" class="single-link">Mobile Services</a>
 									</li>									
 									<li>
 										<a id="pricing_overview_Web&Mobile_cdn" href="/pricing/details/cdn/" class="single-link">Content Delivery Network</a>
@@ -138,9 +135,8 @@
 										<a id="pricing_overview_Web&Mobile_media-services" href="/pricing/details/media-services/" class="single-link">Media server</a>
 									</li>
 									<li>
-										<a id="pricing_overview_Web&Mobile_api-management" href="/pricing/details/api-management/" class="single-link">API management</a>
+										<a id="pricing_overview_Web&Mobile_mobile-services" href="/pricing/details/mobile-services/" class="single-link">Mobile Services</a>
 									</li>
-
 									
 								</ul>
 							</div>
@@ -154,7 +150,7 @@
 								</h2>
 								<ul title="Database">
 									<li>
-										<a id="pricing_overview_database_sql-database" href="/pricing/details/sql-database/" class="single-link">SQL database</a>
+										<a id="pricing_overview_database_sql-database" href="/pricing/details/sql-database/" class="single-link">SQL Database</a>
 									</li>
 									<li>
 										<a id="pricing_overview_database_mysql" href="/pricing/details/mysql/" class="single-link"> MySQL Database on Azure </a>
@@ -179,9 +175,9 @@
 							<div class="nav_item larger_item" id="nav_item_pri">
 								<a id="overview_anchor_analytics" class="anchor"></a>
 								<h2 class="nav_title">
-									Intelligence + Analysis
+									Flow analysis
 								</h2>
-								<ul title="Intelligence + Analysis">
+								<ul title="Flow analysis">
 									
 									<li>
 										<a id="pricing_overview_analytics_hdinsight" href="/pricing/details/hdinsight/" class="single-link">HDInsight</a>
@@ -190,13 +186,32 @@
 										<a id="pricing_overview_analytics_stream-analytics" href="/pricing/details/stream-analytics/" class="single-link">Flow analysis</a>
 									</li>
 									<li>
-										<a id="pricing_overview_analytics_cognitive-services" href="/pricing/details/cognitive-services/" class="single-link">Cognitive Services</a>
-									</li>
-									<li>
 										<a id="pricing_overview_analytics_power-bi-embedded" href="/pricing/details/power-bi-embedded/" class="single-link">Power BI Workspace Collection</a>
 									</li>
 									<li>
-										<a id="pricing_overview_analytics_analysis-services" href="/pricing/details/analysis-services/" class="single-link">Azure analysis services</a>
+										<a id="pricing_overview_analytics_analysis-services" href="/pricing/details/analysis-services/" class="single-link">Azure Analysis Services</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-6">
+							<div class="nav_item larger_item" id="nav_item_pri">
+								<a id="overview_anchor_analytics" class="anchor"></a>
+								<h2 class="nav_title">
+									AI
+								</h2>
+								<ul title="AI">
+									<li>
+										<a id="pricing_overview_analytics_cognitive-services" href="/pricing/details/cognitive-services/" class="single-link">Cognitive Services</a>
+									</li>
+									<li>
+										<a id="pricing_overview_analytics_cognitive-services-face-api" href="/pricing/details/cognitive-services/" class="single-link"> - Facial recognition API</a>
+									</li>
+									<li>
+										<a id="pricing_overview_analytics_cognitive-services-computer-vision" href="/pricing/details/cognitive-services/" class="single-link"> - Computer visualization API</a>
+									</li>
+									<li>
+										<a id="pricing_overview_analytics_cognitive-services-emotion" href="/pricing/details/cognitive-services/" class="single-link"> - Emotion recognition API</a>
 									</li>
 								</ul>
 							</div>
@@ -234,11 +249,15 @@
 								</h2>
 								<ul title="Enterprise Integration">
 									<li>
-										<a id="pricing_overview_integration_messaging" href="/pricing/details/messaging/" class="single-link">Service Bus</a>
+										<a id="pricing_overview_integration_service-bus" href="/pricing/details/service-bus/" class="single-link">Service Bus</a>
 									</li>
 									<li>
 										<a id="pricing_overview_integration_sql_server_stretch_database" href="/pricing/details/sql-server-stretch-database/" class="single-link"> SQL Server Stretch Database </a>
-									</li>									
+									</li>
+
+									<li>
+										<a id="pricing_overview_Web&Mobile_api-management" href="/pricing/details/api-management/" class="single-link">API management</a>
+									</li>								
 								</ul>
 							</div>
 						</div>
@@ -254,7 +273,7 @@
 										<a id="pricing_overview_security_key-vault" href="/pricing/details/key-vault/" class="single-link">Key Vault </a>
 									</li>
 									<li>
-										<a id="pricing_overview_security_identity" href="/pricing/details/identity/" class="single-link">Azure Active Directory</a>
+										<a id="pricing_overview_security_active-directory" href="/pricing/details/active-directory/" class="single-link">Azure Active Directory</a>
 									</li>
 									<li>
 										<a id="pricing_overview_security_multi-factor-authentication" href="/pricing/details/multi-factor-authentication/" class="single-link">Multi-Factor Authentication</a>
@@ -274,7 +293,7 @@
 										<a id="pricing_overview_manage_automation" href="/pricing/details/automation/" class="single-link">Automation</a>
 									</li>
 								<li>
-										<a id="pricing_overview_manage_back-up" href="/pricing/details/back-up/" class="single-link">Backup</a>
+										<a id="pricing_overview_manage_backup" href="/pricing/details/backup/" class="single-link">Backup</a>
 									</li>
 									<li>
 										<a id="pricing_overview_manage_site-recovery" href="/pricing/details/site-recovery/" class="single-link">Website Recovery</a>
