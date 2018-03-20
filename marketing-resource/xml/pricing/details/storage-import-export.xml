@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2016-07-07T11:41:59" urlName="storage-import-export" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            
+            <div>   
+                    <h1><span>Import / Export</span></h1>
+
+					<p>With the Azure import/export service, you can use the HDD to transfer large amounts of data in and out of Azure. For the movement of large datasets, the importing/exporting is faster and more cost-effective than data transfer by the Internet. This service enables you to transfer data to Azure through the secure transfer from the HDD to the data center and the high-speed and secure internal network.</p>
+			</div>
+			<div class="pricing-page-section">
+                    <h2>Pricing Details</h2>
+                    <p><strong>Equipment processing</strong>: processing fee for each storage device is RMB 380. And the data transfer between the equipment and Azure storage is free. The regular storage affairs are charged. Please refer to the page of <a href="/pricing/details/storage/" id="storage-import-export_pricing-storage">Details of Storage Price</a>.</p>
+                    <p><strong>Shipping for equipment returns</strong>: related shipping charges caused by equipment returns is free before March 1, 2017.</p>
+                   
+            </div>           
+            <div class="pricing-page-section">
+                <div class="more-detail">
+                    <h2>FAQs</h2>
+                    <em>Expand all</em>
+                    <ul>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>                                
+                                <a id="Data_Transfer_question1"> Does an extra fee need to be paid during importing/exporting the service transfer data and storing it in Azure? </a>
+                                <section>
+                                    <p>The standard <a id="storage-import-export_pricing-storage-faq" href="/pricing/details/storage/">storage</a> pricing is applicable to the data stored in Azure Storage after being imported.</p>
+                                </section>
+                            </div>
+                        </li>            
+                    </ul>
+				</div>
+			</div>
+			<div class="pricing-page-section">
+    <h2>Marketing Regions</h2>
+    <p>The import/export service is available in the following regions:</p>
+    <table cellpadding="0" cellspacing="0" class="table-col6">
+        <tr>
+            <th align="left"><strong>Territories</strong></th>
+            <th align="left"><strong>Regions</strong></th>
+        </tr>
+        <tr>
+            <td>Mainland China</td>
+            <td>China East Data Center, China North Data Center</td>
+        </tr>
+    </table>
+
+<h2>Support and Service Level Agreements</h2>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="storage-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
+				<p>Currently, we will not provide a service level agreement for importing/exporting. If you want to learn about the details of our service level agreement, please access the <a id="pricing_storage-import-export_sla" href="/support/legal/sla/" target="_blank">Service Level Agreements</a> page.</p>
+</div>
+    
+    ]]></bodyText>
+    <pageTitle>Import/Export | Azure</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>storage-import-export</linkid>
+    <metaKeywords>Azure, Microsoft Cloud, Azure Storage - Import/Export, price details, pricing and billing</metaKeywords>
+    <metaDescription><![CDATA[Learn about the price details of Import/Export. The user can learn the differences between the storage functions and prices to choose suitable storage. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer.]]></metaDescription>
+    <urlDisplayName>Import/Export</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

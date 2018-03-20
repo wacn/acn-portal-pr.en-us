@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2016-06-30T15:41:59" urlName="storage" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+<style type="text/css">
+			.pricing-detail-tab .tab-nav{
+				padding-left: 0!important;
+				margin-top: 5px;
+				margin-bottom: 0;
+				overflow: hidden;
+			}
+			.pricing-detail-tab .tab-nav li {
+				list-style: none;
+				float: left;
+			}
+
+			.pricing-detail-tab .tab-nav li.active a {
+				border-bottom: 4px solid #00a3d9;
+			}
+
+			.pricing-detail-tab .tab-nav li.active a:hover {
+				border-bottom: 4px solid #00a3d9;
+			}
+
+			.pricing-detail-tab .tab-content .tab-panel{
+				display: none;
+			}
+
+			.pricing-detail-tab .tab-content .tab-panel.show-md{
+				display: block;
+			}
+
+			.pricing-detail-tab .tab-content .tab-panel .tab-nav li a{
+				padding-left: 5px;
+				padding-right: 5px;
+				color: #00a3d9;
+				background-color: #FFF;
+			}
+
+			.pricing-detail-tab .tab-content .tab-panel .tab-nav li.active a{
+				color: #FFF;
+				background-color: #00a3d9;				
+			}
+
+			.pricing-detail-tab .tab-content .tab-panel .tab-nav li a:hover{
+				color: #FFF;
+				background-color: #00a3d9;				
+			}
+			.pure-content .technical-azure-selector p a,.pure-content .technical-azure-selector table a{
+			background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;
+			}
+</style>  
+<tags ms.service="storage" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+<div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/css/storage.png','imageHeight':'auto'}">
+    <div class="common-banner-image">
+        <div class="common-banner-title">
+            <img src="//resource.cdn.azure.cn/marketing-resource/css/storage@2x.png" />
+            <h2><span>Storage</span></h2>
+            <h4>Suitable for various types of data, economical and reliable cloud storage, provides a high assurance of security, lasting and stable storage, and the capability of rapid and flexible expansion.</h4>
+            <em><a href="/pricing/1rmb-trial/" id="home_storage_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_storage_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+        </div>
+    </div>
+</div>
+<!-- END: Product-Detail-TopBanner -->
+<div class="pricing-page-section">
+    <p>Azure Storage is a kind of highly durable, available and scalable cloud storage enabling your access anytime, anywhere.</p>
+    <p>We charge customers the Azure storage space fees according to the storage capacity, number of storage transactions (number of storage read or write operations), and <a id="stor-data-tran" style="color: #00a8d9;" href="/pricing/details/data-transfer/">data already transmitted</a>.</p>
+    <p>Storage is divided into five types:</p>
+    <p>Block Blob: Block Blob is a cost-effective, expandable method that can be used for reliably storing mass Blob data. Typical instances include: data sharing, mass data and backup.</p>
+    <p>Documents: Documents allows the VM of Azure Data Center to install a shared document system by SMB agreement, and access the document system via the standard Windows file API. The virtual machine can be connected to these document systems simultaneously, permitting you to easily share permanent data between different roles and instances. You can also access your data using the Windows file API or document REST API.</p>
+    <p>Page Blob and disk: Page Blob provides block storage for random access and frequent updating/optimization. Thanks to high performance, durability and reliability, it can be used as the permanent disk for the VM in Azure.</p>
+    <p>Tables: Tables are a kind of highly scalable and easily available NoSQL database. These provide storage-based key values for structured data and semi-structured data.</p>
+	<p>Queue: Queue provides a reliable message transfer system used to plan asynchronous tasks, and realizes permanent message transfer.</p>
+
+    <p>In addition, we provide four redundant storage levels:</p>
+    <p>Local redundant storage (LRS): We maintain multiple copies of data in a zone so as to provide high durability.</p>
+    <p>Geo-Redundant Storage(GRS): We asynchronously provide extra data durability through replication between two zones hundreds of miles apart in the same territory. In the two zones, we maintain multiple copies of the data.</p>
+    <p>Read and Access Geo-Redundant Storage (RA-GRS): In addition to GRS services, we provide read-only access to the storage account in the auxiliary zone (which has a final edition consistent with the data in the main storage system). When the storage account in the main zone is not available, the customers can use this service to access the data.</p>
+    <p>Zone Redundant Storage (ZRS): In addition to storage of three copies like LRS, the ZRS space will replicate data asynchronously between data centers of one or two zones, so as to improve the durability of LRS.</p>
+</div>
+<!-- BEGIN: TAB-CONTROL -->
+<div>
+    <h3>Comparison of Storage Functions</h3>
+    <table cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <th align="left">&#160;</th>
+            <th align="left"><strong>LRS</strong></th>
+            <th align="left"><strong>GRS</strong></th>
+            <th align="left"><strong>RA-GRS</strong></th>
+        </tr>
+        <tr>
+            <td>Redundancy</td>
+            <td>Multiple copies in a zone</td>
+            <td>Multiple copies in a zone, and extra replication between two zones</td>
+            <td>Multiple copies in a zone, and extra replication between two zones</td>
+        </tr>
+        <tr>
+            <td>Read/access copies in auxiliary zones</td>
+            <td>N/A</td>
+            <td>No</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Availability of service level agreement</td>
+            <td rowspan="2">All read/write access guarantees 99.9% availability</td>
+            <td rowspan="2">All read/write access guarantees 99.9% availability</td>
+            <td>All write access guarantees 99.9% availability</td>
+        </tr>
+        <tr>
+            <td style="background-color:rgba(237, 240, 245, 0.4)">When data in the main zone is not available, we guarantee 99.99% availability of read data from auxiliary zone</td>
+        </tr>
+    </table>
+    <h2>Pricing Details</h2>
+    <!-- BEGIN: TAB-CONTROL --> <!-- BEGIN: Level 1 tab navigator -->
+		<div class="technical-azure-selector pricing-detail-tab">
+			<ul class="tab-nav">
+				<li class="active">
+					<a href="javascript:void(0)" data-href="#tabContent1" id="storage-blob" data-toggle="tab">Blob Storage</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)" data-href="#tabContent2" id="storage-file" data-toggle="tab">Document Storage</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)" data-href="#tabContent3" id="storage-disk" data-toggle="tab">Disk Storage</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)" data-href="#tabContent4" id="storage-table" data-toggle="tab">Table Storage</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)" data-href="#tabContent5" id="storage-queue" data-toggle="tab">Queue Storage</a>
+				</li>
+			</ul>
+			<div class="tab-content">
+				<!-- BEGIN: Table1-Content-1-->
+				<div class="tab-panel" id="tabContent1">
+						<!-- <p><h3>块 Blob</h3></p> -->
+						<p>Block Blob Storage is used for stream processing and storing files, videos, pictures, backup and other non-structured documents or binary data. The following are the prices of a private Blob storage account with “hot” and “cold” access layers. Extra Blob is also counted by Block Blob.</p>
+						<p><a id="storage-articles-storage-introduction" style="color: #00a8d9;" href="https://docs.azure.cn/storage/storage-introduction/	">Learn More</a></p>
+						<h4>Data Storage Pricing</h4>
+						<p>These are the costs of storage data in Block Blob. The prices shown below mean monthly billing by the data size (GB) of the storage. These prices may vary according to the access layer of Block Blob storage (“hot” or “cold”) and the redundancy options you select, as well as the data size of storage.</p>
+						<div class="tags-date">
+							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+						</div>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<th align="left"><strong></strong></th>
+								<th align="center" colspan="2"><strong>Local Redundant Storage (LRS)</strong></th>
+								<th align="center" colspan="2"><strong>Geo-Redundant Storage (GRS)</strong></th>
+								<th align="center" colspan="2"><strong>Read and Access Geo-Redundant Storage (RA-GRS)</strong></th>
+							</tr>
+							<tr>
+								<td></td>
+								<td align="center">Cold</td>
+								<td align="center">Hot</td>
+								<td align="center">Cold</td>
+								<td align="center">Hot</td>
+								<td align="center">Cold</td>
+								<td align="center">Hot</td>
+							</tr>
+							<tr>
+								<td>First 100 TB/month</td>
+								<td align="center">¥0.11</td>
+								<td align="center">¥0.149</td>
+								<td align="center">¥0.22</td>
+								<td align="center">¥0.298</td>
+								<td align="center">¥0.279</td>
+								<td align="center">¥0.378</td>
+							</tr>
+							<tr>
+								<td>Last 900 TB/month</td>
+								<td align="center">¥0.11</td>
+								<td align="center">¥0.1438</td>
+								<td align="center">¥0.22</td>
+								<td align="center">¥0.2876</td>
+								<td align="center">¥0.279</td>
+								<td align="center">¥0.3648</td>
+							</tr>
+							<tr>
+								<td>Last 4000 TB/month</td>
+								<td align="center">¥0.11</td>
+								<td align="center">¥0.1436</td>
+								<td align="center">¥0.22</td>
+								<td align="center">¥0.2872</td>
+								<td align="center">¥0.279</td>
+								<td align="center">¥0.3643</td>
+							</tr>
+							<tr>
+								<td>Over 5000 TB/month</td>
+								<td align="center" colspan="2"><a id="pricing_storage_blob_lrs_contact" style="color: #00a8d9;" href="/support/contact/">Contact us</a></td>
+								<td align="center" colspan="2"><a id="pricing_storage_blob_grs_contact" style="color: #00a8d9;" href="/support/contact/">Contact us</a></td>
+								<td align="center" colspan="2"><a id="pricing_storage_blobra_grs_contact" style="color: #00a8d9;" href="/support/contact/">Contact us</a></td>
+							</tr>
+						</table>
+						<p><strong><sup>1 </sup></strong>1 TB = 1,024 GB</p>
+						<h4>Operation and Data Transmission Pricing</h4>
+						<p>The following are HTTP operation costs of Block Blob data and the costs of retrieving data from Block Blob or writing data into Block Blob. These prices may vary by the access layer of Block Blob storage (“hot” or “cold”) and the redundancy options you select.</p>
+						<div class="tags-date">
+							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+						</div>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<th align="left"><strong></strong></th>
+								<th align="center" colspan="2"><strong>Local Redundant Storage (LRS)</strong></th>
+								<th align="center" colspan="2"><strong>Geo-Redundant Storage (GRS) Read and Access-Geo-Redundant Storage (RA-GRS)</strong></th>
+							  
+							</tr>
+							<tr>
+								<td></td>
+								<td align="center">Cold</td>
+								<td align="center">Hot</td>
+								<td align="center">Cold</td>
+								<td align="center">Hot</td>
+							</tr>
+							<tr>
+								<td>List and create container operations (by the 10,000s)</td>
+								<td align="center">¥0.09</td>
+								<td align="center">¥0.045</td>
+								<td align="center">¥0.18</td>
+								<td align="center">¥0.09</td>
+							   
+							</tr>
+							<tr>
+								<td>Read operations (by the 10,000s)</td>
+								<td align="center">¥0.03</td>
+								<td align="center">¥0.015</td>
+								<td align="center">¥0.03</td>
+								<td align="center">¥0.015</td>
+							   
+							</tr>
+							<tr>
+								<td>All other operations (by the 10,000s)</td>
+								<td align="center">¥0.03</td>
+								<td align="center">¥0.015</td>
+								<td align="center">¥0.03</td>
+								<td align="center">¥0.015</td>
+							
+							</tr>
+							<tr>
+								<td>Data retrieval (GB)</td>
+								<td align="center">¥0.0657</td>
+								<td align="center">Free</td>
+								<td align="center">¥0.0657</td>
+								<td align="center">Free</td>
+							</tr>
+							<tr>
+								<td>Data write (GB)</td>
+								<td align="center">¥0.0164</td>
+								<td align="center">Free</td>
+								<td align="center">¥0.0328</td>
+								<td align="center">Free</td>
+							</tr>
+							<tr>
+								<td>Geo-replication data transfer (GB)</td>
+								<td align="center">Not suitable</td>
+								<td align="center">Not suitable</td>
+								<td align="center">¥0.67</td>
+								<td align="center">¥0.67</td>
+							</tr>
+						</table>
+						<p>To check the price of Block Blob Storage in general-purpose storage account, please check the <a id="pricing_storage_contact" style="color: #00a8d9;" href="/pricing/details/storage/blob/">Block Blog Pricing </a>page.</p>
+						<p>The price of Page Blob is the same as that of standard disk. Please check the <a id="pricing_storage_contact" style="color: #00a8d9;" href="javascript:void(0)" data-href="#tabContent3" >Standard Disk Pricing</a> page.</p>
+						<!-- END: Table1-Content-1 -->
+				</div>
+				<!-- END: Table1-Content-1 --> <!-- BEGIN: Table2-Content-1-->
+				<div class="tab-panel" id="tabContent2">
+					<!-- <h3>文件</h3> -->
+					<p>Use the familiar Windows API or document REST API to share documents between the applications run on your virtual machine. Azure Document creates the shared document system using the standard SMB 3.0 Agreement.</p>
+					<h4>Data Storage Pricing</h4>
+						<p>These are the costs of storage data in the Documents Storage. The prices shown below mean monthly billing by the data size (GB) of storage. These prices may vary by the redundancy options you select.</p>
+						<div class="tags-date">
+							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+						</div>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+								<th align="left"><strong>Geo-Redundant Storage (GRS)</strong></th>
+							</tr>
+							<tr>
+								<td>¥1.4/GB</td>
+								<td>¥1.75/GB</td>
+							</tr>
+						</table>
+					<h4>Operation and Data Transmission Pricing</h4>
+						<p>The following are the HTTP operation costs of document data. These prices may vary by the redundancy options you select.</p>				
+						<div class="tags-date">
+							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+						</div>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<th align="left"><strong></strong></th>
+								<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+								<th align="left"><strong>Geo-Redundant Storage (GRS)</th>
+							  
+							</tr>						
+							<tr>
+								<td>Place and create a container operation (by the 10,000s)</td>
+								<td align="left">¥0.10</td>
+								<td align="left">¥0.20</td>						   
+							</tr>
+							<tr>
+								<td>List operations (by the 10,000s)</td>
+								<td align="left">¥0.10</td>
+								<td align="left">¥0.10</td>						   
+							</tr>
+							<tr>
+								<td>Other operations (by the 10,000s) in addition to deletion (free of charge)</td>
+								<td align="left">¥0.01</td>
+								<td align="left">¥0.01</td>					
+							</tr>
+							<tr>
+								<td>Document agreement operations (by the 10,000s)</td>
+								<td align="left">¥0.01</td>
+								<td align="left">¥0.01</td>					
+							</tr>
+						</table>
+					<!-- END: Table2-Content-1 -->			
+				</div>  
+				<!-- END: Table2-Content-1 --> <!-- BEGIN: Table3-Content-1-->	
+				<div class="tab-panel" id="tabContent3">
+					<!-- BEGIN: Tab level 2 navigator 3 -->
+					<ul class="tab-nav">
+						<li class="active">
+							<a href="javascript:void(0)" data-href="#tabContent3-1" data-toggle="tab" id="vm-vm-r-server-linux-general-purpose">Hosting drive</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" data-href="#tabContent3-2"  data-toggle="tab" id="vm-vm-r-server-linux-compute-optimized">Non-hosting drive</a>
+						</li>
+					</ul>
+					<!-- END: Tab level 2 navigator 3 -->
+
+					<div class="tab-content">
+						<!-- BEGIN: Tab level 2 content 3-1 -->
+						<div class="tab-panel" id="tabContent3-1">
+							<p>Azure Hosting Drive is a new and recommended disk storage product used for Azure Virtual Machine, enabling permanent data storage. Multiple hosting drives can be used for every virtual machine. Hosting Drive provides two types of lasting storage options: Advanced Hosting Drive and Standard Hosting Drive.</p>
+							<p>If you’re interested in the pricing details of the non-hosting drive, please refer to the <a href="javascript:void(0)" id="pricing_storage_data-transfer"  data-href="#tabContent6" >Non-Hosting Drive and Page Blob</a> pricing details page.</p>
+					
+							<h4>Advanced Hosting Drive</h4>
+							<p>Advanced hosting drive, based on a solid state drive (SSD), aims to support I/O intensive workloads with extremely high throughput and low delay. With the help of Advanced Hosting Drive, we can set a permanent drive and configure its size and performance characteristics.</p>
+							<p>The total expenses of Advanced Hosting Drive depends on the disk size and quantity, and is subject to the <a id="pricing_storage_data-transfer-1" href="/pricing/details/data-transfer/">outgoing data transmission</a>. The drive size provides different Input/Output operations/per second (IOP), throughput limit and monthly price/per GB. We can select the most appropriate options including storage size, IOP and throughput. We can add several permanent disks onto the VM and configure up to a 64 TB storage space for every VM. The disk throughput of every VM can reach up to 80,000 (per second of input/output operations) and 1600 MB/second, with a reading delay of less than 1 millisecond. Advanced Hosting Drive is supported exclusively by the DS Series, DSv2 Series and FS Series VM sizes.</p>
+							<div class="tags-date">
+								<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+								<div class="ms-date">*Monthly price estimation is based on a usage of 744 hours every month.</div>
+								<p>The price of screenshots is charged at a rate of ¥2.35/GB per month.</p>
+							</div>
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<th align="left"><strong>Drive types</strong></th>
+									<th align="left"><strong>P4</strong></th>
+									<th align="left"><strong>P6</strong></th>
+									<th align="left"><strong>P10</strong></th>
+									<th align="left"><strong>P15</strong></th>
+									<th align="left"><strong>P20</strong></th>
+									<th align="left"><strong>P30</strong></th>
+									<th align="left"><strong>P40</strong></th>
+									<th align="left"><strong>P50</strong></th>
+								</tr>
+								<tr>
+									<td>Drive sizes</td>
+									<td>32 GB</td>
+									<td>64 GB</td>
+									<td>128 GB</td>
+									<td>256 GB</td>
+									<td>512 GB</td>
+									<td>1 TB</td>
+									<td>2 TB</td>
+									<td>4 TB</td>
+								</tr>
+								<tr>
+									<td>Monthly prices</td>
+									<td>¥47.53</td>
+									<td>¥91.9</td>
+									<td>¥132.15</td>
+									<td>¥254.86</td>
+									<td>¥490.93</td>
+									<td>¥906.29</td>
+									<td>¥1,736.83</td>
+									<td>¥3,322.63</td>
+								</tr>
+								<tr>
+									<td>IOP of every drive</td>
+									<td>120</td>
+									<td>240</td>
+									<td>500</td>
+									<td>1,100</td>
+									<td>2,300</td>
+									<td>5,000</td>
+									<td>7,500</td>
+									<td>7,500</td>
+								</tr>
+								<tr>
+									<td>Throughput of every drive</td>
+									<td>25 MB /second</td>
+									<td>50 MB /second</td>
+									<td>100 MB /second</td>
+									<td>125 MB /second</td>
+									<td>150 MB /second</td>
+									<td>200 MB /second</td>
+									<td>250 MB /second</td>
+									<td>250 MB /second</td>
+								</tr>
+							</table>
+							
+							<div class="tags-date">
+								<div class="ms-date">Advanced Drive has no transaction processing expenses.</div>
+							</div>
+							<p>The aforementioned prices are also suitable for the advanced non-hosting drive.</p>
+					
+							<h4>Standard Hosting Drive</h4>
+							<p>Standard Hosting Drive employs a hard disk drive (HDD)-based storage medium. It is most suitable for development/testing not sensitive to performance changes and other non-frequent access workloads.</p>
+							<p>The total cost of Standard Hosting Drive storage depends on the drive’s size and quantity, transaction amount and <a id="pricing_storage_data-transfer-2" href="/pricing/details/data-transfer/">outgoing data transmission</a>. There is no difference in IOPS and throughput between different Standard Drive sizes.</p>
+							<!-- <p>以下价格反映了 50% 的促销折扣。促销活动将持续至 2017 年 9 月 30 日。</p> -->
+							<div class="tags-date">
+								<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+								<div class="ms-date">*Monthly price estimation is based on a usage of 744 hours every month.</div>
+								<p>The price of screenshots is charged at the rate of ¥0.3/GB per month.</p>
+							</div>
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<th></th>
+									<th align="left"><strong>S4</strong></th>
+									<th align="left"><strong>S6</strong></th>
+									<th align="left"><strong>S10</strong></th>
+									<th align="left"><strong>S15</strong></th>
+									<th align="left"><strong>S20</strong></th>
+									<th align="left"><strong>S30</strong></th>
+									<th align="left"><strong>S40</strong></th>
+									<th align="left"><strong>S50</strong></th>
+									<!-- <th align="left"><strong>S60</strong></th> -->
+								</tr>
+								<tr>
+									<td>Drive sizes</td>
+									<td>32 GB</td>
+									<td>64 GB</td>
+									<td>128 GB</td>
+									<td>256 GB</td>
+									<td>512 GB</td>
+									<td>1 TB</td>
+									<td>2 TB</td>
+									<td>4 TB</td>
+									<!-- <td>8 TB</td> -->
+								</tr>
+								<tr>
+									<td>Monthly prices</td>
+									<td>¥8.64</td>
+									<td>¥17.28</td>
+									<td>¥34.56</td>
+									<td>¥69.12</td>
+									<td>¥138.24</td>
+									<td>¥276.48</td>
+									<td>¥552.96</td>
+									<td>¥1105.92</td>
+									<!-- <td>￥2211.84</td> -->
+								</tr>
+							</table>
+							<div class="tags-date">
+								<div class="ms-date">We charge ¥0.0044 for the transaction of every 10,000 standard hosting drives. Any type of storage operation is considered a transaction, including: reading, writing, and deleting.</div>
+							</div>
+							<h4>Local Redundant Storage (LRS)</h4>								
+							<p>Create multiple synchronous copies of data in a Data Center.</p>
+							<p>To learn more about the redundancy options and how to use these options to obtain high availability, please check the <a id="pricing_storage_documentation-storage-redundancy" href="/documentation/articles/storage-redundancy/">Azure Storage Space</a> replication page. Please note that not all redundancy types apply to all storage types.</p>
+							<!--
+							<h3>高级和标准托管快照（副本）</h3>
+							<p>托管快照是存储为标准磁盘的托管磁盘的只读副本。托管快照的费用与标准托管磁盘相同。例如，如果采集 P10 高级托管磁盘的快照，则托管快照的费用将等于 S10 标准磁盘。</p>
+							-->
+						</div>
+						<!-- END: Tab level 2 content 3-1--> <!-- BEGIN: Tab level 2 content 3-2 --> <!-- <h4>非托管磁盘</h4> -->
+						<div class="tab-panel" id="tabContent3-2">
+							<h3>Advanced Non-Hosting Drive and Page Blob</h3>
+							<p>Advanced Non-Hosting Drive, a high-performance storage based on solid state drive (SSD), aims to support I/O intensive workloads through extremely large throughput and extremely low delays. With the help of Advanced Non-Hosting Drive, we can set a permanent drive and configure its size and performance characteristics.</p>
+							<p>The total expenses of Advanced Non-Hosting Drive depends on the disk size and quantity, and is subject to the <a id="pricing_storage_data-transfer-3" href="/pricing/details/data-transfer/">outgoing data transmission</a>. The disk size provides different Input/Output operations per second (IOP), throughput limit and monthly price per GB. We can select the necessary options most appropriate to applications, including storage size, IOP and throughput. We can add several permanent disks onto the VM and configure up to a 64 TB storage space for every VM. The disk throughput of every VM can reach up to 80,000 (IOP) and 1600 MB/second, with a reading delay of less than 1 millisecond. Advanced Non-Hosting Disk is supported exclusively by the DS Series, DSv2 Series and FS Series VM sizes. The pricing and billing standards of DS Series VMs are the same as the D Series VMs.</p>
+							<div class="tags-date">
+								<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+								<div class="ms-date">*Monthly price estimation is based on a usage of 744 hours every month.</div>
+							</div>
+							<p>The price of screenshots is charged at a rate of ¥2.35/GB per month.</p>
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<th align="left"><strong>Drive types</strong></th>
+									<th align="left"><strong>P10</strong></th>
+									<th align="left"><strong>P15</strong></th>
+									<th align="left"><strong>P20</strong></th>
+									<th align="left"><strong>P30</strong></th>
+									<th align="left"><strong>P40</strong></th>
+									<th align="left"><strong>P50</strong></th>
+									<th align="left"><strong>P60<sup>1</sup></strong></th>
+								</tr>
+								<tr>
+									<td>Drive sizes</td>
+									<td>128 GB</td>
+									<td>256 GB</td>
+									<td>512 GB</td>
+									<td>1 TB</td>
+									<td>2 TB</td>
+									<td>4 TB</td>
+									<td>8 TB</td>
+								</tr>
+								<tr>
+									<td>Monthly prices</td>
+									<td>¥132.15</td>
+									<td>¥254.86</td>
+									<td>¥490.93</td>
+									<td>¥906.29</td>
+									<td>¥1,736.83</td>
+									<td>¥3,322.63</td>
+									<td>¥6,343.21</td>
+								</tr>
+								<tr>
+									<td>IOP of every drive</td>
+									<td>500</td>
+									<td>1,100</td>
+									<td>2,300</td>
+									<td>5,000</td>
+									<td>7,500</td>
+									<td>7,500</td>
+									<td>7,500</td>
+								</tr>
+								<tr>
+									<td>Throughput of every drive</td>
+									<td>100 MB /second</td>
+									<td>125 MB /second</td>									
+									<td>150 MB /second</td>
+									<td>200 MB /second</td>
+									<td>250 MB /second</td>
+									<td>250 MB /second</td>
+									<td>250 MB /second</td>
+								</tr>
+							</table>
+							<div class="tags-date">
+								<div class="ms-date">Advanced Drive has no transaction processing expenses.</div></br>
+								<div class="ms-date"><sup>1 </sup>Azure does not support using P60 as the drive of a virtual machine. Page Blob supports accessing P60 through REST.</div>
+							</div>
+							<h4>Advanced Non-Hosting Drive and Page Blob</h4>
+							<p>Standard Drive employs a hard disk drive (HDD)-based storage medium. It is most suitable for development/testing not sensitive to performance changes and other non-frequent access workloads.</p>
+							<p>The total cost of Standard Hosting Drive storage depends on the size and quantity of disks, quantity of transactions and <a id="pricing_storage_data-transfer-3" href="/pricing/details/data-transfer/">outgoing data transmission</a>.</p>
+							<div class="tags-date">
+								<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+							</div>
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<th align="left"><strong>Monthly Storage Capacity</strong></th>
+									<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+									<th align="left"><strong>Geo-Redundant Storage (GRS)</strong></th>
+									<th align="left"><strong>Read and Access Geo-Redundant Storage (RA-GRS)</strong></th>
+								</tr>
+								<tr>
+									<td>0 to 1 TB<sup>1</sup></td>
+									<td>¥0.44/GB</td>
+									<td>¥0.88/GB</td>
+									<td>¥1.056/GB</td>
+								</tr>
+								<tr>
+									<td>1 TB to 50 TB</td>
+									<td>¥0.3667/GB</td>
+									<td>¥ 0.7334/GB</td>
+									<td>¥ 0.8801/GB</td>
+								</tr>
+								<tr>
+									<td>50 TB to 500 TB</td>
+									<td>¥0.33/GB</td>
+									<td>¥0.66/GB</td>
+									<td>¥0.792/GB</td>
+								</tr>
+								<tr>
+									<td>500 TB to 1000 TB</td>
+									<td>¥0.2933/GB</td>
+									<td>¥0.5866/GB</td>
+									<td>¥0.7039/GB</td>
+								</tr>
+								<tr>
+									<td>1000 TB to 5000 TB</td>
+									<td>¥0.275/GB</td>
+									<td>¥0.55/GB</td>
+									<td>¥0.66/GB</td>
+								</tr>
+								<tr>
+									<td>More than 5000 TB</td>
+									<td align="left"><a id="pricing_storage_blob-disc_lrs_contact" style="color: #00a8d9;" href="/support/contact/">Contact us</a></td>
+									<td align="left"><a id="pricing_storage_blob-disc_grs_contact" style="color: #00a8d9;" href="/support/contact/">Contact us</a></td>
+									<td align="left"><a id="pricing_storage_blob-disc_ra-grs_contact" style="color: #00a8d9;" href="/support/contact/">Contact us</a></td>
+								</tr>
+							</table>
+							<p><strong><sup>1 </sup></strong>1 TB = 1,024 GB</p>
+							
+							<h4>Operation and Data Transmission Pricing</h4>
+							<p>If the transactions of Page Blob are not performed by a virtual machine, billing is done by the transaction. For every transaction, a single operation shall be considered as write, read or delete for billing. If the size of the read or write is more than 64 KB, an extra read/write (IO) expense will be charged for every excess of 64 KB, and 15 IO expenses are charged at most for every transaction. If the size of transactions is more than 1 MB [64 KB x (1 transaction + 15 IOs)], other IOs are not charged irrespective of the size of transactions.</p>						
+							<!-- <p>对于标准非托管磁盘和页 Blob，我们按每 10,000 个事务收取 ￥0.0044 的费用。针对存储的任何类型的操作均视为事务，包括读取、写入和删除。</p> -->
+							
+							<div class="tags-date">
+								<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+							</div>
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<th align="left"><strong></strong></th>
+									<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+									<th align="left"><strong>Geo-Redundant Storage (GRS)</th>
+									<th align="left"><strong>Read and Access Geo-Redundant Storage (RA-GRS)</strong></th>
+								  
+								</tr>						
+								<tr>
+									<td>Writes <sup>1</sup> (per 10,000 counted)</td>
+									<td align="left">¥0.0044</td>
+									<td align="left">¥0.0044</td>						   
+									<td align="left">¥0.0044</td>			   
+								</tr>
+								<tr>
+									<td>Write extra IO units (per 10,000 counted)</td>
+									<td align="left">Free</td>
+									<td align="left">Free</td>						   
+									<td align="left">Free</td>						   
+								</tr>
+								<tr>
+									<td>Read<sup>2</sup> (per 10,000 counted)</td>
+									<td align="left">¥0.0044</td>
+									<td align="left">¥0.0044</td>						   
+									<td align="left">¥0.0044</td>						   
+								</tr>
+								<tr>
+									<td>Read extra IO units (per 10,000 counted)</td>
+									<td align="left">Free</td>
+									<td align="left">Free</td>						   
+									<td align="left">Free</td>						   
+								</tr>
+								<tr>
+									<td>Delete</td>	
+									<td align="left">¥0.0044</td>
+									<td align="left">¥0.0044</td>						   
+									<td align="left">¥0.0044</td>						   
+								</tr>
+							</table>
+							<div class="tags-date">
+								<div class="ms-date"><sup>1 </sup> The following API calls are considered to be write options: AbortCopyBlob, AppendBlock, BreakBlobLease, BreakContainerLease, ChangeBlobLease, ChangeContainerLease, CopyBlob, CreateContainer, IncrementalCopyBlob, PutBlob, PutGeoMessage, PutGeoRepairMessageMeasurementEvent, PutGeoVerificationMessageMeasurementEvent, PutPage, SetBlobMetadata, SetBlobProperties, SetBlobServiceProperties, SetContainerACL, SetContainerMetadata, SnapshotBlob and UndeleteBlob.</div><br />
+								<div class="ms-date"><sup>2 </sup> The following API calls are considered to be read operations: AcquireBlobLease, AcquireContainerLease, BlobPreflightRequest, GeoBootstrap, GetBlob, GetBlobLeaseInfo, GetBlobMetadata, GetBlobProperties, GetBlobServiceProperties, GetBlobServiceStats, GetBlockList, GetContainerACL, GetContainerMetadata, GetContainerProperties, GetCopyInformation, GetEncryptionKey, GetPageRegions, ReleaseBlobLease, ReleaseContainerLease, RenewBlobLease and RenewContainerLease.</div>
+							</div>
+						</div>
+						<!-- END: Tab level 2 content 3-2-->
+					</div>
+				</div>
+				<!-- END: Table3-Content-1 --> <!-- BEGIN: Table4-Content-1 -->
+				<div class="tab-panel" id="tabContent4">
+					<!-- <h3>表</h3> -->
+						<p>This table lists non-structured data and semi-structured data provided for NoSQL storage, suitable for web applications, address books and other user data.</p>
+						<h4>Data Storage Pricing</h4>
+						<div class="tags-date">
+							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+						</div>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<th align="left"><strong>Monthly Storage Capacity</strong></th>
+								<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+								<th align="left"><strong>Geo-Redundant Storage (GRS)</strong></th>
+								<th align="left"><strong>Read and Access Geo-Redundant Storage (RA-GRS)</strong></th>
+							</tr>
+							<tr>
+								<td>0 to 1 TB<sup>1</sup></td>
+								<td>¥0.72/GB</td>
+								<td>¥0.95/GB</td>
+								<td>¥1.21/GB</td>
+							</tr>
+							<tr>
+								<td>1TB to 50 TB</td>
+								<td>¥0.57/GB</td>
+								<td>¥0.80/GB</td>
+								<td>¥1.02/GB</td>
+							</tr>
+							<tr>
+								<td>More than 50 TB</td>
+								<td>¥0.54/GB</td>
+								<td>¥0.74/GB</td>
+								<td>¥0.94/GB</td>
+							</tr>
+						</table>
+						<p><strong><sup>1 </sup></strong>1 TB = 1,024 GB</p>
+						<h4>Operation and Data Transmission Pricing</h4>
+						<div class="tags-date">
+							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+						</div>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<th align="left"><strong></strong></th>
+								<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+								<th align="left"><strong>Geo-Redundant Storage (GRS)</th>
+							  
+							</tr>						
+							<tr>
+								<td>Place table, create container operation (per 10,000 counted)</td>
+								<td align="left">¥0.02</td>
+								<td align="left">¥0.04</td>						   
+							</tr>
+							<tr>
+								<td>Batch processing to place table and create container operation (per 10,000 counted)</td>
+								<td align="left">¥0.02</td>
+								<td align="left">¥0.04</td>					
+							</tr>
+							<tr>
+								<td>List container operation (per 10,000 counted)</td>
+								<td align="left">¥0.02</td>
+								<td align="left">¥0.02</td>						   
+							</tr>
+							<tr>
+								<td>Table reading (per 10,000 counted)</td>
+								<td align="left">¥0.02</td>
+								<td align="left">¥0.02</td>					
+							</tr>
+							<tr>
+								<td>Scan container operation (per 10,000 counted)</td>
+								<td align="left">¥0.04</td>
+								<td align="left">¥0.04</td>					
+							</tr>
+							<tr>
+								<td>Table deletion (per 10,000 counted)</td>
+								<td align="left">¥0.02</td>
+								<td align="left">¥0.02</td>					
+							</tr>
+							
+						</table>
+					<!-- END: Table4-Content-1 -->
+				</div>
+	        	<!-- END: Table4-Content-1 --> <!-- BEGIN: Table5-Content-1-->
+				<div class="tab-panel" id="tabContent5">
+					<!-- <h3>队列</h3> -->
+					<p>The queue provides a reliable message transmission solution for your applications</p>
+					<h4>Data Storage Pricing</h4>
+					<div class="tags-date">
+						<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+					</div>
+					<table cellpadding="0" cellspacing="0" width="100%">
+						<tr>
+							<th align="left"><strong>Monthly Storage Capacity</strong></th>
+							<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+							<th align="left"><strong>Geo-Redundant Storage (GRS)</strong></th>
+							<th align="left"><strong>Read and Access Geo-Redundant Storage (RA-GRS)</strong></th>
+						</tr>
+						<tr>
+							<td>0 to 1 TB<sup>1</sup></td>
+							<td>¥0.72/GB</td>
+							<td>¥0.95/GB</td>
+							<td>¥1.21/GB</td>
+						</tr>
+						<tr>
+							<td>1TB to 50 TB</td>
+							<td>¥0.57/GB</td>
+							<td>¥0.80/GB</td>
+							<td>¥1.02/GB</td>
+						</tr>
+						<tr>
+							<td>More than 50 TB</td>
+							<td>¥0.54/GB</td>
+							<td>¥0.74/GB</td>
+							<td>¥0.94/GB</td>
+						</tr>
+					</table>
+					
+					<p><strong><sup>1 </sup></strong>1 TB = 1,024 GB</p>
+
+					<h4>Operation and Data Transmission Pricing</h4>								
+						<div class="tags-date">
+							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+						</div>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<th align="left"><strong></strong></th>
+								<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+								<th align="left"><strong>Geo-Redundant Storage (GRS)</th>
+								<th align="left"><strong>Read and Access Geo-Redundant Storage (RA-GRS)</strong></th>
+							  
+							</tr>						
+							<tr>
+								<td>Queue types 1 <sup>1</sup> operation (per 10,000 counted)</td>
+								<td align="left">¥0.003663</td>					   
+								<td align="left">¥0.003663</td>					   
+								<td align="left">¥0.003663</td>					   
+							</tr>
+							<tr>
+								<td>Queue types2 <sup>2</sup> operation (per 10,000 counted)</td>
+								<td align="left">¥0.02</td>
+								<td align="left">¥0.02</td>					   
+								<td align="left">¥0.02</td>					   
+							</tr>
+							<tr>
+								<td>Geo-replication data transfer (per GB)</td>
+								<td align="left">Free</td>
+								<td align="left">Free</td>					   
+								<td align="left">Free</td>					   
+							</tr>
+						</table>
+						<div class="tags-date">
+							<div class="ms-date"><sup>1 </sup>The following queue operations are designated as type 1: CreateQueue, ListQueues, PutMessage, SetQueueMetadata, UpdateMessage, ClearMessages, DeleteMessage, DeleteQueue, GetMessageWrite, GetMessagesWrite.</div><br />
+							<div class="ms-date"><sup>2 </sup>The following queue operations are designated as type 2: GetMessage, GetMessages, GetQueueMetadata, GetQueueServiceProperties, GetQueueAcl, PeekMessage, PeekMessages, GetMessageRead, GetMessagesRead.</div>
+						</div>
+					<!-- END: Table5-Content-1 -->
+				</div>
+				<!-- END: Table5-Content-1 -->
+			</div>
+		</div>
+	
+	<!-- END: TAB-CONTROL -->
+
+
+</div>
+
+
+<div class="pricing-page-section">
+				<h4>Input/Output</h4>
+		
+					<p>Input and output mass data in Azure using a hard disk drive.<a href="/pricing/details/storage-import-export/" id="pricing_storage_storage-import-export">Learn more<i class="icon icon-arrow-right-thin"></i></a></p><br />
+				
+				<h4>Data Redundancy Options</h4>				
+				<table cellpadding="0" cellspacing="0" width="100%">
+						<tr>
+							<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+							<th align="left">Create multiple synchronous copies of data in a data center.</th>						  
+						</tr>						
+						<tr>
+							<td align="left"><strong>Zone Redundant Storage (ZRS)</strong></td>
+							<td align="left">Store three data copies in multiple data centers in a region or across regions. Block Blob only</td>						   
+						</tr>
+						<tr>
+							<td align="left"><strong>Geo-Redundant Storage (GRS)</strong></td>
+							<td align="left">Just like LRS, this also allows storing multiple asynchronous copies into the second data center hundreds of miles apart. </td>						   
+						</tr>
+						<tr>
+							<td align="left"><strong>Read and Access Geo-Redundant Storage(RA-GRS)</strong></td>
+							<td align="left">Just like GRS, this allows reading and accessing the second data center.</td>						   
+						</tr>
+					</table>
+					<p>To learn more about the redundancy options and how to use these options to obtain high availability, please check the <a id="pricing_storage_documentation-storage-redundancy-2" href="/documentation/articles/storage-redundancy/">Azure Storage Space Replication Page</a>. Please note, not all redundancy types are suitable for all storage types.<br />
+				
+</div>
+
+
+<!-- END: TAB-CONTROL -->
+
+<div class="pricing-page-section">
+    <div class="more-detail">
+        <h2>FAQs</h2>
+        <em>Expand All</em>
+		<h3>Common</h3>
+        <ul>
+            <li>
+                <i class="icon icon-plus"></i>
+                <div>
+                    <a id="Storage_question1">Is apportioning cost proportionately required if I just use storage services a few days per month? </a>
+                    <section>
+                        <p>Yes. Storage capacity is charged by the average data storage (using GB as the unit) per day within a month. For instance, if you’ve continuously used 10 GB of storage capacity in the first half of the month, but haven’t used any storage capacity in the second half of the month, the average storage of 5 GB must be charged.</p>
+                    </section>
+
+                </div>
+            </li>
+            <li>
+                <i class="icon icon-plus"></i>
+                <div>
+                    <a id="Storage_question2">How do I know which data redundancy option I am using (see the text above)? </a>
+                    <section>
+                        <p>You may select redundancy in creating a storage account. After creation is complete, you may check the redundancy by using Azure Portal or the service management API.</p>
+                    </section>
+
+                </div>
+            </li>
+            <!-- <li>
+                <i class="icon icon-plus"></i>
+                <div>
+                    <a id="Storage_question3">读取访问地域冗余存储是如何进行计费的？</a>
+                    <section>
+                        <p>将对存储帐户收取自此服务启用之时起至少 30 天的费用。例如，如果读取访问地域冗余存储于 5 月 1 日开启，5 月 5 日关闭，则将以 5 月 30 日为使用终止日对存储帐户收取相应的读取访问地域冗余存储费用。此后，将开始按地域冗余存储计费。</p>
+                        <p>如果读取访问地域冗余存储于 5 月 1 日开启，6 月 14 日关闭，则将以 6 月 14 日为使用终止日收取相应的读取地域冗余存储费用。6 月 15 日，地域冗余存储定价将开始生效。</p>
+                    </section>
+
+                </div>
+            </li> --> <!-- <li>
+                <i class="icon icon-plus"></i>
+                <div>
+                    <a id="Storage_question_monitor">如果我启用存储的“监视”功能，是否会额外收费？</a>
+                    <section>
+                        <p>会额外收费。“监视”功能默认状态不启用。“监视”功能产生的日志类型为 block blob ，会根据产生的日志大小收费。更多信息，请参阅：<a href="https://docs.azure.cn/storage/storage-monitor-storage-account/" id="pricing-storage_storage-monitor-storage-account">监视 Azure 经典管理门户中的存储帐户</a>。</p>
+                    </section>
+
+                </div>
+            </li> -->
+		</ul>
+		
+		<h3>Blob Storage</h3>
+        <ul>
+			<li>
+                <i class="icon icon-plus"></i>
+                <div>
+                    <a id="Storage_question4">What is a Blob storage account and what are the differences between this account and a general purpose storage account?</a>
+                    <section>
+                        <p>A Blob storage account is exclusively used as the storage account for Blob storage data, such that customers can assign access layers according to the data access frequency in the account. General-purpose storage accounts can be used for storing Blob, documents, disks, tables and queues.</p>
+                    </section>
+
+                </div>
+            </li>
+			<li>
+                <i class="icon icon-plus"></i>
+                <div>
+                    <a id="Storage_question5">Has the price of Block Blob for general purpose storage account been changed?</a>
+                    <section>
+                        <p>No. The price of Block Blob in general purpose storage account hasn’t yet been changed. Please check the <a id="pricing_storage_question" style="color: #00a8d9;" href="/pricing/details/storage/blob/">Block Blob Pricing</a> page.</p>
+                    </section>
+
+                </div>
+            </li>
+			<li>
+                <i class="icon icon-plus"></i>
+                <div>
+                    <a id="Storage_question6">When checking Azure billing, how can we distinguish if paying for the Blob in the Blob storage account or general-purpose storage account is required?</a>
+                    <section>
+                        <p>If “Hot” or “Cold” exists in the resources name, it means this expense is related to the Blob storage account. For instance, if it shows, “Standard IO - Cold Block Blob (GB)”, it means you use the Blob storage account and need to pay for this account, while “Standard IO – Block Blob (GB)” is charged in relation to the Block Blob in the general-purpose storage account.</p>
+                    </section>
+
+                </div>
+            </li>
+			<li>
+                <i class="icon icon-plus"></i>
+                <div>
+                    <a id="Storage_question7">What are “Hot” and “Cold” access layers and how do we ascertain which one is to be used?</a>
+                    <section>
+						<p>In the Blob storage account, we could set the Blob’s access layer as “Hot” and “Cold”. The storage GB price increases in the sequence of “Cold” and “Hot” layers, and the data access expense increases in the sequence of “Hot” and “Cold” layers. The “Hot” and “Cold” layers are separately applied to data with almost no access and occasional access, and the availability service level agreement of these data has a lower requirement. If you don’t know the access mode of data, it’s recommended that you should use the “Hot” layer for at least one month in the beginning, then decide if it’s necessary to shift to “Cold” storage to save on costs where applicable.</p>
+					<!-- <table cellpadding="0" cellspacing="0" width="100%">
+						<tr>
+							<th align="left"><strong>计量单位</strong></th>
+							<th align="left"><strong>使用量</strong></th>
+							<th align="left"><strong>“冷”层中的成本</strong></th>
+							<th align="left"><strong>“热”层中的成本</strong></th>
+							<th align="left"><strong>“冷”层中的每月成本</strong></th>
+							<th align="left"><strong>“热”层中的每月成本</strong></th>
+						</tr>
+						<tr>
+							<td>每月 GB 数</td>
+							<td>50*1,024=51,200</td>
+							<td>￥0.11</td>
+							<td>￥0.149</td>
+							<td>￥5,632</td>
+							<td>￥7,628.8</td>
+						</tr>
+						<tr>
+							<td>10,000 次放置块 Blob、列出并创建容器操作</td>
+							<td>20%*10M/10,000=200</td>
+							<td>￥0.09</td>
+							<td>￥0.045</td>
+							<td>￥18</td>
+							<td>￥9</td>
+						</tr>
+						<tr>
+							<td>10,000 次其他操作</td>
+							<td>80%*10M/10,000=800</td>
+							<td>￥0.03</td>
+							<td>￥0.015</td>
+							<td>￥24</td>
+							<td>￥12</td>
+						</tr>
+						<tr>
+							<td>检索的数据 (GB)</td>
+							<td>20*1,024=20,480</td>
+							<td>￥0.0657</td>
+							<td>￥0</td>
+							<td>￥1,345.536</td>
+							<td>￥0</td>
+						</tr>
+						<tr>
+							<td>写入的数据 (GB)</td>
+							<td>10*1,024=10,240</td>
+							<td>￥0.0164</td>
+							<td>￥0</td>
+							<td>￥167.936</td>
+							<td>￥0</td>
+						</tr>
+						<tr>
+							<td><strong>每月总成本</strong></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>￥7,187.472</td>
+							<td>￥7,649.8</td>
+						</tr>
+						
+				</table>
+
+					<p>在此示例中，“冷”访问层的每月总成本 ￥7,187.472 低于“热”访问层的每月总成本 ￥7,649.8。因此，在此示例中将数据移动到“冷”访问层会大量节省成本。</p> -->
+                    </section>
+
+                </div>
+            </li>
+			<li>
+                <i class="icon icon-plus"></i>
+                <div>
+                    <a id="Storage_question8">Is paying the data writing expense required when switching the Blob storage account from “Cold” to “Hot”?</a>
+                    <section>
+                        <p>We will charge for data retrieval from the Blob storage account when it’s switched from “Cold” to “Hot”. For instance, if the Blob storage account has 100 GB of data, when the account is switched from “Cold” to “Hot”, you will be charged with a data retrieval fee of 100 * ¥0.0657 = ¥6.57.</p>
+                    </section>
+
+                </div>
+            </li>
+			<li>
+                <i class="icon icon-plus"></i>
+                <div>
+                    <a id="Storage_question9">Is paying for data writing required when the Blob storage account is switched from “Hot” to “Cold”?</a>
+                    <section>
+                        <p>No. Paying for data writing is not required when your account is switched from “Hot” to “Cold”. If you write data directly into the “Cold” access layer of the Blob storage account, only paying the data writing expense is required.</p>
+                    </section>
+
+                </div>
+            </li>
+			<li>
+                <i class="icon icon-plus"></i>
+                <div>
+                    <a id="Storage_question10">What is the Geo-replication data transfer cost?</a>
+                    <section>
+                        <p>When you write data into a GRS account, the data will be replicated into another Azure Zone. The Geo-replication data transfer expense refers to the bandwidth cost of replicating data on another Azure Zone.</p>
+                    </section>
+
+                </div>
+            </li>
+			
+		</ul>
+		
+		<h3>Disk Storage</h3>
+        <ul>
+            <li>
+                <i class="icon icon-plus"></i>
+                <div>
+                    <a id="Storage_question11">If I add an empty 100 GB disk onto my VM, are you charging me the entire 100 GB expense or just the storage space expense I used?</a>
+                    <section>
+                        <p>If the empty 100 GB disk is supported by an advanced storage account, you will be charged for a P10 (128 GB) disk. If you use any other types of storage account, only the storage space for storing data written into the disk will be charged, irrespective of the allocated disk size.</p>
+                    </section>
+
+                </div>
+            </li>
+			<li>
+                <i class="icon icon-plus"></i>
+                <div>
+                    <a id="Storage_question12">Is the service level agreement cover advanced storage, the same as other storage services?</a>
+                    <section>
+                        <p>Yes. 99.9% read/write availability is also available for advanced storage accounts.</p>
+                    </section>
+
+                </div>
+            </li>
+		</ul> 
+		
+        <h3>Hosting Drives</h3>
+		<ul>
+			<li>
+				<i class="icon icon-plus"></i>
+				<div>
+					<a  id="Storage_question14">If I add an S10 or P10 drive onto the VM, are you charging me the expense of total amount shown above or just the expense of the storage space I used?</a>
+					<section>
+                        <p>The allocated disks are charged at the same rate irrespective of the disk space used.</p>
+                    </section>
+				</div>
+			</li>
+			<li>
+				<i class="icon icon-plus"></i>
+				<div>
+					<a  id="Storage_question15">The price shown is the monthly price. How do you charge if the hosting drive is used for less than 1 month?</a>
+					<section>
+                        <p>It’s charged by hours and percentage according to the monthly price.</p>
+                    </section>
+				</div>
+			</li>
+		</ul>
+		<h3>Document Storage</h3>
+		<ul>
+			<li>
+				<i class="icon icon-plus"></i>
+				<div>
+					<a  id="Storage_question14">If I create sharing with a 5 TB limit, are you charging me the entire 5 TB or just the cost of the used storage space?</a>
+					<section>
+                        <p>Only the used storage space is charged for, rather than the allocated limit.</p>
+                    </section>
+				</div>
+			</li>
+		</ul>
+    </div>
+</div>
+<div class="pricing-page-section">
+    <h2>Marketing Regions</h2>
+    <p>Storage services are available in the following regions:</p>
+    <table cellpadding="0" cellspacing="0" class="table-col6">
+        <tr>
+            <th align="left"><strong>Territories</strong></th>
+            <th align="left"><strong>Regions</strong></th>
+        </tr>
+        <tr>
+            <td>Mainland China</td>
+            <td>China East Data Center, China North Data Center</td>
+        </tr>
+    </table>
+
+    <div class="pricing-page-section">
+                <h2>Support and Service Level Agreements</h2>
+                <p>If you have any questions or need any help, please access <a href="/support/contact/" id="storage-contact-page">Azure Support</a> and select self-help services or any other method to contact us for support.</p>
+				<p>We guarantee that we can successfully process data reading requests from an offsite redundant storage (RA-GRS) account at least 99.99% of the time (99.9% for the Cold Access Layer), but provided that we shall retry in the secondary zone from the data writing failure from the primary zone.</p>
+				<p>We guarantee that we can successfully process data reading from onsite redundant storage (LRS) and offsite redundant storage (GRS) accounts at least 99.9% of the time (99% for the Cold Access Layer)</p>
+				<p>We guarantee that we can successfully process data writing requests into onsite redundant storage (LRS) and offsite redundant storage (GRS) accounts and read and access geographically redundant storage (RA-GRS) accounts at least 99.9% of the time (99% for the Cold Access Layer).</p>
+				<p>To learn more about the details of our server level agreement, please visit the <a href="/support/sla/storage/" id="pricing_storage_sla">Service Level Agreement</a> page.</p>
+				<p>The hosting disk itself doesn’t provide a service level agreement with financial support. The availability of the Hosting Drive depends on the service level agreement governing the basic storage used and the virtual machine it’s attached to. To learn more about the details of the service level agreement of the Hosting Drive, please visit the <a href="/support/sla/managed-disks/">Hosting Drive Service Level Agreement</a> page.</p>
+	</div>
+</div>
+<!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" /> <!--END: Support and service code chunk-->
+    
+    ]]></bodyText>
+    <pageTitle>Azure Cloud Storage_Cloud Data - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>pricing-details-storage</linkid>
+    <metaKeywords>Azure, Storage, Solution, Applications</metaKeywords>
+    <metaDescription><![CDATA[Learn about the price details of Azure Storage. Azure Storage is highly durable, available and scalable cloud storage enabling access anytime, anywhere. A ¥1 trial gets you ¥1500 in service credits. It also can be applied directly as an advance payment purchase of Azure, enjoying the highest 99.99% service level agreement.]]></metaDescription>
+    <urlDisplayName>Pricing Details - Storage</urlDisplayName>
+  </TextpageLeftNav>
+</localize>
