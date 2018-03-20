@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <umbTextpage template="21" createDate="2017-12-04T11:20:07" updateDate="2017-12-04T11:34:25">
+    <bodyText><![CDATA[
+    
+         <p><tags
+            ms.service="public-security-registration"
+            ms.workload=""
+            ms.tgt_pltfrm=""
+            ms.devlang="na"
+            ms.topic="article"
+            ms.date="03/2017"
+            wacn.date="03/2017"
+            wacn.lang="cn" 
+            ms.author="will"/></p>
+        <h1>National Public Security Internet Station Security Service Platform IDC User Operation Manual</h1><div class="tags-date"><div class="wacn-date">Last updated: March 2017</div></div>
+        <h3>Operation guidance for the IDC front-end page</h3>
+        <p>1) Registration</p>
+        <p>Input <a href="http://www.beian.gov.cn">www.beian.gov.cn</a> in the address bar to enter the Internet Security Service Platform of the Nationwide Public Security Bureaus. Click the “IDC login for the access provider”, and then click “Register” in the bottom to skip to the registration page.</p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/public-security-registration/img_01.png" alt="Procedures" />
+        </br></p>
+        <p>Enter the correct username, password, email, phone number, verification code and phone verification code, and then click “Register”. Skip to the landing page after registration completion.</p>
+        <p>2) Login</p>
+        <p>Click the “IDC login for the access provider” and enter the user’s name and password entered during registration to enter the management page.</p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/public-security-registration/img_02.png" alt="Procedures" />
+        </br></p>
+        <p>3) Fill in the IDC main information</br></p>
+        <p>After entering the website, where the “fill the IDC information” reminder, click “Enter”.</p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/public-security-registration/img_03.png" alt="Procedures" />
+        </br></p>
+        <p>Truthfully fill in the IDC information according to regulation. The photo ID shall be uploaded according to requirements for review. Click “Submit for review” after filling in is completed to finish filling in IDC information.</p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/public-security-registration/img_04.png" alt="Procedures" />
+        </br></p>
+        <p>4) Website Access Management</p>
+        <p>After filling in the IDC information, click “Website Access Management”, then click “Access Website Import Template”.</p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/public-security-registration/img_05.png" alt="Procedures" />
+        </br></p>
+        <p>After the template is downloaded, fill in the template as required. After filling it in, click “Browse” to select the filled in file, and click "Upload”. After uploading, the successful upload prompt indicates that the upload was successful, then wait for review.</p>
+        <p>5) Computer Room Management</p>
+        <p>After filling in the IDC information, click “Computer Room Management - Import Template for the Computer Room”.</p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/public-security-registration/img_06.png" alt="Procedures" />
+        </br></p>
+        <p>After the template is downloaded, fill in the template as required. After filling it in, click “Browse” to select the filled in file, and click "Upload”. After uploading, the successful upload prompt indicates that the upload was successful, then wait for review.</p>
+        <p>6) Superior Access Provider Management</p>
+        <p>After filling in the IDC information, click “Superior Access Provider Management - Superior Access or Operator Import Template.”</p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/public-security-registration/img_07.png" alt="Procedures" />
+        </br></p>
+        <p>For the filled in file, click “Upload”. After uploading, the successful upload will be prompted, indicating that the upload is successful. After the template is downloaded, fill in the template as required. After filling it in, click “Browse” and select to wait for review.</p>
+        <p>7) Inferior Access Provider Management</p>
+        <p>After filling in the IDC information, click the “Inferior Access Provider Management - Inferior Access or Operator Import Template.”</p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/public-security-registration/img_08.png" alt="Procedures" />
+        </br></p>
+        <p>After the template is downloaded, fill in the template as required. After filling it in, click “Browse” to select the filled in file, and click "Upload”. After uploading, the successful upload prompt indicates that the upload was successful, then wait for review.</p>
+        <p>8) IP Block Management</p>
+        <p>After filling in the IDC information, click the “IP Block Management - IP Block Import Template”.</p>
+        <p><img src="//resource.cdn.azure.cn/marketing-resource/media/public-security-registration/img_09.png" alt="Procedures" />
+        </br></p>
+        <p>After the template is downloaded, fill in the template as required. After filling it in, click “Browse” to select the filled in file, and click "Upload”. After uploading, the successful upload prompt indicates that the upload was successful, then wait for review.</p>
+    
+    ]]></bodyText>
+    <umbracoNaviHide>0</umbracoNaviHide>
+    <pageTitle>User Operator Manual | Azure</pageTitle>
+    <metaKeywords></metaKeywords>
+    <metaDescription><![CDATA[
+        
+            National Public Security Authority Internet Site Security Service Platform IDC User Operation Manual
+            
+    ]]></metaDescription>
+    <linkid>0</linkid>
+    <urlDisplayName></urlDisplayName>
+    <headerExpose></headerExpose>
+    <footerExpose></footerExpose>
+    <disqusComments>0</disqusComments>
+    <metaCanonical></metaCanonical>
+    <isHeader>0</isHeader>
+    <pageTemplate>0</pageTemplate>
+    <localize>1</localize>
+    <localizePartial>0</localizePartial>
+    <sitemapHide>0</sitemapHide>
+    <banner>
+    </banner>
+  </umbTextpage>
+</localize>
