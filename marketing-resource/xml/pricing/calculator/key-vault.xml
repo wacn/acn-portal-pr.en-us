@@ -8,8 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="http://resource.cdn.azure.cn/marketing-resource/media/images/production/key-vault@2x.png" />
-                        <h2><span>Key Vault</span></h2>
-                        <h4>Protect and control encrypted keys and other confidential information used by cloud apps and services.</h4>
+                        <h2>Key Vault<span>Key Vault</span></h2>
+                        <h4>Encryption keys and other secrets that can protect and control cloud applications and service usage.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_keyvault_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_keyvault_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                         <a href="#" class="close" id="closeCalculatorModal"></a>
                         <p>We will add service items selected on different pages to the combined calculation in the right-hand list. You can manually delete or clear items.</p>
                         <span class="checkbox-rect"></span>Don’t prompt again <a class="btn btn-continue" href="#">I’ve got it</a>
-                        </div>
+                    </div>
                 </div>
                 <!-- end calculator modal --> <!-- start calculator shopinglist template -->
                 <script type="text/template" id="templPricingShopingList">
