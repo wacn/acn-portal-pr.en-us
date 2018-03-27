@@ -1,4 +1,4 @@
-{"service": "Multiple user identity verification", 
+{"service": "Multi-Factor Authentication", 
 "id": "leftnav_product_multi-factor-authentication", 
 "navigation": 
 [
@@ -11,13 +11,13 @@
 			"title": "Product functionality"}, 
 			{"link": "/pricing/details/multi-factor-authentication/", 
 			"id": "leftnav_product_multi-factor-authentication_pricing", 
-			"title": "Price details"},
+			"title": "Pricing details"},
 			{"link": "https://docs.azure.cn/multi-factor-authentication/", 
 			"id": "leftnav_product_multi-factor-authentication_documentation", 
 			"title": "Documentation"},
 			{"link": "/support/sla/multi-factor-authentication/", 
 			"id": "leftnav_product_multi-factor-authentication_sla", 
-			"title": "Service level agreement"}
+			"title": "Service Level Agreement"}
 		]
 	}, 
 	{"group": "Related products", 
@@ -29,25 +29,25 @@
 			"title": "Azure Active Directory"}, 
 			{"link": "/home/features/virtual-machines/", 
 			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual machine"}, 
+			"title": "Virtual Machines"}, 
 			{"link": "/home/features/storage/", 
 			"id": "leftnav_product_storage_function", 
 			"title": "Storage"},
 			{"link": "/home/features/virtual-network/", 
 			"id": "leftnav_product_networking_function", 
-			"title": "Virtual network"}
+			"title": "Virtual Network"}
 		]
 	}, 
-	{"group": "Related documentation and links", 
+	{"group": "Related Documentation and Links", 
 	"id": "leftnav_product_multi-factor-authentication_others", 
 	"articles": 
 		[
 			{"link": "https://docs.azure.cn/multi-factor-authentication/multi-factor-authentication/", 
 			"id": "leftnav_product_multi-factor-authentication_articles_multi-factor-authentication", 
-			"title": "Adding multi-factor authentication to Azure AD"},
+			"title": "Adding Multi-Factor Authentication to Azure AD"},
 			{"link": "https://docs.azure.cn/multi-factor-authentication/multi-factor-authentication-faq/", 
 			"id": "leftnav_product_multi-factor-authentication_articles_multi-factor-authentication-faq", 
-			"title": "Azure multi-factor authentication FAQs"}
+			"title": "Azure Multi-Factor Authentication FAQs"}
 		]
 	}
 ]

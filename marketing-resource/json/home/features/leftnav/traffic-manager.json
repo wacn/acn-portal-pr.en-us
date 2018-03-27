@@ -1,4 +1,4 @@
-{"service": "Traffic volume manager", 
+{"service": "Traffic Manager", 
 "id": "leftnav_product_traffic-manager", 
 "navigation": 
 [
@@ -11,16 +11,16 @@
 			"title": "Product functionality"}, 
 			{"link": "/pricing/details/traffic-manager/", 
 			"id": "leftnav_product_traffic-manager_pricing", 
-			"title": "Price details"},
+			"title": "Pricing details"},
 			{"link": "/pricing/calculator/traffic-manager/", 
 			"id": "leftnav_product_traffic-manager_calculator", 
-			"title": "Price calculator"},
+			"title": "Pricing calculator"},
 			{"link": "https://docs.azure.cn/traffic-manager/", 
 			"id": "leftnav_product_traffic-manager_documentation", 
 			"title": "Documentation"},
 			{"link": "/support/sla/traffic-manager/", 
 			"id": "leftnav_product_traffic-manager_sla", 
-			"title": "Service level agreement"}
+			"title": "Service Level Agreement"}
 		]
 	}, 
 	{"group": "Related products", 
@@ -29,34 +29,34 @@
 		[
 			{"link": "/home/features/virtual-machines/", 
 			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual machine"},
+			"title": "Virtual Machines"},
 			{"link": "/home/features/web-site/", 
 			"id": "leftnav_product_web-site_function", 
-			"title": "Web app"}, 
+			"title": "Web Apps"}, 
 			{"link": "/home/features/cloud-services/", 
 			"id": "leftnav_product_cloud-services_function", 
-			"title": "Cloud services"},			
+			"title": "Cloud Services"},			
 			{"link": "/home/features/virtual-network/", 
 			"id": "leftnav_product_networking_function", 
-			"title": "Virtual network"}
+			"title": "Virtual Network"}
 		]
 	}, 
-	{"group": "Related documentation and links", 
+	{"group": "Related Documentation and Links", 
 	"id": "leftnav_product_traffic-manager_others", 
 	"articles": 
 		[
 			{"link": "/solutions/web/", 
 			"id": "leftnav_product_traffic-manager_solutions_web", 
-			"title": "Web app solutions"},
+			"title": "Web Apps Solutions"},
 			{"link": "/solutions/mobile-services/", 
 			"id": "leftnav_product_traffic-manager_mobile-services", 
-			"title": "Mobile service solutions"},
+			"title": "Mobile Services Solutions"},
 			{"link": "/solutions/storage-backup-recovery-plan/", 
 			"id": "leftnav_product_traffic-manager_solutions_storage-backup-recovery-plan", 
-			"title": "Storage, backup and restore solutions"},
+			"title": "Storage, Backup and Restore Solutions"},
 			{"link": "https://docs.azure.cn/traffic-manager/traffic-manager-manage-profiles/", 
 			"id": "leftnav_product_traffic-manager_articles_traffic-manager-manage-profiles", 
-			"title": "Managing Traffic Volume Manager configuration documentation"}
+			"title": "Documentation on configuring Traffic Manager"}
 		]
 	}
 ]

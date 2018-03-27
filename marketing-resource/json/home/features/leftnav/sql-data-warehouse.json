@@ -1,4 +1,4 @@
-{"service": "SQL data warehouse", 
+{"service": "SQL Data Warehouse", 
 "id": "leftnav_product_sql-data-warehouse", 
 "navigation": 
 [
@@ -11,16 +11,16 @@
 			"title": "Product functionality"}, 
 			{"link": "/pricing/details/sql-data-warehouse/", 
 			"id": "leftnav_product_sql-data-warehouse_pricing", 
-			"title": "Price details"},
+			"title": "Pricing details"},
 			{"link": "/pricing/calculator/sql-data-warehouse/", 
 			"id": "leftnav_product_sql-data-warehouse_calculator", 
-			"title": "Price calculator"},
+			"title": "Pricing calculator"},
 			{"link": "https://docs.azure.cn/sql-data-warehouse/", 
 			"id": "leftnav_product_sql-data-warehouse_documentation", 
 			"title": "Documentation"},
 			{"link": "/support/sla/sql-data-warehouse/", 
 			"id": "leftnav_product_sql-data-warehouse_sla", 
-			"title": "Service level agreement"}
+			"title": "Service Level Agreement"}
 		]
 	}, 
 	{"group": "Related products", 
@@ -29,25 +29,25 @@
 		[
 			{"link": "/home/features/sql-database/", 
 			"id": "leftnav_product_sql-database_function", 
-			"title": "SQL database"}, 
+			"title": "SQL Database"}, 
 			{"link": "/home/features/virtual-machines/", 
 			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual machine"}, 
+			"title": "Virtual Machines"}, 
 			{"link": "/home/features/virtual-network/", 
 			"id": "leftnav_product_networking_function", 
-			"title": "Virtual network"},
+			"title": "Virtual Network"},
 			{"link": "/home/features/backup/", 
 			"id": "leftnav_product_back-up_function", 
 			"title": "Backup"}
 		]
 	}, 
-	{"group": "Related documentation and links", 
+	{"group": "Related Documentation and Links", 
 	"id": "leftnav_product_sql-data-warehouse_others", 
 	"articles": 
 		[
 			{"link": "https://docs.azure.cn/sql-data-warehouse/sql-data-warehouse-get-started-provision-powershell/", 
 			"id": "leftnav_product_sql-data-warehouse_articles_sql-data-warehouse-get-started-provision-powershell", 
-			"title": "Generating the first database"}
+			"title": "Generating your first database"}
 		]
 	}
 ]

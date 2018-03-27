@@ -11,7 +11,7 @@
 			"title": "Product functionality"}, 
 			{"link": "/pricing/details/active-directory/", 
 			"id": "leftnav_product_identity_pricing", 
-			"title": "Price details"},
+			"title": "Pricing details"},
 			{"link": "https://docs.azure.cn/active-directory/", 
 			"id": "leftnav_product_identity_documentation", 
 			"title": "Documentation"}
@@ -23,28 +23,28 @@
 		[
 			{"link": "/home/features/multi-factor-authentication/", 
 			"id": "leftnav_product_multi-factor-authentication_function", 
-			"title": "Multiple user identity verification"},
+			"title": "Multi-Factor Authentication"},
 			{"link": "/home/features/virtual-machines/", 
 			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual machine"}, 
+			"title": "Virtual Machines"}, 
 			{"link": "/home/features/storage/", 
 			"id": "leftnav_product_storage_function", 
 			"title": "Storage"},
 			{"link": "/home/features/virtual-network/", 
 			"id": "leftnav_product_networking_function", 
-			"title": "Virtual network"}
+			"title": "Virtual Network"}
 		]
 	}, 
-	{"group": "Related documentation and links", 
+	{"group": "Related Documentation and Links", 
 	"id": "leftnav_product_identity_others", 
 	"articles": 
 		[
 			{"link": "/solutions/web/", 
 			"id": "leftnav_product_identity_solutions_web", 
-			"title": "Web app solutions"},
+			"title": "Web Apps Solutions"},
 			{"link": "/solutions/mobile-services/", 
 			"id": "leftnav_product_identity_mobile-services", 
-			"title": "Mobile service solutions"},
+			"title": "Mobile Services Solutions"},
 			{"link": "https://docs.azure.cn/zh-cn/active-directory/develop/active-directory-howto-tenant/", 
 			"id": "leftnav_product_identity_articles_active-directory-howto-tenant", 
 			"title": "How to get tenants"},

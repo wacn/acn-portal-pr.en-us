@@ -11,16 +11,16 @@
 			"title": "Product functionality"}, 
 			{"link": "/pricing/details/backup/", 
 			"id": "leftnav_product_back-up_pricing", 
-			"title": "Price details"},
+			"title": "Pricing details"},
 			{"link": "/pricing/calculator/backup/", 
 			"id": "leftnav_product_back-up_calculator", 
-			"title": "Price calculator"},
+			"title": "Pricing calculator"},
 			{"link": "https://docs.azure.cn/backup/", 
 			"id": "leftnav_product_back-up_documentation", 
 			"title": "Documentation"},
 			{"link": "/support/sla/backup/", 
 			"id": "leftnav_product_back-up_sla", 
-			"title": "Service level agreement"}
+			"title": "Service Level Agreement"}
 		]
 	}, 
 	{"group": "Related products", 
@@ -29,34 +29,34 @@
 		[
 			{"link": "/home/features/site-recovery/", 
 			"id": "leftnav_product_site-recovery_function", 
-			"title": "Website recovery"}, 
+			"title": "Site Recovery"}, 
 			{"link": "/home/features/storage/", 
 			"id": "leftnav_product_storage_function", 
 			"title": "Storage"},
 			{"link": "/home/features/virtual-machines/", 
 			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual machine"},
+			"title": "Virtual Machines"},
 			{"link": "/home/features/virtual-network/", 
 			"id": "leftnav_product_networking_function", 
-			"title": "Virtual network"}
+			"title": "Virtual Network"}
 		]
 	}, 
-	{"group": "Related documentation and links", 
+	{"group": "Related Documentation and Links", 
 	"id": "leftnav_product_back-up_others", 
 	"articles": 
 		[
 			{"link": "/solutions/storage-backup-recovery-plan/", 
 			"id": "leftnav_product_back-up_solutions_storage-backup-recovery-plan", 
-			"title": "Storage, backup and restore solutions"},
+			"title": "Storage, Backup and Restore Solutions"},
 			{"link": "https://docs.azure.cn/backup/backup-configure-vault/", 
 			"id": "leftnav_product_back-up_articles_backup-configure-vault", 
 			"title": "Windows Server Backup"},
 			{"link": "https://docs.azure.cn/zh-cn/backup/backup-azure-vms/", 
 			"id": "leftnav_product_back-up_articles_backup-azure-vms", 
-			"title": "Windows virtual machine backup"},
+			"title": "Windows Virtual Machines Backup"},
 			{"link": "https://docs.azure.cn/zh-cn/backup/backup-azure-backup-faq/", 
 			"id": "leftnav_product_back-up_articles_backup-azure-backup-faq", 
-			"title": "Azure backup FAQs"}			
+			"title": "Azure Backup FAQs"}			
 		]
 	}
 ]

@@ -1,4 +1,4 @@
-{"service": "Website recovery", 
+{"service": "Site Recovery", 
 "id": "leftnav_product_site-recovery", 
 "navigation": 
 [
@@ -11,16 +11,16 @@
 			"title": "Product functionality"}, 
 			{"link": "/pricing/details/site-recovery/", 
 			"id": "leftnav_product_site-recovery_pricing", 
-			"title": "Price details"},
+			"title": "Pricing details"},
 			{"link": "/pricing/calculator/site-recovery/", 
 			"id": "leftnav_product_site-recovery_calculator", 
-			"title": "Price calculator"},
+			"title": "Pricing calculator"},
 			{"link": "https://docs.azure.cn/site-recovery/", 
 			"id": "leftnav_product_site-recovery_documentation", 
 			"title": "Documentation"},
 			{"link": "/support/sla/site-recovery/", 
 			"id": "leftnav_product_site-recovery_sla", 
-			"title": "Service level agreement"}
+			"title": "Service Level Agreement"}
 		]
 	}, 
 	{"group": "Related products", 
@@ -35,25 +35,25 @@
 			"title": "Storage"},
 			{"link": "/home/features/virtual-machines/", 
 			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual machine"},
+			"title": "Virtual Machines"},
 			{"link": "/home/features/virtual-network/", 
 			"id": "leftnav_product_networking_function", 
-			"title": "Virtual network"}
+			"title": "Virtual Network"}
 		]
 	}, 
-	{"group": "Related documentation and links", 
+	{"group": "Related Documentation and Links", 
 	"id": "leftnav_product_site-recovery_others", 
 	"articles": 
 		[
 			{"link": "/solutions/storage-backup-recovery-plan/", 
 			"id": "leftnav_product_site-recovery_solutions_storage-backup-recovery-plan", 
-			"title": "Storage, backup and restore solutions"},
+			"title": "Storage, Backup and Restore Solutions"},
 			{"link": "https://docs.azure.cn/site-recovery/site-recovery-vmm-to-azure/", 
 			"id": "leftnav_product_site-recovery_articles_site-recovery-vmm-to-azure", 
-			"title": "Safeguarding the setup between a local VMM website and Azure"},
+			"title": "Safeguarding the setup between a local VMM site and Azure"},
 			{"link": "https://docs.azure.cn/site-recovery/site-recovery-faq/", 
 			"id": "leftnav_product_site-recovery_articles_site-recovery-faq", 
-			"title": "Website recovery FAQs"}
+			"title": "Site Recovery FAQs"}
 		]
 	}
 ]

@@ -1,4 +1,4 @@
-{"service": "Event Center", 
+{"service": "Event Hubs", 
 "id": "leftnav_product_event-hubs", 
 "navigation": 
 [
@@ -11,16 +11,16 @@
 			"title": "Product functionality"}, 
 			{"link": "/pricing/details/event-hubs/", 
 			"id": "leftnav_product_event-hubs_pricing", 
-			"title": "Price details"},
+			"title": "Pricing details"},
 			{"link": "/pricing/calculator/event-hubs/", 
 			"id": "leftnav_product_event-hubs_calculator", 
-			"title": "Price calculator"},
+			"title": "Pricing calculator"},
 			{"link": "https://docs.azure.cn/event-hubs/", 
 			"id": "leftnav_product_event-hubs_documentation", 
 			"title": "Documentation"},
 			{"link": "/support/sla/event-hubs/", 
 			"id": "leftnav_product_event-hubs_sla", 
-			"title": "Service level agreement"}
+			"title": "Service Level Agreement"}
 		]
 	}, 
 	{"group": "Related products", 
@@ -38,25 +38,25 @@
 			"title": "Storage"},
 			{"link": "/home/features/virtual-machines/", 
 			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual machine"}
+			"title": "Virtual Machines"}
 		]
 	}, 
-	{"group": "Related documentation and links", 
+	{"group": "Related Documentation and Links", 
 	"id": "leftnav_product_event-hubs_others", 
 	"articles": 
 		[
 			{"link": "/solutions/data-analysis/", 
 			"id": "leftnav_product_event-hubs_solutions_data-analysis", 
-			"title": "Data analysis solutions"},
+			"title": "Data Analysis Solutions"},
 			{"link": "/solutions/iot/", 
 			"id": "leftnav_product_event-hubs_solutions_iot", 
-			"title": "Connected Devices solutions"},
+			"title": "Internet of Things Solutions"},
 			{"link": "https://docs.azure.cn/event-hubs/event-hubs-csharp-ephcs-getstarted/", 
 			"id": "leftnav_product_event-hubs_articles_event-hubs-csharp-ephcs-getstarted", 
-			"title": "Event Center basics"},
+			"title": "Getting Started with Event Hubs"},
 			{"link": "https://docs.azure.cn/event-hubs/event-hubs-faq/", 
 			"id": "leftnav_product_event-hubs_articles_event-hubs-faq", 
-			"title": "Event Center FAQs"}
+			"title": "Event Hubs FAQs"}
 		]
 	}
 ]
