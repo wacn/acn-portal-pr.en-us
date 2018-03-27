@@ -1,4 +1,4 @@
-{"service": "SQL database", 
+{"service": "SQL Database", 
 "id": "leftnav_product_sql-database", 
 "navigation": 
 [
@@ -11,16 +11,16 @@
 			"title": "Product functionality"}, 
 			{"link": "/pricing/details/sql-database/", 
 			"id": "leftnav_product_sql-database_pricing", 
-			"title": "Price details"},
+			"title": "Pricing details"},
 			{"link": "/pricing/calculator/sql-database/", 
 			"id": "leftnav_product_sql-database_calculator", 
-			"title": "Price calculator"},
+			"title": "Pricing calculator"},
 			{"link": "https://docs.azure.cn/sql-database/", 
 			"id": "leftnav_product_sql-database_documentation", 
 			"title": "Documentation"},
 			{"link": "/support/sla/sql-data/", 
 			"id": "leftnav_product_sql-database_sla", 
-			"title": "Service level agreement"}
+			"title": "Service Level Agreement"}
 		]
 	}, 
 	{"group": "Related products", 
@@ -35,34 +35,34 @@
 			"title": "HDInsight"}, 
 			{"link": "/home/features/virtual-machines/", 
 			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual machine"},
+			"title": "Virtual Machines"},
 			{"link": "/home/features/virtual-network/", 
 			"id": "leftnav_product_networking_function", 
-			"title": "Virtual network"}
+			"title": "Virtual Network"}
 		]
 	}, 
-	{"group": "Related documentation and links", 
+	{"group": "Related Documentation and Links", 
 	"id": "leftnav_product_sql-database_others", 
 	"articles": 
 		[ 
 			{"link": "https://docs.azure.cn/zh-cn/articles/azure-sql-database-user-manual-part-1/", 
 			"id": "leftnav_product_sql-database_articles_azure-sql-database-user-manual-part-1", 
-			"title": "Azure SQL database user manual"}, 
+			"title": "Azure SQL Database User Manual"}, 
 			{"link": "/solutions/web/", 
 			"id": "leftnav_product_sql-database_solutions_web", 
-			"title": "Web app solutions"},
+			"title": "Web Apps Solutions"},
 			{"link": "/solutions/mobile-services/", 
 			"id": "leftnav_product_sql-database_solutions_mobile-services", 
-			"title": "Mobile service solutions"},
+			"title": "Mobile Services Solutions"},
 			{"link": "/solutions/data-analysis/", 
 			"id": "leftnav_product_sql-database_solutions_data-analysis", 
-			"title": "Data analysis solutions"},
+			"title": "Data Analysis Solutions"},
 			{"link": "https://docs.azure.cn/sql-database/sql-database-get-started/", 
 			"id": "leftnav_product_sql-database_articles_sql-database-get-started", 
-			"title": "Azure SQL database basics"},
+			"title": "Getting Started with Microsoft Azure SQL Database"},
 			{"link": "https://docs.azure.cn/sql-database/sql-database-faq/", 
 			"id": "leftnav_product_sql-database_articles_sql-database-faq", 
-			"title": "Azure SQL database FAQs"}
+			"title": "Azure SQL Database FAQs"}
 		]
 	}
 ]

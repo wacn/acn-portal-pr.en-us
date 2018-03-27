@@ -10,7 +10,7 @@
 					<div class="background container">
 						<img src="//resource.cdn.azure.cn/marketing-resource/css/img/banner_price_overview.png">
 						<div class="content">
-							<div class="banner-title">Azure Fixed Price</div>
+							<div class="banner-title">Azure Pricing</div>
 							<div class="banner-p">To assist you in finding price details and estimating prices</div>
 						</div>
 					</div>
@@ -20,13 +20,13 @@
 			<div id="row1" class="container">
 				<div class="col-md-9 col-xs-12">
 					<div class="top home-p">
-						A new round of price cuts! From February 1, 2017, Azure virtual machines and cloud services products will be completely adjusted, with reductions reaching 60%! Azure will have excellent prices and provide you with excellent service. Become an Azure pay-in-advance client and enjoy 99.99% of a service level agreement. You can rapidly deploy infrastructure and services to fully meet all of your enterprise needs, assisting you in reducing operational costs and allowing you to concentrate on your core business.
+						A new round of price cuts! From February 1, 2017, Azure Virtual Machines and Cloud Services products will undergo a complete price adjustment, with reductions of up to 60%! Azure will have both excellent price offers and provide you with excellent service. Become an Azure Pay-in-Advance client and enjoy 99.99% of a service level agreement. You can rapidly deploy infrastructure and services to fully meet all of your enterprise needs, helping you reduce operational costs and allowing you concentrate on your core business.
 					</div>
 					<div class="bottom">
 						<div class="item col-md-4">
 							<div class="icon_hook"><i class="icon icon-tick"></i></div>
-							<h2 class="word1">A low pay-in-advance threshold</h2>
-							<div class="word2 home-p">You only need to pay 1,000 yuan in advance to fully enjoy all services.</div>
+							<h2 class="word1">A low Pay-in-Advance threshold</h2>
+							<div class="word2 home-p">Pay just RMB 1,000 in advance to fully enjoy all services.</div>
 						</div>
 						<div class="item col-md-4">
 							<div class ="icon_hook"><i class="icon icon-tick"></i></div>
@@ -36,16 +36,16 @@
 						<div class="item col-md-4 item3"> 
 							<div class ="icon_hook"><i class="icon icon-tick"></i></div>
 							<h2 class="word1">A multi-level pricing system</h2>
-							<div class="word2 home-p">Different needs will set the basic, standard,and high-level fixed price</div>
+							<div class="word2 home-p">Different needs set the basic-, standard-, and high-level price</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 col-xs-12">
 					<div class="special">
-						<h2 class="word1">Prices have been cut for virtual machine services</h2>
+						<h2 class="word1">Prices have been cut for Virtual Machines Services</h2>
 
 						<h2 class="word2">
-							￥<b>0.11</b>/hour
+							RMB&#160;<b>0.11</b>/hour
 						</h2>
 						<a href="/pricing/pia/" id="pricing_overview_jiangjia" class="home-link-2">
 							<div class="word3 price_btn">
@@ -57,24 +57,24 @@
 				<div style="clear:both"></div>
 			</div>
 			<div id="row2" class="container">
-				<h1 class="word1">Price details</h1>
+				<h1 class="word1">Pricing details</h1>
 				<a href="/pricing/" id="pricing_overview_all_jiangjia" class="home-link-2">
 					<div class="price_btn checkbox_all_price">
-						<span>Check the total fixed price</span><i class="icon icon-arrow-right"></i>
+						<span>Check the total price</span><i class="icon icon-arrow-right"></i>
 					</div>
 				</a>
 				<div class="word2 home-p">
-					Based on individualized service, different configurations, levels, and series, and individual pricing, we will satisfy your diverse, multi-level enterprise needs, charging according to your individual time of use. At the same time, we still provide completely free services: Batch Processing and Azure Active Directory. Quickly browse through <b>Popular Services</b>, and immediately apply to become a formal client:
+					We will satisfy your diverse, multi-level enterprise needs by providing individualized service, different configurations, levels, series, and individual pricing. We charge according to how much time you use. At the same time, we still provide completely free services like Batch and Azure Active Directory. Quickly browse through <b>Popular Services</b>, and immediately apply to become a formal client:
 				</div>
 
 				<div class="service_box">
 					<div class="service_column col-md-3">
 						<div class="top">
-							<h2 class="row1" style="font-weight:400">Virtual machine</h2>
+							<h2 class="row1" style="font-weight:400">Virtual Machines</h2>
 							<div class="row2"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/HomePage/product-vm.png" /></div>
 							<div class="row3">
-								<span class="bold_">￥0.11</span>/hour<br>
-								Three types of virtual machine operating systems
+								<span class="bold_">RMB&#160;0.11</span>/hour<br>
+								Three types of virtual machines operating systems
 							</div>
 
 						</div>
@@ -91,25 +91,25 @@
 							</div>
 
 							<div class="row6">
-								<a id="pricing_overview_dingjia_vm" href="/pricing/details/virtual-machines/" class="home-link-2"> <span>Check out virtual machine detailed pricing</span><i class="icon icon-arrow-right"></i> </a>
+								<a id="pricing_overview_dingjia_vm" href="/pricing/details/virtual-machines/" class="home-link-2"> <span>View detailed pricing for Virtual Machines</span><i class="icon icon-arrow-right"></i> </a>
 							</div>
 						</div>
 					</div>
 					<div class="service_column col-md-3">
 						<div class="top">
-							<h2 class="row1" style="font-weight:400">Cloud services</h2>
+							<h2 class="row1" style="font-weight:400">Cloud Services</h2>
 							<div class="row2"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/HomePage/product-cloud.png" /></div>
 							<div class="row3">
-								<span class="bold_">￥0.11</span>/hour<br>
+								<span class="bold_">RMB&#160;0.11</span>/hour<br>
 								A/D dual-type series selection
 							</div>
 
 						</div>
 						<div class="bottom">
 							<div class="row4">
-								Create a limitless expansion of highly useful application routines and APIs<br />
+								Create a limitless expansion of highly useful applications and APIs<br />
 								Supports .NET , Java , Node.js, etc. in multiple languages<br />
-								Supports integrated resource deployment, monitoring operational state, and load leveling<br />
+								Supports integrated resource deployment, operational state monitoring, and load balancing<br />
 								Can use compressed internal storage application routines<br />
 							</div>
 
@@ -118,7 +118,7 @@
 							</div>
 
 							<div class="row6">
-								<a id="pricing_overview_dingjia_cloud" href="/pricing/details/cloud-services/" class="home-link-2"> <span>Check out detailed pricing for cloud services</span><i class="icon icon-arrow-right"></i> </a>
+								<a id="pricing_overview_dingjia_cloud" href="/pricing/details/cloud-services/" class="home-link-2"> <span>View detailed pricing for cloud services</span><i class="icon icon-arrow-right"></i> </a>
 							</div>
 						</div>
 					</div>
@@ -127,7 +127,7 @@
 							<h2 class="row1" style="font-weight:400">Storage</h2>
 							<div class="row2"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/HomePage/product-storage.png" /></div>
 							<div class="row3">
-								<span class="bold_">￥0.33</span>/GB/month<br>
+								<span class="bold_">RMB&#160;0.33</span>/GB/month<br>
 								Four categories and three redundant levels to select from
 							</div>
 
@@ -145,24 +145,24 @@
 							</div>
 
 							<div class="row6">
-								<a id="pricing_overview_dingjia_cunchu" href="/pricing/details/storage/" class="home-link-2"> <span>Check out detailed prices for storage</span><i class="icon icon-arrow-right"></i> </a>
+								<a id="pricing_overview_dingjia_cunchu" href="/pricing/details/storage/" class="home-link-2"> <span>View detailed pricing for storage</span><i class="icon icon-arrow-right"></i> </a>
 							</div>
 						</div>
 					</div>
 					<div class="service_column col-md-3">
 						<div class="top">
-							<h2 class="row1" style="font-weight:400">Virtual network</h2>
+							<h2 class="row1" style="font-weight:400">Virtual Network</h2>
 							<div class="row2"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/HomePage/product-vnetwork.png" /></div>
 							<div class="row3">
-								<span class="bold_">￥0.25</span>/gateway hour<br>
-								Two types of VPN gateways
+								<span class="bold_">RMB&#160;0.25</span>/gateway hour<br>
+								Two types of VPN Gateways
 							</div>
 
 						</div>
 						<div class="bottom">
 							<div class="row4">
 								Create a virtual private network (VPN)<br />
-								Use static/dynamic routing or high-performance VPN gateway links<br />
+								Use static/dynamic routing or high-performance VPN Gateway links<br />
 								Inbound data transmission between virtual networks is free<br />
 								Bring your own IP address and DNS server<br />
 							</div>
@@ -172,7 +172,7 @@
 							</div>
 
 							<div class="row6">
-								<a id="pricing_overview_dingjia_xuni" href="/pricing/details/virtual-network/" class="home-link-2"> <span>Check out detailed pricing for virtual networks</span><i class="icon icon-arrow-right"></i> </a>
+								<a id="pricing_overview_dingjia_xuni" href="/pricing/details/virtual-network/" class="home-link-2"> <span>View detailed pricing for virtual networks</span><i class="icon icon-arrow-right"></i> </a>
 							</div>
 						</div>
 					</div>
@@ -251,7 +251,7 @@
 							<div class="icon">
 								<img class="bg1" src="//resource.cdn.azure.cn/marketing-resource/css/img/gaming.png" /> <img class="bg2" src="//resource.cdn.azure.cn/marketing-resource/css/img/gaming_w.png" />
 							</div>
-							<div class="title">Gaming applications</div>
+							<div class="title">Gaming Applications</div>
 						</div>
 					</a>
 				</div>
@@ -266,7 +266,7 @@
 						<div>
 							<a id="A0">What is the specific procedure for requesting an invoice? What types of invoices are there? What are the space limits on a invoice?</a>
 							<section>
-								<p>Register at account.windowsazure.cn, click on Subscribe, Payment History, then Manage Invoices, then complete the application. For more information see: <a id="home_overview_fapiao" style="color:#00a8d9;" href="http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html">http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html. </a></p>
+								<p>Sign in at account.windowsazure.cn, click on Subscribe, Payment History, then Manage Fapiao, then complete the application. For more information see: <a id="home_overview_fapiao" style="color:#00a8d9;" href="http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html">http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html. </a></p>
 								<p>Invoices include both special value-added tax invoices and ordinary value-added tax invoices.</p>
 								<p>Regarding invoice accounts, the client’s actual name must be used.</p>
 							</section>
@@ -277,9 +277,9 @@
 						<div>
 							<a id="A1">Can you apply for an invoice at any time? Where do you apply for an invoice?</a>
 							<section>
-								<p>After payment has been made, wait 3 days. After 3 days you can start applying for an invoice. If you have a special need, please contact the 21Vianet service center, call 86-10-84563652 or 400-089-0365.</p>
+								<p>After payment has been made, wait 3 days. After 3 days you can start applying for an invoice. Should you have any special requirements, please contact the 21Vianet service center, call 86-10-84563652 or 400-089-0365.</p>
 								<p>You can click here to apply directly for an invoice: <a id="home_overview_LoginView" style="color:#00a8d9;" href="http://fapiao.cloud.21vianet.com/EmailAcount/LoginView">http://fapiao.cloud.21vianet.com/EmailAcount/LoginView </a>. You can also use the above address to contact someone about applying for an invoice.</p>
-								<p>Sign in to the Azure manager interface at: <a id="home_overview_account" style="color:#00a8d9;" href="http://account.windowsazure.cn">http://account.windowsazure.cn</a>, click on Subscribe, Payment History, then Manage Invoices.</p>
+								<p>Sign in to the Azure manager interface at: <a id="home_overview_account" style="color:#00a8d9;" href="http://account.windowsazure.cn">http://account.windowsazure.cn</a>, click on Subscribe, Payment History, then Manage Fapiao.</p>
 							</section>
 						</div>
 					</li>
@@ -304,7 +304,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a id="A4">How do I sign in to an invoice interface account? After successfully activating the account, what do I do if I can’t make out an invoice?</a>
+							<a id="A4">How do I sign up for an invoice interface account? After successfully activating the account, what do I do if I can’t make out an invoice?</a>
 							<section>
 								<p>After clicking here to enter the invoice application interface, you must click the right corner of the page [Register Account] to register the account. On the registration information page, select the product you’ve purchased to register the Azure account.</p>
 								<p>If you are unable to open a ticket after activating your account, please contact our 21Vianet service center. Call: 86-10-84563652 or 400-089-0365.</p>
@@ -316,7 +316,7 @@
 						<div>
 							<a id="A5">After applying for an invoice, how do I get the invoice? Do I have to pay any extra costs?</a>
 							<section>
-								<p>You can get it through express delivery or get it yourself. 21Vianet includes the cost of express delivery. You can print and have express delivery through Shanghai Blue Cloud Technology Co., Ltd.</p>
+								<p>You can get the invoice through express delivery or get it yourself. 21Vianet includes the cost of express delivery. You can print and have express delivery through Shanghai Blue Cloud Technology Co., Ltd.</p>
 								<p>If you have previously chosen self-service, you can change this to express delivery. The self-service location is: Room 657, Building 3, No. 88 Keyuan Road, Pudong District, Shanghai.</p>
 							</section>
 						</div>
@@ -327,9 +327,9 @@
 	  
     ]]></bodyText>
     <umbracoNaviHide>0</umbracoNaviHide>
-    <pageTitle>Comprehensive Azure Cloud Products Price Calculator - Azure Cloud Computing</pageTitle>
-    <metaKeywords>Azure, Fixed Price, Price, Price Calculator</metaKeywords>
-    <metaDescription><![CDATA[After April 1, 2016, Azure product prices will be completely adjusted, with excellent prices and excellent service. A 1-yuan trail will get you 1,500 yuan of service credits. Become an Azure pay-in-advance client and enjoy 99.99% of a service level agreement. You can rapidly deploy infrastructure and services to fully meet all of your enterprise needs, assisting you in reducing operational costs and allowing you to concentrate on your core business. ]]></metaDescription>
+    <pageTitle>Comprehensive Azure Cloud Products Pricing Calculator - Azure Cloud Computing</pageTitle>
+    <metaKeywords>Azure, Fixed Price, Price, Pricing Calculator</metaKeywords>
+    <metaDescription><![CDATA[After April 1, 2016, Azure product prices will undergo a complete price adjustment, with both excellent price offers and excellent service. A 1RMB Trial will get you RMB 1,500 of service credits. Become an Azure Pay-in-Advance client and enjoy a 99.99% service level agreement. You can rapidly deploy infrastructure and services to fully meet all of your enterprise needs, assisting you in reducing operational costs and allowing you to concentrate on your core business. ]]></metaDescription>
     <linkid>pricing-overview</linkid>
     <urlDisplayName>Overview</urlDisplayName>
     <headerExpose></headerExpose>

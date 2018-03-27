@@ -1,4 +1,4 @@
-{"service": "Media server", 
+{"service": "Media Services", 
 "id": "leftnav_product_media-services", 
 "navigation": 
 [
@@ -11,16 +11,16 @@
 			"title": "Product functionality"}, 
 			{"link": "/pricing/details/media-services/", 
 			"id": "leftnav_product_media-services_pricing", 
-			"title": "Price details"},
+			"title": "Pricing details"},
 			{"link": "/pricing/calculator/media-services/", 
 			"id": "leftnav_product_media-services_calculator", 
-			"title": "Price calculator"},
+			"title": "Pricing calculator"},
 			{"link": "https://docs.azure.cn/media-services/", 
 			"id": "leftnav_product_media-services_documentation", 
 			"title": "Documentation"},
 			{"link": "/support/sla/media-services", 
 			"id": "leftnav_product_media-services_sla", 
-			"title": "Service level agreement"}
+			"title": "Service Level Agreement"}
 		]
 	}, 
 	{"group": "Related products", 
@@ -32,16 +32,16 @@
 			"title": "Content Delivery Network"},
 			{"link": "/home/features/virtual-machines/", 
 			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual machine"},
+			"title": "Virtual Machines"},
 			{"link": "/home/features/storage/", 
 			"id": "leftnav_product_storage_function", 
 			"title": "Storage"},
 			{"link": "/home/features/virtual-network/", 
 			"id": "leftnav_product_networking_function", 
-			"title": "Virtual network"}
+			"title": "Virtual Network"}
 		]
 	}, 
-	{"group": "Related documentation and links", 
+	{"group": "Related Documentation and Links", 
 	"id": "leftnav_product_media-services_others", 
 	"articles": 
 		[

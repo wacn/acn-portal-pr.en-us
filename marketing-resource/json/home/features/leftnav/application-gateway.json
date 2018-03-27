@@ -1,4 +1,4 @@
-{"service": "App gateway", 
+{"service": "Application Gateway", 
 "id": "leftnav_product_application-gateway", 
 "navigation": 
 [
@@ -11,16 +11,16 @@
 			"title": "Product functionality"}, 
 			{"link": "/pricing/details/application-gateway/", 
 			"id": "leftnav_product_application-gateway_pricing", 
-			"title": "Price details"},
+			"title": "Pricing details"},
 			{"link": "/pricing/calculator/application-gateway/", 
 			"id": "leftnav_product_application-gateway_calculator", 
-			"title": "Price calculator"},
+			"title": "Pricing calculator"},
 			{"link": "https://docs.azure.cn/application-gateway/", 
 			"id": "leftnav_product_application-gateway_documentation", 
 			"title": "Documentation"},
 			{"link": "/support/sla/application-gateway/", 
 			"id": "leftnav_product_application-gateway_sla", 
-			"title": "Service level agreement"}
+			"title": "Service Level Agreement"}
 		]
 	}, 
 	{"group": "Related products", 
@@ -29,25 +29,25 @@
 		[
 			{"link": "/home/features/virtual-network/", 
 			"id": "leftnav_product_networking_function", 
-			"title": "Virtual network"}, 
+			"title": "Virtual Network"}, 
 			{"link": "/home/features/traffic-manager/", 
 			"id": "leftnav_product_traffic-manager_function", 
-			"title": "Traffic volume manager"},
+			"title": "Traffic Manager"},
 			{"link": "/home/features/virtual-machines/", 
 			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual machine"},
+			"title": "Virtual Machines"},
 			{"link": "/home/features/storage/", 
 			"id": "leftnav_product_storage_function", 
 			"title": "Storage"}	
 		]
 	}, 
-	{"group": "Related documentation and links", 
+	{"group": "Related Documentation and Links", 
 	"id": "leftnav_product_application-gateway_others", 
 	"articles": 
 		[
 			{"link": "https://docs.azure.cn/zh-cn/application-gateway/application-gateway-create-gateway/", 
 			"id": "leftnav_product_application-gateway_articles_application-gateway-create-gateway", 
-			"title": "Creating an app gateway"}	
+			"title": "Creating an Application Gateway"}	
 		]
 	}
 ]

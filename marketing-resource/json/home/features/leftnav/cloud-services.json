@@ -1,4 +1,4 @@
-{"service": "Cloud services", 
+{"service": "Cloud Services", 
 "id": "leftnav_product_cloud-services", 
 "navigation": 
 [
@@ -11,16 +11,16 @@
 			"title": "Product functionality"}, 
 			{"link": "/pricing/details/cloud-services/", 
 			"id": "leftnav_product_cloud-services_pricing", 
-			"title": "Price details"},
+			"title": "Pricing details"},
 			{"link": "/pricing/calculator/cloud-services/", 
 			"id": "leftnav_product_cloud-services_calculator", 
-			"title": "Price calculator"},
+			"title": "Pricing calculator"},
 			{"link": "https://docs.azure.cn/cloud-services/", 
 			"id": "leftnav_product_cloud-services_documentation", 
 			"title": "Documentation"},
 			{"link": "/support/sla/cloud-services/", 
 			"id": "leftnav_product_cloud-services_sla", 
-			"title": "Service level agreement"}
+			"title": "Service Level Agreement"}
 		]
 	}, 
 	{"group": "Related products", 
@@ -29,34 +29,34 @@
 		[
 			{"link": "/home/features/virtual-machines/", 
 			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual machine"},
+			"title": "Virtual Machines"},
 			{"link": "/home/features/web-site/", 
 			"id": "leftnav_product_web-site_function", 
-			"title": "Web app"}, 
+			"title": "Web Apps"}, 
 			{"link": "/home/features/virtual-network/", 
 			"id": "leftnav_product_networking_function", 
-			"title": "Virtual network"},
+			"title": "Virtual Network"},
 			{"link": "/home/features/storage/", 
 			"id": "leftnav_product_storage_function", 
 			"title": "Storage"}
 		]
 	}, 
-	{"group": "Related documentation and links", 
+	{"group": "Related Documentation and Links", 
 	"id": "leftnav_product_cloud-services_others", 
 	"articles": 
 		[
 			{"link": "https://docs.azure.cn/cloud-services/cloud-services-dotnet-get-started/", 
 			"id": "leftnav_product_cloud-services_articles_cloud-services-dotnet-get-started", 
-			"title": "Azure cloud server ASP.NET basics"},
+			"title": "Getting Started with Microsoft Azure Cloud Services ASP.NET"},
 			{"link": "https://docs.azure.cn/cloud-services/cloud-services-nodejs-develop-deploy-app/", 
 			"id": "leftnav_product_cloud-services_articles_cloud-services-nodejs-develop-deploy-app", 
-			"title": "Azure cloud server Node.js basics"},
+			"title": "Getting Started with Microsoft Azure Cloud Services Node.js"},
 			{"link": "https://docs.azure.cn/cloud-services-php-create-web-role/", 
 			"id": "leftnav_product_cloud-services_articles_cloud-services-php-create-web-role", 
-			"title": "Azure cloud server PHP basics"},
+			"title": "Getting Started with Microsoft Azure Cloud Services PHP"},
 			{"link": "https://docs.azure.cn/cloud-services/cloud-services-python-ptvs/", 
 			"id": "leftnav_product_cloud-services_articles_cloud-services-python-ptvs", 
-			"title": "Azure cloud server Python basics"}
+			"title": "Getting Started with Microsoft Azure Cloud Services Python"}
 		]
 	}
 ]
