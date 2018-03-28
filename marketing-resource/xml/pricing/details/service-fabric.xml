@@ -60,7 +60,7 @@
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="fabric-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				 <p>Service Fabric is a free service, so it’s not applicable to the service level agreement. The availability of Service Fabric clusters is based on the service level agreement of the used foundation virtual machine and memory resources. To learn more about the details of our service level agreement, please visit the <a href="/support/sla/service-fabric/" id="pricing_service-fabric_sla">Service Level Agreements</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                       
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                       
     
     ]]></bodyText>
     <pageTitle>Service Fabric service quotation price estimation -  Azure could computing</pageTitle>

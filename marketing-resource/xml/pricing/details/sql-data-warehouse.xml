@@ -148,7 +148,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                                        <a id="warehouse_quation_pause">What is the pause function?</a>
+                                <a id="warehouse_quation_pause">What is the pause function?</a>
                                 <section>
                                  <p>SQL Data Warehouse has the exclusive capacity of pausing and recovering computing. If your team does not use the data warehouse instance for a period of time, e.g., at night, on weekends, on holidays or for other reasons, you can pause the data warehouse instances and then choose where you left off after you return. Note: Since storage is separate from computing, your storage service will not be paused in such cases. For more information about pauses, please refer to <a id="documentation_warehouse_ms_sql-data-warehouse-performance-scale" href="https://azure.microsoft.com/en-us/documentation/articles/sql-data-warehouse-performance-scale/#pausing-compute-resources" target="_blank">Documentation</a>.</p>
                                 </section>
@@ -187,7 +187,7 @@
 				<!--<p>SQL 数据仓库功能预览期间，不提供服务级别协议。若要了解有关我们的服务器级别协议的详细信息，请访问<a href="/support/legal/sla/" id="pricing_sql-database-warehouse_sla">服务级别协议</a>页。</p> -->
 				<p>We promise client-side operations performed in SQL Data Warehouse will be successful at least 99.9% of time. To learn more about the details of our service level agreement, please visit the <a href="/support/sla/sql-data-warehouse/" id="pricing_sql-database-warehouse_sla">Server-Level Agreements</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                 
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                 
     
     ]]></bodyText>
     <pageTitle>SQL Data Warehouse Service Pricing - Azure Cloud Computing</pageTitle>

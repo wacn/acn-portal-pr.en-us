@@ -10,13 +10,13 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/active-directory@2x.png" />
                         <h2>Azure Active Directory</h2>
                         <h4>A modern service based on REST that provides cloud identity authentication and access control for apps.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_active_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_active_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_active_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_active_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
             <div class="pricing-page-section">
-                <h2>Integrate local deployment of Azure Active Directory to enable single sign-on across cloud applications.</h2>
+                <h2>Integrate a local deployment of Azure Active Directory to enable Single Sign On across cloud applications.</h2>
                 <p>Azure Active Directory (Azure AD) is a modern service based on REST that provides identity management and access control functions for cloud applications. You can now use the same identity service for Azure, Microsoft Office 365, Dynamics CRM Online, Windows Intune, and other third-party cloud services. Azure Active Directory offers a cloud identity provider that easily integrates with locally deployed AD and full support of third-party identity providers.</p>
 
                 <h2>You can perform the following operations with Azure AD:<br/>Integrate with locally deployed Azure Active Directory</h2>
@@ -28,10 +28,10 @@
                 <h2>Build social relationships within an enterprise</h2>
                 <p>Azure AD Graph is an innovative social enterprise graph with a simple, clean interface and an Explorer view that you can use to access objects including users, groups, and roles, so you can find information and relationships easily.</p>
             </div>
-            <!-- END: Product-Detail-Content --> <!-- BEGIN: Product-Detail-BottomBanner --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Product-Detail-BottomBanner --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   
         
     ]]></bodyText>
-    <pageTitle>Azure Active Directory App Service – Azure cloud computing</pageTitle>
+    <pageTitle>Azure Active Directory _App Service – Azure Cloud Computing</pageTitle>
     <metaKeywords>Azure, Azure Active Directory, identity management, access control</metaKeywords>
     <metaDescription><![CDATA[Azure Active Directory (Azure AD) is a comprehensive identity and access management cloud solution that provides a reliable set of functions for managing users and groups. Azure Active Directory helps protect access to local and cloud applications (including Microsoft Online Services (such as Office 365) and many non-Microsoft SaaS applications). Three versions of Azure Active Directory are offered: Free, Basic, and Premium.]]></metaDescription>
     <linkid>home-features-identity</linkid>

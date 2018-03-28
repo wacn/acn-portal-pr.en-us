@@ -67,9 +67,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/service/product-icon-analysis-services@2x.png" />
-                        <h2>Azure Analysis Services<span>Azure Analysis Services</span></h2>
+                        <h2><span>Azure Analysis Services</span></h2>
                         <h4>Proven analytics engine.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="analysis-services_1rmb-trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="analysis-services_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="analysis-services_1rmb-trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="analysis-services_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/analysis-services-transform-complex-data.png"/>
                     </div>
                     <div class="col-md-9">
-                        <h2>Transform complex data into one version of the truth</h2>
+                        <h2>Transform complex data into a single picture</h2>
                         <p>Combine data from multiple sources into a single, trusted BI semantic model that’s easy to understand and use. Enable self-service and data discovery for business users by simplifying the view of data and its underlying structure.</p>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="col-md-9">
                         <h2>Match performance to the speed of business</h2>
-                        <p>Reduce the time taken to get insights on large and complex datasets. Fast response times mean your BI solution can meet the needs of your business users and keep pace with your business. Connect to real-time operational data using DirectQuery and watch business trends closely.</p>
+                        <p>Reduce the time taken to get insight into large and complex datasets. Fast response times mean your BI solution can meet the needs of your business users and keep pace with your business. Connect to real-time operational data using DirectQuery and watch business trends closely.</p>
                     </div>
                 </div>
 				
@@ -120,7 +120,7 @@
                     </div>
                     <div class="col-md-9">
                         <h2>Accelerate delivery time</h2>
-                        <p>Release your BI solutions in a predictable and highly secured way. Use the robust application lifecycle management functions to manage, deploy, test, and deliver your BI solution quickly and with confidence.</p>
+                        <p>Release your BI solutions in a predictable and highly secured way. With the help of robust application lifecycle management functions, confidently and quickly manage, deploy, test, and deliver your BI solutions.</p>
                     </div>
                 </div>
 				<div class="cognitive-figure">
@@ -133,7 +133,7 @@
                     </div>
                 </div>				
             </div>
-            <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: Cognitive-Services-Content -->
+            <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: Cognitive-Services-Content -->
                           
     
     ]]></bodyText>

@@ -9,7 +9,7 @@
                     <div class="common-banner-title">
                         <img src="//wacndevelop.blob.core.chinacloudapi.cn/marketing-resource/css/images/service/power-bi-embedded.png" />
                         <h2><!--<sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">预览</sup>--><span>Power BI Workspace Collection</span></h2>
-                        <h4>Makes data within apps more exciting</h4>
+                        <h4>To make the data in applications more vivid</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_power_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_power_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                         <a href="#" class="close" id="closeCalculatorModal"></a>
                         <p>We will add service items selected on different pages to the combined calculation in the right-hand list. You can manually delete or clear items.</p>
                         <span class="checkbox-rect"></span>Don’t prompt again <a class="btn btn-continue" href="#">I’ve got it</a>
-                        </div>
+                    </div>
                 </div>
                 <!-- end calculator modal --> <!-- start calculator shopinglist template -->
                 <script type="text/template" id="templPricingShopingList">
@@ -95,7 +95,7 @@
                 <div class="azsidebar"></div>  
                 <!-- END: Pricing calculator Sidebar-->                  
             </div>
-            <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                    
+            <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                    
     
     ]]></bodyText>
     <pageTitle>Pricing Calculator - Power BI Workspace Collection | Azure</pageTitle>

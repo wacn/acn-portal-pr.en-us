@@ -53,20 +53,20 @@
                     <div class="tags-date">
                         <div class="ms-date">*Suitable only for deployment in ASM/Classics deployment models.</div><br />
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimation is based on a usage of 744 hours every month.</div>
+                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <th>&#160;</th>
-                            <th align="left"><strong>Pricing</strong></th>
+                            <th align="left"><strong>Price</strong></th>
                         </tr>
                         <tr>
-                            <td>The first 100 IP addresses remapped every month</td>
+                            <td>The first 100 IP address remappings every month</td>
                             <td>Free</td>
                         </tr>
                         <tr>
-                            <td>All other IP address remapping</td>
-                            <td>Every remapping ¥0.456/month</td>
+                            <td>All other IP address remappings</td>
+                            <td>Every remapping RMB 0.456/month</td>
                         </tr>
                     </table>                    
                     <!-- END: Table2-Content-->
@@ -74,12 +74,12 @@
             <div class="pricing-page-section">
                 <div class="more-detail">
                     <h2>FAQs</h2>
-                    <em>Expand All</em>
+                    <em>Expand all</em>
                     <ul>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="public_IP_question8">When the virtual machine is in a “suspended de-allocation” state, are you charging me for the public IP address? </a>
+                                <a id="public_IP_question8">When the virtual machine is in a “suspended de-allocation” status, are you charging me for the public IP address? </a>
                                 <section>
                                     <p>In the ARM deployment model, when the relevant VM is in “suspended de-allocation”, no charging is imposed on “dynamic” public IP addresses. Yet, no matter how relevant resources are, “static” public IP addresses are charged (unless it’s one of the first 5 “static” public IP addresses in this region). For details about static and dynamic allocation methods, please check <a id="public_IP_us2" style="color: #00a8d9;" href="https://docs.azure.cn/virtual-network/virtual-network-ip-addresses-overview-arm/">IP Addresses in Azure</a>.</p>
 									<p>In the ARM deployment model, when the VM is in “suspended de-allocation”, no charges are imposed on an instance level public IP (ILPIP).</p>
@@ -105,7 +105,7 @@
                             <div>
                                 <a id="public_IP_question2">When does the billing clock for public IP address start and stop?</a>
                                 <section>
-                                    <p>For the “static” public IP address in the ARM deployment model and the “retained” IP address in the ASM deployment model, the billing clock will start from the 2nd hour after you create the IP address, so that some time is left to allocate IP addresses. The billing clock will stop after you delete the IP addresses.</p>
+                                    <p>For the “static” public IP address in the ARM deployment model and the “retained” IP address in the ASM deployment model, the billing clock will start from the 2nd hour after you create the IP address, so that some time is left to allocate IP addresses. The billing clock will stop after you delete the IP address.</p>
 									<p>For all other IP addresses, the clock will start once relevant resources are activated, or stop when deleting or stopping allocation of relevant resources. </p>	
                                 </section>
 
@@ -124,7 +124,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="public_IP_question3">Is usage of less than 1 hour charged for 1 hour?</a>
+                                <a id="public_IP_question3">Is less than 1 hour billed as 1 hour? </a>
                                 <section>
                                     <p>Yes.</p>
                                 </section>
@@ -179,8 +179,8 @@
 			</div>
 			<div class="pricing-page-section">
                 <h2>Support and Service Level Agreements</h2>
-                <p>If you have any questions or need any help, please access <a href="/support/contact/" id="ip-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-				<p>The IP address service doesn’t provide a service level agreement. If you want to learn about the details of our server level agreement, please access the <a href="/support/legal/sla/" id="pricing_ip-address_sla">Service Level Agreement</a> page.</p>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="ip-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
+				<p>IP address service doesn’t provide service level agreement. To learn more about the details of our service level agreement, please visit the <a href="/support/legal/sla/" id="pricing_ip-address_sla">Service Level Agreements</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" /> --> <!--END: Support and service code chunk-->      
                                                                              
@@ -189,8 +189,8 @@
     <pageTitle>Pricing Details - IP Addresses | Azure</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-reserved-ip-addresses</linkid>
-    <metaKeywords>Azure, IP-Addresses, Price, FAQs</metaKeywords>
-    <metaDescription><![CDATA[Learn about the pricing details of Azure IP Addresses. A ¥1 trial permits obtaining a service limit of ¥1500, or you can become an Azure advance payment user through direct purchasing and enjoy a service level agreement of up to 99.99%.]]></metaDescription>
+    <metaKeywords>Azure, IP-Addresses, price, FAQs</metaKeywords>
+    <metaDescription><![CDATA[To learn about the price details of Azure IP Addresses. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - IP Addresses</urlDisplayName>
   </TextpageLeftNav>
 </localize>

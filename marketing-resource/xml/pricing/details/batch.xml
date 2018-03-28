@@ -38,7 +38,7 @@
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="batch-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
 				<p>The Batch feature doesn’t offer a service level agreement during the preview period. If you want to learn more about the details of our server level agreement, please visit the <a href="/support/legal/sla/" id="pricing_batch_sla">Service Level Agreement</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                                      
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                                      
     
     ]]></bodyText>
     <pageTitle>Azure Batch services quotes_price budgeting - Azure Cloud Computing</pageTitle>

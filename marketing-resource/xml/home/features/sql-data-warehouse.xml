@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/SQL_DW_icon.png" />
-                        <h2>SQL Data Warehouse <!-- <sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">预览</sup>--> <span>SQL Data Warehouse</span></h2>
+                        <h2><!-- <sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">预览</sup>--> <span>SQL Data Warehouse</span></h2>
                         <h4>Fully-managed and highly scalable data warehousing services.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_warehouse_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_warehouse_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_warehouse_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_warehouse_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -55,13 +55,13 @@
                     <li><a id="warehouse_documentation_manage-compute-overview" href="https://docs.azure.cn/sql-data-warehouse/sql-data-warehouse-manage-compute-overview/" target="_blank">Scalable performance</a></li>
                 </ul>
             </div>
-            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
     
     ]]></bodyText>
     <pageTitle>Azure SQL Data Warehouse_Database Management Services - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-sql-data-warehouse</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Azure SQL Data Warehouse, functions</metaKeywords>
+    <metaKeywords>Azure, Microsoft Cloud, Azure SQL Data Warehouse, Features</metaKeywords>
     <metaDescription><![CDATA[Azure SQL Data Warehouse is a fully-managed, highly scalable data warehousing service that can perform massively parallel processing at the petabyte scale, independently scale computing and storage in seconds, and perform queries that span relational and non-relational data. It provides a complete enterprise-grade SQL Server experience and seamless cooperation with Power BI, machine learning, HDInsight and Data Factory (this will be brought online later).]]></metaDescription>
     <urlDisplayName>SQL Data Warehouse</urlDisplayName>
   </TextpageLeftNav>

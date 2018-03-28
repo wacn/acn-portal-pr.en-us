@@ -100,7 +100,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-        <a id="scheduler_price_question1">What is the billing for Scheduler?</a>
+                                <a id="scheduler_price_question1">What is the billing for Scheduler?</a>
                                 <section>
                                     <p>In the case of one or multiple active job assemblages, Scheduler will prorate billing by the hour. A standard unit will be charged in proportion to the number of hours for every 10 standard job assemblages (or part of them) established. Similarly, an advanced unit will be charged in proportion to the number of hours for every 10,000 advanced job assemblages (or part of them) established.</p>
                                 </section>
@@ -109,7 +109,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-        <a id="scheduler_price_question2">Is the Scheduler quota applied at the subscription level?</a>
+                                <a id="scheduler_price_question2">Is the Scheduler quota applied at the subscription level?</a>
                                 <section>
                                     <p>The quota of Scheduler shall be applied at the subscription level. In addition, it is worth noting that all the jobs of a given job assemblage will be bound to the region of that job assemblage.</p>
                                 </section>
@@ -118,7 +118,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-        <a id="scheduler_price_question3">How long will be the job execution log retained?</a>
+                                <a id="scheduler_price_question3">How long will be the job execution log retained?</a>
                                 <section>
                                     <p>The execution log contains the history records of job executions from the previous 60 days.</p>
                                 </section>
@@ -127,7 +127,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-        <a id="scheduler_price_question4">Can I upgrade my Scheduler service from the Free Version to the Standard Version?</a>
+                                <a id="scheduler_price_question4">Can I upgrade my Scheduler service from the Free Version to the Standard Version?</a>
                                 <section>
                                     <p>Yes, the existing job assemblage can be upgraded by updating the hierarchy features.</p>
                                 </section>
@@ -136,7 +136,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-        <a id="scheduler_price_question6">How is the high availability of Scheduler achieved?</a>
+                                <a id="scheduler_price_question6">How is the high availability of Scheduler achieved?</a>
                                 <section>
                                     <p>Scheduler supports high availability by matching two regions across the same territory, such as pairing south central America and north central America, north Europe and west Europe, east Asia-Pacific and south east Asia-Pacific. The jobs submitted to a given territory (see the following listed territory) can be executed in either of the paired regions.</p>
                                 </section>
@@ -145,7 +145,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-        <a id="scheduler_price_question5">Is Scheduler independent from the Scheduled Job function in the Mobile Service?</a>
+                                <a id="scheduler_price_question5">Is Scheduler independent from the Scheduled Job function in the Mobile Service?</a>
                                 <section>
                                     <p>Yes, they are independent from each other, although they can both offer scheduling functions. The Scheduled Job function in the Mobile Service is a function of the same kind while Scheduler is an independent scheduling program with more extensive usage occasions.</p>
                                 </section>
@@ -172,7 +172,7 @@
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="scheduler-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				 <p>We guarantee in at least 99.9% of cases all schedule calling operations can be started within 30 minutes of the scheduled time. Availability is charged and settled per month. To learn more about the details of our service level agreement, please visit the <a href="/support/sla/scheduler/" id="pricing_scheduler_sla">Service Level Agreements</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                         
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                         
     
     ]]></bodyText>
     <pageTitle>Scheduler - Azure Cloud Computing</pageTitle>

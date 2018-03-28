@@ -255,7 +255,7 @@
                 </div>
             <!--  <?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />   -->
             </div>
-            <!-- BEGIN: Product-Detail-BottomBanner --> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!-- END: Product-Detail-BottomBanner -->                                                                                       
+            <!-- BEGIN: Product-Detail-BottomBanner --> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!-- END: Product-Detail-BottomBanner -->                                                                                       
     
     ]]></bodyText>
     <pageTitle>Azure Mobile Service Pricing - Azure Cloud Computing</pageTitle>

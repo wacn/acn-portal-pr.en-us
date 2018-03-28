@@ -119,7 +119,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="home_sql-stretch_question_unit">What is a DSU (Stretch Database Unit)?</a>
                                 <section>
                                     <p>In order to continue to provide customers with more predictable performance experiences, the concept of the Stretch Database Unit (DSU) was introduced in SQL Stretch Database. DSUs represent the performance of queries and data migration and can be quantified by these workload goals: the speed at which the data is migrated and written into Azure and read and calculated from Azure. This indicator can help customers assess the relative extent of performance required for their workloads.</p>
@@ -129,7 +129,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="home_sql-stretch_question_amount">How is the usage of Stretch Database reflected in the billing?</a>
                                 <section>
                                     <p>Your billing will include a predictable storage monthly fee and a separate amount for the computing fee. Depending on the number of computing resources (DSU) used, the monthly computing fee may vary. In order to allow you to see the total amount of computing resources consumed more clearly, storage and computing fees will be reflected in the billing.</p>
@@ -139,7 +139,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="home_sql-stretch_question_bill">If I use the Stretch Database for less than an hour, how will I be charged for that?</a>
                                 <section>
                                     <p>Regardless of whether the database is active or not, or the database exists for over an hour or not, you will need to pay for every hour of Stretch Database's existence, and you will be charged the highest rate applicable during the hour. For example, if you create a Stretch Database and delete it after 5 minutes, your database will be charged for 1 hour. If you create a Stretch Database with 100 DSUs and then expand it to 400 DSUs immediately, then you will be charged by 400 DSUs for the first hour. If you delete the database and create a database with the same name thereafter, your billing will reflect the cost of the two separate databases for one hour, respectively.</p>
@@ -149,7 +149,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="home_sql-stretch_question_dsu">If I use different levels of DSU in the same hour, how will I be charged for that?</a>
                                 <section>
                                     <p>DSU will be charged by the “hour” based on the highest level performance applicable within the hour.</p>
@@ -159,7 +159,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="home_sql-stretch_question_performance">Can I change the Stretch Database performance level?</a>
                                 <section>
                                     <p>You can adjust the Stretch Database's performance level. Changes in performance levels will take effect after a few minutes, and your database will remain available online during the change.</p>
@@ -168,7 +168,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="home_sql-stretch_question_data">How much data can I stretch into Azure?</a>
                                 <section>
                                     <p>During the preview phase, your Stretch Database can contain up to 60TB of data. Around the date of official listing of the service, we will determine the final actual upper limit of the size.</p>
@@ -177,7 +177,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="home_sql-stretch_question_withdraw">How to undo database stretch?</a>
                                 <section>
                                    
@@ -187,7 +187,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="home_sql-stretch_question_consume">How much storage capacity will my database consume?</a>
                                 <section>
                                     <p>The amount of data consumed in the Stretch Database is approximately the same storage capacity as the same data when it was located in SQL Server before moving to the Stretch Database. The Stretch Database advisor tool can help you estimate storage requirements. For more information on how to use the load advisor tool, please refer to the related documentation.</p>
@@ -196,7 +196,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="home_sql-stretch_question_azuresql">Can I use Stretch Database together with Azure SQL Database?</a>
                                 <section>
                                     <p>Stretch Database is not currently compatible with Azure SQL Database, so you can not stretch the Azure SQL database to </p>
@@ -206,7 +206,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="home_sql-stretch_question_sqlserver">If I have an existing Stretch Database from SQL Server 2016 RC0 or an earlier version, can it be directly upgraded to RC1 or a newer version and continue running on the new Stretch Database service?</a>
                                 <section>
                                     <p>Upgrading is not currently supported. If you want to retain the data that has been stretched to Azure, you need to first un-migrate (Un-Migrate) the data in Azure to your own SQL Server database. After the un-migration is completed, you can upgrade and re-stretch the data to the new Stretch Database service. Please note that un-migrating data from Azure will incur data transfer fees.</p>
@@ -244,7 +244,7 @@
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="sql-server-stretch-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				 <p>We guarantee that the customers have connections between the SQL Server Stretch Database and Internet gateway at least 99.9% of the time. To learn more about the details of our service level agreement, please visit the <a href="/support/legal/sla/" id="pricing_sql-server-stretch_sla">Service Level Agreements</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   
                                
     
     ]]></bodyText>

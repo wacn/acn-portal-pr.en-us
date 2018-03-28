@@ -193,8 +193,8 @@
 					<table  cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                            <th align="left"><strong>Instance</strong></th>
-                            <th align="left"><strong>Cores</strong></th>
+                            <th align="left"><strong>Instances</strong></th>
+                            <th align="left"><strong>Number of Cores</strong></th>
                             <th align="left"><strong>RAM</strong></th>
                             <th align="left"><strong>Storage</strong></th>
                             <th align="left"><strong>Price</strong></th>
@@ -229,8 +229,8 @@
                     </div>					                 															
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <th align="left"><strong>Instance</strong></th>
-                            <th align="left"><strong>Cores</strong></th>
+                            <th align="left"><strong>Instances</strong></th>
+                            <th align="left"><strong>Number of Cores</strong></th>
                             <th align="left"><strong>RAM</strong></th>
                             <th align="left"><strong>Storage</strong></th>
                             <th align="left"><strong>Price</strong></th>
@@ -266,8 +266,8 @@
                     </div>					                 															
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <th align="left"><strong>Instance</strong></th>
-                            <th align="left"><strong>Cores</strong></th>
+                            <th align="left"><strong>Instances</strong></th>
+                            <th align="left"><strong>Number of Cores</strong></th>
                             <th align="left"><strong>RAM</strong></th>
                             <th align="left"><strong>Storage</strong></th>
                             <th align="left"><strong>Price</strong></th>
@@ -303,8 +303,8 @@
                     </div>					                 															
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <th align="left"><strong>Instance</strong></th>
-                            <th align="left"><strong>Cores</strong></th>
+                            <th align="left"><strong>Instances</strong></th>
+                            <th align="left"><strong>Number of Cores</strong></th>
                             <th align="left"><strong>RAM</strong></th>
                             <th align="left"><strong>Storage</strong></th>
                             <th align="left"><strong>Price</strong></th>
@@ -478,7 +478,7 @@
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="app-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
 				 <p>We guarantee that apps running in a customer subscription will be available 99.95% of the time. No SLA is offered for the Free or Shared tiers. If you want to learn more about the details of our server level agreement, please visit the <a href="/support/sla/app-service/" id="pricing_app_sla">Service Level Agreement</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                             
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                             
     
     ]]></bodyText>
     <pageTitle>App Service pricing_App Service price estimates -  Azure Cloud Services</pageTitle>

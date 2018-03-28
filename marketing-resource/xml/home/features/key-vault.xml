@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/key-vault@2x.png" />
-                        <h2><span>Key Vault</span></h2>
-                        <h4>Protect and control encrypted keys and other confidential information used by cloud apps and services.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_keyvault_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_keyvault_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Key Vault<span>Key Vault</span></h2>
+                        <h4>Encryption keys and other secrets that can protect and control cloud applications and service usage.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_keyvault_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_keyvault_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -32,8 +32,6 @@
                 <h2>Improve performance and achieve global scale</h2>
                 <p>Storing encryption keys in the cloud instead of locally increases the performance of cloud apps and reduces latency. Key Vault can be rapidly scaled up to meet the encryption requirements of your apps without the need for other resources. You can preconfigure the Key Vault in Azure global datacenters to implement global redundancy.</p>
 
-                <h2>Faster delivery and more reliable services</h2>
-                <p>Azure can effectively and automatically deal with processes that span different tools, systems and department receivers, enabling you to deliver services with greater speed and consistency. It provides extremely high reliability and allows you to create checkpoints so you can restore your workflow if unexpected errors, crashes or network issues occur.</p>
 
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
@@ -44,7 +42,7 @@
                     <li><a href="https://docs.azure.cn/key-vault/key-vault-get-started/" id="home_keyvault_started">Getting Started Guide</a></li>
                 </ul>
             </div>
-            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->      
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->      
         
     ]]></bodyText>
     <pageTitle>Key Vault_app services - Azure Cloud Computing</pageTitle>

@@ -70,7 +70,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/service/power-bi-embedded.png" /> 
                         <h2><!--<sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">预览</sup>--><span>Power BI Workspace Collection</span></h2>
                         <h4>Makes data within apps more lively</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_power_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_power_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_power_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_power_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -83,18 +83,18 @@
                     <li>Easily embed interactive visual objects within apps using the REST API and Power BI SDK</li>
                     <li>Ensure that your interactive data visualization experience is genuinely consistent on any device</li>
                     <li>Use existing authentication and authorization methods</li>
-                    <li>Reduce time-to-value without the need to redesign existing apps</li>
+                    <li>Accelerate Time to Value without the need to redesign existing apps</li>
                     <li>Only pay for what you use (no preliminary costs)</li>
                 </ul>
                 
                 <h2>Create interactive reports that are always up to date and appealing</h2>
-                <p>Power BI Workspace integration enables you to create influential interactive data visualizations for app data in Power BI Workspace without the need to write any code. Using the freeform drag-and-drop canvas, you can easily browse your app data and use formulas and relational expressions to generate rich data models. Simply choose from a variety of existing new-style Power BI data visualizations or create customized visual objects based on your report needs by using the data visualization tools in open technologies (such as d3 and WebGL). Use DirectQuery to keep data up constantly up to date without moving it to Power BI, and intuitively present extremely large data sets from a variety of cloud data sources (such as Azure SQL Database and Azure SQL Data Warehouse).</p>
+                <p>Power BI Workspace integration enables you to create influential interactive data visualizations for app data in Power BI Workspace without the need to write any code. Using the freeform drag-and-drop canvas, you can easily browse your app data and use formulas and relational expressions to generate rich data models. Simply choose from a variety of existing new-style Power BI data visualizations or create customized visual objects based on your report needs by using the data visualization tools in open technologies (such as d3 and WebGL). Use DirectQuery and without moving data to Power BI keep it continually up to date, and intuitively present extremely large data sets directly from a variety of cloud data sources (such as Azure SQL Database and Azure SQL Data Warehouse).</p>
 
                 <h2>Embed visualized objects in apps without the need to redesign</h2>
                 <p>You can easily embed interactive visual objects within apps using the REST API and Power BI SDK. You can use the Power BI REST API to enumerate data sets and reports, configure data sets and reports, embed reports, and configure connection strings and credentials using programmable methods. Provide interactive data visualizations presented in HTML5 with high fidelity and consistency to any client device. Make seamless use of authentication and authorization based on app tokens without displaying the identity of the end user. Shorten time-to-value without the need to redesign apps.</p>
 
                 <h2>Manage costs while rapidly deploying on the cloud scale</h2>
-                <p>Use Azure Resource Manager API and Power BI for automatic deployment and scaling. Configure Power BI Workspace with programmable methods to create data sets and reports, embed reports within apps, and control refresh behavior and credentials. Use the consumption-based pay-as-you-go pricing model to take full control of costs (with no preliminary costs, hidden maintenance fees, or customization charges).</p>         
+                <p>Use Azure Resource Manager API and Power BI for automatic deployment and scaling. Configure Power BI Workspace with programmable methods to create data sets and reports, embed reports within apps, and control refresh behavior and credentials. Use the consumption-based Pay-As-You-Go pricing model to take full control of costs (with no preliminary costs, hidden maintenance fees, or customization charges).</p>         
 
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
@@ -109,7 +109,7 @@
 					<li><a id="power-bi-embedded_articles_power-bi-embedded-whats-new" href="https://docs.azure.cn/power-bi-embedded/power-bi-embedded-whats-new/" >New Functions Within Power BI Workspace Integration<i class="icon icon-arrow-right-thin"></i></a></li>
                 </ul>
             </div>
-            <!-- END: Read-More --> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />                                                                                
+            <!-- END: Read-More --> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />                                                                                
     
     ]]></bodyText>
     <pageTitle>Power BI Workspace Integration_Intelligent Data Analysis Systems - Azure Cloud Computing</pageTitle>

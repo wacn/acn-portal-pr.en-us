@@ -302,7 +302,7 @@
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="expressroute-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
 				 <p>We guarantee at least 99.9% availability of ExpressRoute private lines. To learn more about the details of our server level agreement, please visit the <a href="/support/sla/expressroute/" id="pricing_expressroute_sla">Service Level Agreements</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!--END: Support and service code chunk-->                                                                 
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!--END: Support and service code chunk-->                                                                 
     
     ]]></bodyText>
     <pageTitle>Azure ExpressRoute Service Pricing - Azure Cloud Service</pageTitle>

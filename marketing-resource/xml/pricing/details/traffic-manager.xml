@@ -73,7 +73,7 @@
                     <ul>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="Traffic_Manager_question1">What is a Traffic Manager “DNS query”?</a>
                                 <section>
                                     <p>Whenever users accesses your applications, your service name is mapped to the IP address with the DNS query. By providing different response content for different DNS queries, the Traffic Manager can make the incoming flow of your several hosting Azure services achieve load balance, no matter whether these services are operated in the same data center or different data centers in China.</p>
@@ -84,7 +84,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="Traffic_Manager_question2">What is the “inspection of operating conditions” of the Traffic Manager?</a>
                                 <section>
                                     <p>Applying the Traffic Manager, you can utilize the Azure service terminals for supervision and hosting, and the Traffic Manager can also supply automatic failover functions during service interruption, so as to improve availability of key applications.</p>
@@ -95,7 +95,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="Traffic_Manager_question3">Are all prices of the load-balancing methods the same? </a>
                                 <section>
                                     <p>Yes. No matter which load-balance method is used, prices for DNS query and inspection of operating conditions are the same.</p>
@@ -105,7 +105,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="Traffic_Manager_question4">How to reduce the fee for the Traffic Manager?</a>
                                 <section>
                                     <p>The PC of the end user will not directly contact the name server of the traffic manager while performing a DNS query. Instead, these queries will be sent by the "recursive" DNS server operated by the enterprise and the ISP. These servers will cache the DNS response results, so that other users' queries can be processed quickly. Meanwhile, these cached responses will not reach the name server of the traffic manage, thus no cost is incurred.</p>
@@ -140,7 +140,7 @@
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="traffic-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				 <p>We guarantee that DNS queries will receive valid responses from at least one of our Azure Traffic Manager Name Clusters at least 99.99% of the time. Availability is calculated by the monthly billing cycle. To learn more about the details of our service level agreement, please visit the <a href="/support/sla/traffic-manager/" id="pricing_traffic_sla">Service Level Agreements</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                           
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                           
     
     ]]></bodyText>
     <pageTitle>Azure Traffic Manager Pricing - Azure Cloud Computing</pageTitle>

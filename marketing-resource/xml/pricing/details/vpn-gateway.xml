@@ -33,7 +33,7 @@
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                     <tr>
-                        <th align="left">VPN Gateway type</th>
+                        <th align="left"><strong>VPN Gateway type</strong></th>
                         <th align="left"><strong>Price per hour</strong></th>
 						<th align="left"><strong>Bandwidth</strong></th>
 						<th align="left"><strong>S2S Tunnel</strong></th>
@@ -140,7 +140,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="Virtual_Network_vpn-connection">Will the data transfer in the VPN connection be charged separately?</a>
                                 <section>
                                     <p>Yes. Data transfer between two virtual networks is charged at the Inter-VNET rates listed above. And other data transfer with your local site or normal Internet site through VPN connection is charged separately in accordance with rate of the normal <a id="Virtual_Network_price_sjcs2" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a>.</p>
@@ -150,7 +150,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="Virtual_Network_data-transmission"> Is the Inter-VNET transfer charged at the rates of the source region or the target region? </a>
                                 <section>
                                     <p>It is similar to the charging mode of standard data transfer, and the Inter-VNET data transfer is charged at the rates of the source region.</p>
@@ -160,7 +160,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="Virtual_Network_same-area">Will a Inter-VNET data transfer in the same region be charged? </a>
                                 <section>
                                     <p>No, it will not. It is similar to the charging mode of standard data transfer, and the Inter-VNET data transfer is charged at the rates of the source region, excepting P2S VPN.</p>
@@ -170,7 +170,7 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="Virtual_Network_vpn-tunnel">How many site-to-site VPN tunnels can a VPN gateway support? </a>
                                 <section>
                                     <p>Static-routing VPN Gateway: 1</p>
@@ -202,7 +202,7 @@
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="vpn-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				 <p>We guarantee at least 99.9% availability of the basic gateway of each VPN or ExpressRoute, 99.95% availability of the standard gateway of each VPN or ExpressRoute, and 99.95% availability of the high-performance gateway of each VPN or ExpressRoute. To learn more about the details of our service level agreement, please visit the <a href="/support/sla/vpn-gateway/" id="vpn_authentication_sla">Service Level Agreements</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                            
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                            
     
     ]]></bodyText>
     <pageTitle>VPN Gateway Pricing - Azure Cloud Computing</pageTitle>

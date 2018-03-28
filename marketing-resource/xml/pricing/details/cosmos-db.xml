@@ -216,7 +216,7 @@
                 </div>
                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />  --> <!--END: Support and service code chunk-->
             </div>
-            <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                
+            <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                
     
     ]]></bodyText>
     <pageTitle>Azure Cosmos DB NoSQL database services pricing - Azure Cloud Computing</pageTitle>

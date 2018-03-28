@@ -100,8 +100,8 @@
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <th align="left"><strong>Instance</strong></th>
-                            <th align="left"><strong>Cores</strong></th>
+                            <th align="left"><strong>Instances</strong></th>
+                            <th align="left"><strong>Number of Cores</strong></th>
                             <th align="left"><strong>RAM</strong></th>
                             <th align="left"><strong>Disk size</strong></th>
                             <th align="left"><strong>Price</strong></th>
@@ -211,8 +211,8 @@
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <th class="left" width="20%"></th>    
-                            <th align="left"><strong>Instance</strong></th>
-                            <th align="left"><strong>Cores</strong></th>
+                            <th align="left"><strong>Instances</strong></th>
+                            <th align="left"><strong>Number of Cores</strong></th>
                             <th align="left"><strong>RAM</strong></th>
                             <th align="left"><strong>Disk size</strong></th>
                             <th align="left"><strong>Original price</strong></th>
@@ -298,8 +298,8 @@
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <th align="left"><strong>Instance</strong></th>
-                            <th align="left"><strong>Cores</strong></th>
+                            <th align="left"><strong>Instances</strong></th>
+                            <th align="left"><strong>Number of Cores</strong></th>
                             <th align="left"><strong>RAM</strong></th>
                             <th align="left"><strong>Disk size</strong></th>
                             <th align="left"><strong>Original price</strong></th>
@@ -356,8 +356,8 @@
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <th align="left"><strong>Instance</strong></th>
-                            <th align="left"><strong>Cores</strong></th>
+                            <th align="left"><strong>Instances</strong></th>
+                            <th align="left"><strong>Number of Cores</strong></th>
                             <th align="left"><strong>RAM</strong></th>
                             <th align="left"><strong>Disk size</strong></th>
                             <th align="left"><strong>Original price</strong></th>
@@ -512,7 +512,7 @@
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="cloud-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
 				 <p>For Cloud Services, we guarantee that when you deploy two or more role instances in different fault domains and upgrade domains, Internet-facing roles will be able to establish external connections at least 99.95% of the time. If you want to learn more about the details of our service level agreement, please visit the <a id="prricing_cloud_sla" style="color: #00a8d9;" href="/support/sla/cloud-services/">Service Level Agreement</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                              
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                              
     
     ]]></bodyText>
     <pageTitle>Azure Cloud Services quotes_price budgeting - Azure Cloud Computing</pageTitle>

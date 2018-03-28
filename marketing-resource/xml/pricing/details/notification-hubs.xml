@@ -127,7 +127,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-  <a id="Notification_hubs1">What is Azure Notification Hubs Baidu Cloud Messaging?</a>
+                                <a id="Notification_hubs1">What is Azure Notification Hubs Baidu Cloud Messaging?</a>
                                 <section>
                                     <p>For application program developers, it is challenging to develop Android application programs aimed at the Chinese market that can receive pushed notifications. Android mobile phones usually do not have Google Play. However, these devices can only receive notifications from GCM (Google Cloud Messaging) through Google Play. Meanwhile, many different application stores and messaging services make this even more difficult.</p>
                                     <p>Today, we declare we support sending pushes from Azure Notification Hub to such Android devices through Baidu Cloud Messaging. This is additional support for iOS, Windows Phone, Windows, Android and Kindle devices apart from the existing support in Azure Notification Hub.</p>
@@ -139,7 +139,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-  <a id="Notification_hubs2">What will happen to existing users of Notification Hubs after December 1, 2014?</a>
+                                <a id="Notification_hubs2">What will happen to existing users of Notification Hubs after December 1, 2014?</a>
                                 <section>
                                     <p>Subscribers of Notification Hubs registered before December 1, 2014 will be automatically charged at the new pricing of the corresponding service. If a user has been using basic services before, he will be automatically moved to a new basic class. For more help, please contact <a id="Notification_price_newsuppert" href="/support/contact/" style="color: #00a8d9;">Support</a>.</p>
                                 </section>
@@ -149,7 +149,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-  <a id="Notification_hubs3">How does the basic layer automatically scale?</a>
+                                <a id="Notification_hubs3">How does the basic layer automatically scale?</a>
                                 <section>
                                     <p>Before November 30, 2014, you can designate the minimum value of unit numbers for your namespace on the Management Portal (to ensure enough capacity is left for active devices or push notifications exceeding the present level). You can also set the maximum unit number that you hope the service bus can use when it automatically scales according to the actual use level of namespace. At the beginning of each day (00:00 UTC time), we will provide capacity not less than the minimum value set by you or the minimum capacity needed to support your current active devices. During the following whole day, if the number of your active devices or push notifications exceed the currently provided level, we will increase the capacity up to the maximum value chosen by you (before extra capacity is successfully supplied, you may meet certain restrictions or a long delay). At the end of the day (at midnight UTC time), you will be charged by the maximum value of units used in the whole day. If you want to stop the automatic scaling function, you can set the same figure for maximum value and minimum value.</p>
                                     <p>From December 1, 2014 on, basic-layer and standard-layer services do not need automatic scaling any more. Customers can use limitless messaging function at the current published charge rate.</p>
@@ -160,7 +160,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-  <a id="Notification_hubs4">Does Notification Hub have any form of quota?</a>
+                                <a id="Notification_hubs4">Does Notification Hub have any form of quota?</a>
                                 <section>
                                     <p>Before November 30, 2014, free services allowed daily average pushed notifications of 3,333 per month. That figure was respectively 16,667 and 166,667 for basic-layer services and a standard unit.</p>
                                     <p>After a namespace reached the cap of daily number of pushes and before the end of the day (midnight UTC time), or before more units were chosen among standard-layer services, or before it was upgraded to a higher service layer to raise the cap, the name space could no longer send notifications.</p>
@@ -172,7 +172,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-  <a id="Notification_hubs5">Do free services have any caps for the number of active devices?</a>
+                                <a id="Notification_hubs5">Do free services have any caps for the number of active devices?</a>
                                 <section>
                                      <p>Before November 30, 2014, the number of active devices is constantly tracked. When the number of active devices reach the cap, registration operation for new devices will not succeed until the number of active devices is below the cap (log off of registered devices through the expiration operation), or until standard-layer services are upgraded or extended for raising the cap, or until the unit number of the basic layer or standard layer.</p>
                                      <p>From December 1, 2014 on, all service layers have no caps on the number of active devices.</p>
@@ -182,7 +182,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-  <a id="Notification_hubs6">What is contained in every push?</a>
+                                <a id="Notification_hubs6">What is contained in every push?</a>
                                 <section>
                                      <p>The push contains all notifications provided for platform messaging services (e.g., Windows notification service, Apple Messaging Service, Google Cloud Messaging, Microsoft Push Notification Service).</p>
                                 </section>
@@ -191,7 +191,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-  <a id="Notification_hubs7">What is an active device?</a>
+                                <a id="Notification_hubs7">What is an active device?</a>
                                 <section>
                                      <p>Active devices are devices that can receive notifications. Google Cloud Messaging or Amazon Device Messaging should be used to define unique registration ID for such devices; or Windows Push Notification Service or Microsoft Push Notification Service should be used to register URI (Uniform Resource Identifier); or Apple Push Notification Service is used to create device tokens. It is worth noting that a physical device can be regarded as multiple active devices in Notification Hub.</p>
                                 </section>
@@ -200,7 +200,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-  <a id="Notification_hubs8">What is Broadcast and Label?</a>
+                                <a id="Notification_hubs8">What is Broadcast and Label?</a>
                                 <section>
                                      <p>“Broadcast” refers to the number of devices that your push notifications can reach through a notification request. “Label” refers to the keyword subscribed by a device. The push notifications of Broadcast can be sent to all devices that have subscribed to certain labels.</p>
                                      <p>Before November 30, 2014, the service limit for Broadcast function stays the same as the limit for the number of service-layer active devices in your Notification Hubs.</p>
@@ -211,7 +211,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-  <a id="Notification_hubs9">What is a namespace? How many units can be used by each namespace of the basic layer and standard layer? </a>
+                                <a id="Notification_hubs9">What is a namespace? How many units can be used by each namespace of the basic layer and standard layer? </a>
                                 <section>
                                      <p>A namespace is a grouping mechanism which may contain multiple Notification Hubs. Before November 30, 2014, Azure Management Portal allows customers to extend each name space to at most 50 units at the standard layer. If your name needs a larger capacity, please contact <a id="Notification_price_suppert2" href="/support/contact/">Support</a>.</p>
                                      <p>From December 1, 2014, billing will be counted by basic expenses and the number of pushed notifications, so the unit limit will be canceled.</p>
@@ -241,7 +241,7 @@
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="notification-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				 <p>For the “Basic” and “Standard” levels of Notification Hubs, we guarantee that, at least 99.9% of the time, Notification Hub services operating at basic or standard layers can successfully send notifications or perform operations about registration management through correctly configured application programs. To learn more about the details of our service level agreement, please visit the <a href="/support/sla/notification-hubs" id="pricing_notification_sla">Service Level Agreements</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                  
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                  
     
     ]]></bodyText>
     <pageTitle>Notification Hub - Azure Cloud Computing</pageTitle>

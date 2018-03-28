@@ -9,71 +9,71 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/icon-virtual-machines.png" />
                         <h2><span>Virtual Machines</span></h2>
-                        <h4>You only need minutes to start a Windows Server and Linux Server and can completely control servers in the cloud and perform maintenance based on your business needs.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_vm_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vm_pia">Purchase immediately<i class="icon icon-arrow-right-thin"></i></a>
+                        <h4>The Windows Server and Linux Server can be started within a few minutes. You can fully control the server in the cloud and maintain it according to your business needs.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_vm_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vm_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
             <div class="pricing-page-section">
-                <h1>You only need minutes to start a Windows Server and Linux</h1>
+                <h1>The Windows Server and Linux Server can be started within a few minutes.</h1>
                 <ul>
-                    <li>Very large scale is going from one to thousands of virtual machine instances</li>
-                    <li>Built-in virtual networks and load balancing</li>
-                    <li>Achieve a consistent mixed environment with a local environment</li>
+                    <li>Super-large scale, from one to thousands of Virtual Machines instances</li>
+                    <li>Built-in Virtual Network and Load Balancer</li>
+                    <li>Mixed environment compatible with local environment</li>
                     <li>Supports Linux, Windows Server, SQL Server, Oracle, IBM and SAP</li>
-                    <li>Charging by the minute to economize costs</li>
+                    <li>Billing by the minute, saves on costs</li>
                 </ul>
-                <p>You can use Azure virtual machines to image a Windows Server, Linux, or third-party software to Azure. You can choose from a warehouse of images or use your own custom image.</p>
-                <p>Azure image warehouse provides the following versions of Windows Server: Windows Server 2008 R2, Windows Server 2012 and Windows Server 2012 R2.</p>
-                <p>Azure image warehouse provides the following versions of SQL Server: all versions of SQL Server2014, SQL Server 2012, and SQL Server 2008 R2.</p>
+                <p>You can deploy Windows Server, Linux, or third-party software mirrors onto Azure using the Azure Virtual Machines, and select the mirrors in the library or use self-defined mirrors.</p>
+                <p>The Azure mirror library provides the following editions of Windows Server: Windows Server 2008 R2, Windows Server 2012 and Windows Server 2012 R2.</p>
+                <p>The Azure mirror library also provides the following editions of SQL Server: SQL Server 2014, SQL Server 2012, and SQL Server 2008 R2.</p>
                 <p><strong>Warning:</strong></p>
-                <p>Azure Virtual Machine Disk includes a temporary disk, D: disk (Windows) or /dev/sdb1 (Linux). They only provide temporary storage, so that there is the risk of lost data and data is not backed up. The common reason this situation occurs is when virtual machines migrate onto different mainframes. Causes of virtual machine migration include adjusting the size of a virtual machine, replacing a mainframe, or a hardware failure.</p>
-                <a href="//docs.azure.cn/zh-cn/virtual-machines/linux/classic/faq/" id="home_vm_overview_info" class="single-link">Find out more<i class="icon icon-arrow-right-thin"></i></a>
+                <p>Azure Virtual Machines disk contains a temporary disk, the D: disk (Windows) or /dev/sdb1 (Linux). They only provide temporary storage, so there is a risk of data loss and that the data cannot be recovered. This often occurs when the Virtual Machines is migrated to different host machines. Reasons for Virtual Machines migration include: adjust the size of the Virtual Machines, updating the host machine, or host machine hardware failure.</p>
+                <a href="//docs.azure.cn/zh-cn/virtual-machines/linux/classic/faq/" id="home_vm_overview_info" class="single-link">Get More Information<i class="icon icon-arrow-right-thin"></i></a>
                 <h2>SQL Server</h2>
-                <p>Using an image built by the SQL Server Team, you can effortlessly set up a SQL Server in a few minutes. You can use the free MSDN licensed virtual machine environment to focus on rapid development/testing. You can also use SQL Server AlwaysOn across multiple Azure regions to deploy complicated apps you have created.</p>
+                <p>Using mirrors created by the SQL Server team, you can easily set up SQL Server within a few minutes. You can build Virtual Machines with the free MSDN license provided for the rapid development/testing environment, or deploy complex production applications across multiple Azure regions using SQL Server AlwaysOn.</p>
 
-                <h2>Open, to provide more choices</h2>
-                <p>You can deploy fully open and community driven operating systems and software solutions on Azure. With the help of Azure, yo can choose Ubuntu and SUSE type Linux released versions. Azure is open, providing you more choices.</p>
+                <h2>Open, More Options Available</h2>
+                <p>You can deploy fully open and community-driven OS and software solutions on Azure. With Azure, you can select various Linux release editions, including Ubuntu and SUSE. Azure is open and provides you with many options.</p>
 
-                <h2>Save money, get above average flexibility</h2>
-                <p>When deploying a virtual machine into Azure, you pay by the minute for fast computer mode workloads, rapid development and testing environments, and frequent stop and start scenarios. It includes Windows, Linux, and SQL Server all charged by the minute. You even can automatically scale your entire platform based on planned or instance CPU use rates. We can provide a charge plan to satisfy your infrastructure and software needs, not our needs!</p>
+                <h2>Cost-saving, Greater Flexibility</h2>
+                <p>For rapid-computing workloads, rapid development and testing environments, as well as frequent stopping and starting scenarios, you will be charged by the minute when deploying Virtual Machines in Azure. Billing is performed by the minute, including for Windows, Linux and SQL Server. You can even make the entire platform scale automatically according to the CPU utilization of your plan or instance. We will provide the infrastructure and software billing model that can meet your demands, rather than ours!</p>
 
-                <h2>Hybrid Connections</h2>
-                <p>Using virtual networks, you can control and configure all aspects of your network, define a subnetwork, and preferred DNS IP. You can, through the Internet, use a secure path through a VPN into Azure to reach your virtual machine.</p>
-                <p>This service includes load balancing across instances and ease of configuration. You can set up Load Balancer and add secure ACL to control access. Moreover, you can define specific instrumentation to help you monitor running applications. All of this can be done through an easy-to-use portal.</p>
+                <h2>Mixed Connections</h2>
+                <p>With the use of Virtual Network, you can control and deploy every aspect of your network and define the subnet and preferred DNS IP. You can connect your Virtual Machines via VPN in Azure through the Internet in a secure manner.</p>
+                <p>This service includes load balancing across multiple instances, and can be easily configured. You can build Load Balancer, add safe ACL to control access authority, and define specific surveys, helping you monitor the running status of applications. All of these can be run in the readily available portals.</p>
 
-                <h2>Faster, bigger, and better D series virtual machines</h2>
-                <p>You can now deploy an even bigger D series virtual machine to satisfy you load balancing requirements. This size of virtual machine runs faster and stronger and handles faster device speeds. Internal storage is greater and provides easier virtual machine extremely fast temporary storage based on a temporary disk supported by SSD storage. You have to try it out to see how fast it is! Experience it yourself today.</p>
+                <h2>Faster, Bigger and Better D Series Virtual Machines</h2>
+                <p>You can now deploy bigger D Series Virtual Machines to meet your workload demands. These Virtual Machines run faster, their indicators are more powerful, and processors have a high speed and bigger memory. We provide a temporary disk supported by SSD-based storage, enabling extremely fast temporary storage. Just come and give it a try! You can experience it today.</p>
 
-                <h2>It uses Dv2 and DSv2 series virtual machine functionality</h2>
-                <p>The Dv2 series virtual machine is an improvement over the D series virtual machine and provides an even stronger CPU<!--，即在相同的内存和磁盘配置的情况下，CPU 的平均速度更快 35%-->. The Dv2 series is based on the newest generation 2.4 GHz Intel Xeon E5-2673 v3 (Haswell) processor and uses Intel Turbo Boost technology 2.0, which can exceed a speed of 3.2 GHz. The DSv2 is based on the Dv2 adding <a href="/home/features/xio-storage/" id="home_vm_overview_xio-storage" class="single-link">Azure Advanced Storage</a> to provide high-performance permanent disk. Speaking of the need for an even faster CPU, better local disk performance, or higher enterprise-level storage apps, the DSv2, Dv2 and D series combined can provide even stronger functionality.</p>
+                <h2>Use the Features of the Dv2 and DSv2 Series Virtual Machines</h2>
+                <p>The Dv2 Series Virtual Machines, upgraded on the basis of D Series Virtual Machines, can provide more powerful CPU<!--，即在相同的内存和磁盘配置的情况下，CPU 的平均速度更快 35%-->. The Dv2 Series is based on the latest generation of 2.4 GHz Intel Xeon E5-2673 v3 (Haswell) processors, which can reach up to a 3.2 GHz clock speed using Intel Turbo Boost Technology 2.0. On the basis of Dv2, DSv2 has added <a href="/home/features/xio-storage/" id="home_vm_overview_xio-storage" class="single-link">Azure Premium Storage</a>, providing a high-performance permanent disk. For Enterprise level applications requiring faster CPU, a better local disk, or higher memory, the combination of the DSv2, Dv2, and D Series can provide powerful features.</p>
 
-                <h2>Through software assurance get Microsoft license mobility</h2>
-                <p>Using software assurance get Microsoft license mobility you can:</p>
-                <p>From the Azure Data Center, you can allocate to some servers use of licensed programs based on purchasing a volume licensing agreement. Locally or in the cloud allocate server use of licensed programs to extend value.</p>
-                <p>Use low cost calculations of infrastructure to change business priorities.</p>
+                <h2>Microsoft License Mobility Obtained Through Software Guarantee</h2>
+                <p>License mobility obtained through software guarantee can:</p>
+                <p>Deploy some server application licenses in Azure Datacenter purchased by batch license agreement. This can expand its value by deploying a server application license locally or in the cloud.</p>
+                <p>Change Business Priorities with Low-cost Computing Infrastructure.</p>
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
             <div class="pricing-page-section link-group-container">
-                <h1>Find out more</h1>
+                <h1>Learn More</h1>
                 <ul>
-                    <li><a href="//docs.azure.cn/zh-cn/virtual-machines/linux/endorsed-distros?toc=%2fvirtual-machines%2flinux%2ftoc.json" id="home_virtual_documention_list">Azure supports virtual machine mirror imaging</a></li>
-                    <li><a href="//docs.azure.cn/zh-cn/virtual-machines/windows/classic/tutorial/" id="home_virtual_tutorial-classic-portal">Creating and running a Windows Server virtual machine</a></li>
-                    <li><a href="//docs.azure.cn/zh-cn/virtual-machines/linux/quick-create-portal/" id="home_virtual_linux-tutorial-portal-rm">Creating and running a Linux virtual machine</a></li>
-                    <li><a href="/home/features/networking/" id="home_virtual-machines_networking">Virtual network</a></li>
-                    <li><a href="//docs.azure.cn/zh-cn/virtual-machines/windows/classic/capture-image/" id="home_virtual_cap">Capture a Windows Server image</a></li>
-                    <li><a href="//docs.azure.cn/zh-cn/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-ps-sql-create/" id="home_virtual_sqlserver">Find out details about SQL Server on Azure</a></li>
+                    <li><a href="//docs.azure.cn/zh-cn/virtual-machines/linux/endorsed-distros?toc=%2fvirtual-machines%2flinux%2ftoc.json" id="home_virtual_documention_list">Virtual Machines mirrors supported in Azure </a></li>
+                    <li><a href="//docs.azure.cn/zh-cn/virtual-machines/windows/classic/tutorial/" id="home_virtual_tutorial-classic-portal">Create Virtual Machines running Windows Server </a></li>
+                    <li><a href="//docs.azure.cn/zh-cn/virtual-machines/linux/quick-create-portal/" id="home_virtual_linux-tutorial-portal-rm">Create Virtual Machines running Linux </a></li>
+                    <li><a href="/home/features/virtual-network/" id="home_virtual-machines_networking">Virtual Network</a></li>
+                    <li><a href="//docs.azure.cn/zh-cn/virtual-machines/windows/classic/capture-image/" id="home_virtual_cap">Capture mirrors of Windows Server </a></li>
+                    <li><a href="//docs.azure.cn/zh-cn/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-ps-sql-create/" id="home_virtual_sqlserver">Learn details about the SQL Server on Azure </a></li>
                 </ul>
             </div>
-            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
     
     ]]></bodyText>
-    <pageTitle>Azure Virtual Machine_Windows/Linux Virtual Machine - Azure Cloud Computing</pageTitle>
+    <pageTitle>Azure Virtual Machines_Windows/Linux Virtual Machines - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-virtual-machines</linkid>
-    <metaKeywords>Azure, Virtual Machines,Features, SQL Server, Virtual Machine Instances</metaKeywords>
-    <metaDescription><![CDATA[Azure Virtual Machines (Virtual Machines) can rapidly set up scalable Linux or Windows servers and allocate virtual machine resources locally or from the cloud. Built-in virtual networks and load balancing achieve a consistent hybrid environment with a local environment that supports Microsoft SQL Server and SharePoint Server. You can use Azure virtual machines to deploy Windows Server, Linux, or third party software images to Azure and choose from a warehouse of images or use your own.]]></metaDescription>
+    <metaKeywords>Azure, Virtual Machines, Virtual Machines, features, SQL Server, Virtual Machines instances</metaKeywords>
+    <metaDescription><![CDATA[Azure Virtual Machines (Virtual Machines) can rapidly create scalable Linux or Windows servers and deploy open-source Virtual Machines locally or in the cloud. It has built-in virtual network and load balancing, and a mixed environment compatible with local environment support Microsoft SQL Server and SharePoint Server. You can deploy Windows Server, Linux or third-party software mirrors onto Azure using Azure Virtual Machines, and select the mirrors in the library or use self-defined mirrors.]]></metaDescription>
     <urlDisplayName>Virtual Machines</urlDisplayName>
   </TextpageLeftNav>
 </localize>

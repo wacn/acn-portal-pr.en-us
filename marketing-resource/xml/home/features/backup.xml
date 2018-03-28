@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/backup@2x.png" />
-                        <h2>Backup<span>Backup</span></h2>
+                        <h2><span>Backup</span></h2>
                         <h4>Simple, reliable, and economical integrated cloud backup.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_backup_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_backup_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_backup_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_backup_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
                 <p>Azure Backup is a simple, reliable data protection solution that enables customers to backup their local data to Azure. It is rooted in Azure's world-class infrastructure and protects user data by means of two data centers in eastern and northern China.</p>
 
                 <h2>Familiar interface</h2>
-                <p>Azure Backup is easy to use and seamlessly protects data from Windows Server, Windows Server Essentials, and System Center Data Protection Manager (DPM). DPM protects various Microsoft workloads and easily extends its protection to Azure. Backups can be managed using PowerShell or through the Inbox user interface.</p>
+                <p>Azure Backup is easy to use and seamlessly protects data coming from Windows Server, Windows Server Essentials, and System Center Data Protection Manager (DPM). DPM protects various Microsoft workloads and easily extends its protection to Azure. Backups can be managed using PowerShell or through the Inbox user interface.</p>
 
                 <h2>Secure and reliable</h2>
                 <p>Your backup data is secure over the network and at rest. It is stored in geo-replicated storage which maintains 6 copies of your data across two Azure datacenters. With 99.9% service availability, Azure Backup provides operational stability.</p>
@@ -48,10 +48,10 @@
                     <li><a id="feature_backup_backup_restore" href="https://docs.azure.cn/virtual-machines/windows/sql/virtual-machines-windows-use-storage-sql-server-backup-restore/">Configure Azure Backup</a></li>
                 </ul>
             </div>
-            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->      
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->      
         
     ]]></bodyText>
-    <pageTitle>Azure Cloud Backup Cloud Data - Azure cloud computing</pageTitle>
+    <pageTitle>Azure Cloud Backup Cloud Data - Azure Cloud Computing</pageTitle>
     <metaKeywords>Azure, Backup, data backup, data protection</metaKeywords>
     <metaDescription><![CDATA[Azure Backup backs up your server to the cloud simply, reliably, and economically.]]></metaDescription>
     <linkid>tour-features-back-up</linkid>
