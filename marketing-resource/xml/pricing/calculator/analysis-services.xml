@@ -51,7 +51,7 @@
                         <a href="#" class="close" id="closeCalculatorModal"></a>
                         <p>We will add service items selected on different pages to the combined calculation in the right-hand list. You can manually delete or clear items.</p>
                         <span class="checkbox-rect"></span>Don’t prompt again <a class="btn btn-continue" href="#">I’ve got it</a>
-                        </div>
+                    </div>
                 </div>
                 <!-- end calculator modal --> <!-- start calculator shopinglist template -->
                 <script type="text/template" id="templPricingShopingList">
@@ -95,7 +95,7 @@
                 <div class="azsidebar"></div>  
                 <!-- END: Pricing calculator Sidebar-->                  
             </div>
-            <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
+            <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
     
     ]]></bodyText>
     <pageTitle>Pricing Calculator - Analysis Services (App Service) | Azure</pageTitle>

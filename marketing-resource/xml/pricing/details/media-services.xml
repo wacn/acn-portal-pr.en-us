@@ -21,7 +21,7 @@
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
- <a href="javascript:void(0)" data-href="#tabContent1" id="Media_serivce_banma" class="active">Encoding</a> <a href="javascript:void(0)" data-href="#tabContent2" id="Media_serivce_liushi">Real-time channel</a> <a href="javascript:void(0)" data-href="#tabContent3" id="Media_serivce_realtimecode">Stream processing</a> <a href="javascript:void(0)" data-href="#tabContent4" id="Media_serivce_neirong">Content protection</a> <a href="javascript:void(0)" data-href="#tabContent5" id="Media_serivce_analytice">Media analysis</a>
+                <a href="javascript:void(0)" data-href="#tabContent1" id="Media_serivce_banma" class="active">Encoding</a> <a href="javascript:void(0)" data-href="#tabContent2" id="Media_serivce_liushi">Real-time channel</a> <a href="javascript:void(0)" data-href="#tabContent3" id="Media_serivce_realtimecode">Stream processing</a> <a href="javascript:void(0)" data-href="#tabContent4" id="Media_serivce_neirong">Content protection</a> <a href="javascript:void(0)" data-href="#tabContent5" id="Media_serivce_analytice">Media analysis</a>
                 <div class="clearfix"></div>
                 <!-- BEGIN: TAB-CONTAINER-1 -->
                 <div class="tab-control-container tab-active" id="tabContent1">
@@ -457,7 +457,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                <a id="Media_faq_que1">What is a media retention unit? What are the benefits of using it?</a>
+                                <a id="Media_faq_que1">What is a media retention unit? What are the benefits of using it?</a>
                                 <section>
                                     <p>Adding a media retention unit to an account ensures that multiple files can be processed simultaneously, and changing media retention unit types can affect the speed with which files are processed. For example, if an account has 3 S1 media retention units, up to 3 files can be processed simultaneously. Changing the retention unit type to S3 will allow faster processing of individual files. For more details, please refer to our<a href="https://docs.azure.cn/zh-cn/media-services/media-services-scale-media-processing-overview">documentation</a>.</p>
                                 </section>
@@ -467,7 +467,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                <a id="Media_faq_que9">Is the amount of media retention units scalable? Is such scaling restricted?</a>
+                                <a id="Media_faq_que9">Is the amount of media retention units scalable? Is such scaling restricted?</a>
                                 <section>
                                     <p>Yes, the amount of media retention unit in an account is scalable. Although there are default limits in the Azure portal (For example, up to 25 S2 media retention units are allowed), they are not mandatory. If you require higher limits, <a href="/support/contact/">please contact us</a>.</p>
                                 </section>
@@ -486,7 +486,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                <a id="Media_faq_que10">Do I have to pay higher fees for high-priority jobs? </a>
+                                <a id="Media_faq_que10">Do I have to pay higher fees for high-priority jobs? </a>
                                 <section>
                                     <p>No, fees are charged depending on output minutes and the number of media retention units. For more information, please refer to the following examples.</p>
                                 </section>
@@ -685,7 +685,7 @@
                 </ol>
 				<p>To learn more about the details of our service level agreement, please visit the <a href="/support/sla/media-services" id="pricing_media_sla">Service Level Agreements</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                     
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                     
     
     ]]></bodyText>
     <pageTitle>Pricing for Azure Media Services - Azure Cloud Computing</pageTitle>

@@ -79,7 +79,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-        <a id="power-bi-embedded_faq_que1">What is a session and how it is charged?</a>
+                                <a id="power-bi-embedded_faq_que1">What is a session and how it is charged?</a>
                                 <section>
                                     <p>A session refers to a set of interactive activities between the final user and a Power BI Workspace Collection report. A session is established whenever Power BI Workspace Collection is displayed to the user and the subscriber is charged for using the session service. Session service is charged at a unified rate independent from the number of visual object elements in the report or the refresh rate of report contents. The end of a session occurs when a user closes the report or one hour after the session is enabled, whichever occurs first.</p>
                                 </section>
@@ -89,7 +89,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-  <a id="power-bi-embedded_faq_que2">What is the relationship between Power BI Workspace Collection and Power BI service?</a>
+                                <a id="power-bi-embedded_faq_que2">What is the relationship between Power BI Workspace Collection and Power BI service?</a>
                                 <section>
                                     <p>Power BI Workspace Collection and Power BI Service are two independent products/services. Power BI Workspace Collection is charged and deployed through Azure portal, specially designed for ISV and dash boards embedded by enterprises in their application programs for third-party usage. Power BI Service is charged and deployed through O365 Portal. It is an independent, universal BI product, mainly for the internal use of enterprises. For further information about Power BI Service, please visit <a href="https://www.microsoft.com/china/powerbi/" id="powe-bi-Embedded-pricing_powerbi-com" target="_blank" rel="nofollow">www.microsoft.com/china/powerbi</a>.</p>
                                 </section>
@@ -99,7 +99,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-  <a id="power-bi-embedded_faq_que3">Can the Power BI Workspace Collection be used to establish internal application programs?</a>
+                                <a id="power-bi-embedded_faq_que3">Can the Power BI Workspace Collection be used to establish internal application programs?</a>
                                 <section>
                                     <p>Power BI Workspace Collection cannot be used for internal business applications of your enterprise, unless the internal users have the Power BI Pro USL. Power BI Workspace Collection is only for applications provided for third parties. If you want to use Power BI Workspace Collection to develop internal business application programs, every internal user is expected to have a Power BI Pro USL and your organization has to pay for Power BI Workspace Collection apart from paying Power BI Pro USL fees. To avoid Power BI Pro USL fees and cost of using Power BI Workspace Collection in internal application programs, Power BI Service offers its own content embedding function outside Power BI Workspace Collection without increasing extra costs for Power BI USL owners.</p>
                                 </section>
@@ -132,7 +132,7 @@
                 </div>
             <!--  <?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />   -->
             </div>
-            <!-- BEGIN: Product-Detail-BottomBanner --> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!-- END: Product-Detail-BottomBanner -->                                                                                       
+            <!-- BEGIN: Product-Detail-BottomBanner --> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!-- END: Product-Detail-BottomBanner -->                                                                                       
     
     ]]></bodyText>
     <pageTitle>Power BI Workspace Collection Data Analysis Service Pricing - Azure Cloud Computing</pageTitle>

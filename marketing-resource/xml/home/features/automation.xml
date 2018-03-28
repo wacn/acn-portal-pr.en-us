@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/automation@2x.png" />
-                        <h2>Automation<span>Automation</span></h2>
-                        <h4>Use traffic flow automation to simplify cloud management, eliminate time-consuming repetitive tasks, and improve reliability and efficiency</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_auto_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_auto_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2><span>Automation</span></h2>
+                        <h4>Use traffic flow Automation to simplify cloud management, eliminate time-consuming repetitive tasks, and improve reliability and efficiency</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_auto_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_auto_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -18,7 +18,7 @@
             <div class="pricing-page-section">
                 <h1>Simplify cloud management by using process automation</h1>
                 <ul>
-                    <li>Save time and money by using automation</li>
+                    <li>Save time and money by using Automation</li>
                     <li>Eliminate time-consuming, repetitive tasks</li>
                     <li>Improve reliability and efficiency</li>
                     <li>Work across Azure and third-party cloud services</li>
@@ -29,13 +29,13 @@
                 <p>You can now automate all of those frequent, time-consuming and error-prone cloud management tasks. Azure Automation helps you spend more time on work that adds business value. By reducing errors and boosting efficiency, it also helps to lower your operational costs.</p>
 
                 <h2>Use existing Windows PowerShell workflows or create your own</h2>
-                <p>In Azure Automation, Windows PowerShell workflows (also known as runbooks) help you to work comfortably by handling the creation, deployment, monitoring, and maintenance of Azure resources and third-party applications. The Azure Automation Runbook Gallery puts samples, utilities, and scenario runbooks at your fingertips, so that you can get your automation tasks up and running quickly. You can use the Runbook Gallery to browse runbooks and import them to your Automation account without leaving the Azure Management portal.</p>
+                <p>In Azure Automation, Windows PowerShell workflows (also known as runbooks) help you to work comfortably by handling the creation, deployment, monitoring, and maintenance of Azure resources and third-party applications. The Azure Automation Runbook Gallery puts samples, utilities, and scenario runbooks at your fingertips, so that you can get your automation tasks up and running quickly. You can use the Runbook Gallery to browse runbooks and import them to your Automation account without leaving the Azure Management Portal.</p>
 
                 <h2>Integrate with the services that you depend on</h2>
                 <p>Automation runbooks work with websites, virtual machines, storage, SQL Server, and other popular Azure services. You can use them with any service that offers public Internet APIs. Intuitive dashboard charts and log records make runbooks easier to monitor.</p>
 
-                <h2>Deliver more reliable services, faster</h2>
-                <p>By efficiently handling processes that span tools, systems, and department silos, Azure Automation enables you to deliver services faster and more consistently. It’s highly reliable and lets you create checkpoints to resume your workflow after unexpected errors, crashes, and network issues.</p>
+                <h2>Faster delivery and more reliable services</h2>
+                <p>Azure can effectively and automatically deal with processes that span different tools, systems and department silos, enabling you to deliver services with greater speed and consistency. It provides extremely high reliability and allows you to create checkpoints so you can restore your workflow if unexpected errors, crashes or network issues occur.</p>
 
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
@@ -48,12 +48,12 @@
                     <li><a href="http://technet.microsoft.com/zh-cn/library/dn469260.aspx" id="feature_auto_zd">Service Management Automation</a></li>
                 </ul>
             </div>
-            <!-- END: Read-More --> <!-- BEGIN: Product-Detail-BottomBanner --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->      
+            <!-- END: Read-More --> <!-- BEGIN: Product-Detail-BottomBanner --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->      
         
     ]]></bodyText>
-    <pageTitle>Azure Automation cloud management – Azure cloud computing</pageTitle>
-    <metaKeywords>Azure, automation, runbooks</metaKeywords>
-    <metaDescription><![CDATA[Use Azure traffic flow automation to simplify cloud management, eliminate time-consuming repetitive tasks, and improve reliability and efficiency.]]></metaDescription>
+    <pageTitle>Azure Automation Cloud Management – Azure Cloud Computing</pageTitle>
+    <metaKeywords>Azure, Automation, runbooks</metaKeywords>
+    <metaDescription><![CDATA[Azure traffic flow Automation to simplify cloud management, eliminate time-consuming repetitive tasks, and improve reliability and efficiency.]]></metaDescription>
     <linkid>home-features-automation</linkid>
     <urlDisplayName>Automation</urlDisplayName>
     <headerText><![CDATA[自动化]]></headerText>

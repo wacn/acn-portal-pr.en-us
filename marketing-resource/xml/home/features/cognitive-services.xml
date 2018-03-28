@@ -67,9 +67,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services.png" />
-                        <h2>Cognitive Services <span>Cognitive Services APIs</span></h2>
+                        <h2><span>Cognitive Services APIs</span></h2>
                         <h4>Infuse your apps, websites, and bots with intelligent algorithms to see, hear, speak, understand, and interpret user needs using natural methods of communication. Transform your business with AI now.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="cognitive-services_1rmb-trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="cognitive-services_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="cognitive-services_1rmb-trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="cognitive-services_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                     <li>
                         <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,face.png"/></div>
                         <div class="cognitive-text">
-                            <h2>Facial recognition API</h2>
+                            <h2>Face Recognition API</h2>
                             <p>Detects the location of people’s faces within an image. Performs facial comparison, grouping, and identification based on visual similarity from faces where the user has tagged the identity.</p>
                             <p><a id="cognitive-services_face" href="/home/features/cognitive-services/face/" class="single-link">Find out more<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
@@ -94,7 +94,7 @@
                     <li>
                         <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,emotion.png"/></div>
                         <div class="cognitive-text">
-                            <h2>Emotion recognition API<sup style="color: #a5ce00; font-weight: bold"> preview</sup></h1>
+                            <h2>Emotion API<sup style="color: #a5ce00; font-weight: bold"> Preview</sup></h1>
                             <p>Analyzes faces to detect a variety of emotions, enabling your application to provide users with personalized feedback.</p>
                             <p><a id="cognitive-services_emotion" href="/home/features/cognitive-services/emotion/" class="single-link">Find out more<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
@@ -102,7 +102,7 @@
                     <li>
                         <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,computer-vision.png"/></div>
                         <div class="cognitive-text">
-                           <h2>Computer vision API</h2>
+                           <h2>Computer Vision API</h2>
                         <p>Extract rich information from images to classify and process visual data, and protect your users from harmful content.</p>
                         <p><a id="cognitive-services_computer-vision" href="/home/features/cognitive-services/computer-vision/" class="single-link">Find out more<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
@@ -110,14 +110,14 @@
                 </ul>
                     
             </div>
-            <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: Cognitive-Services-Content -->
+            <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: Cognitive-Services-Content -->
                           
     
     ]]></bodyText>
-    <pageTitle>Azure Cognitive Services REST API with powerful functions - Azure cloud computing</pageTitle>
+    <pageTitle>Azure Cognitive Services REST API with powerful functions - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-cognitive-services</linkid>
-    <metaKeywords>Azure, Cognitive Services, Cognitive Services, API, facial recognition API, emotion recognition API, computer vision API</metaKeywords>
+    <metaKeywords>Azure, Cognitive Services, Cognitive Services, API, Face Recognition API, Emotion Recognition API, Computer Vision API</metaKeywords>
     <metaDescription><![CDATA[Azure Cognitive Services enable you to develop applications with powerful algorithms using only a few lines of code. You can easily complete configuration across devices or platforms, whether they are iOS, Android, or Windows.]]></metaDescription>
     <urlDisplayName>Cognitive Services</urlDisplayName>
   </TextpageLeftNav>

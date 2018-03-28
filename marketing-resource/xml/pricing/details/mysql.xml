@@ -130,7 +130,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-  <a id="pricing_mysql_question1">How can I expand its capacity if my database is over 100 GB?</a>
+                                <a id="pricing_mysql_question1">How can I expand its capacity if my database is over 100 GB?</a>
                                 <section>
                                     <p>We provide 100GB of free database capacity. For the exceeding part, users do not need to perform extra operations and we will automatically charge it as web Blob storage (Geo-Redundant Storage): ￥0.61/GB/month.</p>
                                 </section>
@@ -139,7 +139,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-  <a id="pricing_mysql_question2">What is the billing if my database server is active for less than one hour?</a>
+                                <a id="pricing_mysql_question2">What is the billing if my database server is active for less than one hour?</a>
                                 <section>
                                     <p>That is charged by hour based on the active time length of database server. If the time length is shorter than one hour, it will be charged by one hour. For instance, if you create a MS1 level database and immediately upgrade it into a MS2 level database, the first hour will be charged at the standard for MS2 database; if you delete a database server and create another one with the same name later, the two independent database servers will be respectively charged for the hour.</p>
                                 </section>
@@ -149,7 +149,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-  <a id="pricing_mysql_question3"> How long does it take to change the version of the database service?</a>
+                                <a id="pricing_mysql_question3"> How long does it take to change the version of the database service?</a>
                                 <section>
                                     <p>Usually within 3 minutes.</p>
                                 </section>
@@ -178,7 +178,7 @@
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="mysql-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				 <p>MySQL Database on Azure provides a service level agreement for 99.9% operating time to ensure high availability and business continuity for users. To learn more about the details of our service level agreement, please visit the <a href="/support/sla/mysql/" id="pricing_mysql_sla">Service Level Agreements</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                      
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                      
     
     ]]></bodyText>
     <pageTitle>MySQL Database Pricing - Azure Cloud Computing</pageTitle>

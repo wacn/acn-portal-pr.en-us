@@ -4,10 +4,10 @@
     <bodyText><![CDATA[
       
            <tags ms.service="hdinsight" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
-            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/css/hd_insight.png','imageHeight':'auto'}">
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacndevelop.blob.core.chinacloudapi.cn/marketing-resource/css/hd_insight.png','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
-                        <img src="//resource.cdn.azure.cn/marketing-resource/css/hdinsight@2x.png" />
+                        <img src="//wacndevelop.blob.core.chinacloudapi.cn/marketing-resource/css/hdinsight@2x.png" />
                         <h2><span>HDInsight</span></h2>
                         <h4>The only fully-managed cloud-based Hadoop product makes big data understandable and affordable.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_hd_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_hd_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
@@ -27,7 +27,7 @@
 				<!-- <p>R Server 的边缘节点为非必选项，如果选择会产生 R Server 附加费，附加费的内核数为头节点、数据节点和 R Server 边缘节点的总和。</p> -->
 				
 				
-				<div id="calculator" data-service="hdinsight-windows-hadoop-head hdinsight-windows-hadoop-data hdinsight-windows-hbase-head hdinsight-windows-hbase-region hdinsight-windows-hbase-zookeeper hdinsight-windows-storm-nimbus hdinsight-windows-storm-supervisor hdinsight-windows-storm-zookeeper hdinsight-linux-hadoop-head hdinsight-linux-hadoop-data hdinsight-linux-hbase-head hdinsight-linux-hbase-region hdinsight-linux-hbase-zookeeper hdinsight-linux-storm-nimbus hdinsight-linux-storm-supervisor hdinsight-linux-storm-zookeeper hdinsight-linux-spark-head hdinsight-linux-spark-worker data-transferenter data-transfer support" data-addService=""></div>
+				<div id="calculator" data-service="hdinsight-linux-hadoop-head hdinsight-linux-hadoop-data hdinsight-linux-hbase-head hdinsight-linux-hbase-region hdinsight-linux-hbase-zookeeper hdinsight-linux-storm-nimbus hdinsight-linux-storm-supervisor hdinsight-linux-storm-zookeeper hdinsight-linux-spark-head hdinsight-linux-spark-worker hdinsight-windows-hadoop-head hdinsight-windows-hadoop-data hdinsight-windows-hbase-head hdinsight-windows-hbase-region hdinsight-windows-hbase-zookeeper hdinsight-windows-storm-nimbus hdinsight-windows-storm-supervisor hdinsight-windows-storm-zookeeper data-transferenter data-transfer support" data-addService=""></div>
 
                 <!-- BEGIN: Pricing calculator Sidebar-->                      
                 <div class="sidebar-win calculator empty hide">
@@ -55,14 +55,14 @@
              
                 <!-- start calculator modal -->
                 <div class="preload">
-                    <img src="//resource.cdn.azure.cn/marketing-resource/css/img/right.png">
+                    <img src="//wacndevelop.blob.core.chinacloudapi.cn/marketing-resource/css/img/right.png">
                 </div>
                 <div class="modal modal-calculator hide">
                     <div class="container">
                         <a href="#" class="close" id="closeCalculatorModal"></a>
                         <p>We will add service items selected on different pages to the combined calculation in the right-hand list. You can manually delete or clear items.</p>
                         <span class="checkbox-rect"></span>Don’t prompt again <a class="btn btn-continue" href="#">I’ve got it</a>
-                        </div>
+                    </div>
                 </div>
                 <!-- end calculator modal --> <!-- start calculator shopinglist template -->
                 <script type="text/template" id="templPricingShopingList">
@@ -106,14 +106,14 @@
                 <div class="azsidebar"></div>  
                 <!-- END: Pricing calculator Sidebar-->                  
             </div>
-            <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
+            <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
     
     ]]></bodyText>
-    <pageTitle>Pricing Calculator - HDInsight | Azure</pageTitle>
+    <pageTitle>HDInsight price estimates_HDInsight price calculation-Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-calculator-hdinsight</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, HDInsight, price estimation, Hadoop, hosting, Analysis Services, big data, 1 RMB Trial</metaKeywords>
-    <metaDescription><![CDATA[Estimate the Azure HDInsight usage costs for your solution. You can select whatever services are required, along with their different types, levels, configurations, and instances. You can view the unit price and total price easily and estimate the required costs. You can also export lists for easy quotes. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
+    <metaKeywords>HDInsight price estimates, HDInsight price calculation</metaKeywords>
+    <metaDescription><![CDATA[ HDInsight’s estimate page can make a reasonable calculation of usage costs based on the plan you select. You can select whatever services you need and their different types, levels, configurations and instances, and then easily check the unit prices and total price to create an estimate of the required costs. You can also export the estimate as a list to make quoting easier.]]></metaDescription>
     <urlDisplayName>Pricing Calculator - HDInsight</urlDisplayName>
   </TextpageLeftNav>
 </localize>

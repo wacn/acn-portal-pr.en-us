@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/event-hubs@2x.png" />
-                        <h2>Event Hubs<span>Event Hubs</span></h2>
+                        <h2><span>Event Hubs</span></h2>
                         <h4>Cloud-scale telemetry ingestion from websites, apps, and any streams of data</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_event_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_event_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_event_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_event_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -31,11 +31,11 @@
                 <h2>Handle real-time and batch processing in the same data stream</h2>
                 <p>Use the Event Hubs Capture feature, which enables a single stream to support real-time and batch-based pipelines, and reduces the complexity of solutions. Build for today’s batch processing on a platform that supports tomorrow’s real-time analytics and processing. Event Hubs Capture is the easiest way to load data into Azure.</p>
 
-                <h2>Take advantage of a fully managed platform as a service</h2>
+                <h2>Take advantage of a fully managed Platform as a Service</h2>
                 <p>Event Hubs is a fully managed service; there are no servers to maintain and no software licenses to get. Pricing is simple and easy. Event Hubs enables users to focus on getting value from their telemetry data instead of gathering the data.</p>
                 
                 <h2>Handle volume, variety, and velocity</h2>
-                <p>Big data originates from many sources with different load distributions. For example, thermostats that produce telemetry data every few minutes, application performance counters that generate events every second, and mobile apps that capture telemetry data for every customer’s action. Event Hubs is a fully managed service that ingests events with elastic scale based on different load distributions and spikes.</p>
+                <p>Big Data originates from many sources with different load distributions. For example, thermostats that produce telemetry data every few minutes, application performance counters that generate events every second, and mobile apps that capture telemetry data for every customer’s action. Event Hubs is a fully managed service that ingests events with elastic scale based on different load distributions and spikes.</p>
 
                 <h2>Develop across platforms with multi-language support</h2>
                 <p>Event Hubs uses Advanced Message Queuing Protocol (AMQP) to enable interoperability and binary compatibility across platforms, while also supporting HTTPS for data ingress. With native clients in Java and .NET, it’s easy to get started with Event Hubs. You can also integrate with Azure Services (including Stream Analytics and Virtual Machines), while building rich serverless workflows. There is also a strong Event Hubs open-source community that’s continually creating new adapters and connectors for popular platforms such as Apache NiFi and Elastic Stack.</p>
@@ -49,13 +49,13 @@
                     <li><a id="home_event_hubs_document" href="https://docs.azure.cn/event-hubs/" style="color: #00a8d9;" target="_blank">Event Hubs documentation</a></li>
                 </ul>
             </div>
-            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
     
     ]]></bodyText>
-    <pageTitle>Event Hubs Internet of Things - Azure cloud computing</pageTitle>
+    <pageTitle>Event Hubs Internet of Things - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-event-hubs</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Internet of Things, Event Hubs, Azure Event Hubs, data processing, hosting services, functions</metaKeywords>
+    <metaKeywords>Azure, Microsoft Cloud, Internet of Things, Event Hubs, Azure Event Hubs, data processing, hosting services, features</metaKeywords>
     <metaDescription><![CDATA[Azure Event Hubs is a hosting service that can capture and process massive data streams from websites, applications, and devices. It can capture millions of events per second and has flexible scale. It also has dockable adapters to interface with other cloud services.]]></metaDescription>
     <urlDisplayName>Event Hubs</urlDisplayName>
   </TextpageLeftNav>

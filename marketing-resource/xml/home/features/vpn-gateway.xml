@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/vpn-gateway@2x.png" />
                         <h2><span>VPN Gateway</span></h2>
                         <h4>Can link your infrastructure to the cloud, creating secure cross-boundary linkages.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_vpn_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vpn_pia">Purchase immediately<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_vpn_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vpn_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@
                 <h2>Connect a data center to the cloud</h2>
                 <p>You can use Azure VPN Gateway to easily make a point-to-point VPN connection between a local network and Azure, very similar to setting up and connecting to a remote affiliate. Uses industry standard Internet security (IPSec) and Internet Key Exchange (IKE) to connect very securely.</p>
 
-                <h2>Connect to Azure virtual network from any site</h2>
+                <h2>Connect to Azure Virtual Network from any site</h2>
                 <p>With point-to-point VPN you can connect to virtual machines in the Azure Virtual Network from any site (whether on the road or in your favorite cafe) and manage deployment or a client demo.</p>
 
             </div>
@@ -35,18 +35,18 @@
             <div class="pricing-page-section link-group-container">
                 <h1>Find out more</h1>
                 <ul>
-                    <li><a id="home_networking_articles_virtual-networks-overview" href="https://docs.azure.cn/vpn-gateway/vpn-gateway-about-vpngateways/" target="_blank">Technology Overview</a></li>
-                    <li><a id="home_networking_virtual-networks-faq" href="https://docs.azure.cn/vpn-gateway/vpn-gateway-configure-vpn-gateway-mp/" target="_blank">Configuring a VPN Gateway</a></li>
+                    <li><a id="home_networking_articles_virtual-networks-overview" href="https://docs.azure.cn/vpn-gateway/vpn-gateway-about-vpngateways/" target="_blank">Technical Overview</a></li>
+                    <li><a id="home_networking_virtual-networks-faq" href="https://docs.azure.cn/vpn-gateway/vpn-gateway-configure-vpn-gateway-mp/" target="_blank">Configuring VPN Gateway</a></li>
                 </ul>
             </div>
-            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
     
     ]]></bodyText>
     <pageTitle>VPN Gateway_Router - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-vpn-gateway</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Network, Virtual Network, VPN Gateway, VPN Gateway, Virtual Private Network, Point-to-Point, VPN, IP Address, DNS, IPSec, ExpressRoute</metaKeywords>
-    <metaDescription><![CDATA[Azure VPN Gateway (Azure VPN Gateway）can connect infrastructure to the cloud and create a secure cross-boundary connection. It provides industry-standard point-to-point IPSec VPN for point-to-point VPN access from anywhere, with high availability, ease of administration, and a secure connection from any site.]]></metaDescription>
+    <metaKeywords>Azure, Microsoft Cloud, Network, Virtual Network, VPN Gateway, Virtual Private Network, Point-to-Point, VPN, IP Address, DNS, IPSec, ExpressRoute</metaKeywords>
+    <metaDescription><![CDATA[Azure VPN Gateway can connect infrastructure to the cloud and create a secure cross-boundary connection. It provides industry-standard point-to-point IPSec VPN for point-to-point VPN access from anywhere, with high availability, ease of administration, and a secure connection from any site.]]></metaDescription>
     <urlDisplayName>VPN Gateway</urlDisplayName>
   </TextpageLeftNav>
 </localize>

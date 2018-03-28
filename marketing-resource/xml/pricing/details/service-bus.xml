@@ -9,20 +9,20 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/service-bus-icon01.png" />
                         <h2><span>Service Bus</span></h2>
-                        <h4>Make applications and equipment stay connected across private cloud and public cloud scenarios.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_mess_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mess_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h4>Keep applications and equipment connected across private cloud and public cloud scenarios.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_mess_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mess_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>Azure Service Bus is a message transfer infrastructure located among various applications, permitting the applications to exchange messages, so as to expand the scale and improve recovery capabilities.</p>
+                <p>Azure Service Bus is a message transfer infrastructure located among various applications, permitting applications to exchange messages, so as to expand the scale and improve recovery capabilities.</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
                 <div class="tab-control-container tab-active">
                     <h2>Pricing Details</h2>
-                    <p>Service Bus is included in the Basic and Standard levels. The following are their comparisons:</p>
+                    <p>Service Bus is included in basic and standard levels. The followings are their comparisons:</p>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <th align="left"><strong>Functions</strong></th>
@@ -50,12 +50,12 @@
                             <td><i class="icon icon-tick"></i></td>
                         </tr>
                         <tr>
-                            <td>Repetitive data deletion</td>
+                            <td>Repetitive Data Deletion</td>
                             <td>-</td>
                             <td><i class="icon icon-tick"></i></td>
                         </tr>
                         <tr>
-                            <td>Session</td>
+                            <td>Sessions</td>
                             <td>-</td>
                             <td><i class="icon icon-tick"></i></td>
                         </tr>
@@ -65,7 +65,7 @@
                             <td><i class="icon icon-tick"></i></td>
                         </tr>
 						<tr>
-                            <td>Message Size</td>
+                            <td>Message size</td>
                             <td>256 KB</td>
                             <td>256 KB</td>
                         </tr>
@@ -75,30 +75,30 @@
                             <td><i class="icon icon-tick"></i></td>
                         </tr>
                         <tr>
-                            <td>Event Hubs <sup> 1</sup></td>
+                            <td>Event Hubs<sup>1</sup></td>
                             <td><i class="icon icon-tick"></i></td>
                             <td><i class="icon icon-tick"></i></td>
                         </tr>
                         <tr>
-                            <td>Transfer connections included</td>
+                            <td>Comes with transfer connections</td>
                             <td>100</td>
                             <td>1,000<sup> 2</sup></td>
                         </tr>
                         <tr>
-                            <td>Transfer connections (excesses allowed)</td>
+                            <td>Transfer connections (excess allowed)</td>
                             <td>-</td>
-                            <td><i class="icon icon-tick"></i>Chargeable</td>
+                            <td><i class="icon icon-tick"></i>(Chargeable)</td>
                         </tr>
                     </table>
-                    <p><sup>1</sup> In the process of service usage, the usage of Event Hubs are charged individually. Please visit the <a id="service_bus_transfer_price-page-event-center" href="/pricing/details/event-hubs/" target="_blank">Event Hubs’ Pricing Page</a> to learn the relevant rates.</p>
-                    <p><sup>2</sup> Standard message transfer level (via basic expenses) includes 1,000 transfer connections, so you can share these transfer connections across all queues, themes/subscriptions and Event Hubs in the associated Azure subscription.</p>
+                    <p><sup>1</sup> In the process of service usage, the usage of Event Hubs is charged separately. Please visit the <a id="service_bus_transfer_price-page-event-center" href="/pricing/details/event-hubs/" target="_blank">Event Hubs Pricing Page</a> to learn relevant rates.</p>
+                    <p><sup>2</sup> The Standard message transfer level (via basic expenses) includes 1,000 transfer connections, so you can share these transfer connections across all queues, themes/subscriptions and Event Hubs in the associated Azure subscription.</p>
 
-                    <h2>Message Transfer Operation</h2>
+                    <h2>Message Transfer Operations</h2>
                     <p>One operation refers to any API call to Service Bus services.</p>
                     <!--<p>从2016年4月1日起，消息传送操作的价格会下调 25.5%，以下是下调后的新价格：</p>-->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br>
-                        <div class="ms-date">*Monthly price estimation is based on a usage of 744 hours every month.</div>
+                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -106,8 +106,8 @@
                             <th align="left"><strong>&#160;</strong></th>
                         </tr>
                         <tr>
-                            <td>Operations</td>
-                            <td>¥ 0.31/every 1 million operations</td>
+                            <td>Operation</td>
+                            <td>RMB 0.31/every 1 million operations</td>
                         </tr>
                     </table>
                     <table cellpadding="0" cellspacing="0" width="100%">
@@ -117,33 +117,33 @@
                         </tr>
                         <tr>
                             <td>Basic fees<sup> 1<sup></td>
-                            <td>¥63.29/month</td>
+                            <td>RMB 63.29/month</td>
                         </tr>
                         <tr>
-                            <td>First 13 million operations/month</td>
-                            <td>Includes</td>
+                            <td>First 13M operations/month</td>
+                            <td>Including</td>
                         </tr>
                         <tr>
-                            <td>Subsequent 88 million operations (13 million - 100 million operations)/month</td>
-                            <td>¥5.21/every 1 million operations</td>
+                            <td>Subsequent 88M operations (13M - 100M operations)/month</td>
+                            <td>RMB 5.21/every 1 million operations</td>
                         </tr>
                         <tr>
-                            <td>Subsequent 2,400,000,000 operations (100,000,000 - 2,500,000,000 operations)/month</td>
-                            <td>¥3.20/every 1 million operations</td>
+                            <td>Subsequent 2,400M operations (100M - 2,500M operations)/month</td>
+                            <td>RMB 3.20/every 1 million operations</td>
                         </tr>
                         <tr>
-                            <td>First 2,500,000,000 operations/month</td>
-                            <td>¥1.27/every 1 million operations</td>
+                            <td>First 2,500M operations/month</td>
+                            <td>RMB 1.27/every 1 million operations</td>
                         </tr>
                     </table>
-                    <p><sup>1</sup> Allocate basic fees in proportion daily, 31 days every month.</p>
+                    <p><sup>1</sup> Allocation The basic fee is allocated on a daily basis based on a 31-day month.</p>
 
                     <h2>Transfer connection</h2>
-                    <p>Quantity of AMQP connections or quantity of HTTP calls to Service Bus.</p>
+                    <p>Number of AMQP connections or number of HTTP calls to Service Bus.</p>
                     <!--<p>从2016年4月1日起，中转连接的价格会下调 28.4%，以下是下调后的新价格：</p>-->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br>
-                        <div class="ms-date">*Monthly price estimation is based on a usage of 744 hours every month.</div>
+                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -151,26 +151,26 @@
                             <th align="left"><strong>&#160;</strong></th>
                         </tr>
                         <tr>
-                            <td>First 1,000/month</td>
-                            <td>Includes</td>
+                            <td>First 1k/month</td>
+                            <td>Including</td>
                         </tr>
                         <tr>
-                            <td>Subsequent 99,000 (1,000 – 100,000)/month</td>
-                            <td>¥0.18 per connection per month</td>
+                            <td>Subsequent 99K (1K – 100K)/month</td>
+                            <td>RMB 0.18 every connection/month</td>
                         </tr>
                         <tr>
-                            <td>Subsequent 400,000 (100,000 – 500,000)/month</td>
-                            <td>¥0.15 per connection per month</td>
+                            <td>Subsequent 400K (100K – 500K)/month</td>
+                            <td>RMB 0.15 every connection/month</td>
                         </tr>
                         <tr>
-                            <td>More than 500,000/month</td>
-                            <td>¥0.10 per connection per month</td>
+                            <td>More than 500K/month</td>
+                            <td>RMB 0.10 every connection/month</td>
                         </tr>
                     </table>
                     <p>This will be charged by the peak amount of concurrent connections, and the expenses are allocated in proportion every hour, 744 hours every month.</p>
 					
-					<h2>Mixed Connections</h2>
-                    <p>Mixed connection is charged by every listener, including 5 GB of data transmission/month; in the event of excess of this limit, the extra parts will also be charged.</p>
+					<h2>Mixed connection</h2>
+                    <p>Mixed connection is charged by every listener, including 5 GB data transmission/month; in the event of excess of this limit, the extra parts will also be charged.</p>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <th align="left"><strong>Pricing of Mixed Connections</strong></th>
@@ -178,22 +178,22 @@
                         </tr>
                         <tr>
                             <td>Connection fees (including 5 GB data/month) <sup>1</sup></td>
-                            <td>¥76.087/listener/month</br>(¥0.102/listener/hour)</td>
+                            <td>RMB 76.087/listener/month</br>(RMB 0.102/listener/hour)</td>
                         </tr>
                         <tr>
-                            <td>Excess data transmission (excess data includes 5 GB/month)</td>
-                            <td>¥13.398/GB</td>
+                            <td>Excess data transmission (excess of the included 5 GB/month of data)</td>
+                            <td>RMB 13.398/GB</td>
                         </tr>
                     </table>
                     <div class="tags-date">
-                        <div class="ms-date"><sup>1</sup>5 GB data transmission limits include total data transmission among all listener units.</div>
+                        <div class="ms-date"><sup>1</sup> 5 GB data transmission limits include total data transmission among all listener units.</div>
                     </div>
 					
                     <h2>Relay</h2>
                     <!--<p>中继仅在标准级别中可用，按消息量和中继小时数收费。</p>--> <!--<p>从2016年4月1日起，中继的价格会下调 25.6%，以下是下调后的新价格：</p>-->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br>
-                        <div class="ms-date">*Monthly price estimation is based on a usage of 744 hours every month.</div>
+                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -202,11 +202,11 @@
                         </tr>
                         <tr>
                             <td>Relay hours</td>
-                            <td>¥0.52 per 100 relay hours</td>
+                            <td>RMB 0.52/every 100 relay hours</td>
                         </tr>
                         <tr>
                             <td>Number of messages</td>
-                            <td>¥0.05 per 10,000 messages</td>
+                            <td>RMB 0.05/every 10,000 messages</td>
                         </tr>
                     </table>
                 </div>
@@ -215,28 +215,28 @@
             <div class="pricing-page-section">
                 <div class="more-detail">
                     <h2>FAQs</h2>
-                    <em>Expand All</em>
+                    <em>Expand all</em>
                     <ul>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
                                 <a id="service_bus_calculate_relay">How is the number of relay messages calculated?</a>
                                 <section>
-                                    <p>Every message sent to and from Service Bus Relay is a chargeable message. One message is defined as a data unit equal to or less than 64 KB.</p>
+                                    <p>Every message sent to/from the Service Bus Relay is a chargeable message. One message is defined as a data unit equal to or less than 64 KB.</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="service_bus_calculate_topic">How is the number of operating queues and themes calculated?</a>
+                                <a id="service_bus_calculate_topic">How is the number of operating queues and topics calculated?</a>
                                 <section>
-                                    <p>For the transfer entity (queue, themes/subscription, message buffer zone), one operation refers to any API call to Service Bus services.</p>
-                                        <p>Sending, receiving or deleting message less than or equal to 64 KB is considered a chargeable operation. If the message size exceeds 64 KB, the chargeable operation can be calculated as a multiple of 64 KB. For instance, one 8 KB message sent to Service Bus is charged as one operation, and one 96 KB message sent to Service Bus is charged as two operations. You can read 8 KB messages by locking, then delete the message and charging as two operations.</p>
-                                        <p>The same message sent several times (e.g.: message is sent to several listeners, or withdrawn after cancellation, delay or failure in mailing) will be taken as individual operations. For instance, if a theme has 3 subscriptions, a 64 KB message sent and then received will be charged by 4 chargeable operations (1 “incoming” and 3 “outgoing” operations, assuming all messages are sent to all subscriptions and deleted after reading).</p>
-                                        <p>You can receive messages by using the ReceiveMode of PeekLock, then deleting the message through full call, which will generate two individual operations. Relocking a message will also generate one operation.</p>
-                                        <p>In addition, creating, reading (listing), updating and deleting queues, themes or subscriptions will also generate operation expenses.</p>
-                                        <p>Operation means API calls to the terminals of queues or themes/subscription services, including management, sending/receiving and session state operations.</p>
+                                    <p>For the transfer entity (queue, topic/subscription, message buffer zone), one operation refers to any API call to Service Bus services.</p>
+                                        <p>Sending, receiving or deleting messages less than or equal to 64 KB is considered a chargeable operation. If the message size exceeds 64 KB, the chargeable operand can be calculated as a multiple of 64KB. For instance, a one 8 KB message sent to the Service Bus is charged as one operation, and one 96 KB message sent to the Service Bus is charged as two operations. Reading an 8 KB message by locking, then deleting the message will be charged as two operations.</p>
+                                        <p>The same message sent several times (e.g.: message is sent to several listeners, or withdrawn after cancellation, delay or mailing failure) will be taken as individual operations. For instance, if a topic has 3 subscriptions, a 64KB message sent and then received will be charged as 4 chargeable operations (1 “incoming” and 3 “outgoing” operations, assuming all messages are sent to all subscriptions and deleted after reading).</p>
+                                        <p>You can receive messages by using PeekLock’s ReceiveMode, then deleting the message through a complete call, which will generate two individual operations. Relocking the message will also generate one operation.</p>
+                                        <p>In addition, creating, reading (listing), updating and deleting queues, topics or subscriptions will also generate operation expenses.</p>
+                                        <p>Operation means API calls to the terminals of queues or topics/subscription services, including management, sending/receiving and session state operations.</p>
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                             <tr>
                                                 <th align="left"><strong>Operation Types</strong></th>
@@ -244,15 +244,15 @@
                                             </tr>
                                             <tr>
                                                 <td>Management</td>
-                                                <td>Create, read, update and delete queues or themes/subscriptions</td>
+                                                <td>Create, read, update and delete queues or topics/subscriptions</td>
                                             </tr>
                                             <tr>
-                                                <td>Message Transfer</td>
-                                                <td>Sending and receiving message by queues or themes/subscriptions</td>
+                                                <td>Message transfer</td>
+                                                <td>Sending and receiving message by queues or topics/subscriptions</td>
                                             </tr>
                                             <tr>
-                                                <td>Session Status</td>
-                                                <td>Obtain the session status of queues or themes/subscriptions or set the status</td>
+                                                <td>Session status</td>
+                                                <td>Get the status of the queue or topic/subscription session or set the status</td>
                                             </tr>                                          
                                         </table>
                                 </section>
@@ -261,9 +261,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="service_bus_calculate_hour">How do we calculate relay hours? </a>
+                                <a id="service_bus_calculate_hour">How are relay hours calculated? </a>
                                 <section>
-                                    <p>The relay hours are charged by the cumulative time when every Service Bus Relay is in an “open” state. When the WCF service (i.e. “Relay Listener”) of an activated relay is connected to the given Service Bus Address (Service Namespace URL) for the first time, the relay will permit implicit instantiation and is opened in the address. The relay will be closed only when the last listener is disconnected from the address. Thus, for the purpose of billing, the relay will be regarded as being in “open” state from the time the first relay listener is connected to the relay’s Service Bus Address to the time when the last relay listener is disconnected from the address.</p>
+                                    <p>The relay hours are charged by the cumulative time when every Service Bus Relay is in an “open” status. When the relay-enabled WCF service (i.e. “Relay Listener”) is connected to a given Service Bus address (service namespace URL) for the first time, the interrupt is implicitly instantiated and is opened at this address. The relay will be closed only when the last listener is disconnected from the address. Thus, for the purpose of billing, the relay will be regarded as being in “open” status from the time when the first relay listener is connected to the relay’s Service Bus Address to the time when the last relay listener is disconnected from the address.</p>
                                 </section>
                             </div>
                         </li>
@@ -274,11 +274,11 @@
                                 <section>
                                     <p>Transfer connection is defined as one of the following connections:</p>
                                     <ol>
-                                        <li>AMQP connection from the client to Service Bus themes/subscriptions, queues or Event Hubs.</li>
-                                        <li>HTTP call to a receiving message from Service Bus themes or queues with a receiving timeout greater than zero.<br/>Charging of concurrent transfer connections exceeding the peak of the attached number (standard level is 1,000). Peak value will be measured every hour. Expenses are allocated in proportion to 744 hours every month, and accumulated within the billing cycle of every month. After the end of the billing cycle, the attached number will be applied according to the total peak hours allocated proportionately (1,000 transfer connections every month).<br/>
+                                        <li>An AMQP connection from the client to Service Bus topics/subscriptions, queues or Event Hubs.</li>
+                                        <li>An HTTP call to receiving messages from Service Bus topics or queues with a receiving timeout bigger than zero.<br/>The charging of concurrent transfer connections exceeding the peak of the attached number (standard level is 1,000). Peak value will be measured once every hour. Expenses are allocated in proportion to 744 hours every month, and accumulated within the billing cycle of every month. At the end of the billing period, the amount added will be applied to the sum of the hourly peaks that are prorated (1,000 transfer connections every month).<br/>
                                         Instances<br/>
                                             <ol>
-                                                <li>You can establish connections with 10,000 devices through one AMQP Connection, receive commands from the Service Bus Themes and send remote-sensing events to the Event Hubs. If all equipment is connected 12 hours per day, you’re required to pay the following connection fees (excluding any other Service Bus fees): 10,000 connections * 12 hours * 31 days/744 = 5,000 transfer connections. After deducting the limit of 1,000 connections/month, you need to pay the fees of 4,000 transfer connections at a rate of ¥0.18/every transfer connection, totaling ¥720.</li>
+                                                <li>You can establish connections with 10,000 devices through one AMQP Connection, receive commands from Service Bus topics and send remote-sensing events to Event Hubs. If all equipment is connected 12 hours per day, you’re required to pay the following connection fees (excluding any other Service Bus fees): 10,000 connections * 12 hours * 31 days/744 = 5,000 transfer connections. After deducting the limit of 1,000 connections per month, you need to pay the fee of 4,000 transfer connections at a rate of RMB 0.18 for every transfer connection, totaling RMB 720.</li>
                                                 <li>Timeout is not zero when 10,000 devices receive messages from Service Bus Queues via HTTP. If all equipment is connected 12 hours per day, you’re required to pay the following connection fees (excluding any other Service Bus fees): 10,000 HTTP receiving connections * 12 hours/day * 31 days/744 hours = 5,000 transfer connections.</li>
                                             </ol>
                                         </li>
@@ -289,39 +289,39 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="service_bus_transfer_queue">Does the transfer connection fee apply to queues and themes/subscriptions?</a>
+                                <a id="service_bus_transfer_queue">Does the transfer connection fee apply to queues and topics/subscriptions?</a>
                                 <section>
-                                    <p>Yes. Sending events by HTTP isn’t required to pay connection fees no matter how many sending systems/devices you use. Receiving events by HTTP with a timeout greater than zero (sometimes called “Long-Poll”) will generate transfer connection fees. No matter whether the connection is used for sending or receiving, the AMQP connection will generate transfer connection fees. Please note, in the basic namespace, you can use at most 100 free transfer connections, which is the maximum transfer connections permitted by every Azure subscription. In every Azure subscription, the first 1,000 transfer connections within any/all standard namespaces are free of charge (not included in basic fees). As these limits are enough to cover many service-to-service programs, there will generally be considerable transfer connection fees only when you plan to use AMQP or HTTP Long-Poll on numerous clients, namely, to realize more efficient event flow or activate two-way communication between thousands of/millions of devices or application instances.</p>
+                                    <p>Yes. Sending events by HTTP doesn’t require paying connection fees no matter how many sending systems/devices you use. Receiving events by HTTP with a timeout bigger than zero (sometimes called Long-Poll) will generate transfer connection fees. No matter whether the connection is used for sending or receiving, the AMQP connection will generate transfer connection fees. Please note, in the basic namespace, you can use at most 100 free transfer connections, which are the maximum transfer connections permitted by every Azure subscription. In every Azure subscription, the first 1,000 transfer connections within any/all standard namespaces are free of charge (not included in basic fees). As these limits are enough to cover many service-to-service plans, there will generally be considerable transfer connection fees only when you plan to use AMQP or HTTP Long-Poll on numerous clients, namely, to realize more efficient events flow or activate two-way communication of thousands/millions of devices or application instances.</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="service_bus_standard_charge">If my Azure subscription has multiple standard namespaces, are you charging me the basic fees several times?</a>
+                                <a id="service_bus_standard_charge">If my Azure subscription has multiple standard namespaces, am I charged the basic fees multiple times?</a>
                                 <section>
-                                    <p>No. Every Azure subscription is only required to pay the monthly basic fees of a message transfer Standard Edition. This means that after you create a Standard level Service Bus Namespace, you will be able to create any number of standard level namespaces in the same Azure subscription, without generating any additional basic fees.</p>
-                                    <p>For other common questions about Service Bus Billing, please refer to <a href="http://msdn.microsoft.com/library/azure/hh667438.aspx" id="service-bus-msdn">MSDN articles</a>.</p>
+                                    <p>No. Every Azure subscription is only required to pay the monthly basic fees of a standard edition message transfer. This means that after you create a standard level Service Bus namespace, you will be able to create any number of standard level namespaces in the same Azure subscription without generating any additional basic fees.</p>
+                                    <p>For other common questions about Service Bus billing, please refer to <a href="http://msdn.microsoft.com/library/azure/hh667438.aspx" id="service-bus-msdn">MSDN articles</a>.</p>
                                 </section>
                             </div>
                         </li>
 						<li >
                             <div>
-                            <i class="icon icon-plus"></i> <a id="service_bus_standard_mixed">What’s a mixed connection?</a>
+                            <i class="icon icon-plus"></i> <a id="service_bus_standard_mixed">What is a mixed connection?</a>
                             <section>
-                                <p>Mixed connection can help establish two-way binary stream communication between two networked applications, one or two of which can remain behind NAT or a firewall. You can implement listener receiving “Relay” connections and transmitter sending “Relay” connections, provided that you adopt any language supporting basic WebSocket functions (including the WebSocket API of most web browsers).</p>
+                                <p>Mixed connection can help establish two-way binary stream communication between two networked applications, one or two of which can remain behind NAT or a firewall. You can implement listener receiving “Relay” connections and transmitter sending “Relay” connections, provided that you adopt any language supporting basic WebSocket functions (including the WebSocket API of most Web browsers).</p>
                             </section>
                             </div>
                         </li>
                         
                         <li >
                             <div>
-                            <i class="icon icon-plus"></i> <a id="service_bus_standard_charging">How is a mixed connection billed?</a>
+                            <i class="icon icon-plus"></i> <a id="service_bus_standard_charging">How are mixed connections billed?</a>
                             <section>
-                                <p>When creating the first mixed connection listener, you shall pay the expenses according to the rate of every listener unit. Every individual listener to be created is charged by using the same rate. The services include 5 GB free data transmission every month. You can use this 5 GB free data transmission in all listener units. If the total data transmissions among all listener units exceed 5 GB, the extra data transmission is charged.</p>
-                                <p><strong>Pricing example 1: </strong>If a listener has been installed (e.g.: a mixed connection manager instance) and has run continuously one month, and also sent 3 GB data across the connection, the total expenses are ¥76.09.</p>
-                                <p><strong>Pricing example 2: </strong>If a listener has been installed (e.g.: a mixed connection manager instance) and has run continuously one month, and also sent 10 GB data across the connection, the total expenses are ¥143.077: ¥76.087 (connection and first 5 GB) + ¥66.99 (extra 5 GB data).</p>
-                                <p><strong>Pricing example 3: </strong>If the instances of two mixed connection managers (A and B) have been installed and have run continuously one month, and also sent 3 GB data across connection A and 6 GB data across connection B, the total expenses are ¥205.766: ¥76.087 (connection A) + ¥76.087 (connection B) + ¥53.592 (4 GB excess data due to connection A 3 GB + connection B 6 GB).</p>
+                                <p>When creating the first mixed connection listener, expenses are paid according to the rate of every listener unit. Every individual listener created is charged at the same rate. The services include 5GB of free data transmission every month. You can use this 5GB free data transmission in all listener units. If the total data transmissions among all listener units exceed 5GB, the extra data transmission is charged.</p>
+                                <p><strong>Pricing example 1: </strong>If a listener has been installed (e.g.: a mixed connection manager instance) and has run continuously one month, and also sent 3GB of data across the connection, the total expenses are RMB 76.09.</p>
+                                <p><strong>Pricing example 2: </strong>If a listener has been installed (e.g.: a mixed connection manager instance) and has run continuously one month, and has also sent 10GB of data across the connection, the total expenses are RMB 143.077: RMB 76.087 (connection and the first 5GB) + RMB 66.99 (extra 5GB data).</p>
+                                <p><strong>Pricing example 3: </strong>If the two mixed connection manager instances (A and B) have been installed and have run continuously one month, and have also sent 3GB of data across connection A and 6GB of data across connection B, the total expenses are RMB 205.766: RMB 76.087 (connection A) + RMB 76.087 (connection B) + RMB 53.592 (4GB extra data due to connection A 3GB + connection B 6GB).</p>
                             </section>
                             </div>
                         </li>
@@ -330,15 +330,15 @@
                             <div>
                             <i class="icon icon-plus"></i> <a id="service_bus_standard_whether-accounting">Is there a data transmission fee for connection to the mixed connection listener?</a>
                             <section>
-                                <p>Every connection to the listener is charged with the fee for 64 KB. The aforementioned data size will be deducted from 5 GB provided free of charge to the listener unit every month. The listener unit fee is calculated every hour by taking 5 minutes as the increment. Multiple opening and closing for the purpose of development/testing is not charged.</p>
+                                <p>Every connection to a listener is charged with a fee of 64KB. The aforementioned data size will be deducted from the 5GB provided free of charge to the listener unit every month. The listener unit fee is calculated every hour by taking 5 minutes as the increment. Multiple openings and closings for the purpose of development/testing are not charged.</p>
                             </section>
                             </div>
                         </li>
                         <li >
                             <div>
-                            <i class="icon icon-plus"></i> <a id="service_bus_standard_how">How long does the mixed connection listener stay open if there is no data transmission? How much is the fee we pay for keeping the connection open?</a>
+                            <i class="icon icon-plus"></i> <a id="service_bus_standard_how">How long does the mixed connection listener stay open if there is no data transmission? What is the fee for keeping connection open?</a>
                             <section>
-                                <p>If the connection is opened but hasn’t transmitted any data, we will transmit 1KB every minute to keep connection available on your behalf. This aims to prevent the network from being disconnected automatically every a few minutes.</p>
+                                <p>If the connection is opened but hasn’t transmitted any data, we will transmit 1KB every minute to keep the connection available on your behalf. Doing this prevents the network from disconnecting automatically every few minutes.</p>
                             </section>
                             </div>
                         </li>
@@ -361,20 +361,20 @@
 
     <div class="pricing-page-section">
                 <h2>Support and Service Level Agreements</h2>
-                <p>If you have any questions or need any help, please access <a href="/support/contact/" id="messaging-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-				<p>For Service Bus Relay, we guarantee that at least 99.9% time, the applications configured correctly can establish connections with the deployed relay.</p>
-				<p>For the Service Bus queues and themes, we guarantee that at least 99.9% time, the applications configured correctly can send or receive message or perform other operations on the deployed queues or themes.</p>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="messaging-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
+				<p>For Service Bus Relay, we guarantee that at least 99.9% of the time, applications configured correctly can establish connections with the deployed relay.</p>
+				<p>For the Service Bus queues and themes, we guarantee that at least 99.9% of the time, applications configured correctly can send or receive messages or perform other operations on the deployed queues or topics.</p>
 				<!-- <p>对于服务总线的“基本”和“标准”通知中心级别，我们保证至少在 99.9% 的时间里，正确配置的应用程序能够通过在基本或标准通知中心层上部署的通知中心，发送通知或执行注册管理操作。</p> -->
-				<p>To learn more about the details of our server level agreement, please visit the <a href="/support/sla/messaging/" id="pricing_messaging_sla">Service Level Agreement</a> page.</p>
+				<p>To learn more about the details of our service level agreement, please visit the <a href="/support/sla/messaging/" id="pricing_messaging_sla">Service Level Agreements</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                       
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                       
     
     ]]></bodyText>
     <pageTitle>Service Bus - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-messaging</linkid>
     <metaKeywords>Azure, Service Bus, message transfer, transfer connection</metaKeywords>
-    <metaDescription><![CDATA[Learn more about the pricing details of Azure Service Bus. Azure Service Bus is a message transfer infrastructure located among various applications, permitting the applications to exchange message, so as to expand the scale and improve recovery capability. A ¥1 trial gets you ¥1500 in service credits. It also can be applied directly as an advance payment purchase of Azure, enjoying the highest 99.99% service level agreement.]]></metaDescription>
+    <metaDescription><![CDATA[Learn more about the pricing details of Azure Service Bus. Azure Service Bus is a message transfer infrastructure located among various applications, permitting the applications to exchange messages, so as to expand the scale and improve recovery capabilities. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Service Bus</urlDisplayName>
   </TextpageLeftNav>
 </localize>

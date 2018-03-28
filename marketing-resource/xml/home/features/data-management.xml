@@ -19,7 +19,7 @@
 <li><span>Self-management with near zero downtime</span></li>
 </ul>
 <h3>Enables flexible scaling and more measurable performance<sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-size: 18px;" class="wa-previewTag;">Preview</sup></h3>
-<p>With the power of Windows Azure, implement large-scale environments with thousands of databases through flexible scaling, to meet temporary or continuous requirements for high-throughput application models. Regardless of which service level you choose (Basic, Standard, or Advanced), you get more measurable performance with a fixed range of throughput that you can easily scale up or down based on your application needs. You can access insights into database performance indicators programmatically through the dashboard view, or check important database indicator information through the Management portal.</p>
+<p>With the power of Windows Azure, implement large-scale environments with thousands of databases through flexible scaling, to meet temporary or continuous requirements for high-throughput application models. Regardless of which service level you choose (Basic, Standard, or Advanced), you get more measurable performance with a fixed range of throughput that you can easily scale up or down based on your application needs. You can access insights into database performance indicators programmatically through the dashboard view, or check important database indicator information through the Management Portal.</p>
 <p>Flavorus is developing new business through a hybrid internal environment/cloud architecture, and enabling massive scale-out during temporary peaks.</p>
 <h3>Client is using the efficiency of the cloud to unlock the potential of business applications</h3>
 <p align="left">Windows Azure SQL Database is an online relational database service that enables cloud architects and developers to easily use first-class SQL functions by providing predictable performance, scalability, business continuity, data protection, and near zero management, with the support of the powerful functions and coverage of Windows Azure.</p>
@@ -56,7 +56,7 @@
 <p>Windows Azure provides a secure and flexible development and deployment environment for you to scale web applications of any size. Take advantage of your existing tools to create and deploy cloud applications that free you from the tedious work of managing your infrastructure.</p>
 <p style="font-weight: bold;">Data management</p>
 <p>Complete, flexible data services</p>
-<p>Windows Azure provides the right solution for your data needs, from SQL Database to blobs. Leverage existing skills and gain the scalability, flexibility, and cost advantages of Windows Azure data services.</p>
+<p>Windows Azure provides the right solution for your data needs, from SQL Database to Blob. Leverage existing skills and gain the scalability, flexibility, and cost advantages of Windows Azure Data Services.</p>
 <p style="font-weight: bold;">Infrastructure services</p>
 <p>Build it yourself or use it directly, we’ll help you run it</p>
 <p>Windows Azure provides demand-based infrastructure that supports dynamic scaling to suit your constantly changing business needs. Whether you want to create a new application or run an existing one, we offer best-in-class value for money and end-to-end support.</p>
@@ -73,7 +73,7 @@
 <h2>Table</h2>
 <p>Table provides NoSQL functionality for applications that need to store large amounts of unstructured data. Table is an ISO 27001 certified hosting service that can automatically scale to meet throughputs of up to 100 TB. It can be accessed from virtually anywhere via REST and hosting APIs.</p>
 <h2>Blob (binary large object) Storage</h2>
-<p>Using blobs is the easiest way to store large amounts of unstructured text or binary data (such as video, audio, and images). Blob Storage is an ISO 27001 certified hosting service that can automatically scale to meet throughputs of up to 100 TB. It can be accessed from virtually anywhere via REST and hosted APIs.</p>
+<p>Using blobs are the easiest way to store large amounts of unstructured text or binary data (such as video, audio, and images). Blob Storage is an ISO 27001 certified hosting service that can automatically scale to meet throughputs of up to 100 TB. It can be accessed from virtually anywhere via REST and hosted APIs.</p>
 <p>You can perform the following operations with Blob Storage:</p>
 <h3>Mount blobs easily as drives</h3>
 <p>Windows Azure Drive allows an application to mount a blob formatted as a single volume NTFS VM. You can use Windows Azure Drive to move virtual machines between private and public clouds.</p>

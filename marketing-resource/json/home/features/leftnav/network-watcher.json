@@ -1,0 +1,55 @@
+{"service": "Network Watcher", 
+"id": "leftnav_product_network-watcher", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_network-watcher_details", 
+	"articles": 
+		[
+			{"link": "/home/features/network-watcher/", 
+			"id": "leftnav_product_network-watcher_function", 
+			"title": "Product Functionality"}, 
+			{"link": "/pricing/details/network-watcher/", 
+			"id": "leftnav_product_network-watcher_pricing", 
+			"title": "Pricing details"},
+			{"link": "/pricing/calculator/network-watcher/", 
+			"id": "leftnav_product_network-watcher_calculator", 
+			"title": "Pricing calculator"},
+			{"link": "//docs.azure.cn/network-watcher/", 
+			"id": "leftnav_product_network-watcher_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/network-watcher/", 
+			"id": "leftnav_product_network-watcher_sla", 
+			"title": "Service Level Agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_network-watcher_related", 
+	"articles": 
+		[
+			
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_function", 
+			"title": "Virtual Machines"},
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_storage", 
+			"title": "Storage"}
+		]
+	}, 
+	{"group": "Related documentation and links", 
+	"id": "leftnav_product_network-watcher_others", 
+	"articles": 
+		[
+			{"link": "//docs.azure.cn/zh-cn/network-watcher/network-watcher-create/", 
+			"id": "leftnav_product_network-watcher_network-watcher-create", 
+			"title": "Create an Azure Network Watcher instance"},
+			{"link": "//docs.azure.cn/zh-cn/network-watcher/network-watcher-monitoring-overview/", 
+			"id": "leftnav_product_network-watcher_network-watcher-monitoring-overview", 
+			"title": "Introduction to Azure Network Watcher"},
+			{"link": "//docs.azure.cn/zh-cn/network-watcher/network-watcher-troubleshoot-overview/",
+			"id": "leftnav_product_network-watcher_solutions_network-watcher-troubleshoot-overview",
+			"title": "Introduction to Resource Troubleshooting in Azure Network Watcher"}
+		]
+	}
+]
+}

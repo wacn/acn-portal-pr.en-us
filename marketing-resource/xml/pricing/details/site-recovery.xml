@@ -74,7 +74,7 @@
 				<p>For every protected instance storage that is preset for planned or unplanned failover deployed from a local site to Azure, we promise the recovery time of each unencrypted protected instance storage will be 4 hours, and 6 hours for encrypted protected instance storage, depending on the size of the protected instance storage.</p>
 				<p>To learn more about the details of our service level agreement, please visit the <a href="/support/sla/site-recovery/" id="pricing_recovery_sla">Service Level Agreements</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                         
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                         
     
     ]]></bodyText>
     <pageTitle>Azure Site Recovery Services Pricing - Azure Cloud Computing</pageTitle>

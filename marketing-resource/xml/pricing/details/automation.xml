@@ -22,7 +22,7 @@
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
                 <h2>Pricing Details</h2>
-                <p>Automation is offered in two tiers: Free and Basic. The Basic tier of Automation is billed on the basis of the number of minutes of job runtime used during a month. Whenever there are one or more jobs running, the Basic tier of Automation will be charged. Jobs are aggregated across geographical regions.</p> 
+                <p>Process automation is charged by job runtime. You will only be charged for the number of minutes/hours that exceed the free unit allowance.</p> 
                 <!-- <p>从2016年4月1日起， 价格会下调 25.6%，以下是下调后的新价格：</p> -->
                 <div class="tags-date">
                     <div class="ms-date">*The following prices are tax-inclusive.</div><br>
@@ -31,18 +31,13 @@
                 <table cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                         <th align="left"><strong>&#160;</strong></th>
-                        <th align="left"><strong>Free</strong></th>
-                        <th align="left"><strong>Basic</strong></th>
-                    </tr>
-                    <tr>
-                        <td>Monthly price</td>
-                        <td>Free</td>
-                        <td>RMB&#160;0.01/minute</td>
+                        <th align="left"><strong>Free units (per month)</strong></th>
+                        <th align="left"><strong>Price</strong></th>
                     </tr>
                     <tr>
                         <td>Job runtime</td>
                         <td>500 minutes</td>
-                        <td>Unlimited</td>
+                        <td>RMB&#160;0.01/minute</td>
                     </tr>
                 </table>
             </div>
@@ -55,30 +50,30 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="auto_price_question1">How is Basic tier billed?</a>
+                                <a id="auto_price_question1">How is it billed?</a>
                                 <section>
-                                    <p>We bill you based on the total number of minutes of job runtime used between all Automation accounts associated with your subscription. For example, using 5,000 minutes in one month will result in a RMB 50 charge.</p>
+                                    <p>We provide you with the service for free. For automation, we bill you based on the total number of minutes of job runtime used by all Automation accounts associated with your subscription. For example, using 5,500 minutes in one month will result in a charge of RMB 50.</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="auto_price_question2">Is an Automation quota applied for free usage at the subscription level?</a>
+                                <a id="auto_price_question2">Which free units are included each month?</a>
                                 <section>
-                                    <p>Yes. If you want to use 500 more minutes of Automation per subscription per month, you need to convert it to the Basic tier.</p>
+                                    <p>Including the units that are available for you to use for free, you can use the service for free and the free quota will be restored every month. All usage charges for the free units for each month are charged at the standard prices. These free units cannot be used to give subscribers discounts or a set monthly credit allowance.</p>
                                 </section>
                             </div>
                         </li>
-                        <li>
+                        <!-- <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="auto_price_question3">Can I upgrade my Automation service from the Free version to the Basic version?</a>
+                                <a id="auto_price_question3">我能否将我的自动化服务从免费版升级到基本版？</a>
                                 <section>
-                                    <p>Yes, upgrades to existing Automation subscriptions can be supported by updating the tier attribute on the Scaling page for the Automation accounts in the subscription. The upgrade will apply to all Automation accounts in the subscription.</p>
+                                    <p>可以，通过针对订阅中的自动化帐户在“缩放”页上更新层级特性可以支持对现有自动化订阅的升级。升级将应用于订阅中的所有自动化帐户。</p>
                                 </section>
                             </div>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -102,7 +97,7 @@
 				<p>No service level agreement is offered for the Free tier of Automation.</p>
 				<p>If you want to learn more about the details of our server level agreement, please visit the <a href="/support/sla/automation/" id="pricing_automation_sla">Service Level Agreement</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                                     
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                                     
     
     ]]></bodyText>
     <pageTitle>Azure Automation cloud management service pricing - Azure Cloud Computing</pageTitle>

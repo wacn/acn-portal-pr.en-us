@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/mobile-apps@2x.png" /> 
-                        <h2><span>Mobile Services</span> <sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">Preview</sup></h2>
-                        <h4>Supports iOS, Android and Windows Phone app backend development and allows you to make instant use of personalized services such as push real-time notifications, making it easy to create mobile apps that rely on Azure.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_mob_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mob_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2><sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">Preview</sup><span>Mobile Services</span></h2>
+                        <h4>Supports iOS/Android/Windows Phone App backend development and allows you to make instant use of personalized services such as pushing real-time notifications without delay, making it easy to create mobile apps that rely on Azure.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_mob_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mob_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -24,14 +24,14 @@
                     <li>Program the backend using C# or Node.js</li>
                     <li>Implement Enterprise Single Sign-On with the help of Active Directory</li>
                     <li>Integrated with SQL, Oracle, SAP and MongoDB</li>
-                    <li>Enterprise service-level agreements</li>
+                    <li>Enterprise Service Level Agreement</li>
                 </ul>
                 
                 <h2>Construct scalable iOS, Android, and Windows apps</h2>
-                <p>Mobile Services provides you with a scalable and secure backend that can be used to provide enhanced apps for any platform (iOS, Android, Windows or Mac). Using Mobile Services, you can easily store app data locally or in the cloud, authenticate the user’s identity, and send push notifications, and you can also add your own custom backend logic using Node.js or C#.</p>
+                <p>Mobile Services provides you with a scalable and secure backend that can be used to provide enhanced apps for any platform (iOS, Android, Windows or Mac). Using Mobile Services, you can easily store app data locally or in the cloud, authenticate the user’s identity, send push notifications, and you can also add your own custom backend logic using Node.js or C#.</p>
 
                 <h2>Build mobile apps for your employees</h2>
-                <p>With the help of Active Directory, you can easily authenticate your users, securely connect to local resources such as SAP, Oracle, SQL Server and SharePoint, and use cross-platform frameworks like Xamarin and PhoneGap to build enterprise-level apps for your employees.</p>
+                <p>With the help of Active Directory, you can easily authenticate your users, securely connect to local resources such as SAP, Oracle, SQL Server and SharePoint, and use cross-platform frameworks (like Xamarin and PhoneGap) to build enterprise-level apps for your employees.</p>
 
                 <h2>Broadcast push notifications to millions of devices in minutes</h2>
                 <p>Notification Hubs is a highly-scalable mobile push notification engine that can send millions of push notifications to iOS, Android, Windows or Kindle devices in just a few seconds. You can easily hook up Notification Hubs to the backend of any existing app, regardless of whether the backend is local or managed within Azure.</p>
@@ -55,7 +55,7 @@
                     <li><a id="home_mobile_win" href="https://docs.azure.cn/" >Windows and .NET Backend</a></li>
                 </ul>
             </div>
-            <!-- END: Read-More --> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />                                                                                
+            <!-- END: Read-More --> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />                                                                                
     
     ]]></bodyText>
     <pageTitle>Azure Mobile Services - Azure Cloud Computing</pageTitle>

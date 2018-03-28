@@ -192,7 +192,7 @@
 				<p>Service level agreement is not available in the free edition of IoT Hub.</p> 
 				<p>To learn more about the details of our service level agreement, please visit the <a href="/support/sla/iot-hub/" id="pricing_iot-hub_sla">Service Level Agreements</a> page.</p> 
                 </div>
-            <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />  --> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                             
+            <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />  --> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                             
     
     ]]></bodyText>
     <pageTitle>Azure IoT Solution Services Pricing - Azure Cloud Computing</pageTitle>

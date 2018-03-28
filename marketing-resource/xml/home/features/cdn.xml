@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/cdn@2x.png" />
                         <h2>Content Delivery Network (CDN)</h2>
                         <h4>Azure CDN distributes your websites, videos, and apps to users' nearest nodes quickly and securely, giving nearby users access to the content they need, and providing a high-performance, low latency content delivery service.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_cdn_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cdn_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_cdn_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cdn_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -19,21 +19,21 @@
                 <!-- <p>Azure CDN 将内容缓存到距离用户最近的位置，通过智能缓存和调度策略，为用户计算最优节点，使用户在任何位置都能享受高速的网络访问体验。</p> -->
                 <h1>Advantages and features</h1>
                 <ul>
-                <li><strong>Full coverage: </strong>More than 20 TB of domestic bandwidth reserves, 600+ node coverage, various provincial regions, and several operators including China Unicom, China Telecom, and China Mobile.</li>
+                <li><strong>Full coverage: </strong>More than 20 TB of domestic bandwidth reserves, 600+ node coverage, various provincial regions, and several carriers including China Unicom, China Telecom, and China Mobile.</li>
 
-                <li><strong>Outstanding performance: </strong>The BGP network’s middle layer effectively eliminates operator barriers, increases back to source effectiveness, and reduces stress on the source site. The edge CDN uses hierarchical storage to easily cope with huge numbers of concurrent accesses and quickly presents content to users.</li>
+                <li><strong>Outstanding performance: </strong>The BGP network’s middle layer effectively eliminates carrier barriers, increases back to source effectiveness, and reduces stress on the source site. The edge CDN uses hierarchical storage to easily cope with huge numbers of concurrent accesses and quickly presents content to users.</li>
 
                 <li><strong>Secure and stable: </strong>Unique Smart Routing technology enables nodes to monitor dynamically and schedule intelligently. By combining multiple CDNs, it can cope with traffic bursts easily and prevent the complete disruption of services caused by a single CDN failure. 24/7 online service for the protection of your website.</li>
 
-                <li><strong>Simple and easy to use: </strong>All Azure CDN features are easily configured using the management console or APIs, enabling self-service, visual management.</li>
+                <li><strong>Simple and easy to use: </strong>All Azure CDN features are easily configured using the management console or APIs, enabling self-service and visual management.</li>
                 
                 <li><strong>In-depth integration with several Azure Cloud Services: </strong>CDN performs in-depth integration and optimization with Azure Cloud Services, including <a href="/home/features/app-service/" id="cdn_app-service" target="_blank">App Service</a>, <a href="/home/features/cloud-services/" id="cdn_cloud-services" target="_blank">Cloud Services</a>, <a href="/home/features/storage/" id="cdn_storage" target="_blank">Storage</a>, <a href="/home/features/media-services/"id="cdn_media-services" target="_blank">and Media Services</a>.</li>
                 
-                <li><strong>Flexible billing: </strong>Pay according to actual traffic used, perform configuration according to your needs. You can also contact the Azure CDN support team in advance in the event of foreseeable sudden peak value bandwidth use.</li>
+                <li><strong>Flexible billing: </strong>Pay according to actual traffic used, perform configuration according to your needs. You can also contact the Azure CDN support team in advance in the event of foreseeable sudden peak bandwidth use.</li>
                 </ul>
-                <h1>Functions</h1>
-                <h2>Website acceleration</h2>
-                <p>The CDN edge automatically recognizes the popularity of content and stores it hierarchically, fulfilling highly concurrent information and photo sharing social networking static content acceleration by caching hot files to memory and SSD.</p> 
+                <h1>Features</h1>
+                <h2>Site acceleration</h2>
+                <p>CDN Edge automatically recognizes the popularity of content and stores it hierarchically, accelerating the static content of highly concurrent social network information and photos by caching hot files to memory and SSD.</p> 
                 <h2>Download and video on demand acceleration</h2>
                 <p>Integrates content upload, storage, and distribution of integrated services. Large edge storage controls cache hit ratio at 98% or more, effectively reducing source site pressure and bandwidth costs. Suitable for high bandwidth services including long video, short video, and app stores.</p>
                 <h2>Live video acceleration</h2>
@@ -41,7 +41,7 @@
                 <h2>HTTPS secure acceleration</h2>
                 <p>The whole network supports the HTTPS transmission protocol, to prevent content from being hijacked and tampered with. This ensures data security and meets the requirements for scenarios including e-commerce, finance, and banking.</p>
                 <h2>Dynamic application acceleration</h2>
-                <p>Enables applications to carry more concurrent requests without changing the business logic, through special line and basic BGP network access, combined with technologies including TCP optimization, long connection, and multiplexing, reducing delays to tens of milliseconds. Widely used in mobile Internet and IoT scenarios.</p>
+                <p>Enables applications to carry more concurrent requests without changing the business logic, through dedicated line and basic BGP network access, combined with technologies including TCP optimization, long connection, and multiplexing, reducing delays to tens of milliseconds. Widely used in mobile Internet and IoT scenarios.</p>
                  
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
@@ -51,16 +51,16 @@
                     <li><a href="https://docs.azure.cn/cdn/cdn-overview/" id="home_cdn_guide">Azure CDN overview </a></li>
                     <li><a href="https://docs.azure.cn/cdn/cdn-how-to-use/" id="home_cdn_use">Azure CDN user guide</a></li>
                     <li><a href="https://docs.azure.cn/cdn/cdn-pops/" id="home_cdn_node">Azure CDN node distribution</a></li>
-                    <li><a href="https://docs.azure.cn/cdn/cdn-management-portal-how-to-use/" id="home_cdn_manage">Azure CDN Management portal help manual</a></li>
+                    <li><a href="https://docs.azure.cn/cdn/cdn-management-portal-how-to-use/" id="home_cdn_manage">Azure CDN Management Portal help manual</a></li>
                     <li><a href="https://docs.azure.cn/cdn/cdn-faq-service-inquiry/" id="home_cdn_inquiry">CDN service consulting questions</a></li>
                     <li><a href="https://docs.azure.cn/cdn/cdn-faq-service-config/" id="home_cdn_config">CDN server configuration FAQs</a></li>
                 <li><a href="https://docs.azure.cn/cdn/cdn-faq-service-issues/" id="home_cdn_issues">CDN service failure FAQs</a></li>
                 </ul>
             </div>
-            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   
         
     ]]></bodyText>
-    <pageTitle>CDN Content Delivery Network CDN acceleration CDN services - Azure cloud computing</pageTitle>
+    <pageTitle>CDN Content Delivery Network CDN acceleration CDN services - Azure Cloud Computing</pageTitle>
     <metaKeywords>Azure, CDN, content delivery, CDN acceleration, CDN services, website acceleration, cloud CDN, API acceleration, live streaming acceleration, application acceleration, HTTPS, HTTP2</metaKeywords>
     <metaDescription><![CDATA[Azure CDN caches content to the nearest location to a user and computes optimal nodes for users using smart caching and scheduling policies, enabling users to enjoy high-speed Internet access anywhere.]]></metaDescription>
     <linkid>home-features-cdn</linkid>

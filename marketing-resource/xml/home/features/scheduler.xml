@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/scheduler@2x.png" />
                         <h2><span>Scheduler</span></h2>
                         <h4>You can reliably call services inside and outside Azure and schedule the running of jobs in the cloud, making it suitable for regular operations and everyday maintenance.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_scheduler_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_scheduler_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_scheduler_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_scheduler_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                     <li>Call services inside or outside Azure</li>
                     <li>Run jobs on any schedule - run jobs instantly, later, or regularly</li>
                     <li>Works reliably even if unexpected failures occur</li>
-                    <li>Use Asure Storage Space Queue for long-running or offline jobs</li>
+                    <li>Use Azure Storage Space Queue for long-running or offline jobs</li>
                     <li>Call web service endpoints using HTTP/HTTPS</li>
                 </ul>
                 <h2>Create jobs that run according to a schedule</h2>
@@ -34,7 +34,7 @@
                 <p>Scheduler continues to work and run scheduled jobs even when network, computer and datacenter failures occur. If necessary, it can automatically switch to a specific backup datacenter in the same region. Users can also configure backup endpoints in case the primary endpoint is unavailable.</p>
 
                 <h2>Create asynchronous jobs that use queues</h2>
-                <p>Scheduler can also publish messages to Azure Storage Space Queue, in order to perform asynchronous processing of regular requests. This function is especially useful for complex or long-running requests such as a series of SQL queries on a large-scale database, or if you want to call an offline service.</p>
+                <p>Scheduler can also publish messages to Azure Storage Space Queue, to perform asynchronous processing of regular requests. This function is especially useful for complex or long-running requests such as a series of SQL queries on a large-scale database, or if you want to call an offline service.</p>
 
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
@@ -44,7 +44,7 @@
                     <li><a href="http://msdn.microsoft.com/zh-cn/library/azure/dn479785.aspx" id="home_sche_dn">Start Using Scheduler</a></li>
                 </ul>
             </div>
-            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->      
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->      
         
     ]]></bodyText>
     <pageTitle>Azure Scheduler_Cloud Management - Azure Cloud Computing</pageTitle>

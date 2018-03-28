@@ -9,14 +9,14 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/azure-redis-cache@2x.png" />
                         <h2><span>Redis Cache</span></h2>
-                        <h4>A type of advanced key-value storage service that can rapidly provide assistance in expanding Azure apps.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_redis_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_redis_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h4>A type of advanced key-value storage service which can rapidly provide assistance in expanding Azure apps.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_redis_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_redis_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>With the help of Azure Redis Cache, you can use safe, open-source Redis Cache. Azure Redis Cache is a dedicated service hosted by Azure, which can generate highly expandable and highly responsive applications by providing you with ultra high-speed data access. You can also use Redis to offer abundant feature sets and ecosystem while obtaining reliable loading and supervision from Azure.</p>
+                <p>With the help of Azure Redis Cache, you can use safe, open-source Redis Cache. Azure Redis Cache is a dedicated service hosted by Azure which can generate highly scalable and highly responsive applications by providing ultra high-speed data access. You can also use Redis to offer abundant function sets and ecosystem while obtaining reliable loading and supervision from Azure.</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
@@ -37,10 +37,10 @@
                                Basic cache, suitable for development/testing.
                             </td>
                             <td style="padding-left: 80px;">
-                               Production level cache services based on host/slave replication. 
+                               Production level cache services based on host/slave replication.
                             </td>
                             <td style="padding-left: 80px;">
-                               Suitable for enterprise level, and can be used as cache and temporary data. Exclusively designed for greatest scale and enterprise integration.
+                               Suitable for enterprise level, and can be used as cache and temporary data. Exclusively designed for biggest scale and enterprise integration.
                             </td>
                         </tr>
                         <tr>
@@ -102,7 +102,7 @@
                         </tr>
                         <tr>
                             <td style="min-width:100px;">
-                                Redis data retention
+                                Redis Data Retention
                             </td>
                             <td style="min-width:100px;">
                                 -
@@ -116,8 +116,8 @@
                         </tr>
                         <tr>
                             <td style="min-width:100px;">
-                                Redis cluster
-                                </td>
+                                Redis Cluster
+                            </td>
                             <td style="min-width:100px;">
                                 -
                             </td>
@@ -159,7 +159,7 @@
                         <tr>
                             <td style="min-width:100px;">
                                 Memory Size
-                                </td>
+                            </td>
                             <td style="min-width:100px;">
                                 250 MB - 53 GB
                             </td>
@@ -173,18 +173,18 @@
                         <tr>
                             <td style="min-width:100px;">Network Performance</td>
                             <td style="min-width:100px;">
-                                Low - High
+                                Low - high
                             </td>
                             <td style="padding-left: 80px;">
-                                Low - High
+                                Low - high
                             </td>
                             <td style="padding-left: 80px;">
-                                Medium - Highest
+                                Medium - highest
                             </td>
                         </tr>
                         <tr>
                             <td style="min-width:100px;">
-                                Maximum number of client connections
+                                Maximum Number of Client Connections
                             </td>
                             <td style="min-width:100px;">
                                 20000
@@ -198,18 +198,18 @@
                         </tr>
                         <tr>
                             <td style="min-width:100px;" colspan="4">
-                                <sup>*</sup>You can scale more instances upon request.
+                                <sup>*</sup>More instances can be scaled upon request.
                             </td>
                         </tr>
                     </table>
                     <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
                     <h2>Pricing Details</h2>
                     <h3>Basic</h3>
-                    <p>Basic cache is a single cache node, suitable for development/testing and non-critical workload. Basic level has no service level agreement.</p>
+                    <p>Basic cache is a single cache node, suitable for development/testing and non-critical workloads. Basic level has no service level agreement.</p>
                     <!-- <p>从2016年4月1日起，基本级别价格会下调 25.5%，以下是下调后的新价格：</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimation is based on a usage of 744 hours every month.</div>
+                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -227,7 +227,7 @@
                                 250 MB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥0.14/hour (about ¥104.16 /month) 
+                                RMB 0.14/hour (about RMB 104.16 /month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Low
@@ -244,7 +244,7 @@
                                 1 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥0.35/hour (about ¥260.40 /month) 
+                                RMB 0.35/hour (about RMB 260.40 /month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Low
@@ -261,7 +261,7 @@
                                 2.5 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥0.57/hour (about ¥424.08/month) 
+                                RMB 0.57/hour (about RMB 424.08/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Medium
@@ -278,14 +278,14 @@
                                 6 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥1.14/hour (about ¥848.16/month) 
+                                RMB 1.14/hour (about RMB 848.16/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Medium
                             </td>
                             <td style="padding-left: 80px;">
                                 5000
-                                </td>
+                            </td>
                         </tr>
                         <tr>
                             <td style="min-width:100px;">
@@ -295,7 +295,7 @@
                                 13 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥1.33/hour (about ¥989.52/month) 
+                                RMB 1.33/hour (about RMB 989.52/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Medium
@@ -312,14 +312,14 @@
                                 26 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥2.66/hour (about ¥1979.04/month) 
+                                RMB 2.66/hour (about RMB 1979.04/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 High
                             </td>
                             <td style="padding-left: 80px;">
                                 15000
-                                </td>
+                            </td>
                         </tr>
                         <tr>
                             <td style="min-width:100px;">
@@ -329,7 +329,7 @@
                                 53 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥5.31/hour (about ¥3950.64/month) 
+                                RMB 5.31/hour (about RMB 3950.64/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Highest
@@ -341,11 +341,11 @@
                 </table>
                     <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
                     <h3>Standard</h3>
-                    <p>A replicated cache is provided in the primary/auxiliary configuration of two nodes. We will manage auto replication between the two nodes, and provide a high-availability service level agreement.</p>
+                    <p>A replicated cache is provided in primary/auxiliary configuration of two nodes. We will manage auto replication between two nodes, and provide a highly available service level agreement.</p>
                     <!-- <p>从2016年4月1日起，标准级别价格会下调 25.5%，以下是下调后的新价格：</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimation is based on a usage of 744 hours every month.</div>
+                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -363,7 +363,7 @@
                                 250 MB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥0.35/hour (about ¥260.40 /month) 
+                                RMB 0.35/hour (about RMB 260.40 /month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Low
@@ -380,7 +380,7 @@
                                 1 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥0.87/hour (about ¥647.28 /month) 
+                                RMB 0.87/hour (about RMB 647.28/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Low
@@ -397,7 +397,7 @@
                                 2.5 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥1.42/hour (about ¥1056.48 /month) 
+                                RMB 1.42/hour (about RMB 1056.48/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Medium
@@ -414,14 +414,14 @@
                                 6 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥2.85/hour (about ¥2120.40 /month) 
-                                </td>
+                                RMB 2.85/hour (about RMB 2120.40/month)
+                            </td>
                             <td style="padding-left: 80px;">
                                 Medium
                             </td>
                             <td style="padding-left: 80px;">
                                 5000
-                                </td>
+                            </td>
                         </tr>
                         <tr>
                             <td style="min-width:100px;">
@@ -431,7 +431,7 @@
                                 13 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥3.32/hour (about ¥2470.08 /month) 
+                                RMB 3.32/hour (about RMB 2470.08/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Medium
@@ -448,14 +448,14 @@
                                 26 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥6.64/hour (about ¥4940.16 /month) 
+                                RMB 6.64/hour (about RMB 4940.16/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 High
                             </td>
                             <td style="padding-left: 80px;">
                                 15000
-                                </td>
+                            </td>
                         </tr>
                         <tr>
                             <td style="min-width:100px;">
@@ -465,7 +465,7 @@
                                 53 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥13.28/hour (about ¥9880.32 /month) 
+                                RMB 13.28/hour (about RMB 9880.32/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Highest
@@ -477,22 +477,22 @@
                     </table>
                     <!-- END: Table3-Content--> <!-- BEGIN: Table4-Content-->
                     <h3>Advanced</h3>
-                    <p>In addition to all Standard level functions, the new Advanced level includes more other functions, e.g.: performance that is superior to Basic or Standard level caches, bigger workloads, disaster recovery and enhanced safety. Other functions include:</p>
+                    <p>In addition to all standard level functions, the new advanced level includes even more other functions, e.g.: performance superior to basic or standard level cache, bigger workload, disaster recovery and enhanced safety. Other functions include:</p>
                     <ul class="ul-price-style ">
-                        <li><a id="" target="_blank" href="">Redis Retention</a> allows you to save data stored in the Redis Cache. You can also obtain screenshots and back up data, so as to upload them in case of failure.</li>
-                        <li><a id="" target="_blank" href="">Redis Cluster</a> automatically segments data in multiple Redis nodes, thus you can create workloads (bigger than 53 GB) with bigger memory size and obtain better performance.</li>
-                        <li><a id="home_redia_network" target="_blank" href="/home/features/virtual-network/">Azure Virtual Network (VNet)</a> is deployed to provide enhanced safety for Azure Redis Cache, and also offer subnet and access control policies and further limit other access functions.</li>
+                        <li><a id="" target="_blank" href="">Redis Retention</a> allows you to save date stored in the Redis Cache. You can also obtain screenshots and back up data, so as to upload them in case of failure.</li>
+                        <li><a id="" target="_blank" href="">Redis Cluster</a> automatically segments data in multiple Redis nodes, thus you can create a workload (bigger than 53 GB) with a bigger memory size and obtain better performance.</li>
+                        <li><a id="home_redia_network" target="_blank" href="/home/features/virtual-network/">Azure Virtual Network (VNet) </a> is deployed to provide enhanced safety for Azure Redis Cache, and also offer subnet and access control policies and further limit other access functions.</li>
                     </ul>
                     <!-- <p>从2016年4月1日起，高级级别价格会下调 25.5%，以下是下调后的新价格：</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimation is based on a usage of 744 hours every month.</div>
+                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%"">
                         <tr>
                             <th align="left"><strong>Cache Name</strong></th>
                             <th align="left"><strong>Cache Size</strong></th>
-                            <th align="left" style="padding-left: 80px;"><strong>Price of Official Edition</strong></th>
+                            <th align="left" style="padding-left: 80px;"><strong>Price of official edition</strong></th>
                             <th align="left" style="padding-left: 80px;"><strong>Network Performance</strong></th>
                             <th align="left" style="padding-left: 80px;"><strong>Number of Client Connections</strong></th>
                         </tr>
@@ -504,7 +504,7 @@
                                 6 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥3.72/hour (about ¥2767.68/month) 
+                                RMB 3.72/hour (about RMB 2767.68/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Medium
@@ -521,14 +521,14 @@
                                 13 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥7.44/hour (about ¥5535.36/month) 
+                                RMB 7.44/hour (about RMB 5535.36/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Medium
                             </td>
                             <td style="padding-left: 80px;">
                                 15000
-                                </td>
+                            </td>
                         </tr>
                         <tr>
                             <td style="min-width:100px;">
@@ -538,7 +538,7 @@
                                 26 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥14.88/hour (about ¥11070.72/month)
+                                RMB 14.88/hour (about RMB 11070.72/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 High
@@ -555,7 +555,7 @@
                                 53 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                ¥29.77/hour (about ¥22148.88/month)
+                                RMB 29.77/hour (about RMB 22148.88/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Highest
@@ -573,14 +573,14 @@
             <div class="pricing-page-section">
                 <div class="more-detail">
                     <h2>FAQs</h2>
-                    <em>Expand All</em>
+                    <em>Expand all</em>
                     <ul>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="pricing_redis_how-to-charge">How do we charge the data transferred to and from the cache?</a>
+                                <a id="pricing_redis_how-to-charge">How is data transferred to/from the cache?</a>
                                 <section>
-                                    <p>Charge the data transferred to and from the cache at the <a id="redis_question_transfer" href="/pricing/details/data-transfer/" target="_blank">normal rate</a>.</p>
+                                    <p>Data transferred to and from the cache is charged according to the <a id="redis_question_transfer" href="/pricing/details/data-transfer/" target="_blank">normal rate</a>.</p>
                                 </section>
 
                             </div>
@@ -588,17 +588,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="pricing_redis_what-charge">Can I scale the Azure Redis Cache Unit (similar to the concept of Hosted Cache)?</a>
+                                <a id="pricing_redis_what-charge">Can I scale the Azure Redis Cache Unit (similar to the concept of a Hosted Cache)?</a>
                                 <section>
-                                    <p>Yes. You can expand to multiple Redis Cache Units at the Premium level.</p>
-                                </section>
-
-                            </div>
-                        </li>
-                        <li>
-                            <i class="icon icon-plus"></i>
-                            <div><a id="pricing_redis_which-cache-should-be-used">Which kind of cache will be used if I want to create a new cache in Azure?</a><section>
-                                    <p>It’s recommended that Azure Redis Cache be deployed and used thanks to its flexibility. This cache is based on an open standard Redis agreement supported by many programming languages (C/C++, .NET, Go, Java, Node.js, Objective C, Perl, PHP, Python, and Ruby, as well as over 29 more languages). Thus, almost any workload generated in Azure may use this cache.</p>
+                                    <p>Yes. You can expand to multiple Redis Cache Units at the Advanced level.</p>
                                 </section>
 
                             </div>
@@ -606,9 +598,19 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="pricing_redis_managed-cache">Since you recommend using Redis, why not provide the recommended “Hosted Cache” option?</a>
+                                <a id="pricing_redis_which-cache-should-be-used">Which kind of cache will be used if I want to create new cache in Azure?</a>
                                 <section>
-                                    <p>This aims to support the customers who make investment on the shared cache they rely on, enabling them to have sufficient time to migrate to Redis Cache.</p>
+                                    <p>Deploying and using Azure Redis Cache is recommended due to its flexibility. This cache is based on an open standard Redis agreement supported by many programming languages (C/C++, .NET, Go, Java, Node.js, Objective C, Perl, PHP, Python, Ruby as well as over 29 more languages). Thus, almost any workload generated in Azure may use this cache.</p>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="pricing_redis_managed-cache">Why don’t you recommend the “hosted cache” option since you recommend using Redis?</a>
+                                <section>
+                                    <p>This is to support customers who invest in the shared cache they rely on, giving them sufficient time to migrate to Redis Cache.</p>
                                 </section>
                             </div>
                         </li>
@@ -631,18 +633,18 @@
                 
             <div class="pricing-page-section">
                 <h2>Support and Service Level Agreements</h2>
-                <p>If you have any questions or need any help, please access <a href="/support/contact/" id="redis-contact-page">Azure Support</a> and select self-help service or any other methods to contact us for support.</p>
-				 <p>We guarantee that customers have connections between the cache terminal and Internet gateway at least 99.9% of the time. If you want to learn about the details of our server level agreement, please access the <a href="/support/sla/redis-cache/" id="pricing_redis_sla">Service Level Agreement</a> page.</p>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="redis-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
+				 <p>We guarantee that the customers have connections between the cache terminal and Internet gateway at least 99.9% of the time. To learn more about the details of our service level agreement, please visit the <a href="/support/sla/redis-cache/" id="pricing_redis_sla">Service Level Agreements</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                
     
     ]]></bodyText>
     <pageTitle>Azure Redis Cache Service Pricing - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-redis-cache</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Azure Redis Cache, Azure Redis Cache, Pricing Details, Pricing, Billing</metaKeywords>
+    <metaKeywords>Azure, Microsoft Cloud, Azure Redis Cache, Azure Redis Cache, Price details, pricing, billing</metaKeywords>
     <metaDescription><![CDATA[
-      Learn about the pricing details of Azure Redis Cache. Azure Redis Cache is divided into Basic, Standard and Premium levels. The price may vary between different levels, so customers may select the appropriate level as necessary. The ¥1 trial permits obtaining a service limit of ¥1500, or you can become an Azure advance payment user through direct purchasing.
+      Learn about the pricing details of Azure Redis Cache (Redis Cache). Azure Redis Cache is divided into basic, standard and advanced levels. The price may vary at different levels so that customers can select appropriate levels where necessary. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer.
  
     ]]></metaDescription>
     <urlDisplayName>Pricing Details - Redis Cache</urlDisplayName>

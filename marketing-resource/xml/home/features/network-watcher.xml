@@ -69,7 +69,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/network-watcher@2x.png" />
                         <h2><span>Network Watcher</span></h2>
                         <h4>Monitor, diagnose and find out in depth about network performance and operational status</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -82,10 +82,10 @@
                 </ul>
                                 
                 <h2>Use data packet capture to automate remote network monitoring</h2>             
-                <p>Monitor and diagnose network problems without the need to use Network Watcher programs to logon to VMs. Set alarms to trigger data packet capture and get real-time performance information access permissions at the data packet level, so you can perform detailed checks and obtain more accurate diagnostic results.</p>
+                <p>Monitor and diagnose networking issues without logging in to your virtual machine (VMs) using Network Watcher. Set alarms to trigger data packet capture and get access to real-time performance information at the data packet level, so you can perform detailed checks and obtain more accurate diagnostic results.</p>
                 
                 <h2>Use flow logs to find out about network traffic</h2>
-                <p>Use network security group flow logs to gain a deeper understanding of network traffic patterns. The information provided by flow logs helps you to collect compliance data and audit and monitor network security configuration files</p>
+                <p>Use Network Security Group flow logs to gain a deeper understanding of network traffic patterns. The information provided by flow logs helps you to collect compliance data and audit and monitor network security configuration files</p>
 
                 <h2>Diagnose VPN connection problems</h2>
                 <p>You can use Network Watcher to diagnose common VPN gateway and connection issues, so you can not only identify problems, but also use the detailed logs you created to assist you with further investigations.</p>
@@ -96,18 +96,18 @@
                 <h1>Find out more</h1>
                 <ul>
                     <li><a href="//docs.azure.cn/zh-cn/network-watcher/network-watcher-connectivity-portal/" id="lear-more_network-watcher-connectivity-portal">Use Azure Network Watcher to check connectivity - Azure Portal</a></li>
-                    <li><a href="//docs.azure.cn/zh-cn/network-watcher/network-watcher-nsg-flow-logging-portal/" id="lear-more_network-watcher-nsg-flow-logging-portal">Use Azure Network Watcher to manage network security group log files</a></li>
+                    <li><a href="//docs.azure.cn/zh-cn/network-watcher/network-watcher-nsg-flow-logging-portal/" id="lear-more_network-watcher-nsg-flow-logging-portal">Use Azure Network Watcher to manage Network Security Group log files</a></li>
                 </ul>
             </div>
             
-            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
     
     ]]></bodyText>
     <pageTitle>Network Watcher - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-app-service-network-watcher</linkid>
-    <metaKeywords>Azure, Network Watcher, VPN, functions</metaKeywords>
-    <metaDescription><![CDATA[Network Watcher lets you monitor, diagnose and understand the performance and operational status of networks, remotely capture VPN data packet data, use flow logs and install group views to monitor VM network security, and diagnose VPN connection issues.]]></metaDescription>
+    <metaKeywords>Azure, Network Watcher, Virtual Machines, Features</metaKeywords>
+    <metaDescription><![CDATA[Network Watcher lets you monitor, diagnose and understand the performance and operational status of networks, remotely capture VPN data packet data, use flow logs and install group views to monitor VM network security and diagnose VPN connection issues.]]></metaDescription>
     <urlDisplayName>App Service - Network Watcher</urlDisplayName>
   </TextpageLeftNav>
 </localize>

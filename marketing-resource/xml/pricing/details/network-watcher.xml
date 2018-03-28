@@ -74,7 +74,7 @@
 				<p>We guarantee that at least 99.9% of the time, network diagnostic tools can successfully perform and return responses. To learn more about the details of our service level agreement, please visit the <a href="/support/sla/network-watcher/" id="pricing_network-watcher-watcher_sla">Service Level Agreements</a> page.</p>
 				
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                  
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                  
     
     ]]></bodyText>
     <pageTitle>Network Watcher Pricing- Azure Cloud Computing</pageTitle>

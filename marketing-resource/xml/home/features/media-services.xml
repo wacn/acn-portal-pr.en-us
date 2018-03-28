@@ -10,13 +10,13 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/media-services@2x.png" />
                         <h2><span>Media Services</span></h2>
                         <h4>Securely provides scalable end-to-end media solutions for you to deliver media content across devices anywhere, any time.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_media_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_media_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_media_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_media_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
             <div class="pricing-page-section">
-                <h1>The cloud for advanced video workflow</h1>
+                <h1>You can use the cloud for advanced video workflow</h1>
                 <ul>
                     <li>Implements live streaming and VOD media delivery on the scale of international sporting events</li>
                     <li>High availability encoding and stream processing</li>
@@ -25,7 +25,7 @@
                     <li>Extensive content monetization options</li>
                     <li>Huge pre-integrated partner ecosystem</li>
                 </ul>
-                <p>With Azure’s cloud functions you can deliver any media content on virtually any device anywhere, anytime. Use Azure media services to create end-to-end media workflows and provide flexible, highly scalable encoding, packaging and distribution services. Securely upload, store, encode and package audio or video content for streaming or VOD delivery on endpoint devices including TVs, PCs and mobile devices.</p>
+                <p>With Azure’s cloud functions you can deliver any media content on virtually any device anywhere, anytime. Use Azure Media Services to create end-to-end media workflows and provide flexible, highly scalable encoding, packaging and distribution services. Securely upload, store, encode and package audio or video content for streaming or VOD delivery on endpoint devices including TVs, PCs and mobile devices.</p>
                 <h2>Large-scale encoding, storage and streaming delivery for audio and video</h2>
                 <p>Using Azure Media Services, you can build general end-to-end media workflows that reduce the costs associated with integrating multiple products and providers. You can choose integrated, immediately useable services from Microsoft and its partners.</p>
 
@@ -48,12 +48,12 @@
                 <p>Your assets can be appropriately protected by encryption during the upload process, after which they will be securely stored in the storage system, and then protected with Microsoft PlayReady digital rights management (DRM) or AES encryption during playback.</p>
 
                 <h2>Cover the widest range of users with the Player Frameworks and SDK</h2>
-                <p>With Microsoft’s Player Frameworks, example players and SDK, you can provide service to the most popular platforms and the devices with the most customers.</p>
+                <p>With Microsoft’s Player Frameworks, existing players and SDK, you can provide service to the most popular platforms and the devices with the most customers.</p>
 
                 <h2>Reliable partner ecosystem</h2>
                 <p>We have an extensible platform that incorporates well known third-party media technologies that are optimized and integrated for the cloud, scalable, and charged at standardized rates.</p>
 
-                <h2>Pay as you go</h2>
+                <h2>Pay-As-You-Go</h2>
                 <p>You can easily and reliably perform scaling for only the portion of the fees that you use and perfectly match usage with actual demand to meet burst or peak demand, so you don’t need to pay the cost of urgent encoding units, and you can reduce preliminary and current IT expenditure.</p>
 
                 <h2>Simplified video content management</h2>
@@ -66,7 +66,7 @@
                     <li><a href="/support/contact/" id="home_features_con">Contact us for more information</a></li>
                 </ul>
             </div>
-            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   
         
     ]]></bodyText>
     <pageTitle>Azure Media Services - Azure Cloud Computing</pageTitle>

@@ -9,16 +9,16 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/active-directory@2x.png" />
                         <h2>Azure Active Directory</h2>
-                        <h4>A modern service based on REST provides cloud identity authentication and access control for applications.</h4>
+                        <h4>A modern service based on REST that provides cloud identity authentication and access control for applications.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_active_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_active_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>Azure Active Directory is a comprehensive and highly available marking and access control cloud solution. It combines core directory services, advanced marking supervision and application access control. Azure Active Directory also provides a standards-based platform with abundant functions which supports developers in providing access control for applications based on centralized policies and rules.</p>
+                <p>Azure Active Directory is a comprehensive and highly available identification and access control cloud solution. It combines core directory services, advanced identification supervision and application access control. Azure Active Directory also provides a standards-based platform with abundant functions which supports developers in providing access control for applications based on centralized policies and rules.</p>
                 <p>Azure Active Directory currently provides free levels. For details on the list of functions, please see the table below.</p>
-                <p>The free version of Azure Active Directory covers cloud application access and self-help identify management of working staff with priority requirements for the cloud.</p>
+                <p>The free version of Azure Active Directory covers cloud application access and self-service identify management for task workers with priority requirements for the cloud.</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
@@ -26,7 +26,7 @@
                 <!-- BEGIN: TAB-CONTAINER-1 -->
                 <div class="tab-control-container tab-active" id="tabContent1">
                     <!-- BEGIN: Table1-Content-->
-                    <p>Integrate with locally deployed Azure Active Directory.</p>
+                    <p>Azure Active Directory currently offers a free service grade.</p>
                     <table cellpadding="0" cellspacing="0" width="100%" class="table-col6">
                         <tr>
                             <th align="left"><strong>&#160;</strong></th>
@@ -37,7 +37,7 @@
                             <td>Free</td>
                         </tr>
                         <tr>
-                            <td>The Directory as a Service</td>
+                            <td>Directory as a Service</td>
                             <td><i class="icon icon-tick"></i></td>
                         </tr>
                         <tr>
@@ -57,7 +57,7 @@
                             <td><i class="icon icon-tick"></i></td>
                         </tr>
                     </table>
-                    <p><sup>1</sup> Default usage quota is 150,000 objects. The object refers to an entity in the directory service, which is expressed by a unique distinguishing name. One example of the objects is to be used for user entry for identity authentication. If you need to exceed this default usage quota, please contact <a href="/support/contact/" id="home_identity_contact">the support staff</a>.</p>
+                    <p><sup>1</sup> Default usage quota is 150,000 objects. The object refers to an entity in the directory service, which is expressed by a unique distinguishing name. One example of the objects is to be used for user entry for identity authentication. If you need to exceed this default usage quota, please contact <a href="/support/contact/" id="home_identity_contact">support staff</a>.</p>
                     <!-- END: Table1-Content-->
                 </div>
                 <!-- END: TAB-CONTAINER-1 -->  
@@ -68,7 +68,7 @@
                 <p>Azure Active Directory provides Self Service Password Reset for cloud applications.</p>
             </div>
             <div class="pricing-page-section">
-                <h2>Marketing Regions</h2>
+                <h2>Regions Where Sold</h2>
                 <p>Azure Active Directory is available in the following regions:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
@@ -82,17 +82,17 @@
                 </table>
                 <div class="pricing-page-section">
                 <h2>Support and Service Level Agreements</h2>
-                <p>If you have any questions or need any help, please access <a href="/support/contact/" id="inentity-contact-page">Azure Support</a> to select self-help service or any other methods to contact us for support.</p>
-				 <p>The free version of Azure Active Directory doesn’t provide a service level agreement. If you want to learn more about the details of the server level agreement, please visit the <a href="/support/legal/sla/" id="pricing_identity_sla">Service Level Agreement</a> page.</p>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="inentity-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
+				 <p>The free version of Azure Active Directory doesn’t offer a service level agreement. If you want to learn more about the details of our server level agreement, please visit the <a href="/support/legal/sla/" id="pricing_identity_sla">Service Level Agreement</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                      
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                      
     
     ]]></bodyText>
     <pageTitle>Azure Active Directory - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-identity</linkid>
-    <metaKeywords>Azure, Azure Active Directory, Directory Services, Pricing</metaKeywords>
-    <metaDescription><![CDATA[Azure Active Directory currently provides free level services. The free version of Azure Active Directory covers the cloud application access and self-help identify management of working staff with priority requirements for the cloud. The ¥1 trial permits obtaining a service limit of ¥1500, or you can become an Azure advance payment user through direct purchasing and enjoy a service level agreement up to 99.99%.]]></metaDescription>
+    <metaKeywords>Azure, Azure Active Directory, directory services, pricing</metaKeywords>
+    <metaDescription><![CDATA[Azure Active Directory currently offers a free level. The free version of Azure Active Directory covers cloud application access and self-service identity management for task workers with priority requirements for the cloud. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Azure Active Directory</urlDisplayName>
   </TextpageLeftNav>
 </localize>

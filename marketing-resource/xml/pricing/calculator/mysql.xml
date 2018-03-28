@@ -9,7 +9,7 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/mysql_database_on_azure_icon@2x.png" />
                         <h2>MySQL <small>Database on Azure</small></h2>
-                        <h4>Compatibility with the MySQL open source database platform helps users to rapidly deploy databases that deliver high levels of reliability, security, availability, and value for money, reducing operating costs and enabling you to focus on innovative development</h4>
+                        <h4>It is compatible with MySQL platform; it can help users rapidly deploy, provide highly reliable, safe, usable and cost-effective database, and reduce operations and maintenance costs to allow you dedicated to innovation, research and development.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_mysql_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mysql_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                         <a href="#" class="close" id="closeCalculatorModal"></a>
                         <p>We will add service items selected on different pages to the combined calculation in the right-hand list. You can manually delete or clear items.</p>
                         <span class="checkbox-rect"></span>Don’t prompt again <a class="btn btn-continue" href="#">I’ve got it</a>
-                        </div>
+                    </div>
                 </div>
                 <!-- end calculator modal --> <!-- start calculator shopinglist template -->
                 <script type="text/template" id="templPricingShopingList">
@@ -95,7 +95,7 @@
                 <div class="azsidebar"></div>  
                 <!-- END: Pricing calculator Sidebar-->                  
             </div>
-            <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
+            <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
     
     ]]></bodyText>
     <pageTitle>Pricing Calculator - MySQL Database on Azure | Azure</pageTitle>
