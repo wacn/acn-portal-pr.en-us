@@ -10,13 +10,13 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/application-gateway@2x.png" />
                         <h2><span>Application Gateway</span></h2>
                         <h4>Use HTTP load balancing and delivery control to build highly scalable websites.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_applicationGateway_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_applicationGateway_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_applicationGateway_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_applicationGateway_pia">Buy  Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>Azure Application Gateway enables you to build highly scalable and available websites by providing HTTP load balancing and delivery control.</p>
+                <p>By providing HTTP load balancing and delivery control, Azure Application Gateway permits you to build highly expandable and highly available websites.</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
@@ -25,12 +25,12 @@
                     <!-- BEGIN: Table1-Content-->
                     <h2>Pricing Details</h2>
                     <h3>Application Gateway</h3>
-                    <p>We charge for application gateways based on their settings and the amount of time that they are available, as well as the amount of data that they process.</p>
+                    <p>We charge for Application Gateway based on the settings and the quantity of time providing the gateway, as well as the amount of data processed by Application Gateway.</p>
                     <!-- <p>从2016年4月1日起，价格会下调 25.5%，以下是下调后的新价格：</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
                         <div class="ms-date">*Monthly price estimation is based on a usage of 744 hours every month.</div><br />
-						<div class="ms-date">* When the created Application Gateway types support multiple instances, charging will be made by the front end instance quantity/hours of the gateway, rather than by the instance quantity actually used in the back end.</div>
+						<div class="ms-date">* When the created Application Gateway types support multiple instances, charging will be made by the front end instance quantity/hour of the gateway, rather than by the instance quantity actually used in the back end.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -44,7 +44,7 @@
                             </td>
 
                             <td>
-                                RMB 0.16 per gateway/hour (about RMB 119.04/month)
+                                RMB0.16 per gateway/hour (about RMB119.04/month)
                             </td>
 							
 							<td>
@@ -58,11 +58,11 @@
                             </td>
 
                             <td>
-                                RMB 0.45 per gateway/hour (about RMB 334.80/month)
+                                RMB0.45 per gateway/hour (about RMB334.80/month)
                             </td>
 							
 							<td>
-                                RMB 1.80 per gateway/hour (about RMB 1,339.20/month)
+                                RMB1.80 per gateway/hour (about RMB1,339.20/month)
                             </td>
                         </tr>
                         <tr>
@@ -71,17 +71,17 @@
                             </td>
 
                             <td>
-                                RMB 2.01 per gateway/hour (about RMB 1,495.44/month)
+                                RMB2.01 per gateway/hour (about RMB1,495.44/month)
                             </td>
 							
 							<td>
-                                RMB 6.38 per gateway/hour (about RMB 4,746.72/month)
+                                RMB6.38 per gateway/hour (about RMB4,746.72/month)
                             </td>
                         </tr>
                     </table>
                     <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
                     <h3>Data processing</h3>
-                    <p>The charges for data processing are based on the amount of data processed by the application gateway.</p>
+                    <p>The charges for data processing are based on the amount of data processed by the Application Gateway.</p>
                     <!-- <p>从2016年4月1日起，数据处理的价格会下调 25.5%，以下是下调后的新价格：</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -99,7 +99,7 @@
                                 First 10 TB/month
                             </td>
                             <td style="min-width:100px;">
-                                RMB 0.05/GB
+                                RMB0.05/GB
                             </td>
                             <td style="min-width:50px;">
                                 Free
@@ -110,13 +110,13 @@
                         </tr>
                         <tr>
                             <td style="min-width:100px;">
-                                Next 30 TB (10-40 TB)/month
+                                Last 30TB (10 - 40 TB)/month
                             </td>
                             <td style="min-width:100px;">
-                                RMB 0.05/GB
+                                RMB0.05/GB
                             </td>
                             <td style="min-width:50px;">
-                                RMB 0.04/GB
+                                RMB0.04/GB
                             </td>
                             <td style="min-width:50px;">
                                 Free
@@ -127,24 +127,24 @@
                                 Over 40 TB/month
                             </td>
                             <td style="min-width:100px;">
-                                RMB 0.05/GB
+                                RMB0.05/GB
                             </td>
                             <td style="min-width:50px;">
-                                RMB 0.04/GB
+                                RMB0.04/GB
 
                             </td>
                             <td style="min-width:50px;">
-                                RMB 0.02/GB
+                                RMB0.02/GB
                             </td>
                         </tr>
                     </table>
                     
                     <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
                     <h3>Inbound data transfers</h3>
-                    <p>(i.e., data going into Azure data centers): data going into Azure data centers through the application gateways will be charged at standard <a class="rolecashLink" id="redis_roleCaching_datacenter" href="/pricing/details/data-transfer/" target="_blank">data transfer rates</a>.</p>
+                    <p>(Namely, data transmission into the Azure Datacenter): data transmitted into the Azure Datacenter via Application Gateway will be charged at the standard <a class="rolecashLink" id="redis_roleCaching_datacenter" href="/pricing/details/data-transfer/" target="_blank">Data Transmission Rate</a>.</p>
                     <!-- END: Table3-Content--> <!-- BEGIN: Table4-Content-->
                     <h3>Outbound data transfers</h3>
-                    <p>(i.e., data going out of Azure data centers through application gateways): data transferred out of Azure data centers through application gateways will be charged at standard <a class="rolecashLink" id="redis_roleCaching_cloudService" href="/pricing/details/data-transfer/" target="_blank">data transfer rates</a>.</p>
+                    <p>(Namely, data transmission from Azure Datacenter): data transmitted from Azure Datacenter via Application Gateway will be charged at the standard <a class="rolecashLink" id="redis_roleCaching_cloudService" href="/pricing/details/data-transfer/" target="_blank">Data Transmission Rate</a>.</p>
                     <!-- END: Table4-Content-->
                 </div>
                 <!-- END: TAB-CONTAINER-1 -->
@@ -168,9 +168,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="pricing_redis_question3">Is an SLA offered for an application cloud service with only one instance? What about small application gateways?</a>
+                                <a id="pricing_redis_question3">Is a Service Level Agreement offered for an application cloud service with only one instance? What about small application gateways?</a>
                                 <section>
-                                    <p>No. The small application gateway size is mainly used for development/testing purposes. Running production workloads on a small application gateway may exceed the processing capacity of small instances. Application Gateway supports the deployment of one or more instances within the same cloud service. Running an Application Gateway cloud service with only one instance is not recommended due to the lack of high availability.</p>
+                                    <p>No. The small-sized Application Gateway is mainly used for development/testing purposes. Running production workloads on a small-sized Application Gateway may exceed the capacity of small instances. Application Gateway supports deploying one or several instances in the same cloud service. Due to a lack of high availability, running the Application Gateway service with only one instance is not recommended.</p>
                                 </section>
 
                             </div>
@@ -195,17 +195,17 @@
                 
                 <div class="pricing-page-section">
                 <h2>Support and Service Level Agreements</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="gateway-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
-				 <p>We guarantee that every Application Gateway service with two or more medium or larger instances is available at least 99.9% of the time. We don’t offer SLAs for the Application Gateway services with only one instance or small instances. If you want to learn more about the details of our server level agreement, please visit the <a href="/support/sla/application-gateway/" id="pricing_gateway_sla">Service Level Agreement</a> page.</p>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="gateway-contact-page">Azure Support</a> to select self-service or any other method to contact us for support.</p>
+				 <p>We guarantee every Application Gateway service with two or more medium- and large-sized instances is available at least 99.9% of the time. We don’t provide service level agreements for Application Gateway service with only one instance or small instances. If you want to learn about the details of our server level agreement, please access the <a href="/support/sla/application-gateway/" id="pricing_gateway_sla">Service Level Agreement</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                               
     
     ]]></bodyText>
-    <pageTitle>Application Gateway pricing - Azure Cloud Computing</pageTitle>
+    <pageTitle>Application Gateway Pricing - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-application-gateway</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, networking, virtual networking, Azure Application Gateway, Azure Application Gateway, load balancing, API, SSL offload, website services, HTTP load balancing</metaKeywords>
-    <metaDescription><![CDATA[Learn more about the pricing details for Azure Application Gateway. Using Azure Application Gateway enables you to build highly scalable and available websites by providing HTTP load balancing and delivery control. We charge for application gateways based on their settings and the amount of time that they are available, as well as the amount of data that they process. We also offer different pricing for small, medium and large types. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
+    <metaKeywords>Azure, Microsoft Cloud, Network, Virtual Network, Azure Application Gateway, Load Balancing, API, SSL Downloading, Website Services, HTTP Load Balancing</metaKeywords>
+    <metaDescription><![CDATA[Learn more about the pricing details for Azure Application Gateway. Using Azure Application Gateway enables you to build highly scalable and available websites by providing HTTP load balancing and delivery control. We charge for application gateways based on their settings and the amount of time that they are available, as well as the amount of data that they process. We also offer different pricing for small, medium and large types. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Application Gateway</urlDisplayName>
   </TextpageLeftNav>
 </localize>

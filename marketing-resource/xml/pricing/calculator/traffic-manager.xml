@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="http://resource.cdn.azure.cn/marketing-resource/css/traffic-manager@2x.png" />
-                        <h2>Traffic Manager<span>Traffic Manager</span></h2>
-                        <h4>Incoming traffic is routed to your application based on geographical area, improving application performance and availability.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_traffic_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_traffic_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2><span>Traffic Manager</span></h2>
+                        <h4>It can regionally route inbound traffic based on your usage to improve app performance and availability.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_traffic_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_traffic_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -30,14 +30,14 @@
                         <div class="total">
                             Total price
                             <p>
-                                <span class="num">RMB&#160;0.00</span> <span class="unit">/month</span>
+                                <span class="num">RMB0.00</span> <span class="unit">/month</span>
                             </p>
                         </div>
                         <div class="btn-group">
                             <a class="calcul-btn buy" href="/pricing/pia/" id="sidebarWinCalculBuy">Go to purchase</a> <a class="calcul-btn-white export" href="#" id="sidebarWinCalculExport">Export list</a> <a class="calcul-btn-white reset" href="#" id="sidebarWinCalculReset">Reset</a>
                         </div>
                         <p class="summary-text">
-                            Still hesitating? <a href="/pricing/1rmb-trial/" id="sidebarWinCalculTry">Try</a> these functions first.
+                            Still not convinced? <a href="/pricing/1rmb-trial/" id="sidebarWinCalculTry">Try</a> these features first.
                         </p>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-calculator-traffic-managerf</linkid>
     <metaKeywords>Azure, Microsoft Cloud, networking, virtual networking, Traffic Manager, Traffic Manager, load balancing, traffic</metaKeywords>
-    <metaDescription><![CDATA[Estimate the Azure Traffic Manager usage costs for your solution. You can select whatever services are required, along with their different types, levels, configurations, and instances. You can view the unit price and total price easily and estimate the required costs. You can also export lists for easy quotes. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[Estimate the Azure Traffic Manager usage costs for your solution. You can select whatever services are required, along with their different types, levels, configurations, and instances. You can view the unit price and total price easily and estimate the required costs. You can also export lists for easy quotes. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Calculator - Traffic Manager</urlDisplayName>
   </TextpageLeftNav>
 </localize>

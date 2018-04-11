@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/key-vault@2x.png" />
                         <h2>Key Vault<span>Key Vault</span></h2>
                         <h4>Encryption keys and other secrets that can protect and control cloud applications and service usage.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_keyvault_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_keyvault_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_keyvault_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_keyvault_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -20,7 +20,7 @@
                 <ul>
                     <li>Protect secrets such as keys and passwords.</li>
                     <li>Set up and deploy new vaults and keys in minutes without waiting for purchases, hardware or IT, and centrally manage keys, secrets, and policies.</li>
-                    <li>Maintain control of encrypted data - Authorize yourself and third party and revoke the use of keys as needed.</li>
+                    <li>Maintain control of encrypted data - Authorize yourself and third parties and revoke the use of keys as needed.</li>
                     <li>Separation of key management responsibilities allows developers to easily manage keys for development/testing and production keys transferred seamlessly to security operations departments for management.</li>
                     <li>Rapid expansion can meet the encryption requirements of your cloud applications and satisfy high requirements.</li>
                     <li>Global redundancy can be achieved by provisioning vaults in Azure Global Data Center.</li>
@@ -33,7 +33,7 @@
                     <!-- <p>从2016年4月1日起， 价格下调 25.5%，以下是下调后的新价格：</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br>
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%" class="table-col6">
                         <tr>
@@ -41,7 +41,7 @@
                             <th align="left"><strong>Standard</strong></th>
                         </tr>
                         <tr>
-                            <td>The keys for secrets and software protection</td>
+                            <td>Keys for secrets and software protection</td>
                             <td>RMB 0.20/10,000 operations</td>
                         </tr>
 						<tr>
@@ -66,7 +66,7 @@
                                 <section>
                                     <p>You can also store the following types of keys and secrets.</p>
                                     <ul>
-                                        <li>The key can be input or generated. When you require the key vault service to use a key to decrypt or sign, perform operations in the key vault.</li>
+                                        <li>The key can be input or generated. When you require the key vault service to use a key to decrypt or sign, operations are performed in the key vault.</li>
                                         <li>You can also use the key for encryption. In this case, cryptographic operations are performed in the software. These calculations are performed in the Azure computing role.</li>
                                         <li>Secrets are data (25 KB or less) that your application can store and retrieve in plain text, such as passwords or PFX files. An access control layer is provided for secret encryption by keys with the support of the key vault.</li>
                                     </ul>
@@ -78,7 +78,7 @@
                             <div>
                                 <a id="key-vault-question-operations">How is an operation defined?</a>
                                 <section>
-                                    <p>Each call count that successfully passes identity authentication counts as one operation. Examples of key operations: creation, input, retrieval, listing, backup, restore, deletion, update, sign, verification, encapsulation, unencapsulation, encryption, and decryption. Examples of confidential operations: creation/updates, retrieval, and listing.</p>
+                                    <p>Each call count that successfully passes REST API identity authentication counts as one operation. Examples of key operations: creation, input, retrieval, listing, backup, restore, deletion, update, sign, verification, encapsulation, un-encapsulation, encryption, and decryption. Examples of confidential operations: creation/updates, retrieval, and listing.</p>
                                 </section>
                             </div>
                         </li>
@@ -137,7 +137,7 @@
                 <div class="pricing-page-section">
                 <h2>Support and Service Level Agreements</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="keyvault-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-				 <p>We guarantee that in at least 99.9% of cases, key vault transactions can be processed within 5 seconds. To learn more about the details of our service level agreement, please visit the <a href="/support/sla/key-vault/" id="pricing_keyvault_sla">Service Level Agreements</a> page.</p>
+				 <p>We guarantee that in at least 99.9% of cases, key vault transactions can be processed within 5 seconds. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/key-vault/" id="pricing_keyvault_sla">Service Level Agreements</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                     
     
@@ -145,8 +145,8 @@
     <pageTitle>Key Vault - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-key-vault</linkid>
-    <metaKeywords>Azure, Key Vault, and Price</metaKeywords>
-    <metaDescription><![CDATA[Learn more about the price details of Azure Vault. With Azure Key Vault, Azure users can protect and control the encryption keys and other secrets used by cloud applications and services. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
+    <metaKeywords>Azure, Key Vault, and Pricing</metaKeywords>
+    <metaDescription><![CDATA[Learn more about the pricing details of Azure Key Vault. With Azure Key Vault, Azure users can protect and control the encryption keys and other secrets used by cloud applications and services. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Key Vault</urlDisplayName>
   </TextpageLeftNav>
 </localize>

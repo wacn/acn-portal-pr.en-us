@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/key-vault@2x.png" />
                         <h2>Key Vault<span>Key Vault</span></h2>
                         <h4>Encryption keys and other secrets that can protect and control cloud applications and service usage.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_keyvault_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_keyvault_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_keyvault_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_keyvault_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@
                 <p>Secure key management is a vital aspect of protection work for data in the cloud. With Azure Key Vault, you can encrypt other keys and ciphertexts, such as passwords, using keys stored in the Key Vault. The way that Key Vault is designed ensures that Microsoft cannot see or extract your keys. If you need to perform further analysis or implement threat detection, you can use Azure logs to monitor and audit keys (to be brought online later) - you can transfer logs via pipelines to Azure HDInsight or your own SIEM system (currently only available in a preview version).</p>
 
                 <h2>With everything under control, no work is necessary</h2>
-                <p>With Key Vault, there is no need to preconfigure, set up, patch or maintain any key management software. You can preconfigure new vaults and keys in minutes, as well as centrally managing keys, ciphertext passwords and strategies. You stay in control of the keys - simply grant permissions to your apps and third-party apps, and then use them as required. Apps do not have permissions to directly access keys. Developers can easily manage keys used for development and testing, and seamlessly migrate them to production keys managed with secure operations.</p>
+                <p>With Key Vault, there is no need to preconfigure, set up, patch or maintain any key management software. You can preconfigure new vaults and keys in minutes, as well as centrally managing keys, ciphertext passwords and policies. You stay in control of the keys - simply grant permissions to your apps and third-party apps, and then use them as required. Apps do not have permissions to directly access keys. Developers can easily manage keys used for development and testing, and seamlessly migrate them to production keys managed with secure operations.</p>
 
                 <h2>Improve performance and achieve global scale</h2>
                 <p>Storing encryption keys in the cloud instead of locally increases the performance of cloud apps and reduces latency. Key Vault can be rapidly scaled up to meet the encryption requirements of your apps without the need for other resources. You can preconfigure the Key Vault in Azure global datacenters to implement global redundancy.</p>

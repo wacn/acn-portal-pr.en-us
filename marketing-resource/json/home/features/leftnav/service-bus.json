@@ -1,5 +1,5 @@
 {"service": "Service Bus", 
-"id": "leftnav_product_messaging", 
+"id": "leftnav_product_service-bus", 
 "navigation": 
 [
 	{"group": "Product", 
@@ -8,19 +8,19 @@
 		[
 			{"link": "/home/features/service-bus/", 
 			"id": "leftnav_product_messaging_function", 
-			"title": "Product functionality"}, 
+			"title": "Product Functionality"}, 
 			{"link": "/pricing/details/service-bus/", 
 			"id": "leftnav_product_messaging_pricing", 
-			"title": "Price details"},
+			"title": "Pricing details"},
 			{"link": "/pricing/calculator/service-bus/", 
 			"id": "leftnav_product_messaging_calculator", 
-			"title": "Price calculator"},
+			"title": "Pricing calculator"},
 			{"link": "https://docs.azure.cn/service-bus/", 
 			"id": "leftnav_product_messaging_documentation", 
 			"title": "Documentation"},
 			{"link": "/support/sla/service-bus/", 
 			"id": "leftnav_product_messaging_sla", 
-			"title": "Service level agreement"}
+			"title": "Service Level Agreement"}
 		]
 	}, 
 	{"group": "Related products", 
@@ -29,7 +29,7 @@
 		[
 			{"link": "/home/features/web-site/", 
 			"id": "leftnav_product_web-site_function", 
-			"title": "Web app"}, 
+			"title": "Web Apps"}, 
 			{"link": "/home/features/event-hubs/", 
 			"id": "leftnav_product_event-hubs_function", 
 			"title": "Event Center"},
@@ -38,7 +38,7 @@
 			"title": "Notification Center"},
 			{"link": "/home/features/virtual-machines/", 
 			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual machine"}
+			"title": "Virtual Machine"}
 		]
 	}, 
 	{"group": "Related documentation and links", 

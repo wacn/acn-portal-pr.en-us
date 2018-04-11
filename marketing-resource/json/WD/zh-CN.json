@@ -121,11 +121,11 @@
   },
   "KIND_PIA_SIDE_DETAIL_TEXT": {
     "desc": "pia page side detail",
-    "title": "Details for standard prepaid subscriptions"
+    "title": "Details for standard Pay-in-Advance subscriptions"
   },
   "KIND_PIA_PRODUCT_TEXT": {
     "desc": "pia product text",
-    "title": "Standard prepaid product"
+    "title": "Standard Pay-in-Advance product"
   },
   "KIND_1RMB_PAGE_TITLE_TEXT": {
     "desc": "1rmb page title",
@@ -133,19 +133,19 @@
   },
   "KIND_1RMB_SIDE_DETAIL_TEXT": {
     "desc": "1rmb page side detail",
-    "title": "Details for 1 yuan trial offer"
+    "title": "Details for 1RMB Trial offer"
   },
   "KIND_1RMB_PRODUCT_TEXT": {
     "desc": "1rmb product text",
-    "title": " 1 yuan trial"
+    "title": " 1RMB Trial"
   },
   "OFFER_NAME_1RMB" : {
     "desc": "1rmb offer name",
-    "title": "1 yuan trial"
+    "title": "1RMB Trial"
   },
   "OFFER_NAME_PIA" : {
     "desc": "pia offer name",
-    "title": "Standard prepayment purchase"
+    "title": "Standard Pay-in-Advance purchase"
   },
   "AZURE_PORTAL_KNOWLEDGE" : {
     "desc": "azure portal knowledge",
@@ -225,7 +225,7 @@
   },
   "ALREADY_APPLY_1RMB_CLICK_TO_BUY_PIA": {
     "desc": "already apply 1rmb free trial, click here to apply pia offer",
-    "title": "You have already applied for a 1 yuan trial. Please click <a href='/pricing/pia-waiting-list'> here </a> to purchase a standard prepaid product."
+    "title": "You have already applied for an Azure 1 RMB Trial. Please click <a href='/pricing/pia-waiting-list'> here </a> to purchase a standard prepaid product."
   },
   "USERNAME_LABEL": {
     "desc": "user name label",
@@ -377,7 +377,7 @@
   },
   "FREE_TRIAL_LABEL_LONG": {
     "desc": "free trial long label in pia page",
-    "title": "Apply for 1 yuan trial"
+    "title": "Apply for 1RMB Trial"
   },
   "FREE_TRIAL_LABEL_SHORT": {
     "desc": "free trial short label in pia page",

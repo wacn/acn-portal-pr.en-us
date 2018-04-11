@@ -9,8 +9,8 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/event-hubs@2x.png" />
                         <h2><span>Event Hubs</span></h2>
-                        <h4>Collect cloud scale remote-sensing data from websites, applications and devices</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_event_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_event_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h4>Collect cloud-scale remoting-sensing data from Websites, applications and appliances</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_event_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_event_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -24,7 +24,7 @@
                 <div class="tab-control-container tab-active" id="tabContent1">
                     <!-- BEGIN: Table1-Content-->
                     <h2>Pricing Details</h2>
-                    <p>Event Hubs collect millions of events every second, so you can handle and analyze mass data from the connected devices and applications. <a id="pricing_event_hubs_fun" href="https://docs.azure.cn/" style="color: #00a8d9;">Check out its other features</a></p>
+                    <p>Event Hubs collects millions of events every second so you can handle and analyze mass data from connected appliances and applications. <a id="pricing_event_hubs_fun" href="https://docs.azure.cn/" style="color: #00a8d9;">View other features</a></p>
                     <!-- <p>事件中心提供两个级别的服务：基本版和标准版。</p> --> <!-- <p>从2016年4月1日起，价格会下调 25.5%，以下是下调后的新价格：</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -33,19 +33,19 @@
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <th></th>
-                            <th align="left"><strong>Basic version</strong></th>
-                            <th align="left"><strong>Standard version</strong></th>
+                            <th align="left"><strong>Basic Edition</strong></th>
+                            <th align="left"><strong>Standard Edition</strong></th>
                             <th align="left"><strong>Professional Edition<sup> 1 </sup></strong></th>
                         </tr>
                         <tr>
                             <td>Incoming events</td>
-                            <td>RMB 0.18/every 1 million events</td>
-                            <td>RMB 0.18/every 1 million events</td>
+                            <td>RMB 0.18/million events</td>
+                            <td>RMB 0.18/million events</td>
                             <td>Including</td>
                         </tr>
 
                         <tr>
-                            <td>Throughput units (incoming events 1MB/second, outgoing events 2MB/second)</td>
+                            <td>Throughput units (incoming events 1 MB/second, outgoing events 2MB/second)</td>
                             <td>RMB 0.1/hour (about RMB 74.40/month)</td>
                             <td>RMB 0.19/hour (about RMB 141.36/month)</td>
                             <td>Including</td>
@@ -59,7 +59,7 @@
                         </tr>
 
                         <tr>
-                            <td>Publisher’s policy</td>
+                            <td>Publisher Policy</td>
                             <td></td>
                             <td>√</td>
                             <td>√</td>
@@ -109,12 +109,12 @@
                             <td>Capturing</td>
                             <td></td>
                             <td>RMB 0.636/hour (about RMB 473.184/month)</td>
-                            <td>Including</td>
+                            <td>Included</td>
                         </tr>
                     </table>
-                    <p><sup>1 </sup>The price of Dedicated Event Hubs is RMB 34,149.6/month. The expenses of 4 hours will be collected as a minimum, then charging is imposed by the hour. The dedicated layer is not suitable for deployment from the Azure portal, so customers need to contact Vianet Customer Service Support to obtain the dedicated cluster. For details about the product/service, please read <a href="https://docs.azure.cn/zh-cn/event-hubs/event-hubs-dedicated-overview" id="pricing-event-hubs_event-hubs-dedicated-overview">Overview of Dedicated Event Hubs</a>. If you have any other questions, please contact <a href="/support/contact/" id="hubs-contact-page-support">Vianet Customer Service Support</a>.</p>
-                    <p><sup>2 </sup>If you request to increase the throughput unit of Standard Event Hubs to over 20, please <a href="/support/contact/" id="hubs-contact-page-2">contact us</a>.</p>
-					<p><sup>3 </sup>In the standard layer, the message can be retained at most 7 days, but extra fees will be charged for 1 day overdue.</p>
+                    <p><sup>1 </sup>The price of Dedicated Event Hubs is RMB 34,149.6/month. The expenses of 4 hours will be collected as a minimum, then after 4 hours, charging is by the hour. The dedicated layer is not suitable for deployment from the Azure portal, so customers need to contact 21Vianet Customer Service Support to obtain the dedicated cluster. For details about the product/service, please read <a href="https://docs.azure.cn/zh-cn/event-hubs/event-hubs-dedicated-overview" id="pricing-event-hubs_event-hubs-dedicated-overview">Overview of Dedicated Event Hubs</a>. If you have any other questions, please contact <a href="/support/contact/" id="hubs-contact-page-support">21Vianet Customer Service Support</a>.</p>
+                    <p><sup>2 </sup>If you request to increase the throughput unit of Standard Event Hubs to more than 20, please <a href="/support/contact/" id="hubs-contact-page-2">contact us</a>.</p>
+					<p><sup>3 </sup>In the standard layer, messages can be retained 7 days at most, however, keeping messages for more than 1 day will result in overage charges.</p>
 					<!-- <p>基本级别的事件中心为每个 Service Bus 命名空间提供 100 个 Service Bus 中转连接，这些中转连接在整个 Service Bus 命名空间中共享。标准级别的事件中心为每个订阅提供 1,000 个 Service Bus 中转连接。</p> --> <!-- END: Table4-Content-->
                 </div>
                 <!-- END: TAB-CONTAINER-1 -->
@@ -129,10 +129,10 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="pricing_enent_hubs_question1">What are incoming events and how do we charge them?</a>
+                                <a id="pricing_enent_hubs_question1">What are incoming events and how do we charge for them?</a>
                                 <section>
                                     <p>Incoming events refer to data units equal to or less than 64 KB. Every incoming event is a billable event. Bigger messages are charged by multiples of 64 KB. For instance, an 8 KB message is charged as one event, and a 96 KB message is charged by two events.</p>
-                                    <p>The events used from Event Hubs, and the managed/operated events and “controlled request” (e.g. check point) are not billable incoming events statistically, but will be aggregated into the throughput unit limit.</p>
+                                    <p>The events used from Event Hubs, and the managed/operated events and “controlled requests” (e.g. check points) are not billable incoming events statistically, but will be aggregated into the throughput unit limit.</p>
                                 </section>
 
                             </div>
@@ -142,7 +142,7 @@
                             <div>
                                 <a id="pricing_enent_hubs_question2">What is the throughput unit and how do we charge for it?</a>
                                 <section>
-                                    <p>The throughput unit is selected specifically by customers through Azure Portal or the Event Hubs’ Management API. The throughput unit will be applied to all Event Hubs in a certain Service Bus namespace, and every throughput unit will assign the namespace the following functions:</p>
+                                    <p>The throughput unit is selected specifically by customers through Azure Portal or the Event Hubs’ Management API. The throughput unit will be applied to all Event Hubs in a certain Service Bus namespace, and every throughput unit will assign the namespace the following features:</p>
                                     <ul style="list-style:none;">
                                         <li>1. Maximum 1 MB incoming events per second (equal to the number of events sent to Events Hubs), but the incoming events, managed/operated events or controlled API requests per second shall not exceed 1000.</li>
                                         <li>2. Max. 2 MB outgoing events per second (equal to the number of events used from Event Hubs).</li>
@@ -157,10 +157,10 @@
                             <div>
                                 <a id="pricing_enent_hubs_question3">How is the throughput unit of Event Hubs implemented?</a>
                                 <section>
-                                    <p>If the total incoming throughput or total incoming events rate within all Event Hubs in a namespace exceeds the quota of aggregated throughput units, the sender will be restricted, and an error message will pop up indicating exceeding of the incoming quota.</p>
-                                    <p>If the total outgoing throughput or total outgoing events rate within all Event Hubs in a namespace exceeds the quota of aggregated throughput units, the receiver will be restricted, and an error message will pop up indicating excess of the outgoing quota. Incoming quota and outgoing quota are implemented separately, thus no sender will induce the use of slow-down events, and no receiver can stop the sending of events to Event Hubs.</p>
-                                    <p>Please note, the selection of throughput units has nothing to do with the quantity of Event Hubs partitions (sometimes called segments in similar systems). That notwithstanding, the maximum throughput provided in every partition is 1 MB/1000 incoming events and 2MB outgoing events every second, and the partition itself doesn’t generate fixed fees. The fees are collected for the aggregated throughput unit on all Event Hubs in a certain Service Bus namespace. In this way, customers could create enough partitions to support the maximum expected load of the system; but paying a throughput unit fee before the events load on the system really needs bigger throughput is not required, and modifying the system’s structure and architecture to meet the demand for a rising system load is also not required.</p>
-                                    <p>Assume that you have selected 8 throughput units in the Namespace, and created an individual Event Hub containing 32 partitions. If all partition loads in the Event Hub are balanced, every partition will gain about 0.25 MB/second incoming throughput, and the total aggregated throughput is 8 MB/second. If a 1MB/second usage peak occurs at a certain partition, and the load of the other 8 partitions is only half of the peak load (0.125 MB/second), partition constraint will not happen. However, if the load peak of a certain partition exceeds 1 MB/second, the partition will be limited (since every partition has a quota), although the aggregated throughput of all partitions is still less than 8 MB/second.</p>
+                                    <p>If the total incoming throughput or total incoming events rate within all Event Hubs in a namespace exceed the quota of aggregated throughput units, the sender will be limited, and an error message will pop up indicating an excess beyond the incoming quota.</p>
+                                    <p>If the total outgoing throughput or total outgoing events rate within all Event Hubs in a namespace exceed the quota of aggregated throughput units, the receiver will be limited, and an error message will pop up indicating an excess beyond the outgoing quota. The incoming quota and outgoing quota are implemented separately, thus any sender will not induce the use of slow-down events, and no receiver can stop sending events to Event Hubs.</p>
+                                    <p>Please note, the selection of throughput units has nothing to do with the quantity of Event Hubs partitions (sometimes called segments in similar systems). Despite that, the maximum throughput provided in every partition is 1 MB/1000 incoming events and 2 MB of outgoing events every second, but the partition itself doesn’t generate fixed fees. The fees are collected for the aggregated throughput unit on all Event Hubs in a certain Service Bus namespace. In this way, customers can create enough partitions to support the maximum expected load of the system. There is no need to pay any throughput unit costs before the event load on the system really needs more throughput, and there is no need to change the structure and architecture of its system to meet increasing system load demands.</p>
+                                    <p>Assume that you have selected 8 throughput units in the Namespace, and created an individual Event Hub containing 32 partitions. If all partition loads in the Event Hub are balanced, every partition will gain about 0.25 MB/second incoming throughput, and the total aggregated throughput is 8 MB/second. If a 1 MB/second usage peak occurs at a certain partition, and the load of the other 8 partitions is only half of the peak load (0.125 MB/second), partition constraint will not happen. However, if the load peak of a certain partition exceeds 1 MB/second, the partition will be limited (since every partition has a quota), although the aggregated throughput of all partitions is still less than 8 MB/second.</p>
                                 </section>
 
                             </div>
@@ -170,7 +170,7 @@
                             <div>
                                 <a id="pricing_enent_hubs_question4">Is there any limit on the number of selectable throughput units?</a>
                                 <section>
-                                    <p>Yes. The basic and standard namespaces may have 20 throughput units at most. You can request more throughput units for standard level by filling out support vouchers. Please note, we do not guarantee that extra capacity over 20 throughput units for every Azure subscription is available immediately. It’s recommended the customers expecting to exceed 20 Event Hubs throughput units contact us as soon as possible within the planning cycle, so as to discuss relevant requirements. Extra throughput units will be provided in the form of 20 unit blocks based on the promised purchase.</p>
+                                    <p>Yes. The basic and standard namespaces may have 20 throughput units at most. You can request more throughput units for the standard tier by filling out support vouchers. Please note, we do not guarantee that extra capacity over 20 throughput units for every Azure subscription is available immediately. It’s recommended that customers expecting to exceed 20 Event Hubs throughput units contact us as soon as possible within the planning cycle, so as to discuss relevant requirements. Extra throughput units will be provided in the form of 20 unit blocks based on the promised purchase.</p>
                                 </section>
 
                             </div>
@@ -180,7 +180,7 @@
                             <div>
                                 <a id="pricing_enent_hubs_question5">How long is the longest retention period?</a>
                                 <section>
-                                    <p>After public marketing, we provide a 7-day retention period at most. Please note, Event Hubs shall not be used as permanent data storage. Providing a retention period over 24 hours is mainly for enabling customers to replay the events flow on the same system, so as to realize training or validate new computer learning models based on existing data.</p>
+                                    <p>After public listing, we provide a 7-day retention period at most. Please note, Event Hubs shall not be used as permanent data storage. Providing a retention period over 24 hours is mainly for enabling customers to replay the events flow on the same system, so as to realize training or validating new computer learning models based on existing data.</p>
                                 </section>
 
                             </div>
@@ -188,9 +188,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="pricing_enent_hubs_question6">Is paying for retaining the events of Event Hubs over 24 hours required?</a>
+                                <a id="pricing_enent_hubs_question6">Is paying for retaining the Event Hubs events over 24 hours required?</a>
                                 <section>
-                                    <p><p>This will be charged on many occasions. If the total amount of storage events exceeds the storage limit of selected throughput units (every throughput unit is 84 GB), the excess fees will be charged at the regular <a style="color:#00a8d9;" id="pricing_event_hubs_blob" href="/home/features/storage/#price">Azure Blob storage rate</a>. The storage limit of every throughput unit covers all storage fees of a retention period of 24 hours (default period), even if the usage of the throughput unit reaches the maximum incoming quota.</p></p>
+                                    <p><p>This will be charged on many occasions. If the total amount of storage events exceeds the storage limit of selected throughput units (every throughput unit is 84 GB), the excess fees will be charged at the regular <a style="color:#00a8d9;" id="pricing_event_hubs_blob" href="/home/features/storage/#price">Azure Blob Storage rate</a>. The storage limit of every throughput unit covers all storage fees for a retention period of 24 hours (default period), even if the usage of the throughput unit reaches the maximum incoming quota.</p></p>
                                 </section>
                             </div>
                         </li>
@@ -199,7 +199,7 @@
                             <div>
                                 <a id="pricing_enent_hubs_question7">How is the memory size of Event Hubs computed and charged?</a>
                                 <section>
-                                    <p>The total size of all storage events (including all internal expenses of the event header, or the disk storage structure within all Event Hubs in a certain namespace) is measured in days. At the end of a day, the peak memory size will be computed. The daily storage quota is computed by the minimum throughput units selected in a day (the quota provided by every throughput unit is 84 GB). If the total size exceeds the daily storage quota, the extra storage will be charged at the Azure Blob storage rate (by the local redundant storage rate).</p>
+                                    <p>The total size of all storage events (including all internal expenses of the event header, or the disk storage structure within all Event Hubs in a certain namespace) is measured in days. At the end of a day, the peak memory size will be computed. The daily storage quota is computed by the minimum throughput units selected in a day (the quota provided by every throughput unit is 84 GB). If the total size exceeds the daily storage quota, the extra storage will be charged at the Azure Blob Storage rate (by the local redundant storage rate).</p>
                                 </section>
                             </div>
                         </li>
@@ -220,7 +220,7 @@
                                 <a id="pricing_enent_hubs_question9">Do you charge for the Event Hubs transfer connections?</a>
                                 <section>
                                    <p>
-                                            No matter how many transmitting systems/devices there are, connection fees aren’t charged for transmitting events via HTTP. We will count the AMQP connections. However, for every Basic Event Hub’s namespace, the first 100  concurrent connections are free of charge; for Standard Event Hubs, the first 1000 concurrent connections for every subscription are free of charge. These limits cover many acceptance programs and service-to-service schemes. Generally, there will be considerable transfer connection fees only when you plan to use  AMQP on numerous clients, namely, to realize more efficient event flows or activate two-way communication (IoT command and control schemes). For details about the composition of transfer connections and its counting method, please see the pricing information <a id="pricing_event_hubs_con" href="/home/features/service-bus/#price" style="color: #00a8d9;">of Service Bus Connections</a>.
+                                            No matter how many transmitting systems/devices there are, connection fees aren’t charged for transmitting events via HTTP. We will count the AMQP connections. However, for every Basic Event Hub’s namespace, the first 100  concurrent connections are free of charge; for Standard Event Hubs, the first 1,000 concurrent connections for every subscription are free of charge. These limits cover many acceptance programs and service-to-service schemes. Generally, there will be considerable transfer connection fees only when you plan to use  AMQP on numerous clients, namely, to realize more efficient event flows or activate two-way communication (IoT command and control schemes). For details about the composition of transfer connections and its counting method, please see the <a id="pricing_event_hubs_con" href="/home/features/service-bus/#price" style="color: #00a8d9;">Service Bus Connections Pricing</a> information.
                                         </p>
                                 </section>
                             </div>
@@ -232,7 +232,7 @@
                                 <a id="pricing_enent_hubs_question10">How is Event Hubs Capture billed?</a>
                                 <section>
                                    <p>
-                                            When the Event Hub of namespace activates the capture function, the capture function of the Event Hub can be started. This will be charged by hours according to the throughput units purchased. In case of an increase or reduction of the throughput units, the variation will be reflected in billing by hourly increments.
+                                            When the Event Hub of a namespace activates the capture feature, the capture feature of the Event Hub can be started. This will be charged by the hour according to the throughput units purchased. In case of an increase or reduction of the throughput units, the variation will be reflected in billing by hourly increments.
                                         </p>
                                 </section>
                             </div>
@@ -241,10 +241,10 @@
 						<li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="pricing_enent_hubs_question11">What effects does Event Hub Capture have on the outgoing actions of the Event Hub?</a>
+                                <a id="pricing_enent_hubs_question11">What effects does Event Hubs Capture have on the outgoing actions of the Event Hub?</a>
                                 <section>
                                    <p>
-                                            Event Hub Capture will not affect the outgoing rate of the Event Hub throughput units. You can still read it by the full throughput unit of 2,000 events per second/2MBps every throughput unit.
+                                            Event Hubs Capture will not affect the outgoing rate of the Event Hub throughput units. You can still read it by the full throughput unit of 2,000 events per second/2MBps every throughput unit.
                                         </p>
                                 </section>
                             </div>
@@ -253,10 +253,10 @@
 						<li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="pricing_enent_hubs_question11">How does the Event Hubs Capture storage account charge for storage?</a>
+                                <a id="pricing_enent_hubs_question11">How does the storage account of Event Hubs Capture charge for storage?</a>
                                 <section>
                                    <p>
-                                            Event Hub Capture uses the storage account of the plan you provide. Since this is your storage account, the usage fee of this storage account will be included in your Azure subscription. The shorter the capture window, the more frequent the storage transactions.
+                                            Event Hubs Capture uses the storage account of the plan you provide. Since this is your storage account, the usage fee of this storage account will be included in your Azure subscription. The shorter the capture window, the more frequent the storage transactions.
                                         </p>
                                 </section>
                             </div>
@@ -282,7 +282,7 @@
               <div class="pricing-page-section">
                 <h2>Support and Service Level Agreements</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="hubs-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
-				 <p>For the “Basic” and “Standard” levels of Event Hubs, we guarantee that, at least 99.9% of the time, applications configured correctly can send or receive messages or perform other operations in Event Hub. If you want to learn about the details of our server level agreement, please access the <a href="/support/sla/event-hubs/" id="pricing_hubs_sla">Service Levels Agreements</a> page.</p>
+				 <p>For the “Basic” and “Standard” levels of Event Hubs, we guarantee that, at least 99.9% of the time, applications configured correctly can send or receive messages or perform other operations in Event Hubs. If you want to learn about the details of our server level agreement, please access the <a href="/support/sla/event-hubs/" id="pricing_hubs_sla">Service Levels Agreements</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                 
     
@@ -290,8 +290,8 @@
     <pageTitle>Event Hub Service Pricing - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-event-hubs</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, IoT, Event Hubs, Azure Event Hubs, data processing, hosting services, price</metaKeywords>
-    <metaDescription><![CDATA[Learn about the price details of Event Hubs. Azure Event Hubs is a service used to process mass data flows from websites, applications and equipment. Basic and Standard levels are available. The Standard level Event Hub provides 1,000 Service Bus transfer connections for every subscription. A 1 RMB Trial gets you RMB 1,500 in service credits, or you can become an Azure pay-in-advance user through direct purchasing and enjoy the highest 99.99% service level agreement.]]></metaDescription>
+    <metaKeywords>Azure, Microsoft Cloud, IoT, Event Hubs, Azure Event Hubs, data processing, hosting services, pricing</metaKeywords>
+    <metaDescription><![CDATA[Learn about the pricing details of Event Hubs. Azure Event Hubs is a service used to process mass data flows from websites, applications and equipment. Basic and standard tiers are available. Standard level Event Hubs provides 1,000 Service Bus transfer connections for every subscription. A 1 RMB Trial gets you RMB 1,500 in service credits, or you can become an Azure Pay-in-advance user through direct purchasing and enjoy the highest 99.99% Service Level Agreement.]]></metaDescription>
     <urlDisplayName>Pricing Details - Event Hubs</urlDisplayName>
   </TextpageLeftNav>
 </localize>

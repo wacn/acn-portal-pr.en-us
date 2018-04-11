@@ -8,32 +8,32 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/cloud-services@2x.png" />
-                        <h2>Cloud Services<span>Cloud Services</span></h2>
+                        <h2><span>Cloud Services</span></h2>
                         <h4>Deploy highly available, massively scalable applications and APIs.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_cloud_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cloud_trial">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_cloud_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cloud_trial">Buy now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
             <div class="pricing-page-section">
                 <h1>Create highly available, massively scalable applications and APIs</h1>
-                <p>Use Azure Cloud Services for the rapid deployment and management of applications and services with powerful functions. Just upload your application and Azure will handle the deployment details (from resource configuration and load balancing to health monitoring), enabling continuous availability. Your application can easily implement offsite multi-point backup with Azure, eliminating worries. You only need to focus on the application without worrying about the IT infrastructure. It's that simple.</p>
+                <p>Use Azure Cloud Services for the rapid deployment and management of applications and services with powerful features. Just upload your application and Azure will handle the deployment details (from resource configuration and load balancing to health monitoring), enabling continuous availability. Your application can easily implement offsite multi-point backup with Azure, eliminating worries. You only need to focus on the application without worrying about the IT infrastructure. It's that simple.</p>
                 <h2>You can perform the following operations with Cloud Services:<br />Focus on apps, not infrastructure</h2>
                 <p>There’s no need to worry about patching or dealing with hardware failures and network problems. Azure Cloud Services helps you create a continuously available application whose use is not affected even if the system is upgraded or a hardware failure occurs. Now you just have to focus on the code - that's the really important thing.</p>
 
                 <h2>Develop Internet-scale APIs for a large number of devices</h2>
-                <p>Each new mobile application requires a set of server-side services with powerful functions for support. Azure Cloud Services prepares everything for you to build the most robust scalable APIs. With endless scalability that’s available all the time, you don’t need to write any code to cope with the spikes in traffic that come with great success.</p>
+                <p>Each new mobile application requires a set of server-side services with powerful features for support. Azure Cloud Services prepares everything for you to build the most robust scalable APIs. With endless scalability that’s available all the time, you don’t need to write any code to cope with the spikes in traffic that come with great success.</p>
 
                 <h2>Build modern cloud system architecture</h2>
                 <p>Azure Cloud Services provides the most effective application environment for building the most advanced distributed computing applications in the world. Applications that respond faster and never go down will benefit your customers enormously.</p>
 
                 <h2>New Dv2-series virtual machine features</h2>
-                <p>The Dv2-series is an improvement on the D-series cloud services, that can provide an even more powerful CPU. The Dv2-series is based on the latest generation 2.4 GHz Intel Xeon®E5 - 2673 v3 (Haswell) processor, and with Intel Turbo Boost Technology 2.0, can go up to 3.2 GHz. The Dv2-series and D-series combined can provide powerful functions for enterprise-grade applications that require faster CPUs, better local disk performance, or higher memories. They offer a powerful combination for many enterprise-grade applications.</p>
+                <p>The Dv2-series is an improvement on the D-series cloud services and can provide an even more powerful CPU. The Dv2-series is based on the latest generation 2.4 GHz Intel Xeon®E5 - 2673 v3 (Haswell) processor, and with Intel Turbo Boost Technology 2.0, can go up to 3.2 GHz. The Dv2-series and D-series combined can provide powerful functions for enterprise-grade applications that require faster CPUs, better local disk performance, or higher memories. They offer a powerful combination for many enterprise-grade applications.</p>
             </div>
-            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
     
     ]]></bodyText>
-    <pageTitle>Cloud Services - Azure cloud computing</pageTitle>
+    <pageTitle>Cloud Services - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-cloud-services</linkid>
     <metaKeywords>Cloud Services, cloud applications, Azure Cloud, Azure</metaKeywords>

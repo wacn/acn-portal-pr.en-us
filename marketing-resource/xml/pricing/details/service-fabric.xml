@@ -10,13 +10,13 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/documents/service-fabrics@2x.png" />
                         <h2>Service Fabric</h2>
                         <h4>Service Fabric is an application platform that can be used to build microservice-based applications.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_service-fabric_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_service-fabric_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_service-fabric_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_service-fabric_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>Service Fabric has simplified the application development of microservice architecture, enabling developers to focus on constructing the functions of raising the end user’s value without restriction, rather than the management infrastructure.</p>
+                <p>Service Fabric simplifies development of microservice architecture applications, enabling developers to focus on building features that raise end-user value without restrictions, rather than the management infrastructure.</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
@@ -24,11 +24,11 @@
                 <div class="tab-control-container tab-active" id="tabContent1">
                     <!-- BEGIN: Table1-Content-->
                     <h3>Service Fabric on Azure</h3>
-                    <p>Service Fabric can be applied to a Windows Server virtual machine or Linux virtual machine of any standard size (only the preview version of Service Fabric is currently available on Linux). Service Fabric can also be used under the preview version, meanwhile Ubuntu images can run on Azure. You will be charged only for the calculation instances you select and for the memory and network resources used to build Service Fabric clusters. The Service Fabric services are free of charge. For details on the pricing of necessary resources, please visit the following webpages:</p>
-                    <p><a id="sla-Global-distribution01" href="/pricing/details/virtual-machines/" target="_blank">Virtual Machine Pricing</a></p>
+                    <p>Service Fabric can be applied to a Windows Server Virtual Machines or Linux Virtual Machines of any standard size (only the preview version of Service Fabric is currently available on Linux). Service Fabric can also be used under the preview version, meanwhile Ubuntu images can run on Azure. You will be charged only for the calculation instances you select and for the memory and network resources used to build Service Fabric clusters. The Service Fabric services are free of charge. For details on the pricing of necessary resources, please visit the following webpages:</p>
+                    <p><a id="sla-Global-distribution01" href="/pricing/details/virtual-machines/" target="_blank">Virtual Machines Pricing</a></p>
                     <p><a id="sla-Global-distribution02" href="/pricing/details/storage/" target="_blank">Memory Pricing</a></p>
                     <p><a id="sla-Global-distribution03" href="/pricing/details/ip-addresses/" target="_blank">IP Address Pricing</a> (if your Service Fabric cluster requires other load balancers).</p>
-                    <p>In order to better estimate the cost of the required Service Fabric clusters, please use the <a id="sla-Global-distribution04" style="color: #00a8d9;" href="/pricing/calculator/" target="_blank">Azure Price Calculator</a>.</p>
+                    <p>To better estimate the cost of required Service Fabric clusters, please use the <a id="sla-Global-distribution04" style="color: #00a8d9;" href="/pricing/calculator/" target="_blank">Azure Pricing Calculator</a>.</p>
                     <!-- END: Table1-Content-->
                 </div>
                 <!-- END: TAB-CONTAINER-1 --> <!-- BEGIN: TAB-CONTAINER-2 -->
@@ -58,16 +58,16 @@
                 <div class="pricing-page-section">
                 <h2>Support and Service Level Agreements</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="fabric-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-				 <p>Service Fabric is a free service, so it’s not applicable to the service level agreement. The availability of Service Fabric clusters is based on the service level agreement of the used foundation virtual machine and memory resources. To learn more about the details of our service level agreement, please visit the <a href="/support/sla/service-fabric/" id="pricing_service-fabric_sla">Service Level Agreements</a> page.</p>
+				 <p>Service Fabric is a free service, so it’s not applicable to the Service Level Agreement. The availability of Service Fabric clusters is based on the Service Level Agreement of the virtual machine and storage resources used. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/service-fabric/" id="pricing_service-fabric_sla">Service Level Agreement</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                       
     
     ]]></bodyText>
-    <pageTitle>Service Fabric service quotation price estimation -  Azure could computing</pageTitle>
+    <pageTitle>Service Fabric service quote_ price estimate -  Azure Could Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-service-fabric</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Azure Service Fabric, pricing, charges</metaKeywords>
-    <metaDescription><![CDATA[To learn about the price details of Azure Service Fabric. Service Fabric can be applied to a Windows Server virtual machine of any standard size. You will be charged only for the calculation instances selected by the user and for the memory and network resources used to build Service Fabric clusters. Service Fabric services are free of charge. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer.]]></metaDescription>
+    <metaDescription><![CDATA[About Azure Service Fabric pricing details. Service Fabric can be applied to a Windows Server Virtual Machine of any standard size. You will be charged only for the calculation instances selected by the user and for the storage and network resources used to build Service Fabric clusters. Service Fabric services are free of charge. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
     <urlDisplayName>Pricing Details - Service Fabric</urlDisplayName>
   </TextpageLeftNav>
 </localize>

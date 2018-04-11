@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/azure-iot-hub80.png" />
-                        <h2>Azure IoT Hub<span>Azure IoT Hub</span></h2>
+                        <h2><span>Azure IoT Hub</span></h2>
                         <h4>Connect, monitor and control millions of IoT assets, and improve the security of IoT solutions</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_iot-hub_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-hub_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_iot-hub_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-hub_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -25,17 +25,17 @@
                     <!-- BEGIN: Table1-Content-->
                     <h2>Pricing Details</h2>
                     <p>The Azure IoT Hub has three editions: the Free Edition, S1 Edition, and S2 Edition, which are now published by the Azure IoT Hub. The new pricing will take effect as indicated below.</p>
-                    <p>Free Edition: free trial of Azure IoT Hub services. Upon signup, you can transmit up to 8,000 messages per day. It is suitable for understanding and testing functionality of IoT Hub Services.</p>
+                    <p>Free Edition: free trial of Azure IoT Hub services. Upon signup, you can transmit up to 8,000 messages per day. It is suitable for understanding and testing features of IoT Hub Services.</p>
                     <p>S1 Edition: the IoT Hub S1 edition is designed for IoT solutions that generate relatively small amounts of data. Each pricing unit of the S1 Edition allows you to transfer up to 400,000 million messages per day across all connected devices.</p>
                     <p>S2 Edition: the IoT Hub S2 Edition is designed for IoT solutions that generate relatively large amounts of data. Each pricing unit of the S2 Edition allows you to transfer up to 6 million messages per day across all connected devices.</p>
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <th align="left"><strong>Edition Type</strong></th>
-                            <th align="left"><strong>Price/Unit/Month</strong></th>
+                            <th align="left"><strong>Pricing/Unit/Month</strong></th>
                             <th align="left"><strong>Total consumption/Day/Unit</strong></th>
                             <th align="left"><strong>Consumption Calculation Size</strong></th>
                         </tr>
@@ -99,7 +99,7 @@
                             <div>
                                 <a id="ih-que-q3">What is included in the S2 Edition of the Azure IoT Hub?</a>
                                 <section>
-                                    <p>The S2 Edition of Azure IoT Hub is used for scenarios where the customer has a large number of devices and generates large amounts of data, thus requiring frequent transmission of messages. Each pricing unit of S2 Edition allows you to transfer up to 6 million messages a day. If more than 6 million messages are transmitted on all devices each day, you will need to purchase more units.</p>
+                                    <p>The S2 Edition of Azure IoT Hub is used for scenarios where the customer has a large number of devices and generates large amounts of data, thus requiring frequent transmission of messages. Each pricing unit of the S2 Edition allows you to transfer up to 6 million messages a day. If more than 6 million messages are transmitted on all devices each day, you will need to purchase more units.</p>
                                 </section>
 
                             </div>
@@ -109,7 +109,7 @@
                             <div>
                                 <a id="ih-que-q4">How to increase or decrease the number of IoT Hub units purchased?</a>
                                 <section>
-                                    <p>The price of virtual machine instances doesn’t include any storage fee associated with the mirror image run in the virtual machine.</p>
+                                    <p>The pricing of Virtual Machine instances doesn’t include any storage fee associated with the mirror image run in the Virtual Machine.</p>
                                 </section>
 
                             </div>
@@ -138,7 +138,7 @@
                             <div>
                                 <a id="ih-que-q7">If I purchase extra IoT Hub units in the middle of the month, will I be charged pro rata?</a>
                                 <section>
-                                    <p>You can choose to increase the number of IoT Hub Units purchased at any time. If the service is signed up for in the middle of the month, the cost for this month will be calculated in proportion according to the remaining days of the month. (For IoT Hub Services, one month is defined as 31 days). If you increase the number of IoT Hub Units in the middle of the month, the cost for this month will be calculated based on the number of units available each day this month.</p>
+                                    <p>You can choose to increase the number of IoT Hub Units purchased at any time. If the service is signed up for in the middle of the month, the cost for this month will be calculated in proportion to the remaining days of the month. (For IoT Hub Services, one month is defined as 31 days). If you increase the number of IoT Hub Units in the middle of the month, the cost for this month will be calculated based on the number of units available each day this month.</p>
                                 </section>
                             </div>
                         </li>
@@ -147,7 +147,7 @@
                             <div>
                                 <a id="vm-que-q8">If business needs change, can the number of units be reduced?</a>
                                 <section>
-                                    <p>Yes, you can reduce the number of units at any time from the Settings page. Changes will take effect the next day and will be reflected on the bill at the end of the month.</p>
+                                    <p>Yes, you can reduce the number of units at any time from the “Settings” page. Changes will take effect the next day and will be reflected on the bill at the end of the month.</p>
                                 </section>
                             </div>
                         </li>
@@ -189,8 +189,8 @@
                 <h2>Support and Service Level Agreements</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="iot-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
                 <p>For IoT Hub, we guarantee that, at least 99.9% of the time, the deployed IoT Hub can send information to and receive information from registered devices, and the service can perform operations such as creation, reading, updates, and deletion on the IoT Hub.</p>
-				<p>Service level agreement is not available in the free edition of IoT Hub.</p> 
-				<p>To learn more about the details of our service level agreement, please visit the <a href="/support/sla/iot-hub/" id="pricing_iot-hub_sla">Service Level Agreements</a> page.</p> 
+				<p>Service Level Agreement is not available in the free edition of IoT Hub.</p> 
+				<p>To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/iot-hub/" id="pricing_iot-hub_sla">Service Level Agreements</a> page.</p> 
                 </div>
             <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />  --> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                             
     
@@ -199,7 +199,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-iot-hub</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Internet of Things, Azure IoT Hub, Azure IoT Hub, monitoring Internet of Things assets, two-way communications, and price</metaKeywords>
-    <metaDescription><![CDATA[Learn about the price details of Azure IoT Hub (Azure IoT Hub). Connect, monitor, and control millions of Internet of Things assets by using Azure IoT Hub. Azure IoT Hub offers free, S1, S2, and S3 Editions. The free version of Azure IoT Hub can transmit up to 8,000 messages per day. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[Learn about the pricing details of Azure IoT Hub. Connect, monitor, and control millions of Internet of Things assets by using Azure IoT Hub. Azure IoT Hub offers free, S1, S2, and S3 Editions. The free version of Azure IoT Hub can transmit up to 8,000 messages per day. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Azure IoT Hub</urlDisplayName>
   </TextpageLeftNav>
 </localize>

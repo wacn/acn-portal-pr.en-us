@@ -4,13 +4,13 @@
     <bodyText><![CDATA[
       
            <tags ms.service="sql-server-stretch-database" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
-            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'http://resource.cdn.azure.cn/marketing-resource/css/sql-server-stretch%20database.png','imageHeight':'auto'}">
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'http://wacndevelop.blob.core.chinacloudapi.cn/marketing-resource/css/sql-server-stretch%20database.png','imageHeight':'auto'}">
                 <div class="common-banner-image">
                    <div class="common-banner-title">
-                        <img src="http://resource.cdn.azure.cn/marketing-resource/css/sql-server-stretch-database@2x.png" />
-                        <h2>SQL <small>Server Stretch Database <sup style="color: #a5ce00; text-transform: uppercase; font-family: '微软雅黑'; font-size: 16px;" class="wa-previewTag">Preview</sup></small></h2>
-                        <h4>Dynamically stretch hot and cold transactional data from SQL Server 2016 to Azure.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_sql-stretch_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_sql-stretch_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <img src="http://wacndevelop.blob.core.chinacloudapi.cn/marketing-resource/css/sql-server-stretch-database@2x.png" />
+                        <h2>SQL <small>Server Stretch Database</small></h2>
+                        <h4>Hot and cold interactive data can be dynamically pulled from the SQL Server 2016 to Azure.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_sql-stretch_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_sql-stretch_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -30,21 +30,21 @@
                         <div class="total">
                             Total price
                             <p>
-                                <span class="num">RMB&#160;0.00</span> <span class="unit">/month</span>
+                                <span class="num">RMB0.00</span> <span class="unit">/month</span>
                             </p>
                         </div>
                         <div class="btn-group">
                             <a class="calcul-btn buy" href="/pricing/pia/" id="sidebarWinCalculBuy">Go to purchase</a> <a class="calcul-btn-white export" href="#" id="sidebarWinCalculExport">Export list</a> <a class="calcul-btn-white reset" href="#" id="sidebarWinCalculReset">Reset</a>
                         </div>
                         <p class="summary-text">
-                            Still hesitating? <a href="/pricing/1rmb-trial/" id="sidebarWinCalculTry">Try</a> these functions first.
+                            Still not convinced? <a href="/pricing/1rmb-trial/" id="sidebarWinCalculTry">Try</a> these features first.
                         </p>
                     </div>
                 </div>
              
                 <!-- start calculator modal -->
                 <div class="preload">
-                    <img src="//resource.cdn.azure.cn/marketing-resource/css/img/right.png">
+                    <img src="//wacndevelop.blob.core.chinacloudapi.cn/marketing-resource/css/img/right.png">
                 </div>
                 <div class="modal modal-calculator hide">
                     <div class="container">
@@ -101,7 +101,7 @@
     <pageTitle>Pricing Calculator - SQL Server Stretch Database | Azure</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-calculator-sql-server-stretch-database</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Azure SQL Server Stretch Database, price, select type, configuration level</metaKeywords>
+    <metaKeywords>Azure, Microsoft Cloud, Azure SQL Server Stretch Database, pricing, select type, configuration level</metaKeywords>
     <metaDescription><![CDATA[Estimate the Azure SQL Server Stretch Database usage costs for your solution. You can select whatever services are required, along with their different types, levels, configurations, and instances. You can view the unit price and total price easily and estimate the required costs. You can also export lists for easy quotes. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer.]]></metaDescription>
     <urlDisplayName>Pricing Calculator - SQL Server Stretch Database</urlDisplayName>
   </TextpageLeftNav>

@@ -9,8 +9,8 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/multi-factor%20authentication@2x.png" />
                         <h2><span>Multi-Factor Authentication</span></h2>
-                        <h4>Authentication is enhanced through multiple verification options to protect the safety of data and application programs.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_multiple_experience_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_multiple_experience">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h4>Authentication is enhanced through multiple verification options to protect the security of data and application programs.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_multiple_experience_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_multiple_experience">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
                 <h2>Pricing Details</h2>
-                <p>Azure Manager can enhance security defense against identity information through Multi-Factor Authentication when he logs in the management portal.</p> 
+                <p>Azure Manager can enhance security defense against identity information through Azure Multi-Factor Authentication when logging into the management portal.</p> 
                 <p>Multi-Factor Authentication service is free of charge for present.</p>
             </div>
             <!-- END: TAB-CONTROL -->
@@ -60,8 +60,8 @@
                 <h2>Support and Service Level Agreements</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="authentication-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				<p>We guarantee that the availability of Azure Multi-Factor Authentication is up to 99.9%.</p>
-				<p>Service level agreement is not available in the free edition of the Multi-Factor Authentication.</p>
-				<p>To learn more about the details of our service level agreement, please visit the <a href="/support/sla/multi-factor-authentication/" id="pricing_multi-factor-authentication_sla">Service Level Agreements</a> page.</p>
+				<p>A Service Level Agreement is not available in the free edition of the Multi-Factor Authentication.</p>
+				<p>To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/multi-factor-authentication/" id="pricing_multi-factor-authentication_sla">Service Level Agreements</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                          
     
@@ -69,8 +69,8 @@
     <pageTitle>Multi-Factor Authentication - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-multi-factor-authentication</linkid>
-    <metaKeywords>Azure, Multi-Factor Authentication, Price</metaKeywords>
-    <metaDescription><![CDATA[Azure Multi-Factor Authentication service is free of charge at present. Azure Manager can enhance security defense against identity information through Multi-Factor Authentication when he logs in the management portal. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
+    <metaKeywords>Azure, Multi-Factor Authentication, Pricing</metaKeywords>
+    <metaDescription><![CDATA[Azure Multi-Factor Authentication service is free of charge at present. Azure Manager can enhance security defense against identity information through Azure Multi-Factor Authentication when logging into the management portal. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Multi-Factor Authentication</urlDisplayName>
   </TextpageLeftNav>
 </localize>
