@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/azure-iot-hub80.png" />
-                        <h2>Azure IoT Hub<span>Azure IoT Hub</span></h2>
-                        <h4>Connect, monitor, and control millions of IoT assets, increase the security of IoT solutions</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_iot-hub_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-hub_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2><span>Azure IoT Hub</span></h2>
+                        <h4>Connect, monitor and control millions of IoT assets, and improve the security of IoT solutions</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_iot-hub_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-hub_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                     <li>Increase the security of IoT solutions</li>
                 </ul>
                 <h2>Establish two-way communication with millions of IoT devices</h2>
-                <p>Easily connect IoT assets with Azure IoT Hub. Use device-to-cloud telemetry to find out the status devices and assets and take immediate action as soon as devices need attention. Reliably send instructions and notifications to connected devices using cloud-to-device messaging, and track message delivery using confirmation receipts. Adapt to intermittently connected devices by sending device messages with persistent methods.</p>
+                <p>Easily connect IoT assets with Azure IoT Hub. Use device-to-cloud telemetry to find out the status of devices and assets and take immediate action as soon as devices need attention. Reliably send instructions and notifications to connected devices using cloud-to-device messaging, and track message delivery using confirmation receipts. Adapt to intermittently connected devices by sending device messages with persistent methods.</p>
 
                 <h2>Use familiar platforms and protocols</h2>
                 <p>Add new devices and connect existing devices with open source device SDKs that work on multiple platforms (including Linux, Windows and real-time operating systems). Use standard protocols and custom protocols including HTTP, Advanced Message Queuing Protocol (AMQP) and Message Queuing Telemetry Transport (MQTT).</p>
@@ -37,22 +37,22 @@
                 <p>Using Azure IoT Hub’s device management function, administrators can remotely maintain, update and manage IoT devices on a large scale, eliminating the need to develop and maintain custom device management solutions and expend further resources on maintaining global assets, and delivering savings in terms of both time and costs.</p>
 
                 <h2>Make use of the intelligent edge via the Azure IoT gateway SDK</h2>
-                <p>The IoT SDK provides a powerful framework to generate, configure and deploy edge logic, enabling you to do even more with Azure IoT. Whether you are choosing strategies or other data processing to connect to old devices, reduce bandwidth costs or improve security, the IoT Gateway SDK simplifies the deployment process, so that you can focus on the issues that really matter. Find out more about <a href="/home/features/iot-hub/iot-gateway-sdk/" id="iot-hub_iot-gateway-sdk">Azure IoT Gateway SDK</a>.</p>
+                <p>The IoT SDK provides a powerful framework to generate, configure and deploy edge logic, enabling you to do even more with Azure IoT. Whether you are choosing strategies or other data processing to connect to old devices, reduce bandwidth costs or improve security, the IoT Gateway SDK simplifies the deployment process, so that you can focus on the issues that really matter. Learn more about <a href="/home/features/iot-hub/iot-gateway-sdk/" id="iot-hub_iot-gateway-sdk">Azure IoT Gateway SDK</a>.</p>
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
             <div class="pricing-page-section link-group-container">
-                <h1>Find out more</h1>
+                <h1>Learn more</h1>
                 <ul>
                     <li><a id="home_virtual_centre" href="https://docs.azure.cn/iot-hub/iot-hub-csharp-csharp-getstarted/" target="_blank">Getting Started with Azure IoT Hub<i class="icon icon-arrow-right-thin"></i></a></li>
                 </ul>
             </div>
-            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
     
     ]]></bodyText>
     <pageTitle>Azure IoT Hub_IoT - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-iot-hub</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, IoT, Azure IoT Hub, control IoT assets, two-way communication, functions</metaKeywords>
+    <metaKeywords>Azure, Microsoft Cloud, IoT, Azure IoT Hub, control IoT assets, two-way communication, features</metaKeywords>
     <metaDescription><![CDATA[Using Azure IoT Hub to connect, monitor, and control millions of IoT assets allows you to create secure and reliable IoT solutions. Azure IoT Hub supports a variety of operating systems and protocols for creating two-way communication and improving the security of IoT solutions.]]></metaDescription>
     <urlDisplayName>Azure IoT Hub</urlDisplayName>
   </TextpageLeftNav>

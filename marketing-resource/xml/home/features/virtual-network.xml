@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/virtual-network@2x.png" />
-                        <h2><span>Virtual Networks</span></h2>
+                        <h2><span>Virtual Network</span></h2>
                         <h4>A private network in the cloud that can be easily expanded to local networks through site-to-site VPNs.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_network_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_network_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_network_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_network_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                     <li>Build a controllable hybrid infrastructure</li>
                     <li>Bring your own IP address and DNS server</li>
                     <li>With the help of IPSec VPN or ExpressRoute, we can ensure a secure connection</li>
-                    <li>Traffic between subnets can be finely controlled</li>
+                    <li>Have fine-grained control over subnetwork traffic</li>
                     <li>Use virtual appliances to set up complicated network topology</li>
                     <li>Get an independent and secure environment for app use</li>
                 </ul>
@@ -29,16 +29,16 @@
                 <p>Azure Virtual Network provides independent and secure environments to run Virtual Machines and applications. You can use your own private IP address, defined subnetworks, and Access Control policy. With the help of Virtual Networks, you can have Azure act as your own data center.</p>
 
                 <h2>Construct complicated network topology</h2>
-                <p>In Virtual Network, you can choose to run various types of Network virtual appliances (WAN optimizers, Load Balancer, app firewalls, etc.), define communication flows and have better control when planning networks.</p>
+                <p>In a virtual network, you can choose to run various types of network virtual appliances (WAN optimizers, load balancers, app firewalls, etc.) and define communications flow and have better control when planning networks.</p>
 
                 <h2>Expand data centers to the cloud</h2>
                 <p>With the help of Virtual Network, you can easily expand your local IT environment to the cloud in a manner similar to setting up and connecting to a remote affiliate. There are many ways to securely connect to Virtual Network - you can choose IPSec VPN or use the dedicated connections of Azure ExpressRoute services.</p>
 
                 <h2>Creating hybrid apps</h2>
-                <p>With the help of virtual networks you can set up a secure connection to a local data center hybrid cloud app - thus Azure Web Apps can access a local SQL Server database or target a local Active Directory service for authentication.</p>
+                <p>With the help of Virtual Networks you can set up a secure connection to a local data center hybrid cloud app - for example an Azure Web app can access a local SQL Server database or target a local Active Directory service for user authentication.</p>
 
-                <h2>Better results after IaaS integration with PaaS</h2>
-                <p>By using Virtual Network, you can set up a dependable Azure Cloud service and Azure Virtual Machines service. You can use an Azure Web role on the front-end database and a Virtual Machines on the back-end database. If you integrate Platform as a Service (PaaS) and Infrastructure as a Service (IaaS) together into Virtual Network, you can get greater flexibility and scalability when you set up an app.</p>
+                <h2>IaaS integrated with PaaS works even better</h2>
+                <p>By using virtual networks, you can set up a dependable Azure Cloud Services and Azure Virtual Machines service. You can use an Azure Web role on the front-end database and a virtual machine on the back-end database. If you integrate Platform as a Service (PaaS) and Infrastructure as a Service (IaaS) together into a virtual network, then you can get greater flexibility and extensibility when you set up an app.</p>
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
             <div class="pricing-page-section link-group-container">

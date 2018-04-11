@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <localize>
   <umbTextpage id="18482" parentID="12022" level="3" writerID="106" creatorID="94" nodeType="1059" template="8" sortOrder="0" createDate="2013-05-05T16:51:50" updateDate="2014-11-11T02:23:53" nodeName="Overview" urlName="overview" writerName="content" creatorName="xunfan" path="-1,11978,12022,18482" isDoc="">
     <bodyText><![CDATA[
@@ -20,13 +20,13 @@
 			<div id="row1" class="container">
 				<div class="col-md-9 col-xs-12">
 					<div class="top home-p">
-						A new round of price cuts! From February 1, 2017, Azure Virtual Machines and Cloud Services products will be completely adjusted, with reductions reaching 60%! Azure will have excellent prices and provide you with excellent service. Become an Azure Pay-in-Advance client and enjoy a 99.99% service level agreement. You can rapidly deploy infrastructure and services to fully meet all of your enterprise needs, helping you reduce operational costs and allowing you concentrate on your core business.
+						A new round of price cuts! From February 1, 2017, Azure Virtual Machines and Cloud Services products will undergo a complete price adjustment, with reductions of up to 60%! Azure will have both excellent price offers and provide you with excellent service. Become an Azure Pay-in-Advance client and enjoy 99.99% of a service level agreement. You can rapidly deploy infrastructure and services to fully meet all of your enterprise needs, helping you reduce operational costs and allowing you concentrate on your core business.
 					</div>
 					<div class="bottom">
 						<div class="item col-md-4">
 							<div class="icon_hook"><i class="icon icon-tick"></i></div>
 							<h2 class="word1">A low Pay-in-Advance threshold</h2>
-							<div class="word2 home-p">Pay only RMB 1,000 in advance to fully enjoy all services.</div>
+							<div class="word2 home-p">Pay just RMB 1,000 in advance to fully enjoy all services.</div>
 						</div>
 						<div class="item col-md-4">
 							<div class ="icon_hook"><i class="icon icon-tick"></i></div>
@@ -36,20 +36,20 @@
 						<div class="item col-md-4 item3"> 
 							<div class ="icon_hook"><i class="icon icon-tick"></i></div>
 							<h2 class="word1">A multi-level pricing system</h2>
-							<div class="word2 home-p">Different needs set the basic-, standard-,and high-level price</div>
+							<div class="word2 home-p">Different needs set the basic-, standard-, and high-level price</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 col-xs-12">
 					<div class="special">
-						<h2 class="word1">Prices have been cut for Virtual Machine Services</h2>
+						<h2 class="word1">Prices have been reduced for Virtual Machine Services</h2>
 
 						<h2 class="word2">
 							RMB&#160;<b>0.11</b>/hour
 						</h2>
 						<a href="/pricing/pia/" id="pricing_overview_jiangjia" class="home-link-2">
 							<div class="word3 price_btn">
-								<span>Immediate purchase</span><i class="icon icon-arrow-right"></i>
+								<span>Buy now</span><i class="icon icon-arrow-right"></i>
 							</div>
 						</a>
 					</div>
@@ -74,7 +74,7 @@
 							<div class="row2"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/HomePage/product-vm.png" /></div>
 							<div class="row3">
 								<span class="bold_">RMB&#160;0.11</span>/hour<br>
-								Three types of virtual machine operating systems
+								Three types of virtual machines operating systems
 							</div>
 
 						</div>
@@ -87,11 +87,11 @@
 							</div>
 
 							<div class="row5">
-								<a id="pricing_overview_buy_vm" href="/pricing/pia/" class="home-link-2"> <span>Immediate purchase</span><i class="icon icon-arrow-right"></i> </a>
+								<a id="pricing_overview_buy_vm" href="/pricing/pia/" class="home-link-2"> <span>Buy now</span><i class="icon icon-arrow-right"></i> </a>
 							</div>
 
 							<div class="row6">
-								<a id="pricing_overview_dingjia_vm" href="/pricing/details/virtual-machines/" class="home-link-2"> <span>Check out Virtual Machine detailed pricing</span><i class="icon icon-arrow-right"></i> </a>
+								<a id="pricing_overview_dingjia_vm" href="/pricing/details/virtual-machines/" class="home-link-2"> <span>View detailed pricing for Virtual Machines</span><i class="icon icon-arrow-right"></i> </a>
 							</div>
 						</div>
 					</div>
@@ -114,11 +114,11 @@
 							</div>
 
 							<div class="row5">
-								<a id="pricing_overview_buy_cloud" href="/pricing/pia/" class="home-link-2"> <span>Immediate purchase</span><i class="icon icon-arrow-right"></i> </a>
+								<a id="pricing_overview_buy_cloud" href="/pricing/pia/" class="home-link-2"> <span>Buy now</span><i class="icon icon-arrow-right"></i> </a>
 							</div>
 
 							<div class="row6">
-								<a id="pricing_overview_dingjia_cloud" href="/pricing/details/cloud-services/" class="home-link-2"> <span>Check out detailed pricing for cloud services</span><i class="icon icon-arrow-right"></i> </a>
+								<a id="pricing_overview_dingjia_cloud" href="/pricing/details/cloud-services/" class="home-link-2"> <span>View detailed pricing for cloud services</span><i class="icon icon-arrow-right"></i> </a>
 							</div>
 						</div>
 					</div>
@@ -141,11 +141,11 @@
 							</div>
 
 							<div class="row5">
-								<a id="pricing_overview_buy_cunchu" href="/pricing/pia/" class="home-link-2"> <span>Immediate purchase</span><i class="icon icon-arrow-right"></i> </a>
+								<a id="pricing_overview_buy_cunchu" href="/pricing/pia/" class="home-link-2"> <span>Buy now</span><i class="icon icon-arrow-right"></i> </a>
 							</div>
 
 							<div class="row6">
-								<a id="pricing_overview_dingjia_cunchu" href="/pricing/details/storage/" class="home-link-2"> <span>Check out detailed prices for storage</span><i class="icon icon-arrow-right"></i> </a>
+								<a id="pricing_overview_dingjia_cunchu" href="/pricing/details/storage/" class="home-link-2"> <span>View detailed pricing for storage</span><i class="icon icon-arrow-right"></i> </a>
 							</div>
 						</div>
 					</div>
@@ -168,11 +168,11 @@
 							</div>
 
 							<div class="row5">
-								<a id="pricing_overview_buy_xuni" href="/pricing/pia/" class="home-link-2"> <span>Immediate purchase</span><i class="icon icon-arrow-right"></i> </a>
+								<a id="pricing_overview_buy_xuni" href="/pricing/pia/" class="home-link-2"> <span>Buy now</span><i class="icon icon-arrow-right"></i> </a>
 							</div>
 
 							<div class="row6">
-								<a id="pricing_overview_dingjia_xuni" href="/pricing/details/virtual-network/" class="home-link-2"> <span>Check out detailed pricing for virtual networks</span><i class="icon icon-arrow-right"></i> </a>
+								<a id="pricing_overview_dingjia_xuni" href="/pricing/details/virtual-network/" class="home-link-2"> <span>View detailed pricing for virtual networks</span><i class="icon icon-arrow-right"></i> </a>
 							</div>
 						</div>
 					</div>
@@ -264,22 +264,22 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a id="A0">What is the specific procedure for requesting an invoice? What types of invoices are there? What are the space limits on a invoice?</a>
+							<a id="A0">What is the specific procedure for requesting a Fapiao? What types of Fapiaos are there? What are the space limits on a Fapiao?</a>
 							<section>
-								<p>Register at account.windowsazure.cn, click on Subscribe, Payment History, then Manage Invoices, then complete the application. For more information see: <a id="home_overview_fapiao" style="color:#00a8d9;" href="http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html">http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html. </a></p>
-								<p>Invoices include both special value-added tax invoices and ordinary value-added tax invoices.</p>
-								<p>Regarding invoice accounts, the client’s actual name must be used.</p>
+								<p>Sign in at account.windowsazure.cn, click on Subscribe, Payment History, then Manage Fapiao, then complete the application. For more information see: <a id="home_overview_fapiao" style="color:#00a8d9;" href="http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html">http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html. </a></p>
+								<p>Fapiaos include both special value-added tax Fapiaos and ordinary value-added tax Fapiaos.</p>
+								<p>Regarding Fapiao accounts, the client’s actual name must be used.</p>
 							</section>
 						</div>
 					</li>
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a id="A1">Can you apply for an invoice at any time? Where do you apply for an invoice?</a>
+							<a id="A1">Can you apply for a Fapiao at any time? Where do you apply for a Fapiao?</a>
 							<section>
-								<p>After payment has been made, wait 3 days. After 3 days you can start applying for an invoice. If you have a special need, please contact the 21Vianet service center, call 86-10-84563652 or 400-089-0365.</p>
+								<p>After payment has been made, wait 3 days. After 3 days you can start applying for a Fapiao. Should you have any special requirements, please contact the 21Vianet service center, call 86-10-84563652 or 400-089-0365.</p>
 								<p>You can click here to apply directly for an invoice: <a id="home_overview_LoginView" style="color:#00a8d9;" href="http://fapiao.cloud.21vianet.com/EmailAcount/LoginView">http://fapiao.cloud.21vianet.com/EmailAcount/LoginView </a>. You can also use the above address to contact someone about applying for an invoice.</p>
-								<p>Sign in to the Azure manager interface at: <a id="home_overview_account" style="color:#00a8d9;" href="http://account.windowsazure.cn">http://account.windowsazure.cn</a>, click on Subscribe, Payment History, then Manage Invoices.</p>
+								<p>Sign in to the Azure manager interface at: <a id="home_overview_account" style="color:#00a8d9;" href="http://account.windowsazure.cn">http://account.windowsazure.cn</a>, click on Subscribe, Payment History, then Manage Fapiao.</p>
 							</section>
 						</div>
 					</li>
@@ -304,9 +304,9 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a id="A4">How do I sign in to an invoice interface account? After successfully activating the account, what do I do if I can’t make out an invoice?</a>
+							<a id="A4">How do I sign up for a Fapiao interface account? After successfully activating the account, what do I do if I can’t make out a Fapiao?</a>
 							<section>
-								<p>After clicking here to enter the invoice application interface, you must click the right corner of the page [Register Account] to register the account. On the registration information page, select the product you’ve purchased to register the Azure account.</p>
+								<p>After clicking here to enter the Fapiao application interface, you must click the right corner of the page [Register Account] to register the account. On the registration information page, select the product you’ve purchased to register the Azure account.</p>
 								<p>If you are unable to open a ticket after activating your account, please contact our 21Vianet service center. Call: 86-10-84563652 or 400-089-0365.</p>
 							</section>
 						</div>
@@ -314,9 +314,9 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a id="A5">After applying for an invoice, how do I get the invoice? Do I have to pay any extra costs?</a>
+							<a id="A5">After applying for a Fapiao, how do I get the Fapiao? Do I have to pay any extra costs?</a>
 							<section>
-								<p>You can get it through express delivery or get it yourself. 21Vianet includes the cost of express delivery. You can print and have express delivery through Shanghai Blue Cloud Technology Co., Ltd.</p>
+								<p>You can get the Fapiao through express delivery or get it yourself. 21Vianet includes the cost of express delivery. You can print and have express delivery through Shanghai Blue Cloud Technology Co., Ltd.</p>
 								<p>If you have previously chosen self-service, you can change this to express delivery. The self-service location is: Room 657, Building 3, No. 88 Keyuan Road, Pudong District, Shanghai.</p>
 							</section>
 						</div>
@@ -327,9 +327,9 @@
 	  
     ]]></bodyText>
     <umbracoNaviHide>0</umbracoNaviHide>
-    <pageTitle>Comprehensive Azure Cloud Products Price Calculator - Azure Cloud Computing</pageTitle>
-    <metaKeywords>Azure, Fixed Price, Price, Price Calculator</metaKeywords>
-    <metaDescription><![CDATA[After April 1, 2016, Azure product prices will be completely adjusted, with excellent prices and excellent service. A 1 RMB Trial will get you RMB 1,500 of service credits. Become an Azure Pay-in-Advance client and enjoy a 99.99% service level agreement. You can rapidly deploy infrastructure and services to fully meet all of your enterprise needs, assisting you in reducing operational costs and allowing you to concentrate on your core business. ]]></metaDescription>
+    <pageTitle>Comprehensive Azure Cloud Products Pricing Calculator - Azure Cloud Computing</pageTitle>
+    <metaKeywords>Azure, Fixed Price, Price, Pricing Calculator</metaKeywords>
+    <metaDescription><![CDATA[After April 1, 2016, Azure product prices will undergo a complete price adjustment, with both excellent price offers and excellent service. A 1RMB Trial will get you RMB 1,500 of service credits. Become an Azure Pay-in-Advance client and enjoy a 99.99% service level agreement. You can rapidly deploy infrastructure and services to fully meet all of your enterprise needs, assisting you in reducing operational costs and allowing you to concentrate on your core business. ]]></metaDescription>
     <linkid>pricing-overview</linkid>
     <urlDisplayName>Overview</urlDisplayName>
     <headerExpose></headerExpose>

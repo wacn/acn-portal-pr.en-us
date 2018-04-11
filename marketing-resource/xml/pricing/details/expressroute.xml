@@ -10,13 +10,13 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/expressroute@2x.png" />
                         <h2>ExpressRoute</h2>
                         <h4>Provides a fast, reliable connection to Azure.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_expressroute_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_expressroute_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_expressroute_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_expressroute_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>ExpressRoute is a service that enables you to create a proprietary connection between the Azure data center and your on-premises or co-located infrastructure. ExpressRoute connections do not bypass the public Internet, and are more reliable, faster, and more secure, with shorter latency compared with typical connections over the Internet.</p>
+                <p>ExpressRoute is a service that enables you to create a proprietary connection between the Azure Data Center and your on-premises or co-located infrastructure. ExpressRoute connections do not bypass the public Internet, and are more reliable, faster, and more secure, with shorter latency compared with typical connections over the Internet.</p>
                 <p>The proprietary connection between the ExpressRoute service and Azure can be established through the ExpressRoute connection service provider. Customers can choose a pricing plan based on their own needs: an unlimited data plan or a metered data plan. The costs associated with these two plans are different. The cost of 2 ports (on 2 routers) is included in the monthly price to provide redundancy.</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
@@ -101,7 +101,7 @@
                     </table>
                     <p>Note: ExpressRoute <span>connection service providers may charge other fees not included in the fees listed above.</span></p>
                     <h3>ExpressRoute Premium Edition Add-on</h3>
-                    <p>ExpressRoute Premium Edition is an add-on for the ExpressRoute Unlimited Data Plan/Metered Data Plan. Customers will be able to get more routing tables and supports from Azure, and use the Chinese Azure network to connect to different regions. The ExpressRoute Premium Edition add-on provides the following features:</p>
+                    <p>ExpressRoute Premium Edition is an add-on for the ExpressRoute Unlimited Data Plan/Metered Data Plan. Customers will be able to get more routing tables and support from Azure, and use the Chinese Azure network to connect to different regions. The ExpressRoute Premium Edition add-on provides the following features:</p>
                     <ul>
                         <li>The routing table limit for public and private counterparts has been increased from 4000 routes to 10,000 routes.</li>
                         <li>The number of VNets that can be connected to an ExpressRoute line has been increased (the default value is 10).</li>
@@ -218,7 +218,7 @@
                             <div>
                                 <a id="expressroute-port">How many ports are included in the monthly fee for ExpressRoute?</a>
                                 <section>
-                                    <p>For the purpose of redundancy, two ports are included in the monthly fee as shown (on 2 routers).</p>
+                                    <p>For the purpose of redundancy, 2 ports are included in the monthly fee as shown (on 2 routers).</p>
                                 </section>
 
                             </div>
@@ -238,7 +238,7 @@
                             <div>
                                 <a id="expressroute-area">Can I connect to any Azure region from a given ExpressRoute location?</a>
                                 <section>
-                                    <p>No. ExpressRoute in China can only be connected to regions within China. You can not access Azure services in other countries through ExpressRoute in China.</p>
+                                    <p>No. ExpressRoute in China can only be connected to regions within China. You cannot access Azure services in other countries through ExpressRoute in China.</p>
                                 </section>
 
                             </div>
@@ -248,7 +248,7 @@
                             <div>
                                 <a id="expressroute-account">Can I set up multiple lines in my account? If so, what do I need to do?</a>
                                 <section>
-                                    <p>If you are using Azure based on an enterprise agreement with 21Vianet, please contact our data setup team to ensure correct setup.</p>
+                                    <p>If you are using Azure based on an Enterprise agreement with 21Vianet, please contact our data setup team to ensure correct setup.</p>
                                 </section>
 
                             </div>
@@ -309,7 +309,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-expressroute</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Network, Virtual Network, ExpressRoute, Private line, VPN, IP Address, DNS</metaKeywords>
-    <metaDescription><![CDATA[Learn about the price details of Azure ExpressRoute. ExpressRoute is an integrated cloud solution which provides two pricing plans, namely an unlimited data plan and a metered data plan. A 1 RMB Trial gets you RMB 1,500 in service credits, or you can become an Azure pay-in-advance user through direct purchasing and enjoy the highest 99.99% service level agreement.]]></metaDescription>
+    <metaDescription><![CDATA[Learn about the price details of Azure ExpressRoute. ExpressRoute is an integrated cloud solution which provides two pricing plans, namely an unlimited data plan and a metered data plan. A 1 RMB Trial gets you RMB 1,500 in service credits, or you can become an Azure Pay-in-advance user through direct purchasing and enjoy the highest 99.99% Service Level Agreement.]]></metaDescription>
     <urlDisplayName>Pricing Details - Express Route</urlDisplayName>
   </TextpageLeftNav>
 </localize>

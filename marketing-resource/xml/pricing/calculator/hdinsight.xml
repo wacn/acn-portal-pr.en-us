@@ -9,8 +9,8 @@
                     <div class="common-banner-title">
                         <img src="//wacndevelop.blob.core.chinacloudapi.cn/marketing-resource/css/hdinsight@2x.png" />
                         <h2><span>HDInsight</span></h2>
-                        <h4>The only fully-managed cloud-based Hadoop product makes big data understandable and affordable.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_hd_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_hd_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h4>The only fully-hosted cloud-based Hadoop product that makes using big data understandable and affordable.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_hd_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_hd_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -18,10 +18,10 @@
             <div class="pricing-page-section">
 				<p>Users can select different configurations according to their specific requirements:</p>
 				<ul>
-				<li>Hadoop cluster should select two head nodes and at least one data node simultaneously</li>
-				<li>HBase cluster should select two control servers and at least one region server and three primary/ZooKeeper nodes simultaneously</li>
-				<li>Storm cluster should select two Nimbus nodes and at least one supervisor server and three ZooKeeper nodes simultaneously</li>
-				<li>Spark cluster should select two head nodes and at least one work process node simultaneously</li>
+				<li>Hadoop Cluster should select 2 head nodes and at least 1 data node simultaneously</li>
+				<li>HBase Cluster should select 2 control servers and at least 1 region server and 3 primary/ZooKeeper nodes simultaneously</li>
+				<li>Storm Cluster should select 2 Nimbus nodes and at least 1 supervisor server and 3 ZooKeeper nodes simultaneously</li>
+				<li>Spark Cluster should select 2 head nodes and at least 1 work process node simultaneously</li>
 				</ul>				
 				
 				<!-- <p>R Server 的边缘节点为非必选项，如果选择会产生 R Server 附加费，附加费的内核数为头节点、数据节点和 R Server 边缘节点的总和。</p> -->
@@ -41,14 +41,14 @@
                         <div class="total">
                             Total price
                             <p>
-                                <span class="num">RMB&#160;0.00</span> <span class="unit">/month</span>
+                                <span class="num">RMB0.00</span> <span class="unit">/month</span>
                             </p>
                         </div>
                         <div class="btn-group">
                             <a class="calcul-btn buy" href="/pricing/pia/" id="sidebarWinCalculBuy">Go to purchase</a> <a class="calcul-btn-white export" href="#" id="sidebarWinCalculExport">Export list</a> <a class="calcul-btn-white reset" href="#" id="sidebarWinCalculReset">Reset</a>
                         </div>
                         <p class="summary-text">
-                            Still hesitating? <a href="/pricing/1rmb-trial/" id="sidebarWinCalculTry">Try</a> these functions first.
+                            Still not convinced? <a href="/pricing/1rmb-trial/" id="sidebarWinCalculTry">Try</a> these features first.
                         </p>
                     </div>
                 </div>

@@ -9,15 +9,15 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/service/power-bi-embedded.png" /> 
                         <h2><!--<sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">预览</sup>--><span>Power BI Workspace Collection</span></h2>
-                        <h4>To make the data in applications more vivid</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_power-bi-embedded_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_power-bi-embedded_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h4>Make the data in applications more vivid</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_power-bi-embedded_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_power-bi-embedded_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
 			
             <div class="pricing-page-section">
-                <p>Power BI Workspace Collection offers complete interactive and amazing visual effects to client-side smart applications without spending any time or cost to generate from nothing.</p>
+                <p>Power BI Workspace Collection offers complete interactive and amazing visual effects to client-side smart applications without spending any time or cost to build from scratch.</p>
             </div>
 			
             <!-- BEGIN: TAB-CONTROL -->
@@ -38,7 +38,7 @@
                             <th align="left"><strong>Standard</strong></th>
                         </tr>                     
                        <tr>                         
-                           <td>Priced by Session (every 100 sessions)</td>
+                           <td>Pricing by Session (every 100 sessions)</td>
 						   <td>The first 100 sessions of every month are free of charge</td>
                            <td>RMB 32.86 /month</td>
                        </tr>
@@ -60,9 +60,9 @@
 					-->
 
                     <div class="tags-date">
-						<p>(1) Major and important functions need to be added to our services. Application programs, in essence, are not alternatives to any Power BI services,</p>
+						<p>(1) Major and important features need to be added to our services. Application programs, in essence, are not alternatives to any Power BI services,</p>
 						<p>(2) Provided for third parties,</p>
-						<p>Only when your application programs meet the two conditions above can you use Power BI Workspace Collection service in your application programs.</p>
+						<p>Only when your application programs meet the two conditions above can you use the Power BI Workspace Collection service in your applications.</p>
 						<p>Power BI Workspace Collection cannot be used for the internal business applications of an organization, unless an internal user has a Power BI Pro User Subscription License (USL).</p>
                     </div>
                     <!-- END: Table1-Content-->
@@ -91,7 +91,7 @@
                             <div>
                                 <a id="power-bi-embedded_faq_que2">What is the relationship between Power BI Workspace Collection and Power BI service?</a>
                                 <section>
-                                    <p>Power BI Workspace Collection and Power BI Service are two independent products/services. Power BI Workspace Collection is charged and deployed through Azure portal, specially designed for ISV and dash boards embedded by enterprises in their application programs for third-party usage. Power BI Service is charged and deployed through O365 Portal. It is an independent, universal BI product, mainly for the internal use of enterprises. For further information about Power BI Service, please visit <a href="https://www.microsoft.com/china/powerbi/" id="powe-bi-Embedded-pricing_powerbi-com" target="_blank" rel="nofollow">www.microsoft.com/china/powerbi</a>.</p>
+                                    <p>Power BI Workspace Collection and Power BI Service are two independent products/services. Power BI Workspace Collection is charged and deployed through Azure portal, specially designed for ISV and dash boards embedded by enterprises in their application programs for third-party usage. Power BI Service is charged and deployed through the O365 Portal. It is an independent, universal BI product, mainly for the internal use of enterprises. For further information about Power BI Service, please visit <a href="https://www.microsoft.com/china/powerbi/" id="powe-bi-Embedded-pricing_powerbi-com" target="_blank" rel="nofollow">www.microsoft.com/china/powerbi</a>.</p>
                                 </section>
 
                             </div>
@@ -99,9 +99,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="power-bi-embedded_faq_que3">Can the Power BI Workspace Collection be used to establish internal application programs?</a>
+                                <a id="power-bi-embedded_faq_que3">Can the Power BI Workspace Collection be used to establish internal applications?</a>
                                 <section>
-                                    <p>Power BI Workspace Collection cannot be used for internal business applications of your enterprise, unless the internal users have the Power BI Pro USL. Power BI Workspace Collection is only for applications provided for third parties. If you want to use Power BI Workspace Collection to develop internal business application programs, every internal user is expected to have a Power BI Pro USL and your organization has to pay for Power BI Workspace Collection apart from paying Power BI Pro USL fees. To avoid Power BI Pro USL fees and cost of using Power BI Workspace Collection in internal application programs, Power BI Service offers its own content embedding function outside Power BI Workspace Collection without increasing extra costs for Power BI USL owners.</p>
+                                    <p>Power BI Workspace Collection cannot be used for internal business applications of your enterprise, unless the internal users have the Power BI Pro User Subscription License (USL). Power BI Workspace Collection is only for applications provided for third parties. If you want to use Power BI Workspace Collection to develop internal business application programs, every internal user is expected to have a Power BI Pro USL and your organization has to pay for Power BI Workspace Collection apart from paying Power BI Pro USL fees. To avoid Power BI Pro USL fees and cost of using Power BI Workspace Collection in internal application programs, Power BI Service offers its own content embedding feature outside Power BI Workspace Collection without increasing extra costs for Power BI USL owners.</p>
                                 </section>
 
                             </div>
@@ -128,7 +128,7 @@
 				<div class="pricing-page-section">
                 <h2>Support and Service Level Agreements</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="pricing_power-bi-embedded_contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-				<p>We guarantee at least 99.9% availability of Power BI Workspace Collection when users execute API to call or insert reports. To learn more about the details of our service level agreement, please visit the <a href="/support/sla/power-bi-embedded/" id="pricing_power-bi-embedded_sla">Service Level Agreements</a> page.</p> 
+				<p>We guarantee at least 99.9% availability of Power BI Workspace Collection when users execute API to call or insert reports. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/power-bi-embedded/" id="pricing_power-bi-embedded_sla">Service Level Agreements</a> page.</p> 
                 </div>
             <!--  <?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />   -->
             </div>
@@ -138,8 +138,8 @@
     <pageTitle>Power BI Workspace Collection Data Analysis Service Pricing - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-power-bi-embedded</linkid>
-    <metaKeywords>Azure, Power BI Workspace Collection, price details, pricing, billing</metaKeywords>
-    <metaDescription><![CDATA[Learn about the price details of Azure IP Addresses. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer.]]></metaDescription>
+    <metaKeywords>Azure, Power BI Workspace Collection, pricing details, pricing, billing</metaKeywords>
+    <metaDescription><![CDATA[Learn about the pricing details of Azure Power-Bi-Embedded. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer.]]></metaDescription>
     <urlDisplayName>Pricing Details - Power BI Workspace Collection</urlDisplayName>
   </TextpageLeftNav>
 </localize>

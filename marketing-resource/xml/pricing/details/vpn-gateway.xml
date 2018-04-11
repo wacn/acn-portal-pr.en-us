@@ -10,13 +10,13 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/vpn-gateway@2x.png" />
                         <h2><span>VPN Gateway</span></h2>
                         <h4>Can link your infrastructure to the cloud, creating secure cross-boundary linkages.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_vpn_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vpn_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_vpn_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vpn_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>You can establish a safe crossover connection in virtual networks between the Azure and the IT basic structure through the Azure VPN Gateway.</p>
+                <p>You can establish a safe crossover connection in virtual networks between Azure and a local IT infrastructure through the Azure VPN Gateway.</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
@@ -41,30 +41,30 @@
                     </tr>
                     <tr>
                         <td>Basic</td>
-                        <td>RMB 0.25 every gateway/hour</br>(about RMB 186.00 /month)</td>
+                        <td>RMB0.25 every gateway/hour</br>(about RMB186.00 /month)</td>
 						<td>100 Mbp</td>
 						<td>10 at most</br>1-10: included</td>
 						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
                     </tr>
 					<tr>
                         <td>VpnGw1<sup style="color:#e66102; font-weight: bold">new</sup></td>
-                        <td>RMB 1.1914 every gateway/hour</br>(about RMB 885.4016 /month)</td>
+                        <td>RMB1.1914 every gateway/hour</br>(about RMB885.4016 /month)</td>
 						<td>650 Mbp</td>
-						<td>30 at most</br>1-10: included</br>11-30: RMB 0.0945/every tunnel</td>
+						<td>30 at most</br>1-10: included</br>11-30: RMB0.0945/every tunnel</td>
 						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
                     </tr>
                     <tr>
                         <td>VpnGw2<sup style="color:#e66102; font-weight: bold">new</sup></td>
-                        <td>RMB 3.1276 every gateway/hour</br>(about RMB 2,326.9344 /month)</td>
+                        <td>RMB3.1276 every gateway/hour</br>(about RMB2,326.9344 /month)</td>
 						<td>1 Gbps</td>
-						<td>30 at most</br>1-10: included</br>11-30: RMB 0.0945/every tunnel</td>
+						<td>30 at most</br>1-10: included</br>11-30: RMB0.0945/every tunnel</td>
 						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
                     </tr>
                     <tr>
                         <td>VpnGw3<sup style="color:#e66102; font-weight: bold">new</sup></td>
-                        <td>RMB 7.95 every gateway/hour</br>(about RMB 5,914.8 /month)</td>
+                        <td>RMB7.95 every gateway/hour</br>(about RMB5,914.8 /month)</td>
 						<td>1.25 Gbps</td>
-						<td>30 at most</br>1-10: included</br>11-30: RMB 0.0945/every tunnel</td>
+						<td>30 at most</br>1-10: included</br>11-30: RMB0.0945/every tunnel</td>
 						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
                     </tr>
                     </table>                    
@@ -88,35 +88,35 @@
                     </tr> -->
                     <tr>
                         <td>Standard ExpressRoute Gateway</td>
-                        <td>RMB 1.19 every gateway/hour (about RMB 885.36/month)</td>
+                        <td>RMB1.19 every gateway/hour (about RMB885.36/month)</td>
                         <td>1 Gbps</td>
                     </tr>
                     <tr>
                         <td>High-performance ExpressRoute Gateway</td>
-                        <td>RMB 3.13 every gateway/hour (about RMB 2,328.72 / per month)</td>
+                        <td>RMB3.13 every gateway/hour (about RMB2,328.72 / per month)</td>
                         <td>2 Gbps</td>
                     </tr>
 					<tr>
                         <td>Ultra High Performance ExpressRoute Gateway</td>
-                        <td>RMB 11.91 every gateway/hour (about RMB 8,861.04/ per month)</td>
+                        <td>RMB11.91 every gateway/hour (about RMB8,861.04/ per month)</td>
                         <td>9 Gbps</td>
                     </tr>
                     </table>
-                    <p>For technical specifications and limits for different VPN Gateways, please refer to the <a id="Virtual_Network_price_vpn" style="color: #00a8d9;" href="https://docs.azure.cn/vpn-gateway/vpn-gateway-about-vpngateways/" target="_blank">Information on VPN Gateways</a>, and provide the following discounts for Inter-VNET charges (previously, it was charged in accordance with rate of the standard <a id="Virtual_Network_price_sjcs" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a>).</p>
+                    <p>For technical specifications and limits for different VPN Gateways, please refer to the <a id="Virtual_Network_price_vpn" style="color: #00a8d9;" href="https://docs.azure.cn/vpn-gateway/vpn-gateway-about-vpngateways/" target="_blank">Information on VPN Gateways</a>, and provide the following discounts for Inter-VNET charges (previously, it was charged according to the standard <a id="Virtual_Network_price_sjcs" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a> rate).</p>
                     <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
                     <h3>Inter-VNET Data Transfer</h3>
-                    <p>The data incoming occurs between two virtual networks in one area: free</p>
-                    <p>The data incoming occurs among the virtual networks in two different areas (East China Data Center and North China Data Center): free</p>
+                    <p>Inbound data between two virtual networks in one area: free</p>
+                    <p>Inbound data between virtual networks in two different areas (East China Data Center and North China Data Center): free</p>
                     <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
                     
                     <h3>Outbound-VNET Data Transfer</h3>
-                    <p>The data outgoing occurs between two virtual networks in one area: free</p>
-                    <p>The data outgoing occurs among the virtual networks in two different areas (East China Data Center and North China Data Center): ￥0.16/GB</p>
+                    <p>Outbound data between two virtual networks in one area: free</p>
+                    <p>Outbound data between virtual networks in two different areas (East China Data Center and North China Data Center): RMB0.16/GB</p>
                     <!-- END: Table3-Content--> <!-- BEGIN: Table4-Content-->
                     
                     <h3>Outgoing P2S (point-to-site) VPN data transfer</h3>
                     <p>(That is, data is transferred out of the Azure virtual network through P2S VPN):</p>
-                    <p>The data transferred out of the Azure virtual network through the P2S VPN will be charged in accordance with rate of standard <a id="Virtual_Network_price_sjcs1" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a>.</p>
+                    <p>The data transferred out of the Azure virtual network through the P2S VPN will be charged in accordance with standard <a id="Virtual_Network_price_sjcs1" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a> rates.</p>
                     <!-- END: Table4-Content-->
                 </div>
                 <!-- END: TAB-CONTAINER-1 -->
@@ -143,7 +143,7 @@
                             <div>
                                 <a id="Virtual_Network_vpn-connection">Will the data transfer in the VPN connection be charged separately?</a>
                                 <section>
-                                    <p>Yes. Data transfer between two virtual networks is charged at the Inter-VNET rates listed above. And other data transfer with your local site or normal Internet site through VPN connection is charged separately in accordance with rate of the normal <a id="Virtual_Network_price_sjcs2" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a>.</p>
+                                    <p>Yes. Data transfer between two virtual networks is charged at the Inter-VNET rates listed above. And other data transfer with your local site or normal Internet site through VPN connection is charged separately in accordance with standard <a id="Virtual_Network_price_sjcs2" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a> rates.</p>
                                 </section>
 
                             </div>
@@ -153,7 +153,7 @@
                             <div>
                                 <a id="Virtual_Network_data-transmission"> Is the Inter-VNET transfer charged at the rates of the source region or the target region? </a>
                                 <section>
-                                    <p>It is similar to the charging mode of standard data transfer, and the Inter-VNET data transfer is charged at the rates of the source region.</p>
+                                    <p>It is similar to the standard data transfer charge, and Inter-VNET data transfer is charged at the rates of the source region.</p>
                                 </section>
 
                             </div>
@@ -163,7 +163,7 @@
                             <div>
                                 <a id="Virtual_Network_same-area">Will a Inter-VNET data transfer in the same region be charged? </a>
                                 <section>
-                                    <p>No, it will not. It is similar to the charging mode of standard data transfer, and the Inter-VNET data transfer is charged at the rates of the source region, excepting P2S VPN.</p>
+                                    <p>No, it will not. It is similar to the standard data transfer charge, and Inter-VNET data transfer is charged at the rates of the source region, except P2S VPN.</p>
                                 </section>
 
                             </div>
@@ -200,7 +200,7 @@
                  <div class="pricing-page-section">
                 <h2>Support and Service Level Agreements</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="vpn-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-				 <p>We guarantee at least 99.9% availability of the basic gateway of each VPN or ExpressRoute, 99.95% availability of the standard gateway of each VPN or ExpressRoute, and 99.95% availability of the high-performance gateway of each VPN or ExpressRoute. To learn more about the details of our service level agreement, please visit the <a href="/support/sla/vpn-gateway/" id="vpn_authentication_sla">Service Level Agreements</a> page.</p>
+				 <p>We guarantee at least 99.9% availability of the basic gateway of each VPN or ExpressRoute, 99.95% availability of the standard gateway of each VPN or ExpressRoute, and 99.95% availability of the high-performance gateway of each VPN or ExpressRoute. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/vpn-gateway/" id="vpn_authentication_sla">Service Level Agreements</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                            
     
@@ -209,7 +209,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-vpn-gateway</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Network, Virtual Network, Azure VPN Gateway, Virtual Private Network, Site-to-Site, VPN, IP Address, DNS, Ipsec and ExpressRoute</metaKeywords>
-    <metaDescription><![CDATA[Learn pricing details of the Azure VPN Gateway. The VPN Gateway can connect the basic structure to the Cloud. It’s free for setting up virtual networks. The VPN Gateway can provide different pricing for the basic, standard, and high-performance VPN Gateway or ExpressRoute Gateway. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[About pricing details for the Azure VPN Gateway. The VPN Gateway can connect the basic structure to the Cloud. It’s free for setting up virtual networks. The VPN Gateway can provide different pricing for the Basic, Standard, and Premium VPN Gateway or ExpressRoute Gateway. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - VPN Gateway</urlDisplayName>
   </TextpageLeftNav>
 </localize>

@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/network-watcher@2x.png" />
                         <h2><span>Network Watcher</span></h2>
                         <h4>Monitor and diagnose network performances at the data package level</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_network_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_network_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_network_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_network_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -24,7 +24,7 @@
                 <h2>Pricing Details</h2>
 				<table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <th align="left"><strong>Functions</strong></th>
+                            <th align="left"><strong>Features</strong></th>
                             <th align="left"><strong>Monthly service limit</strong></th>
                             <th align="left"><strong>Excess charges</strong></th>
                         </tr>
@@ -41,15 +41,15 @@
                         </tr>
                         <tr>
                             <td>Network diagnostic tools</td>
-                            <td>1,000 checks</td>
-                            <td>RMB 10.00/1,000 checks</td>
+                            <td>1,000 views</td>
+                            <td>RMB 10.00/1,000 views</td>
                         </tr>
                     </table>
             </div>
 			
             <div class="pricing-page-section">
-                <p>A weblog is stored in the storage account, and 1-day to 365-day retainment options are provided. If you do not configure retainment options, the weblog will be retained all the time. Relevant fees will be charged for storage, Log Analytics and Event Hub.</p>
-                <p>The billing for the diagnostic tools and topological functions of Network Watcher is based on the number of network diagnosis triggered by Azure Portal, PowerShell, CLI or Rest.</p>
+                <p>A weblog is stored in the Storage account, and 1-day to 365-day retainment options are provided. If you do not configure retainment options, the weblog will be retained all the time. Relevant fees will be charged for Storage, Log Analytics and Event Hubs.</p>
+                <p>The billing for the diagnostic tools and topological features of Network Watcher is based on the number of network diagnosis triggered by Azure portal, PowerShell, CLI or Rest.</p>
             </div>
 
             <!-- END: TAB-CONTROL -->
@@ -71,17 +71,17 @@
                 <h2>Support and Service Level Agreements</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="network-watcher-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				
-				<p>We guarantee that at least 99.9% of the time, network diagnostic tools can successfully perform and return responses. To learn more about the details of our service level agreement, please visit the <a href="/support/sla/network-watcher/" id="pricing_network-watcher-watcher_sla">Service Level Agreements</a> page.</p>
+				<p>We guarantee that at least 99.9% of the time, network diagnostic tools can successfully perform and return responses. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/network-watcher/" id="pricing_network-watcher-watcher_sla">Service Level Agreements</a> page.</p>
 				
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                  
     
     ]]></bodyText>
-    <pageTitle>Network Watcher Pricing- Azure Cloud Computing</pageTitle>
+    <pageTitle>Network Watcher Pricing - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-network-watcher</linkid>
     <metaKeywords>Azure, Network Watcher, Network, Virtual Network</metaKeywords>
-    <metaDescription><![CDATA[Learn the pricing details of Azure Network Watcher. Network Watcher can be used to monitor and diagnose the operation status and performance of networks. Every subscriber can create at most 50 virtual networks across all regions. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[Learn the pricing details of Azure Network Watcher. Network Watcher can be used to monitor and diagnose the operation status and performance of networks. Every subscriber can create at most 50 Virtual Networks across all regions. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Network Watcher</urlDisplayName>
   </TextpageLeftNav>
 </localize>

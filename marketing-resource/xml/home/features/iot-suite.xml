@@ -9,8 +9,8 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,iot-icon.png" />
                         <h2><span>Azure IoT Suite</span></h2>
-                        <h4>Use Azure IoT Suite to capture and analyze unused data, and improve business outcomes. Integrate Azure IoT Suite with apps to generate reliable IoT solutions.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_iot-suite_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-suite_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h4>Use Azure IoT Suite to capture and analyze unused data and improve business outcomes. Integrate Azure IoT Suite with apps to generate reliable IoT solutions.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_iot-suite_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-suite_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -19,7 +19,7 @@
                 <h1>Capture and analyze unused data to improve business results</h1>
                 <ul>
                     <li>Get started quickly with preconfigured solutions</li>
-                    <li>Customize preconfigured solutions that meet your needs</li>
+                    <li>Customize preconfigured solutions to meet your needs</li>
                     <li>Increase the security of IoT solutions</li>
                     <li>Supports a variety of operating systems and protocols</li>
                     <li>Easily connect to millions of devices</li>
@@ -31,10 +31,10 @@
                 <p>Get started quickly with Azure IoT Suite. Use preconfigured solutions to expedite the development of IoT solutions. Add new devices and connect existing devices with device SDKs that work on multiple platforms (including Linux, Windows and real-time operating systems). No matter how large or small your project, you can depend on the global availability of Azure to easily scale up from a handful of sensors to synchronous connections to millions of devices.</p>
 
                 <h2>Analyze and process unused data</h2>
-                <p>Collect previously unused data from devices and sensors, then display and process data using the built-in functions. Configure real-time analysis with SQL-based languages for high-performance with flexibility and scalability without the need to manage complex infrastructure and software. Use large algorithm libraries to upscale predictive analysis solutions.</p>
+                <p>Collect previously unused data from devices and sensors, then display and process data using built-in features. Configure real-time analysis with SQL-based languages for high-performance with flexibility and scalability, without the need to manage complex infrastructure and software. Use large algorithm libraries to upscale predictive analysis solutions.</p>
 
                 <h2>Integrate and convert your services</h2>
-                <p>Easily integrate Azure IoT Suite with your systems and applications (including Salesforce, SAP, Oracle Database and Microsoft Dynamics), so you can easily access data and keep distributed systems up to date. With only minimal development work, you can use the mobile push notification engine to send millions of messages to heterogeneous devices. Generate mobile and web apps that integrate with Microsoft and third-party web APIs, and use OAuth 2.0 to generate your own secure web API.</p>
+                <p>Easily integrate Azure IoT Suite with your systems and applications (including Salesforce, SAP, Oracle Database and Microsoft Dynamics), so you can easily access data and keep distributed systems up to date. With only minimal development work, you can use the mobile push notification engine to send millions of messages to heterogeneous devices. Generate mobile and Web Apps that integrate with Microsoft and third-party web APIs, and use OAuth 2.0 to generate your own secure web API.</p>
 
                 <h2>Increase the security of IoT solutions using authentication for every device</h2>
                 <p>Set identifiers and credentials for each connected device to help you keep cloud-to-device and device-to-cloud messages confidential. Selectively revoke access permissions for specific devices to maintain system integrity.</p>
@@ -46,12 +46,12 @@
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
             <div class="pricing-page-section link-group-container">
-                <h1>Find out more</h1>
+                <h1>Learn more</h1>
                 <ul>
                     <li><a id="home_virtual_centre" href="https://docs.azure.cn/iot-suite/iot-suite-guidance-on-customizing-preconfigured-solutions/" target="_blank">Customized preconfigured solutions</a></li>
                 </ul>
 				<ul>
-                    <li><a id="home_virtual_centre" href="https://docs.azure.cn/iot-suite/iot-security-best-practices/" target="_blank">IoT Security Best Practice</a></li>
+                    <li><a id="home_virtual_centre" href="https://docs.azure.cn/iot-suite/iot-security-best-practices/" target="_blank">IoT Security Best Practices</a></li>
                 </ul>
 				<ul>
                     <li><a id="home_virtual_centre" href="https://docs.azure.cn/iot-suite/iot-security-architecture/" target="_blank">IoT Security Architecture</a></li>
@@ -61,7 +61,7 @@
                 </ul>				
 				
             </div>
-            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
     
     ]]></bodyText>
     <pageTitle>Azure IoT Suite_IoT - Azure Cloud Computing</pageTitle>

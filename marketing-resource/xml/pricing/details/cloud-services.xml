@@ -15,13 +15,13 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/cloud-services@2x.png" />
                         <h2><span>Cloud Services</span></h2>
                         <h4>Deploy highly available, massively scalable applications and APIs.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_cloud_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cloud_trial">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_cloud_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cloud_trial">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>Azure Cloud Services help you to avoid managing server infrastructure and free you from bearing the responsibility for infrastructure. Using web roles and worker roles, you can quickly build, deploy, and manage new applications.</p>
+                <p>Azure Cloud Services help you to avoid managing server infrastructure and free you from bearing the responsibility of infrastructure. Using web roles and worker roles, you can quickly build, deploy, and manage new applications.</p>
                 <h2>Pricing Details</h2>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
@@ -33,14 +33,14 @@
                     <!-- BEGIN: Table1-Content-->
                     <h3>Standard Instances</h3>
 					<p>Used for websites, small- and medium-sized databases, and other everyday applications.</p>
-                    <p>Starting from February 1, 2017, the prices of A-series standard instances will be reduced. Below is a list of prices before and after the reductions:</p>
+                    <p>Starting February 1, 2017, the prices of A-series standard instances will be reduced. Below is a list of prices before and after the reductions:</p>
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
                         <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <th align="left"><strong>Standard instance name</strong></th>
+                            <th align="left"><strong>Standard Instance name</strong></th>
                             <th align="left"><strong>CPU core</strong></th>
                             <th align="left"><strong>Memory</strong></th>
                             <th align="left"><strong>Disk size</strong></th>
@@ -96,7 +96,7 @@
 					</p>
 					  <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -168,7 +168,7 @@
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <th align="left"><strong>Standard instance name</strong></th>
+                            <th align="left"><strong>Standard Instance name</strong></th>
                             <th align="left"><strong>CPU core</strong></th>
                             <th align="left"><strong>Memory</strong></th>
                             <th align="left"><strong>Disk size</strong></th>
@@ -201,12 +201,12 @@
                 <!-- END: TAB-CONTAINER-1 --> <!-- BEGIN: TAB-CONTAINER-2 -->
                 <div class="tab-control-container" id="tabContent2">
                     <!-- BEGIN: Table1-Content-->
-                    <p>D-series virtual machines feature solid state drives (SSDs) and faster processors than the A-series. They are also suitable for web or worker roles in Azure Cloud Services. This series is suitable for applications that demand faster CPUs, better local disk performance, or larger memories.</p>
+                    <p>D-series Virtual Machines feature solid state drives (SSDs) and faster processors than the A-series. They are also suitable for web or worker roles in Azure Cloud Services. This series is suitable for applications that demand faster CPUs, better local disk performance, or larger memories.</p>
                     <!--<p><a id="pricing_cloud_rea" href="https://docs.azure.cn/zh-cn/cloud-services/" style="color: #00a8d9; margin-left: 0;">云服务工作原理</a></p>-->
-                    <p>Starting from February 1, 2017, the prices of D-series standard instances will be reduced. Below is a list of prices before and after the reductions:</p>
+                    <p>Starting February 1, 2017, the prices of D-series standard instances will be reduced. Below is a list of prices before and after the reductions:</p>
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -287,14 +287,14 @@
                     </table>
                     <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
                     <h3>Optimized compute: latest generation CPU</h3>
-                    <p>Dv2-series instances are the next generation of D-series instances. They can be used as virtual machines or cloud services. Dv2-series instances will carry more powerful CPUs and the same memory and disk configurations as the D-series. Dv2-series instances are based on the latest generation 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, and can go to 3.2 GHz with Intel Turbo Boost Technology 2.0. The Dv2-series and D-series are ideal for applications that demand faster CPUs, better local disk performance, or higher memories, and offer a powerful combination for many enterprise-grade applications.</p>
+                    <p>Dv2-series instances are the next generation of D-series instances. They can be used as Virtual Machines or Cloud Services. Dv2-series instances will carry more powerful CPUs and the same memory and disk configurations as the D-series. Dv2-series instances are based on the latest generation 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, and can go to 3.2 GHz with Intel Turbo Boost Technology 2.0. The Dv2-series and D-series are ideal for applications that demand faster CPUs, better local disk performance, or higher memories, and offer a powerful combination for many enterprise-grade applications.</p>
                     <!-- END: Table3-Content--> <!-- BEGIN: Table4-Content-->
                     <h3>General Purpose</h3>
                     <p>Used for websites, small- and medium-sized databases, and other everyday applications.</p>
-					<p>Starting from February 1, 2017, the prices of Dv2-series general purpose instances will be reduced. Below is a list of prices before and after the reductions:</p>
+					<p>Starting February 1, 2017, the prices of Dv2-series general purpose instances will be reduced. Below is a list of prices before and after the reductions:</p>
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -349,10 +349,10 @@
                     <!-- END: Table4-Content--> <!-- BEGIN: Table5-Content-->
                     <h3>Memory Intensive</h3>
                     <p>Used for large databases, SharePoint server farms, and high-throughput applications.</p>
-					<p>Starting from February 1, 2017, the prices of Dv2-series memory intensive instances will be reduced. Below is a list of prices before and after the reductions:</p>
+					<p>Starting February 1, 2017, the prices of Dv2-series memory intensive instances will be reduced. Below is a list of prices before and after the reductions:</p>
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -423,7 +423,7 @@
                             <div>
                                 <a id="vm-que-pro">If my deployed instance is in the “stopped” state, am I still billed?</a>
                                 <section>
-                                    <p>Yes. The stopped instance still occupies the computing resources that provide support for the instance, so you will still be charged. In order to stop billing, you need to delete your deployment.</p>
+                                    <p>Yes. A stopped instance still occupies the computing resources that provide support for the instance, so you will still be charged. In order to stop billing, you need to delete your deployment.</p>
                                 </section>
 
                             </div>
@@ -433,7 +433,7 @@
                             <div>
                                 <a id="vm-que-down">If my web or worker role was deployed for less than an hour, how much will I be charged?</a>
                                 <section>
-                                    <p>Cloud Services are billed based on the length of time your service was deployed for. If your instance was deployed for less than an hour, or several hours plus some minutes that do not add up to one hour, you will be charged for that duration only. Azure does not round up partial hours to full hours for billing – you only need to pay for the actual time that your Cloud Services instance was in a “running” state.</p>
+                                    <p>Cloud Services are billed based on the length of time your service was deployed for. If your instance was deployed for less than 1 hour, or several hours plus some minutes that do not add up to 1 hour, you will be charged only for that duration. Azure does not round up partial hours to full hours for billing – you only need to pay for the actual time that your Cloud Services instance was in a “running” state.</p>
                                 </section>
 
                             </div>
@@ -509,8 +509,8 @@
                 
                <div class="pricing-page-section">
                 <h2>Support and Service Level Agreements</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="cloud-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
-				 <p>For Cloud Services, we guarantee that when you deploy two or more role instances in different fault domains and upgrade domains, Internet-facing roles will be able to establish external connections at least 99.95% of the time. If you want to learn more about the details of our service level agreement, please visit the <a id="prricing_cloud_sla" style="color: #00a8d9;" href="/support/sla/cloud-services/">Service Level Agreement</a> page.</p>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="cloud-contact-page"> Azure Support</a> to select self-service or any other methods to contact us for support.)</p>
+				 <p>For Cloud Services, we guarantee that when you deploy two or more role instances in different fault domains and upgrade domains, Internet-facing roles will be able to establish external connections at least 99.95% of the time. If you want to learn more about the details of our Service Level Agreement, please visit the <a id="prricing_cloud_sla" style="color: #00a8d9;" href="/support/sla/cloud-services/">Service Level Agreement</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                              
     

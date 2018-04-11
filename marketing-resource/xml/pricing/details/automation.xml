@@ -9,8 +9,8 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/automation@2x.png" />
                         <h2><span>Automation</span></h2>
-                        <h4>Use traffic flow automation to simplify cloud management, eliminate time-consuming repetitive tasks, and improve reliability and efficiency</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_auto_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_auto_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h4>Use traffic flow Automation to simplify cloud management, eliminate time-consuming repetitive tasks, and improve reliability and efficiency</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_auto_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_auto_pia">Buy  now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -26,18 +26,18 @@
                 <!-- <p>从2016年4月1日起， 价格会下调 25.6%，以下是下调后的新价格：</p> -->
                 <div class="tags-date">
                     <div class="ms-date">*The following prices are tax-inclusive.</div><br>
-                    <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                    <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                 </div>
                 <table cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                         <th align="left"><strong>&#160;</strong></th>
                         <th align="left"><strong>Free units (per month)</strong></th>
-                        <th align="left"><strong>Price</strong></th>
+                        <th align="left"><strong>Pricing</strong></th>
                     </tr>
                     <tr>
                         <td>Job runtime</td>
                         <td>500 minutes</td>
-                        <td>RMB&#160;0.01/minute</td>
+                        <td>RMB0.01/minute</td>
                     </tr>
                 </table>
             </div>
@@ -92,9 +92,9 @@
                 </table>
                 <div class="pricing-page-section">
                 <h2>Support and Service Level Agreements</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="automation-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="automation-contact-page">Azure Support</a> to select self-service or any other method to contact us for support.</p>
 				<p>We guarantee that at least 99.9% of jobs will begin within 30 minutes of the scheduled start time.</p>
-				<p>No service level agreement is offered for the Free tier of Automation.</p>
+				<p>No Service Level Agreement is offered for the Free tier of Automation.</p>
 				<p>If you want to learn more about the details of our server level agreement, please visit the <a href="/support/sla/automation/" id="pricing_automation_sla">Service Level Agreement</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                                     
@@ -104,7 +104,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-automation</linkid>
     <metaKeywords>Azure, Automation, pricing</metaKeywords>
-    <metaDescription><![CDATA[Learn more about the pricing details for Azure Automation. Azure Automation is offered in two tiers: Free and Basic. The Basic tier of Azure Automation is billed on the basis of the number of minutes of job runtime used during a month. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[Learn more about the pricing details for Azure Automation. Azure Automation is offered in two tiers: Free and Basic. The Basic tier of Azure Automation is billed on the basis of the number of minutes of job runtime used during a month. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy an up to 99.99% Service Level Agreement.]]></metaDescription>
     <urlDisplayName>Pricing details - Automation</urlDisplayName>
   </TextpageLeftNav>
 </localize>

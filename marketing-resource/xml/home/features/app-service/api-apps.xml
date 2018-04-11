@@ -69,7 +69,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/service/product-icon-api.png" />
                         <h2><span>API Apps</span></h2>
                         <h4>Uses your choice of language for rapid generation and use of API in the cloud.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -100,8 +100,8 @@
                         <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/web-apps@2x.png"/></div>						      
                         <div class="cognitive-text">
                             <h2>Web Apps</h2>
-                            <p>Create and deploy any critical Web apps to scale your business.</p>
-							<p><a id="api-apps_web-apps" href="/home/features/app-service/web-apps/" class="single-link">Find out more ></a></p>
+                            <p>Create and deploy mission-critical Web Apps that scale with your business.</p>
+							<p><a id="api-apps_web-apps" href="/home/features/app-service/web-apps/" class="single-link">Learn more ></a></p>
                         </div>
                 </li>
 				
@@ -110,7 +110,7 @@
                         <div class="cognitive-text">
                             <h2>Mobile Apps</h2>
                             <p>Construct attractive iOS, Android, and Windows apps.</p>
-							<p><a id="api-apps_mobile-apps" href="/home/features/app-service/mobile-apps/" class="single-link">Find out more ></a></p>
+							<p><a id="api-apps_mobile-apps" href="/home/features/app-service/mobile-apps/" class="single-link">Learn more ></a></p>
                         </div>
                 </li>
 				
@@ -119,7 +119,7 @@
                         <div class="cognitive-text">
                             <h2>API Apps</h2>
                             <p>Uses your choice of language for rapid generation and use of API in the cloud.</p>
-							<p><a id="api-apps_api-apps" href="/home/features/app-service/api-apps/" class="single-link">Find out more ></a></p>
+							<p><a id="api-apps_api-apps" href="/home/features/app-service/api-apps/" class="single-link">Learn more ></a></p>
                         </div>
                 </li>
                 </ul>
@@ -127,10 +127,10 @@
 				<h1>Find out more</h1>                
                 <ul>             
                     <li><a href="https://docs.azure.cn/zh-cn/app-service-api/app-service-api-apps-why-best-platform/" id="api-apps_app-service-api-apps-why-best-platform">API Apps Overview</a></li>
-                    <li><a href="https://docs.azure.cn/zh-cn/app-service-api/app-service-api-dotnet-get-started/" id="api-apps_app-service-api-dotnet-get-started">Get started with the Azure App Service’s API Apps, ASP.NET and Swagger</a></li>
+                    <li><a href="https://docs.azure.cn/zh-cn/app-service-api/app-service-api-dotnet-get-started/" id="api-apps_app-service-api-dotnet-get-started">Get started with the Azure app service’s API Apps, ASP.NET and Swagger</a></li>
                     <li><a href="https://docs.azure.cn/zh-cn/app-service-api/app-service-api-java-api-app/" id="api-apps_app-service-api-java-api-app">Within Azure App Service generate and deploy Java API App</a></li>
-                    <li><a href="https://docs.azure.cn/zh-cn/app-service-api/app-service-api-nodejs-api-app/" id="api-apps_app-service-api-nodejs-api-app">Construct a Node.js RESTful API and deploy it to API Apps in Azure</a></li>
-					<li><a href="https://docs.azure.cn/zh-cn/app-service-api/app-service-api-cors-consume-javascript/" id="api-apps_app-service-api-cors-consume-javascript">You can use API Apps with the help of CORS from JavaScript</a></li>
+                    <li><a href="https://docs.azure.cn/zh-cn/app-service-api/app-service-api-nodejs-api-app/" id="api-apps_app-service-api-nodejs-api-app">Construct a Node.js RESTful API and deploy it to the Azure’s API Apps</a></li>
+					<li><a href="https://docs.azure.cn/zh-cn/app-service-api/app-service-api-cors-consume-javascript/" id="api-apps_app-service-api-cors-consume-javascript">You can use the API Apps with the help of CORS from JavaScript</a></li>
                 </ul>
 				</div>
             </div>
