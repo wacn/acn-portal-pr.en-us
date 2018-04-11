@@ -10,7 +10,7 @@
       "OfferId": "MS-MC-AZR-0033P",
       "TemplateName": "PIA.html",
       "Subject": "Azure 标准预付费订阅购买激活码",
-      "EnSubject": "Activation code for Azure Standard Pay-in-advance subscription purchase"
+      "EnSubject": "Activation code for Azure Standard Pay-in-Advance subscription purchase"
     },
     {
       "OfferId": "MS-MC-AZR-0044P",
@@ -62,7 +62,7 @@
       "OfferId": "MS-MC-AZR-0033P",
       "TemplateName": "Individual PIA Failed.html",
       "Subject": "由世纪互联运营的 Microsoft Azure 标准预付费订阅：购买申请未通过审核",
-      "EnSubject": "Microsoft Azure Standard Pay-in-advance subscription operated by 21Vianet: Purchase request failed"
+      "EnSubject": "Microsoft Azure Standard Pay-in-Advance subscription operated by 21Vianet: Purchase request failed"
     }
   ],
   "EnterpriseFailedTemplates": [
@@ -76,7 +76,7 @@
       "OfferId": "MS-MC-AZR-0033P",
       "TemplateName": "Enterprise PIA Failed.html",
       "Subject": "由世纪互联运营的 Microsoft Azure 标准预付费订阅：购买申请未通过审核",
-      "EnSubject": "Microsoft Azure Standard Pay-in-advance subscription operated by 21Vianet: Purchase request failed"
+      "EnSubject": "Microsoft Azure Standard Pay-in-Advance subscription operated by 21Vianet: Purchase request failed"
     }
   ],
   "GdprConfirmEmailTemplate": {
