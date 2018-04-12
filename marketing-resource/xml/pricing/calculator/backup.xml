@@ -9,8 +9,7 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/backup@2x.png" />
                         <h2><span>Backup</span></h2>
-                        <h4>Simple, reliable, and economical cloud backup.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_backup_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_backup_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h4>Simple, reliable, and economical cloud backup.</h4>                        <em><a href="/pricing/1rmb-trial/" id="home_backup_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_backup_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -33,8 +32,7 @@
                                 <span class="num">RMB0.00</span> <span class="unit">/month</span>
                             </p>
                         </div>
-                        <div class="btn-group">
-                            <a class="calcul-btn buy" href="/pricing/pia/" id="sidebarWinCalculBuy">Go to purchase</a> <a class="calcul-btn-white export" href="#" id="sidebarWinCalculExport">Export list</a> <a class="calcul-btn-white reset" href="#" id="sidebarWinCalculReset">Reset</a>
+                        <div class="btn-group">                            <a class="calcul-btn buy" href="/pricing/pia/" id="sidebarWinCalculBuy">Go to purchase</a> <a class="calcul-btn-white export" href="#" id="sidebarWinCalculExport">Export list</a> <a class="calcul-btn-white reset" href="#" id="sidebarWinCalculReset">Reset</a>
                         </div>
                         <p class="summary-text">
                             Still not convinced? <a href="/pricing/1rmb-trial/" id="sidebarWinCalculTry">Try</a> these features first.
@@ -84,7 +82,7 @@
                     </li>
                     <% }) %>
                     <% if(shopingList.length == 0){ %>
-                    <span class="nothing">您还没有选择要估算价格的服务，调整左边数量进行添加</span>
+                    <span class="nothing">You haven’t yet selected your price estimation service. Please add it by adjusting the amount on the left-hand side.</span>
                     <% } %>
                 </script>
                 <!-- end calculator shopinglist template --> <!-- start calculator animation layer -->
