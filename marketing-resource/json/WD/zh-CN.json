@@ -41,7 +41,7 @@
   },  
   "RULES_USER_IMAGE_SIZE_ERROR": {
     "desc": "user image size error",
-    "title": "File cannot exceed 4MB"
+    "title": "File cannot exceed 4 MB"
   },  
   "RULES_USER_IMAGE_DIMENSION_ERROR": {
     "desc": "user image dimension is not valid",
@@ -225,7 +225,7 @@
   },
   "ALREADY_APPLY_1RMB_CLICK_TO_BUY_PIA": {
     "desc": "already apply 1rmb free trial, click here to apply pia offer",
-    "title": "You have already applied for an Azure 1 RMB Trial. Please click <a href='/pricing/pia-waiting-list'> here </a> to purchase a standard prepaid product."
+    "title": "You have already applied for an Azure 1RMB Trial. Please click <a href='/pricing/pia-waiting-list'> here </a> to purchase a standard prepaid product."
   },
   "USERNAME_LABEL": {
     "desc": "user name label",
@@ -301,7 +301,7 @@
   },
   "ID_IMAGE_REQ_DETAILS1": {
     "desc": "image detail requirements 1",
-    "title": "Each picture cannot exceed 4MB. JPG, JPEG, or PNG picture type formats are supported;"
+    "title": "Each picture cannot exceed 4 MB. JPG, JPEG, or PNG picture type formats are supported;"
   },
   "ID_IMAGE_REQ_DETAILS2": {
     "desc": "image detail requirements 2",

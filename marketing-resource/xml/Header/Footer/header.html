@@ -13,69 +13,91 @@
       </div>
       <nav class="nav auto-scroll loading" data-fullscreen="true" data-top="header">
         <ul class="accordian-menu" data-accordiandisabled="desktop" data-accordianinteraction="exclusive">
-          <li class="nav-index"><a id="nav_homepage" href="https://www.azure.cn/" title="Home Page"> <span>Home Page</span> </a></li>
-          <li class="nav-product"><a class="menu-title icon-arrow-down-sharp2" id="nav_service" href="#" title="Products"> <span>Products</span> </a><ul class="accordian-menu sub-menu tab-nav tab-content menu-child auto-height" data-event="mouseenter" data-child=".level3-menu|.navigation-promotion"
-                data-accordiandisabled="desktop">
-              <li class=""><a id="nav_product_what-is-windows-azure" href="https://www.azure.cn/home/features/what-is-azure/" data-href="#service_tab11" title="Understanding Azure" data-toggle="link">Understanding Azure</a><div class="menu-child tab-panel level3-container" id="service_tab11">
-                </div>
-              </li>
-              <li class="active"><a id="nav_product_compute" class="menu-title expand icon-arrow-down-sharp2" href="#service_tab1" title="Compute" data-toggle="tab">Compute</a><div class="menu-child tab-panel level3-container" id="service_tab1">
+          <li class="nav-know-azure"><a class="menu-title icon-arrow-down-sharp2" id="nav_know-azure" href="#" title="Getting to know Azure"> <span>Getting to know Azure</span> </a><ul class="sub-menu menu-child full-width auto-height" data-child=".level3-menu|.navigation-promotion">
+              <li>
+                <div class="level3-container">
                   <dl class="level3-menu">
-                    <dt><a id="nav_product_compute-vm" href="https://www.azure.cn/home/features/virtual-machines/" title="Virtual Machines">Virtual Machines</a></dt>
-                    <dd>It only takes minutes to start to completely control a server in the cloud</dd>
-                    <dt><a id="nav_product_compute-vm-scale-sets" href="https://www.azure.cn/home/features/virtual-machine-scale-sets/" title="Virtual Machine Scaling">Virtual Machine Scaling</a></dt>
-                    <dd>Create a highly available, automatically scaling, Linux or Windows virtual machine</dd>
-                    <dt><a id="nav_product_compute-app-service" href="https://www.azure.cn/home/features/app-service/" title="App Service">App Service</a></dt>
-                    <dd>Create web and mobile apps for any platform on any device</dd>
-                    <dt><a id="nav_product_compute-batch" href="https://www.azure.cn/home/features/batch/" title="Batch Processing">Batch Processing</a></dt>
-                    <dd>Run large-scale parallel batch computing jobs</dd>
-                    <dt><a id="nav_product_compute-service-fabric" href="https://www.azure.cn/home/features/service-fabric/" title="Service Fabric">Service Fabric</a></dt>
-                    <dd>Build and run always-online, scalable, distributed apps</dd>
-                    <dt><a id="nav_product_compute-cloud" href="https://www.azure.cn/home/features/cloud-services/" title="Cloud Services">Cloud Services</a></dt>
-                    <dd>Create flexible, massively scalable applications and APIs</dd>
+                    <dt><a id="nav_what-is-azure" href="https://www.azure.cn/home/features/what-is-azure/" 
+                         title="What is Azure?"> What is Azure?</a></dt>
+                    <dd>Find out about the basics of Azure Services</dd>
+                    <dt><a id="nav_china-azure-vs-global-azure" href="https://www.microsoft.com/china/azure" 
+                         title="Chinese version of Azure (operated by 21Vianet) vs. global version of Azure " 
+                         target="_blank">Chinese version of Azure (operated by 21Vianet) vs. global version of Azure</a></dt>
+                    <dd>Which kind of public cloud is best for you?</dd>
+                    <dt><a id="nav_azure-services" href="https://docs.microsoft.com/zh-cn/azure/china/china-get-started-service-availability" 
+                         title="Available Azure Services " target="_blank">Available Azure Services</a></dt>
+                    <dd>List of available services for Chinese version of Azure (operated by 21Vianet) and global version of Azure</dd>
+                    <dt><a id="nav_get-started" href="https://school.azure.cn/category?filter=%7B%22curriculumDirectionId%22%3A%221%22%2C%22curriculumCategoryId%22%3A%220%22%2C%22courseCategoryId%22%3A%220%22%7D" 
+                         title="Get Started " target="_blank">Get Started</a></dt>
+                    <dd>Helping you to learn about Azure, providing operational efficiency, and reducing operational costs</dd>
+                    <dt><a id="nav_azure-webinars" href="https://www.azure.cn/webinars/" title="Azure Webinars">Azure Webinars</a></dt>
+                    <dd>Watch live demo, participate in expert Q&amp;A</dd>
                   </dl>
                 </div>
               </li>
-              <li class=""><a id="nav_product_network" class="menu-title icon-arrow-down-sharp2" href="#service_tab6" title="Networking" data-toggle="tab">Networking</a><div class="menu-child tab-panel level3-container" id="service_tab6">
+            </ul>
+          </li>
+          <li class="nav-product"><a class="menu-title icon-arrow-down-sharp2" id="nav_service" href="#" title="Products"> <span>Products</span> </a><ul class="accordian-menu sub-menu tab-nav tab-content menu-child auto-height" data-event="mouseenter" data-child=".level3-menu|.navigation-promotion"
+                data-accordiandisabled="desktop">
+              <li class="active"><a id="nav_product_compute" class="menu-title expand icon-arrow-down-sharp2" href="#service_tab1" title="Compute Services" data-toggle="tab">Compute Services</a><div class="menu-child tab-panel level3-container" id="service_tab1">
                   <dl class="level3-menu">
-                    <dt><a id="nav_product_network-networking" href="https://www.azure.cn/home/features/networking/" title="Virtual Networks">Virtual Networks</a></dt>
-                    <dd>An in the cloud virtual machine network that can be easily expanded to local networks through site-to-site VPNs</dd>
+                    <dt><a id="nav_product_compute-vm" href="https://www.azure.cn/home/features/virtual-machines/" title="Virtual Machines">Virtual Machines</a></dt>
+                    <dd>Provision Windows and Linux virtual machines in seconds</dd>
+                    <dt><a id="nav_product_compute-vm-scale-sets" href="https://www.azure.cn/home/features/virtual-machine-scale-sets/" title="Virtual Machine Scale Sets">Virtual Machine Scale Sets</a></dt>
+                    <dd>Manage and scale to thousands of Linux and Windows virtual machines</dd>
+                    <dt><a id="nav_product_compute-app-service" href="https://www.azure.cn/home/features/app-service/" title="App Service">App Service</a></dt>
+                    <dd>Quickly create powerful web and mobile cloud applications</dd>
+                    <dt><a id="nav_product_compute-batch" href="https://www.azure.cn/home/features/batch/" title="Batch">Batch</a></dt>
+                    <dd>Cloud-scale job scheduling and compute management</dd>
+                    <dt><a id="nav_product_compute-service-fabric" href="https://www.azure.cn/home/features/service-fabric/" title="Service Fabric">Service Fabric</a></dt>
+                    <dd>Develop microservices and arrange containers on Windows and Linux</dd>
+                    <dt><a id="nav_product_compute-cloud" href="https://www.azure.cn/home/features/cloud-services/" title="Cloud Services">Cloud Services</a></dt>
+                    <dd>Create highly available, massively scalable cloud applications and APIs</dd>
+                  </dl>
+                </div>
+              </li>
+              <li class=""><a id="nav_product_network" class="menu-title icon-arrow-down-sharp2" href="#service_tab6" title="Networks" data-toggle="tab">Networks</a><div class="menu-child tab-panel level3-container" id="service_tab6">
+                  <dl class="level3-menu">
+                    <dt><a id="nav_product_network-networking" href="https://www.azure.cn/home/features/networking/" title="Virtual Network">Virtual Network</a></dt>
+                    <dd>Set up dedicated networks that you can choose to link to a local data center</dd>
                     <dt><a id="nav_product_network-load-balancer" href="https://www.azure.cn/home/features/load-balancer/" title="Load Balancer">Load Balancer</a></dt>
                     <dd>Enabling your application to increase its availability and network performance</dd>
                     <dt><a id="nav_product_network-application-gateway" href="https://www.azure.cn/home/features/application-gateway/" title="Application Gateway">Application Gateway</a></dt>
-                    <dd>Through the provided HTTP load balancer and delivery, you can set up a highly-available, highly-expandable website</dd>
+                    <dd>Generate secure, scalable, and highly available web front-ends in Azure</dd>
                     <dt><a id="nav_product_network-vpn-gateway" href="https://www.azure.cn/home/features/vpn-gateway/" title="VPN Gateway">VPN Gateway</a></dt>
-                    <dd>Create a secure cross-boundary link</dd>
+                    <dd>Create secure cross-boundary connections</dd>
                     <dt><a id="nav_product_network-cdn" href="https://www.azure.cn/home/features/cdn/" title="Content Delivery Network">CDN</a></dt>
-                    <dd>From any location worldwide, it provides an exceptional content delivery network experience</dd>
+                    <dd>Extensive global coverage ensures secure and reliable content delivery</dd>
                     <dt><a id="nav_product_network-traffic-manager" href="https://www.azure.cn/home/features/traffic-manager/" title="Traffic Manager">Traffic Manager</a></dt>
-                    <dd>Routes afferent traffic across regions to improve app performance and availability</dd>
+                    <dd>Route incoming traffic for high performance and availability</dd>
+                    <dt><a id="nav_product_ccs" href="https://www.azure.cn/home/features/ccs/" title="Cloud Connection Services ">Cloud Connection Services</a></dt>
+                    <dd>Provides a secure, stable, and predictable dedicated connection with Azure</dd>
                     <dt><a id="nav_product_network-express-route" href="https://www.azure.cn/home/features/expressroute/" title="ExpressRoute">ExpressRoute</a></dt>
-                    <dd>Provides with Azure’s speed, reliable link connections</dd>
-                    <dt><a id="nav_product_network-network-watcher" href="https://www.azure.cn/home/features/network-watcher/" title="Network Monitoring">Network Monitoring</a></dt>
-                    <dd>Network performance monitoring and diagnosis solutions</dd>
+                    <dd>Azure dedicated network fiber connection</dd>
+                    <dt><a id="nav_product_network-network-watcher" href="https://www.azure.cn/home/features/network-watcher/" title="Network Watcher">Network Watcher</a></dt>
+                    <dd>Network performance monitoring and diagnosis solution</dd>
                   </dl>
                 </div>
               </li>
               <li class=""><a id="nav_product_storage" class="menu-title icon-arrow-down-sharp2" href="#service_tab9" title="Storage" data-toggle="tab">Storage</a><div class="menu-child tab-panel level3-container" id="service_tab9">
                   <dl class="level3-menu">
                     <dt><a id="nav_product_data-and-storage-storage" href="https://www.azure.cn/home/features/storage/" title="Storage">Storage</a></dt>
-                    <dd>Highly persistent, highly available, and scalable cloud storage</dd>
+                    <dd>Durable, highly available, and highly scalable cloud storage</dd>
                     <dt><a id="nav_product_hybrid-integrated-backup" href="https://www.azure.cn/home/features/back-up/" title="Backup">Backup</a></dt>
-                    <dd>Reliable, low cost, and expandable solutions to backing up local data to a cloud platform</dd>
+                    <dd>Simple and reliable server cloud backup</dd>
                     <dt><a id="nav_product_hybrid-integrated-site" href="https://www.azure.cn/home/features/site-recovery/" title="Site Recovery">Site Recovery</a></dt>
-                    <dd>Coordinates automatic replication and recovery in an auxiliary private cloud location, protecting important apps</dd>
+                    <dd>Arrange the protection and recovery of a private cloud</dd>
                   </dl>
                 </div>
               </li>
               <li class=""><a id="nav_product_web-and-mobile" class="menu-title icon-arrow-down-sharp2" href="#service_tab2" title="Web and Migration" data-toggle="tab">Web + Migration</a><div class="menu-child tab-panel level3-container" id="service_tab2">
                   <dl class="level3-menu">
                     <dt><a id="nav_product_web-and-mobile-app-service" href="https://www.azure.cn/home/features/app-service/" title="App Service">App Service</a></dt>
-                    <dd>Create web and mobile apps for any platform and any device</dd>
+                    <dd>Quickly create powerful web and mobile cloud applications</dd>
                     <dt><a id="nav_product_web-and-mobile-cdn" href="https://www.azure.cn/home/features/cdn/" title="CDN">CDN</a></dt>
-                    <dd>From any location worldwide, it provides an exceptional content delivery network experience</dd>
+                    <dd>Extensive global coverage ensures secure and reliable content delivery</dd>
                     <dt><a id="nav_product_media-and-CDN-media" href="https://www.azure.cn/home/features/media-services/" title="Media Services">Media Services</a></dt>
-                    <dd>Create an end-to-end media workflow that provides flexibility and highly scalable coding, packaging, and delivery services</dd>
+                    <dd>Large-scale coding, storage and streaming delivery for audio and video</dd>
                     <dt><a id="nav_product_web-and-mobile-mobile" href="https://www.azure.cn/home/features/mobile-services/" title="Mobile Services">Mobile Services</a></dt>
                     <dd>Provides backend scaling and security for any mobile apps</dd>
                   </dl>
@@ -84,26 +106,26 @@
               <li class=""><a id="nav_product_data" class="menu-title icon-arrow-down-sharp2" href="#service_tab3" title="Databases" data-toggle="tab">Databases</a><div class="menu-child tab-panel level3-container" id="service_tab3">
                   <dl class="level3-menu">
                     <dt><a id="nav_product_data-and-storage-sql-database" href="https://www.azure.cn/home/features/sql-database/" title="SQL Database">SQL Database</a></dt>
-                    <dd>SQL-related database services</dd>
+                    <dd>Relational SQL Database as a service</dd>
                     <dt><a id="nav_product_data-and-storage-mysql" href="https://www.azure.cn/home/features/mysql/" title="MySQL Database on Azure">MySQL Database on Azure</a></dt>
                     <dd>MySQL-related database services provide a database service with stable performance, simple operation, and high security</dd>
                     <dt><a id="nav_product_data-and-storage-warehouse" href="https://www.azure.cn/home/features/sql-data-warehouse/" title="SQL Data Warehouse">SQL Data Warehouse</a></dt>
-                    <dd>Fully trusted and highly scalable data warehouse services</dd>
+                    <dd>Flexible data warehouse as a service with enterprise-level capability</dd>
                     <dt><a id="nav_product_data-and-storage-sql" href="https://www.azure.cn/home/features/sql-server-stretch-database/ " title="SQL Server Stretch Database">SQL Server Stretch Database</a></dt>
-                    <dd>Exchange cold and hot data from SQL Server 2016 dynamically with Azure</dd>
+                    <dd>Dynamically stretch a local SQL Server Database to Azure</dd>
                     <dt><a id="nav_product_data-and-storage-azure-cosmos-db" href="https://www.azure.cn/home/features/cosmos-db/" title="Azure Cosmos DB">Azure Cosmos DB</a></dt>
-                    <dd>Worldwide distributed multi-modal database services</dd>
+                    <dd>Globally distributed, multi-modal database service for any size</dd>
                     <dt><a id="nav_product_data-and-storage-redis-cache" href="https://www.azure.cn/home/features/redis-cache/" title="Redis Cache">Redis Cache</a></dt>
-                    <dd>High throughput, low delay data access assists in the rapid development of apps</dd>
+                    <dd>A powerful application with high throughput and low latency data access</dd>
                   </dl>
                 </div>
               </li>
               <li class=""><a id="nav_product_analysis" class="menu-title icon-arrow-down-sharp2" href="#service_tab4" title="Flow Analysis" data-toggle="tab">Flow Analysis</a><div class="menu-child tab-panel level3-container" id="service_tab4">
                   <dl class="level3-menu">
                     <dt><a id="nav_product_analysis-hdinsight" href="https://www.azure.cn/home/features/hdinsight/" title="HDInsight">HDInsight</a></dt>
-                    <dd>A cloud technology driven Hadoop system</dd>
+                    <dd>Set up Hadoop, Spark, R Server, HBase and Storm clusters in the cloud</dd>
                     <dt><a id="nav_product_analysis-stream-analytics" href="https://www.azure.cn/home/features/stream-analytics/" title="Stream Analytics">Stream Analytics</a></dt>
-                    <dd>An event processing engine in the cloud that can be developed quickly and in real time to gain an in-depth understanding of currently existing data attributes</dd>
+                    <dd>Real-time data streaming that can process data from millions of IoT devices</dd>
                     <dt><a id="nav_product_analysis-power-bi-embedded" href="https://www.azure.cn/home/features/power-bi-embedded/" title="Power BI Workspace Integration">Power BI Workspace Integration</a></dt>
                     <dd>Embed completely interactive visualization data in apps</dd>
                     <dt><a id="nav_product_analysis-analysis-services" href="https://www.azure.cn/home/features/analysis-services/" title="Azure Analysis Services">Azure Analysis Services</a></dt>
@@ -114,13 +136,13 @@
               <li class=""><a id="nav_product_ai" class="menu-title icon-arrow-down-sharp2" href="#service_tab13" title="AI" data-toggle="tab">AI</a><div class="menu-child tab-panel level3-container" id="service_tab13">
                   <dl class="level3-menu">
                     <dt><a id="nav_product_ai-cognitive-services" href="https://www.azure.cn/home/features/cognitive-services/" title="Cognitive Services">Cognitive Services</a></dt>
-                    <dd>Add intelligent API functionality and simultaneously humanize apps</dd>
+                    <dd>Add intelligent API functionality to start using context interaction</dd>
                     <ul class="level4-menu hidden-sm hidden-xs">
-                      <li><a id="nav_product_ai-face" href="https://www.azure.cn/home/features/cognitive-services/face/" title="Facial Recognition API">Facial Recognition API</a> <span>detect, recognize, organize, and tag faces in images</span></li>
+                      <li><a id="nav_product_ai-face" href="https://www.azure.cn/home/features/cognitive-services/face/" title="Face API">Face API</a> <span>Detect, recognize, organize, and tag faces in images</span></li>
                       <li><a id="nav_product_ai-computer-vision" href="https://www.azure.cn/home/features/cognitive-services/computer-vision/" title="Computer Vision API">Computer Vision API</a> <span>extract operational information from an image</span></li>
                       <li><a id="nav_product_ai-emotion" href="https://www.azure.cn/home/features/cognitive-services/emotion/" title="Mood Recognition API">Mood Recognition API</a> <span>achieve a personalized user experience through mood recognition</span></li>
                     </ul>
-                    <dt class="hidden-md hidden-lg"><a id="nav_product_ai-face-mobile" href="https://www.azure.cn/home/features/cognitive-services/face/" title="Facial Recognition API">Facial Recognition API</a></dt>
+                    <dt class="hidden-md hidden-lg"><a id="nav_product_ai-face-mobile" href="https://www.azure.cn/home/features/cognitive-services/face/" title="Face API">Face API</a></dt>
                     <dd class="hidden-md hidden-lg">Detect, recognize, organize, and tag faces in images</dd>
                     <dt class="hidden-md hidden-lg"><a id="nav_product_ai-computer-vision-mobile" href="https://www.azure.cn/home/features/cognitive-services/computer-vision/" title="Computer Vision API">Computer Vision API</a></dt>
                     <dd class="hidden-md hidden-lg">Extract operational information from an image</dd>
@@ -134,22 +156,22 @@
                     <dt><a id="nav_product_IOT-iot-suite" href="https://www.azure.cn/home/features/iot-suite/" title="IoT Suite">IoT Suite</a></dt>
                     <dd>Capture and analyze unused data to improve business results</dd>
                     <dt><a id="nav_product_IOT-iot-hub" href="https://www.azure.cn/home/features/iot-hub/" title="IoT Hub">IoT Hub</a></dt>
-                    <dd>Connect, monitor and control millions of IoT assets, and improve the security of IoT solutions</dd>
-                    <dt><a id="nav_product_IOT-eve" href="https://www.azure.cn/home/features/event-hubs/" title="Event Center">Event Center</a></dt>
-                    <dd>Highly extensible event publishing-subscription gathering device that can transmit millions of events to an application routine</dd>
+                    <dd>Connect, monitor, and control billions of IoT assets</dd>
+                    <dt><a id="nav_product_IOT-eve" href="https://www.azure.cn/home/features/event-hubs/" title="Event Hubs">Event Hubs</a></dt>
+                    <dd>Receive telemetry from millions of devices</dd>
                     <dt><a id="nav_product_IOT-stream-analytics" href="https://www.azure.cn/home/features/stream-analytics/" title="Stream Analytics">Stream Analytics</a></dt>
-                    <dd>An event processing engine in the cloud that can be developed quickly and in real time to gain an in-depth understanding of currently existing data attributes</dd>
+                    <dd>Real-time data streaming that can process data from millions of IoT devices</dd>
                     <dt><a id="nav_product_IOT-notification-hun" href="https://www.azure.cn/home/features/notification-hubs/" title="Notification Hubs">Notification Hubs</a></dt>
-                    <dd>A highly expandable cross-platform notification push infrastructure that can customize notification content</dd>
+                    <dd>Send push notifications to any platform from any back-end</dd>
                   </dl>
                 </div>
               </li>
               <li class=""><a id="nav_product_hybrid-integrated" class="menu-title icon-arrow-down-sharp2" href="#service_tab8" title="Enterprise Integration" data-toggle="tab">Enterprise Integration</a><div class="menu-child tab-panel level3-container" id="service_tab8">
                   <dl class="level3-menu">
                     <dt><a id="nav_product_hybrid-integrated-service-bus" href="https://www.azure.cn/home/features/messaging/" title="Service Bus">Service Bus</a></dt>
-                    <dd>An information delivery infrastructure between applications to link a private cloud to the public cloud</dd>
+                    <dd>Link private and public cloud environments</dd>
                     <dt><a id="nav_product_hybrid-integrated-sql-server-stretch-database" href="https://www.azure.cn/home/features/sql-server-stretch-database/" title="SQL Server Stretch Database ">SQL Server Stretch Database </a></dt>
-                    <dd>Exchange cold and hot data from SQL Server 2016 dynamically with Azure</dd>
+                    <dd>Dynamically stretch a local SQL Server Database to Azure</dd>
                     <dt><a id="nav_product_hybrid-integrated-api-management" href="https://www.azure.cn/home/features/api-management/" title="API Management">API Management</a></dt>
                     <dd>Security and scalability to publish API to developers, cooperative partners, and personnel</dd>
                   </dl>
@@ -158,30 +180,32 @@
               <li class=""><a id="nav_product_media-and-CDN" class="menu-title icon-arrow-down-sharp2" href="#service_tab7" title="Security + Authentication" data-toggle="tab">Security + Authentication</a><div class="menu-child tab-panel level3-container" id="service_tab7">
                   <dl class="level3-menu">
                     <dt><a id="nav_product_manage-and-secure-key-vault" href="https://www.azure.cn/home/features/key-vault/" title="Key Vault">Key Vault</a></dt>
-                    <dd>Multiple authentication options enhance identity verification and protect the security of your data and apps</dd>
+                    <dd>Protect and maintain control keys and secrets</dd>
                     <dt><a id="nav_product_IAM-ad" href="https://www.azure.cn/home/features/identity/" title="Azure Active Directory">Azure Active Directory</a></dt>
-                    <dd>Comprehensive and highly available cloud identity verification and app access management solutions</dd>
+                    <dd>Synchronize local content and start using single sign-in</dd>
                     <dt><a id="nav_product_IAM-multi-factor-authentication" href="https://www.azure.cn/home/features/multi-factor-authentication/" title="Multi-Factor Authentication">Multi-Factor Authentication</a></dt>
-                    <dd>Multiple authentication options enhance identity verification and protect the security of your data and apps</dd>
+                    <dd>Improves data and application security without any additional trouble for users</dd>
                   </dl>
                 </div>
               </li>
               <li class=""><a id="nav_product_manage-and-secure" class="menu-title icon-arrow-down-sharp2" href="#service_tab10" title="Monitoring + Supervision" data-toggle="tab">Monitoring + Supervision</a><div class="menu-child tab-panel level3-container" id="service_tab10">
                   <dl class="level3-menu">
                     <dt><a id="nav_product_manage-and-secure-azure-portal" href="https://www.azure.cn/home/features/azure-portal/" title="Azure portal">Azure portal</a></dt>
-                    <dd>Explore The All New Azure portal</dd>
+                    <dd>Build, manage, and monitor Azure products in a single unified console</dd>
                     <dt><a id="nav_product_manage-and-secure-automation" href="https://www.azure.cn/home/features/automation/" title="Automation">Automation</a></dt>
-                    <dd>Simplify cloud management by using process automation, saving time, reducing errors, and lowering cloud management costs</dd>
+                    <dd>Simplify cloud management by using process automation</dd>
                     <dt><a id="nav_product_manage-and-secure-back-up" href="https://www.azure.cn/home/features/back-up/" title="Backup">Backup</a></dt>
-                    <dd>Reliable, low cost, and expandable solutions to backing up local data to a cloud platform</dd>
+                    <dd>Simple and reliable server cloud backup</dd>
                     <dt><a id="nav_product_manage-and-secure-site-recovery" href="https://www.azure.cn/home/features/site-recovery/" title="Site Recovery">Site Recovery</a></dt>
-                    <dd>Coordinates automatic replication and recovery in an auxiliary private cloud location, protecting important apps</dd>
+                    <dd>Arrange the protection and recovery of a private cloud</dd>
                     <dt><a id="nav_product_manage-and-secure-scheduler" href="https://www.azure.cn/home/features/scheduler/" title="Scheduler">Scheduler</a></dt>
-                    <dd>Create reliable scheduling for Azure internal and external services in the cloud</dd>
+                    <dd>Run jobs for simple or complex recurring schedules</dd>
+                    <dt><a id="nav_product_manage-and-secure-azure-monitor" href="https://www.azure.cn/home/features/monitor/" title="Azure Monitor">Azure Monitor</a></dt>
+                    <dd>High-precision, real-time monitoring of all Azure resource data</dd>
                   </dl>
                 </div>
               </li>
-              <li><a id="nav_product_azure-stack" href="https://www.azure.cn/azure-stack/" data-href="#service_tab12" title="Azure Stack" data-toggle="link">Azure Stack</a><div class="menu-child tab-panel level3-container" id="service_tab12">
+              <li><a id="nav_product_azure-stack" href="https://www.azure.cn/overview/azure-stack/" data-href="#service_tab12" title="Azure Stack" data-toggle="link">Azure Stack</a><div class="menu-child tab-panel level3-container" id="service_tab12">
                 </div>
               </li>
             </ul>
@@ -201,8 +225,8 @@
                     <dt><a id="nav_solution_general-solution-data-analysis" href="https://www.azure.cn/solutions/data-analysis/" title="Data Analysis">Data Analysis</a></dt>
                     <dd>Understand how to use Azure to implement data processing and visualization</dd>
                     <dt><a id="nav_solution_general-solution-high-performance-computing" href="https://www.azure.cn/solutions/high-performance-computing/"
-                         title="High Performance Computing">High Performance Computing</a></dt>
-                    <dd>Understand how to run large scale workloads in the cloud</dd>
+                         title="High Performance Compute Services">High Performance Compute Services</a></dt>
+                    <dd>Understand how to run large-scale workloads in the cloud</dd>
                     <dt><a id="nav_solution_general-solution-iot" href="https://www.azure.cn/solutions/iot/" title="Connected Devices">Connected Devices</a></dt>
                     <dd>Understand how to connect equipment and personnel across businesses</dd>
                     <dt><a id="nav_solution_general-solution-dev-test" href="https://www.azure.cn/solutions/dev-test/" title="Develop and Test">Develop and Test</a></dt>
@@ -240,15 +264,17 @@
                     <dd>Rapidly build and put into practice DevOps open source solutions on Azure </dd>
                   </dl>
                 </div>
-              </li>
-              <li><a id="nav_solution_hybrid-cloud" class="menu-title icon-arrow-down-sharp2" href="#solution_tab4" title="Hybrid Cloud Solutions" data-toggle="tab">Hybrid Cloud Solutions</a><div class="menu-child tab-panel level3-container" id="solution_tab4">
+              </li><!--<li>
+                <a id="nav_solution_hybrid-cloud" class="menu-title icon-arrow-down-sharp2" href="#solution_tab4" title="混合云解决方案" data-toggle="tab">混合云解决方案</a>
+                <div class="menu-child tab-panel level3-container" id="solution_tab4">
                   <dl class="level3-menu">
-                    <dt><a id="nav_solution_hybrid-cloud-storsimple" href="https://www.azure.cn/solutions/storsimple/" title="StorSimple">StorSimple</a></dt>
-                    <dd>Understand industry-leading hybrid cloud storage installed to optimize storage costs and data protection in any enterprise environment</dd>
+                    <dt>
+                      <a id="nav_solution_hybrid-cloud-storsimple" href="https://www.azure.cn/solutions/storsimple/" title="StorSimple">StorSimple</a>
+                    </dt>
+                    <dd>了解业界领先的混合云存储装置如何优化企业环境的存储总成本和数据保护</dd>
                   </dl>
                 </div>
-              </li>
-            </ul>
+              </li>--></ul>
           </li>
           <li class="nav-partnerAndCase"><a class="menu-title icon-arrow-down-sharp2" id="nav_case-and-partner" href="#" title="Cases and Partners"> <span>Cases and Partners</span> </a><ul class="sub-menu menu-child full-width auto-height" data-child=".level3-menu|.navigation-promotion">
               <li>
@@ -268,54 +294,56 @@
               <li><a id="nav_documentation_all" href="https://docs.azure.cn/zh-cn/#pivot=products&panel=all" data-href="#documents_tab13" title="All Technology Documentation" data-toggle="link">All Technology Documentation</a><div class="menu-child tab-panel level3-container" id="documents_tab13">
                 </div>
               </li>
-              <li class="active"><a id="nav_documentation_compute" class="menu-title expand icon-arrow-down-sharp2" href="#documents_tab3" data-href="#documents_tab3" title="Compute" data-toggle="tab">Compute</a><div class="menu-child tab-panel level3-container" id="documents_tab3">
+              <li class="active"><a id="nav_documentation_compute" class="menu-title expand icon-arrow-down-sharp2" href="#documents_tab3" data-href="#documents_tab3" title="Compute Services" data-toggle="tab"> Compute Services</a><div class="menu-child tab-panel level3-container" id="documents_tab3">
                   <dl class="level3-menu">
                     <dt><a id="nav_documentation_compute-linux_vm" href="https://docs.azure.cn/zh-cn/virtual-machines/linux/" title="Linux Virtual Machines">Linux Virtual Machines</a></dt>
-                    <dd>Pre-configured virtual machines for Ubuntu, etc.</dd>
+                    <dd>Virtual Machines provisioned for Ubuntu, Red Hat, etc.</dd>
                     <dt><a id="nav_documentation_compute-windows_vm" href="https://docs.azure.cn/zh-cn/virtual-machines/windows/" title="Windows Virtual Machines">Windows Virtual Machines</a></dt>
                     <dd>Pre-configured virtual machines for SQL Server and SharePoint</dd>
-                    <dt><a id="nav_documentation_compute-windows_vm-scale-sets" href="https://docs.azure.cn/zh-cn/virtual-machine-scale-sets/" title="Virtual Machine Scaling">Virtual Machine Scaling</a></dt>
-                    <dd>Managing and scaling from dozens to thousands of Linux and Windows virtual machines</dd>
+                    <dt><a id="nav_documentation_compute-windows_vm-scale-sets" href="https://docs.azure.cn/zh-cn/virtual-machine-scale-sets/" title="Virtual Machine Scale Sets">Virtual Machine Scale Sets</a></dt>
+                    <dd>Manage and scale thousands of Linux and Windows virtual machines</dd>
                     <dt><a id="nav_documentation_compute-app-service-web" href="https://docs.azure.cn/zh-cn/app-service-web/" title="Web Apps">Web Apps</a></dt>
-                    <dd>Rapidly Create and deploy on a large scale any crucial Web apps</dd>
+                    <dd>Rapidly create and deploy scalable mission-critical web apps</dd>
                     <dt><a id="nav_documentation_compute-app-service" href="https://docs.azure.cn/zh-cn/app-service/" title="App Service">App Service</a></dt>
-                    <dd>Using containers to deploy Web apps on Linux</dd>
-                    <dt><a id="nav_documentation_compute-batch" href="https://docs.azure.cn/zh-cn/batch/" title="Batch Processing">Batch Processing</a></dt>
-                    <dd>Use containers to run calculation jobs</dd>
+                    <dd>Quickly create powerful web and mobile cloud applications</dd>
+                    <dt><a id="nav_documentation_compute-batch" href="https://docs.azure.cn/zh-cn/batch/" title="Batch">Batch</a></dt>
+                    <dd>Cloud-scale job scheduling and compute management</dd>
                     <dt><a id="nav_documentation_compute-service-fabric" href="https://docs.azure.cn/zh-cn/service-fabric/" title="Service Fabric">Service Fabric</a></dt>
-                    <dd>Develop micro services and coordinate containers on Windows and Linux</dd>
+                    <dd>Develop microservices and coordinate containers on Windows and Linux</dd>
                     <dt><a id="nav_documentation_compute-cloud" href="https://docs.azure.cn/zh-cn/cloud-services/" title="Cloud Services">Cloud Services</a></dt>
                     <dd>Create highly available, massively scalable cloud applications and APIs</dd>
                   </dl>
                 </div>
               </li>
-              <li class=""><a id="nav_documentation_network" class="menu-title icon-arrow-down-sharp2" href="#documents_tab8" data-href="#documents_tab8" title="Network" data-toggle="tab"> Network </a><div class="menu-child tab-panel level3-container" id="documents_tab8">
+              <li class=""><a id="nav_documentation_network" class="menu-title icon-arrow-down-sharp2" href="#documents_tab8" data-href="#documents_tab8" title="Networks" data-toggle="tab"> Networks </a><div class="menu-child tab-panel level3-container" id="documents_tab8">
                   <dl class="level3-menu">
-                    <dt><a id="nav_documentation_network-networking" href="https://docs.azure.cn/zh-cn/virtual-network/" title="Virtual Networks">Virtual Networks</a></dt>
+                    <dt><a id="nav_documentation_network-networking" href="https://docs.azure.cn/zh-cn/virtual-network/" title="Virtual Network">Virtual Network</a></dt>
                     <dd>Pre-configured dedicated networks that can be linked to a local data center based on your needs</dd>
                     <dt><a id="nav_documentation_network-load-balancer" href="https://docs.azure.cn/zh-cn/load-balancer/" title="Load Balancer">Load Balancer</a></dt>
                     <dd>Increase application availability and network performance</dd>
                     <dt><a id="nav_documentation_network-application-gateway" href="https://docs.azure.cn/zh-cn/application-gateway/" title="Application Gateway">Application Gateway</a></dt>
-                    <dd>Possess a built-in HTTP load balancing and delivery control layer 7 load balancer</dd>
+                    <dd>Generate secure, scalable, and highly available web front-ends in Azure</dd>
                     <dt><a id="nav_documentation_network-vpn-gateway" href="https://docs.azure.cn/zh-cn/vpn-gateway/" title="VPN Gateway">VPN Gateway</a></dt>
                     <dd>Establish secure cross-boundary connections</dd>
                     <dt><a id="nav_documentation_network-cdn" href="https://docs.azure.cn/zh-cn/cdn/" title="CDN">CDN</a></dt>
-                    <dd>Delivers content to the end user through a stable network of worldwide data centers</dd>
+                    <dd>Extensive global coverage ensures secure and reliable content delivery</dd>
                     <dt><a id="nav_documentation_network-traffic-manager" href="https://docs.azure.cn/zh-cn/traffic-manager/" title="Traffic Manager">Traffic Manager</a></dt>
                     <dd>Routes afferent traffic based on requirements for high performance and high availability</dd>
+                    <dt><a id="nav_documentation_ccs" href="https://docs.azure.cn/zh-cn/articles/cloud-connection-service/cloud-connection-service-quick-start" title="Cloud Connection Services ">Cloud Connection Services</a></dt>
+                    <dd>Provides a secure, stable, and predictable dedicated connection with Azure</dd>
                     <dt><a id="nav_documentation_network-express-route" href="https://docs.azure.cn/zh-cn/expressroute/" title="ExpressRoute">ExpressRoute</a></dt>
                     <dd>Azure dedicated network fiber connection</dd>
-                    <dt><a id="nav_documentation_network-express-route" href="https://docs.azure.cn/zh-cn/network-watcher/" title="Network Monitoring">Network Monitoring</a></dt>
-                    <dd>Network performance monitoring and diagnosis solutions</dd>
+                    <dt><a id="nav_documentation_network-express-route" href="https://docs.azure.cn/zh-cn/network-watcher/" title="Network Watcher">Network Watcher</a></dt>
+                    <dd>Network performance monitoring and diagnosis solution</dd>
                   </dl>
                 </div>
               </li>
               <li class=""><a id="nav_documentation_storage" class="menu-title icon-arrow-down-sharp2" href="#documents_tab10" data-href="#documents_tab10" title="Storage" data-toggle="tab"> Storage </a><div class="menu-child tab-panel level3-container" id="documents_tab10">
                   <dl class="level3-menu">
                     <dt><a id="nav_documentation_storage-storage" href="https://docs.azure.cn/zh-cn/storage/" title="Storage">Storage</a></dt>
-                    <dd>Persistent, highly available, and scalable cloud storage</dd>
+                    <dd>Durable, highly available, and highly scalable cloud storage</dd>
                     <dt><a id="nav_documentation_storage-backup" href="https://docs.azure.cn/zh-cn/backup/" title="Backup">Backup</a></dt>
-                    <dd>Backs up server data in the cloud using simple and reliable methods</dd>
+                    <dd>Use a cloud-based backup as a service to protect data</dd>
                     <dt><a id="nav_documentation_storage-site-recovery" href="https://docs.azure.cn/zh-cn/site-recovery/" title="Site Recovery">Site Recovery</a></dt>
                     <dd>Coordinate the protection and recovery of a private cloud</dd>
                   </dl>
@@ -324,42 +352,42 @@
               <li class=""><a id="nav_documentation_web-and-mobile" class="menu-title icon-arrow-down-sharp2" href="#documents_tab4" data-href="#documents_tab4" title="Web and Migration" data-toggle="tab"> Web + Migration </a><div class="menu-child tab-panel level3-container" id="documents_tab4">
                   <dl class="level3-menu">
                     <dt><a id="nav_documentation_web-and-mobile-app-service-web" href="https://docs.azure.cn/zh-cn/app-service-web/" title="Web Apps">Web Apps</a></dt>
-                    <dd>Rapidly Create and deploy on a large scale any crucial Web apps</dd>
+                    <dd>Rapidly create and deploy scalable mission-critical web apps</dd>
                     <dt><a id="nav_documentation_web-and-mobile-app-service-mobile" href="https://docs.azure.cn/zh-cn/app-service-mobile/" title="Mobile Apps">Mobile Apps</a></dt>
-                    <dd>Generate and trust any back end mobile app</dd>
+                    <dd>Back-ends that can build and host any mobile app</dd>
                     <dt><a id="nav_documentation_web-and-mobile-app-service-api" href="https://docs.azure.cn/zh-cn/app-service-api/" title="API Apps">API Apps</a></dt>
                     <dd>Effortlessly generate and use cloud API</dd>
                     <dt><a id="nav_documentation_web-and-mobile-cdn" href="https://docs.azure.cn/zh-cn/cdn/" title="">CDN</a></dt>
-                    <dd>Delivers content to the end user through a stable network of worldwide data centers</dd>
+                    <dd>Extensive global coverage ensures secure and reliable content delivery</dd>
                     <dt><a id="nav_documentation_web-and-mobile-media-services" href="https://docs.azure.cn/zh-cn/media-services/" title="">Media Services</a></dt>
                     <dd>Large-scale coding, storage and streaming delivery for audio and video</dd>
                     <dt><a id="nav_documentation_web-and-mobile-notification-hubs" href="https://docs.azure.cn/zh-cn/notification-hubs/" title="">Notification Hubs</a></dt>
-                    <dd>A scalable push notification engine that can rapidly send millions of discrete pieces of information</dd>
+                    <dd>Send push notifications to any platform from any back-end</dd>
                   </dl>
                 </div>
               </li>
-              <li class=""><a id="nav_documentation_data-and-storage" class="menu-title icon-arrow-down-sharp2" href="#documents_tab5" data-href="#documents_tab5" title="Databases" data-toggle="tab"> Databases </a><div class="menu-child tab-panel level3-container" id="documents_tab5">
+              <li class=""><a id="nav_documentation_data-and-storage" class="menu-title icon-arrow-down-sharp2" href="#documents_tab5" data-href="#documents_tab5" title="Database" data-toggle="tab"> Database </a><div class="menu-child tab-panel level3-container" id="documents_tab5">
                   <dl class="level3-menu">
-                    <dt><a id="nav_documentation_data-and-storage-sql-database" href="https://docs.azure.cn/zh-cn/sql-database/" title="SQL Databases">SQL Databases</a></dt>
-                    <dd>Trusted relational database services</dd>
+                    <dt><a id="nav_documentation_data-and-storage-sql-database" href="https://docs.azure.cn/zh-cn/sql-database/" title="SQL Database">SQL Database</a></dt>
+                    <dd>Relational SQL Database as a service</dd>
                     <dt><a id="nav_documentation_data-and-storage-sql-data-warehouse" href="https://docs.azure.cn/zh-cn/sql-data-warehouse/" title="SQL Data Warehouse">SQL Data Warehouse</a></dt>
                     <dd>Possess flexible data warehouses as a service enterprise-level capability</dd>
                     <dt><a id="nav_documentation_data-and-storage-sql-server-stretch-database" href="https://docs.azure.cn/zh-cn/sql-server-stretch-database/"
                          title="SQL Server Stretch Database">SQL Server Stretch Database</a></dt>
                     <dd>Take a local SQL Server Database and dynamically extend it to Azure</dd>
                     <dt><a id="nav_documentation_data-and-storage-cosmos-db" href="https://docs.azure.cn/zh-cn/cosmos-db/" title="Cosmos DB">Cosmos DB</a></dt>
-                    <dd>Trusted NoSQL documentation database as a service</dd>
+                    <dd>Globally-distributed, multi-modal databases for any size</dd>
                     <dt><a id="nav_documentation_data-and-storage-mysql" href="https://docs.azure.cn/zh-cn/mysql/" title="MySQL on Azure">MySQL on Azure</a></dt>
-                    <dd>Trusted MySQL database services geared toward app developers</dd>
+                    <dd>Trusted MySQL Database services geared toward app developers</dd>
                     <dt><a id="nav_documentation_data-and-storage-redis-cache" href="https://docs.azure.cn/zh-cn/redis-cache/" title="Redis Cache">Redis Cache</a></dt>
-                    <dd>Running high throughput, low delay data access by generating rapid/scalable apps</dd>
+                    <dd>A powerful application with high throughput and low latency data access</dd>
                   </dl>
                 </div>
               </li>
               <li class=""><a id="nav_documentation_analysis" class="menu-title icon-arrow-down-sharp2" href="#documents_tab6" data-href="#documents_tab6" title="Analysis" data-toggle="tab">Analysis</a><div class="menu-child tab-panel level3-container" id="documents_tab6">
                   <dl class="level3-menu">
                     <dt><a id="nav_documentation_analysis-hdinsight" href="https://docs.azure.cn/zh-cn/hdinsight/" title="HDInsight">HDInsight</a></dt>
-                    <dd>Pre-configured Hadoop, Spark, R-Server, Hbase and Storm clusters</dd>
+                    <dd>Provision Hadoop, Spark, R Server, HBase and Storm clusters in the cloud</dd>
                     <dt><a id="nav_documentation_analysis-stream-analytics" href="https://docs.azure.cn/zh-cn/stream-analytics/" title="Stream Analytics">Stream Analytics</a></dt>
                     <dd>Real-time processing of stream analytics form millions of IoT devices</dd>
                     <dt><a id="nav_documentation_analysis-power-bi-embedded" href="https://docs.azure.cn/zh-cn/power-bi-embedded/" title="Power BI Workspace Integration">Power BI Workspace Integration</a></dt>
@@ -374,11 +402,11 @@
                     <dt><a id="nav_documentation_ai-cognitive-services" href="https://docs.azure.cn/zh-cn/cognitive-services/" title="Cognitive Services">Cognitive Services</a></dt>
                     <dd>Add intelligent API functionality to start using context interaction</dd>
                     <ul class="level4-menu hidden-sm hidden-xs">
-                      <li><a id="nav_documentation_ai-face" href="https://docs.azure.cn/zh-cn/cognitive-services/face/" title="Facial Recognition API">Facial Recognition API</a> <span>detect, recognize, organize, and tag faces in images</span></li>
+                      <li><a id="nav_documentation_ai-face" href="https://docs.azure.cn/zh-cn/cognitive-services/face/" title="Face API">Face API</a> <span>Detect, recognize, organize, and tag faces in images</span></li>
                       <li><a id="nav_documentation_ai-computer-vision" href="https://docs.azure.cn/zh-cn/cognitive-services/computer-vision/" title="Computer Vision API">Computer Vision API</a> <span>extract operational information from an image</span></li>
                       <li><a id="nav_documentation_ai-emotion" href="https://docs.azure.cn/zh-cn/cognitive-services/emotion/home" title="Mood Recognition API">Mood Recognition API</a> <span>achieve a personalized user experience through mood recognition</span></li>
                     </ul>
-                    <dt class="hidden-md hidden-lg"><a id="nav_documentation_ai-face-mobile" href="https://www.azure.cn/home/features/cognitive-services/face/" title="Facial Recognition API">Facial Recognition API</a></dt>
+                    <dt class="hidden-md hidden-lg"><a id="nav_documentation_ai-face-mobile" href="https://www.azure.cn/home/features/cognitive-services/face/" title="Face API">Face API</a></dt>
                     <dd class="hidden-md hidden-lg">Detect, recognize, organize, and tag faces in images</dd>
                     <dt class="hidden-md hidden-lg"><a id="nav_documentation_ai-computer-vision-mobile" href="https://www.azure.cn/home/features/cognitive-services/computer-vision/" title="Computer Vision API">Computer Vision API</a></dt>
                     <dd class="hidden-md hidden-lg">Extract operational information from an image</dd>
@@ -389,16 +417,16 @@
               </li>
               <li class=""><a id="nav_documentation_IOT" class="menu-title icon icon-arrow-down-sharp2" href="#documents_tab7 icon-arrow-down-sharp2" data-href="#documents_tab7" title="Connected Devices" data-toggle="tab"> Connected Devices </a><div class="menu-child tab-panel level3-container" id="documents_tab7">
                   <dl class="level3-menu">
-                    <dt><a id="nav_documentation_IOT-iot" href="https://docs.azure.cn/zh-cn/develop/iot/" title="IoT Developer Center">IoT Developer Center</a></dt>
+                    <dt><a id="nav_documentation_IOT-iot" href="https://docs.azure.cn/zh-cn/develop/iot/" title="IoT Developers’ Center">IoT Developers’ Center</a></dt>
                     <dd>Start linking devices</dd>
-                    <dt><a id="nav_documentation_IOT-iot-hub" href="https://docs.azure.cn/zh-cn/iot-hub/" title="Azure IoT Center">Azure IoT Center</a></dt>
+                    <dt><a id="nav_documentation_IOT-iot-hub" href="https://docs.azure.cn/zh-cn/iot-hub/" title="IoT Hub">IoT Hub</a></dt>
                     <dd>Connect, monitor, and control billions of IoT assets</dd>
-                    <dt><a id="nav_documentation_IOT-iot-suite" href="https://docs.azure.cn/zh-cn/iot-suite/" title="Azure IoT kit">Azure IoT kit</a></dt>
+                    <dt><a id="nav_documentation_IOT-iot-suite" href="https://docs.azure.cn/zh-cn/iot-suite/" title="IoT Suite">IoT Suite</a></dt>
                     <dd>Capture and analyze unused data to improve business results</dd>
                     <dt><a id="nav_documentation_IOT-event-hubs" href="https://docs.azure.cn/zh-cn/event-hubs/" title="">Event Hubs</a></dt>
                     <dd>Receive telemetry data from millions of devices</dd>
                     <dt><a id="nav_documentation_IOT-notification-hubs" href="https://docs.azure.cn/zh-cn/notification-hubs/" title="">Notification Hubs</a></dt>
-                    <dd>A scalable push notification engine that can rapidly send millions of discrete pieces of information</dd>
+                    <dd>Send push notifications to any platform from any back-end</dd>
                     <dt><a id="nav_documentation_IOT-stream-analytics" href="https://docs.azure.cn/zh-cn/stream-analytics/" title="Stream Analytics">Stream Analytics</a></dt>
                     <dd>Real-time processing of stream analytics form millions of IoT devices</dd>
                   </dl>
@@ -412,20 +440,20 @@
                     <dt><a id="nav_documentation_hybrid-integration-sql-server-stretch-database" href="https://docs.azure.cn/zh-cn/sql-server-stretch-database/" title="SQL Server Stretch Database">SQL Server Stretch Database</a></dt>
                     <dd>Take a local SQL Server Database and dynamically extend it to Azure</dd>
                     <dt><a id="nav_documentation_hybrid-integrated-api-management" href="https://docs.azure.cn/zh-cn/api-management/" title="API Management">API Management</a></dt>
-                    <dd>Security and scalability to publish API to developers, cooperative partners, and personnel</dd>
+                    <dd>Release APIs securely to publishers, partners, and employees for scaling</dd>
                   </dl>
                 </div>
               </li>
               <li class=""><a id="nav_documentation_IAM" class="menu-title icon-arrow-down-sharp2" href="#documents_tab11" data-href="#documents_tab11" title="Security + Identification" data-toggle="tab"> Security + Identification </a><div class="menu-child tab-panel level3-container" id="documents_tab11">
                   <dl class="level3-menu">
                     <dt><a id="nav_documentation_IAM-key-vault" href="https://docs.azure.cn/zh-cn/key-vault/" title="Key Vault">Key Vault</a></dt>
-                    <dd>Understand how to manage encryption keys and encryption</dd>
+                    <dd>Protect keys and other secrets and always have control over them</dd>
                     <dt><a id="nav_documentation_IAM-ad" href="https://docs.azure.cn/zh-cn/active-directory/" title="Azure Active Directory">Azure Active Directory</a></dt>
-                    <dd>Synchronize local content and start using single logon</dd>
+                    <dd>Synchronize local content and start using single sign-in</dd>
                     <dt><a id="nav_documentation_IAM-multi-factor-authentication_d" href="https://docs.azure.cn/zh-cn/multi-factor-authentication/" title="Multi-Factor Authentication">Multi-Factor Authentication</a></dt>
-                    <dd>Exploit extra layer 1 authentication to ensure secure access to data and apps</dd>
+                    <dd>Improves data and application security without any additional trouble for users</dd>
                     <dt><a id="nav_documentation_management-and-security-security" href="https://docs.azure.cn/zh-cn/security/" title="Secure Information">Secure Information</a></dt>
-                    <dd>Understand how Azure provides a secure infrastructure to generate cloud solutions</dd>
+                    <dd>Learn how Azure provides a secure infrastructure for building cloud solutions</dd>
                   </dl>
                 </div>
               </li>
@@ -434,26 +462,35 @@
                     <dt><a id="nav_documentation_management-and-security-automation" href="https://docs.azure.cn/zh-cn/automation/" title="">Automation</a></dt>
                     <dd>Simplify cloud management by using process automation</dd>
                     <dt><a id="nav_documentation_management-and-security-backup" href="https://docs.azure.cn/zh-cn/backup/" title="Backup">Backup</a></dt>
-                    <dd>Backs up server data in the cloud using simple and reliable methods</dd>
+                    <dd>Back up server data in the cloud using simple and reliable methods</dd>
                     <dt><a id="nav_documentation_management-and-security-site-recovery" href="https://docs.azure.cn/zh-cn/site-recovery/" title="Site Recovery">Site Recovery</a></dt>
                     <dd>Coordinate the protection and recovery of a private cloud</dd>
                     <dt><a id="nav_documentation_management-and-security-scheduler" href="https://docs.azure.cn/zh-cn/scheduler/" title="">Scheduler</a></dt>
-                    <dd>Run jobs for simple or complex regular schedules</dd>
+                    <dd>Run jobs for simple or complex recurring schedules</dd>
                     <dt><a id="nav_documentation_management-and-securityr-monitor" href="https://docs.azure.cn/zh-cn/monitoring-and-diagnostics/" title="Azure Monitor">Azure Monitor</a></dt>
-                    <dd>Conduct high-precision, real-time data monitoring on any Azure resources</dd>
+                    <dd>High-precision and real-time data monitoring for any Azure resource</dd>
                     <dt><a id="nav_documentation_management-and-securityr-resource-manager" href="https://docs.azure.cn/zh-cn/azure-resource-manager/" title="Azure Resource Manager">Azure Resource Manager</a></dt>
                     <dd>Deploy and manage Azure resources</dd>
                   </dl>
                 </div>
               </li>
-              <li class=""><a id="nav_documentation_purchasing-billing" class="menu-title icon-arrow-down-sharp2" href="#documents_tab14" data-href="#documents_tab14" title="Purchasing + Billing" data-toggle="tab"> Purchasing + Billing </a><div class="menu-child tab-panel level3-container" id="documents_tab14">
+              <li class=""><a id="nav_documentation_purchasing-billing" class="menu-title icon-arrow-down-sharp2" href="#documents_tab14" data-href="#documents_tab14" title="Purchase + Billing" data-toggle="tab"> Purchase + Billing </a><div class="menu-child tab-panel level3-container" id="documents_tab14">
                   <dl class="level3-menu">
                     <dt><a id="nav_documentation_purchasing-billing_guidance" href="https://docs.azure.cn/zh-cn/articles/azure-china-purchasing-guidance/" title="Azure in China Purchase Guidance">Azure in China Purchase Guidance</a></dt>
                     <dd>Understand different channels for end-to-end purchase processes and detailed guidance and explanation</dd>
                     <dt><a id="nav_documentation_purchasing-billing_global-guidance" href="https://docs.azure.cn/zh-cn/articles/azure-global-purchasing-guidance/" title="Azure Global Purchasing Guide">Azure Global Purchasing Guide</a></dt>
                     <dd>Provides an overview of the purchase process for Chinese users that are considering using Azure overseas services</dd>
                     <dt><a id="nav_documentation_purchasing-billing_azure-billing" href="https://docs.azure.cn/zh-cn/billing/" title="Azure in China Billing Documentation">Azure in China Billing Documentation</a></dt>
-                    <dd>Understand Azure in China subscription application, account management, payment recharges, billing clarification, invoice clarification and other information about the process</dd>
+                    <dd>Understand Azure in China subscription application, account management, payment top ups, billing history clarification, invoice clarification and other information about the process</dd>
+                  </dl>
+                </div>
+              </li>
+              <li class=""><a id="nav_documentation_resource_download" class="menu-title icon-arrow-down-sharp2" href="#documents_tab16" data-href="#documents_tab16" title="Download resource" data-toggle="tab"> Download resource </a><div class="menu-child tab-panel level3-container" id="documents_tab16">
+                  <dl class="level3-menu">
+                    <dt><a id="nav_documentation_download_tool" href="https://www.azure.cn/downloads" title="Download tool">Download tool</a></dt>
+                    <dd>Get the SDK and command line tools you need</dd>
+                    <dt><a id="nav_documentation_download_ebook" href="https://www.azure.cn/campaigns/dotnet-application-architecture-ebooks/" title="Download .NET application architecture e-book">Download .NET application architecture e-book</a></dt>
+                    <dd><i>.NET Microservices: Guide to Architecture for Containerized .NET Applications</i> and <i>Modernizing Existing .NET Applications with Azure Cloud and Windows Containers</i></dd>
                   </dl>
                 </div>
               </li>
@@ -462,7 +499,7 @@
           <li class="nav-community"><a id="nav_blog" href="https://www.azure.cn/blog/" title="Blog"> <span>Blog</span> </a></li>
           <li class="nav-training"><a class="menu-title icon-arrow-down-sharp2" id="nav_blog" href="#" title="Training"> <span>Training</span> </a><ul class="accordian-menu sub-menu tab-nav tab-content menu-child auto-height" data-event="mouseenter" data-child=".level3-menu|.navigation-promotion"
                 data-accordiandisabled="desktop">
-              <li><a id="nav_school_azure-school_webinars" href="https://www.azure.cn/webinars/" data-href="#school_tab3" title="Azure Live-Broadcast Courses" data-toggle="link">Azure Live-Broadcast Courses</a><div class="menu-child tab-panel level3-container" id="school_tab3">
+              <li><a id="nav_school_azure-school_webinars" href="https://www.azure.cn/webinars/" data-href="#school_tab3" title="Azure Webinars" data-toggle="link">Azure Webinars</a><div class="menu-child tab-panel level3-container" id="school_tab3">
                 </div>
               </li>
               <li class="active"><a id="nav_school_azure-school" class="menu-title expand icon-arrow-down-sharp2" href="#school_tab1" title="Azure School" data-toggle="tab"> Azure School </a><div class="menu-child tab-panel level3-container" id="school_tab1">
@@ -470,19 +507,19 @@
                     <dt><a id="nav_school_azure-school_about-school" href="https://school.azure.cn/category?filter=%7B%22curriculumCategoryId%22%3A%221%22%7D" title="Key information about Azure on the cloud">Key information about Azure on the cloud</a></dt>
                     <dd>Rapidly understand the things you need to know about Azure on the cloud</dd>
                     <dt><a id="nav_school_azure-school_5mins_nurture" href="https://school.azure.cn/category?filter=%7B%22curriculumCategoryId%22%3A%222%22%7D" title="Get started in 5 minutes">Get started in 5 minutes</a></dt>
-                    <dd>Basic cloud technical documentation and everything involving Azure services is included in the 1 yuan trail subscription</dd>
+                    <dd>Basic cloud technical documentation and everything involving Azure services is included in the 1RMB Trial subscription</dd>
                     <dt><a id="nav_school_azure-school_build-course" href="https://school.azure.cn/category?filter=%7B%22curriculumCategoryId%22%3A%223%22%7D" title="Modular tutorials">Modular tutorials</a></dt>
-                    <dd>Understand tutorials on using Azure offers to build various services</dd>
+                    <dd>Understand tutorials on using Azure products to build various services</dd>
                     <dt><a id="nav_school_azure-school_experts" href="https://school.azure.cn/experts/" title="Azure Expert Team">Azure Expert Team</a></dt>
                     <dd>Azure exert introduction, subscribe to Azure expert special articles</dd>
                   </dl>
                 </div>
               </li>
-              <li class=""><a id="nav_school_training-certification" class="menu-title icon-arrow-down-sharp2" href="#school_tab2" title="Training and Certification" data-toggle="tab"> 培训与认证 </a><div class="menu-child tab-panel level3-container" id="school_tab2">
+              <li class=""><a id="nav_school_training-certification" class="menu-title icon-arrow-down-sharp2" href="#school_tab2" title="Training and Certification" data-toggle="tab"> Training and Certification </a><div class="menu-child tab-panel level3-container" id="school_tab2">
                   <dl class="level3-menu">
                     <dt><a id="nav_school_training-certification_cert-training-partner" href="https://www.azure.cn/training/cert-training-partner/" title="Training as a service - OpenedX on Azure">Training as a service - OpenedX on Azure</a></dt>
                     <dd>OpenedX on Azure helps you become an Azure certified training partner</dd>
-                    <dt><a id="nav_school_training-certification_azure-mcp" href="https://www.azure.cn/campaigns/certificate-promotion/" title="Azure MCP Testing">Azure MCP 考试</a></dt>
+                    <dt><a id="nav_school_training-certification_azure-mcp" href="https://www.azure.cn/campaigns/certificate-promotion/" title="Azure MCP Testing">Azure MCP Testing</a></dt>
                     <dd>Rapidly increase technical ability, expand professional careers</dd>
                   </dl>
                 </div>
@@ -496,7 +533,7 @@
                     <dt><a id="nav_support_contact" href="https://www.azure.cn/support/contact/" title="Contact Us">Contact Us</a></dt>
                     <dd>Forums, telephone number, online application, in a word every way to connect with us</dd>
                     <dt><a id="nav_support_plans" href="https://www.azure.cn/support/plans/" title="Support Plan">Support Plan</a></dt>
-                    <dd>Try Azure to get those special skills you need to work efficiently</dd>
+                    <dd>Check out Azure to get those special skills you need to work efficiently</dd>
                     <dt><a id="nav_support_service-dashboard" href="https://www.azure.cn/support/service-dashboard/" title="Service Dashboard">Service Dashboard</a></dt>
                     <dd>Azure service status report</dd>
                     <dt><a id="nav_support_legal" href="https://www.azure.cn/support/legal/" title="Legal information">Legal information</a></dt>
@@ -509,15 +546,15 @@
                     <dd>Look over purchasing Azure services and any help needed with ICP filing is free</dd>
                     <dt><a id="nav_documentation_police" href="https://www.azure.cn/support/announcement/public-security-registration/" title="Public security registration">Public security registration</a></dt>
                     <dd>Within 30 days of completing website user ICP filing, you need to complete public security registration</dd>
-                    <dt><a id="nav_support_faq" href="https://www.azure.cn/support/faq/" title="Frequently asked questions">Frequently asked questions</a></dt>
-                    <dd>Quick answers to frequently asked questions about Azure</dd>
+                    <dt><a id="nav_support_faq" href="https://www.azure.cn/support/faq/" title="FAQ">FAQ</a></dt>
+                    <dd>Quick answers to FAQ about Azure</dd>
                   </dl>
                 </div>
               </li>
             </ul>
           </li>
-          <li class="nav-market-place"><a id="nav_market-place" href="http://market.azure.cn" target="_blank" title="Azure Marketplace"> <span>Azure Marketplace</span> </a></li>
-        </ul><a id="homepage-top-1rmb" class="buy-it" href="https://www.azure.cn/pricing/1rmb-trial/" title="Apply for trial use"> <span>Apply for trail use</span> <span class="icon-arrow-right-thin2"></span> </a> <a id="header-portal-azure-id" class="portal-link" href="https://portal.azure.cn/" title="Logon to the Azure portal"> Logon to the Azure portal </a> <a id="homepage-top-pia" class="apply-trial" href="https://www.azure.cn/pricing/pia/" title="I want to purchase"> I want to purchase </a></nav>
+          <li class="nav-market-place"><a id="nav_market-place" href="http://market.azure.cn" target="_blank" title="Marketplace"> <span>Marketplace</span> </a></li>
+        </ul><a id="homepage-top-1rmb" class="buy-it" href="https://www.azure.cn/pricing/1rmb-trial/" title="Apply for 1RMB Trial"> <span>Apply for 1RMB Trial</span> <span class="icon-arrow-right-thin2"></span> </a> <a id="header-portal-azure-id" class="portal-link" href="https://portal.azure.cn/" title="Sign in to the Azure portal"> Sign in to the Azure portal </a> <a id="homepage-top-pia" class="apply-trial" href="https://www.azure.cn/pricing/pia/" title="I want to purchase"> I want to purchase </a></nav>
       <div class="search-panel auto-scroll" data-fullscreen="true" data-top="header">
         <div class="azure-service-container">
           <div class="row search-input">
