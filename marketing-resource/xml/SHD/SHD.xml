@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shd>
-  <category name="计算">
+  <category name="Calculate">
     <service>
       <name>Virtual Machines</name>
       <slug>virtual-machines</slug>
@@ -18,7 +18,7 @@
       </regions>
     </service> 
     <service>
-      <name>Virtual Machine scale sets</name>
+      <name>Virtual Machine Scale Sets</name>
       <slug>virtual-machine-scale-sets</slug>
       <regions>
         <china-east>true</china-east>
@@ -26,7 +26,7 @@
       </regions>
     </service>
   </category>
-  <category name="网络">
+  <category name="Network">
     <service>
       <name>CDN</name>
       <slug>cdn</slug>
@@ -108,7 +108,7 @@
       </regions>
     </service>
   </category>
-  <category name="存储">  
+  <category name="Storage">  
     <service>
       <name>Storage</name>
       <slug>storage</slug>
@@ -118,7 +118,7 @@
       </regions>
     </service>
   </category>
-  <category name="Web + 移动">
+  <category name="Web + Mobile">
      <service has-inner-services="true">
       <name>App Service</name>
       <slug>app-service</slug>
@@ -136,7 +136,7 @@
           <slug>app-service\mobile</slug>
         </service>
         <service>
-          <name>API apps</name>
+          <name>API Apps</name>
           <slug>app-service\api</slug>
         </service>
       </inner-services>
@@ -184,7 +184,7 @@
       </regions>
     </service>
   </category>
-  <category name="容器">
+  <category name="Container">
     <service>
       <name>Batch</name>
       <slug>batch</slug>
@@ -202,7 +202,7 @@
       </regions>
     </service>
   </category>
-  <category name="数据库">
+  <category name="Database">
     <service has-inner-services="true">
       <name>SQL Database</name>
       <slug>sql-database</slug>
@@ -258,7 +258,7 @@
       </regions>
     </service>
   </category>
-  <category name="数据 + 分析">
+  <category name="Data + Analysis">
     <service>
       <name>HDInsight</name>
       <slug>hdinsight</slug>
@@ -283,7 +283,7 @@
       </regions>
     </service>
   </category>
-  <category name="AI 和认知服务">
+  <category name="AI and Cognitive Services">
     <service has-inner-services="true">
       <name>Cognitive Services</name>
       <slug></slug>
@@ -297,7 +297,7 @@
          <slug>face-api</slug>
         </service>
         <service>
-          <name>Mood recognition API</name>
+          <name>Mood Recognition API</name>
           <slug>Emotion-api</slug>
         </service>
         <service>
@@ -307,7 +307,7 @@
       </inner-services>
     </service>
   </category>
-  <category name="物联网">
+  <category name="Connected Devices">
     <service>
       <name>Stream Analytics</name>
       <slug>stream-analytics</slug>
@@ -317,7 +317,7 @@
       </regions>
     </service>
     <service>
-      <name>Event Hub</name>
+      <name>Event Hubs</name>
       <slug>event-hubs</slug>
       <regions>
         <china-east>true</china-east>
@@ -341,7 +341,7 @@
       </regions>
     </service>
   </category>
-  <category name="企业集成">
+  <category name="Enterprise Integration">
     <service>
       <name>Service Bus</name>
       <slug>service-bus</slug>
@@ -351,7 +351,7 @@
       </regions>
     </service>
   </category>
-  <category name="安全性 + 身份">
+  <category name="Security + Authentication">
     <service>
       <name>Active Directory</name>
       <slug>active-directory</slug>
@@ -385,7 +385,7 @@
       </regions>
     </service>
   </category>
-  <category name="监控 + 管理 ">
+  <category name="Monitoring + Supervision ">
      <service>
       <name>Backup</name>
       <slug>backup</slug>
