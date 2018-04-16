@@ -26,7 +26,7 @@
       </regions>
     </service>
   </category>
-  <category name="Network">
+  <category name="Networking">
     <service>
       <name>CDN</name>
       <slug>cdn</slug>
@@ -258,7 +258,7 @@
       </regions>
     </service>
   </category>
-  <category name="Data + Analysis">
+  <category name="Data + Analytics">
     <service>
       <name>HDInsight</name>
       <slug>hdinsight</slug>
@@ -307,7 +307,7 @@
       </inner-services>
     </service>
   </category>
-  <category name="Connected Devices">
+  <category name="Internet of Things">
     <service>
       <name>Stream Analytics</name>
       <slug>stream-analytics</slug>
@@ -341,7 +341,7 @@
       </regions>
     </service>
   </category>
-  <category name="Enterprise Integration">
+  <category name="Integration">
     <service>
       <name>Service Bus</name>
       <slug>service-bus</slug>
@@ -351,7 +351,7 @@
       </regions>
     </service>
   </category>
-  <category name="Security + Authentication">
+  <category name="Security + Identity">
     <service>
       <name>Active Directory</name>
       <slug>active-directory</slug>
