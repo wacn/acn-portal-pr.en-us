@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <localize>
   <umbTextpage id="12103" parentID="12095" level="3" writerID="106" creatorID="22" nodeType="1059" template="15" sortOrder="3" createDate="2012-05-29T21:04:52" updateDate="2014-11-07T08:57:21" nodeName="FAQ" urlName="faq" writerName="content" creatorName="Brad" path="-1,11978,12095,12103" isDoc="">
     <bodyText><![CDATA[
       
         <div class="section-component">
-                        <h2>Please select the category of FAQs to browse</h2>
+                        <h2>Please select the category of FAQ to browse</h2>
                         <!-- BEGIN: TAB-CONTROL -->
                         <div class="tab-control-selector">
                             <a href="#" data-href="#general" id="faq-general" class="active">General issues</a> <a href="#" data-href="#registration" id="faq-registration">Registration issues</a> <a href="#" data-href="#billingAndSubscription" id="faq-billingAndSubscription">Billing, subscriptions and Fapiao</a> <a href="#" data-href="#implementationAndMaintenance" id="faq-implementationAndMaintenance">Implementation and maintenance</a> <!-- <a href="#" data-href="#ICP" id="faq-icp">ICP 问题</a> --> <!--<a href="#" data-href="#policy" id="faq-policy">Azure 支持概述问题</a>--> <a href="#" id="new_control_bexpend" class="faq-floder"><em>Show all</em></a>
@@ -74,46 +74,46 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-1-vmbilling" href="#">How is Virtual Machines charged? Why does my Virtual Machine still incur a cost when it’s closed?</a>
+                                                        <a id="q-1-vmbilling" href="#">How is Virtual Machines charged? Why does my virtual machine still incur costs when it’s closed?</a>
                                                         <section>
-                                                            <p>Virtual Machines billing is divided into two parts: the cost of the Virtual Machine itself and the cost produced by the disk (divided into hosting disk and non-hosting disk), so as long as your Virtual Machine and the disk are not deleted, this part of the disk storage cost always exists. Please refer to the<a href="/pricing/details/storage/"> Price Details of Disc Storage</a> for billing standards.</p>
-                                                            <p>In addition, you should note that two Virtual Machine statuses "Suspended" and "Suspended (de-allocated)" are charged differently. Please refer to the following table:</p>
+                                                            <p>Virtual Machines billing is divided into two parts: the cost of the virtual machine itself and the cost produced by the disk (divided into hosting disk and non-hosting disk), so as long as your virtual machine and the disk are not deleted, this part of the disk storage cost always exists. Please refer to the<a href="/pricing/details/storage/"> Price Details of Disc Storage</a> for billing standards.</p>
+                                                            <p>In addition, you should note that two virtual machine statuses "Suspended" and "Suspended (de-allocated)" are charged differently. Please refer to the following table:</p>
                                                             <table>
                                                                 <tr>
                                                                     <th>Status</th>
-                                                                    <th>Virtual Machine cost</th>
+                                                                    <th>Virtual machine cost</th>
                                                                     <th>Disc cost</th>
                                                                     <th>Detailed information</th>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Starting up</td>
+                                                                    <td>Starting Up</td>
                                                                     <td>Yes</td>
                                                                     <td>Yes</td>
-                                                                    <td>This is the initial starting state of the Virtual Machine, during which the machine is going through a startup cycle and is charged as normal, as the Virtual Machine is running.</td>
+                                                                    <td>This is the initial starting state of the virtual machine, during which the machine is going through a startup cycle and is charged as normal, as the virtual machine is running.</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Running (already started)</td>
                                                                     <td>Yes</td>
                                                                     <td>Yes</td>
-                                                                    <td>The Virtual Machine is running and will be charged as normal.</td>
+                                                                    <td>The virtual machine is running and will be charged as normal.</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Suspended</td>
                                                                     <td>Yes</td>
                                                                     <td>Yes</td>
-                                                                    <td>The shutdown operation is performed through the Virtual Machine, and the Virtual Machine will be in a "Suspended (de-allocated)" state. During this time, the core is not released, so the Virtual Machine is still being charged.</td>
+                                                                    <td>The shutdown operation is performed through the virtual machine, and the virtual machine will be in a "Suspended (de-allocated)" state. During this time, the core is not released, so the virtual machine is still being charged.</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Suspended (de-allocated)</td>
                                                                     <td>No</td>
                                                                     <td>Yes</td>
-                                                                    <td>The shutdown operation is performed through the <a href="//portal.azure.cn/">Azure portal</a>, and the Virtual Machine will be "Suspended (de-allocated)". During this time, the computing resources will no longer be allocated to the Virtual Machine, so the Virtual Machine will no longer be charged for. However, at this time, the cost of disk storage still exists, as the disk still exists.</td>
+                                                                    <td>The shutdown operation is performed through the <a href="//portal.azure.cn/">Azure portal</a>, and the virtual machine will be "Suspended (de-allocated)". During this time, the computing resources will no longer be allocated to the virtual machine, so the virtual machine will no longer be charged for. However, at this time, the cost of disk storage still exists, as the disk still exists.</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Deleted (including the disk)</td>
                                                                     <td>No</td>
                                                                     <td>No</td>
-                                                                    <td>You should ensure the disk has been deleted while deleting the Virtual Machine. Otherwise, there will still be disk storage costs.</td>
+                                                                    <td>You should ensure the disk has been deleted while deleting the virtual machine. Otherwise, there will still be disk storage costs.</td>
                                                                 </tr>
                                                             </table>
                                                         </section>
@@ -200,7 +200,7 @@
                                                                 Moreover, according to the GBT 22240-2008 Information Security Technology - Guide on Determination of Security Protection Levels for Information Systems, the assessment organization authorized by the Ministry of Public Security has conducted an assessment of Microsoft Azure operated by 21Vianet as per GB/T 22239-2008 Information Security Technology - Basic Requirements of Security Protection Levels of Information Systems. The Information Security Protection of Azure has been classified as the third Level (Information System Classified Security Protection (DJCP), Level 3) and has been issued with record-keeping certificates.
                                                             </p>
                                                             <p>In full compliance with China’s policies and regulations, China’s Azure data service providers provide up to six different backups at different places, which are distributed in 2 data centers (northern China and eastern China). In addition, with decades of experience in providing enterprise customers with online services which are applied in the Azure platform, we strive to keep the leading position in the industry in terms of security, privacy, and control and compliance practices.</p>
-                                                            <p>For more details, see the <a id="support_faq7_tru" href="//www.trustcenter.cn/zh-cn/">Data Security</a>, <a id="support_faq7_sec" href="//www.trustcenter.cn/zh-cn/security/">Privacy</a> and <a id="support_faq7_pri" href="//www.trustcenter.cn/zh-cn/privacy/">FAQs</a> pages in the Azure <a id="support_faq7_faq" href="//www.trustcenter.cn/zh-cn/resources/FAQ.html">Trust Center</a>.</p>
+                                                            <p>For more details, see the <a id="support_faq7_tru" href="//www.trustcenter.cn/zh-cn/">Data Security</a>, <a id="support_faq7_sec" href="//www.trustcenter.cn/zh-cn/security/">Privacy</a> and <a id="support_faq7_pri" href="//www.trustcenter.cn/zh-cn/privacy/">FAQ</a> pages in the Azure <a id="support_faq7_faq" href="//www.trustcenter.cn/zh-cn/resources/FAQ.html">Trust Center</a>.</p>
                                                         </section>
                                                     </div>
                                                 </li>
@@ -250,7 +250,7 @@
                                                         <a id="q-1-12" href="#">How will 21Vianet use the information I stored in Azure?</a>
                                                         <section>
                                                             <p>21Vianet will only use your customer data stored in Azure to provide you with Azure services. These services may include the troubleshooting for preventing, detecting, or fixing issues that affect the operation of Azure and the improvement of features that detect and resist emerging and evolving threats to users (such as malicious software and junk mail).</p>
-                                                            <p>As per 21Vianet policy, in addition to providing you with cloud productivity services, we will never mine or use your customer’s data for advertising purposes. If you want to know more about our promise regarding your data, please go to the <a href="//www.trustcenter.cn/zh-cn/privacy/">Privacy </a>and <a href="//www.trustcenter.cn/zh-cn/resources/FAQ.html">FAQs</a> pages in the Azure Trust Center.</p>				
+                                                            <p>As per 21Vianet policy, in addition to providing you with cloud productivity services, we will never mine or use your customer’s data for advertising purposes. If you want to know more about our promise regarding your data, please go to the <a href="//www.trustcenter.cn/zh-cn/privacy/">Privacy </a>and <a href="//www.trustcenter.cn/zh-cn/resources/FAQ.html">FAQ</a> pages in the Azure Trust Center.</p>				
                                                             
                                                         </section>
                                                     </div>
@@ -289,11 +289,11 @@
                                                         <a id="faq-register-one" href="#">What is the 1RMB Trial subscription?</a>
                                                         <section>
                                                             <p>
-                                                               This is a promotional activity launched by the Microsoft Azure and operated by 21Vianet. You can sign up online and pay RMB&#160;1 to activate your 1RMB Trial subscription and get RMB&#160;1,500 in Azure service credits that are valid for one month.
+                                                               This is a promotional activity launched by the Microsoft Azure and operated by 21Vianet. You can sign up online and pay RMB1 to activate your 1RMB Trial subscription and get RMB1,500 in Azure service credits that are valid for one month.
                                                             </p>
                                                             <ul>
                                                                 <li><a id="support_faq_offers" href="/offers/ms-mc-azr-44p/">Details of the 1RMB Trial Subscription Promotion</a></li>
-                                                                <li><a id="support_faq_1rmb-trial-full" href="/pricing/1rmb-trial-full/?form-type=identityauth/">Apply for Trial Now</a></li>
+                                                                <li><a id="support_faq_1rmb-trial-full" href="/pricing/1rmb-trial-full/?form-type=identityauth/">Apply for 1RMB Trial Now</a></li>
 																<li><a id="support_faq_1rmb-trial-sign-up-guidance" href="//docs.azure.cn/zh-cn/billing/billing-sign-up-azure-account-with-1rmb-trial-subscription/">Sign up process for the 1RMB Trial subscription</a></li>
                                                             </ul>
                                                         </section>
@@ -302,11 +302,11 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="faq-register-two" href="#">What is the standard Pay-in-advance (PIA) subscription? What are the characteristics of such subscription?</a>
+                                                        <a id="faq-register-two" href="#">What is the standard Pay-in-Advance (PIA) subscription? What are the characteristics of such subscription?</a>
                                                         <section>
-                                                            <p>Standard Pay-in-advance (PIA) subscription needs to be purchased by Pay-in-Advance. The balance will be deducted according to the actual usage of the user, and overuse is not supported. When the balance is 0, the service will be stopped immediately, and recharge is required to continue using. The minimum prepayment amount of standard Pay-in-advance (PIA) subscription is RMB&#160;1,000 with online payment, and RMB&#160;5,000 with Wire Transfer, which is valid for 12 months after each recharge. </p>
+                                                            <p>Standard Pay-in-Advance (PIA) subscription needs to be purchased by Pay-in-Advance. The balance will be deducted according to the actual usage of the user, and overuse is not supported. When the balance is 0, the service will be stopped immediately, and recharge is required to continue using. The minimum prepayment amount of standard Pay-in-Advance (PIA) subscription is RMB1,000 with online payment, and RMB5,000 with Wire Transfer, which is valid for 12 months after each recharge. </p>
                                                             <ul>
-                                                                <li><a id="support_faq_standard" href="/offers/ms-mc-arz-33p/">Standard Pay-in-advance (PIA) Product Details</a></li>
+                                                                <li><a id="support_faq_standard" href="/offers/ms-mc-arz-33p/">Standard Pay-in-Advance (PIA) Product Details</a></li>
                                                                 <li><a id="support_faq_pia-waiting-list" href="/pricing/pia-waiting-list/?form-type=identityauth/">I want to purchase</a></li>
 																<li><a id="support_faq_pia-sign-up-guidance" href="//docs.azure.cn/zh-cn/billing/billing-sign-up-azure-account-and-get-a-pia-subscription/">Standard Pay-in-Advance Subscription Process</a></li>
                                                             </ul>
@@ -319,7 +319,7 @@
                                                         <a id="faq-register-three" href="#">Can I apply and sign up for more than one 1RMB Trial Subscription?</a>
                                                         <section>
                                                             <p>No. In order to allow more customers to experience Azure services, each new customer has only one opportunity to enjoy this promotion, and only one purchase can be made for the same identification card and the same paid account.</p>
-                                                            <p>If you need more than one subscription, or your 1RMB Trial subscription has expired, please use the <a href="/offers/ms-mc-arz-33p/">Standard Pay-in-advance PIA subscription</a>.</p>
+                                                            <p>If you need more than one subscription, or your 1RMB Trial subscription has expired, please use the <a href="/offers/ms-mc-arz-33p/">Standard Pay-in-Advance PIA subscription</a>.</p>
                                                         </section>
                                                     </div>
                                                 </li>
@@ -382,7 +382,7 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="faq-register-ten" href="#">When signing up for an Azure account, why do I see "Sorry! The 1RMB Trial subscription/Standard Pay-in-advance PIA service is not available. You are not eligible for this specific Promo product/service"?</a>
+                                                        <a id="faq-register-ten" href="#">When signing up for an Azure account, why do I see "Sorry! The 1RMB Trial subscription/Standard Pay-in-Advance PIA service is not available. You are not eligible for this specific Promo product/service"?</a>
                                                         <section>
                                                             <p>This prompt indicates that the activation code of your registered Azure account is expired and needs to be re-applied. Please refer to the <a id="support_faq_promo" href="//docs.azure.cn/zh-cn/billing/billing-sign-up-azure-account-with-1rmb-trial-subscription">1RMB Trial subscription signup</a> for the specific application process.</p>
 															
@@ -405,9 +405,9 @@
                                                     <div>
                                                         <a id="faq-register-twelve" href="#">When applying for the 1RMB Trial subscription, why is there a message showing that payment was successful, but when I return to the Azure registration page, I still see a payment failure message?</a>
                                                         <section>
-                                                           <p>Each new customer can only enjoy this trial offer once, so one paid account (including UnionPay and Alipay accounts) can only be used to apply for the 1RMB Trial once. If you use a payment account that has successfully applied for the trial subscription to apply again and pay RMB&#160;1, the aforementioned problem will occur, namely: the subscription page shows that payment is complete, but the Azure sign up page shows that payment has failed.</p>
-                                                           <p>The refund system will automatically return the money to the paid account for the RMB&#160;1 transaction. The specific refund time will be different due to the different operations of each bank and bank card.</p>
-                                                           <p>If you need more than one subscription, or have tried the 1RMB Trial subscription, please refer to the <a href="//www.azure.cn/offers/ms-mc-arz-33p/">Standard Pay-in-advance PIA Subscription</a>.</p>
+                                                           <p>Each new customer can only enjoy this trial offer once, so one paid account (including UnionPay and Alipay accounts) can only be used to apply for the 1RMB Trial once. If you use a payment account that has successfully applied for the trial subscription to apply again and pay RMB1, the aforementioned problem will occur, namely: the subscription page shows that payment is complete, but the Azure sign up page shows that payment has failed.</p>
+                                                           <p>The refund system will automatically return the money to the paid account for the RMB1 transaction. The specific refund time will be different due to the different operations of each bank and bank card.</p>
+                                                           <p>If you need more than one subscription, or have tried the 1RMB Trial subscription, please refer to the <a href="//www.azure.cn/offers/ms-mc-arz-33p/">Standard Pay-in-Advance PIA Subscription</a>.</p>
                                                         </section>
                                                     </div>
                                                 </li>
@@ -427,7 +427,7 @@
                                                     <div>
                                                         <a id="faq-register-mobile" href="#">In the one-month validity period of the 1RMB Trial subscription, can the subscription be converted into a standard Pay-in-Advance subscription? How do I do this?</a>
                                                         <section>
-                                                            <p>Yes. You can upgrade the subscription to the Standard Pay-in-advance PIA subscription at any time during the validity of the 1RMB Trial. You can click "Upgrade now" at the <a href="//account.windowsazure.cn/subscriptions">Azure Account Center</a> and recharge at least RMB&#160;1,000 to your account to turn it into a Standard Pay-in-advance PIA subscription. Please refer to <a href="//docs.azure.cn/zh-cn/billing/billing-upgrade-1rmb-trial">1RMB Trial subscription upgrade detailed procedures</a>.</p>
+                                                            <p>Yes. You can upgrade the subscription to the Standard Pay-in-Advance PIA subscription at any time during the validity of the 1RMB Trial. You can click "Upgrade now" at the <a href="//account.windowsazure.cn/subscriptions">Azure Account Center</a> and recharge at least RMB1,000 to your account to turn it into a Standard Pay-in-Advance PIA subscription. Please refer to <a href="//docs.azure.cn/zh-cn/billing/billing-upgrade-1rmb-trial">1RMB Trial subscription upgrade detailed procedures</a>.</p>
 															
                                                         </section>
                                                     </div>
@@ -451,7 +451,7 @@
                                                         <section>
                                                             <ul>
                                                                 <li>1RMB Trial subscription<p>Not supported. The 1RMB Trial subscription only supports Alipay and UnionPay online payment.</p> </li>
-                                                                <li>Standard Pay-in-advance PIA subscription<p>Supported. The Standard Pay-in-advance PIA subscription supports three payment methods, i.e. Alipay, UnionPay and online payment and wire transfer. The minimum payment amount of the first two online payment methods is RMB&#160;1,000, the lowest payment amount of wire transfer is RMB&#160;5,000. Please refer to the <a href="//docs.azure.cn/zh-cn/billing/billing-pay-for-subscription-via-wire-transfer/">wire transfer instructions</a> for detailed wire transfer operations.</p></li>
+                                                                <li>Standard Pay-in-Advance PIA subscription<p>Supported. The Standard Pay-in-Advance PIA subscription supports three payment methods, i.e. Alipay, UnionPay and online payment and wire transfer. The minimum payment amount of the first two online payment methods is RMB1,000, the lowest payment amount of wire transfer is RMB5,000. Please refer to the <a href="//docs.azure.cn/zh-cn/billing/billing-pay-for-subscription-via-wire-transfer/">wire transfer instructions</a> for detailed wire transfer operations.</p></li>
                                                             </ul>
                                                         </section>
                                                     </div>
@@ -480,7 +480,7 @@
                                                     <div>
                                                         <a id="q-subscriptions-wire-transfer" href="#">What should I do if I cannot complete the full subscription ID due to the bank’s limits?</a>
                                                         <section>
-                                                            <p>Send the remittance information to azure_Fapiao@oe.21vianet.com, so that we can distinguish the remittance sources and recharge your subscription in a timely manner.</p>
+                                                            <p>You can send the following remittance information to azure_invoice@oe.21vianet.com, so that we can distinguish the remittance sources and recharge your subscription in a timely manner.</p>
                                                             <ul>
                                                                 <li>Subscription ID (you can sign in to the <a href="https://account.windowsazure.cn/subscriptions" id="support_faq_subscriptions-wire-transfer_account">Azure Account Center</a>, click the subscription name, and the "Subscription ID" appears on the right side of the page).</li>
                                                                 <li>Remittance amount</li>
@@ -498,10 +498,10 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-3-13" href="#">How can I upgrade the 1RMB Trial to a Standard Pay-in-advance PIA subscription, or recharge a Standard Pay-in-advance PIA subscription?</a>
+                                                        <a id="q-3-13" href="#">How can I upgrade the 1RMB Trial to a Standard Pay-in-Advance PIA subscription, or recharge a Standard Pay-in-Advance PIA subscription?</a>
                                                         <section>
                                                             
-                                                            <p>The Standard Pay-in-advance PIA subscription supports three payment methods, i.e. Alipay, UnionPay and Online Payment and wire transfer, and each payment method has the minimum recharge amount. If you select "Alipay" or "UnionPay Online" and other methods of online remittance, after clicking on "Upgrade" or "Recharge", enter the recharge amount according to the prompt (the minimum amount is RMB&#160;1,000, and the maximum amount is RMB&#160;150,000), and then click on the check mark. The payment page will appear and you should follow the instructions to complete the payment. If you select wire transfer, the minimum recharge amount should be RMB&#160;5,000. Please refer to <a href="//docs.azure.cn/zh-cn/billing/billing-recharge-an-existing-pia-subscription" id="support_faq_subscriptions-wire-transfer_billing-recharge-an-existing-pia-subscription">recharging Standard Pay-in-advance PIA subscriptions</a> for details.</p>
+                                                            <p>The Standard Pay-in-Advance PIA subscription supports three payment methods, i.e. Alipay, UnionPay and Online Payment and wire transfer, and each payment method has the minimum recharge amount. If you select "Alipay" or "UnionPay Online" and other methods of online remittance, after clicking on "Upgrade" or "Recharge", enter the recharge amount according to the prompt (the minimum amount is RMB1,000, and the maximum amount is RMB150,000), and then click on the check mark. The payment page will appear and you should follow the instructions to complete the payment. If you select wire transfer, the minimum recharge amount should be RMB5,000. Please refer to <a href="//docs.azure.cn/zh-cn/billing/billing-recharge-an-existing-pia-subscription" id="support_faq_subscriptions-wire-transfer_billing-recharge-an-existing-pia-subscription">recharging Standard Pay-in-Advance PIA subscriptions</a> for details.</p>
                                                             <p>Note: Microsoft Azure services currently operated by 21Vianet only accepts payments in RMB.</p>
                                                         </section>
                                                     </div>
@@ -512,7 +512,7 @@
                                                     <div>
                                                         <a id="q-subscriptions-download-details" href="#">How to download and analyze the monthly usage report?</a>
                                                         <section>
-                                                            <p>Users purchasing online (including 1RMB Trials and Standard Pay-in-advance PIA subscriptions)</p>
+                                                            <p>Users purchasing online (including 1RMB Trials and Standard Pay-in-Advance PIA subscriptions)</p>
 															<ul>
 																<li>Download<p>The usage report can be obtained via the platform, including the monthly consumption summary, billing amount and daily consumption of each service. This operation is restricted to the account managers who purchase subscriptions online. For detailed steps, please refer to <a href="//docs.azure.cn/zh-cn/billing/billing-get-usage-information" id="support_faq_subscriptions-wire-transfer_billing-get-usage-information">Downloading monthly usage reports for online purchasers</a>.</p></li>
 																<li>Analysis<p>The monthly usage report is presented in Excel format, which consists of three parts:</p>
@@ -529,7 +529,7 @@
                                                                 <p>The <a href="https://ea.azure.cn/" id="support_faq_subscriptions-wire-transfer_ea-azure-protal1">Enterprise Portal</a> provides customers with three viewing methods: monthly report downloading, advanced report downloading and API access key. The monthly report and advanced report provide the service content, service amount and the corresponding billing amount consumed in each department, account and subscription every day up to the date of the report. Please refer to <a href="https://docs.azure.cn/zh-cn/billing/billing-get-ea-usage-info" id="support_faq_subscriptions-wire-transfer_billing-get-ea-usage-info">Downloading usage reports for Enterprise Agreement users</a> for details.</p></li>
 																<li>Analysis<p>The monthly usage report is presented in CSV format, which provides each account and the corresponding usage information every day, including usage and the corresponding costs. Please refer to <a href="https://docs.azure.cn/zh-cn/billing/billing-understand-ea-usage-report" id="support_faq_subscriptions-wire-transfer_billing-understand-ea-usage-report">Understanding Monthly Usage Reports</a> for details.</p></li>	
 															</ul>
-															<p>In order to help you better use Azure and boost your cloud business, Azure provides you with informative training tutorials. You can refer to the Standard Pay-in-advance PIA billing portal training at the <a href="https://www.azure.cn/video-center/" id="support_faq_subscriptions-wire-transfer_video-center">Azure Video Center</a> to understand the specific operations for creating pivot tables through bills.</p>
+															<p>In order to help you better use Azure and boost your cloud business, Azure provides you with informative training tutorials. You can refer to the Standard Pay-in-Advance PIA billing portal training at the <a href="https://www.azure.cn/video-center/" id="support_faq_subscriptions-wire-transfer_video-center">Azure Video Center</a> to understand the specific operations for creating pivot tables through bills.</p>
                                                         </section>
                                                     </div>
                                                 </li>
@@ -552,8 +552,8 @@
                                                         <a id="q-yy" href="#">Under what circumstances will my subscription be suspended? How can I reactivate it?</a>
                                                         <section>
                                                             <ul>
-                                                                <li>1RMB Trial subscription<p>When the remaining usage of your subscription is 0 or when the usage credits expire, your subscription will be disabled. You need to recharge it within 15 days and upgrade the subscription to the Standard Pay-in-advance PIA subscription, and then you may continue to use this subscription.</p></li>
-                                                                <li>Standard Pay-in-advance PIA subscription<p>When the remaining usage of your subscription is 0 or when the usage is expired, your subscription will be disabled. You need to recharge it within 90 days to resume this subscription.</p></li>
+                                                                <li>1RMB Trial subscription<p>When the remaining usage of your subscription is 0 or when the usage credits expire, your subscription will be disabled. You need to recharge it within 15 days and upgrade the subscription to the Standard Pay-in-Advance PIA subscription, and then you may continue to use this subscription.</p></li>
+                                                                <li>Standard Pay-in-Advance PIA subscription<p>When the remaining usage of your subscription is 0 or when the usage is expired, your subscription will be disabled. You need to recharge it within 90 days to resume this subscription.</p></li>
                                                                 <li>Enterprise Agreement User
                                                                     <p>* When the excessive amount or annual order is not paid, your subscription will be disabled. After you finish the payment, the business team will help you manually restart the contract and subscription.</p>
                                                                     <p>* When your subscription is unexpectedly canceled by the account owner, you need to contact the <a href="/support/contact/">21Vianet support staff</a> to help you manually restart it.</p>
@@ -572,7 +572,7 @@
                                                             <p>When your subscription is disabled, the resource services deployed in the subscription will be disabled and the resources in temporary storage will be released. You can still sign into the portal to view the resources, but you can't edit them.</p>
                                                             <p>The data in your subscription will be preserved, but at the time, the data cannot be backed up. The data can be exported only after the subscription is reactivated. If it is not recharged within the specified period, your subscription and all the data in the subscription will be automatically deleted.</p>
                                                             <p>* After the 1RMB Trial subscription is suspended, your data will be kept for 15 days, and if you recharge it within 15 days, the subscription can be resumed.</p>
-                                                            <p>* After the Standard Pay-in-advance PIA subscription is suspended, your data will be kept for 90 days, and if you recharge it within 90 days, the subscription can be resumed.</p>
+                                                            <p>* After the Standard Pay-in-Advance PIA subscription is suspended, your data will be kept for 90 days, and if you recharge it within 90 days, the subscription can be resumed.</p>
                                                             <p>* After the Enterprise Agreement subscription is suspended, your data will be kept for 90 days, and you need to pay for the excess amount and annual order within 90 days. You can contact <a href="/support/contact/">21Vianet customer support</a> to help you restart the subscription.</p>
                                                         </section>
                                                     </div>
@@ -588,7 +588,7 @@
                                                                     <p>* New purchase: The two online payment methods of Alipay and UnionPay Online are supported, and the payment method cannot be changed before the recharge order fails.</p>
                                                                     <p>* Upgrade now: The three online payment methods of Alipay, UnionPay Online and wire transfer are supported, and the payment method cannot be changed before the recharge order fails.</p>
                                                                 </li>
-                                                                <li>Standard Pay-in-advance PIA subscription
+                                                                <li>Standard Pay-in-Advance PIA subscription
                                                                     <p>* New purchase: The three online payment methods of Alipay, UnionPay Online and wire transfer are supported, and the payment method cannot be changed before the recharge order fails.</p>
                                                                     <p>* Recharge: The three online payment methods of Alipay, Unionpay Online and wire transfer are supported, and the payment method can be changed at any time.</p></li>
                                                             </ul>
@@ -613,7 +613,7 @@
                                                         <a id="q-alipay-interrupt" href="#">How can I get my unpaid order? How long is the valid period of the order?</a>
                                                         <section>
                                                             <ul>
-                                                                <li>Alipay Orders <p>Alipay orders are valid for 3 days. If you fail to complete the payment in time during the payment process, you can see the relevant prompt in the <a href="//account.windowsazure.cn/Subscriptions">Azure Account Center</a> within 3 days: "Your RMB&#160;1,000.00 payment is waiting to be completed. If you have already completed the payment, please check it later. Click here to complete payment before XX/XX/XXXX." Click this prompt to continue your payment. Alipay orders cannot be canceled manually. The system will automatically cancel them three days later.</p></li>
+                                                                <li>Alipay Orders <p>Alipay orders are valid for 3 days. If you fail to complete the payment in time during the payment process, you can see the relevant prompt in the <a href="//account.windowsazure.cn/Subscriptions">Azure Account Center</a> within 3 days: "Your RMB1,000.00 payment is waiting to be completed. If you have already completed the payment, please check it later. Click here to complete payment before XX/XX/XXXX." Click this prompt to continue your payment. Alipay orders cannot be canceled manually. The system will automatically cancel them three days later.</p></li>
                                                                 <li>UnionPay Online Orders<p>UnionPay online orders generally expire within 1 hour, after which the Azure Account Center will give you the prompt: "Recharge on your subscription failed. Please click here to try again". At this point, you can make the payment again and change the payment method.</p></li>
                                                                 <li>Wire Transfer Orders<p>Wire transfer orders shall be valid for 7 working days. If the payment is not completed within 7 working days, the wire transfer order will be cancelled on the back-end. If you need to cancel the wire transfer order, you need to contact the 21Vianet service hotline at 400-089-0365.</p>
                                                                 <p>Please refer to the <a href="/pricing/billing/azure-wire-transfer-overview">Introduction to Wire Transfers</a> for operation steps and remittance information.</p></li>
@@ -627,8 +627,8 @@
                                                         <a id="q-virtual-machines-storage-cost" href="#">What should I do if I enter the wrong account/amount when I make a payment, and the payment is not completed?</a>
                                                         <section>
 															<ul>
-                                                                <li>If you are upgrading the 1RMB Trial to a Standard Pay-in-advance PIA subscription or purchasing a Standard Pay-in-advance PIA subscription for the first time, you will be required to resubmit the order and pay for it after the expiry of the order. (UnionPay online orders are valid for 1 hour/Alipay orders are valid for 3 days/wire transfer orders are valid for 7 working days).</li>
-                                                                <li>If you are recharging the Standard Pay-in-advance PIA subscription, you can get back to the <a href="//account.windowsazure.cn/Subscriptions">Azure Account Center </a>and make the payment by clicking "Recharge".</li>
+                                                                <li>If you are upgrading the 1RMB Trial to a Standard Pay-in-Advance PIA subscription or purchasing a Standard Pay-in-Advance PIA subscription for the first time, you will be required to resubmit the order and pay for it after the expiry of the order. (UnionPay online orders are valid for 1 hour/Alipay orders are valid for 3 days/wire transfer orders are valid for 7 working days).</li>
+                                                                <li>If you are recharging the Standard Pay-in-Advance PIA subscription, you can get back to the <a href="//account.windowsazure.cn/Subscriptions">Azure Account Center </a>and make the payment by clicking "Recharge".</li>
                                                             </ul>
                                                         </section>
                                                     </div>
@@ -636,21 +636,21 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-3-4" href="#">Can the monthly usage report detail the cost of each Azure service I create (for example, a single Virtual Machine)?</a>
+                                                        <a id="q-3-4" href="#">Can the monthly usage report detail the cost of each Azure service I create (for example, a single virtual machine)?</a>
                                                         <section>
                                                             <p>No, the billing information in the Monthly Usage Report will be aggregated according to the Azure service and related types and specifications, so you cannot accurately query the individual charge for each Azure service.</p>
-                                                            <p>Take the Virtual Machine as an example: if you have created multiple Virtual Machines of the same size and model, the billing information thereof will be displayed in a row in the monthly usage report. The "Consumed" column accumulates the usage of multiple Virtual Machines for billing.</p>
+                                                            <p>Take the virtual machine as an example: if you have created multiple virtual machines of the same size and model, the billing information thereof will be displayed in a row in the monthly usage report. The "Consumed" column accumulates the usage of multiple virtual machines for billing.</p>
                                                         </section>
                                                     </div>
                                                 </li>
 												<li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-query-virtual-machines-cost" href="#">What is the specific procedure for requesting an Fapiao? What types of Fapiaos are there? What are the space limits on a Fapiao?</a>
+                                                        <a id="q-query-virtual-machines-cost" href="#">What is the specific procedure for requesting a Fapiao? What types of Fapiaos are there? What are the space limits on a Fapiao?</a>
                                                         <section>
 														<ol>
                                                             <li>Sign into the <a href="//account.windowsazure.cn/">Azure Account Center</a></li>
-                                                            <li>Click the subscription for which you need to apply for an Fapiao</li>
+                                                            <li>Click the subscription for which you need to apply for a Fapiao</li>
                                                             <li>Click "Payment History"</li>
                                                             <li>Click "Manage Fapiao" to sign up and apply. Please see <a href="https://docs.azure.cn/zh-cn/billing/billing-get-invoice">Applying for Chinese Tax Fapiaos</a> for the detailed application process.</li>
                                                         </ol>
@@ -663,7 +663,7 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-2-9" href="#">How do I obtain the Fapiao after applying? Do I need to pay extra charges?</a>
+                                                        <a id="q-2-9" href="#">After applying for a Fapiao, how do I get the Fapiao? Do I have to pay any extra costs?</a>
                                                         <section>
                                                             <p>The Fapiao can be sent by express delivery or obtained by yourself. It is printed and delivered by 21Vianet Shanghai Blue Cloud Technology Co., Ltd, and you can select Yunda Express or SF Express (for freight collect payment only).</p>
                                                             <p>Except for the above-mentioned freight payment collected by SF Express, you do not need to pay any extra fees.</p>
@@ -674,9 +674,9 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-3-5" href="#">When can I apply for an Fapiao?</a>
+                                                        <a id="q-3-5" href="#">When can I apply for a Fapiao?</a>
                                                         <section>
-                                                            <p>You can apply for an Fapiao within 3 working days after the payment is successfully completed. For special requirements, please contact the 21Vianet Customer Service Center at 86-10-84563652 or 400-089-0365.</p>
+                                                            <p>You can apply for a Fapiao within 3 working days after the payment is successfully completed. Should you have any special requirements, please contact the 21Vianet Customer Service Center at 86-10-84563652 or 400-089-0365.</p>
                                                         </section>
                                                     </div>
                                                 </li>
@@ -685,26 +685,26 @@
                                                     <div>
                                                         <a id="q-3-6" href="#">What is the tax rate?</a>
                                                         <section>
-                                                            <p>According to national regulations, the tax rate for Azure Cloud Computing Services operated by 21Vianet is 6%.</p>
+                                                            <p>According to relevant Chinese regulations, the tax rate for Azure Cloud Computing Services operated by 21Vianet is 6%.</p>
                                                         </section>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-3-8" href="#">How can I register the Fapiao interface account? What if I can’t apply for the Fapiao after successfully activating the account?</a>
+                                                        <a id="q-3-8" href="#">How do I sign in to a Fapiao account? What should I do if I can’t apply Fapiao after activating Fapiao account successfully? What should I do if I can’t apply for Fapiao?</a>
                                                         <section>
-                                                            <p>After entering the <a id="support_faq_login" href="http://fapiao.cloud.21vianet.com/EmailAcount/LoginView">Fapiao Application Interface</a>, you need to click [Sign up] in the upper right corner of the page to sign up and choose Sign up for Azure account on the signup information page according to the product you purchased.</p>
-                                                            <p>If the Fapiao cannot be applied after you successfully activate the account, please contact 21Vianet Customer Service Center at 86-10-84563652 or 400-089-0365.</p> 
+                                                            <p>After entering the <a id="support_faq_login" href="http://fapiao.cloud.21vianet.com/EmailAcount/LoginView">Fapiao Application Interface</a>, you can click “Sign Up Account” in the right corner of the page and choose the product you’ve purchased to sign up for an Azure account.</p>
+                                                            <p>If you are unable to apply for Fapiao after activating Fapiao account successfully, please call 21Vianet Customer Service Center: 86-10-84563652 or 400-089-0365.</p> 
                                                         </section>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-3-9" href="#">When applying for an Fapiao, I chose to obtain the Fapiao by myself. What address can I pick it up at? Can I still change to express delivery?</a>
+                                                        <a id="q-3-9" href="#">When applying for a Fapiao, I chose to obtain the Fapiao by myself. What address can I pick it up at? Can I still change to express delivery?</a>
                                                         <section>
-                                                            <p>The self pick-up address is 21Vianet Shanghai Branch, located at Building 3, Room 657, German Centre, No.88 Keyuan Road, Pudong District, Shanghai. You can contact Zhu Qinqin at 021-28986102.</p>
+                                                            <p>The self-pickup address is 21Vianet Shanghai Branch, located at Building 3, Room 657, German Centre, No.88 Keyuan Road, Pudong District, Shanghai. You can contact Zhu Qinqin at 021-28986102.</p>
                                                             <p>You can sign into the <a href="http://fapiao.cloud.21vianet.com/EmailAcount/LoginView">Fapiao Management System</a> at any time to modify the delivery method of your Fapiao. For now, you can only select Yunda Express or SF Express (for freight collect payment only).</p>
                                                         </section>
                                                     </div>
@@ -845,7 +845,7 @@
                                                         <a id="implementation-maintenance-point-vm" href="#"> If my Virtual Machine is impacted for a relatively short time, can I define the maintenance time point on my own?</a>
                                                         <section>
                                                             <p>
-                                                                Answer: Yes. For maintenance requiring restarting the Virtual Machine, the system will inform the customer in advance. The planned maintenance has two stages: self-service maintenance by the user and self-service maintenance by the system. The customer can check the status of the Virtual Machine, start self-service maintenance and restart the Virtual Machine in the self-service maintenance by user stage. Please refer to <a href="//docs.azure.cn/virtual-machines/windows/maintenance-and-updates">Maintenance and Updates for Azure Virtual Machines and Maintenance in the Plan</a> for more information about the maintenance of Virtual Machines.
+                                                                Answer: Yes. For maintenance requiring restarting the virtual machine, the system will inform the customer in advance. The planned maintenance has two stages: self-service maintenance by the user and self-service maintenance by the system. The customer can check the status of the virtual machine, start self-service maintenance and restart the virtual machine in the self-service maintenance by user stage. Please refer to <a href="//docs.azure.cn/virtual-machines/windows/maintenance-and-updates">Maintenance and Updates for Azure Virtual Machines and Maintenance in the Plan</a> for more information about the maintenance of virtual machines.
                                                             </p>
                                                         </section>
                                                     </div>
@@ -856,7 +856,7 @@
                                                         <a id="implementation-maintenance-choose-maintenance" href="#">Can I opt to have my virtual machine exit this maintenance?</a>
                                                         <section>
                                                             <p>
-                                                        Answer: just shut down the Virtual Machine during the whole maintenance stage.
+                                                                Answer: just shut down the virtual machine during the whole maintenance stage.
                                                             </p>
                                                         </section>
                                                     </div>
@@ -877,7 +877,7 @@
                                                     <div>
                                                         <a id="q-4-15" href="#">Why can’t I access the VIP IP address and port of Azure VM from the local Ping?</a>
                                                         <section>
-                                                            <p>When accessing a Virtual Machine via a VIP address, network communication needs to be through Azure Load Balancer. Azure Load Balancer currently does not open the ICMP protocol. Ping belongs to the ICMP protocol group and cannot access the Load Balancer. When customers need to verify the connectivity of Virtual Machines via VIP, they can operate with tools related to the TCP Protocol, referring to <a href="//docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-network/aog-virtual-network-tcp-psping-paping-connectivity">Using the PsPing &amp; PaPing for TCP port connectivity testing</a>.</p>
+                                                            <p>When accessing a virtual machine via a VIP address, network communication needs to be through Azure Load Balancer. Azure Load Balancer currently does not open the ICMP protocol. Ping belongs to the ICMP protocol group and cannot access the Load Balancer. When customers need to verify the connectivity of virtual machines via VIP, they can operate with tools related to the TCP Protocol, referring to <a href="//docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-network/aog-virtual-network-tcp-psping-paping-connectivity">Using the PsPing &amp; PaPing for TCP port connectivity testing</a>.</p>
                                                         </section>
                                                     </div>
                                                 </li>
@@ -886,7 +886,7 @@
                                                     <div>
                                                         <a id="q-4-16" href="#">Can I create a virtual machine in Azure Virtual Machine?</a>
                                                         <section>
-                                                            <p>No, you cannot create it at present. The Dv3 and Ev3 series of the Azure Virtual Machine support nested virtualization, but as of now, Azure in China temporarily does not support creating Virtual Machines of this series.</p>
+                                                            <p>No, you cannot create it at present. The Dv3 and Ev3 series of the Azure Virtual Machine support nested virtualization, but as of now, Azure in China temporarily does not support creating virtual machines of this series.</p>
                                                         </section>
                                                     </div>
                                                 </li>
@@ -923,9 +923,9 @@
                                                             <p>Azure Load Balancer is based on the fourth level (TCP, UDP), enabling distribution of incoming traffic to the well-operated service instances defined in a load-balancing set, so as to improve the availability and network performance of applications.</p>
                                                             <p>Azure Load Balancer can be configured:</p>
                                                             <ul>
-                                                                <li>The load balance can be carried for the Internet traffic transferred to the Virtual Machine. This configuration is called <a href="//docs.azure.cn/zh-cn/load-balancer/load-balancer-internet-overview">Internet-facing load balancing</a>.</li>
-                                                                <li>The load balance will be carried out for the traffic among Virtual Machines in the virtual network, traffic among Virtual Machines in the Cloud Services, or traffic between Virtual Machines in a local computer and a crossover virtual network. And this configuration is called the <a href="//docs.azure.cn/zh-cn/load-balancer/load-balancer-internal-overview">Internal Load Balancer</a>.</li>
-                                                                <li>External traffic is transferred to the designated Virtual Machine.</li>
+                                                                <li>The load balance can be carried for the Internet traffic transferred to the virtual machine. This configuration is called <a href="//docs.azure.cn/zh-cn/load-balancer/load-balancer-internet-overview">Internet-facing load balancing</a>.</li>
+                                                                <li>The load balance will be carried out for the traffic among virtual machines in the virtual network, traffic among virtual machines in the Cloud Services, or traffic between virtual machines in a local computer and a crossover virtual network. And this configuration is called the <a href="//docs.azure.cn/zh-cn/load-balancer/load-balancer-internal-overview">Internal Load Balancer</a>.</li>
+                                                                <li>External traffic is transferred to the designated virtual machine.</li>
                                                             </ul>
                                                             <p>For more details about Azure Load Balancer, please refer to <a href="//docs.azure.cn/zh-cn/load-balancer/load-balancer-overview">Overview of the Azure Load Balancer</a>.</p>
                                                         </section>
@@ -983,10 +983,10 @@
                                                                     <td>Only retention data, same as storage services</td>
                                                                     <td>
                                                                         <ol>
-                                                                            <li><a href="//docs.azure.cn/zh-cn/virtual-machines/windows/backup-recovery">Azure backup</a></li>
+                                                                            <li><a href="//docs.azure.cn/zh-cn/virtual-machines/windows/backup-recovery">Azure Backup</a></li>
                                                                             <li><a href="//docs.azure.cn/zh-cn/virtual-machines/windows/backup-recovery">Azure Site Recovery</a></li>
                                                                             <li><a href="//docs.azure.cn/zh-cn/virtual-machines/windows/backup-recovery">Hosting Snapshot</a></li>
-                                                                            <li>Database in the IaaS Virtual Machine. You can use various database backup tools or export the database to file backup</li>
+                                                                            <li>Database in the IaaS virtual machine. You can use various database backup tools or export the database to file backup</li>
                                                                         </ol>
                                                                     </td>
                                                                 </tr>
@@ -1012,9 +1012,9 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-4-ear" href="#"> Can I choose the regions (Eastern China, Northern China) of its VIP addresses when creating related services (Cloud Computing)?</a>
+                                                        <a id="q-4-ear" href="#"> Can I choose the regions (China East, China North) of its VIP addresses when creating related services (Cloud Computing)?</a>
                                                         <section>
-                                                            <p>The VIP address is determined in accordance with the selected region (Northern China, Eastern China) of the customer when creating related services and is randomly distributed from the IP address pool managed by Microsoft. For instance, if the customers choose China North, they will be preferentially distributed within the IP address in Northern China.</p>
+                                                            <p>The VIP address is determined in accordance with the selected region (China North, China East) of the customer when creating related services and is randomly distributed from the IP address pool managed by Microsoft. For instance, if the customers choose China North, they will be preferentially distributed within the IP address in Northern China.</p>
                                                         </section>
                                                     </div>
                                                 </li>
@@ -1050,7 +1050,7 @@
                                                     <div>
                                                         <a id="q-4-1" href="#">Is there anything to note about using virtual machines to store application data?</a>
                                                         <section>
-                                                            <p>Azure Virtual Machine disk contains a temporary disk, the D: disk (Windows) or /dev/sdb1 (Linux). They only provide temporary storage, so there is a risk of data loss, and the data cannot be completely recovered under some conditions. It is recommended that the disk not be used to store data long term. The user must bear the risk of data resulting from this. Loss of temporary disk data usually occurs when Virtual Machines are migrated to different host machines. The reasons for Virtual Machine migration include: adjustment of Virtual Machine size, updating the host machine, or a failure in host machine hardware. The time of Virtual Machine migrating cannot be predicted, and it may occur when the user does not conduct any operation. Therefore, we recommend that the disk not be used to store data long term. For more information on Virtual Machine disks and the high availability of Virtual Machines, refer to the following links:</p>
+                                                            <p>Azure Virtual Machine disk contains a temporary disk, the D: disk (Windows) or /dev/sdb1 (Linux). They only provide temporary storage, so there is a risk of data loss, and the data cannot be completely recovered under some conditions. It is recommended that the disk not be used to store data long term. The user must bear the risk of data resulting from this. Loss of temporary disk data usually occurs when virtual machines are migrated to different host machines. The reasons for virtual machine migration include: adjustment of virtual machine size, updating the host machine, or a failure in host machine hardware. The time of virtual machine migrating cannot be predicted, and it may occur when the user does not conduct any operation. Therefore, we recommend that the disk not be used to store data long term. For more information on virtual machine disks and the high availability of virtual machines, refer to the following links:</p>
                                                             <p><a href="//docs.azure.cn/virtual-machines/windows/about-disks-and-vhds">About disk storage of the Azure Windows VM</a></p>
                                                             <p><a href="//docs.azure.cn/virtual-machines/windows/manage-availability">Manage Availability of the Windows Virtual Machine in the Azure</a></p>
                                                             <p><a href="//blogs.msdn.microsoft.com/azchina/2014/04/18/azure-vm/">Why was the Azure VM restarted?</a></p>
@@ -1063,7 +1063,7 @@
                                                     <div>
                                                         <a id="q-4-2" href="#">How do I add the virtual machine to the virtual network? What is the difference between the virtual machine network adding the virtual machine and the network not building the virtual machine? And how do I put an existing virtual machine into a new virtual network? </a>
                                                         <section>
-                                                            <p>First, create a virtual network, then select the previously-created virtual network when creating the Virtual Machine, and add the Virtual Machine to the virtual network. For specific steps, please refer to <a href="//docs.azure.cn/virtual-network/virtual-network-get-started-vnet-subnet">How to Add the Virtual Machines to the Virtual Network</a>.</p>
+                                                            <p>First, create a virtual network, then select the previously-created virtual network when creating the virtual machine, and add the virtual machine to the virtual network. For specific steps, please refer to <a href="//docs.azure.cn/virtual-network/virtual-network-get-started-vnet-subnet">How to Add the Virtual Machines to the Virtual Network</a>.</p>
                                                             <p>After the virtual machine is put into the virtual network, it’s ensured that the virtual machines can communicate with each other via internal networks, and the advanced functions, for instance P2S S2S VPN, can be configured.</p>
                                                             <p>If a virtual machine is not added to the virtual network during construction, it cannot be added to a virtual network later. Currently, this kind of virtual machine only can be deleted (saving the disk for storing data), and a new virtual machine will be established by using the saved data disk, and choose to join an existing virtual network when creating this virtual machine.</p>
                                                         </section>
@@ -1112,7 +1112,7 @@
                                                     <div>
                                                         <a id="q-4-7" href="#">How about the security of the Azure Storage service?</a>
                                                         <section>
-                                                            <p>The Azure storage service will allocate two access keys to the user: the primary and secondary access keys. This access key is a character string with 256 bytes, and the user can use it to verify every data access request for Azure Storage services.</p>
+                                                            <p>The Azure Storage service will allocate two access keys to the user: the primary and secondary access keys. This access key is a character string with 256 bytes, and the user can use it to verify every data access request for Azure Storage services.</p>
                                                             <p>Two access keys have the same function of being able to access data. The setting of two access keys is to help the user switch access keys. For instance, usually, the user will use the primary access key, and if the primary access key is revealed, the user can make the primary access key invalid in the shortest time (a new primary access key will be generated) and then switch over to the secondary access key. Meanwhile, the user does not have to alter the code, and just needs to alter the service configuration file, and there is also no downtime for simultaneously updating the service configuration file. Moreover, another effective way is that the application code can use the primary access key to access data, and if verification fails, the code will automatically use the secondary access key. In this way, there will be no downtime when the user changers switches access keys.</p>
                                                             <p>In order to further increase flexibility of access control for Blob data, another data access control method is provided by the Azure Data Storage service, called Shared Access Signature. Management personnel can apply the Shared Access Signature to generate a temporary data access request for other users, and the temporary data access request covers effective digital signatures, and can thus pass the data verification. It also includes information about which information users can access and the operation limits and so on. At the same time, it will be effective only during the appointed time. In this way, the administrator can not only allow other users to access data, but also do so without leaking the access key.</p>
                                                         </section>
@@ -1121,7 +1121,7 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-4-8" href="#"> What is the difference between the SQL Azure Database and the traditional SQL Server Database? </a>
+                                                        <a id="q-4-8" href="#"> What is the difference between the Azure SQL Database and the traditional SQL Server Database? </a>
                                                         <section>
                                                             <p>Sometimes, the SQL Server and Azure SQL Database handle the same application working load. While one is a traditional database server applying the software licensing model, the other one is the service-mode cloud database, which is running in the data center of <span>21Vianet</span>, and is available as a pay-as-you-go model or a commitment rate model. You can easily choose the platform and business model most suitable to your technological requirements through these two products.</p>
                                                             <table cellpadding="0" cellspacing="0" width="100%">
@@ -1174,9 +1174,9 @@
                                                             <p>ISO scope: the Information Security Management System (ISMS), covering operations, security and management of commercial procedures.</p>
                                                             <p>The certificate is openly issued by the <a id="FAQ-26" href="http://www.cc.cesi.cn/">CESI Certification Co., Ltd. (CESI)</a>.</p>
                                                             <h4>Trust Cloud Services Certification</h4>
-                                                            <p>21Vianet has adopted Azure’s leading technology, and with its strong localization operation capabilities, open platform, and high-quality SLA (Service Level Agreement), strong data recovery ability and the best customer benefits, the company was successfully certified in the first batch of trusted Cloud Services for virtual machines and storage services.</p>
+                                                            <p>21Vianet has adopted Azure’s leading technology, and with its strong localization operation capabilities, open platform, and high-quality SLA (Service Level Agreement), strong data recovery ability and the best customer benefits, the company was successfully certified in the first batch of trusted Cloud Services for Virtual Machines and Storage services.</p>
                                                             <p>The Trust Cloud certification is the quality assessment system of the Cloud Services directed by the Ministry of Industry and Information Technology of the People’s Republic of China and organized and implemented by the Cloud Computing Development and Policy Forum - the "Trust Cloud Group". Certification aims to cultivate the domestic public cloud service market, enhance user confidence in Cloud Services, protect the formal cloud service providers, and promote the sound development of the market.</p>
-                                                            <p>Scope: the following functions are in the current auditing scope: virtual machines and cloud storage, accepting the assessment of 16 indicators in three large categories: data management, business quality, and rights guarantees in the SLA framework. Among which, in terms of the stability of operation, Microsoft Azure virtual cloud hosting and cloud storage services provided by 21Vianet has achieved a 99.9% SLA guarantee.</p>
+                                                            <p>Scope: the following functions are in the current auditing scope: Virtual Machines and Cloud Storage, accepting the assessment of 16 indicators in three large categories: data management, business quality, and rights guarantees in the SLA framework. Among which, in terms of the stability of operation, Microsoft Azure virtual cloud hosting and cloud storage services provided by 21Vianet has achieved a 99.9% SLA guarantee.</p>
                                                             
                                                         </section>
                                                     </div>
@@ -1419,11 +1419,11 @@
     
     ]]></bodyText>
     <umbracoNaviHide>0</umbracoNaviHide>
-    <pageTitle>Azure FAQs - Azure Cloud Computing</pageTitle>
+    <pageTitle>Azure FAQ - Azure Cloud Computing</pageTitle>
     <metaKeywords>Azure, Microsoft Azure, service content, FAQ, general questions, registration issues, billing, subscription and maintenance</metaKeywords>
-    <metaDescription><![CDATA[Windows Azure Support FAQs summarize some of the common issues when using Azure and classifies these FAQs into four types: general questions, registration, billing and reading, and performing and maintenance, helping you learn more about the Windows Azure through answering questions.]]></metaDescription>
+    <metaDescription><![CDATA[Windows Azure Support FAQ summarize some of the common issues when using Azure and classifies these FAQs into four types: general questions, registration, billing and reading, and performing and maintenance, helping you learn more about the Windows Azure through answering questions.]]></metaDescription>
     <linkid>support-faq</linkid>
-    <urlDisplayName>FAQs</urlDisplayName>
+    <urlDisplayName>FAQ</urlDisplayName>
     <headerExpose></headerExpose>
     <footerExpose></footerExpose>
 	<banner><![CDATA[

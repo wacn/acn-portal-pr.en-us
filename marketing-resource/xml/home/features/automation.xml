@@ -32,7 +32,7 @@
                 <p>In Azure Automation, Windows PowerShell workflows (also known as runbooks) help you to work comfortably by handling the creation, deployment, monitoring, and maintenance of Azure resources and third-party applications. The Azure Automation Runbook Gallery puts samples, utilities, and scenario runbooks at your fingertips, so that you can get your automation tasks up and running quickly. You can use the Runbook Gallery to browse runbooks and import them to your Automation account without leaving the Azure Management Portal.</p>
 
                 <h2>Integrate with the services that you depend on</h2>
-                <p>Automation runbooks work with websites, virtual machines, storage, SQL Server, and other popular Azure services. You can use them with any service that offers public Internet APIs. Intuitive dashboard charts and log records make runbooks easier to monitor.</p>
+                <p>Automation runbooks work with Websites, Virtual Machines, Storage, SQL Server, and other popular Azure services. You can use them with any service that offers public Internet APIs. Intuitive dashboard charts and log records make runbooks easier to monitor.</p>
 
                 <h2>Faster delivery and more reliable services</h2>
                 <p>Azure can effectively and automatically deal with processes that span different tools, systems and department silos, enabling you to deliver services with greater speed and consistency. It provides extremely high reliability and allows you to create checkpoints so you can restore your workflow if unexpected errors, crashes or network issues occur.</p>
@@ -40,7 +40,7 @@
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
             <div class="pricing-page-section link-group-container">
-                <h1>Find out more</h1>
+                <h1>More</h1>
                 <ul>
                     <li><a href="//docs.azure.cn/zh-cn/automation/automation-first-runbook-textual" id="feature_auto_rm">Get started with Automation</a></li>
                     <li><a href="http://technet.microsoft.com/zh-cn/library/dn469262.aspx" id="feature_auto_arun">How to create runbooks</a></li>

@@ -8,16 +8,16 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/hdinsight@2x.png" />
-                        <h2><span>HDInsight</span></h2>
+                        <h2>HDInsight<span>HDInsight</span></h2>
                         <h4>The only fully-managed cloud-based Hadoop product makes big data understandable and affordable.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_hd_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_hd_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_hd_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_hd_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
                 <p>Azure HDInsight provides fully-hosted, 100% supported Apache Hadoop®, Spark, HBase and Storm clusters. With just a few clicks, you can quickly start and run these workload in a few minutes, without needing to purchase hardware and lease operating teams, including big data infrastructure.</p>
-                <p>HDInsight’s Hadoop Cluster can deploy two kinds of roles:</p>
+                <p>HDInsights’ Hadoop Cluster can deploy two kinds of roles:</p>
                 <ul>
                     <li>Head node (2 nodes)</li>
                     <li>Data node (at least 1 node)</li>
@@ -45,14 +45,14 @@
 				<h3>Azure Cloud Data Platform</h3>
 				<table cellpadding="0" cellspacing="0" width="80%">
 					<tr>
-                        <th align="left" width="25%"><strong>HDInsight Functions</strong></th>
-                        <th align="left" width="30%"><strong>Standard<br />Basic price/node-hours</strong></th>
+                        <th align="left" width="25%"><strong>HDInsight Features</strong></th>
+                        <th align="left" width="30%"><strong>Standard<br />Basic price/nodes-hour</strong></th>
                         <!--
-						<th align="left" width="30%"><strong>高级<sup style="color: #a5ce00; font-weight: bold"> 预览</sup><br />基本价格/节点-小时 + ￥ 0.13/核-小时<br /></strong></th>
+						<th align="left" width="30%"><strong>高级</strong>（预览）<br /><strong>基本价格/节点-小时 + ￥ 0.13/核-小时<br /></strong></th>
 						-->
                     </tr>
                     <tr>
-						<td>Unrestricted scaling</td>
+						<td>Unlimited scaling</td>
                         <td>√</td>
                         <!--
 						<td>√</td>
@@ -80,7 +80,7 @@
 						-->
                     </tr>
 					<tr>
-                        <td>Service level agreement</td>
+                        <td>Service Level Agreement</td>
                         <td>√</td>
 						<!--
                         <td>√</td>
@@ -90,8 +90,8 @@
 				<h3>Enterprise-ready conditions</h3>
 				<table cellpadding="0" cellspacing="0" width="80%">
 					<tr>
-                        <th align="left" width="25%"><strong>HDInsight Functions</strong></th>
-                        <th align="left" width="30%"><strong>Standard<br />Basic price/node-hours</strong></th>
+                        <th align="left" width="25%"><strong>HDInsight Features</strong></th>
+                        <th align="left" width="30%"><strong>Standard<br />Basic price/nodes-hour</strong></th>
                     </tr>
                     <tr>
                      <td>Basic monitoring</td>
@@ -115,7 +115,7 @@
 							-->
                         </tr>
 						<tr>
-                            <td>Safety gateway and Zookeeper node</td>
+                            <td>Secure Gateway and Zookeeper node</td>
                             <td>√</td>
 							<!--
                             <td>√</td>
@@ -132,8 +132,8 @@
 				<h3>Cluster Types</h3>
 				<table cellpadding="0" cellspacing="0" width="80%">
 					<tr>
-                        <th align="left" width="25%"><strong>HDInsight Functions</strong></th>
-                        <th align="left" width="30%"><strong>Standard<br />Basic price/node-hours</strong></th>
+                        <th align="left" width="25%"><strong>HDInsight Features</strong></th>
+                        <th align="left" width="30%"><strong>Standard<br />Basic price/nodes-hour</strong></th>
                     </tr>
 						<tr>
 							<td>Hadoop (Hive, Pig, Storm)</td>
@@ -157,14 +157,14 @@
 							-->
                         </tr>
 						<tr>
-                            <td>Storm for real-time stream analysis</td>
+                            <td>Storm for real-time stream analytics</td>
                             <td>√</td>
 							<!--
                             <td>√</td>
 							-->
                         </tr>
 						<tr>
-                            <td>Spark for SLQ query, ML and real-time stream analysis in memory</td>
+                            <td>Spark for SLQ query, ML and real-time stream analytics in memory</td>
                             <td>√</td>
 							<!--
                             <td>√</td>
@@ -189,7 +189,7 @@
 						用户可以选择标准版或高级版群集类型。高级版价格需在标准版价格基础上增加额外的附加费。
 						以下价格中，高级版价格为预览价格，提供 50% 的价格优惠。</p> 
 						-->
-						<p>The HDinsight Linux Cluster has been formally released, with its price the same as Windows Cluster.</p>
+						<p>The HDinsight Linux Cluster has been formally released, with its pricing the same as Windows Cluster.</p>
 						<p>HDInsight Kafka is now in a preview state, with no other extra fee charged.</p>
 						<!-- 
 						<p>高级版功能仅适用于 Linux Hadoop 群集。</p>
@@ -209,7 +209,7 @@
 								<td>基本价格/节点-小时 + ￥ 0.52/核-小时</td>
 							</tr>
 							<tr>
-								<td>高级群集<sup style="color: #a5ce00; font-weight: bold"> 预览</sup></td>
+								<td>高级群集（预览）</td>
 								<td>基本价格/节点-小时 + ￥ 0.13/核-小时</td>
 								<td></td>
 								<td></td>
@@ -223,56 +223,56 @@
 								<th align="left" width="30%"><strong></strong></th>					
 								<th align="left"><strong>Hadoop, HBase, Storm, Spark</strong></th>
 								<!--<th align="left"><strong>R Server</strong></th>-->
-								<th align="left"><strong>KAFKA<sup style="color: #a5ce00; font-weight: bold"> Preview</sup></strong></th>
+								<th align="left"><strong>KAFKA</strong> Preview</th>
 							</tr>
 							<tr>
 								<td>Standard Cluster</td>								
 								<td>Basic price/node-hours</td>
 								<!--<td>基本价格/节点-小时 + ￥ 0.52/核-小时</td>-->
-								<td>Basic price/node-hours + RMB 0/core-hour + storage<sup>1</sup></td>
+								<td>Basic price/nodes-hours + RMB0/core-hour + Storage<sup>1</sup></td>
 							</tr>							
 							</tr>
 						</table>
 						<div class="tags-date">
-							<div class="ms-date"><sup>1</sup> Kafka needs a hosting disk. Customers can make a selection of standard hosting disk or advanced hosting disk. For the price of hosting disks, please check the <a href="/pricing/details/storage/">Azure Storage Pricing Details</a> page.</div>
+							<div class="ms-date"><sup>1</sup> Kafka needs a Managed Disk. Customers can make a selection of standard Managed Disk or Premium Managed Disk. For the pricing of Managed Disks, please view the <a href="/pricing/details/storage/">Azure Storage Pricing Details</a> page.</div>
 						</div>
 						<h3>A Series Universal Nodes</h3>
-						<p>A3 and A4<!--、A6、A7--> are an economical option for meeting universal demands. Customers running basic query applications and modes on Hadoop will benefit from use of the A Series.</p>
+						<p>A3 and A4<!--、A6、A7--> are economical options for meeting universal demands. Customers running basic query applications and modes on Hadoop will benefit from using the A Series.</p>
 						<p>The A1 node can be only used as Storm’s Zookeeper node. The A2 node can be only used as Zookeeper node of HBase and Storm.<!--使用 R Server 的边缘节点仅在 A6、A7 上可用。--></p>
-						<p>A Series cannot be used as data nodes in Linux Cluster, only as the head node and Zookeepers node, and only A1, A2 and A3 are available.</p>
+						<p>A Series cannot be used as data nodes in Linux Cluster. They can only be used as the head node and ZooKeeper node, and only A1, A2 and A3 are available.</p>
 						<!-- <p>从 2016 年 4 月 1 日起，Web 应用的价格下调 25.5%，以下是下调后的新价格：</p>-->
 						<div class="tags-date">
 							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
-							<div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+							<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 						</div>
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
 								<th align="left"><strong>Instances</strong></th>
 								<th align="left"><strong>Number of Cores</strong></th>
 								<th align="left"><strong>RAM</strong></th>
-								<th align="left"><strong>Drive sizes</strong></th>
-								<th align="left"><strong>Price Per Node</strong></th>
+								<th align="left"><strong>Disk sizes</strong></th>
+								<th align="left"><strong>Pricing Per Node</strong></th>
 							</tr>
 							<tr>
 								<td>A1</td>
 								<td>1</td>
 								<td>1.75GB</td>
-								<td>70 GB</td>
-								<td>¥0.3981 /hour <sup style="color:#e66102; font-weight: bold">new</sup><br /> (about ¥296.1864/month)</td>
+								<td>70GB</td>
+								<td>RMB0.3981/hour <sup style="color:#e66102; font-weight: bold">new</sup><br /> (about RMB296.1864/month)</td>
 							</tr>
 							<tr>
 								<td>A2</td>
 								<td>2</td>
-								<td>3.5GB</td>
+								<td>3.5 GB</td>
 								<td>135 GB</td>
-								<td>¥0.9662/hour <sup style="color:#e66102; font-weight: bold">new</sup><br /> (about ¥718.8528/month)</td>
+								<td>RMB0.9662/hour <sup style="color:#e66102; font-weight: bold">new</sup><br /> (about RMB718.8528/month)</td>
 							</tr>
 							<tr>
 								<td>A3</td>
 								<td>4</td>
-								<td>7GB</td>
+								<td>7 GB</td>
 								<td>285 GB</td>
-								<td>¥1.9425/hour <sup style="color:#e66102; font-weight: bold">new</sup><br /> (about ¥1,445.22/month)</td>
+								<td>RMB1.9425/hour <sup style="color:#e66102; font-weight: bold">new</sup><br /> (about RMB1,445.22/month)</td>
 							</tr>
 							<!--
 							<tr>
@@ -299,164 +299,164 @@
 							-->
 						</table>
 						<!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
-						<h3>D Series nodes: CPU acceleration by 60%, bigger memory, local SSD</h3>
+						<h3>D Series Nodes: CPU accelerated by 60%, bigger memory, local SSD</h3>
 						<p>D1, D2 and D11 nodes can only be used as Zookeeper nodes for HBase and Storm.</p>
 						<!-- <p>从2016 年 4 月 1 日起，SSL 连接的价格下调 25.5%，以下是下调后的新价格：</p>-->
 						<div class="tags-date">
 							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
-							<div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+							<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 						</div>
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
 								<th align="left"><strong>Instances</strong></th>
 								<th align="left"><strong>Number of Cores</strong></th>
-								<th align="left"><strong>Amount of Memory</strong></th>
-								<th align="left"><strong>Disk Sizes</strong></th>
-								<th align="left"><strong>Price Per Node</strong></th>
+								<th align="left"><strong>Memory</strong></th>
+								<th align="left"><strong>Disk sizes</strong></th>
+								<th align="left"><strong>Pricing Per Node</strong></th>
 							</tr>
 							<tr>
 								<td>D1</td>
 								<td>1</td>
-								<td>3.5GB</td>
-								<td>50GB</td>
-								<td>RMB 1.12/hour<br />(about RMB 833.28/month)</td>
+								<td>3.5 GB</td>
+								<td>50 GB</td>
+								<td>RMB1.12/hour<br />(about RMB833.28/month)</td>
 							</tr>
 							<tr>
 								<td>D2</td>
 								<td>2</td>
-								<td>7GB</td>
-								<td>100GB</td>
-								<td>RMB 2.23/hour<br />(about RMB 1,659.12/month)</td>
+								<td>7 GB</td>
+								<td>100 GB</td>
+								<td>RMB2.23/hour<br />(about RMB1,659.12/month)</td>
 							</tr>
 							<tr>
 								<td>D3</td>
 								<td>4</td>
-								<td>14GB</td>
-								<td>200GB</td>
-								<td>RMB 4.47/hour<br />(about RMB 3,325.68/month)</td>
+								<td>14 GB</td>
+								<td>200 GB</td>
+								<td>RMB4.47/hour<br />(about RMB3,325.68/month)</td>
 							</tr>
 							<tr>
 								<td>D4</td>
 								<td>8</td>
-								<td>28GB</td>
-								<td>400GB</td>
-								<td>RMB 8.94/hour<br />(about RMB 6,651.36/month)</td>
+								<td>28 GB</td>
+								<td>400 GB</td>
+								<td>RMB8.94/hour<br />(about RMB6,651.36/month)</td>
 							</tr>
 							<tr>
 								<td>D5</td>
 								<td>16</td>
-								<td>56GB</td>
-								<td>800GB</td>
-								<td>RMB 16.07 /hour<br />(about RMB 11,956.08 /month)</td>
+								<td>56 GB</td>
+								<td>800 GB</td>
+								<td>RMB16.07/hour<br />(about RMB11,956.08/month)</td>
 							</tr>
 							<tr>
 								<td>D11</td>
 								<td>2</td>
-								<td>14GB</td>
-								<td>100GB</td>
-								<td>RMB 2.67/hour<br />(about RMB 1,986.48/month)</td>
+								<td>14 GB</td>
+								<td>100 GB</td>
+								<td>RMB2.67/hour<br />(about RMB1,986.48/month)</td>
 							</tr>
 							<tr>
 								<td>D12</td>
 								<td>4</td>
-								<td>28GB</td>
-								<td>200GB</td>
-								<td>RMB 5.34/hour<br />(about RMB 3,972.96/month)</td>
+								<td>28 GB</td>
+								<td>200 GB</td>
+								<td>RMB5.34/hour<br />(about RMB3,972.96/month)</td>
 							</tr>
 							<tr>
 								<td>D13</td>
 								<td>8</td>
-								<td>56GB</td>
-								<td>400GB</td>
-								<td>RMB 9.61/hour<br />(about RMB 7,149.84/month)</td>
+								<td>56 GB</td>
+								<td>400 GB</td>
+								<td>RMB9.61/hour<br />(about RMB7,149.84/month)</td>
 							</tr>
 							<tr>
 								<td>D14</td>
 								<td>16</td>
-								<td>112GB</td>
+								<td>112 GB</td>
 								<td>800 GB</td>
-								<td>¥11.2234/hour <sup style="color:#e66102; font-weight: bold">new</sup><br />(about ¥8,350.2096/month)</td>
+								<td>RMB11.2234/hour <sup style="color:#e66102; font-weight: bold">new</sup><br />(about RMB8,350.2096/month)</td>
 							</tr>
 						</table>
 						<!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
-						<h3>Dv2 Series Optimized Nodes: a New Generation of CPU</h3>
-						<p>The Dv2 Series is the new generation of D Series instances with stronger CPU, of which the memory and disk configurations are the same as the D Series. The instances of the Dv2 Series are based on a new generation of 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to 3.2GHz using Intel Turbo Boost Technology 2.0. The Dv2 Series can cater to customers requiring low delay, local SSD access or faster CPU to run applications; the bigger memory of the D Series and Dv2 Series can improve performance for customers using HDInsight HBase; customers using HDInsight Storm and Spark can upload bigger reference data via its bigger memory, and realize bigger throughput through its faster CPU.</p>
+						<h3>Dv2 Series Optimized Nodes: A New Generation of CPU</h3>
+						<p>The Dv2 Series is the new generation of D Series instances with stronger CPU, of which the memory and disk configurations are the same as the D Series. The instances of the Dv2 Series are based on a new generation of 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to 3.2GHz using Intel Turbo Boost Technology 2.0. The Dv2 Series can cater to customers requiring low delay, local SSD access or faster CPU to run applications. The bigger memory of the D Series and Dv2 Series can improve performance for customers using HDInsight HBase. Customers using HDInsight Storm and Spark can upload bigger reference data via its bigger memory, and realize bigger throughput through its faster CPU.</p>
 						<p>The D Series will continue to apply, but the DV2 series is recommended.<!-- 使用 R Server 的边缘节点仅在 D4 v2、D12 v2、D13 v2、D14 v2 上可用。--></p>
 						<!-- <p>从2016 年 4 月 1 日起，SSL 连接的价格下调 25.5%，以下是下调后的新价格：</p>-->
 						<div class="tags-date">
 							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
-							<div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+							<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 						</div>
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
 								<th align="left"><strong>Instances</strong></th>
 								<th align="left"><strong>Number of Cores</strong></th>
-								<th align="left"><strong>Amount of Memory</strong></th>
-								<th align="left"><strong>Disk Sizes</strong></th>
-								<th align="left"><strong>Price Per Node</strong></th>
+								<th align="left"><strong>Memory</strong></th>
+								<th align="left"><strong>Disk sizes</strong></th>
+								<th align="left"><strong>Pricing Per Node</strong></th>
 							</tr>
 							<tr>
 								<td>D1 v2</td>
 								<td>1</td>
-								<td>3.5GB</td>
-								<td>50GB</td>
-								<td>RMB 1.12/hour<br />(about RMB 833.28/month)</td>
+								<td>3.5 GB</td>
+								<td>50 GB</td>
+								<td>RMB1.12/hour<br />(about RMB833.28/month)</td>
 							</tr>
 							<tr>
 								<td>D2 v2</td>
 								<td>2</td>
-								<td>7GB</td>
-								<td>100GB</td>
-								<td>RMB 2.23/hour<br />(about RMB 1,659.12/month)</td>
+								<td>7 GB</td>
+								<td>100 GB</td>
+								<td>RMB2.23/hour<br />(about RMB1,659.12/month)</td>
 							</tr>
 							<tr>
 								<td>D3 v2</td>
 								<td>4</td>
-								<td>14GB</td>
-								<td>200GB</td>
-								<td>RMB 4.47/hour<br />(about RMB 3,325.68/month)</td>
+								<td>14 GB</td>
+								<td>200 GB</td>
+								<td>RMB4.47/hour<br />(about RMB3,325.68/month)</td>
 							</tr>
 							<tr>
 								<td>D4 v2</td>
 								<td>8</td>
-								<td>28GB</td>
-								<td>400GB</td>
-								<td>RMB 8.94/hour<br />(about RMB 6,651.36/month)</td>
+								<td>28 GB</td>
+								<td>400 GB</td>
+								<td>RMB8.94/hour<br />(about RMB6,651.36/month)</td>
 							</tr>
 							<tr>
 								<td>D5 v2</td>
 								<td>16</td>
-								<td>56GB</td>
-								<td>800GB</td>
-								<td>RMB 16.07 /hour<br />(about RMB 11,956.08 /month)</td>
+								<td>56 GB</td>
+								<td>800 GB</td>
+								<td>RMB16.07/hour<br />(about RMB11,956.08/month)</td>
 							</tr>
 							<tr>
 								<td>D11 v2</td>
 								<td>2</td>
-								<td>14GB</td>
-								<td>100GB</td>
-								<td>RMB 2.67/hour<br />(about RMB 1,986.48/month)</td>
+								<td>14 GB</td>
+								<td>100 GB</td>
+								<td>RMB2.67/hour<br />(about RMB1,986.48/month)</td>
 							</tr>
 							<tr>
 								<td>D12 v2</td>
 								<td>4</td>
-								<td>28GB</td>
-								<td>200GB</td>
-								<td>RMB 5.34/hour<br />(about RMB 3,972.96/month)</td>
+								<td>28 GB</td>
+								<td>200 GB</td>
+								<td>RMB5.34/hour<br />(about RMB3,972.96/month)</td>
 							</tr>
 							<tr>
 								<td>D13 v2</td>
 								<td>8</td>
-								<td>56GB</td>
-								<td>400GB</td>
-								<td>RMB 9.61/hour<br />(about RMB 7,149.84/month)</td>
+								<td>56 GB</td>
+								<td>400 GB</td>
+								<td>RMB9.61/hour<br />(about RMB7,149.84/month)</td>
 							</tr>
 							<tr>
 								<td>D14 v2</td>
 								<td>16</td>
-								<td>112GB</td>
+								<td>112 GB</td>
 								<td>800 GB</td>
-								<td>¥11.2234/hour <sup style="color:#e66102; font-weight: bold">new</sup><br />(about ¥8,350.2096/month)</td>
+								<td>RMB11.2234/hour <sup style="color:#e66102; font-weight: bold">new</sup><br />(about RMB8,350.2096/month)</td>
 							</tr>
 						</table>
 						<!-- END: Table3-Content--> <!--
@@ -568,9 +568,9 @@
 					</div>
 					<!-- END: TAB-CONTAINER-Linux --> <!-- BEGIN: TAB-CONTAINER-Windows -->
 					<div class="tab-control-container" id="tabContentwin">
-						<p><strong>* If you have a cluster (3.3 or earlier edition) running in HDInsight Windows, please migrate it to HDInsight Linux (3.5 and upgraded editions) before July 31, 2018, so as to maintain the capability of creating or adjusting the HDI Cluster. Please check <a href="//docs.azure.cn/zh-cn/hdinsight/hdinsight-migrate-from-windows-to-linux">Obtaining More Information on Migration from a Windows-based HDInsight Cluster to a Linux-based Cluster</a>document.</strong></p>
+						<p><strong>* If you have a cluster (3.3 or earlier edition) running in HDInsight Windows, please migrate it to HDInsight Linux (3.5 and upgraded editions) before July 31, 2018, so as to maintain the capability of creating or adjusting the HDI Cluster. Please view <a href="//docs.azure.cn/zh-cn/hdinsight/hdinsight-migrate-from-windows-to-linux">Obtaining More Information on Migration from a Windows-based HDInsight Cluster to a Linux-based Cluster</a>documentation.</strong></p>
 						<p>
-							HDInsight Cluster is composed of a group of nodes. In the lifecycle of the cluster, customers must pay for these nodes. Billing starts from creation of the cluster, and ends in deletion of the cluster. Billing is made proportionately every minute.<!-- 用户可以选择标准版或高级版群集类型。高级版价格需在标准版价格基础上增加额外的附加费。此外，如果客户选择 R Server 群集，还需针对此特定工作负荷收取额外附加费。以下价格中，高级版价格为预览价格，提供 50% 的价格优惠。-->
+							HDInsight Cluster is composed of a group of nodes. In the lifecycle of the cluster, customers must pay for these nodes. Billing starts from creation of the cluster, and ends in deletion of the cluster. Billing is prorated by the minute.<!-- 用户可以选择标准版或高级版群集类型。高级版价格需在标准版价格基础上增加额外的附加费。此外，如果客户选择 R Server 群集，还需针对此特定工作负荷收取额外附加费。以下价格中，高级版价格为预览价格，提供 50% 的价格优惠。-->
 						</p>
 						
 						<h3>Pricing Method</h3>
@@ -587,7 +587,7 @@
 							</tr>
 							<!--
 							<tr>
-								<td>高级群集<sup style="color: #a5ce00; font-weight: bold"> 预览</sup></td>
+								<td>高级群集（预览）</td>
 								<td>基本价格/节点-小时 + ￥ 0.13/核-小时</td>
 								<td></td>
 							</tr>
@@ -596,215 +596,215 @@
 						
 						<h3>A Series Universal Nodes</h3>
 						<p>A3, A4, A6 and A7 are an economical option for meeting universal demands. The customers running basic query applications and modes on Hadoop will benefit from the use of A Series.</p>
-						<p>The A1 node can be only used as Storm’s Zookeeper node. The A2 and A5 nodes can be only used as Zookeeper nodes for HBase and Storm. <!-- 使用 R-Server 的边缘节点仅在 A6、A7 上可用。--></p>
+						<p>The A1 node can only b used as Storm’s ZooKeeper node. The A2 node can be only used as the ZooKeeper node for HBase and Storm.<!-- 使用 R-Server 的边缘节点仅在 A6、A7 上可用。--></p>
 						<!-- <p>从 2016 年 4 月 1 日起，Web 应用的价格下调 25.5%，以下是下调后的新价格：</p>-->
 						<div class="tags-date">
 							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
-							<div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+							<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 						</div>
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
 								<th align="left"><strong>Instances</strong></th>
 								<th align="left"><strong>Number of Cores</strong></th>
-								<th align="left"><strong>Amount of Memory</strong></th>
-								<th align="left"><strong>Disk Sizes</strong></th>
-								<th align="left"><strong>Price Per Node</strong></th>
+								<th align="left"><strong>Memory</strong></th>
+								<th align="left"><strong>Disk sizes</strong></th>
+								<th align="left"><strong>Pricing Per Node</strong></th>
 							</tr>
 							<tr>
 								<td>A1</td>
 								<td>1</td>
-								<td>1.75GB</td>
-								<td>70GB</td>
-								<td>RMB 0.51/hour<br />(about RMB 379.44/month)</td>
+								<td>1.75 GB</td>
+								<td>70 GB</td>
+								<td>RMB0.51/hour<br /> (about RMB379.44/month)</td>
 							</tr>
 							<tr>
 								<td>A2</td>
 								<td>2</td>
-								<td>3.5GB</td>
-								<td>135GB</td>
-								<td>RMB 1.01/hour<br />(about RMB 751.44/month)</td>
+								<td>3.5 GB</td>
+								<td>135 GB</td>
+								<td>RMB1.01/hour<br /> (about RMB751.44/month)</td>
 							</tr>
 							<tr>
 								<td>A3</td>
 								<td>4</td>
-								<td>7GB</td>
-								<td>285GB</td>
-								<td>RMB 2.03 /hour<br />(about RMB 1,510.32/month)</td>
+								<td>7 GB</td>
+								<td>285 GB</td>
+								<td>RMB2.03/hour<br /> (about RMB1,510.32/month)</td>
 							</tr>
 							<tr>
 								<td>A4</td>
 								<td>8</td>
-								<td>14GB</td>
-								<td>605GB</td>
-								<td>RMB 4.05 /hour<br /> (about RMB 3,013.20/month)</td>
+								<td>14 GB</td>
+								<td>605 GB</td>
+								<td>RMB4.05/hour<br /> (about RMB3,013.20/month)</td>
 							</tr>
 							<tr>
 								<td>A5</td>
 								<td>2</td>
-								<td>14GB</td>
-								<td>135GB</td>
-								<td>RMB 1.71/hour<br />(about RMB 1,272.24/month)</td>
+								<td>14 GB</td>
+								<td>135 GB</td>
+								<td>RMB1.71/month<br /> (about RMB1,272.24/month)</td>
 							</tr>
 							<tr>
 								<td>A6</td>
 								<td>4</td>
-								<td>28GB</td>
-								<td>285GB</td>
-								<td>RMB 3.43/hour<br />(about RMB 2,551.92/month)</td>
+								<td>28 GB</td>
+								<td>285 GB</td>
+								<td>RMB3.43/month<br /> (about RMB2,551.92/month)</td>
 							</tr>
 							<tr>
 								<td>A7</td>
 								<td>8</td>
-								<td>56GB</td>
-								<td>605GB</td>
-								<td>RMB 6.85/hour<br />(about RMB 5,096.40/month)</td>
+								<td>56 GB</td>
+								<td>605 GB</td>
+								<td>RMB6.85/month<br /> (about RMB5,096.40/month)</td>
 							</tr>
 						</table>
 						<!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
-						<h3>D Series nodes: CPU acceleration by 60%, bigger memory, local SSD</h3>
+						<h3>D Series Nodes: CPU accelerated by 60%, bigger memory, local SSD</h3>
 						<p>D1, D2 and D11 nodes can only be used as Zookeeper nodes for HBase and Storm.</p>
 						<!-- <p>从2016 年 4 月 1 日起，SSL 连接的价格下调 25.5%，以下是下调后的新价格：</p>-->
 						<div class="tags-date">
 							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
-							<div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+							<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 						</div>
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
 								<th align="left"><strong>Instances</strong></th>
 								<th align="left"><strong>Number of Cores</strong></th>
-								<th align="left"><strong>Amount of Memory</strong></th>
-								<th align="left"><strong>Disk Sizes</strong></th>
-								<th align="left"><strong>Price Per Node</strong></th>
+								<th align="left"><strong>Memory</strong></th>
+								<th align="left"><strong>Disk sizes</strong></th>
+								<th align="left"><strong>Pricing Per Node</strong></th>
 							</tr>
 							<tr>
 								<td>D1</td>
 								<td>1</td>
-								<td>3.5GB</td>
-								<td>50GB</td>
-								<td>RMB 1.12/hour<br />(about RMB 833.28/month)</td>
+								<td>3.5 GB</td>
+								<td>50 GB</td>
+								<td>RMB1.12/hour<br />(about RMB833.28/month)</td>
 							</tr>
 							<tr>
 								<td>D2</td>
 								<td>2</td>
-								<td>7GB</td>
-								<td>100GB</td>
-								<td>RMB 2.23/hour<br />(about RMB 1,659.12/month)</td>
+								<td>7 GB</td>
+								<td>100 GB</td>
+								<td>RMB2.23/hour<br />(about RMB1,659.12/month)</td>
 							</tr>
 							<tr>
 								<td>D3</td>
 								<td>4</td>
-								<td>14GB</td>
-								<td>200GB</td>
-								<td>RMB 4.47/hour<br />(about RMB 3,325.68/month)</td>
+								<td>14 GB</td>
+								<td>200 GB</td>
+								<td>RMB4.47/hour<br />(about RMB3,325.68/month)</td>
 							</tr>
 							<tr>
 								<td>D4</td>
 								<td>8</td>
-								<td>28GB</td>
-								<td>400GB</td>
-								<td>RMB 8.94/hour<br />(about RMB 6,651.36/month)</td>
+								<td>28 GB</td>
+								<td>400 GB</td>
+								<td>RMB8.94/hour<br />(about RMB6,651.36/month)</td>
 							</tr>
 							<tr>
 								<td>D11</td>
 								<td>2</td>
-								<td>14GB</td>
-								<td>100GB</td>
-								<td>RMB 2.67/hour<br />(about RMB 1,986.48/month)</td>
+								<td>14 GB</td>
+								<td>100 GB</td>
+								<td>RMB2.67/hour<br />(about RMB1,986.48/month)</td>
 							</tr>
 							<tr>
 								<td>D12</td>
 								<td>4</td>
-								<td>28GB</td>
-								<td>200GB</td>
-								<td>RMB 5.34/hour<br />(about RMB 3,972.96/month)</td>
+								<td>28 GB</td>
+								<td>200 GB</td>
+								<td>RMB5.34/hour<br />(about RMB3,972.96/month)</td>
 							</tr>
 							<tr>
 								<td>D13</td>
 								<td>8</td>
-								<td>56GB</td>
-								<td>400GB</td>
-								<td>RMB 9.61/hour<br />(about RMB 7,149.84/month)</td>
+								<td>56 GB</td>
+								<td>400 GB</td>
+								<td>RMB9.61/hour<br />(about RMB7,149.84/month)</td>
 							</tr>
 							<tr>
 								<td>D14</td>
 								<td>16</td>
-								<td>112GB</td>
+								<td>112 GB</td>
 								<td>800 GB</td>
-								<td>RMB 17.29/hour<br />(about RMB 12,863.76/month)</td>
+								<td>RMB17.29/month<br /> (about RMB12,863.76/month)</td>
 							</tr>
 						</table>
 						<!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
-						<h3>Dv2 Series Optimized Nodes: a New Generation of CPU</h3>
-						<p>The Dv2 Series is the new generation of D Series instances with stronger CPU, of which the memory and disk configurations are the same as the D Series. The instances of the Dv2 Series are based on a new generation of 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to 3.2GHz using Intel Turbo Boost Technology 2.0. The Dv2 Series can cater for the customers requiring low delay, local SSD access or faster CPU to run applications; the bigger memory of the D Series and Dv2 Series can improve performance for customers using HDInsight HBase; customers using HDInsight Storm <!-- 和 Spark --> can upload bigger reference data via its bigger memory, and realize bigger throughput through its faster CPU.</p>
+						<h3>Dv2 Series Optimized Nodes: A New Generation of CPU</h3>
+						<p>The Dv2 Series is the new generation of D Series instances with stronger CPU, of which the memory and disk configurations are the same as the D Series. The instances of the Dv2 Series are based on a new generation of 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to 3.2GHz using Intel Turbo Boost Technology 2.0. The Dv2 Series can cater for the customers requiring low delay, local SSD access or faster CPU to run applications. The bigger memory of the D Series and Dv2 Series can improve performance for customers using HDInsight HBase. Customers using HDInsight Storm <!-- 和 Spark --> can upload bigger reference data via its bigger memory, and realize bigger throughput through its faster CPU.</p>
 						<p>The D Series will continue to apply, but the DV2 series is recommended.<!--使用 R-Server 的边缘节点仅在 D4 v2、D12 v2、D13 v2、D14 v2 上可用。--></p>
 						<!-- <p>从2016 年 4 月 1 日起，SSL 连接的价格下调 25.5%，以下是下调后的新价格：</p>-->
 						<div class="tags-date">
 							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
-							<div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+							<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 						</div>
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
 								<th align="left"><strong>Instances</strong></th>
 								<th align="left"><strong>Number of Cores</strong></th>
-								<th align="left"><strong>Amount of Memory</strong></th>
-								<th align="left"><strong>Disk Sizes</strong></th>
-								<th align="left"><strong>Price Per Node</strong></th>
+								<th align="left"><strong>Memory</strong></th>
+								<th align="left"><strong>Disk sizes</strong></th>
+								<th align="left"><strong>Pricing Per Node</strong></th>
 							</tr>
 							<tr>
 								<td>D1 v2</td>
 								<td>1</td>
-								<td>3.5GB</td>
-								<td>50GB</td>
-								<td>RMB 1.12/hour<br />(about RMB 833.28/month)</td>
+								<td>3.5 GB</td>
+								<td>50 GB</td>
+								<td>RMB1.12/hour<br />(about RMB833.28/month)</td>
 							</tr>
 							<tr>
 								<td>D2 v2</td>
 								<td>2</td>
-								<td>7GB</td>
-								<td>100GB</td>
-								<td>RMB 2.23/hour<br />(about RMB 1,659.12/month)</td>
+								<td>7 GB</td>
+								<td>100 GB</td>
+								<td>RMB2.23/hour<br />(about RMB1,659.12/month)</td>
 							</tr>
 							<tr>
 								<td>D3 v2</td>
 								<td>4</td>
-								<td>14GB</td>
-								<td>200GB</td>
-								<td>RMB 4.47/hour<br />(about RMB 3,325.68/month)</td>
+								<td>14 GB</td>
+								<td>200 GB</td>
+								<td>RMB4.47/hour<br />(about RMB3,325.68/month)</td>
 							</tr>
 							<tr>
 								<td>D4 v2</td>
 								<td>8</td>
-								<td>28GB</td>
-								<td>400GB</td>
-								<td>RMB 8.94/hour<br />(about RMB 6,651.36/month)</td>
+								<td>28 GB</td>
+								<td>400 GB</td>
+								<td>RMB8.94/hour<br />(about RMB6,651.36/month)</td>
 							</tr>
 							<tr>
 								<td>D11 v2</td>
 								<td>2</td>
-								<td>14GB</td>
-								<td>100GB</td>
-								<td>RMB 2.67/hour<br />(about RMB 1,986.48/month)</td>
+								<td>14 GB</td>
+								<td>100 GB</td>
+								<td>RMB2.67/hour<br />(about RMB1,986.48/month)</td>
 							</tr>
 							<tr>
 								<td>D12 v2</td>
 								<td>4</td>
-								<td>28GB</td>
-								<td>200GB</td>
-								<td>RMB 5.34/hour<br />(about RMB 3,972.96/month)</td>
+								<td>28 GB</td>
+								<td>200 GB</td>
+								<td>RMB5.34/hour<br />(about RMB3,972.96/month)</td>
 							</tr>
 							<tr>
 								<td>D13 v2</td>
 								<td>8</td>
-								<td>56GB</td>
-								<td>400GB</td>
-								<td>RMB 9.61/hour<br />(about RMB 7,149.84/month)</td>
+								<td>56 GB</td>
+								<td>400 GB</td>
+								<td>RMB9.61/hour<br />(about RMB7,149.84/month)</td>
 							</tr>
 							<tr>
 								<td>D14 v2</td>
 								<td>16</td>
-								<td>112GB</td>
+								<td>112 GB</td>
 								<td>800 GB</td>
-								<td>RMB 17.29/hour<br />(about RMB 12,863.76/month)</td>
+								<td>RMB17.29/month<br /> (about RMB12,863.76/month)</td>
 							</tr>
 						</table>
 						<!-- END: Table3-Content-->
@@ -822,9 +822,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="HDInsight_question1">What fees do I need to pay if my cluster’s running time is less than one hour?</a>
+                                <a id="HDInsight_question1">What is the fee if my cluster’s running time is less than 1 hour?</a>
                                 <section>
-                                    <p>We will charge you by the minute of the running cluster and round it to the closest minute, rather than hour.</p>
+                                    <p>We will charge by the number of minutes the cluster is running and round it off to the nearest minute rather than hour.</p>
                                 </section>
 
                             </div>
@@ -832,9 +832,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="HDInsight_question2">How do you make sure if I’ve completely suspended the HDInsight cluster without further charging?</a>
+                                <a id="HDInsight_question2">How do I make sure I’ve completely suspended the HDInsight cluster without further charges?</a>
                                 <section>
-                                    <p>To suspend the HDInsight cluster, you must delete this cluster. Under default conditions, all data required to run HDInsight cluster are placed in Blob storage, so deleting this cluster will not affect data. If you hope to keep Hive meta (table and framework), set up the cluster using external meta storage. For details, please refer to <a id="HDInsight_price_clu" style="color: #00a8d9;" href="https://docs.azure.cn/hdinsight/hdinsight-hadoop-provision-linux-clusters/">this file</a>.</p>
+                                    <p>To suspend the HDInsight cluster, you must delete this cluster. Under default conditions, all data required to run HDInsight cluster are placed in Blob Storage, so deleting this cluster will not affect data. If you hope to keep Hive meta (table and framework), set up the cluster using external meta storage. For details, please refer to <a id="HDInsight_price_clu" style="color: #00a8d9;" href="https://docs.azure.cn/hdinsight/hdinsight-hadoop-provision-linux-clusters/">this file</a>.</p>
                                 </section>
 
                             </div>
@@ -866,16 +866,16 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <p>For all other nodes, the node hours will be charged at the same rate as the clock hours of the nodes.</p>
+                                    <p>For all other nodes, the node hours will be billed at the same rate as the node’s clock hours.</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="HDInsight_question4">Are the aforementioned prices tax-inclusive?</a>
+                                <a id="HDInsight_question4">Are the aforementioned pricing tax-inclusive?</a>
                                 <section>
-                                    <p>The aforementioned prices are tax-inclusive</p>
+                                    <p>The aforementioned pricing are tax-inclusive</p>
                                 </section>
                             </div>
                         </li>
@@ -884,16 +884,16 @@
                             <div>
                                 <a id="HDInsight_question5">How many data nodes do my HDInsight clusters need?</a>
                                 <section>
-                                    <p>The quantity of data nodes depends on specific demands. Given the extremely high flexibility of Azure cloud services, you may try to use the clusters of different scales, so as to determine the most appropriate performance and cost combinations, and only pay for the actual resources you need to use at anytime. To meet your workload requirements, the clusters can be expanded or shrunk where necessary.</p>
+                                    <p>The quantity of data nodes depends on specific demands. Given the extremely high flexibility of Azure Cloud Services, you may try to use the clusters of different scales, so as to determine the most appropriate performance and cost combinations, and only pay for the actual resources you need to use at anytime. To meet your workload requirements, the clusters can be expanded or shrunk where necessary.</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="HDInsight_question6">What do I need to do if the number of HDInsight data nodes I need exceeds the permissible upper limit?</a>
+                                <a id="HDInsight_question6">What if I need more HDInsight data nodes than my subscription allows?</a>
                                 <section>
-                                    <p>The quantity of HDInsight data nodes permitted for creation by every subscription has a default limit. If you need to create an HDInsight cluster of bigger scale, or need to create multiple HDInsight clusters, which make the total quantity of data nodes exceed the permissible maximum value of the current subscription, you may apply for raising the billing limit of the subscription. You can <a id="HDInsight_price_suppert" style="color: #00a8d9;" href="/support/support-ticket-form/?l=zh-cn">apply for support online</a>, or contact us via hotline, depending on the maximum value of subscription nodes you apply for. To assist us in optimizing your deployment, you may need to provide additional information.</p>
+                                    <p>The quantity of HDInsight data nodes permitted for creation by every subscription has a default limit. If you need to create larger scale HDInsight clusters, or need to create multiple HDInsight clusters, making the total quantity of data nodes exceed the allowed maximum value of the current subscription, you may apply to raise the subscription’s billing limit. You can <a id="HDInsight_price_suppert" style="color: #00a8d9;" href="/support/support-ticket-form/?l=zh-cn">make an online application for support</a>, or contact us via the hotline, depending on the maximum value of the subscription nodes you apply for. To assist us in optimizing your deployment, you may need to provide additional information.</p>
                                 </section>
                             </div>
                         </li>
@@ -911,23 +911,23 @@
                 </div>
             </div>
             <div class="pricing-page-section">
-                <h2>Marketing Regions</h2>
-                <p>HDinsight services are available in the following regions:</p>
+                <h2>Region</h2>
+                <p>HDInsight services are available in the following regions:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territories</strong></th>
-                        <th align="left"><strong>Regions</strong></th>
+                        <th align="left"><strong>Territory</strong></th>
+                        <th align="left"><strong>Region</strong></th>
                     </tr>
                     <tr>
                         <td>Mainland China</td>
-                        <td>China East Data Center, China North Data Center</td>
+                        <td>China North, China East</td>
                     </tr>
                 </table>
                 
                  <div class="pricing-page-section">
-                <h2>Support and Service Level Agreements</h2>
+                <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="hdinsight-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-				 <p>As for HDInsight, we guarantee that any HDInsight cluster you deploy can establish external connections at least 99.9% of the time during the monthly billing cycle. To learn more about the details of our service level agreement, please visit the <a href="/support/sla/hdinsight/" id="pricing_hdinsight_sla">Service Level Agreements</a> page.</p>
+				 <p>As for HDInsight, we guarantee that any HDInsight cluster you deploy can establish external connections at least 99.9% of the time during the monthly billing cycle. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/hdinsight/" id="pricing_hdinsight_sla">Service Level Agreements</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                     
     
@@ -935,8 +935,8 @@
     <pageTitle>Azure HDInsight Hosting Service Pricing - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-hdinsight</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, HDInsight, Price, Hadoop, Hosting, Analysis Service, Big Data, 1 RMB Trial</metaKeywords>
-    <metaDescription><![CDATA[Learn about the price details of Azure HDInsight. Azure HDInsight is an Apache Hadoop cloud service suitable for big data, allowing deployment of different types of clusters for different types of data analysis workloads, including: Hadoop, HBase, and Storm clusters. Different types of clusters have multiple nodes for different types of roles. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
+    <metaKeywords>Azure, Microsoft Cloud, HDInsight, Pricing, Hadoop, Hosting, Analysis Service, Big Data, 1RMB Trial</metaKeywords>
+    <metaDescription><![CDATA[Learn about the pricing details of Azure HDInsight. Azure HDInsight is an Apache Hadoop cloud service suitable for big data, allowing deployment of different types of clusters for different types of data analysis workloads, including: Hadoop, HBase, and Storm clusters. Different types of clusters have multiple nodes for different types of roles. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - HDInsight</urlDisplayName>
   </TextpageLeftNav>
 </localize>

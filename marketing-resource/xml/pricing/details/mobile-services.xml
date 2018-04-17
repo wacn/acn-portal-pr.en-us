@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/mobile-apps@2x.png" /> 
                         <h2><sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">Preview</sup><span>Mobile Services</span></h2>
                         <h4>It supports iOS/Android/WP APP backstage development, and can use personalized services such as push real-time notification in a timely manner, allowing you to easily create Mobile Apps based on Azure.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_mob_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mob_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_mob_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mob_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@
                     <!-- BEGIN: Table1-Content-->
                     <h2>Pricing Details</h2>
 					<h3>Migration Notification</h3>
-                    <p>To meet the featureal requests made by users for Azure Mobile Services in the past few years, Microsoft Azure project, which is operated by 21Vianet, plans to migrate Azure Mobile Services to Azure App Service. Users can choose to migrate themselves by March 1, 2017, or choose to be assisted by Azure for the migration after March 1, 2017. Azure Mobile Services will be officially closed in June 2017.<br/>The migration will bring changes to pricing and billing methods. The new pricing and billing methods will take effect on January 1, 2017. For detailed pricing and billing methods, please refer to the <a href="/pricing/details/app-service/" id="mobile-services-pricing_app-service-pricing">Azure App Services Pricing Details</a> page.</p>
+                    <p>To meet the real requests made by users for Azure Mobile Services in the past few years, Microsoft Azure project, which is operated by 21Vianet, plans to migrate Azure Mobile Services to Azure App Service. Users can choose to migrate themselves by March 1, 2017, or choose to be assisted by Azure for the migration after March 1, 2017. Azure Mobile Services will be officially closed in June 2017.<br/>The migration will bring changes to pricing and billing methods. The new pricing and billing methods will take effect on January 1, 2017. For detailed pricing and billing methods, please refer to the <a href="/pricing/details/app-service/" id="mobile-services-pricing_app-service-pricing">Azure App Services Pricing Details</a> page.</p>
 					<!--
                      <div class="tags-date">
                         <div class="ms-date">*以下价格均为含税价格。</div><br />
@@ -191,7 +191,7 @@
 			
             <div class="pricing-page-section">
                 <div class="more-detail">
-                    <h2>FAQs</h2>
+                    <h2>FAQ</h2>
                     <em>Expand all</em>
                     <ul>
                         <li>
@@ -236,20 +236,20 @@
             </div>
 
             <div class="pricing-page-section">
-                <h2>Marketing Regions</h2>
+                <h2>Region</h2>
                 <p>Web Apps service is available in the following regions:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territories</strong></th>
-                        <th align="left"><strong>Regions</strong></th>
+                        <th align="left"><strong>Territory</strong></th>
+                        <th align="left"><strong>Region</strong></th>
                     </tr>
                     <tr>
                         <td>Mainland China</td>
-                        <td>China East Data Center, China North Data Center</td>
+                        <td>China North, China East</td>
                     </tr>
                 </table>
 				<div class="pricing-page-section">
-                <h2>Support and Service Level Agreements</h2>
+                <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="mobile-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				<p>Service Level Agreements are not available in the mobile service. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/legal/sla/" id="pricing_mobile-services_sla">Service Level Agreements</a> page.</p> 
                 </div>
@@ -263,7 +263,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-mobile-services</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Mobile Services, pricing details, pricing, billing</metaKeywords>
-    <metaDescription><![CDATA[To learn the pricing details of Azure Mobile Services. Azure Mobile Services include three levels, including "Free," "Basic," and "Standard." Preview edition is currently available. During the features preview, the billing for user utilization pricing is 50% of the standard price. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer.]]></metaDescription>
+    <metaDescription><![CDATA[To learn the pricing details of Azure Mobile Services. Azure Mobile Services include three levels, including "Free," "Basic," and "Standard." Preview edition is currently available. During the features preview, the billing for user utilization pricing is 50% of the standard price. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
     <urlDisplayName>Pricing Details - Mobile Services</urlDisplayName>
   </TextpageLeftNav>
 </localize>

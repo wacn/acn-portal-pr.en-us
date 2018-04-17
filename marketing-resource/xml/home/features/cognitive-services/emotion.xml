@@ -67,16 +67,17 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,emotion.png" />
-                        <h2>Emotion Recognition API <sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">preview</sup><span>Emotion</span></h2>
-                        <h4>Analyzes the face to detect emotions and responds according to a personalized setup.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="emotion_1rmb-trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em><a href="/pricing/pia/" id="emotion_pia">Purchase immediately<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Emotion API <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">Preview</span><span></span></h2>
+                        <h4>Analyzes the face to detect emotions and personalizes the application’s response.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="emotion_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="emotion_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Cognitive-Services-TopBanner --> <!-- BEGIN: Cognitive-Services-Content -->
-            <div class="pricing-page-section">   
-                <h2>Recognize for a picture a person’s mood</h2> 
-                <p>Emotion Recognition API uses a person’s facial expression in a picture as an input and for each facial expression in the picture returns an emotional confidence score. At the same time it takes the range of a person’s face to create a tag. if the user has already used the facial recognition API, it can also take the bounding box of a person’s face and make it an input item.</p>
+            <div class="pricing-page-section">
+                <p><strong>We will retire the Preview version of the Emotion API on February 15, 2019, as the Emotion API functions have now been integrated with the Face API. Try <a href="/home/features/cognitive-services/face/">the Face API's emotion recognition function now</a>.</strong></p>
+                <h2>Recognize mood from faces in pictures</h2> 
+                <p>Emotion Recognition API uses a person’s facial expression in a picture as an input and for each facial expression in the picture returns an emotional confidence score. At the same time it takes the range of a person’s face to create a tag. If the user has already used the facial recognition API, it can also take the bounding box of a person’s face and make it an input item.</p>
 				<p>It can detect if an emotion is anger, contempt, disgust, fear, happiness, neutral, sadness, and surprise. These emotions have characteristics that are recognized as being cross-cultural and universally expressed.</p>
                 <img src="//resource.cdn.azure.cn/marketing-resource/css/images/cognitive-services-emotion-detect-emotions.png" class="cognitive-banner"/>
                           
@@ -84,36 +85,36 @@
             <div class="pricing-page-section"> 
             
 
-                <h1>Getting to know the cognitive services API</h1>
+                <h1>Learn about the Cognitive Services API</h1>
                 <ul class="cognitive-icon-group">
                     <li>
                         <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,face.png"/></div>
                         <div class="cognitive-text">
-                            <h2>Face recognition API</h2>
-                            <p>Detects relatively similar faces based on similar images grouped together, recognizing in the images previously marked persons.</p>
-                            <p><a id="emotion_face" href="/home/features/cognitive-services/face/" class="single-link">Find out more<i class="icon icon-arrow-right-thin"></i></a></p>
+                            <h2>Face API</h2>
+                            <p>Detects relatively similar faces based on similar images grouped together, recognizing previously marked persons in the images.</p>
+                            <p><a id="emotion_face" href="/home/features/cognitive-services/face/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>                    
                     <li>
                         <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,emotion.png"/></div>
                         <div class="cognitive-text">
-                            <h2>Mood recognition API</h1>
-                            <p>Analyzes the face to detect emotions and responds according to a personalized setup.</p>
-                            <p><a id="emotion_emotion" href="/home/features/cognitive-services/emotion/" class="single-link">Find out more<i class="icon icon-arrow-right-thin"></i></a></p>
+                            <h2>Mood Recognition API</h1>
+                            <p>Analyzes the face to detect emotions and personalizes the application’s response.</p>
+                            <p><a id="emotion_emotion" href="/home/features/cognitive-services/emotion/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>
                     <li>
                         <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,computer-vision.png"/></div>
                         <div class="cognitive-text">
-                           <h2>Computer vision API</h2>
+                           <h2>Computer Vision API</h2>
                         <p>Extract enrichment data from images to categorize and handle visual data, inspect images with computer assistance, providing help for curation services.</p>
-                        <p><a id="emotion_computer-vision" href="/home/features/cognitive-services/computer-vision/" class="single-link">Find out more<i class="icon icon-arrow-right-thin"></i></a></p>
+                        <p><a id="emotion_computer-vision" href="/home/features/cognitive-services/computer-vision/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>
                 </ul>
                     
             </div>
-            <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: Cognitive-Services-Content -->
+            <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: Cognitive-Services-Content -->
                           
     
     ]]></bodyText>
@@ -121,7 +122,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>Emotion API</linkid>
     <metaKeywords>Azure, Cognitive Services, Cognitive Services, Emotion Recognition</metaKeywords>
-    <metaDescription><![CDATA[Azure Cognitive Services Emotion Recognition PI uses facial expressions in a picture as an input and returns an emotional confidence score for each face in a picture. At the same time it uses the facial recognition API to take the range of a person’s face to make a tag. If the user has already used the facial recognition API, it can also take the frame of a person’s face and make it an input item. It can detect if an emotion is anger, contempt, disgust, fear, happiness, neutral, sadness, or surprise. These emotions have characteristics that are recognized as being cross-cultural and universally expressed.]]></metaDescription>
+    <metaDescription><![CDATA[Azure Cognitive Services Emotion Recognition API uses facial expressions in a picture as an input and returns an emotional confidence score for each face in a picture. At the same time it uses the facial recognition API to take the range of a person’s face to make a tag. If the user has already used the facial recognition API, it can also take the frame of a person’s face and make it an input item. It can detect if an emotion is anger, contempt, disgust, fear, happiness, neutral, sadness, or surprise. These emotions have characteristics that are recognized as being cross-cultural and universally expressed.]]></metaDescription>
     <urlDisplayName>Intelligent Services - Emotion Recognition API</urlDisplayName>
   </TextpageLeftNav>
 </localize>

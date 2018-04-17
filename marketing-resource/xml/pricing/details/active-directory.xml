@@ -68,20 +68,20 @@
                 <p>Azure Active Directory provides Self Service Password Reset for cloud applications.</p>
             </div>
             <div class="pricing-page-section">
-                <h2>Regions Where Sold</h2>
+                <h2>Region</h2>
                 <p>Azure Active Directory is available in the following regions:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territories</strong></th>
-                        <th align="left"><strong>Regions</strong></th>
+                        <th align="left"><strong>Territory</strong></th>
+                        <th align="left"><strong>Region</strong></th>
                     </tr>
                     <tr>
                         <td>Mainland China</td>
-                        <td>China East Data Center, China North Data Center</td>
+                        <td>China North, China East</td>
                     </tr>
                 </table>
                 <div class="pricing-page-section">
-                <h2>Support and Service Level Agreements</h2>
+                <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="inentity-contact-page">Azure Support</a> to select self-service or any other method to contact us for support.</p>
 				 <p>The free version of Azure Active Directory doesn’t offer a service level agreement. If you want to learn more about the details of our server level agreement, please visit the <a href="/support/legal/sla/" id="pricing_identity_sla">Service Level Agreement</a> page.</p>
                 </div>
@@ -92,7 +92,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-identity</linkid>
     <metaKeywords>Azure, Azure Active Directory, directory services, pricing</metaKeywords>
-    <metaDescription><![CDATA[Azure Active Directory currently offers a free level. The free version of Azure Active Directory covers cloud application access and self-service identity management for task workers with priority requirements for the cloud. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy an up to 99.99% service level agreement.]]></metaDescription>
+    <metaDescription><![CDATA[Azure Active Directory currently offers a free level. The free version of Azure Active Directory covers cloud application access and self-service identity management for task workers with priority requirements for the cloud. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy an up to 99.99% service level agreement.]]></metaDescription>
     <urlDisplayName>Pricing Details - Azure Active Directory</urlDisplayName>
   </TextpageLeftNav>
 </localize>
