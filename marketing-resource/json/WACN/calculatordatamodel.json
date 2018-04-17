@@ -301,7 +301,7 @@
 
 
         "virtual-machines-windows": {
-            "Name": "Virtual machines – Windows",
+            "Name": "Virtual Machines – Windows",
             "Types": [{
                 "Name": "Basic",
                 "Features": [{
@@ -632,7 +632,7 @@
             }]
         },
         "virtual-machines-linux": {
-            "Name": "Virtual machine – Linux",
+            "Name": "Virtual Machine – Linux",
             "Types": [{
                 "Name": "Basic",
                 "Features": [{
@@ -963,7 +963,7 @@
             }]
         },
         "sql-server-standard": {
-            "Name": "Virtual machine – SQL Server For Windows",
+            "Name": "Virtual Machine – SQL Server For Windows",
             "Types": [ {
                 "Name": "Web",
                 "Features": [{
@@ -1944,7 +1944,7 @@
             }]
         },
         "virtual-machines-ml-server": {
-            "Name": "Virtual machine – SQL Server Ubuntu Linux / Machine Learning Server",
+            "Name": "Virtual Machine – SQL Server Ubuntu Linux / Machine Learning Server",
             "Types": [ {
                 "Name": "Web",
                 "Features": [{
