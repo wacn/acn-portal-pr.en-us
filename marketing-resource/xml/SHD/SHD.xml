@@ -28,10 +28,17 @@
   </category>
   <category name="Networking">
     <service>
-      <name>CDN</name>
+      <name>Content Delivery Network</name>
       <slug>cdn</slug>
       <regions>
         <global>true</global>
+      </regions>
+    </service>
+    <service>
+      <name>Cloud Connection Service</name>
+      <slug>cloud-connection</slug>
+      <regions>
+        <china-north>true</china-north>
       </regions>
     </service>
     <service has-inner-services="true">
@@ -100,7 +107,7 @@
       </regions>
     </service>
     <service>
-      <name>Network Monitoring</name>
+      <name>Network Watcher</name>
       <slug>network-watcher</slug>
       <regions>
         <china-east>true</china-east>
@@ -258,7 +265,7 @@
       </regions>
     </service>
   </category>
-  <category name="Data + Analytics">
+  <category name="Analysis">
     <service>
       <name>HDInsight</name>
       <slug>hdinsight</slug>
@@ -268,7 +275,7 @@
       </regions>
     </service>
     <service>
-      <name>Power BI Workspace Integration</name>
+      <name>Power BI Workspace Collection</name>
       <slug>power-bi-embedded</slug>
       <regions>
         <china-east>true</china-east>
@@ -283,7 +290,7 @@
       </regions>
     </service>
   </category>
-  <category name="AI and Cognitive Services">
+  <category name="AI">
     <service has-inner-services="true">
       <name>Cognitive Services</name>
       <slug></slug>
@@ -325,7 +332,7 @@
       </regions>
     </service>
     <service>
-      <name>IoT Center</name>
+      <name>IoT Hub</name>
       <slug>iot-hub</slug>
       <regions>
         <china-east>true</china-east>
@@ -333,7 +340,7 @@
       </regions>
     </service>
     <service>
-      <name>IT Suite</name>
+      <name>IoT Suite</name>
       <slug>iot-suite</slug>
       <regions>
         <china-east>true</china-east>
@@ -437,6 +444,53 @@
       <regions>
         <global>true</global>
       </regions>
+    </service>
+    <service>
+      <name>Azure Monitor</name>
+      <slug>monitor</slug>
+      <regions>
+        <china-east>true</china-east>
+        <china-north>true</china-north>
+      </regions>
+      <inner-services>
+        <service>
+          <name>Metrics and alerts</name>
+          <slug>monitor\alert</slug>
+          <regions>
+            <china-east>true</china-east>
+            <china-north>true</china-north>
+          </regions>
+        </service>
+        <service>
+          <name>Activity logs and alerts</name>
+          <slug>monitor\activity-log</slug>
+          <regions>
+            <global>true</global>
+          </regions>
+        </service>
+        <service>
+          <name>Diagnostic logs</name>
+          <slug>monitor\diagnose-log</slug>
+          <regions>
+            <global>true</global>
+          </regions>
+        </service>
+        <service>
+          <name>Automatic extension</name>
+          <slug>monitor\auto-scale</slug>
+          <regions>
+            <china-east>true</china-east>
+            <china-north>true</china-north>
+          </regions>
+        </service>
+        <service>
+          <name>Operation group</name>
+          <slug>monitor\ops-group</slug>
+          <regions>
+            <global>true</global>
+          </regions>
+        </service>
+      </inner-services>
     </service>
     <service>
       <name>Azure Resource Manager</name>
