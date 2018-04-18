@@ -99,14 +99,14 @@
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
             <div class="pricing-page-section link-group-container">
-                <h1>Find out more</h1>
+                <h1>More</h1>
                 <p></p>
                 <ul>
-                    <li><a id="power-bi-embedded_articles_power-bi-embedded-get-started" href="https://docs.azure.cn/power-bi-embedded/power-bi-embedded-get-started/" >Getting Started with Power BI Workspace Integration<i class="icon icon-arrow-right-thin"></i></a></li>
-                    <li><a id="power-bi-embedded_articles_power-bi-embedded-get-started-sample" href="https://docs.azure.cn/power-bi-embedded/power-bi-embedded-get-started-sample/" >Getting Started with Power BI Workspace Integration Examples<i class="icon icon-arrow-right-thin"></i></a></li>
-					<li><a id="power-bi-embedded_articles_power-bi-embedded-what-is-power-bi-embedded" href="https://docs.azure.cn/power-bi-embedded/power-bi-embedded-what-is-power-bi-embedded/" >What is Power BI Workspace Integration?<i class="icon icon-arrow-right-thin"></i></a></li>
-					<li><a id="power-bi-embedded_articles_power-bi-embedded-faq" href="https://docs.azure.cn/power-bi-embedded/power-bi-embedded-faq/" >Power BI Workspace Integration FAQs<i class="icon icon-arrow-right-thin"></i></a></li>
-					<li><a id="power-bi-embedded_articles_power-bi-embedded-whats-new" href="https://docs.azure.cn/power-bi-embedded/power-bi-embedded-whats-new/" >New Functions Within Power BI Workspace Integration<i class="icon icon-arrow-right-thin"></i></a></li>
+                    <li><a id="power-bi-embedded_articles_power-bi-embedded-get-started" href="https://docs.azure.cn/power-bi-embedded/power-bi-embedded-get-started/" >Getting Started with Power BI Workspace Collection<i class="icon icon-arrow-right-thin"></i></a></li>
+                    <li><a id="power-bi-embedded_articles_power-bi-embedded-get-started-sample" href="https://docs.azure.cn/power-bi-embedded/power-bi-embedded-get-started-sample/" >Getting Started with Power BI Workspace Collection Examples<i class="icon icon-arrow-right-thin"></i></a></li>
+					<li><a id="power-bi-embedded_articles_power-bi-embedded-what-is-power-bi-embedded" href="https://docs.azure.cn/power-bi-embedded/power-bi-embedded-what-is-power-bi-embedded/" >What is Power BI Workspace Collection?<i class="icon icon-arrow-right-thin"></i></a></li>
+					<li><a id="power-bi-embedded_articles_power-bi-embedded-faq" href="https://docs.azure.cn/power-bi-embedded/power-bi-embedded-faq/" >Power BI Workspace Collection FAQ<i class="icon icon-arrow-right-thin"></i></a></li>
+					<li><a id="power-bi-embedded_articles_power-bi-embedded-whats-new" href="https://docs.azure.cn/power-bi-embedded/power-bi-embedded-whats-new/" >New Functions Within Power BI Workspace Collection<i class="icon icon-arrow-right-thin"></i></a></li>
                 </ul>
             </div>
             <!-- END: Read-More --> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />                                                                                
@@ -115,8 +115,8 @@
     <pageTitle>Power BI Workspace Integration_Intelligent Data Analysis Systems - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-power-bi-embedded</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Power BI Workspace integration</metaKeywords>
-    <metaDescription><![CDATA[Azure Power BI Workspace Integration makes data within your apps livelier, enabling you to create influential interactive data visualizations for app data within Power BI Desktop without writing any code.]]></metaDescription>
-    <urlDisplayName>Power BI Workspace Integration</urlDisplayName>
+    <metaKeywords>Azure, Microsoft Cloud, Power BI Workspace Collection</metaKeywords>
+    <metaDescription><![CDATA[Azure Power BI Workspace Collection makes data within your apps livelier, enabling you to create influential interactive data visualizations for app data within Power BI Desktop without writing any code.]]></metaDescription>
+    <urlDisplayName>Power BI Workspace Collection</urlDisplayName>
   </TextpageLeftNav>
 </localize>

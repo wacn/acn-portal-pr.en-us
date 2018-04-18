@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/batch@2x.png" />
-                        <h2>Batch <sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">preview</sup></h2>
+                        <h2><span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">Batch</span> <span>Preview</span></h2>
                         <h4>Run large-scale parallel batch computing jobs</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_batch_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_batch_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_batch_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_batch_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
             <div class="pricing-page-section link-group-container">
 
-                <h1>Find out more</h1>
+                <h1>More</h1>
                 <ul>
                     <li><a id="home_batch_php" href="https://docs.azure.cn/batch/batch-technical-overview/">Technical Overview</a></li>
                     <li><a id="home_batch_mac" href="https://docs.azure.cn/batch/batch-dotnet-get-started/">Getting started with the Azure Batch library for .NET</a></li>

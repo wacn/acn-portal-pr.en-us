@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <localize>
   <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2014-10-20T09:41:59" urlName="monitor" writerName="content" creatorName="content">
     <bodyText><![CDATA[
@@ -19,7 +19,7 @@
                         <div class="monitor-icon"></div>
                         <h2>Azure Monitor<span>Azure Monitor</span></h2>
                         <h4>A one-stop method of obtaining the detailed, real-time monitoring data that you need.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_monitor_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_monitor_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_monitor_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_monitor_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                     <table  cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                            <th align="left"><strong>Functions</strong></th>
+                            <th align="left"><strong>Features</strong></th>
                             <th align="left"><strong>Monthly service limit</strong></th>
                             <th align="left"><strong>Excess charges</strong></th>
                             </tr>
@@ -50,12 +50,12 @@
                             <tr>
                                 <td class="left_align">Metrics queries</td>
                                 <td class="left_align">1,000,000 standard API calls</td>
-                                <td class="left_align">RMB&#160;3.0528/1,000 standard API calls</td>
+                                <td class="left_align">RMB3.0528/1,000 standard API calls</td>
                             </tr>
                             <tr>
-                                <td class="left_align">Email address</td>                                
+                                <td class="left_align">Email</td>                                
                                 <td class="left_align">1,000</td>
-                                <td class="left_align">RMB&#160;20.3/100,000</td>
+                                <td class="left_align">RMB20.3/100,000</td>
                             </tr>
                             <!-- <tr>
                                 <td class="left_align">推送通知（面向 Azure 应用）</td>
@@ -65,7 +65,7 @@
 							<tr>
                                 <td class="left_align">Webhook</td>
 								<td class="left_align">100,000</td>
-                                <td class="left_align">RMB&#160;6.1/1,000,000</td>
+                                <td class="left_align">RMB6.1/1,000,000</td>
                             </tr>
                             <!-- <tr>
                                 <td class="left_align"><strong>短信</strong></td>
@@ -88,7 +88,7 @@
                     </ul>
                     <!-- END: Table1-Content-->
                     
-                    <h2>Example</h2>
+                    <h2>Examples</h2>
                     <p>API calls that return 2,000 data points will be calculated as 2,000/1,440 = 1.4 standard API calls.</p>
                     <p>API calls that return 200 data points will be calculated as 200/1,440 = 0.1 standard API calls.</p>
                     <p>Tracking five metrics from 100 virtual machines at a granularity level of one minute will produce 720,000 data points, i.e. (720,000/1,440)500 standard API calls per day.</p>
@@ -98,12 +98,12 @@
             <!-- END: TAB-CONTROL -->
 
             <div class="pricing-page-section">
-                <h2>Regions Where Sold</h2>
+                <h2>Marketing Regions</h2>
                 <p>Azure Monitor is available in the following regions:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
                         <th align="left"><strong>Territories</strong></th>
-                        <th align="left"><strong>Region</strong></th>
+                        <th align="left"><strong>Regions</strong></th>
                     </tr>
                     <tr>
                         <td>Mainland China</td>
@@ -114,8 +114,7 @@
             <div class="pricing-page-section">
                 <h2>Support and Service Level Agreements</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="app-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-                <p>To learn more about the details of our service level agreement, please visit the <a href="/support/legal/sla/" id="pricing_app_sla">Service Level Agreements</a> page.</p>
-				 <!-- <p>使用 Azure 监控器，您可以收集详尽的性能和使用情况数据、活动和诊断日志，并以一致的方式定义 Azure 资源的警报和通知。我们保证，在不少于 99.9% 的时间内，通知会成功送达。若要了解有关我们的服务器级别协议的详细信息，请访问<a href="/support/sla/monitor/" id="pricing_app_sla">服务级别协议</a>页。</p> -->
+				<p>Using Azure Monitor, you can gather detailed performance and usage data, as well as activity and diagnostic logs, and define alerts and notifications for Azure resources in a consistent manner. We guarantee that notifications will be delivered successfully at least 99.9% of the time. To learn more about the details of our Service Level Agreement, visit the <a href="/support/sla/monitor/" id="pricing_app_sla">Service Level Agreement</a> page.</p>
             </div>  
             <!--BEGIN: Support and service code chunk--> <!-- <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  --> <!--END: Support and service code chunk-->                                                                             
     
@@ -124,7 +123,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-monitor</linkid>
     <metaKeywords>Azure Monitor pricing, Azure Monitor quotes</metaKeywords>
-    <metaDescription><![CDATA[Find out about pricing details for Azure Monitor. A 1RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer.]]></metaDescription>
+    <metaDescription><![CDATA[Find out about pricing details for Azure Monitor. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
     <urlDisplayName>Pricing details - Azure Monitor</urlDisplayName>
   </TextpageLeftNav>
 </localize>

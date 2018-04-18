@@ -10,13 +10,13 @@
                         <img src="//wacndevelop.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services.png" />
                         <h2><span>Cognitive Services APIs</span></h2>
                         <h4>Infuse your apps, websites, and bots with intelligent algorithms to see, hear, speak, understand, and interpret user needs using natural methods of communication. Transform your business with AI now.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_cognitive-services_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cognitive-services_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_cognitive-services_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cognitive-services_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Pricing calculator -->
             <div class="pricing-page-section">                      
-                <div id="calculator" data-service="cognitive-services-face cognitive-services-emotion cognitive-services-computer-vision support">
+                <div id="calculator" data-service="cognitive-services-face cognitive-services-computer-vision support">
                 </div>
 
                 <!-- BEGIN: Pricing calculator Sidebar-->                      
@@ -32,14 +32,14 @@
                         <div class="total">
                             Total price
                             <p>
-                                <span class="num">RMB&#160;0.00</span> <span class="unit">/month</span>
+                                <span class="num">RMB0.00</span> <span class="unit">/month</span>
                             </p>
                         </div>
                         <div class="btn-group">
                             <a class="calcul-btn buy" href="/pricing/pia/" id="sidebarWinCalculBuy">Go to purchase</a> <a class="calcul-btn-white export" href="#" id="sidebarWinCalculExport">Export list</a> <a class="calcul-btn-white reset" href="#" id="sidebarWinCalculReset">Reset</a>
                         </div>
                         <p class="summary-text">
-                            Still hesitating? <a href="/pricing/1rmb-trial/" id="sidebarWinCalculTry">Try</a> these functions first.
+                            Still not convinced? <a href="/pricing/1rmb-trial/" id="sidebarWinCalculTry">Try</a> these features first.
                         </p>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                         <a href="#" class="close" id="closeCalculatorModal"></a>
                         <p>We will add service items selected on different pages to the combined calculation in the right-hand list. You can manually delete or clear items.</p>
                         <span class="checkbox-rect"></span>Don’t prompt again <a class="btn btn-continue" href="#">I’ve got it</a>
-                        </div>
+                    </div>
                 </div>
                 <!-- end calculator modal --> <!-- start calculator shopinglist template -->
                 <script type="text/template" id="templPricingShopingList">
@@ -97,14 +97,14 @@
                 <div class="azsidebar"></div>  
                 <!-- END: Pricing calculator Sidebar-->                  
             </div>
-            <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
+            <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
     
     ]]></bodyText>
-    <pageTitle>Pricing Calculator - Cognitive-Services | Azure</pageTitle>
+    <pageTitle>Cognitive Services - Emotion API, Face API, Computer Vision API | Price estimation - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>cognitive-services</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Internet of Things, Azure Cognitive Services, Azure Stream Cognitive Services APIs, processing engine, rapid development, price estimation</metaKeywords>
-    <metaDescription><![CDATA[Estimate the usage costs for Cognitive Services. You can take your pick of different cognitive services and estimate the required costs. A RMB 1 trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
+    <metaKeywords>Cognitive Services price estimation, Emotion API price estimation, Face API price estimation</metaKeywords>
+    <metaDescription><![CDATA[The Cognitive Services estimate page can be used to make reasonable calculations of the cost of use based on the selected plan. You can choose any service you need, as well as its different types, tiers, configurations, and instances, easily view the unit price and total price, and estimate the required costs. You can also export lists, making it easy to get quotes.]]></metaDescription>
     <urlDisplayName>Pricing Calculator - Cognitive Services</urlDisplayName>
   </TextpageLeftNav>
 </localize>

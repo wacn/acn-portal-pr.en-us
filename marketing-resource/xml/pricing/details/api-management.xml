@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/api_management@2x.png" />
-                        <h2><sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag"></sup><span>API Management Preview</span></h2>
+                        <h2><span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">API Management</span> <span>Preview</span></h2>
                         <h4>Publish, manage, secure, and analyze your APIs in minutes</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_api_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_api_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_api_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_api_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -22,17 +22,12 @@
             <div class="pricing-page-section">
                 <!-- BEGIN: Table1-Content-->
                 <h2>Pricing Details</h2>
-                <p>API Management is offered in three tiers: developer, standard and premium.</p>
+                <p>API Management is offered in four tiers: Developer, Basic, Standard, and Premium.</p>
                 <div class="tags-date">
                     <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                    <div class="ms-date">*Monthly price estimates are based on 31 days of usage per month.</div><br />
-                    <div class="ms-date">*The new prices and basic pricing tier in the price list below will officially come into effect on March 1, 2018. </div>
+                    <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
+                    <!-- <div class="ms-date">*以下价格表中的新价格及基本定价层将于 2018 年 3 月 1 日正式生效。 </div> -->
                 </div>
-                <!-- <div class="tags-date">
-                    <div class="ms-date">*以下价格均为含税价格。</div><br />
-                    <div class="ms-date">*每月价格估算基于每个月 744 小时的使用量。</div><br />
-                    <div class="ms-date">*以下价格表中的新价格及基本定价层将于 2018 年 3 月 1 日正式生效。 </div>
-                </div> -->
                 <table cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                         <th align="left"><strong></strong></th>
@@ -49,20 +44,19 @@
                         <td>High volume or Enterprise production use cases</td>
                     </tr>
                     <tr>
-                        <td>Current price</td>
-                        <td>RMB 5.24/day/unit </br>(about RMB 162.44/month)</td>
-                        <td>-</td>
-                        <td>RMB 74.19/day/unit </br>(about RMB 2,299.89/month)</td>
-                        <td>RMB 302.02/day/unit </br>(about RMB 9,362.62/month)</td>
-                    </tr>
-                    <tr>
-                        <td>New prices</td>
-                        <td>RMB 0.2511/hour </br>(about RMB 186.8184/month)</td>
-                        <td>RMB 0.7693/hour </br>(about RMB 572.3592/month)</td>
-                        <td>RMB 3.5897/hour </br>(about RMB 2,670.7368/month)</td>
-                        <td>RMB 14.6115/hour </br>(about RMB 10,870.9560/month)</td>
+                        <td>Pricing</td>
+                        <td>RMB0.2511/hour </br>(about RMB186.8184/month)</td>
+                        <td>RMB0.7693/hour </br>(about RMB572.3592/month)</td>
+                        <td>RMB3.5897/hour </br>(about RMB2,670.7368/month)</td>
+                        <td>RMB14.6115/hour </br>(about RMB10,870.9560/month)</td>
                     </tr>
                     <!-- <tr>
+                        <td>原价格</td>
+                        <td>￥ 5.24/ 天 / 单位 </br>（约￥ 162.44 /月）</td>
+                        <td>--</td>
+                        <td>￥ 74.19/ 天 / 单位 </br>（约￥ 2,299.89 /月）</td>
+                        <td>￥ 302.02/ 天 / 单位 </br>（约￥ 9,362.62 /月）</td>
+                    </tr> --> <!-- <tr>
                         <td>API 调用（每个单位）</td>
                         <td>32 K/天( ~1 M/月 )</td>
                         <td>7 M/天( ~217 M/月 )</td>
@@ -135,15 +129,15 @@
 
             <div class="pricing-page-section">
                 <div class="more-detail">
-                    <h2>FAQs</h2>
+                    <h2>FAQ</h2>
                     <em>Expand all</em>
                     <ul>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="api-management_faq-01">What is the purpose of the developer tier?</a>
+                                <a id="api-management_faq-01">What is the purpose of the Developer tier?</a>
                                 <section>
-                                    <p>The developer tier is suitable for API Management trial, development, and functional testing. Customers should not use this tier for production.</p>
+                                    <p>The Developer tier is suitable for API Management trial, development, and functional testing. Customers should not use this tier for production.</p>
                                 </section>
 
                             </div>
@@ -172,25 +166,25 @@
                 </div>
             </div>
             <div class="pricing-page-section">
-                <h2>Regions Where Sold</h2>
+                <h2>Region</h2>
                 <p>API Management is available in the following regions:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territories</strong></th>
-                        <th align="left"><strong>Regions</strong></th>
+                        <th align="left"><strong>Territory</strong></th>
+                        <th align="left"><strong>Region</strong></th>
                     </tr>
                     <tr>
                         <td>Mainland China</td>
-                        <td>China East Data Center, China North Data Center</td>
+                        <td>China North, China East</td>
                     </tr>
                 </table>
             </div>    
             <div class="pricing-page-section">
-                <h2>Support and Service Level Agreements</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="cognitive-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
+                <h2>Support &amp; SLA</h2>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="cognitive-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
                  <p>The API Management feature doesn’t offer a service level agreement during the preview period. If you want to learn more about the details of our server level agreement, please visit the <a href="/support/legal/sla/" id="pricing_api-management_sla">Service Level Agreement</a> page.</p>
             </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                            
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                            
     
     ]]></bodyText>
     <pageTitle>API Management Pricing - Azure Cloud Computing</pageTitle>

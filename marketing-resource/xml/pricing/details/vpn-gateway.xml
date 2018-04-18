@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/vpn-gateway@2x.png" />
                         <h2><span>VPN Gateway</span></h2>
                         <h4>Can link your infrastructure to the cloud, creating secure cross-boundary linkages.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_vpn_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vpn_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_vpn_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vpn_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@
           
             <div class="pricing-page-section">
                 <div class="more-detail">
-                    <h2>FAQs</h2>
+                    <h2>FAQ</h2>
                     <em>Expand all</em>
                     <ul>
                         <li>
@@ -184,21 +184,21 @@
                 </div>
             </div>
             <div class="pricing-page-section">
-                <h2>Marketing Regions</h2>
+                <h2>Region</h2>
                 <p>The VPN Gateway is available in the following regions:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territories</strong></th>
-                        <th align="left"><strong>Regions</strong></th>
+                        <th align="left"><strong>Territory</strong></th>
+                        <th align="left"><strong>Region</strong></th>
                     </tr>
                     <tr>
                         <td>Mainland China</td>
-                        <td>China East Data Center, China North Data Center</td>
+                        <td>China North, China East</td>
                     </tr>
                 </table>
                 
                  <div class="pricing-page-section">
-                <h2>Support and Service Level Agreements</h2>
+                <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="vpn-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				 <p>We guarantee at least 99.9% availability of the basic gateway of each VPN or ExpressRoute, 99.95% availability of the standard gateway of each VPN or ExpressRoute, and 99.95% availability of the high-performance gateway of each VPN or ExpressRoute. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/vpn-gateway/" id="vpn_authentication_sla">Service Level Agreements</a> page.</p>
                 </div>
@@ -209,7 +209,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-vpn-gateway</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Network, Virtual Network, Azure VPN Gateway, Virtual Private Network, Site-to-Site, VPN, IP Address, DNS, Ipsec and ExpressRoute</metaKeywords>
-    <metaDescription><![CDATA[About pricing details for the Azure VPN Gateway. The VPN Gateway can connect the basic structure to the Cloud. It’s free for setting up virtual networks. The VPN Gateway can provide different pricing for the Basic, Standard, and Premium VPN Gateway or ExpressRoute Gateway. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[About pricing details for the Azure VPN Gateway. The VPN Gateway can connect the basic structure to the cloud. It’s free for setting up virtual networks. The VPN Gateway can provide different pricing for the Basic, Standard, and Premium VPN Gateway or ExpressRoute Gateway. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - VPN Gateway</urlDisplayName>
   </TextpageLeftNav>
 </localize>

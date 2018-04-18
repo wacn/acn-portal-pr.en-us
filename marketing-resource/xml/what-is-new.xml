@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <localize>
   <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2014-11-11T02:00:53" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
@@ -6,6 +6,35 @@
          <div class="section-component">
             <div class="more-detail">
             	 <h1>Important Notice</h1>
+            	 <h3>March 2018</h3>
+                <ul>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-march_azure-site-recovery"><span>March 20 </span>Before March 31, 2018, please update Azure Site Recovery, which uses Access Control authentication<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Site Recovery helps to coordinate replication and protects running workloads. Access Control authentication services used by older versions of the Site Recovery Provider (also known as DRA) and Recovery Service (also known as MARS) agents are about to be retired. To avoid interruptions, please update these older versions before March 31, 2018.</p>
+								<p>Earlier versions of DRA agents (before 5.1.2700) and MARS agents (before 2.0.9096) rely on access control service capabilities for authentication, but this service plan will be completely retired in April 2018. Newer versions of DRA agents (5.1.2700 or later) and MARS agents (2.0.9096 or later) use the latest Azure Active Directory authentication mechanism, which includes role-based control and finer access capabilities. Users who are still using DRA versions before 5.1.2700 and/or MARS agents before 2.0.9096 and replicating servers to one or more recovery service vaults are requested to update your old version to continue using the Site Recovery service and its upcoming features. If you have already performed these updates, no additional action is required. The new version relies on Azure Active Directory instead of access control.</p>
+								<p>We recommend that you update DRA instances to version 5.1.2700 or later and MARS agents to version 2.0.9096 or later before March 31, 2018. Please complete all updates by this date to prevent the failure of replication and failover configurations in Azure Site Recovery.</p>
+								<p>You can perform updates on the Azure portal:</p>
+								<ol>
+									<li>Sign in to the <a href="//portal.azure.cn/">Azure portal</a>.</li>
+									<li>Open the Recovery Services Vault menu item.</li>
+									<li>Select the banner that prompts this update to see the remaining steps.</li>
+									<li>Follow these steps to update the Site Recovery Provider and MARS agent to the latest version on the server.</li>
+									<li>To complete this process and update the authentication service, please select Update Authentication Service on the Registered Servers page in the portal.</li>
+								</ol>
+								<p>For more information, please read these <a href="//social.technet.microsoft.com/wiki/contents/articles/50899.upgrade-from-azure-access-control-services-to-azure-active-directory-for-azure-site-recovery.aspx?WT.mc_id=azurebg_email_Trans_33786_1598_CXP_Site_Recovery_upgrade_ACS_deprecation_NoAcct/">detailed steps</a>.</p>
+								<p>If you have any questions, you can get support via the following options:</p>
+								<ul>
+									<li>Click on the Azure portal’s <a href="//portal.azure.cn/?l=en.en-us#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview/">Help and Support</a> page for technical support.</li>
+									<li><a href="//support.azure.cn/support/support-azure/">Create a work order</a> online.</li>
+									<li>Call the 21Vianet technical support hotline: 400-089-0365.</li>
+								</ul>
+							</section>
+						</div>
+					</li>
+                </ul>
                <h3>January 2018</h3>
                 <ul>
                 	<li>
@@ -75,12 +104,90 @@
                 </ul> -->
                 <h1>Product Update</h1>
                 <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a>
+                <h3>April 2018</h3>
+                <ul>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-april_monitor"><span>April 4</span> Official release of Azure Monitor<i class="icon icon-update"></i></a>
+							<section>
+								<p>We are very happy to announce that Azure Monitor has now been officially released in China.</p>
+								<p>With Azure Monitor, you can use the monitoring metrics and logs within the portal to learn about the status and performance of your resources through the API in near real time. You can use Azure Monitor to configure alert rules to get notifications or automate issues that affect your resources. In addition to enabling multiple product integrations through APIs and data export options, it also enables analysis, troubleshooting, and a unified dashboard experience within the portal. With Azure Monitor, you can:</p>
+								<ul>
+									<li>View and manage all of your monitoring data easily</li>
+									<li>Set up alerts and take automated actions</li>
+									<li>Diagnose operational issues quickly</li>
+									<li>Integrate with your existing tools</li>
+								</ul>
+								<p>For details on pricing, please visit the <a href="/pricing/details/monitor/" id="service-fabric_year_2018-mar-">Azure Monitor Pricing Details</a> page. For more information about this service and how to deploy it, please visit the <a href="/home/features/monitor/" id="service-fabric_year_2018-mar-">Azure Monitor Features</a> page and the <a href="//docs.azure.cn/zh-cn/monitoring-and-diagnostics/monitoring-overview-azure-monitor/" id="service-fabric_year_2018-mar-monitoring-overview-azure-monitor">Azure Monitor Documentation</a> page. For more information on this release, please refer to the blog <a href="/blog/2018/04/04/azure-monitor-now-available-in-china/" id="service-fabric_year_2018-april-azure-monitor-now-available-in-china">Azure Monitor Officially Released in China</a>.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-April_azure-stack"><span>April 3</span> Commercial launch of Azure Stack<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Stack is an extension of Microsoft Smart Cloud Azure for local data centers. It brings the flexibility and fast-paced technical innovation of Azure Cloud Computing to a customer's on-premises environment, advancing the digital transformation of corporate business while meeting the diverse needs of hybrid cloud deployment. In China, Azure Stack will help customers build hybrid cloud solutions based on Microsoft Azure operated by 21Vianet. Chinese users can now purchase and deploy hardware integration systems equipped with Azure Stack hybrid cloud solutions through integrated system partners Lenovo, Huawei, and Dell EMC. For more information, please visit the <a href="/overview/azure-stack/" id="service-fabric_year_2018-April_azure-stack-overview">Azure Stack</a> page and the <a href="//docs.azure.cn/zh-cn/azure-stack/" id="service-fabric_year_2018-April_azure-stack-docunment">Azure Stack Technical Documentation</a> page.</p>
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-april_ccs"><span>April 2</span> Official release of Cloud Connection Service preview version <i class="icon icon-update"></i></a>
+							<section>
+								<p>Customers can use the physical line and network support provided by Cloud Connection Service to easily connect to local data centers and Azure data centers, and deploy flexible, reliable, and secure hybrid cloud scenarios to meet different business needs, including business continuity, disaster recovery, and key business support. For more information about this service and its pricing, please visit the <a href="/home/features/ccs/" id="service-fabric_year_2018-March_feature-ccs">Cloud Connection Service Features</a> page and the <a href="/pricing/details/ccs/" id="service-fabric_year_2018-March_pricing-ccs">Cloud Connection Service Pricing Details</a> page. For more details, please refer to the <a href="//docs.azure.cn/zh-cn/articles/cloud-connection-service/cloud-connection-service-quick-start/">Cloud Connection Service Introduction</a> documentation page.</p>
+							</section>
+						</div>
+					</li>
+                </ul>
                 <h3>March 2018</h3>
                 <ul>
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-March_cognitive"><span>3/1</span>Face Recognition API Price Reduction Notice for Azure Cognitive Services<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-March_service-health"><span>March 28</span> Official release of Azure Service Health</a>
+							<section>
+								<p>We are very happy to announce that Azure Service Health (ASH) has been officially released in China. This is a personalized dashboard that provides guidance and support when issues are encountered during Azure services. In contrast to service dashboards that provide basic status information, ASH can provide tailored information for your resources. It can also help you to make planned maintenance preparations and other changes to prevent the availability of your resources from being affected. In the personalized ASH dashboard, you can see:</p>
+									<ul style="list-style:none;">
+										<li>Service issues - existing issues affecting resources in Azure services.</li>
+										<li>Maintenance plans - Maintenance activities that will affect resources in Azure soon.</li>
+										<li>Health advisories - Reports and operational recommendations for downtime, stopping Azure functions, and excess quota.</li>
+										<li>Health history - Various historical issues that have affected the operation of resources. This includes post mortems after the issues are resolved.</li>
+										<li>Health alerts - Proactive notifications on service health.</li>
+									</ul>
+									<p>For more information, please see the <a href="/features/service-health/">Azure Service Health</a> page and the <a href="//docs.azure.cn/zh-cn/service-health/">Technical Documentation</a> page.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-March_cognitive-emotion-to-face"><span>March 23</span> The Azure Emotion API is being incorporated into the Azure Face API and will be retired on February 15, 2019</a>
+							<section>
+								<p>For users participating in the Azure Cognitive Services Emotion API preview program, the Azure Emotion API has now been incorporated into the Azure Face API. The Face API has been officially released and has integrated the emotion detection function in the Emotion API (preview version). The Face API can compare faces in pictures, identify previously tagged people, and group photos of the same person. As of February 15, 2019, the Emotion API (preview version) will be retired.</p>
+								<p><strong>Recommended Action</strong></p>
+								<p>You need to modify any existing code that references the Emotion API. The Face API and Emotion API use a similar REST interface. To access the emotion recognition function in the Face API, please use the <a href="//westus.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236" id="service-fabric_year_2018-March_face-check">face-detect</a> action and set the Face API's "returnFaceAttributes" parameter to "returnFaceAttributes=emotion." For more details, please refer to the <a href="//docs.azure.cn/zh-cn/cognitive-services/emotion/home/">Emotion API documentation</a>.</p>
+								<p>According to your service tier, please migrate to the Face API before the date listed below:</p>
+								<ul>
+									<li> If you use the Free, Basic, or Standard version of the Emotion API (preview version) through your existing (previously created) Azure key, please migrate to the Face API before February 15, 2019.</li>
+									<li>If you are about to use a brand new key, please use the <a href="/home/features/cognitive-services/face/" id="service-fabric_year_2018-March-23_face-api">Face API</a>.</li>
+								</ul>
+								<p>Click <a href="//docs.azure.cn/zh-cn/cognitive-services/face/overview/" id="service-fabric_year_2018-March_face-api-more">here</a> to learn more about the various features of the Face API, or start a <a href="/pricing/1rmb-trial-full/?form-type=identityauth" id="service-fabric_year_2018-March_full-1rmb">free trial</a> now. </p>
+								<p>If you have any questions, you can get technical support via the following options:</p>
+								<ul>
+									<li>You can open the Azure portal’s <a href="//portal.azure.cn/?l=zh-hans.zh-cn#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview/" id="service-fabric_year_2018-March_support">Help and Support</a> page for technical support.</li>
+									<li>Create a work order online: <a href="//support.azure.cn/support/support-azure/" id="service-fabric_year_2018-March_online-support-azure">https://support.azure.cn/support/support-azure/</a>.</li>
+									<li>Call the 21Vianet technical support hotline: 400-089-0365.</li>
+								</ul>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-March_cognitive"><span>March 1</span> Azure Cognitive Services Face API Price Reduction Notice</a>
 							<section>
 								<p>Starting March 1, 2018, the Azure Cognitive Services Face Recognition API enjoys a price reduction. The reduction is as much as 50%. It integrates several improvements, including millions of identifications, to better help clients to realize their vision. For more information about this service and its pricing, please visit the <a href="/home/features/cognitive-services/" id="service-fabric_year_2018-March_feature-cognitive-services">Cognitive Services Features</a> page and the <a href="/pricing/details/cognitive-services/" id="service-fabric_year_2018-March_pricing-cognitive-services">Cognitive Services Detailed Pricing</a> page.</p>
 							</section>
@@ -89,7 +196,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-March_apim"><span>3/1</span>Azure API Management Public Preview Version Officially Released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-March_apim"><span>March 1</span> Official release of Azure API Management Public Preview Version</a>
 							<section>
 								<p>We released the public preview version of Azure API Management on March 1, 2018. Azure API Management is a suite of full life-cycle solutions released to both external and internal clients. Clients will use API Management to rapidly create a consistent, modern API gateway for existing back-end services hosted in any location, helping clients prevent abuse and overuse, as well as gain an in-depth understanding of usage and operations.</p>
 								<p>The major application scenarios of Azure API Management include:</p>
@@ -114,7 +221,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-feb_vm"><span>2/1</span>New Azure SQL Server Mirror Officially Released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-feb_vm"><span>February 1</span> Official release of new Azure SQL Server mirroring</a>
 							<section>
 								<p>SQL Server 2017 is the first release of SQL Server available on Linux (excluding Windows). You can now run SQL Server on the Azure Virtual Machine of available releases of Ubuntu Linux in your region. This mirroring applies to stand-alone instances, including all versions available to SQL Server: Developer Edition, Express Edition, Web Edition, Standard Edition and Enterprise Edition.</p>
 								<p>Please refer to <a href="//docs.microsoft.com/zh-cn/azure/virtual-machines/linux/sql/provision-sql-server-linux-virtual-machine" id="service-fabric_year_2018-feb_provision-sql-server-linux-virtual-machine">Linux-based SQL Server VM</a> or <a href="//docs.azure.cn/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision/" id="service-fabric_year_2018-feb_virtual-machines-windows-portal-sql-server-provision">Windows-based SQL Server VM</a> to get started quickly. Please implement the following operations to configure an SQL Server applicable to your scenario:</p>
@@ -170,16 +277,16 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-jan_network-watcher"><span>1/31</span>Azure Network Monitoring Program Officially Released</a>
+							<a href="#" id="service-fabric_year_2018-jan_network-watcher"><span>1/31</span>Azure Network Watcher Officially Released</a>
 							<section>
 								<p>Monitoring and diagnosis of your cloud Azure network can be simplified by the application of Azure network monitoring programs (Network Watcher). By using the diagnostics and visualization tools in the Network Watcher, you can:</p>
 								<ul>
 									<li>Capture remote data packets in the virtual machines;</li>
 									<li>Use a traffic log to learn about network traffic;</li>
-									<li>Carry out diagnosis on the Azure VPN gateway and connection.</li>
+									<li>Carry out diagnosis on the Azure VPN Gateway and connection.</li>
 								</ul>
 								<p>This service is comprised of data packet capture, connection troubleshooting, next hop address, IP stream verification, security group view and network security group (NSG) traffic log.</p>
-								<p>For details on pricing, please visit the <a href="/pricing/details/network-watcher/">Detailed Pricing of the Network Monitoring Program</a> web page. For more information on this service and how this service is deployed, please visit the <a href="/home/features/network-watcher/">Network Monitoring Program’s Service Functions</a> and <a href="//docs.azure.cn/network-watcher/">Network Monitoring Program Documents</a> web pages.</p>
+								<p>For details on pricing, please visit the <a href="/pricing/details/network-watcher/">Detailed Pricing of Network Watcher</a> web page. For more information on this service and how this service is deployed, please visit the <a href="/home/features/network-watcher/">Network Watcher Service Functions</a> and <a href="//docs.azure.cn/network-watcher/">Network Watcher Documents</a> web pages.</p>
 							</section>
 						</div>
 					</li>
@@ -228,7 +335,7 @@
 						<div>
 							<a href="#" id="service-fabric_year_2017-dec_mysql"><span>12/31</span>End of MP1 and MP2 Example Sales Promotion for the MySQL Database on Azure Service</a>
 							<section>
-								<p>The 50% off MP1 and MP2 example promotion from MySQL Database on Azure service will come to an end immediately. Starting on January 1, 2018, the price of MP1 will go back to RMB&#160;7.64/hour (RMB&#160;5684.16/month), while the price of MP2 will return to RMB&#160;12.02/hour (RMB&#160;8942.88/month). For detailed information on pricing, please visit the <a href="/pricing/details/mysql/" id="what-is-new-12-31_mysql-pricing">Detailed Pricing of MySQL Database on Azure</a> web page.</p>
+								<p>The 50% off MP1 and MP2 example promotion from MySQL Database on Azure service will come to an end immediately. Starting on January 1, 2018, the price of MP1 will go back to RMB7.64/hour (RMB5684.16/month), while the price of MP2 will return to RMB12.02/hour (RMB8942.88/month). For detailed information on pricing, please visit the <a href="/pricing/details/mysql/" id="what-is-new-12-31_mysql-pricing">Detailed Pricing of MySQL Database on Azure</a> web page.</p>
 							</section>
 						</div>
 					</li>
@@ -258,13 +365,13 @@
 						<div>
 							<a href="#" id="service-fabric_year_2017-dec_MySQL"><span>12/01</span>The MySQL Database on Azure Services example sales promotion of MP1 and MP2 will come to an end soon. The non-public preview plan for Azure Database for MySQL and PostgreSQL is going forward in an orderly manner</a>
 							<section>
-								<p>The 50% off example promotion of MP1 and MP2 from MySQL Database on Azure service will come to an end on December 31, 2017. Starting January 1, 2018, the price of MP1 will go back to RMB&#160;7.64/hour (RMB&#160;5684.16/month), while the price of MP2 will return to RMB&#160;12.02/hour (RMB&#160;8942.88/month). For detailed information on pricing, please visit the <a href="/pricing/details/mysql/" id="what-is-new-12-01_mysql-pricing">Detailed Prices on MySQL Database on Azure</a> web page.</p>
+								<p>The 50% off example promotion of MP1 and MP2 from MySQL Database on Azure service will come to an end on December 31, 2017. Starting January 1, 2018, the price of MP1 will go back to RMB7.64/hour (RMB5684.16/month), while the price of MP2 will return to RMB12.02/hour (RMB8942.88/month). For detailed information on pricing, please visit the <a href="/pricing/details/mysql/" id="what-is-new-12-01_mysql-pricing">Detailed Prices on MySQL Database on Azure</a> web page.</p>
 								<p>In addition, the Azure Database for MySQL and PostgreSQL service which is on global public preview will soon embark into China. The new-generation Azure open-source relationship database service possesses the following new features:</p>
 								<ul>
 									<li>High availability service guarantee for 99.99% single examples (SLA)</li>
 									<li>Obtain corresponding IOPS performance scalability by changing the size of memory</li>
-									<li>It adopts the same architecture and service model as Azure services operated abroad by Microsoft. Although it cannot be directly connected with Microsoft’s foreign Azure data center, it is more beneficial for the client’s execution of the seamless transition of 21VIANET’s Azure and Microsoft’s foreign Azure</li>
-									<li>PostgreSQL database service support</li>
+									<li>It adopts the same architecture and service model as Azure services operated abroad by Microsoft. Although it cannot be directly connected with Microsoft’s foreign Azure data center, it is more beneficial for the client’s execution of the seamless transition of 21VIANET’s Azure and Microsoft’s foreign Azure.</li>
+									<li>PostgreSQL Database service support</li>
 								</ul>
 								<p>We sincerely invite MP1 and MP2 users to participate in the free non-public preview. The service team can create free examples in the non-public preview of Azure Database for MySQL for the existing MP users’ database examples. They can be configured as general read-write main base or readable backup subordinate base examples for existing MP examples. During the non-public preview, the use of transited or newly created examples in services will be free. For specific details, please contact your sales representative and product manager from the product services team.</p>
 								
@@ -286,7 +393,7 @@
 									<li>Supports messages up to 1 MB</li>
 									<li>Guarantees that the capacity meets peak demand</li>
 									<li>Messages are kept 7 days without any extra charges</li>
-									<li>Single stream can support real-time pipeline and batch-based pipeline by using the Event Hubs capture function</li>
+									<li>Single stream can support real-time pipeline and batch-based pipeline by using the Event Hubs capture function.</li>
 								</ul>
 								<p>These enhanced functions bring more value to price per capacity unit and enable you to pay for more flexible capacity use. For detailed information on pricing, please visit the <a href="/pricing/details/event-hubs/" id="what-is-new-11-30_event-hubs">Detailed Pricing of Event Hubs</a> web page.</p>
 								<p>If you have any questions, please click <a href="/support/support-azure/" id="what-is-new-11-30_support">here</a> to create online work orders, or call the 21VIANET technical support hotline at 400-089-0365 to receive Azure support.</p>
@@ -341,7 +448,7 @@
 						<div>
 							<a href="#" id="service-fabric_year_2017-October_apim"><span>10/31</span>Cognitive Services: Computer Visual API and Face Recognition Officially Released</a>
 							<section>
-								<p>Computer Visual API &amp; Face Recognition API have been officially launched in Azure Portal. Cognitive Services is a set of APIs that have been developed over several decades to allow developers to build intelligent applications by mining high-quality visual, speech, language, and search technologies. For more information about this product, please visit the <a href="/home/features/cognitive-services/face/">Face Recognition API</a> and <a href="/home/features/cognitive-services/computer-vision/">Computer Vision API</a> web pages. For detailed information on pricing, please visit the <a href="/pricing/details/cognitive-services/">Cognitive Services Pricing</a> web page. For more documentation information, please visit the <a href="https://docs.azure.cn/zh-cn/cognitive-services/face/">Face API Documentation</a> and <a href="https://docs.azure.cn/zh-cn/cognitive-services/computer-vision/">Computer Vision Documentation</a> web pages.</p>
+								<p>Computer Visual API &amp; Face API have been officially launched in Azure portal. Cognitive Services is a set of APIs that have been developed over several decades to allow developers to build intelligent applications by mining high-quality visual, speech, language, and search technologies. For more information about this product, please visit the <a href="/home/features/cognitive-services/face/">Face API</a> and <a href="/home/features/cognitive-services/computer-vision/">Computer Vision API</a> web pages. For detailed information on pricing, please visit the <a href="/pricing/details/cognitive-services/">Cognitive Services Pricing</a> web page. For more documentation information, please visit the <a href="https://docs.azure.cn/zh-cn/cognitive-services/face/">Face API Documentation</a> and <a href="https://docs.azure.cn/zh-cn/cognitive-services/computer-vision/">Computer Vision Documentation</a> web pages.</p>
 								
 							</section>
 						</div>
@@ -510,8 +617,8 @@
 								<p>Azure Event Center is a data stream intake service that features real time, high scalability and full management. It can take in millions of events per second and generate a data stream with multiple applications. This enables you to process and analyze mass data generated by connected appliances and applications.</p>
 								<p>The Capture feature of Event Hubs (namely, the Event Hubs documentation in the earlier public preview version) has been formally released. This feature allows you to directly access data of the Event Hubs based on the time and size you define, and send these data to your destination, thereby specifically addressing your demand for long-term data saving and processing of downstream small batch data:</p>
 								<ul>
-									<li>Enable simple settings.</li>
-									<li>Reduce the overall ownership cost.</li>
+									<li>Enable simple settings;</li>
+									<li>Reduce the overall ownership cost;</li>
 									<li>Realize seamless integration with Azure Storage (which will soon add more data storage).</li>
 									<li>Realize quasi real-time batch analysis.</li>
 								</ul>
@@ -537,9 +644,9 @@
 							<section>
 								<p>When using Azure Traffic Manager, you can employ the Rapid Failover service to realize more features and optimize and customize failover behaviors. The Rapid Failover feature has now been formally released. You can choose to redirect users even faster to keep yourself away from abnormal terminals. Specifically now you can:</p>
 								<ol>
-									<li>Define a 10s interval for the flow manager to check the working status of the terminal (the interval is shorter than the present 30s).</li>
-									<li>Configure the continuous failure counter (which falls between 1 and 10) before the terminal is marked as abnormal.</li>
-									<li>Configure the timeout interval for every detection attempt (if the detection interval is 10s, the timeout interval will fall between 5s and 9s, and if the detection interval is 30s, the timeout interval will fall between 5s to 10s).</li>
+									<li>Define a 10s interval for the flow manager to check the working status of the terminal (the interval is shorter than the present 30s);</li>
+									<li>Configure the continuous failure counter (which falls between 1 and 10) before the terminal is marked as abnormal;</li>
+									<li>Configure the timeout interval for every detection attempt (if the detection interval is 10s, the timeout interval will fall between 5s and 9s, and if the detection interval is 30s, the timeout interval will fall between 5s to 10s);</li>
 									<li>Set the time-to-live (TTL) response.</li>
 								</ol>
 								<p>When the aforementioned configurable settings are used together, Traffic Manager can divert traffic from a degraded terminal at a faster speed than the standard settings by 90%. You can use Azure portal, PowerShell, CLI, REST API or SDK to set the Rapid Failover.</p>
@@ -559,9 +666,424 @@
 					</li>					
 				</ul>
 		  
+          
+				<!-- <h3>2016年12月</h3>
+				<ul> -->
 				
+				<!-- <li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_dec_stream-analytics"><span>12/22</span>关于自 2017 年 2 月 1 日起 Azure 流分析即将使用全新定价模型的通知</a>
+						<section>
+							<p>
+							   自 2017 年 2 月 1 日起，Azure 流分析即将使用全新的定价模型，引入更为丰富的功能，包括地理空间信息功能、用 JavaScript 创建自定义代码功能、Visual Studio 集成功能以及移除入口节流限制功能。流分析现有用户在 2017 年 12 月 31 之前或当前订阅期结束之前，可以继续使用现有定价模型。订阅到期后，所有流分析作业都将迁移到新的定价模型。自 2017 年 2 月 1 日起，新用户只能通过新定价模型来配置流分析。有关迁移选项的详细信息，请访问<a href="//portal.azure.cn/" id="fabric_what_new_dec_stream-analytics_portal">Azure 门户</a>。有关定价的详细信息，请访问<a href="/pricing/details/stream-analytics/" id="fabric_what_new_dec_pricing-stream-analytics">流分析价格详情</a>页面。
+							</p>							
+						</section>
+					</div>
+				</li>
+				
+				<li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_dec_virtual-network"><span>12/22</span>Azure 虚拟网络对等互连现已正式发布</a>
+						<section>
+							<p>
+							   借助 Azure 虚拟网络对等互连，客户可以通过私有 IP 地址直接连接同一区域两个虚拟网络中的虚拟机，就像它们在同样的网络里。虚拟网络对等互连通过内部 Azure 主干网络路由数据包，途中没有任何网关。这样，不同虚拟网络中的虚拟机之间就可以实现低延迟、高带宽连接。虚拟网络对等互连还允许通过对等虚拟网络传输，因此一个虚拟网络中的网络虚拟设备或 VPN 网关可以被另一对等虚拟网络中的虚拟机使用。对等互连适用于跨不同订阅中的虚拟网络以及 ARM (V2) 和 ASM (V1) 虚拟机网络之间。它不适用于两个 ASM 虚拟网络之间。有关详细信息，请访问<a id="fabric_what_new_dec_virtual_network" href="/home/features/networking/">虚拟网络服务功能</a>页面和<a id="fabric_what_new_dec_pricing-virtual_network" href="/pricing/details/networking/">虚拟网络价格详情</a>页面。
+							</p>							
+						</section>
+					</div>
+				</li>
+				
+				<li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_dec_inport-export"><span>12/20</span>Azure 导入/导出服务已正式发布</a>
+						<section>
+							<p>
+							   Azure 导入/导出服务已正式发布。通过将硬盘驱动器直接运送到数据中心，该服务可实现将海量数据迁入或迁出 Azure Blob 存储。如果您希望将数 TB 的数据传入或传出 Azure 存储，但考虑到带宽或高额的网络费用无法实现，则可考虑使用Azure 导入/导出服务。有关详细信息，请访问<a id="fabric_what_new_dec_inport-export_storage-import-export-service" href="https://docs.azure.cn/storage/storage-import-export-service/">使用 Microsoft Azure 导入/导出服务传输数据到 Blob 存储</a>和<a id="fabric_what_new_dec_inport-export_pricing-storage" href="/pricing/details/storage-import-export/">导入/导出服务价格详情</a>页面。
+							</p>							
+						</section>
+					</div>
+				</li>
+				
+				<li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_dec_vm-cloud"><span>12/20</span>Azure 虚拟机和云服务的 Av2 系列实例现已正式发布</a>
+						<section>
+							<p>
+							   Av2 系列虚拟机和云服务标准版现已正式发布，免费提供负载均衡和自动缩放功能。有关定价的详细信息，请访问<a id="fabric_what_new_dec_vm-cloud_pricing-vm" href="/pricing/details/virtual-machines/">虚拟机价格详情</a>页面和<a id="fabric_what_new_dec_vm-cloud_pricing-cloud" href="/pricing/details/cloud-services/">云服务价格详情</a>页面。如需了解 Azure 虚拟机和云服务的详细信息，请访问<a id="fabric_what_new_dec_vm-cloud_virtual-machines" href="/home/features/virtual-machines/">虚拟机服务功能</a>页面和<a id="fabric_what_new_dec_vm-cloud_cloud-services" href="/home/features/cloud-services/">云服务功能</a>页面。该版提供内存介于 2 GB 到 16 GB 间的 1 核、2 核、4 核和 8 核的标准内存选项，以及内存介于 16 GB 到 64 GB 间的 2 核、4 核和 8 核的更高内存选项。
+							</p>							
+						</section>
+					</div>
+				</li>
+				
+				<li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_dec_iot-hub"><span>12/19</span>Azure IoT 中心设备管理全新功能正式发布</a>
+						<section>
+							<p>
+							  Azure IoT 中心提供功能和可扩展性模型，使设备和后端开发人员可以构建功能强大的设备管理解决方案。借助 Azure 物联网中心设备管理能力，物联网开发人员和运营人员可以运用 Azure 超大规模云的强大能力，组织、监控、查询和管理数以亿计的设备变更；物联网运营人员可以充分利用 Azure 物联网中心设备管理工具和应用，处理很多常见的业务需求。该服务的新特性和功能包括设备孪生、直接方法、作业和查询，此外还支持软件更新、重启、恢复出厂设置及配置。
+							  更多详情，请访问<a href="/home/features/iot-hub/" id="fabric_what_new_dec_iot-hub">Azure IoT 中心功能</a>页面和<a href="https://docs.azure.cn/zh-cn/iot-hub/iot-hub-device-management-overview/ " id="fabric_what_new_dec_iot-hub-device-management-overview">Azure IoT 中心设备管理概述</a>及<a href="/blog/2016/12/20/AzureIOTManagement/" id="fabric_what_new_dec_azureiotmanagement">博客</a>。
+							</p>							
+						</section>
+					</div>
+				</li>
+				
+				<li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_dec_iot-gateway-sdk"><span>12/19</span>Azure IoT 网关 SDK 全新功能正式发布</a>
+						<section>
+							<p>
+							  Azure IoT 网关 SDK 可以帮助新老设备连接到云，提升物联网解决方案的安全性，并降低带宽成本。随着 Azure IoT 网关 SDK 的进一步优化，我们在原有承诺的基础上，允许用户将 Azure 数据中心外的物联网和高级分析扩展到网络边缘，触及连接在网络边缘的企业资产和设备。Azure IoT 是最全面的物联网生态系统，凭借 Azure IoT 网关 SDK，我们可以提供更好的灵活性，帮助您灵活地设计和部署物联网。
+							  如果想更多地了解 Azure IoT 网关 SDK，请访问<a href="/home/features/iot-hub/iot-gateway-sdk/" id="fabric_what_new_dec_iot-gateway-sdk">Azure IoT 网关 SDK 功能</a>页面和博客<a href="/blog/2016/12/20/AzureIOTSDK/" id="fabric_what_new_dec_azureiotsdk">用 Azure 物联网网关 SDK 连接设备</a>。
+							</p>							
+						</section>
+					</div>
+				</li> -->
+				
+				<!--<li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_dec_iot-hub"><span>12/19</span>Azure IoT 中心设备管理全新功能正式发布</a>
+						<section>
+							<p>
+							  <a href="/home/features/iot-hub/" id="fabric_what_new_dec_iot-hub">Azure IoT 中心</a>提供功能和可扩展性模型，使设备和后端开发人员可以构建功能强大的设备管理解决方案。借助 Azure 物联网中心设备管理能力，物联网开发人员和运营人员可以运用 Azure 超大规模云的强大能力，组织、监控、查询和管理数以亿计的设备变更；物联网运营人员可以充分利用 Azure 物联网中心设备管理工具和应用，处理很多常见的业务需求。该服务的新特性和功能包括设备孪生、直接方法、作业和查询，此外还支持软件更新、重启、恢复出厂设置及配置。
+							  更多详情，请参考<a href="/documentation/articles/iot-hub-device-management-overview/ " id="fabric_what_new_dec_iot-hub-device-management-overview"> Azure IoT 中心设备管理概述</a>及此<a href="/blog/2016/12/20/AzureIOTManagement" id="fabric_what_new_dec_azureiotmanagement">博客</a>。
+							</p>							
+						</section>
+					</div>
+				</li>
+				
+				<li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_dec_iot-gateway-sdk"><span>12/19</span>Azure IoT 中心网关 SDK 全新功能正式发布</a>
+						<section>
+							<p>
+							  <a href="/home/features/iot-hub/iot-gateway-sdk/" id="fabric_what_new_dec_iot-gateway-sdk">Azure IoT 中心网关 SDK </a>可以帮助新老设备连接到云，提升物联网解决方案的安全性，并降低带宽成本。随着 Azure 物联网网关 SDK 的进一步优化，我们在原有承诺的基础上，允许用户将 Azure 数据中心外的物联网和高级分析扩展到网络边缘，触及连接在网络边缘的企业资产和设备。Azure 物联网是最全面的物联网生态系统，凭借 Azure 物联网网关 SDK，我们可以提供更好的灵活性，帮助您灵活地设计和部署物联网。
+							  如果想更多地了解 Azure 物联网网关 SDK，请访问<a href="/blog/2016/12/20/AzureIOTSDK " id="fabric_what_new_dec_azureiotsdk">此处</a>。
+							</p>							
+						</section>
+					</div>
+				</li>-->
+				
+				</ul>
+				<!--
+				<h3>2016年11月</h3>
+				<ul>
+				
+				<li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_nov_media-service-media-reserve-units"><span>11/30</span>Azure 媒体服务：当前的媒体保留单元计量方式的调整</a>
+						<section>
+							<p>
+							   以前，Azure 媒体服务中媒体保留单元 (MRU) 的使用量基于使用的 MRU 的高水位值（按天进行比例分配）。从 2017 年 1 月 1 日起，现有的 S1（基本）、S2（标准） 和 S3（高级） 媒体保留单元计量方式将弃用，MRU 的使用量基于在您帐户中启用的每个 MRU 的时间，度量单位将从每天变成每小时。除了度量单位，媒体保留单元的有效月费率也将降低。这些计量方式的名称不会更改，仍为 S1、S2 和 S3 媒体保留单元。您不需要对应用程序代码做任何更改，但是可能需要修改依赖于资源 GUID 的计费例程。有关定价的详细信息，请访问<a id="fabric_what_new_nov_media-services_pricing-media-reserve-units" href="/pricing/details/media-services/">媒体服务价格详情</a>页面。要了解此服务的详细信息，请访问<a id="what-is-new_media-services-media-reserve-units" href="/home/features/media-services/">媒体服务功能</a>页面。
+							</p>							
+						</section>
+					</div>
+				</li>
+				
+				<li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_nov_media-service-standard-encoder"><span>11/30</span>Azure 媒体服务：当前的标准编码器计量方式的调整</a>
+						<section>
+							<p>
+							   以前，Azure 媒体服务中视频按需编码的使用量基于编码器输出的媒体文件大小 (GB)。从 2017 年 1 月 1 日起，现有的标准编码（输出 GB）计量方式将弃用。按需编码的使用量将改为基于编码器输出的媒体文件的持续时间来计费。新的计量方式称为标准编码。根据对典型客户场景的成本模拟和分析，这种新的计量方式会让您平均节省大约 40–50% 的成本。具体的节省额将取决于使用场景和之前采用的按 GB 定价的收费模式。您不需要对应用程序代码做任何更改，但是可能需要修改依赖于资源 GUID 的计费例程。有关定价的详细信息，请访问<a id="fabric_what_new_nov_media-services_pricing-standard-encoder" href="/pricing/details/media-services/">媒体服务价格详情</a>页面。要了解此服务的详细信息，请访问<a id="fabric_what_new_nov_media-services-standard-encoder" href="/home/features/media-services/">媒体服务功能</a>页面。
+							</p>							
+						</section>
+					</div>
+				</li>
+				
+				<li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_nov_cdn"><span>11/28</span>Azure CDN Smart Routing 功能正式上线</a>
+						<section>
+							<p>
+							   作为融合 CDN 服务商，Azure China CDN 整合国内多家优质 CDN 厂商的资源，并自主研发了智能调度机制，充分利用各家 CDN 厂商的资源优势，在不同的城市和运营商挑选最优的 CDN 厂商节点服务终端用户。启用 Smart Routing 功能后，同一个 CDN 加速域名在 Azure China CDN 平台上是同时配置了（多 CNAME 机制）多家 CDN 服务厂商。当访问者具体访问某个文件时，Azure China CDN 平台会根据 Smart Routing 的调度策略来动态选择一家 CDN 服务商的资源，响应用户请求，整个过程对客户来说是完全透明的，客户不需要做任何的设置改动。
+							</p>
+							<p>
+							更多详情，请参考博文<a id="fabric_what_new_nov_azurecdnsmartRouting" href="/blog/2016/11/28/AzureCDNSmartRouting/">Azure CDN Smart Routing 功能正式上线</a>。	
+							</p>
+						</section>
+					</div>
+				</li>
+				
+				
+				<li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_nov_fairplay"><span>11/4</span>Azure 媒体服务的 Apple FairPlay Streaming 正式发布</i></a>
+						<section>
+							<p>
+							   <a id="fabric_what_new_nov_fairplay_apple" href="https://developer.apple.com/streaming/fps/?WT.mc_id=azurebg_email_Trans_1146_Tier_2_Release_Direct">Apple FairPlay Streaming</a>(FPS) 是 Apple 的数字版权管理 (DRM) 格式，既可保护点播 (VOD) 流，也可保护直播流。利用 FairPlay，您可以通过 API 以编程方式构建 FairPlay Streaming 解决方案，从而覆盖最新版本的 Apple TV。结合现有的 PlayReady 和 Widevine DRM 支持，Azure 媒体服务可为您提供单点控制，以快速构建多 DRM 解决方案。敬请阅读<a id="fabric_what_new_nov_fairplay_blog" href="/blog/2016/11/08/AzureAppleTV/">使用 Azure 媒体服务将优质内容流传输至 Apple TV</a>博客文章进行初步了解。更多信息请参考<a id="fabric_what_new_nov_media-services" href="/home/features/media-services/">媒体服务功能</a>页面和<a id="fabric_what_new_nov_media-services_pricing_details" href="/pricing/details/media-services/">媒体服务价格详情</a>页面。
+							</p>
+						</section>
+					</div>
+				</li>
+				
+				<li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_nov_app-service"><span>11/3</span>Azure 应用服务现已发布</a>
+						<section>
+							<p>
+							   Azure 应用服务是一款企业级云应用服务，可帮助您更快、更轻松地创建适用于多种平台和设备的功能强大的企业 Web 应用和移动应用。应用服务将 Azure 网站、移动服务、API 管理以及 API 应用中的新功能完美集于一体，可以为您提供一整套构建开发和管理体验的模型所需的统一功能。有关详细信息，请访问<a id="fabric_what_new_nov_app-service" href="/home/features/app-service/">应用服务功能</a>页面、<a id="fabric_what_new_nov_app-service_pricing" href="/pricing/details/app-service/">应用服务价格详情</a>页面、<a id="fabric_what_new_nov_app-service_documentation" href="https://docs.azure.cn/app-service//">应用服务文档</a>页面。
+							</p>
+						</section>
+					</div>
+				</li>
+								
+				</ul>
+				
+				<h3>2016年10月</h3>
+				<ul>
+				
+				<li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_oct_wmss"><span>10/25</span>Azure 虚拟机规模集正式上线</a>
+						<section>
+							<p>
+							   虚拟机规模集可将多个相同的虚拟机 (VM) 作为集进行部署，从而轻松构建高度可伸缩的应用程序。规模集基于 Azure 资源管理器模型而构建，适用于 Windows 和 Linux 映像、自定义映像以及扩展程序。使用规模集无需支付额外费用。有关详细信息，请访问<a id="fabric_what_new_oct_wmss" href="/home/features/virtual-machine-scale-sets/">虚拟机规模集功能</a>页面、<a id="fabric_what_new_oct_scheduler_documentation" href="https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-overview/">虚拟机规模集概述</a>文档页面。
+							</p>
+						</section>
+					</div>
+				</li>
+				
+				<li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_oct_scheduler"><span>10/11</span>Azure 计划程序在 ”Azure 门户预览” 上发布</a>
+						<section>
+							<p>
+							   计划程序（Scheduler）在Azure 门户预览上发布。从现在起，您可以在Azure 门户预览建立、管理、查看您的计划程序作业。<br/>
+							   计划程序允许您按既定计划执行操作，如调用 HTTP/S 端点，或将消息发布到存储队列 (Storage Queue)，服务总线队列 (Service Bus Queue) 和主题 (Service Bus Topic)。利用计划程序，您可在云中创建可靠的、简单或复杂的作业服务，并既定时段运行这些作业。详细信息请查看<a id="fabric_what_new_oct_scheduler_documentation" href="https://docs.azure.cn/scheduler/scheduler-get-started-portal/">Azure 门户预览中的计划程序入门</a>和<a id="fabric_what_new_oct_scheduler" href="/home/features/scheduler/">计划程序功能</a>页面。
+							</p>
+						</section>
+					</div>
+				</li>
+				
+				</ul>
+				
+				<h3>2016年9月</h3>
+                <ul>
+				
+				<li>
+					<i class="icon icon-plus"></i>
+					<div>
+						<a href="#" id="service-fabric_year_Sep_Storage-model-break-down"><span>9/28</span>Azure 存储指标更新</a>
+						<section>
+							<p>
+							   为了明确与 Azure 存储相关的计费，从 2016 年 10 月 1 日起，我们将更改存储以及与存储相关的资源 GUID。建议您对自定义应用程序中的存储资源 GUID 进行相应的更改。作为这些更改的一部分，存储事务指标将根据事务的类型和相关联的存储服务分为多个指标。<br/>
+							   此外，资源名称“标准 IO - 表格/队列 (GB)”将被分成两个名称： 标准 IO - 表格 (GB)   和   标准 IO - 队列 (GB) <br/>
+							   要查看 GUID 更改之前和之后的各种资源类型，请访问<a id="fabric_what_new_Sep_Storage-model-break-down-GUID" href="/support/announcement/guids-migration-storage-transactions/">Azure 存储 GUID</a>, 更多信息请访问<a id="fabric_what_new_Sep_Storage-model-break-down" href="/home/features/storage/">存储功能页面</a>和<a id="fabric_what_new_Sep_Storage-model-break-down-pricing" href="/pricing/details/storage/">存储价格详情</a>。
+							</p>
+						</section>
+					</div>
+				</li>
+
+				<li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="service-fabric_year_Sep_cognitive-services"><span>9/19</span>认知服务预览版登陆中国</a>
+                            <section>
+                                <p>
+                                   认知服务 （预览版） 正式开始在中国地区提供服务。通过认知服务 API ，您只需使用几行代码就可以借助强大的算法开发自己的应用程序。它们跨设备、跨平台，不论是在 iOS 、 Android 或者 Windows ，您都可以轻松完成配置。此次国内首发共推出 3 个全新 API ：<a id="fabric_what_new_Sep_cognitive-services" href="/home/features/cognitive-services/face/">人脸识别</a>，<a id="fabric_what_new_Sep_cognitive-services" href="/home/features/cognitive-services/emotion/">情绪识别</a>，和<a id="fabric_what_new_Sep_cognitive-services" href="/home/features/cognitive-services/computer-vision/">计算机视觉</a>。人脸识别 API ，帮助您从照片中检测、识别、分析、组织和标记人脸；情绪识别 API ，通过分析人脸来检测多种情感，让您的应用为用户提供个性化回馈；计算机视觉 API ，可以从图像中提取丰富的信息进行视觉数据的分类和处理，更可以识别 20 万来自全球各地涉及各界的名人。现在就开始使用认知服务 API 来创建自己的应用吧。了解<a id="fabric_what_new_Sep_cognitive-services" href="/home/features/cognitive-services/">认知服务功能</a>及<a id="fabric_what_new_Sep_cognitive-services" href="/pricing/details/cognitive-services/">认知服务价格详情</a>。
+                                </p>
+                            </section>
+                        </div>
+                    </li>			
+					
+					<li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="service-fabric_year_Sep_FreeBSD"><span>9/19</span>Azure 正式支持 FreeBSD 虚拟机镜像</a>
+                            <section>
+                                <p>
+                                   FreeBSD 是一个卓越的操作系统，可用于服务器，桌面和嵌入式平台。由微软发布的 FreeBSD 10.3 镜像现已正式落地于由世纪互联运营的 Microsoft Azure 。该镜像基于 FreeBSD 社区发布的 10.3 版本并安装了 Azure 虚拟机代理。这意味着您可以直接在 Azure 环境中选择并直接创建一台 FreeBSD 虚拟机。如果需要任何技术支持，您可以创建<a id="fabric_what_new_Sep_FreeBSD" href="/zh-cn/support/support-ticket-form/">在线工单</a>，或者拨打世纪互联技术支持热线 400-089-036 ，世纪互联的技术支持人员会协助您。有关详细信息，请访问<a id="fabric_what_new_Sep_FreeBSD_documentation" href="https://docs.azure.cn/virtual-machines/virtual-machines-freebsd-intro-on-azure/">FreeBSD 简介</a>及<a id="fabric_what_new_Sep_FreeBSD_blog" href="/blog/2016/09/19/AzureFreeBSD/">Azure 博客</a>。								   
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+					
+				    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="service-fabric_year_Sep_virtual-machines-F-series"><span>9/18</span>Azure 虚拟机的全新 F 系列计算优化实例上线</a>
+                            <section>
+                                <p>
+                                   Azure 虚拟机的全新系列 F 系列专为计算密集型工作负荷优化设计，它基于 2.4 GHz Intel Xeon E5-2673 v3 (Haswell) 处理器，可达到接近 Intel Turbo Boost Technology 2.0 高达 3.2 GHz 的时钟速度。这些大小不仅具有与 Dv2 系列相同的 CPU 性能，而且每小时价格更低，这使得它们成为 Azure 性价比最佳的产品。这些虚拟机的大小可为 1 核、2 核、4 核、8 核和 16 核，配有 2 GB 随机存取内存 (RAM)，并且每个 CPU 内核带有可用于优化标准和高级存储选项的 8 GB 本地固态驱动器 (SSD)。这些大小最适用于分析、Web 和游戏服务器以及批处理，并且适合无需每个 CPU 内核带有过多内存或 SSD 的方案。有关详细信息，请访问<a id="fabric_what_new_Sep_virtual-machines-F-series" href="/home/features/virtual-machines/">虚拟机功能页面</a>，<a id="fabric_what_new_Sep_virtual-machines-F-series_pricing" href="/pricing/details/virtual-machines/">虚拟机价格详情</a>及<a id="fabric_what_new_Sep_virtual-machines-F-series" href="/blog/2016/09/15/NewFVM/">Azure 博客</a>。
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+					<li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="service-fabric_year_Sep_SQL-DB-Elastic-database"><span>9/5</span>Azure SQL 弹性数据库池正式发布</a>
+                            <section>
+                                <p>
+                                   为每个租户或应用程序配置一个可以获得性能、可用性和安全隔离优势的数据库，对于需要这些优势的 SaaS 和业务线应用程序而言，Azure SQL 弹性数据库池是其理想选择。池中的每个弹性数据库均可以在实际需要时获得所需资源，从而管理单个数据库的性能变得不再复杂。弹性池在为一组数据库提供最佳性价比的同时，又能为其中的每个数据库提供弹性性能。弹性池功能包括：
+									<P><B>自动扩展，由您掌控：</B>池可以实时地自动扩展弹性数据库的性能和存储容量。您可以控制分配给池的性能，按需添加或删除弹性数据库，还可以在不影响池的整体成本的情况下定义弹性数据库的性能。有关详细信息，请访问<a id="fabric_what_new_Sep_SQL-DB-Elastic-database_Article" href="https://docs.azure.cn/sql-database/sql-database-elastic-pool-guidance/">何时使用弹性数据库池</a>。
+									<P><B>环境智能管理：</B>池可以实时地自动扩展弹性数据库的性能和存储容量。您可以控制分配给池的性能，按需添加或删除弹性数据库，还可以在不影响池的整体成本的情况下定义弹性数据库的性能。有关详细信息，请访问<a id="fabric_what_new_Sep_SQL-DB-Elastic-database_Article2" href="https://docs.azure.cn/sql-database/sql-database-elastic-pool-manage-powershell/">使用 PowerShell 监视和管理弹性数据库池</a>。
+							        <P><B>符合需求的性能和价格：</B>基本级、标准级和高级池提供了多个性能、存储和定价选项。池可包含多达 400 个弹性数据库。弹性数据库最多可以自动扩展至 1,000 个弹性数据库事务单元 (eDTU)。
+								    <br/>正式发布价格将与公共预览版价格保持相同，请访问<a id="fabric_what_new_Sep_SQL-DB-Elastic-database" href="/home/features/sql-database/">SQL数据库网页</a>和<a id="fabric_what_new_Sep_SQL-DB-Elastic-database_pricing" href="/pricing/details/sql-database/">定价</a>了解相关信息。有关弹性池的详细信息，请访问<a id="fabric_what_new_Sep_SQL-DB-Elastic-database_documentation" href="https://docs.azure.cn/sql-database/sql-database-elastic-pool/">什么是 Azure 弹性数据库池？</a>和<a id="fabric_what_new_Sep_SQL-DB-Elastic-database_blog" href="/blog/2016/09/05/SqlDatabaseElasticOnline/">Azure 博客</a>。
+                                </p>
+                            </section>
+                        </div>
+                    </li>														
+                </ul>		
+				
+                <h3>2016年8月</h3>
+                <ul>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="service-fabric_year_Aug_storage-premium-storage"><span>8/25</span>Azure 高级存储在中国北部正式发布</a>
+                            <section>
+                                <p>
+                                   Azure 高级存储在中国北部正式发布。Azure 高级存储为运行 I/O 密集型工作负荷的虚拟机提供高性能、低延迟的磁盘支持。在固态硬盘 (SSD) 上使用高级存储存储数据的虚拟机 (VM) 磁盘。可以将应用程序的 VM 磁盘迁移到 Azure 高级存储，以充分利用这些磁盘的速度和性能。<br/>
+								   使用高级存储，Azure 提供的功能可真正将要求苛刻的企业应用程序（如 Dynamics AX、Dynamics CRM、Exchange Server、SharePoint 场和 SAP Business Suite）转移到云。你可以运行各种需要高级存储的一切高性能和低延迟的性能密集型数据库工作负荷，如 SQL Server、Oracle、MongoDB、MySQL、Redis。访问 <a id="fabric_what_new_Aug_storage-premium-storage" href="https://docs.azure.cn/storage/storage-premium-storage/"> 高级存储：适用于 Azure 虚拟机工作负荷的高性能存储</a>了解更多关于高级存储。
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+					<li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="service-fabric_year_Aug_SQL Database"><span>8/25</span>新的 Azure SQL 数据库高级性能级别 P15 正式发布</i></a>
+                            <section>
+                                <p>
+                                   客户使用 Azure SQL 数据库在 Azure 中构建更强大的应用程序时，需要更多可用于面向高需求工作负荷缩放性能的选项。因此我们在高级服务等级中发布了全新性能级别 P15。P15 提供了具备超快事务性能、实时分析和最多 1 TB 存储的 4000 个数据库事务单元，这要比 P11 产品强大一倍。在 Azure 上运行 SQL 数据库的一个优势是可以实时扩展或缩减性能，以适应不断变化的工作负荷需求。您可以利用这一新性能级别扩展数据库性能，以应对应用程序工作负荷的爆炸式增长。有关详细信息，请访问<a id="fabric_what_new_Aug_SQL_Database" href="/home/features/sql-database/">SQL 数据库产品页面</a>，<a id="fabric_what_new_Aug_SQL_Database_pricing" href="/pricing/details/sql-database/">SQL 数据库定价</a>，<a id="fabric_what_new_Aug_SQL_Database_sql-database-service-tiers" href="https://docs.azure.cn/">SQL 数据库选项和性能：了解每个服务等级的可用功能</a>文档网页。
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+					<li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="service-fabric_year_July_Blob"><span>8/4</span>Azure Blob 存储冷存储层模式正式上线</i></a>
+                            <section>
+                                <p>
+                                   Azure Blob 存储冷存储层模式正式上线。 客户现在可以创建一个新的 Blob 存储帐户，以便根据数据访问模式在热存储层和冷存储层之间进行选择。 相对于热存储层，冷存储层更适合不常访问的数据，并且容许较低的可用性 (99% SLA)。 冷存储层的延迟和吞吐量与热存储层相似。 针对适当的数据集使用冷存储层将为客户节省不少成本。 使用冷存储层的一些常见场景包括： 备份数据、灾难恢复、媒体内容、社交媒体的照片和视频、科学数据等。 有关详细信息，请访问 <a id="fabric_what_new_Blob_storage" href="/pricing/details/storage/">存储价格</a>页面和 <a id="fabric_what_new_blob_storage-blob-storage-tiers" href="https://docs.azure.cn/storage/storage-blob-storage-tiers/">Azure Blob 存储： 热存储层和冷存储层</a> 。
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="service-fabric_year_July_DocumentDB"><span>8/3</span>Azure DocumentDB 功能正式上线</a>
+                            <section>
+                                <p>
+                                   DocumentDB 功能正式上线。借助 DocumentDB，您可充分利用 SQL 和 JavaScript 查询，而无需应对架构和索引管理，无需考虑本地或基于虚拟机的云选项。DocumentDB 将数据存储为文档集合。应用程序可采用由 DocumentDB 提供支持的各种操作类型，包括 CRUD、SQL 和 JavaScript 查询，以及用于处理文档的存储过程。详细信息请查阅 <a id="fabric_what_new_documentDB" href="/pricing/details/documentdb/">DocumentDB 价格</a>页面。
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="sixteen_year_may_expressroute"><span>8/2</span>Cloud Foundry 在中国正式发布</a>
+                            <section>
+                                <p>
+                                    Cloud Foundry  今天正式向中国地区提供服务！<a id="home_Cloud-Foundry_org" href="https://www.cloudfoundry.org/">Cloud Foundry</a> 是开源的云应用 PaaS 平台。简化了云计算应用程序的构建，测试，发布和扩展过程，支持 JAVA，Node.js，Python，PHP，Go，Ruby 等多种开发语言，并可在各主要公有云和私有云平台上运行。去年11月我们在 Global Azure <a id="home_ Cloud-Foundry_pivotal-cloud-foundry" href="https://azure.microsoft.com/en-us/blog/general-availability-of-cloud-foundry-and-preview-access-of-pivotal-cloud-foundry/" target="_blank;">发布</a>了 Cloud Foundry，如今，Cloud Foundry 终于在中国正式发布。这也意味着广大用户可以开始把 Cloud Foundry 部署在由世纪互联运营的 Microsoft Azure 上，并使用大家熟悉的 Cloud Foundry 命令来有效快捷地管理和发布云计算应用程序了。了解相关背景信息，请参见 <a id="home_Cloud-Foundry_CloudFoundryACN" href="/blog/2016/08/02/CloudFoundryACN">GA blog</a>, <a id="home_Cloud-Foundry_source-service-brokers" href="https://azure.microsoft.com/en-us/blog/cloud-foundry-on-azure-support-for-diego-and-open-source-service-brokers/" target="_blank;">CF update blog </a>和 <a id="home_Cloud-Foundry_brokers-released-today" href="https://www.cloudfoundry.org/azure-service-brokers-released-today/" target="_blank;">service broker blog</a>。                                          
+                                </p>
+                            </section>
+                        </div>
+                    </li>
                 </ul>
 				
+				
+                <h3>2016年7月</h3>
+                <ul>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="sixteen_year_may_expressroute"><span>7/25</span>MySQL Database on Azure 开放对 MySQL 5.7 的支持</a>
+                            <section>
+                                <p>
+                                    MySQL Database on Azure 目前已经全面开放对 5.7 的支持。您可以通过管理门户，在 MySQL 数据库服务器创建时选择 5.7 版本进行体验。MySQL 5.7 版本目前是 MySQL 最新的版本，不仅在一定场景下有很大的性能提升，同时增加并完善了很多功能，主要包括对原生 JSON 数据格式的支持，并内置 JSON 函数便于文档的存储查询更新，同时增加了对于 GIS 的支持等。访问 <a id="home_features_mysql" href="/home/features/mysql/">MySQL Database on Azure </a>了解更多。
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="sixteen_year_may_expressroute"><span>7/11</span>SQL Server Stretch Database 功能正式上线</a>
+                            <section>
+                                <p>
+                                    SQL Server Stretch Database 功能正式上线。通过 SQL Server Stretch Database，您可以将冷热交互数据从 SQL Server 2016 动态拉伸到 Azure。与冷数据存储不同，您的数据随时可用。通过 Stretch Database, 您可以更长时间地保留数据而不会超时。借助 Stretch Database，您无需支付太多费用即可为大量数据提供更长存储期限。您可以根据性能需求选择性能级别，并可按需扩大或缩小。有关详细信息，请访问<a id="home_features_database06" href="/home/features/sql-server-stretch-database/">SQL Server Stretch Database</a> 页面，要全面了解定价情况，请访问 <a id="home_features_database07" href="/pricing/details/sql-server-stretch-database/">SQL Server Stretch Database 价格</a>页面。
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="sixteen_year_may_expressroute"><span>7/6</span>Azure DocumentDB 功能预览版上线</a>
+                            <section>
+                                <p>
+                                   DocumentDB 功能预览版上线。DocumentDB 是一款全托管式 NoSQL 数据库，可以帮助您构建具有高可用性的可扩展应用程序。您可以利用现有的 SQL 和 JavaScript 技术查看应用程序的灵活架构数据。即使在数据量持续较高的情况下，也可以保证应用程序享受到低延迟读写优势。通过多区域复制、面向 MongoDB 的 DocumentDB 协议支持、生存期、事务处理和 SDK 套件等功能，DocumentDB 可以帮助您加快开发大规模分析、移动和 IoT 应用程序。有关详细信息，请访问 <a id="home_features_expressroute06" href="/home/features/documentdb/">DocumentDB </a>页面，要全面了解定价情况，请访问 <a id="home_features_expressroute05" href="/pricing/details/documentdb/">DocumentDB 价格</a>页面，使用详情请参见 <a id="home_features_expressroute04" href="https://docs.azure.cn/documentdb//">DocumentDB 文档</a>页面。
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="sixteen_year_may_expressroute"><span>7/4</span>Azure IoT 中心功能正式上线</a>
+                            <section>
+                                <p>
+                                    依靠 Microsoft Azure IoT 中心，能够轻松安全地连接物联网 (IoT) 资产，帮助实现与数百万 IoT 设备建立可靠的双向通信，连接、监控并控制数百万 IoT 资产，同时支持各种操作系统和协议，通过每设备身份验证还可提升 IoT 解决方案的安全性。有关详细信息，请访问<a id="home_features_iot-hub_1" href="/home/features/iot-hub/"> Azure IoT 中心 </a>页面，要全面了解定价情况，请访问<a id="home_features_iot-hub_2" href="/pricing/details/iot-hub/"> Azure IoT 中心价格</a>页面，使用详情请参见 <a id="/pricing/details/iot-hub/" href="https://docs.azure.cn/iot-hub/"> Azure IoT 中心服务</a>文档。
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="sixteen_year_may_expressroute"><span>7/4</span>Service Fabric 功能正式上线</a>
+                            <section>
+                                <p>
+                                  Azure Service Fabric 功能正式上线。Service Fabric 是一款应用程序平台，可用于构建基于微服务的应用程序，这些应用程序对以下方面提供了内置支持：生命周期管理、规模化的有状态和无状态性能、混合部署、24x7 可用性以及容器管理。Service Fabric 所利用的技术与支持许多 Microsoft 应用程序（包括 Azure DB、DocDB、Intune、Cortana 和 Skype for Business）的技术相同。有关详细信息，请访问 <a id="home_features_expressroute01" href="/home/features/service-fabric/">Service Fabric</a> 页面，要全面了解定价情况，请访问 <a id="home_features_expressroute02" href="/pricing/details/service-fabric/">Service Fabric</a> 页面，使用详情请参见 <a id="home_features_expressroute03" href="https://docs.azure.cn/service-fabric/">Service Fabric</a> 文档。
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="sixteen_year_may_expressroute"><span>7/1</span>MySQL 主从复制/只读实例 7 月 1 日正式发布</a>
+                            <section>
+                                <p>
+                                    MySQL Database on Azure 现已开始支持主从复制功能, 用于增加高可用性，以及利用读写分离来扩展运行能力。复制功能自动将主实例的任何更改复制到所有只读副本中。您可以为指定的数据库实例创建一个或多个只读复制，将读取访问分流到这些只读实例，从而满足越来越大的数据库读取负载。除了读写分离，您也可以将只读实例专门用于运行商业智能报告 ( BI )，或利用复制功能在生产环境和开发环境之间迁移数据库。此外，用户还可以利用复制功能提高生产环境的可用性-容灾。在故障发生时，您可以提升只读实例取代失效的主实例，切换工作负载，从而保障业务的可用性和连续性。该功能现于7月1日正式发布，从属实例将从 8 月 1 日开始收费。有关详细信息，请访问 <a id="home_features_msql01" href="/home/features/mysql/">MySQL Database on Azure</a> 页面，使用详情请参见 <a id="home_features_msql02" href="/documentation/articles/mysql-database-read-replica/">MySQL Database on Azure 服务文档</a>页面。要全面了解定价情况，届时请访问 <a id="home_features_msql03" href="/home/features/mysql/#price/">MySQL Database on Azure 价格</a>页面。
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="service-fabric_year_July_service-fabric"><span>7/1</span>Azure 标准 VPN 网关正式上线</a>
+                            <section>
+                                <p>
+                                    我们正式发布一种新型的 Azure 虚拟网络网关（ VPN ），它可使您通过 ExpressRoute 以及站点到站点 VPN 连接至 VNet. 与目前动态路由 VPN 网关相比，Azure 标准 VPN 网关为 ExpressRoute 提供了更大的吞吐量。请访问 <a id="home_features_expressroute01_vpn" href="/pricing/details/vpn-gateway/">VPN 网关</a>和 <a id="home_features_expressroute02_price" href="/pricing/details/vpn-gateway/">VPN 网关定价</a>了解更多信息。
+                                </p>
+                            </section>
+
+                        </div>
+                    </li>
+                </ul>
+				-->
+  
   
             </div>                      
         </div>
