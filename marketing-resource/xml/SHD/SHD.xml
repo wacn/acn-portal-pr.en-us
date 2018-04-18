@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shd>
-  <category name="Calculate">
+  <category name="Compute">
     <service>
       <name>Virtual Machines</name>
       <slug>virtual-machines</slug>
@@ -28,10 +28,17 @@
   </category>
   <category name="Networking">
     <service>
-      <name>CDN</name>
+      <name>Content Delivery Network</name>
       <slug>cdn</slug>
       <regions>
         <global>true</global>
+      </regions>
+    </service>
+    <service>
+      <name>Cloud Connection Service</name>
+      <slug>cloud-connection</slug>
+      <regions>
+        <china-north>true</china-north>
       </regions>
     </service>
     <service has-inner-services="true">
@@ -47,7 +54,7 @@
           <slug>expressroute\circuits</slug>
         </service>
         <service>
-          <name>ExpressRoute Gateway</name>
+          <name>ExpressRoute Gateways</name>
           <slug>expressroute\gateways</slug>
         </service>
       </inner-services>
@@ -84,7 +91,7 @@
       </regions>
     </service>
     <service>
-      <name>Network Infrastructure Services</name>
+      <name>Network Infrastructure</name>
       <slug>network-access</slug>
       <regions>
         <china-east>true</china-east>
@@ -100,7 +107,7 @@
       </regions>
     </service>
     <service>
-      <name>Network Monitoring</name>
+      <name>Network Watcher</name>
       <slug>network-watcher</slug>
       <regions>
         <china-east>true</china-east>
@@ -166,11 +173,11 @@
       </regions>
       <inner-services>
         <service>
-          <name>Media Encoding</name>
+          <name>Encoding</name>
           <slug>media-services\encoding</slug>
         </service>
         <service>
-          <name>Real-time and VOD Streaming Media</name>
+          <name>Live and On-Demand Streaming</name>
           <slug>media-services\on-demand-streaming</slug>
         </service>
       </inner-services>
@@ -184,7 +191,7 @@
       </regions>
     </service>
   </category>
-  <category name="Container">
+  <category name="Containers">
     <service>
       <name>Batch</name>
       <slug>batch</slug>
@@ -202,9 +209,9 @@
       </regions>
     </service>
   </category>
-  <category name="Database">
+  <category name="Databases">
     <service has-inner-services="true">
-      <name>SQL Database</name>
+      <name>Azure SQL Database</name>
       <slug>sql-database</slug>
       <regions>
         <china-east>true</china-east>
@@ -258,7 +265,7 @@
       </regions>
     </service>
   </category>
-  <category name="Data + Analytics">
+  <category name="Analytics">
     <service>
       <name>HDInsight</name>
       <slug>hdinsight</slug>
@@ -268,7 +275,7 @@
       </regions>
     </service>
     <service>
-      <name>Power BI Workspace Integration</name>
+      <name>Power BI Embedded</name>
       <slug>power-bi-embedded</slug>
       <regions>
         <china-east>true</china-east>
@@ -283,7 +290,7 @@
       </regions>
     </service>
   </category>
-  <category name="AI and Cognitive Services">
+  <category name="AI">
     <service has-inner-services="true">
       <name>Cognitive Services</name>
       <slug></slug>
@@ -297,11 +304,11 @@
          <slug>face-api</slug>
         </service>
         <service>
-          <name>Mood Recognition API</name>
+          <name>Emotion API</name>
           <slug>Emotion-api</slug>
         </service>
         <service>
-           <name>Computer Vision API </name>
+           <name>Computer Vision API</name>
            <slug>Ecomputervision</slug>
         </service>
       </inner-services>
@@ -325,7 +332,7 @@
       </regions>
     </service>
     <service>
-      <name>IoT Center</name>
+      <name>IoT Hub</name>
       <slug>iot-hub</slug>
       <regions>
         <china-east>true</china-east>
@@ -333,7 +340,7 @@
       </regions>
     </service>
     <service>
-      <name>IT Suite</name>
+      <name>IoT Suite</name>
       <slug>iot-suite</slug>
       <regions>
         <china-east>true</china-east>
@@ -353,7 +360,7 @@
   </category>
   <category name="Security + Identity">
     <service>
-      <name>Active Directory</name>
+      <name>Azure Active Directory</name>
       <slug>active-directory</slug>
       <regions>
         <china-east>true</china-east>
@@ -385,7 +392,7 @@
       </regions>
     </service>
   </category>
-  <category name="Monitoring + Supervision ">
+  <category name="Monitoring + Management">
      <service>
       <name>Backup</name>
       <slug>backup</slug>
@@ -437,6 +444,53 @@
       <regions>
         <global>true</global>
       </regions>
+    </service>
+    <service>
+      <name>Azure Monitor</name>
+      <slug>monitor</slug>
+      <regions>
+        <china-east>true</china-east>
+        <china-north>true</china-north>
+      </regions>
+      <inner-services>
+        <service>
+          <name>Metrics and Alerts</name>
+          <slug>monitor\alert</slug>
+          <regions>
+            <china-east>true</china-east>
+            <china-north>true</china-north>
+          </regions>
+        </service>
+        <service>
+          <name>Activity Logs and Alerts</name>
+          <slug>monitor\activity-log</slug>
+          <regions>
+            <global>true</global>
+          </regions>
+        </service>
+        <service>
+          <name>Diagnostic logs</name>
+          <slug>monitor\diagnose-log</slug>
+          <regions>
+            <global>true</global>
+          </regions>
+        </service>
+        <service>
+          <name>AutoScale</name>
+          <slug>monitor\auto-scale</slug>
+          <regions>
+            <china-east>true</china-east>
+            <china-north>true</china-north>
+          </regions>
+        </service>
+        <service>
+          <name>Action Groups</name>
+          <slug>monitor\ops-group</slug>
+          <regions>
+            <global>true</global>
+          </regions>
+        </service>
+      </inner-services>
     </service>
     <service>
       <name>Azure Resource Manager</name>
