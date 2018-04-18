@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <localize>
   <umbTextpage id="18482" parentID="12022" level="3" writerID="106" creatorID="94" nodeType="1059" template="8" sortOrder="0" createDate="2013-05-05T16:51:50" updateDate="2014-11-11T02:23:53" nodeName="Overview" urlName="overview" writerName="content" creatorName="xunfan" path="-1,11978,12022,18482" isDoc="">
     <bodyText><![CDATA[
@@ -91,7 +91,7 @@
 							</div>
 
 							<div class="row6">
-								<a id="pricing_overview_dingjia_vm" href="/pricing/details/virtual-machines/" class="home-link-2"> <span>View detailed pricing for virtual machines</span><i class="icon icon-arrow-right"></i> </a>
+								<a id="pricing_overview_dingjia_vm" href="/pricing/details/virtual-machines/" class="home-link-2"> <span>View detailed pricing for Virtual Machines</span><i class="icon icon-arrow-right"></i> </a>
 							</div>
 						</div>
 					</div>
@@ -221,7 +221,7 @@
 							<div class="icon">
 								<img class="bg1" src="//resource.cdn.azure.cn/marketing-resource/css/img/web.png" /> <img class="bg2" src="//resource.cdn.azure.cn/marketing-resource/css/img/web_w.png" />
 							</div>
-							<div class="title">Web Apps</div>
+							<div class="title">Web apps</div>
 						</div>
 					</a> <a id="box_category_kaifaceshi">
 						<div class="_category">
@@ -264,7 +264,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a id="A0">What is the specific procedure for requesting a Fapiao? What types of Fapiaos are there? What are the space limits on a Fapiao?</a>
+							<a id="A0">What is the specific procedure for requesting a Fapiao? How many types of China Fapiao are there? Is there any restriction on Fapiao title?</a>
 							<section>
 								<p>Sign in to account.windowsazure.cn, click Subscriptions, Payment, History, Manage Fapiao, then complete sign-up. Refer to <a id="home_overview_fapiao" style="color:#00a8d9;" href="http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html">http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html </a>for more info.</p>
 								<p>Fapiaos include both special value-added tax Fapiaos and ordinary value-added tax Fapiaos.</p>
@@ -277,8 +277,8 @@
 						<div>
 							<a id="A1">Can you apply for a Fapiao at any time? Where do you apply for a Fapiao?</a>
 							<section>
-								<p>After payment has been made, wait 3 days. After 3 days you can start applying for an invoice. Should you have any special requirements, please contact the 21Vianet service center, call 86-10-84563652 or 400-089-0365.</p>
-								<p>You can click here to apply directly for an invoice: <a id="home_overview_LoginView" style="color:#00a8d9;" href="http://fapiao.cloud.21vianet.com/EmailAcount/LoginView">http://fapiao.cloud.21vianet.com/EmailAcount/LoginView </a>. You can also follow the steps below to sign in to the Fapiao page.</p>
+								<p>A user can apply for a Fapiao 3 days after the payment is completed. Should you have any special requirements, please contact the 21Vianet service center, call 86-10-84563652 or 400-089-0365.</p>
+								<p>You can click here to apply directly for a Fapiao: <a id="home_overview_LoginView" style="color:#00a8d9;" href="http://fapiao.cloud.21vianet.com/EmailAcount/LoginView">http://fapiao.cloud.21vianet.com/EmailAcount/LoginView </a>. You can also follow the steps below to sign in to the Fapiao page.</p>
 								<p>Sign in to the Azure Account Center at: <a id="home_overview_account" style="color:#00a8d9;" href="http://account.windowsazure.cn">http://account.windowsazure.cn</a>, click Subscriptions, Payment History, Manage Fapiao, then complete sign-up.</p>
 							</section>
 						</div>
@@ -295,7 +295,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a id="A3">Do I need to provide my license key if I upload my local Windows Server map to Azure?</a>
+							<a id="A3">Do I need to provide my license key if I upload my local Windows Server image to Azure?</a>
 							<section>
 								<p>No. Azure will provide the Windows Server license key for any instance which is running.</p>
 							</section>
@@ -304,7 +304,9 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a id="A4">How do I sign up for a Fapiao interface account? After successfully activating the account, what do I do if I can’t make out a Fapiao?</a>
+							
+                                                        <a id="A4">How do I sign in to a Fapiao account? What should I do if I can’t apply Fapiao after activating Fapiao account successfully? What should I do if I can’t apply for Fapiao?</a>
+                                                        
 							<section>
 								<p>After clicking here to enter the Fapiao page, you can click “Sign Up Account” in the right corner of the page and choose the product you’ve purchased to sign up for an Azure account.</p>
 								<p>If you are unable to apply for Fapiao after activating Fapiao account successfully, please call 21Vianet Customer Service Center: 86-10-84563652 or 400-089-0365.</p>
@@ -316,7 +318,7 @@
 						<div>
 							<a id="A5">After applying for a Fapiao, how do I get the Fapiao? Do I have to pay any extra costs?</a>
 							<section>
-								<p>You can get it through express delivery or get it yourself. You can get it through express delivery or get it by yourself. 21Vianet will help print and deliver Fapiao and pay the express fee.</p>
+								<p>You can get it through express delivery or get it  yourself. 21Vianet will help print and deliver Fapiao and pay the express fee.</p>
 								<p>If you have previously chosen self-pickup, you can change this to express delivery. The self-pickup is from Room 657, Building 3, No. 88 Keyuan Road, Pudong District, Shanghai.</p>
 							</section>
 						</div>
