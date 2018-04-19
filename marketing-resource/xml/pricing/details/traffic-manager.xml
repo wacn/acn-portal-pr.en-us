@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/traffic-manager@2x.png" />
                         <h2><span>Traffic Manager</span></h2>
                         <h4>It can regionally route inbound traffic based on your usage to improve app performance and availability.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_traffic_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_traffic_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1RMB-trial/" id="home_traffic_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_traffic_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -35,30 +35,30 @@
                         </tr>
                         <tr>
                             <td>First 1 billion DNS queries/month </td>
-                            <td>RMB3.57/1 million queries</td>
+                            <td>￥3.57/1 million queries</td>
                         </tr>
                         <tr>
-                            <td>DNS queries/month for over 1 billion queries</td>
-                            <td>RMB1.79/1 million queries</td>
+                            <td>Over 1 billion DNS queries/month </td>
+                            <td>￥1.79/1 million queries</td>
                         </tr>
                         <tr>
-                            <td>Inspection of operating conditions (Azure)</td>
-                            <td>RMB2.38 /Azure terminal/month</td>
+                            <td>Health checks (Azure)</td>
+                            <td>￥2.38 per Azure endpoint/month</td>
                         </tr>
 						<tr>
-                            <td>Inspect of additional items under fast-interval operating conditions (Azure)<sup>1</sup></td>
-                            <td>RMB8.16/Azure terminals/month</td>
+                            <td>Fast interval health checks add-on (Azure)<sup>1</sup></td>
+                            <td>￥8.16 per Azure endpoint/month</td>
                         </tr>
                         <tr>
-                            <td>Inspection of operating conditions (external)</td>
-                            <td>RMB3.57/external terminals/month</td>
+                            <td>Health checks (external)</td>
+                            <td>￥3.57 per external endpoint/month</td>
                         </tr>
 						<tr>
-                            <td>Inspect of additional items under fast-interval operating conditions (external) <sup>1</sup></td>
-                            <td>RMB15.24/Azure terminals/month</td>
+                            <td>Fast interval health checks add-on (external) <sup>1</sup></td>
+                            <td>￥15.24 per Azure endpoint/month</td>
                         </tr>
                     </table>
-					<p><sup>1 </sup> Inspection of operating conditions of fast terminals shall be purchased as an additional item to the inspection of operating conditions of basic terminals.</p>
+					<p><sup>1 </sup> Fast endpoint health checks need to be purchased as an add-on to basic endpoint health checks.</p>
                     <!-- END: Table1-Content-->
                   
                 </div>
@@ -76,8 +76,8 @@
                             <div>
                                 <a id="Traffic_Manager_question1">What is a Traffic Manager “DNS query”?</a>
                                 <section>
-                                    <p>Whenever users access your applications, your service name is mapped to the IP address with the DNS query. By providing different response content for different DNS queries, the Traffic Manager can make the incoming traffic of your several hosted Azure services achieve load balance, no matter whether these services are operated in the same data center or different data centers in China.</p>
-                                        <p>The Traffic Manager provides several load-balance methods, including transfer of performance, failover and round robin. Applying these methods can effectively manage traffic, ensure higher performance, availability and recovery capability.</p>
+                                    <p>Whenever users access your applications, your service name is mapped to the IP address with the DNS query. By providing different responses to different DNS queries, Traffic Manager can make the incoming traffic of your several hosted Azure services achieve load balance, no matter whether these services are operated in the same data center or different data centers in China.</p>
+                                        <p>Traffic Manager provides several load-balance methods, including performance, failover and round robin. Applying these methods can effectively manage traffic, ensure higher performance, availability and recovery capability.</p>
                                 </section>
 
                             </div>
@@ -85,10 +85,10 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Traffic_Manager_question2">What is Traffic Manager’s “inspection of operating conditions”?</a>
+                                <a id="Traffic_Manager_question2">What is Traffic Manager “Health Check”?</a>
                                 <section>
-                                    <p>Applying Traffic Manager, you can utilize Azure service terminals for supervision and hosting, and Traffic Manager can also supply automatic failover features during service interruption, so as to improve availability of key applications.</p>
-                                    <p>Therefore, Traffic Manager will continuously monitor operating conditions of every service terminal. When these “operating condition inspections” detect that a service is stopped, the Traffic Manager will route traffic to the other services again.</p>
+                                    <p>Applying Traffic Manager, you can utilize Azure service endpoints for monitoring and hosting, and Traffic Manager can also supply automatic failover when a service goes down, so as to improve availability of critical applications.</p>
+                                    <p>Therefore, Traffic Manager will continuously monitor the health of each service endpoint. When these “Health Checks” detect that a service has goes down, Traffic Manager re-routes traffic to the other services.</p>
                                 </section>
 
                             </div>
@@ -98,7 +98,7 @@
                             <div>
                                 <a id="Traffic_Manager_question3">Are all pricing of the load-balancing methods the same? </a>
                                 <section>
-                                    <p>Yes. No matter which load-balance method is used, pricing for DNS query and inspection of operating conditions are the same.</p>
+                                    <p>Yes. No matter which load-balance method is used, pricing for DNS query and health checks are the same.</p>
                                 </section>
 
                             </div>
@@ -106,13 +106,13 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Traffic_Manager_question4">How to reduce Traffic Manager fees?</a>
+                                <a id="Traffic_Manager_question4">How to reduce Traffic Manager bill?</a>
                                 <section>
-                                    <p>The PC of the end user will not directly contact the name server of the traffic manager while performing a DNS query. Instead, these queries will be sent by the "recursive" DNS server operated by the enterprise and the ISP. These servers will cache the DNS response results, so that other users' queries can be processed quickly. Meanwhile, these cached responses will not reach the Traffic Manager name server, thus no cost is incurred.</p>
-                                    <p>The cache duration is determined by the “TTL” parameters responded to in the original DNS. This parameter can be configured in the Traffic Manager with a default value of 300s and minimal value of 30s.</p>
-                                    <p>The larger TTL can be applied to increase the quantity of the completed cache of the recursive DNS server, so as to decrease DNS query fees. However, increasing the cache will also affect the speed for the end user receiving status changes in the terminal (that is, in case of failure of a terminal, the failover time of your end user will be extended). Thus we do not recommend using extremely large TTL values.</p>
-                                    <p>Similarly, if the TTL is quite small, the failover speed will become faster, while due to the decreased cache, the query times for the name server of the Traffic Manager will increase.</p>
-                                    <p>By configuring the TTL value by yourself, the traffic manager allows you to set the optimal TTL value based on the business needs of the application.</p>
+                                    <p>The PC of the end user will not directly contact the name server of the traffic manager while performing a DNS query. Instead, these queries will be sent by the "recursive" DNS server run by the enterprise and the ISP. These servers cache the DNS responses, so that other users' queries can be processed quickly. Meanwhile, these cached responses will not reach the Traffic Manager name server, thus no cost is incurred.</p>
+                                    <p>The cache duration is determined by the “TTL” parameters in the original DNS response. This parameter is configurable in Traffic Manager with a default value of 300s and minimal value of 30s.</p>
+                                    <p>The larger TTL can be applied to increase the quantity of the completed cache of the recursive DNS server, so as to decrease DNS query fees. However, increasing the cache will also affect the speed for the end user receiving status changes in endpoint (that is, in case of failure of an endpoint, the failover time of your end user will be extended). Thus we do not recommend using extremely large TTL values.</p>
+                                    <p>Likewise, if the TTL is quite small, the failover speed will become faster, while due to the decreased cache, the query times for the name server of the Traffic Manager will increase.</p>
+                                    <p>By configuring the TTL value by yourself, Traffic Manager allows you to set the optimal TTL value based on the business needs of the application.</p>
                                 </section>
 
                             </div>
@@ -147,7 +147,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-traffic-manager</linkid>
     <metaKeywords>Azure, Microsoft Cloud, networking, Virtual Networking, Traffic Manager, Traffic Manager, load balancing, traffic</metaKeywords>
-    <metaDescription><![CDATA[Learn about the pricing details of Azure Traffic Manager. Azure Traffic Manager is a cloud-based load balancing service that improves application performance by automatically load balancing incoming traffic across data centers. Traffic Manager uses more favorable, step-wise pricing. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[Learn about the pricing details of Azure Traffic Manager. Azure Traffic Manager is a cloud-based load balancing service that improves application performance by automatically load balancing incoming traffic across data centers. Traffic Manager uses more favorable, step-wise pricing. A 1RMB Trial gets you ￥1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Traffic Manager</urlDisplayName>
   </TextpageLeftNav>
 </localize>
