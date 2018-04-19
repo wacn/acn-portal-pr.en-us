@@ -18,7 +18,7 @@
 				<div class="container">
 					<div id="price_overview_nav" class="page_body_nav">
 						<h1>
-							<a id="overview_anchor_knowPrice" class="anchor"></a> Understanding pricing for all services
+							<a id="overview_anchor_knowPrice" class="anchor"></a>Understanding pricing for all services
 							<br />
 						</h1>
 
@@ -26,14 +26,14 @@
 							<div class="nav_item" id="nav_item_pri">
 								<a id="overview_anchor_cal" class="anchor"></a>
 								<h2 class="nav_title">
-									Computing
+									Compute
 								</h2>
-								<ul title="Computing" class="low-price">
+								<ul title="Compute" class="low-price">
 									<li>
-										<a id="price_overview_cal_virtual-machines" href="/pricing/details/virtual-machines/" class="single-link"> Virtual Machines </a>
+										<a id="price_overview_cal_virtual-machines" href="/pricing/details/virtual-machines/" class="single-link">Virtual Machines</a>
 									</li>
 									<li>
-										<a id="price_overview_cal_virtual-machine-scale-sets" href="/pricing/details/virtual-machine-scale-sets/" class="single-link"> Virtual Machine Scale Sets </a>
+										<a id="price_overview_cal_virtual-machine-scale-sets" href="/pricing/details/virtual-machine-scale-sets/" class="single-link">Virtual Machine Scale Sets</a>
 									</li>
 									
 									<li>
@@ -49,7 +49,7 @@
 									</li>
 									
 									<li>
-										<a id="price_overview_cal_cloud-services" href="/pricing/details/cloud-services/" class="single-link"> Cloud Services </a>
+										<a id="price_overview_cal_cloud-services" href="/pricing/details/cloud-services/" class="single-link">Cloud Services</a>
 									</li>
 									
 								</ul>
@@ -60,9 +60,9 @@
 							<div class="nav_item" id="nav_item_pri">
 								<a id="overview_anchor_network" class="anchor"></a>
 								<h2 class="nav_title" >
-									Network
+									Networking
 								</h2>
-								<ul title="Network"  class="low-price">
+								<ul title="Networking"  class="low-price">
 									<li>
 										<a id="pricing_overview_network_virtual-network" href="/pricing/details/virtual-network/" class="single-link">Virtual Network</a>
 									</li>
@@ -143,20 +143,20 @@
 							<div class="nav_item larger_item" id="nav_item_pri">
 								<a id="overview_anchor_database" class="anchor"></a>
 								<h2 class="nav_title">
-									Database
+									Databases
 								</h2>
-								<ul title="Database">
+								<ul title="Databases">
 									<li>
 										<a id="pricing_overview_database_sql-database" href="/pricing/details/sql-database/" class="single-link">SQL Database</a>
 									</li>
 									<li>
-										<a id="pricing_overview_database_mysql" href="/pricing/details/mysql/" class="single-link"> MySQL Database on Azure </a>
+										<a id="pricing_overview_database_mysql" href="/pricing/details/mysql/" class="single-link">MySQL Database on Azure</a>
 									</li>
 									<li>
 										<a id="pricing_overview_database_sql-data-warehouse" href="/pricing/details/sql-data-warehouse/" class="single-link">SQL Data Warehouse</a>
 									</li>
 									<li>
-										<a id="pricing_overview_database_sql_server_stretch_database" href="/pricing/details/sql-server-stretch-database/" class="single-link"> SQL Server Stretch Database </a>
+										<a id="pricing_overview_database_sql_server_stretch_database" href="/pricing/details/sql-server-stretch-database/" class="single-link">SQL Server Stretch Database</a>
 									</li>									
 									<li>
 										<a id="pricing_overview_database_cosmos-db" href="/pricing/details/cosmos-db/" class="single-link">Cosmos DB</a>
@@ -172,9 +172,9 @@
 							<div class="nav_item larger_item" id="nav_item_pri">
 								<a id="overview_anchor_analytics" class="anchor"></a>
 								<h2 class="nav_title">
-									Analysis
+									Analytics
 								</h2>
-								<ul title="Analysis">
+								<ul title="Analytics">
 									
 									<li>
 										<a id="pricing_overview_analytics_hdinsight" href="/pricing/details/hdinsight/" class="single-link">HDInsight</a>
@@ -183,7 +183,7 @@
 										<a id="pricing_overview_analytics_stream-analytics" href="/pricing/details/stream-analytics/" class="single-link">Stream Analytics</a>
 									</li>
 									<li>
-										<a id="pricing_overview_analytics_power-bi-embedded" href="/pricing/details/power-bi-embedded/" class="single-link">Power BI Workspace Integration</a>
+										<a id="pricing_overview_analytics_power-bi-embedded" href="/pricing/details/power-bi-embedded/" class="single-link">Power BI Workspace Collection</a>
 									</li>
 									<li>
 										<a id="pricing_overview_analytics_analysis-services" href="/pricing/details/analysis-services/" class="single-link">Azure Analysis Services</a>
@@ -202,13 +202,13 @@
 										<a id="pricing_overview_analytics_cognitive-services" href="/pricing/details/cognitive-services/" class="single-link">Cognitive Services</a>
 									</li>
 									<li>
-										<a id="pricing_overview_analytics_cognitive-services-face-api" href="/pricing/details/cognitive-services/" class="single-link"> - Face API</a>
+										<a id="pricing_overview_analytics_cognitive-services-face-api" href="/pricing/details/cognitive-services/" class="single-link">- Face API</a>
 									</li>
 									<li>
-										<a id="pricing_overview_analytics_cognitive-services-computer-vision" href="/pricing/details/cognitive-services/" class="single-link"> - Computer Vision API</a>
+										<a id="pricing_overview_analytics_cognitive-services-computer-vision" href="/pricing/details/cognitive-services/" class="single-link">- Computer Vision API</a>
 									</li>
 									<!-- <li>
-										<a id="pricing_overview_analytics_cognitive-services-emotion" href="/pricing/details/cognitive-services/" class="single-link"> - 情绪识别 API</a>
+										<a id="pricing_overview_analytics_cognitive-services-emotion" href="/pricing/details/cognitive-services/" class="single-link">- 情绪识别 API</a>
 									</li> -->
 								</ul>
 							</div>
@@ -218,9 +218,9 @@
 							<div class="nav_item" id="nav_item_pri">
 								<a id="overview_anchor_internet" class="anchor"></a>
 								<h2 class="nav_title">
-									Connected Devices
+									Internet of Things
 								</h2>
-								<ul title="Connected Devices">
+								<ul title="Internet of Things">
 									<li>
 										<a id="pricing_overview_internet_iot_hub" href="/pricing/details/iot-hub/" class="single-link">Azure IoT Hub</a>
 									</li>
@@ -242,14 +242,14 @@
 							<div class="nav_item" id="nav_item_pri">
 								<a id="overview_anchor_integration" class="anchor"></a>
 								<h2 class="nav_title">
-									Enterprise Integration
+									Integration
 								</h2>
-								<ul title="Enterprise Integration">
+								<ul title="Integration">
 									<li>
 										<a id="pricing_overview_integration_service-bus" href="/pricing/details/service-bus/" class="single-link">Service Bus</a>
 									</li>
 									<li>
-										<a id="pricing_overview_integration_sql_server_stretch_database" href="/pricing/details/sql-server-stretch-database/" class="single-link"> SQL Server Stretch Database </a>
+										<a id="pricing_overview_integration_sql_server_stretch_database" href="/pricing/details/sql-server-stretch-database/" class="single-link">SQL Server Stretch Database</a>
 									</li>
 
 									<li>
@@ -263,11 +263,11 @@
 							<div class="nav_item" id="nav_item_pri">
 								<a id="overview_anchor_security" class="anchor"></a>
 								<h2 class="nav_title">
-									Security + Authentication
+									Security + Identity
 								</h2>
-								<ul title="Security + Authentication">
+								<ul title="Security + Identity">
 									<li>
-										<a id="pricing_overview_security_key-vault" href="/pricing/details/key-vault/" class="single-link">Key Vault </a>
+										<a id="pricing_overview_security_key-vault" href="/pricing/details/key-vault/" class="single-link">Key Vault</a>
 									</li>
 									<li>
 										<a id="pricing_overview_security_active-directory" href="/pricing/details/active-directory/" class="single-link">Azure Active Directory</a>
@@ -283,9 +283,9 @@
 							<div class="nav_item" id="nav_item_pri">
 								<a id="overview_anchor_manage" class="anchor"></a>
 								<h2 class="nav_title">
-									Monitoring + Supervision
+									Management Tools
 								</h2>
-								<ul title="Monitoring + Supervision">
+								<ul title="Management Tools">
 									<li>
 											<a id="pricing_overview_manage_automation" href="/pricing/details/automation/" class="single-link">Automation</a>
 										</li>
@@ -318,7 +318,7 @@
 							<div>
 								<a id="A0">What is the specific procedure for requesting a Fapiao? How many types of China Fapiao are there? Is there any restriction on Fapiao title?</a>
 								<section>
-									<p>Sign in to account.windowsazure.cn, click Subscriptions, Payment, History, Manage Fapiao, then complete sign-up. Refer to <a id="home_overview_fapiao" style="color:#00a8d9;" href="http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html">http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html </a>for more info.</p>
+									<p>Sign in to account.windowsazure.cn, click Subscriptions, Payment, History, Manage Fapiao, then complete sign-up. Refer to <a id="home_overview_fapiao" style="color:#00a8d9;" href="http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html">http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html</a>for more info.</p>
 									<p>Fapiaos include both special value-added tax Fapiaos and ordinary value-added tax Fapiaos.</p>
 									<p>Regarding Fapiao accounts, the client’s actual name must be used.</p>
 								</section>
@@ -330,7 +330,7 @@
 								<a id="A1">When and where can I apply for Fapiao?</a>
 								<section>
 									<p>After payment has been made, wait 3 days. After 3 days you can start applying for a Fapiao. Should you have any special requirements, please contact the 21Vianet service center, call 86-10-84563652 or 400-089-0365.</p>
-									<p>You can click here to apply directly for a Fapiao: <a id="home_overview_LoginView" style="color:#00a8d9;" href="http://fapiao.cloud.21vianet.com/EmailAcount/LoginView">http://fapiao.cloud.21vianet.com/EmailAcount/LoginView </a>. You can also follow the steps below to sign in to the Fapiao page.</p>
+									<p>You can click here to apply directly for a Fapiao: <a id="home_overview_LoginView" style="color:#00a8d9;" href="http://fapiao.cloud.21vianet.com/EmailAcount/LoginView">http://fapiao.cloud.21vianet.com/EmailAcount/LoginView</a>. You can also follow the steps below to sign in to the Fapiao page.</p>
 									<p>Sign in to the Azure Account Center at: <a id="home_overview_account" style="color:#00a8d9;" href="http://account.windowsazure.cn">http://account.windowsazure.cn</a>, click Subscriptions, Payment History, Manage Fapiao, then complete sign-up.</p>
 								</section>
 							</div>
@@ -379,9 +379,9 @@
 		   
     ]]></bodyText>
     <umbracoNaviHide>0</umbracoNaviHide>
-    <pageTitle>To find out about all Azure pricing - Azure Cloud Computing</pageTitle>
+    <pageTitle>To find out about all Azure pricing - Azure</pageTitle>
     <metaKeywords>Azure, Microsoft Cloud, Pricing, Service Pricing, Price calculator, Discounts, Invoicing</metaKeywords>
-    <metaDescription><![CDATA[Windows Azure provides detailed price information and you can find out the price of all services as well as preferential deals. It provides price estimates that allow you to quickly understand your costs. At the same time, it will provide you answers to FAQ related to purchasing and provide you consultation.]]></metaDescription>
+    <metaDescription><![CDATA[Azure provides detailed price information and you can find out the price of all services as well as preferential deals. It provides price estimates that allow you to quickly understand your costs. At the same time, it provides you answers to FAQ related to purchasing and provides you consultation.]]></metaDescription>
     <linkid>pricing-overview</linkid>
     <urlDisplayName>Overview</urlDisplayName>
     <headerExpose></headerExpose>

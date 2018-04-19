@@ -9,8 +9,10 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services.png"/>
                         <h2><span>Cognitive Services APIs</span></h2>
-						<h4>Infuse your apps, websites, and bots with intelligent algorithms to see, hear, speak, understand, and interpret user needs using natural methods of communication. Transform your business with AI now.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_cognitive-services">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cognitive-services-calculator_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+
+						<h4>Infuse your apps, websites and bots with intelligent algorithms to see, hear, speak, understand and interpret your user needs through natural methods of communication. Transform your business with AI today.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_cognitive-services">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cognitive-services-calculator_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+
                     </div>
                 </div>
             </div>
@@ -21,7 +23,7 @@
     <div class="tab-control-container tab-active" id="tabContent1">
         <!-- BEGIN: Table1-Content-->
         <h3>Face API</h3>
-			<p>The Face API uses an advanced cloud-based face algorithm to detect and recognize faces in images. Related functions include face detection, face verification, and face grouping. Faces can be organized into groups based on the similarity of face images.</p>
+			<p>The Face API uses uses state-of-the-art cloud-based face algorithms to detect and recognize human faces in images. Capabilities include features like face detection, face verification, and face grouping to organize faces into groups based on their visual similarity.</p>
 			<div class="tags-date">
 				<div class="ms-date">*The following prices are tax-inclusive.</div>
             </div>
@@ -44,27 +46,34 @@
             <tr>
                 <td></td>
                 <td>0-1,000,000 transactions</td>
-                <td>6.36RMB per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
+
+                <td>￥ 6.36 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
+
             </tr>
             <tr>
                 <td></td>
                 <td>1,000,001-5,000,000 transactions</td>
-                <td>5.09RMB per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
+
+                <td>￥ 5.09 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
             </tr>
             <tr>
                 <td></td>
-                <td>5,000,001–100,000,000 transactions</td>
-                <td>3.82RMB per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
+                <td>5,000,001-20,000,000 transactions</td>
+                <td>￥ 3.82 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
+
             </tr>
             <tr>
                 <td></td>
                 <td>More than 100,000,000 transactions</td>
-                <td>2.54RMB per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
+
+                <td>￥2.54 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
             </tr>
 			<tr>
 				<td>Facial recognition storage</td>
 				<td>Maximum 4 MB per image</td>
-                <td>1.59RMB per month per 1,000 images <sup style="color:#e66102; font-weight: bold">new</sup></td>
+
+                <td>￥ 1.59 per month per 1,000 images <sup style="color:#e66102; font-weight: bold">new</sup></td>
+
             </tr>
             
         </table>
@@ -101,7 +110,7 @@
             </tr>
         </table> --> <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
         <h3>Computer Vision API</h3>
-        <p>This state-of-the-art, cloud-based API enables developers to access advanced algorithms that allow for the extraction of rich information from images to classify and process visual data. Features include image analysis, tagging, celebrity recognition, text extraction, and smart thumbnail generation.</p>
+        <p>This state-of-the-art, cloud-based API provides developers with access to advanced algorithms that allow you to extract rich information from images to categorize and process visual data. Capabilities include image analysis, tagging, recognition celebrities, text extraction, and smart thumbnail generation.</p>
        
         <div class="tags-date">
 				<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -119,38 +128,47 @@
             </tr>
             <tr>
                 <td>S1</td>
-				<td>Tagging, facial recognition, getting thumbnail colors and image types</td>
-                <td>0-1 million transactions - RMB6.36 per 1,000 transactions </td>
+				<td>Tag, Face, GetThumbnail Color, and Image Types</td>
+                <td>0-1 million transactions - ￥ 6.36 per 1,000 transactions </td>
+
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td>1 million-5 million transactions - RMB5.088 per 1,000 transactions</td>
+                <td>1 million-5 million transactions - ￥ 5.088 per 1,000 transactions</td>
+
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td>5 million+ transactions - RMB4.134 per 1,000 transactions </td>
+
+                <td>5 million+ transactions - ￥ 4.134 per 1,000 transactions </td>
             </tr>
             <tr>
                 <td>S2</td>
-                <td>OCR (print), adults, celebrities, and landmarks</td>
-                <td>0-1 million transactions - RMB9.54 per 1,000 transactions </td>
+                <td>OCR (printed), Adult, Celebrity, and Landmark</td>
+                <td>0-1 million transactions - ￥ 9.54 per 1,000 transactions </td>
+
+          
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td>1 million-5 million transactions - RMB6.36 per 1,000 transactions</td>
+
+                <td>1 million-5 million transactions - ￥ 6.36 per 1,000 transactions</td>
+
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td>5 million+ transactions - RMB4.13 per 1,000 transactions </td>
+
+                <td>5 million+ transactions - ￥ 4.13 per 1,000 transactions </td>
             </tr>
             <tr>
                 <td>S3</td>
-                <td>Description and OCR (handwriting)</td>
-                <td>RMB15.90 per 1,000 transactions</td>
+                <td>Describe and OCR (handwriting)</td>
+                <td>￥ 15.90 per 1,000 transactions</td>
+
             </tr>
             
         </table>

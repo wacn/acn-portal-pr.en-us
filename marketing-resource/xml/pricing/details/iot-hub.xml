@@ -16,7 +16,7 @@
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>Connect, monitor, and manage millions of IoT assets running on various operating systems and agreements to rapidly start your Internet of Things projects through Azure IoT Hub. If required, control access to specific devices to maintain system integrity. The reliable two-way communication (even intermittent connections) can be established with the help of these assets so as to analyze the input remote-sensing data and send commands and notifications according to requirements. Improve the security of IoT solutions by using the identity verification of each device and through suitable credentials and equipment communications.</p>
+                <p>Connect, monitor, and control millions of IoT assets running on a broad set of operating systems and protocols to jumpstart your Internet of Things project with the IoT Hub. Enhance security of your IoT solutions by using per-device authentication to communicate with devices with the appropriate credentials. Securely establish reliable, bi-directional communication with these assets, even if they are intermittently connected, to analyze incoming telemetry, synchronize device management workflows, and send commands and notifications as needed.</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
@@ -35,9 +35,9 @@
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <th align="left"><strong>Edition Type</strong></th>
-                            <th align="left"><strong>Pricing/Unit/Month</strong></th>
-                            <th align="left"><strong>Total consumption/Day/Unit</strong></th>
-                            <th align="left"><strong>Consumption Calculation Size</strong></th>
+                            <th align="left"><strong>Price per Unit (per Month)</strong></th>
+                            <th align="left"><strong>Total Number of Messages/Day per Unit</strong></th>
+                            <th align="left"><strong>Message Meter Size</strong></th>
                         </tr>
                         <tr>
                             <td>Free</td>
@@ -47,19 +47,25 @@
                         </tr>
                         <tr>
                             <td>S1</td>
-                            <td>RMB388.00</td>
+
+                            <td>￥ 388.00</td>
+
                             <td>400,000</td>
                             <td>4KB</td>
                         </tr>
                         <tr>
                             <td>S2</td>
-                            <td>RMB3888.00</td>
+
+                            <td>￥ 3888.00</td>
+
                             <td>6,000,000</td>
                             <td>4KB</td>
                         </tr>
                         <tr>
                             <td>S3</td>
-                            <td>RMB38880.00</td>
+
+                            <td>￥ 38880.00</td>
+
                             <td>300,000,000</td>
                             <td>4KB</td>
                         </tr>
