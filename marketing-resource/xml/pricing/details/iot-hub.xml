@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/azure-iot-hub80.png" />
                         <h2><span>Azure IoT Hub</span></h2>
                         <h4>Connect, monitor and control millions of IoT assets, and improve the security of IoT solutions</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_iot-hub_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-hub_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_iot-hub_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-hub_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -47,19 +47,25 @@
                         </tr>
                         <tr>
                             <td>S1</td>
+
                             <td>￥ 388.00</td>
+
                             <td>400,000</td>
                             <td>4KB</td>
                         </tr>
                         <tr>
                             <td>S2</td>
+
                             <td>￥ 3888.00</td>
+
                             <td>6,000,000</td>
                             <td>4KB</td>
                         </tr>
                         <tr>
                             <td>S3</td>
+
                             <td>￥ 38880.00</td>
+
                             <td>300,000,000</td>
                             <td>4KB</td>
                         </tr>
@@ -173,20 +179,20 @@
                 </div>
             </div>
             <div class="pricing-page-section">
-                <h2>Marketing Regions</h2>
+                <h2>Region</h2>
                 <p>Azure IoT Hub is available in the following areas:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territories</strong></th>
-                        <th align="left"><strong>Regions</strong></th>
+                        <th align="left"><strong>Territory</strong></th>
+                        <th align="left"><strong>Region</strong></th>
                     </tr>
                     <tr>
                         <td>Mainland China</td>
-                        <td>China East Data Center, China North Data Center</td>
+                        <td>China North, China East</td>
                     </tr>
                 </table>
 				<div class="pricing-page-section">
-                <h2>Support and Service Level Agreements</h2>
+                <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="iot-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
                 <p>For IoT Hub, we guarantee that, at least 99.9% of the time, the deployed IoT Hub can send information to and receive information from registered devices, and the service can perform operations such as creation, reading, updates, and deletion on the IoT Hub.</p>
 				<p>Service Level Agreement is not available in the free edition of IoT Hub.</p> 
@@ -199,7 +205,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-iot-hub</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Internet of Things, Azure IoT Hub, Azure IoT Hub, monitoring Internet of Things assets, two-way communications, and price</metaKeywords>
-    <metaDescription><![CDATA[Learn about the pricing details of Azure IoT Hub. Connect, monitor, and control millions of Internet of Things assets by using Azure IoT Hub. Azure IoT Hub offers free, S1, S2, and S3 Editions. The free version of Azure IoT Hub can transmit up to 8,000 messages per day. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[Learn about the pricing details of Azure IoT Hub. Connect, monitor, and control millions of Internet of Things assets by using Azure IoT Hub. Azure IoT Hub offers free, S1, S2, and S3 Editions. The free version of Azure IoT Hub can transmit up to 8,000 messages per day. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Azure IoT Hub</urlDisplayName>
   </TextpageLeftNav>
 </localize>

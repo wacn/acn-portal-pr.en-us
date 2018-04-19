@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <localize>
   <umbTextpage template="21" createDate="2017-12-04T11:20:07" updateDate="2017-12-04T11:34:25">
     <bodyText><![CDATA[
@@ -13,49 +13,47 @@
             wacn.date="07/2017"
             wacn.lang="cn" 
             ms.author="will"/></p>
-        <h1>ICP registration operation analysis</h1><div class="tags-date"><div class="wacn-date">Final renewal date is July 2017</div></div>
+        <h1>ICP filing operation analysis</h1><div class="tags-date"><div class="wacn-date">Last updated: Wednesday April 4, 2018</div></div>
         <h2>Hot issues</h2>
-        <h3>1. What is an ICP license and ICP registration? If I deploy my services to Axure, do I need an ICP license or ICP registration?</h3>
-        <p>ICP registration is a Ministry of Information and Information Technology requirement that each connected Internet website in China must request permission to connect to the web.</p>
+        <h3>1. What is an ICP license and ICP filing? If I deploy my services to Azure, do I need an ICP license or ICP filing?</h3>
+        <p>ICP filing is a Ministry of Information and Information Technology requirement that each connected Internet website in China must request permission to connect to the web.</p>
         <p>An ICP license is a website business license in accord with national “Internet Administration Procedures” requirements. Administering a website must include an ICP license, if not, the site is being run illegally.</p>
-        <p>Chinacloudapp.cn, Chinacloudapi.cn and Chinacloudsites.cn domains are registered to the Shanghai Azure Network Technology Company, Ltd. and are used solely to provide Azure services to its clients. If you want to provide outside services through the Azure platform, you must provide those services through your own domain and according to relevant regulations, your domain must have an ICP registration.</p>
-        <p>Whether of not you need an ICP license, if your business cannot itself judge, openly contact your local telecommunication administration bureau to confirm.。
+        <p>Chinacloudapp.cn, Chinacloudapi.cn and Chinacloudsites.cn domains are filed to the Shanghai Blue Cloud Network Technology Company, Ltd. and are used solely to provide Azure services to its clients. If you want to provide outside services through the Azure platform, you must provide those services through your own domain and according to relevant regulations, and your domain must have an ICP filing.</p>
+        <p>If your business cannot itself judge, whether or not you need an ICP license, feel free to contact your local telecommunication administration bureau to confirm.
         </br>
         </br></p>
-        <h3>2. Where is the registration in-person signing location?</h3>
+        <h3>2. Where is the filing in-person signing location?</h3>
         <p>Beijing: No. 1, M5 Building, Jiuxianqiao Road, Chaoyang District, Beijing Telephone: 4000890365</p>
         <p>Shanghai: Room 657, Building 3, No. 88, Keyuan Road, Pudong District, Shanghai  Telephone: 4000890365
         </br>
         </br></p>
-        <h3>3. What material does an ICP registration require?</h3>
-        <h4>1. Company registration:</h4>
+        <h3>3. What materials does an ICP filing require?</h3>
+        <h4>1. Enterprise filing:</h4>
         <ul>
         <li>Host documents: business license (enterprise), Organization Code Certificate (non-enterprises only)</li>
-        <li>Document for the person in charge of the website: company identification card, identity card, or passport (passport is acceptable only for those who are not residents of China)</li>
-        <li>Document for the person responsible for the host: company identification card, identity card, or passport (passport is acceptable only for those who are not residents of China)</li>
-        <li>Website authentication checklist: Download from the registration system homepage in must-read registration documentation</li>
-        <li>Network security responsibility letter: Download from the registration system homepage in must-read registration documentation</li>
-        <li>Domain certificate: If the domain is registered in China, directly contact the company that provided the domain registration for the information; if the domain is registered outside China, take a screenshot of an Internet Whois lookup</li>
-        <li>Authorized legal representative letter (only needed for an individual user, see administrative special requirements): download from the registration system homepage must-read registration documentation</li>
-        <li>Residence permit: Only required for a single user, see “administrative special requirements”</li>
+        <li>Documents for the person in charge of the website: company identification card, identity card, or passport (passport is acceptable only for those who are not residents of China)</li>
+        <li>Documents for the person responsible for the host: company identification card, identity card, or passport (passport is acceptable only for those who are not residents of China)</li>
+        <li>Website authentication form: Download from the filing system homepage in “Must-read Filing Documentation”</li>
+        <li>Network security responsibility letter: download from the filing system homepage in “Must-read Filing Documentation”</li>
+        <li>Letter of authorization of representative authority (only needed for an individual user, see administrative special requirements): download from the filing system homepage “Must-read Filing Documentation”</li>
+        <li>Residence permit: Only required for a single user, see “Administrative Special Requirements”</li>
         </ul>
-        <h4>2. Single-person registration:</h4>
+        <h4>2. Individual filing:</h4>
         <ul>
-        <li>Host + person responsible for the website + principal person responsible: If they are all the same person, then they must provide an identity card (for those not resident on the mainland, they must provide a passport or mainland travel permit for Taiwan residents)</li>
-        <li>Website authentication checklist: Download from the registration system homepage in must-read registration documentation</li>
-        <li>Network security responsibility letter: Download from the registration system homepage in must-read registration documentation</li>
-        <li>Domain certificate: If the domain is registered in China, directly contact the company that provided the domain registration for the information; if the domain is registered outside China, take a screenshot of an Internet Whois lookup</li>
-        <li>Residence permit: Only required for a single user, see “administrative special requirements”</li>
+        <li>Host + person responsible for the website + principal person responsible: if they are all the same person, then they must provide an identity card (for those not residents of the mainland, they must provide a passport or mainland travel permit for Taiwan residents)</li>
+        <li>Website authentication form: Download from the filing system homepage in “Must-read Filing Documentation”</li>
+        <li>Network security responsibility letter: download from the filing system homepage in “Must-read Filing Documentation”</li>
+        <li>Residence permit: Only required for a single user, see “Administrative Special Requirements”</li>
         </ul>
-        <h4>3. Note: The above material documentation and photos or original color scanned items must be directly entered into the registration system; When signing in-person, carry the original “Website authentication checklist + network security responsibility agreement ” documentation.</h4>
-        <p></br>
+        <h4>3. Note: The above material documentation and photos or original color scanned items must be directly uploded into the filing system. When signing in-person, carry the original “Website Authentication Checklist + Network Security Responsibility Agreement ” documentation.</h4>
+        <p>
         </br></p>
-        <h3>4. What is the ICP registration process?</h3>
-        <p>Register at “<a id="icp-faq_cloud.21vianet" href="https://icp.cloud.21vianet.com">icp.cloud.21vianet.com</a>” to fill out and submit the relevant information. After we conduct an initial audit, we will notify the person responsible for your website to carry the relevant material to the site of the audit. After that, we will submit the information to the provincial administrators and if the audit passes, the registration is complete.
+        <h3>4. What is the ICP filing process?</h3>
+        <p>Register at “<a id="icp-faq_cloud.21vianet" href="https://icp.cloud.21vianet.com">icp.cloud.21vianet.com</a>” to fill out and submit the relevant information. After we conduct an initial audit, we will notify the person responsible for your website to carry the relevant materials to the site of the audit. After that, we will submit the information to the provincial administrators and if the audit passes, the filing is complete.
         </br>
         </br></p>
-        <h3>5. How long is the ICP registration period?</h3>
-        <p>After you have submitted the information, we will carry out an initial audit within 2 working days. If the audit passes, we will notify you to come to our offices for an on-site inspection of the documents. After signing in-person, and after we have received the paper documents and pictures, we will conduct a second audit within 1.5 business days. We will then submit the information to provincial administrators. The administrators will issue their views on the audit within 20 working days.
+        <h3>5. How long is the ICP filing period?</h3>
+        <p>After you have submitted the information, we will carry out an initial audit within 2 working days. If the audit passes, we will notify you to come to our offices for an on-site inspection of the documents. After signing in-person, and after we have received the paper documents and pictures, we will conduct a second audit within 1.5 business days. We will then submit the information to provincial administrators. The administrators will notify you about the results of the audit within 20 working days.
         </br>
         </br></p>
         <h3>6. The audit period for local provincial administrations is estimated. (Note: the audit period is ultimately up to the administration)</h3>
@@ -65,79 +63,75 @@
         3 Days: Shanghai
         </br>
         </br></p>
-        <h3>7. Under what conditions should there be a registration?</h3>
+        <h3>7. Under what conditions should there be a filing?</h3>
         <ol>
-        <li>New registration: for users registering for the first time.</li>
-        <li>New website: if you already have an ICP registration, a new website for the same host or a previously uncompleted registration for a website is registered.</li>
-        <li>New access: a website originally from another service provider that has already gone through user registration and the website is being moved to our access with the original user domain.
+        <li>New filing: for users registering for the first time.</li>
+        <li>New website: if you already have an ICP filing, a new website for the same host or a previously uncompleted filing for a website is filed.</li>
+        <li>New access: a website originally from another service provider that has already gone through user filing and the website is being moved to our access with the original user domain.
         </br>
         </br></li>
         </ol>
         <h3>8. Where can I retrieve the login account password?</h3>
         <ol>
-        <li></li>
-        <li>The system upgrades the previous registered account client: e-mails it to the registered contact person; After the system is upgraded, the registered account client: sent to the login email mailbox, namely the login account (note: if you add a new mailbox to a “basic information installation”, then by default it will be sent to this mailbox)
-        </br>
+        <li>Registered account customer, before system upgrade: It is sent to the registered contact person’s email address.</li>
+        <li>Registered account customer, after system upgrade: It is sent to the login email address, i.e., the login account (Note: If you add a new email address in Basic Information Settings, it will be sent to this email address by default).</br>
         </br></li>
         </ol>
         <h3>9. Who is the in-person signing notice sent to?</h3>
-        <p>It is sent to the registered contact person’s mailbox.。
+        <p>It is sent to the registered contact person’s email.
         </br>
         </br></p>
-        <h3>10. Where can I get the registration authentication checklist and security responsibility agreement?</h3>
-        <p>On the registration system homepage, must-read documents.
+        <h3>10. Where can I get the filing authentication form and security responsibility agreement?</h3>
+        <p>On the filing system homepage, Must-read Filing Documents.
         </br>
         </br></p>
         <h3>11. About previously inspected and approved industries and departments that conduct inspections and approvals: educational and medical health care are not required to be previously inspected and approved</h3>
         <p><img src="https://resource.cdn.azure.cn/tech-content\icp/media/8-1.png" alt="Procedure" />
         </br>
         </br></p>
-        <h3>12. How should I fill out the registration access information, server location, and access method in the registration system?</h3>
-        <p>Server location: Select “Beijing” or “Shanghai”;</p>
+        <h3>12. How should I fill out the filing access information, server location, and access method in the filing system?</h3>
+        <p>Server location: Select “Beijing” or “Shanghai”</p>
         <p>Access method: Cloud access.
         </br>
         </br></p>
-        <h3>13. If the domain is only used for a mailbox, must it be registered? If the top level domain has already been registered, do mail type of second level domains require registration?</h3>
-        <p>Registration is determined by the top level domain, if the top level domain hasn’t been registered and that domain is open to the Internet for information services it must be registered. Thus, domains that only have a mailbox still must be registered.
+        <h3>13. If the domain is only used for an email, must it be registered? If the top level domain has already been registered, do the mail type of second level domains require filing?</h3>
+        <p>Filing is determined by the top level domain. If the top level domain hasn’t been registered and that domain is open to the Internet for information services, it must be registered. Thus, domains that only have a email still must be registered.
         </br>
         </br></p>
         <h3>14. Which websites must be registered?</h3>
-        <p>If the user can publish information on the Internet from a standalone domain or standalone IP browser company, then it must be registered.。
+        <p>If the user can publish information on the Internet from a standalone domain or standalone IP browser company, then it must be registered.
         </br>
         </br></p>
-        <h3>15. I only sign on to the domain to send to an already registered domain, does my domain still need to be registered?</h3>
-        <p>It must be registered, you need to add the domain information to an already registered website.
+        <h3>15. If I only sign on to the domain to send to an already registered domain, does my domain still need to be registered?</h3>
+        <p>It must be registered. You need to add the domain information to an already registered website.
         </br>
         </br></p>
-        <h3>16. After registration is completed, can I amend the registration information?</h3>
-        <p>It can be amended, but any amendment to some content must provide material for re-examination. Because current provincial administrative bureau requirements are not uniform, when the time comes for an amendment contact a customer service representative for confirmation.
+        <h3>16. After filing is completed, can I amend the filing information?</h3>
+        <p>It can be amended, but any amendment to some content must provide materials for re-examination. Because current provincial administrative bureau requirements are not uniform, when the time comes for an amendment, contact a customer service representative for confirmation.
         </br>
         </br></p>
-        <h3>17. Can registration information be amended once it is in an administrative bureau for audit?</h3>
-        <p>It cannot be amended. After the administrative bureau has done the audit, you can amend the registration information. Any amended registration information must be resubmitted to the auditing administrative bureau before it can take effect.
+        <h3>17. Can filing information be amended once it is in an administrative bureau for audit?</h3>
+        <p>It cannot be amended. After the administrative bureau has done the audit, you can amend the filing information. Any amended filing information must be resubmitted to the auditing administrative bureau before it can take effect.
         </br>
         </br></p>
-        <h3>18. If I forget the registration password, how can I retrieve it?</h3>
-        <p>After registration is completed, communicate with the administrative bureau, who can send it directly to the principal person responsible for the registration. If you forget your password, log on to the Ministry of Industry and Information Technology website (<a id="icp-faq_miitbeian" href="www.miitbeian.gov.cn">www.mittbeian.gov.cn</a>) to retrieve it, or retrieve it from your local telecommunications administration bureau.
+        <h3>18. If I forget the filing password, how can I retrieve it?</h3>
+        <p>After filing is completed, the Communications Management Bureau will directly issue the filing password to the person responsible for filing. If you forget your password, log on to the Ministry of Industry and Information Technology website (<a id="icp-faq_miitbeian" href="www.miitbeian.gov.cn">www.mittbeian.gov.cn</a>) to retrieve it, or retrieve it from your local telecommunications administration bureau.
         </br>
         </br></p>
-        <h3>19. Whenever operations are conducted, can I use the administrative bureau-provided registration password?</h3>
-        <p>Newly added access cancels it.
+        <h3>19. Whenever operations are conducted, can I use the administrative bureau-provided filing password?</h3>
+        <p>New access, cancellation of HOST.
         </br>
         </br></p>
-        <h3>20. When my website registration is completed, what’s the next step?</h3>
-        <p>After registration is completed, The Ministry of Industry and Information Technology will email and text the results to notify you. You can obtain a website ICP registration number and registration password. Put your registration number on your website and link it to the Ministry of Industry and Information Technology registration website at <a id="icp-faq_miitbeian-2" href="http://www.miitbeian.gov.cn">www.miitbeian.gov.cn</a>.</br>
-        Please Note: According to the provisions of Article 12 of the Administrative Measures for the Security Protection of Computer Information Networks Linked to the Internet (Ministry of Public Security Order No. 33), after registering with the Ministry of Industry and Information Technology, the local company or individual responsible for a website must register with a local Public Security Organization within 30 days after the website launches. If the Public Security registration procedures are not carried out, quickly submit a Public Security Registration Application on the National Public Security Internet site Website Security Management Services Platform (<a id="icp-faq_beian" href="http://www.beian.gov.cn">www.beian.gov.cn</a>). If you need to ask questions about Public Security Registration, contact your local Public Security Network Security Department. If your local registration is in Shanghai, immediately complete website Public Security Registration according to the above, but if it is more than 30 days before this is completed, you must take appropriate measures to carry this out according to law. Thank you for your understanding and cooperation!
+        <h3>20. When my website filing is completed, what’s the next step?</h3>
+        <p>After filing is completed, The Ministry of Industry and Information Technology will email and text the results to notify you. You can obtain a website ICP filing number and filing password. Put your filing number on your website and link it to the Ministry of Industry and Information Technology filing website at <a id="icp-faq_miitbeian-2" href="http://www.miitbeian.gov.cn">www.miitbeian.gov.cn</a>.</br>
+        Please note: According to the provisions of Article 12 of the Administrative Measures for the Security Protection of Computer Information Networks Linked to the Internet (Ministry of Public Security Order No. 33), after registering with the Ministry of Industry and Information Technology, the local company or individual responsible for a website must register with a local Public Security Organization within 30 days after the website launches. If the Public Security filing procedures are not carried out, quickly submit a Public Security Filing Application on the National Public Security Internet site’s Website Security Management Services Platform (<a id="icp-faq_beian" href="http://www.beian.gov.cn">www.beian.gov.cn</a>). If you need to ask questions about Public Security Filing, contact your local Public Security Network Security Department. If your local filing is in Shanghai, immediately complete website Public Security Filing according to the above, but if it is more than 30 days before this is completed, you must take appropriate measures to carry this out according to law. Thank you for your understanding and cooperation!
         </br>
         </br></p>
         <h3>21. My main website (namely www.abc.com) access is outside China but the second level domain is inside China, how should it be registered?</h3>
-        <p>According a final ruling by the department (namely the Telecommunications Authority), this situation is an illegally registered ICP.
+        <p>According to a final ruling by the department (namely the Telecommunications Authority), this situation is an illegally filed ICP.
         </br>
         </br></p>
-        <h3>22. What domain suffixes cannot be registered?</h3>
-        <p>Log on to the Ministry of Industry and Information Technology website public search and click on <strong>domain types</strong>. If the suffix cannot be found, it cannot be registered. The search site is: <a id="icp-faq_shcainfo" href="http://shcainfo.miitbeian.gov.cn/publish/query/indexFirst.action;jsessionid=8EDBAA25F7994B825272C5A50583B88C">http://shcainfo.miitbeian.gov.cn/publish/query/indexFirst.action;jsessionid=8EDBAA25F7994B825272C5A50583B88C</a>.
-        </br>
-        </br></p>
+        
     
     ]]></bodyText>
     <umbracoNaviHide>0</umbracoNaviHide>
@@ -145,7 +139,7 @@
     <metaKeywords></metaKeywords>
     <metaDescription><![CDATA[
         
-            Some questions about ICP registration
+            Some questions about ICP filing
             
     ]]></metaDescription>
     <linkid>0</linkid>

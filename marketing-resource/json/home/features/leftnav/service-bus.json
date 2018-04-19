@@ -8,7 +8,7 @@
 		[
 			{"link": "/home/features/service-bus/", 
 			"id": "leftnav_product_messaging_function", 
-			"title": "Product Functionality"}, 
+			"title": "Product overview"}, 
 			{"link": "/pricing/details/service-bus/", 
 			"id": "leftnav_product_messaging_pricing", 
 			"title": "Pricing details"},
@@ -32,13 +32,13 @@
 			"title": "Web Apps"}, 
 			{"link": "/home/features/event-hubs/", 
 			"id": "leftnav_product_event-hubs_function", 
-			"title": "Event Center"},
+			"title": "Event Hubs"},
 			{"link": "/home/features/notification-hubs/", 
 			"id": "leftnav_product_notification-hubs_function", 
-			"title": "Notification Center"},
+			"title": "Notification Hubs"},
 			{"link": "/home/features/virtual-machines/", 
 			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual Machine"}
+			"title": "Virtual Machines"}
 		]
 	}, 
 	{"group": "Related documentation and links", 
@@ -50,7 +50,7 @@
 			"title": "Using the Service Bus to queue a .NET multi-tier application routine"},
 			{"link": "https://docs.azure.cn/service-bus-messaging/service-bus-pricing-faq/", 
 			"id": "leftnav_product_messaging_articles_service-bus-pricing-faq", 
-			"title": "FAQs about fixed pricing for the Service Bus"}
+			"title": "FAQ about fixed pricing for the Service Bus"}
 		]
 	}
 ]

@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/cdn@2x.png" />
                         <h2>Content Delivery Network (CDN)</h2>
                         <h4>Azure CDN distributes your websites, videos, and apps to users' nearest nodes quickly and securely, giving nearby users access to the content they need, and providing a high-performance, low latency content delivery service.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_cdn_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cdn_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_cdn_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cdn_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -46,15 +46,15 @@
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
             <div class="pricing-page-section link-group-container">
-                <h1>Find out more</h1>
+                <h1>More</h1>
                 <ul>
                     <li><a href="https://docs.azure.cn/cdn/cdn-overview/" id="home_cdn_guide">Azure CDN overview </a></li>
                     <li><a href="https://docs.azure.cn/cdn/cdn-how-to-use/" id="home_cdn_use">Azure CDN user guide</a></li>
                     <li><a href="https://docs.azure.cn/cdn/cdn-pops/" id="home_cdn_node">Azure CDN node distribution</a></li>
                     <li><a href="https://docs.azure.cn/cdn/cdn-management-portal-how-to-use/" id="home_cdn_manage">Azure CDN Management Portal help manual</a></li>
                     <li><a href="https://docs.azure.cn/cdn/cdn-faq-service-inquiry/" id="home_cdn_inquiry">CDN service consulting questions</a></li>
-                    <li><a href="https://docs.azure.cn/cdn/cdn-faq-service-config/" id="home_cdn_config">CDN server configuration FAQs</a></li>
-                <li><a href="https://docs.azure.cn/cdn/cdn-faq-service-issues/" id="home_cdn_issues">CDN service failure FAQs</a></li>
+                    <li><a href="https://docs.azure.cn/cdn/cdn-faq-service-config/" id="home_cdn_config">CDN server configuration FAQ</a></li>
+                <li><a href="https://docs.azure.cn/cdn/cdn-faq-service-issues/" id="home_cdn_issues">CDN service failure FAQ</a></li>
                 </ul>
             </div>
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   

@@ -1,19 +1,19 @@
 {
   "RULES_NAME_NOT_EMPTY": {
     "desc": "name can not be empty",
-    "title": "Name cannot be left blank"
+    "title": "Name in Chinese cannot be left blank"
   },
   "RULES_NAME_FORMAT_ERROR": {
     "desc": "name format is not valid",
-    "title": "Name is in the wrong format"
+    "title": "Name in Chinese is in the wrong format"
   },
   "RULES_ID_NOT_EMPTY": {
     "desc": "ID can not be empty",
-    "title": "ID number cannot be left blank"
+    "title": "China Identity Card Number cannot be left blank"
   },
   "RULES_ID_FORMAT_ERROR": {
     "desc": "ID format is not valid",
-    "title": "ID number is in the wrong format"
+    "title": "China Identity Card Number is in the wrong format"
   },
   "RULES_EMAIL_NOT_EMPTY": {
     "desc": "email can not be empty",
@@ -25,7 +25,7 @@
   },
   "RULES_USER_PROFILING_NOT_EMPTY": {
     "desc": "user profiling can not be empty",
-    "title": "Please select ID type information"
+    "title": "Please select your profession information"
   },
   "RULES_USER_CONFIRM_NOT_EMPTY": {
     "desc": "user confirm is needed",
@@ -33,7 +33,7 @@
   },
   "RULES_USER_LANG_NOT_EMPTY": {
     "desc": "user lang is needed",
-    "title": "Please select most commonly used language information"
+    "title": "Please select most used language information"
   },
   "RULES_USER_IMAGE_NOT_EMPTY": {
     "desc": "user image is needed",
@@ -49,11 +49,11 @@
   },  
   "RULES_USER_IMAGE_SELECTION": {
     "desc": "select user image",
-    "title": "Please select picture"
+    "title": "Please select a picture"
   },  
   "RULES_ENTERPRISE_NAME_NOT_EMPTY": {
     "desc": "enterprise name can not be empty",
-    "title": "Full name of company cannot be left blank"
+    "title": "Full name of the enterprise cannot be left blank"
   },  
   "RULES_ENTERPRISE_CODE_NOT_EMPTY": {
     "desc": "enterprise code can not be empty",
@@ -69,7 +69,7 @@
   },
   "REALNAME_SUBMIT_ERROR_MESSAGE_IN_MAINTAIN_MODE": {
     "desc": "real name form is in maintain mode",
-    "title": "The system is undergoing maintenance, please try again later"
+    "title": "The system is in maintenance, please try again later"
   },
   "REALNAME_SUBMIT_ERROR_MESSAGE_INPUT_ERROR": {
     "desc": "real name form has input error",
@@ -97,7 +97,7 @@
   },
   "REALNAME_SUBMIT_ERROR_MESSAGE_INDIVIDUAL_NOT_PASS_CHECK": {
     "desc": "individual not pass check",
-    "title": "Unable to pass ID authentication check, please check name, ID and relevant information entered"
+    "title": "Unable to pass ID authentication check, please check name, ID, and relevant information entered"
   },
   "REALNAME_SUBMIT_ERROR_MESSAGE_INDIVIDUAL_ALREADY_APPLIED": {
     "desc": "individual already apply the offer",
@@ -109,7 +109,7 @@
   },
   "REALNAME_SUBMIT_ERROR_MESSAGE_ENTERPRISE_ALREADY_APPLIED": {
     "desc": "enterprise already apply the offer",
-    "title": "You have already applied for Azure services with this company information, please use the phone number you bound at that time to resubmit your application. If you need help, please call the hotlines on 400-089-0365 or +86-010-8456-3652"
+    "title": "You have already applied for Azure services with this enterprise information, please use the phone number you bound at that time to resubmit your application. If you need help, please call the hotlines on 400-089-0365 or +86-010-8456-3652"
   },
   "REALNAME_SUBMIT_ERROR_MESSAGE_ENTERPRISE_CODE_NOT_PASS_CHECK": {
     "desc": "enterprise code not pass check",
@@ -117,7 +117,7 @@
   },
   "KIND_PIA_PAGE_TITLE_TEXT": {
     "desc": "pia page tilte",
-    "title": "Azure prepaid product purchase application form"
+    "title": "Azure Pay-in-Advance purchase application form"
   },
   "KIND_PIA_SIDE_DETAIL_TEXT": {
     "desc": "pia page side detail",
@@ -153,7 +153,7 @@
   },
   "ALL_FIELDS_BELOW_MADATORY": {
     "desc": "all fields below are necessary",
-    "title": "The following options must all be filled in"
+    "title": "The following fields are all mandatory"
   },
   "APPLY_TYPE_AND_CONTACT_TYPE": {
     "desc": "apply type and contact type",
@@ -161,7 +161,7 @@
   },
   "APPLY_TYPE_AND_CONTACT_TYPE_HINT": {
     "desc": "apply type and contact type hint",
-    "title": "Your contact telephone can only be used for individual or company trial applications"
+    "title": "Your contact telephone can only be used for individual or enterprise trial applications"
   },
   "APPLY_TYPE_INDIVIDUAL": {
     "desc": "apply by individual",
@@ -169,23 +169,23 @@
   },
   "APPLY_TYPE_ENTERPRISE": {
     "desc": "apply by enterprise",
-    "title": "Company application"
+    "title": "Enterprise application"
   },
   "PHONENUMBER_LABEL": {
     "desc": "phone number label",
-    "title": "Phone"
+    "title": "Mobile phone"
   },
   "PHONENUMBER_RULE_NOT_EMPTY": {
     "desc": "phone number cannot be empty",
-    "title": "Phone number cannot be left blank"
+    "title": "Mobile phone number cannot be left blank"
   },
   "PHONENUMBER_RULE_FORMAT_NOT_VALID": {
     "desc": "phone number format is not valid",
-    "title": "Phone number is in the wrong format"
+    "title": "Mobile phone number is in the wrong format"
   },
   "PHONENUMBER_PLACEHOLDER": {
     "desc": "phone number input place holder",
-    "title": "Please enter your phone number"
+    "title": "Please enter your mobile phone number"
   },
   "SMS_CODE_COUNTDOWN": {
     "desc": "sms code count down text",
@@ -213,27 +213,27 @@
   },
   "SMS_CODE_BUTTON_LABEL": {
     "desc": "sms code button label",
-    "title": "Verification"
+    "title": "Verify"
   },
   "ALREADY_FILL_INDIVIDUAL_INFO": {
     "desc": "already fill in individual info for this phonenumber",
-    "title": "This phone number has already been submitted as personal information, please complete the individual application process."
+    "title": "This mobile phone number has already been submitted as personal information, please complete the individual application process."
   },
   "ALREADY_FILL_ENTERPRISE_INFO": {
     "desc": "already fill in enterprise info for this phonenumber",
-    "title": "This phone number has already been submitted as company information, please complete the company application process."
+    "title": "This mobile phone number has already been submitted as enterprise information, please complete the enterprise application process."
   },
   "ALREADY_APPLY_1RMB_CLICK_TO_BUY_PIA": {
     "desc": "already apply 1rmb free trial, click here to apply pia offer",
-    "title": "You have already applied for an Azure 1RMB Trial. Please click <a href='/pricing/pia-waiting-list'> here </a> to purchase a standard prepaid product."
+    "title": "You have already applied for an Azure 1RMB Trial. Please click <a href='/pricing/pia-waiting-list'> here </a> to purchase a Standard Pay-in-Advance product."
   },
   "USERNAME_LABEL": {
     "desc": "user name label",
-    "title": "Name"
+    "title": "Name in Chinese"
   },
   "USERNAME_INPUT_PLACEHOLDER": {
     "desc": "user name input placeholder",
-    "title": "Please enter your name"
+    "title": "Please enter your name in Chinese"
   },
   "ID_NUMBER_LABEL": {
     "desc": "id number label",
@@ -241,7 +241,7 @@
   },
   "ID_NUMBER_INPUT_PLACEHOLDER": {
     "desc": "id number input placeholder",
-    "title": "Please enter your ID number"
+    "title": "Please enter your China Identity Card Number"
   },
   "EMAIL_ADDR_LABEL": {
     "desc": "email address label",
@@ -253,23 +253,23 @@
   },
   "USER_PROFILE_LABEL": {
     "desc": "user profile label",
-    "title": "ID type"
+    "title": "Profession"
   },
   "USER_PROFILE_INPUT_PLACEHOLDER": {
     "desc": "user profile input placeholder",
-    "title": "Please select your ID type"
+    "title": "Please select your profession"
   },
   "USER_MOST_USED_LANG_LABEL": {
     "desc": "user most used lang label",
-    "title": "Most commonly used development language"
+    "title": "Most used development language"
   },
   "USER_MOST_USED_LANG_INPUT_PLACEHOLDER": {
     "desc": "user most used lang input placeholder",
-    "title": "Please select your most commonly used development language"
+    "title": "Please select your most used development language"
   },
   "ID_IMAGE_LABEL": {
     "desc": "ID image label",
-    "title": "ID picture"
+    "title": "China Identity Card picture"
   },
   "ID_IMAGE_FRONT_LABEL": {
     "desc": "ID image front label",
@@ -289,11 +289,11 @@
   },
   "INPUT_REAL_ID_INFO_HINT": {
     "desc": "to ensure your account safty, please input your real ID info",
-    "title": "Please enter your genuine ID information so that your account is secure"
+    "title": "If you need help, please call 400-089-0365 or 010-84563652 for support"
   },
   "PRIVACY_CONFIRM_MSG": {
     "desc": "privacy confirm massage",
-    "title": "You agree to authorize us to verify the authenticity of the information submitted above, this includes entrusting third-party credit reporting agencies to perform authentication. For more information, please refer to <a href='/support/legal/privacy-statement' target='_blank' id='privacy-link-in-user-confirm-checkbox'> the privacy statement</a>."
+    "title": "You agree to authorize us to verify the authenticity of the information submitted above, this includes entrusting third-party credit reporting agencies to perform authentication. For more information, please refer to <a href='/support/legal/privacy-statement' target='_blank' id='privacy-link-in-user-confirm-checkbox'>the privacy statement</a>."
   },
   "ID_IMAGE_REQ_LABEL": {
     "desc": "image requirements label",
@@ -301,7 +301,7 @@
   },
   "ID_IMAGE_REQ_DETAILS1": {
     "desc": "image detail requirements 1",
-    "title": "Each picture cannot exceed 4 MB. JPG, JPEG, or PNG picture type formats are supported;"
+    "title": "Each picture cannot exceed 4 MB. JPG, JPEG, and PNG picture type formats are supported;"
   },
   "ID_IMAGE_REQ_DETAILS2": {
     "desc": "image detail requirements 2",
@@ -309,7 +309,7 @@
   },
   "ID_IMAGE_REQ_DETAILS3": {
     "desc": "image detail requirements 3",
-    "title": "Show the whole document, using 80% or more of the image area;"
+    "title": "Show the whole document, using more than 80% of the image area;"
   },
   "ENTERPRISE_FULLNAME_LABEL": {
     "desc": "enterprise full name label",
@@ -341,11 +341,11 @@
   },
   "SIDE_BAR_KNOW_MORE": {
     "desc": "know more",
-    "title": "Find out more"
+    "title": "Learn more"
   },
   "USER_ALREADY_HAS_1RMB_CODE": {
     "desc": "user already has 1rmb code message",
-    "title": "You have already submitted an application for a 1 yuan trial, please continue to complete <a href={registerLink} target='_blank' id='quicklink_accoutprotal_signup'> the sign-up process</a>. If you need help, please call the hotlines on 400-089-0365 or +86-010-8456-3652."
+    "title": "You have already submitted an application for a 1RMB Trial, please continue to complete <a href={registerLink} target='_blank' id='quicklink_accoutprotal_signup'>the sign-up process</a>. If you need help, please call the hotlines on 400-089-0365 or +86-010-8456-3652."
   },
   "YOUR_PROVIDED_INFO_LABEL": {
     "desc": "your provided info label",
@@ -397,15 +397,15 @@
   },
   "1RMB_EXCEED_LIMIT_MSG4": {
     "desc": "1rmb exceed limitation message 4",
-    "title": "If you need to purchase a standard prepaid subscription, please click <a href='/pricing/pia-waiting-list/' class='anchor' id='trial_pia_waiting_list'>here</a>."
+    "title": "If you need to purchase a Standard Pay-in-Advance PIA subscription, please click <a href='/pricing/pia-waiting-list/' class='anchor' id='trial_pia_waiting_list'>here</a>."
   },
   "MAINTAIN_PAGE_MSG1": {
     "desc": "maintain page message 1",
-    "title": "Sorry, the system is undergoing maintenance, please try again later."
+    "title": "Sorry, the system is in maintenance, please try again later."
   },
   "MAINTAIN_PAGE_MSG2": {
     "desc": "maintain page message 2",
-    "title": "If you’re still unable to resolve this please contact us on the service hotlines on 400-089-0365 or +86-10-84563652."
+    "title": "If you’re still unable to resolve this please contact us via the service hotlines on 400-089-0365 or +86-10-84563652."
   },
   "FAIL_PAGE_MSG1": {
     "desc": "fail page message 1",
@@ -449,6 +449,18 @@
   },
   "LANGUAGE_NOT_USE": {
     "desc": "language not use",
-    "title": "I don’t do development or use development language"
+    "title": "Do not develop, not use development language"
+  },
+  "CHINA_REGION_LABEL": {
+    "desc": "china region label",
+    "title": "China"
+  },
+  "SMS_FORM_INDIVIDUAL_HINT": {
+    "desc": "hint for sms code individual form",
+    "title": "Individual users are requested to provide their Chinese phone number and ID card when applying. If you need help, please call +86-400-0890365 or +86-01084563652 for support."
+  },
+  "SMS_FORM_ENTERPRISE_HINT": {
+    "desc": "hint for sms code enterprise form",
+    "title": "Enterprise users are requested to provide their Chinese phone number and business license when applying. If you need help, please call +86-400-089-0365 or +86-01084563652 for support."
   }
 }

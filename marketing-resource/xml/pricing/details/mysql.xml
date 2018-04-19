@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/mysql_database_on_azure_icon@2x.png" />
                         <h2>MySQL <small>Database on Azure</small></h2>
                         <h4>It is compatible with MySQL platform; it can help users rapidly deploy, provide highly reliable, safe, usable and cost-effective database, and reduce operations and maintenance costs to allow you dedication to innovation, research and development.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_mysql_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mysql_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_mysql_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mysql_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -46,15 +46,15 @@
                             <th align="left"><strong>MP 2</strong></th>
                         </tr>
                         <tr>
-                            <td>Free Database Capacity<br/><span style="color: #00a8d9;">Charge for the excess part: RMB 0.61/GB/month</span></td>
-                            <td>100GB</td>
-                            <td>100GB</td>
-                            <td>100GB</td>
-                            <td>100GB</td>
-                            <td>100GB</td>
-                            <td>100GB</td>
-                            <td>125GB</td>
-                            <td>125GB</td>
+                            <td>Free Database Capacity<br/><span style="color: #00a8d9;">Charge for the excess part: RMB0.61/GB/month</span></td>
+                            <td>100 GB</td>
+                            <td>100 GB</td>
+                            <td>100 GB</td>
+                            <td>100 GB</td>
+                            <td>100 GB</td>
+                            <td>100 GB</td>
+                            <td>125 GB</td>
+                            <td>125 GB</td>
                         </tr>
                         <tr>
                             <td>Data backup</td>
@@ -72,47 +72,47 @@
                             <td>100</td>
                             <td>200</td>
                             <td>500</td>
-                            <td>1000</td>
-                            <td>1500</td>
-                            <td>2000</td>
-                            <td>4000</td>
-                            <td>6000</td>
+                            <td>1,000</td>
+                            <td>1,500</td>
+                            <td>2,000</td>
+                            <td>4,000</td>
+                            <td>6,000</td>
                         </tr>
                         <tr>
                             <td class="left_align">
                                 <div>Pricing</div>
                             </td>
                             <td class="left_align">
-                                <div>RMB 0.09/hour</div>
-                                <div style="margin-left:-5px;">(about RMB 66.96/month)</div>
+                                <div>RMB0.09/hour</div>
+                                <div style="margin-left:-5px;">(about RMB66.96/month)</div>
                             </td>
                             <td class="left_align">
-                                <div>RMB 0.18/hour</div>
-                                <div style="margin-left:-5px;">(about RMB 133.92/month)</div>
+                                <div>RMB0.18/hour</div>
+                                <div style="margin-left:-5px;">(about RMB133.92/month)</div>
                             </td>
                             <td class="left_align">
-                                <div> RMB 0.48/hour</div>
-                                <div style="margin-left:-5px;">(about RMB 357.12/month)</div>
+                                <div> RMB0.48/hour</div>
+                                <div style="margin-left:-5px;">(about RMB357.12/month)</div>
                             </td>
                             <td class="left_align">
-                                <div>RMB 1.44/hour</div>
-                                <div style="margin-left:-5px;">(about RMB 1071.36/month)</div>
+                                <div>RMB1.44/hour</div>
+                                <div style="margin-left:-5px;">(about RMB1071.36/month)</div>
                             </td>
                             <td class="left_align">
-                                <div>RMB 2.16/hour</div>
-                                <div style="margin-left:-5px;">(about RMB 1607.04/month)</div>
+                                <div>RMB2.16/hour</div>
+                                <div style="margin-left:-5px;">(about RMB1607.04/month)</div>
                             </td>
                             <td class="left_align">
-                                <div>RMB 3.24/hour</div>
-                                <div style="margin-left:-5px;">(about RMB 2410.56/month)</div>
+                                <div>RMB3.24/hour</div>
+                                <div style="margin-left:-5px;">(about RMB2410.56/month)</div>
                             </td>
                             <td>
-                                <div>RMB 7.64/hour</div>
-                                <div style="margin-left:-5px;">(about RMB 5684.16/month)</div>
+                                <div>RMB7.64/hour</div>
+                                <div style="margin-left:-5px;">(about RMB5684.16/month)</div>
                             </td>
                             <td>
-                                <div>RMB 12.02/hour</div>
-                                <div style="margin-left:-5px;">(about RMB 8942.88/month)</div>
+                                <div>RMB12.02/hour</div>
+                                <div style="margin-left:-5px;">(about RMB8942.88/month)</div>
                             </td>
                         </tr>
                     </table>
@@ -124,7 +124,7 @@
             </div>       
             <div class="pricing-page-section">
                 <div class="more-detail">
-                    <h2>FAQs</h2>
+                    <h2>FAQ</h2>
                     <em>Expand all</em>
                     <ul>
                         <li>
@@ -132,7 +132,7 @@
                             <div>
                                 <a id="pricing_mysql_question1">How can I expand its capacity if my database is over 100GB?</a>
                                 <section>
-                                    <p>We provide 100GB of free database capacity. For the exceeding part, users do not need to perform extra operations and we will automatically charge it as web Blob Storage (Geo-Redundant Storage): RMB 0.61/GB/month.</p>
+                                    <p>We provide 100GB of free database capacity. For the exceeding part, users do not need to perform extra operations and we will automatically charge it as web Blob Storage (Geo-Redundant Storage): RMB0.61/GB/month.</p>
                                 </section>
                             </div>
                         </li>
@@ -161,20 +161,20 @@
                 </div>
             </div>
             <div class="pricing-page-section">
-                <h2>Marketing Regions</h2>
+                <h2>Region</h2>
                 <p>MySQL Database on Azure is available in the following regions:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territories</strong></th>
-                        <th align="left"><strong>Regions</strong></th>
+                        <th align="left"><strong>Territory</strong></th>
+                        <th align="left"><strong>Region</strong></th>
                     </tr>
                     <tr>
                         <td>Mainland China</td>
-                        <td>China East Data Center, China North Data Center</td>
+                        <td>China North, China East</td>
                     </tr>
                 </table>  
                  <div class="pricing-page-section">
-                <h2>Support and Service Level Agreements</h2>
+                <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="mysql-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				 <p>MySQL Database on Azure provides a Service Level Agreement for 99.9% operating time to ensure high availability and business continuity for users. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/mysql/" id="pricing_mysql_sla">Service Level Agreements</a> page.</p>
                 </div>
@@ -185,7 +185,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-mysql</linkid>
     <metaKeywords>Azure, MySQL Database on Azure, pricing details, pricing, billing</metaKeywords>
-    <metaDescription><![CDATA[Learn about the pricing details of MySQL Database on Azure. MySQL Database on Azure provides six versions with their performance improving from the lowest to the highest. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer.]]></metaDescription>
+    <metaDescription><![CDATA[Learn about the pricing details of MySQL Database on Azure. MySQL Database on Azure provides six versions with their performance improving from the lowest to the highest. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
     <urlDisplayName>Pricing Details - MySQL Database on Azure</urlDisplayName>
   </TextpageLeftNav>
 </localize>

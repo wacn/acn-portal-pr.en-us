@@ -1,0 +1,333 @@
+[
+  {
+    "service": "cloud-services",
+    "title": "Cloud Services",
+    "link": "/documentation/services/cloud-services/"
+  },
+  {
+    "service": "virtual-machines-windows",
+    "title": "Windows Virtual Machines",
+    "link": "/documentation/services/virtual-machines/windows"
+  },
+  {
+    "service": "virtual-machines-linux",
+    "title": "Linux Virtual Machines",
+    "link": "/documentation/services/virtual-machines/linux"
+  },
+  {
+    "service": "virtual-machine-scale-sets",
+    "title": "Virtual Machine Scale Sets",
+    "link": "/documentation/services/virtual-machine-scale-sets/"
+  },
+  {
+    "service": "application-gateway",
+    "title": "Application Gateway",
+    "link": "/documentation/services/application-gateway/"
+  },
+  {
+    "service": "active-directory",
+    "title": "Active Directory",
+    "link": "/documentation/services/identity/"
+  },
+  {
+    "service": "automation",
+    "title": "Automation",
+    "link": "/documentation/services/automation/"
+  },
+  {
+    "service": "backup",
+    "title": "Backup",
+    "link": "/documentation/services/backup/"
+  },
+  {
+    "service": "batch",
+    "title": "Batch",
+    "link": "/documentation/services/batch/"
+  },
+  {
+    "service": "cache",
+    "title": "Redis Cache",
+    "link": "/documentation/services/redis-cache/"
+  },
+  {
+    "service": "cdn",
+    "title": "Content Delivery Network",
+    "link": "/documentation/services/cdn/"
+  },
+  {
+    "service": "cdn_en",
+    "title": "Content Delivery Network",
+    "link": "/documentation/services/cdn/"
+  },
+  {
+    "service": "event-hubs",
+    "title": "Event Hubs",
+    "link": "/documentation/services/event-hubs/"
+  },
+  {
+    "service": "expressroute",
+    "title": "ExpressRoute",
+    "link": "/documentation/services/expressroute/"
+  },
+  {
+    "service": "hdinsight",
+    "title": "HDInsight",
+    "link": "/documentation/services/hdinsight/"
+  },
+  {
+    "service": "iot-hub",
+    "title": "Azure IoT Hub",
+    "link": "/documentation/services/iot-hub/"
+  },
+  {
+    "service": "key-vault",
+    "title": "Key Vault",
+    "link": "/documentation/services/key-vault/"
+  },
+  {
+    "service": "media-services",
+    "title": "Media Services",
+    "link": "/documentation/services/media-services/"
+  },
+  {
+    "service": "mobile-services",
+    "title": "Mobile Services",
+    "link": "/documentation/services/mobile-services/"
+  },
+  {
+    "service": "multi-factor-authentication",
+    "title": "Multi-Factor Authentication",
+    "link": "/documentation/services/multi-factor-authentication/"
+  },
+  {
+    "service": "mysql",
+    "title": "MySQL Database on Azure",
+    "link": "/documentation/services/mysql/"
+  },
+  {
+    "service": "mysql_en",
+    "title": "MySQL Database on Azure",
+    "link": "/documentation/services/mysql/"
+  },
+  {
+    "service": "notification-hubs",
+    "title": "Notification Hubs",
+    "link": "/documentation/services/notification-hubs/"
+  },
+  {
+    "service": "scheduler",
+    "title": "Scheduler",
+    "link": "/documentation/services/scheduler/"
+  },
+  {
+    "service": "service-bus",
+    "title": "Service Bus",
+    "link": "/documentation/services/service-bus/"
+  },
+  {
+    "service": "site-recovery",
+    "title": "Site Recovery",
+    "link": "/documentation/services/site-recovery/"
+  },
+  {
+    "service": "sql-database",
+    "title": "SQL Database",
+    "link": "/documentation/services/sql-databases/"
+  },
+  {
+    "service": "sql-server-stretch-databse",
+    "title": "SQL-Server-Stretch-Database",
+    "link": "/documentation/services/sql-server-stretch-database/"
+  },
+  {
+    "service": "storage",
+    "title": "Storage",
+    "link": "/documentation/services/storage/"
+  },
+  {
+    "service": "stream-analytics",
+    "title": "Stream Analytics",
+    "link": "/documentation/services/stream-analytics/"
+  },
+  {
+    "service": "traffic-manager",
+    "title": "Traffic Manager",
+    "link": "/documentation/services/traffic-manager/"
+  },
+  {
+    "service": "sql-data-warehouse",
+    "title": "SQL Data Warehouse",
+    "link": "/documentation/services/sql-data-warehouse/"
+  },
+  {
+    "service": "app-service",
+    "title": "Web Apps",
+    "link": "/documentation/services/app-service/\" title=\"应用服务\">应用服务</a></li><li><span>&gt;</span></li><li><a href=\"/documentation/services/web-sites/"
+  },
+  {
+    "service": "virtual-network",
+    "title": "Virtual Network",
+    "link": "/documentation/services/networking/"
+  },
+  {
+    "service": "automation-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "storage-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "virtual-machine-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "virtual-machines-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "virtual-network-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "virtual-networks-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "na-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "cdn-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "cloud-service-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "service-bus-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "sql-database-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "redis-cache-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "app-service-web-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "media-services-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "active-directory-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "notification-hubs-aog",
+    "title": "Common Operations Guide",
+    "link": "/documentation/services/azure-operations-guide/"
+  },
+  {
+    "service": "open-source-website",
+    "title": "Building a Website",
+    "link": "/solutions/oss-website/"
+  },
+  {
+    "service": "open-source-mongodb",
+    "title": "MongoDB Building",
+    "link": "/solutions/oss-mongodb/"
+  },
+  {
+    "service": "service-fabric",
+    "title": "Service Fabric",
+    "link": "/documentation/services/service-fabric/"
+  },
+  {
+    "service": "documentdb",
+    "title": "DocumentDB",
+    "link": "/documentation/services/documentdb/"
+  },
+  {
+    "service": "iot-suite",
+    "title": "Azure IoT Suite",
+    "link": "/documentation/services/iot-suite/"
+  },
+  {
+    "service": "load-balancer",
+    "title": "Load Balancer",
+    "link": "/documentation/services/load-balancer/"
+  },
+  {
+    "service": "app-service",
+    "title": "App Service",
+    "link": "/documentation/services/app-service/"
+  },
+  {
+    "service": "app-service-mobile",
+    "title": "Mobile Apps",
+    "link": "/documentation/services/app-service/\" title=\"应用服务\">应用服务</a></li><li><span>&gt;</span></li><li><a href=\"/documentation/services/app-service/mobile/"
+  },
+  {
+    "service": "app-service-api",
+    "title": "API Apps",
+    "link": "/documentation/services/app-service/\" title=\"应用服务\">应用服务</a></li><li><span>&gt;</span></li><li><a href=\"/documentation/services/app-service/api/"
+  },
+  {
+    "service": "app-service-web",
+    "title": "Web Apps",
+    "link": "/documentation/services/app-service/\" title=\"应用服务\">应用服务</a></li><li><span>&gt;</span></li><li><a href=\"/documentation/services/app-service/web/"
+  },
+  {
+    "service": "cognitive-services",
+    "title": "Cognitive Services",
+    "link": "/documentation/services/cognitive-services/"
+  },
+  {
+    "service": "security",
+    "title": "Security Information",
+    "link": "/documentation/services/security/"
+  },
+  {
+    "service": "power-bi-embedded",
+    "title": "Power BI Embedded",
+    "link": "/documentation/services/power-bi-embedded/"
+  },
+  {
+    "service": "billing",
+    "title": "Azure Billing",
+    "link": "/documentation/services/billing/"
+  },
+  {
+    "service": "icp",
+    "title": "ICP Filing",
+    "link": "/icp/"
+  },
+  {
+    "service": "public-security-filing",
+    "title": "Public Security Filing",
+    "link": "/support/announcement/public-security-registration/"
+  }
+
+]

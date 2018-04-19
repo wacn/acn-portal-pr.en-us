@@ -1,0 +1,54 @@
+{"service": "Azure Monitor", 
+"id": "leftnav_product_monitor", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_monitor_details", 
+	"articles": 
+		[
+			{"link": "/home/features/monitor/", 
+			"id": "leftnav_product_monitor_function", 
+			"title": "Product overview"}, 
+			{"link": "/pricing/details/monitor/", 
+			"id": "leftnav_product_monitor_pricing", 
+			"title": "Pricing details"},
+			{"link": "/pricing/calculator/monitor/", 
+			"id": "leftnav_product_monitor_calculator", 
+			"title": "Pricing calculator"},
+			{"link": "//docs.azure.cn/zh-cn/monitoring-and-diagnostics/", 
+			"id": "leftnav_product_monitor_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/monitor/", 
+			"id": "leftnav_product_monitor_sla", 
+			"title": "Service Level Agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_monitor_related", 
+	"articles": 
+		[
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_1_function-virtual-machines", 
+			"title": "Virtual Machines"}, 
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_2_function-storage", 
+			"title": "Storage"}
+		]
+	}, 
+	{"group": "Related Documentation and Links", 
+	"id": "leftnav_product_monitor_others", 
+	"articles": 
+		[
+			{"link": "//docs.azure.cn/zh-cn/monitoring-and-diagnostics/monitoring-overview-azure-monitor/", 
+			"id": "leftnav_product_monitor-monitoring-overview-azure-monitor", 
+			"title": "Azure Monitor Overview"},
+			{"link": "//docs.azure.cn/zh-cn/monitoring-and-diagnostics/monitoring-overview-metrics/", 
+			"id": "leftnav_product_monitor-monitoring-overview-metrics", 
+			"title": "Overview of metrics in Azure"},
+			{"link": "//docs.azure.cn/zh-cn/monitoring-and-diagnostics/monitoring-overview-alerts/", 
+			"id": "leftnav_product_monitor_monitoring-overview-alerts", 
+			"title": "What are the alerts in Azure?"}
+		]
+	}
+]
+}

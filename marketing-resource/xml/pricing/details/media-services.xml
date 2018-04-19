@@ -10,28 +10,28 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/media-services@2x.png" />
                         <h2><span>Media Services</span></h2>
                         <h4>Build and deploy end-to-end media solutions with high availability and scalability</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_media_trial">Apply for a trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_media_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_media_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_media_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>With Azure Media Services, you can transfer any media information anywhere on the world using the cloud on any device. The service set includes encoding, real-time or on-demand streaming, content protection, and indexing for video and audio.</p>
+                <p>With Azure Media Services, you can transfer any media information anywhere in the world using the cloud on any device. The service set includes encoding, live or on-demand streaming, content protection, and indexing for video and audio.</p>
                 <h2>Pricing Details</h2>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
-                <a href="javascript:void(0)" data-href="#tabContent1" id="Media_serivce_banma" class="active">Encoding</a> <a href="javascript:void(0)" data-href="#tabContent2" id="Media_serivce_liushi">Real-time channel</a> <a href="javascript:void(0)" data-href="#tabContent3" id="Media_serivce_realtimecode">Stream processing</a> <a href="javascript:void(0)" data-href="#tabContent4" id="Media_serivce_neirong">Content protection</a> <a href="javascript:void(0)" data-href="#tabContent5" id="Media_serivce_analytice">Media analysis</a>
+                <a href="javascript:void(0)" data-href="#tabContent1" id="Media_serivce_banma" class="active">Encoding</a> <a href="javascript:void(0)" data-href="#tabContent2" id="Media_serivce_liushi">Live Video</a> <a href="javascript:void(0)" data-href="#tabContent3" id="Media_serivce_realtimecode">Streaming</a> <a href="javascript:void(0)" data-href="#tabContent4" id="Media_serivce_neirong">Content protection</a> <a href="javascript:void(0)" data-href="#tabContent5" id="Media_serivce_analytice">Media Analytics</a>
                 <div class="clearfix"></div>
                 <!-- BEGIN: TAB-CONTAINER-1 -->
                 <div class="tab-control-container tab-active" id="tabContent1">
                     <!-- BEGIN: Table1-Content-->
-                    <h3>Encoding for VoD</h3>
-                    <p>Standard encoder transcodes video and audio input files into output formats suitable for playing on a variety of devices, including smartphones, tablets, computers, game consoles and televisions.</p>
+                    <h3>Video on Demand (VoD) encoding</h3>
+                    <p>Standard encoder transcodes video and audio input files into output formats suitable for playback on a variety of devices, including smartphones, tablets, PCs, game consoles and televisions.</p>
                     <p>From January 1, 2017, the standard encoder <!-- 和高级编码器--> will adopt the new pricing model, which is based on the output time (per minute), and the price will be reduced accordingly. Users may enjoy the new price and pricing model without any additional operations. The following is the new price after price cut:</p>
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
 					
                     <table cellpadding="0" cellspacing="0" width="100%">
@@ -41,7 +41,7 @@
                         </tr>
                         <tr>
                             <td>Code</td>
-                            <td>RMB 0.09858/output minute (about RMB 4400.61/month)</td>
+                            <td>RMB0.09858/output minute (about RMB4400.61/month)</td>
                         </tr>
                     </table>
 					
@@ -64,7 +64,7 @@
 					<p>The following is the original price before adjustment:</p>
 					<div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -73,86 +73,86 @@
                         </tr>
                         <tr>
                             <td>First 5 TB <sup>1</sup>/month</td>
-                            <td>RMB 13.04 per output GB</td>
+                            <td>RMB13.04 per output GB</td>
                         </tr>
                         <tr>
                             <td>Last 5 TB/month</td>
-                            <td>RMB 12.29 per output GB</td>
+                            <td>12.29 per output GB</td>
                         </tr>
                         <tr>
                             <td>Last 15 TB/month</td>
-                            <td>RMB 10.80 per output GB</td>
+                            <td>RMB10.80 per output GB</td>
                         </tr>
                         <tr>
                             <td>Last 25 TB/month</td>
-                            <td>RMB 9.69 per output GB</td>
+                            <td>RMB9.69 per output GB</td>
                         </tr>
                         <tr>
                             <td>Over 50 TB/month</td>
-                            <td>RMB 8.20 per output GB</td>
+                            <td>RMB8.20 per output GB</td>
                         </tr>
                     </table>
-                    <p><sup>1</sup> TB = 1024 GB</p>
+                    <p><sup>1</sup> TB = 1024GB</p>
 					
                     <!-- <p><sup>2</sup>如果您与世纪互联签订了企业协议，您必须与客户经理联系以获得这些价格。</p>--> <!-- END: Table1-Content-->
 					<h3>Output minutes multiplier</h3>
                     <p>To calculate the total output minutes for an encoding task, the following multiplier will be used.</p>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <th align="left"><strong>Mass</strong></th>
+                            <th align="left"><strong>Quality</strong></th>
                             <th align="left"><strong>Multiplier</strong></th>
-                            <th align="left"><strong>Instances</strong></th>
+                            <th align="left"><strong>Examples</strong></th>
                         </tr>
                         <tr>
                             <td>SD (less than 1280 x 720)</td>
                             <td>1x</td>
-                            <td>10-minute SD output noted as 10 SD minutes</td>
+                            <td>10 minutes of SD output count as 10 SD minutes</td>
                         </tr>
                         <tr>
                             <td>HD(1280×720 - 1920x1080）</td>
                             <td>2x</td>
-                            <td>10-minute HD output noted as 20 SD minutes</td>
+                            <td>10 minutes of HD output count as 20 SD minutes</td>
                         </tr>
                         <tr>
                             <td>UHD (greater than 1920x1080, up to 4096x2160)</td>
                             <td>4x</td>
-                            <td>10-minute HD output noted as 40 SD minutes</td>
+                            <td>10 minutes of HD output count as 40 SD minutes</td>
                         </tr>
                         <tr>
-                            <td>Audio output only</td>
+                            <td>Audio only output</td>
                             <td>0.25x</td>
-                            <td>4-minute output audio noted as 1 SD minute</td>
+                            <td>4 minutes of output audio count as 1 SD minute</td>
                         </tr>
                     </table>
-                    <p><strong>Example:</strong> If there is a QuickTime video with a resolution of 1920x1080p and a duration of 20 minutes, then it is to encode as a mono track MP4 output with the same resolution of 1920x1080p. The effective multiplier will be 2 (HD) plus 0.25 (audio) with a total multiplier of 2.25. The total billing minutes will be (20 minutes x 2.25) = 45 output minutes. If Media Encoder Standard is applied for encoding, the cost will be (45 output minutes x RMB&#160;0.09858/output minutes) = RMB&#160;4.4361</p>
-                    <p>Please refer to FAQs for more examples.</p>
+                    <p><strong>Example:</strong> If there is a QuickTime video with a resolution of 1920x1080p and a duration of 20 minutes, then it will encode as a mono track MP4 output with the same resolution of 1920x1080p. The effective multiplier will be 2 (HD) plus 0.25 (audio) with a total multiplier of 2.25. The total billing minutes will be (20 minutes x 2.25) = 45 output minutes. If Media Encoder Standard is applied for encoding, the cost will be (45 output minutes x RMB0.09858/output minutes) = RMB4.4361</p>
+                    <p>See FAQ for more examples.</p>
                     <p>There may also be <a href="/pricing/details/storage/">Storage Space</a> and <a href="/pricing/details/data-transfer/">Data Transmission Rates</a> that will be billed at standard Azure rates.</p>
                     <!-- BEGIN: Table2-Content-->
-                    <h3>Media Retention Unit</h3>
-					<p>From January 1, 2017, the billing unit for media retention unit will change from daily to hourly, and the price will be lowered.</p> 
-                    <p>If the workload requires running multiple tasks at the same time, media retention unit is recommended. The overall throughput of the service can be increased by:</p>
+                    <h3>Media reserved units</h3>
+					<p>From January 1, 2017, the billing unit for media reservation unit changed from daily to hourly, and the price was lowered.</p> 
+                    <p>If the workload requires running multiple tasks at the same time, a media reserved unit is recommended. The overall throughput of the service can be increased by:</p>
 						<ul>
-							<li>Increase the number of media retention unit to achieve parallel processing of more tasks</li>
-							<li>Use faster media retention units (e.g. S3)</li>
+							<li>Increasing the number of media reserved units to achieve parallel processing of more tasks</li>
+							<li>Using faster media reserved units (e.g. S3)</li>
 						</ul>
 					<p>For more details, refer to <a href="https://docs.azure.cn/" id="media-services_portal-encoding-units">How to Use the Azure Classic Management Portal to Scale Media Processing</a>.</p>
 					<p>The following is the new price after the price cut:</p> 
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <th align="left"><strong>&#160;</strong></th>
                             <th align="left"><strong>S1(Basic）</strong></th>
                             <th align="left"><strong>S2(Standard）</strong></th>
-                            <th align="left"><strong>S3(Advanced）</strong></th>
+                            <th align="left"><strong>S3(Premium）</strong></th>
                         </tr>
                         <tr>
                             <td>Price/unit</td>
-                            <td>RMB 0.13144/hour (about RMB 97.79/month)</td>
-                            <td>RMB 0.26288/hour (about RMB 195.58/month)</td>
-                            <td>RMB 0.52576/hour (about RMB 391.17/month)</td>
+                            <td>RMB0.13144/hour (about RMB97.79/month)</td>
+                            <td>RMB0.26288/hour (about RMB195.58/month)</td>
+                            <td>RMB0.52576/hour (about RMB391.17/month)</td>
                         </tr>
                         <tr>
                             <td>Other parallel tasks</td>
@@ -171,20 +171,20 @@
 					<p>The following is the original price before adjustment:</p>
 					<div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <th align="left"><strong>&#160;</strong></th>
                             <th align="left"><strong>S1(Basic）</strong></th>
                             <th align="left"><strong>S2(Standard）</strong></th>
-                            <th align="left"><strong>S3(Advanced）</strong></th>
+                            <th align="left"><strong>S3(Premium）</strong></th>
                         </tr>
                         <tr>
                             <td>Price/unit</td>
-                            <td>RMB 469.24/month<sup> 1 </sup></td>
-                            <td>RMB 938.15/month<sup> 1 </sup></td>
-                            <td>RMB 2,606.46/month<sup> 1 </sup></td>
+                            <td>RMB469.24/month<sup> 1 </sup></td>
+                            <td>RMB938.15/month<sup> 1 </sup></td>
+                            <td>RMB2,606.46/month<sup> 1 </sup></td>
                         </tr>
                         <tr>
                             <td>Other parallel tasks</td>
@@ -207,32 +207,32 @@
                 <!-- END: TAB-CONTAINER-1 --> <!-- BEGIN: TAB-CONTAINER-2 -->
                 <div class="tab-control-container" id="tabContent2">
                     <!-- BEGIN: Table1-Content-->
-                    <h3>Real-time channel</h3>
-                    <p>Real-time channels can stream contents to the audience in a nearly real-time method. There are 2 types of real-time channels: unencoded real-time channel and real-time channel with real-time encoding. All real-time channel types will be billed according to the time quantity of channel time in running status instead of incoming and processed data. Please refer to FAQs for further details on channel status and billing.</p>
+                    <h3>Live Channels</h3>
+                    <p>Live Channels can stream contents to the audience in a near real-time. There are 2 types of live channels: live channels without encoding and a live channels with live encoding. For all live channel, billing is based on the amount of time the channel is in running state and not based on the incoming and processed data. Please refer to FAQ for further details on channel status and billing.</p>
                     <!-- <p>从2016年4月1日起，实时频道的价格会下调 25.5%，以下是下调后的新价格：</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <th align="left"><strong>Unencoded real-time channel <sup>1</sup></strong></th>
-                            <th align="left"><strong>Real-time channel</strong></th>
+                            <th align="left"><strong>Live Channels without Encoding <sup>1</sup></strong></th>
+                            <th align="left"><strong>Live Channels</strong></th>
                         </tr>
                         <tr>
                             <td>Price for each channel</td>
-                            <td>RMB 6.40/hour</td>
+                            <td>RMB6.40/hour</td>
                         </tr>
                     </table>
-                    <p><sup>1</sup> Real-time channels can be applied along with streaming units to provide real-time streaming services. Please refer to streaming part for details of pricing for stream units.</p>
-                    <p>Allocate the cost by minute. Billing is per the time quantity for channels in running status. Shut down the channel when not in use to avoid unnecessary costs.</p>
+                    <p><sup>1</sup> Live Channels are used in conjunction with streaming units to provide live streaming services. Please refer to this page for details of pricing for streaming units.</p>
+                    <p>Billing is prorated per minute. Billing is based on the amount of time the channel is in a running state. Stop channels when not in use to avoid unnecessary costs.</p>
                     <p>There may also be <a id="Media_serivce_storage2" href="/pricing/details/storage/" target="_blank">Storage</a> and <a id="Media_serivce_data2" style="color: #008fbf;" href="/pricing/details/data-transfer/" target="_blank">Data Transmission Rates</a> that will be charged at standard Azure rates.</p>
                     <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
-                    <h3>Real-time channel using real-time encoding</h3>
-                    <p>Real-time channel with real-time encoding is now officially released. Since December 19, 2017, the price has been lowered again. The following is the comparison table between the original price and the new price:</p>
+                    <h3>Live Channels with Live Encoding</h3>
+                    <p>Live Channels with Live Encoding is now officially released. Since December 19, 2017, the price has been lowered again. The following is the comparison table between the original price and the new price:</p>
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -242,52 +242,52 @@
                         </tr>
                         <tr>
                             <td>First 20 hours/month</td>
-                            <td>RMB 40.5/hour</td>
-                            <td>RMB 24.74/hour</td>
+                            <td>RMB40.5/hour</td>
+                            <td>RMB24.74/hour</td>
                         </tr>
                         <tr>
                             <td>Following 80 hours (20-100 hours)/month</td>
-                            <td>RMB 34.61/hour</td>
-                            <td>RMB 21.14/hour</td>
+                            <td>RMB34.61/hour</td>
+                            <td>RMB21.14/hour</td>
                         </tr>
                         <tr>
                             <td>Following 150 hours (100-250 hours)/month</td>
-                            <td>RMB 33.87/hour</td>
-                            <td>RMB 20.69/hour</td>
+                            <td>RMB33.87/hour</td>
+                            <td>RMB20.69/hour</td>
                         </tr>
                         <tr>
                             <td>Over 250 hours/month</td>
-                            <td>RMB 33.14/hour</td>
-                            <td>RMB 20.25/hour</td>
+                            <td>RMB33.14/hour</td>
+                            <td>RMB20.25/hour</td>
                         </tr>
                     </table>
-                    <p>Prorate the cost by minute. The billing is made as per the time quantity for channels in running status. Shut down the channel when not in use to avoid unnecessary costs.</p>
+                    <p>Billing is prorated per minute. Billing is based on the amount of time the channel is in a running state. Stop channels when not in use to avoid unnecessary costs.</p>
                     <p>There may also be <a href="/pricing/details/storage/">Storage Space</a> and <a href="/pricing/details/data-transfer/">Data Transmission Rates</a> that will be billed at standard Azure rates.</p>
                     <!-- END: Table2-Content-->
                 </div>
                 <!-- END: TAB-CONTAINER-2 --> <!-- BEGIN: TAB-CONTAINER-3 -->
                 <div class="tab-control-container" id="tabContent3">
-                    <p>Deliver on-demand and real-time video streaming to customers on a large scale in multiple formats. Standard and advanced streaming services can deliver content directly to media player applications or content delivery networks (CDNs) for further distribution.</p>
-                    <p>Streaming stream processing unit provides dedicated bandwidth capacity for on-demand and real-time streaming processing. Real-time channels (utilized with stream processing units) provide real-time streaming capability.</p>
-                    <p>Media service customers can choose standard endpoints or one or more advanced stream processing units according to their needs. The <strong>standard stream processing endpoint</strong> is suitable for the most workflow-consumed workload. It has the same functionality as an advanced stream processing unit and can automatically scale outbound bandwidth. The <strong>advanced stream processing unit</strong> is suitable for advanced workloads and provides dedicated, scalable bandwidth capacity. The advanced stream processing unit will "stack", which means that each enabled unit will provide additional bandwidth capacity for the application. The standard stream processing endpoint will not "stack"; instead, it automatically scales bandwidth based on bandwidth requirements. Please visit the <a href="/home/features/media-services/">Media Service Functions</a> page for more information on the service.</p>
-                    <p>Billing for stream processing is jointly determined by the stream processing service and the amount of data transferred. After enabling Azure CDN through the Media Services Portal or APIs of stream processing endpoints, <a href="/pricing/details/cdn/">Standard CDN Pricing</a> applies to all transmitted data. If Azure CDN is not enabled for stream processing endpoints, data transfer is charged according to the <a href="/pricing/details/data-transfer/" id="media-services_data-transfer">Data Transfer Pricing </a>.</p>
+                    <p>Deliver on-demand and live video streaming to customers on a large scale in multiple formats. Standard and Advanced streaming services can deliver content directly to media player applications or content delivery networks (CDNs) for further distribution.</p>
+                    <p>Streaming unit provides dedicated bandwidth capacity for on-demand and live streaming. Live Channel (utilized with streaming units) provides live streaming capability.</p>
+                    <p>Media Services customers can choose Standard endpoints or one or more Premium streaming units according to their needs. The <strong>Standard streaming endpoint</strong> is suitable for high workloads. It has the same functionality as the Premium streaming units and can automatically scale outbound bandwidth. The <strong>Premium streaming units</strong> are suitable for high workloads and provides dedicated, scalable bandwidth capacity. The Premium streaming unit will "stack", which means that each enabled unit will provide additional bandwidth capacity for the application. The Standard streaming endpoint will not "stack"; instead, it automatically scales bandwidth based on bandwidth requirements. Please visit the <a href="/home/features/media-services/">Media Services Functions</a> page for more information on the service.</p>
+                    <p>Billing for stream processing is jointly determined by the stream processing service and the amount of data transferred. After enabling Azure CDN through the Media Services Portal or APIs of stream processing endpoints, <a href="/pricing/details/cdn/">Standard CDN Pricing</a> applies to all transmitted data. If Azure CDN is not enabled for stream processing endpoints, data transfer is charged according to <a href="/pricing/details/data-transfer/" id="media-services_data-transfer">Data Transfer Pricing </a>.</p>
                     <!-- BEGIN: Table1-Content-->
-                    <h3>Stream Processing Unit</h3>					
+                    <h3>Streaming Units</h3>					
                     <!-- <p>从2016年4月1日起，流式处理单元的价格下调 25.5%，以下是下调后的新价格：</p>					 -->
                     <div class="tags-date">					    
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <th align="left"><strong>&#160;</strong></th>
-							<th align="left"><strong>Standard Stream Processing Endpoints <sup>Preview</sup></strong></th>
-                            <th align="left"><strong> Advanced stream processing unit </strong></th>
+							<th align="left"><strong>Standard Streaming Endpoint</strong> Preview</th>
+                            <th align="left"><strong>Premium Streaming Units </strong></th>
                         </tr>
                         <tr>
                             <td>Price (per unit)</td>
-                            <td>RMB 423.894/month<sup> 1</sup></td>
-							<td>RMB 938.15/month<sup> 1</sup></td>
+                            <td>RMB423.894/month<sup> 1</sup></td>
+							<td>RMB938.15/month<sup> 1</sup></td>
                         </tr>
                         <tr>
                             <td>Trial</td>
@@ -296,7 +296,7 @@
                         </tr>
                         <tr>
                             <td>Bandwidth</td>
-							<td>Up to 600 Mbp from stream processing unit and scaled by CDN</td>
+							<td>Up to 600 Mbp from streaming units and scaled by CDN</td>
                             <td>Up to 200 Mbps/unit</td>
                         </tr>
                         <!--
@@ -308,8 +308,8 @@
                     </table>
 					<!-- <p><sup>1</sup> 自 2016 年 11 月 1 日起，“流式处理单元” 更名为 “高级流式处理单元”。</p> -->
                     <p><sup>1</sup> Allocate cost in proportion every day, 31 days per month.</p>
-                    <p><sup>2</sup> For new accounts, 1 standard stream processing endpoint will be available within 15 days with no additional cost. Normal pricing applies to additional standard endpoints and advanced stream processing unit. The trial period starts with the start of the first endpoint and ends after 15 calendar days.</p>
-                    <p>Pricing for preview edition will change with the launch of the official release edition.</p>
+                    <p><sup>2</sup> For new accounts, 1 standard streaming endpoint will be available within 15 days with no additional cost. Normal pricing applies to additional Standard endpoints and Premium streaming units. The trial period starts with the start of the first endpoint and ends after 15 calendar days.</p>
+                    <p>Pricing for Preview edition will change with the launch of the official release edition.</p>
                     <!-- END: Table1-Content-->
                     
                 </div>
@@ -317,7 +317,7 @@
                 <div class="tab-control-container" id="tabContent4">
                     <!-- BEGIN: Table1-Content-->
                     <h3>PlayReady</h3>
-                    <p>Ensure asset security with PlayReady Digital Rights Management (DRM), Apple FairPlay Streaming, or encryption with clear key advanced encryption standard (AES). Pricing is made on the basis of license number or key issued with this service.</p>
+                    <p>Ensure asset security with PlayReady Digital Rights Management (DRM), Apple FairPlay Streaming, or encryption with clear key advanced encryption standard (AES). Pricing is made on the number of licenses or keys issued by the service.</p>
                     <!-- <p>从2016年4月1日起，PlayRead 的价格下调 25.5%，以下是下调后的新价格：</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -330,13 +330,13 @@
                             <th align="left"><strong>PlayReady</strong></th>
                         </tr>
                         <tr>
-                            <td>Price</td>
+                            <td>Pricing</td>
                             <!--  <td>¥1.8/100 许可证</td>  -->
-                            <td>RMB 1.34/100 licenses</td>
+                            <td>RMB1.34/100 licenses</td>
                         </tr>                        
                     </table>
                     <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
-                    <h3>Key for advanced encryption standard (AES)</h3>
+                    <h3>Advanced encryption standard (AES) Keys</h3>
                     <!-- <p>从2016年4月1日起， 高级加密标准 (AES) 密钥价格下调 25.5%，以下是下调后的新价格：</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -348,8 +348,8 @@
                             <th align="left"><strong>AES key</strong></th>
                         </tr>
                         <tr>
-                            <td>Price</td>
-                            <td>RMB 0.67/100 keys</td>
+                            <td>Pricing</td>
+                            <td>RMB0.67/100 keys</td>
                         </tr>
                     </table>
                     <p>There may also be <a id="Media_serivce_storage3" href="/pricing/details/storage/" target="_blank">Storage</a> and <a id="Media_serivce_data3" href="/pricing/details/data-transfer/" target="_blank">Data Transmission Rates</a> that will be charged at standard Azure rates.</p>
@@ -364,8 +364,8 @@
                             <th align="left"><strong>FairPlay</strong></th>
                         </tr>
                         <tr>
-                            <td>Price</td>
-                            <td>RMB 1.3144/100 licenses</td>
+                            <td>Pricing</td>
+                            <td>RMB1.3144/100 licenses</td>
                         </tr>
                     </table>                    
                     <!-- END: Table3-Content-->
@@ -375,11 +375,11 @@
                 <div class="tab-control-container" id="tabContent5">
                     <!-- BEGIN: Table3-Content-->
                     <h3>Indexing</h3>
-                    <p>By extracting voice content, video files and media are set to searchable. The pricing of Azure Media Indexer depends on the duration of the input file. If possible, the indexer will utilize the media retention unit for parallel running of speech processing tasks (Note: Index jobs cannot recognize improved performance on standard coding units).</p>
+                    <p>By extracting voice content, video files and media are searchable. The pricing of Azure Media Indexer depends on the duration of the input file. If possible, the indexer will utilize the media reserved unit for parallel running of speech processing tasks (Note: Index jobs cannot recognize standard version encoded units that have performance-enhanced standard coding units).</p>
                     
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -388,24 +388,24 @@
                         </tr>
                         <tr>
                             <td>First 20,000 minutes/month</td>
-                            <td>RMB 0.34/content minute</td>
+                            <td>RMB0.34/content minute</td>
                         </tr>
                         <tr>
                             <td>The next 180,000 minutes/month (20,000 to 200,000 minutes)</td>
-                            <td>RMB 0.33/content minute</td>
+                            <td>RMB0.33/content minute</td>
                         </tr>
                         <tr>
                             <td>The next 800,000 minutes/month (200,000 to 1,000,000 minutes)</td>
-                            <td>RMB 0.29/content minute</td>
+                            <td>RMB0.29/content minute</td>
                         </tr>
                         <tr>
                             <td>Over 1,000,000 minutes/month</td>
-                            <td>RMB 0.26/content minute</td>
+                            <td>RMB0.26/content minute</td>
                         </tr>
                     </table>
                     <p><sup>1</sup> The cost is prorated by minutes, and the minimum fee is charged starting from five minutes.</p>
                     <h3>Editor <sup style="color:#e66102; font-weight: bold">new</sup></h3>
-                    <p>The video is anonymized by detecting and obscuring the faces of selected individuals. The Azure media editor is very applicable to public security and news media programs. Pricing depends on the duration and resolution of the input file. Where possible, the editor may also use the media retention unit to run video parallel-processing tasks. (Note: the SLA of the editor is only applicable to the S3 media retention unit). For more details, please refer to our <a href="https://docs.azure.cn/zh-cn/media-services/media-services-face-redaction">documentation</a>.</p>
+                    <p>The video is anonymized by detecting and obscuring the faces of selected individuals. The Azure Media Editor is very applicable to public security and news media programs. Pricing depends on the duration and resolution of the input file. Where possible, the editor may also use the media reserved unit to run video parallel-processing tasks. (Note: the Service Level Agreement of the editor is only applicable to the S3 media reserved unit). For more details, please refer to our <a href="https://docs.azure.cn/zh-cn/media-services/media-services-face-redaction">documentation</a>.</p>
                     <p>Note: As of October 31, 2017, all input resolutions (no more than 1920x1200) are charged according to the metering of S1. Starting November 1, 2017, usage will be measured according to the "Supported Input Resolutions" as set out below.</p>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -422,21 +422,21 @@
                         </tr>
                         <tr>
                             <td>The first 50,000 minutes/month<sup> 2</sup></td>
-                            <td>RMB 0.212/Content Minutes (RMB 12.72/hour)</td>
-                            <td>RMB 0.424/Content Minutes (RMB 25.44/hour)</td>
-                            <td>RMB 0.848/Content Minutes (RMB 50.88/hour)</td>
+                            <td>RMB0.212/Content Minutes (RMB12.72/hour)</td>
+                            <td>RMB0.424/Content Minutes (RMB25.44/hour)</td>
+                            <td>RMB0.848/Content Minutes (RMB50.88/hour)</td>
                         </tr>
                         <tr>
                             <td>The next 950,000 minutes (50,001 - 1,000,000 minutes)/month</td>
-                            <td>RMB 0.197/content-minutes (RMB 11.82 /hour)</td>
-                            <td>RMB 0.394/Content Minutes (RMB 23.64/hour)</td>
-                            <td>RMB 0.788/Content Minutes (RMB 47.28/hour)</td>
+                            <td>RMB0.197/content-minutes (RMB11.82 /hour)</td>
+                            <td>RMB0.394/Content Minutes (RMB23.64/hour)</td>
+                            <td>RMB0.788/Content Minutes (RMB47.28/hour)</td>
                         </tr>
                         <tr>
                             <td>Over 1,000,000 minutes/month</td>
-                            <td>RMB 0.172 /content-min (RMB 10.32 /hour)</td>
-                            <td>RMB 0.344/Content Minutes (RMB 20.64/hour)</td>
-                            <td>RMB 0.688/Content Minutes (RMB 41.28/hour)</td>
+                            <td>RMB0.172 /content-min (RMB10.32 /hour)</td>
+                            <td>RMB0.344/Content Minutes (RMB20.64/hour)</td>
+                            <td>RMB0.688/Content Minutes (RMB41.28/hour)</td>
                         </tr>
                     </table>
                     <div class="tags-date">
@@ -451,15 +451,15 @@
             
             <div class="pricing-page-section">
                 <div class="more-detail">
-                    <h2>FAQs</h2>
+                    <h2>FAQ</h2>
                     <em>Expand all</em>
                     <ul>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Media_faq_que1">What is a media retention unit? What are the benefits of using it?</a>
+                                <a id="Media_faq_que1">What is a media reserved unit? What are the benefits of using it?</a>
                                 <section>
-                                    <p>Adding a media retention unit to an account ensures that multiple files can be processed simultaneously, and changing media retention unit types can affect the speed with which files are processed. For example, if an account has 3 S1 media retention units, up to 3 files can be processed simultaneously. Changing the retention unit type to S3 will allow faster processing of individual files. For more details, please refer to our<a href="https://docs.azure.cn/zh-cn/media-services/media-services-scale-media-processing-overview">documentation</a>.</p>
+                                    <p>Adding media reserved units to your account ensures that multiple files can be processed simultaneously, and changing media reserved unit types can affect the speed with which files are processed. For example, if an account has 3 S1 media reserved units, up to 3 files can be processed simultaneously. Changing the reserved unit type to S3 will allow faster processing of individual files. For more details, please refer to our <a href="https://docs.azure.cn/zh-cn/media-services/media-services-scale-media-processing-overview">documentation</a>.</p>
                                 </section>
 
                             </div>
@@ -467,9 +467,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Media_faq_que9">Is the amount of media retention units scalable? Is such scaling restricted?</a>
+                                <a id="Media_faq_que9">Can I scale media reserved units? Are there limits?</a>
                                 <section>
-                                    <p>Yes, the amount of media retention unit in an account is scalable. Although there are default limits in the Azure portal (For example, up to 25 S2 media retention units are allowed), they are not mandatory. If you require higher limits, <a href="/support/contact/">please contact us</a>.</p>
+                                    <p>Yes, the number of media reserved units in an account is scalable. Although there are default limits in the Azure portal (For example, up to 25 S2 media reserved units are allowed), they are not mandatory. If you require higher limits, <a href="/support/contact/">please contact us</a>.</p>
                                 </section>
                             </div>
                         </li>
@@ -488,16 +488,16 @@
                             <div>
                                 <a id="Media_faq_que10">Do I have to pay higher fees for high-priority jobs? </a>
                                 <section>
-                                    <p>No, fees are charged depending on output minutes and the number of media retention units. For more information, please refer to the following examples.</p>
+                                    <p>No, fees are charged depending on output minutes and the number of media reserved units. For more information, please refer to the following examples.</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Media_faq_que3">If I use the media retention unit, do I still have to pay the encoding fee based on the output minutes? </a>
+                                <a id="Media_faq_que3">If I use the media reserved unit, do I still have to pay the encoding fee based on the output minutes? </a>
                                 <section>
-                                   <p>Yes, fees are charged depending on the encoding output minutes of the media retention unit. Standard encoder: RMB 0.09858/output minute.</p>
+                                   <p>Yes, fees are charged depending on the encoding output minutes of the media reserved unit. Standard encoder: RMB0.09858/output minute.</p>
                                 </section>
 
                             </div>
@@ -507,19 +507,19 @@
                             <div>
                                 <a id="Media_faq_que11">Can you provide some examples of coding costs?</a>
                                 <section>
-                                    <p>Example 1: Joe uses a standard encoder to process 30 encoding jobs. Each job will create 10 output minutes (300 output minutes in total). Joe uses an S1 media retention unit (RU) which needs 2 hours for running each job. Joe spends 60 hours in a row on the S1 RU and then turns off the RU (setting the number of RUs to zero). </p>
+                                    <p>Example 1: Joe uses a standard encoder to process 30 encoding jobs. Each job will create 10 output minutes (300 output minutes in total). Joe uses an S1 media reserved unit (RU) which needs 2 hours for running for each job. Joe spends 60 hours in a row on the S1 RU and then turns off the RU (setting the number of RUs to zero). </p>
                                     <ul>
-                                        <li>Output minutes (standard encoder): 300 x RMB 0.09858 /minute = RMB 29.574</li>
-                                        <li>S1 media retention unit: 1 unit x 60 hours x RMB 0.13144 /hour = RMB 7.8864d</li>
-                                        <li>Total cost: RMB 37.4604</li>
+                                        <li>Output minutes (standard encoder): 300 x RMB0.09858 /minute = RMB29.574</li>
+                                        <li>S1 media reserved unit: 1 unit x 60 hours x RMB0.13144 /hour = RMB7.8864d</li>
+                                        <li>Total cost: RMB37.4604</li>
                                     </ul>
-                                    <p>Example 2: Joe uses a standard encoder to process 30 encoding jobs. Each job will create 10 output minutes (300 output minutes in total). This time, Joe uses three S2 media retention units (RUs). Each job will take only 1 hour to complete, so it takes only 10 hours to complete 30 jobs. Joe spends a total of 10 hours in a row on 3 S2 RU and then turns off the RU (the RU number was set to zero).</p>
+                                    <p>Example 2: Joe uses a standard encoder to process 30 encoding jobs. Each job will create 10 output minutes (300 output minutes in total). This time, Joe uses three S2 media reserved units (RUs). Each job will take only 1 hour to complete, so it takes only 10 hours to complete 30 jobs. Joe spends a total of 10 hours in a row on 3 S2 RU and then turns off the RU (the RU number was set to zero).</p>
                                     <ul>
-                                        <li>Output minutes (standard encoder): 300 x RMB 0.09858 /minute = RMB 29.574</li>
-                                        <li>S2 media retention unit: 3 unit x 10 hours x RMB 0.26288 /hour = RMB 7.8864</li>
-                                        <li>Total cost: RMB 37.4604</li>
+                                        <li>Output minutes (standard encoder): 300 x RMB0.09858 /minute = RMB29.574</li>
+                                        <li>S2 media reserved unit: 3 unit x 10 hours x RMB0.26288 /hour = RMB7.8864</li>
+                                        <li>Total cost: RMB37.4604</li>
                                     </ul>
-                                    <p>Example 3: Joe has a two-hour movie with resolution of 1920x1080. He uses a standard encoder to encode it with a default “H264 multiple bit rate 1080p” preset to stream movies to iOS and Android devices. The encoding preset generates 3 HD output videos, 5 SD output videos, and 1 audio. The total minutes for this encoding job is (3x2 + 5 + 0.25) = 11.25. Therefore, the total output minutes will be 11.25 x 2 x 60 = 1,350. The total cost is 1,350 x RMB 0.09858/min = RMB 133.083.</p>
+                                    <p>Example 3: Joe has a two-hour movie with resolution of 1920x1080. He uses a standard encoder to encode it with a default “H264 multiple bit rate 1080p” preset to stream movies to iOS and Android devices. The encoding preset generates 3 HD output videos, 5 SD output videos, and 1 audio. The total minutes for this encoding job is (3x2 + 5 + 0.25) = 11.25. Therefore, the total output minutes will be 11.25 x 2 x 60 = 1,350. The total cost is 1,350 x RMB0.09858/min = RMB133.083.</p>
                                 </section>
                             </div>
                         </li> 
@@ -528,22 +528,22 @@
                             <div>
                                 <a id="Media_faq_que15">How much is the charge for creating a thumbnail image</a>
                                 <section>
-                                    Both sides of the input video must be consistent with the supported input resolution of each measurement. For example, a video with resolution of 600x481 that exceeds the maximum 640x480 resolution of S1, both sides greater than 480, will be regarded as S2 measurement.
+                                    Both sides of the input video must be consistent with the supported input resolution of each measurement. For example, a video with resolution of 600x481 that exceeds the maximum 640x480 resolution of S1, both sides greater than 480, will be regarded as an S2 measurement.
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Media_faq_que6">If I use two S1 media retention units in a certain period in a day and then use four S3 media retention units on the same day, how do you charge me for that? Do you charge the same way if I use a stream processing unit? </a>
+                                <a id="Media_faq_que6">If I use two S1 media reserved units in a certain period in a day and then use four S3 media reserved units on the same day, how do you charge me for that? Do you charge the same way if I use a streaming unit? </a>
                                 <section>
-                                    <p>You will be charged according to the actual minutes of the media retention unit. The following is a more detailed example. Suppose Joe starts with zero media retention units (RUs), and his account is set to use two S1 RUs at 10:00AM that day. In the afternoon came other videos, he changes his account to use 4 S3 RUs at 1:15PM. All videos are processed before 4:00PM, then he closes the RU in the account (setting the RU number to zero). Joe's usage is as follows.</p>
+                                    <p>You will be charged according to the actual minutes of the media reserved unit. The following is a more detailed example. Suppose Joe starts with zero media reserved units (RUs), and his account is set to use two S1 RUs at 10:00AM that day. In the afternoon other videos arrived, he changes his account to use 4 S3 RUs at 1:15PM. All videos are processed before 4:00PM, then he closes the RU in the account (setting the RU number to zero). Joe's usage is as follows.</p>
                                     <ul>
-                                        <li>S1 media retention unit: 2 units x 3.25 hours (10AM to 1:15PM) x RMB 0.13144 /hour = RMB 0.85436</li>
-                                        <li>S3 media retention unit: 4 units x 2.75 hours (1:15PM to 4PM) x RMB 0.52576 /hour = RMB 5.78336</li>
+                                        <li>S1 media reserved unit: 2 units x 3.25 hours (10AM to 1:15PM) x RMB0.13144 /hour = RMB0.85436</li>
+                                        <li>S3 media reserved unit: 4 units x 2.75 hours (1:15PM to 4PM) x RMB0.52576 /hour = RMB5.78336</li>
                                     </ul>
-                                    <p>Therefore, the total cost arising out of Joe's use of the media retention unit is RMB 0.85436 + RMB 5.78336 = RMB 6.63772</p>
-                                    <p>Unlike the media retention unit, the charge for the streaming unit is based on the maximum number of streaming units configured per day (high watermarks).</p>
+                                    <p>Therefore, the total cost arising out of Joe's use of the media reserved unit is RMB0.85436 + RMB5.78336 = RMB6.63772</p>
+                                    <p>Unlike the media reserved unit, the charge for the streaming unit is based on the maximum number of streaming units configured per day (high watermarks).</p>
 
                                 </section>
                             </div>
@@ -551,9 +551,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Media_faq_que7">If the media retention unit or the stream processing unit has not been used for a period of more than one month, am I going to be charged on a monthly basis?</a>
+                                <a id="Media_faq_que7">If the media reserved unit or the streaming unit has not been used for a period of more than one month, am I going to be charged on a monthly basis?</a>
                                 <section>
-                                    <p>No, the charge for the media retention unit is based on the number of minutes, while that for the streaming unit is on a daily basis.</p>
+                                    <p>No, the charge for the media reserved unit is based on the number of minutes, while that for the streaming unit is on a daily basis.</p>
                                     <p>To understand the cost of coding items, please visit <a href="/pricing/calculator/media-services">media service calculator</a> page.</p>
                                 </section>
                             </div>
@@ -561,9 +561,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Media_faq_que4">What is a stream processing unit? What are the benefits of using it?. </a>
+                                <a id="Media_faq_que4">What is a streaming unit? What are the benefits of using it? </a>
                                 <section>
-                                    <p>The stream processing unit provides a set of private resources for content stream processing, so that each unit can increase the guaranteed bandwidth throughput up to 200 Mbps.</p>
+                                    <p>The streaming unit provides a set of private resources for content streaming, so that each unit can increase the guaranteed bandwidth throughput up to 200 Mbps.</p>
                                 </section>
 
                             </div>
@@ -571,33 +571,33 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Media_faq_que5">Can I buy many stream processing units?</a>
+                                <a id="Media_faq_que5">Can I buy multiple streaming units?</a>
                                 <section>
-                                    <p>Yes, you can buy many stream processing units for content stream processing.</p>
+                                    <p>Yes, you can buy multiple streaming units for content streaming.</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Media_faq_que8">If I use two stream processing units in a certain period in a day and then use four stream processing units on the same day, how do you charge me for that? </a>
+                                <a id="Media_faq_que8">If I use two streaming units in a certain period in a day and then use four streaming units on the same day, how do you charge me for that? </a>
                                 <section>
-                                    <p>You will be charged for the maximum number of stream processing units configured per day. In this example, you will be charged for four streaming units for that day.</p>
+                                    <p>You will be charged for the maximum number of streaming units configured per day. In this example, you will be charged for four streaming units for that day.</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Media_faq_que12">What is the charge for real-time stream processing? </a>
+                                <a id="Media_faq_que12">What is the charge for live streaming? </a>
                                 <section>
-                                    <p>The probable value of the current channel may include:</p>
+                                    <p>The possible value of the current channel may include:</p>
                                     <ul> 
-                                        <li><strong>Suspended. </strong> This is the initial state of the channel after it was created. In this state, channel attributes can be updated but stream processing is not allowed.</li> 
-                                        <li><strong>Starting up. </strong> The channel is starting up. In this state, any updating or stream processing is not allowed. In the event of error, channel will return to the "stopped" state.</li> 
-                                        <li><strong>Running. </strong>The channel could handle real-time streaming data.</li> 
-                                        <li><strong>Stopping. </strong> The channel is stopped. In this state, no updating or stream processing is allowed.</li> 
-                                        <li><strong>Deleting. </strong> The channel is deleting. In this state, no updating or stream processing is allowed.</li> 
+                                        <li><strong>Suspended. </strong> This is the initial state of the channel after it was created. In this state, channel attributes can be updated but streaming is not allowed.</li> 
+                                        <li><strong>Starting Up. </strong> The channel is starting up. In this state, any updating or streaming is not allowed. In the event of error, the channel will return to the "Suspended" state.</li> 
+                                        <li><strong>Running. </strong>The channel can handle live streaming data.</li> 
+                                        <li><strong>Stopping. </strong> The channel is stopped. In this state, no updating or streaming is allowed.</li> 
+                                        <li><strong>Deleting. </strong> The channel is deleting. In this state, no updating or streaming is allowed.</li> 
                                     </ul> 
                                     <p>The following table shows how to map the channel status to the charging mode.</p> 
                                     <table cellpadding="0" cellspacing="0" width="100%"> 
@@ -607,13 +607,13 @@
                                             <td>Billed?</td> 
                                         </tr>
                                         <tr> 
-                                            <td><strong>Starting up</strong></td> 
-                                            <td>Starting up</td> 
+                                            <td><strong>Starting Up</strong></td> 
+                                            <td>Starting Up</td> 
                                             <td>No (transition state)</td> 
                                         </tr> 
                                         <tr> 
                                             <td><strong>Running</strong></td> 
-                                            <td>Ready (no running program)<br/>or<br/>Stream processing (at least one program is running)</td> 
+                                            <td>Ready (no running program)<br/>or<br/>Streaming (at least one program is running)</td> 
                                             <td>Yes</td> 
                                         </tr>
                                         <tr> 
@@ -633,9 +633,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Media_faq_que13">Can you provide some examples of real-time channel costs? </a>
+                                <a id="Media_faq_que13">Can you provide some examples of live channel costs? </a>
                                 <section>
-                                    <p>Joe wants to stream a 2-hour sporting event and plans to use real-time channels for encoding...</p>
+                                    <p>Joe wants to stream a 2-hour sporting event and plans to use live channels for encoding...</p>
                                     <ol> 
                                         <li>Joe sets up the channel and starts it 20 minutes before the start of the event. The Channel remains in the “Starting up" state for 5 minutes</li> 
                                         <li>After starting up, the channel enters the “Running" state and is ready to receive data streams. The channel will be in the “Running" state (the portal UI indicates the channel is"ready") for 15 minutes.</li> <li>The event will start to be streamed on time, which will last for 2 hours or 120 minutes (the portal UI indicates "Streaming").</li> 
@@ -643,17 +643,17 @@
                                         <li>After the show, Joe immediately stops the channel and deletes it.</li> 
                                     </ol>
                                     <p><img src="//resource.cdn.azure.cn/marketing-resource/css/images/pricing/faq/media_service_faq01.png" alt="" /></p>
-                                    <p>The channel remains in the “Running" state for 170 minutes in total (15 minutes before the race + 120 minutes during the event+ 5 minutes with no streaming after the event+ 30 minutes for the post game show).</p>
-                                    <p>170 minutes x RMB 40.50/60 = RMB 114.75</p>
+                                    <p>The channel remains in the “Running" state for 170 minutes in total (15 minutes before the event + 120 minutes during the event+ 5 minutes with no streaming after the event+ 30 minutes for the post game show).</p>
+                                    <p>170 minutes x RMB40.50/60 = RMB114.75</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Media_faq_que14">How is the editor measurement of non-standard video resolution determined? </a>
+                                <a id="Media_faq_que14">How does the Editor measure non-standard video resolution? </a>
                                 <section>
-                                    <p>Both sides of the input video must be consistent with the supported input resolution for each measurement. For example, a video with resolution of 600x481 that exceeds the maximum 640x480 resolution of S1, both sides greater than 480, will be regarded as S2 measurement.</p>
+                                    <p>Both sides of the input video must be consistent with the supported input resolution for each measurement. For example, a video with resolution of 600x481 that exceeds the maximum 640x480 resolution of S1, where both sides are greater than 480, will be regarded as an S2 measurement.</p>
                                 </section>
                             </div>
                         </li>  
@@ -661,20 +661,20 @@
                 </div>
             </div>
             <div class="pricing-page-section">
-                <h2>Marketing Regions</h2>
-                <p>Media services are available in the following areas:</p>
+                <h2>Region</h2>
+                <p>Media Services are available in the following areas:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territories</strong></th>
-                        <th align="left"><strong>Regions</strong></th>
+                        <th align="left"><strong>Territory</strong></th>
+                        <th align="left"><strong>Region</strong></th>
                     </tr>
                     <tr>
                         <td>Mainland China</td>
-                        <td>China East Data Center, China North Data Center</td>
+                        <td>China North, China East</td>
                     </tr>
                 </table>
                <div class="pricing-page-section">
-                <h2>Support and Service Level Agreements</h2>
+                <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="media-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
                 <ol>
                     <li>For media service coding, we promise that the availability of REST API transactions can be up to 99.9%.</li>
@@ -683,7 +683,7 @@
                     <li>For content protection, we promise to successfully process keyword requests at least 99.9% of the time.</li>
                     <li>For Indexer, we will successfully process Indexer task requests through code-reserved units at least 99.9% of the time.</li>
                 </ol>
-				<p>To learn more about the details of our service level agreement, please visit the <a href="/support/sla/media-services" id="pricing_media_sla">Service Level Agreements</a> page.</p>
+				<p>To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/media-services" id="pricing_media_sla">Service Level Agreements</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                     
     
@@ -691,8 +691,8 @@
     <pageTitle>Pricing for Azure Media Services - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-media-service</linkid>
-    <metaKeywords>Azure, Media service, Price, Stream processing</metaKeywords>
-    <metaDescription><![CDATA[Learn about the price details of Azure Media Services (Media Services). Based on proven technology, Azure Media Services provides highly available and scalable end-to-end media solutions. Its specific functions include encoding, streaming, content protection, and indexing. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
+    <metaKeywords>Azure, Media service, Price, Streaming</metaKeywords>
+    <metaDescription><![CDATA[Learn about the pricing details of Azure Media Services (Media Services). Based on proven technology, Azure Media Services provides highly available and scalable end-to-end media solutions. Its specific functions include encoding, streaming, content protection, and indexing. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Media services</urlDisplayName>
   </TextpageLeftNav>
 </localize>

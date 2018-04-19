@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <localize>
   <umbTextpage id="19329" parentID="19326" level="3" writerID="52" creatorID="94" nodeType="1059" template="1" sortOrder="3" createDate="2013-08-27T11:20:07" updateDate="2014-08-18T11:34:25" nodeName="Web" urlName="web" writerName="uRest" creatorName="xunfan" path="-1,11978,19326,19329" isDoc="" isResponsive="1">
     <bodyText><![CDATA[
@@ -39,7 +39,7 @@
                     </div>
                     <div class="figure-section">
                         <p class="figure-h2">Security</p>    
-                        <p>We guarantee that your client data is secure. Azure has adopted a series of reliable security technologies and practices that help ensure that Azure infrastructure can <strong>respond to attacks</strong> and protect users’ access to the Azure environment. Moreover, <strong>encrypted communication, threat management, and countermeasures</strong> (including recurring testing against infiltration) assists in ensuring client data is secure. Industry leading security technology and practices ensure that client data <strong>confidentiality, integrity</strong> and <strong>availability</strong> guarantees that we exceed <strong> 99.99% </strong> a month of our service level agreement, and both data centers in Beijing and Shanghai provide at most <strong> 6 </strong> data backups.</p>
+                        <p>We guarantee that your client data is secure. Azure has adopted a series of reliable security technologies and practices that help ensure that Azure infrastructure can <strong>respond to attacks</strong> and protect users’ access to the Azure environment. Moreover, <strong>encrypted communication, threat management, and countermeasures</strong> (including recurring testing against infiltration) assist in ensuring client data is secure. Industry leading security technology and practices ensure that client data <strong>confidentiality, integrity</strong> and <strong>availability</strong> guarantees that we exceed <strong> 99.99% </strong> a month of our Service Level Agreement, and both data centers in Beijing and Shanghai provide at most <strong> 6 </strong> data backups.</p>
                     </div>
                 </li>
                 <li>
@@ -88,7 +88,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/what-is-azure/what-is-azure-cost@2x.png" />
                     </div>
                     <div class="figure-section">
-                        <p>We offer the most favorable pricing to provide you excellent service. Based on each individual service, and according to different configurations, different levels, and <strong>individual pricing</strong> satisfy your diverse and multiple levels of business needs according to usage and <strong>separate billing</strong>. At the same time, we still provide completely cost-free services: for example processing and Active Directory. Become an Azure pay-in-advance client and enjoy <strong> 99.99% </strong> of a <a href="/support/legal/sla" id="whai-is-azure-sla">service level agreement</a>. Rapidly deploy infrastructure and services, satisfy all of your business needs, and assists you in <strong>saving operating costs</strong> allowing you to focus on your core business.</p>
+                        <p>We offer the most favorable pricing to provide you excellent service. Based on each individual service, and according to different configurations, different levels, and <strong>pricing separately</strong>, we will satisfy your diverse and multiple levels of business needs according to usage and <strong>charging separately according to usage time</strong>. At the same time, we still provide completely cost-free services: for example processing and Active Directory. Become an Azure PIA customer, you can enjoy up to<strong> 99.99% </strong> <a href="/support/legal/sla" id="whai-is-azure-sla">SLA (Service Level Agreement).</a>. You can rapidly deploy infrastructure and services to fully meet all of your enterprise needs, help you reduce <strong>saving operating costs</strong> and allow you concentrate on your core business.</p>
                     </div>
                 </li>
             </ul>                   
@@ -98,8 +98,8 @@
             <div class="common-banner-image">
                 <div class="common-banner-title">
                     <h1>Are you ready to start?</h1>
-                    <p>Apply for a 1RMB Trial, and get a 1,500 RMB free credit limit with Azure</p>
-                    <em><a href="/pricing/1rmb-trial/" id="what_is_azure_bottom_trial">Apply for a 1RMB Trial</a><i class="icon icon-arrow-right-thin"></i></em>
+                    <p>Apply for a 1RMB Trial, and get an RMB1,500 free credit limit with Azure</p>
+                    <em><a href="/pricing/1rmb-trial/" id="what_is_azure_bottom_trial">Apply for 1RMB Trial</a><i class="icon icon-arrow-right-thin"></i></em>
                 </div>
             </div>
         </div>  

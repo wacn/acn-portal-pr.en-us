@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <localize>
   <umbTextpage template="21" createDate="2017-12-04T11:20:07" updateDate="2017-12-04T11:34:25">
     <bodyText><![CDATA[
@@ -13,28 +13,28 @@
             wacn.date="07/2017"
             wacn.lang="cn" 
             ms.author="will"/></p>
-        <h1>ICP registration operation analysis</h1><div class="tags-date"><div class="wacn-date">Final renewal date is July 201</div></div>
-        <h2>7 Registration type</h2>
-        <p>Initial registration</br>
-        Original registration in Azure Cloud: Add a website, registration changes, registration sign off</br>
-        Original registration not in Azure Cloud: newly added website, newly added access
-         </br>
+        <h1>ICP filing operation analysis</h1><div class="tags-date"><div class="wacn-date">Last updated: Wednesday April 4, 2018</div></div>
+        <h2>Filing type</h2>
+        <p>Initial filing</br>
+        Original filing in Blue Cloud: Add a website, filing changes, filing sign off</br>
+        Original filing not in Blue Cloud: newly added website, newly added access
+        </br>
         </br></p>
-        <h2>Registration of specific operations</h2>
-        <p>1. ICP registration procedures</p>
+        <h2>Filing of specific operations</h2>
+        <p>1. ICP filing procedures</p>
         <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/3-1.png" alt="Procedure" />
         </br></p>
-        <p>2. Registration requirements for each province</br>
-       Before registering, first know your own local administration’s registration requirements, this will make your audit by your local administration go smoothly.</br>
+        <p>2. Filing requirements for each province</br>
+        Before registering, first know your own local administration’s filing requirements. This will make your audit by the local administration go smoothly.</br>
         <a id="icp-addweb_special-request" href="//resource.cdn.azure.cn/marketing-resource/media/icp/备案信息填写要求20180115.doc">Download all provincial administration special requirements</a>
         </br></p>
-        <p>3. Registration of specific operations</br>
-        3.1 Sign on to account</br>
-        3.1.1 Sign on to registration account</br>
+        <p>3. Filing of specific operations</br>
+        3.1 Sign up to account</br>
+        3.1.1 Sign in to filing account</br>
         Login website<a id="icp-addweb_cloud.21vianet" href="https://icp.cloud.21vianet.com">https://icp.cloud.21vianet.com</a></p>
         <ol>
-        <li>Click on “User sign on”</br></li>
-        <li>Enter sign on mailbox. the system can default to using your sign on mailbox as your login account. If the mailbox has already been signed into, then please change to another mailbox</br></li>
+        <li>Click on “User sign up”</br></li>
+        <li>Enter sign up email. The system can default to using your sign up email as your login account. If the email has already been signed into, then please change to another email</br></li>
         <li>Read and agree to the service agreement</li>
         </ol>
         <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/3-2.png" alt="Procedure" /> <img src="//resource.cdn.azure.cn/marketing-resource/media/icp/3-3.png" alt="Procedure" />
@@ -42,67 +42,66 @@
         <p>3.1.2 Fill in account information</p>
         <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/3-4.png" alt="Procedure" />
         </br></p>
-        <p>3.2 Enter registration information</br>
-        3.2.1 Log into registration system, click on “New Registration”, and verify the page</br>
-       Fill in registration domain name and host certification information. The system can, based on the domain and host certification number, check whether a registration record already exists if the certificate number was already registered under an old domain without a registration record but maintained as a new website.</p>
+        <p>3.2 Enter filing information</br>
+        3.2.1 Log into filing system, click on “New filing”, and enter the verification page</br>
+        Fill in filing domain name and host certification information. The system can, based on the domain and host certification number, check whether a filing record already exists if the certificate number was already filed under an old domain without a filing record but maintained as a new website.</p>
         <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/3-5.png" alt="Procedure" /> <img src="//resource.cdn.azure.cn/marketing-resource/media/icp/3-6.png" alt="Procedure" />
         </br></p>
         <p>3.2.2 If it is a newly added website, you will be prompted to enter the website information </br></p>
         <ol>
-        <li>Website name: you cannot use the domain or URL as the website name; if the host is not a national-level website, it cannot use “China” in the name.</br></li>
-        <li>Webpage URL: Fill in the top level domain corresponding to the web address (for example www.abc.com); based on current administrative regulations, register the main top level domain and if the top level domain is an already registered second level domain it can usually be used.</br></li>
-        <li>If the person responsible for the website and the person responsible for the host are not the same person, fill in separate mobile numbers and email addresses to distinguish them and the two cannot be the same.</br></li>
-        <li>When a website is newly added, we suggest that the host information be examined first. If the host information and actual conditions are not the same, the host information should be amended and the registration should be changed; After the registration has been administratively approved, re-add the website (note: when amending main information, you can’t carry out new-add operations).</li>
+        <li>Website name: you cannot use the domain or URL as the website name. If the host is not a national-level website, it cannot use “China” in the name.</br></li>
+        <li>Webpage URL: Fill in the top level domain corresponding to the web address (for example www.abc.com). Based on current administrative regulations, register the main top level domain, and if the top level domain is an already filed second level domain, it can usually be used.</br></li>
+        <li>If the person responsible for the website and the person responsible for the host are not the same person, fill in separate mobile numbers and email addresses to distinguish them, but the two cannot be the same.</br></li>
+        <li>When a website is newly added, we suggest that the host information be examined first. If the host information and actual conditions are not the same, the host information should be amended and the filing should be changed. After the filing has been administratively approved, re-add the website (note: when amending main information, you can’t carry out new-add operations).</li>
+        <li>From January 1, 2018, domain names engaged in the use of Internet information should be registered to comply with laws and regulations. The domain name registrant for an individual registration should be the individual themselves. The domain name registrant for an organization registration should be the organization (including company shareholders), the main person in charge of the organization, or senior management personnel. Domain names must also be top-level domain names that have been approved by the state, that have been registered through a state-approved domain name registration service.</li>
         </ol>
         <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/3-7.png" alt="Procedure" /> <img src="//resource.cdn.azure.cn/marketing-resource/media/icp/3-8.png" alt="Procedure" />
         </br></p>
         <p>3.2.3 Website access information </br></p>
         <ol>
         <li>Website IP address: must be filled out as part of your company’s network segment IP address.</br></li>
-        <li>Website access methods: Users in Zhejiang Tianjin select “virtual host”, users in other areas select “other method”.</br></li>
+        <li>Website access method: Cloud access.</br></li>
         <li>Server placement: Select “Beijing” or “Shanghai”.</li>
         </ol>
         <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/3-9.png" alt="Procedure" />
         </br></p>
-        <p>3.3 Upload registration material</br>
+        <p>3.3 Upload filing materials</br>
         Attention:</br></p>
         <ol>
         <li>Any attachments should be “original color scans” or “original document pictures” in jpg format.</br></li>
         <li>Mainland China identity cards must be valid for 3 months. Identity cards must be uploaded as an image.</br></li>
-        <li>“Website registration information authentication checklist” only requires filling in “Website host name” (registered host name) and “website domain” (does not require adding www.). Additionally, “Signature of person responsible for website) signature location requires a seal (each person registered must provide a seal). Do not fill in any information in “examiner signature and unit seal”.</br></li>
-        <li>Domain Certificate: If the domain is registered domestically, check the directly connecting domain; if the domain is registered overseas, check the information via Whois on the Internet and provide a screenshot. The domain’s owner and registration authority must be clearly visible.</br></li>
-        <li>The domain certificate registrar must be the host or legal representative.</li>
+        <li>“Website filing information authentication checklist” only requires filling in “Website host name” (filed host name) and “website domain” (does not require adding www.). Additionally, “Signature of person responsible for website) signature location requires a seal (each person filing must provide a seal). Do not fill in any information in “examiner signature and unit seal”.</br></li>
         </ol>
         <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/3-10.png" alt="Procedure" />
          </br>
          6. If it doesn’t involve a previous examination and approval page, then click on “return to home page”.</p>
         <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/3-11.png" alt="Procedure" />
          </br></p>
-        <p>3.4 Submit a registration information note</br>
-         1. After information is validated, click “submit registration” and wait for an initial check.</br>
-         2. If many website applications need to be submitted, return to the verification page and open the new registration workflow. In addition, if many websites are submitted, only 3 can be submitted at a time, you must wait until each batch is administratively approved before submitting more. </br> 
+        <p>3.4 Submit a filing information note</br>
+         1. After information is validated, click “submit filing” and wait for an initial check.</br>
+         2. If many website applications need to be submitted, return to the verification page and open the new filing workflow. In addition, if many websites are submitted, only 3 can be submitted at a time. You must wait until each batch is administratively approved before submitting more. </br> 
          3. To ensure the audit goes through, don’t turn on privacy protection during the audit.</p>
         <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/3-12.png" alt="Procedure" />
         </br></p>
-        <p>3.5 Registration tasks after registration information is submitted</br></p>
+        <p>3.5 Filing tasks after filing information is submitted</br></p>
         <ol>
-        <li>After submitting registration, we will conduct an audit within 2 business days and will let you know by mail or phone if there are any problems. Please make sure your phone is available and check your mail.</br></li>
-        <li>After the initial audit, we will mail you with the next steps. According to the mail, take a picture and the original website authentication list + network security responsibility agreement to the Azure in-person signing address, or take your own picture and mail the materials.</br></li>
+        <li>After submitting filing, we will conduct an audit within 2 business days and will let you know by mail or phone if there are any problems. Please make sure your phone is available and check your mail.</br></li>
+        <li>After the initial audit, we will mail you with the next steps. According to the mail, take a picture and the original website authentication list + network security responsibility agreement to the Blue Cloud in-person signing address, or take your own picture and mail the materials.</br></li>
         <li>
         In-person signing address:</br>
-        Beijing (this is also the address to mail materials to): No. 1, Jiuxianqiao East Road, Chaoyang District, Beijing  Telephone: 4000890365</br>
-        Shanghai: Room 657, Building 3, No. 88, Keyuan Road, Pudong District, Shanghai  Telephone: 4000890365</br>
+        Beijing (this is also the address to mail materials to): No. 1, Jiuxianqiao East Road, Chaoyang District, Beijing  Telephone: 4000890365 </br>
+        Shanghai: Room 657, Building 3, No. 88, Keyuan Road, Pudong District, Shanghai  Telephone: 4000890365 </br>
         </li>
-        <li>After we have received the paper documents and photographs, we will carry out an audit within 1.5 working days . If there are any problems during the audit period, we will call or email you about the material that has a problem. Please ensure that your phone line is open and check your mail. Once your information is found accurate and is verified, we will immediately report it to the administration.</br></li>
+        <li>After we have received the paper documents and photographs, we will carry out an audit within 1.5 working days. If there are any problems during the audit period, we will call or email you about the materials that have problems. Please ensure that your telephone is available and check your mail. Once your information is found to be accurate and is verified, we will immediately report it to the administration.</br></li>
         <li>
-       After registration is completed, the administration will notify the host’s responsible person by mail and text.</br>
-        Additionally: The audit period for local provincial administrations is estimated. (Note: the audit period is ultimately up to the administration)</br>
+        After filing is completed, the administration will notify the host’s responsible person by mail and text.</br>
+        Attached: the estimated audit period of some provincial administrations. (Note: the audit period is ultimately up to the administration)</br>
         3 Weeks：Gansu, Yunnan</br>
         2 Weeks: Beijing, Zhejiang, Hubei, Tianjin, Jiangxi, Guangxi, Hebei, Heilongjiang, Inner Mongolia</br>
         1 Week: Guangdong, Jiangsu, Sichuan, Henan, Shanxi, Anhui, Fujian, Guizhou, Liaoning, Hainan, Hunan, Xinjiang, Shanxi, Ningxia, Chongqing</br>
         3 Days: Shanghai</br>
         </li>
-        <li>After the registration information is submitted: you can check on the progress of registration through the registration module.</li>
+        <li>After the filing information is submitted: you can check on the progress of filing through the filing module.</li>
         </ol>
         <p><img src="//resource.cdn.azure.cn/marketing-resource/media/icp/3-13.png" alt="Procedure" /> </br>
          7. If the administrative audit is not passed, we will call and mail you to inform you of the reason and assist you in submitting additional information. Please ensure your phone is available and check your mail.</p>
@@ -112,11 +111,11 @@
     
     ]]></bodyText>
     <umbracoNaviHide>0</umbracoNaviHide>
-    <pageTitle>Original registration in Azure Cloud - newly added website | Azure</pageTitle>
+    <pageTitle>Original filing in Blue Cloud - newly added website | Azure</pageTitle>
     <metaKeywords>Meta Keywords</metaKeywords>
     <metaDescription><![CDATA[
         
-            The ICP registration type is the newly-added website process for an original registration in the Azure Cloud
+            The ICP filing type is the newly-added website process for an original filing in Blue Cloud
             
     ]]></metaDescription>
     <linkid>0</linkid>

@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/loadbalancer-icon.png" />
                         <h2><span>Load Balancer</span></h2>
                         <h4>Enables improved availability and network performance for your apps</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="load-balancer_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="load-balancer_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="load-balancer_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="load-balancer_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -22,11 +22,11 @@
                     <li>Load balances internet and private network traffic</li>
                     <li>Increase app reliability by monitoring operational status</li>
                     <li>Flexible NAT rules deliver greater security</li>
-                    <li>Direct integration with virtual machines and cloud services</li>
+                    <li>Direct integration with Virtual Machines and Cloud Services</li>
                 </ul>
                 
                 <h2>Simplifies load balancing for apps</h2>
-                <p>Built-in load balancing for cloud services and virtual machines enables you to create highly available and scalable apps in minutes. Azure Load Balancer supports TCP/UDP-based protocols (such as HTTP, HTTPS and SMTP), as well as protocols used for real-time audio and video messaging apps.</p>
+                <p>Built-in load balancing for Cloud Services and Virtual Machines enables you to create highly available and scalable apps in minutes. Azure Load Balancer supports TCP/UDP-based protocols (such as HTTP, HTTPS and SMTP), as well as protocols used for real-time audio and video messaging apps.</p>
 
                 <h2>Apps with high availability and reliable performance</h2>
                 <p>Load Balancer automatically scales up as app traffic increases, allowing your app to provide a better user experience without any reconfiguration or management of Load Balancer.</p>
@@ -43,7 +43,7 @@
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
             <div class="pricing-page-section link-group-container">
-                <h1>Find out more</h1>
+                <h1>More</h1>
                 <ul>
                     <li><a href="https://docs.azure.cn/load-balancer/load-balancer-overview/" id="load-balancer_articles_load-balancer_overview">Introduction to Load Balancer</a></li>
                     <li><a href="https://docs.azure.cn/load-balancer/load-balancer-internet-overview/" id="load-balancer_articles_load-balancer-internet-overview">Overview of the Internet-facing Load Balancer:</a></li>

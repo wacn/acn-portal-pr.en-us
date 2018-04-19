@@ -39,15 +39,15 @@
                         </tr>
                         <tr>
                             <td>Incoming events</td>
-                            <td>RMB 0.18/million events</td>
-                            <td>RMB 0.18/million events</td>
+                            <td>RMB0.18/million events</td>
+                            <td>RMB0.18/million events</td>
                             <td>Including</td>
                         </tr>
 
                         <tr>
                             <td>Throughput units (incoming events 1 MB/second, outgoing events 2MB/second)</td>
-                            <td>RMB 0.1/hour (about RMB 74.40/month)</td>
-                            <td>RMB 0.19/hour (about RMB 141.36/month)</td>
+                            <td>RMB0.1/hour (about RMB74.40/month)</td>
+                            <td>RMB0.19/hour (about RMB141.36/month)</td>
                             <td>Including</td>
                         </tr>
 
@@ -108,11 +108,11 @@
 						<tr>
                             <td>Capturing</td>
                             <td></td>
-                            <td>RMB 0.636/hour (about RMB 473.184/month)</td>
+                            <td>RMB0.636/hour (about RMB473.184/month)</td>
                             <td>Included</td>
                         </tr>
                     </table>
-                    <p><sup>1 </sup>The price of Dedicated Event Hubs is RMB 34,149.6/month. The expenses of 4 hours will be collected as a minimum, then after 4 hours, charging is by the hour. The dedicated layer is not suitable for deployment from the Azure portal, so customers need to contact 21Vianet Customer Service Support to obtain the dedicated cluster. For details about the product/service, please read <a href="https://docs.azure.cn/zh-cn/event-hubs/event-hubs-dedicated-overview" id="pricing-event-hubs_event-hubs-dedicated-overview">Overview of Dedicated Event Hubs</a>. If you have any other questions, please contact <a href="/support/contact/" id="hubs-contact-page-support">21Vianet Customer Service Support</a>.</p>
+                    <p><sup>1 </sup>The price of Dedicated Event Hubs is RMB34,149.6/month. The expenses of 4 hours will be collected as a minimum, then after 4 hours, charging is by the hour. The dedicated layer is not suitable for deployment from the Azure portal, so customers need to contact 21Vianet Customer Service Support to obtain the dedicated cluster. For details about the product/service, please read <a href="https://docs.azure.cn/zh-cn/event-hubs/event-hubs-dedicated-overview" id="pricing-event-hubs_event-hubs-dedicated-overview">Overview of Dedicated Event Hubs</a>. If you have any other questions, please contact <a href="/support/contact/" id="hubs-contact-page-support">21Vianet Customer Service Support</a>.</p>
                     <p><sup>2 </sup>If you request to increase the throughput unit of Standard Event Hubs to more than 20, please <a href="/support/contact/" id="hubs-contact-page-2">contact us</a>.</p>
 					<p><sup>3 </sup>In the standard layer, messages can be retained 7 days at most, however, keeping messages for more than 1 day will result in overage charges.</p>
 					<!-- <p>基本级别的事件中心为每个 Service Bus 命名空间提供 100 个 Service Bus 中转连接，这些中转连接在整个 Service Bus 命名空间中共享。标准级别的事件中心为每个订阅提供 1,000 个 Service Bus 中转连接。</p> --> <!-- END: Table4-Content-->
@@ -123,7 +123,7 @@
             
             <div class="pricing-page-section">
                 <div class="more-detail">
-                    <h2>FAQs</h2>
+                    <h2>FAQ</h2>
                     <em>Expand all</em>
                     <ul>
                         <li>
@@ -266,21 +266,21 @@
                 </div>
             </div>
             <div class="pricing-page-section">
-                <h2>Regions Where Sold</h2>
+                <h2>Region</h2>
                 <p>The Azure Event Hubs are available in the following regions:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territories</strong></th>
-                        <th align="left"><strong>Regions</strong></th>
+                        <th align="left"><strong>Territory</strong></th>
+                        <th align="left"><strong>Region</strong></th>
                     </tr>
                     <tr>
                         <td>Mainland China</td>
-                        <td>China East Data Center, China North Data Center</td>
+                        <td>China North, China East</td>
                     </tr>
                 </table>
                 
               <div class="pricing-page-section">
-                <h2>Support and Service Level Agreements</h2>
+                <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="hubs-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
 				 <p>For the “Basic” and “Standard” levels of Event Hubs, we guarantee that, at least 99.9% of the time, applications configured correctly can send or receive messages or perform other operations in Event Hubs. If you want to learn about the details of our server level agreement, please access the <a href="/support/sla/event-hubs/" id="pricing_hubs_sla">Service Levels Agreements</a> page.</p>
                 </div>
@@ -291,7 +291,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-event-hubs</linkid>
     <metaKeywords>Azure, Microsoft Cloud, IoT, Event Hubs, Azure Event Hubs, data processing, hosting services, pricing</metaKeywords>
-    <metaDescription><![CDATA[Learn about the pricing details of Event Hubs. Azure Event Hubs is a service used to process mass data flows from websites, applications and equipment. Basic and standard tiers are available. Standard level Event Hubs provides 1,000 Service Bus transfer connections for every subscription. A 1 RMB Trial gets you RMB 1,500 in service credits, or you can become an Azure Pay-in-advance user through direct purchasing and enjoy the highest 99.99% Service Level Agreement.]]></metaDescription>
+    <metaDescription><![CDATA[Learn about the pricing details of Event Hubs. Azure Event Hubs is a service used to process mass data flows from websites, applications and equipment. Basic and standard tiers are available. Standard level Event Hubs provides 1,000 Service Bus transfer connections for every subscription. A 1RMB Trial gets you RMB1,500 in service credits, or you can become an Azure Pay-in-Advance user through direct purchasing and enjoy the highest 99.99% Service Level Agreement.]]></metaDescription>
     <urlDisplayName>Pricing Details - Event Hubs</urlDisplayName>
   </TextpageLeftNav>
 </localize>

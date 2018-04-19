@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/api_management@2x.png" />
-                        <h2>API Management<sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag"> Preview</sup><span>API Management</span></h2>
-                        <h4>Publish, manage, secure, and analyze your API in a few minutes</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_api-management_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_api-management_pia">Purchase Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2><span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">API Management</span> <span>Preview</span></h2>
+                        <h4>Publish, manage, secure, and analyze your APIs in minutes</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_api-management_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_api-management_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -25,20 +25,20 @@
                         <a href="#" class="close" id="closeCalculator"></a>
                     </div>
                     <ul class="calcul-list">
-                        <span class="nothing">You haven’t yet selected your price estimation service. Please add it by adjusting the amount to the left</span>
+                        <span class="nothing">You haven’t yet selected your price estimation service. Please add it by adjusting the amount on the left-hand side.</span>
                     </ul>
                     <div class="summary">
                         <div class="total">
-                            Total Price
+                            Total price
                             <p>
-                                <span class="num">RMB 0.00</span> <span class="unit">/month</span>
+                                <span class="num">RMB0.00</span> <span class="unit">/month</span>
                             </p>
                         </div>
                         <div class="btn-group">
-                            <a class="calcul-btn buy" href="/pricing/pia/" id="sidebarWinCalculBuy">Go to purchase</a> <a class="calcul-btn-white export" href="#" id="sidebarWinCalculExport">Export List</a> <a class="calcul-btn-white reset" href="#" id="sidebarWinCalculReset">Reset</a>
+                            <a class="calcul-btn buy" href="/pricing/pia/" id="sidebarWinCalculBuy">Go to purchase</a> <a class="calcul-btn-white export" href="#" id="sidebarWinCalculExport">Export list</a> <a class="calcul-btn-white reset" href="#" id="sidebarWinCalculReset">Reset</a>
                         </div>
                         <p class="summary-text">
-                            Still not convinced? First <a href="/pricing/1rmb-trial/" id="sidebarWinCalculTry">try</a> these features
+                            Still not convinced? <a href="/pricing/1rmb-trial/" id="sidebarWinCalculTry">Try</a> these features first.
                         </p>
                     </div>
                 </div>
@@ -50,11 +50,11 @@
                 <div class="modal modal-calculator hide">
                     <div class="container">
                         <a href="#" class="close" id="closeCalculatorModal"></a>
-                        <p>We can take services selected on different pages and add them on the right-hand list combined calculation. You can manually delete or clear it.</p>
-                        <span class="checkbox-rect"></span>Don’t prompt again<a class="btn btn-continue" href="#">I got it</a>
-                        </div>
+                        <p>We will add service items selected on different pages to the combined calculation in the right-hand list. You can manually delete or clear items.</p>
+                        <span class="checkbox-rect"></span>Don’t prompt again <a class="btn btn-continue" href="#">I’ve got it</a>
+                    </div>
                 </div>
-                    <!-- end calculator modal --> <!-- start calculator shopinglist template -->
+                <!-- end calculator modal --> <!-- start calculator shopinglist template -->
                 <script type="text/template" id="templPricingShopingList">
                     <% _.each(shopingList, function(item){%>
                     <li class="calcul-item">
@@ -88,11 +88,11 @@
                     <span class="nothing">您还没有选择要估算价格的服务，调整左边数量进行添加</span>
                     <% } %>
                 </script>
-                    <!-- end calculator shopinglist template --> <!-- start calculator animation layer -->
+                <!-- end calculator shopinglist template --> <!-- start calculator animation layer -->
                 <div class="anima-calculator hide">
-            +1
-        </div>
-                    <!-- end calculator animation layer -->
+                    +1
+                </div>
+                <!-- end calculator animation layer -->
                 <div class="azsidebar"></div>  
                 <!-- END: Pricing calculator Sidebar-->                  
             </div>

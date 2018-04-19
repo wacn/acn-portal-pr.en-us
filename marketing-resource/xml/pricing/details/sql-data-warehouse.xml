@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/SQL_DW_icon.png" />
                         <h2><!-- <sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">预览 --> </sup><span>SQL Data Warehouse</span></h2>
                         <h4>Safely entrusted and highly scalable data warehouse service.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_warehouse_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_warehouse_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_warehouse_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_warehouse_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -37,60 +37,60 @@
                         </tr>
                         <tr>
                             <td>100 DWU</td>
-                            <td>RMB 8.05/hour (about RMB 5989.2/month)</td>
+                            <td>RMB8.05/hour (about RMB5,989.2/month)</td>
                         </tr>
                         <tr>
                             <td>200 DWU</td>
-                            <td>RMB 16.1/hour (about RMB 11978.4/month)</td>
+                            <td>RMB16.1/hour (about RMB11,978.4/month)</td>
                         </tr>
                         <tr>
                             <td>300 DWU</td>
-                            <td>RMB 24.15/hour (about RMB 17967.6/month)</td>
+                            <td>RMB24.15/hour (about RMB17,967.6/month)</td>
                         </tr>
                         <tr>
                             <td>400 DWU</td>
-                            <td>RMB 32.2/hour (about RMB 23956.8/month)</td>
+                            <td>RMB32.2/hour (about RMB23,956.8/month)</td>
                         </tr>
                         <tr>
                             <td>500 DWU</td>
-                            <td>RMB 40.25/hour (about RMB 29946.0/month)</td>
+                            <td>RMB40.25/hour (about RMB29,946.0/month)</td>
                         </tr>
                         <tr>
                             <td>600 DWU</td>
-                            <td>RMB 48.3/hour (about RMB 35935.2/month)</td>
+                            <td>RMB48.3/hour (about RMB35,935.2/month)</td>
                         </tr>
                         <tr>
-                            <td>1000 DWU</td>
-                            <td>RMB 80.5/hour (about RMB 59892.0/month)</td>
+                            <td>1,000 DWU</td>
+                            <td>RMB80.5/hour (about RMB59,892.0/month)</td>
                         </tr>
                         <tr>
-                            <td>1200 DWU</td>
-                            <td>RMB 96.6/hour (about RMB 71870.4/month)</td>
+                            <td>1,200 DWU</td>
+                            <td>RMB96.6/hour (about RMB71,870.4/month)</td>
                         </tr>
                         <tr>
-                            <td>1500 DWU</td>
-                            <td>RMB 120.75/hour (about RMB 89838.0/month)</td>
+                            <td>1,500 DWU</td>
+                            <td>RMB120.75/hour (about RMB89,838.0/month)</td>
                         </tr>
                         <tr>
-                            <td>2000 DWU</td>
-                            <td>RMB 161/hour (about RMB 119784.0/month)</td>
+                            <td>2,000 DWU</td>
+                            <td>RMB161/hour (about RMB119,784.0/month)</td>
                         </tr>
 						<tr>
-                            <td>3000 DWU</td>
-                            <td>RMB 241.5/hour (about RMB 179676.0/month)</td>
+                            <td>3,000 DWU</td>
+                            <td>RMB241.5/hour (about RMB179,676.0/month)</td>
                         </tr>
 						<tr>
-                            <td>6000 DWU</td>
-                            <td>RMB 483/hour (about RMB 359352.0/month)</td>
+                            <td>6,000 DWU</td>
+                            <td>RMB483/hour (about RMB359,352.0/month)</td>
                         </tr>
                     </table>
                     <div class="tags-date">
-                        <div class="ms-date">*When Azure SQL data warehouse is commonly used, a higher extension limit can be applied.</div>
+                        <div class="ms-date">*When Azure SQL Data Warehouse is commonly used, a higher extension limit can be applied.</div>
                     </div>
                     <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
                     <h3>Storage</h3>
 					<h3>Data Storage and Snapshots</h3>
-                    <p>Data storage service is charged at the rate of <a id="pricing_warehouse_storage" target="_blank" href="/pricing/details/storage/">Azure Premium Storage</a> i.e. RMB 906.29/1TB/month (RMB 1.22/1TB/hour). Data storage service covers data warehouse storage and 7 days of incremental snapshot storage.</p>
+                    <p>Data storage service is charged at the rate of <a id="pricing_warehouse_storage" target="_blank" href="/pricing/details/storage/">Azure Premium Storage</a> i.e. RMB906.29/1TB/month (RMB1.22/1TB/hour). Data storage service covers data warehouse storage and 7 days of incremental snapshot storage.</p>
 					<p><strong>Note:</strong> Storage transactions are free of charge. In other words, you only need to pay for the data storage service, and no transaction fees are needed.</p>
 					<h3>Geo-Redundant Disaster Recovery</h3>
                     <p>Data warehouse can be copied into Geo-Redundant Storage (GRS) for disaster recovery. Storage of Geo-Redundant copies will be charged based on Standard Disk <a id="pricing_warehouse_storage-disk" target="_blank" href="/pricing/details/storage/">Read and Access-Geo-Redundant Storage (RA-GRS)</a>.</p>
@@ -102,15 +102,15 @@
            
             <div class="pricing-page-section">
                 <div class="more-detail">
-                    <h2>FAQs</h2>
+                    <h2>FAQ</h2>
                     <em>Expand all</em>
                     <ul>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="warehouse_quation_what_is_dwu">What is a DWU (data warehouse unit)?</a>
+                                <a id="warehouse_quation_what_is_dwu">What is a DWU (Data Warehouse Unit)?</a>
                                 <section>
-                                    <p>The Data Warehouse Unit (DWU) has been introduced into SQL Data Warehouse to offer customers a more predictable performance experience. DWU represents potent query performance and is quantified through workload objectives: how fast you can scan, load, and copy rows. This metric helps customers assess the relative performance required by their SQL data warehouse.</p>
+                                    <p>The Data Warehouse Unit (DWU) has been introduced into SQL Data Warehouse to offer customers a more predictable performance experience. DWU represents potent query performance and is quantified through workload objectives: how fast you can scan, load, and copy rows. This metric helps customers assess the relative performance required by their SQL Data Warehouse.</p>
                                 </section>
 
                             </div>
@@ -168,24 +168,24 @@
                 </div>
             </div>
             <div class="pricing-page-section">
-                <h2>Marketing Regions</h2>
+                <h2>Region</h2>
                 <p>SQL Data Warehouse service is available in the following regions:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territories</strong></th>
-                        <th align="left"><strong>Regions</strong></th>
+                        <th align="left"><strong>Territory</strong></th>
+                        <th align="left"><strong>Region</strong></th>
                     </tr>
                     <tr>
                         <td>Mainland China</td>
-                        <td>China East Data Center, China North Data Center</td>
+                        <td>China North, China East</td>
                     </tr>
                 </table>
                 
                <div class="pricing-page-section">
-                <h2>Support and Service Level Agreements</h2>
+                <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="warehouse-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				<!--<p>SQL 数据仓库功能预览期间，不提供服务级别协议。若要了解有关我们的服务器级别协议的详细信息，请访问<a href="/support/legal/sla/" id="pricing_sql-database-warehouse_sla">服务级别协议</a>页。</p> -->
-				<p>We promise client-side operations performed in SQL Data Warehouse will be successful at least 99.9% of time. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/sql-data-warehouse/" id="pricing_sql-database-warehouse_sla">Server-Level Agreements</a> page.</p>
+				<p>We promise client-side operations performed in SQL Data Warehouse will be successful at least 99.9% of time. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/sql-data-warehouse/" id="pricing_sql-database-warehouse_sla">Service Level Agreements</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                 
     
@@ -194,7 +194,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-sql-data-warehouse</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Azure SQL Data Warehouse, pricing details, pricing, billing</metaKeywords>
-    <metaDescription><![CDATA[Learn about the details of Azure SQL Data Warehouse. Computing and Storage are independently charged. The user only pays for data storage, and no storage transaction fees need to be paid. SQL Data Warehouse offers preview versions at present. The current pricing covers a 50% discount for the preview version. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer.]]></metaDescription>
+    <metaDescription><![CDATA[Learn about the details of Azure SQL Data Warehouse. Computing and Storage are independently charged. The user only pays for data storage, and no storage transaction fees need to be paid. SQL Data Warehouse offers preview versions at present. The current pricing covers a 50% discount for the preview version. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
     <urlDisplayName>Pricing Details - SQL Database</urlDisplayName>
   </TextpageLeftNav>
 </localize>

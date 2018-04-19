@@ -1,4 +1,4 @@
-{"service": "Virtual network", 
+{"service": "Virtual Network", 
 "id": "leftnav_product_virtual-network", 
 "navigation": 
 [
@@ -8,7 +8,7 @@
 		[
 			{"link": "/home/features/virtual-network/", 
 			"id": "leftnav_product_networking_function", 
-			"title": "Product Functionality"}, 
+			"title": "Product overview"}, 
 			{"link": "/pricing/details/virtual-network/", 
 			"id": "leftnav_product_networking_pricing", 
 			"title": "Pricing details"},
@@ -26,16 +26,16 @@
 		[
 			{"link": "/home/features/virtual-machines/", 
 			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual Machine"},
+			"title": "Virtual Machines"},
 			{"link": "/home/features/cloud-services/", 
 			"id": "leftnav_product_cloud-services_function", 
-			"title": "Cloud services"},
+			"title": "Cloud Services"},
 			{"link": "/home/features/expressroute/", 
 			"id": "leftnav_product_expressroute_function", 
 			"title": "ExpressRoute"},
 			{"link": "/home/features/vpn-gateway/", 
 			"id": "leftnav_product_vpn-gateway_function", 
-			"title": "VPN network router"}
+			"title": "VPN Gateway"}
 		]
 	}, 
 	{"group": "Related documentation and links", 
@@ -44,10 +44,10 @@
 		[
 			{"link": "/solutions/mobile-services/", 
 			"id": "leftnav_product_networking_mobile-services", 
-			"title": "Mobile service solutions"}, 
+			"title": "Mobile Services Solutions"}, 
 			{"link": "/solutions/virtual-machines/", 
 			"id": "leftnav_product_networking_solutions_virtual-machines", 
-			"title": "Virtual Machine solutions"}, 
+			"title": "Virtual Machines Solutions"}, 
 			{"link": "/solutions/high-performance-computing/", 
 			"id": "leftnav_product_networking_solutions_high-performance-computing", 
 			"title": "High-Performance Compute Services Solutions"}, 
@@ -56,13 +56,13 @@
 			"title": "Development and Testing Solutions"},
 			{"link": "/solutions/storage-backup-recovery-plan/", 
 			"id": "leftnav_product_networking_solutions_storage-backup-recovery-plan", 
-			"title": "Storage, backup and restore solutions"},
+			"title": "Storage, backup and restore Solutions"},
 			{"link": "https://docs.azure.cn/virtual-network/virtual-networks-create-vnet-classic-portal/", 
 			"id": "leftnav_product_networking_articles_virtual-networks-create-vnet-classic-portal", 
 			"title": "Creating a virtual network"},
 			{"link": "https://docs.azure.cn/virtual-network/virtual-networks-faq/", 
 			"id": "leftnav_product_networking_articles_virtual-networks-faq", 
-			"title": "Answers to virtual network FAQs"}
+			"title": "Answers to Virtual Network FAQ"}
 		]
 	}
 ]

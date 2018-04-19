@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <localize>
   <umbTextpage id="19502" parentID="18486" level="5" writerID="106" creatorID="106" nodeType="1059" template="9" sortOrder="30" createDate="2015-8-24T14:55:52" updateDate="" nodeName="Aile" urlName="aile" writerName="content" creatorName="content" path="-1,11978,19421,18486,19502" isDoc="">
     <bodyText><![CDATA[
@@ -9,7 +9,8 @@
         <div class="section-component">                   
             
 			<h2>Support from Azure</h2>
-			<p>We provide the following supports to our users:</p>
+			<!-- <div class="tags-date"><div class="ms-date">上线日期：XXXX 年 X 月</div></div> -->
+			<p>We provide users with the following free support services:</p>
 			<div class="scroll-table"><div><table cellpadding="0" cellspacing="0" class="table-col6">
                 <tbody><tr>
                     <th align="left">&#160;</th>
@@ -126,6 +127,10 @@
 			<p><a href="/support/contact/" id="support_plans_contact" class="single-link">Contact us<i class="icon icon-arrow-right-thin"></i></a></p>
             
           </div>
+          <h2>Version history</h2>
+	        <p>1.1 Updated: September 2016</p>
+	        <p>Update description: Added "Working Time."</p>
+	        <p>1.0 Online: September 2014</p>
       
     ]]></bodyText>
     <umbracoNaviHide>0</umbracoNaviHide>
@@ -145,7 +150,7 @@
     <sitemapHide>0</sitemapHide>
     <banner><![CDATA[
       <!-- BEGIN: Banner -->
-           <div class="common-banner" data-config="{'backgroundColor':'#002050', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/media/images/support/banner-supportplan@2x.png','imageHeight':'180'}" id="banner">   
+           <div class="common-banner" data-config="{'backgroundColor':'#002050', 'backgroundImage':'//wacndevelop.blob.core.chinacloudapi.cn/marketing-resource/media/images/support/banner-supportplan@2x.png','imageHeight':'180'}" id="banner">   
               <div class="common-banner-image">
                 <div class="common-banner-title">
                   <h1>Azure Support Plan</h1>
