@@ -9,8 +9,10 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services.png"/>
                         <h2><span>Cognitive Services APIs</span></h2>
+
 						<h4>Infuse your apps, websites and bots with intelligent algorithms to see, hear, speak, understand and interpret your user needs through natural methods of communication. Transform your business with AI today.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_cognitive-services">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cognitive-services-calculator_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
+
                     </div>
                 </div>
             </div>
@@ -29,7 +31,7 @@
             <tr>
 				<th align="left"><strong>Tier</strong></th>
 				<th align="left"><strong>Feature</strong></th>
-                <th align="left"><strong>Price</strong></th>
+                <th align="left"><strong>Pricing</strong></th>
             </tr>
             <tr>
                 <td>Free version</td>
@@ -44,64 +46,69 @@
             <tr>
                 <td></td>
                 <td>0-1,000,000 transactions</td>
-                <td>￥ 6.36 per 1,000 transactions</td>
+
+                <td>￥ 6.36 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
+
             </tr>
             <tr>
                 <td></td>
                 <td>1,000,001-5,000,000 transactions</td>
-                <td>￥ 5.09 per 1,000 transactions</td>
+
+                <td>￥ 5.09 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
             </tr>
             <tr>
                 <td></td>
                 <td>5,000,001-20,000,000 transactions</td>
-                <td>￥ 3.82 per 1,000 transactions</td>
+                <td>￥ 3.82 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
+
             </tr>
             <tr>
                 <td></td>
                 <td>More than 100,000,000 transactions</td>
-                <td>￥ 2.54 per 1,000 transactions</td>
+
+                <td>￥2.54 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
             </tr>
 			<tr>
 				<td>Facial recognition storage</td>
 				<td>Maximum 4 MB per image</td>
-                <td>￥ 1.59 per month per 1,000 images</td>
+
+                <td>￥ 1.59 per month per 1,000 images <sup style="color:#e66102; font-weight: bold">new</sup></td>
+
             </tr>
             
         </table>
-        <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
-        <h3>Emotion API<sup style="color: #a5ce00; font-weight: bold"> Preview</sup></h3>
-        <p>Create more user-friendly apps with Azure's cutting-edge cloud-based emotion recognition algorithm (preview version). This API recognizes emotions in natural environments based on universal facial expressions.</p>
+        <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content--> <!-- <h3>情绪识别 API<span style="font-family: '微软雅黑',regular;font-weight:normal;">（预览）</span></h3>
+        <p>借助 Azure 基于云的前沿情绪识别算法（预览版）可生成更人性化的应用。该 API 基于普遍存在的面部表情识别自然环境中的情绪。</p>
         <div class="tags-date">
-				<div class="ms-date">*The following prices reflect a 50% preview version discount.</div><br />
-				<div class="ms-date">*The following prices are tax-inclusive.</div>
+				<div class="ms-date">*以下价格反映了 50% 的预览版折扣；</div><br />
+				<div class="ms-date">*以下价格均为含税价格。</div>
         </div>
         <table cellpadding="0" cellspacing="0" width="100%">
             <tr>
-                <th align="left"><strong>Tier</strong></th>
-                <th align="left"><strong>Feature</strong></th>
-                <th align="left"><strong>Unit</strong></th>
-                <th align="left"><strong>Price</strong></th>
+                <th align="left"><strong>级别</strong></th>
+                <th align="left"><strong>功能</strong></th>
+                <th align="left"><strong>单位</strong></th>
+                <th align="left"><strong>价格</strong></th>
 			</tr>
             <tr>
-                <td>Free version</td>
-                <td>30,000 free transactions per month<br/>3,000 status queries per month (limited to 5 per minute)</td>
-                <td>Transaction</td>
-                <td>Free</td>
+                <td>免费版</td>
+                <td>每月 30,000 个免费事务 <br/>3,000 个状态查询/每月（限制为 5 个/分钟）</td>
+                <td>事务</td>
+                <td>免费</td>
             </tr>
             <tr>
-                <td>Basic version</td>
- 				<td>Up to 10 transactions per second (specified face rectangle)</td>
-                <td>Transaction</td>
-                <td>RMB 0.75 per 1,000 transactions</td>
+                <td>基本版</td>
+ 				<td>每秒最多 10 个事务 （指定的面部矩形）</td>
+                <td>事务</td>
+                <td>每 1,000 个事务 ¥ 0.75</td>
             </tr>
             <tr>
-                <td>Standard version</td>
- 				<td>10 transactions per second<br/>30,000 status queries per month (limited to 10 per minute)</td>
-                <td>Transaction</td>
-                <td>RMB 1.85 per 1,000 transactions</td>
+                <td>标准版</td>
+ 				<td>每秒 10 个事务 <br/>30,000 个状态查询/每月（限制为 10 个/分钟）</td>
+                <td>事务</td>
+                <td>每 1,000 个事务 ¥ 1.85</td>
             </tr>
-        </table>
-        <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
+        </table> --> <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
         <h3>Computer Vision API</h3>
         <p>This state-of-the-art, cloud-based API provides developers with access to advanced algorithms that allow you to extract rich information from images to categorize and process visual data. Capabilities include image analysis, tagging, recognition celebrities, text extraction, and smart thumbnail generation.</p>
        
@@ -111,8 +118,8 @@
         <table cellpadding="0" cellspacing="0" width="100%">
             <tr>
 				<th align="left"><strong>Tier</strong></th>
-				<th align="left"><strong>Feature</strong></th>
-                <th align="left"><strong>Price</strong></th>
+				<th align="left"><strong>Features</strong></th>
+                <th align="left"><strong>Pricing</strong></th>
             </tr>
             <tr>
                 <td>Free version</td>
@@ -123,36 +130,45 @@
                 <td>S1</td>
 				<td>Tag, Face, GetThumbnail Color, and Image Types</td>
                 <td>0-1 million transactions - ￥ 6.36 per 1,000 transactions </td>
+
             </tr>
             <tr>
                 <td></td>
                 <td></td>
                 <td>1 million-5 million transactions - ￥ 5.088 per 1,000 transactions</td>
+
             </tr>
             <tr>
                 <td></td>
                 <td></td>
+
                 <td>5 million+ transactions - ￥ 4.134 per 1,000 transactions </td>
             </tr>
             <tr>
                 <td>S2</td>
                 <td>OCR (printed), Adult, Celebrity, and Landmark</td>
                 <td>0-1 million transactions - ￥ 9.54 per 1,000 transactions </td>
+
+          
             </tr>
             <tr>
                 <td></td>
                 <td></td>
+
                 <td>1 million-5 million transactions - ￥ 6.36 per 1,000 transactions</td>
+
             </tr>
             <tr>
                 <td></td>
                 <td></td>
+
                 <td>5 million+ transactions - ￥ 4.13 per 1,000 transactions </td>
             </tr>
             <tr>
                 <td>S3</td>
                 <td>Describe and OCR (handwriting)</td>
                 <td>￥ 15.90 per 1,000 transactions</td>
+
             </tr>
             
         </table>
@@ -164,7 +180,7 @@
 
 <div class="pricing-page-section">
     <div class="more-detail">
-        <h2>FAQs</h2>
+        <h2>FAQ</h2>
         <em>Expand all</em>
         <h3>Common</h3>
         <ul>
@@ -216,7 +232,7 @@
                 <div>
                     <a id="cognitive-services_question5">If the number of images stored during the month changes, how do you calculate this amount for billing?</a>
                     <section>
-                        <p>Stored images are charged at RMB 3.18 per 1,000 faces. This rate is prorated on a daily basis. For example, if your account used 10,000 persisted faces per day during the first half of the month and none during the second half of the month, you would only be charged for the number of days of storage for 10,000 faces. It would be calculated as (RMB 3.18/1,000) x (10,000 x 15 + 0 x 16)/31 = RMB 15.39. Another example is as follows: if you only persisted 1,000 faces for a few hours every day for a month and then deleted them every night, you would still be billed for 1,000 persisted faces each day.</p>
+                        <p>Stored images are charged at 1.59RMB per 1,000 faces. This rate is prorated on a daily basis. For example, if your account used 10,000 persisted faces each day during the first half of the month and none during the second half, you would only be billed for the number of days the 10,000 faces were stored for. This would be calculated as (1.59RMB/1,000) x (10,000 x 15 + 0 x 16)/31 = 7.69RMB. Alternatively, if you retained 1,000 faces for a few hours each day during a month and then deleted them every night, you would still be billed for the 1,000 faces retained each day.</p>
                     </section>
 
                 </div>
@@ -255,31 +271,31 @@
     </div>
 </div>
 <div class="pricing-page-section">
-    <h2>Regions Where Sold</h2>
+    <h2>Region</h2>
     <p>Cognitive Services are available in the following regions:</p>
     <table cellpadding="0" cellspacing="0" class="table-col6">
         <tr>
-            <th align="left"><strong>Territories</strong></th>
-            <th align="left"><strong>Regions</strong></th>
+            <th align="left"><strong>Territory</strong></th>
+            <th align="left"><strong>Region</strong></th>
         </tr>
         <tr>
             <td>Mainland China</td>
-            <td>China East Data Center, China North Data Center</td>
+            <td>China North, China East</td>
         </tr>
     </table>
                 
                <div class="pricing-page-section">
-                <h2>Support and Service Level Agreements</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="cognitive-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
+                <h2>Support &amp; SLA</h2>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="cognitive-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				 <p>We guarantee that Cognitive Services running at the Standard tier will be available at least 99.9% of the time. No SLA is provided for the Free tier. If you want to learn more about the details of our server level agreement, please visit the <a href="/support/sla/cognitive-services/" id="pricing_cognitive-services_sla">Service Level Agreement</a> page.</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> &lt;?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                 
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                 
     
     ]]></bodyText>
-    <pageTitle>Cognitive Services Pricing - Azure Cloud Computing</pageTitle>
+    <pageTitle>Cognitive Services pricing details_price estimation - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-cognitive-servicess</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Internet of Things, Azure Cognitive Services, Azure Stream Cognitive Services APIs, processing engine, rapid development, pricing</metaKeywords>
+    <metaKeywords>Cognitive Services pricing, service quotes, price estimation</metaKeywords>
     <metaDescription><![CDATA[Learn more about the pricing details for Cognitive Services. Detect the locations of faces in images and compare, group, and identify faces from identities tagged by the user according to their visual similarity.]]></metaDescription>
     <urlDisplayName>Pricing details - Cognitive Services</urlDisplayName>
   </TextpageLeftNav>
