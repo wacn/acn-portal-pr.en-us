@@ -80,7 +80,10 @@
 						<a href="javascript:void(0)" data-href="#tabContent3" id="vm-vm-sql" data-toggle="tab">SQL Server for Windows</a>
 					</li>
 					<li>
-						<a href="javascript:void(0)" data-href="#tabContent4" id="vm-vm-rlinux" data-toggle="tab">SQL Server Ubuntu Linux / Machine Learning Server</a>
+						<a href="javascript:void(0)" data-href="#tabContent4" id="vm-vm-rlinux" data-toggle="tab">SQL Server Ubuntu Linux</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)" data-href="#tabContent5" id="vm-vm-ml-server" data-toggle="tab">Machine Learning Server</a>
 					</li>
 					
 				</ul>
@@ -94,19 +97,19 @@
 								<a href="javascript:void(0)" data-href="#tabContent1-1" data-toggle="tab" id="vm-vm-win-general-purpose">General Purpose</a>
 							</li>
 							<li>
-								<a href="javascript:void(0)" data-href="#tabContent1-2"  data-toggle="tab" id="vm-vm-win-compute-optimized">Computing Prioritization</a>
+								<a href="javascript:void(0)" data-href="#tabContent1-2"  data-toggle="tab" id="vm-vm-win-compute-optimized">Compute Optimized</a>
 							</li>
 							<li>
-								<a href="javascript:void(0)" data-href="#tabContent1-3"  data-toggle="tab" id="vm-vm-win-memory-optimized">Memory Prioritization</a>
+								<a href="javascript:void(0)" data-href="#tabContent1-3"  data-toggle="tab" id="vm-vm-win-memory-optimized">Memory Optimized</a>
 							</li>
 						</ul>
 						<!-- END: Tab level 2 navigator 1 --> <!-- BEGIN: Tab level 2 content -->
 						<div class="tab-content">
 							<!-- BEGIN: Tab level 2 content 1-1 -->
 							<div class="tab-panel" id="tabContent1-1">
-								<h3>General purpose: balancing of CPU to memory ratio. Suitable for testing and development of small- and medium-sized databases and low- and medium-traffic Web servers.</h3>
+								<h3>General purpose: Balanced CPU-to-memory ratio. Ideal for testing and development, small to medium databases, and low to medium traffic web servers.</h3>
 								<h3>A0-4 – Basic</h3>
-								<p>The A Series Basic tier provides a cost-effective option for developing/testing the workload and other applications not requiring load balancing, Autoscale or memory-intensive Virtual Machines.</p>
+								<p>The A Series Basic tier provides a cost-effective option for development/testing workloads and other applications not requiring load balancing, autoscaling or memory-intensive Virtual Machines.</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Windows A 系列基本级别价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -164,7 +167,7 @@
 								</table>
 								
 								<h3>A Series Standard</h3>
-								<p>The A Series standard tier supports applications requiring load balancing and Autoscale. These Virtual Machines are suitable for developing workloads, generating servers, code memory, low-traffic websites and Web Apps, microservices, early product trials and small databases.</p>
+								<p>The A Series Standard tier supports applications requiring load balancing and autoscaling. These Virtual Machines are suitable for development workloads, build servers, code repository, low-traffic websites and web applications, microservices, early product experiments and small databases.</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Windows A 系列标准级别价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -246,7 +249,7 @@
 								</table>
 								
 								<h3>Av2 Standard</h3>
-								<p>The Av2 Standard Virtual Machine is the latest generation of A Series Virtual Machine, which has similar CPU performance but a faster disk speed. These Virtual Machines are suitable for developing workloads, generating servers, code memory, low-traffic website and Web Apps, microservices, early product trials, and small databases. The same as the previous A Standard, Av2 Virtual Machines will include load balancing and Autoscale, and with no extra fees.</p>
+								<p>The Av2 Standard Virtual Machine is the latest generation of A Series Virtual Machine, which has similar CPU performance but a faster disk speed. These Virtual Machines are suitable for development workloads, build servers, code repositories, low-traffic website and web applications, microservices, early product experiments, and small databases. The same as the previous A Standard, Av2 Virtual Machines will include load balancing and autoscaling, and with no extra fees.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
@@ -320,7 +323,7 @@
 								
 								<h3>D1-4/DS 1-4</h3>
 								<p>The D1-4/DS 1-4 instances involve provision of powerful CPU, memory and local disk combinations for most production applications.</p>
-								<p>For permanent storage, please use variable “DS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DS size are the same as the D Series.</p>
+								<p>For persistent storage, please use variable "DS" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DS size are the same as the D Series.</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Windows D 系列虚拟机价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -373,15 +376,15 @@
 															<h3>D2-5 v2 促销 - 限时</h3>
 															<p>仅提供限时优惠。</p>
 															<div class="tags-date">
-																<div class="ms-date">*以下价格均为含税价格。</div><br />
-																<div class="ms-date">*每月价格估算基于每个月 744 小时的使用量。</div>
+																<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+																<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 															</div>
 															<table cellpadding="0" cellspacing="0" width="100%">
 																<tr>
-																	<th align="left"><strong>实例</strong></th>
-																	<th align="left"><strong>内核数</strong></th>
+																	<th align="left"><strong>Instances</strong></th>
+																	<th align="left"><strong>Number of Cores</strong></th>
 																	<th align="left"><strong>RAM</strong></th>
-																	<th align="left"><strong>临时存储</strong></th>
+																	<th align="left"><strong>Temporary Storage</strong></th>
 																	<th align="left"><strong>促销价格</strong></th>
 																</tr>
 																<tr>
@@ -389,28 +392,28 @@
 																	<td>2</td>
 																	<td>7 GiB</td>
 																	<td>100 GiB</td>
-																	<td>￥1.02/小时<br />( 约 ￥758.88/月 )</td>
+																	<td>￥1.02/hour<br />( about ￥758.88/month )</td>
 																</tr>
 																<tr>
 																	<td>D3 v2 促销</td>
 																	<td>4</td>
 																	<td>14 GiB</td>
 																	<td>200 GiB</td>
-																	<td>￥2.04/小时<br />( 约 ￥1,517.76/月 )</td>
+																	<td>￥2.04/hour<br />( about ￥1,517.76/month )</td>
 																</tr>
 																<tr>
 																	<td>D4 v2 促销</td>
 																	<td>8</td>
 																	<td>28 GiB</td>
 																	<td>400 GiB</td>
-																	<td>￥4.1/小时<br />( 约 ￥3,050.4/月 )</td>
+																	<td>￥4.1/hour<br />( about ￥3,050.4/month )</td>
 																</tr>
 																<tr>
 																	<td>D5 v2 促销</td>
 																	<td>16</td>
 																	<td>56 GiB</td>
 																	<td>800 GiB</td>
-																	<td>￥8.17/小时<br />( 约 ￥6,078.48/月 )</td>
+																	<td>￥8.17/hour<br />( about ￥6,078.48/month )</td>
 																</tr>
 															</table>
 															
@@ -473,7 +476,7 @@
 									</tr>
 								</table>
 								<h3>DS 1-5 v2</h3>
-								<p>For permanent storage, please use the “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series. <!--DSv2 虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;" href="/pricing/details/storage/" id="vm-pricing_storage">Storage Pricing Details</a> page.</p>
+								<p>For persistent storage, please use the "DSv2" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series. <!--DSv2 虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;" href="/pricing/details/storage/" id="vm-pricing_storage">Storage Pricing Details</a> page.</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Windows Dv2 系列实例价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -533,10 +536,10 @@
 							</div>
 							<!-- END: Tab level 2 content 1-1 --> <!-- BEGIN: Tab level 2 content 1-2 -->
 							<div class="tab-panel" id="tabContent1-2">
-								<h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and application server. </h3>
+								<h3>Compute optimized: High CPU-to-memory ratio. Good for medium traffic web servers, network appliances, batch processes, and application servers. </h3>
 								<h3>F series/FS series</h3>
 								<p>The F Series/FS Series Virtual Machine supports RAM of every CPU core 2 GiB and 16 GiB local solid state disk (SSD), and has been prioritized for computing-intensive workloads. The F Series/FS Series are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to a 3.2 GHz clock speed using Intel Turbo Boost Technology 2.0. These Virtual Machines are suitable for batch processing, Web servers, analysis and gaming programs, etc.
-									<br /> For permanent storage, please use the FS Virtual Machines, and purchase Premium Storage separately. The pricing and billing standards for the FS size are the same as for the F Series. <!--FS虚拟机 目前只在中国东部区域提供服务。-->
+									<br /> For persistent storage, please use the FS Virtual Machines, and purchase Premium Storage separately. The pricing and billing meters for the FS size are the same as for the F Series. <!--FS虚拟机 目前只在中国东部区域提供服务。-->
 								</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Windows F 系列实例价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
@@ -598,10 +601,10 @@
 							<!-- END: Tab level 2 content 1-2 --> <!-- BEGIN: Tab level 2 content 1-3 -->
 							<div class="tab-panel" id="tabContent1-3">
 								<!-- BEGIN: Table1-1-3-Content-->
-								<h3>Memory prioritization: high memory to core ratio. Suitable for relational database servers, medium- and large-scale caches and memory analysis.</h3>
+								<h3>Memory optimized: High memory-to-core ratio. Great for relational database servers, medium to large caches, and in-memory analytics.</h3>
 								<h3>D11-14/DS11-14</h3>
 								<p>The D11-14/DS11-14 instances are suitable for memory-intensive enterprise applications. </p>
-								<p>For permanent storage, please use the variable “DS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DS size are the same as the D Series.</p>
+								<p>For persistent storage, please use the variable "DS" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DS size are the same as the D Series.</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Windows D 系列虚拟机价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -654,15 +657,15 @@
 														<h3>D11-14/DS11-14 – v2 促销 - 限时</h3>
 														<p>仅提供限时优惠。</p>
 														<div class="tags-date">
-															<div class="ms-date">*以下价格均为含税价格。</div><br />
-															<div class="ms-date">*每月价格估算基于每个月 744 小时的使用量。</div>
+															<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+															<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 														</div>
 														<table cellpadding="0" cellspacing="0" width="100%">
 															<tr>
-																<th align="left"><strong>实例</strong></th>
-																<th align="left"><strong>内核数</strong></th>
+																<th align="left"><strong>Instances</strong></th>
+																<th align="left"><strong>Number of Cores</strong></th>
 																<th align="left"><strong>RAM</strong></th>
-																<th align="left"><strong>临时存储</strong></th>
+																<th align="left"><strong>Temporary Storage</strong></th>
 																<th align="left"><strong>促销价格</strong></th>
 															</tr>
 															<tr>
@@ -670,28 +673,28 @@
 																<td>2</td>
 																<td>14 GiB</td>
 																<td>100 GiB</td>
-																<td>￥1.73/小时<br />( 约 ￥1,287.12/月 )</td>
+																<td>￥1.73/hour<br />( about ￥1,287.12/month )</td>
 															</tr>
 															<tr>
 																<td>D12 v2 促销</td>
 																<td>4</td>
 																<td>28 GiB</td>
 																<td>200 GiB</td>
-																<td>￥3.46/小时<br />( 约 ￥2,574.24/月 )</td>
+																<td>￥3.46/hour<br />( about ￥2,574.24/month )</td>
 															</tr>
 															<tr>
 																<td>D13 v2 促销</td>
 																<td>8</td>
 																<td>56 GiB</td>
 																<td>400 GiB</td>
-																<td>￥6.92/小时<br />( 约 ￥5,148.48/月 )</td>
+																<td>￥6.92/hour<br />( about ￥5,148.48/month )</td>
 															</tr>
 															<tr>
 																<td>D14 v2 促销</td>
 																<td>16</td>
 																<td>112 GiB</td>
 																<td>800 GiB</td>
-																<td>￥13.83/小时<br />( 约 ￥10,289.52/月 )</td>
+																<td>￥13.83/hour<br />( about ￥10,289.52/month )</td>
 															</tr>
 														</table>
 														
@@ -754,7 +757,7 @@
 									</tr>
 								</table>
 								<h3>DS 11-15 v2</h3>
-								<p>For permanent storage, please use the “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series.<br/>Of which DS13-2_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS13-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-8_v2<sup style="color:#e66102; font-weight: bold">new</sup> are brand new instances. Compared with DS13 v2 and DS14 v2, they’ve reduced the number of cores and size of the vCPU, and saved on costs while guaranteeing the same memory, disk size and price.<!--DSv2虚拟机 目前只在中国东部区域提供服务。-->
+								<p>For persistent storage, please use the "DSv2" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.<br/>Of which DS13-2_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS13-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-8_v2<sup style="color:#e66102; font-weight: bold">new</sup> are brand new instances. Compared with DS13 v2 and DS14 v2, they've reduced the number of cores and size of the vCPU, and saved on costs while guaranteeing the same memory, disk size and price.<!--DSv2虚拟机 目前只在中国东部区域提供服务。-->
 								</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Windows Dv2 系列实例价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
@@ -826,19 +829,19 @@
 								<a href="javascript:void(0)" data-href="#tabContent2-1" data-toggle="tab" id="vm-vm-linux-general-purpose">General Purpose</a>
 							</li>
 							<li>
-								<a href="javascript:void(0)" data-href="#tabContent2-2" data-toggle="tab" id="vm-vm-linux-compute-optimized">Computing Prioritization</a>
+								<a href="javascript:void(0)" data-href="#tabContent2-2" data-toggle="tab" id="vm-vm-linux-compute-optimized">Compute Optimized</a>
 							</li>
 							<li>
-								<a href="javascript:void(0)" data-href="#tabContent2-3" data-toggle="tab" id="vm-vm-linux-memory-optimized">Memory Prioritization</a>
+								<a href="javascript:void(0)" data-href="#tabContent2-3" data-toggle="tab" id="vm-vm-linux-memory-optimized">Memory Optimized</a>
 							</li>
 						</ul>
 						<!-- END: Tab level 2 navigator 2 --> <!-- BEGIN: Tab level 2 content 2 -->
 						<div class="tab-content">
 							<!-- BEGIN: Tab level 2 content 2-1 -->
 							<div class="tab-panel" id="tabContent2-1">
-								<h3>General purpose: balancing of CPU to memory ratio. Suitable for testing and development of small- and medium-sized databases and low- and medium-traffic Web servers.</h3>
+								<h3>General purpose: Balanced CPU-to-memory ratio. Ideal for testing and development, small to medium databases, and low to medium traffic web servers.</h3>
 								<h3>A0-4 – Basic</h3>
-								<p>The A Series Basic tier provides a cost-effective option for developing/testing the workload and other applications not requiring load balancing, Autoscale or memory-intensive Virtual Machines.</p>
+								<p>The A Series Basic tier provides a cost-effective option for development/testing workloads and other applications not requiring load balancing, autoscaling or memory-intensive Virtual Machines.</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Linux A 系列基本级别价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -896,7 +899,7 @@
 								</table>
 								
 								<h3>A Series Standard</h3>
-								<p>The A Series standard tier supports applications requiring load balancing and Autoscale. These Virtual Machines are suitable for developing workloads, generating servers, code memory, low-traffic websites and Web Apps, microservices, early product trials and small databases.</p>
+								<p>The A Series Standard tier supports applications requiring load balancing and autoscaling. These Virtual Machines are suitable for development workloads, build servers, code repositories, low-traffic websites and web applications, microservices, early product experiments and small databases.</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Linux A 系列标准级别价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -978,7 +981,7 @@
 								</table>
 								
 								<h3>Av2 Standard</h3>
-								<p>The Av2 Standard Virtual Machine is the latest generation of A Series Virtual Machine, which has similar CPU performance but a faster disk speed. These Virtual Machines are suitable for developing workloads, generating servers, code memory, low-traffic website and Web Apps, microservices, early product trials, and small databases. The same as the previous A Standard, Av2 Virtual Machines will include load balancing and Autoscale, and with no extra fees.</p>
+								<p>The Av2 Standard Virtual Machine is the latest generation of A Series Virtual Machine, which has similar CPU performance but a faster disk speed. These Virtual Machines are suitable for development workloads, build servers, code repositories, low-traffic website and web applications, microservices, early product experiments, and small databases. The same as the previous A Standard, Av2 Virtual Machines will include load balancing and autoscaling, and with no extra fees.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
@@ -1052,7 +1055,7 @@
 								
 								<h3>D1-4/DS 1-4</h3>
 								<p>The D1-4/DS 1-4 instances involve provision of powerful CPU, memory and local disk combinations for most production applications.</p>
-								<p>For permanent storage, please use variable “DS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DS size are the same as the D Series.</p>
+								<p>For persistent storage, please use variable "DS" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DS size are the same as the D Series.</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Linux D 系列虚拟机价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -1105,15 +1108,15 @@
 															<h3>D2-5 v2 促销 - 限时</h3>
 															<p>仅提供限时优惠。</p>
 															<div class="tags-date">
-																<div class="ms-date">*以下价格均为含税价格。</div><br />
-																<div class="ms-date">*每月价格估算基于每个月 744 小时的使用量。</div>
+																<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+																<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 															</div>
 															<table cellpadding="0" cellspacing="0" width="100%">
 																<tr>
-																	<th align="left"><strong>实例</strong></th>
-																	<th align="left"><strong>内核数</strong></th>
+																	<th align="left"><strong>Instances</strong></th>
+																	<th align="left"><strong>Number of Cores</strong></th>
 																	<th align="left"><strong>RAM</strong></th>
-																	<th align="left"><strong>临时存储</strong></th>
+																	<th align="left"><strong>Temporary Storage</strong></th>
 																	<th align="left"><strong>促销价格</strong></th>
 																</tr>
 																<tr>
@@ -1121,28 +1124,28 @@
 																	<td>2</td>
 																	<td>7 GiB</td>
 																	<td>100 GiB</td>
-																	<td>￥1.02/小时<br />( 约 ￥758.88/月 )</td>
+																	<td>￥1.02/hour<br />( about ￥758.88/month )</td>
 																</tr>
 																<tr>
 																	<td>D3 v2 促销</td>
 																	<td>4</td>
 																	<td>14 GiB</td>
 																	<td>200 GiB</td>
-																	<td>￥2.04/小时<br />( 约 ￥1,517.76/月 )</td>
+																	<td>￥2.04/hour<br />( about ￥1,517.76/month )</td>
 																</tr>
 																<tr>
 																	<td>D4 v2 促销</td>
 																	<td>8</td>
 																	<td>28 GiB</td>
 																	<td>400 GiB</td>
-																	<td>￥4.1/小时<br />( 约 ￥3,050.4/月 )</td>
+																	<td>￥4.1/hour<br />( about ￥3,050.4/month )</td>
 																</tr>
 																<tr>
 																	<td>D5 v2 促销</td>
 																	<td>16</td>
 																	<td>56 GiB</td>
 																	<td>800 GiB</td>
-																	<td>￥8.17/小时<br />( 约 ￥6,078.48/月 )</td>
+																	<td>￥8.17/hour<br />( about ￥6,078.48/month )</td>
 																</tr>
 															</table>
 															
@@ -1205,7 +1208,7 @@
 									</tr>
 								</table>
 								<h3>DS 1-5 v2</h3>
-								<p>For permanent storage, please use the “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series. <!--DSv2虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a href="/pricing/details/storage/" id="vm-pricing_storage-2" style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;">Storage Pricing Details</a> page.</p>
+								<p>For persistent storage, please use the "DSv2" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series. <!--DSv2虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a href="/pricing/details/storage/" id="vm-pricing_storage-2" style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;">Storage Pricing Details</a> page.</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Linux Dv2 系列虚拟机价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -1265,10 +1268,9 @@
 							</div>
 							<!-- END: Tab level 2 content 2-1--> <!-- BEGIN: Tab level 2 content 2-2 -->
 							<div class="tab-panel" id="tabContent2-2">
-								<h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and application server. </h3>
-								<h3>F series/FS series</h3>
+								<h3>Compute optimized: High CPU-to-memory ratio. Good for medium traffic web servers, network appliances, batch processes, and application servers.</h3>
 								<p>The F Series/FS Series Virtual Machine supports RAM of every CPU core 2 GiB and 16 GiB local solid state disk (SSD), and has been prioritized for computing-intensive workloads. The F Series/FS Series are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to a 3.2 GHz clock speed using Intel Turbo Boost Technology 2.0. These Virtual Machines are suitable for batch processing, Web servers, analysis and gaming programs, etc.
-									<br /> For permanent storage, please use the FS Virtual Machines, and purchase Premium Storage separately. The pricing and billing standards for the FS size are the same as for the F Series. <!--FS虚拟机 目前只在中国东部区域提供服务。-->
+									<br /> For persistent storage, please use the FS Virtual Machines, and purchase Premium Storage separately. The pricing and billing meters for the FS size are the same as for the F Series. <!--FS虚拟机 目前只在中国东部区域提供服务。-->
 								</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Linux F 系列虚拟机价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
@@ -1329,10 +1331,10 @@
 							</div>
 							<!-- END: Tab level 2 content 2-2--> <!-- BEGIN: Tab level 2 content 2-3 -->
 							<div class="tab-panel" id="tabContent2-3">
-								<h3>Memory prioritization: high memory to core ratio. Suitable for relational database servers, medium- and large-scale caches and memory analysis.</h3>
+								<h3>Memory optimized: High memory-to-core ratio. Great for relational database servers, medium to large caches, and in-memory analytics.</h3>
 								<h3>D11-14/DS11-14</h3>
 								<p>The D11-14/DS11-14 instances are suitable for memory-intensive enterprise applications. </p>
-								<p>For permanent storage, please use variable “DS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DS size are the same as the D Series.</p>
+								<p>For persistent storage, please use variable "DS" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DS size are the same as the D Series.</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Linux D 系列虚拟机价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -1385,15 +1387,15 @@
 														<h3>D11-14/DS11-14 – v2 促销 - 限时</h3>
 														<p>仅提供限时优惠。</p>
 														<div class="tags-date">
-															<div class="ms-date">*以下价格均为含税价格。</div><br />
-															<div class="ms-date">*每月价格估算基于每个月 744 小时的使用量。</div>
+															<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+															<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 														</div>
 														<table cellpadding="0" cellspacing="0" width="100%">
 															<tr>
-																<th align="left"><strong>实例</strong></th>
-																<th align="left"><strong>内核数</strong></th>
+																<th align="left"><strong>Instances</strong></th>
+																<th align="left"><strong>Number of Cores</strong></th>
 																<th align="left"><strong>RAM</strong></th>
-																<th align="left"><strong>临时存储</strong></th>
+																<th align="left"><strong>Temporary Storage</strong></th>
 																<th align="left"><strong>促销价格</strong></th>
 															</tr>
 															<tr>
@@ -1401,28 +1403,28 @@
 																<td>2</td>
 																<td>14 GiB</td>
 																<td>100 GiB</td>
-																<td>￥3.25/小时<br />( 约 ￥2,418.00/月 )</td>
+																<td>￥3.25/hour<br />( about ￥2,418.00/month )</td>
 															</tr>
 															<tr>
 																<td>D12 v2 促销</td>
 																<td>4</td>
 																<td>28 GiB</td>
 																<td>200 GiB</td>
-																<td>￥6.51/小时<br />( 约 ￥4,843.44/月 )</td>
+																<td>￥6.51/hour<br />( about ￥4,843.44/month )</td>
 															</tr>
 															<tr>
 																<td>D13 v2 促销</td>
 																<td>8</td>
 																<td>56 GiB</td>
 																<td>400 GiB</td>
-																<td>￥11.71/小时<br />( 约 ￥8,712.24/月 )</td>
+																<td>￥11.71/hour<br />( about ￥8,712.24/month )</td>
 															</tr>
 															<tr>
 																<td>D14 v2 促销</td>
 																<td>16</td>
 																<td>112 GiB</td>
 																<td>800 GiB</td>
-																<td>￥21.08/小时<br />( 约 ￥15,683.52/月 )</td>
+																<td>￥21.08/hour<br />( about ￥15,683.52/month )</td>
 															</tr>
 														</table>
 														
@@ -1485,7 +1487,7 @@
 									</tr>
 								</table>
 								<h3>DS 11-15 v2</h3>
-								<p>For permanent storage, please use the “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series.<!--DSv2虚拟机 目前只在中国东部区域提供服务。-->
+								<p>For persistent storage, please use the "DSv2" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.<!--DSv2虚拟机 目前只在中国东部区域提供服务。-->
 								</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Linux Dv2 系列虚拟机价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
@@ -1555,19 +1557,19 @@
 								<a href="javascript:void(0)" data-href="#tabContent3-1" data-toggle="tab" id="vm-vm-sql-general-purpose">General Purpose</a>
 							</li>
 							<li>
-								<a href="javascript:void(0)" data-href="#tabContent3-2"  data-toggle="tab" id="vm-vm-win-compute-optimized">Computing Prioritization</a>
+								<a href="javascript:void(0)" data-href="#tabContent3-2"  data-toggle="tab" id="vm-vm-win-compute-optimized">Compute Optimized</a>
 							</li>
 							<li>
-								<a href="javascript:void(0)" data-href="#tabContent3-3"  data-toggle="tab" id="vm-vm-sql-memory-optimized">Memory Prioritization</a>
+								<a href="javascript:void(0)" data-href="#tabContent3-3"  data-toggle="tab" id="vm-vm-sql-memory-optimized">Memory Optimized</a>
 							</li>
 						</ul>
 						<!-- END: Tab level 2 navigator 3 --> <!-- BEGIN: Tab level 2 content 3 -->
 						<div class="tab-content">
 							<!-- BEGIN: Tab level 2 content 3-1 -->
 							<div class="tab-panel" id="tabContent3-1">
-								<h3>General purpose: balancing of CPU to memory ratio. Suitable for testing and development of small- and medium-sized databases and low- and medium-traffic Web servers.</h3>
+								<h3>General purpose: Balanced CPU-to-memory ratio. Ideal for testing and development, small to medium databases, and low to medium traffic web servers.</h3>
 								<h3>A0-4 – Basic</h3>
-								<p>The A Series Basic tier provides a cost-effective option for developing/testing the workload and other applications not requiring load balancing, Autoscale or memory-intensive Virtual Machines.</p>
+								<p>The A Series Basic tier provides a cost-effective option for development/testing workloads and other applications not requiring load balancing, autoscaling or memory-intensive Virtual Machines.</p>
 						
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -1631,7 +1633,7 @@
 									</tr>
 								</table>
 								
-								<p><sup>2 </sup>It’s recommended that the SQL Enterprise Edition of standard A3 and the SQL Edition of standard A2 be employed as a minimum.</p>
+								<p><sup>2 </sup>It's recommended that the SQL Enterprise Edition of standard A3 and the SQL Standard Edition of standard A2 be employed as a minimum.</p>
 								
 								<h3>A Series Standard</h3>
 							
@@ -1724,9 +1726,9 @@
 									</tr>
 								</table>
 								
-								<p><sup>2 </sup>It’s recommended that the SQL Enterprise Edition of standard A3 and the SQL Edition of standard A2 be employed as a minimum.</p>	
+								<p><sup>2 </sup>It's recommended that the SQL Enterprise Edition of standard A3 and the SQL Standard Edition of standard A2 be employed as a minimum.</p>	
 								<h3>Av2 Standard</h3>			
-								<p>The Av2 Standard Virtual Machine is the latest generation of A Series Virtual Machine, which has similar CPU performance but a faster disk speed. These Virtual Machines are suitable for developing workloads, generating servers, code memory, low-traffic website and Web Apps, microservices, early product trials, and small databases. The same as the previous A Standard, Av2 Virtual Machines will include load balancing and Autoscale, and with no extra fees.</p>
+								<p>The Av2 Standard Virtual Machine is the latest generation of A Series Virtual Machine, which has similar CPU performance but a faster disk speed. These Virtual Machines are suitable for development workloads, build servers, code repositories, low-traffic website and web applications, microservices, early product experiments, and small databases. The same as the previous A Standard, Av2 Virtual Machines will include load balancing and autoscaling, and with no extra fees.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
@@ -1885,7 +1887,7 @@
 									</tr>
 								</table>
 								
-								<p><sup>2 </sup>It’s recommended that SQL Enterprise Edition of standard D3 and the SQL Edition of standard D2 be employed as a minimum.</p>
+								<p><sup>2 </sup>It's recommended that the SQL Enterprise Edition of standard D3 and the SQL Standard Edition of standard D2 be employed as a minimum.</p>
 							
 								<h3>D1-5 v2</h3>
 								<p>The D1-5 v2 instances are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to 3.2 GHz via Intel Turbo Boost Technology 2.0. The D1-5 v2 instances involve provision of powerful CPU, memory and local disk combinations for most production applications.</p>
@@ -1952,10 +1954,10 @@
 									</tr>
 								</table>
 								
-								<p><sup>2 </sup>It’s recommended that SQL Enterprise Edition of standard D3 and the SQL Edition of standard D2 be employed as a minimum.</p>
+								<p><sup>2 </sup>It's recommended that the SQL Enterprise Edition of standard D3 and the SQL Standard Edition of standard D2 be employed as a minimum.</p>
 								<h3>DS 1-5 v2</h3>
 								<p>
-								For permanent storage, please use the “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series. <!--DSv2 虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a href="/pricing/details/storage/" id="vm-pricing_storage-4" style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;">Storage Pricing Details</a> page.</p>
+								For persistent storage, please use the "DSv2" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series. <!--DSv2 虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a href="/pricing/details/storage/" id="vm-pricing_storage-4" style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;">Storage Pricing Details</a> page.</p>
 
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -2019,14 +2021,14 @@
 									</tr>
 								</table>
 								
-								<p><sup>2 </sup>It’s recommended that SQL Enterprise Edition of standard D3 and the SQL Edition of standard D2 be employed as a minimum.</p>
+								<p><sup>2 </sup>It's recommended that the SQL Enterprise Edition of standard D3 and the SQL Standard Edition of standard D2 be employed as a minimum.</p>
 							</div>
 							<!-- END: Tab level 2 content 3-1--> <!-- BEGIN: Tab level 2 content 3-2 -->
 							<div class="tab-panel" id="tabContent3-2">
-								<h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and application server. </h3>
+								<h3>Compute optimized: High CPU-to-memory ratio. Good for medium traffic web servers, network appliances, batch processes, and application servers.</h3>
 								<h3>F series/FS series</h3>
 								<p>The F Series/FS Series Virtual Machine supports RAM of every CPU core 2 GiB and 16 GiB local solid state disk (SSD), and has been prioritized for computing-intensive workloads. The F Series/FS Series are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to a 3.2 GHz clock speed using Intel Turbo Boost Technology 2.0. These Virtual Machines are suitable for batch processing, Web servers, analysis and gaming programs, etc.
-									<br /> For permanent storage, please use the “FS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the FS size are the same as the F Series.<!--FS 虚拟机 目前只在中国东部区域提供服务。-->
+									<br /> For persistent storage, please use the "FS" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the FS size are the same as the F Series.<!--FS 虚拟机 目前只在中国东部区域提供服务。-->
 								</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -2110,7 +2112,7 @@
 							<!-- END: Tab level 2 content 3-2--> <!-- BEGIN: Tab level 3 content 3-3 -->
 							<div class="tab-panel" id="tabContent3-3">
 								
-								<h3>Memory prioritization: high memory to core ratio. Suitable for relational database servers, medium- and large-scale caches and memory analysis.</h3>
+								<h3>Memory optimized: High memory-to-core ratio. Great for relational database servers, medium to large caches, and in-memory analytics.</h3>
 								<h3>D11-14</h3>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -2165,7 +2167,7 @@
 									</tr>
 								</table>
 								
-								<p><sup>2 </sup>It’s recommended that SQL Enterprise Edition of standard D3 and the SQL Edition of standard D2 be employed as a minimum.</p>
+								<p><sup>2 </sup>It's recommended that the SQL Enterprise Edition of standard D3 and the SQL Standard Edition of standard D2 be employed as a minimum.</p>
 								
 								<h3>D11-15 v2</h3>
 								<p>The D11-15 v2 Series instances are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to 3.2 GHz via Intel Turbo Boost Technology 2.0. The D1-5 v2 instances involve provision of powerful CPU, memory and local disk combinations for most production applications. The D11-15 v2 instances are suitable for memory-intensive enterprise applications. The D15 v2 instance is independent from the hardware exclusively used for individual customers.</p>
@@ -2231,10 +2233,10 @@
 									</tr>
 								</table>
 								
-								<p><sup>2 </sup>It’s recommended that SQL Enterprise Edition of standard D3 and the SQL Edition of standard D2 be employed as a minimum.</p>
+								<p><sup>2 </sup>It's recommended that the SQL Enterprise Edition of standard D3 and the SQL Standard Edition of standard D2 be employed as a minimum.</p>
 								
 								<h3>DS 11-15 v2</h3>
-								<p>For permanent storage, please use the “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series.<br/>Of which, DS13-2_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS13-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-8_v2<sup style="color:#e66102; font-weight: bold">new</sup> are brand new instances. Compared with DS13 v2 and DS14 v2, they’ve reduced the number of cores and size of the vCPU, and saved on costs while guaranteeing the same memory, disk size and price.<!--DSv2 虚拟机 目前只在中国东部区域提供服务。--></p>
+								<p>For persistent storage, please use the "DSv2" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.<br/>Of which, DS13-2_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS13-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-8_v2<sup style="color:#e66102; font-weight: bold">new</sup> are brand new instances. Compared with DS13 v2 and DS14 v2, they've reduced the number of cores and size of the vCPU, and saved on costs while guaranteeing the same memory, disk size and price.<!--DSv2 虚拟机 目前只在中国东部区域提供服务。--></p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
@@ -2297,7 +2299,7 @@
 									</tr>
 								</table>
 								
-								<p><sup>2 </sup>It’s recommended that SQL Enterprise Edition of standard D3 and the SQL Edition of standard D2 be employed as a minimum.</p>
+								<p><sup>2 </sup>It's recommended that the SQL Enterprise Edition of standard D3 and the SQL Standard Edition of standard D2 be employed as a minimum.</p>
 							</div>
 							<!-- END: Tab level 2 content 3-3-->
 						</div>
@@ -2311,19 +2313,19 @@
 								<a href="javascript:void(0)" data-href="#tabContent4-1" data-toggle="tab" id="vm-vm-r-server-linux-general-purpose">General Purpose</a>
 							</li>
 							<li>
-								<a href="javascript:void(0)" data-href="#tabContent4-2"  data-toggle="tab" id="vm-vm-r-server-linux-compute-optimized">Computing Prioritization</a>
+								<a href="javascript:void(0)" data-href="#tabContent4-2"  data-toggle="tab" id="vm-vm-r-server-linux-compute-optimized">Compute Optimized</a>
 							</li>
 							<li>
-								<a href="javascript:void(0)" data-href="#tabContent4-3"  data-toggle="tab" id="vm-vm-r-server-linux-memory-optimized">Memory Prioritization</a>
+								<a href="javascript:void(0)" data-href="#tabContent4-3"  data-toggle="tab" id="vm-vm-r-server-linux-memory-optimized">Memory Optimized</a>
 							</li>
 						</ul>
 						<!-- END: Tab level 2 navigator 4 --> <!-- BEGIN: Tab level 2 content 4 -->
 						<div class="tab-content">
 							<!-- BEGIN: Tab level 2 content 4-1 -->
 							<div class="tab-panel" id="tabContent4-1">
-								<h3>General purpose: balancing of CPU to memory ratio. Suitable for testing and development of small- and medium-sized databases and low- and medium-traffic Web servers.</h3>
+								<h3>General purpose: Balanced CPU-to-memory ratio. Ideal for testing and development, small to medium databases, and low to medium traffic web servers.</h3>
 								<h3>A0-4 – Basic</h3>
-								<p>The A Series Basic tier provides a cost-effective option for developing/testing the workload and other applications not requiring load balancing, Autoscale or memory-intensive Virtual Machines.</p>
+								<p>The A Series Basic tier provides a cost-effective option for development/testing workloads and other applications not requiring load balancing, autoscaling or memory-intensive Virtual Machines.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
@@ -2402,7 +2404,7 @@
 								</table>
 								
 								<h3>A Series Standard</h3>
-								<p>The A Series standard tier supports applications requiring load balancing and Autoscale. These Virtual Machines are suitable for developing workloads, generating servers, code memory, low-traffic websites and Web Apps, microservices, early product trials and small databases.</p>
+								<p>The A Series Standard tier supports applications requiring load balancing and autoscaling. These Virtual Machines are suitable for development workloads, build servers, code repositories, low-traffic websites and web applications, microservices, early product experiments and small databases.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
@@ -2517,7 +2519,7 @@
 								</table>
 								
 								<h3>Av2 Standard</h3>
-								<p>The Av2 Standard Virtual Machine is the latest generation of A Series Virtual Machine, which has similar CPU performance but a faster disk speed. These Virtual Machines are suitable for developing workloads, generating servers, code memory, low-traffic website and Web Apps, microservices, early product trials, and small databases. The same as the previous A Standard, Av2 Virtual Machines will include load balancing and Autoscale, and with no extra fees.</p>
+								<p>The Av2 Standard Virtual Machine is the latest generation of A Series Virtual Machine, which has similar CPU performance but a faster disk speed. These Virtual Machines are suitable for development workloads, build servers, code repositories, low-traffic website and web applications, microservices, early product experiments, and small databases. The same as the previous A Standard, Av2 Virtual Machines will include load balancing and autoscaling, and with no extra fees.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
@@ -2621,7 +2623,7 @@
 								
 								<h3>D1-4/DS 1-4</h3>
 								<p>The D1-4/DS 1-4 instances involve provision of powerful CPU, memory and local disk combinations for most production applications.</p>
-								<p>For permanent storage, please use variable “DS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DS size are the same as the D Series.</p>
+								<p>For persistent storage, please use variable "DS" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DS size are the same as the D Series.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
@@ -2691,15 +2693,15 @@
 														<h3>D2-5 v2 促销 - 限时</h3>
 														<p>仅提供限时优惠。</p>
 														<div class="tags-date">
-															<div class="ms-date">*以下价格均为含税价格。</div><br />
-															<div class="ms-date">*每月价格估算基于每个月 744 小时的使用量。</div>
+															<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+															<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 														</div>
 														<table cellpadding="0" cellspacing="0" width="100%">
 															<tr>
-																<th align="left"><strong>实例</strong></th>
-																<th align="left"><strong>内核数</strong></th>
+																<th align="left"><strong>Instances</strong></th>
+																<th align="left"><strong>Number of Cores</strong></th>
 																<th align="left"><strong>RAM</strong></th>
-																<th align="left"><strong>临时存储</strong></th>
+																<th align="left"><strong>Temporary Storage</strong></th>
 																<th align="left"><strong>操作系统价格</strong></th>
 																<th align="left"><strong>软件促销价格</strong></th>
 																<th align="left"><strong>价格总计</strong></th>   
@@ -2709,36 +2711,36 @@
 																<td>2</td>
 																<td>7 GiB</td>
 																<td>100 GiB</td>
-																<td>￥1.02/小时<br />( 约 ￥758.88/月 )</td>
-																<td>￥9.858/小时<br />( 约 ￥7334.352/月 )</td>
-																<td>￥10.878/小时<br />( 约 ￥8093.232/月 )</td>
+																<td>￥1.02/hour<br />( about ￥758.88/month )</td>
+																<td>￥9.858/hour<br />( about ￥7334.352/month )</td>
+																<td>￥10.878/hour<br />( about ￥8093.232/month )</td>
 															</tr>
 															<tr>
 																<td>D3 v2 促销</td>
 																<td>4</td>
 																<td>14 GiB</td>
 																<td>200 GiB</td>
-																<td>￥2.04/小时<br />( 约 ￥1,517.76/月 )</td>
-																<td>￥9.858/小时<br />( 约 ￥7334.352/月 )</td>
-																<td>￥11.898/小时<br />( 约 ￥8852.112/月 )</td>
+																<td>￥2.04/hour<br />( about ￥1,517.76/month )</td>
+																<td>￥9.858/hour<br />( about ￥7334.352/month )</td>
+																<td>￥11.898/hour<br />( about ￥8852.112/month )</td>
 															</tr>
 															<tr>
 																<td>D4 v2 促销</td>
 																<td>8</td>
 																<td>28 GiB</td>
 																<td>400 GiB</td>
-																<td>￥4.1/小时<br />( 约 ￥3,050.4/月 )</td>
-																<td>￥19.716/小时<br />( 约 ￥14668.704/月 )</td>
-																<td>￥23.816/小时<br />( 约 ￥17719.104/月 )</td>
+																<td>￥4.1/hour<br />( about ￥3,050.4/month )</td>
+																<td>￥19.716/hour<br />( about ￥14668.704/month )</td>
+																<td>￥23.816/hour<br />( about ￥17719.104/month )</td>
 															</tr>
 															<tr>
 																<td>D5 v2 促销</td>
 																<td>16</td>
 																<td>56 GiB</td>
 																<td>800 GiB</td>
-																<td>￥8.17/小时<br />( 约 ￥6,078.48/月 )</td>
-																<td>￥39.432/小时<br />( 约 ￥29337.408/月 )</td>
-																<td>￥47.602/小时<br />( 约 ￥35415.888/月 )</td>
+																<td>￥8.17/hour<br />( about ￥6,078.48/month )</td>
+																<td>￥39.432/hour<br />( about ￥29337.408/month )</td>
+																<td>￥47.602/hour<br />( about ￥35415.888/month )</td>
 															</tr>
 														</table>
 														
@@ -2826,7 +2828,7 @@
 								
 								<h3>DS 1-5 v2</h3>
 								
-								<p> For permanent storage, please use “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of DSv2 size are the same as the Dv2 series. <!--DSv2虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a href="/pricing/details/storage/" id="vm-pricing_storage-3" style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;">Storage Pricing Details</a> page.</p>
+								<p> For persistent storage, please use "DSv2" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of DSv2 size are the same as the Dv2 series. <!--DSv2虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a href="/pricing/details/storage/" id="vm-pricing_storage-3" style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;">Storage Pricing Details</a> page.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
@@ -2908,10 +2910,10 @@
 							</div>
 							<!-- END: Tab level 2 content 4-1--> <!-- BEGIN: Tab level 2 content 4-2 -->
 							<div class="tab-panel" id="tabContent4-2">
-								<h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and application server. </h3>
+								<h3>Compute optimized: High CPU-to-memory ratio. Good for medium traffic web servers, network appliances, batch processes, and application servers.</h3>
 								<h3>F series/FS series</h3>
 								<p>The F Series/FS Series Virtual Machine supports RAM of every CPU core 2 GiB and 16 GiB local solid state disk (SSD), and has been prioritized for computing-intensive workloads. The F Series/FS Series are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to a 3.2 GHz clock speed using Intel Turbo Boost Technology 2.0. These virtual machines are suitable for batch processing, Web servers, analysis and gaming programs, etc.
-									<br /> For permanent storage, please use the “FS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the FS size are the same as the F Series.<!--FS 虚拟机 目前只在中国东部区域提供服务。-->
+									<br /> For persistent storage, please use the "FS" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the FS size are the same as the F Series.<!--FS 虚拟机 目前只在中国东部区域提供服务。-->
 								</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -2993,10 +2995,10 @@
 							</div>
 							<!-- END: Tab level 2 content 4-2--> <!-- BEGIN: Tab level 2 content 4-3 -->
 							<div class="tab-panel" id="tabContent4-3">
-								<h3>Memory prioritization: high memory to core ratio. Suitable for relational database servers, medium- and large-scale caches and memory analysis.</h3>
+								<h3>Memory optimized: High memory-to-core ratio. Great for relational database servers, medium to large caches, and in-memory analytics.</h3>
 								<h3>D11-14/DS11-14</h3>
 								<p>The D11-14/DS11-14 instances are suitable for memory-intensive enterprise applications. </p>
-								<p>For permanent storage, please use variable “DS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DS size are the same as the D Series.</p>
+								<p>For persistent storage, please use variable "DS" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DS size are the same as the D Series.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
@@ -3066,15 +3068,15 @@
 														<h3>D11-14/DS11-14 – v2 促销 - 限时</h3>
 														<p>仅提供限时优惠。</p>
 														<div class="tags-date">
-															<div class="ms-date">*以下价格均为含税价格。</div><br />
-															<div class="ms-date">*每月价格估算基于每个月 744 小时的使用量。</div>
+															<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+															<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 														</div>
 														<table cellpadding="0" cellspacing="0" width="100%">
 															<tr>
-																<th align="left"><strong>实例</strong></th>
-																<th align="left"><strong>内核数</strong></th>
+																<th align="left"><strong>Instances</strong></th>
+																<th align="left"><strong>Number of Cores</strong></th>
 																<th align="left"><strong>RAM</strong></th>
-																<th align="left"><strong>临时存储</strong></th>
+																<th align="left"><strong>Temporary Storage</strong></th>
 																<th align="left"><strong>操作系统价格</strong></th>
 																<th align="left"><strong>软件促销价格</strong></th>
 																<th align="left"><strong>价格总计</strong></th>   
@@ -3084,36 +3086,36 @@
 																<td>2</td>
 																<td>14 GiB</td>
 																<td>100 GiB</td>
-																<td>￥1.73/小时<br />( 约 ￥1,287.12/月 )</td>
-																<td>￥9.858/小时<br />( 约 ￥7334.352/月 )</td>
-																<td>￥11.588/小时<br />( 约 ￥8621.472/月 )</td>
+																<td>￥1.73/hour<br />( about ￥1,287.12/month )</td>
+																<td>￥9.858/hour<br />( about ￥7334.352/month )</td>
+																<td>￥11.588/hour<br />( about ￥8621.472/month )</td>
 															</tr>
 															<tr>
 																<td>D12 v2</td>
 																<td>4</td>
 																<td>28 GiB</td>
 																<td>200 GiB</td>
-																<td>￥3.46/小时<br />( 约 ￥2,574.24/月 )</td>
-																<td>￥9.858/小时<br />( 约 ￥7334.352/月 )</td>
-																<td>￥13.318/小时<br />( 约 ￥9908.592/月 )</td>
+																<td>￥3.46/hour<br />( about ￥2,574.24/month )</td>
+																<td>￥9.858/hour<br />( about ￥7334.352/month )</td>
+																<td>￥13.318/hour<br />( about ￥9908.592/month )</td>
 															</tr>
 															<tr>
 																<td>D13 v2</td>
 																<td>8</td>
 																<td>56 GiB</td>
 																<td>400 GiB</td>
-																<td>￥6.92/小时<br />( 约 ￥5,148.48/月 )</td>
-																<td>￥19.716/小时<br />( 约 ￥14668.704/月 )</td>
-																<td>￥26.636/小时<br />( 约 ￥19817.184/月 )</td>
+																<td>￥6.92/hour<br />( about ￥5,148.48/month )</td>
+																<td>￥19.716/hour<br />( about ￥14668.704/month )</td>
+																<td>￥26.636/hour<br />( about ￥19817.184/month )</td>
 															</tr>
 															<tr>
 																<td>D14 v2</td>
 																<td>16</td>
 																<td>112 GiB</td>
 																<td>800 GiB</td>
-																<td>￥13.83/小时<br />( 约 ￥10,289.52/月 )</td>
-																<td>￥39.432/小时<br />( 约 ￥29337.408/月 )</td>
-																<td>￥53.262/小时<br />( 约 ￥39626.928/月 )</td>
+																<td>￥13.83/hour<br />( about ￥10,289.52/month )</td>
+																<td>￥39.432/hour<br />( about ￥29337.408/month )</td>
+																<td>￥53.262/hour<br />( about ￥39626.928/month )</td>
 															</tr>
 														</table>
 														
@@ -3199,7 +3201,7 @@
 								</table>
 								
 								<h3>DS 11-15 v2</h3>
-								<p>For permanent storage, please use the “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series.<!--DSv2 虚拟机 目前只在中国东部区域提供服务。-->
+								<p>For persistent storage, please use the "DSv2" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.
 								</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -3284,6 +3286,763 @@
 						<!-- END: Tab level 2 content 4 -->
 					</div>
 					<!-- END: Level 1 tab content panel 4 -->
+					<!-- BEGIN: Level 1 tab content panel 5 -->
+					<div class="tab-panel" id="tabContent5">
+						<!-- BEGIN: Tab level 2 navigator 5 -->
+						<ul class="tab-nav">
+							<li class="active">
+								<a href="javascript:void(0)" data-href="#tabContent5-1" data-toggle="tab" id="vm-vm-r-server-linux-general-purpose">General Purpose</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" data-href="#tabContent5-2"  data-toggle="tab" id="vm-vm-r-server-linux-compute-optimized">Compute Optimization</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" data-href="#tabContent5-3"  data-toggle="tab" id="vm-vm-r-server-linux-memory-optimized">Memory Optimization</a>
+							</li>
+						</ul>
+						<!-- END: Tab level 2 navigator 4 -->
+						<!-- BEGIN: Tab level 2 content 5 -->
+						<div class="tab-content">
+							<!-- BEGIN: Tab level 2 content 5-1 -->
+							<div class="tab-panel" id="tabContent5-1">
+								<h3>General purpose: Balanced CPU-to-memory ratio. Ideal for testing and development, small to medium databases, and low to medium traffic web servers.</h3>
+								<h3>A0-4 – Basic</h3>
+								<p>The A Series Basic tier provides a cost-effective option for development/testing workloads and other applications not requiring load balancing, autoscaling or memory-intensive Virtual Machines.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>A0</td>
+										<td>1</td>
+										<td>0.75 GiB</td>
+										<td>20 GiB</td>
+										<td>￥10.54/hour
+											<br />( about ￥7841.76/month )</td>
+									</tr>
+									<tr>
+										<td>A1</td>
+										<td>1</td>
+										<td>1.75 GiB</td>
+										<td>40 GiB</td>
+										<td>￥10.68/hour
+											<br />( about ￥7945.92/month )</td>
+									</tr>
+									<tr>
+										<td>A2</td>
+										<td>2</td>
+										<td>3.5 GiB</td>
+										<td>60 GiB</td>
+										<td>￥11.09/hour
+											<br />( about ￥8250.96/month )</td>
+									</tr>
+									<tr>
+										<td>A3</td>
+										<td>4</td>
+										<td>7 GiB</td>
+										<td>120 GiB</td>
+										<td>￥11.74/hour
+											<br />( about ￥8734.56/month )</td>
+									</tr>
+									<tr>
+										<td>A4</td>
+										<td>8</td>
+										<td>14 GiB</td>
+										<td>240 GiB</td>
+										<td>￥23.47/hour
+											<br />( about ￥17461.68/month )</td>
+									</tr>
+								</table>
+								
+								<h3>A Series Standard</h3>
+								<p>The A Series Standard tier supports applications requiring load balancing and autoscaling. These Virtual Machines are suitable for development workloads, build servers, code repositories, low-traffic websites and web applications, microservices, early product experiments and small databases.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>A0</td>
+										<td>1</td>
+										<td>0.75 GiB</td>
+										<td>20 GiB</td>
+										<td>￥10.56/hour
+											<br />( about ￥7856.64/month )</td>
+									</tr>
+									<tr>
+										<td>A1</td>
+										<td>1</td>
+										<td>1.75 GiB</td>
+										<td>70 GiB</td>
+										<td>￥10.72/hour
+											<br />( about ￥7975.68/month )</td>
+									</tr>
+									<tr>
+										<td>A2</td>
+										<td>2</td>
+										<td>3.5 GiB</td>
+										<td>135 GiB</td>
+										<td>￥11.18/hour
+											<br />( about ￥8317.92/month )</td>
+									</tr>
+									<tr>
+										<td>A3</td>
+										<td>4</td>
+										<td>7 GiB</td>
+										<td>285 GiB</td>
+										<td>￥11.94/hour
+											<br />( about ￥8883.36/month )</td>
+									</tr>
+									<tr>
+										<td>A4</td>
+										<td>8</td>
+										<td>14 GiB</td>
+										<td>605 GiB</td>
+										<td>￥23.86/hour
+											<br />( about ￥17751.84/month )</td>
+									</tr>
+									<tr>
+										<td>A5</td>
+										<td>2</td>
+										<td>14 GiB</td>
+										<td>135 GiB</td>
+										<td>￥12.05/hour
+											<br />( about ￥8965.2/month )</td>
+									</tr>
+									<tr>
+										<td>A6</td>
+										<td>4</td>
+										<td>28 GiB</td>
+										<td>285 GiB</td>
+										<td>￥13.68/hour
+											<br />( about ￥10177.92/month )</td>
+									</tr>
+									<tr>
+										<td>A7</td>
+										<td>8</td>
+										<td>56 GiB</td>
+										<td>605 GiB</td>
+										<td>￥27.34/hour
+											<br />( about ￥20340.96/month )</td>
+									</tr>
+								</table>
+								
+								<h3>Av2 Standard</h3>
+								<p>The Av2 Standard Virtual Machine is the latest generation of A Series Virtual Machine, which has similar CPU performance but a faster disk speed. These Virtual Machines are suitable for development workloads, build servers, code repositories, low-traffic website and web applications, microservices, early product experiments, and small databases. The same as the previous A Standard, Av2 Virtual Machines will include load balancing and autoscaling, and with no extra fees.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>A1 v2</td>
+										<td>1</td>
+										<td>2 GiB</td>
+										<td>10 GiB</td>
+										<td>￥10.867/hour
+											<br />( about ￥8085.048/month )</td>
+									</tr>
+									<tr>
+										<td>A2 v2</td>
+										<td>2</td>
+										<td>4 GiB</td>
+										<td>20 GiB</td>
+										<td>￥11.2925/hour
+											<br />( about ￥8401.62/month )</td>
+									</tr>
+									<tr>
+										<td>A4 v2</td>
+										<td>4</td>
+										<td>8 GiB</td>
+										<td>40 GiB</td>
+										<td>￥12.1665/hour
+											<br />( about ￥9051.876/month )</td>
+									</tr>
+									<tr>
+										<td>A8 v2</td>
+										<td>8</td>
+										<td>16 GiB</td>
+										<td>80 GiB</td>
+										<td>￥24.3115/hour
+											<br />( about ￥18087.756/month )</td>
+									</tr>
+									<tr>
+										<td>A2m v2</td>
+										<td>2</td>
+										<td>16 GiB</td>
+										<td>20 GiB</td>
+										<td>￥12.293/hour
+											<br />( about ￥9145.992/month )</td>
+									</tr>
+									<tr>
+										<td>A4m v2</td>
+										<td>4</td>
+										<td>32 GiB</td>
+										<td>40 GiB</td>
+										<td>￥14.1638/hour
+											<br />( about ￥10537.8672/month )</td>
+									</tr>
+									<tr>
+										<td>A8m v2</td>
+										<td>8</td>
+										<td>64 GiB</td>
+										<td>80 GiB</td>
+										<td>￥28.3135/hour
+											<br />( about ￥21065.244/month )</td>
+									</tr>
+								</table>
+								
+								<h3>D1-4/DS 1-4</h3>
+								<p>The D1-4/DS 1-4 instances involve provision of powerful CPU, memory and local disk combinations for most production applications.</p>
+								<p>For persistent storage, please use variable "DS" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DS size are the same as the D Series.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>D1</td>
+										<td>1</td>
+										<td>3.5 GiB</td>
+										<td>50 GiB</td>
+										<td>￥10.87/hour
+											<br />( about ￥8087.28/month )</td>
+									</tr>
+									<tr>
+										<td>D2</td>
+										<td>2</td>
+										<td>7 GiB</td>
+										<td>100 GiB</td>
+										<td>￥11.35/hour
+											<br />( about ￥8444.4/month )</td>
+									</tr>
+									<tr>
+										<td>D3</td>
+										<td>4</td>
+										<td>14 GiB</td>
+										<td>200 GiB</td>
+										<td>￥12.28/hour
+											<br />( about ￥9136.32/month )</td>
+									</tr>
+									<tr>
+										<td>D4</td>
+										<td>8</td>
+										<td>28 GiB</td>
+										<td>400 GiB</td>
+										<td>￥24.58/hour
+											<br />( about ￥18287.52/month )</td>
+									</tr>
+								</table>
+								
+								<!--
+														<h3>D2-5 v2 促销 - 限时</h3>
+														<p>仅提供限时优惠。</p>
+														<div class="tags-date">
+															<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+															<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+														</div>
+														<table cellpadding="0" cellspacing="0" width="100%">
+															<tr>
+																<th align="left"><strong>Instances</strong></th>
+																<th align="left"><strong>Number of Cores</strong></th>
+																<th align="left"><strong>RAM</strong></th>
+																<th align="left"><strong>Temporary Storage</strong></th>
+																<th align="left"><strong>操作系统价格</strong></th>
+																<th align="left"><strong>软件促销价格</strong></th>
+																<th align="left"><strong>价格总计</strong></th>   
+															</tr>
+															<tr>
+																<td>D2 v2 促销</td>
+																<td>2</td>
+																<td>7 GiB</td>
+																<td>100 GiB</td>
+																<td>￥1.02/hour<br />( about ￥758.88/month )</td>
+																<td>￥9.858/hour<br />( about ￥7334.352/month )</td>
+																<td>￥10.878/hour<br />( about ￥8093.232/month )</td>
+															</tr>
+															<tr>
+																<td>D3 v2 促销</td>
+																<td>4</td>
+																<td>14 GiB</td>
+																<td>200 GiB</td>
+																<td>￥2.04/hour<br />( about ￥1,517.76/month )</td>
+																<td>￥9.858/hour<br />( about ￥7334.352/month )</td>
+																<td>￥11.898/hour<br />( about ￥8852.112/month )</td>
+															</tr>
+															<tr>
+																<td>D4 v2 促销</td>
+																<td>8</td>
+																<td>28 GiB</td>
+																<td>400 GiB</td>
+																<td>￥4.1/hour<br />( about ￥3,050.4/month )</td>
+																<td>￥19.716/hour<br />( about ￥14668.704/month )</td>
+																<td>￥23.816/hour<br />( about ￥17719.104/month )</td>
+															</tr>
+															<tr>
+																<td>D5 v2 促销</td>
+																<td>16</td>
+																<td>56 GiB</td>
+																<td>800 GiB</td>
+																<td>￥8.17/hour<br />( about ￥6,078.48/month )</td>
+																<td>￥39.432/hour<br />( about ￥29337.408/month )</td>
+																<td>￥47.602/hour<br />( about ￥35415.888/month )</td>
+															</tr>
+														</table>
+														
+														-->
+								<h3>D1-5 v2</h3>
+								<p>The D1-5 v2 instances are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to 3.2 GHz via Intel Turbo Boost Technology 2.0. The D1-5 v2/DS 1-5 v2 instances involve provision of powerful CPU, memory and local disk combinations for most of production applications.</p>
+								
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>D1 v2</td>
+										<td>1</td>
+										<td>3.5 GiB</td>
+										<td>50 GiB</td>
+										<td>￥10.92/hour
+											<br />( about ￥8124.48/month )</td>
+									</tr>
+									<tr>
+										<td>D2 v2</td>
+										<td>2</td>
+										<td>7 GiB</td>
+										<td>100 GiB</td>
+										<td>￥11.45/hour
+											<br />( about ￥8518.8/month )</td>
+									</tr>
+									<tr>
+										<td>D3 v2</td>
+										<td>4</td>
+										<td>14 GiB</td>
+										<td>200 GiB</td>
+										<td>￥12.47/hour
+											<br />( about ￥9277.68/month )</td>
+									</tr>
+									<tr>
+										<td>D4 v2</td>
+										<td>8</td>
+										<td>28 GiB</td>
+										<td>400 GiB</td>
+										<td>￥24.95/hour
+											<br />( about ￥18562.8/month )</td>
+									</tr>
+									<tr>
+										<td>D5 v2</td>
+										<td>16</td>
+										<td>56 GiB</td>
+										<td>800 GiB</td>
+										<td>￥49.87/hour
+											<br />( about ￥37103.28/month )</td>
+									</tr>
+								</table>
+							
+								
+								<h3>DS 1-5 v2</h3>
+								
+								<p> For persistent storage, please use "DSv2" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of DSv2 size are the same as the Dv2 series. 
+									<!--DSv2虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a href="/pricing/details/storage/" id="vm-pricing_storage-3" style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;">Storage Pricing Details</a> Page.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>DS1 v2</td>
+										<td>1</td>
+										<td>3.5 GiB</td>
+										<td>7 GiB</td>
+										<td>￥10.92/hour
+											<br />( about ￥8124.48/month )</td>
+									</tr>
+									<tr>
+										<td>DS2 v2</td>
+										<td>2</td>
+										<td>7 GiB</td>
+										<td>14 GiB</td>
+										<td>￥11.45/hour
+											<br />( about ￥8518.8/month )</td>
+									</tr>
+									<tr>
+										<td>DS3 v2</td>
+										<td>4</td>
+										<td>14 GiB</td>
+										<td>28 GiB</td>
+										<td>￥12.47/hour
+											<br />( about ￥9277.68/month )</td>
+									</tr>
+									<tr>
+										<td>DS4 v2</td>
+										<td>8</td>
+										<td>28 GiB</td>
+										<td>56 GiB</td>
+										<td>￥24.95/hour
+											<br />( about ￥18562.8/month )</td>
+									</tr>
+									<tr>
+										<td>DS5 v2</td>
+										<td>16</td>
+										<td>56 GiB</td>
+										<td>112 GiB</td>
+										<td>￥49.87/hour
+											<br />( about ￥37103.28/month )</td>
+									</tr>
+								</table>
+							
+								
+							</div>
+							<!-- END: Tab level 2 content 5-1-->
+
+							<!-- BEGIN: Tab level 2 content 5-2 -->
+							<div class="tab-panel" id="tabContent5-2">
+								<h3>Compute optimized: High CPU-to-memory ratio. Good for medium traffic web servers, network appliances, batch processes, and application servers.</h3>
+								<h3>F series/FS series</h3>
+								<p>The F Series/FS Series Virtual Machine supports RAM of every CPU core 2 GiB and 16 GiB local solid state disk (SSD), and has been prioritized for computing-intensive workloads. The F Series/FS Series are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to a 3.2 GHz clock speed using Intel Turbo Boost Technology 2.0. These virtual machines are suitable for batch processing, Web servers, analysis and gaming programs, etc.
+									<br /> For persistent storage, please use the "FS" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the FS size are the same as the F Series.
+									<!--FS 虚拟机 目前只在中国东部区域提供服务。-->
+								</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>F1</td>
+										<td>1</td>
+										<td>2 GiB</td>
+										<td>16 GiB</td>
+										<td>￥10.86/hour
+											<br />( about ￥8079.84/month )</td>
+									</tr>
+									<tr>
+										<td>F2</td>
+										<td>2</td>
+										<td>4 GiB</td>
+										<td>32 GiB</td>
+										<td>￥11.33/hour
+											<br />( about ￥8429.52/month )</td>
+									</tr>
+									<tr>
+										<td>F4</td>
+										<td>4</td>
+										<td>8 GiB</td>
+										<td>64 GiB</td>
+										<td>￥12.23/hour
+											<br />( about ￥9,099.12/month )</td>
+									</tr>
+									<tr>
+										<td>F8</td>
+										<td>8</td>
+										<td>16 GiB</td>
+										<td>128 GiB</td>
+										<td>￥24.46/hour
+											<br />( about ￥18,198.24/month )</td>
+									</tr>
+									<tr>
+										<td>F16</td>
+										<td>16</td>
+										<td>32 GiB</td>
+										<td>256 GiB</td>
+										<td>￥48.89/hour
+											<br />( about ￥36,374.16/month )</td>
+									</tr>
+								</table>
+								
+							</div>
+							<!-- END: Tab level 2 content 5-2-->
+
+							<!-- BEGIN: Tab level 2 content 5-3 -->
+							<div class="tab-panel" id="tabContent5-3">
+								<h3>Memory optimized: High memory-to-core ratio. Great for relational database servers, medium to large caches, and in-memory analytics.</h3>
+								<h3>D11-14/DS11-14</h3>
+								<p>The D11-14/DS11-14 instances are suitable for memory-intensive enterprise applications.</p>
+								<p>For persistent storage, please use variable "DS" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DS size are the same as the D Series.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>D11</td>
+										<td>2</td>
+										<td>14 GiB</td>
+										<td>100 GiB</td>
+										<td>￥12/hour
+											<br />( about ￥8,928/month )</td>
+									</tr>
+									<tr>
+										<td>D12</td>
+										<td>4</td>
+										<td>28 GiB</td>
+										<td>200 GiB</td>
+										<td>￥13.57/hour
+											<br />( about ￥10,096.08/month )</td>
+									</tr>
+									<tr>
+										<td>D13</td>
+										<td>8</td>
+										<td>56 GiB</td>
+										<td>400 GiB</td>
+										<td>￥27.14/hour
+											<br />( about ￥20,192.16/month )</td>
+									</tr>
+									<tr>
+										<td>D14</td>
+										<td>16</td>
+										<td>112 GiB</td>
+										<td>800 GiB</td>
+										<td>￥54.28/hour
+											<br />( about ￥40,384.32/month )</td>
+									</tr>
+								</table>
+								
+								<!--
+														<h3>D11-14/DS11-14 – v2 促销 - 限时</h3>
+														<p>仅提供限时优惠。</p>
+														<div class="tags-date">
+															<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+															<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+														</div>
+														<table cellpadding="0" cellspacing="0" width="100%">
+															<tr>
+																<th align="left"><strong>Instances</strong></th>
+																<th align="left"><strong>Number of Cores</strong></th>
+																<th align="left"><strong>RAM</strong></th>
+																<th align="left"><strong>Temporary Storage</strong></th>
+																<th align="left"><strong>操作系统价格</strong></th>
+																<th align="left"><strong>软件促销价格</strong></th>
+																<th align="left"><strong>价格总计</strong></th>   
+															</tr>
+															<tr>
+																<td>D11 v2</td>
+																<td>2</td>
+																<td>14 GiB</td>
+																<td>100 GiB</td>
+																<td>￥1.73/hour<br />( about ￥1,287.12/month )</td>
+																<td>￥9.858/hour<br />( about ￥7334.352/month )</td>
+																<td>￥11.588/hour<br />( about ￥8621.472/month )</td>
+															</tr>
+															<tr>
+																<td>D12 v2</td>
+																<td>4</td>
+																<td>28 GiB</td>
+																<td>200 GiB</td>
+																<td>￥3.46/hour<br />( about ￥2,574.24/month )</td>
+																<td>￥9.858/hour<br />( about ￥7334.352/month )</td>
+																<td>￥13.318/hour<br />( about ￥9908.592/month )</td>
+															</tr>
+															<tr>
+																<td>D13 v2</td>
+																<td>8</td>
+																<td>56 GiB</td>
+																<td>400 GiB</td>
+																<td>￥6.92/hour<br />( about ￥5,148.48/month )</td>
+																<td>￥19.716/hour<br />( about ￥14668.704/month )</td>
+																<td>￥26.636/hour<br />( about ￥19817.184/month )</td>
+															</tr>
+															<tr>
+																<td>D14 v2</td>
+																<td>16</td>
+																<td>112 GiB</td>
+																<td>800 GiB</td>
+																<td>￥13.83/hour<br />( about ￥10,289.52/month )</td>
+																<td>￥39.432/hour<br />( about ￥29337.408/month )</td>
+																<td>￥53.262/hour<br />( about ￥39626.928/month )</td>
+															</tr>
+														</table>
+														
+														-->
+								<h3>D11-15 v2</h3>
+								<p>The D11-15 v2/DS 11-15 v2 Series instances are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to 3.2 GHz via Intel Turbo Boost Technology 2.0. The D11-15 v2 are suitable for memory-intensive enterprise applications. The D15 v2 instance is independent from the hardware exclusively used for individual customers.</p>
+									
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>D11 v2</td>
+										<td>2</td>
+										<td>14 GiB</td>
+										<td>100 GiB</td>
+										<td>￥12.16/hour
+											<br />( about ￥9,047.04/month )</td>
+									</tr>
+									<tr>
+										<td>D12 v2</td>
+										<td>4</td>
+										<td>28 GiB</td>
+										<td>200 GiB</td>
+										<td>￥13.89/hour
+											<br />( about ￥10,334.16/month )</td>
+									</tr>
+									<tr>
+										<td>D13 v2</td>
+										<td>8</td>
+										<td>56 GiB</td>
+										<td>400 GiB</td>
+										<td>￥27.77/hour
+											<br />( about ￥20,660.88/month )</td>
+									</tr>
+									<tr>
+										<td>D14 v2</td>
+										<td>16</td>
+										<td>112 GiB</td>
+										<td>800 GiB</td>
+										<td>￥55.53/hour
+											<br />( about ￥41,314.32/month )</td>
+									</tr>
+									<tr>
+										<td>D15 v2</td>
+										<td>20</td>
+										<td>140 GiB</td>
+										<td>1000 GiB</td>
+										<td>￥84.8173/hour
+											<br />( about ￥63,104.0712/month )</td>
+									</tr>
+								</table>
+								
+								<h3>DS 11-15 v2</h3>
+								<p>For persistent storage, please use the "DSv2" Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.
+									<!--DSv2 虚拟机 目前只在中国东部区域提供服务。-->
+								</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>DS11 v2</td>
+										<td>2</td>
+										<td>14 GiB</td>
+										<td>28 GiB</td>
+										<td>￥12.16/hour
+											<br />( about ￥9,047.04/month )</td>
+									</tr>
+									<tr>
+										<td>DS12 v2</td>
+										<td>4</td>
+										<td>28 GiB</td>
+										<td>56 GiB</td>
+										<td>￥13.89/hour
+											<br />( about ￥10,334.16/month )</td>
+									</tr>
+									<tr>
+										<td>DS13 v2</td>
+										<td>8</td>
+										<td>56 GiB</td>
+										<td>112 GiB</td>
+										<td>￥27.77/hour
+											<br />( about ￥20,660.88/month )</td>
+									</tr>
+									<tr>
+										<td>DS14 v2</td>
+										<td>16</td>
+										<td>112 GiB</td>
+										<td>224 GiB</td>
+										<td>￥55.53/hour
+											<br />( about ￥41,314.32/month )</td>
+									</tr>
+									<tr>
+										<td>DS15 v2</td>
+										<td>20</td>
+										<td>140 GiB</td>
+										<td>280 GiB</td>
+										<td>￥84.8173/hour
+											<br />( about ￥63,104.0712/month )</td>
+									</tr>
+								</table>
+												
+							</div>
+							<!-- END: Tab level 2 content 5-3-->
+						</div>
+						<!-- END: Tab level 2 content 5 -->
+					</div>
+					<!-- END: Level 1 tab content panel 5 -->
 
 				</div>
 				<!-- END: Level 1 tab content -->
@@ -3296,7 +4055,7 @@
 				<ul>
 					<li><strong>Instance-level public IP address:</strong>a dynamic public IP (PIP) address assigned to the Virtual Machine for direct access.</li>
 					<li><strong>Reserved IP address: </strong>this may be a public IP address reserved for subscription, or used as a VIP address for any cloud service within the region.</li>
-					<li><strong>Load balancing IP address: </strong>other load balancing VIP addresses could be assigned to cloud services that include one or multiple Azure Virtual Machines.</li>
+					<li><strong>Load-balanced IP address: </strong>other load-balanced VIP addresses could be assigned to cloud services that include one or multiple Azure Virtual Machines.</li>
 				</ul>
 				<a href="/pricing/details/ip-addresses/" id="home_vm_ip_more" class="single-link">Learn about IP address pricing<i class="icon icon-arrow-right-thin"></i></a>
 			</div>
@@ -3311,7 +4070,7 @@
 							<div>
 								<a id="vm-que-1">Is local disk storage billed separately?</a>
 								<section>
-									<p>No. All new Virtual Machines have an OS disk and a local disk (also called the “resource disk”). We don’t charge for local disk storage. The OS disk is charged at the common disk rate. <a href="https://docs.azure.cn/zh-cn/cloud-services/cloud-services-sizes-specs" id="vm-cloud-services-sizes-specs">Please refer to the configurations of all Virtual Machines</a>.</p>
+									<p>No. All new Virtual Machines have an OS disk and a local disk (also called the "resource disk"). We don't charge for local disk storage. The OS disk is charged at the common disk rate. <a href="https://docs.azure.cn/zh-cn/cloud-services/cloud-services-sizes-specs" id="vm-cloud-services-sizes-specs">Please refer to the configurations of all Virtual Machines</a>.</p>
 								</section>
 							</div>
 						</li>
@@ -3320,41 +4079,41 @@
 							<div>
 								<a id="vm-que-2">What is a temporary disk?</a>
 								<section>
-									<p>Temporary disk is storage that is attached directly to the deployed VM. Data on a temporary disk is lost once the VM is shut down. If you need persistent storage, there are a number of types and sizes of persistent data disks available that are charged separately. Please see the<a href="/pricing/details/storage/" id="vm_storage">storage pricing page</a>for information. For persistent VM storage, we recommend that you use Managed Disks to take advantage of better management features, scalability, availability, and security.</p>
+									<p>A temporary disk is storage that is attached directly to the deployed VM. Data on a temporary disk is lost once the VM is shut down. If you need persistent storage, there are a number of types and sizes of persistent data disks available that are charged separately. Please see the<a href="/pricing/details/storage/" id="vm_storage">storage pricing page</a>for information. For persistent VM storage, we recommend that you use Managed Disks to take advantage of better management features, scalability, availability, and security.</p>
 								</section>
 							</div>
 						</li>
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="vm-que-q3">Is there still a charge if the instances I deploy indicate “Suspended”?</a>
+								<a id="vm-que-q3">Is there still a charge if the instances I deploy indicate "Stopped"?</a>
 								<section>
-									<p>Maybe. If the status indicates “Suspended (de-allocated)”, no charging is performed. If the status indicates “Suspended (allocated)”, the allocated virtual core (not the software license itself) will still be charged. You may view all details about the status of the Virtual Machines.</p>
+									<p>Maybe. If the status says "Stopped (Deallocated)," you're not being billed. If it says, "Stopped Allocated," you're still being billed for allocated virtual cores (not the software license itself). Full details on virtual machine states.</p>
 									<table cellpadding="0" cellspacing="0" width="100%">
 										<tr>
 											<th align="left"><strong>Status</strong></th>
 											<th align="left"><strong>Billed</strong></th>
-											<th align="left"><strong>Detailed information</strong></th>
+											<th align="left"><strong>Details</strong></th>
 										</tr>
 										<tr>
-											<td>Starting up</td>
+											<td>Starting</td>
 											<td>Yes</td>
-											<td>Initial startup status of the Virtual Machines. In such case, they’re experiencing a startup cycle. As the Virtual Machines are running, billing will be conducted.</td>
+											<td>The initial starting state of virtual machines as they are going through the boot cycle. This period is billed as the virtual machines are running.</td>
 										</tr>
 										<tr>
-											<td>Running (already started)</td>
+											<td>Running (Started)</td>
 											<td>Yes</td>
-											<td>Running status of Virtual Machine</td>
+											<td>The running state of the virtual machine.</td>
 										</tr>
 										<tr>
-											<td>Suspended</td>
+											<td>Stopped</td>
 											<td>Yes</td>
-											<td>If the Virtual Machine is suspended (but not de-allocated), software billing is not performed, but core billing is performed.<br/>Note: If you want to place a Virtual Machine in a “Suspended” status, please use the power supply option within the Virtual Machine (not from Azure Classic portal).</td>
+											<td>You are billed for allocated cores, but not software license. <br> Note: To put a virtual machine in "Stopped" status, use the power option within the virtual machine, not from the Microsoft Azure classic portal.</td>
 										</tr>
 										<tr>
-											<td>Deleted (de-allocated)</td>
+											<td>Deleted (Deallocated)</td>
 											<td>No</td>
-											<td>We will no longer allocate the core to the Virtual Machine, nor charge for it. <br/>Please note - the only way to suspend all Virtual Machines in the Cloud Service is to delete temporary deployment and production deployment simultaneously. </td>
+											<td>You are billed for allocated cores, but not software license. <br> Note: To put a virtual machine in "Stopped" status, use the power option within the virtual machine, not from the Microsoft Azure classic portal. </td>
 										</tr>
 									</table>
 								</section>
@@ -3363,9 +4122,9 @@
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="vm-que-q4">Does the pricing of Virtual Machine instances include the storage cost associated with the running mirror image? </a>
+								<a id="vm-que-q4">Does the pricing of Virtual Machine instances include the storage cost associated with the running image? </a>
 								<section>
-									<p>The pricing of the VM includes only local disk storage. You can view the expenses of attaching Premium Disk (based on SSD) and Standard Disk (based on HDD) onto the VM on the <a href="/pricing/details/storage/" id="vm_storage-disk">Managed Disk</a> pricing page.</p>
+									<p>The pricing of the virtual machine includes only local disk storage. You can view the expenses of attaching Premium Disk (based on SSD) and Standard Disk (based on HDD) onto the VM on the <a href="/pricing/details/storage/" id="vm_storage-disk">Managed Disk</a> pricing page.</p>
 								</section>
 							</div>
 						</li>
@@ -3374,12 +4133,12 @@
 							<div>
 								<a id="vm-que-5">How are A Series instances charged?</a>
 								<section>
-									<p>In the past, all usage of A0, A2, A3 and A4 standard and basic VMs was issued as the submultiple (A0) or multiple (A2, A3 and A4) of A1 Virtual Machine calculating minutes. We’ve learned that this has caused some trouble for our customers, so we’ve made some changes and allocated the usage per second to dedicated A0, A2, A3 and A4 pricing calculators. As a result, the resource GUID of A0, A2, A3 and A4 VMs may vary. If you have any billing procedures depending on the resource GUID, you’re required to modify them to take into consideration these new pricing calculators. </p>
+									<p>In the past, all usage of A0, A2, A3 and A4 Standard and Basic virtual machines was issued as the fractions (A0) or multiples (A2, A3 and A4) of A1 virtual machines meter minutes. We've learned that this has caused some confusion for our customers, so we've made some changes to assign per-second usage to dedicated A0, A2, A3 and A4 meters. As a result, the resource GUIDs of A0, A2, A3 and A4 virtual machines may vary. If you have any billing routines rely on the resource GUIDs, you're required to modify them to take into consideration these new billing meters. </p>
 									<table>
 										<tr>
-											<th align="left"><strong>Deployment Sizes</strong></th>
-											<th align="left"><strong>On 10 January 2016, usage was issued as a multiple of A1</strong></th>
-											<th align="left"><strong>Since 11 January 2016, usage was issued by private pricing calculator</strong></th>
+											<th align="left"><strong>Deployment Size</strong></th>
+											<th align="left"><strong>Usage Emitted as Multiple of A1 Through January 10, 2016</strong></th>
+											<th align="left"><strong>Usage Emitted on Dedicated Meter as of January 11, 2016</strong></th>
 										</tr>
 										<tr>
 											<td>A0</td>
@@ -3408,37 +4167,37 @@
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="vm-que-q6">If my Virtual Machine has run 6 minutes, 45 seconds, how much do you charge me?</a>
+								<a id="vm-que-q6">If my virtual machine has run 6 minutes, 45 seconds, how much do I get billed?</a>
 								<section>
-									<p>We will charge you by the integral minutes of running the virtual machine, so you’re not required to pay for any extra seconds. In this instance the charging is performed according to a usage time of 6 minutes. </p>
+									<p>We charge you by the integral minutes of running the virtual machine, so you're not billed for any extra seconds. In this instance the charging is performed according to a usage time of 6 minutes. </p>
 								</section>
 							</div>
 						</li>
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="vm-que-q7">What’s an Internal Load Balancer?</a>
+								<a id="vm-que-q7">What's an Internal Load Balancer?</a>
 								<section>
-									<p>This is a new preview feature for Azure Virtual Machines with private IP address. Only in the Virtual Network (for VMs within Virtual Networks) or Cloud Services (for VMs outside Virtual Networks) can you access the terminals through the Internal Load Balancer. The Internal Load Balancer is very useful for multiple level applications not publishing some application levels but also requiring load balancing features. </p>
+									<p>This is a new preview feature for Azure Virtual Machines with private IP address. The internally load-balanced endpoint is only accessible within a virtual network (for virtual machines within a virtual network) or cloud service (for virtual machines outside a virtual network). Internal load balancing is very useful for multi-tier applications where some of the application tiers aren't public facing yet require load balancing functionality.</p>
 								</section>
 							</div>
 						</li>
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="vm-que-q8">How do we view if the virtual machine has stopped correctly without being charged?</a>
+								<a id="vm-que-q8">How can I check that I have properly stopped a virtual machine and that I am not being billed for it?</a>
 								<section>
-									<p>You may check the state of the virtual machine in the “Virtual Machine” Options tab and the virtual machine instrument board. Charging is still performed if the status of the virtual machine is “Suspended”. No charging is performed only when the state is “Suspended (de-allocated)”. </p>
-									<p>To ensure there is no charge, please always suspend the VM from the management portal. You can also suspend the VM by calling “PostShutdownAction” equal to ShutdownRoleOperation of “StoppedDeallocated” through Powershell.</p>
+									<p>You may check the state of the virtual machine in the "Virtual Machine" tab, and in the virtual machine Dashboard. You are still being billed if the status of the virtual machine is "Stopped". No charging is performed only when the state is "Stopped (Deallocated)". </p>
+									<p>To ensure there is no charge, please always stop virtual machines from the management portal. You can also stop the virtual machine through Powershell by calling ShutdownRoleOperation with "PostShutdownAction" equal to "StoppedDeallocated".</p>
 								</section>
 							</div>
 						</li>
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="vm-que-q9">How do you charge data transfer fees if I have instances in two different regions?</a>
+								<a id="vm-que-q9">How am I charged for data transfers, if I have instances in two different regions?</a>
 								<section>
-									<p>Charge every instance’s cross-regional data transfer.</p>
+									<p>Each instance is charged for its data egress across regions.</p>
 								</section>
 							</div>
 						</li>
@@ -3456,7 +4215,7 @@
 							<div>
 								<a id="vm-que-11">Can the server license be transferred to Azure and run on a virtual machine?</a>
 								<section>
-									<p>Yes, if there is a software guarantee, the server products supported by all virtual machines are licensed through license mobility.</p>
+									<p>Yes, if you have Software Assurance, you can "bring-your-own-license" for all virtual machines supported server products. through license mobility.</p>
 								</section>
 							</div>
 						</li>
@@ -3466,18 +4225,18 @@
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="vm-que-12">Do I need to provide my license key if I upload my local Windows Server mirror to Azure?</a>
+								<a id="vm-que-12">Do I need to provide my license key if I upload my local Windows Server image to Azure?</a>
 								<section>
-									<p>No. Azure will provide the Windows Server license key for any instance which is running.</p>
+									<p>No. Azure will provide the Windows Server license key for any running instance.</p>
 								</section>
 							</div>
 						</li>
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="vm-que-13">Can the license be transferred if I download Azure Windows Server Mirror to my data center?</a>
+								<a id="vm-que-13">Can the license be transferred if I download Azure Windows Server image to my data center?</a>
 								<section>
-									<p>No. You need to provide the license for this mirror. </p>
+									<p>No. You need to provide the license for this image. </p>
 								</section>
 							</div>
 						</li>
@@ -3489,7 +4248,7 @@
 							<div>
 								<a id="vm-que-q14">When can I use Azure SQL Database? When can I use SQL Server?</a>
 								<section>
-									<p>If you want to migrate existing applications or workloads into the cloud or expand some local applications to the cloud, SQL Server in the Virtual Machine is the easiest option. If you want to build new relational applications, SQL Database may be an optimal long-term solution. No matter which of these two methods you adopt, you can use Azure to easily shift the applications between the on-site data center and the cloud according to the changing business requirements. </p>
+									<p>If you want to migrate existing applications or workloads into the cloud or expand some onpremise applications to the cloud, SQL Server in the virtual machine is the easiest option. If you want to build new relational applications, SQL Database may be an optimal long-term solution. No matter which of these two methods you adopt, you can use Azure to easily shift the applications between the on-site data center and the cloud according to the changing business requirements. </p>
 								</section>
 							</div>
 						</li>
@@ -3505,43 +4264,26 @@
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="vm-que-q16">Is there any difference from SQL Server Enterprise’s DW edition?</a>
+								<a id="vm-que-q16">Is there any difference from SQL Server Enterprise's DW edition?</a>
 								<section>
-									<p>The installation, configuration and optimization of data warehouses (DW) represent typical complex workloads. You can improve the performance of these workloads through DW mirrors specially optimized for Azure Virtual Machines, which could surpass at most 20% of the common SQL Server Enterprise VM mirrors. View the <a href="https://docs.azure.cn/zh-cn/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision" id="vm_virtual-machines-windows-portal-sql-server-provision">working principles</a>.</p>
+									<p>The installation, configuration and optimization of data warehouses (DW) represent typical complex workloads. You can improve the performance of these workloads through DW images specially optimized for Azure Virtual Machines, which could surpass at most 20% of the common SQL Server Enterprise virtual machine images. View the <a href="https://docs.azure.cn/zh-cn/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision" id="vm_virtual-machines-windows-portal-sql-server-provision">working principles</a>.</p>
 								</section>
 							</div>
 						</li>
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="vm-que-q17">Is it necessary to purchase a Windows Virtual Machine separately?</a>
+								<a id="vm-que-q17">Is it necessary to purchase a Windows virtual machine separately?</a>
 								<section>
-									<p>No. The pricing in the table above is the total pricing of the Windows Virtual Machine and SQL Server.</p>
+									<p>No. The pricing in the table above is the total pricing of the Windows virtual machine and SQL Server.</p>
 								</section>
 							</div>
-						</li>
-						<!-- <li>
-							<i class="icon icon-plus"></i>
-							<div>
-								<a id="vm-que-q1">如何确保在已停止虚拟机后不对其计费？</a>
-								<section>
-									<p>若要确保不计费，请从管理门户停止虚拟机。您还可以通过 Powershell 调用“PostShutdownAction”等于“StoppedDeallocated”的 ShutdownRoleOperation 来停止虚拟机。不过，如果从内部（例如，使用 Windows 中的电源选项)或通过 PowerShell 调用“PostShutdownAction”等于“Stopped”的 ShutdownRoleOperation 来关闭虚拟机，则将继续计费。</p>
-								</section>
-							</div>
-						</li> --> <!-- <li>
-							<i class="icon icon-plus"></i>
-							<div>
-								<a id="vm-que-q3">如果我的虚拟机部署了不到一小时，将会向我收费多少？</a>
-								<section>
-									<p>按虚拟机的部署时间长短对虚拟机计费。如果虚拟机的部署时间不到 1 小时，或者为多个小时加上 1 小时的一部分，将仅对该持续时间收费。Azure 不会将不到 1 小时的时间向上舍入为完整的 1 小时来进行计费 - 您只需为虚拟机处于“正在运行”状态的该持续时间段付费。</p>
-								</section>
-							</div>
-						</li> -->
+						</li>						
 					</ul>
 				</div>
 			</div>
             <div class="pricing-page-section">
-                <h2>Marketing Region</h2>
+                <h2>Regions</h2>
                 <p>The Virtual Machine A and D Series instances are available in the following region:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
@@ -3556,7 +4298,7 @@
                <div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need any help, please visit <a href="/support/contact/" id="vm-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-				 <p>For all virtual machines deployed with two or more instances in the same availability, we guarantee that you can have VM connection at least 99.95% of the time. For any single-instance virtual machine that uses Premium Storage for all disks, we guarantee that you can have VM connection at least 99.9% of the time. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/virtual-machines/" id="vm-sla-page">Service Level Agreements</a> page.</p>
+				 <p>For all virtual machines deployed with two or more instances in the same availability set, we guarantee that you can have VM connection at least 99.95% of the time. For any single-instance virtual machine that uses Premium Storage for all disks, we guarantee that you can have VM connection at least 99.9% of the time. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/virtual-machines/" id="vm-sla-page">Service Level Agreements</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk-->
              <div>

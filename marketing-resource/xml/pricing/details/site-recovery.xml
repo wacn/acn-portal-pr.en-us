@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
   <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2014-10-20T09:41:59" urlName="virtual-machines" writerName="content" creatorName="content">
-    <bodyText><![CDATA[
+    <bodyText>
+                          <![CDATA[
       
             <tags ms.service="site-recovery" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
             <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/media/images/production/site_recovery.png','imageHeight':'auto'}">
@@ -9,18 +10,18 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/site-recovery@2x.png" />
                         <h2><span>Site Recovery</span></h2>
-                        <h4>Schedules and manages the recovery process, and replicates the primary data center to a secondary site, to implement data management, service continuity, and disaster recovery.</h4>                      
+                        <h4>Schedule and manage the recovery process, and replicate the primary data center to a secondary site, to implement data management, service continuity, and disaster recovery.</h4>                      
                         <em><a href="/pricing/1rmb-trial/" id="home_recovery_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_recovery_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <h2>Automatic copying can help protect your services</h2>
-                <p>Azure Site Recovery can help protect your major services by coordinating automatic copying and recovery of the private cloud at auxiliary positions. There are two major deployment choices.</p>
+                <h2>Automatic replication can help protect your services</h2>
+                <p>Azure Site Recovery can help protect your major services by coordinating automatic replication and recovery of the private cloud at a secondary location. There are two major deployment choices.</p>
                 <ul>
                     <li>A virtual machine, operated while Hyper-V and system center are used, can be copied between two client sites. Azure Site Recovery can monitor the status and storage recovery plan of the application programs operated at home sites and execute the plan when necessary. When site interruptions happen at the main data center, the virtual machine recovers as arranged so as to help rapidly recover services. This process can also be used for recovery tests or temporary transmission services.</li>
-                    <li>Now, a virtual machine can be copied directly from a home site to Azure instead of your own auxiliary site. When the home site interrupt happens, this service can coordinate the recovery of the virtual machine in Azure.</li>
+                    <li>Now, a virtual machine can be copied directly from a home site to Azure instead of your own secondary site. When the home site interrupt happens, this service can coordinate the recovery of the virtual machine in Azure.</li>
                 </ul>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
@@ -39,15 +40,15 @@
                             <th align="left"><strong>Pricing</strong></th>
                         </tr>
                         <tr>
-                            <td>Azure Site Recovery Pricing</td>
-                            <td>RMB101.27/month for storage of every protected instance</td>
+                            <td>Azure Site Recovery to customer owned sites</td>
+                            <td>￥101.27/month per instance protected</td>
                         </tr>
                         <tr>
-                            <td>From Azure Site Recovery to Azure</td>
-                            <td>RMB342.55/month for storage of every protected instance</td>
+                            <td>Azure Site Recovery to Azure</td>
+                            <td>￥342.55/month per instance protected</td>
                         </tr>
                     </table>
-                    <p>Besides, storage, storage affairs and data transmission are independently charged.</p>
+                    <p>Besides, storage, storage transactions and data transfers are independently charged.</p>
                     <p>Azure Site Recovery is charged by the average daily number of protected instances stored per month. For example, if you have 20 protected instances stored in the first half of the month and have no virtual machine instance storage protection in the second half of the month, the daily protected instance storage of the month will be 10.</p>
                  
                 </div>
@@ -81,7 +82,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-site-recovery</linkid>
     <metaKeywords>Azure, Site Recovery, Pricing</metaKeywords>
-    <metaDescription><![CDATA[Learn about the pricing details of Azure Site Recovery. Azure Site Recovery automatically copy and recover private cloud by coordinating auxiliary locations so as to protect your major service. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[Learn about the pricing details of Azure Site Recovery. Azure Site Recovery automatically copy and recover private cloud by coordinating auxiliary locations so as to protect your major service. A 1RMB Trial gets you ￥1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Site Recovery</urlDisplayName>
   </TextpageLeftNav>
 </localize>
