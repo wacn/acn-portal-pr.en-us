@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/sql-database@2x.png" />
-                        <h2><span>SQL Database</span></h2>
+                        <h2>SQL Database</h2>
                         <h4>You can store a large amount of data and set up periodic synchronization between, for example, the cloud SQL database and a local SQL Server or another SQL Database instance.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_sql_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_sql_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -30,7 +30,7 @@
                 <div class="tab-control-container tab-active" id="tabContent1">
                     <!-- BEGIN: Table1-Content-->
                     <p>A single database is a completely isolated database optimized for workloads when performance requirements are predictable. You can shrink or expand a single database at "Basic," "Standard," and "Premium" service levels, so that you can get the performance and functions you need when your application happens to be needed. Each layer is mainly distinguished by its performance which is measured by the <a class="wa-selta" id="documentation-articles-sql-database-service-tiers-" style="color:#00a8d9;" target="_blank" href="/documentation/articles/sql-database-service-tiers/">Database Transaction Unit (DTU)</a>. See <a target="_blank" class="wa-selta" id="/documentation/articles/sql-database-service-tiers/" href="/documentation/articles/sql-database-service-tiers/" style="color:#00a8d9;">Service Layers</a> for more details.</p>
-                    <h3>Basic Level</h3>
+                    <h3>Basic</h3>
                     <p>Applications designed for light transaction workloads. The "basic" level performance goal provides a predictable hourly transaction rate.</p>
                     <!-- <p>从2016年4月1日起，基本级别价格会下调 25.5%，以下是下调后的新价格：</p> -->
                     <div class="tags-date">
@@ -42,7 +42,7 @@
                             <th></th>
                             <th align="left"><strong>Database Transaction Unit</strong></th>
                             <th align="left"><strong>Storage included</strong></th>
-                            <th align="left"><strong>Maximum storage</strong></th>
+                            <th align="left"><strong>Max storage</strong></th>
                             <!-- <th align="left"><strong>时点还原<br />（自助还原）</strong></th> -->
                             <th align="left"><strong>Price</strong></th>
                         </tr>
@@ -52,13 +52,13 @@
                             <td>2 GB</td>
                             <td>2 GB</td>
                             <!-- <td>7天</td> -->
-                            <td>RMB1.04/day<br />(about RMB32.24/month)</td>
+                            <td>￥1.04/day<br />(about ￥32.24/month)</td>
                         </tr>
                     </table>
                     <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
-                    <h3>Standard Level</h3>
-                    <p>The standard level is suitable for transactional workloads. It provides medium level performance and built-in business continuity features, including point-in-time recovery. The "standard" level performance goal provides a predictable transaction rate per minute.</p>
-                    <p>Provide maximum flexibility. Supports all virtual machine configurations and features.</p>
+                    <h3>Standard</h3>
+                    <p>The standard is suitable for transactional workloads. It provides medium level performance and built-in business continuity features, including point-in-time recovery. The "standard" level performance goal provides a predictable transaction rate per minute.</p>
+                    <p>Provide Max flexibility. Supports all virtual machine configurations and features.</p>
                     <!-- <p>从2016年4月1日起，单个数据库标准级别价格将下调25.5%，以下是新价格：</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -69,7 +69,7 @@
                             <th></th>
                             <th align="left"><strong>Database Transaction Unit</strong></th>
                             <th align="left"><strong>Storage included</strong></th>
-                            <th align="left"><strong>Maximum storage</strong></th>
+                            <th align="left"><strong>Max storage</strong></th>
                             <!-- <th align="left"><strong>时点还原<br />（自助还原）</strong></th> -->
                             <th align="left"><strong>Price</strong></th>
                         </tr>
@@ -79,7 +79,7 @@
                             <td>250 GB</td>
                             <td>250 GB</td>
                             <!-- <td>14天内的任何点</td> -->
-                            <td>RMB3.13/day<br />(about RMB97.03/month)</td>
+                            <td>￥3.13/day<br />(about ￥97.03/month)</td>
                         </tr>
                         <tr>
                             <td>S1</td>
@@ -87,7 +87,7 @@
                             <td>250 GB</td>
                             <td>250 GB</td>
                             <!-- <td>14天内的任何点</td> -->
-                            <td>RMB6.24/day<br />(about RMB193.44/month)</td>
+                            <td>￥6.24/day<br />(about ￥193.44/month)</td>
                         </tr>
                         <tr>
                             <td>S2</td>
@@ -95,7 +95,7 @@
                             <td>250 GB</td>
                             <td>250 GB</td>
                            <!--  <td>14天内的任何点</td> -->
-                            <td>RMB15.65/day<br />(about RMB485.15/month)</td>
+                            <td>￥15.65/day<br />(about ￥485.15/month)</td>
                         </tr>
                         <tr>
                             <td>S3</td>
@@ -103,7 +103,7 @@
                             <td>250 GB</td>
                             <td>1 TB</td>
                            <!--  <td>14天内的任何点</td> -->
-                            <td>RMB31.27/day<br />(about RMB969.37/month)</td>
+                            <td>￥31.27/day<br />(about ￥969.37/month)</td>
                         </tr> 
                         <tr>
                             <td>S4 Preview</td>
@@ -111,7 +111,7 @@
                             <td>250 GB</td>
                             <td>1 TB</td>
                             <!-- <td>14天内的任何点</td> -->
-                            <td>RMB32.45/day<br />(about RMB1,005.95/month)</td>
+                            <td>￥32.45/day<br />(about ￥1,005.95/month)</td>
                         </tr> 
                         <tr>
                             <td>S6 Preview</td>
@@ -119,7 +119,7 @@
                             <td>250 GB</td>
                             <td>1 TB</td>
                             <!-- <td>14天内的任何点</td> -->
-                            <td>RMB64.89/day<br />(about RMB2,011.59/month)</td>
+                            <td>￥64.89/day<br />(about ￥2,011.59/month)</td>
                         </tr> 
                         <tr>
                             <td>S7 Preview</td>
@@ -127,7 +127,7 @@
                             <td>250 GB</td>
                             <td>1 TB</td>
                             <!-- <td>14天内的任何点</td> -->
-                            <td>RMB129.79/day<br />(about RMB4,023.49/month)</td>
+                            <td>￥129.79/day<br />(about ￥4,023.49/month)</td>
                         </tr> 
                         <tr>
                             <td>S9 Preview</td>
@@ -135,7 +135,7 @@
                             <td>250 GB</td>
                             <td>1 TB</td>
                             <!-- <td>14天内的任何点</td> -->
-                            <td>RMB259.57/day<br />(about RMB8,046.67/month)</td>
+                            <td>￥259.57/day<br />(about ￥8,046.67/month)</td>
                         </tr> 
                         <tr>
                             <td>S12 Preview</td>
@@ -143,7 +143,7 @@
                             <td>250 GB</td>
                             <td>1 TB</td>
                             <!-- <td>14天内的任何点</td> -->
-                            <td>RMB486.70/day<br />(about RMB15,087.70/month)</td>
+                            <td>￥486.70/day<br />(about ￥15,087.70/month)</td>
                         </tr> 
                     </table>
 					<!--
@@ -162,7 +162,7 @@
                             <th></th>
                             <th align="left"><strong>Database Transaction Unit</strong></th>
                             <th align="left"><strong>Storage included</strong></th>
-                            <th align="left"><strong>Maximum storage</strong></th>
+                            <th align="left"><strong>Max storage</strong></th>
                             <!--<th align="left"><strong>时点还原<br />（自助还原）</strong></th>-->
                             <th align="left"><strong>Pricing</strong> Preview</th>
                         </tr>
@@ -172,7 +172,7 @@
                             <td>500 GB</td>
                             <td>1 TB</td>
                             <!--<td>35天</td>-->
-                            <td>RMB24.20/day<br />(about RMB750.28/month)</td>
+                            <td>￥24.20/day<br />(about ￥750.28/month)</td>
                         </tr>
                         <tr>
                             <td>PRS2</td>
@@ -180,7 +180,7 @@
                             <td>500 GB</td>
                             <td>1 TB</td>
                             <!--<td>35天</td>-->
-                            <td>RMB48.40/day<br />(about RMB1,500.56/month)</td>
+                            <td>￥48.40/day<br />(about ￥1,500.56/month)</td>
                         &lt;/tr
                         <tr>
                             <td>PRS4</td>
@@ -188,7 +188,7 @@
                             <td>500 GB</td>
                             <td>1 TB</td>
                             <!--<td>35天</td>-->
-                            <td>RMB96.81/day<br />(about RMB3,001.10/month)</td>
+                            <td>￥96.81/day<br />(about ￥3,001.10/month)</td>
                         </tr>
                         <tr>
                             <td>PRS6</td>
@@ -196,11 +196,11 @@
                             <td>500 GB</td>
                             <td>1 TB</td>
                             <!--<td>35天</td>-->
-                            <td>RMB193.62/day<br />(about RMB6,002.13/month)</td>
+                            <td>￥193.62/day<br />(about ￥6,002.13/month)</td>
                         </tr>
                     </table>
                     <!-- END: Table3-Content--> <!-- BEGIN: Table4-Content-->
-                    <h3>Advanced Level</h3>
+                    <h3>Premium</h3>
                     <!-- <p>从2016年4月1日起，高级级别价格会下调 25.5%，以下是下调后的新价格：</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -211,7 +211,7 @@
                             <th></th>
                             <th align="left"><strong>Database Transaction Unit</strong></th>
                             <th align="left"><strong>Storage included</strong></th>
-                            <th align="left"><strong>Maximum storage</strong></th>
+                            <th align="left"><strong>Max storage</strong></th>
                             <!-- <th align="left"><strong>时点还原<br />（自助还原）</strong></th> -->
                             <th align="left"><strong>Price</strong></th>
                         </tr>
@@ -221,7 +221,7 @@
                             <td>500 GB</td>
                             <td>1 TB</td>
                             <!-- <td>35天</td> -->
-                            <td>RMB96.81/day<br />(about RMB3,001.11/month)</td>
+                            <td>￥96.81/day<br />(about ￥3,001.11/month)</td>
                         </tr>
                         <tr>
                             <td>P2</td>
@@ -229,7 +229,7 @@
                             <td>500 GB</td>
                             <td>1 TB</td>
                             <!-- <td>35天</td> -->
-                            <td>RMB193.62/day<br />(about RMB6,002.22/month)</td>
+                            <td>￥193.62/day<br />(about ￥6,002.22/month)</td>
                         &lt;/tr
                         <tr>
                             <td>P4</td>
@@ -237,7 +237,7 @@
                             <td>500 GB</td>
                             <td>1 TB</td>
                             <!-- <td>35天</td> -->
-                            <td>387.24/day<br />(about RMB12,004.44/month)</td>
+                            <td>387.24/day<br />(about ￥12,004.44/month)</td>
                         </tr>
                         <tr>
                             <td>P6 (formerly P3)<sup style="font-weight: normal;">1</sup></td>
@@ -245,7 +245,7 @@
                             <td>500 GB</td>
                             <td>1 TB</td>
                             <!-- <td>35天</td> -->
-                            <td>RMB774.47/day<br />(about 24,008.57/month)</td>
+                            <td>￥774.47/day<br />(about 24,008.57/month)</td>
                         </tr>
                             <tr>
                             <td>P11</td>
@@ -253,7 +253,7 @@
                             <td>1 TB</td>
                             <td>1 TB</td>
                             <!-- <td>35天</td> -->
-                            <td>RMB 1,455.86/day<br />(about RMB 45,131.66/month)</td>
+                            <td>￥ 1,455.86/day<br />(about ￥ 45,131.66/month)</td>
                         </tr>
                             <tr>
                             <td>P15</td>
@@ -261,7 +261,7 @@
                             <td>1 TB</td>
                             <td>1 TB</td>
                             <!-- <td>35天</td> -->
-                            <td>RMB 3,327.61/day<br />(about RMB 103,155.91/month)</td>
+                            <td>￥ 3,327.61/day<br />(about ￥ 103,155.91/month)</td>
                         </tr>
 
                     </table>
@@ -269,7 +269,7 @@
                         <div class="ms-date"><sup style="font-weight: normal;">1</sup>From now on, P3 is officially renamed P6.</div>
                     </div>
                     
-                    <h3>Extra Storage <span style="font-family: '微软雅黑',regular;font-weight:normal;">Preview</span></h3>
+                    <h3>Extra Data Storage <span style="font-family: '微软雅黑',regular;font-weight:normal;">Preview</span></h3>
                     <p>The following are preview prices.</p>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -282,11 +282,11 @@
                         </tr>
                         <tr>
                             <td>Standard</td>
-                            <td>RMB0.5406/month</td>
+                            <td>￥0.5406/month</td>
                         </tr>
                         <tr>
-                            <td>Advanced level and advanced RS</td>
-                            <td>RMB1.0812/month</td>
+                            <td>Premium and Premium RS</td>
+                            <td>￥1.0812/month</td>
                         </tr>
                     </table>
             
@@ -300,10 +300,10 @@
                 <div class="tab-control-container" id="tabContent2">
                     <!-- BEGIN: Table1-Content-->
                     <h3>
-                        Elastic Database Model <!-- <span><sup style="color: #a5ce00;">预览版</sup></span>-->
+                        Elastic Pool Model <!-- <span><sup style="color: #a5ce00;">预览版</sup></span>-->
                     </h3>
-                    <p>When using an elastic database pool, you can manage the overall properties of the pool (instead of a single database). The databases in the pool are called elastic databases, which can automatically increase or decrease to meet demands. Databases can be easily added to or deleted from the pool, scaling the databases of an application from a small number to thousands with all costs not exceeding the budget that you control.</p>
-                    <p>Elastic database pool is available at “Basic”, “Standard” and “Advanced” service layers. The three layers are distinguished mainly by their general performance measured in <a id="documentation_articles_sql-database-service-tiers_understanding-dtus" href="/documentation/articles/sql-database-service-tiers/#understanding-dtus" style="color:#00a8d9;" target="_blank">eDTU</a>. Please refer to <a id="documentation_articles_sql-database-service-tiers_understanding-dtus" href="/documentation/articles/sql-database-service-tiers/#understanding-dtus" style="color:#00a8d9;" target="_blank">Service Layers of Elastic Database Pool</a> for further information. Elastic Database Model has been officially released online. Customers will continue to enjoy a discount price of 50% for preview versions.</p>
+                    <p>When using an elastic pool, you can manage the overall properties of the pool (instead of a single database). The databases in the pool are called elastic pool, which can automatically increase or decrease to meet demands. Databases can be easily added to or deleted from the pool, scaling the databases of an application from a small number to thousands with all costs not exceeding the budget that you control.</p>
+                    <p>Elastic pool is available at “Basic”, “Standard” and “Premium” service layers. The three layers are distinguished mainly by their general performance measured in <a id="documentation_articles_sql-database-service-tiers_understanding-dtus" href="/documentation/articles/sql-database-service-tiers/#understanding-dtus" style="color:#00a8d9;" target="_blank">eDTU</a>. Please refer to <a id="documentation_articles_sql-database-service-tiers_understanding-dtus" href="/documentation/articles/sql-database-service-tiers/#understanding-dtus" style="color:#00a8d9;" target="_blank">Service Layers of Elastic Pool</a> for further information. Elastic Pool Model has been officially released online. Customers will continue to enjoy a discount price of 50% for preview versions.</p>
                     <h3>Basic</h3>
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -313,9 +313,9 @@
                         <tr>
                             <th align="left"><strong>eDTU/each pool</strong></th>
                             <th align="left"><strong>Storage of each pool</strong></th>
-                            <th align="left"><strong>Maximum storage space/pool<sup>1</sup></strong></th>
-                            <th align="left"><strong>Maximum DB/pool</strong></th>
-                            <th align="left"><strong>Maximum eDTU/database</strong></th >
+                            <th align="left"><strong>Max storage per pool<sup>1</sup></strong></th>
+                            <th align="left"><strong>Max DB/pool</strong></th>
+                            <th align="left"><strong>Max eDTU/database</strong></th >
                             <th align="left"><strong>Price</strong></th>
                         </tr>
                         <tr>
@@ -324,7 +324,7 @@
                             <td>5 GB</td>
                             <td>100</td>
                             <td>5</td>
-                            <td>RMB 31.00/day<br/>(about RMB 961.00/month)</td>
+                            <td>￥ 31.00/day<br/>(about ￥ 961.00/month)</td>
                         </tr>
                         <tr>
                             <td>100</td>
@@ -332,7 +332,7 @@
                             <td>10 GB</td>
                             <td>200</td>
                             <td>5</td>
-                            <td>RMB 62.00/day<br/>(about RMB 1,922.00/month)</td>
+                            <td>￥ 62.00/day<br/>(about ￥ 1,922.00/month)</td>
                         </tr>
                         <tr>
                             <td>200</td>
@@ -340,7 +340,7 @@
                             <td>20 GB</td>
                             <td>500</td>
                             <td>5</td>
-                            <td>RMB 124.00/day<br/>(about RMB 3,844.00/month)</td>
+                            <td>￥ 124.00/day<br/>(about ￥ 3,844.00/month)</td>
                         </tr>
                         <tr>
                             <td>300</td>
@@ -348,7 +348,7 @@
                             <td>29 GB</td>
                             <td>500</td>
                             <td>5</td>
-                            <td>RMB186.00/day<br/>(about RMB5,766.00/month)</td>
+                            <td>￥186.00/day<br/>(about ￥5,766.00/month)</td>
                         </tr>
                         <tr>
                             <td>400</td>
@@ -356,7 +356,7 @@
                             <td>39 GB</td>
                             <td>500</td>
                             <td>5</td>
-                            <td>RMB248.00/day<br/>(about RMB7,688.00/month)</td>
+                            <td>￥248.00/day<br/>(about ￥7,688.00/month)</td>
                         </tr>
                         <tr>
                             <td>800</td>
@@ -364,7 +364,7 @@
                             <td>78 GB</td>
                             <td>500</td>
                             <td>5</td>
-                            <td>RMB496.00/day<br/>(about RMB15,376.00/month)</td>
+                            <td>￥496.00/day<br/>(about ￥15,376.00/month)</td>
                         </tr>
                         <tr>
                             <td>1200</td>
@@ -372,7 +372,7 @@
                             <td>117 GB</td>
                             <td>500</td>
                             <td>5</td>
-                            <td>RMB744.00/day<br/>(about RMB23,064.00/month)</td>
+                            <td>￥744.00/day<br/>(about ￥23,064.00/month)</td>
                         </tr>
                         <tr>
                             <td>1600</td>
@@ -380,7 +380,7 @@
                             <td>156 GB</td>
                             <td>500</td>
                             <td>5</td>
-                            <td>RMB992.00/day<br/>(about RMB 30,752.00/month)</td>
+                            <td>￥992.00/day<br/>(about ￥ 30,752.00/month)</td>
                         </tr>
                     </table>
                     <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
@@ -393,9 +393,9 @@
                         <tr>
                             <th align="left"><strong>eDTU/each pool</strong></th>
                             <th align="left"><strong>Storage of each pool</strong></th>
-                            <th align="left"><strong>Maximum storage space/pool<sup>1</sup></strong></th>
-                            <th align="left"><strong>Maximum DB/pool</strong></th>
-                            <th align="left"><strong>Maximum eDTU/database</strong></th >
+                            <th align="left"><strong>Max storage space/pool<sup>1</sup></strong></th>
+                            <th align="left"><strong>Max DB/pool</strong></th>
+                            <th align="left"><strong>Max eDTU/database</strong></th >
                             <th align="left"><strong>Price</strong></th>
                         </tr>
                         <tr>
@@ -404,7 +404,7 @@
                             <td>500 GB</td>
                             <td>100</td>
                             <td>50</td>
-                            <td>RMB46.00/day<br/>(about RMB1,426.00/month)</td>
+                            <td>￥46.00/day<br/>(about ￥1,426.00/month)</td>
                         </tr>
                         <tr>
                             <td>100</td>
@@ -412,7 +412,7 @@
                             <td>750 GB</td>
                             <td>200</td>
                             <td>100</td>
-                            <td>RMB92.00/day<br/>(about RMB2,852.00/month)</td>
+                            <td>￥92.00/day<br/>(about ￥2,852.00/month)</td>
                         </tr>
                         <tr>
                             <td>200</td>
@@ -420,7 +420,7 @@
                             <td>1 TB</td>
                             <td>500</td>
                             <td>100</td>
-                            <td>RMB184.00day<br/>(about RMB5,704.00/month)</td>
+                            <td>￥184.00day<br/>(about ￥5,704.00/month)</td>
                         </tr>
                         <tr>
                             <td>300</td>
@@ -428,7 +428,7 @@
                             <td>1.25 TB</td>
                             <td>500</td>
                             <td>100</td>
-                            <td>RMB276.00/day<br/>(about RMB8,556.00/month)</td>
+                            <td>￥276.00/day<br/>(about ￥8,556.00/month)</td>
                         </tr>
                         <tr>
                             <td>400</td>
@@ -436,7 +436,7 @@
                             <td>1.5 TB</td>
                             <td>500</td>
                             <td>100</td>
-                            <td>RMB368.00/day<br/>(about RMB11,408.00/month)</td>
+                            <td>￥368.00/day<br/>(about ￥11,408.00/month)</td>
                         </tr>
                         <tr>
                             <td>800</td>
@@ -444,7 +444,7 @@
                             <td>2 TB</td>
                             <td>500</td>
                             <td>100</td>
-                            <td>RMB736.00/day<br/>(about RMB22,816.00/month)</td>
+                            <td>￥736.00/day<br/>(about ￥22,816.00/month)</td>
                         </tr>
                         <tr>
                             <td>1200</td>
@@ -452,7 +452,7 @@
                             <td>2.5 TB</td>
                             <td>500</td>
                             <td>100</td>
-                            <td>RMB1,104.00/day  <br/>(about RMB34,224.00/month)</td>
+                            <td>￥1,104.00/day  <br/>(about ￥34,224.00/month)</td>
                         </tr>
                         <tr>
                             <td>1600</td>
@@ -460,7 +460,7 @@
                             <td>3 TB</td>
                             <td>500</td>
                             <td>100</td>
-                            <td>RMB1,472.00/day<br/>(about RMB45,632.00/month)</td>
+                            <td>￥1,472.00/day<br/>(about ￥45,632.00/month)</td>
                         </tr>
                         <tr>
                             <td>2000</td>
@@ -468,7 +468,7 @@
                             <td>3.5 TB</td>
                             <td>500</td>
                             <td>100</td>
-                            <td>RMB1,840.00/day<br/>(about RMB57,040.00/month)</td>
+                            <td>￥1,840.00/day<br/>(about ￥57,040.00/month)</td>
                         </tr>
                         <tr>
                             <td>2500</td>
@@ -476,7 +476,7 @@
                             <td>4 TB</td>
                             <td>500</td>
                             <td>100</td>
-                            <td>RMB2,300.00/day<br/>(about RMB71,300.00/month)</td>
+                            <td>￥2,300.00/day<br/>(about ￥71,300.00/month)</td>
                         </tr>
                         <tr>
                             <td>3000</td>
@@ -484,7 +484,7 @@
                             <td>4 TB</td>
                             <td>500</td>
                             <td>100</td>
-                            <td>RMB2,760.00/day<br/>(about RMB85,560.00/month)</td>
+                            <td>￥2,760.00/day<br/>(about ￥85,560.00/month)</td>
                         </tr>
                     </table>
                     <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
@@ -498,9 +498,9 @@
                         <tr>
                             <th align="left"><strong>eDTU/each pool</strong></th>
                             <th align="left"><strong>Storage of each pool</strong></th>
-                            <th align="left"><strong>Maximum storage space/pool<sup>1</sup></strong></th>
-                            <th align="left"><strong>Maximum DB/pool</strong></th>
-                            <th align="left"><strong>Maximum eDTU/database</strong></th >
+                            <th align="left"><strong>Max storage space/pool<sup>1</sup></strong></th>
+                            <th align="left"><strong>Max DB/pool</strong></th>
+                            <th align="left"><strong>Max eDTU/database</strong></th >
                             <th align="left"><strong>Pricing</strong> Preview</th>
                         </tr>
                         <tr>
@@ -509,7 +509,7 @@
                             <td>1 TB</td>
                             <td>50</td>
                             <td>125</td>
-                            <td>RMB71.25/day<br/>(about RMB2,208.75/month)</td>
+                            <td>￥71.25/day<br/>(about ￥2,208.75/month)</td>
                         </tr>
                         <tr>
                             <td>250</td>
@@ -517,7 +517,7 @@
                             <td>1 TB</td>
                             <td>100</td>
                             <td>250</td>
-                            <td>RMB142.5/day<br/>(about RMB 4,417.5/month)</td>
+                            <td>￥142.5/day<br/>(about ￥ 4,417.5/month)</td>
                         </tr>
                         <tr>
                             <td>500</td>
@@ -525,7 +525,7 @@
                             <td>1 TB</td>
                             <td>100</td>
                             <td>500</td>
-                            <td>RMB285.00/day<br/>(about RMB8,835.00/month)</td>
+                            <td>￥285.00/day<br/>(about ￥8,835.00/month)</td>
                         </tr>
                         <tr>
                             <td>1000</td>
@@ -533,7 +533,7 @@
                             <td>1 TB</td>
                             <td>100</td>
                             <td>1000</td>
-                            <td>RMB570.00/day<br/>(about RMB 17,670.00/month)</td>
+                            <td>￥570.00/day<br/>(about ￥ 17,670.00/month)</td>
                         </tr>
                     </table>   
                     <!-- END: Table3-Content--> <!-- BEGIN: Table4-Content-->
@@ -546,9 +546,9 @@
                         <tr>
                             <th align="left"><strong>eDTU/each pool</strong></th>
                             <th align="left"><strong>Storage of each pool</strong></th>
-                            <th align="left"><strong>Maximum storage space/pool<sup>1</sup></strong></th>
-                            <th align="left"><strong>Maximum DB/pool</strong></th>
-                            <th align="left"><strong>Maximum eDTU/database</strong></th >
+                            <th align="left"><strong>Max storage space/pool<sup>1</sup></strong></th>
+                            <th align="left"><strong>Max DB/pool</strong></th>
+                            <th align="left"><strong>Max eDTU/database</strong></th >
                             <th align="left"><strong>Price</strong></th>
                         </tr>
                         <tr>
@@ -557,7 +557,7 @@
                             <td>1 TB</td>
                             <td>50</td>
                             <td>125</td>
-                            <td>RMB285.00/day<br/>(about RMB8,835.00/month)</td>
+                            <td>￥285.00/day<br/>(about ￥8,835.00/month)</td>
                         </tr>
                         <tr>
                             <td>250</td>
@@ -565,7 +565,7 @@
                             <td>1 TB</td>
                             <td>100</td>
                             <td>250</td>
-                            <td>RMB570.00/day<br/>(about RMB 17,670.00/month)</td>
+                            <td>￥570.00/day<br/>(about ￥ 17,670.00/month)</td>
                         </tr>
                         <tr>
                             <td>500</td>
@@ -573,7 +573,7 @@
                             <td>1 TB</td>
                             <td>100</td>
                             <td>500</td>
-                            <td>RMB1,140/day<br/>(about RMB35,340.00/month)</td>
+                            <td>￥1,140/day<br/>(about ￥35,340.00/month)</td>
                         </tr>
                         <tr>
                             <td>1000</td>
@@ -581,7 +581,7 @@
                             <td>1 TB</td>
                             <td>100</td>
                             <td>1000</td>
-                            <td>RMB2280.00/day<br/>(about RMB70,680.00/month)</td>
+                            <td>￥2280.00/day<br/>(about ￥70,680.00/month)</td>
                         </tr>
                         <tr>
                             <td>1500</td>
@@ -589,7 +589,7 @@
                             <td>1 TB</td>
                             <td>100</td>
                             <td>1000</td>
-                            <td>RMB3420.00/hour<br/>(about RMB106,020.00/month)</td>
+                            <td>￥3420.00/hour<br/>(about ￥106,020.00/month)</td>
                         </tr>
                         <tr>
                             <td>2000</td>
@@ -597,7 +597,7 @@
                             <td>1 TB</td>
                             <td>100</td>
                             <td>1750</td>
-                            <td>RMB4,560.00/day<br/>(about RMB 141,360.00/month)</td>
+                            <td>￥4,560.00/day<br/>(about ￥ 141,360.00/month)</td>
                         </tr>
                         <tr>
                             <td>2500</td>
@@ -605,7 +605,7 @@
                             <td>1 TB</td>
                             <td>100</td>
                             <td>1750</td>
-                            <td>RMB5,700.00/day<br/>(about RMB176,700.00/month)</td>
+                            <td>￥5,700.00/day<br/>(about ￥176,700.00/month)</td>
                         </tr>
                         <tr>
                             <td>3000</td>
@@ -613,7 +613,7 @@
                             <td>1 TB</td>
                             <td>100</td>
                             <td>1750</td>
-                            <td>RMB6,840.00/day<br/>(about RMB212,040.00/month)</td>
+                            <td>￥6,840.00/day<br/>(about ￥212,040.00/month)</td>
                         </tr>
                         <tr>
                             <td>3500</td>
@@ -621,7 +621,7 @@
                             <td>1 TB</td>
                             <td>100</td>
                             <td>1750</td>
-                            <td>RMB7,980.00/day<br/>(about RMB247,380.00/month)</td>
+                            <td>￥7,980.00/day<br/>(about ￥247,380.00/month)</td>
                         </tr>
                         <tr>
                             <td>4000</td>
@@ -629,11 +629,11 @@
                             <td>1 TB</td>
                             <td>100</td>
                             <td>4000</td>
-                            <td>RMB9,120.00/day<br/>(about RMB282,720.00/month)</td>
+                            <td>￥9,120.00/day<br/>(about ￥282,720.00/month)</td>
                         </tr>
                     </table>
                     <!-- END: Table4-Content-->
-                    <h3>Extra Storage <span style="font-family: '微软雅黑',regular;font-weight:normal;">Preview</span></h3>
+                    <h3>Extra Data Storage <span style="font-family: '微软雅黑',regular;font-weight:normal;">Preview</span></h3>
                     <p>The following are preview prices.</p>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -646,14 +646,14 @@
                         </tr>
                         <tr>
                             <td>Standard</td>
-                            <td>RMB0.5406/month</td>
+                            <td>￥0.5406/month</td>
                         </tr>
                         <tr>
-                            <td>Advanced level and advanced RS</td>
-                            <td>RMB1.0812/month</td>
+                            <td>Premium level and premium RS</td>
+                            <td>￥1.0812/month</td>
                         </tr>
                     </table>
-                    <p>Please refer to <a id="documentation_articles_sql-database-elastic-pool" href="/documentation/articles/sql-database-elastic-pool/" style="color:#00a8d9;" target="_blank">Elastic Database Pools</a> for more information about elastic database pools. <!-- ，以及参阅<a id="documentation_articles_sql-database-elastic-jobs-overview" href="/documentation/articles/sql-database-elastic-jobs-overview/" style="color:#00a8d9;" target="_blank">弹性数据库作业以了解如何统一管理弹性数据库。</a> --> </p>
+                    <p>Please refer to <a id="documentation_articles_sql-database-elastic-pool" href="/documentation/articles/sql-database-elastic-pool/" style="color:#00a8d9;" target="_blank">Elastic Pools</a> for more information about elastic pools. <!-- ，以及参阅<a id="documentation_articles_sql-database-elastic-jobs-overview" href="/documentation/articles/sql-database-elastic-jobs-overview/" style="color:#00a8d9;" target="_blank">弹性数据库作业以了解如何统一管理弹性数据库。</a> --> </p>
                     <!-- <p>注意：传出的数据将按照常规<a id="SQL_Database_chuanshu" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">数据传输</a>费率收费。</p>
                     <div class="tags-date">
                         <div class="ms-date"> <sup>1</sup>每个数据库的最大存储空间取决于池的服务层，如下所示：</div><br />
@@ -686,16 +686,16 @@
                             <div>
                                 <a id="SQL_Database_question2">Example of the pricing of a single database pre-set with extra storage</a>
                                 <section>
-                                    <p>Suppose an S3 database is pre-set with a 1TB storage capacity. Since it has 250 GB of fixed storage capacity, its extra storage capacity is 1 TB - 250 GB = 774 GB. During the preview, the unit price of standard versions is about RMB0.5406/GB/month, so the price of extra storage is 774 GB * RMB0.5406/GB/month = RMB418.42/month. Therefore, the total price of the S3 Database is RMB969.37/month (eDTU) + RMB418.42/month of extra storage = RMB1,387.79/month.</p>
+                                    <p>Suppose an S3 database is pre-set with a 1TB storage capacity. Since it has 250 GB of fixed storage capacity, its extra storage capacity is 1 TB - 250 GB = 774 GB. During the preview, the unit price of standard versions is about ￥0.5406/GB/month, so the price of extra storage is 774 GB * ￥0.5406/GB/month = ￥418.42/month. Therefore, the total price of the S3 Database is ￥969.37/month (eDTU) + ￥418.42/month of extra storage = ￥1,387.79/month.</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="SQL_Database_question3">Example of pricing for an elastic database preset with extra storage capacity</a>
+                                <a id="SQL_Database_question3">Example of pricing for an elastic pool preset with extra storage capacity</a>
                                 <section>
-                                    <p>Suppose a 125 eDTU Premium pool is preset with 1 TB and that the pool has a storage capacity of 250GB, so its extra storage capacity is 1 TB - 250 GB = 774 GB. During preview, the unit price of extra storage in the Premium pool is about RMB1.0812/GB/month, so the price of extra storage is 774 GB * RMB1.0812/GB/month = RMB836.85/month. Therefore, the total price of the database equals RMB8,835.00/month (eDTU) + RMB836.85/month of extra storage = RMB9,671.85/month.</p>
+                                    <p>Suppose a 125 eDTU Premium pool is preset with 1 TB and that the pool has a storage capacity of 250GB, so its extra storage capacity is 1 TB - 250 GB = 774 GB. During preview, the unit price of extra storage in the Premium pool is about ￥1.0812/GB/month, so the price of extra storage is 774 GB * ￥1.0812/GB/month = ￥836.85/month. Therefore, the total price of the database equals ￥8,835.00/month (eDTU) + ￥836.85/month of extra storage = ￥9,671.85/month.</p>
                                 </section>
 
                             </div>
@@ -763,7 +763,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-sql-database</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Azure SQL Database, pricing details, pricing, billing</metaKeywords>
-    <metaDescription><![CDATA[About Azure SQL Database pricing. There are two types of SQL Database, i.e. single database and elastic database, each of which can be further divided into Basic, Standard and Premium versions. Users can choose the proper database type and level to meet their own demands. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
+    <metaDescription><![CDATA[About Azure SQL Database pricing. There are two types of SQL Database, i.e. single database and elastic database, each of which can be further divided into Basic, Standard and Premium versions. Users can choose the proper database type and level to meet their own demands. A 1RMB Trial gets you ￥1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
     <urlDisplayName>Pricing Details - SQL Database</urlDisplayName>
   </TextpageLeftNav>
 </localize>
