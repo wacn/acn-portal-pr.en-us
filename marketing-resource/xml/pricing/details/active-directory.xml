@@ -18,7 +18,7 @@
             <div class="pricing-page-section">
                 <p>Azure Active Directory is a comprehensive and highly available identification and access control cloud solution. It combines core directory services,advanced identity governance and application access management. Azure Active Directory also provides a standards-based platform with abundant functions which supports developers in providing access control for applications based on centralized policies and rules.</p>
                 <p>Azure Active Directory currently provides a free level. For details on the list of features, please see the table below.</p>
-                <p>The free version of Azure Active Directory covers cloud application access and self-service identify management of task owners with cloud priority requirements.</p>
+                <p>The Free edition of Azure Active Directory covers cloud application access and self-service identify management of task owners with cloud priority requirements.</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
@@ -26,7 +26,7 @@
                 <!-- BEGIN: TAB-CONTAINER-1 -->
                 <div class="tab-control-container tab-active" id="tabContent1">
                     <!-- BEGIN: Table1-Content-->
-                    <p>Azure Active Directory currently offers a free grade of service.</p>
+                    <p>Azure Active Directory currently offers Free edition.</p>
                     <table cellpadding="0" cellspacing="0" width="100%" class="table-col6">
                         <tr>
                             <th align="left"><strong>&#160;</strong></th>
@@ -57,7 +57,7 @@
                             <td><i class="icon icon-tick"></i></td>
                         </tr>
                     </table>
-                    <p><sup>1</sup> Default usage quota is 150,000 objects. The object refers to an entity in the directory service, which is expressed by a unique distinguishing name. One example of an object is a user entry used for authentication purposes. If you need to exceed this default usage quota, please contact <a href="/support/contact/" id="home_identity_contact">support staff</a>.</p>
+                    <p><sup>1</sup> Default usage quota is 150,000 objects. An object is an entry in the directory service, represented by its unique distinguished name. An example of an object is a user entry used for authentication purposes. If you need to exceed this default quota, please contact <a href="/support/contact/" id="home_identity_contact">support staff</a>.</p>
                     <!-- END: Table1-Content-->
                 </div>
                 <!-- END: TAB-CONTAINER-1 -->  

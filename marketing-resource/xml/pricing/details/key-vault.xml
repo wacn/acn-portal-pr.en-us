@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/key-vault@2x.png" />
-                        <h2>Key Vault<span>Key Vault</span></h2>
+                        <h2>Key Vault<!--span>Key Vault</span--></h2>
                         <h4>Encryption keys and other secrets that can protect and control cloud applications and service usage.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_keyvault_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_keyvault_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -16,7 +16,7 @@
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>With Azure Key Vault, Azure users can protect and control the encryption keys and other secrets that are used by cloud applications and services.</p>
+                <p>Azure Key Vault enables Azure subscribers to safeguard and control the cryptographic keys and other secrets that are used by cloud applications and services.</p>
                 <ul>
                     <li>Protect secrets such as keys and passwords.</li>
                     <li>Set up and deploy new vaults and keys in minutes without waiting for purchases, hardware or IT, and centrally manage keys, secrets, and policies.</li>
@@ -42,11 +42,11 @@
                         </tr>
                         <tr>
                             <td>Keys for secrets and software protection</td>
-                            <td>RMB0.20/10,000 operations</td>
+                            <td>￥0.20/10,000 operations</td>
                         </tr>
 						<tr>
                             <td>Certificate renewal <sup>1</sup></td>
-                            <td>RMB19.716/renewal request </td>
+                            <td>￥19.716/renewal request </td>
                         </tr>
                     </table>
                     <p>*In the event your monthly operations exceed 50 million, please <a id="home_keyvault_support_contact" href="/support/contact/">contact us</a> for pricing.</p>
@@ -64,11 +64,11 @@
                             <div>
                                 <a id="key-vault-question-stored">What can I store in the key vault?</a>
                                 <section>
-                                    <p>You can also store the following types of keys and secrets.</p>
+                                    <p>You can also store the following types of keys and secrets:</p>
                                     <ul>
-                                        <li>The key can be input or generated. When you require the key vault service to use a key to decrypt or sign, operations are performed in the key vault.</li>
-                                        <li>You can also use the key for encryption. In this case, cryptographic operations are performed in the software. These calculations are performed in the Azure computing role.</li>
-                                        <li>Secrets are data (25 KB or less) that your application can store and retrieve in plain text, such as passwords or PFX files. An access control layer is provided for secret encryption by keys with the support of the key vault.</li>
+                                        <li>Keys can be imported or generated. When you ask the Key Vault service to decrypt or sign with a key, the operation is performed in the key vault.</li>
+                                        <li>You can also use keys for encryption. In this case, cryptographic operations are performed in software. These computations are performed in the Azure compute roles.</li>
+                                        <li>Secrets are data (under 25 KB) such as passwords or PFX files that your application can store and retrieve in plaintext. The Key Vault service persists secrets encrypted, and provides an access control layer over them.</li>
                                     </ul>
                                 </section>
                             </div>
@@ -78,7 +78,7 @@
                             <div>
                                 <a id="key-vault-question-operations">How is an operation defined?</a>
                                 <section>
-                                    <p>Each call count that successfully passes REST API identity authentication counts as one operation. Examples of key operations: creation, input, retrieval, listing, backup, restore, deletion, update, sign, verification, encapsulation, un-encapsulation, encryption, and decryption. Examples of confidential operations: creation/updates, retrieval, and listing.</p>
+                                    <p>Every successfully authenticated REST API call counts as one operation. Examples of key operations: create, import, get, list, backup, restore, delete, update, sign, verify, wrap, unwrap, encrypt and decrypt. Examples of operations for secrets: create/update, get, and list.</p>
                                 </section>
                             </div>
                         </li>
@@ -87,7 +87,7 @@
                             <div>
                                 <a id="key-vault-question-billed">How are my various operations charged? </a>
                                 <section>
-                                    <p>Operations of all keys and ciphertexts are charged uniformly at RMB0.20/10,00 operations, including operations on keys for ciphertext and software protection. For example, during a billing cycle, you performed 2,000 operations by using keys and 500 operations using ciphertext. Then 2,500 chargeable operations will be generated in this billing cycle.</p>
+                                    <p>Operations of all keys and secrets are charged at a flat rate of ￥0.20/10,00 operations, including operations on keys for secrets and software protection. For example, during a billing cycle, you performed 2,000 operations by using keys and 500 operations using secrets. Then 2,500 chargeable operations will be generated in this billing cycle.</p>
                                 </section>
                             </div>
                         </li>

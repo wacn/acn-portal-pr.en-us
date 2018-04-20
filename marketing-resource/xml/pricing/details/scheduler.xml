@@ -8,15 +8,15 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/scheduler@2x.png" />
-                        <h2><span>Scheduler</span></h2>
-                        <h4>Azure internal and external services can be reliably used in the cloud to arrange operations and be applied to regular operations and daily maintenance.</h4>                        
+                        <h2>Scheduler</h2>
+                        <h4>Call services inside or outside of Azure, run jobs on any schedule and be applied to regular operations and daily maintenance.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_scheduler_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_scheduler_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>Azure Scheduler allows operating according to any of the plans, such as calling HTTP/S destination nodes or publishing information to storage queues. Scheduler can be used to establish reliable Azure internal and external calling services in the cloud, and operate those jobs based on demand or periodic plans, or assign jobs for future dates.</p>
+                <p>Azure Scheduler lets you run jobs on any schedule, such as calling HTTP/S endpoints or posting messages to Azure Storage queues. Integrate jobs into your applications that run immediately, on a recurring schedule, or anytime in the future—and call services both inside and outside of Azure.</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
@@ -31,20 +31,20 @@
                     <table cellpadding="0" cellspacing="0" width="100%">
                             <tr>
                                 <th align="left"><strong>&#160;</strong></th>
-                                <th align="left"><strong>Free Version</strong></th>
-                                <th align="left"><strong>Standard Edition</strong></th>
-                                <th align="left"><strong>Advanced Version P10</strong></th>
-                                <th align="left"><strong>Advanced Version P20</strong></th>
+                                <th align="left"><strong>Free</strong></th>
+                                <th align="left"><strong>Standard</strong></th>
+                                <th align="left"><strong>P10 Premium</strong></th>
+                                <th align="left"><strong>P20 Premium</strong></th>
                             </tr>
                             <tr>
-                                <td>Monthly pricing<sup>1</sup></td>
+                                <td>Price per Month<sup>1</sup></td>
                                 <td>Free</td>
-                                <td>RMB96.81/unit</td>
-                                <td>RMB938.15/unit</td>
-                                <td>RMB10,300/unit</td>
+                                <td>￥96.81/unit</td>
+                                <td>￥938.15/unit</td>
+                                <td>￥10,300/unit</td>
                             </tr>
                             <tr>
-                                <td>Number of executable jobs<sup>2</sup></td>
+                                <td>Job executions<sup>2</sup></td>
                                 <td>3,600</td>
                                 <td>Unlimited</td>
                                 <td>Unlimited</td>
@@ -52,20 +52,20 @@
                             </tr>
                             <tr>
                                 <td>Maximum execution frequency</td>
-                                <td>Per hour</td>
-                                <td>Per minute</td>
-                                <td>Per minute</td>
-                                <td>Per minute</td>
+                                <td>Every hour</td>
+                                <td>Every minute</td>
+                                <td>Every minute</td>
+                                <td>Every minute</td>
                             </tr>
                             <tr>
-                                <td>Number of job assemblages</td>
+                                <td>Job collections</td>
                                 <td>1</td>
                                 <td>10/unit</td>
                                 <td>10k/unit</td>
                                 <td>5k/unit</td>
                             </tr>
                             <tr>
-                                <td>Number of jobs per assemblage</td>
+                                <td>Jobs per collection</td>
                                 <td>5</td>
                                 <td>50</td>
                                 <td>50</td>
@@ -74,20 +74,20 @@
                             <tr>
                                 <td>Scaling</td>
                                 <td>N/A</td>
-                                <td>At most 10 units</td>
-                                <td>1 Advanced unit<br/><a id="scheduler_price_contactus01" href="/support/contact/">Contact us </a>for further information</td>
-                                <td>1 Advanced unit<br/><a id="scheduler_price_contactus02" href="/support/contact/">Contact us </a>for further information</td>
+                                <td>Up to 10 units</td>
+                                <td>1 premium unit<br/><a id="scheduler_price_contactus01" href="/support/contact/">Contact us </a>for more</td>
+                                <td>1 premium unit<br/><a id="scheduler_price_contactus02" href="/support/contact/">Contact us </a>for more</td>
                             </tr>
                             <tr>
-                                <td>Outbound identity verification</td>
+                                <td>Outbound authentication</td>
                                 <td>--</td>
                                 <td>Y</td>
                                 <td>Y</td>
                                 <td>Y</td>
                             </tr>
                         </table>
-                        <p><sup>1</sup> Charges will be prorated by the number of hours. Standard units will be charged and prorated by the hour after every 10 job assemblages (or parts of them) are established. Similarly, Advanced units will be charged after every 10,000 job assemblages are established (or part of them) and prorated by the hour. The jobs operated in all regions will be charged after summarization.</p>
-                        <p><sup>2</sup> The execution times of jobs in the Free Scheduler services will be counted every 30 days. All service layers will be restricted by the maximum execution frequency and the total number of executable jobs. Within the 30-day calculation period, the number of job executions will be actually limited as follows: 21.6 million executions for every standard unit and 21.6 billion executions for every advanced unit. The word “limitless” in the tables above means that the total number of executions for every unit is limitless within the maximum execution frequency.</p>
+                        <p><sup>1</sup> Billing is prorated hourly. One standard unit is billed for every 10 job collections (or fraction) created, prorated hourly. Similarly, one premium unit is billed for every 10,000 job collections (or fraction) created, prorated hourly. Jobs are aggregated across geographies.</p>
+                        <p><sup>2</sup> The execution times of jobs in the Free Scheduler services will be counted every 30 days. All service tiers will be restricted by the maximum execution frequency and the total number of executable jobs. Within the 30-day calculation period, the number of job executions will be actually limited as follows: 21.6 million executions for every standard unit and 21.6 billion executions for every advanced unit. The word “limitless” in the tables above means that the total number of executions for every unit is limitless within the maximum execution frequency.</p>
             
                 </div>
             </div>

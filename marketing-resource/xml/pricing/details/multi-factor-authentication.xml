@@ -20,7 +20,7 @@
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
                 <h2>Pricing Details</h2>
-                <p>Azure Manager can enhance security defense against identity information through Azure Multi-Factor Authentication when logging into the management portal.</p> 
+                <p>Azure administrator can enhance security defense against identity information through Azure Multi-Factor Authentication when logging into the management portal.</p>
                 <p>Multi-Factor Authentication service is free of charge for present.</p>
             </div>
             <!-- END: TAB-CONTROL -->
@@ -34,7 +34,7 @@
                             <div>
   <a id="multi-factor_question1">Will my organization be charged for phone calls or text messages to the phone numbers for authentication of my users when Azure Multi-Factor Authentication is used?</a>
                                 <section>
-                                    <p>All cost will be counted into the “Based on User” or “Based on Authentication” cost of the service. When Azure Multi-Factor Authentication is used, your organization (deriving from ‘You’) will not charged for phone calls or text messages to the phone numbers for authentication of your final users. When receiving phone calls or text messages, phone operators may charge the phone number owner roaming fees or other fees.</p>
+                                    <p>All costs are rolled into the per-user or per-authentication cost of the service. Organization (changed from “you”) are not charged for individual phone calls placed, or text messages sent, to your users when using Azure Multi-Factor Authentication. Phone owners may incur roaming-related or other costs from their telephone carriers to receive the phone calls or text messages.</p>
                                 </section>
 
                             </div>

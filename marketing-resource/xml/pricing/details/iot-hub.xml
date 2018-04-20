@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/azure-iot-hub80.png" />
-                        <h2><span>Azure IoT Hub</span></h2>
+                        <h2>Azure IoT Hub</h2>
                         <h4>Connect, monitor and control millions of IoT assets, and improve the security of IoT solutions</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_iot-hub_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-hub_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -83,9 +83,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="ih-que-q1">What is included in the free edition of Azure IoT Hub?</a>
+                                <a id="ih-que-q1">What is included in the Azure IoT Hub Free Edition?</a>
                                 <section>
-                                    <p>The free version of the Azure IoT Hub is designed to promote concept proofing projects. It allows you to transmit up to 8,000 messages a day and sign up for up to 500 device IDs. Device ID restrictions now only exist in the free version.</p>
+                                    <p>The IoT Hub Free Edition is intended to encourage proof of concept projects. It enables you to transmit up to a total of 8,000 messages per day, and register up to 500 device identities. The device identity limit is only present for the Free Edition.</p>
                                 </section>
 
                             </div>
@@ -93,7 +93,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="ih-que-q2">What is included in the S1 Edition of Azure IoT Hub?</a>
+                                <a id="ih-que-q2">What is included in the Azure IoT Hub S1 Edition?</a>
                                 <section>
                                     <p>Each pricing unit of the S1 Edition allows you to transfer up to 400,000 messages per day across all devices. If more than 400,000 messages are transmitted on all devices each day, you will need to purchase more units.</p>
                                 </section>
@@ -103,7 +103,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="ih-que-q3">What is included in the S2 Edition of the Azure IoT Hub?</a>
+                                <a id="ih-que-q3">What is included in the Azure IoT Hub S2 Edition?</a>
                                 <section>
                                     <p>The S2 Edition of Azure IoT Hub is used for scenarios where the customer has a large number of devices and generates large amounts of data, thus requiring frequent transmission of messages. Each pricing unit of the S2 Edition allows you to transfer up to 6 million messages a day. If more than 6 million messages are transmitted on all devices each day, you will need to purchase more units.</p>
                                 </section>
@@ -113,9 +113,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="ih-que-q4">How to increase or decrease the number of IoT Hub units purchased?</a>
+                                <a id="ih-que-q4">How can I scale up or scale down the number of IoT Hub units I have purchased?</a>
                                 <section>
-                                    <p>The pricing of Virtual Machine instances doesn’t include any storage fee associated with the mirror image run in the Virtual Machine.</p>
+                                    <p>Every tier has daily message limit after which you will experience throttling. Please check <a href="//docs.azure.cn/zh-cn/iot-hub/iot-hub-devguide-quotas-throttling" target="_blank">throttling documentation</a> for more details. If your need change, you can adjust the units within IoT Hub. You can also change the unit type within a tier (e.g.: from S1 to S2).If you anticipate using more than 200 units of the IoT Hub S1 S2 SKU’s and more than 10 units of the IoT Hub S3 please contact Microsoft Support. </p>
                                 </section>
 
                             </div>
@@ -123,46 +123,46 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="ih-que-q5">What is the maximum message size I can send through the IoT Hub?</a>
+                                <a id="ih-que-q5">What is the maximum size of message I can send through the IoT Hub?</a>
                                 <section>
-                                    <p>The maximum size of messages that can be sent from the device to the cloud is 256 KB. In the paid versions (S1 and S2), these messages are measured by 4 KB. For example, if the device sends a 16 KB message via S1 or S2 edition, the message will be billed as 4 messages. Messages sent by connected devices via the free version are measured by 0.5 KB. For example, if a device sends a 16 KB message via the free Edition of the IoT Hub, the message will be billed as 32 messages.</p>
-                                    <p>As for the paid SKU (namely S1 Edition and S2 Edition), the maximum size of messages that can be sent from the cloud to the device is 64 KB. Such messages are measured by 4 KB. For example, an 8 KB message sent via the S1 or S2 Edition will be billed as 2 messages. Messages sent via the free version are measured by 0.5 KB. For example, a 8 KB message sent via the free edition of the IoT Hub will be billed as 16 messages.</p>
+                                    <p>The maximum message size for messages sent from a device to the cloud is 256 KB. These messages are metered in 4 KB blocks for the paid tiers (S1 and S2 edition) so for instance if the device sends a 16 KB message via S1 and S2 edition it will be billed as 4 messages. The messages sent by devices connected via the free edition are metered in 0.5 KB blocks. For instance, if the device sends a 16 KB message via the IoT Hub free tier it will be billed as 32 messages.</p>
+                                    <p>As for the paid SKU (namely S1 Edition and S2 Edition), the maximum message size for message sent from the cloud to a device is 64 KB and is metered in 4-KB blocks. For instance, an 8-KB message sent via S1 or S2 edition would be billed as two messages. The messages sent using the free edition are metered in 0.5-KB blocks. For instance, an 8-KB message sent via the IoT Hub free tier will be billed as 16 messages.</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="ih-que-q6">What are the billing methods for Azure IoT Hub services?</a>
+                                <a id="ih-que-q6">How does billing work for the IoT Hub service?</a>
                                 <section>
-                                    <p>The usage of purchased IoT Hub units is calculated on a daily basis, generating monthly bills. Customers are billed based on the number of IoT Hub Units consumed during the month.</p>
+                                    <p>The consumption of IoT Hub units is measured on a daily basis, and the billing is generated on a monthly basis. Customers are billed based on the number of IoT Hub units that have been consumed during the month.</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="ih-que-q7">If I purchase extra IoT Hub units in the middle of the month, will I be charged pro rata?</a>
+                                <a id="ih-que-q7">Is the billing prorated if I purchase an additional IoT Hub unit mid-month?</a>
                                 <section>
-                                    <p>You can choose to increase the number of IoT Hub Units purchased at any time. If the service is signed up for in the middle of the month, the cost for this month will be calculated in proportion to the remaining days of the month. (For IoT Hub Services, one month is defined as 31 days). If you increase the number of IoT Hub Units in the middle of the month, the cost for this month will be calculated based on the number of units available each day this month.</p>
+                                    <p>You can choose to increase the number of IoT Hub units purchased at any time. If you sign up for the service mid-month, your monthly bill will be pro-rated based on the number of days remaining in the month. (For the purpose of the IoT Hub service, a month is defined as 31 days). If you increase the number of units of IoT Hub mid-month, your monthly bill will be based on the number of units available for each day during the month.</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="vm-que-q8">If business needs change, can the number of units be reduced?</a>
+                                <a id="vm-que-q8">Can I reduce the number of units if the business need changes?</a>
                                 <section>
-                                    <p>Yes, you can reduce the number of units at any time from the “Settings” page. Changes will take effect the next day and will be reflected on the bill at the end of the month.</p>
+                                    <p>Yes, you can reduce the number of units from the Settings page at any point. The changes will take effect by the following day and be reflected on your bill at the end of the month.</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="vm-que-q9">Can I switch from the free edition to the paid edition?</a>
+                                <a id="vm-que-q9">Can I switch from the Free Edition to the paid Editions?</a>
                                 <section>
-                                    <p>No, you can not switch from the free edition to the paid edition. The free edition is only for testing concepts and proofing solutions.</p>
+                                    <p>No, you can not switch from the Free Edition to the paid editions. The free edition is meant to test out proof-of-concept solutions only.</p>
                                 </section>
                             </div>
                         </li>
@@ -171,7 +171,7 @@
                             <div>
                                 <a id="vm-que-q10">Can I switch between the S1 Edition and S2 Edition of IoT Hub?</a>
                                 <section>
-                                    <p>Yes, you must take steps to explicitly switch from one paid edition to another. Device identities and messages released are passed to the new edition. Switching from the paid edition to the free edition is not allowed.</p>
+                                    <p>Yes, you have to take the action of explicitly switching from one paid edition to another. The device identity and all messages are carried over to the new edition. Switching from the paid edition to the free edition is not allowed.</p>
                                 </section>
                             </div>
                         </li>

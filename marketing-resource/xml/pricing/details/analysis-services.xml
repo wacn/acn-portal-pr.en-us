@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/service/product-icon-analysis-services@2x.png" />
-                        <h2><span>Azure Analysis Services</span></h2>
+                        <h2>Azure Analysis Services</h2>
                         <h4>Proven analytics engine</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_analysis-services_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_analysis-services_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -239,7 +239,7 @@
                             <div>
                                 <a id="analysis-services-que-q1">What is a QPU?</a>
                                 <section>
-                                    <p>A Query Processing Unit (QPU) in Azure Analysis Services is a unit of measure for the relative computational performance of query and data processing. A standard tier S4 instance (which offers 400 QPUs) provides 4 times the computational performance of a standard tier S1 instance (which offers 100 QPUs). As a rule of thumb, one virtual core approximates to roughly 20 QPUs (although the exact performance depends on the underlying hardware and the hardware version used).</p>
+                                    <p>A Query Processing Unit (QPU) in Azure Analysis Services is a unit of measure for the relative computational performance for query and data processing. A standard tier S4 instance (which offers 400 QPUs) provides 4 times the computational performance of a standard tier S1 instance (which offers 100 QPUs). As a rule of thumb, one virtual core approximates to roughly 20 QPUs (although the exact performance depends on the underlying hardware and the hardware version used).</p>
                                 </section>
                             </div>
                         </li>
@@ -257,7 +257,7 @@
                             <div>
                                 <a id="analysis-services-que-q3">How will the usage of Azure Analysis Services appear on my bill?</a>
                                 <section>
-                                    <p>Azure Analysis Services bills at a predictable hourly rate based on both the service tier and performance level for a single instance. Actual usage is calculated to the second and billed on an hourly basis. For example, if an instance runs for 12 hours and 15 minutes in a month, your bill will show 12.25 hours of usage. If your instance is only active for 6 minutes, your bill will show 0.1 hour of usage.</p>
+                                    <p>Azure Analysis Services bills on a predictable hourly rate based on both the service tier and performance level for a single instance. Actual usage is calculated to the second and billed on an hourly basis. For example, if an instance runs for 12 hours and 15 minutes in a month, your bill will show 12.25 hours of usage. If your instance is only active for 6 minutes, your bill will show 0.1 hour of usage.</p>
                                 </section>
                             </div>
                         </li>

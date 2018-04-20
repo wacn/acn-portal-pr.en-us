@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/notification-hubs@2x.png" />
-                        <h2><span>Notification Hubs</span></h2>
+                        <h2>Notification Hubs</h2>
                         <h4>A scalable large-scale mobile push notification engine that can rapidly push millions of messages to various platforms (iOS, Android, WP).</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_hubs_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_hubs_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -16,7 +16,7 @@
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>Azure Notification Hubs provides a highly extendable cross-platform notification push infrastructure, which can help you broadcast and push notifications to millions of users or provide custom-made notification services for users. You can use Notification Hubs along with any mobile applications with Internet access no matter where the applications operate in Azure Virtual Machines, Cloud Services, Websites or Mobile Services.</p>
+                <p>Azure Notification Hubs provides a highly scalable, cross-platform push notification infrastructure that enables you to either broadcast push notifications to millions of users at once, or tailor notifications to individual users. You can use Notification Hubs with any connected mobile application—whether it’s built on Azure Virtual Machines, Cloud Services, Web Sites, or Mobile Services.</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
@@ -37,16 +37,16 @@
                             <th align="left"><strong>Standard</strong></th>
                         </tr>
                         <tr>
-                            <td>Basic expenses<sup style="font-weight: normal;">1</sup><br /> Pushes included</td>
+                            <td>Basic charge<sup style="font-weight: normal;">1</sup><br /> Included pushes</td>
                             <td>Free<br />1 million<sup style="font-weight: normal;">2</sup></td>
-                            <td>RMB46.16 / month<br /> 10 million</td>
-                            <td>RMB923.41 / month<br /> 10 million</td>
+                            <td>￥46.16 / month<br /> 10 million</td>
+                            <td>￥923.41 / month<br /> 10 million</td>
                         </tr>
                         <tr>
-                            <td>Extra pushes<br /> 10 million-100 million/month<br /> Over 100 million/month</td>
+                            <td>Additional pushes<br /> 10 million-100 million/month<br /> Over 100 million/month</td>
                             <td><br />N/A<br /> N/A</td>
-                            <td><br />RMB4.61 / million<br /> RMB4.61 / million</td>
-                            <td><br />RMB46.16 / million<br /> RMB11.54/million</td>
+                            <td><br />￥4.61 / million<br /> ￥4.61 / million</td>
+                            <td><br />￥46.16 / million<br /> ￥11.54/million</td>
                         </tr>
                         <tr>
                             <td>Number of active devices</td>
@@ -55,7 +55,7 @@
                             <td>Unlimited</td>
                         </tr>
                         <tr>
-                            <td>Basic-type x-plat is pushed to specific devices</td>
+                            <td>Basic-type x-plat push to individual devices</td>
                             <td>√</td>
                             <td>√</td>
                             <td>√</td>
@@ -79,31 +79,31 @@
                             <td>√</td>
                         </tr>
                         <tr>
-                            <td>Recipients that can be queried (registration required)</td>
+                            <td>Queryable audience (registration queries)</td>
                             <td>&#160;</td>
                             <td>&#160;</td>
                             <td>√</td>
                         </tr>
                         <tr>
-                            <td>Planned pushes</td>
+                            <td>Scheduled push</td>
                             <td>&#160;</td>
                             <td>&#160;</td>
                             <td>√</td>
                         </tr>
                         <tr>
-                            <td>Rich remote-sensing</td>
+                            <td>Telemetry</td>
                             <td>&#160;</td>
                             <td>&#160;</td>
                             <td>√</td>
                         </tr>
                         <tr>
-                            <td>Mass import</td>
+                            <td>Bulk import</td>
                             <td>&#160;</td>
                             <td>&#160;</td>
                             <td>√</td>
                         </tr>
                         <tr>
-                            <td>Multi-tenant</td>
+                            <td>Multi-tenancy</td>
                             <td>&#160;</td>
                             <td>&#160;</td>
                             <td>√</td>
