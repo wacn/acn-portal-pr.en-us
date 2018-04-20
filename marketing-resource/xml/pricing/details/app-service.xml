@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/service/product-icon-appservice.png" />
-                        <h2><span>App Service</span></h2>
+                        <h2>App Service<span>App Service</span></h2>
                         <h4>Create web and mobile apps for any platform.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_vm_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vm_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -27,11 +27,11 @@
                         <thead>
                             <tr>
                             <th align="left">&#160;</th>
-                            <th align="left"><strong>Free</strong><br/><br/>&#160;</th>
-                            <th align="left"><strong>Shared</strong><br/>(Hosts basic apps)</th>
-                            <th align="left"><strong>Basic</strong><br/>(More features for development/testing)</th>
-                            <th align="left"><strong>Standard</strong><br/>(Put web and mobile to use)<br/>&#160;</th>
-							<th align="left"><strong>Premium</strong><br/>(Enterprise-scale and integration)<br/>&#160;</th>
+                            <th align="left"><strong>Free</strong><br/></th>
+                            <th align="left"><strong>Shared</strong><br/>(Environment for dev/test)</th>
+                            <th align="left"><strong>Basic</strong><br/>(Dedicated Environment for dev/test)</th>
+                            <th align="left"><strong>Standard</strong><br/>(Run production workloads)</th>
+							<th align="left"><strong>Premium</strong><br/>(Enhanced performance and scale)</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -172,7 +172,7 @@
                         </tbody>
                     </table>
                     <div class="tags-date">
-                        <div class="ms-date"><sup style="font-weight: normal;">1 </sup>One free IP SSL certificate can be used for both the Standard and Premium tiers. If you want to use more IP-based certificates, you will be charged ￥193.62/month for each certificate.</div>  <br/>                                           
+                        <div class="ms-date"><sup style="font-weight: normal;">1 </sup>One free IP SSL certificate can be used for the Standard and Premium tiers. If you want to use more IP-based certificates, you will be charged ￥193.62/month for each certificate.</div>  <br/>                                           
                         <div class="ms-date">
                         <strong>Other terms and conditions:</strong><br/>                       
                         <div class="ms-date">SNI SSL certificates can be used for free with the Standard and Premium tiers.</div><br/>   
@@ -218,7 +218,7 @@
 						</tbody>
 					</table>
 					<div class="tags-date">
-                        <div class="ms-date"><strong><sup style="font-weight: normal;">1 </sup>The Shared plan is billed on a per-app, rather than a per-instance basis.</strong></div>                       
+                        <div class="ms-date"><sup style="font-weight: normal;">1 </sup>The Shared plan is billed on a per-app basis, rather than a per-instance basis.</div>                       
                     </div>
 					
 					<h3>Basic Service Plan</h3>
@@ -259,7 +259,7 @@
                     </table>
 					
 					<h3>Standard Service Plan</h3>						
-					<p>Designed for API, mobile, and web apps. When using the Standard service plan, the number of hosted apps/domains is unlimited. Pricing is based on the size and number of VM instances you run. Built-in network load balancing support automatically distributes traffic between VM instances. The Standard plan includes built-in auto-scale which can automatically adjust the number of VM instances to match your traffic needs. It also includes built-in backup support.</p>
+					<p>Designed for API Apps, Mobile Apps, and Web Apps. When using the Standard service plan, the number of hosted apps/domains is unlimited. Pricing is based on the size and number of VM instances you run. Built-in network load balancing support automatically distributes traffic between VM instances. The Standard plan includes built-in auto-scale which can automatically adjust the number of VM instances to match your traffic needs. It also includes built-in backup support.</p>
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
                         <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
@@ -296,7 +296,7 @@
                     </table>
                     
 					<h3>Premium Service Plan</h3>						
-					<p>The Premium plan is designed for API apps. <!--支持大量缩放实例、附加连接器和 BizTalk 功能，并同时-->All the advanced capabilities found in the Standard plan are included.<!-- 高级计划还能够创建应用服务环境 (ASE)，它提供完全隔离，并在客户的虚拟网络中运行且最多增加到 50 个实例（根据请求可增加更多实例）。ASE 部署也支持超大 (XL) 实例。</p> -->
+					<p>The Premium plan is designed for API Apps. <!--支持大量缩放实例、附加连接器和 BizTalk 功能，并同时-->All the advanced capabilities in the Standard plan are included.<!-- 高级计划还能够创建应用服务环境 (ASE)，它提供完全隔离，并在客户的虚拟网络中运行且最多增加到 50 个实例（根据请求可增加更多实例）。ASE 部署也支持超大 (XL) 实例。</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
                         <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
