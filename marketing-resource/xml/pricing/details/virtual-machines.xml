@@ -53,8 +53,8 @@
 				<div class="common-banner-image">
 					<div class="common-banner-title">
 						<img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/icon-virtual-machines.png" />
-						<h2><span>Virtual Machines</span></h2>
-						<h4>The Windows Server and Linux Server can be started within a few minutes. You can fully control the server in the cloud and maintain it according to your business needs.</h4>
+						<h2>Virtual Machines<!--span>Virtual Machines</span--></h2>
+						<h4>Provision Windows and Linux virtual machines in seconds</h4>
 						<em><a href="/pricing/1RMB-trial/" id="home_vm_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vm_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
 					</div>
 				</div>
@@ -4305,10 +4305,10 @@
             <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                    
     
     ]]></bodyText>
-    <pageTitle>Azure Virtual Machine Pricing Details Estimates - Azure Cloud Computing</pageTitle>
+    <pageTitle>Virtual Machines Pricing Details - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-virtual-machines</linkid>
-    <metaKeywords>Virtual Machine, VM, Virtual Server, Billing, Virtual Machine Types, FAQ</metaKeywords>
+    <metaKeywords>Virtual Machines, VM, Virtual Server, Billing, Virtual Machines Types, FAQ</metaKeywords>
     <metaDescription><![CDATA[Learn more about the pricing details of Azure Virtual Machines. The Virtual Machines are divided into Windows, Linux and SQL Server. You can deploy Linux or Windows Virtual Servers in the cloud. Pay as you go without the need to pay in advance. A 1RMB Trial gets you ￥1,500 in service credits. You can also make a direct purchase and become an Azure Pay-in-Advance customer.]]></metaDescription>
     <urlDisplayName>Pricing Details - Virtual Machines</urlDisplayName>
   </TextpageLeftNav>
