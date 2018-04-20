@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services.png"/>
-                        <h2><span>Cognitive Services APIs</span></h2>
+                        <h2>Cognitive Services APIs</h2>
 
 						<h4>Infuse your apps, websites and bots with intelligent algorithms to see, hear, speak, understand and interpret your user needs through natural methods of communication. Transform your business with AI today.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_cognitive-services">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cognitive-services-calculator_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
@@ -31,15 +31,15 @@
             <tr>
 				<th align="left"><strong>Tier</strong></th>
 				<th align="left"><strong>Feature</strong></th>
-                <th align="left"><strong>Pricing</strong></th>
+                <th align="left"><strong>Price</strong></th>
             </tr>
             <tr>
-                <td>Free version</td>
+                <td>Face API – free</td>
                 <td>Up to 20 transactions/minute</td>
-                <td>30,000 free transactions per month</td>
+                <td>30,000 transactions free per month</td>
             </tr>
             <tr>
-				<td>Standard version</td>
+				<td>Face API – standard</td>
 				<td>Up to 10 transactions per second</td>
                 <td></td>
             </tr>
@@ -58,19 +58,19 @@
             </tr>
             <tr>
                 <td></td>
-                <td>5,000,001-20,000,000 transactions</td>
+                <td>5,000,001-100,000,000 transactions</td>
                 <td>￥ 3.82 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
 
             </tr>
             <tr>
                 <td></td>
-                <td>More than 100,000,000 transactions</td>
+                <td>Over 100,000,000 transactions</td>
 
                 <td>￥2.54 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
             </tr>
 			<tr>
-				<td>Facial recognition storage</td>
-				<td>Maximum 4 MB per image</td>
+				<td>Face Storage</td>
+				<td>Stores images sized up to 4 MB each</td>
 
                 <td>￥ 1.59 per month per 1,000 images <sup style="color:#e66102; font-weight: bold">new</sup></td>
 
@@ -122,9 +122,9 @@
                 <th align="left"><strong>Pricing</strong></th>
             </tr>
             <tr>
-                <td>Free version</td>
+                <td>Computer Vision API—free</td>
                 <td></td>
-                <td>5,000 free transactions per month</td>
+                <td>5,000 transactions free per month</td>
             </tr>
             <tr>
                 <td>S1</td>
@@ -189,7 +189,7 @@
                 <div>
                     <a id="cognitive-services_question1">How are the Cognitive Services APIs billed?</a>
                     <section>
-                        <p>If Cognitive Services API calls are performed effectively, the Face API, Emotion API, and Computer Vision API are charged per 1,000 transactions.</p>
+                        <p>The Face API and Computer Vision API are billed per 1,000 API transaction calls when a production API call is being actively executed.</p>
                     </section>
 
                 </div>
@@ -197,9 +197,9 @@
             <li>
                 <i class="icon icon-plus"></i>
                 <div>
-                    <a id="cognitive-services_question2">What will happen if I exceed the call limit at the Standard tier?</a>
+                    <a id="cognitive-services_question2">What will happen if I exceed the transaction limit at the Standard tier?</a>
                     <section>
-                        <p>If you exceed the quota at the Standard tier, the account starts to add up the excess amount. These excess portions will be billed on a monthly basis at the rate specified for each tier.</p>
+                        <p>If the usage on a standard tier is exceeded, the account starts to accrue overages. These overages are billed on a monthly basis, and are calculated at the rate specified for each tier.</p>
                     </section>
 
                 </div>
@@ -207,7 +207,7 @@
             <li>
                 <i class="icon icon-plus"></i>
                 <div>
-                    <a id="cognitive-services_question3">Can I change the service tier I subscribe to?</a>
+                    <a id="cognitive-services_question3">Can I change the service tier I subscribed to?</a>
                     <section>
                         <p>You can upgrade to a higher tier at any time. The billing rate corresponding to the higher tier and the amounts included will take effect immediately.</p>
                     </section>
@@ -222,7 +222,7 @@
                 <div>
                     <a id="cognitive-services_question4">What is Face Storage? What can it be used for?</a>
                     <section>
-                        <p>With Face Storage, additional persisted faces can be stored when the Face API is used in conjunction with person objects and FaceLists for identification or similarity matching.</p>
+                        <p>Face Storage allows a subscription to store additional persisted faces when using person objects and face lists for identification, or for similarity matching with the Face API.</p>
                     </section>
 
                 </div>
@@ -230,9 +230,9 @@
             <li>
                 <i class="icon icon-plus"></i>
                 <div>
-                    <a id="cognitive-services_question5">If the number of images stored during the month changes, how do you calculate this amount for billing?</a>
+                    <a id="cognitive-services_question5">How are the number of stored faces calculated for billing if it varies throughout the month?</a>
                     <section>
-                        <p>Stored images are charged at 1.59RMB per 1,000 faces. This rate is prorated on a daily basis. For example, if your account used 10,000 persisted faces each day during the first half of the month and none during the second half, you would only be billed for the number of days the 10,000 faces were stored for. This would be calculated as (1.59RMB/1,000) x (10,000 x 15 + 0 x 16)/31 = 7.69RMB. Alternatively, if you retained 1,000 faces for a few hours each day during a month and then deleted them every night, you would still be billed for the 1,000 faces retained each day.</p>
+                        <p>Stored images are charged at ￥1.59 per 1,000 faces. This rate is prorated on a daily basis. For example, if your account used 10,000 persisted faces each day for the first half of the month and none during the second half, you would only be billed for the number of days the 10,000 faces were stored for. This would be calculated as (￥1.59/1,000) x (10,000 x 15 + 0 x 16)/31 = ￥7.69. Alternatively, if you retained 1,000 faces for a few hours each day during a month and then deleted them every night, you would still be billed for the 1,000 persisted faces each day.</p>
                     </section>
 
                 </div>
@@ -240,7 +240,7 @@
             <li>
                 <i class="icon icon-plus"></i>
                 <div>
-                    <a id="cognitive-services_question6">How much capacity does Face Storage have?</a>
+                    <a id="cognitive-services_question6">What is the capacity of Face Storage?</a>
                     <section>
                         <p>The quota for stored person groups is currently 1,000. Each person group or FaceList can have a maximum of 1,000 people.</p>
                     </section>
@@ -253,15 +253,15 @@
             <li>
                 <i class="icon icon-plus"></i>
                 <div>
-                    <a id="cognitive-services_question4">What operations can be completed using the Computer Vision API?</a>
+                    <a id="cognitive-services_question4">What operations can be completed with Computer Vision API?</a>
                     <section>
-                        <p><strong>Tagging </strong>- The Computer Vision API returns tags based on more than 2,000 recognizable objects, living beings, types of scenery, and actions. If tags are ambiguous or unusual, the API response will provide 'hints' to clarify the meaning of the tag.</p>
-                        <p><strong>Facial recognition</strong> - Detects faces in images.</p>
-                        <p><strong>Get Thumbnail</strong> - Get Thumbnail generates high quality thumbnails after images are uploaded. The Computer Vision API algorithm analyzes objects in images, then crops images according to the requirements for the region of interest (ROI).</p>
+                        <p><strong>Tag </strong>- The Computer Vision API returns tags based on more than 2,000 recognizable objects, living beings, types of scenery, and actions. If tags are ambiguous or unusual, the API response will provide 'hints' to clarify the meaning of the tag.</p>
+                        <p><strong>Face</strong> - Detects human faces within a picture.</p>
+                        <p><strong>GetThumbnail</strong> - GetThumbnail generates high quality thumbnails after images are uploaded. The Computer Vision API algorithm analyzes objects within images, then crops images according to the requirements for the region of interest (ROI).</p>
                         <p><strong>Color</strong> - The Computer Vision algorithm extracts colors from an image. The colors are analyzed in three different contexts (foreground, background, and whole). They are grouped into 12 dominant accent colors.</p>
-                        <p><strong>Image types</strong> - The Computer Vision API can set a boolean flag to indicate whether an image is black and white or color. It can use the same method to indicate whether an image is a line drawing. It can also indicate whether an image is clip art, along with its quality.</p>
+                        <p><strong>Image Type</strong> - The Computer Vision API can set a Boolean flag to indicate whether an image is black and white or color. It can use the same method to indicate whether an image is a line drawing. It can also indicate whether an image is clip art, along with its quality.</p>
                         <p><strong>OCR</strong> - Optical Character Recognition (OCR) technology detects text content in an image and extracts the identified text into a machine-readable character stream. You can use the results for searches and numerous other purposes, from medical records to security and banking. It automatically detects the language. OCR saves time and provides convenience for users by allowing them to simply take photos of text instead of transcribing it. Please refer to the <a href="https://docs.azure.cn/zh-cn/cognitive-services/computer-vision/">Computer Vision Documentation</a> page for supported languages.</p>
-                        <p><strong>Adult</strong> - Apply adult/indecent settings to automatically restrict adult content in images.</p>
+                        <p><strong>Adult</strong> - Apply adult/racy settings to automatically restrict adult content in images.</p>
                         <p><strong>Celebrities</strong> - Azure’s celebrity recognition model can recognize 200,000 celebrities from business, politics, sports, and entertainment around the world.</p>
                     </section>
 

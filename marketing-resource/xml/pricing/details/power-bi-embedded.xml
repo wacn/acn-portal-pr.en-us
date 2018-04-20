@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/service/power-bi-embedded.png" /> 
-                        <h2><!--<sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">预览</sup>--><span>Power BI Workspace Collection</span></h2>
+                        <h2><!--<sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">预览</sup>-->Power BI Workspace Collection</h2>
                         <h4>Make the data in applications more vivid</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_power-bi-embedded_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_power-bi-embedded_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -82,7 +82,7 @@
                             <div>
                                 <a id="power-bi-embedded_faq_que1">What is a session and how it is charged?</a>
                                 <section>
-                                    <p>A session refers to a set of interactive activities between the final user and a Power BI Workspace Collection report. A session is established whenever Power BI Workspace Collection is displayed to the user and the subscriber is charged for using the session service. Session service is charged at a unified rate independent from the number of visual object elements in the report or the refresh rate of report contents. The end of a session occurs when a user closes the report or one hour after the session is enabled, whichever occurs first.</p>
+                                    <p>A session refers to a set of interactive activities between the end-user and a Power BI Workspace Collection report. A session is established whenever Power BI Workspace Collection is displayed to the user and the subscriber is charged for using the session service. Session service is charged at a flat rate independent from the number of visual object elements in the report or the refresh rate of report contents. The end of a session occurs when a user closes the report or one hour after the session is enabled, whichever occurs first.</p>
                                 </section>
 
                             </div>

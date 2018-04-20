@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/api_management@2x.png" />
-                        <h2><span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">API Management</span> <span>Preview</span></h2>
+                        <h2>API Management<span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 18px;top: -6px;position: relative;display: inline;"> (Preview)</span></h2>
                         <h4>Publish, manage, secure, and analyze your APIs in minutes</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_api_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_api_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -39,16 +39,16 @@
                     <tr>
                         <td>Purpose</td>
                         <td>Non-production use cases and evaluations</td>
-                        <td>Entry level production use cases</td>
-                        <td>Medium volume production use cases</td>
-                        <td>High volume or Enterprise production use cases</td>
+                        <td>Entry-level production use cases</td>
+                        <td>Medium-volume production use cases</td>
+                        <td>High-volume or Enterprise production use cases</td>
                     </tr>
                     <tr>
-                        <td>Pricing</td>
-                        <td>RMB0.2511/hour </br>(about RMB186.8184/month)</td>
-                        <td>RMB0.7693/hour </br>(about RMB572.3592/month)</td>
-                        <td>RMB3.5897/hour </br>(about RMB2,670.7368/month)</td>
-                        <td>RMB14.6115/hour </br>(about RMB10,870.9560/month)</td>
+                        <td>Price</td>
+                        <td>￥0.2511/hour </br>(about ￥186.8184/month)</td>
+                        <td>￥0.7693/hour </br>(about ￥572.3592/month)</td>
+                        <td>￥3.5897/hour </br>(about ￥2,670.7368/month)</td>
+                        <td>￥14.6115/hour </br>(about ￥10,870.9560/month)</td>
                     </tr>
                     <!-- <tr>
                         <td>原价格</td>
@@ -123,7 +123,7 @@
                         <td>收取标准请见<a href="/pricing/details/data-transfer/"> 数据传输价格详情 </a>页面</td>
                     </tr> -->
                 </table>
-                <p><sup>1 </sup>Actual throughput is affected by many factors, including the number and rate of concurrent client connections, the kind and number of configured policies, payload sizes, and back-end API performance. The numbers in the table were obtained by testing with 1,000 concurrent persistent secure client HTTP connections, minimal payload sizes, no policies configured, and a low-latency back-end API.</p>                   
+                <p><sup>1 </sup>Actual throughput is affected by many factors including the number and rate of concurrent client connections, the kind and number of configured policies, payload sizes and back-end API performance. The numbers in the table were obtained by testing with 1,000 concurrent persistent secure client HTTP connections, minimal payload sizes, no policies configured, and a low latency backend API.</p>
             </div>
 
 
