@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!--?xml version="1.0" encoding="utf-8"?>
 <localize>
   <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2014-11-11T02:51:30" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
-    <bodyText><![CDATA[
+    <bodyText><![CDATA[-->
       
 	<style type="text/css">
 		.homePageMain .buying_row{
@@ -118,8 +118,8 @@
 						<a target="_blank" id="bannerBtn_0_azure-hdinsight" href="/pricing/details/hdinsight/" class="background container" rel="nofollow">
 							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure-hdinsight-d-drop_slice_banner.png">
 							<div class="banner-content">
-								<div class="banner-title device-desktop-banner">
-									Azure HDInsight D-Series Price Cut
+
+							Azure HDInsight D-Series Price Cut
 								</div>
 								<div class="banner-title device-mobile-banner">
 									Azure HDInsight D-Series Price Cut
@@ -748,7 +748,7 @@
 							<img data-rjs="2" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/rocket.png" alt="">
 							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large"><span>Getting Started</span><i class="icon icon-arrow-right "></i></span></div>
 							<span class="link link-sharp-btn blue large device-mobile-banner"><span>Getting Started</span></span>
-							<p>Getting to know Azure, to improve efficiency, and to save operational costs</p>
+							<p>Getting to know Azure, to improve efficiency and to save operational costs</p>
 						</a>
 						<!--<a class="col-md-4 quickstart-item" href="/solutions/wechat-techsun/" id="homepage_quickstart_solutions-wechat-techsun">
 							<img data-rjs="2" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/hot-topic.png"
@@ -760,9 +760,9 @@
 						<a target="_blank" class="col-md-4 quickstart-item" href="https://school.azure.cn/category?filter=%7B%22curriculumDirectionId%22%3A%222%22%2C%22curriculumCategoryId%22%3A%220%22%2C%22courseCategoryId%22%3A%220%22%7D" id="homepage_quickstart-support_public-security-registration">
 							<img data-rjs="2" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/announcement.png"
 											alt="">
-							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large"><span>Practical Tutorials</span><i class="icon icon-arrow-right"></i></span></div>
-							<span class="link link-sharp-btn blue large device-mobile-banner"><span>Practical Tutorials</span></span>
-							<p style="">Client scenario analysis, detailed framework and implementation, helping you build apps and services on the cloud</p>
+							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large"><span>Tutorials</span><i class="icon icon-arrow-right"></i></span></div>
+							<span class="link link-sharp-btn blue large device-mobile-banner"><span>Tutorials</span></span>
+							<p style="">Client scenario analysis, detailed framework analysis and implementation, helping build apps and services on the cloud</p>
 						</a>
 						<a class="col-md-4 quickstart-item" href="/what-is-new/" id="homepage_quickstart-what-is-new_2018-April_azure-monitor">
 							<img data-rjs="2" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/hot-topic.png"
@@ -789,7 +789,7 @@
 													<span>Building a website</span><i class="icon icon-arrow-down-sharp"></i>
 												</a>
 											</li>
-											<li><a id="homepage-solution_tab_link2" class="menu-title" href="#homepage_solution_tab2" data-toggle="tab"><span>Live video webcast</span><i class="icon icon-arrow-down-sharp"></i></a></li>
+											<li><a id="homepage-solution_tab_link2" class="menu-title" href="#homepage_solution_tab2" data-toggle="tab"><span>Live streaming and VOD </span><i class="icon icon-arrow-down-sharp"></i></a></li>
 											<li><a id="homepage-solution_tab_link3" class="menu-title" href="#homepage_solution_tab3" data-toggle="tab"><span>SQL Database Backup</span><i class="icon icon-arrow-down-sharp"></i></a></li>
 											<li><a id="homepage-solution_tab_link4" class="menu-title" href="#homepage_solution_tab4" data-toggle="tab"><span>Cognitive Services</span><i class="icon icon-arrow-down-sharp"></i></a></li>
 											<li><a id="homepage-solution_tab_link5" class="menu-title" href="#homepage_solution_tab5" data-toggle="tab"><span>Remote development testing</span><i class="icon icon-arrow-down-sharp"></i></a></li>
@@ -805,7 +805,7 @@
 									<div class="tab-content hidden-xs hidden-sm">
 										<div id="homepage_solution_tab1" class="tab-panel">
 											<div class="menu-child">
-												<h2>1RMB Trial: Solutions for building a website</h2>
+												<h2>1 RMB Trial: Solutions for building a website</h2>
 												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-web-slice.png" alt="Building a website">
 												<p>Focusing on different types of websites and needs, rapidly build a website with MySQL Database or SQL Database</p>
 												<a id="homepage-solution_tab-content_link1" href="/pricing/1rmb-trial-website-hosting/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
@@ -813,7 +813,7 @@
 										</div>
 										<div id="homepage_solution_tab2" class="tab-panel">
 											<div class="menu-child">
-												<h2>1RMB Trial: International competition level live streaming and VOD solutions</h2>
+												<h2>1 RMB Trial: International competition level live streaming and VOD solutions</h2>
 												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-media-slice.png" alt="Live video broadcast with webcast scenarios">
 												<p>Easy to use video coding, smooth streaming, highly expandable design framework, and ability to convey media content with any type of equipment</p>
 												<a id="homepage-solution_tab-content_link2" href="/pricing/1rmb-trial-video-streaming/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
@@ -821,25 +821,25 @@
 										</div>
 										<div id="homepage_solution_tab3" class="tab-panel">
 											<div class="menu-child">
-												<h2>1RMB Trial: SQL Database Backup solutions</h2>
+												<h2>1 RMB Trial: SQL Database Backup solutions</h2>
 												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-SQL-slice.png" alt="Azure 1 RMB Trial: SQL Database Backup solutions">
-												<p>Maintenance free, low cost, with high availability and secure configuration, SQL Database automatic backup to Azure storage, can be recovered anytime based on business needs</p>
+												<p>Operation free, low cost with high availability and secure configuration, SQL Database automatically backs up to Azure storage ,recovered anytime based on business needs</p>
 												<a id="homepage-solution_tab-content_link3" href="/pricing/1rmb-trial-back-up/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
 											</div>
 										</div>
 										<div id="homepage_solution_tab4" class="tab-panel">
 											<div class="menu-child">
-												<h2>1RMB Trial: “Cognitive Services” Face API with WeChat app solutions</h2>
+												<h2>1 RMB Trial: “Cognitive Services” Face API and WeChat app development solutions</h2>
 												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-cognitive-slice.png" alt="Connected Devices solutions">
-												<p>The 1RMB Trial account provides the “Cognitive Services” Face API, rapidly achieving facial recognition app development and testing.</p>
+												<p>Combined with wechat app,“Cognitive Services” Face API provided by the 1 RMB Trail account rapidly achieve facial recognition app development and testing.</p>
 												<a id="homepage-solution_tab-content_link4" href="pricing/1rmb-trial-cognitive-services/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
 											</div>
 										</div>
 										<div id="homepage_solution_tab5" class="tab-panel">
 											<div class="menu-child">
-												<h2>1RMB Trial: Automatic service with remote development testing environment management solutions</h2>
+												<h2>1 RMB Trial: Automatic service with remote development testing environment management solutions</h2>
 												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-automation-slice.png" alt="Remote development testing">
-												<p>A 1RMB Trial account provides Azure automatic services with virtual machine services integrated, achieving the rapid construction and life-cycle management of a remote development and testing environment.</p>
+												<p>Azure automatic services with virtual machine services provided by the 1 RMB Trial account rapidly achieve the construction and life-cycle management of a remote development and testing environment.</p>
 												<a id="homepage-solution_tab-content_link5" href="/pricing/1rmb-trial-development-test/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
 											</div>
 										</div>
@@ -848,18 +848,18 @@
 										
 										<div id="homepage_solution_tab6" class="tab-panel">
 											<div class="menu-child">
-												<h2>1RMB Trial: based on a WeChat Public Accounts smart cloud conferencing solution</h2>
+												<h2>1 RMB Trial: Smart cloud conferencing solution based on a WeChat Public Accounts</h2>
 												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-anrui.png" alt="Smart Cloud Conferencing">
-												<p>A 1RMB Trial account provides Azure resources and, based on Cognitive Services with a WeChat Public Accounts, uses mobile terminals, advanced facial recognition, Azure cloud storage and apps to create a new smart cloud conferencing management platform.</p>
+												<p>Azure resources provided by the 1 RMB Trial account, based on Cognitive Services with a WeChat Public Accounts, uses mobile terminals, advanced face API, Azure cloud storage and apps to create a new smart cloud conferencing management platform.</p>
 												<a id="homepage-solution_tab-content_link6" href="/solutions/wechat-anrui/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
 											</div>
 										</div>
 			
 										<div id="homepage_solution_tab7" class="tab-panel">
 											<div class="menu-child">
-												<h2>1RMB Trial: Automatic WeChat marketing solutions</h2>
+												<h2>1 RMB Trial: Self-service WeChat marketing solutions</h2>
 												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-senparc.png" alt="WeChat Marketing">
-												<p>The 1RMB Trial account provided Azure resources (app service, databases, cognitive services, etc.), which can be applied to WeChat application development, and speed up the building of WeChat marketing tools.</p>
+												<p>Combined with WeChat application development,Azure resources (App Service, Databases, Cognitive Services, etc.) provided by the 1 RMB Trial account rapidly achieve the building of self-service WeChat marketing tools.</p>
 												<a id="homepage-solution_tab-content_link7" href="/solutions/wechat-senparc/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
 											</div>
 										</div>										
@@ -870,7 +870,7 @@
 						<div class="col-xs-12 col-sm-12 col-md-4">
 							<a class="solution-promotion" id="homepage-solution_playback" href="/webinars/">
 								<h1>Azure Webinars</h1>
-								<div style="color:#fff;font-size:14px;margin:5px 0 20px;">April 11 Enjoying Pictures With You and Singing for You<br/>- Implant Microsoft AI into your application in 15 minutes</div>
+								<div style="color:#fff;font-size:14px;margin:5px 0 20px;">April 27 ,By using AI ,the accuracy of the translation is raised by 50%<br/>- Implant Microsoft AI into your application in 15 minutes</div>
 								<span class="link link-sharp-btn blue large">
 									<span>Sign up and watch the playbacks</span>
 								<i class="icon icon-arrow-right"></i>
@@ -1546,7 +1546,7 @@
 			</div>
 			<div class="case_study_row">
 				<div class="row_box4 container">
-					<h1>Who is using Azure</h1>
+					<h1>Who are using Azure</h1>
 					<div class="row">
 						<div class="col-md-2 col-xs-6">
 							<a href="/partnerancasestudy/case-studies/cmschina/" id="homepage_case-studies-cmschina"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/case-zhaoshang@2x.png" /></a>
@@ -1594,7 +1594,7 @@
 			<div class="data-center-map">
 				<div class="container">
 					<h1>Azure technology spreads all over the world</h1>
-					<h6>In China, through 21Vianet operations, data center BGP access, and support for geo-replication</h6>
+					<h6>In China, operated by 21Vianet , access data center with BGP , and support for geo-replication</h6>
 					<div class="map-svg"></div>
 				</div>
 			</div>
@@ -1605,8 +1605,8 @@
 						</div>
 						<div class="col-md-8">
 							<h1>Are you ready to start?</h1>
-							<h6>Apply for a trial use, and immediately experience up to 99.99% Service Level Agreement as financial security</h6>
-							<a href="/pricing/1rmb-trial/" id="haizaiyouyu" class="inner_box-button"><span>Apply for 1RMB Trial</span><i class="icon icon-arrow-right"></i></a>
+							<h6>Apply for 1 RMB Trial, and immediately experience up to 99.99% Service Level Agreement as financial security</h6>
+							<a href="/pricing/1rmb-trial/" id="haizaiyouyu" class="inner_box-button"><span>Apply for 1 RMB Trial</span><i class="icon icon-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>

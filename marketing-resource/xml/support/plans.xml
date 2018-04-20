@@ -10,7 +10,7 @@
             
 			<h2>Support from Azure</h2>
 			<!-- <div class="tags-date"><div class="ms-date">上线日期：XXXX 年 X 月</div></div> -->
-			<p>We provide users with the following free support services:</p>
+			<p>We provide the following support services to our customers:</p>
 			<div class="scroll-table"><div><table cellpadding="0" cellspacing="0" class="table-col6">
                 <tbody><tr>
                     <th align="left">&#160;</th>
@@ -21,7 +21,7 @@
                     <td><i class="icon icon-tick"></i></td>
                 </tr>
                 <tr>
-                    <td>Service Dashboard</td>
+                    <td>Service Health Dashboard</td>
                     <td><i class="icon icon-tick"></i></td>
                 </tr>
                 <tr>
@@ -37,7 +37,7 @@
                     <td><i class="icon icon-tick"></i></td>
                 </tr>
                 <tr>
-                    <td>ICP Registration Support</td>
+                    <td>ICP Filing Support</td>
                     <td><i class="icon icon-tick"></i></td>
                 </tr>
 			</tbody></table></div></div> 
@@ -45,23 +45,23 @@
 										
 			<h2>Support Scope</h2>
 			<ul>
-				<li>Disruption/restore issues are the issues that users have encountered when using Azure and are confirmed to be caused by the platform.</li>
-				<li>We support all the Azure services that are publicly available online, as well as non-Microsoft technologies (e.g. the sample codes of Azure SDK and Python ) provided by Microsoft as part of Azure product functions.</li>
+				<li>Disruption/restoration issues are issues encountered when using Azure that are confirmed to be caused by the platform.</li>
+				<li>We support all Azure Services that are released to general availability (GA), as well as non-Microsoft technologies provided by Microsoft as part of Azure product functions (sample codes of Azure SDK and Python).</li>
 			</ul>
 			
 			<h2>Working Time</h2>
                 <ul>
                 <li>Technical Support:
 					<ul>
-						<li style="list-style-type:circle;">The severity category is Level A (emergency event): 24 x 7;</li>
-						<li style="list-style-type:circle;">The severity category is Level B/C:
+						<li style="list-style-type:circle;">Severity A (emergency event): 24 x 7;</li>
+						<li style="list-style-type:circle;">Severity B/C:
 							<ul>
-								<li>Technical support of the platform: 9:00 - 00:00 (all year round);</li>
-								<li>Technical support of development: 9:00 - 00:00 (working days only).</li>
+								<li>IaaS support: 9:00 - 00:00 (all year round);</li>
+								<li>PaaS support: 9:00 - 00:00 (working days only).</li>
 							</ul>
 					</ul>
 				</li>               
-                <li>Billing, subscription and quota management support; product consulting and pre-sales support; ICP register support: 9:00 a.m. to 6:00 p.m. on working days.</li>
+                <li>Billing, subscription and quota management support; product consulting and pre-sales support; ICP filing support: 9:00 a.m. to 6:00 p.m. on working days.</li>
                 </ul>
 				<p>Note: The time above is Beijing time (UTC + 8)</p>
 			
@@ -69,7 +69,7 @@
 			<div class="scroll-table"><div><table cellpadding="0" cellspacing="0" width="100%">
 				<tr>
 				<th align="left" style="width: 10%;">Severity<sup>2</sup></th>
-				<th align="left" style="width: 30%;">Customer Status</th>
+				<th align="left" style="width: 30%;">Customer Scenario</th>
 				<th align="left" style="width: 30%;">Expected 21 Vianet Response</th>
 				<th align="left" style="width: 30%;">Expected Customer Response</th>
 				</tr>
@@ -83,10 +83,10 @@
 				<td class="left_align">
 				<p>Initial response:</p>
 				<p>2 hours or less</p>
-				<p>Works continuously all day</p>
+				<p>Works 24*7</p>
 				</td>
 				<td class="left_align">
-				<p>Allocates appropriate resources to keep working continuously all day</p>
+				<p>Allocate appropriate resources to ensure working 24* 7</p>
 				<p>Accurate case owner contact information</p>
 				</td>
 				</tr>
@@ -101,7 +101,7 @@
 				<p>4 hours or less</p>
 				</td>
 				<td class="left_align">
-				<p>Allocate appropriate resources to keep working continuously</p>
+				<p>Allocate appropriate resources to ensure working continuously</p>
 				<p>Accurate case owner contact information</p>
 				</td>
 				</tr>
@@ -109,7 +109,7 @@
 				<td class="left_align">C</td>
 				<td class="left_align">
 				<p>Minimum business impact:</p>
-				<p>The customer's business is running smoothly with or without service barriers</p>
+				<p>The customer's business is running smoothly with little or no service barriers</p>
 				</td>
 				<td class="left_align">
 				<p>Initial response:</p>
@@ -120,8 +120,8 @@
 				</td>
 				</tr>
 			</table></div></div>
-			<p><span class="common_serial_num"> 1 </span> <span> Class A severity support is available only to customers who have signed the 21Vianet advanced online service agreement (purchasing services through the sales team). </span></p>
-			<p><span class="common_serial_num"> 2 </span> <span> 21Vianet may reduce the severity level if the customer fails to provide sufficient resources or respond appropriately to enable 21Vianet to continue to address the issue. </span></p>
+			<p><span class="common_serial_num"> 1 </span> <span> Severity A support is available only to customers who have signed the 21Vianet Online Services Advanced Agreement (purchasing services through the sales team). </span></p>
+			<p><span class="common_serial_num"> 2 </span> <span> 21Vianet may downgrade the severity level if the customer fails to provide sufficient resources or appropriate response to enable 21Vianet to continue to address the issue. </span></p>
 						
 			<p>&#160;</p>
 			<p><a href="/support/contact/" id="support_plans_contact" class="single-link">Contact us<i class="icon icon-arrow-right-thin"></i></a></p>
