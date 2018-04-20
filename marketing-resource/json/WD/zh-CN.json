@@ -17,7 +17,7 @@
   },
   "RULES_EMAIL_NOT_EMPTY": {
     "desc": "email can not be empty",
-    "title": "Please enter email address"
+    "title": "Enter email address"
   },
   "RULES_EMAIL_FORMAT_ERROR": {
     "desc": "email format is not valid",
@@ -25,15 +25,15 @@
   },
   "RULES_USER_PROFILING_NOT_EMPTY": {
     "desc": "user profiling can not be empty",
-    "title": "Please select your profession information"
+    "title": "Select your profession information"
   },
   "RULES_USER_CONFIRM_NOT_EMPTY": {
     "desc": "user confirm is needed",
-    "title": "Please check user confirmation information"
+    "title": "Check the user confirmation"
   },
   "RULES_USER_LANG_NOT_EMPTY": {
     "desc": "user lang is needed",
-    "title": "Please select most used language information"
+    "title": "Select most used language information"
   },
   "RULES_USER_IMAGE_NOT_EMPTY": {
     "desc": "user image is needed",
@@ -49,7 +49,7 @@
   },  
   "RULES_USER_IMAGE_SELECTION": {
     "desc": "select user image",
-    "title": "Please select a picture"
+    "title": "Select a picture"
   },  
   "RULES_ENTERPRISE_NAME_NOT_EMPTY": {
     "desc": "enterprise name can not be empty",
@@ -105,7 +105,7 @@
   },
   "REALNAME_SUBMIT_ERROR_MESSAGE_ENTERPRISE_NOT_PASS_CHECK": {
     "desc": "enterprise not pass check",
-    "title": "Company information failed to pass system review, please check company name and unified social credit code entered"
+    "title": "Enterprise information failed to pass system review, please check your enterprise name and unified social credit code entered"
   },
   "REALNAME_SUBMIT_ERROR_MESSAGE_ENTERPRISE_ALREADY_APPLIED": {
     "desc": "enterprise already apply the offer",
@@ -113,15 +113,15 @@
   },
   "REALNAME_SUBMIT_ERROR_MESSAGE_ENTERPRISE_CODE_NOT_PASS_CHECK": {
     "desc": "enterprise code not pass check",
-    "title": "Company information failed to pass system review, please use the company’s unified social credit code"
+    "title": "Enterprise information failed to pass system review, please use the enterprise’s unified social credit code"
   },
   "KIND_PIA_PAGE_TITLE_TEXT": {
     "desc": "pia page tilte",
-    "title": "Azure Pay-in-Advance purchase application form"
+    "title": "Azure Pay-in-Advance purchase sign up"
   },
   "KIND_PIA_SIDE_DETAIL_TEXT": {
     "desc": "pia page side detail",
-    "title": "Details for standard Pay-in-Advance subscriptions"
+    "title": "Standard Pay-in-Advance details"
   },
   "KIND_PIA_PRODUCT_TEXT": {
     "desc": "pia product text",
@@ -129,11 +129,11 @@
   },
   "KIND_1RMB_PAGE_TITLE_TEXT": {
     "desc": "1rmb page title",
-    "title": "Azure trial application form"
+    "title": "Azure trial sign up"
   },
   "KIND_1RMB_SIDE_DETAIL_TEXT": {
     "desc": "1rmb page side detail",
-    "title": "Details for 1RMB Trial offer"
+    "title": "1RMB Trial details"
   },
   "KIND_1RMB_PRODUCT_TEXT": {
     "desc": "1rmb product text",
@@ -149,27 +149,27 @@
   },
   "AZURE_PORTAL_KNOWLEDGE" : {
     "desc": "azure portal knowledge",
-    "title": "Using the Azure portal" 
+    "title": "Azure Portal overview" 
   },
   "ALL_FIELDS_BELOW_MADATORY": {
     "desc": "all fields below are necessary",
-    "title": "The following fields are all mandatory"
+    "title": "The following fields are required"
   },
   "APPLY_TYPE_AND_CONTACT_TYPE": {
     "desc": "apply type and contact type",
-    "title": "Application type and contact details"
+    "title": "Apply type and contact details"
   },
   "APPLY_TYPE_AND_CONTACT_TYPE_HINT": {
     "desc": "apply type and contact type hint",
-    "title": "Your contact telephone can only be used for individual or enterprise trial applications"
+    "title": "Your contact phone number will only be used for individual or enterprise applications"
   },
   "APPLY_TYPE_INDIVIDUAL": {
     "desc": "apply by individual",
-    "title": "Individual application"
+    "title": "Individual"
   },
   "APPLY_TYPE_ENTERPRISE": {
     "desc": "apply by enterprise",
-    "title": "Enterprise application"
+    "title": "Enterprise"
   },
   "PHONENUMBER_LABEL": {
     "desc": "phone number label",
@@ -185,7 +185,7 @@
   },
   "PHONENUMBER_PLACEHOLDER": {
     "desc": "phone number input place holder",
-    "title": "Please enter your mobile phone number"
+    "title": "Enter your mobile phone number"
   },
   "SMS_CODE_COUNTDOWN": {
     "desc": "sms code count down text",
@@ -209,7 +209,7 @@
   },
   "SMS_CODE_INPUT_PLACEHOLDER": {
     "desc": "sms code input place holder",
-    "title": "Please enter the verification code you received"
+    "title": "Enter the verification code you received"
   },
   "SMS_CODE_BUTTON_LABEL": {
     "desc": "sms code button label",
@@ -233,7 +233,7 @@
   },
   "USERNAME_INPUT_PLACEHOLDER": {
     "desc": "user name input placeholder",
-    "title": "Please enter your name in Chinese"
+    "title": "Enter your name in Chinese"
   },
   "ID_NUMBER_LABEL": {
     "desc": "id number label",
@@ -241,7 +241,7 @@
   },
   "ID_NUMBER_INPUT_PLACEHOLDER": {
     "desc": "id number input placeholder",
-    "title": "Please enter your China Identity Card Number"
+    "title": "Enter your China Identity Card Number"
   },
   "EMAIL_ADDR_LABEL": {
     "desc": "email address label",
@@ -249,7 +249,7 @@
   },
   "EMAIL_ADDR_INPUT_PLACEHOLDER": {
     "desc": "email address input placeholder",
-    "title": "Please enter a valid email address for receiving the activation code"
+    "title": "Enter a valid email address for receiving the activation code"
   },
   "USER_PROFILE_LABEL": {
     "desc": "user profile label",
@@ -257,7 +257,7 @@
   },
   "USER_PROFILE_INPUT_PLACEHOLDER": {
     "desc": "user profile input placeholder",
-    "title": "Please select your profession"
+    "title": "Select your profession"
   },
   "USER_MOST_USED_LANG_LABEL": {
     "desc": "user most used lang label",
@@ -265,7 +265,7 @@
   },
   "USER_MOST_USED_LANG_INPUT_PLACEHOLDER": {
     "desc": "user most used lang input placeholder",
-    "title": "Please select your most used development language"
+    "title": "Select your most used development language"
   },
   "ID_IMAGE_LABEL": {
     "desc": "ID image label",
@@ -293,7 +293,7 @@
   },
   "PRIVACY_CONFIRM_MSG": {
     "desc": "privacy confirm massage",
-    "title": "You agree to authorize us to verify the authenticity of the information submitted above, this includes entrusting third-party credit reporting agencies to perform authentication. For more information, please refer to <a href='/support/legal/privacy-statement' target='_blank' id='privacy-link-in-user-confirm-checkbox'>the privacy statement</a>."
+    "title": "You authorize us to verify the authenticity of the information submitted above. This authorization includes entrusting third-party agencies to verify the authenticity. For more information, please refer to the <a href='/support/legal/privacy-statement' target='_blank' id='privacy-link-in-user-confirm-checkbox'> Privacy Statement</a>."
   },
   "ID_IMAGE_REQ_LABEL": {
     "desc": "image requirements label",
@@ -313,15 +313,15 @@
   },
   "ENTERPRISE_FULLNAME_LABEL": {
     "desc": "enterprise full name label",
-    "title": "Full company name"
+    "title": "Full enterprise name"
   },
   "ENTERPRISE_FULLNAME_CONSISTENT_WITH_LICENSE": {
     "desc": "enterprise full name must be consistent with your enterprise license",
-    "title": "The full company name must be the same as the name on the uploaded business license"
+    "title": "The full enterprise name must be the same as the name on the uploaded business license"
   }, 
   "ENTERPRISE_FULLNAME_INPUT_PLACEHOLDER": {
     "desc": "enterprise full name input placeholder",
-    "title": "Please enter the full name of your company"
+    "title": "Enter the full name of your enterprise"
   },
   "ENTERPRISE_CODE_LABEL": {
     "desc": "enterprise code label",
@@ -329,7 +329,7 @@
   },
   "ENTERPRISE_CODE_INPUT_PLACEHOLDER": {
     "desc": "enterprise code input placeholder",
-    "title": "Please enter the unified social credit code or registration number for your company"
+    "title": "Enter the unified social credit code or registration number for your enterprise"
   },
   "ENTERPRISE_LICENSE_IMAGE_LABEL": {
     "desc": "enterprise license image label",
@@ -357,7 +357,7 @@
   },
   "YOUR_APPLY_HAS_PASS_REALNAME_CHECK_AND_CLICK_SUBMIT": {
     "desc": "your apply has passed realname check and click submit to continue",
-    "title": "Your ID information below has passed {userTypeName} its real name authentication review. Please click on Submit to continue completing the sign-up process."
+    "title": "Your ID information below has passed {userTypeName} real name authentication. Please click on 'Submit' to continue the sign-up process."
   },
   "INDIVIDUAL_LABEL": {
     "desc": "individual label",
@@ -365,11 +365,11 @@
   },
   "ENTERPRISE_LABEL": {
     "desc": "enterprise label",
-    "title": "Company"
+    "title": "Enterprise"
   },
   "USER_IN_PENDING_MSG": {
     "desc": "user is in pending message",
-    "title": "An application has already been submitted for the phone number you entered, we are verifying the information you have provided. We will reply by email with the application result within one working day after you submit your application, and guide you through the sign-up process."
+    "title": "Your ID information below has passed {userTypeName} real name authentication. Please click on 'Submit' to continue the sign-up process."
   },
   "UNKNOWN_SERVER_RESPONSE": {
     "desc": "unknown server response",
@@ -405,7 +405,7 @@
   },
   "MAINTAIN_PAGE_MSG2": {
     "desc": "maintain page message 2",
-    "title": "If you’re still unable to resolve this please contact us via the service hotlines on 400-089-0365 or +86-10-84563652."
+    "title": "If you’re still unable to resolve this, please contact us via the service hotlines on 400-089-0365 or +86-10-84563652."
   },
   "FAIL_PAGE_MSG1": {
     "desc": "fail page message 1",
@@ -457,10 +457,10 @@
   },
   "SMS_FORM_INDIVIDUAL_HINT": {
     "desc": "hint for sms code individual form",
-    "title": "Individual users are requested to provide their Chinese phone number and ID card when applying. If you need help, please call +86-400-0890365 or +86-01084563652 for support."
+    "title": "For Individual customers, please provide Chinese local phone number & Chinese Identification ID. If you need assistance, please call customer service at 400-089-0365 or 010-84563652"
   },
   "SMS_FORM_ENTERPRISE_HINT": {
     "desc": "hint for sms code enterprise form",
-    "title": "Enterprise users are requested to provide their Chinese phone number and business license when applying. If you need help, please call +86-400-089-0365 or +86-01084563652 for support."
+    "title": "For Enterprise customers, please provide Chinese local phone number & business license. If you need assistance, please call customer service at 400089-0365 or 010-84563652"
   }
 }
