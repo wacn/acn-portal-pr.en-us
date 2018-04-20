@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/SQL_DW_icon.png" />
-                        <h2><!-- <sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">预览 --> </sup><span>SQL Data Warehouse</span></h2>
+                        <h2><!-- <sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">预览 --> </sup>SQL Data Warehouse</h2>
                         <h4>Safely entrusted and highly scalable data warehouse service.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_warehouse_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_warehouse_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -37,51 +37,51 @@
                         </tr>
                         <tr>
                             <td>100 DWU</td>
-                            <td>RMB8.05/hour (about RMB5,989.2/month)</td>
+                            <td>¥8.05/hour (about ¥5,989.2/month)</td>
                         </tr>
                         <tr>
                             <td>200 DWU</td>
-                            <td>RMB16.1/hour (about RMB11,978.4/month)</td>
+                            <td>¥16.1/hour (about ¥11,978.4/month)</td>
                         </tr>
                         <tr>
                             <td>300 DWU</td>
-                            <td>RMB24.15/hour (about RMB17,967.6/month)</td>
+                            <td>¥24.15/hour (about ¥17,967.6/month)</td>
                         </tr>
                         <tr>
                             <td>400 DWU</td>
-                            <td>RMB32.2/hour (about RMB23,956.8/month)</td>
+                            <td>¥32.2/hour (about ¥23,956.8/month)</td>
                         </tr>
                         <tr>
                             <td>500 DWU</td>
-                            <td>RMB40.25/hour (about RMB29,946.0/month)</td>
+                            <td>¥40.25/hour (about ¥29,946.0/month)</td>
                         </tr>
                         <tr>
                             <td>600 DWU</td>
-                            <td>RMB48.3/hour (about RMB35,935.2/month)</td>
+                            <td>¥48.3/hour (about ¥35,935.2/month)</td>
                         </tr>
                         <tr>
                             <td>1,000 DWU</td>
-                            <td>RMB80.5/hour (about RMB59,892.0/month)</td>
+                            <td>¥80.5/hour (about ¥59,892.0/month)</td>
                         </tr>
                         <tr>
                             <td>1,200 DWU</td>
-                            <td>RMB96.6/hour (about RMB71,870.4/month)</td>
+                            <td>¥96.6/hour (about ¥71,870.4/month)</td>
                         </tr>
                         <tr>
                             <td>1,500 DWU</td>
-                            <td>RMB120.75/hour (about RMB89,838.0/month)</td>
+                            <td>¥120.75/hour (about ¥89,838.0/month)</td>
                         </tr>
                         <tr>
                             <td>2,000 DWU</td>
-                            <td>RMB161/hour (about RMB119,784.0/month)</td>
+                            <td>¥161/hour (about ¥119,784.0/month)</td>
                         </tr>
 						<tr>
                             <td>3,000 DWU</td>
-                            <td>RMB241.5/hour (about RMB179,676.0/month)</td>
+                            <td>¥241.5/hour (about ¥179,676.0/month)</td>
                         </tr>
 						<tr>
                             <td>6,000 DWU</td>
-                            <td>RMB483/hour (about RMB359,352.0/month)</td>
+                            <td>¥483/hour (about ¥359,352.0/month)</td>
                         </tr>
                     </table>
                     <div class="tags-date">
@@ -90,7 +90,7 @@
                     <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
                     <h3>Storage</h3>
 					<h3>Data Storage and Snapshots</h3>
-                    <p>Data storage service is charged at the rate of <a id="pricing_warehouse_storage" target="_blank" href="/pricing/details/storage/">Azure Premium Storage</a> i.e. RMB906.29/1TB/month (RMB1.22/1TB/hour). Data storage service covers data warehouse storage and 7 days of incremental snapshot storage.</p>
+                    <p>Data storage service is charged at the rate of <a id="pricing_warehouse_storage" target="_blank" href="/pricing/details/storage/">Azure Premium Storage</a> i.e. ¥906.29/1TB/month (¥1.22/1TB/hour). Data storage service covers data warehouse storage and 7 days of incremental snapshot storage.</p>
 					<p><strong>Note:</strong> Storage transactions are free of charge. In other words, you only need to pay for the data storage service, and no transaction fees are needed.</p>
 					<h3>Geo-Redundant Disaster Recovery</h3>
                     <p>Data warehouse can be copied into Geo-Redundant Storage (GRS) for disaster recovery. Storage of Geo-Redundant copies will be charged based on Standard Disk <a id="pricing_warehouse_storage-disk" target="_blank" href="/pricing/details/storage/">Read and Access-Geo-Redundant Storage (RA-GRS)</a>.</p>
@@ -169,7 +169,7 @@
             </div>
             <div class="pricing-page-section">
                 <h2>Region</h2>
-                <p>SQL Data Warehouse service is available in the following regions:</p>
+                <p>SQL Data Warehouse is available in the following regions:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
                         <th align="left"><strong>Territory</strong></th>
@@ -194,7 +194,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-sql-data-warehouse</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Azure SQL Data Warehouse, pricing details, pricing, billing</metaKeywords>
-    <metaDescription><![CDATA[Learn about the details of Azure SQL Data Warehouse. Computing and Storage are independently charged. The user only pays for data storage, and no storage transaction fees need to be paid. SQL Data Warehouse offers preview versions at present. The current pricing covers a 50% discount for the preview version. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
+    <metaDescription><![CDATA[Learn about the details of Azure SQL Data Warehouse. Computing and Storage are independently charged. The user only pays for data storage, and no storage transaction fees need to be paid. SQL Data Warehouse offers preview versions at present. The current pricing covers a 50% discount for the preview version. A 1RMB Trial gets you ¥1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
     <urlDisplayName>Pricing Details - SQL Database</urlDisplayName>
   </TextpageLeftNav>
 </localize>
