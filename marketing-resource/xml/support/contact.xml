@@ -162,9 +162,9 @@
                     </div>
                     <div class="col-md-6 azure-cloud-qrcode hidden-xs hidden-sm">
                         <div class="qrcode-wrapper">
-                            
-                           
-                            
+                            <!--BEGIN: Support and service code chunk-->
+								<?UMBRACO_MACRO chunkpath="production" chunkname="azure-support-qrcode" macroAlias="blankCodeChunk" />                                                                        
+							<!--END: Support and service code chunk--> 
                             <h3>Azure Cloud technical support</h3>
                         </div>
                     </div>
