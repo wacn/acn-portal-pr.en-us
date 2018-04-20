@@ -121,7 +121,7 @@
     <value>All</value>
   </data>
   <data name="AZURE_SERVICE_DASHBOARD" xml:space="preserve">
-    <value>Azure service dashboard</value>
+    <value>Azure Status Dashboard</value>
   </data>
   <data name="AZURE_SERVICE_STATUS_REPORT" xml:space="preserve">
     <value>Azure service status report</value>
@@ -136,7 +136,7 @@
     <value>China North</value>
   </data>
   <data name="CHINA_REGION" xml:space="preserve">
-    <value>China Region</value>
+    <value>Non-Regional*</value>
   </data>
   <data name="CURRENT_STATUS" xml:space="preserve">
     <value>Current status</value>
@@ -169,7 +169,7 @@
     <value>Last week</value>
   </data>
   <data name="MetaDescription" xml:space="preserve">
-    <value>Use the Azure service dashboard to check the current Azure health status at any time and view historical service status reports.</value>
+    <value>Use the Azure Status Dashboard to check the current Azure health status at any time and view historical service status reports.</value>
   </data>
   <data name="MINIUTE" xml:space="preserve">
     <value>Minutes</value>
@@ -190,7 +190,7 @@
     <value>Recent</value>
   </data>
   <data name="REFRESH_INTERVAL" xml:space="preserve">
-    <value>Refresh interval</value>
+    <value>Refresh every</value>
   </data>
   <data name="REGION" xml:space="preserve">
     <value>Region</value>
@@ -206,5 +206,8 @@
   </data>
   <data name="WARNING" xml:space="preserve">
     <value>Warning</value>
+  </data>
+  <data name="NON_REGIONAL_NOTE" xml:space="preserve">
+    <value>*Non-Regional services are ones where there is no dependency on a specific Azure region</value>
   </data>
 </root>
