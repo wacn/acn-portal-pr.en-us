@@ -56,8 +56,8 @@
     <div class="common-banner-image">
         <div class="common-banner-title">
             <img src="//resource.cdn.azure.cn/marketing-resource/css/storage@2x.png" />
-            <h2><span>Storage</span></h2>
-            <h4>Suitable for various types of data, economical and reliable cloud storage provides a high assurance of security, lasting and stable storage, and the capability of rapid and flexible expansion.</h4>
+            <h2>Storage<!--span>Storage</span--></h2>
+            <h4>Reliable, economical cloud storage for data big and small</h4>
             <em><a href="/pricing/1rmb-trial/" id="home_storage_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_storage_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
         </div>
     </div>
@@ -65,19 +65,19 @@
 <!-- END: Product-Detail-TopBanner -->
 <div class="pricing-page-section">
     <p>Azure Storage is a kind of highly durable, available and scalable cloud storage that you can access anytime, anywhere.</p>
-    <p>We charge customers Azure Storage space fees according to the storage capacity, number of storage transactions (number of read and write operations performed in the store) and <a id="stor-data-tran" style="color: #00a8d9;" href="/pricing/details/data-transfer/">data already transmitted</a>. </p>
+    <p>We charge customers Azure Storage space fees according to the storage capacity, number of storage transactions (number of read and write operations performed in the storage) and <a id="stor-data-tran" style="color: #00a8d9;" href="/pricing/details/data-transfer/">data already transmitted</a>. </p>
     <p>Storage is divided into five types:</p>
-    <p>Block Blob: Block Blob is a cost-effective, scalable method that can be used for reliably storing mass Blob data. Typical instances include: data sharing, mass data and backup.</p>
-    <p>Documents: Documents allows the VM of Azure Data Center to install shared document systems by SMB agreement, and access the document system via the standard Windows file API. The virtual machine can be connected to these document systems simultaneously, permitting you to easily share permanent data between different roles and instances. You can also access your data using Windows file API or document REST API.</p>
-    <p>Page Blob and disk: Page Blob provides block storage for random access and frequent updating and optimization. Thanks to high performance, durability and reliability, it can be used as the permanent disk of the VM in Azure. </p>
+    <p>Block Blobs: Block Blobs are a cost-effective, scalable method that can be used for reliably storing mass Blob data. Typical instances include: data sharing, mass data and backup.</p>
+    <p>Files: Files allows the VM of Azure Data Center to install shared document systems by SMB agreement, and access the document system via the standard Windows file API. The virtual machine can be connected to these document systems simultaneously, permitting you to easily share permanent data between different roles and instances. You can also access your data using Windows file API or document REST API.</p>
+    <p>Page Blobs and Disk:</strong> Page Blobs provide block storage for random access and frequent updating and optimization. Thanks to high performance, durability and reliability, it can be used as the permanent disk of the VM in Azure. </p>
     <p>Table: Table is a kind of highly scalable and readily available NoSQL Database. These provide storage-based key values for structured data and semi-structured data.</p>
-	<p>Queue: Queue provides a reliable message transfer system used to plan asynchronous tasks, and realizes permanent message transfer. </p>
+	<p>Queues: Queues provide a reliable message transfer system used to plan asynchronous tasks, and realizes permanent message transfer. </p>
 
     <p>In addition, we provide four redundant storage levels:</p>
-    <p>Local Redundant Storage (LRS): We maintain multiple copies of data in a zone so as to provide high durability.</p>
-    <p>Geo-Redundant Storage (GRS): we asynchronously provide extra data durability through replication between two zones hundreds of miles apart in the same territory. In the two zones, we maintain multiple copies of the data. </p>
-    <p>Read-Access Geo-Redundant Storage (RA-GRS): in addition to GRS services, we provide read-only access to the storage account in the auxiliary zone (which has the final version consistent with data in the main storage system). When the storage account in the main zone is not available, customers can use this service to access the data. </p>
-    <p>Zone Redundant Storage (ZRS): In addition to storage of three copies like LRS, the ZRS space replicates data asynchronously between data centers of one or two zones, so as to improve the durability of LRS.</p>
+    <p>Locally Redundant Storage (LRS): We maintain multiple copies of data in the same region so as to provide high durability.</p>
+    <p>Geo-Redundant Storage (GRS): we asynchronously provide extra data durability through replication between two regions hundreds of miles apart in the same territory. In the two regions, we maintain multiple copies of the data. </p>
+    <p>Read-Access Geo-Redundant Storage (RA-GRS): in addition to GRS services, we provide read-only access to the storage account in the secondary region (which has the final version consistent with data in the primary storage system). When the storage account in the primary region is not available, customers can use this service to access the data. </p>
+    <p>Zone Redundant Storage (ZRS): In addition to storage of three copies like LRS, the ZRS space replicates data asynchronously between data centers of one or two regions, so as to improve the durability of LRS.</p>
 </div>
 <!-- BEGIN: TAB-CONTROL -->
 <div>
@@ -91,12 +91,12 @@
         </tr>
         <tr>
             <td>Redundancy</td>
-            <td>Multiple copies in a zone</td>
-            <td>Multiple copies in a zone, and extra replication between two zones</td>
-            <td>Multiple copies in a zone, and extra replication between two zones</td>
+            <td>Multiple copies in a region</td>
+            <td>Multiple copies in a region, and extra replication between two regions</td>
+            <td>Multiple copies in a region, and extra replication between two regions</td>
         </tr>
         <tr>
-            <td>Read and access copies in auxiliary zones</td>
+            <td>Read and access copies in secondary regions</td>
             <td>N/A</td>
             <td>No</td>
             <td>Yes</td>
@@ -108,7 +108,7 @@
             <td>We guarantee 99.9% availability of writes</td>
         </tr>
         <tr>
-            <td style="background-color:rgba(237, 240, 245, 0.4)">When the data in the main zone is not available, we guarantee 99.99% availability of read data from auxiliary zones</td>
+            <td style="background-color:rgba(237, 240, 245, 0.4)">When the data in the primary region is not available, we guarantee 99.99% availability of read data from secondary region</td>
         </tr>
     </table>
     <h2>Pricing Details</h2>
@@ -135,27 +135,27 @@
 				<!-- BEGIN: Table1-Content-1-->
 				<div class="tab-panel" id="tabContent1">
 						<!-- <p><h3>块 Blob</h3></p> -->
-						<p>Block Blob Storage is used for stream processing and storing files, videos, pictures, backup and other non-structured documents or binary data. The following are the pricing of a private Blob Storage account with “hot” and “cold” access layers. Extra Blob is also counted by Block Blob. </p>
-						<p><a id="storage-articles-storage-introduction" style="color: #00a8d9;" href="https://docs.azure.cn/storage/storage-introduction/	">More</a></p>
+						<p>Block Blob Storage is used for stream processing and storing files, videos, pictures, backup and other non-structured documents or binary data. The following are the pricing of a private Blob Storage account with “hot” and “cool” access tiers. Extra Blob is also counted by Block Blob. </p>
+						<p><a id="storage-articles-storage-introduction" style="color: #00a8d9;" href="https://docs.azure.cn/storage/storage-introduction">More</a></p>
 						<h4>Data Storage Pricing</h4>
-						<p>These are the costs of storage data in Block Blob. The pricing shown below are monthly billing by the data size (GB) of storage. These pricing may vary from the access layer of Block Blob Storage (“hot” or “cold”) and the redundancy options you select as well as the data size of storage. </p>
+						<p>These are the costs of storage data in Block Blob. The pricing shown below are monthly billing by the data size (GB) of storage. These pricing may vary from the access tier of Block Blob Storage (“hot” or “cool”) and the redundancy options you select as well as the data size of storage. </p>
 						<div class="tags-date">
 							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
 						</div>
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
 								<th align="left"><strong></strong></th>
-								<th align="center" colspan="2"><strong>Local Redundant Storage (LRS)</strong></th>
+								<th align="center" colspan="2"><strong>Locally Redundant Storage (LRS)</strong></th>
 								<th align="center" colspan="2"><strong>Geo-Redundant Storage (GRS)</strong></th>
 								<th align="center" colspan="2"><strong>Read/Access Geo-Redundant Storage (RA-GRS)</strong></th>
 							</tr>
 							<tr>
 								<td></td>
-								<td align="center">Cold</td>
+								<td align="center">Cool</td>
 								<td align="center">Hot</td>
-								<td align="center">Cold</td>
+								<td align="center">Cool</td>
 								<td align="center">Hot</td>
-								<td align="center">Cold</td>
+								<td align="center">Cool</td>
 								<td align="center">Hot</td>
 							</tr>
 							<tr>
@@ -193,23 +193,23 @@
 							</tr>
 						</table>
 						<p><strong><sup>1 </sup></strong>1 TB = 1,024GB</p>
-						<h4>Operation and Data Transmission Pricing</h4>
-						<p>The following are HTTP operation costs of Block Blob data and the costs of retrieving data from Block Blob or writing data into Block Blob. These pricing may vary from the access layer of Block Blob Storage (“hot” or “cold”) and the redundancy options you select. </p>
+						<h4>Operation and Data Transfer Pricing</h4>
+						<p>The following are HTTP operation costs of Block Blob data and the costs of retrieving data from Block Blob or writing data into Block Blob. These pricing may vary from the access tier of Block Blob Storage (“hot” or “cool”) and the redundancy options you select. </p>
 						<div class="tags-date">
 							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
 						</div>
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
 								<th align="left"><strong></strong></th>
-								<th align="center" colspan="2"><strong>Local Redundant Storage (LRS)</strong></th>
+								<th align="center" colspan="2"><strong>Locally Redundant Storage (LRS)</strong></th>
 								<th align="center" colspan="2"><strong>Geo-Redundant Storage (GRS) Read and Access Geo-Redundant Storage (RA-GRS)</strong></th>
 							  
 							</tr>
 							<tr>
 								<td></td>
-								<td align="center">Cold</td>
+								<td align="center">Cool</td>
 								<td align="center">Hot</td>
-								<td align="center">Cold</td>
+								<td align="center">Cool</td>
 								<td align="center">Hot</td>
 							</tr>
 							<tr>
@@ -265,7 +265,7 @@
 				<!-- END: Table1-Content-1 --> <!-- BEGIN: Table2-Content-1-->
 				<div class="tab-panel" id="tabContent2">
 					<!-- <h3>文件</h3> -->
-					<p>Use familiar Windows API or document REST API to share documents between the applications run on your virtual machine. Azure Document creates a shared document system using the standard SMB 3.0 Agreement. </p>
+					<p>Use familiar Windows API or document REST API to share files between the applications run on your virtual machine. Azure Document creates a shared document system using the standard SMB 3.0 Agreement. </p>
 					<h4>Data Storage Pricing</h4>
 						<p>These are the costs of storage data in Document Storage. The pricing shown below are monthly billing by the data size (GB) of storage. These pricing may vary from the redundancy options you select.</p>
 						<div class="tags-date">
@@ -273,7 +273,7 @@
 						</div>
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
-								<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+								<th align="left"><strong>Locally Redundant Storage (LRS)</strong></th>
 								<th align="left"><strong>Geo-Redundant Storage (GRS)</strong></th>
 							</tr>
 							<tr>
@@ -281,7 +281,7 @@
 								<td>￥1.75/GB</td>
 							</tr>
 						</table>
-					<h4>Operation and Data Transmission Pricing</h4>
+					<h4>Operation and Data Transfer Pricing</h4>
 						<p>The following are the HTTP operation costs of document data. These pricing may vary from the redundancy options you select.</p>				
 						<div class="tags-date">
 							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -289,7 +289,7 @@
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
 								<th align="left"><strong></strong></th>
-								<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+								<th align="left"><strong>Locally Redundant Storage (LRS)</strong></th>
 								<th align="left"><strong>Geo-Redundant Storage (GRS)</th>
 							  
 							</tr>						
@@ -456,9 +456,9 @@
 							<div class="tags-date">
 								<div class="ms-date">We charge 0.0037￥ for every 10,000 Standard Managed Disk transactions. Any type of storage operation is considered to be a transaction, including reads, writes, and deletions. </div>
 							</div>
-							<h4>Local Redundant Storage (LRS)</h4>								
+							<h4>Locally Redundant Storage (LRS)</h4>								
 							<p>Create multiple synchronous copies of data in a Data Center. </p>
-							<p>To learn more about the redundancy options and how to use these options to obtain high availability, please view the <a id="pricing_storage_documentation-storage-redundancy" href="/documentation/articles/storage-redundancy/">Azure Storage Space Replication Page</a>.</p>
+							<p>To learn more about the redundancy options and how to use these options to obtain high availability, please view the <a id="pricing_storage_documentation-storage-redundancy" href="//docs.azure.cn/storage/common/storage-redundancy">Azure Storage Space Replication Page</a>.</p>
 							<!--
 							<h3>高级和标准托管快照（副本）</h3>
 							<p>托管快照是存储为标准磁盘的托管磁盘的只读副本。托管快照的费用与标准托管磁盘相同。例如，如果采集 P10 高级托管磁盘的快照，则托管快照的费用将等于 S10 标准磁盘。</p>
@@ -539,7 +539,7 @@
 							<table cellpadding="0" cellspacing="0" width="100%">
 								<tr>
 									<th align="left"><strong>Monthly storage capacity</strong></th>
-									<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+									<th align="left"><strong>Locally Redundant Storage (LRS)</strong></th>
 									<th align="left"><strong>Geo-Redundant Storage (GRS)</strong></th>
 									<th align="left"><strong>Read/Access Geo-Redundant Storage (RA-GRS)</strong></th>
 								</tr>
@@ -582,7 +582,7 @@
 							</table>
 							<p><strong><sup>1 </sup></strong>1 TB = 1,024GB</p>
 							
-							<h4>Operation and Data Transmission Pricing</h4>
+							<h4>Operation and Data Transfer Pricing</h4>
 							<p>If the transactions of Page Blob are not performed by Virtual Machines, billing is done by the transaction. For every transaction, a single operation shall be considered as write, read or delete for billing. If the size of the read or write is more than 64 KB, an extra read/write (IO) expense will be charged for every excess of 64 KB, and up to 15 IO are charged per transaction. If the size of a transaction is more than 1 MB [64 KB x (1 transaction + 15 IOs)], other IOs are not charged, irrespective of the size of transactions.</p>						
 							<!-- <p>对于标准非托管磁盘和页 Blob，我们按每 10,000 个事务收取 ￥0.0044 的费用。针对存储的任何类型的操作均视为事务，包括读取、写入和删除。</p> -->
 							
@@ -592,7 +592,7 @@
 							<table cellpadding="0" cellspacing="0" width="100%">
 								<tr>
 									<th align="left"><strong></strong></th>
-									<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+									<th align="left"><strong>Locally Redundant Storage (LRS)</strong></th>
 									<th align="left"><strong>Geo-Redundant Storage (GRS)</th>
 									<th align="left"><strong>Read/Access Geo-Redundant Storage (RA-GRS)</strong></th>
 								  
@@ -647,7 +647,7 @@
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
 								<th align="left"><strong>Monthly storage capacity</strong></th>
-								<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+								<th align="left"><strong>Locally Redundant Storage (LRS)</strong></th>
 								<th align="left"><strong>Geo-Redundant Storage (GRS)</strong></th>
 								<th align="left"><strong>Read/Access Geo-Redundant Storage (RA-GRS)</strong></th>
 							</tr>
@@ -671,14 +671,14 @@
 							</tr>
 						</table>
 						<p><strong><sup>1 </sup></strong>1 TB = 1,024GB</p>
-						<h4>Operation and Data Transmission Pricing</h4>
+						<h4>Operation and Data Transfer Pricing</h4>
 						<div class="tags-date">
 							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
 						</div>
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
 								<th align="left"><strong></strong></th>
-								<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+								<th align="left"><strong>Locally Redundant Storage (LRS)</strong></th>
 								<th align="left"><strong>Geo-Redundant Storage (GRS)</th>
 							  
 							</tr>						
@@ -727,7 +727,7 @@
 					<table cellpadding="0" cellspacing="0" width="100%">
 						<tr>
 							<th align="left"><strong>Monthly storage capacity</strong></th>
-							<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+							<th align="left"><strong>Locally Redundant Storage (LRS)</strong></th>
 							<th align="left"><strong>Geo-Redundant Storage (GRS)</strong></th>
 							<th align="left"><strong>Read/Access Geo-Redundant Storage (RA-GRS)</strong></th>
 						</tr>
@@ -753,14 +753,14 @@
 					
 					<p><strong><sup>1 </sup></strong>1 TB = 1,024GB</p>
 
-					<h4>Operation and Data Transmission Pricing</h4>								
+					<h4>Operation and Data Transfer Pricing</h4>								
 						<div class="tags-date">
 							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
 						</div>
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
 								<th align="left"><strong></strong></th>
-								<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+								<th align="left"><strong>Locally Redundant Storage (LRS)</strong></th>
 								<th align="left"><strong>Geo-Redundant Storage (GRS)</th>
 								<th align="left"><strong>Read/Access Geo-Redundant Storage (RA-GRS)</strong></th>
 							  
@@ -808,7 +808,7 @@
 				<h4>Data redundancy options</h4>				
 				<table cellpadding="0" cellspacing="0" width="100%">
 						<tr>
-							<th align="left"><strong>Local Redundant Storage (LRS)</strong></th>
+							<th align="left"><strong>Locally Redundant Storage (LRS)</strong></th>
 							<th align="left">Make multiple synchronous copies of data in a Data Center. </th>						  
 						</tr>						
 						<tr>
@@ -824,7 +824,7 @@
 							<td align="left">Just like GRS, this allows reading and accessing a second data center.</td>						   
 						</tr>
 					</table>
-					<p>To learn more about the redundancy options and how to use these options to obtain high availability, please view the <a id="pricing_storage_documentation-storage-redundancy-2" href="/documentation/articles/storage-redundancy/">Azure Storage Space Replication Page</a>. Please note, not all redundancy types are suitable for all storage types. <br />
+					<p>To learn more about the redundancy options and how to use these options to obtain high availability, please view the <a id="pricing_storage_documentation-storage-redundancy-2" href="//docs.azure.cn/storage/common/storage-redundancy">Azure Storage Space Replication Page</a>. Please note, not all redundancy types are suitable for all storage types. <br />
 				
 </div>
 
@@ -886,7 +886,7 @@
                 <div>
                     <a id="Storage_question4">What is a Blob Storage account and what are the differences between this account and a general-purpose storage account?</a>
                     <section>
-                        <p>A Blob Storage account is exclusively used as the storage account for Blob Storage data, such that customers can assign access layers according to the data access frequency in the account. A general-purpose Storage account can be used for storing Blob, documents, disks, tables and queues. </p>
+                        <p>A Blob Storage account is exclusively used as the storage account for Blob Storage data, such that customers can assign access tiers according to the data access frequency in the account. A general-purpose storage account can be used for storing blob, files, disks, tables and queues. </p>
                     </section>
 
                 </div>
@@ -906,7 +906,7 @@
                 <div>
                     <a id="Storage_question6">When viewing the Azure bill, how can we distinguish whether paying for Blob in the Blob Storage account or general-purpose Storage account is required?</a>
                     <section>
-                        <p>If “Hot” or “Cold” is in the resource name, this means that this expense is related to the Blob Storage account. For instance, if it’s “Standard IO - Cold Block Blob (GB)”, it means you used the Blob Storage account and need to pay for this account, while “Standard IO – Block Blob (GB)” is charged in relation to the Block Blob in the general-purpose Storage account. </p>
+                        <p>If “Hot” or “Cool” is in the resource name, this means that this expense is related to the Blob Storage account. For instance, if it’s “Standard IO - Cool Block Blob (GB)”, it means you used the Blob Storage account and need to pay for this account, while “Standard IO – Block Blob (GB)” is charged in relation to the Block Blob in the general-purpose Storage account. </p>
                     </section>
 
                 </div>
@@ -914,9 +914,9 @@
 			<li>
                 <i class="icon icon-plus"></i>
                 <div>
-                    <a id="Storage_question7">What are “Hot” and “Cold” access layers and how do we ascertain which one is to be used?</a>
+                    <a id="Storage_question7">What are “Hot” and “Cool” access tiers and how do we ascertain which one is to be used?</a>
                     <section>
-						<p>In the Blob Storage account, we could set Blob’s access layer to “Hot” and “Cold”. The storage GB pricing increases in the sequence of “Cold” and “Hot” layer. The data access expense increases in the sequence of “Hot” and “Cold” layer. The “Hot” and “Cold” layers are separately applied to data with almost no access and occasional access, and the availability of Service Level Agreement of these data has a lower requirement. If you don’t know the data access mode, it’s recommended that you use the “Hot” layer for at least one month in the beginning, then decide if it’s necessary to shift to “Cold” storage to save costs where applicable. </p>
+						<p>In the Blob Storage account, we could set Blob’s access tier to “Hot” and “Cool”. The storage GB pricing increases in the sequence of “Cool” and “Hot” tier. The data access expense increases in the sequence of “Hot” and “Cool” tier. The “Hot” and “Cool” tiers are separately applied to data with almost no access and occasional access, and the availability of Service Level Agreement of these data has a lower requirement. If you don’t know the data access mode, it’s recommended that you use the “Hot” tier for at least one month in the beginning, then decide if it’s necessary to shift to “Cool” storage to save costs where applicable. </p>
 					<!-- <table cellpadding="0" cellspacing="0" width="100%">
 						<tr>
 							<th align="left"><strong>计量单位</strong></th>
@@ -985,9 +985,9 @@
 			<li>
                 <i class="icon icon-plus"></i>
                 <div>
-                    <a id="Storage_question8">Is paying the data write expense of switching a Blob Storage account from “Cold” to “Hot” required?</a>
+                    <a id="Storage_question8">Is paying the data write expense of switching a Blob Storage account from “Cool” to “Hot” required?</a>
                     <section>
-                        <p>We will charge the data retrieval of the Blob Storage account when it’s switched from “Cold” to “Hot”. For instance, if the Blob Storage account has 100 GB data, when the account is switched from “Cold” to “Hot”, you will be charged with a data retrieval fee of 100 * ￥0.0657 = ￥6.57.</p>
+                        <p>We will charge the data retrieval of the Blob Storage account when it’s switched from “Cool” to “Hot”. For instance, if the Blob Storage account has 100 GB data, when the account is switched from “Cool” to “Hot”, you will be charged with a data retrieval fee of 100 * ￥0.0657 = ￥6.57.</p>
                     </section>
 
                 </div>
@@ -995,9 +995,9 @@
 			<li>
                 <i class="icon icon-plus"></i>
                 <div>
-                    <a id="Storage_question9">Is paying for data writes required when the Blob Storage account is switched from “Hot” to “Cold”?</a>
+                    <a id="Storage_question9">Is paying for data writes required when the Blob Storage account is switched from “Hot” to “Cool”?</a>
                     <section>
-                        <p>No. Paying for data writes is not required when your account is switched from “Hot” to “Cold”. If you write directly data into the “Cold” access layer of the Blob Storage account, only paying the data writing expense is required. </p>
+                        <p>No. Paying for data writes is not required when your account is switched from “Hot” to “Cool”. If you write directly data into the “Cool” access tier of the Blob Storage account, only paying the data writing expense is required. </p>
                     </section>
 
                 </div>
@@ -1007,7 +1007,7 @@
                 <div>
                     <a id="Storage_question10">What is the charge for Geo-replication data transfer?</a>
                     <section>
-                        <p>When you write data into a GRS account, the data will be replicated into another Azure Zone. The Geo-replication data transfer charge refers to the bandwidth cost of replicating data to another Azure Zone. </p>
+                        <p>When you write data into a GRS account, the data will be replicated into another Azure region. The Geo-replication data transfer charge refers to the bandwidth cost of replicating data to another Azure region. </p>
                     </section>
 
                 </div>
@@ -1091,9 +1091,9 @@
     <div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="storage-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-				<p>We guarantee that we can successfully process data reading requests from an offsite redundant storage (RA-GRS) account at least 99.99% of the time (99.9% for the Cold Access Layer), provided that we will retry in the secondary zone from the data writing failure from the primary zone.</p>
-				<p>We guarantee that we can successfully process data reading from local redundant storage (LRS) and offsite redundant storage (GRS) accounts at least 99.9% of the time (99% for the Cold Access Layer)</p>
-				<p>We guarantee that we can successfully process data writing requests into onsite redundant storage (LRS) and geo-redundant storage (GRS) accounts and read and access geo-redundant storage (RA-GRS) accounts at least 99.9% of the time (99% for the Cold Access Layer).</p>
+				<p>We guarantee that we can successfully process data reading requests from a read-access geo redundant storage (RA-GRS) account at least 99.99% of the time (99.9% for the Cool Access Tier), provided that we will retry in the secondary region from the data writing failure from the primary region.</p>
+				<p>We guarantee that we can successfully process data reading from locally redundant storage (LRS) and geo redundant storage (GRS) accounts at least 99.9% of the time (99% for the Cool Access Tier)</p>
+				<p>We guarantee that we can successfully process data writing requests into locally redundant storage (LRS) and geo-redundant storage (GRS) accounts and read-access geo redundant storage (RA-GRS) accounts at least 99.9% of the time (99% for the Cool Access Tier).</p>
 				<p>To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/storage/" id="pricing_storage_sla">Service Level Agreements</a> page.</p>
 				<p>The Managed Disk itself doesn’t provide a Service Level Agreement with financial support. The availability of a Managed Disk depends on the Service Level Agreement governing the basic storage used and the Virtual Machine it’s attached to. To learn more about the details of the Service Level Agreement of the Managed Disk, please visit the <a href="/support/sla/managed-disks/">Managed Disk Service Level Agreements</a> page.</p>
 	</div>
@@ -1101,7 +1101,7 @@
 <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" /> <!--END: Support and service code chunk-->
     
     ]]></bodyText>
-    <pageTitle>Azure Cloud Storage_Cloud Data - Azure Cloud Computing</pageTitle>
+    <pageTitle>Azure Storage Pricing Details - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-storage</linkid>
     <metaKeywords>Azure, storage, solution, applications</metaKeywords>
