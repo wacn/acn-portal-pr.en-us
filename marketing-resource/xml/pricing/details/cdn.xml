@@ -75,7 +75,7 @@
 						-->
                     </table>
                     <p><sup>1</sup> 1 TB = 1,000 GB</p>
-					<p><sup style="color:#e66102; font-weight: bold">2</sup> Premium version CDN services currently include HTTPS protocol acceleration. HTTPS protocol acceleration includes certificates applied for by the Azure CDN and user-owned certificates. If you want to use HTTPS acceleration services for certificates applied for by the Azure CDN, please enable them by contacting the Azure support team via the support page and refer to the document <a href="https://docs.azure.cn/cdn/cdn-https-how-to/" id="CDN_documentation-cdn-https-how-to">Azure CDN HTTPS Acceleration Services - Certificates Applied For by the Azure CDN</a> when performing the operation. If you want to use your own certificate, please refer to the document <a href="https://docs.azure.cn/zh-cn/cdn/cdn-https-customer-supplied-certhttps://docs.azure.cn/zh-cn/cdn/cdn-https-customer-supplied-cert/" id="CDN_documentation-cdn-https-customer-supplied-cert">Azure CDN HTTPS Acceleration Services - User-Owned Certificates</a> for automated upload deployment.</p>
+					<p><sup style="color:#e66102; font-weight: bold">2</sup> Premium CDN services currently include HTTPS acceleration. HTTPS acceleration includes certificates applied for by the Azure CDN and user-owned certificates. If you want to use HTTPS acceleration services for certificates applied for by the Azure CDN, please enable them by contacting the Azure support team via the support page and refer to the document <a href="https://docs.azure.cn/cdn/cdn-https-how-to/" id="CDN_documentation-cdn-https-how-to">Azure CDN HTTPS Acceleration Services - Certificates Applied For by the Azure CDN</a> when performing the operation. If you want to use your own certificate, please refer to the document <a href="https://docs.azure.cn/zh-cn/cdn/cdn-https-customer-supplied-certhttps://docs.azure.cn/zh-cn/cdn/cdn-https-customer-supplied-cert/" id="CDN_documentation-cdn-https-customer-supplied-cert">Azure CDN HTTPS Acceleration Services - User-Owned Certificates</a> for automated upload deployment.</p>
                     <!-- <p>  自 2017 年 7 月 1 日起，用户自有证书的 HTTPS 加速服务将归为标准版 CDN 服务，高级版 CDN 服务将只包含 Azure CDN 代申请证书的 HTTPS 加速服务。</p>					
                     <p>  高级版服务自 2017 年 5 月 1 日起 降价，降幅最高达 33%，上表内高级版价格为降价后价格。</p> --> <!-- END: Table1-Content-->
                 </div>
@@ -90,9 +90,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="CDN_price_premium-version">What types of acceleration are included in the current Premium version CDN service?</a>
+                                <a id="CDN_price_premium-version">What types of acceleration are included in the current Premium CDN service?</a>
                                 <section>
-                                    <p>Premium version CDN services currently include HTTPS protocol acceleration. HTTPS protocol acceleration includes certificates applied for by the Azure CDN and user-owned certificates. If you want to use HTTPS acceleration services for certificates applied for by the Azure CDN, please enable them by contacting the Azure support team via the support page and refer to the document <a href="https://docs.azure.cn/cdn/cdn-https-how-to/" id="CDN-q_documentation-cdn-https-how-to">Azure CDN HTTPS Acceleration Services - Certificates Applied For by the Azure CDN</a> when performing the operation. If you want to use your own certificate, please refer to the document <a href="https://docs.azure.cn/zh-cn/cdn/cdn-https-customer-supplied-cert/" id="CDN-q_documentation-cdn-https-customer-supplied-cert">Azure CDN HTTPS Acceleration Services - User-owned Certificates</a> for automated upload deployment.</p>
+                                    <p>Premium CDN services currently include HTTPS acceleration. HTTPS acceleration includes certificates applied for by the Azure CDN and user-owned certificates. If you want to use HTTPS acceleration services for certificates applied for by the Azure CDN, please enable them by contacting the Azure support team via the support page and refer to the document <a href="https://docs.azure.cn/cdn/cdn-https-how-to/" id="CDN-q_documentation-cdn-https-how-to">Azure CDN HTTPS Acceleration Services - Certificates Applied For by the Azure CDN</a> when performing the operation. If you want to use your own certificate, please refer to the document <a href="https://docs.azure.cn/zh-cn/cdn/cdn-https-customer-supplied-cert/" id="CDN-q_documentation-cdn-https-customer-supplied-cert">Azure CDN HTTPS Acceleration Services - User-owned Certificates</a> for automated upload deployment.</p>
                                 </section>
 
                             </div>
@@ -112,7 +112,7 @@
                             <div>
                                 <a id="CDN_price_question2">Can I designate a CDN data center to provide services to end users? </a>
                                 <section>
-                                   <p>No. The service will select a CDN data center based on an end user's network configuration, developers cannot decide which CDN data center to use. Users will be provided services according to their ISP’s preferred location or a logically determined "closer" (not necessarily physically closer) node.</p>
+                                   <p>No. The service will select a CDN data center based on an end user's network configuration, developers cannot decide which CDN data center to use. Users will be provided services according to their ISP's preferred location or a logically determined "closer" (not necessarily physically closer) node.</p>
                                 </section>
 
                             </div>
@@ -130,12 +130,12 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="CDN_price_question4">What factors impact the availability of content in the CDN’s local caches, and how can I reduce the need to make frequent origin requests? </a>
+                                <a id="CDN_price_question4">What factors impact the availability of content in the CDN's local caches, and how can I reduce the need to make frequent origin requests? </a>
                                 <section>
-                                    <p>The availability of content in the CDN’s local caches (often called "cache efficacy" or "offload") will be influenced by many factors, including:</p>
+                                    <p>The availability of content in the CDN's local caches (often called "cache efficacy" or "offload") will be influenced by many factors, including:</p>
                                     <ul>
                                         <li>Expiration (“max-age”) header values</li>
-                                        <li>Overall total size of the developer’s content library (how much can be cached)</li>
+                                        <li>Overall total size of the developer's content library (how much can be cached)</li>
                                         <li>Active working set (how much is currently cached)</li>
                                         <li>Traffic (how much is being provided)</li>
                                         <li>Cache churn (how often are objects being added to cache, or aging out)</li>
@@ -164,16 +164,16 @@
                <div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="cdn-contact-page">Azure Support</a> to select self-service or any other method to contact us for support.</p>
-				 <p>We guarantee that CDN will respond to client requests and deliver the requested content without error at least 99.9% of the time. We will examine and accept data from any commercially reasonable independent measurement system that you choose to monitor your content. You must select a set of agents from the measurement system’s list of standard agents that are generally available and represent at least five different geographical locations in major metropolitan areas of the People's Republic of China. If you want to learn more about the details of our server level agreement, please visit the <a href="/support/sla/cdn/" id="pricing_cdn_sla">Service Level Agreement</a> page.</p>
+				 <p>We guarantee that CDN will respond to client requests and deliver the requested content without error at least 99.9% of the time. We will examine and accept data from any commercially reasonable independent measurement system that you choose to monitor your content. You must select a set of agents from the measurement system's list of standard agents that are generally available and represent at least five different geographical locations in major metropolitan areas of the People's Republic of China. If you want to learn more about the details of our server level agreement, please visit the <a href="/support/sla/cdn/" id="pricing_cdn_sla">Service Level Agreement</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                      
     
     ]]></bodyText>
-    <pageTitle>Azure Content Delivery Network (CDN) services quotes_price budgeting - Azure Cloud Computing</pageTitle>
+    <pageTitle>Content Delivery Network (CDN) Pricing Details - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-cdn</linkid>
     <metaKeywords>Azure, CDN, pricing, data transfer, content delivery, CDN acceleration, CDN services, website acceleration, cloud CDN, API acceleration, live streaming acceleration, application acceleration, HTTPS, HTTP2</metaKeywords>
     <metaDescription><![CDATA[Learn more about the pricing details for Azure CDN. Azure CDN is mainly priced by CDN outbound data transfers. A 1RMB Trial gets you ￥1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
-    <urlDisplayName>Pricing details - Content Delivery Network (CDN)</urlDisplayName>
+    <urlDisplayName>Pricing Details - Content Delivery Network (CDN)</urlDisplayName>
   </TextpageLeftNav>
 </localize>
