@@ -37,51 +37,51 @@
                         </tr>
                         <tr>
                             <td>100</td>                         
-                            <td><span>RMB22.51/hour (about RMB16,747.44/month)</span></td>
+                            <td><span>￥ 22.51/hour (about ￥ 16,747.44/month)</span></td>
                         </tr>
                         <tr>
                             <td>200</td>
-                            <td><span>RMB45.02/hour (about RMB33,494.88/month)</span></td>
+                            <td><span>￥ 45.02/hour (about ￥ 33,494.88/month)</span></td>
                         </tr>
                         <tr>
                             <td>300</td>
-                            <td><span>RMB67.53/hour (about RMB50,242.32/month)</span></td>
+                            <td><span>￥ 67.53/hour (about ￥ 50,242.32/month)</span></td>
                         </tr>
                         <tr>
                             <td>400</td>
-                            <td><span>RMB90.04/hour (about RMB66,989.76/month)</span></td>
+                            <td><span>￥ 90.04/hour (about ￥ 66,989.76/month)</span></td>
                         </tr>
                         <tr>
                             <td>500</td>
-                            <td><span>RMB112.55/hour (about RMB83,737.20/month)</span></td>
+                            <td><span>￥ 112.55/hour (about ￥ 83,737.20/month)</span></td>
                         </tr>
                         <tr>
                             <td>600</td>
-                            <td><span>RMB135.06/hour (about RMB100,484.64/month)</span></td>
+                            <td><span>￥ 135.06/hour (about ￥ 100,484.64/month)</span></td>
                         </tr>
                         <tr>
                             <td>1,000</td>
-                            <td><span>RMB225.1/hour (about RMB167,474.40/month)</span></td>
+                            <td><span>￥ 225.1/hour (about ￥ 167,474.40/month)</span></td>
                         </tr>
                         <tr>
                             <td>1,200</td>
-                            <td><span>RMB270.12/hour (about RMB220,969.28/month)</span></td>
+                            <td><span>￥ 270.12/hour (about ￥ 220,969.28/month)</span></td>
                         </tr>
                         <tr>
                             <td>1,500</td>                            
-                            <td><span>RMB337.65/hour (about RMB251,211.60/month)</span></td>
+                            <td><span>￥ 337.65/hour (about ￥ 251,211.60/month)</span></td>
                         </tr>
                         <tr>
                             <td>2,000</td>
-                            <td><span>RMB450.2/hour (about RMB334,948.80/month)</span></td>
+                            <td><span>￥ 450.2/hour (about ￥ 334,948.80/month)</span></td>
                         </tr>
                         <tr>
                             <td>3,000</td>
-                            <td><span>RMB675.3/hour (about RMB502,423.20/month)</span></td>
+                            <td><span>￥ 675.3/hour (about ￥ 502,423.20/month)</span></td>
                         </tr>
                         <tr>
                             <td>6,000</td>
-                            <td><span>RMB1,350.6/hour (about RMB1,004,846.49/month)</span></td>
+                            <td><span>￥ 1,350.6/hour (about ￥ 1,004,846.49/month)</span></td>
                         </tr>
                     </table>
             <!--    <div class="tags-date">
@@ -92,11 +92,11 @@
                     <p>Outbound data transfer is charged according to the standard <a id="/pricing/details/data-transfer/" href="/pricing/details/data-transfer/">data transfer</a> rate.</p>
                   
                     <h3>Data Storage and Snapshots</h3>
-                    <p>Data storage is RMB1.441/GB/hour. Datastores include the size of the Stretch Database and backup snapshots. All Stretch Databases have 7-day incremental backup snapshots.</p>
+                    <p>Data storage is ￥ 1.441/GB/hour. Datastores include the size of the Stretch Database and backup snapshots. All Stretch Databases have 7-day incremental backup snapshots.</p>
                     <p>Note: Storage transactions are free of charge. In other words, you only need to pay for data storage services, and no transaction fees are needed.</p>
                     
                     <h3>Geo-backup</h3>
-                    <p>You can still choose to back up Geo-Redundancy for the Stretch Database to achieve disaster recovery. Storage of Geo-Redundant copies will be charged based on the <a id="/pricing/details/storage/-1" href="/pricing/details/storage/">rate</a> of the Azure standard disk RA-GRS of RMB1.056/GB/month.</p>
+                    <p>You can still choose to back up Geo-Redundancy for the Stretch Database to achieve disaster recovery. Storage of Geo-Redundant copies will be charged based on the <a id="/pricing/details/storage/-1" href="/pricing/details/storage/">rate</a> of the Azure standard disk RA-GRS of ￥ 1.056/GB/month.</p>
 
                     
                 </div>
@@ -250,7 +250,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-sql-server-stretch-database</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Azure SQL Server Stretch Database, pricing details, pricing, billing</metaKeywords>
-    <metaDescription><![CDATA[Learn about the pricing details of SQL Server Stretch Database. Different performance levels correspond to different prices. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
+    <metaDescription><![CDATA[Learn about the pricing details of SQL Server Stretch Database. Different performance levels correspond to different prices. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
     <urlDisplayName>Pricing Details - Server Strech Database</urlDisplayName>
   </TextpageLeftNav>
 </localize>

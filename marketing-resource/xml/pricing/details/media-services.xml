@@ -41,7 +41,7 @@
                         </tr>
                         <tr>
                             <td>Code</td>
-                            <td>RMB0.09858/output minute (about RMB4400.61/month)</td>
+                            <td>￥ 0.09858/output minute (about ￥ 4400.61/month)</td>
                         </tr>
                     </table>
 					
@@ -73,7 +73,7 @@
                         </tr>
                         <tr>
                             <td>First 5 TB <sup>1</sup>/month</td>
-                            <td>RMB13.04 per output GB</td>
+                            <td>￥ 13.04 per output GB</td>
                         </tr>
                         <tr>
                             <td>Last 5 TB/month</td>
@@ -81,15 +81,15 @@
                         </tr>
                         <tr>
                             <td>Last 15 TB/month</td>
-                            <td>RMB10.80 per output GB</td>
+                            <td>￥ 10.80 per output GB</td>
                         </tr>
                         <tr>
                             <td>Last 25 TB/month</td>
-                            <td>RMB9.69 per output GB</td>
+                            <td>￥ 9.69 per output GB</td>
                         </tr>
                         <tr>
                             <td>Over 50 TB/month</td>
-                            <td>RMB8.20 per output GB</td>
+                            <td>￥ 8.20 per output GB</td>
                         </tr>
                     </table>
                     <p><sup>1</sup> TB = 1024GB</p>
@@ -124,7 +124,7 @@
                             <td>4 minutes of output audio count as 1 SD minute</td>
                         </tr>
                     </table>
-                    <p><strong>Example:</strong> If there is a QuickTime video with a resolution of 1920x1080p and a duration of 20 minutes, then it will encode as a mono track MP4 output with the same resolution of 1920x1080p. The effective multiplier will be 2 (HD) plus 0.25 (audio) with a total multiplier of 2.25. The total billing minutes will be (20 minutes x 2.25) = 45 output minutes. If Media Encoder Standard is applied for encoding, the cost will be (45 output minutes x RMB0.09858/output minutes) = RMB4.4361</p>
+                    <p><strong>Example:</strong> If there is a QuickTime video with a resolution of 1920x1080p and a duration of 20 minutes, then it will encode as a mono track MP4 output with the same resolution of 1920x1080p. The effective multiplier will be 2 (HD) plus 0.25 (audio) with a total multiplier of 2.25. The total billing minutes will be (20 minutes x 2.25) = 45 output minutes. If Media Encoder Standard is applied for encoding, the cost will be (45 output minutes x ￥ 0.09858/output minutes) = ￥ 4.4361</p>
                     <p>See FAQ for more examples.</p>
                     <p>There may also be <a href="/pricing/details/storage/">Storage Space</a> and <a href="/pricing/details/data-transfer/">Data Transmission Rates</a> that will be billed at standard Azure rates.</p>
                     <!-- BEGIN: Table2-Content-->
@@ -150,9 +150,9 @@
                         </tr>
                         <tr>
                             <td>Price/unit</td>
-                            <td>RMB0.13144/hour (about RMB97.79/month)</td>
-                            <td>RMB0.26288/hour (about RMB195.58/month)</td>
-                            <td>RMB0.52576/hour (about RMB391.17/month)</td>
+                            <td>￥ 0.13144/hour (about ￥ 97.79/month)</td>
+                            <td>￥ 0.26288/hour (about ￥ 195.58/month)</td>
+                            <td>￥ 0.52576/hour (about ￥ 391.17/month)</td>
                         </tr>
                         <tr>
                             <td>Other parallel tasks</td>
@@ -182,9 +182,9 @@
                         </tr>
                         <tr>
                             <td>Price/unit</td>
-                            <td>RMB469.24/month<sup> 1 </sup></td>
-                            <td>RMB938.15/month<sup> 1 </sup></td>
-                            <td>RMB2,606.46/month<sup> 1 </sup></td>
+                            <td>￥ 469.24/month<sup> 1 </sup></td>
+                            <td>￥ 938.15/month<sup> 1 </sup></td>
+                            <td>￥ 2,606.46/month<sup> 1 </sup></td>
                         </tr>
                         <tr>
                             <td>Other parallel tasks</td>
@@ -221,7 +221,7 @@
                         </tr>
                         <tr>
                             <td>Price for each channel</td>
-                            <td>RMB6.40/hour</td>
+                            <td>￥ 6.40/hour</td>
                         </tr>
                     </table>
                     <p><sup>1</sup> Live Channels are used in conjunction with streaming units to provide live streaming services. Please refer to this page for details of pricing for streaming units.</p>
@@ -242,23 +242,23 @@
                         </tr>
                         <tr>
                             <td>First 20 hours/month</td>
-                            <td>RMB40.5/hour</td>
-                            <td>RMB24.74/hour</td>
+                            <td>￥ 40.5/hour</td>
+                            <td>￥ 24.74/hour</td>
                         </tr>
                         <tr>
                             <td>Following 80 hours (20-100 hours)/month</td>
-                            <td>RMB34.61/hour</td>
-                            <td>RMB21.14/hour</td>
+                            <td>￥ 34.61/hour</td>
+                            <td>￥ 21.14/hour</td>
                         </tr>
                         <tr>
                             <td>Following 150 hours (100-250 hours)/month</td>
-                            <td>RMB33.87/hour</td>
-                            <td>RMB20.69/hour</td>
+                            <td>￥ 33.87/hour</td>
+                            <td>￥ 20.69/hour</td>
                         </tr>
                         <tr>
                             <td>Over 250 hours/month</td>
-                            <td>RMB33.14/hour</td>
-                            <td>RMB20.25/hour</td>
+                            <td>￥ 33.14/hour</td>
+                            <td>￥ 20.25/hour</td>
                         </tr>
                     </table>
                     <p>Billing is prorated per minute. Billing is based on the amount of time the channel is in a running state. Stop channels when not in use to avoid unnecessary costs.</p>
@@ -286,8 +286,8 @@
                         </tr>
                         <tr>
                             <td>Price (per unit)</td>
-                            <td>RMB423.894/month<sup> 1</sup></td>
-							<td>RMB938.15/month<sup> 1</sup></td>
+                            <td>￥ 423.894/month<sup> 1</sup></td>
+							<td>￥ 938.15/month<sup> 1</sup></td>
                         </tr>
                         <tr>
                             <td>Trial</td>
@@ -332,7 +332,7 @@
                         <tr>
                             <td>Pricing</td>
                             <!--  <td>¥1.8/100 许可证</td>  -->
-                            <td>RMB1.34/100 licenses</td>
+                            <td>￥ 1.34/100 licenses</td>
                         </tr>                        
                     </table>
                     <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
@@ -349,7 +349,7 @@
                         </tr>
                         <tr>
                             <td>Pricing</td>
-                            <td>RMB0.67/100 keys</td>
+                            <td>￥ 0.67/100 keys</td>
                         </tr>
                     </table>
                     <p>There may also be <a id="Media_serivce_storage3" href="/pricing/details/storage/" target="_blank">Storage</a> and <a id="Media_serivce_data3" href="/pricing/details/data-transfer/" target="_blank">Data Transmission Rates</a> that will be charged at standard Azure rates.</p>
@@ -365,7 +365,7 @@
                         </tr>
                         <tr>
                             <td>Pricing</td>
-                            <td>RMB1.3144/100 licenses</td>
+                            <td>￥ 1.3144/100 licenses</td>
                         </tr>
                     </table>                    
                     <!-- END: Table3-Content-->
@@ -388,19 +388,19 @@
                         </tr>
                         <tr>
                             <td>First 20,000 minutes/month</td>
-                            <td>RMB0.34/content minute</td>
+                            <td>￥ 0.34/content minute</td>
                         </tr>
                         <tr>
                             <td>The next 180,000 minutes/month (20,000 to 200,000 minutes)</td>
-                            <td>RMB0.33/content minute</td>
+                            <td>￥ 0.33/content minute</td>
                         </tr>
                         <tr>
                             <td>The next 800,000 minutes/month (200,000 to 1,000,000 minutes)</td>
-                            <td>RMB0.29/content minute</td>
+                            <td>￥ 0.29/content minute</td>
                         </tr>
                         <tr>
                             <td>Over 1,000,000 minutes/month</td>
-                            <td>RMB0.26/content minute</td>
+                            <td>￥ 0.26/content minute</td>
                         </tr>
                     </table>
                     <p><sup>1</sup> The cost is prorated by minutes, and the minimum fee is charged starting from five minutes.</p>
@@ -422,21 +422,21 @@
                         </tr>
                         <tr>
                             <td>The first 50,000 minutes/month<sup> 2</sup></td>
-                            <td>RMB0.212/Content Minutes (RMB12.72/hour)</td>
-                            <td>RMB0.424/Content Minutes (RMB25.44/hour)</td>
-                            <td>RMB0.848/Content Minutes (RMB50.88/hour)</td>
+                            <td>￥ 0.212/Content Minutes (￥ 12.72/hour)</td>
+                            <td>￥ 0.424/Content Minutes (￥ 25.44/hour)</td>
+                            <td>￥ 0.848/Content Minutes (￥ 50.88/hour)</td>
                         </tr>
                         <tr>
                             <td>The next 950,000 minutes (50,001 - 1,000,000 minutes)/month</td>
-                            <td>RMB0.197/content-minutes (RMB11.82 /hour)</td>
-                            <td>RMB0.394/Content Minutes (RMB23.64/hour)</td>
-                            <td>RMB0.788/Content Minutes (RMB47.28/hour)</td>
+                            <td>￥ 0.197/content-minutes (￥ 11.82 /hour)</td>
+                            <td>￥ 0.394/Content Minutes (￥ 23.64/hour)</td>
+                            <td>￥ 0.788/Content Minutes (￥ 47.28/hour)</td>
                         </tr>
                         <tr>
                             <td>Over 1,000,000 minutes/month</td>
-                            <td>RMB0.172 /content-min (RMB10.32 /hour)</td>
-                            <td>RMB0.344/Content Minutes (RMB20.64/hour)</td>
-                            <td>RMB0.688/Content Minutes (RMB41.28/hour)</td>
+                            <td>￥ 0.172 /content-min (￥ 10.32 /hour)</td>
+                            <td>￥ 0.344/Content Minutes (￥ 20.64/hour)</td>
+                            <td>￥ 0.688/Content Minutes (￥ 41.28/hour)</td>
                         </tr>
                     </table>
                     <div class="tags-date">
@@ -497,7 +497,7 @@
                             <div>
                                 <a id="Media_faq_que3">If I use the media reserved unit, do I still have to pay the encoding fee based on the output minutes? </a>
                                 <section>
-                                   <p>Yes, fees are charged depending on the encoding output minutes of the media reserved unit. Standard encoder: RMB0.09858/output minute.</p>
+                                   <p>Yes, fees are charged depending on the encoding output minutes of the media reserved unit. Standard encoder: ￥ 0.09858/output minute.</p>
                                 </section>
 
                             </div>
@@ -509,17 +509,17 @@
                                 <section>
                                     <p>Example 1: Joe uses a standard encoder to process 30 encoding jobs. Each job will create 10 output minutes (300 output minutes in total). Joe uses an S1 media reserved unit (RU) which needs 2 hours for running for each job. Joe spends 60 hours in a row on the S1 RU and then turns off the RU (setting the number of RUs to zero). </p>
                                     <ul>
-                                        <li>Output minutes (standard encoder): 300 x RMB0.09858 /minute = RMB29.574</li>
-                                        <li>S1 media reserved unit: 1 unit x 60 hours x RMB0.13144 /hour = RMB7.8864d</li>
-                                        <li>Total cost: RMB37.4604</li>
+                                        <li>Output minutes (standard encoder): 300 x ￥ 0.09858 /minute = ￥ 29.574</li>
+                                        <li>S1 media reserved unit: 1 unit x 60 hours x ￥ 0.13144 /hour = ￥ 7.8864d</li>
+                                        <li>Total cost: ￥ 37.4604</li>
                                     </ul>
                                     <p>Example 2: Joe uses a standard encoder to process 30 encoding jobs. Each job will create 10 output minutes (300 output minutes in total). This time, Joe uses three S2 media reserved units (RUs). Each job will take only 1 hour to complete, so it takes only 10 hours to complete 30 jobs. Joe spends a total of 10 hours in a row on 3 S2 RU and then turns off the RU (the RU number was set to zero).</p>
                                     <ul>
-                                        <li>Output minutes (standard encoder): 300 x RMB0.09858 /minute = RMB29.574</li>
-                                        <li>S2 media reserved unit: 3 unit x 10 hours x RMB0.26288 /hour = RMB7.8864</li>
-                                        <li>Total cost: RMB37.4604</li>
+                                        <li>Output minutes (standard encoder): 300 x ￥ 0.09858 /minute = ￥ 29.574</li>
+                                        <li>S2 media reserved unit: 3 unit x 10 hours x ￥ 0.26288 /hour = ￥ 7.8864</li>
+                                        <li>Total cost: ￥ 37.4604</li>
                                     </ul>
-                                    <p>Example 3: Joe has a two-hour movie with resolution of 1920x1080. He uses a standard encoder to encode it with a default “H264 multiple bit rate 1080p” preset to stream movies to iOS and Android devices. The encoding preset generates 3 HD output videos, 5 SD output videos, and 1 audio. The total minutes for this encoding job is (3x2 + 5 + 0.25) = 11.25. Therefore, the total output minutes will be 11.25 x 2 x 60 = 1,350. The total cost is 1,350 x RMB0.09858/min = RMB133.083.</p>
+                                    <p>Example 3: Joe has a two-hour movie with resolution of 1920x1080. He uses a standard encoder to encode it with a default “H264 multiple bit rate 1080p” preset to stream movies to iOS and Android devices. The encoding preset generates 3 HD output videos, 5 SD output videos, and 1 audio. The total minutes for this encoding job is (3x2 + 5 + 0.25) = 11.25. Therefore, the total output minutes will be 11.25 x 2 x 60 = 1,350. The total cost is 1,350 x ￥ 0.09858/min = ￥ 133.083.</p>
                                 </section>
                             </div>
                         </li> 
@@ -539,10 +539,10 @@
                                 <section>
                                     <p>You will be charged according to the actual minutes of the media reserved unit. The following is a more detailed example. Suppose Joe starts with zero media reserved units (RUs), and his account is set to use two S1 RUs at 10:00AM that day. In the afternoon other videos arrived, he changes his account to use 4 S3 RUs at 1:15PM. All videos are processed before 4:00PM, then he closes the RU in the account (setting the RU number to zero). Joe's usage is as follows.</p>
                                     <ul>
-                                        <li>S1 media reserved unit: 2 units x 3.25 hours (10AM to 1:15PM) x RMB0.13144 /hour = RMB0.85436</li>
-                                        <li>S3 media reserved unit: 4 units x 2.75 hours (1:15PM to 4PM) x RMB0.52576 /hour = RMB5.78336</li>
+                                        <li>S1 media reserved unit: 2 units x 3.25 hours (10AM to 1:15PM) x ￥ 0.13144 /hour = ￥ 0.85436</li>
+                                        <li>S3 media reserved unit: 4 units x 2.75 hours (1:15PM to 4PM) x ￥ 0.52576 /hour = ￥ 5.78336</li>
                                     </ul>
-                                    <p>Therefore, the total cost arising out of Joe's use of the media reserved unit is RMB0.85436 + RMB5.78336 = RMB6.63772</p>
+                                    <p>Therefore, the total cost arising out of Joe's use of the media reserved unit is ￥ 0.85436 + ￥ 5.78336 = ￥ 6.63772</p>
                                     <p>Unlike the media reserved unit, the charge for the streaming unit is based on the maximum number of streaming units configured per day (high watermarks).</p>
 
                                 </section>
@@ -644,7 +644,7 @@
                                     </ol>
                                     <p><img src="//resource.cdn.azure.cn/marketing-resource/css/images/pricing/faq/media_service_faq01.png" alt="" /></p>
                                     <p>The channel remains in the “Running" state for 170 minutes in total (15 minutes before the event + 120 minutes during the event+ 5 minutes with no streaming after the event+ 30 minutes for the post game show).</p>
-                                    <p>170 minutes x RMB40.50/60 = RMB114.75</p>
+                                    <p>170 minutes x ￥ 40.50/60 = ￥ 114.75</p>
                                 </section>
                             </div>
                         </li>
@@ -692,7 +692,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-media-service</linkid>
     <metaKeywords>Azure, Media service, Price, Streaming</metaKeywords>
-    <metaDescription><![CDATA[Learn about the pricing details of Azure Media Services (Media Services). Based on proven technology, Azure Media Services provides highly available and scalable end-to-end media solutions. Its specific functions include encoding, streaming, content protection, and indexing. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[Learn about the pricing details of Azure Media Services (Media Services). Based on proven technology, Azure Media Services provides highly available and scalable end-to-end media solutions. Its specific functions include encoding, streaming, content protection, and indexing. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Media services</urlDisplayName>
   </TextpageLeftNav>
 </localize>

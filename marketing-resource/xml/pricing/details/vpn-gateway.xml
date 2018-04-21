@@ -41,30 +41,30 @@
                     </tr>
                     <tr>
                         <td>Basic</td>
-                        <td>RMB0.25 every gateway/hour</br>(about RMB186.00 /month)</td>
+                        <td>￥ 0.25 every gateway/hour</br>(about ￥ 186.00 /month)</td>
 						<td>100 Mbp</td>
 						<td>10 at most</br>1-10: included</td>
 						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
                     </tr>
 					<tr>
                         <td>VpnGw1<sup style="color:#e66102; font-weight: bold">new</sup></td>
-                        <td>RMB1.1914 every gateway/hour</br>(about RMB885.4016 /month)</td>
+                        <td>￥ 1.1914 every gateway/hour</br>(about ￥ 885.4016 /month)</td>
 						<td>650 Mbp</td>
-						<td>30 at most</br>1-10: included</br>11-30: RMB0.0945/every tunnel</td>
+						<td>30 at most</br>1-10: included</br>11-30: ￥ 0.0945/every tunnel</td>
 						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
                     </tr>
                     <tr>
                         <td>VpnGw2<sup style="color:#e66102; font-weight: bold">new</sup></td>
-                        <td>RMB3.1276 every gateway/hour</br>(about RMB2,326.9344 /month)</td>
+                        <td>￥ 3.1276 every gateway/hour</br>(about ￥ 2,326.9344 /month)</td>
 						<td>1 Gbps</td>
-						<td>30 at most</br>1-10: included</br>11-30: RMB0.0945/every tunnel</td>
+						<td>30 at most</br>1-10: included</br>11-30: ￥ 0.0945/every tunnel</td>
 						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
                     </tr>
                     <tr>
                         <td>VpnGw3<sup style="color:#e66102; font-weight: bold">new</sup></td>
-                        <td>RMB7.95 every gateway/hour</br>(about RMB5,914.8 /month)</td>
+                        <td>￥ 7.95 every gateway/hour</br>(about ￥ 5,914.8 /month)</td>
 						<td>1.25 Gbps</td>
-						<td>30 at most</br>1-10: included</br>11-30: RMB0.0945/every tunnel</td>
+						<td>30 at most</br>1-10: included</br>11-30: ￥ 0.0945/every tunnel</td>
 						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
                     </tr>
                     </table>                    
@@ -88,17 +88,17 @@
                     </tr> -->
                     <tr>
                         <td>Standard ExpressRoute Gateway</td>
-                        <td>RMB1.19 every gateway/hour (about RMB885.36/month)</td>
+                        <td>￥ 1.19 every gateway/hour (about ￥ 885.36/month)</td>
                         <td>1 Gbps</td>
                     </tr>
                     <tr>
                         <td>High-performance ExpressRoute Gateway</td>
-                        <td>RMB3.13 every gateway/hour (about RMB2,328.72 / per month)</td>
+                        <td>￥ 3.13 every gateway/hour (about ￥ 2,328.72 / per month)</td>
                         <td>2 Gbps</td>
                     </tr>
 					<tr>
                         <td>Ultra High Performance ExpressRoute Gateway</td>
-                        <td>RMB11.91 every gateway/hour (about RMB8,861.04/ per month)</td>
+                        <td>￥ 11.91 every gateway/hour (about ￥ 8,861.04/ per month)</td>
                         <td>9 Gbps</td>
                     </tr>
                     </table>
@@ -111,7 +111,7 @@
                     
                     <h3>Outbound-VNET Data Transfer</h3>
                     <p>Outbound data between two virtual networks in one area: free</p>
-                    <p>Outbound data between virtual networks in two different areas (East China Data Center and North China Data Center): RMB0.16/GB</p>
+                    <p>Outbound data between virtual networks in two different areas (East China Data Center and North China Data Center): ￥ 0.16/GB</p>
                     <!-- END: Table3-Content--> <!-- BEGIN: Table4-Content-->
                     
                     <h3>Outgoing P2S (point-to-site) VPN data transfer</h3>
@@ -209,7 +209,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-vpn-gateway</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Network, Virtual Network, Azure VPN Gateway, Virtual Private Network, Site-to-Site, VPN, IP Address, DNS, Ipsec and ExpressRoute</metaKeywords>
-    <metaDescription><![CDATA[About pricing details for the Azure VPN Gateway. The VPN Gateway can connect the basic structure to the cloud. It’s free for setting up virtual networks. The VPN Gateway can provide different pricing for the Basic, Standard, and Premium VPN Gateway or ExpressRoute Gateway. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[About pricing details for the Azure VPN Gateway. The VPN Gateway can connect the basic structure to the cloud. It’s free for setting up virtual networks. The VPN Gateway can provide different pricing for the Basic, Standard, and Premium VPN Gateway or ExpressRoute Gateway. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - VPN Gateway</urlDisplayName>
   </TextpageLeftNav>
 </localize>

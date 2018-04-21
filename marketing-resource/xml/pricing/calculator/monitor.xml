@@ -30,7 +30,7 @@
                         <div class="total">
                             Total price
                             <p>
-                                <span class="num">RMB0.00</span> <span class="unit">/month</span>
+                                <span class="num">￥ 0.00</span> <span class="unit">/month</span>
                             </p>
                         </div>
                         <div class="btn-group">
@@ -84,7 +84,7 @@
                     </li>
                     <% }) %>
                     <% if(shopingList.length == 0){ %>
-                    <span class="nothing">您还没有选择要估算价格的服务，调整左边数量进行添加</span>
+                    <span class="nothing">You haven’t yet selected your price estimation service. Please add it by adjusting the amount on the left-hand side.</span>
                     <% } %>
                 </script>
                 <!-- end calculator shopinglist template --> <!-- start calculator animation layer -->

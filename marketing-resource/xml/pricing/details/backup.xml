@@ -36,15 +36,15 @@
                         </tr>
                         <tr>
                             <td>Instances with 0 to 50 GB (including 50 GB) of data</td>
-                            <td>RMB31.65/protected instance + storage used</td>
+                            <td>￥ 31.65/protected instance + storage used</td>
                         </tr>
                         <tr>
                             <td>Instances with 50 GB to 500 GB (including 500 GB) of data</td>
-                            <td>RMB63.29/protected instance + storage used</td>
+                            <td>￥ 63.29/protected instance + storage used</td>
                         </tr>
                         <tr>
                             <td>Instances with more than 500 GB of data</td>
-                            <td>Increments of RMB63.29 every 500 GB + storage used</td>
+                            <td>Increments of ￥ 63.29 every 500 GB + storage used</td>
                         </tr>
                     </table>
                 </div>
@@ -97,39 +97,39 @@
                                     <table cellpadding="0" cellspacing="0" width="100%">
                                         <tr>
                                             <th align="left"><strong>Size of protected instances (GB)</strong></th>
-                                            <th align="left"><strong>AZURE Backup price per GB (RMB)</strong></th>
-                                            <th align="left"><strong>Saving on costs with the new pricing and usage of LRS Block BLOB storage (RMB)</strong></th>
-                                            <th align="left"><strong>Saving on costs with the new pricing and usage of GRS Block BLOB storage (RMB)</strong></th>
+                                            <th align="left"><strong>AZURE Backup price per GB (￥ )</strong></th>
+                                            <th align="left"><strong>Saving on costs with the new pricing and usage of LRS Block BLOB storage (￥ )</strong></th>
+                                            <th align="left"><strong>Saving on costs with the new pricing and usage of GRS Block BLOB storage (￥ )</strong></th>
                                         </tr>
                                         <tr>
                                             <td>50</td>
-                                            <td>RMB60</td>
-                                            <td>RMB63 (-5%)</td>
-                                            <td>RMB83.5 (-39%)</td>
+                                            <td>￥ 60</td>
+                                            <td>￥ 63 (-5%)</td>
+                                            <td>￥ 83.5 (-39%)</td>
                                         </tr>
                                         <tr>
                                             <td>100</td>
-                                            <td>RMB120</td>
-                                            <td>RMB126 (-5%)</td>
-                                            <td>RMB167 (-39%)</td>
+                                            <td>￥ 120</td>
+                                            <td>￥ 126 (-5%)</td>
+                                            <td>￥ 167 (-39%)</td>
                                         </tr>
                                         <tr>
                                             <td>250</td>
-                                            <td>RMB300</td>
-                                            <td>RMB187.5 (38%)</td>
-                                            <td>RMB290 (3%)</td>
+                                            <td>￥ 300</td>
+                                            <td>￥ 187.5 (38%)</td>
+                                            <td>￥ 290 (3%)</td>
                                         </tr>
                                         <tr>
                                             <td>500</td>
-                                            <td>RMB600</td>
-                                            <td>RMB290 (52%)</td>
-                                            <td>RMB495 (18%)</td>
+                                            <td>￥ 600</td>
+                                            <td>￥ 290 (52%)</td>
+                                            <td>￥ 495 (18%)</td>
                                         </tr>
                                         <tr>
                                             <td>1000</td>
-                                            <td>RMB1,200</td>
-                                            <td>RMB580 (52%)</td>
-                                            <td>RMB990 (18%)</td>
+                                            <td>￥ 1,200</td>
+                                            <td>￥ 580 (52%)</td>
+                                            <td>￥ 990 (18%)</td>
                                         </tr>
                                     </table>
                                 </section>
@@ -146,7 +146,7 @@
                             <div>
                                 <a id="Backup_price_question6">What are protected instances? </a>
                                 <section>
-                                    <p>Protected instances refer to the billing units used in Azure Backup. The software overhead is charged according to the size of the protected computers (also called “size of front-end”). Therefore, larger protected instances mean more expenses charged to customers. For instance, if a document server with a volume of 2,200 GB is protected in Azure Backup, customers are charged RMB316.45/month (2,200 GB/500 GB = 4.4, rounded to 5 in increments of 500 GB , with each increment charged RMB63.29).</p>
+                                    <p>Protected instances refer to the billing units used in Azure Backup. The software overhead is charged according to the size of the protected computers (also called “size of front-end”). Therefore, larger protected instances mean more expenses charged to customers. For instance, if a document server with a volume of 2,200 GB is protected in Azure Backup, customers are charged ￥ 316.45/month (2,200 GB/500 GB = 4.4, rounded to 5 in increments of 500 GB , with each increment charged ￥ 63.29).</p>
                                 </section>
                             </div>
                         </li>
@@ -157,7 +157,7 @@
                                 <section>
                                     <p>There are three types:</p>
                                     <ul>
-                                        <li>Virtual Machines: can be Hyper-V virtual machines</li>
+                                        <li>Virtual machines: can be Hyper-V virtual machines</li>
                                         <li>Windows or Linux server computers: can be physical host computers or guest virtual machines. These computers generally have some applications requiring backup or some running workloads. The common workloads include: document server roles for Microsoft SQL Server, Microsoft Exchange, Microsoft SharePoint, Microsoft Dynamics, and Windows Server.</li>
                                         <li>Windows Client Computers</li>
                                     </ul>
@@ -223,7 +223,7 @@
                             <div>
                                 <a id="Backup_price_question10">What should I do if my protected instances are very small?</a>
                                 <section>
-                                     <p>We provide layers of smaller scale, which are an ideal option for small-scale servers and client computers. If the front-end size of the protected instance is less than 50 GB, the instance belongs to the minimum price layer of RMB31.65/month.</p>
+                                     <p>We provide layers of smaller scale, which are an ideal option for small-scale servers and client computers. If the front-end size of the protected instance is less than 50 GB, the instance belongs to the minimum price layer of ￥ 31.65/month.</p>
                                 </section>
                             </div>
                         </li>
@@ -346,7 +346,7 @@
                                             <td>1 Windows host computer</td>
                                             <td>Windows Server 2012 (documents/folders backup)</td>
                                             <td>300 GB</td>
-                                            <td>RMB63.29/month</td>
+                                            <td>￥ 63.29/month</td>
                                         </tr>
                                         <tr>
                                             <td>3 Windows host computers</td>
@@ -363,32 +363,32 @@
                                             <td>
                                                 RMB126.58/month<br>
                                                 RMB189.87/month<br>
-                                                RMB63.29/month
+                                                ￥ 63.29/month
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>1 Windows client computer</td>
                                             <td>Windows 8.1 (documents/folders backup)</td>
                                             <td>25 GB</td>
-                                            <td>RMB31.65/month</td>
+                                            <td>￥ 31.65/month</td>
                                         </tr>
                                         <tr>
                                             <td>1 Hyper-V Virtual Machine</td>
                                             <td>Virtual Machine backup</td>
                                             <td>30 GB</td>
-                                            <td>RMB31.65/month</td>
+                                            <td>￥ 31.65/month</td>
                                         </tr>
                                         <tr>
                                             <td>1 Windows guest computer</td>
                                             <td>Windows Server 2012 (documents/folders backup)</td>
                                             <td>120 GB</td>
-                                            <td>RMB63.29/month</td>
+                                            <td>￥ 63.29/month</td>
                                         </tr>
                                         <tr>
                                             <td>1 Windows guest computer</td>
                                             <td>Microsoft SQL Server (independent)</td>
                                             <td>600 GB</td>
-                                            <td>RMB126.58/month</td>
+                                            <td>￥ 126.58/month</td>
                                         </tr>
                                         <tr>
                                             <td>3 Windows guest computers</td>
@@ -406,7 +406,7 @@
                                                 <br>
                                             </td>
                                             <td>
-                                                RMB63.29/month+<br>RMB63.29/month+<br>RMB31.65/month<br/>
+                                                ￥ 63.29/month+<br>￥ 63.29/month+<br>￥ 31.65/month<br/>
                                                 <span>Note: if the databases move around in the cluster, the size of the backup is used for calculation</span>
                                             </td>
                                         </tr>
@@ -428,7 +428,7 @@
                             <div>
                                 <a id="backup_price_dpm2">I have a Microsoft SQL Server Virtual Machine with 250 GB of data. How will I be billed for Azure Backup?</a>
                                 <section>
-                                   <p>For a SQL Server database of a protected size of 250 GB in Azure Backup, the SQL Server is taken as the protected instance. As the size of the protected instance is larger than 50 GB but smaller than 500 GB, RMB63.29 is charged. If the virtual machine is also backed up in Azure Backup, it will be counted as another protected instance. Because the size of the virtual machine is smaller than 500 GB, RMB63.29 is charged. </p>
+                                   <p>For a SQL Server database of a protected size of 250 GB in Azure Backup, the SQL Server is taken as the protected instance. As the size of the protected instance is larger than 50 GB but smaller than 500 GB, ￥ 63.29 is charged. If the virtual machine is also backed up in Azure Backup, it will be counted as another protected instance. Because the size of the virtual machine is smaller than 500 GB, ￥ 63.29 is charged. </p>
                                    <p>Note: Virtual machine backup and workload backup (running in a virtual machine) are charged independently</p>
                                 </section>
                             </div>
@@ -462,7 +462,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-back-up</linkid>
     <metaKeywords>Azure, Backup, data, prices, pricing</metaKeywords>
-    <metaDescription><![CDATA[Learn more about the pricing details for Azure Backup. Azure Backup is a reliable, low-cost, and scalable solution, allowing for backup of local data into the cloud. Without any capital investment, you can protect your key business data with the lowest operating expenses. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[Learn more about the pricing details for Azure Backup. Azure Backup is a reliable, low-cost, and scalable solution, allowing for backup of local data into the cloud. Without any capital investment, you can protect your key business data with the lowest operating expenses. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing details - Backup</urlDisplayName>
   </TextpageLeftNav>
 </localize>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <localize>
   <umbTextpage id="18482" parentID="12022" level="3" writerID="106" creatorID="94" nodeType="1059" template="8" sortOrder="0" createDate="2013-05-05T16:51:50" updateDate="2014-11-11T02:23:53" nodeName="Overview" urlName="overview" writerName="content" creatorName="xunfan" path="-1,11978,12022,18482" isDoc="">
     <bodyText><![CDATA[
@@ -26,7 +26,7 @@
 						<div class="item col-md-4">
 							<div class="icon_hook"><i class="icon icon-tick"></i></div>
 							<h2 class="word1">A low PIA threshold</h2>
-							<div class="word2 home-p">Pay just RMB1,000 in advance to fully enjoy all services</div>
+							<div class="word2 home-p">Pay just ￥ 1,000 in advance to fully enjoy all services</div>
 						</div>
 						<div class="item col-md-4">
 							<div class ="icon_hook"><i class="icon icon-tick"></i></div>
@@ -45,7 +45,7 @@
 						<h2 class="word1">VM price reduction</h2>
 
 						<h2 class="word2">
-							Starting from RMB<b>0.11</b>/hour
+							Starting from ￥ <b>0.11</b>/hour
 						</h2>
 						<a href="/pricing/pia/" id="pricing_overview_jiangjia" class="home-link-2">
 							<div class="word3 price_btn">
@@ -73,7 +73,7 @@
 							<h2 class="row1" style="font-weight:400">Virtual Machines</h2>
 							<div class="row2"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/HomePage/product-vm.png" /></div>
 							<div class="row3">
-								<span class="bold_">Starting from RMB0.11</span>/hour<br>
+								<span class="bold_">Starting from ￥ 0.11</span>/hour<br>
 								Three types of virtual machines operating systems
 							</div>
 
@@ -100,7 +100,7 @@
 							<h2 class="row1" style="font-weight:400">Cloud Services</h2>
 							<div class="row2"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/HomePage/product-cloud.png" /></div>
 							<div class="row3">
-								<span class="bold_">Starting from RMB0.11</span>/hour<br>
+								<span class="bold_">Starting from ￥ 0.11</span>/hour<br>
 								A/D series selection
 							</div>
 
@@ -127,7 +127,7 @@
 							<h2 class="row1" style="font-weight:400">Storage</h2>
 							<div class="row2"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/HomePage/product-storage.png" /></div>
 							<div class="row3">
-								<span class="bold_">Starting from RMB0.33</span>/GB/month<br>
+								<span class="bold_">Starting from ￥ 0.33</span>/GB/month<br>
 								Four categories and three levels of redundancy to select from
 							</div>
 
@@ -154,7 +154,7 @@
 							<h2 class="row1" style="font-weight:400">Virtual Network</h2>
 							<div class="row2"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/HomePage/product-vnetwork.png" /></div>
 							<div class="row3">
-								<span class="bold_">Starting from RMB0.25</span>/gateway hour<br>
+								<span class="bold_">Starting from ￥ 0.25</span>/gateway hour<br>
 								Two types of VPN Gateways
 							</div>
 
@@ -331,7 +331,7 @@
     <umbracoNaviHide>0</umbracoNaviHide>
     <pageTitle>Comprehensive Azure Cloud Products Pricing Calculator - Azure Cloud Computing</pageTitle>
     <metaKeywords>Azure, Fixed Price, Pricing, Pricing Calculator</metaKeywords>
-    <metaDescription><![CDATA[After April 1, 2016, Azure product prices will undergo a complete price adjustment, with both excellent price offers and excellent service. A 1RMB Trial will get you RMB1,500 of service credits. Become an Azure Pay-in-Advance client and enjoy a 99.99% Service Level Agreement. You can rapidly deploy infrastructure and services to fully meet all of your enterprise needs, assisting you in reducing operational costs and allowing you to concentrate on your core business. ]]></metaDescription>
+    <metaDescription><![CDATA[After April 1, 2016, Azure product prices will undergo a complete price adjustment, with both excellent price offers and excellent service. A 1RMB Trial will get you ￥ 1,500 of service credits. Become an Azure Pay-in-Advance client and enjoy a 99.99% Service Level Agreement. You can rapidly deploy infrastructure and services to fully meet all of your enterprise needs, assisting you in reducing operational costs and allowing you to concentrate on your core business. ]]></metaDescription>
     <linkid>pricing-overview</linkid>
     <urlDisplayName>Overview</urlDisplayName>
     <headerExpose></headerExpose>

@@ -30,7 +30,7 @@
                         <div class="total">
                             Total price
                             <p>
-                                <span class="num">RMB0.00</span> <span class="unit">/month</span>
+                                <span class="num">￥ 0.00</span> <span class="unit">/month</span>
                             </p>
                         </div>
                         <div class="btn-group">                            <a class="calcul-btn buy" href="/pricing/pia/" id="sidebarWinCalculBuy">Go to purchase</a> <a class="calcul-btn-white export" href="#" id="sidebarWinCalculExport">Export list</a> <a class="calcul-btn-white reset" href="#" id="sidebarWinCalculReset">Reset</a>
@@ -101,7 +101,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-calculator-virtual-machines</linkid>
     <metaKeywords>Virtual Machines, Virtual Machines, select type, configuration level, data transfer, estimate</metaKeywords>
-    <metaDescription><![CDATA[Estimate the Azure Virtual Machines usage costs for your solution. You can select whatever services are required, along with their different types, levels, configurations, and instances. You can view the unit price and total price easily and estimate the required costs. You can also export lists for easy quotes. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
+    <metaDescription><![CDATA[Estimate the Azure Virtual Machines usage costs for your solution. You can select whatever services are required, along with their different types, levels, configurations, and instances. You can view the unit price and total price easily and estimate the required costs. You can also export lists for easy quotes. A 1 RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer.]]></metaDescription>
     <urlDisplayName>Pricing Calculator - Virtual Machines</urlDisplayName>
   </TextpageLeftNav>
 </localize>
