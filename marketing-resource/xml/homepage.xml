@@ -1,7 +1,7 @@
-<!--?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <localize>
   <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2014-11-11T02:51:30" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
-    <bodyText><![CDATA[-->
+    <bodyText><![CDATA[
       
 	<style type="text/css">
 		.homePageMain .buying_row{
@@ -118,8 +118,8 @@
 						<a target="_blank" id="bannerBtn_0_azure-hdinsight" href="/pricing/details/hdinsight/" class="background container" rel="nofollow">
 							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure-hdinsight-d-drop_slice_banner.png">
 							<div class="banner-content">
-
-							Azure HDInsight D-Series Price Cut
+								<div class="banner-title device-desktop-banner">
+									Azure HDInsight D-Series Price Cut
 								</div>
 								<div class="banner-title device-mobile-banner">
 									Azure HDInsight D-Series Price Cut
