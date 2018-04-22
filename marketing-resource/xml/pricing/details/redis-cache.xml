@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/azure-redis-cache@2x.png" />
-                        <h2><span>Redis Cache</span></h2>
+                        <h2>Redis Cache</h2>
                         <h4>A type of premium key-value storage service which can rapidly provide assistance in scaling Azure apps.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_redis_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_redis_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -102,7 +102,7 @@
                         </tr>
                         <tr>
                             <td style="min-width:100px;">
-                                Redis Data Retention
+                                Redis Data Persistence
                             </td>
                             <td style="min-width:100px;">
                                 -
@@ -130,7 +130,7 @@
                         </tr>
                         <tr>
                             <td style="min-width:100px;">
-                                Expanded to multiple cache units
+                                Scale out to multiple cache units
                             </td>
                             <td style="min-width:100px;">
                                 -
@@ -227,7 +227,7 @@
                                 250 MB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 0.14/hour (about RMB 104.16 /month)
+                                ¥ 0.14/hour (about ¥ 104.16 /month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Low
@@ -244,7 +244,7 @@
                                 1 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 0.35/hour (about RMB 260.40 /month)
+                                ¥ 0.35/hour (about ¥ 260.40 /month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Low
@@ -261,10 +261,10 @@
                                 2.5 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 0.57/hour (about RMB 424.08/month)
+                                ¥ 0.57/hour (about ¥ 424.08/month)
                             </td>
                             <td style="padding-left: 80px;">
-                                Medium
+                                Moderate
                             </td>
                             <td style="padding-left: 80px;">
                                 2000
@@ -278,10 +278,10 @@
                                 6 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 1.14/hour (about RMB 848.16/month)
+                                ¥ 1.14/hour (about ¥ 848.16/month)
                             </td>
                             <td style="padding-left: 80px;">
-                                Medium
+                                Moderate
                             </td>
                             <td style="padding-left: 80px;">
                                 5000
@@ -295,10 +295,10 @@
                                 13 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 1.33/hour (about RMB 989.52/month)
+                                ¥ 1.33/hour (about ¥ 989.52/month)
                             </td>
                             <td style="padding-left: 80px;">
-                                Medium
+                                Moderate
                             </td>
                             <td style="padding-left: 80px;">
                                 10000
@@ -312,7 +312,7 @@
                                 26 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 2.66/hour (about RMB 1,979.04/month)
+                                ¥ 2.66/hour (about ¥ 1,979.04/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 High
@@ -329,7 +329,7 @@
                                 53 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 5.31/hour (about RMB 3,950.64/month)
+                                ¥ 5.31/hour (about ¥ 3,950.64/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Highest
@@ -363,7 +363,7 @@
                                 250 MB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 0.35/hour (about RMB 260.40 /month)
+                                ¥ 0.35/hour (about ¥ 260.40 /month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Low
@@ -380,7 +380,7 @@
                                 1 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 0.87/hour (about RMB 647.28 /month)
+                                ¥ 0.87/hour (about ¥ 647.28 /month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Low
@@ -397,10 +397,10 @@
                                 2.5 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 1.42/hour (about RMB 1,056.48 /month)
+                                ¥ 1.42/hour (about ¥ 1,056.48 /month)
                             </td>
                             <td style="padding-left: 80px;">
-                                Medium
+                                Moderate
                             </td>
                             <td style="padding-left: 80px;">
                                 2000
@@ -414,10 +414,10 @@
                                 6 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 2.85/hour (about RMB 2,120.40 /month)
+                                ¥ 2.85/hour (about ¥ 2,120.40 /month)
                             </td>
                             <td style="padding-left: 80px;">
-                                Medium
+                                Moderate
                             </td>
                             <td style="padding-left: 80px;">
                                 5,000
@@ -431,10 +431,10 @@
                                 13 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 3.32/hour (about RMB 2,470.08 /month)
+                                ¥ 3.32/hour (about ¥ 2,470.08 /month)
                             </td>
                             <td style="padding-left: 80px;">
-                                Medium
+                                Moderate
                             </td>
                             <td style="padding-left: 80px;">
                                 10,000
@@ -448,7 +448,7 @@
                                 26 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 6.64/hour (about RMB 4,940.16 /month)
+                                ¥ 6.64/hour (about ¥ 4,940.16 /month)
                             </td>
                             <td style="padding-left: 80px;">
                                 High
@@ -465,7 +465,7 @@
                                 53 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 13.28/hour (about RMB 9,880.32 /month)
+                                ¥ 13.28/hour (about ¥ 9,880.32 /month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Highest
@@ -479,7 +479,7 @@
                     <h3>Premium</h3>
                     <p>In addition to all standard level features, the new Premium tier includes even more other features, e.g.: performance superior to basic or standard tier caches, bigger workload, disaster recovery and enhanced security. Other features include:</p>
                     <ul class="ul-price-style ">
-                        <li><a id="" target="_blank" href="">Redis Retention</a> allows you to save data stored in the Redis Cache. You can also obtain screenshots and back up data, so as to upload them in case of failure.</li>
+                        <li><a id="" target="_blank" href="">Redis Persistence</a> allows you to save data stored in the Redis Cache. You can also obtain screenshots and back up data, so as to upload them in case of failure.</li>
                         <li><a id="" target="_blank" href="">Redis Cluster</a> automatically segments data in multiple Redis nodes, thus you can create a workload (bigger than 53 GB) with bigger memory and obtain better performance.</li>
                         <li><a id="home_redia_network" target="_blank" href="/home/features/virtual-network/">Azure Virtual Network (VNet) </a> is deployed to provide enhanced security for Azure Redis Cache, and also offers subnet and access control policies and further limits other access features.</li>
                     </ul>
@@ -504,10 +504,10 @@
                                 6 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 3.72/hour (about RMB 2767.68/month)
+                                ¥ 3.72/hour (about ¥ 2767.68/month)
                             </td>
                             <td style="padding-left: 80px;">
-                                Medium
+                                Moderate
                             </td>
                             <td style="padding-left: 80px;">
                                 7,500
@@ -521,10 +521,10 @@
                                 13 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 7.44/hour (about RMB 5,535.36/month)
+                                ¥ 7.44/hour (about ¥ 5,535.36/month)
                             </td>
                             <td style="padding-left: 80px;">
-                                Medium
+                                Moderate
                             </td>
                             <td style="padding-left: 80px;">
                                 15,000
@@ -538,7 +538,7 @@
                                 26 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 14.88/hour (about RMB 11,070.72/month)
+                                ¥ 14.88/hour (about ¥ 11,070.72/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 High
@@ -555,7 +555,7 @@
                                 53 GB
                             </td>
                             <td style="padding-left: 80px;">
-                                RMB 29.77/hour (about RMB 22,148.88/month)
+                                ¥ 29.77/hour (about ¥ 22,148.88/month)
                             </td>
                             <td style="padding-left: 80px;">
                                 Highest
@@ -644,7 +644,7 @@
     <linkid>pricing-details-redis-cache</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Azure Redis Cache, Azure Redis Cache, Pricing details, pricing, billing</metaKeywords>
     <metaDescription><![CDATA[
-      Learn about the pricing details of Azure Redis Cache (Redis Cache). Azure Redis Cache is divided into Basic, Standard, and Premium tiers. The pricing may vary at different tiers so that customers can select appropriate levels where necessary. A 1RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.
+      Learn about the pricing details of Azure Redis Cache (Redis Cache). Azure Redis Cache is divided into Basic, Standard, and Premium tiers. The pricing may vary at different tiers so that customers can select appropriate levels where necessary. A 1RMB Trial gets you ¥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.
  
     ]]></metaDescription>
     <urlDisplayName>Pricing Details - Redis Cache</urlDisplayName>
