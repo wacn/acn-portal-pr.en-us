@@ -762,7 +762,7 @@
 											alt="">
 							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large"><span>Tutorials</span><i class="icon icon-arrow-right"></i></span></div>
 							<span class="link link-sharp-btn blue large device-mobile-banner"><span>Tutorials</span></span>
-							<p style="">Client scenario analysis, detailed framework analysis and implementation, helping build apps and services on the cloud</p>
+							<p style="">Quickly build your Azure skills and keep them current with the latest training</p>
 						</a>
 						<a class="col-md-4 quickstart-item" href="/what-is-new/" id="homepage_quickstart-what-is-new_2018-April_azure-monitor">
 							<img data-rjs="2" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/hot-topic.png"
@@ -792,7 +792,7 @@
 											<li><a id="homepage-solution_tab_link2" class="menu-title" href="#homepage_solution_tab2" data-toggle="tab"><span>Live streaming and VOD </span><i class="icon icon-arrow-down-sharp"></i></a></li>
 											<li><a id="homepage-solution_tab_link3" class="menu-title" href="#homepage_solution_tab3" data-toggle="tab"><span>SQL Database Backup</span><i class="icon icon-arrow-down-sharp"></i></a></li>
 											<li><a id="homepage-solution_tab_link4" class="menu-title" href="#homepage_solution_tab4" data-toggle="tab"><span>Cognitive Services</span><i class="icon icon-arrow-down-sharp"></i></a></li>
-											<li><a id="homepage-solution_tab_link5" class="menu-title" href="#homepage_solution_tab5" data-toggle="tab"><span>Remote development testing</span><i class="icon icon-arrow-down-sharp"></i></a></li>
+											<li><a id="homepage-solution_tab_link5" class="menu-title" href="#homepage_solution_tab5" data-toggle="tab"><span>Remote dev/test</span><i class="icon icon-arrow-down-sharp"></i></a></li>
 											<li class="active"><a id="homepage-solution_tab_link6" class="menu-title" href="#homepage_solution_tab6" data-toggle="tab"><span>Smart Cloud Conferencing</span><i class="icon icon-arrow-down-sharp"></i></a></li>
 											<li><a id="homepage-solution_tab_link7" class="menu-title" href="#homepage_solution_tab7" data-toggle="tab"><span>WeChat Marketing</span><i class="icon icon-arrow-down-sharp"></i></a></li>
 										</ul>
@@ -831,15 +831,15 @@
 											<div class="menu-child">
 												<h2>1RMB Trial: “Cognitive Services” Face API and WeChat app development solutions</h2>
 												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-cognitive-slice.png" alt="Connected Devices solutions">
-												<p>Combined with wechat app,“Cognitive Services” Face API provided by the 1RMB Trail account rapidly achieve facial recognition app development and testing.</p>
+												<p>Combined with wechat app,“Cognitive Services” Face API provided by the 1RMB Trail account rapidly achieve facial recognition app dev/test.</p>
 												<a id="homepage-solution_tab-content_link4" href="pricing/1rmb-trial-cognitive-services/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
 											</div>
 										</div>
 										<div id="homepage_solution_tab5" class="tab-panel">
 											<div class="menu-child">
-												<h2>1RMB Trial: Automatic service with remote development testing environment management solutions</h2>
-												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-automation-slice.png" alt="Remote development testing">
-												<p>Azure automatic services with virtual machine services provided by the 1RMB Trial account rapidly achieve the construction and life-cycle management of a remote development and testing environment.</p>
+												<h2>1RMB Trial: Automation and remote dev/test environment management solutions</h2>
+												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-automation-slice.png" alt="Remote dev/test">
+												<p>Azure Automation with virtual machine provided in 1RMB Trial package rapidly achieve the construction and life-cycle management of a remote dev/test environment.</p>
 												<a id="homepage-solution_tab-content_link5" href="/pricing/1rmb-trial-development-test/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
 											</div>
 										</div>
@@ -848,9 +848,9 @@
 										
 										<div id="homepage_solution_tab6" class="tab-panel">
 											<div class="menu-child">
-												<h2>1RMB Trial: Smart cloud conferencing solution based on a WeChat Public Accounts</h2>
+												<h2>1RMB Trial: Smart conferencing solution based on WeChat Public Account</h2>
 												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-anrui.png" alt="Smart Cloud Conferencing">
-												<p>Azure resources provided by the 1RMB Trial account, based on Cognitive Services with a WeChat Public Accounts, uses mobile terminals, advanced face API, Azure cloud storage and apps to create a new smart cloud conferencing management platform.</p>
+												<p>Using Azure resources in 1RMB Trial package, Cognitive Services and WeChat Public Account, mobile endpoints, Face API, Azure Storage and App Service to create a smart conferencing management platform.</p>
 												<a id="homepage-solution_tab-content_link6" href="/solutions/wechat-anrui/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
 											</div>
 										</div>
