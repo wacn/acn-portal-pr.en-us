@@ -171,7 +171,7 @@
 							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_the-beauty-and-it-slice-banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
-									Beauty and the IT Beast - open digital transformation course
+									Beauty and the IT Beast - <br/>open digital transformation course
 								</div>
 								<div class="banner-title device-mobile-banner">
 									Beauty and the IT Beast - open digital transformation course
@@ -196,7 +196,7 @@
 							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_dotnet-ebooks-slice-banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
-									Chinese version of .NET application architecture e-book released
+									Chinese version of .NET application architecture <br/>e-book released
 								</div>
 								<div class="banner-title device-mobile-banner">
 									Chinese version of .NET application architecture e-book released
@@ -222,7 +222,7 @@
 							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_cognitive-face-api-drop-slice-banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
-									The Azure Cognitive Services Face Recognition API enjoys a price reduction!
+									Azure Cognitive Services Face Recognition API <br/>enjoys a price reduction!
 								</div>
 								<div class="banner-title device-mobile-banner">
 									The Azure Face Recognition API enjoys a price reduction!
@@ -896,7 +896,8 @@
 								<div class="home-p">Managed relational SQL Database as a service<br/></div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">Starting from ￥1.04</a>
+								<a class="single-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">￥1.04</a>
 								<a class="single-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">/day</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -910,7 +911,8 @@
 								<div class="home-p larger-line">Provision cloud Hadoop, Spark, <br/>R Server, HBase, and Storm clusters</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/hdinsight/" id="homepage_services_pricing_hdinsight">Starting from ￥0.3981</a>
+								<a class="single-link" href="/pricing/details/hdinsight/" id="homepage_services_pricing_hdinsight">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/hdinsight/" id="homepage_services_pricing_hdinsight">￥0.3981</a>
 								<a class="single-link" href="/pricing/details/hdinsight/" id="homepage_services_pricing_hdinsight">/hour</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -925,7 +927,7 @@
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/pricing/details/monitor/" id="homepage_services_pricing1_monitor"></a>
-								<a class="single-link" href="/pricing/details/monitor/" id="homepage_services_pricing_monitor">First 1 million standard API calls free</a>
+								<a class="single-link" href="/pricing/details/monitor/" id="homepage_services_pricing_monitor"><br/>First 1 million standard API calls free</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
@@ -939,7 +941,7 @@
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/pricing/details/ccs/" id="homepage_services1_pricing_ccs"></a>
-								<a class="single-link" href="/pricing/details/ccs/" id="homepage_services_pricing_ccs">Contact your account manager for prices</a>
+								<a class="single-link" href="/pricing/details/ccs/" id="homepage_services_pricing_ccs"><br/>Contact your account manager for prices</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>	
 						</div>
@@ -952,7 +954,8 @@
 								<div class="home-p">Add smart API capabilities to enable <br/>contextual interactions</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/cognitive-services/" id="homepage_services_pricing_cognitive-services">Starting from ￥0.75</a>
+								<a class="single-link" href="/pricing/details/cognitive-services/" id="homepage_services_pricing_cognitive-services">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/cognitive-services/" id="homepage_services_pricing_cognitive-services">￥0.75</a>
 								<a class="single-link" href="/pricing/details/cognitive-services/" id="homepage_services_pricing_cognitive-services">per 1000 transfers</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -968,7 +971,8 @@
 								<div class="home-p">Provision Windows and Linux virtual machines <br/>in seconds</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/virtual-machines/" id="homepage_services_pricing_virutal-machines">Starting from ￥0.11</a>
+								<a class="single-link" href="/pricing/details/virtual-machines/" id="homepage_services_pricing_virtual-machines">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/virtual-machines/" id="homepage_services_pricing_virutal-machines">￥0.11</a>
 								<a class="single-link" href="/pricing/details/virtual-machines/" id="homepage_services_pricing_virutal-machines">/hour</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -981,6 +985,7 @@
 								<div class="home-p">Durable, highly available, and massively <br/>scalable cloud storage</div>
 							</a>
 							<div class="links-box">
+								<a class="single-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage"><br/></a>
 								<a class="home-h2-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage">Free version available</a>
 								<a class="single-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage"></a>
 								<i class="icon icon-arrow-right"></i>
@@ -994,7 +999,8 @@
 								<div class="home-p">Create highly-available, infinitely-scalable <br/>cloud applications and APIs</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/cloud-services/" id="homepage_services_pricing_cloud-services">Starting from ￥0.11</a>
+								<a class="single-link" href="/pricing/details/cloud-services/" id="homepage_services_pricing_cloud-services">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/cloud-services/" id="homepage_services_pricing_cloud-services">￥0.11</a>
 								<a class="single-link" href="/pricing/details/cloud-services/" id="homepage_services_pricing_cloud-services">/hour</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -1008,7 +1014,8 @@
 								<div class="home-p">Managed MySQL database service for <br/>app developers</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/mysql/" id="homepage_services_pricing_mysql">Starting from ￥0.09</a>
+								<a class="single-link" href="/pricing/details/mysql/" id="homepage_services_pricing_mysql">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/mysql/" id="homepage_services_pricing_mysql">￥0.09</a>
 								<a class="single-link" href="/pricing/details/mysql/" id="homepage_services_pricing_mysql">/hour</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -1022,7 +1029,8 @@
 								<div class="home-p">Publish APIs to developers, partners, and<br/>employees securely and at scale</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/api-management/" id="homepage_services_pricing_api-management">Starting from ￥0.2511</a>
+								<a class="single-link" href="/pricing/details/api-management/" id="homepage_services_pricing_api-management">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/api-management/" id="homepage_services_pricing_api-management">￥0.2511</a>
 								<a class="single-link" href="/pricing/details/api-management/" id="homepage_services_pricing_cosmos-db">/hour</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -1038,7 +1046,7 @@
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/pricing/details/network-watcher/" id="homepage_services_pricing_network-watchers"></a>
-								<a class="single-link" href="/pricing/details/network-watcher/" id="homepage_services_pricing_network-watcher">First 1,000 checks free</a>
+								<a class="single-link" href="/pricing/details/network-watcher/" id="homepage_services_pricing_network-watcher"><br/>First 1,000 checks free</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
@@ -1052,7 +1060,8 @@
 								<div class="home-p">Encode, store, and stream video and audio<br/> at scale</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/media-services/" id="homepage_services_pricing_media-services">Starting from ￥0.10</a>
+								<a class="single-link" href="/pricing/details/media-services/" id="homepage_services_pricing_media-services">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/media-services/" id="homepage_services_pricing_media-services">￥0.10</a>
 								<a class="single-link" href="/pricing/details/media-services/" id="homepage_services_pricing_media-services">/minute</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -1067,7 +1076,8 @@
 								<div class="home-p">Enterprise grade analytics engine<br/> as a service</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/analysis-services/" id="homepage_services_pricing_analysis-services">Starting from ￥0.84</a>
+								<a class="single-link" href="/pricing/details/analysis-services/" id="homepage_services_pricing_analysis-services">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/analysis-services/" id="homepage_services_pricing_analysis-services">￥0.84</a>
 								<a class="single-link" href="/pricing/details/analysis-services/" id="homepage_services_pricing_analysis-services">/hour</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -1081,7 +1091,8 @@
 								<div class="home-p">Ensure secure, reliable content delivery with<br/>broad reach</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/cdn/" id="homepage_services_pricing_cdn">Starting from ￥0.20</a>
+								<a class="single-link" href="/pricing/details/cdn/" id="homepage_services_pricing_cdn">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/cdn/" id="homepage_services_pricing_cdn">￥0.20</a>
 								<a class="single-link" href="/pricing/details/cdn/" id="homepage_services_pricing_cdn">/GB</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -1096,7 +1107,8 @@
 								<div class="home-p">Globally distributed, multi-model database<br/> for any scale</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/cosmos-db/" id="homepage_services_pricing_cosmos-db">Starting from ￥0.082</a>
+								<a class="single-link" href="/pricing/details/cosmos-db/" id="homepage_services_pricing_cosmos-db">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/cosmos-db/" id="homepage_services_pricing_cosmos-db">￥0.082</a>
 								<a class="single-link" href="/pricing/details/cosmos-db/" id="homepage_services_pricing_cosmos-db">/hour</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -1110,7 +1122,8 @@
 								<div class="home-p">Embed fully interactive, stunning data visualizations<br/> in your applications</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/power-bi-embedded/" id="homepage_services_pricing_power-bi-embedded">Starting from ￥0.19</a>
+								<a class="single-link" href="/pricing/details/power-bi-embedded/" id="homepage_services_pricing_power-bi-embedded">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/power-bi-embedded/" id="homepage_services_pricing_power-bi-embedded">￥0.19</a>
 								<a class="single-link" href="/pricing/details/power-bi-embedded/" id="homepage_services_pricing_power-bi-embedded">/GB</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -1123,6 +1136,7 @@
 								<div class="home-p">Provision private networks, optionally<br/> connect to on-premises datacenters</div>
 							</a>
 							<div class="links-box">
+								<a class="single-link" href="/pricing/details/virtual-network/" id="homepage_services_pricing_networking"><br/></a>
 								<a class="home-h2-link" href="/pricing/details/virtual-network/" id="homepage_services_pricing_networking">Free</a>
 								<a class="single-link" href="/pricing/details/virtual-network/" id="homepage_services_pricing_networking"></a>
 								<i class="icon icon-arrow-right"></i>
@@ -1136,15 +1150,12 @@
 								<div class="home-p">Quickly create powerful cloud apps for web<br/> and mobile</div>
 							</a>
 							<div class="links-box">
+								<a class="single-link" href="/pricing/details/app-service/" id="homepage_services_pricing_app-service"><br/></a>
 								<a class="home-h2-link" href="/pricing/details/app-service/" id="homepage_services_pricing_app-service">Free version available</a>
 								<a class="single-link" href="/pricing/details/app-service/" id="homepage_services_pricing_app-service"></a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
-						
-		
-						
-						
 						
 						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/virtual-machine-scale-sets/" id="homepage_services_vmss">
@@ -1153,6 +1164,7 @@
 								<div class="home-p">Manage and scale up to thousands of Linux<br/> and Windows virtual machines</div>
 							</a>
 							<div class="links-box">
+								<a class="single-link" href="/pricing/details/virtual-machine-scale-sets/" id="homepage_services_pricing_vmss"><br/></a>
 								<a class="home-h2-link" href="/pricing/details/virtual-machine-scale-sets/" id="homepage_services_pricing_vmss">Free</a>
 								<a class="single-link" href="/pricing/details/virtual-machine-scale-sets/" id="homepage_services_pricing_vmss"></a>
 								<i class="icon icon-arrow-right"></i>
@@ -1166,6 +1178,7 @@
 								<div class="home-p">Cloud-scale job scheduling and compute<br/> management</div>
 							</a>
 							<div class="links-box">
+								<a class="single-link" href="/pricing/details/batch/" id="homepage_services_pricing_batch"></br></a>
 								<a class="home-h2-link" href="/pricing/details/batch/" id="homepage_services_pricing_batch">Free</a>
 								<a class="single-link" href="/pricing/details/batch/" id="homepage_services_pricing_batch"></a>
 								<i class="icon icon-arrow-right"></i>
@@ -1178,6 +1191,7 @@
 								<div class="home-p">Develop microservices and orchestrate<br/> containers on Windows or Linux</div>
 							</a>
 							<div class="links-box">
+								<a class="single-link" href="/pricing/details/service-fabric/" id="homepage_services_pricing_service-fabric"></br></a>
 								<a class="home-h2-link" href="/pricing/details/service-fabric/" id="homepage_services_pricing_service-fabric">Free</a>
 								<a class="single-link" href="/pricing/details/service-fabric/" id="homepage_services_pricing_service-fabric"></a>
 								<i class="icon icon-arrow-right"></i>
@@ -1204,8 +1218,8 @@
 								<div class="home-p">Send push notifications to any platform<br/> from any back end</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/notification-hubs/" id="homepage_services_pricing_notification-hubs">First million notifications free</a>
-								<a class="single-link" href="/pricing/details/notification-hubs/" id="homepage_services_pricing_notification-hubs"></a>
+								<a class="home-h2-link" href="/pricing/details/notification-hubs/" id="homepage_services_pricing_notification-hubs"></a>
+								<a class="single-link" href="/pricing/details/notification-hubs/" id="homepage_services_pricing_notification-hubs"><br/>First million notifications free</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
@@ -1219,7 +1233,8 @@
 								<div class="home-p">Managed relational SQL Database as a service<br/></div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">Starting from ￥1.04</a>
+								<a class="single-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">￥1.04</a>
 								<a class="single-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">/day</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -1234,7 +1249,8 @@
 								<div class="home-p">Power applications with high-throughput,<br/> low-latency data access</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/redis-cache/" id="homepage_services_pricing_redis-cache">Starting from ￥0.14</a>
+								<a class="single-link" href="/pricing/details/redis-cache/" id="homepage_services_pricing_redis-cache">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/redis-cache/" id="homepage_services_pricing_redis-cache">￥0.14</a>
 								<a class="single-link" href="/pricing/details/redis-cache/" id="homepage_services_pricing_redis-cache">/hour</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -1250,7 +1266,8 @@
 								<div class="home-p">Elastic data warehouse as a service with<br/> enterprise-class features</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/sql-data-warehouse/" id="homepage_services_pricing_sql-data-warehouse">Starting from ￥8.05</a>
+								<a class="single-link" href="/pricing/details/sql-data-warehouse/" id="homepage_services_pricing_sql-data-warehouse">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/sql-data-warehouse/" id="homepage_services_pricing_sql-data-warehouse">￥8.05</a>
 								<a class="single-link" href="/pricing/details/sql-data-warehouse/" id="homepage_services_pricing_sql-data-warehouse">/hour</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -1265,7 +1282,8 @@
 								<div class="home-p">Dynamically stretch on-premises SQL Server<br/> databases to Azure</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/sql-server-stretch-database/" id="homepage_services_pricing_sql-server-stretch-database">Starting from ￥22.51</a>
+								<a class="single-link" href="/pricing/details/sql-server-stretch-database/" id="homepage_services_pricing_sql-server-stretch-database">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/sql-server-stretch-database/" id="homepage_services_pricing_sql-server-stretch-database">￥22.51</a>
 								<a class="single-link" href="/pricing/details/sql-server-stretch-database/" id="homepage_services_pricing_sql-server-stretch-database">/hour</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -1282,7 +1300,8 @@
 								<div class="home-p">Real-time data stream processing from<br/> millions of IoT devices</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/stream-analytics/" id="homepage_services_pricing_stream-analytics">Starting from ￥0.01</a>
+								<a class="single-link" href="/pricing/details/stream-analytics/" id="homepage_services_pricing_stream-analytics">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/stream-analytics/" id="homepage_services_pricing_stream-analytics">￥0.01</a>
 								<a class="single-link" href="/pricing/details/stream-analytics/" id="homepage_services_pricing_stream-analytics">/GB</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -1299,7 +1318,7 @@
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/home/features/iot-suite/" id="homepage_services_pricing_azure-iot-suite"></a>
-								<a class="single-link" href="/home/features/iot-suite/" id="homepage_services_pricing_azure-iot-suite">Available to enterprise customers</a>
+								<a class="single-link" href="/home/features/iot-suite/" id="homepage_services_pricing_azure-iot-suite"><br/>Available to enterprise customers</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>							
 						</div>		
@@ -1311,6 +1330,7 @@
 								<div class="home-p">Connect, monitor, and control billions of<br/> IoT assets</div>
 							</a>
 							<div class="links-box">
+								<a class="single-link" href="/pricing/details/iot-hub/" id="homepage_services_pricing_azure-iot-hub"><br/></a>
 								<a class="home-h2-link" href="/pricing/details/iot-hub/" id="homepage_services_pricing_azure-iot-hub">Free</a>
 								<a class="single-link" href="/pricing/details/iot-hub/" id="homepage_services_pricing_azure-iot-hub"></a>
 								<i class="icon icon-arrow-right"></i>
@@ -1323,7 +1343,8 @@
 								<div class="home-p">Receive telemetry from millions of devices<br/></div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/event-hubs/" id="homepage_services_pricing_event-hubs">Starting from ￥0.10</a>
+								<a class="single-link" href="/pricing/details/event-hubs/" id="homepage_services_pricing_event-hubs">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/event-hubs/" id="homepage_services_pricing_event-hubs">￥0.10</a>
 								<a class="single-link" href="/pricing/details/event-hubs/" id="homepage_services_pricing_event-hubs">/hour</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>							
@@ -1336,6 +1357,7 @@
 								<div class="home-p">Deliver high availability and network performance<br/> to your applications</div>
 							</a>
 							<div class="links-box">
+								<a class="single-link" href="/pricing/details/load-balancer/" id="homepage_services_pricing_load-balancer"><br/></a>
 								<a class="home-h2-link" href="/pricing/details/load-balancer/" id="homepage_services_pricing_load-balancer">Free</a>
 								<a class="single-link" href="/pricing/details/load-balancer/" id="homepage_services_pricing_load-balancer"></a>
 								<i class="icon icon-arrow-right"></i>
@@ -1349,7 +1371,8 @@
 								<div class="home-p">Dedicated private network fiber connections<br/> to Azure</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/expressroute/" id="homepage_services_pricing_expressroute">Starting from ￥253.02</a>
+								<a class="single-link" href="/pricing/details/expressroute/" id="homepage_services_pricing_expressroute">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/expressroute/" id="homepage_services_pricing_expressroute">￥253.02</a>
 								<a class="single-link" href="/pricing/details/expressroute/" id="homepage_services_pricing_expressroute">/month</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -1362,13 +1385,11 @@
 								<div class="home-p">Route incoming traffic for high performance<br/> and availability</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/traffic-manager/" id="homepage_services_pricing_traffic-manager">Starting from ￥1.79</a>
+								<a class="single-link" href="/pricing/details/traffic-manager/" id="homepage_services_pricing_traffic-manager">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/traffic-manager/" id="homepage_services_pricing_traffic-manager">￥1.79</a>
 								<a class="single-link" href="/pricing/details/traffic-manager/" id="homepage_services_pricing_traffic-manager">/million queries</a>
 								<i class="icon icon-arrow-right"></i>
-							</div>
-							
-							
-													
+							</div>				
 						</div>
 						
 						<div class="col-md-3 col-xs-6 item-box">
@@ -1378,7 +1399,8 @@
 								<div class="home-p">Establish secure, cross-premises connectivity<br/></div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/vpn-gateway/" id="homepage_services_pricing_vpn-gateway">Starting from ￥0.25</a>
+								<a class="single-link" href="/pricing/details/vpn-gateway/" id="homepage_services_pricing_vpn-gateway">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/vpn-gateway/" id="homepage_services_pricing_vpn-gateway">￥0.25</a>
 								<a class="single-link" href="/pricing/details/vpn-gateway/" id="homepage_services_pricing_vpn-gateway">/gateway/hour</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
@@ -1392,7 +1414,8 @@
 								<div class="home-p">Build secure, scalable, and highly available<br/> web front ends in Azure</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/application-gateway/" id="homepage_services_pricing_application-gateway">Starting from ￥0.16</a>
+								<a class="single-link" href="/pricing/details/application-gateway/" id="homepage_services_pricing_application-gateway">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/application-gateway/" id="homepage_services_pricing_application-gateway">￥0.16</a>
 								<a class="single-link" href="/pricing/details/application-gateway/" id="homepage_services_pricing_application-gateway">/gateway/hour</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>													
@@ -1405,7 +1428,8 @@
 								<div class="home-p">Connect across private and public cloud<br/> environments</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/service-bus/" id="homepage_services_pricing_service-bus">Starting from ￥0.05</a>
+								<a class="single-link" href="/pricing/details/service-bus/" id="homepage_services_pricing_service-bus">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/service-bus/" id="homepage_services_pricing_service-bus">￥0.05</a>
 								<a class="single-link" href="/pricing/details/service-bus/" id="homepage_services_pricing_service-bus">/10,000 messages</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>						
@@ -1418,7 +1442,8 @@
 								<div class="home-p">Simple and reliable server backup to the cloud<br /></div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/backup/" id="homepage_services_pricing_backup">Starting from ￥31.65</a>
+								<a class="single-link" href="/pricing/details/backup/" id="homepage_services_pricing_backup">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/backup/" id="homepage_services_pricing_backup">￥31.65</a>
 								<a class="single-link" href="/pricing/details/backup/" id="homepage_services_pricing_backup">/instance</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>						
@@ -1431,7 +1456,8 @@
 								<div class="home-p">Orchestrate protection and recovery of<br/> private clouds</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/site-recovery/" id="homepage_services_pricing_site-recovery">Starting from ￥101.27</a>
+								<a class="single-link" href="/pricing/details/site-recovery/" id="homepage_services_pricing_site-recovery">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/site-recovery/" id="homepage_services_pricing_site-recovery">￥101.27</a>
 								<a class="single-link" href="/pricing/details/site-recovery/" id="homepage_services_pricing_site-recovery">/month</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>						
@@ -1444,6 +1470,7 @@
 								<div class="home-p">Synchronize on-premises directories and<br/> enable single sign-on</div>
 							</a>
 							<div class="links-box">
+								<a class="single-link" href="/pricing/details/active-directory/" id="homepage_services_pricing_identity"><br/></a>
 								<a class="home-h2-link" href="/pricing/details/active-directory/" id="homepage_services_pricing_identity">Free</a>
 								<a class="single-link" href="/pricing/details/active-directory/" id="homepage_services_pricing_identity"></a>
 								<i class="icon icon-arrow-right"></i>
@@ -1457,6 +1484,7 @@
 								<div class="home-p">Add security for your data and apps<br/> without adding hassles for users</div>
 							</a>
 							<div class="links-box">
+								<a class="single-link" href="/pricing/details/multi-factor-authentication/" id="homepage_services_pricing_multi-factor-authentication"><br/></a>
 								<a class="home-h2-link" href="/pricing/details/multi-factor-authentication/" id="homepage_services_pricing_multi-factor-authentication">Free</a>
 								<a class="single-link" href="/pricing/details/multi-factor-authentication/" id="homepage_services_pricing_multi-factor-authentication"></a>
 								<i class="icon icon-arrow-right"></i>
@@ -1470,6 +1498,7 @@
 								<div class="home-p">Run your jobs on simple or complex<br/> recurring schedules</div>
 							</a>
 							<div class="links-box">
+								<a class="single-link" href="/pricing/details/scheduler/" id="homepage_services_pricing_scheduler"><br/></a>
 								<a class="home-h2-link" href="/pricing/details/scheduler/" id="homepage_services_pricing_scheduler">Free version available</a>
 								<a class="single-link" href="/pricing/details/scheduler/" id="homepage_services_pricing_scheduler"></a>
 								<i class="icon icon-arrow-right"></i>
@@ -1486,6 +1515,7 @@
 								<div class="home-p">Simplify cloud management with</br> process automation</div>
 							</a>
 							<div class="links-box">
+								<a class="single-link" href="/pricing/details/automation/" id="homepage_services_pricing_automation"><br/></a>
 								<a class="home-h2-link" href="/pricing/details/automation/" id="homepage_services_pricing_automation">Free version available</a>
 								<a class="single-link" href="/pricing/details/automation/" id="homepage_services_pricing_automation"></a>
 								<i class="icon icon-arrow-right"></i>
@@ -1498,7 +1528,8 @@
 								<div class="home-p">Safeguard and maintain control of keys<br/> and other secrets</div>
 							</a>
 							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/key-vault/" id="homepage_services_pricing_key-vault">Starting from ￥0.20</a>
+								<a class="single-link" href="/pricing/details/key-vault/" id="homepage_services_pricing_key-vault">Starting from<br/></a>
+								<a class="home-h2-link" href="/pricing/details/key-vault/" id="homepage_services_pricing_key-vault">￥0.20</a>
 								<a class="single-link" href="/pricing/details/key-vault/" id="homepage_services_pricing_key-vault">/10,000 operations</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
