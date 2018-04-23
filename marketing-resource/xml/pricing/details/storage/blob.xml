@@ -9,7 +9,7 @@
 			</div>
 			<div class="pricing-page-section">
                     <h2>Pricing Details</h2>
-					<p>Block Blob Storage is used for stream processing and storing files, videos, pictures, backups and other non-structured documents or binary data. The following are the prices of a private Blob storage account with hot and cold access layers. Extra Blob is also counted by Block Blob. </p>
+					<p>Block Blob Storage is used for stream processing and storing files, videos, pictures, backups and other non-structured documents or binary data. The following are the prices of a private Blob storage account with "hot" and "cool" access tiers. Extra Blob is also counted by Block Blob. </p>
                     <p>To check the price of Block Blob Storage in a general-purpose storage account, please check the <a id="pricing-details-storage-blob_pricing-details-storage" href="/pricing/details/storage/" style="color: #00a8d9;">Block Blob Pricing</a> page.</p>
 					<p><a id="pricing-details-storage-blob_documentation-articles-storage-introduction" href="//docs.azure.cn/storage/storage-introduction/" style="color: #00a8d9;display:inline-block;line-height:26px;margin-left:0">Learn more<i class="icon icon-arrow-right"></i></a></p>
             </div>
@@ -31,31 +31,31 @@
 							</tr>
 							<tr>
 								<td>0 to 1TB<sup>1</sup></td>
-								<td>RMB0.41/GB</td>
-								<td>RMB0.64/GB</td>
-								<td>RMB0.82/GB</td>
-								<td>RMB1.04/GB</td>
+								<td>￥0.41/GB</td>
+								<td>￥0.64/GB</td>
+								<td>￥0.82/GB</td>
+								<td>￥1.04/GB</td>
 							</tr>
 							<tr>
 								<td>1TB to 50 TB</td>
-								<td>RMB0.37/GB</td>
-								<td>RMB054/GB</td>
-								<td>RMB0.74/GB</td>
-								<td>RMB0.94/GB</td>
+								<td>￥0.37/GB</td>
+								<td>￥054/GB</td>
+								<td>￥0.74/GB</td>
+								<td>￥0.94/GB</td>
 							</tr>
 							<tr>
 								<td>More than 50 TB</td>
-								<td>RMB0.33/GB</td>
-								<td>RMB0.50/GB</td>
-								<td>RMB0.66/GB</td>
-								<td>RMB0.83/GB</td>
+								<td>￥0.33/GB</td>
+								<td>￥0.50/GB</td>
+								<td>￥0.66/GB</td>
+								<td>￥0.83/GB</td>
 							</tr>
 						</table>
 						<p><strong><sup>1 </sup></strong>1 TB = 1,024 GB</p>						
                     </ul>
 				 <div class="more-detail">
 				 <p></p>
-				 <h2>Operation and Data Transmission Pricing</h2>
+				 <h2>Operation and Data Transfer Pricing</h2>
 				 <p>The followings prices are the HTTP operation costs of Block Blob data and the costs of retrieving data from Block Blob or writing data into Block Blob.</p>
 					<div class="tags-date">
 						<div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -71,31 +71,31 @@
 						</tr>
 						<tr>
 							<td>Writes (per 10,000 counted)</td>
-							<td align="left">RMB0.045</td>					   
-							<td align="left">RMB0.045</td>					   
-							<td align="left">RMB0.09</td>					   
-							<td align="left">RMB0.09</td>					   
+							<td align="left">￥0.045</td>					   
+							<td align="left">￥0.045</td>					   
+							<td align="left">￥0.09</td>					   
+							<td align="left">￥0.09</td>					   
 						</tr>					
 						<tr>
 							<td>List and create container operations (per 10,000 counted)</td>
-							<td align="left">RMB0.045</td>
-							<td align="left">RMB0.045</td>
-							<td align="left">RMB0.045</td>
-							<td align="left">RMB0.045</td>					   
+							<td align="left">￥0.045</td>
+							<td align="left">￥0.045</td>
+							<td align="left">￥0.045</td>
+							<td align="left">￥0.045</td>					   
 						</tr>
 						<tr>
 							<td>Reads (per 10,000 counted)</td>
-							<td align="left">RMB0.015</td>
-							<td align="left">RMB0.015</td>						   
-							<td align="left">RMB0.015</td>						   
-							<td align="left">RMB0.015</td>						   
+							<td align="left">￥0.015</td>
+							<td align="left">￥0.015</td>						   
+							<td align="left">￥0.015</td>						   
+							<td align="left">￥0.015</td>						   
 						</tr>
 						<tr>
 							<td>All other operations (per 10,000 counted)</td>
-							<td align="left">RMB0.015</td>
-							<td align="left">RMB0.015</td>						   
-							<td align="left">RMB0.015</td>						   
-							<td align="left">RMB0.015</td>						   
+							<td align="left">￥0.015</td>
+							<td align="left">￥0.015</td>						   
+							<td align="left">￥0.015</td>						   
+							<td align="left">￥0.015</td>						   
 						</tr>
 						<tr>
 							<td>Data retrieval</td>
@@ -129,11 +129,11 @@
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <!-- <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />                                                                        --> <!--END: Support and service code chunk-->                         
     
     ]]></bodyText>
-    <pageTitle>Pricing Details - Blob Storage – Block Blob | Azure Cloud Computing</pageTitle>
+    <pageTitle>Pricing Details - Block Blob Storage - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-storage-blob</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Azure Cloud Computing, Blob Storage – Block Blob, pricing details, pricing, billing</metaKeywords>
     <metaDescription><![CDATA[Learn the pricing details - storage - Block (Blob Storage – Block Blob) pricing details. Provide Block Blob - storage pricing and Block Blob - visit relevant pricing quotes.]]></metaDescription>
-    <urlDisplayName>Pricing Details - Storage - Block</urlDisplayName>
+    <urlDisplayName>Pricing Details - Storage - Block Blob</urlDisplayName>
   </TextpageLeftNav>
 </localize>

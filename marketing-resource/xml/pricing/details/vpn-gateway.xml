@@ -8,15 +8,15 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/vpn-gateway@2x.png" />
-                        <h2><span>VPN Gateway</span></h2>
-                        <h4>Can link your infrastructure to the cloud, creating secure cross-boundary linkages.</h4>
+                        <h2>VPN Gateway<!--span>VPN Gateway</span--></h2>
+                        <h4>Connecting your infrastructure to the cloud</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_vpn_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vpn_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>You can establish a safe crossover connection in virtual networks between Azure and a local IT infrastructure through the Azure VPN Gateway.</p>
+                <p>Azure VPN Gateway enables you to establish secure, cross-premises connectivity between your virtual network within Azure and on-premises IT infrastructure.</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
@@ -25,7 +25,7 @@
                     <!-- BEGIN: Table1-Content-->
                     <h2>Pricing Details</h2>
                     <h3>VPN Gateway</h3>
-                    <p>Setting up the virtual network is free. However, we will charge for the VPN Gateway connected to the virtual networks at local and Azure. This fee is based on the configurations and time providing the gateway.</p>
+                    <p>Setting up the virtual network is free. However, we will charge for the VPN Gateway that connects to on-premises and other virtual networks in Azure. This charge is based on the amount of time that gateway is provisioned and available.</p>
                    
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -92,31 +92,31 @@
                         <td>1 Gbps</td>
                     </tr>
                     <tr>
-                        <td>High-performance ExpressRoute Gateway</td>
+                        <td>High Performance ExpressRoute Gateway</td>
                         <td>￥3.13 every gateway/hour (about ￥2,328.72 / per month)</td>
                         <td>2 Gbps</td>
                     </tr>
 					<tr>
-                        <td>Ultra High Performance ExpressRoute Gateway</td>
+                        <td>Ultra Performance ExpressRoute Gateway</td>
                         <td>￥11.91 every gateway/hour (about ￥8,861.04/ per month)</td>
                         <td>9 Gbps</td>
                     </tr>
                     </table>
                     <p>For technical specifications and limits for different VPN Gateways, please refer to the <a id="Virtual_Network_price_vpn" style="color: #00a8d9;" href="https://docs.azure.cn/vpn-gateway/vpn-gateway-about-vpngateways/" target="_blank">Information on VPN Gateways</a>, and provide the following discounts for Inter-VNET charges (previously, it was charged according to the standard <a id="Virtual_Network_price_sjcs" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a> rate).</p>
                     <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
-                    <h3>Inter-VNET Data Transfer</h3>
-                    <p>Inbound data between two virtual networks in one area: free</p>
-                    <p>Inbound data between virtual networks in two different areas (East China Data Center and North China Data Center): free</p>
+                    <h3>Inbound Inter-virtual network data transfers</h3>
+                    <p>data going in between two virtual networks in one region: free</p>
+                    <p>data going in between two virtual networks in different regions (East China Data Center and North China Data Center): free</p>
                     <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
                     
-                    <h3>Outbound-VNET Data Transfer</h3>
-                    <p>Outbound data between two virtual networks in one area: free</p>
-                    <p>Outbound data between virtual networks in two different areas (East China Data Center and North China Data Center): ￥0.16/GB</p>
+                    <h3>Outbound Inter-virtual network data transfers</h3>
+                    <p>data going out between two virtual networks in one region: free</p>
+                    <p>data going out between two virtual networks in different regions (East China Data Center and North China Data Center): ￥0.16/GB</p>
                     <!-- END: Table3-Content--> <!-- BEGIN: Table4-Content-->
                     
-                    <h3>Outgoing P2S (point-to-site) VPN data transfer</h3>
-                    <p>(That is, data is transferred out of the Azure virtual network through P2S VPN):</p>
-                    <p>The data transferred out of the Azure virtual network through the P2S VPN will be charged in accordance with standard <a id="Virtual_Network_price_sjcs1" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a> rates.</p>
+                    <h3>Outbound P2S (Point-to-Site) VPN data transfer</h3>
+                    <p>(ie., data going out Azure virtual network through P2S VPN):</p>
+                    <p>data transferred out of Azure virtual network through the P2S VPNs will be charged in accordance with standard <a id="Virtual_Network_price_sjcs1" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a> rates.</p>
                     <!-- END: Table4-Content-->
                 </div>
                 <!-- END: TAB-CONTAINER-1 -->
@@ -143,7 +143,7 @@
                             <div>
                                 <a id="Virtual_Network_vpn-connection">Will the data transfer in the VPN connection be charged separately?</a>
                                 <section>
-                                    <p>Yes. Data transfer between two virtual networks is charged at the Inter-VNET rates listed above. And other data transfer with your local site or normal Internet site through VPN connection is charged separately in accordance with standard <a id="Virtual_Network_price_sjcs2" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a> rates.</p>
+                                    <p>Yes. Data transfer between two virtual networks is charged at the Inter-VNET rates listed above. And other data transfers over VPN connections to your on-premises site or internet site in general are charged separately in accordance with standard <a id="Virtual_Network_price_sjcs2" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a> rates.</p>
                                 </section>
 
                             </div>
@@ -151,7 +151,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Virtual_Network_data-transmission"> Is the Inter-VNET transfer charged at the rates of the source region or the target region? </a>
+                                <a id="Virtual_Network_data-transmission"> Is the Inter-VNET transfer charged at the rates of the source region or the destination region? </a>
                                 <section>
                                     <p>It is similar to the standard data transfer charge, and Inter-VNET data transfer is charged at the rates of the source region.</p>
                                 </section>
@@ -163,7 +163,7 @@
                             <div>
                                 <a id="Virtual_Network_same-area">Will a Inter-VNET data transfer in the same region be charged? </a>
                                 <section>
-                                    <p>No, it will not. It is similar to the standard data transfer charge, and Inter-VNET data transfer is charged at the rates of the source region, except P2S VPN.</p>
+                                    <p>No, it will not. Only data transfer between two different regions will be charged, except with P2S VPNs.</p>
                                 </section>
 
                             </div>
@@ -205,7 +205,7 @@
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                            
     
     ]]></bodyText>
-    <pageTitle>VPN Gateway Pricing - Azure Cloud Computing</pageTitle>
+    <pageTitle>VPN Gateway Pricing Details - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-vpn-gateway</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Network, Virtual Network, Azure VPN Gateway, Virtual Private Network, Site-to-Site, VPN, IP Address, DNS, Ipsec and ExpressRoute</metaKeywords>
