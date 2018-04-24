@@ -8,7 +8,7 @@
 			background-color: #fab300;
 		}
 		.homePageMain .buying_row.festival{
-			background-image:url(//resource.cdn.azure.cn/marketing-resource/media/images/homepage/1￥-trial-slice-01.png);	
+			background-image:url(//resource.cdn.azure.cn/marketing-resource/media/images/homepage/1RMB-trial-slice-01.png);	
 		}
 
 		@media only screen and (max-width: 981px)
@@ -18,7 +18,7 @@
 		} 
 
 		.homePageMain .buying_row.festival {
-		 background-image: url(//resource.cdn.azure.cn/marketing-resource/media/images/homepage/1￥-trial-slice-01.png); 
+		 background-image: url(//resource.cdn.azure.cn/marketing-resource/media/images/homepage/1RMB-trial-slice-01.png); 
 		 background-size: contain;
 		} 
 
@@ -925,7 +925,7 @@
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/pricing/details/monitor/" id="homepage_services_pricing1_monitor"></a>
-								<a class="single-link" href="/pricing/details/monitor/" id="homepage_services_pricing_monitor"><br/>First 1 million standard API calls free</a>
+								<a class="single-link" href="/pricing/details/monitor/" id="homepage_services_pricing_monitor">First 1 million<br/>standard API calls free</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
@@ -939,7 +939,7 @@
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/pricing/details/ccs/" id="homepage_services1_pricing_ccs"></a>
-								<a class="single-link" href="/pricing/details/ccs/" id="homepage_services_pricing_ccs"><br/>Contact your account manager for prices</a>
+								<a class="single-link" href="/pricing/details/ccs/" id="homepage_services_pricing_ccs">For prices, contact your<br/>account manager</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>	
 						</div>
@@ -954,7 +954,7 @@
 							<div class="links-box">
 								<a class="single-link" href="/pricing/details/cognitive-services/" id="homepage_services_pricing_cognitive-services">Starting from<br/></a>
 								<a class="home-h2-link" href="/pricing/details/cognitive-services/" id="homepage_services_pricing_cognitive-services">￥0.75</a>
-								<a class="single-link" href="/pricing/details/cognitive-services/" id="homepage_services_pricing_cognitive-services">per 1000 transfers</a>
+								<a class="single-link" href="/pricing/details/cognitive-services/" id="homepage_services_pricing_cognitive-services">per 1,000 transfers</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
 							
@@ -984,8 +984,8 @@
 							</a>
 							<div class="links-box">
 								<a class="single-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage"><br/></a>
-								<a class="home-h2-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage">Free version available</a>
-								<a class="single-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage"></a>
+								<a class="home-h2-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage"></a>
+								<a class="single-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage">Free version available</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
@@ -1044,7 +1044,7 @@
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/pricing/details/network-watcher/" id="homepage_services_pricing_network-watchers"></a>
-								<a class="single-link" href="/pricing/details/network-watcher/" id="homepage_services_pricing_network-watcher"><br/>First 1,000 checks free</a>
+								<a class="single-link" href="/pricing/details/network-watcher/" id="homepage_services_pricing_network-watcher">First 1,000 checks<br/>free</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
@@ -1149,8 +1149,8 @@
 							</a>
 							<div class="links-box">
 								<a class="single-link" href="/pricing/details/app-service/" id="homepage_services_pricing_app-service"><br/></a>
-								<a class="home-h2-link" href="/pricing/details/app-service/" id="homepage_services_pricing_app-service">Free version available</a>
-								<a class="single-link" href="/pricing/details/app-service/" id="homepage_services_pricing_app-service"></a>
+								<a class="home-h2-link" href="/pricing/details/app-service/" id="homepage_services_pricing_app-service"></a>
+								<a class="single-link" href="/pricing/details/app-service/" id="homepage_services_pricing_app-service">Free version available</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
@@ -1217,7 +1217,7 @@
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/pricing/details/notification-hubs/" id="homepage_services_pricing_notification-hubs"></a>
-								<a class="single-link" href="/pricing/details/notification-hubs/" id="homepage_services_pricing_notification-hubs"><br/>First million notifications free</a>
+								<a class="single-link" href="/pricing/details/notification-hubs/" id="homepage_services_pricing_notification-hubs">First million<br/>notifications free</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
@@ -1316,7 +1316,7 @@
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/home/features/iot-suite/" id="homepage_services_pricing_azure-iot-suite"></a>
-								<a class="single-link" href="/home/features/iot-suite/" id="homepage_services_pricing_azure-iot-suite"><br/>Available to enterprise customers</a>
+								<a class="single-link" href="/home/features/iot-suite/" id="homepage_services_pricing_azure-iot-suite">Available to<br/>enterprise customers</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>							
 						</div>		
@@ -1497,8 +1497,8 @@
 							</a>
 							<div class="links-box">
 								<a class="single-link" href="/pricing/details/scheduler/" id="homepage_services_pricing_scheduler"><br/></a>
-								<a class="home-h2-link" href="/pricing/details/scheduler/" id="homepage_services_pricing_scheduler">Free version available</a>
-								<a class="single-link" href="/pricing/details/scheduler/" id="homepage_services_pricing_scheduler"></a>
+								<a class="home-h2-link" href="/pricing/details/scheduler/" id="homepage_services_pricing_scheduler"></a>
+								<a class="single-link" href="/pricing/details/scheduler/" id="homepage_services_pricing_scheduler">Free version available</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
 						
@@ -1514,8 +1514,8 @@
 							</a>
 							<div class="links-box">
 								<a class="single-link" href="/pricing/details/automation/" id="homepage_services_pricing_automation"><br/></a>
-								<a class="home-h2-link" href="/pricing/details/automation/" id="homepage_services_pricing_automation">Free version available</a>
-								<a class="single-link" href="/pricing/details/automation/" id="homepage_services_pricing_automation"></a>
+								<a class="home-h2-link" href="/pricing/details/automation/" id="homepage_services_pricing_automation"></a>
+								<a class="single-link" href="/pricing/details/automation/" id="homepage_services_pricing_automation">Free version available</a>
 								<i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
