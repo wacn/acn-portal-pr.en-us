@@ -67,9 +67,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/web-apps@2x.png" />
-                        <h2><span>Web Apps</span></h2>
-                        <h4>Create and deploy mission-critical Web Apps that scale with your business.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Web Apps</h2>
+                        <h4>Quickly create and deploy mission critical web apps at scale</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -149,12 +149,12 @@
 			--> <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
     
     ]]></bodyText>
-    <pageTitle>Web Apps_App Services - Azure Cloud Computing</pageTitle>
+    <pageTitle>Web Apps Product Overview - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-app-service-web-apps</linkid>
     <metaKeywords>Azure, Web Apps, Features</metaKeywords>
     <metaDescription><![CDATA[Web Apps can create and deploy mission-critical Web Apps that scale with business: supports .NET, Java, PHP, Node.js and Python, built-in automatic scaling and load balancing for
 high availability and automatic patching, uses Git, TFS, Visual Studio Team Services to achieve persistent deployment, and supports WordPress, Umbraco, Joomla, and Drupal.]]></metaDescription>
-    <urlDisplayName>App Services - Web Apps</urlDisplayName>
+    <urlDisplayName>Product Overview - Web Apps</urlDisplayName>
   </TextpageLeftNav>
 </localize>

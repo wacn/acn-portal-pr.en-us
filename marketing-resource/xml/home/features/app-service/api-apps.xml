@@ -67,9 +67,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/service/product-icon-api.png" />
-                        <h2><span>API Apps</span></h2>
-                        <h4>Uses your choice of language for rapid generation and use of API in the cloud.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>API Apps</h2>
+                        <h4>Easily build and consume Cloud APIs</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -148,11 +148,11 @@
 			--> <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
     
     ]]></bodyText>
-    <pageTitle>API Apps_App Service - Azure Cloud Computing</pageTitle>
+    <pageTitle>API Apps Product Overview - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-app-service-api-apps</linkid>
     <metaKeywords>Azure, App Service, API Apps, Features</metaKeywords>
     <metaDescription><![CDATA[Azure App Service (App Service) uses your choice of languages in the cloud to rapidly create and use API: use Active Directory, Single Sign On and OAuth protected API; use your choice of language to create client agent or API; or use a mixture of current enterprise API.]]></metaDescription>
-    <urlDisplayName>App Service - API Apps</urlDisplayName>
+    <urlDisplayName>Product Overview - API Apps</urlDisplayName>
   </TextpageLeftNav>
 </localize>
