@@ -8,8 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/media-services@2x.png" />
-                        <h2><span>Media Services</span></h2>
-                        <h4>Securely provides scalable end-to-end media solutions for you to deliver media content across devices anywhere, any time.</h4>
+                        <h2>Media Services</h2>
+                        <h4>Encode, store, and stream video and audio at scale</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_media_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_media_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -69,11 +69,11 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   
         
     ]]></bodyText>
-    <pageTitle>Azure Media Services - Azure Cloud Computing</pageTitle>
+    <pageTitle>Media Services Product Overview - Azure Cloud Computing</pageTitle>
     <metaKeywords>Azure, Media Services, video encoding, video content</metaKeywords>
     <metaDescription><![CDATA[Azure Media Services implement live streaming and VOD media delivery on the scale of international sporting events. Media Services securely provide scalable end-to-end media solutions for you to deliver media content across devices anywhere, any time.]]></metaDescription>
     <linkid>home-features-media-services</linkid>
-    <urlDisplayName>Media Services</urlDisplayName>
+    <urlDisplayName>Product Overview - Media Services</urlDisplayName>
     <headerText><![CDATA[]]></headerText>
   </TextpageLeftNav>
 </localize>

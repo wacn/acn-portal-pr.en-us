@@ -9,7 +9,7 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/expressroute@2x.png" />
                         <h2>ExpressRoute</h2>
-                        <h4>Provides a fast, reliable connection to Azure.</h4>
+                        <h4>Dedicated private network fiber connections to Azure</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_expressroute_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_expressroute_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -48,11 +48,11 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
     
     ]]></bodyText>
-    <pageTitle>Azure ExpressRoute - Azure cloud computing</pageTitle>
+    <pageTitle>Azure ExpressRoute Product Overview - Azure cloud computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-expressroute</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, networking, virtual networking, ExpressRoute, dedicated line, VPN, IP address, DNS</metaKeywords>
+    <metaKeywords>Azure, networking, virtual networking, ExpressRoute, dedicated line, VPN, IP address, DNS</metaKeywords>
     <metaDescription><![CDATA[Azure ExpressRoute is a cloud-integrated solution for creating fast and secure private connections between Azure and local data centers. It possesses lower latency and higher security.]]></metaDescription>
-    <urlDisplayName>ExpressRoute</urlDisplayName>
+    <urlDisplayName>Product Overview - ExpressRoute</urlDisplayName>
   </TextpageLeftNav>
 </localize>

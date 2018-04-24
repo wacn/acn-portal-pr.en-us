@@ -8,8 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/loadbalancer-icon.png" />
-                        <h2><span>Load Balancer</span></h2>
-                        <h4>Enables improved availability and network performance for your apps</h4>
+                        <h2>Load Balancer</h2>
+                        <h4>Deliver high availability and network performance to your applications</h4>
                         <em><a href="/pricing/1rmb-trial/" id="load-balancer_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="load-balancer_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -54,11 +54,11 @@
             <!-- END: Read-More --> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
     
     ]]></bodyText>
-    <pageTitle>Load Balancer - Azure Cloud Computing</pageTitle>
+    <pageTitle>Load Balancer Product Overview - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-load-balancer</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Load Balancer</metaKeywords>
+    <metaKeywords>Azure, Load Balancer</metaKeywords>
     <metaDescription><![CDATA[Azure’s built-in cloud services and Virtual Machine Load Balancer allows users to create highly available and scalable apps in minutes.]]></metaDescription>
-    <urlDisplayName>Load Balancer</urlDisplayName>
+    <urlDisplayName>Product Overview - Load Balancer</urlDisplayName>
   </TextpageLeftNav>
 </localize>
