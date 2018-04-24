@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/sql-database@2x.png" />
-                        <h2>SQL Database</h2>
+                        <h2>Azure SQL Database</h2>
                         <h4>Managed relational SQL Database as a service</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_sql_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_sql_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_sql_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_sql_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -759,11 +759,11 @@
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                    
     
     ]]></bodyText>
-    <pageTitle>SQL Database Pricing Details - Azure Cloud Computing</pageTitle>
+    <pageTitle>Azure SQL Database Pricing Details - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-sql-database</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Azure SQL Database, pricing details, pricing, billing</metaKeywords>
+    <metaKeywords>Azure, Azure SQL Database, pricing details, pricing, billing</metaKeywords>
     <metaDescription><![CDATA[About Azure SQL Database pricing. There are two types of SQL Database, i.e. single database and elastic database, each of which can be further divided into Basic, Standard and Premium versions. Users can choose the proper database type and level to meet their own demands. A 1RMB Trial gets you ￥1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
-    <urlDisplayName>Pricing Details - SQL Database</urlDisplayName>
+    <urlDisplayName>Pricing Details - Azure SQL Database</urlDisplayName>
   </TextpageLeftNav>
 </localize>

@@ -12,7 +12,7 @@
            <div>
                     <!-- BEGIN: Table1-Content-->
 
-                    <h1>IP Address</h1>
+                    <h1>Azure IP Address</h1>
                     <p><a href="https://docs.azure.cn/zh-cn/virtual-network/virtual-networks-instance-level-public-ip/" id="ip-addresses_docs-virtual-networks-instance-level-public-ip">All instance level public IP addresses</a> (ILPIP) in Azure are generally charged at ￥0.026 per IP per hour (￥19.344 per IP per month). Azure provides some free IP addresses, which are based on the resources they’re associated with and the deployment model types used. The table below lists these free resources.</p>
                     <p>Azure has two different types of deployment models, which are used to create and process resources: <a id="pricing_ip_virtual-networks-instance-level-public-ip" href="https://docs.azure.cn/virtual-network/virtual-networks-instance-level-public-ip/">Azure Resource Manager (ARM) and Azure Classics (ASM)</a>.</p>
 		   </div>
@@ -187,11 +187,11 @@
                                                                              
     
     ]]></bodyText>
-    <pageTitle>IP Address Pricing Details - Azure Cloud Computing</pageTitle>
+    <pageTitle>Azure IP Address Pricing Details - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-reserved-ip-addresses</linkid>
     <metaKeywords>Azure, IP-Addresses, price, FAQ</metaKeywords>
     <metaDescription><![CDATA[Learn about the pricing details of Azure IP Addresses. A 1RMB Trial gets you ￥1,500 in service credits. You can also make a direct purchase and become an Azure Pay-in-Advance customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
-    <urlDisplayName>Pricing Details - IP Addresses</urlDisplayName>
+    <urlDisplayName>Pricing Details - Azure IP Addresses</urlDisplayName>
   </TextpageLeftNav>
 </localize>

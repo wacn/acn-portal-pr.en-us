@@ -8,8 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/icon-virtual-machines.png" />
-                        <h2><span>Virtual Machines</span></h2>
-                        <h4>The Windows Server and Linux Server can be started within a few minutes. You can fully control the server in the cloud and maintain it according to your business needs.</h4>
+                        <h2>Virtual Machines</h2>
+                        <h4>Provision Windows and Linux virtual machines in seconds</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_vm_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vm_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -69,11 +69,11 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
     
     ]]></bodyText>
-    <pageTitle>Azure Virtual Machines_Windows/Linux Virtual Machines - Azure Cloud Computing</pageTitle>
+    <pageTitle>Azure Virtual Machines Product Overview - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-virtual-machines</linkid>
     <metaKeywords>Azure, Virtual Machines, Virtual Machines, features, SQL Server, Virtual Machines instances</metaKeywords>
     <metaDescription><![CDATA[Azure Virtual Machines (Virtual Machines) can rapidly create scalable Linux or Windows servers and deploy open-source Virtual Machines locally or in the cloud. It has built-in virtual network and load balancing, and a mixed environment compatible with local environment support Microsoft SQL Server and SharePoint Server. You can deploy Windows Server, Linux or third-party software mirrors onto Azure using Azure Virtual Machines, and select the mirrors in the library or use self-defined mirrors.]]></metaDescription>
-    <urlDisplayName>Virtual Machines</urlDisplayName>
+    <urlDisplayName>Product Overview - Virtual Machines</urlDisplayName>
   </TextpageLeftNav>
 </localize>

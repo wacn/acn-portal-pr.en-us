@@ -9,7 +9,7 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/active-directory@2x.png" />
                         <h2>Azure Active Directory</h2>
-                        <h4>A modern service based on REST providing cloud identity authentication and Access Control for applications.</h4>
+                        <h4>Synchronize on-premises directories and enable single sign-on</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_active_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_active_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -31,11 +31,11 @@
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Product-Detail-BottomBanner --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   
         
     ]]></bodyText>
-    <pageTitle>Azure Active Directory _App Service – Azure Cloud Computing</pageTitle>
+    <pageTitle>Azure Active Directory Product Overview – Azure Cloud Computing</pageTitle>
     <metaKeywords>Azure, Azure Active Directory, identity management, access control</metaKeywords>
     <metaDescription><![CDATA[Azure Active Directory (Azure AD) is a comprehensive identity and access management cloud solution that provides a reliable set of functions for managing users and groups. Azure Active Directory helps protect access to local and cloud applications (including Microsoft Online Services (such as Office 365) and many non-Microsoft SaaS applications). Three versions of Azure Active Directory are offered: Free, Basic, and Premium.]]></metaDescription>
     <linkid>home-features-identity</linkid>
-    <urlDisplayName>Azure Active Directory</urlDisplayName>
+    <urlDisplayName>Product Overview - Azure Active Directory</urlDisplayName>
     <headerText><![CDATA[]]></headerText>
   </TextpageLeftNav>
 </localize>

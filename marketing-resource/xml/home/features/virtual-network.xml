@@ -8,8 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/virtual-network@2x.png" />
-                        <h2><span>Virtual Network</span></h2>
-                        <h4>A private network in the cloud that can be easily expanded to local networks through site-to-site VPNs.</h4>
+                        <h2>Virtual Network</h2>
+                        <h4>Provision private networks, optionally connect to on-premises datacenters</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_network_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_network_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -53,11 +53,11 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
     
     ]]></bodyText>
-    <pageTitle>Virtual Network_VPN - Azure Cloud Computing</pageTitle>
+    <pageTitle>Virtual Network Product Details - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>tour-features-virtual-network</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Network, Virtual Network, VNet, Virtual Private Network, Site-to-Site, VPN, IP Address, DNS, IPSec, Free</metaKeywords>
+    <metaKeywords>Azure, Network, Virtual Network, VNet, Virtual Private Network, Site-to-Site, VPN, IP Address, DNS, IPSec, Free</metaKeywords>
     <metaDescription><![CDATA[Azure Virtual Network (Virtual Network) can be used to set up a secure Virtual Private Network (VPN) from the cloud to a data center. You can easily expand your local network through a point-to-point VPN, bringing your own IP address and DNS server, and with the help of IPSec VPN or ExpressRoute you can ensure a secure connection.]]></metaDescription>
-    <urlDisplayName>Virtual Network</urlDisplayName>
+    <urlDisplayName>Product Details, Virtual Network</urlDisplayName>
   </TextpageLeftNav>
 </localize>

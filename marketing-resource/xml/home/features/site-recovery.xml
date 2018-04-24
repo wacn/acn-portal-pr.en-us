@@ -8,8 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/site-recovery@2x.png" />
-                        <h2><span>Site Recovery</span></h2>
-                        <h4>Schedules and manages the recovery process, and replicates the primary data center to a secondary site, to implement data management, service continuity, and disaster recovery.</h4>
+                        <h2>Site Recovery</h2>
+                        <h4>Orchestrate protection and recovery of private clouds</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_recovery_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_recovery_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -50,11 +50,11 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->     
         
     ]]></bodyText>
-    <pageTitle>Site recovery_cloud data - Azure Cloud Computing</pageTitle>
+    <pageTitle>Site Recovery Product Overview - Azure Cloud Computing</pageTitle>
     <metaKeywords>Azure, site recovery, disaster recovery</metaKeywords>
     <metaDescription><![CDATA[Regardless of whether you need to protect a few dozen or a few hundred virtual machines, Azure Site Recovery helps protect important apps by coordinating a dedicated cloud for replication and recovery sites. You can protect apps to your own secondary site or host site, or even use Azure as the disaster recovery site, avoiding the hassle and expense of creating and managing a secondary location.]]></metaDescription>
     <linkid>home-features-site-recovery</linkid>
-    <urlDisplayName>Site Recovery</urlDisplayName>
+    <urlDisplayName>Product Overview - Site Recovery</urlDisplayName>
     <headerText><![CDATA[站点恢复]]></headerText>
   </TextpageLeftNav>
 </localize>

@@ -8,8 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/sql-database@2x.png" />
-                        <h2><span>SQL Database</span></h2>
-                        <h4>You can store a large amount of data and set up periodic synchronization between, for example, the cloud SQL database and a local SQL Server or another SQL Database instance.</h4>
+                        <h2>Azure SQL Database</h2>
+                        <h4>Managed relational SQL Database as a service</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_sql_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_sql_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -72,11 +72,11 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
     
     ]]></bodyText>
-    <pageTitle>Azure SQL Database_Trusted Database Services - Azure Cloud Computing</pageTitle>
+    <pageTitle>Azure SQL Database Product Overview - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-SQL-Database</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Azure SQL Database, Functionalities</metaKeywords>
     <metaDescription><![CDATA[Azure SQL Database (SQL Database) scales seamlessly and can store a large amount of data. It can expand and effortlessly manage thousands of databases; it can be scheduled to sync between the SQL cloud database and a local SQL Server or some other SQL Database instance. You can manage services by yourself, but it requires almost no manual maintenance; you can pair different levels of service to support innovative planning.]]></metaDescription>
-    <urlDisplayName>SQL Database</urlDisplayName>
+    <urlDisplayName>Product Overview - Azure SQL Database</urlDisplayName>
   </TextpageLeftNav>
 </localize>

@@ -8,8 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/mysql_database_on_azure_icon@2x.png" />
-                        <h2>MySQL <small>Database on Azure</small></h2>
-                        <h4>It is compatible with MySQL platform; it can help users rapidly deploy, provide highly reliable, safe, usable and cost-effective database, and reduce operations and maintenance costs to allow you dedication to innovation, research and development.</h4>
+                        <h2>MySQL Database<small>on Azure</small></h2>
+                        <h4>Managed MySQL database service for app developers</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_mysql_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mysql_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -96,11 +96,11 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->             
     
     ]]></bodyText>
-    <pageTitle>Azure MySQL Database_Managed Database Services - Azure Cloud Computing</pageTitle>
+    <pageTitle>MySQL Database on Azure Product Overview - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-mysql</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, MySQL Database on Azure, Features</metaKeywords>
+    <metaKeywords>Azure, MySQL Database on Azure, Features</metaKeywords>
     <metaDescription><![CDATA[MySQL Database on Azure is compatible with the MySQL open source database platform, helping you to rapidly deploy databases that deliver high levels of reliability, security, availability, and value for money with support for disaster recovery and remote data synchronization to meet the needs of enterprises building hybrid clouds, reducing operating costs and enabling you to focus on innovative development.]]></metaDescription>
-    <urlDisplayName>MySQL Database on Azure</urlDisplayName>
+    <urlDisplayName>Product Overview - MySQL Database on Azure</urlDisplayName>
   </TextpageLeftNav>
 </localize>

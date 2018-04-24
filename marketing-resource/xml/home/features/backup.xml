@@ -8,8 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/backup@2x.png" />
-                        <h2><span>Backup</span></h2>
-                        <h4>Simple, reliable, and economical cloud backup.</h4>
+                        <h2>Backup</h2>
+                        <h4>Simple and reliable server backup to the cloud</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_backup_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_backup_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -51,11 +51,11 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->      
         
     ]]></bodyText>
-    <pageTitle>Azure Cloud Backup Cloud Data - Azure Cloud Computing</pageTitle>
+    <pageTitle>Backup Product Overview - Azure Cloud Computing</pageTitle>
     <metaKeywords>Azure, Backup, data backup, data protection</metaKeywords>
     <metaDescription><![CDATA[Azure Backup backs up your server to the cloud simply, reliably, and economically.]]></metaDescription>
     <linkid>tour-features-back-up</linkid>
-    <urlDisplayName>Backup</urlDisplayName>
+    <urlDisplayName>Product Overview - Backup</urlDisplayName>
     <headerText><![CDATA[]]></headerText>
   </TextpageLeftNav>
 </localize>

@@ -8,8 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/notification-hubs@2x.png" />
-                        <h2><span>Notification Hubs</span></h2>
-                        <h4>A scalable large-scale mobile push notification engine that can rapidly push millions of messages to various platforms (iOS, Android, WP).</h4>
+                        <h2>Notification Hubs</h2>
+                        <h4>Send push notifications to any platform from any back end</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_hubs_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_hubs_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -51,11 +51,11 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
     
     ]]></bodyText>
-    <pageTitle>Notification Hubs_IoT - Azure Cloud Computing</pageTitle>
+    <pageTitle>Notification Hubs Product Details - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>notification-hubs</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Azure Notification Hubs, features</metaKeywords>
+    <metaKeywords>Azure, Azure Notification Hubs, features</metaKeywords>
     <metaDescription><![CDATA[Azure Notification Hubs is a scalable large-scale mobile push notification engine that can rapidly push millions of messages to multiple platforms (iOS, Android, Windows Phone, etc.). It supports pushing notifications from any backend system to any platform, and can dynamically define and reach segmented audiences by providing notifications personalized by audience, language or location. Users can easily implement localization using templates, allowing the audience to obtain information that matches their language.]]></metaDescription>
-    <urlDisplayName>Notification Hubs</urlDisplayName>
+    <urlDisplayName>Product Details - Notification Hubs</urlDisplayName>
   </TextpageLeftNav>
 </localize>

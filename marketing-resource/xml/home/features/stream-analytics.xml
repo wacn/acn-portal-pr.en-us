@@ -8,8 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/stream-analytics@2x.png" />
-                        <h2><span>Stream Analytics</span></h2>
-                        <h4>An event processing engine in the cloud that can be developed quickly and in real time to deeply understand currently existing data attributes.</h4>
+                        <h2>Stream Analytics</h2>
+                        <h4>Real-time data stream processing from millions of IoT devices</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_site_trial_stream_analytics">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia_stream_analytics">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -53,11 +53,11 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
     
     ]]></bodyText>
-    <pageTitle>Azure Stream Analytics_Data Analytics - Azure Cloud Computing</pageTitle>
+    <pageTitle>Stream Analytics Product Overview - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-stream-analytics</linkid>
     <metaKeywords>Azure, Stream Analytics, Streaming Analytics, Features, Data Handling, Analytic Services, Streaming</metaKeywords>
     <metaDescription><![CDATA[Azure Stream Analytics (Streaming Analytics) is a kind of event data handling service that can analyze and view applications, equipment, and sensors, allowing real-time, rapid development for deep insight into currently existing data attributes. It can provide real-time analysis of Internet of Things solutions and can handle streams of hundreds of events per second.]]></metaDescription>
-    <urlDisplayName>Stream Analytics</urlDisplayName>
+    <urlDisplayName>Product Overview - Stream Analytics</urlDisplayName>
   </TextpageLeftNav>
 </localize>

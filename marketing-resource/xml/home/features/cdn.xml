@@ -9,7 +9,7 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/cdn@2x.png" />
                         <h2>Content Delivery Network (CDN)</h2>
-                        <h4>Azure CDN distributes your websites, videos, and apps to users' nearest nodes quickly and securely, giving nearby users access to the content they need, and providing a high-performance, low latency content delivery service.</h4>
+                        <h4>Ensure secure, reliable content delivery with broad reach</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_cdn_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cdn_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -60,11 +60,11 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   
         
     ]]></bodyText>
-    <pageTitle>CDN Content Delivery Network CDN acceleration CDN services - Azure Cloud Computing</pageTitle>
+    <pageTitle>Content Delivery Network (CDN) Product Overview - Azure Cloud Computing</pageTitle>
     <metaKeywords>Azure, CDN, content delivery, CDN acceleration, CDN services, website acceleration, cloud CDN, API acceleration, live streaming acceleration, application acceleration, HTTPS, HTTP2</metaKeywords>
     <metaDescription><![CDATA[Azure CDN caches content to the nearest location to a user and computes optimal nodes for users using smart caching and scheduling policies, enabling users to enjoy high-speed Internet access anywhere.]]></metaDescription>
     <linkid>home-features-cdn</linkid>
-    <urlDisplayName>CDN</urlDisplayName>
+    <urlDisplayName>Product Overview - Content Delivery Network (CDN)</urlDisplayName>
     <headerText><![CDATA[Azure CDN]]></headerText>
   </TextpageLeftNav>
 </localize>

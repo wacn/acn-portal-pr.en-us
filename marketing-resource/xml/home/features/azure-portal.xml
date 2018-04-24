@@ -8,8 +8,8 @@
                 <div class="common-banner-image" style="background-size: 100% 100%;">
                     <div class="common-banner-title">
                         <!--<img src="//resource.cdn.azure.cn/marketing-resource/css/cloud-services@2x.png" />-->
-                        <h2><span>Azure portal</span></h2>
-                        <h4>Build, manage, and monitor everything from simple Web Apps to complex cloud applications in a single, unified console.</h4>
+                        <h2>Azure portal</h2>
+                        <h4>Build, manage, and monitor all Azure products in a single, unified console</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_cloud_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="azure-portal_trial">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -46,11 +46,11 @@
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More --> <!-- END: Read-More --> <!-- BEGIN: Product-Detail-BottomBanner --> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!-- END: Product-Detail-BottomBanner -->                
     
     ]]></bodyText>
-    <pageTitle>Azure portal preview - Azure Cloud Computing</pageTitle>
+    <pageTitle>Azure Portal Product Overview - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-azure-portal</linkid>
     <metaKeywords>Azure, Azure portal</metaKeywords>
     <metaDescription><![CDATA[Use the Azure portal to build, manage, and monitor everything from simple Web Apps to complex cloud applications in a single, unified console. The Azure portal provides Azure users with an integrated deployment and management experience, with a simpler, faster, customizable operation interface and support for the brand new Resource Manager (ARM).]]></metaDescription>
-    <urlDisplayName>Azure portal</urlDisplayName>
+    <urlDisplayName>Product Overview - Azure Portal</urlDisplayName>
   </TextpageLeftNav>
 </localize>

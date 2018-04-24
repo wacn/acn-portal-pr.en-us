@@ -8,8 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/media,images,production,cosmos-db.png">
-                        <h2><span>Azure Cosmos DB</span></h2>
-                        <h4>Distributed, multi-model database service.</h4>
+                        <h2>Azure Cosmos DB</h2>
+                        <h4>Globally distributed, multi-model database for any scale</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_cosmos-db_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cosmos-db_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -71,11 +71,11 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
     
     ]]></bodyText>
-    <pageTitle>Azure Cosmos DB Cosmos Database - Azure Cloud Computing</pageTitle>
+    <pageTitle>Azure Cosmos DB Pricing Overview - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>CosmosDB</linkid>
     <metaKeywords>Azure Cosmos DB, Cosmos Database, Azure Cosmos DB</metaKeywords>
     <metaDescription><![CDATA[Azure Cosmos DB is a truly architecture neutral, fully managed NoSQL database that guarantees low latency and cross-regional expansion of throughput and storage space, enabling unlimited scale. It offers an infrastructure and software billing model that meets the needs of users, and has more consistency options. Azure Cosmos DB specifically provides transparent regional homing that enables continuous availability when faced with faults.]]></metaDescription>
-    <urlDisplayName>Azure Cosmos DB</urlDisplayName>
+    <urlDisplayName>Pricing Overview - Azure Cosmos DB</urlDisplayName>
   </TextpageLeftNav>
 </localize>

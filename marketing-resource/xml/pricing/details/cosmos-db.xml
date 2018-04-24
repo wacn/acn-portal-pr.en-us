@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/media,images,production,cosmos-db.png" />
                         <h2>Azure Cosmos DB</h2>
                         <h4>Distributed, multi-model database for any scale</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_cosmos-db_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cosmos-db_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_cosmos-db_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cosmos-db_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -219,11 +219,11 @@
             <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                
     
     ]]></bodyText>
-    <pageTitle>Cosmos DB Pricing Details - Azure Cloud Computing</pageTitle>
+    <pageTitle>Azure Cosmos DB Pricing Details - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-cosmos-db</linkid>
     <metaKeywords>Azure, Azure Cosmos DB, NoSQL, pricing details, pricing, billing</metaKeywords>
     <metaDescription><![CDATA[Learn more about the pricing details for Azure Cosmos DB. Azure Cosmos DB bills for each collection on an hourly basis based on the amount of data stored (in GB) and reserved throughput (in units of 100 RU/second). There are also detailed instructions on how it charges for cross-regional data transfers. A 1RMB Trial gets you ¥1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
-    <urlDisplayName>Pricing Details - Cosmos DB</urlDisplayName>
+    <urlDisplayName>Pricing Details - Azure Cosmos DB</urlDisplayName>
   </TextpageLeftNav>
 </localize>

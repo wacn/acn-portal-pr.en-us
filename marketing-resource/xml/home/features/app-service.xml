@@ -69,8 +69,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/service/product-icon-appservice.png" />
-                        <h2><span>App Service</span></h2>
-                        <h4>Generate intelligent web and mobile apps.</h4>
+                        <h2>App Service</h2>
+                        <h4>Quickly create powerful cloud apps for web and mobile</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_site_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -138,11 +138,11 @@
 			--> <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
     
     ]]></bodyText>
-    <pageTitle>Azure App Service – Azure Cloud Computing</pageTitle>
+    <pageTitle>App Service Product Overview – Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-app-service</linkid>
     <metaKeywords>Azure, App Service, Azure App Service, Features</metaKeywords>
     <metaDescription><![CDATA[App Service is a cloud platform for building powerful web and mobile apps that can connect to data anywhere (in the cloud or locally).]]></metaDescription>
-    <urlDisplayName>App Service</urlDisplayName>
+    <urlDisplayName>Product Overview - App Service</urlDisplayName>
   </TextpageLeftNav>
 </localize>

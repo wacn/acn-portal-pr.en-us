@@ -8,8 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/sql-server-stretch-database@2x.png" />
-                        <h2>SQL <small>Server Stretch Database</small></h2>
-                        <h4>Hot and cold interactive data can be dynamically pulled from the SQL Server 2016 to Azure.</h4>
+                        <h2>SQL Server<small>Stretch Database</small></h2>
+                        <h4>Dynamically stretch on-premises SQL Server databases to Azure</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_sql-stretch_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_sql-stretch_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -52,11 +52,11 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
     
     ]]></bodyText>
-    <pageTitle>SQL Server Stretch Database - Azure Cloud Computing</pageTitle>
+    <pageTitle>SQL Server Stretch Database Product Overview - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-sql-server-stretch-database</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Azure SQL Server Stretch Database, Features</metaKeywords>
+    <metaKeywords>Azure, Azure SQL Server Stretch Database, Features</metaKeywords>
     <metaDescription><![CDATA[Azure SQL Server Stretch Database can dynamically stretch cold and hot transactional data from SQL Server 2016 to Azure and is a low-cost way to use warm and cold data anytime. There is no need to modify apps, so you can easily migrate data. You can use advanced security options to ensure complete security, simplifying on-premises data maintenance and  achieving effortless administration.]]></metaDescription>
-    <urlDisplayName>SQL Server Stretch Database</urlDisplayName>
+    <urlDisplayName>Product Overview - SQL Server Stretch Database</urlDisplayName>
   </TextpageLeftNav>
 </localize>
