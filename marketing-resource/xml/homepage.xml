@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <localize>
   <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2014-11-11T02:51:30" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
     <bodyText><![CDATA[
@@ -297,7 +297,7 @@
 													<span>Building a website</span><i class="icon icon-arrow-down-sharp"></i>
 												</a>
 											</li>
-											<li><a id="homepage-solution_tab_link2" class="menu-title" href="#homepage_solution_tab2" data-toggle="tab"><span>Live video webcast</span><i class="icon icon-arrow-down-sharp"></i></a></li>
+											<li><a id="homepage-solution_tab_link2" class="menu-title" href="#homepage_solution_tab2" data-toggle="tab"><span>Live streaming and VOD</span><i class="icon icon-arrow-down-sharp"></i></a></li>
 											<li><a id="homepage-solution_tab_link3" class="menu-title" href="#homepage_solution_tab3" data-toggle="tab"><span>SQL Database Backup</span><i class="icon icon-arrow-down-sharp"></i></a></li>
 											<li><a id="homepage-solution_tab_link4" class="menu-title" href="#homepage_solution_tab4" data-toggle="tab"><span>Cognitive Services</span><i class="icon icon-arrow-down-sharp"></i></a></li>
 											<li><a id="homepage-solution_tab_link5" class="menu-title" href="#homepage_solution_tab5" data-toggle="tab"><span>Remote development testing</span><i class="icon icon-arrow-down-sharp"></i></a></li>
@@ -339,15 +339,15 @@
 											<div class="menu-child">
 												<h2>1RMB Trial: “Cognitive Services” Face API with WeChat app solutions</h2>
 												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-cognitive-slice.png" alt="Connected Devices solutions">
-												<p>The 1RMB Trial account provides the “Cognitive Services” Face API, rapidly achieving facial recognition app development and testing.</p>
+												<p>A 1RMB Trial account provides the “Cognitive Services” Face API to help users in the rapid development and testing of facial recognition apps. </p>
 												<a id="homepage-solution_tab-content_link4" href="pricing/1rmb-trial-cognitive-services/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
 											</div>
 										</div>
 										<div id="homepage_solution_tab5" class="tab-panel">
 											<div class="menu-child">
-												<h2>1RMB Trial: Automatic service with remote development testing environment management solutions</h2>
+												<h2>1RMB Trial: Automation service with remote development testing environment management solutions</h2>
 												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-automation-slice.png" alt="Remote development testing">
-												<p>A 1RMB Trial account provides Azure automatic services with virtual machine services integrated, achieving the rapid construction and life-cycle management of a remote development and testing environment.</p>
+												<p>A 1RMB Trial account provides Azure automation services with integrated virtual machine services, to help users in the rapid construction and life-cycle management of a remote development and testing environment.</p>
 												<a id="homepage-solution_tab-content_link5" href="/pricing/1rmb-trial-development-test/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
 											</div>
 										</div>
@@ -356,9 +356,9 @@
 										
 										<div id="homepage_solution_tab6" class="tab-panel">
 											<div class="menu-child">
-												<h2>1RMB Trial: based on a WeChat Public Accounts smart cloud conferencing solution</h2>
+												<h2>1RMB Trial: Smart cloud conferencing solution using WeChat Public Accounts</h2>
 												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-anrui.png" alt="Smart Cloud Conferencing">
-												<p>A 1RMB Trial account provides Azure resources and, based on Cognitive Services with a WeChat Public Accounts, uses mobile terminals, advanced facial recognition, Azure cloud storage and apps to create a new smart cloud conferencing management platform.</p>
+												<p>A 1RMB Trial account provides Azure resources. Based on Cognitive Services with WeChat Public Accounts, users can use mobile terminals, advanced facial recognition, Azure cloud storage and app service to create a new smart cloud conferencing management platform.</p>
 												<a id="homepage-solution_tab-content_link6" href="/solutions/wechat-anrui/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
 											</div>
 										</div>
@@ -367,7 +367,7 @@
 											<div class="menu-child">
 												<h2>1RMB Trial: Automatic WeChat marketing solutions</h2>
 												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-senparc.png" alt="WeChat Marketing">
-												<p>The 1RMB Trial account provided Azure resources (app service, databases, cognitive services, etc.), which can be applied to WeChat application development, and speed up the building of WeChat marketing tools.</p>
+												<p>A 1RMB Trial account provides Azure resources (app service, databases, cognitive services, etc.), which can be applied to WeChat application development, and speed up the building of WeChat marketing tools.</p>
 												<a id="homepage-solution_tab-content_link7" href="/solutions/wechat-senparc/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
 											</div>
 										</div>										
@@ -430,7 +430,7 @@
 							<a href="/home/features/ccs/" id="homepage_services_ccs">
 								<h2 class="bigger-header">Cloud Connection Service <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 14px;position: relative;top: -2px;">(Preview)</span></h2>
 								<div class="svg-icon ccs"></div>
-								<div class="home-p">Provides a secure, stable, and predictable dedicated connection with Azure<br/><br/></div>
+								<div class="home-p">Provide a secure, stable, and predictable dedicated connection with Azure<br/><br/></div>
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/pricing/details/ccs/" id="homepage_services1_pricing_ccs"></a>
@@ -658,7 +658,7 @@
 							<a href="/home/features/batch/" id="homepage_services_batch">
 								<h2 class="bigger-header">Batch <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 14px;position: relative;top: -2px;">(Preview)</span></h2>
 								<div class="svg-icon batch"></div>
-								<div class="home-p">Run large-scale<br />batch processing computing jobs</div>
+								<div class="home-p">Run large-scale<br />batch processing compute jobs</div>
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/pricing/details/batch/" id="homepage_services_pricing_batch">Free</a>
@@ -696,7 +696,7 @@
 							<a href="/home/features/notification-hubs/" id="homepage_services_notification-hubs">
 								<h2 class="bigger-header">Notification Hubs</h2>
 								<div class="svg-icon notification-hubs"></div>
-								<div class="home-p">Can push large-scale notifications<br />Can rapidly send large amounts of information over multiple platforms</div>
+								<div class="home-p">Can push large-scale notifications<br />Can send large amounts of information quickly over multiple platforms</div>
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/pricing/details/notification-hubs/" id="homepage_services_pricing_notification-hubs">First one million notifications are free</a>
@@ -711,7 +711,7 @@
 							<a href="/home/features/sql-database/" id="homepage_services_sql-database">
 								<h2 class="bigger-header">SQL Database</h2>
 								<div class="svg-icon sql-database"></div>
-								<div class="home-p">Can store large amounts of data, locally or elsewhere<br />Using a SQL Database as an example, can create and arrange synching of data</div>
+								<div class="home-p">Can store large amounts of data, locally or remotely<br />Using a SQL Database as an example, can create and arrange syncing of data</div>
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">Starting from RMB1.04</a>
@@ -726,7 +726,7 @@
 							<a href="/home/features/redis-cache/" id="homepage_services_redis-cache">
 								<h2 class="bigger-header">Redis Cache</h2>
 								<div class="svg-icon redis"></div>
-								<div class="home-p">A type of advance key-value storage service<br />Can rapidly provide assistance in expanding Azure apps</div>
+								<div class="home-p">A type of advance key-value storage service<br />Can provide assistance in expanding Azure apps quickly</div>
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/pricing/details/redis-cache/" id="homepage_services_pricing_redis-cache">Starting from RMB0.14</a>
@@ -740,7 +740,7 @@
 						
 						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/sql-data-warehouse/" id="homepage_services_sql-data-warehouse">
-								<h2 class="bigger-header">SQL Data Warehouse</h2>
+								<h2 class="bigger-header">SQL Data Warehouse </h2>
 								<div class="svg-icon sql-data-warehouse"></div>
 								<div class="home-p">Fully trusted and highly scalable data warehouse services<br /><br /></div>
 							</a>
@@ -817,7 +817,7 @@
 						</div>	
 						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/event-hubs/" id="homepage_services_event-hubs">
-								<h2 class="bigger-header">Event Hubs</h2>
+								<h2 class="bigger-header">Event Hubs </h2>
 								<div class="svg-icon event-hubs"></div>
 								<div class="home-p">From websites to apps to equipment selection cloud scaling is needed<br />To support telemetry data, each second can contain several million events</div>
 							</a>
@@ -984,7 +984,7 @@
 					
 						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/multi-factor-authentication/" id="homepage_services_multi-factor-authentication">
-								<h2 class="bigger-header">Multiple user identity verification </h2>
+								<h2 class="bigger-header">Multi-Factor Authentication </h2>
 								<div class="svg-icon multi-factor-authentication"></div>
 								<div class="home-p">Enhanced with multiple verification options<br />Authentication protects data and app security</div>
 							</a>
@@ -1022,7 +1022,7 @@
 							<a href="/home/features/automation/" id="homepage_services_automation">
 								<h2 class="bigger-header">Automation</h2>
 								<div class="svg-icon automation"></div>
-								<div class="home-p">Simplify cloud management by using process automation<br />Eliminate time-consuming, repetitive tasks, improve reliability and efficiency</div>
+								<div class="home-p">Simplify cloud management with process automation<br />Eliminate time-consuming, repetitive tasks, improve reliability and efficiency</div>
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/pricing/details/automation/" id="homepage_services_pricing_automation">Free</a>
