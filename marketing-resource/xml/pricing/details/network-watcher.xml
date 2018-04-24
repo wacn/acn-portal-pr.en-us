@@ -9,8 +9,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/network-watcher@2x.png" />
-                        <h2><span>Network Watcher</span></h2>
-                        <h4>Monitor and diagnose network performances at the data package level</h4>                        <em><a href="/pricing/1rmb-trial/" id="home_network_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_network_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Network Watcher</h2>
+                        <h4>Network performance monitoring and diagnostics solution</h4>                        
+						<em><a href="/pricing/1rmb-trial/" id="home_network_trial">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_network_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -77,7 +78,7 @@
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                  
     
     ]]></bodyText>
-    <pageTitle>Network Watcher Pricing - Azure Cloud Computing</pageTitle>
+    <pageTitle>Network Watcher Pricing Details - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-network-watcher</linkid>
     <metaKeywords>Azure, Network Watcher, Network, Virtual Network</metaKeywords>

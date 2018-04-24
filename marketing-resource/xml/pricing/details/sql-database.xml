@@ -9,7 +9,7 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/sql-database@2x.png" />
                         <h2>SQL Database</h2>
-                        <h4>You can store a large amount of data and set up periodic synchronization between, for example, the cloud SQL database and a local SQL Server or another SQL Database instance.</h4>
+                        <h4>Managed relational SQL Database as a service</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_sql_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_sql_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -759,7 +759,7 @@
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                    
     
     ]]></bodyText>
-    <pageTitle>Pricing for Azure SQL Database - Azure Cloud Computing</pageTitle>
+    <pageTitle>SQL Database Pricing Details - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-sql-database</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Azure SQL Database, pricing details, pricing, billing</metaKeywords>

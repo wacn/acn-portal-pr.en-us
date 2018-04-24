@@ -8,8 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/traffic-manager@2x.png" />
-                        <h2><span>Traffic Manager</span></h2>
-                        <h4>It can regionally route inbound traffic based on your usage to improve app performance and availability.</h4>
+                        <h2>Traffic Manager</h2>
+                        <h4>Route incoming traffic for high performance and availability</h4>
                         <em><a href="/pricing/1RMB-trial/" id="home_traffic_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_traffic_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                           
     
     ]]></bodyText>
-    <pageTitle>Azure Traffic Manager Pricing - Azure Cloud Computing</pageTitle>
+    <pageTitle>Azure Traffic Manager Pricing Details - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-traffic-manager</linkid>
     <metaKeywords>Azure, Microsoft Cloud, networking, Virtual Networking, Traffic Manager, Traffic Manager, load balancing, traffic</metaKeywords>

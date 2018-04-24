@@ -8,8 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/hdinsight@2x.png" />
-                        <h2>HDInsight<span>HDInsight</span></h2>
-                        <h4>The only fully-managed cloud-based Hadoop product makes big data understandable and affordable.</h4>
+                        <h2>HDInsight</h2>
+                        <h4>Provision cloud Hadoop, Spark, R Server, HBase, and Storm clusters</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_hd_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_hd_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -932,7 +932,7 @@
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                     
     
     ]]></bodyText>
-    <pageTitle>Azure HDInsight Hosting Service Pricing - Azure Cloud Computing</pageTitle>
+    <pageTitle>HDInsight Pricing Details - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-hdinsight</linkid>
     <metaKeywords>Azure, Microsoft Cloud, HDInsight, Pricing, Hadoop, Hosting, Analysis Service, Big Data, 1RMB Trial</metaKeywords>

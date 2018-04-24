@@ -8,9 +8,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services.png"/>
-                        <h2>Cognitive Services APIs</h2>
-
-						<h4>Infuse your apps, websites and bots with intelligent algorithms to see, hear, speak, understand and interpret your user needs through natural methods of communication. Transform your business with AI today.</h4>
+                        <h2>Cognitive Services</h2>
+						<h4>Add smart API capabilities to enable contextual interactions</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_cognitive-services">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cognitive-services-calculator_pia">Purchase now<i class="icon icon-arrow-right-thin"></i></a>
 
                     </div>
@@ -292,9 +291,9 @@
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                 
     
     ]]></bodyText>
-    <pageTitle>Cognitive Services pricing details_price estimation - Azure Cloud Computing</pageTitle>
+    <pageTitle>Cognitive Services Pricing Details - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
-    <linkid>pricing-details-cognitive-servicess</linkid>
+    <linkid>pricing-details-cognitive-services</linkid>
     <metaKeywords>Cognitive Services pricing, service quotes, price estimation</metaKeywords>
     <metaDescription><![CDATA[Learn more about the pricing details for Cognitive Services. Detect the locations of faces in images and compare, group, and identify faces from identities tagged by the user according to their visual similarity.]]></metaDescription>
     <urlDisplayName>Pricing details - Cognitive Services</urlDisplayName>
