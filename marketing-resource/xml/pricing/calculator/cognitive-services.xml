@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//wacndevelop.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services.png" />
-                        <h2><span>Cognitive Services APIs</span></h2>
-                        <h4>Infuse your apps, websites, and bots with intelligent algorithms to see, hear, speak, understand, and interpret user needs using natural methods of communication. Transform your business with AI now.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_cognitive-services_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cognitive-services_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Cognitive Services</h2>
+                        <h4>Add smart API capabilities to enable contextual interactions</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_cognitive-services_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cognitive-services_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
             <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
     
     ]]></bodyText>
-    <pageTitle>Cognitive Services - Emotion API, Face API, Computer Vision API | Price estimation - Azure Cloud Computing</pageTitle>
+    <pageTitle>Cognitive Services Pricing Calculator - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>cognitive-services</linkid>
     <metaKeywords>Cognitive Services price estimation, Emotion API price estimation, Face API price estimation</metaKeywords>

@@ -8,8 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="http://resource.cdn.azure.cn/marketing-resource/css/traffic-manager@2x.png" />
-                        <h2><span>Traffic Manager</span></h2>
-                        <h4>It can regionally route inbound traffic based on your usage to improve app performance and availability.</h4>                        <em><a href="/pricing/1rmb-trial/" id="home_traffic_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_traffic_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Traffic Manager</h2>
+                        <h4>Route incoming traffic for high performance and availability</h4>                        
+						<em><a href="/pricing/1rmb-trial/" id="home_traffic_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_traffic_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -96,10 +97,10 @@
             <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                 
     
    ]]></bodyText>
-    <pageTitle>Pricing Calculator - Traffic Manager | Azure</pageTitle>
+    <pageTitle>Traffic Manager Pricing Calculator - Azure</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-calculator-traffic-managerf</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, networking, virtual networking, Traffic Manager, Traffic Manager, load balancing, traffic</metaKeywords>
+    <metaKeywords>Azure, networking, virtual networking, Traffic Manager, Traffic Manager, load balancing, traffic</metaKeywords>
     <metaDescription><![CDATA[Estimate the Azure Traffic Manager usage costs for your solution. You can select whatever services are required, along with their different types, levels, configurations, and instances. You can view the unit price and total price easily and estimate the required costs. You can also export lists for easy quotes. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Calculator - Traffic Manager</urlDisplayName>
   </TextpageLeftNav>

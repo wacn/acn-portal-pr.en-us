@@ -8,8 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="http://resource.cdn.azure.cn/marketing-resource/css/notification-hubs@2x.png" />
-                        <h2><span>Notification Hubs</span></h2>
-                        <h4>A scalable large-scale mobile push notification engine that can rapidly push millions of messages to various platforms (iOS, Android, WP).</h4>                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Notification Hubs</h2>
+                        <h4>Send push notifications to any platform from any back end</h4>                        
+						<em><a href="/pricing/1rmb-trial/" id="home_site_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -96,10 +97,10 @@
             <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
     
     ]]></bodyText>
-    <pageTitle>Pricing Calculator - Notification Hubs | Azure</pageTitle>
+    <pageTitle>Notification Hubs Pricing Calculator - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-calculator-notification-hubs</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Azure Notification Hubs, Azure Notification Hubs, price, select type, select configuration</metaKeywords>
+    <metaKeywords>Azure, Azure Notification Hubs, Azure Notification Hubs, price, select type, select configuration</metaKeywords>
     <metaDescription><![CDATA[Estimate the Azure Notification Hubs usage costs for your solution. You can select whatever services are required, along with their different types, levels, configurations, and instances. You can view the unit price and total price easily and estimate the required costs. You can also export lists for easy quotes. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
     <urlDisplayName>Pricing Calculator - Notification Hubs</urlDisplayName>
   </TextpageLeftNav>

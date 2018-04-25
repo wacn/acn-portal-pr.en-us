@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/media,images,production,cosmos-db.png" />
-                        <h2><span>Azure Cosmos DB</span></h2>
-                        <h4>Distributed, multi-model database service.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_cosmos-db_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cosmos-db_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Azure Cosmos DB</h2>
+                        <h4>Globally distributed, multi-model database for any scale</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_cosmos-db_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cosmos-db_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -97,10 +97,10 @@
             <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                 
     
     ]]></bodyText>
-    <pageTitle>Azure Cosmos DB price budgeting - Azure Cloud computing</pageTitle>
+    <pageTitle>Azure Cosmos DB Pricing Calculator - Azure Cloud computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-calculator-cosmos-db</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Azure Cosmos DB price budgeting</metaKeywords>
+    <metaKeywords>Azure, Azure Cosmos DB price budgeting</metaKeywords>
     <metaDescription><![CDATA[Estimate the Azure Cosmos DB usage costs for your solution. You can select whatever services are required, along with their different types, levels, configurations, and instances. You can view the unit price and total price easily and estimate the required costs. You can also export lists for easy quotes. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
     <urlDisplayName>Pricing Calculator - Azure Cosmos DB</urlDisplayName>
   </TextpageLeftNav>

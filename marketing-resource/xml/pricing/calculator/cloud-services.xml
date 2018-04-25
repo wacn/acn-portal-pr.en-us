@@ -8,8 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="http://resource.cdn.azure.cn/marketing-resource/css/cloud-services@2x.png" />
-                        <h2><span>Cloud Services</span></h2>
-                        <h4>Deploy highly available, massively scalable applications and APIs.</h4>                        <em><a href="/pricing/1rmb-trial/" id="home_cloud_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cloud_trial">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Cloud Services</h2>
+                        <h4>Create highly-available, infinitely-scalable cloud applications and APIs</h4>                        
+						<em><a href="/pricing/1rmb-trial/" id="home_cloud_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cloud_trial">Buy now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -96,10 +97,10 @@
             <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
     
     ]]></bodyText>
-    <pageTitle>Pricing Calculator - Cloud Services | Azure</pageTitle>
+    <pageTitle>Cloud Services Pricing Calculator - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-calculator-cloud-services</linkid>
-    <metaKeywords>Azure Cloud Services, Cloud Services, select type, configuration level, data transfer, estimate</metaKeywords>
+    <metaKeywords>Azure, Cloud Services, select type, configuration level, data transfer, estimate</metaKeywords>
     <metaDescription><![CDATA[Estimate the Azure Cloud Services usage costs for your solution. You can select whatever services are required, along with their different types, levels, configurations, and instances. You can view the unit price and total price easily and estimate the required costs. You can also export lists for easy quotes. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
     <urlDisplayName>Pricing Calculator - Cloud Services</urlDisplayName>
   </TextpageLeftNav>

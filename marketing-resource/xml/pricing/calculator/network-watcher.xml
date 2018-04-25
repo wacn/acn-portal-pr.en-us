@@ -8,8 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/network-watcher@2x.png" />
-                        <h2><span>Network Watcher</span></h2>
-                        <h4>Monitor, diagnose, and gain an in-depth understanding Network performance and running status</h4>                        <em><a href="/pricing/1rmb-trial/" id="home_vpn_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vpn_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Network Watcher</h2>
+                        <h4>Network performance monitoring and diagnostics solution</h4>                        
+						<em><a href="/pricing/1rmb-trial/" id="home_vpn_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vpn_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -96,12 +97,12 @@
             <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
     
     ]]></bodyText>
-    <pageTitle>Pricing Calculator - Network Watcher | Azure</pageTitle>
+    <pageTitle>Network Watcher Pricing Calculator - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-calculator-network-watcher</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Networks, Network Watcher</metaKeywords>
+    <metaKeywords>Azure, Networks, Network Watcher</metaKeywords>
     <metaDescription><![CDATA[Network Watcher can monitor, diagnose, and gain an in-depth understanding Network performance and running status, permit remote capturing of the packet data of Virtual Machines, monitor Virtual Machines’ security by traffic log and installation group views, and diagnose VPN connection problems.]]></metaDescription>
-    <urlDisplayName>Pricing Calculator - VPN Gateway</urlDisplayName>
+    <urlDisplayName>Pricing Calculator - Network Watcher</urlDisplayName>
   </TextpageLeftNav>
 </localize>
 

@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/api_management@2x.png" />
-                        <h2><span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">API Management</span> <span>Preview</span></h2>
-                        <h4>Publish, manage, secure, and analyze your APIs in minutes</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_api-management_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_api-management_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>API Management<span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 18px;top: -6px;position: relative;display: inline;"> (Preview)</span></h2>
+                        <h4>Publish APIs to developers, partners, and employees securely and at scale</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_api-management_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_api-management_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -99,10 +99,10 @@
             <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
     
     ]]></bodyText>
-    <pageTitle>Pricing Calculator - API Management | Azure</pageTitle>
+    <pageTitle>API Management Pricing Calculator - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>api-management</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, IoT, API Management, Price Estimation </metaKeywords>
+    <metaKeywords>Azure, IoT, API Management, Price Estimation </metaKeywords>
     <metaDescription><![CDATA[Estimate the usage cost of API Management.]]></metaDescription>
     <urlDisplayName>Pricing Calculator - API Management</urlDisplayName>
   </TextpageLeftNav>

@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/service/product-icon-analysis-services@2x.png" />
-                        <h2><span>Azure Analysis Services</span></h2>
-                        <h4>Proven analytics engine.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_analysis-services_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_analysis-services_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Azure Analysis Services</h2>
+                        <h4>Enterprise grade analytics engine as a service</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_analysis-services_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_analysis-services_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -97,11 +97,11 @@
             <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
     
     ]]></bodyText>
-    <pageTitle>Pricing Calculator - Analysis Services (App Service) | Azure</pageTitle>
+    <pageTitle>Azure Analysis Services Pricing Calculator - Azure Could Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-calculator-analysis-services</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Azure Analysis Services, App Service, price, select type, select configuration</metaKeywords>
+    <metaKeywords>Azure, Azure Analysis Services, App Service, price, select type, select configuration</metaKeywords>
     <metaDescription><![CDATA[Estimate the Azure Analysis Services (App Service) usage costs for your solution. You can select whatever services are required, along with their different types, levels, configurations, and instances. You can view the unit price and total price easily and estimate the required costs. You can also export lists for easy quotes. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
-    <urlDisplayName>Pricing Calculator - App Service</urlDisplayName>
+    <urlDisplayName>Pricing Calculator - Azure Analysis Services</urlDisplayName>
   </TextpageLeftNav>
 </localize>

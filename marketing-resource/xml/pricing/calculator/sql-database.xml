@@ -8,9 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="http://resource.cdn.azure.cn/marketing-resource/css/sql-database@2x.png" />
-                        <h2><span>SQL Database</span></h2>
-                        <h4>It can store large amounts of data, create and arrange periodic synchronizations between your Cloud SQL Database and local SQL Server or other SQL Database instances.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_sql_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_sql_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Azure SQL Database</h2>
+                        <h4>Managed relational SQL Database as a service</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_sql_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_sql_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -97,12 +97,12 @@
             <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
     
     ]]></bodyText>
-    <pageTitle>Pricing Calculator - SQL Database | Azure</pageTitle>
+    <pageTitle>Azure SQL Database Pricing Calculator - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-calculator-sql-database</linkid>
-     <metaKeywords>Azure, Microsoft Cloud, Azure SQL Database, Azure SQL Database, pricing, select type, configuration level</metaKeywords>
+     <metaKeywords>Azure, Azure SQL Database, Azure SQL Database, pricing, select type, configuration level</metaKeywords>
     <metaDescription><![CDATA[Estimate the Azure SQL Database usage costs for your solution. You can select whatever services are required, along with their different types, levels, configurations, and instances. You can view the unit price and total price easily and estimate the required costs. You can also export lists for easy quotes. A 1 RMB Trial gets you RMB 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
-    <urlDisplayName>Pricing Calculator - SQL Database</urlDisplayName>
+    <urlDisplayName>Pricing Calculator - Azure SQL Database</urlDisplayName>
   </TextpageLeftNav>
 </localize>
 

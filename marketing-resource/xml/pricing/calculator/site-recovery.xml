@@ -8,8 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="http://resource.cdn.azure.cn/marketing-resource/media/images/production/site-recovery@2x.png" />
-                        <h2><span>Site Recovery</span></h2>
-                        <h4>Schedules and manages the recovery process, and replicates the primary data center to a secondary site, to implement data management, service continuity, and disaster recovery.</h4>                        <em><a href="/pricing/1rmb-trial/" id="home_recovery_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_recovery_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Site Recovery</h2>
+                        <h4>Orchestrate protection and recovery of private clouds</h4>                        
+						<em><a href="/pricing/1rmb-trial/" id="home_recovery_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_recovery_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -96,7 +97,7 @@
             <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                     
     
     ]]></bodyText>
-    <pageTitle>Pricing Calculator - Site Recovery | Azure</pageTitle>
+    <pageTitle>Site Recovery Pricing Calculator - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-calculator-site-recovery</linkid>
     <metaKeywords>Azure, Site Recovery, data transfer, 1RMB Trial</metaKeywords>

@@ -8,8 +8,9 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/service-bus-icon01.png" />
-                        <h2><span>Service Bus</span></h2>
-                        <h4>Keep applications and devices connected across private cloud and public cloud scenarios.</h4>                        <em><a href="/pricing/1rmb-trial/" id="home_mess_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mess_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Service Bus</h2>
+                        <h4>Connect across private and public cloud environments</h4>                        
+						<em><a href="/pricing/1rmb-trial/" id="home_mess_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mess_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -96,7 +97,7 @@
             <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                     
     
     ]]></bodyText>
-    <pageTitle>Pricing Calculator - Service Bus | Azure</pageTitle>
+    <pageTitle>Service Bus Pricing Calculator - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-calculator-messaging</linkid>
     <metaKeywords>Azure, Service Bus, data transfer, 1RMB Trial</metaKeywords>
