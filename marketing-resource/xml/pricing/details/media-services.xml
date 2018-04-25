@@ -404,7 +404,7 @@
                         </tr>
                     </table>
                     <p><sup>1</sup> The cost is prorated by minutes, and the minimum fee is charged starting from five minutes.</p>
-                    <h3>Editor <sup style="color:#e66102; font-weight: bold">new</sup></h3>
+                    <h3>Redactor  <sup style="color:#e66102; font-weight: bold">new</sup></h3>
                     <p>The video is anonymized by detecting and obscuring the faces of selected individuals. The Azure Media Editor is very applicable to public security and news media programs. Pricing depends on the duration and resolution of the input file. Where possible, the editor may also use the media reserved unit to run video parallel-processing tasks. (Note: the Service Level Agreement of the editor is only applicable to the S3 media reserved unit). For more details, please refer to our <a href="https://docs.azure.cn/zh-cn/media-services/media-services-face-redaction">documentation</a>.</p>
                     <p>Note: As of October 31, 2017, all input resolutions (no more than 1920x1200) are charged according to the metering of S1. Starting November 1, 2017, usage will be measured according to the "Supported Input Resolutions" as set out below.</p>
                     <table cellpadding="0" cellspacing="0" width="100%">
@@ -422,19 +422,19 @@
                         </tr>
                         <tr>
                             <td>The first 50,000 minutes/month<sup> 2</sup></td>
-                            <td>￥ 0.212/Content Minutes (￥ 12.72/hour)</td>
-                            <td>￥ 0.424/Content Minutes (￥ 25.44/hour)</td>
-                            <td>￥ 0.848/Content Minutes (￥ 50.88/hour)</td>
+                            <td>RMB0.212/Content Minutes (RMB12.72/hour)</td>
+                            <td>RMB0.424/Content Minutes (RMB25.44/hour)</td>
+                            <td>RMB0.848/Content Minutes (RMB50.88/hour)</td>
                         </tr>
                         <tr>
                             <td>The next 950,000 minutes (50,001 - 1,000,000 minutes)/month</td>
-                            <td>￥ 0.197/content-minutes (￥ 11.82 /hour)</td>
-                            <td>￥ 0.394/Content Minutes (￥ 23.64/hour)</td>
-                            <td>￥ 0.788/Content Minutes (￥ 47.28/hour)</td>
+                            <td>RMB0.197/content-minutes (RMB11.82 /hour)</td>
+                            <td>RMB0.394/Content Minutes (RMB23.64/hour)</td>
+                            <td>RMB0.788/Content Minutes (RMB47.28/hour)</td>
                         </tr>
                         <tr>
                             <td>Over 1,000,000 minutes/month</td>
-                            <td>￥ 0.172 /content-min (￥ 10.32 /hour)</td>
+                            <td>RMB0.172 /content-min (RMB10.32 /hour)</td>
                             <td>￥ 0.344/Content Minutes (￥ 20.64/hour)</td>
                             <td>￥ 0.688/Content Minutes (￥ 41.28/hour)</td>
                         </tr>
@@ -497,7 +497,7 @@
                             <div>
                                 <a id="Media_faq_que3">If I use the media reserved unit, do I still have to pay the encoding fee based on the output minutes? </a>
                                 <section>
-                                   <p>Yes, fees are charged depending on the encoding output minutes of the media reserved unit. Standard encoder: ￥ 0.09858/output minute.</p>
+                                   <p>Yes, fees are charged depending on the encoding output minutes of the media reserved unit. Standard encoder: RMB0.09858/output minute.</p>
                                 </section>
 
                             </div>
@@ -510,13 +510,13 @@
                                     <p>Example 1: Joe uses a standard encoder to process 30 encoding jobs. Each job will create 10 output minutes (300 output minutes in total). Joe uses an S1 media reserved unit (RU) which needs 2 hours for running for each job. Joe spends 60 hours in a row on the S1 RU and then turns off the RU (setting the number of RUs to zero). </p>
                                     <ul>
                                         <li>Output minutes (standard encoder): 300 x ￥ 0.09858 /minute = ￥ 29.574</li>
-                                        <li>S1 media reserved unit: 1 unit x 60 hours x ￥ 0.13144 /hour = ￥ 7.8864d</li>
+                                        <li>S1 media reserved unit: 1 unit x 60 hours x RMB0.13144 /hour = RMB7.8864d</li>
                                         <li>Total cost: ￥ 37.4604</li>
                                     </ul>
                                     <p>Example 2: Joe uses a standard encoder to process 30 encoding jobs. Each job will create 10 output minutes (300 output minutes in total). This time, Joe uses three S2 media reserved units (RUs). Each job will take only 1 hour to complete, so it takes only 10 hours to complete 30 jobs. Joe spends a total of 10 hours in a row on 3 S2 RU and then turns off the RU (the RU number was set to zero).</p>
                                     <ul>
                                         <li>Output minutes (standard encoder): 300 x ￥ 0.09858 /minute = ￥ 29.574</li>
-                                        <li>S2 media reserved unit: 3 unit x 10 hours x ￥ 0.26288 /hour = ￥ 7.8864</li>
+                                        <li>S2 media reserved unit: 3 unit x 10 hours x RMB0.26288 /hour = RMB7.8864</li>
                                         <li>Total cost: ￥ 37.4604</li>
                                     </ul>
                                     <p>Example 3: Joe has a two-hour movie with resolution of 1920x1080. He uses a standard encoder to encode it with a default “H264 multiple bit rate 1080p” preset to stream movies to iOS and Android devices. The encoding preset generates 3 HD output videos, 5 SD output videos, and 1 audio. The total minutes for this encoding job is (3x2 + 5 + 0.25) = 11.25. Therefore, the total output minutes will be 11.25 x 2 x 60 = 1,350. The total cost is 1,350 x ￥ 0.09858/min = ￥ 133.083.</p>
@@ -539,10 +539,10 @@
                                 <section>
                                     <p>You will be charged according to the actual minutes of the media reserved unit. The following is a more detailed example. Suppose Joe starts with zero media reserved units (RUs), and his account is set to use two S1 RUs at 10:00AM that day. In the afternoon other videos arrived, he changes his account to use 4 S3 RUs at 1:15PM. All videos are processed before 4:00PM, then he closes the RU in the account (setting the RU number to zero). Joe's usage is as follows.</p>
                                     <ul>
-                                        <li>S1 media reserved unit: 2 units x 3.25 hours (10AM to 1:15PM) x ￥ 0.13144 /hour = ￥ 0.85436</li>
-                                        <li>S3 media reserved unit: 4 units x 2.75 hours (1:15PM to 4PM) x ￥ 0.52576 /hour = ￥ 5.78336</li>
+                                        <li>S1 media reserved unit: 2 units x 3.25 hours (10AM to 1:15PM) x RMB0.13144 /hour = RMB0.85436</li>
+                                        <li>S3 media reserved unit: 4 units x 2.75 hours (1:15PM to 4PM) x RMB0.52576 /hour = RMB5.78336</li>
                                     </ul>
-                                    <p>Therefore, the total cost arising out of Joe's use of the media reserved unit is ￥ 0.85436 + ￥ 5.78336 = ￥ 6.63772</p>
+                                    <p>Therefore, the total cost arising out of Joe's use of the media reserved unit is RMB0.85436 + RMB5.78336 = RMB6.63772</p>
                                     <p>Unlike the media reserved unit, the charge for the streaming unit is based on the maximum number of streaming units configured per day (high watermarks).</p>
 
                                 </section>

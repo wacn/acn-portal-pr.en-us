@@ -9,7 +9,8 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/storage@2x.png" />
                         <h2><span>Storage</span></h2>
-                        <h4>Suitable for various types of data, economical and reliable cloud storage, provides a high guarantee of security, lasting and stable storage, has the capability to scale rapidly and flexibly.</h4>                        <em><a href="/pricing/1rmb-trial/" id="home_storage_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_storage_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h4>Suitable for various types of data, economical and reliable cloud storage, provides a high guarantee of security, lasting and stable storage, has the capability to scale rapidly and flexibly.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_storage_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_storage_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -32,10 +33,11 @@
                         <div class="total">
                             Total price
                             <p>
-                                <span class="num">￥ 0.00</span> <span class="unit">/month</span>
+                                <span class="num">RMB0.00</span> <span class="unit">/month</span>
                             </p>
                         </div>
-                        <div class="btn-group">                            <a class="calcul-btn buy" href="/pricing/pia/" id="sidebarWinCalculBuy">Go to purchase</a> <a class="calcul-btn-white export" href="#" id="sidebarWinCalculExport">Export list</a> <a class="calcul-btn-white reset" href="#" id="sidebarWinCalculReset">Reset</a>
+                        <div class="btn-group">
+                            <a class="calcul-btn buy" href="/pricing/pia/" id="sidebarWinCalculBuy">Go to purchase</a> <a class="calcul-btn-white export" href="#" id="sidebarWinCalculExport">Export list</a> <a class="calcul-btn-white reset" href="#" id="sidebarWinCalculReset">Reset</a>
                         </div>
                         <p class="summary-text">
                             Still not convinced? <a href="/pricing/1rmb-trial/" id="sidebarWinCalculTry">Try</a> these features first.
@@ -103,7 +105,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-calculator-storage</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Azure Storage, Azure Storage, price, select type, select configuration</metaKeywords>
-    <metaDescription><![CDATA[Estimate the Azure Storage usage costs for your solution. You can select whatever services are required, along with their different types, levels, configurations, and instances. You can view the unit price and total price easily and estimate the required costs. You can also export lists for easy quotes. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer.]]></metaDescription>
+    <metaDescription><![CDATA[Estimate the Azure Storage usage costs for your solution. You can select whatever services are required, along with their different types, levels, configurations, and instances. You can view the unit price and total price easily and estimate the required costs. You can also export lists for easy quotes. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
     <urlDisplayName>Pricing Calculator - Storage</urlDisplayName>
   </TextpageLeftNav>
 </localize>

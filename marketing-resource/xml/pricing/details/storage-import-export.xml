@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <localize>
   <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2016-07-07T11:41:59" urlName="storage-import-export" writerName="content" creatorName="content">
     <bodyText><![CDATA[
@@ -11,13 +11,13 @@
 			</div>
 			<div class="pricing-page-section">
                     <h2>Pricing Details</h2>
-                    <p><strong>Equipment processing</strong>: the processing fee for each storage device is ￥ 380. The data transfer between the equipment and Azure storage is free. Conventional storage transactions are charged. Please view the <a href="/pricing/details/storage/" id="storage-import-export_pricing-storage">Storage Pricing Details</a> page.</p>
+                    <p><strong>Equipment processing</strong>: the processing fee for each storage device is RMB380. The data transfer between the equipment and Azure storage is free. Conventional storage transactions are charged. Please view the <a href="/pricing/details/storage/" id="storage-import-export_pricing-storage">Storage Pricing Details</a> page.</p>
                     <p><strong>Shipping for equipment returns</strong>: related shipping charges caused by equipment returns is free before March 1, 2017.</p>
                    
             </div>           
             <div class="pricing-page-section">
                 <div class="more-detail">
-                    <h2>FAQ</h2>
+                    <h2>FAQs</h2>
                     <em>Expand all</em>
                     <ul>
                         <li>
@@ -42,11 +42,11 @@
         </tr>
         <tr>
             <td>Mainland China</td>
-            <td>China East, China North</td>
+            <td>China North, China East</td>
         </tr>
     </table>
 
-<h2>Support &amp; SLA</h2>
+<h2>Support and Service Level Agreements</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="storage-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				<p>Currently, we will not provide a Service Level Agreement for importing/exporting. If you want to learn about the details of our Service Level Agreement, please access the <a id="pricing_storage-import-export_sla" href="/support/legal/sla/" target="_blank">Service Level Agreements</a> page.</p>
 </div>
@@ -56,7 +56,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>storage-import-export</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Azure Storage - Import/Export, pricing details, pricing and billing</metaKeywords>
-    <metaDescription><![CDATA[Learn about the pricing details of Import/Export. Users can learn the differences between the storage features and pricing to choose suitable storage. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
+    <metaDescription><![CDATA[Learn about the pricing details of Import/Export. Users can learn the differences between the storage features and pricing to choose suitable storage. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
     <urlDisplayName>Import/Export</urlDisplayName>
   </TextpageLeftNav>
 </localize>

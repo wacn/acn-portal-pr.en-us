@@ -9,8 +9,8 @@
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/stream-analytics@2x.png" />
                         <h2><span>Stream Analytics</span></h2>
-                        <h4>An event processing engine in the cloud that can be developed quickly and in real time to deeply understand currently existing data attributes.</h4>                      
-                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial_stream_analytics">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia_stream_analytics">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h4>An event processing engine in the cloud that can be developed quickly and in real time to deeply understand currently existing data attributes.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial_stream_analytics">Apply for trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia_stream_analytics">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@
             <!-- END: TAB-CONTROL -->
             <div class="pricing-page-section">
                 <div class="more-detail">
-                    <h2>FAQ</h2>
+                    <h2>FAQs</h2>
                     <em>Expand all</em>
                     <ul>
                         <!--
@@ -63,10 +63,9 @@
 						-->
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="que-api_stream_analytics">What is the stream processing unit? </a>
-                                
-<section>
+                                <section>
                                     <p>The stream processing unit is a unit of stream processing capacity with a maximum handling capacity of 1MB/s. The number of stream processing units is chosen by the customer through the Azure portal or the stream analytics management API. And the stream processing unit can be used to extend stream processing operations to achieve higher handling capacity. Moreover, more stream processing units may be needed to achieve performance requirements, according to the complexity of the query and the required handling capacity.</p>
                                     <p>The number of units for the stream processing is charged by the hour, and the billing is based on the maximum number of units chosen in one hour.</p>
                                 </section>
@@ -75,9 +74,9 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="que-influence-flow_stream_analytics">What are the factors affecting the pricing of the stream operations? </a>
-<section>
+                                <section>
                                     <p>The main factors affecting the pricing of stream operations are the complexity of queries, the return rate (delay) for the queries and the amount of data processed.</p>
                                 </section>
 
@@ -85,10 +84,9 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="que-limit_stream_analytics">Is there any limit on the number of stream processing units?</a>
-                                
-<section>
+                                <section>
                                     <p>There is no number limit for the stream processing units. The quota for the default stream processing unit subscribed individually by each region is 48. You can request a larger number of stream processing units by filling in the supporting worker order.</p>
                                 </section>
 
@@ -96,10 +94,9 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                
+                            <div>
                                 <a id="que-event-center_stream_analytics"> Does the running steam require Event Hubs during operation? </a>
-                                
-<section>
+                                <section>
                                     <p>It is recommended that Event Hubs be used as the transfer center for the scalable event, so as to be regarded as the solution for stream analytics. Currently, stream analytics also supports pulling data from Azure Blob. We may consider integrating with other input sources in the future.</p>
                                 </section>
 
@@ -109,21 +106,21 @@
                 </div>
             </div>
             <div class="pricing-page-section">
-                <h2>Region</h2>
+                <h2>Marketing Regions</h2>
                 <p>Stream Analytics service is available in the following regions:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territory</strong></th>
+                        <th align="left"><strong>Territories</strong></th>
                         <th align="left"><strong>Region</strong></th>
                     </tr>
                     <tr>
                         <td>Mainland China</td>
-                        <td>China East, China North</td>
+                        <td>China North, China East</td>
                     </tr>
                 </table>
                 
                 <div class="pricing-page-section">
-                <h2>Support &amp; SLA</h2>
+                <h2>Support and Service Level Agreements</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="stream-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				<p>We guarantee that availability of the stream analytics API is at least 99.9%.</p>
 				<p>We guarantee that the deployed stream analytics operation will process data 99.9% of the time.</p>
@@ -136,7 +133,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-stream-analytics</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Stream Analysis, price, data processing, analysis service, stream processing and 1RMB Trial</metaKeywords>
-    <metaDescription><![CDATA[Learn about the pricing details of Azure Stream Analytics. Azure Stream Analytics is a real-time cloud service for data analysis. Stream Analytics is priced by the amount of data processed and the number of stream processing units for processing. A 1 RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[Learn about the pricing details of Azure Stream Analytics. Azure Stream Analytics is a real-time cloud service for data analysis. Stream Analytics is priced by the amount of data processed and the number of stream processing units for processing. A 1 RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Stream Analytics</urlDisplayName>
   </TextpageLeftNav>
 </localize>

@@ -26,7 +26,7 @@
 							<div class="nav_item" id="nav_item_pri">
 								<a id="overview_anchor_cal" class="anchor"></a>
 								<h2 class="nav_title">
-									Computing
+									Calculate
 								</h2>
 								<ul title="Computing" class="low-price">
 									<li>
@@ -41,7 +41,7 @@
 									</li>
 									
 									<li>
-										<a id="price_overview_cal_batch" href="/pricing/details/batch/" class="single-link">Batch</a>
+										<a id="price_overview_cal_batch" href="/pricing/details/batch/" class="single-link">Batch processing</a>
 									</li>
 									
 									<li>
@@ -49,7 +49,7 @@
 									</li>
 									
 									<li>
-										<a id="price_overview_cal_cloud-services" href="/pricing/details/cloud-services/" class="single-link"> Cloud Services </a>
+										<a id="price_overview_cal_cloud-services" href="/pricing/details/cloud-services/" class="single-link"> Cloud services </a>
 									</li>
 									
 								</ul>
@@ -64,34 +64,34 @@
 								</h2>
 								<ul title="Network"  class="low-price">
 									<li>
-										<a id="pricing_overview_network_virtual-network" href="/pricing/details/virtual-network/" class="single-link">Virtual Network</a>
+										<a id="pricing_overview_network_virtual-network" href="/pricing/details/virtual-network/" class="single-link">Virtual network</a>
 									</li>
 									<li>
 										<a id="pricing_overview_network_load-balancer" href="/pricing/details/load-balancer/" class="single-link">Load Balancer</a>
 									</li>
 									<li>
-										<a id="pricing_overview_network_application-gateway" href="/pricing/details/application-gateway/" class="single-link">Application Gateway</a>
+										<a id="pricing_overview_network_application-gateway" href="/pricing/details/application-gateway/" class="single-link">App gateway</a>
 									</li>
 									<li>
-										<a id="pricing_overview_network_vpn_gateway" href="/pricing/details/vpn-gateway/" class="single-link">VPN Gateway</a>
+										<a id="pricing_overview_network_vpn_gateway" href="/pricing/details/vpn-gateway/" class="single-link">VPN network router</a>
 									</li>
 									<li>
 										<a id="pricing_overview_network_cdn" href="/pricing/details/cdn/" class="single-link">Content Delivery Network</a>
 									</li>
 									<li>
-										<a id="pricing_overview_network_traffic-manager" href="/pricing/details/traffic-manager/" class="single-link">Traffic Manager</a>
+										<a id="pricing_overview_network_traffic-manager" href="/pricing/details/traffic-manager/" class="single-link">Traffic volume manager</a>
 									</li>
 									<li>
 										<a id="pricing_overview_network_expressroute" href="/pricing/details/expressroute/" class="single-link">ExpressRoute</a>
 									</li>
 									<li>
-										<a id="pricing_overview_network_data-transfer" href="/pricing/details/data-transfer/" class="single-link">Data Transfer (Bandwidth)</a>
+										<a id="pricing_overview_network_data-transfer" href="/pricing/details/data-transfer/" class="single-link">Data Transmission (Bandwidth)</a>
 									</li>
 									<li>
 										<a id="pricing_overview_network_ip-addresses" href="/pricing/details/ip-addresses/" class="single-link">IP Address</a>
 									</li>
 									<li>
-										<a id="pricing_overview_network_reserved-network-watcher" href="/pricing/details/network-watcher/" class="single-link">Network Watcher</a>
+										<a id="pricing_overview_network_reserved-network-watcher" href="/pricing/details/network-watcher/" class="single-link">Network Observation Procedures</a>
 									</li>
 								</ul>
 							</div>
@@ -111,7 +111,7 @@
 										<a id="pricing_overview_storage_backup" href="/pricing/details/backup/" class="single-link">Backup</a>
 									</li>
 									<li>
-										<a id="pricing_overview_storage_site-recovery" href="/pricing/details/site-recovery/" class="single-link">Site Recovery</a>
+										<a id="pricing_overview_storage_site-recovery" href="/pricing/details/site-recovery/" class="single-link">Website Recovery</a>
 									</li>
 								</ul>
 							</div>
@@ -153,7 +153,7 @@
 										<a id="pricing_overview_database_mysql" href="/pricing/details/mysql/" class="single-link"> MySQL Database on Azure </a>
 									</li>
 									<li>
-										<a id="pricing_overview_database_sql-data-warehouse" href="/pricing/details/sql-data-warehouse/" class="single-link">SQL Data Warehouse</a>
+										<a id="pricing_overview_database_sql-data-warehouse" href="/pricing/details/sql-data-warehouse/" class="single-link">SQL data warehouse</a>
 									</li>
 									<li>
 										<a id="pricing_overview_database_sql_server_stretch_database" href="/pricing/details/sql-server-stretch-database/" class="single-link"> SQL Server Stretch Database </a>
@@ -218,11 +218,11 @@
 							<div class="nav_item" id="nav_item_pri">
 								<a id="overview_anchor_internet" class="anchor"></a>
 								<h2 class="nav_title">
-									Connected Devices
+									Internet of Things
 								</h2>
-								<ul title="Connected Devices">
+								<ul title="Internet of Things">
 									<li>
-										<a id="pricing_overview_internet_iot_hub" href="/pricing/details/iot-hub/" class="single-link">Azure IoT Hub</a>
+										<a id="pricing_overview_internet_iot_hub" href="/pricing/details/iot-hub/" class="single-link">Azure IoT Center</a>
 									</li>
 									<li>
 										<a id="pricing_overview_internet_event-hubs" href="/pricing/details/event-hubs/" class="single-link">Event Hubs</a>
@@ -231,7 +231,7 @@
 										<a id="pricing_overview_internet_stream-analytics" href="/pricing/details/stream-analytics/" class="single-link">Stream Analytics</a>
 									</li>
 									<li>
-										<a id="pricing_overview_internet_notification-hubs" href="/pricing/details/notification-hubs/" class="single-link">Notification Hubs</a>
+										<a id="pricing_overview_internet_notification-hubs" href="/pricing/details/notification-hubs/" class="single-link">Notification Center</a>
 									</li>
 								</ul>
 							</div>
@@ -316,9 +316,9 @@
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="A0">What is the specific procedure for requesting a Fapiao? How many types of China Fapiao are there? Is there any restriction on Fapiao title?</a>
+								<a id="A0">What is the specific procedure for requesting an Fapiao? What types of Fapiaos are there? What are the space limits on a Fapiao?</a>
 								<section>
-									<p>Sign in to account.windowsazure.cn, click Subscriptions, Payment, History, Manage Fapiao, then complete sign-up. Refer to <a id="home_overview_fapiao" style="color:#00a8d9;" href="http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html">http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html </a>for more info.</p>
+									<p>Register at account.windowsazure.cn, click on Subscribe, Payment History, then Manage Invoices, then complete the application. For more information see: <a id="home_overview_fapiao" style="color:#00a8d9;" href="http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html">http://www.21vbluecloud.com/communities/FAQ/fapiao/234.html. </a></p>
 									<p>Fapiaos include both special value-added tax Fapiaos and ordinary value-added tax Fapiaos.</p>
 									<p>Regarding Fapiao accounts, the client’s actual name must be used.</p>
 								</section>
@@ -327,7 +327,7 @@
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="A1">When and where can I apply for Fapiao?</a>
+								<a id="A1">Can you apply for a Fapiao at any time? Where do you apply for a Fapiao?</a>
 								<section>
 									<p>A user can apply for a Fapiao 3 days after the payment is completed. Should you have any special requirements, please contact the 21Vianet service center, call 86-10-84563652 or 400-089-0365.</p>
 									<p>You can click here to apply directly for a Fapiao: <a id="home_overview_LoginView" style="color:#00a8d9;" href="http://fapiao.cloud.21vianet.com/EmailAcount/LoginView">http://fapiao.cloud.21vianet.com/EmailAcount/LoginView </a>. You can also follow the steps below to sign in to the Fapiao page.</p>
@@ -347,7 +347,7 @@
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="A3">Do I need to provide my license key if I upload Windows Server Image to Azure?</a>
+								<a id="A3">Do I need to provide my license key if I upload my local Windows Server map to Azure?</a>
 								<section>
 									<p>No. Azure will provide the Windows Server license key for any instance which is running.</p>
 								</section>
@@ -356,10 +356,10 @@
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="A4">How do I sign in to a Fapiao account? What should I do if I can’t apply Fapiao after activating Fapiao account successfully? What should I do if I can’t apply for Fapiao?</a>
+								<a id="A4">How do I register a Fapiao interface account? After successfully activating the account, what do I do if I can’t make out a Fapiao?</a>
 								<section>
 									<p>After clicking here to enter the Fapiao page, you can click “Sign Up Account” in the right corner of the page and choose the product you’ve purchased to sign up for an Azure account.</p>
-									<p>If you are unable to apply for Fapiao after activating Fapiao account successfully, please call 21Vianet Customer Service Center: 86-10-84563652 or 400-089-0365.</p>
+									<p>If you are unable to apply for Fapiao after activating your Fapiao account successfully, please call 21Vianet Customer Service Center: 86-10-84563652 or 400-089-0365.</p>
 								</section>
 							</div>
 						</li>
@@ -368,7 +368,7 @@
 							<div>
 								<a id="A5">After applying for a Fapiao, how do I get the Fapiao? Do I have to pay any extra costs?</a>
 								<section>
-									<p>You can get it through express delivery or get it by yourself. 21Vianet will help print and deliver Fapiao and pay the express fee.</p>
+									<p>You can get it through express delivery or get it yourself. 21Vianet will help print and deliver Fapiao and pay the express fee.</p>
 									<p>If you have previously chosen self-pickup, you can change this to express delivery. The self-pickup is from Room 657, Building 3, No. 88 Keyuan Road, Pudong District, Shanghai.</p>
 								</section>
 							</div>
@@ -381,7 +381,7 @@
     <umbracoNaviHide>0</umbracoNaviHide>
     <pageTitle>To find out about all Azure pricing - Azure Cloud Computing</pageTitle>
     <metaKeywords>Azure, Microsoft Cloud, Pricing, Service Pricing, Price calculator, Discounts, Invoicing</metaKeywords>
-    <metaDescription><![CDATA[Windows Azure provides detailed price information and you can find out the price of all services as well as preferential deals. It provides price estimates that allow you to quickly understand your costs. At the same time, it will provide you answers to FAQ related to purchasing and provide you consultation.]]></metaDescription>
+    <metaDescription><![CDATA[Windows Azure provides detailed price information and you can find out the price of all services as well as preferential deals. It provides price estimates that allow you to quickly understand your costs. At the same time, it will provide you answers to FAQs related to purchasing and provide you consultation.]]></metaDescription>
     <linkid>pricing-overview</linkid>
     <urlDisplayName>Overview</urlDisplayName>
     <headerExpose></headerExpose>

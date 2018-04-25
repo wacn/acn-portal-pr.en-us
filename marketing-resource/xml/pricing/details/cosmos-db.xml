@@ -40,11 +40,11 @@
                         </tr>
                         <tr>
                             <td>SSD Storage (per GB)</td>
-                            <td>￥ 2.576/GB/month</td>
+                            <td>RMB2.576/GB/month</td>
                         </tr>
                         <tr>
                             <td>Reserved RU/second (per 100 RU)</td>
-                            <td>￥ 0.082/hour (about ￥ 61.01/month)</td>
+                            <td>RMB0.082/hour (about RMB61.01/month)</td>
                         </tr>
                     </table>
 										
@@ -75,7 +75,7 @@
                     <p>When writing a sustained amount of data with Azure Cosmos DB, the data is indexed synchronously to provide consistent SQL queries using a write-optimized, latch-free database engine designed for solid-state drives (SSDs) and low-latency access. When data is distributed, read and write requests always originate from the local region. Performance can be further optimized by <a id="pricing-cosmos-db_docs-documentdb-indexing-policies" style="color: #00a8d9;" href="//docs.azure.cn/zh-cn/documentdb/documentdb-indexing-policies/">customizing automatic index behavior</a>.</p>
                     
                     <h3>Collections with predefined performance and size</h3>
-                    <p>Before August 1, 2017, S1, S2, or S3 size collections can continue to use these features for a predefined 10 GB of storage and throughput, which can vary with the size of the instance: S1 (250 RU/second billed at ￥ 0.15/hour), S2 (1,000 RU/second billed at ￥ 0.30/hour), or S3 (2,500 RU/second billed at ￥ 0.60/hour) throughput collections. If you want to reconfigure the throughput of these collections, please see <a id="pricing-cosmos-db_docs-documentdb-performance-levels" style="color: #00a8d9;" href="//docs.azure.cn/documentdb/documentdb-performance-levels/">Changing performance levels using the Azure portal</a>. If you want to use an unlimited container, you need to convert previously created S1, S2, or S3 collections to use the unlimited throughput and storage sizes described above, as described in <a id="pricing-cosmos-db_docs-documentdb-partition-data" style="color: #00a8d9;" href="//docs.azure.cn/zh-cn/documentdb/documentdb-partition-data/">Partitioning and scaling in Azure Cosmos DB</a>.</p>
+                    <p>Before August 1, 2017, S1, S2, or S3 size collections can continue to use these features for a predefined 10 GB of storage and throughput, which can vary with the size of the instance: S1 (250 RU/second billed at RMB0.15/hour), S2 (1,000 RU/second billed at RMB0.30/hour), or S3 (2,500 RU/second billed at RMB0.60/hour) throughput collections. If you want to reconfigure the throughput of these collections, please see <a id="pricing-cosmos-db_docs-documentdb-performance-levels" style="color: #00a8d9;" href="//docs.azure.cn/documentdb/documentdb-performance-levels/">Changing performance levels using the Azure portal</a>. If you want to use an unlimited container, you need to convert previously created S1, S2, or S3 collections to use the unlimited throughput and storage sizes described above, as described in <a id="pricing-cosmos-db_docs-documentdb-partition-data" style="color: #00a8d9;" href="//docs.azure.cn/zh-cn/documentdb/documentdb-partition-data/">Partitioning and scaling in Azure Cosmos DB</a>.</p>
                     <!-- END: Table2-Content-->
                 </div>
                 <!-- END: TAB-CONTAINER-1 -->
@@ -83,7 +83,7 @@
             <!-- END: TAB-CONTROL -->
             <div class="pricing-page-section">
                 <div class="more-detail">
-                    <h2>FAQ</h2>
+                    <h2>FAQs</h2>
                     <em>Expand all</em>
                     <ul>
                         <li>
@@ -103,9 +103,9 @@
                                 <a id="Storage_question2">How does request unit usage appear on my bill?</a>
                                 <section>
                                     <p>During this period, billing is based on the total capacity (RU/second) provisioned under your Azure Cosmos DB account, using predictable hourly rates that fluctuate steadily.</p>
-									<p>If you create accounts for two partitions that use 500 RU/second and 700 RU/second respectively, the total provisioned capacity will reach 1,200 RU/second. Therefore, the billing amount will be 12 x ￥ 0.082 = ￥ 0.984/hour.</p>
-									<p>If your throughput needs to be changed and you increase the capacity of each partition by 500 RU/second, while also creating a new unlimited container using 20,000 RU/s, your overall provisioned capacity would be 22,200 RU/second (1,000 RU/second + 1,200 RU/second + 20,000 RU/second). Your bill would then change to: ￥ 0.082 x 222 = ￥ 18.204/hour.</p>
-									<p>In a month of 720 hours, if 500 hours are provisioned at 1,200 RU/second and 220 hours are provisioned at 22,200 RU/second, the monthly bill will show: 500 x ￥ 0.984/hour + 220 x ￥ 18.204/hour = RMB4,496.88/hour.</p>
+									<p>If you create accounts for two partitions that use 500 RU/second and 700 RU/second respectively, the total provisioned capacity will reach 1,200 RU/second. Therefore, the billing amount will be 12 x RMB0.082 = RMB0.984/hour.</p>
+									<p>If your throughput needs to be changed and you increase the capacity of each partition by 500 RU/second, while also creating a new unlimited container using 20,000 RU/s, your overall provisioned capacity would be 22,200 RU/second (1,000 RU/second + 1,200 RU/second + 20,000 RU/second). Your bill would then change to: RMB0.082 x 222 = RMB18.204/hour.</p>
+									<p>In a month of 720 hours, if 500 hours are provisioned at 1,200 RU/second and 220 hours are provisioned at 22,200 RU/second, the monthly bill will show: 500 x RMB0.984/hour + 220 x RMB18.204/hour = RMB4,496.88/hour.</p>
                                 </section>
 
                             </div>
@@ -223,7 +223,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>Azure Cosmos DB</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Azure Cosmos DB, pricing details, pricing, billing</metaKeywords>
-    <metaDescription><![CDATA[Learn more about the pricing details for Azure Cosmos DB. Azure Cosmos DB bills for each collection on an hourly basis based on the amount of data stored (in GB) and reserved throughput (in units of 100 RU/second). There are also detailed instructions on how it charges for cross-regional data transfers. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
+    <metaDescription><![CDATA[Learn more about the pricing details for Azure Cosmos DB. Azure Cosmos DB bills for each collection on an hourly basis based on the amount of data stored (in GB) and reserved throughput (in units of 100 RU/second). There are also detailed instructions on how it charges for cross-regional data transfers. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
     <urlDisplayName>Azure Cosmos DB</urlDisplayName>
   </TextpageLeftNav>
 </localize>
