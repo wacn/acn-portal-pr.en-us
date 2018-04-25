@@ -254,7 +254,7 @@
                     "MaxUnit": "1000",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "Custom domains are charged by the year at ￥ 78.798/year (includes privacy protection).",
+                        "Description": "Custom domains are charged by the year at RMB78.798/year (includes privacy protection).",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "6.5665"
                     }]
@@ -9829,7 +9829,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "0-5, ￥ 0.026/IP/hour*744 hours, the 6th starts at ￥ 0.052/IP/hour*744 hours",
+                        "Description": "0-5, RMB0.026/IP/hour*744 hours, the 6th starts at RMB0.052/IP/hour*744 hours",
                         "PriceTier": "0,5,6,1000",
                         "PricePerTier": "0.026,0.052",
                         "MinUnit": "0",
@@ -9861,7 +9861,7 @@
                     "MaxUnit": "1000",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "0-5 are free and over 6 are ￥ 0.026/IP/hour*744 hours",
+                        "Description": "0-5 are free and over 6 are RMB0.026/IP/hour*744 hours",
                         "PriceTier": "0,5,6,1000",
                         "PricePerTier": "0,0.026",
                         "MinUnit": "0",
@@ -9893,7 +9893,7 @@
                      "MaxUnit": "1000",
                      "Sizes": [{
                          "Name": "default",
-                         "Description": " 0-100 are free and after that ￥ 0.456/remap*744 hours",
+                         "Description": " 0-100 are free and after that RMB0.456/remap*744 hours",
                          "PriceTier": "0,100,101,1000",
                          "PricePerTier": "0,0.456",
                          "MinUnit": "0",

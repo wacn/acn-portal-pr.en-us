@@ -104,12 +104,12 @@
                     </table>
                     <p>For technical specifications and limits for different VPN Gateways, please refer to the <a id="Virtual_Network_price_vpn" style="color: #00a8d9;" href="https://docs.azure.cn/vpn-gateway/vpn-gateway-about-vpngateways/" target="_blank">Information on VPN Gateways</a>, and provide the following discounts for Inter-VNET charges (previously, it was charged according to the standard <a id="Virtual_Network_price_sjcs" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a> rate).</p>
                     <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
-                    <h3>Inter-VNET Data Transfer</h3>
+                    <h3>Inbound Inter-virtual network data transfers</h3>
                     <p>Inbound data between two virtual networks in one area: free</p>
                     <p>Inbound data between virtual networks in two different areas (East China Data Center and North China Data Center): free</p>
                     <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
                     
-                    <h3>Outbound-VNET Data Transfer</h3>
+                    <h3>Outbound Inter-virtual network data transfers</h3>
                     <p>Outbound data between two virtual networks in one area: free</p>
                     <p>Outbound data between virtual networks in two different areas (East China Data Center and North China Data Center): ￥ 0.16/GB</p>
                     <!-- END: Table3-Content--> <!-- BEGIN: Table4-Content-->
@@ -151,7 +151,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Virtual_Network_data-transmission"> Is the Inter-VNET transfer charged at the rates of the source region or the target region? </a>
+                                <a id="Virtual_Network_data-transmission"> Is the Inter-VNET transfer charged at the rates of the source region or the destination region? </a>
                                 <section>
                                     <p>It is similar to the standard data transfer charge, and Inter-VNET data transfer is charged at the rates of the source region.</p>
                                 </section>
@@ -209,7 +209,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-vpn-gateway</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Network, Virtual Network, Azure VPN Gateway, Virtual Private Network, Site-to-Site, VPN, IP Address, DNS, Ipsec and ExpressRoute</metaKeywords>
-    <metaDescription><![CDATA[About pricing details for the Azure VPN Gateway. The VPN Gateway can connect the basic structure to the cloud. It’s free for setting up virtual networks. The VPN Gateway can provide different pricing for the Basic, Standard, and Premium VPN Gateway or ExpressRoute Gateway. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[About pricing details for the Azure VPN Gateway. The VPN Gateway can connect the basic structure to the cloud. It’s free for setting up virtual networks. The VPN Gateway can provide different pricing for the Basic, Standard, and Premium VPN Gateway or ExpressRoute Gateway. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - VPN Gateway</urlDisplayName>
   </TextpageLeftNav>
 </localize>
