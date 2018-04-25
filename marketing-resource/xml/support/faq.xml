@@ -1,33 +1,33 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<!--?xml version="1.0" encoding="utf-8"?>
 <localize>
   <umbTextpage id="12103" parentID="12095" level="3" writerID="106" creatorID="22" nodeType="1059" template="15" sortOrder="3" createDate="2012-05-29T21:04:52" updateDate="2014-11-07T08:57:21" nodeName="FAQ" urlName="faq" writerName="content" creatorName="Brad" path="-1,11978,12095,12103" isDoc="">
-    <bodyText><![CDATA[
+    <bodyText><![CDATA[-->
       
         <div class="section-component">
                         <h2>Please select the category of FAQ to browse</h2>
                         <!-- BEGIN: TAB-CONTROL -->
                         <div class="tab-control-selector">
-                            <a href="#" data-href="#general" id="faq-general" class="active">General issues</a> <a href="#" data-href="#registration" id="faq-registration">Registration issues</a> <a href="#" data-href="#billingAndSubscription" id="faq-billingAndSubscription">Billing, subscriptions and Fapiao</a> <a href="#" data-href="#implementationAndMaintenance" id="faq-implementationAndMaintenance">Implementation and maintenance</a> <!-- <a href="#" data-href="#ICP" id="faq-icp">ICP 问题</a> --> <!--<a href="#" data-href="#policy" id="faq-policy">Azure 支持概述问题</a>--> <a href="#" id="new_control_bexpend" class="faq-floder"><em>Show all</em></a>
+                            <a href="#" data-href="#general" id="faq-general" class="active">General inquiries</a> <a href="#" data-href="#registration" id="faq-registration">Registration</a> <a href="#" data-href="#billingAndSubscription" id="faq-billingAndSubscription">Billing, subscriptions and Fapiao</a> <a href="#" data-href="#implementationAndMaintenance" id="faq-implementationAndMaintenance">Implementation and maintenance</a> <!-- <a href="#" data-href="#ICP" id="faq-icp">ICP 问题</a> --> <!--<a href="#" data-href="#policy" id="faq-policy">Azure 支持概述问题</a>--> <a href="#" id="new_control_bexpend" class="faq-floder"><em>Show all</em></a>
                             <div class="clearfix"></div>
                             <div class="floder-layer">
                                 <div class="tab-control-container tab-active" id="general">   
                                     <div class="pricing-page-section">                      
                                         <div class="more-detail">
-                                            <h2>1 General Issues</h2>
+                                            <h2>1 General Inquiries</h2>
                                             <ul>
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
                                                         <a id="q-1-1" href="#">What is Azure?</a>
                                                         <section>
-                                                            <p>Azure is a flexible and open cloud platform that enables you to quickly build, deploy, and manage applications in your data center. Azure supports all major operating systems, languages, or development tools and integrates public cloud applications with the existing IT infrastructure.</p>
-                                                            <p>Azure offers international class Service Level Agreements that enable you to build and run highly available applications without having to focus on your infrastructure. It can automatically fix the operating systems and services and has built-in network load balancing and hardware fault correcting capabilities. It supports the deployment models that allow you to upgrade applications with no downtime.</p>
-                                                            <p>Azure enables you to generate applications in any language and by any framework or tool and to utilize the public functions and services of open REST protocol. Azure’s client libraries are available in a variety of programming languages and are published under open source licenses and hosted on GitHub.</p>
+                                                            <p>Azure is a flexible and open cloud platform that enables you to quickly build, deploy, and manage applications in the data centers. Azure supports all major operating systems, languages, or development tools and integrates public cloud applications with the existing IT infrastructure.</p>
+                                                            <p>Azure offers international class Service Level Agreements that enable you to build and run highly available applications without having to focus on the infrastructure. It provides the ability to automatically repair operating systems and services, and has built-in network load balancing and hardware fault recovery capabilities. It supports the deployment models that allow you to upgrade applications with no downtime.</p>
+                                                            <p>Azure enables you to generate applications in any language and by any framework or tool. Azure utilizes the public functions and services of open REST protocol. Azure’s client libraries are available in a variety of programming languages and are published under open source licenses and hosted on GitHub.</p>
                                                             <p>Azure offers a flexible cloud platform that meets the needs of any application.</p>
                                                             <ul>
-                                                                <li><a id="support_faq_new" href="/what-is-new/">Latest Circular</a></li>
+                                                                <li><a id="support_faq_new" href="/what-is-new/">What's New</a></li>
                                                                 
-                                                                <li><a id="support_faq_sta" href="/starter-guide/">Guide to Getting Started</a></li>
+                                                                <li><a id="support_faq_sta" href="/starter-guide/">Starter Guide</a></li>
                                                             </ul>
                                                         </section>
                                                     </div>
@@ -49,7 +49,7 @@
                                                         <a id="q-1-3" href="#">Are Azure services in China the same as Azure services in other areas?</a>
                                                         <section>
                                                             <p>In China, <a id="support_faq_wa" href="//www.azure.cn/">Azure</a> is operated by Shanghai Blue Cloud Technology Co., Ltd., a wholly-owned subsidiary of Beijing 21Vianet Broadband Data Center Co., Ltd. (abbreviated as "21Vianet"). 21Vianet is China’s largest neutral third-party Internet infrastructure service telecommunications provider to which Microsoft has authorized technologies. In China, Azure combines Microsoft’s global technologies and 21Vianet’s local operating experience to build an enterprise-level international cloud computing platform for China.</p>
-                                                            <p>Outside China, <a id="support_faq_mic" href="//azure.microsoft.com/">Microsoft Azure is operated by Microsoft itself</a>. China’s Azure customers will be able to enjoy entirely the same user experiences and service level as customers in other areas.</p>
+                                                            <p>Outside China, <a id="support_faq_mic" href="//azure.microsoft.com/">Microsoft Azure is operated by Microsoft itself</a>. China’s Azure customers will be able to enjoy exactly the same user experiences and service level as customers in other areas.</p>
                                                         </section>
                                                     </div>
                                                 </li>
@@ -58,7 +58,7 @@
                                                     <div>
                                                         <a id="q-1-4" href="#">What is an SLA (Service Level Agreement)? What kind of SLA does Azure offer in China?</a>
                                                         <section>
-                                                            <p>We provide international class Service Level Agreements for each of the official and commercial Azure services. If the corresponding service level is not reached, the customer can enjoy the corresponding service fee deduction. Details on SLAs provided by Azure in China are listed at: <a id="FAQ-2" href="/support/legal/sla/" class="single-link">Service Level Agreements</a>.</p>
+                                                            <p>We provide international class Service Level Agreements for each of the Azure services that are officially available for commercial use. If a certain service level is not reached, the customer can receive the corresponding service fee deduction. Details on SLAs provided by Azure in China are listed at: <a id="FAQ-2" href="/support/legal/sla/" class="single-link">Service Level Agreements</a>.</p>
                                                         </section>
                                                     </div>
                                                 </li>
@@ -67,17 +67,17 @@
                                                     <div>
                                                         <a id="q-1-5" href="#">What are some success stories of Azure in China?</a>
                                                         <section>
-                                                            <p>In China, a large number of enterprises like GMW.cn, Linekong, Spring Airlines, Mobike, Digital China, Coca Cola, Kingdee, PPTV, ChinaCache, and Qoros log into the Azure platform in China. Please go to the <a id="FAQ-3" href="/partnerancasestudy/case-studies/">Success Stories</a> page for information on these cases.</p>
+                                                            <p>In China, a large number of enterprises like GMW.cn, Linekong, Spring Airlines, Mobike, Digital China, Coca Cola, Kingdee, PPTV, ChinaCache, and Qoros have landed onto the Azure platform in China. Please go to the <a id="FAQ-3" href="/partnerancasestudy/case-studies/">Success Stories</a> page for more information on these cases.</p>
                                                         </section>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-1-vmbilling" href="#">How is Virtual Machines charged? Why does my virtual machine still incur costs when it’s closed?</a>
+                                                        <a id="q-1-vmbilling" href="#">How is Virtual Machines charged? Why does my virtual machine still incur costs when it’s stopped?</a>
                                                         <section>
-                                                            <p>Virtual Machines billing is divided into two parts: the cost of the virtual machine itself and the cost produced by the disk (divided into hosting disk and non-hosting disk), so as long as your virtual machine and the disk are not deleted, this part of the disk storage cost always exists. Please refer to the<a href="/pricing/details/storage/"> Price Details of Disc Storage</a> for billing standards.</p>
-                                                            <p>In addition, you should note that two virtual machine statuses "Suspended" and "Suspended (de-allocated)" are charged differently. Please refer to the following table:</p>
+                                                            <p>Virtual Machines billing consists of two parts: the cost of the virtual machine itself and the cost iccurred by its disk (including managed disk and non-managed disk), so as long as your virtual machine and the disk are not deleted, disk storage cost always exists. Please refer to the<a href="/pricing/details/storage/"> Price Details of Disc Storage</a> for billing details.</p>
+                                                            <p>In addition, note that the two virtual machine statuses "Stopped" and "Stopped (de-allocated)" are charged differently. Please refer to the following table:</p>
                                                             <table>
                                                                 <tr>
                                                                     <th>Status</th>
@@ -89,25 +89,25 @@
                                                                     <td>Starting Up</td>
                                                                     <td>Yes</td>
                                                                     <td>Yes</td>
-                                                                    <td>This is the initial starting state of the virtual machine, during which the machine is going through a startup cycle and is charged as normal, as the virtual machine is running.</td>
+                                                                    <td>This is the initial starting state of the virtual machine, during which the virtual machine is going through a startup cycle and is charged as normal, as the virtual machine is running.</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Running (already started)</td>
                                                                     <td>Yes</td>
                                                                     <td>Yes</td>
-                                                                    <td>The virtual machine is running and will be charged as normal.</td>
+                                                                    <td>The virtual machine is running and charged as normal.</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Suspended</td>
+                                                                    <td>Stopped</td>
                                                                     <td>Yes</td>
                                                                     <td>Yes</td>
-                                                                    <td>The shutdown operation is performed through the virtual machine, and the virtual machine will be in a "Suspended (de-allocated)" state. During this time, the core is not released, so the virtual machine is still being charged.</td>
+                                                                    <td>The shutdown operation is performed through the virtual machine, and the virtual machine will be in a "Stopped (de-allocated)" state. During this time, the core is not released, so the virtual machine is still being charged.</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Suspended (de-allocated)</td>
+                                                                    <td>Stopped (de-allocated)</td>
                                                                     <td>No</td>
                                                                     <td>Yes</td>
-                                                                    <td>The shutdown operation is performed through the <a href="//portal.azure.cn/">Azure portal</a>, and the virtual machine will be "Suspended (de-allocated)". During this time, the computing resources will no longer be allocated to the virtual machine, so the virtual machine will no longer be charged for. However, at this time, the cost of disk storage still exists, as the disk still exists.</td>
+                                                                    <td>The shutdown operation is performed through the <a href="//portal.azure.cn/">Azure portal</a>, and the virtual machine will be "Stopped (de-allocated)". During this time, the computing resources will no longer be allocated to the virtual machine, so the virtual machine will no longer be charged for it. However the cost of disk storage still exists, as the disk still exists.</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Deleted (including the disk)</td>
@@ -122,21 +122,21 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-1-6" href="#">How do I select Azure computing services: Web Apps, Cloud Services and Virtual Machines? If I’m an enterprise level user, what services should I select to migrate the existing enterprise applications to the Azure cloud computing platform when faced with these three different computing capabilities?</a>
+                                                        <a id="q-1-6" href="#">How do I select Azure computing services: Web Apps, Cloud Services or Virtual Machines? If I’m an enterprise user, which services should I select to migrate the existing enterprise applications to the Azure cloud computing platform when provided with these three different computing capabilities?</a>
                                                         <section>
-                                                            <p>According to the following characteristics, you can select one service that is suitable for your needs:</p>
+                                                            <p>According to the following characteristics, you can select the service that is suitable for your needs:</p>
                                                             <table cellspacing="0" cellpadding="0" width="100%">
                                                                 <tr>
                                                                     <th align="center">&#160;</th>
                                                                     <th align="center"><strong>Characteristics</strong></th>
-                                                                    <th align="center"><strong>More Suitable</strong></th>
+                                                                    <th align="center"><strong>Suitable For</strong></th>
                                                                 </tr>
                                                                 <tr>
                                                                     <td><a id="support_faq_web" href="/home/features/web-site/">Web Apps</a></td>
                                                                     <td>
                                                                         <ol>
                                                                             <li>You can easily deploy a highly scalable cloud environment by building a highly scalable website on Azure, which can start at a very small scale.</li>
-                                                                            <li>You can use language and open source applications selected by you, such as WordExpress, FTP, Git or TFS, and easily integrate Azure services, such as SQL databases, caches, CDN and storage.</li>
+                                                                            <li>You can use language and open source applications of your own choice, such as WordExpress, FTP, Git or TFS, and easily integrate them with Azure services, such as SQL databases, caches, CDN and storage.</li>
                                                                             <!-- <li>Web 应用的特点在于快速部署，只能提供基本功能，比如 Application 和 Data。它不支持高级功能，比如 Startup Task，Native Code，Virtual Network 等。
                                                                             </li> -->
                                                                         </ol>
@@ -154,32 +154,32 @@
                                                                     <td>
                                                                         <ol>
                                                                             <li>Expand your enterprise applications on Azure.</li>
-                                                                            <li>A rich PaaS environment is utilized to create highly available and scalable applications and services. Advanced multi-layer architecture, automatic deployment and elastic computing are supported.</li>
+                                                                            <li>A rich PaaS environment can be utilized to create highly available and scalable applications and services. Advanced multi-layer architecture, automatic deployment and elastic computing are supported.</li>
                                                                             <li>Through a virtual network, you can connect the network of the local LAN to the Azure public cloud network to allow the enterprise network to enjoy the highly elastic computing and interoperability brought by the public cloud, while ensuring network security.</li>
                                                                         </ol>
                                                                     </td>
                                                                     <td>
                                                                         <ol>
-                                                                            <li>For multi-layer applications, each layer can expand itself. When using Web Role and Worker Role, the Web Role can respond to the display at the front end, while the complex business is handled at the back end.</li>
-                                                                            <li>Advanced management. You can use Cloud Service if your application requires administrator rights, remote desktop access, or upgraded authority to run the code.</li>
-                                                                            <li>Private cloud + public cloud. You can use Azure Connect for point-to-point connection with the Azure public cloud or use the Azure virtual network to connect the enterprise internal or private network to the public cloud.</li>
+                                                                            <li>For multi-layer applications, each layer can expand itself. When using Web Role and Worker Role, Web Role can respond to the display at the front end, while the complex business is handled at the back end.</li>
+                                                                            <li>Advanced management. You can use Cloud Service if your application requires administrator rights, remote desktop access, or escalated authority to run the code.</li>
+                                                                            <li>Private cloud + public cloud. You can use Azure Connect for point-to-point connection with Azure or use the Azure virtual network to connect the enterprise internal or private network to Azure.</li>
                                                                         </ol>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td><a id="support_faq_vir" href="/home/features/virtual-machines/">Virtual Machines VM </a></td>
+                                                                    <td><a id="support_faq_vir" href="/home/features/virtual-machines/">Virtual Machines </a></td>
                                                                     <td>
                                                                         <ol>
-                                                                            <li>IaaS service is provided and the Windows and Linux operating systems are supported</li>
-                                                                            <li>You can easily deploy and run Windows Server and Linux virtual machine and transfer the operating load in a few minutes, without changing the existing code. For an application based on Windows OS, you can transfer it to Hyper-V and save it as a VHD file and upload it to Azure for deployment and hosting.</li>
-                                                                            <li>Virtual network support. You can connect your LAN enterprise application with the public cloud directly and enjoy the convenience of cloud computing.</li>
+                                                                            <li>IaaS service is provided. Windows and Linux operating systems are supported</li>
+                                                                            <li>You can easily deploy and run Windows Server and Linux virtual machine and migrate the operating load in a few minutes, without changing the existing code. For applications based on Windows OS, you can deploy them to Hyper-V, save it as a VHD file and upload it to Azure for deployment and management.</li>
+                                                                            <li>Virtual network supported. You can connect your LAN enterprise application with the public cloud directly and enjoy the convenience of cloud computing.</li>
                                                                         </ol>
                                                                     </td>
                                                                     <td>
                                                                         <ol>
-                                                                            <li>Windows or Linux support. You can quickly transfer the existing Windows or Linux applications to Azure.</li>
+                                                                            <li>Windows or Linux supported. You can quickly migrate the existing Windows or Linux applications to Azure.</li>
                                                                             <li>More service applications are supported. You can use SQL Server, MySQL, MongoDB, and SharePoint applications in Azure.</li>
-                                                                            <li>Transferring existing applications to the public cloud is supported. You can save persistent non-relational data in Azure VHD.</li>
+                                                                            <li>Migrating existing applications to the public cloud is supported. You can save persistent non-relational data in Azure VHD.</li>
                                                                         </ol>
                                                                     </td>
                                                                 </tr>
@@ -190,16 +190,16 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-1-7" href="#">How can Azure services in China ensure the security of users’ data and services?</a>
+                                                        <a id="q-1-7" href="#">How do Azure services in China ensure the security of users’ data and services?</a>
                                                         <section>
-                                                            <p>The security and stability of Cloud Services have always been the focus of the industry. As the first international public cloud service launched in China, Microsoft Azure operated by 21Vianet has gained recognition from many industry users, and provided the majority of users with reliable, flexible and highly valuable public Cloud Services.</p>
+                                                            <p>Security and stability of Cloud Services have always been the focus of the industry. As the first international public cloud service landed in China, Microsoft Azure operated by 21Vianet has gained recognition from many industry users, and provided users with reliable, flexible and highly valuable public Cloud Services.</p>
                                                             <p>
-                                                                By means of all-round Cloud Services first realized in China - IaaS, PaaS, SaaS, and reliable localization operation, monthly service-level agreements of international quality with financial security, powerful data security, rich client returns and other advantages, Microsoft Azure operated by 21Vianet has obtained 6 credible cloud certifications including cloud, cloud engine (Cloud Services) and the whole network load balancing (Traffic Manager), representing recognition from the industry for the quality of international localized cloud service provided by 21Vianet.
+                                                                Being the first to land all-round cloud services including IaaS, PaaS, SaaS in China , and reliable localized operation, international standard monthly Service Level Agreements with financial security, powerful data security, rich client returns and other advantages, Microsoft Azure operated by 21Vianet has obtained 6 credible cloud certifications including Yunfen, Cloud Engine (Cloud Services) and the Whole Network Load Balancing (Traffic Manager), representing recognition from the industry for the quality of localized international  cloud service provided by 21Vianet.
                                                             </p>
                                                             <p>
                                                                 Moreover, according to the GBT 22240-2008 Information Security Technology - Guide on Determination of Security Protection Levels for Information Systems, the assessment organization authorized by the Ministry of Public Security has conducted an assessment of Microsoft Azure operated by 21Vianet as per GB/T 22239-2008 Information Security Technology - Basic Requirements of Security Protection Levels of Information Systems. The Information Security Protection of Azure has been classified as the third Level (Information System Classified Security Protection (DJCP), Level 3) and has been issued with record-keeping certificates.
                                                             </p>
-                                                            <p>In full compliance with China’s policies and regulations, China’s Azure data service providers provide up to six different backups at different places, which are distributed in 2 data centers (northern China and eastern China). In addition, with decades of experience in providing enterprise customers with online services which are applied in the Azure platform, we strive to keep the leading position in the industry in terms of security, privacy, and control and compliance practices.</p>
+                                                            <p>In full compliance with China’s policies and regulations, Azure data service in China provides up to six geo-redundant backups, which are distributed in 2 data centers (China North and China East). In addition, with decades of experience in providing enterprise customers with online services applied in the Azure platform, we strive to keep the leading position in the industry in terms of security, privacy and control and compliance practices.</p>
                                                             <p>For more details, see the <a id="support_faq7_tru" href="//www.trustcenter.cn/zh-cn/">Data Security</a>, <a id="support_faq7_sec" href="//www.trustcenter.cn/zh-cn/security/">Privacy</a> and <a id="support_faq7_pri" href="//www.trustcenter.cn/zh-cn/privacy/">FAQ</a> pages in the Azure <a id="support_faq7_faq" href="//www.trustcenter.cn/zh-cn/resources/FAQ.html">Trust Center</a>.</p>
                                                         </section>
                                                     </div>
@@ -219,7 +219,7 @@
                                                     <div>
                                                         <a id="q-1-9" href="#">Does Azure support open-source software in China?</a>
                                                         <section>
-                                                            <p>Azure supports a large number of open source applications, frameworks and languages, and the number is still growing. We know that developers want to use the most suitable tools for their own experience, skill, tool and application needs, and our goal is to allow developers to choose tools as needed.</p>
+                                                            <p>Azure supports a large number of open source applications, frameworks and languages, and the number is still growing. We understand that developers want to use the most suitable tools based on their own experience, skill, tool and application needs, and our goal is to allow developers to choose tools as needed.</p>
                                                             <p>For open source code, please refer to <a id="FAQ-8" href="//github.com/Azure?utf8=%E2%9C%93&q=azure-sdk&type=&language=">Microsoft Azure SDK</a>.</p>
                                                         </section>
                                                     </div>
@@ -229,7 +229,7 @@
                                                     <div>
                                                         <a id="q-1-10" href="#">What kind of roles does Microsoft play in Microsoft Azure operated by 21Vianet?</a>
                                                         <section>
-                                                            <p>Microsoft Azure in China is a public cloud platform that is operated and sold independently by 21Vianet on the Chinese mainland. Based on Microsoft's decades of rich online service experience in global enterprise customers, Azure, a world-class technology, has been developed to fully serve China's customers, so as to provide a consistent service quality guarantee for our customers all over the world.</p>
+                                                            <p>Microsoft Azure in China is a public cloud platform that is operated and sold independently by 21Vianet in China mainland. Based on Microsoft's decades of rich online service experience for global enterprise customers, Azure, a world-class technology, is developed to fully serve customers in China, and guarantee to provide globally consistent service quality for our customers all over the world.</p>
                                                             
                                                         </section>
                                                     </div>
@@ -239,7 +239,7 @@
                                                     <div>
                                                         <a id="q-1-11" href="#">Where can I find details on the new features?</a>
                                                         <section>
-                                                            <p>You can find the details of the new features through the <a href="/what-is-new/">Latest Announcements</a>.</p>
+                                                            <p>You can find the details of the new features through the <a href="/what-is-new/">What's New</a>.</p>
                                                             
                                                         </section>
                                                     </div>
@@ -249,8 +249,8 @@
                                                     <div>
                                                         <a id="q-1-12" href="#">How will 21Vianet use the information I stored in Azure?</a>
                                                         <section>
-                                                            <p>21Vianet will only use your customer data stored in Azure to provide you with Azure services. These services may include the troubleshooting for preventing, detecting, or fixing issues that affect the operation of Azure and the improvement of features that detect and resist emerging and evolving threats to users (such as malicious software and junk mail).</p>
-                                                            <p>As per 21Vianet policy, in addition to providing you with cloud productivity services, we will never mine or use your customer’s data for advertising purposes. If you want to know more about our promise regarding your data, please go to the <a href="//www.trustcenter.cn/zh-cn/privacy/">Privacy </a>and <a href="//www.trustcenter.cn/zh-cn/resources/FAQ.html">FAQ</a> pages in the Azure Trust Center.</p>				
+                                                            <p>21Vianet will only use the customer data you stored in Azure to provide you with Azure services. These services may include the troubleshooting for preventing, detecting, or fixing issues that affect the operation of Azure; and also the improvement of features that detect and resist emerging and evolving threats to users (such as malicious software and junk mail).</p>
+                                                            <p>As per 21Vianet policy, in addition to providing you with cloud productivity services, we will never mine or use your customer data for advertising purposes. If you want to know more about our commitment regarding your data, please go to the <a href="//www.trustcenter.cn/zh-cn/privacy/">Privacy </a>and <a href="//www.trustcenter.cn/zh-cn/resources/FAQ.html">FAQ</a> pages in the Azure Trust Center.</p>				
                                                             
                                                         </section>
                                                     </div>
@@ -258,13 +258,13 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-1-azure" href="#">I want to learn more about Azure. In addition to the Getting Started Guide, do you have any further study materials?</a>
+                                                        <a id="q-1-azure" href="#">I want to learn more about Azure. In addition to the Starter Guide, do you have any further study materials?</a>
                                                         <section>
                                                             <p>You can browse the <a href="//docs.azure.cn/">Documentation Center</a>.</p>
                                                             <p>This page contains links and the following content:</p>
                                                             <ul>
                                                                 <li>Developer center: .NET, Node.js, Java, Python</li>
-                                                                <li>Details of various services: computing, data services, app services, networks</li>
+                                                                <li>Details of various services: computing, data services, app services, network</li>
                                                                 <li>Multiple resources: architectural structure, reference documentation, advice on effective use, performance, and answer to questions, etc.</li>
                                                                 
                                                             </ul>
@@ -831,10 +831,10 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="implementation-maintenance-laas-pass" href="#">During the maintenance period, how long should the single IaaS virtual machine or single PaaS role instance be maintained offline?</a>
+                                                        <a id="implementation-maintenance-laas-pass" href="#">During the maintenance period, how long will a single IaaS virtual machine or single PaaS role instance stay offline?</a>
                                                         <section>
                                                             <p>
-                                                                Answer: it requires about 15 minutes for self-service maintenance of the IaaS Virtual Machine or PaaS role example, and 30–45 minutes for planned maintenance.
+                                                                Answer: For IaaS Virtual Machine or PaaS role instance, it requires about 15 minutes for self-service maintenance, and 30–45 minutes for planned maintenance.
                                                             </p>
                                                         </section>
                                                     </div>
@@ -842,10 +842,10 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="implementation-maintenance-point-vm" href="#"> If my Virtual Machine is impacted for a relatively short time, can I define the maintenance time point on my own?</a>
+                                                        <a id="implementation-maintenance-point-vm" href="#"> If my Virtual Machine is impacted for a relatively short time, can I define the maintenance time on my own?</a>
                                                         <section>
                                                             <p>
-                                                                Answer: Yes. For maintenance requiring restarting the virtual machine, the system will inform the customer in advance. The planned maintenance has two stages: self-service maintenance by the user and self-service maintenance by the system. The customer can check the status of the virtual machine, start self-service maintenance and restart the virtual machine in the self-service maintenance by user stage. Please refer to <a href="//docs.azure.cn/virtual-machines/windows/maintenance-and-updates">Maintenance and Updates for Azure Virtual Machines and Maintenance in the Plan</a> for more information about the maintenance of virtual machines.
+                                                                Answer: Yes. For maintenance requiring restarting the virtual machine, customers will be informed by the system in advance. The planned maintenance has two stages: self-service maintenance by the user and maintenance by the system. Customers can check the status of the virtual machine, start self-service maintenance and restart the virtual machine in the self-service maintenance stage. Please refer to <a href="//docs.azure.cn/virtual-machines/windows/maintenance-and-updates">Maintenance and Updates for Azure Virtual Machines and Maintenance in the Plan</a> for more information about the maintenance of virtual machines.
                                                             </p>
                                                         </section>
                                                     </div>
@@ -856,7 +856,7 @@
                                                         <a id="implementation-maintenance-choose-maintenance" href="#">Can I opt to have my virtual machine exit this maintenance?</a>
                                                         <section>
                                                             <p>
-                                                                Answer: just shut down the virtual machine during the whole maintenance stage.
+                                                                Answer: You may achieve this by shutting down the virtual machine during the whole maintenance stage.
                                                             </p>
                                                         </section>
                                                     </div>
@@ -864,10 +864,10 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="implementation-maintenance-applications-risks" href="#">What measures should I take to reduce the impact and risk caused by this maintenance on running applications?</a>
+                                                        <a id="implementation-maintenance-applications-risks" href="#">What measures should I take to reduce the impact and risk on production applications caused by this maintenance?</a>
                                                         <section>
                                                             <p>
-                                                                Answer: We recommend that you use the <a href="//docs.azure.cn/virtual-machines/virtual-machines-linux-manage-availability">Availability Set</a> in the architecture to ensure continuity of business. In the Availability Set, for Cloud Services and Virtual Machines, this maintenance updates only one instance of the Update Domain (UD). At the same time, we also encourage customers to cooperate with Microsoft contacts (sales field staff, technical support customer managers, etc.) for the Availability Set. For more information, please visit the <a href="//docs.azure.cn/virtual-machines/virtual-machines-linux-manage-availability">Virtual Machine Management Availability</a> web page.
+                                                                Answer: We recommend that you use the <a href="//docs.azure.cn/virtual-machines/virtual-machines-linux-manage-availability">Availability Set</a> in the architecture to ensure continuity of business. For Cloud Services and Virtual Machines in an Availability Set, maintenance updates only one instance of an Update Domain (UD). We also encourage customers to cooperate with Microsoft contacts (sales field staff, technical account managers, etc.) on Availability Set. For more information, please visit the <a href="//docs.azure.cn/virtual-machines/virtual-machines-linux-manage-availability">Virtual Machine Management Availability</a> web page.
                                                             </p>
                                                         </section>
                                                     </div>
@@ -875,18 +875,18 @@
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-4-15" href="#">Why can’t I access the VIP IP address and port of Azure VM from the local Ping?</a>
+                                                        <a id="q-4-15" href="#">Why can’t I access the VIP IP address and ports of Azure VM from the local Ping?</a>
                                                         <section>
-                                                            <p>When accessing a virtual machine via a VIP address, network communication needs to be through Azure Load Balancer. Azure Load Balancer currently does not open the ICMP protocol. Ping belongs to the ICMP protocol group and cannot access the Load Balancer. When customers need to verify the connectivity of virtual machines via VIP, they can operate with tools related to the TCP Protocol, referring to <a href="//docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-network/aog-virtual-network-tcp-psping-paping-connectivity">Using the PsPing &amp; PaPing for TCP port connectivity testing</a>.</p>
+                                                            <p>When accessing a virtual machine via a VIP address, network traffic needs to go through Azure Load Balancer. Azure Load Balancer currently blocks the ICMP protocol. Ping belongs to the ICMP protocol group and cannot get through the Load Balancer. If customers need to verify the connectivity of virtual machines via VIP, they can do it with tools based on TCP Protocol. For more information, please refer to <a href="//docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-network/aog-virtual-network-tcp-psping-paping-connectivity">Using the PsPing &amp; PaPing for TCP port connectivity testing</a>.</p>
                                                         </section>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-4-16" href="#">Can I create a virtual machine in Azure Virtual Machine?</a>
+                                                        <a id="q-4-16" href="#">Can I create a virtual machine inside Azure Virtual Machine?</a>
                                                         <section>
-                                                            <p>No, you cannot create it at present. The Dv3 and Ev3 series of the Azure Virtual Machine support nested virtualization, but as of now, Azure in China temporarily does not support creating virtual machines of this series.</p>
+                                                            <p>No, you cannot create it at present. The Dv3 and Ev3 series Azure Virtual Machine support nested virtualization, but as of now, Azure China does not support creating virtual machines of these series for the time being.</p>
                                                         </section>
                                                     </div>
                                                 </li>
@@ -895,22 +895,22 @@
                                                     <div>
                                                         <a id="q-4-17" href="#">Can I create a Windows Server 2003 virtual machine in Azure?</a>
                                                         <section>
-                                                            <p>The officially supported Windows Server virtual machine template is:</p>
+                                                            <p>The officially supported Windows Server virtual machine templates are:</p>
                                                             <ul>
                                                                 <li>Windows Server 2008 R2</li>
                                                                 <li>Windows Server 2012, Windows Server 2012 R2</li>
                                                                 <li>Windows Server 2016</li>
                                                             </ul>
-                                                            <p>Customers can use local Hyper-V to create a virtual machine template for Server 2003 to Azure cloud, but there’s no way to get Microsoft’s official support if there’s a problem with the virtual machine.</p>
+                                                            <p>Customers can create their own virtual machine template locally on Hyper-V for Server 2003 and upload it to Azure cloud, but Microsoft does not provide official support if there’s any problem with virtual machines created this way.</p>
                                                         </section>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <i class="icon icon-plus"></i>
                                                     <div>
-                                                        <a id="q-4-18" href="#"> Do Microsoft Exchange, Skype and SharePoint support deployment in Azure Cloud? </a>
+                                                        <a id="q-4-18" href="#"> Is it supported to deploy Microsoft Exchange, Lync and Sharepoint in Azure? </a>
                                                         <section>
-                                                            <p>The SharePoint Virtual Machine templates can be selected on the Azure Virtual Machine template and can be officially supported by Microsoft. The users of Exchange Server and Skype Server can customize the upload but cannot get Microsoft official support.</p>
+                                                            <p>The SharePoint Virtual Machine templates can be selected from Azure Virtual Machine templates and can be officially supported by Microsoft. Exchange Server and Lync Server can be customized and uploaded, but not officially supported.</p>
                                                         </section>
                                                     </div>
                                                 </li>
@@ -920,11 +920,11 @@
                                                     <div>
                                                         <a id="q-4-21" href="#">What is the load balancing mechanism?</a>
                                                         <section>
-                                                            <p>Azure Load Balancer is based on the fourth level (TCP, UDP), enabling distribution of incoming traffic to the well-operated service instances defined in a load-balancing set, so as to improve the availability and network performance of applications.</p>
-                                                            <p>Azure Load Balancer can be configured:</p>
+                                                            <p>Azure Load Balancer is based on the fourth layer (TCP, UDP), serving to distributing incoming traffic to the well-operating service instances defined in a load-balancing set, so as to improve the availability and network performance of applications.</p>
+                                                            <p>Azure Load Balancer can be configured to:</p>
                                                             <ul>
-                                                                <li>The load balance can be carried for the Internet traffic transferred to the virtual machine. This configuration is called <a href="//docs.azure.cn/zh-cn/load-balancer/load-balancer-internet-overview">Internet-facing load balancing</a>.</li>
-                                                                <li>The load balance will be carried out for the traffic among virtual machines in the virtual network, traffic among virtual machines in the Cloud Services, or traffic between virtual machines in a local computer and a crossover virtual network. And this configuration is called the <a href="//docs.azure.cn/zh-cn/load-balancer/load-balancer-internal-overview">Internal Load Balancer</a>.</li>
+                                                                <li>perform load balancing on Internet traffic going to the virtual machine. This configuration is called <a href="//docs.azure.cn/zh-cn/load-balancer/load-balancer-internet-overview">Internet-facing load balancing</a>.</li>
+                                                                <li>perform load balancing on network traffic among virtual machines in the virtual network, traffic among virtual machines in the Cloud Services, or traffic between virtual machines in a local computer and a crossover virtual network. And this configuration is called the <a href="//docs.azure.cn/zh-cn/load-balancer/load-balancer-internal-overview">Internal Load Balancer</a>.</li>
                                                                 <li>External traffic is transferred to the designated virtual machine.</li>
                                                             </ul>
                                                             <p>For more details about Azure Load Balancer, please refer to <a href="//docs.azure.cn/zh-cn/load-balancer/load-balancer-overview">Overview of the Azure Load Balancer</a>.</p>
@@ -1420,7 +1420,7 @@
     ]]></bodyText>
     <umbracoNaviHide>0</umbracoNaviHide>
     <pageTitle>Azure FAQ - Azure Cloud Computing</pageTitle>
-    <metaKeywords>Azure, Microsoft Azure, service content, FAQ, general questions, registration issues, billing, subscription and maintenance</metaKeywords>
+    <metaKeywords>Azure, Microsoft Azure, service content, FAQ, general inquiries, registration, billing, subscription and maintenance</metaKeywords>
     <metaDescription><![CDATA[Windows Azure Support FAQ summarize some of the common issues when using Azure and classifies these FAQs into four types: general questions, registration, billing and reading, and performing and maintenance, helping you learn more about the Windows Azure through answering questions.]]></metaDescription>
     <linkid>support-faq</linkid>
     <urlDisplayName>FAQ</urlDisplayName>
