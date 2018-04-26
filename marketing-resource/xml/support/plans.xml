@@ -29,7 +29,7 @@
                     <td><i class="icon icon-tick"></i></td>
                 </tr>
                 <tr>
-                    <td>Unlimited Disruption/Restoration</td>
+                    <td>Unlimited Break-fix</td>
                     <td><i class="icon icon-tick"></i></td>
                 </tr>
                 <tr>
@@ -46,7 +46,7 @@
 			<h2>Support Scope</h2>
 			<ul>
 				<li>Disruption/restoration issues are issues encountered when using Azure that are confirmed to be caused by the platform.</li>
-				<li>We support all Azure Services that are released to general availability (GA), as well as non-Microsoft technologies provided by Microsoft as part of Azure product functions (sample codes of Azure SDK and Python).</li>
+				<li>We support all Azure Services that are released to general availability (GA) or Public Preview, as well as non-Microsoft technologies provided by Microsoft as part of Azure product functions (sample codes of Azure SDK and Python).</li>
 			</ul>
 			
 			<h2>Working Time</h2>
@@ -93,7 +93,7 @@
 				<tr>
 				<td class="left_align">B</td>
 				<td class="left_align">
-				<p>Moderate business impact:</p>
+				<p>Moderate business impacts:</p>
 				<p>The level of customer business or service has decreased, but work can continue reasonably, with only efficiency reduced</p>
 				</td>
 				<td class="left_align">
@@ -108,7 +108,7 @@
 				<tr>
 				<td class="left_align">C</td>
 				<td class="left_align">
-				<p>Minimum business impact:</p>
+				<p>Minimum business impacts:</p>
 				<p>The customer's business is running smoothly with little or no service barriers</p>
 				</td>
 				<td class="left_align">
