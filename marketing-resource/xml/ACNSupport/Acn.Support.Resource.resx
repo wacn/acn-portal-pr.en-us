@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -121,7 +121,7 @@
     <value>Please accept the Privacy Statement and Agreement</value>
   </data>
   <data name="Account" xml:space="preserve">
-    <value>Username</value>
+    <value>Account</value>
   </data>
   <data name="AccountMaxLengthError" xml:space="preserve">
     <value>User name is too long</value>
@@ -141,29 +141,83 @@
   <data name="And" xml:space="preserve">
     <value>and</value>
   </data>
-  <data name="AzureSeverity" xml:space="preserve">
-    <value>Severity &lt;a href="http://windowsazure.cn/support/plans/"&gt;Detail&lt;/a&gt;</value>
+  <data name="AzureService" xml:space="preserve">
+    <value>Service</value>
   </data>
-  <data name="AzureSeverity_A" xml:space="preserve">
-    <value>A - Critical business impact, need immediate attention</value>
+  <data name="AzureServiceEmptyError" xml:space="preserve">
+    <value>Please select a service</value>
   </data>
-  <data name="AzureSeverity_B" xml:space="preserve">
-    <value>B - Medium business impact, business or service levels have declined, but work can be reasonably continued, just with less efficiency</value>
+  <data name="AzureService_1_AD" xml:space="preserve">
+    <value>Active Directory</value>
   </data>
-  <data name="AzureSeverity_C" xml:space="preserve">
-    <value>C - Minimum business impact, your business is substantially functioning with minor or no impediments of services </value>
+  <data name="AzureService_3_Automation" xml:space="preserve">
+    <value>Automation</value>
+  </data>
+  <data name="AzureService_4_Backup" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="AzureService_6_CDN" xml:space="preserve">
+    <value>CDN</value>
+  </data>
+  <data name="AzureService_7_CloudService" xml:space="preserve">
+    <value>Cloud Service</value>
+  </data>
+  <data name="AzureService_8_EventHub" xml:space="preserve">
+    <value>Event Hub</value>
+  </data>
+  <data name="AzureService_10_HDInsight" xml:space="preserve">
+    <value>HDInsight</value>
+  </data>
+  <data name="AzureService_13_MediaService" xml:space="preserve">
+    <value>Media Service</value>
+  </data>
+  <data name="AzureService_14_MobileService" xml:space="preserve">
+    <value>Mobile Service</value>
+  </data>
+  <data name="AzureService_18_NotificationHub" xml:space="preserve">
+    <value>Notification Hub</value>
+  </data>
+  <data name="AzureService_20_Scheduler" xml:space="preserve">
+    <value>Scheduler</value>
+  </data>
+  <data name="AzureService_21_ServiceBus" xml:space="preserve">
+    <value>Service Bus</value>
+  </data>
+  <data name="AzureService_22_SiteRecovery" xml:space="preserve">
+    <value>Site Recovery</value>
+  </data>
+  <data name="AzureService_24_SQLDB" xml:space="preserve">
+    <value>SQL Database</value>
+  </data>
+  <data name="AzureService_25_Storage" xml:space="preserve">
+    <value>Storage</value>
+  </data>
+  <data name="AzureService_27_TrafficManager" xml:space="preserve">
+    <value>Traffic Manager</value>
+  </data>
+  <data name="AzureService_31_VirtualNetwork" xml:space="preserve">
+    <value>Virtual Network</value>
+  </data>
+  <data name="AzureService_28_VMLinux" xml:space="preserve">
+    <value>Virtual Machine (Linux)</value>
+  </data>
+  <data name="AzureService_32_WebSite" xml:space="preserve">
+    <value>Web Site</value>
   </data>
   <data name="AzureSubs" xml:space="preserve">
     <value>Windows Azure Subscription</value>
   </data>
   <data name="AzureSubsMaxLengthError" xml:space="preserve">
-    <value>Windows Azure Subscription is too long</value>
+    <value>The Windows Azure subscription number is too long</value>
   </data>
   <data name="AzureSupportForm_ApplyForSupport" xml:space="preserve">
-    <value>Application support</value>
+    <value>Get Support</value>
   </data>
   <data name="AzureSupportForm_Description" xml:space="preserve">
     <value>Please fill the form below and describe your issue for support.&lt;br /&gt;Our staff will contact you shortly.</value>
+  </data>
+  <data name="AzureSupportForm_PageTitle" xml:space="preserve">
+    <value>Azure Support Ticket Application Form</value>
   </data>
   <data name="CookieError" xml:space="preserve">
     <value>Failed to submit this form because your browser security settings blocked cookies from Web sites.</value>
@@ -184,7 +238,7 @@
     <value>Please enter your user name</value>
   </data>
   <data name="InputAzureSubs" xml:space="preserve">
-    <value>Please enter Windows Azure Subscription</value>
+    <value>Please enter the Windows Azure subscription number</value>
   </data>
   <data name="InputDetailUserInfo" xml:space="preserve">
     <value>Please enter your details:</value>
@@ -213,11 +267,53 @@
   <data name="NameMaxLengthError" xml:space="preserve">
     <value>The name is too long</value>
   </data>
+  <data name="O365Service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="O365ServiceEmptyError" xml:space="preserve">
+    <value>Please select a service</value>
+  </data>
+  <data name="O365Service_Exchange_Online" xml:space="preserve">
+    <value>Exchange Online</value>
+  </data>
+  <data name="O365Service_Exchange_Online_Archiving" xml:space="preserve">
+    <value>Exchange Online Archiving</value>
+  </data>
+  <data name="O365Service_Exchange_Online_Protection" xml:space="preserve">
+    <value>Exchange Online Protection</value>
+  </data>
+  <data name="O365Service_Lync_Online" xml:space="preserve">
+    <value>Lync Online</value>
+  </data>
+  <data name="O365Service_O365_Identity" xml:space="preserve">
+    <value>Office 365 Identity</value>
+  </data>
+  <data name="O365Service_O365_Proplus" xml:space="preserve">
+    <value>Office 365 ProPlus</value>
+  </data>
+  <data name="O365Service_O365_Service_Management" xml:space="preserve">
+    <value>Office 365 Service Management</value>
+  </data>
+  <data name="O365Service_Project_Online" xml:space="preserve">
+    <value>Project Online</value>
+  </data>
+  <data name="O365Service_Project_Pro_for_O365" xml:space="preserve">
+    <value>Project Pro for Office 365</value>
+  </data>
+  <data name="O365Service_SharePoint_Online" xml:space="preserve">
+    <value>SharePoint Online</value>
+  </data>
+  <data name="O365Service_Visio_Pro_for_O365" xml:space="preserve">
+    <value>Visio Pro for Office 365</value>
+  </data>
   <data name="O365SupportForm_ApplyForSuport" xml:space="preserve">
-    <value>Application support</value>
+    <value>Get Support</value>
   </data>
   <data name="O365SupportForm_Description" xml:space="preserve">
     <value>Please fill the form below and describe your issue for support.&lt;br /&gt;Our staff will contact you shortly.</value>
+  </data>
+  <data name="O365SupportForm_PageTitle" xml:space="preserve">
+    <value>O365 Support Ticket Application Form</value>
   </data>
   <data name="Phone" xml:space="preserve">
     <value>Telephone</value>
@@ -247,7 +343,7 @@
     <value>Please describe the issue in details  (Remaining words : </value>
   </data>
   <data name="TicketDetailMaxLengthError" xml:space="preserve">
-    <value>Support question is too long</value>
+    <value>The description of the support issue is too long</value>
   </data>
   <data name="TicketTitle" xml:space="preserve">
     <value>Title of the Support Issue</value>
@@ -256,25 +352,49 @@
     <value>The title is too long</value>
   </data>
   <data name="TicketType" xml:space="preserve">
-    <value>Support type</value>
+    <value>Ticket Type</value>
   </data>
   <data name="TicketTypeEmptyError" xml:space="preserve">
-    <value>Please select an option</value>
+    <value>Please select one option</value>
   </data>
   <data name="TicketType_Billing" xml:space="preserve">
-    <value>Billing questions</value>
+    <value>Billing</value>
   </data>
   <data name="TicketType_Contract" xml:space="preserve">
     <value>Contract</value>
   </data>
   <data name="TicketType_ICP" xml:space="preserve">
-    <value>ICP record</value>
+    <value>ICP</value>
   </data>
   <data name="TicketType_Presales" xml:space="preserve">
-    <value>Product consulting</value>
+    <value>Presales</value>
   </data>
   <data name="TicketType_Technical" xml:space="preserve">
-    <value>Technology</value>
+    <value>Technical</value>
+  </data>
+  <data name="AzureSeverity" xml:space="preserve">
+    <value>Severity (&lt;a href="http://windowsazure.cn/support/plans/"&gt;Detail&lt;/a&gt;)</value>
+  </data>
+  <data name="AzureSeverity_A" xml:space="preserve">
+    <value>A - Critical business impact, need immediate attention</value>
+  </data>
+  <data name="AzureSeverity_B" xml:space="preserve">
+    <value>B - Moderate business impact, your business has moderate loss or degradation of services but work can reasonably continue in an impaired manner </value>
+  </data>
+  <data name="AzureSeverity_C" xml:space="preserve">
+    <value>C - Minimum business impact, your business is substantially functioning with minor or no impediments of services </value>
+  </data>
+  <data name="O365Severity" xml:space="preserve">
+    <value>Severity (&lt;a href="https://support.office.com/en-us/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?AppVer=GEA150&amp;ui=en-US&amp;rs=en-US&amp;ad=US" &gt;Detail&lt;/a&gt;)</value>
+  </data>
+  <data name="O365Severity_A" xml:space="preserve">
+    <value>A – Critical, one or more services aren’t accessible or are unusable. (Need call the hotline 400-089-0365)</value>
+  </data>
+  <data name="O365Severity_B" xml:space="preserve">
+    <value>B - High,  the service is usable but in an impaired fashion.</value>
+  </data>
+  <data name="O365Severity_C" xml:space="preserve">
+    <value>C – Non-critical, the situation has minimal business impact.</value>
   </data>
   <data name="Attachement_CountError" xml:space="preserve">
     <value>Maximum number of files to upload : 3</value>
@@ -285,11 +405,458 @@
   <data name="Attachement_TypeError" xml:space="preserve">
     <value>Format supported: jpg, jpeg, bmp, png, gif,txt,rar,zip,doc,docx,ini,conf,eml, xlsx, xls, pdf</value>
   </data>
+  <data name="AzureService_11_KeyVault" xml:space="preserve">
+    <value>Key Vault</value>
+  </data>
+  <data name="AzureService_12_ManagementPortal" xml:space="preserve">
+    <value>Management portal</value>
+  </data>
+  <data name="AzureService_15_MultiFactorAuthentication" xml:space="preserve">
+    <value>Multi-Factor Authentication</value>
+  </data>
+  <data name="AzureService_16_MySqlDBOnAzure" xml:space="preserve">
+    <value>MySQL Database on Azure</value>
+  </data>
+  <data name="AzureService_17_NetworkInfrastructure" xml:space="preserve">
+    <value>Network Infrastructure</value>
+  </data>
+  <data name="AzureService_19_RedisCache" xml:space="preserve">
+    <value>Redis Cache</value>
+  </data>
+  <data name="AzureService_23_SQLDbWarehouse" xml:space="preserve">
+    <value>SQL Data Warehouse</value>
+  </data>
+  <data name="AzureService_26_StreamAnalytics" xml:space="preserve">
+    <value>Stream Analytics</value>
+  </data>
+  <data name="AzureService_29_VMWindows" xml:space="preserve">
+    <value>Virtual Machine (Windows)</value>
+  </data>
+  <data name="AzureService_2_ApplicationGateway" xml:space="preserve">
+    <value>Application Gateway</value>
+  </data>
+  <data name="AzureService_30_VMSqlServer" xml:space="preserve">
+    <value>Virtual Machine with SQL Server</value>
+  </data>
+  <data name="AzureService_5_Batch" xml:space="preserve">
+    <value>Batch</value>
+  </data>
+  <data name="AzureService_9_ExpressRoute" xml:space="preserve">
+    <value>Express Route</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="L1_10_SettingAndConfiguration" xml:space="preserve">
+    <value>Settings and Configuration</value>
+  </data>
+  <data name="L1_11_AdminSQLServerDB" xml:space="preserve">
+    <value>Administering SQL Server Database</value>
+  </data>
+  <data name="L1_12_BIReport" xml:space="preserve">
+    <value>Business Intelligence (BI) Reporting and Data Analytics</value>
+  </data>
+  <data name="L1_13_DBProgramming" xml:space="preserve">
+    <value>Database Programming</value>
+  </data>
+  <data name="L1_14_HA" xml:space="preserve">
+    <value>High Availability</value>
+  </data>
+  <data name="L1_15_Tools" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="L1_16_Other" xml:space="preserve">
+    <value>Other issue or error when using a service or feature</value>
+  </data>
+  <data name="L1_1_Advisory" xml:space="preserve">
+    <value>Advisory</value>
+  </data>
+  <data name="L1_2_ConfigurationAndSetup" xml:space="preserve">
+    <value>Configuration and Setup</value>
+  </data>
+  <data name="L1_3_Connectivity" xml:space="preserve">
+    <value>Connectivity</value>
+  </data>
+  <data name="L1_4_Management" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="L1_5_Performance" xml:space="preserve">
+    <value>Performance</value>
+  </data>
+  <data name="L1_6_Development" xml:space="preserve">
+    <value>Development</value>
+  </data>
+  <data name="L1_7_ApplicationAndSA" xml:space="preserve">
+    <value>Application and Service Availability</value>
+  </data>
+  <data name="L1_8_LoadingAndRendering" xml:space="preserve">
+    <value>Loading and Rendering</value>
+  </data>
+  <data name="L1_9_ManagingAuthorizationRoles" xml:space="preserve">
+    <value>Managing Authorization Roles (RBAC)</value>
+  </data>
+  <data name="L2_1" xml:space="preserve">
+    <value>Access denied or authorization errors on the management portal</value>
+  </data>
+  <data name="L2_10" xml:space="preserve">
+    <value>Cannot connect to an Availability Group</value>
+  </data>
+  <data name="L2_100" xml:space="preserve">
+    <value>Role startup and recycling</value>
+  </data>
+  <data name="L2_101" xml:space="preserve">
+    <value>Slow instance of SQL Server</value>
+  </data>
+  <data name="L2_102" xml:space="preserve">
+    <value>Slow network</value>
+  </data>
+  <data name="L2_103" xml:space="preserve">
+    <value>Slow performance with Analysis Services queries or processing </value>
+  </data>
+  <data name="L2_104" xml:space="preserve">
+    <value>Slow virtual machine</value>
+  </data>
+  <data name="L2_105" xml:space="preserve">
+    <value>SQL Server Agent</value>
+  </data>
+  <data name="L2_106" xml:space="preserve">
+    <value>SQL Server Data Tools (SSDT)</value>
+  </data>
+  <data name="L2_107" xml:space="preserve">
+    <value>SQL Server Management Studio </value>
+  </data>
+  <data name="L2_108" xml:space="preserve">
+    <value>Storage account</value>
+  </data>
+  <data name="L2_109" xml:space="preserve">
+    <value>Storage Rest API and SDK</value>
+  </data>
+  <data name="L2_11" xml:space="preserve">
+    <value>Cannot connect to Analysis Services</value>
+  </data>
+  <data name="L2_110" xml:space="preserve">
+    <value>Upgrade to a new version </value>
+  </data>
+  <data name="L2_111" xml:space="preserve">
+    <value>Virtual disk management</value>
+  </data>
+  <data name="L2_112" xml:space="preserve">
+    <value>Virtual machine network settings</value>
+  </data>
+  <data name="L2_113" xml:space="preserve">
+    <value>Virtual machine restarts</value>
+  </data>
+  <data name="L2_114" xml:space="preserve">
+    <value>Virtual Network and VPN</value>
+  </data>
+  <data name="L2_115" xml:space="preserve">
+    <value>Visual Studio, SDK, and emulators</value>
+  </data>
+  <data name="L2_12" xml:space="preserve">
+    <value>Cannot connect to Integration Services</value>
+  </data>
+  <data name="L2_13" xml:space="preserve">
+    <value>Cannot connect to other data sources</value>
+  </data>
+  <data name="L2_14" xml:space="preserve">
+    <value>Cannot connect to Reporting Services</value>
+  </data>
+  <data name="L2_15" xml:space="preserve">
+    <value>Cannot connect to virtual machine by using RDP or SSH</value>
+  </data>
+  <data name="L2_16" xml:space="preserve">
+    <value>Cannot deploy a new virtual machine</value>
+  </data>
+  <data name="L2_17" xml:space="preserve">
+    <value>Cannot install a cumulative update or a service pack</value>
+  </data>
+  <data name="L2_18" xml:space="preserve">
+    <value>Cannot stop, start, delete, or restart VM Scale Sets</value>
+  </data>
+  <data name="L2_19" xml:space="preserve">
+    <value>Cannot stop, start, or restart a VM</value>
+  </data>
+  <data name="L2_2" xml:space="preserve">
+    <value>Access management experience does not work as expected</value>
+  </data>
+  <data name="L2_20" xml:space="preserve">
+    <value>Cannot uninstall SQL server, one of its features, or updates</value>
+  </data>
+  <data name="L2_21" xml:space="preserve">
+    <value>Configure an Exchange Server</value>
+  </data>
+  <data name="L2_22" xml:space="preserve">
+    <value>Configure IaaS VM agent or VMAccess and BGInfo extensions</value>
+  </data>
+  <data name="L2_23" xml:space="preserve">
+    <value>Configure SQL Server on an IaaS VM</value>
+  </data>
+  <data name="L2_24" xml:space="preserve">
+    <value>Crashes or exceptions when using SQL Server Service</value>
+  </data>
+  <data name="L2_25" xml:space="preserve">
+    <value>Create a Traffic Manager endpoint</value>
+  </data>
+  <data name="L2_26" xml:space="preserve">
+    <value>Create a VPN</value>
+  </data>
+  <data name="L2_27" xml:space="preserve">
+    <value>Create a Windows Failover Cluster</value>
+  </data>
+  <data name="L2_28" xml:space="preserve">
+    <value>Create an ExpressRoute connection</value>
+  </data>
+  <data name="L2_29" xml:space="preserve">
+    <value>Create Azure Virtual Network</value>
+  </data>
+  <data name="L2_3" xml:space="preserve">
+    <value>Advisory</value>
+  </data>
+  <data name="L2_30" xml:space="preserve">
+    <value>Create endpoints</value>
+  </data>
+  <data name="L2_31" xml:space="preserve">
+    <value>Create RDS in Azure</value>
+  </data>
+  <data name="L2_32" xml:space="preserve">
+    <value>Creating, Updating and Deleting role assignments</value>
+  </data>
+  <data name="L2_33" xml:space="preserve">
+    <value>Database query is slow or unresponsive</value>
+  </data>
+  <data name="L2_34" xml:space="preserve">
+    <value>Database server is slow or unresponsive</value>
+  </data>
+  <data name="L2_35" xml:space="preserve">
+    <value>Deploy a new VM</value>
+  </data>
+  <data name="L2_36" xml:space="preserve">
+    <value>Deploy VM Scale Sets</value>
+  </data>
+  <data name="L2_37" xml:space="preserve">
+    <value>DNS </value>
+  </data>
+  <data name="L2_38" xml:space="preserve">
+    <value>Failure or error during installation</value>
+  </data>
+  <data name="L2_39" xml:space="preserve">
+    <value>General connectivity</value>
+  </data>
+  <data name="L2_4" xml:space="preserve">
+    <value>Allocation failure error</value>
+  </data>
+  <data name="L2_40" xml:space="preserve">
+    <value>General issues with Blob storage</value>
+  </data>
+  <data name="L2_41" xml:space="preserve">
+    <value>General issues with Table or Queue storage</value>
+  </data>
+  <data name="L2_42" xml:space="preserve">
+    <value>IIS and ASP.NET errors</value>
+  </data>
+  <data name="L2_43" xml:space="preserve">
+    <value>Import/Export Service: Shipping issues</value>
+  </data>
+  <data name="L2_44" xml:space="preserve">
+    <value>Import/Export Service: Technical issues</value>
+  </data>
+  <data name="L2_45" xml:space="preserve">
+    <value>Issue or error related to PolyBase and Linked Servers</value>
+  </data>
+  <data name="L2_46" xml:space="preserve">
+    <value>Issue or error when configuring Reporting Services</value>
+  </data>
+  <data name="L2_47" xml:space="preserve">
+    <value>Issue or error when configuring SQL server failover cluster</value>
+  </data>
+  <data name="L2_48" xml:space="preserve">
+    <value>Issue or error when developing database programs</value>
+  </data>
+  <data name="L2_49" xml:space="preserve">
+    <value>Issue or error when mirroring a database</value>
+  </data>
+  <data name="L2_5" xml:space="preserve">
+    <value>Application Development Issues With Blob, Table, or Queue</value>
+  </data>
+  <data name="L2_50" xml:space="preserve">
+    <value>Issue or error when using AlwaysOn</value>
+  </data>
+  <data name="L2_51" xml:space="preserve">
+    <value>Issue or error when using an API</value>
+  </data>
+  <data name="L2_52" xml:space="preserve">
+    <value>Issue or error when using Analysis Services</value>
+  </data>
+  <data name="L2_53" xml:space="preserve">
+    <value>Issue or error when using Data Quality Services (DQS)</value>
+  </data>
+  <data name="L2_54" xml:space="preserve">
+    <value>Issue or error when using failover clustering</value>
+  </data>
+  <data name="L2_55" xml:space="preserve">
+    <value>Issue or error when using Master Quality Services (MQS)</value>
+  </data>
+  <data name="L2_56" xml:space="preserve">
+    <value>Issue or error when using OLE DB</value>
+  </data>
+  <data name="L2_57" xml:space="preserve">
+    <value>Issue or error when using Power Query</value>
+  </data>
+  <data name="L2_58" xml:space="preserve">
+    <value>Issue or error when using Power View in Excel</value>
+  </data>
+  <data name="L2_59" xml:space="preserve">
+    <value>Issue or error when using Power View in SharePoint</value>
+  </data>
+  <data name="L2_6" xml:space="preserve">
+    <value>Azure Backup</value>
+  </data>
+  <data name="L2_60" xml:space="preserve">
+    <value>Issue or error when using PowerPivot in Excel</value>
+  </data>
+  <data name="L2_61" xml:space="preserve">
+    <value>Issue or error when using PowerPivot in SharePoint</value>
+  </data>
+  <data name="L2_62" xml:space="preserve">
+    <value>Issue or error when using replication</value>
+  </data>
+  <data name="L2_63" xml:space="preserve">
+    <value>Issue or error when using Reporting Services in native mode</value>
+  </data>
+  <data name="L2_64" xml:space="preserve">
+    <value>Issue or error when using Reporting Services in SharePoint mode</value>
+  </data>
+  <data name="L2_65" xml:space="preserve">
+    <value>Issue or error when using SQL Server Integration Services (SSIS)</value>
+  </data>
+  <data name="L2_66" xml:space="preserve">
+    <value>Issue or error with replicas located in Windows Cloud VM</value>
+  </data>
+  <data name="L2_67" xml:space="preserve">
+    <value>Issues or errors related to column storage and column store indexing</value>
+  </data>
+  <data name="L2_68" xml:space="preserve">
+    <value>Issues or errors related to corruption or Database Consistency Commands checks</value>
+  </data>
+  <data name="L2_69" xml:space="preserve">
+    <value>Issues or errors related to database security (Object, Row, TDE)</value>
+  </data>
+  <data name="L2_7" xml:space="preserve">
+    <value>Azure files</value>
+  </data>
+  <data name="L2_70" xml:space="preserve">
+    <value>Issues or errors related to FileTable or FileStream</value>
+  </data>
+  <data name="L2_71" xml:space="preserve">
+    <value>Issues or errors when backing up a database</value>
+  </data>
+  <data name="L2_72" xml:space="preserve">
+    <value>Issues or errors when restoring a database</value>
+  </data>
+  <data name="L2_73" xml:space="preserve">
+    <value>Issues or errors when using an in-memory database</value>
+  </data>
+  <data name="L2_74" xml:space="preserve">
+    <value>Issues with PowerShell management</value>
+  </data>
+  <data name="L2_75" xml:space="preserve">
+    <value>Issues with Resource management</value>
+  </data>
+  <data name="L2_76" xml:space="preserve">
+    <value>Manage an Exchange Server</value>
+  </data>
+  <data name="L2_77" xml:space="preserve">
+    <value>Manage an instance of SQL Server</value>
+  </data>
+  <data name="L2_78" xml:space="preserve">
+    <value>Manage or use a cluster in Azure</value>
+  </data>
+  <data name="L2_79" xml:space="preserve">
+    <value>Manage or use a virtual network</value>
+  </data>
+  <data name="L2_8" xml:space="preserve">
+    <value>Azure Site Recovery</value>
+  </data>
+  <data name="L2_80" xml:space="preserve">
+    <value>Manage or use a VPN</value>
+  </data>
+  <data name="L2_81" xml:space="preserve">
+    <value>Manage or use endpoints</value>
+  </data>
+  <data name="L2_82" xml:space="preserve">
+    <value>Manage or use ExpressRoute</value>
+  </data>
+  <data name="L2_83" xml:space="preserve">
+    <value>Manage or use RDS in Azure</value>
+  </data>
+  <data name="L2_84" xml:space="preserve">
+    <value>Manage or use Traffic Manager</value>
+  </data>
+  <data name="L2_85" xml:space="preserve">
+    <value>Managing user access to a subscription for Classic Portal</value>
+  </data>
+  <data name="L2_86" xml:space="preserve">
+    <value>My issue is not listed</value>
+  </data>
+  <data name="L2_87" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="L2_88" xml:space="preserve">
+    <value>Network connectivity problems</value>
+  </data>
+  <data name="L2_89" xml:space="preserve">
+    <value>Notification by the Azure Portal of a service interruption</value>
+  </data>
+  <data name="L2_9" xml:space="preserve">
+    <value>Cannnot connect to a SQL Server</value>
+  </data>
+  <data name="L2_90" xml:space="preserve">
+    <value>Notification hub error: "Message extensions not loaded"</value>
+  </data>
+  <data name="L2_91" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="L2_92" xml:space="preserve">
+    <value>Other issue or error not listed</value>
+  </data>
+  <data name="L2_93" xml:space="preserve">
+    <value>Performance</value>
+  </data>
+  <data name="L2_94" xml:space="preserve">
+    <value>Performance issues with AlwaysOn databases</value>
+  </data>
+  <data name="L2_95" xml:space="preserve">
+    <value>Performance tools (Xevent, QDS, DMVs, Live Plan)</value>
+  </data>
+  <data name="L2_96" xml:space="preserve">
+    <value>Portal customizations</value>
+  </data>
+  <data name="L2_97" xml:space="preserve">
+    <value>Portal rendering or display issues</value>
+  </data>
+  <data name="L2_98" xml:space="preserve">
+    <value>Preview portal does not load or takes too long to load</value>
+  </data>
+  <data name="L2_99" xml:space="preserve">
+    <value>RDP</value>
+  </data>
+  <data name="ProblemType" xml:space="preserve">
+    <value>Problem Type</value>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>Please Choose</value>
+  </data>
   <data name="AltEmailHint" xml:space="preserve">
     <value>Maximum two contacts, separated by (,)</value>
   </data>
+  <data name="AzureProblemTypeError" xml:space="preserve">
+    <value>Please select a problem type</value>
+  </data>
+  <data name="AzureCategoryEmptyError" xml:space="preserve">
+    <value>Please select a category type</value>
+  </data>
   <data name="AttachFile" xml:space="preserve">
-    <value>Upload attachment</value>
+    <value>Attach File</value>
   </data>
   <data name="SelectList_Blank" xml:space="preserve">
     <value>Please choose</value>
@@ -298,16 +865,16 @@
     <value>Input Error!</value>
   </data>
   <data name="TicketType_Quota" xml:space="preserve">
-    <value>Quota application</value>
+    <value>Quota</value>
   </data>
   <data name="TicketType_SubscriptionManagement" xml:space="preserve">
-    <value>Subscription management</value>
+    <value>Subscription Management</value>
   </data>
   <data name="TicketType_Billing_L1Name" xml:space="preserve">
     <value>Problem Type</value>
   </data>
   <data name="TicketType_Quota_L1Name" xml:space="preserve">
-    <value>Quota type</value>
+    <value>Quota Type</value>
   </data>
   <data name="TicketType_Suscription_L1Name" xml:space="preserve">
     <value>Problem Type</value>
@@ -322,22 +889,22 @@
     <value>Category</value>
   </data>
   <data name="TicketType_Tip" xml:space="preserve">
-    <value>Tip: We provide this type of support during business hours which are defined as 9:00 AM to 6:00P M from Monday to Friday (except holidays). And we will contact you as soon as possible on next business day.</value>
+    <value>Tip: We provide this type of support during business hours which are defined as 9:00AM to 6:00PM from Monday to Friday (except holidays). And we will contact you as soon as possible on next business day.</value>
   </data>
   <data name="OptionAQ1" xml:space="preserve">
     <value>Production environment impacted by the issue?</value>
   </data>
   <data name="OptionAQ2" xml:space="preserve">
-    <value>Are you able to work with a technical support engineer 24/7 until the problem is resolved?</value>
+    <value>Can you work with our technical support engineer 7*24 until the issue get resolved or else severity could be downgraded?</value>
   </data>
   <data name="OptionAQ3" xml:space="preserve">
     <value>Multiple users are impacted by the issue?</value>
   </data>
   <data name="OptionAQ3_AffectedUserNum" xml:space="preserve">
-    <value>Please enter the number of customers that have been affected</value>
+    <value>If yes, please fill in the number of users impacted</value>
   </data>
   <data name="OptionAQ4" xml:space="preserve">
-    <value>Which of your services has this problem affected? (remaining characters: </value>
+    <value>Which service(s) are impacted by the issue?  (Remaining words :</value>
   </data>
   <data name="OptionAWarning" xml:space="preserve">
     <value>Please ensure the authenticity of information given below, otherwise severity of your ticket could be downgraded!</value>
@@ -361,7 +928,7 @@
     <value>Please input number.</value>
   </data>
   <data name="OptionA_Alert" xml:space="preserve">
-    <value>Sorry, your current situation does not meet the requirements for A, please select B or C as appropriate.</value>
+    <value>Sorry, your situation is not eligible for severity A, please adjust to B or C.</value>
   </data>
   <data name="Ticket_RightBrace" xml:space="preserve">
     <value>)</value>
@@ -373,43 +940,43 @@
     <value>Please enter a detailed description of the affected service.</value>
   </data>
   <data name="Homepage" xml:space="preserve">
-    <value>Return to homepage</value>
+    <value>Home Page</value>
   </data>
   <data name="Reload" xml:space="preserve">
-    <value>Log in again</value>
+    <value>Sign in again with another account</value>
   </data>
   <data name="SupportLoadAccountError" xml:space="preserve">
-    <value>This Live account number is not supported, please try again using your Azure China account number (example format：xxx@yyy.partner.onmschina.cn, or corresponding account bound to AAD).</value>
+    <value>The Live Account is not supported, please retry by using your Azure China account in the format of xxx@yyy.partner.onmschina.cn or the associated Azure AD account.</value>
   </data>
   <data name="SwitchAccount" xml:space="preserve">
-    <value>Switch accounts</value>
+    <value>Switch Account</value>
   </data>
   <data name="Ticket_LeftBrace" xml:space="preserve">
     <value>(</value>
   </data>
   <data name="TicketType_Commerce_O365" xml:space="preserve">
-    <value>Business support</value>
+    <value>Commerce Support</value>
   </data>
   <data name="TicketType_ICP_O365" xml:space="preserve">
-    <value>ICP record</value>
+    <value>ICP Support</value>
   </data>
   <data name="TicketType_Technical_O365" xml:space="preserve">
     <value>Technical Support</value>
   </data>
   <data name="O365ResultBodyFail" xml:space="preserve">
-    <value>your support ticket cannot be submitted currently. Please retry to submit again in 10 minutes. Again, we are sorry for any inconvenience that may cause to you !</value>
+    <value>your support ticket cannot be submitted currently. Please retry to submit again in 10 minutes. your support ticket cannot be submitted currently. Please retry to submit again in 10 minutes.Sorry for any inconvenience !</value>
   </data>
-  <data name="O365ResultBodySuccess1front" xml:space="preserve">
-    <value>We have received your support application and created a service event SR based on your problem description:</value>
+  <data name="O365ResultBodySuccess" xml:space="preserve">
+    <value>We have received your request and will contact you by email or phone !</value>
   </data>
   <data name="O365ResultFooter1Fail" xml:space="preserve">
     <value>You can contact 21Vianet support team directly for help:</value>
   </data>
   <data name="O365ResultFooter2Fail" xml:space="preserve">
-    <value>For telephone support, please call: +86 400 089 0365</value>
+    <value>For phone support, call +86 400 089 0365</value>
   </data>
   <data name="O365ResultFooter3Fail" xml:space="preserve">
-    <value>For email support, please contact: office365support@oe.21vianet.com</value>
+    <value>For email support, please contact office365support@oe.21vianet.com</value>
   </data>
   <data name="O365ResultTitleFail" xml:space="preserve">
     <value>We are sorry</value>
@@ -418,16 +985,25 @@
     <value>Thank you</value>
   </data>
   <data name="O365ResultBodySuccess1behind" xml:space="preserve">
-    <value>We will contact you as soon as possible using the email address or telephone number you provided.</value>
+    <value>has been created for you.  The customer service agent will contact you very soon.</value>
+  </data>
+  <data name="O365ResultBodySuccess1front" xml:space="preserve">
+    <value>Thank you for contacting O365 Operated by 21Vianet customer service !  A new service request </value>
+  </data>
+  <data name="O365ResultBodySuccess2" xml:space="preserve">
+    <value>If you would like to know the progress or have any question about the request, please call 21Vianet service hotline (+86 400 089 0365) or email office365support@oe.21vianet.com .</value>
+  </data>
+  <data name="O365ResultBodySuccess3" xml:space="preserve">
+    <value>Provide the customer service representative with your service request number to help you get transferred to the right support engineer as soon as possible.</value>
   </data>
   <data name="TicketResultButtionRefill" xml:space="preserve">
-    <value>Reenter</value>
+    <value>Re-fill the Form</value>
   </data>
   <data name="TicketResultButtionBackTo365" xml:space="preserve">
     <value>Back to O365</value>
   </data>
   <data name="AzureResultBodyFail1" xml:space="preserve">
-    <value>We are unable to submit your application information, error code:</value>
+    <value>We are unable to submit your request, error code:</value>
   </data>
   <data name="AzureResultBodyFail2" xml:space="preserve">
     <value>Please try to fill the form once again after making adjustments and submit, or you can call 21Vianet service hotline (+86 400 089 0365) directly.</value>
@@ -435,64 +1011,79 @@
   <data name="AzureResultBodyFail3" xml:space="preserve">
     <value>Again, we are sorry for any inconvenience that may cause to you !</value>
   </data>
-  <data name="AzureResultBodyFailReason_Repeat" xml:space="preserve">
-    <value>Resubmit.</value>
-  </data>
   <data name="AzureResultBodySuccess1behind" xml:space="preserve">
-    <value>Please leave your email address or phone number and the relevant support engineer will contact you as soon as possible.</value>
+    <value>has been created according to your issue description. Please keep an eye on your mailbox or cell phone, our support engineer will contact you soon.</value>
   </data>
   <data name="AzureResultBodySuccess1front" xml:space="preserve">
-    <value>We have created a service event SR for you based on your problem description:</value>
+    <value>Service request SR</value>
   </data>
   <data name="AzureResultBodySuccess2" xml:space="preserve">
-    <value>If you wish to find out about the progress of this event or you have any questions, you can call 21Vianet’s support hotline (+86 400 089 0365).</value>
+    <value>If you would like to know the progress or have any question about the request, please call 21Vianet service hotline (+86 400 089 0365).</value>
   </data>
   <data name="AzureResultBodySuccess3" xml:space="preserve">
-    <value>Please provide the event number to the customer representative so that they can transfer you to the relevant engineer as quickly as possible.</value>
+    <value>Provide the customer service representative with your service request number to help you get transferred to the right support engineer as soon as possible.</value>
   </data>
   <data name="AzureTicketTitleFail" xml:space="preserve">
-    <value>Sorry, we are unable to submit your application information.</value>
+    <value>We are sorry!</value>
+  </data>
+  <data name="AzureTicketTitleFailReason_Repeat" xml:space="preserve">
+    <value>Duplicated submission.</value>
   </data>
   <data name="AzureTicketTitleSuccess" xml:space="preserve">
-    <value>Azure support ticket has been submitted successfully!</value>
+    <value>Azure support ticket has been submitted successfully !</value>
   </data>
   <data name="AzureResultBodyFailReasonOthers" xml:space="preserve">
-    <value>Other abnormality.</value>
+    <value>Other exception.</value>
   </data>
   <data name="AzureResultBodyFailReasonSameTicket" xml:space="preserve">
     <value>The same ticket already exists :</value>
   </data>
+  <data name="AzureResultBodyFailReason_Repeat" xml:space="preserve">
+    <value>Duplicated submission</value>
+  </data>
   <data name="TipOf21vMaintain" xml:space="preserve">
-    <value>We plan to perform maintenance operation of backend system between 0:30-8:30 AM of October 22nd , 2017. During planned maintenance, this ticket submission entrance will be temporarily closed. If you need support, please contact us on 21Vianet’s hotlines on 400-089-0365 or 010-84563652. We are deeply sorry for any inconvenience caused, and thanks for your continued understanding and support!</value>
+    <value>We plan to perform maintenance operation of backend system between 0:30-8:30 am of October 22nd , 2017. During planned maintenance, this ticket submission entrance will be temporarily closed. Please contact support by calling 21Vianet hotline 400-089-0365 or 010-84563652. We are deeply sorry for any inconvenience caused, and thanks for your continued understanding and support!</value>
   </data>
   <data name="AzureIdExpiredErrDiv" xml:space="preserve">
-    <value>This subscription has expired, please select another valid subscription.</value>
+    <value>The subscription is not active, please use an active subscription.</value>
   </data>
   <data name="SupportPlanType" xml:space="preserve">
-    <value>Support plan</value>
+    <value>Support Plan Type</value>
   </data>
   <data name="TicketEventStartTime" xml:space="preserve">
     <value>When did the problem start</value>
   </data>
   <data name="TicketEventStartTime_Placeholder" xml:space="preserve">
-    <value>Please enter a time, for example, 13:11</value>
+    <value>Please input time e.g 13:11</value>
   </data>
   <data name="HistoryRecord" xml:space="preserve">
     <value>History</value>
   </data>
   <data name="SearchRecordByCreateTimeTitle" xml:space="preserve">
-    <value>Query time when work order created</value>
+    <value>Ticket creation time</value>
+  </data>
+  <data name="SupportAnnouceHref" xml:space="preserve">
+    <value>Azure blog post</value>
+  </data>
+  <data name="SupportAnnouncePart1" xml:space="preserve">
+    <value>An industry-wide, hardware-based security vulnerability was disclosed on 2018/01/03. Keeping customers secure is always our top priority and we are taking active steps to ensure that no Azure customer is exposed to these vulnerabilities. With the public disclosure of the security vulnerability today, we have accelerated the planned maintenance timing. If you previously received a notification about Azure planned maintenance, please refer to:</value>
+  </data>
+  <data name="SupportAnnouncePart2" xml:space="preserve">
+    <value>. Our support team is currently handling a high volume of cases. You may experience longer than expected response time. Please be assured that your request will be handled as soon as possible. We are committed to providing excellent customer service and support and we are working hard to meet increased demand.</value>
   </data>
   <data name="SubmitApplication" xml:space="preserve">
     <value>Submit ticket</value>
   </data>
+  <data name="SupportLegalPrivacyStatementUrl" xml:space="preserve">
+    <value>https://www.azure.cn/support/legal/privacy-statement-en/</value>
+  </data>
+  <data name="SupportLegalSubscriptionAgreementUrl" xml:space="preserve">
+    <value>https://www.azure.cn/support/legal/subscription-agreement-en/</value>
+  </data>
+  <data name="NoSubmitSevAPermisson" xml:space="preserve">
+    <value>You do not have permission to submit a severity A ticket</value>
+  </data>
   <data name="To" xml:space="preserve">
     <value>To</value>
-  </data>
-  <data name="SupportAzureNoPermissionErrorInfo" xml:space="preserve">
-    <value>You do not have permission to submit a severity a ticket</value>
-  </data>
-  <data name="SupportO365NotAdminErrorInfo" xml:space="preserve">
-    <value>Only administrator can submit form</value>
   </data>
 </root>
