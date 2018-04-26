@@ -45,7 +45,7 @@
 										
 			<h2>Support Scope</h2>
 			<ul>
-				<li>Disruption/restoration issues are issues encountered when using Azure that are confirmed to be caused by the platform.</li>
+				<li>Break-fix issues are technical problems customers experience while using Azure services and are confirmed to be caused by the platform.</li>
 				<li>We support all Azure Services that are released to general availability (GA) or Public Preview, as well as non-Microsoft technologies provided by Microsoft as part of Azure product functions (sample codes of Azure SDK and Python).</li>
 			</ul>
 			
@@ -76,7 +76,7 @@
 				<tr>
 				<td class="left_align">A<sup>1</sup></td>
 				<td class="left_align">
-				<p>Key Business Impacts:</p>
+				<p>Key Business Impact:</p>
 				<p>Customer’s business or service level is significantly reduced</p>
 				<p>Immediate attention required</p>
 				</td>
@@ -93,7 +93,7 @@
 				<tr>
 				<td class="left_align">B</td>
 				<td class="left_align">
-				<p>Moderate business impacts:</p>
+				<p>Moderate Business Impact:</p>
 				<p>The level of customer business or service has decreased, but work can continue reasonably, with only efficiency reduced</p>
 				</td>
 				<td class="left_align">
@@ -108,7 +108,7 @@
 				<tr>
 				<td class="left_align">C</td>
 				<td class="left_align">
-				<p>Minimum business impacts:</p>
+				<p>Minimum Business Impact:</p>
 				<p>The customer's business is running smoothly with little or no service barriers</p>
 				</td>
 				<td class="left_align">
