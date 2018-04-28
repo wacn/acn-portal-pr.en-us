@@ -19,7 +19,7 @@
                         <div class="monitor-icon"></div>
                         <h2>Azure Monitor<span>Azure Monitor</span></h2>
                         <h4>A one-stop method of obtaining the detailed, real-time monitoring data that you need.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_monitor_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_monitor_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_monitor_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_monitor_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,9 @@
                     <!-- BEGIN: Table1-Content-->
 					
 					<h2>Pricing Details</h2>
-					<p>Metrics queries are free before June 1, 2018. Metrics queries will be billed at the rates below from June 1, 2018 onward.</p>
+                    <h3>Metrics</h3>
+                    <p>Metrics show a range of time series and are billed according to the number of time series and the number of API calls performed.</p>
+					<p>Metrics queries are free before August 1, 2018. Metrics queries will be billed at the rates below from August 1, 2018 onward.</p>
 				    <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div>
                     </div>
@@ -42,16 +44,29 @@
                         <thead>
                             <tr>
                             <th align="left"><strong>Features</strong></th>
-                            <th align="left"><strong>Free Units Included</strong></th>
-                            <th align="left"><strong>Excess charges</strong></th>
+                            <th align="left"><strong>Includes free units</strong></th>
+                            <th align="left"><strong>Pricing</strong></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td class="left_align">Metrics queries</td>
                                 <td class="left_align">1,000,000 standard API calls</td>
-                                <td class="left_align">RMB3.0528/1,000 standard API calls</td>
+                                <td class="left_align">RMB0.101/1,000 standard API calls</td>
                             </tr>
+                        </tbody>
+                    </table>
+                    <h3>Notifications</h3>
+                    <p>Billed according to the type and quantity of notifications you choose to send.</p>
+                    <table  cellpadding="0" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                            <th align="left"><strong>Features</strong></th>
+                            <th align="left"><strong>Includes free units</strong></th>
+                            <th align="left"><strong>Pricing</strong></th>
+                            </tr>
+                        </thead>
+                        <tbody>
                             <tr>
                                 <td class="left_align">Email</td>                                
                                 <td class="left_align">1,000</td>
@@ -59,12 +74,12 @@
                             </tr>
                             <!-- <tr>
                                 <td class="left_align">推送通知（面向 Azure 应用）</td>
-								<td class="left_align">1,000</td>
+                                <td class="left_align">1,000</td>
                                 <td class="left_align">¥20.3/100,000</td>
                             </tr> -->
-							<tr>
+                            <tr>
                                 <td class="left_align">Webhook</td>
-								<td class="left_align">100,000</td>
+                                <td class="left_align">100,000</td>
                                 <td class="left_align">RMB6.1/1,000,000</td>
                             </tr>
                             <!-- <tr>
@@ -74,16 +89,14 @@
                             </tr>
                             <tr>
                                 <td class="left_align">短信（国家代码 +1）</td>
-								<td class="left_align">¥0.065635/条</td>
+                                <td class="left_align">¥0.065635/条</td>
                                 <td class="left_align"></td>
                             </tr> -->
                         </tbody>
                     </table>
 					<p>Billed on the basis of the number of standard API calls per metrics query. A standard API call returns 1,440 data points (1,440) is also the total number of data points that can be stored per metric per day). If the API call returns over 1,440 data points, it will be calculated as more than one standard API call. If the API call returns less than 1,440 data points, it will be counted as less than one API call. The number of standard API calls is calculated on a daily basis by dividing the number of data points used per day by 1,440.</p>
                     <ul>
-                        <li>Activity logs for 90 days are provided at no charge. If you need to retain more than 90 days of activity log data, you can route the activity log data to a storage account or Event Hub, and you will then be billed for storage or by the corresponding event hub. There are no charges for API call request activity log data.</li>
-                        <li>Metrics for 30 days are provided at no charge. If you need to retain more than 30 days of metrics data, you can route the metrics data to a storage account or Event Hub, and you will then be billed for storage or by the corresponding event hub. You will also be billed for the corresponding API calls for metrics queries required to route the data.</li>
-                        <li>Every subscription includes 100 metric alerts, 100 activity log alerts, and 10 action group restrictions. If you need to increase your quotas, please contact Azure Support.</li>
+                        <li>Metrics for 90 days are provided at no charge. If you need to retain more than 90 days of metrics data, you can route the metrics data to a storage account or Event Hub, and you will then be billed for the corresponding Storage or Event Hubs. You will also be billed for the corresponding API calls for metrics queries required to route the data.</li>
                         <li>You can route diagnostic logs to a storage account or Event Hub, and you will then be billed for storage or by the corresponding event hub.</li>
                     </ul>
                     <!-- END: Table1-Content-->
@@ -98,11 +111,11 @@
             <!-- END: TAB-CONTROL -->
 
             <div class="pricing-page-section">
-                <h2>Marketing Regions</h2>
+                <h2>Region</h2>
                 <p>Azure Monitor is available in the following regions:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territories</strong></th>
+                        <th align="left"><strong>Territory</strong></th>
                         <th align="left"><strong>Region</strong></th>
                     </tr>
                     <tr>
@@ -112,7 +125,7 @@
                 </table>
             </div>    
             <div class="pricing-page-section">
-                <h2>Support and Service Level Agreements</h2>
+                <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="app-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				<p>Using Azure Monitor, you can gather detailed performance and usage data, as well as activity and diagnostic logs, and define alerts and notifications for Azure resources in a consistent manner. We guarantee that notifications will be delivered successfully at least 99.9% of the time. To learn more about the details of our Service Level Agreement, visit the <a href="/support/sla/monitor/" id="pricing_app_sla">Service Level Agreement</a> page.</p>
             </div>  

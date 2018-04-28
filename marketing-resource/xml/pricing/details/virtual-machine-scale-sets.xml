@@ -55,18 +55,18 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/icon-virtual-machines.png" />
                         <h2><span>Virtual Machine Scale Sets</span></h2>
                         <h4>Automatically scale Virtual Machines to get high availability.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_vmss-pricing_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vmss-pricing_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_vmss-pricing_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vmss-pricing_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>Virtual Machine Scale Sets allow you to take the same virtual Machines as a set for easy deployment and management, so as to easily generate highly scalable applications. The Virtual Machine Scale Sets generated in the Azure Resource Manager deployment model are fully integrated with the load balancer and Autoscaling, and support Windows, Linux, and customized imaging and scaling.</p>
+                <p>Virtual Machine Scale Sets allow you to take the same virtual Machines as a set for easy deployment and management, so as to easily generate highly scalable applications. The Virtual Machine Scale Sets generated in the Azure Resource Manager deployment model are fully integrated with Load Balancer and Autoscaling, and support Windows, Linux, and customized imaging and scaling.</p>
 				
 				<h2>Pricing Details</h2>
 				
-				<p>At present, the Virtual Machine Scale Sets can be provided according to the size of all virtual machines supported by Windows or Linux virtual machines. You will be charged only for the calculation instances you select and for the consumption of other infrastructure resources, such as memory and network. Virtual Machine Scale Set services have no incremental expenses. For the pricing details of virtual machine, please visit the <a href="/pricing/details/virtual-machines/" id="virtual-machine-scale-sets_virtual-machines-pricing">Virtual Machines Pricing Page</a>. </p>
-				<p>We support Virtual Machines of multiple scales. The virtual machine permits billing by minutes and listing of pricing by hourly rates. We will charge you for total minutes when the running time of your virtual machine is less than 1 hour. </p>
+				<p>At present, the Virtual Machine Scale Sets can be provided according to the size of all virtual machines supported by Windows or Linux virtual machines. You will be charged only for the calculation instances you select and for the consumption of other infrastructure resources, such as memory and network. Virtual Machine Scale Set services have no incremental expenses. For the pricing details of virtual machine, please visit the <a href="/pricing/details/virtual-machines/" id="virtual-machine-scale-sets_virtual-machines-pricing">Virtual Machines Pricing Page</a>.</p>
+				<p>We support Virtual Machines of multiple scales. The virtual machine permits billing by minutes and listing of pricing by hourly rates. We will charge you for total minutes when the running time of your virtual machine is less than 1 hour.</p>
 								
                 <h2>Types of virtual machines</h2>
             </div>
@@ -84,7 +84,10 @@
 						<a href="javascript:void(0)" data-href="#tabContent3" id="vm-vm-sql" data-toggle="tab">SQL Server for Windows</a>
 					</li>
 					<li>
-						<a href="javascript:void(0)" data-href="#tabContent4" id="vm-vm-rlinux" data-toggle="tab">SQL Server Ubuntu Linux / Machine Learning Server</a>
+						<a href="javascript:void(0)" data-href="#tabContent4" id="vm-vm-rlinux" data-toggle="tab">SQL Server Ubuntu Linux</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)" data-href="#tabContent5" id="vm-vm-ml-server" data-toggle="tab">Machine Learning Server</a>
 					</li>
 					
 				</ul>
@@ -120,7 +123,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -178,7 +181,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -259,7 +262,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -334,7 +337,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -430,7 +433,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -477,7 +480,7 @@
 									</tr>
 								</table>
 								<h3>DS 1-5 v2</h3>
-								<p>For permanent storage, please use the “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series. <!--DSv2 虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;" href="/pricing/details/storage/" id="vm-pricing_storage">Storage Pricing Details</a> page.</p>
+								<p>For permanent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series. <!--DSv2 虚拟机 目前只在中国东部区域提供服务。--> For disk pricing, please view the <a style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;" href="/pricing/details/storage/" id="vm-pricing_storage">Storage Pricing Details</a> page.</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Windows Dv2 系列实例价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -487,7 +490,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -537,10 +540,10 @@
 							</div>
 							<!-- END: Tab level 2 content 1-1 --> <!-- BEGIN: Tab level 2 content 1-2 -->
 							<div class="tab-panel" id="tabContent1-2">
-								<h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and application server. </h3>
+								<h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and App Services</h3>
 								<h3>F series/FS series</h3>
 								<p>The F Series/FS Series Virtual Machine supports RAM of every CPU core 2 GiB and 16 GiB local solid state disk (SSD), and has been prioritized for computing-intensive workloads. The F Series/FS Series are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to a 3.2 GHz clock speed using Intel Turbo Boost Technology 2.0. These Virtual Machines are suitable for batch processing, Web servers, analysis and gaming programs, etc.
-									<br /> For permanent storage, please use the FS Virtual Machines, and purchase Premium Storage separately. The pricing and billing standards for the FS size are the same as for the F Series. <!--FS虚拟机 目前只在中国东部区域提供服务。-->
+									<br /> For permanent storage, please use the “FS” virtual machine, and purchase Premium Storage separately. The pricing and billing standards of the FS size are the same as the F Series. <!--FS虚拟机 目前只在中国东部区域提供服务。-->
 								</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Windows F 系列实例价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
@@ -551,7 +554,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -604,7 +607,7 @@
 								<!-- BEGIN: Table1-1-3-Content-->
 								<h3>Memory prioritization: high memory to core ratio. Suitable for relational database servers, medium- and large-scale caches and memory analysis.</h3>
 								<h3>D11-14/DS11-14</h3>
-								<p>The D11-14/DS11-14 instances are suitable for memory-intensive enterprise applications. </p>
+								<p>The D11-14/DS11-14 instances are suitable for memory-intensive enterprise applications.</p>
 								<p>For permanent storage, please use the variable “DS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DS size are the same as the D Series.</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Windows D 系列虚拟机价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
@@ -615,7 +618,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -711,7 +714,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -758,7 +761,7 @@
 									</tr>
 								</table>
 								<h3>DS 11-15 v2</h3>
-								<p>For permanent storage, please use the “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series.<br/>Of which DS13-2_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS13-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-8_v2<sup style="color:#e66102; font-weight: bold">new</sup> are brand new instances. Compared with DS13 v2 and DS14 v2, they’ve reduced the number of cores and size of the vCPU, and saved on costs while guaranteeing the same memory, disk size and price.<!--DSv2虚拟机 目前只在中国东部区域提供服务。-->
+								<p>For permanent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series.<br/>Of which DS13-2_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS13-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-8_v2<sup style="color:#e66102; font-weight: bold">new</sup> are brand new instances. Compared with DS13 v2 and DS14 v2, they’ve reduced the number of cores and size of the vCPU, and saved on costs while guaranteeing the same memory, disk size and price.<!--DSv2虚拟机 目前只在中国东部区域提供服务。-->
 								</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Windows Dv2 系列实例价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
@@ -769,7 +772,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -852,7 +855,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -895,7 +898,7 @@
 										<td>14 GiB</td>
 										<td>240 GiB</td>
 										<td>RMB2.62/hour
-											<br />(about RMB1949.28/month)</td>
+											<br />(about RMB1,949.28/month)</td>
 									</tr>
 								</table>
 								
@@ -910,7 +913,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -991,7 +994,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -1066,7 +1069,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -1162,7 +1165,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -1209,7 +1212,7 @@
 									</tr>
 								</table>
 								<h3>DS 1-5 v2</h3>
-								<p>For permanent storage, please use the “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series. <!--DSv2虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a href="/pricing/details/storage/" id="vm-pricing_storage-2" style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;">Storage Pricing Details</a> page.</p>
+								<p>For permanent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series. <!--DSv2虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a href="/pricing/details/storage/" id="vm-pricing_storage-2" style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;">Storage Pricing Details</a> page.</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Linux Dv2 系列虚拟机价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -1219,7 +1222,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -1269,10 +1272,10 @@
 							</div>
 							<!-- END: Tab level 2 content 2-1--> <!-- BEGIN: Tab level 2 content 2-2 -->
 							<div class="tab-panel" id="tabContent2-2">
-								<h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and application server. </h3>
+								<h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and App Services</h3>
 								<h3>F series/FS series</h3>
 								<p>The F Series/FS Series Virtual Machine supports RAM of every CPU core 2 GiB and 16 GiB local solid state disk (SSD), and has been prioritized for computing-intensive workloads. The F Series/FS Series are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to a 3.2 GHz clock speed using Intel Turbo Boost Technology 2.0. These Virtual Machines are suitable for batch processing, Web servers, analysis and gaming programs, etc.
-									<br /> For permanent storage, please use the FS Virtual Machines, and purchase Premium Storage separately. The pricing and billing standards for the FS size are the same as for the F Series. <!--FS虚拟机 目前只在中国东部区域提供服务。-->
+									<br /> For permanent storage, please use the “FS” virtual machine, and purchase Premium Storage separately. The pricing and billing standards of the FS size are the same as the F Series. <!--FS虚拟机 目前只在中国东部区域提供服务。-->
 								</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Linux F 系列虚拟机价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
@@ -1283,7 +1286,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -1335,7 +1338,7 @@
 							<div class="tab-panel" id="tabContent2-3">
 								<h3>Memory prioritization: high memory to core ratio. Suitable for relational database servers, medium- and large-scale caches and memory analysis.</h3>
 								<h3>D11-14/DS11-14</h3>
-								<p>The D11-14/DS11-14 instances are suitable for memory-intensive enterprise applications. </p>
+								<p>The D11-14/DS11-14 instances are suitable for memory-intensive enterprise applications.</p>
 								<p>For permanent storage, please use variable “DS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DS size are the same as the D Series.</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Linux D 系列虚拟机价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
@@ -1346,7 +1349,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -1442,7 +1445,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -1489,7 +1492,7 @@
 									</tr>
 								</table>
 								<h3>DS 11-15 v2</h3>
-								<p>For permanent storage, please use the “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series.<!--DSv2虚拟机 目前只在中国东部区域提供服务。-->
+								<p>For permanent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series.<!--DSv2虚拟机 目前只在中国东部区域提供服务。-->
 								</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Linux Dv2 系列虚拟机价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
@@ -1500,7 +1503,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>Pricing</strong></th>
@@ -1581,7 +1584,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -1594,8 +1597,8 @@
 										<td>0.75 GiB</td>
 										<td>20 GiB</td>
 										<td>RMB0.33/hour<br />(about RMB245.52/month)</td>
-										<td>RMB2.87/hour<br />(about RMB2135.28/month)</td>
-										<td>RMB10.54/hour<br />(about RMB7841.76/month)</td>
+										<td>RMB2.87/hour<br />(about RMB2,135.28/month)</td>
+										<td>RMB10.54/hour<br />(about RMB7,841.76/month)</td>
 									</tr>
 									<tr>
 										<td>A1</td>
@@ -1603,8 +1606,8 @@
 										<td>1.75 GiB</td>
 										<td>40 GiB</td>
 										<td>RMB0.53/hour<br />(about RMB394.32/month)</td>
-										<td>RMB3.07/hour<br />(about RMB2284.08/month)</td>
-										<td>RMB10.74/hour<br />(about RMB7990.56/month)</td>
+										<td>RMB3.07/hour<br />(about RMB2,284.08/month)</td>
+										<td>RMB10.74/hour<br />(about RMB7,990.56/month)</td>
 									</tr>
 									<tr>
 										<td>A2</td>
@@ -1612,26 +1615,26 @@
 										<td>3.5 GiB</td>
 										<td>60 GiB</td>
 										<td>RMB1.04/hour<br />(about RMB773.76/month)</td>
-										<td>RMB3.58/hour<br />(about RMB2663.52/month)</td>
-										<td>RMB11.25/hour<br />(about RMB8370/month)</td>
+										<td>RMB3.58/hour<br />(about RMB2,663.52/month)</td>
+										<td>RMB11.25/hour<br />(about RMB8,370/month)</td>
 									</tr>
 									<tr>
 										<td>A3</td>
 										<td>4</td>
 										<td>7.0 GiB</td>
 										<td>120 GiB</td>
-										<td>RMB1.86/hour<br />(about RMB1383.84/month)</td>
-										<td>RMB4.4/hour<br />(about RMB3273.6/month)</td>
-										<td>RMB12.07/hour<br />(about RMB8980.08/month)</td>
+										<td>RMB1.86/hour<br />(about RMB1,383.84/month)</td>
+										<td>RMB4.4/hour<br />(about RMB3,273.6/month)</td>
+										<td>RMB12.07/hour<br />(about RMB8,980.08/month)</td>
 									</tr>
 									<tr>
 										<td>A4</td>
 										<td>8</td>
 										<td>14.0 GiB</td>
 										<td>240 GiB</td>
-										<td>RMB3.73/hour<br />(about RMB2775.12/month)</td>
-										<td>RMB8.79/hour<br />(about RMB6539.76/month)</td>
-										<td>RMB24.13/hour<br />(about RMB17952.72/month)</td>
+										<td>RMB3.73/hour<br />(about RMB2,775.12/month)</td>
+										<td>RMB8.79/hour<br />(about RMB6,539.76/month)</td>
+										<td>RMB24.13/hour<br />(about RMB17,952.72/month)</td>
 									</tr>
 								</table>
 								
@@ -1647,7 +1650,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -1660,8 +1663,8 @@
 										<td>0.75 GiB</td>
 										<td>20 GiB</td>
 										<td>RMB0.35/hour<br />(about RMB260.4/month)</td>
-										<td>RMB2.89/hour<br />(about RMB2150.16/month)</td>
-										<td>RMB10.56/hour<br />(about RMB7856.64/month)</td>
+										<td>RMB2.89/hour<br />(about RMB2,150.16/month)</td>
+										<td>RMB10.56/hour<br />(about RMB7,856.64/month)</td>
 									</tr>
 									<tr>
 										<td>A1</td>
@@ -1669,8 +1672,8 @@
 										<td>1.75 GiB</td>
 										<td>70 GiB</td>
 										<td>RMB0.58/hour<br />(about RMB431.52/month)</td>
-										<td>RMB3.12/hour<br />(about RMB2321.28/month)</td>
-										<td>RMB10.79/hour<br />(about RMB8027.76/month)</td>
+										<td>RMB3.12/hour<br />(about RMB2,321.28/month)</td>
+										<td>RMB10.79/hour<br />(about RMB8,027.76/month)</td>
 									</tr>
 									<tr>
 										<td>A2</td>
@@ -1678,53 +1681,53 @@
 										<td>3.5 GiB</td>
 										<td>135 GiB</td>
 										<td>RMB1.16/hour<br />(about RMB863.04/month)</td>
-										<td>RMB3.7/hour<br />(about RMB2752.8/month)</td>
-										<td>RMB11.37/hour<br />(about RMB8459.28/month)</td>
+										<td>RMB3.7/hour<br />(about RMB2,752.8/month)</td>
+										<td>RMB11.37/hour<br />(about RMB8,459.28/month)</td>
 									</tr>
 									<tr>
 										<td>A3</td>
 										<td>4</td>
 										<td>7 GiB</td>
 										<td>285 GiB</td>
-										<td>RMB2.1/hour<br />(about RMB1562.4/month)</td>
-										<td>RMB4.64/hour<br />(about RMB3452.16/month)</td>
-										<td>RMB12.31/hour<br />(about RMB9158.64/month)</td>
+										<td>RMB2.1/hour<br />(about RMB1,562.4/month)</td>
+										<td>RMB4.64/hour<br />(about RMB3,452.16/month)</td>
+										<td>RMB12.31/hour<br />(about RMB9,158.64/month)</td>
 									</tr>
 									<tr>
 										<td>A4</td>
 										<td>8</td>
 										<td>14 GiB</td>
 										<td>605 GiB</td>
-										<td>RMB4.21/hour<br />(about RMB3132.24/month)</td>
-										<td>RMB9.27/hour<br />(about RMB6896.88/month)</td>
-										<td>RMB24.61/hour<br />(about RMB18309.84/month)</td>
+										<td>RMB4.21/hour<br />(about RMB3,132.24/month)</td>
+										<td>RMB9.27/hour<br />(about RMB6,896.88/month)</td>
+										<td>RMB24.61/hour<br />(about RMB18,309.84/month)</td>
 									</tr>
 									<tr>
 										<td>A5</td>
 										<td>2</td>
 										<td>14 GiB</td>
 										<td>135 GiB</td>
-										<td>RMB1.93/hour<br />(about RMB1435.92/month)</td>
-										<td>RMB4.47/hour<br />(about RMB3325.68/month)</td>
-										<td>RMB12.14/hour<br />(about RMB9032.16/month)</td>
+										<td>RMB1.93/hour<br />(about RMB1,435.92/month)</td>
+										<td>RMB4.47/hour<br />(about RMB3,325.68/month)</td>
+										<td>RMB12.14/hour<br />(about RMB9,032.16/month)</td>
 									</tr>
 									<tr>
 										<td>A6</td>
 										<td>4</td>
 										<td>28 GiB</td>
 										<td>285 GiB</td>
-										<td>RMB3.65/hour<br />(about RMB2715.6/month)</td>
-										<td>RMB6.19/hour<br />(about RMB4605.36/month)</td>
-										<td>RMB13.86/hour<br />(about RMB10311.84/month)</td>
+										<td>RMB3.65/hour<br />(about RMB2,715.6/month)</td>
+										<td>RMB6.19/hour<br />(about RMB4,605.36/month)</td>
+										<td>RMB13.86/hour<br />(about RMB10,311.84/month)</td>
 									</tr>
 									<tr>
 										<td>A7</td>
 										<td>8</td>
 										<td>56 GiB</td>
 										<td>605 GiB</td>
-										<td>RMB7.3/hour<br />(about RMB5431.2/month)</td>
-										<td>RMB12.36/hour<br />(about RMB9195.84/month)</td>
-										<td>RMB27.7/hour<br />(about RMB20608.8/month)</td>
+										<td>RMB7.3/hour<br />(about RMB5,431.2/month)</td>
+										<td>RMB12.36/hour<br />(about RMB9,195.84/month)</td>
+										<td>RMB27.7/hour<br />(about RMB20,608.8/month)</td>
 									</tr>
 								</table>
 								
@@ -1740,7 +1743,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -1755,7 +1758,7 @@
 										<td>RMB0.7605/hour
 											<br />(about RMB565.812/month)</td>
 										<td>RMB3.3005/hour
-											<br />(about RMB2455.572/month)</td>
+											<br />(about RMB2,455.572/month)</td>
 										<td>RMB10.9705/hour
 											<br />(about RMB8162.052/month)</td>
 									</tr>
@@ -1767,9 +1770,9 @@
 										<td>RMB1.301/hour
 											<br />(about RMB967.944/month)</td>
 										<td>RMB3.841/hour
-											<br />(about RMB2857.704/month)</td>
+											<br />(about RMB2,857.704/month)</td>
 										<td>RMB11.511/hour
-											<br />(about RMB8564.184/month)</td>
+											<br />(about RMB8,564.184/month)</td>
 									</tr>
 									<tr>
 										<td>A4 v2</td>
@@ -1777,11 +1780,11 @@
 										<td>8 GiB</td>
 										<td>40 GiB</td>
 										<td>RMB2.382/hour
-											<br />(about RMB1772.208/month)</td>
+											<br />(about RMB1,772.208/month)</td>
 										<td>RMB4.922/hour
-											<br />(about RMB3661.968/month)</td>
+											<br />(about RMB3,661.968/month)</td>
 										<td>RMB12.592/hour
-											<br />(about RMB9368.448/month)</td>
+											<br />(about RMB9,368.448/month)</td>
 									</tr>
 									<tr>
 										<td>A8 v2</td>
@@ -1789,11 +1792,11 @@
 										<td>16 GiB</td>
 										<td>80 GiB</td>
 										<td>RMB4.7855/hour
-											<br />(about RMB3560.412/month)</td>
+											<br />(about RMB3,560.412/month)</td>
 										<td>RMB9.8455/hour
-											<br />(about RMB7325.052/month)</td>
+											<br />(about RMB7,325.052/month)</td>
 										<td>RMB25.1855/hour
-											<br />(about RMB18738.012/month)</td>
+											<br />(about RMB18,738.012/month)</td>
 									</tr>
 									<tr>
 										<td>A2m v2</td>
@@ -1801,11 +1804,11 @@
 										<td>16 GiB</td>
 										<td>20 GiB</td>
 										<td>RMB2.1865/hour
-											<br />(about RMB1626.756/month)</td>
+											<br />(about RMB1,626.756/month)</td>
 										<td>RMB4.7265/hour
-											<br />(about RMB3516.516/month)</td>
+											<br />(about RMB3,516.516/month)</td>
 										<td>RMB12.3965/hour
-											<br />(about RMB9222.996/month)</td>
+											<br />(about RMB9,222.996/month)</td>
 									</tr>
 									<tr>
 										<td>A4m v2</td>
@@ -1813,11 +1816,11 @@
 										<td>32 GiB</td>
 										<td>40 GiB</td>
 										<td>RMB4.1594/hour
-											<br />(about RMB3094.5936/month)</td>
+											<br />(about RMB3,094.5936/month)</td>
 										<td>RMB6.6994/hour
-											<br />(about RMB4984.3536/month)</td>
+											<br />(about RMB4,984.3536/month)</td>
 										<td>RMB14.3694/hour
-											<br />(about RMB10690.8336/month)</td>
+											<br />(about RMB10,690.8336/month)</td>
 									</tr>
 									<tr>
 										<td>A8m v2</td>
@@ -1825,11 +1828,11 @@
 										<td>64 GiB</td>
 										<td>80 GiB</td>
 										<td>RMB8.3275/hour
-											<br />(about RMB6195.66/month)</td>
+											<br />(about RMB6,195.66/month)</td>
 										<td>RMB13.3875/hour
-											<br />(about RMB9960.3/month)</td>
+											<br />(about RMB9,960.3/month)</td>
 										<td>RMB28.7275/hour
-											<br />(about RMB21373.26/month)</td>
+											<br />(about RMB21,373.26/month)</td>
 									</tr>
 								</table>
 								
@@ -1844,7 +1847,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -1857,8 +1860,8 @@
 										<td>3.5 GiB</td>
 										<td>50 GiB</td>
 										<td>RMB0.7/hour<br />(about RMB520.8/month)</td>
-										<td>RMB3.24/hour<br />(about RMB2410.56month)</td>
-										<td>RMB10.91/hour<br />(about RMB8117.04/month)</td>
+										<td>RMB3.24/hour<br />(about RMB2,410.56/month)</td>
+										<td>RMB10.91/hour<br />(about RMB8,117.04/month)</td>
 									</tr>
 									<tr>
 										<td>D2</td>
@@ -1866,26 +1869,26 @@
 										<td>7 GiB</td>
 										<td>100 GiB</td>
 										<td>RMB1.22/hour<br />(about RMB907.68/month)</td>
-										<td>RMB3.76/hour<br />(about RMB2797.44 per month)</td>
-										<td>RMB11.43/hour<br />(about RMB8503.92/month)</td>
+										<td>RMB3.76/hour<br />(about RMB2,797.44/month)</td>
+										<td>RMB11.43/hour<br />(about RMB8,503.92/month)</td>
 									</tr>
 									<tr>
 										<td>D3</td>
 										<td>4</td>
 										<td>14 GiB</td>
 										<td>200 GiB</td>
-										<td>RMB2.23/hour<br />(about RMB1659.12/month)</td>
-										<td>RMB4.77/hour<br />(about RMB3548.88month)</td>
-										<td>RMB12.44/hour<br />(about RMB9255.36/month)</td>
+										<td>RMB2.23/hour<br />(about RMB1,659.12/month)</td>
+										<td>RMB4.77/hour<br />(about RMB3,548.88/month)</td>
+										<td>RMB12.44/hour<br />(about RMB9,255.36/month)</td>
 									</tr>
 									<tr>
 										<td>D4</td>
 										<td>8</td>
 										<td>28 GiB</td>
 										<td>400 GiB</td>
-										<td>RMB4.5/hour<br />(about RMB3348/month)</td>
-										<td>RMB9.56/hour<br />(about RMB7112.64/month)</td>
-										<td>RMB24.9/hour<br />(about RMB18525.6/month)</td>
+										<td>RMB4.5/hour<br />(about RMB3,348/month)</td>
+										<td>RMB9.56/hour<br />(about RMB7,112.64/month)</td>
+										<td>RMB24.9/hour<br />(about RMB18,525.6/month)</td>
 									</tr>
 								</table>
 								
@@ -1902,7 +1905,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -1915,8 +1918,8 @@
 										<td>3.5 GiB</td>
 										<td>50 GiB</td>
 										<td>RMB0.75/hour<br />(about RMB558/month)</td>
-										<td>RMB3.29/hour<br />(about RMB2447.76/month)</td>
-										<td>RMB10.96/hour<br />(about RMB8154.24/month)</td>
+										<td>RMB3.29/hour<br />(about RMB2,447.76/month)</td>
+										<td>RMB10.96/hour<br />(about RMB8,154.24/month)</td>
 									</tr>
 									<tr>
 										<td>D2 v2</td>
@@ -1924,42 +1927,42 @@
 										<td>7.0 GiB</td>
 										<td>100 GiB</td>
 										<td>RMB1.33/hour<br />(about RMB989.52/month)</td>
-										<td>RMB3.87/hour<br />(about RMB2879.28/month)</td>
-										<td>RMB11.54/hour<br />(about RMB8585.76/month)</td>
+										<td>RMB3.87/hour<br />(about RMB2,879.28/month)</td>
+										<td>RMB11.54/hour<br />(about RMB8,585.76/month)</td>
 									</tr>
 									<tr>
 										<td>D3 v2</td>
 										<td>4</td>
 										<td>14.0 GiB</td>
 										<td>200 GiB</td>
-										<td>RMB2.44/hour<br />(about RMB1815.36/month)</td>
-										<td>RMB4.98/hour<br />(about RMB3705.12/month)</td>
-										<td>RMB12.65/hour<br />(about RMB9411.6/month)</td>
+										<td>RMB2.44/hour<br />(about RMB1,815.36/month)</td>
+										<td>RMB4.98/hour<br />(about RMB3,705.12/month)</td>
+										<td>RMB12.65/hour<br />(about RMB9,411.6/month)</td>
 									</tr>
 									<tr>
 										<td>D4 v2</td>
 										<td>8</td>
 										<td>28.0 GiB</td>
 										<td>400 GiB</td>
-										<td>RMB4.9/hour<br />(about RMB3645.6/month)</td>
-										<td>RMB9.96/hour<br />(about RMB7410.24/month)</td>
-										<td>RMB25.3/hour<br />(about RMB18823.2/month)</td>
+										<td>RMB4.9/hour<br />(about RMB3,645.6/month)</td>
+										<td>RMB9.96/hour<br />(about RMB7,410.24/month)</td>
+										<td>RMB25.3/hour<br />(about RMB18,823.2/month)</td>
 									</tr>
 									<tr>
 										<td>D5 v2</td>
 										<td>16</td>
 										<td>56.0 GiB</td>
 										<td>800 GiB</td>
-										<td>RMB9.45/hour<br />(about RMB7030.8/month)</td>
-										<td>RMB19.58/hour<br />(about RMB14567.52/month)</td>
-										<td>RMB50.26/hour<br />(about RMB37393.44/month)</td>
+										<td>RMB9.45/hour<br />(about RMB7,030.8/month)</td>
+										<td>RMB19.58/hour<br />(about RMB14,567.52/month)</td>
+										<td>RMB50.26/hour<br />(about RMB3,7393.44/month)</td>
 									</tr>
 								</table>
 								
 								<p><sup>2 </sup>It’s recommended that SQL Enterprise Edition of standard D3 and the SQL Edition of standard D2 be employed as a minimum.</p>
 								<h3>DS 1-5 v2</h3>
 								<p>
-								For permanent storage, please use the “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series. <!--DSv2 虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a href="/pricing/details/storage/" id="vm-pricing_storage-4" style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;">Storage Pricing Details</a> page.</p>
+								For permanent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series. <!--DSv2 虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a href="/pricing/details/storage/" id="vm-pricing_storage-4" style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;">Storage Pricing Details</a> page.</p>
 
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -1969,7 +1972,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -1982,8 +1985,8 @@
 										<td>3.5 GiB</td>
 										<td>7 GiB</td>
 										<td>RMB0.75/hour<br />(about RMB558/month)</td>
-										<td>RMB3.29/hour<br />(about RMB2447.76/month)</td>
-										<td>RMB10.96/hour<br />(about RMB8154.24/month)</td>
+										<td>RMB3.29/hour<br />(about RMB2,447.76/month)</td>
+										<td>RMB10.96/hour<br />(about RMB8,154.24/month)</td>
 									</tr>
 									<tr>
 										<td>DS2 v2</td>
@@ -1991,35 +1994,35 @@
 										<td>7.0 GiB</td>
 										<td>14 GiB</td>
 										<td>RMB1.33/hour<br />(about RMB989.52/month)</td>
-										<td>RMB3.87/hour<br />(about RMB2879.28/month)</td>
-										<td>RMB11.54/hour<br />(about RMB8585.76/month)</td>
+										<td>RMB3.87/hour<br />(about RMB2,879.28/month)</td>
+										<td>RMB11.54/hour<br />(about RMB8,585.76/month)</td>
 									</tr>
 									<tr>
 										<td>DS3 v2</td>
 										<td>4</td>
 										<td>14.0 GiB</td>
 										<td>28 GiB</td>
-										<td>RMB2.44/hour<br />(about RMB1815.36/month)</td>
-										<td>RMB4.98/hour<br />(about RMB3705.12/month)</td>
-										<td>RMB12.65/hour<br />(about RMB9411.6/month)</td>
+										<td>RMB2.44/hour<br />(about RMB1,815.36/month)</td>
+										<td>RMB4.98/hour<br />(about RMB3,705.12/month)</td>
+										<td>RMB12.65/hour<br />(about RMB9,411.6/month)</td>
 									</tr>
 									<tr>
 										<td>DS4 v2</td>
 										<td>8</td>
 										<td>28.0 GiB</td>
 										<td>56 GiB</td>
-										<td>RMB4.9/hour<br />(about RMB3645.6/month)</td>
-										<td>RMB9.96/hour<br />(about RMB7410.24/month)</td>
-										<td>RMB25.3/hour<br />(about RMB18823.2/month)</td>
+										<td>RMB4.9/hour<br />(about RMB3,645.6/month)</td>
+										<td>RMB9.96/hour<br />(about RMB7,410.24/month)</td>
+										<td>RMB25.3/hour<br />(about RMB18,823.2/month)</td>
 									</tr>
 									<tr>
 										<td>DS5 v2</td>
 										<td>16</td>
 										<td>56.0 GiB</td>
 										<td>112 GiB</td>
-										<td>RMB9.45/hour<br />(about RMB7030.8/month)</td>
-										<td>RMB19.58/hour<br />(about RMB14567.52/month)</td>
-										<td>RMB50.26/hour<br />(about RMB37393.44/month)</td>
+										<td>RMB9.45/hour<br />(about RMB7,030.8/month)</td>
+										<td>RMB19.58/hour<br />(about RMB14,567.52/month)</td>
+										<td>RMB50.26/hour<br />(about RMB3,7393.44/month)</td>
 									</tr>
 								</table>
 								
@@ -2027,10 +2030,10 @@
 							</div>
 							<!-- END: Tab level 2 content 3-1--> <!-- BEGIN: Tab level 2 content 3-2 -->
 							<div class="tab-panel" id="tabContent3-2">
-								<h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and application server. </h3>
+								<h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and App Services</h3>
 								<h3>F series/FS series</h3>
 								<p>The F Series/FS Series Virtual Machine supports RAM of every CPU core 2 GiB and 16 GiB local solid state disk (SSD), and has been prioritized for computing-intensive workloads. The F Series/FS Series are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to a 3.2 GHz clock speed using Intel Turbo Boost Technology 2.0. These Virtual Machines are suitable for batch processing, Web servers, analysis and gaming programs, etc.
-									<br /> For permanent storage, please use the “FS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the FS size are the same as the F Series.<!--FS 虚拟机 目前只在中国东部区域提供服务。-->
+									<br /> For permanent storage, please use the “FS” virtual machine, and purchase Premium Storage separately. The pricing and billing standards of the FS size are the same as the F Series. <!--FS 虚拟机 目前只在中国东部区域提供服务。-->
 								</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -2041,7 +2044,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -2056,9 +2059,9 @@
 										<td>RMB0.68/hour
 											<br />(about RMB505.92/month)</td>
 										<td>RMB3.22/hour
-											<br />(about RMB2395.68/month)</td>
+											<br />(about RMB2,395.68/month)</td>
 										<td>RMB10.89/hour
-											<br />(about RMB8102.16/month)</td>
+											<br />(about RMB8,102.16/month)</td>
 									</tr>
 									<tr>
 										<td>F2</td>
@@ -2068,9 +2071,9 @@
 										<td>RMB1.19/hour
 											<br />(about RMB885.36/month)</td>
 										<td>RMB3.73/hour
-											<br />(about RMB2775.12/month)</td>
+											<br />(about RMB2,775.12/month)</td>
 										<td>RMB11.4/hour
-											<br />(about RMB8481.6/month)</td>
+											<br />(about RMB8,481.6/month)</td>
 									</tr>
 									<tr>
 										<td>F4</td>
@@ -2078,11 +2081,11 @@
 										<td>8 GiB</td>
 										<td>64 GiB</td>
 										<td>RMB2.17/hour
-											<br />(about RMB1614.48/month)</td>
+											<br />(about RMB1,614.48/month)</td>
 										<td>RMB4.71/hour
-											<br />(about RMB3504.24/month)</td>
+											<br />(about RMB3,504.24/month)</td>
 										<td>RMB12.38/hour
-											<br />(about RMB9210.72/month)</td>
+											<br />(about RMB9,210.72/month)</td>
 									</tr>
 									<tr>
 										<td>F8</td>
@@ -2090,11 +2093,11 @@
 										<td>16 GiB</td>
 										<td>128 GiB</td>
 										<td>RMB4.36/hour
-											<br />(about RMB3243.84/month)</td>
+											<br />(about RMB3,243.84/month)</td>
 										<td>RMB9.42/hour
-											<br />(about RMB7008.48/month)</td>
+											<br />(about RMB7,008.48/month)</td>
 										<td>RMB24.76/hour
-											<br />(about RMB18421.44/month)</td>
+											<br />(about RMB1,8421.44/month)</td>
 									</tr>
 									<tr>
 										<td>F16</td>
@@ -2102,11 +2105,11 @@
 										<td>32 GiB</td>
 										<td>256 GiB</td>
 										<td>RMB8.42/hour
-											<br />(about RMB6264.48/month)</td>
+											<br />(about RMB6,264.48/month)</td>
 										<td>RMB18.55/hour
-											<br />(about RMB13801.2/month)</td>
+											<br />(about RMB13,801.2/month)</td>
 										<td>RMB49.23/hour
-											<br />(about RMB36627.12/month)</td>
+											<br />(about RMB36,627.12/month)</td>
 									</tr>
 								</table>
 								
@@ -2124,7 +2127,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -2136,36 +2139,36 @@
 										<td>2</td>
 										<td>14 GiB</td>
 										<td>100 GiB</td>
-										<td>RMB1.92/hour<br />(about RMB1428.48/month)</td>
-										<td>RMB4.46/hour<br />(about RMB3318.24/month)</td>
-										<td>RMB12.13/hour<br />(about RMB9024.72/month)</td>
+										<td>RMB1.92/hour<br />(about RMB1,428.48/month)</td>
+										<td>RMB4.46/hour<br />(about RMB3,318.24/month)</td>
+										<td>RMB12.13/hour<br />(about RMB9,024.72/month)</td>
 									</tr>
 									<tr>
 										<td>D12</td>
 										<td>4</td>
 										<td>28 GiB</td>
 										<td>200 GiB</td>
-										<td>RMB3.63/hour<br />(about RMB2700.72/month)</td>
-										<td>RMB6.17/hour<br />(about RMB4590.48/month)</td>
-										<td>RMB13.84/hour<br />(about RMB10296.96/month)</td>
+										<td>RMB3.63/hour<br />(about RMB2,700.72/month)</td>
+										<td>RMB6.17/hour<br />(about RMB4,590.48/month)</td>
+										<td>RMB13.84/hour<br />(about RMB10,296.96/month)</td>
 									</tr>
 									<tr>
 										<td>D13</td>
 										<td>8</td>
 										<td>56 GiB</td>
 										<td>400 GiB</td>
-										<td>RMB7.28/hour<br />(about RMB5416.32/month)</td>
-										<td>RMB12.34/hour<br />(about RMB9180.96/month)</td>
-										<td>RMB27.68/hour<br />(about RMB20593.92/month)</td>
+										<td>RMB7.28/hour<br />(about RMB5,416.32/month)</td>
+										<td>RMB12.34/hour<br />(about RMB9,180.96/month)</td>
+										<td>RMB27.68/hour<br />(about RMB20,593.92/month)</td>
 									</tr>
 									<tr>
 										<td>D14</td>
 										<td>16</td>
 										<td>112 GiB</td>
 										<td>800 GiB</td>
-										<td>RMB14.56/hour<br />(about RMB10832.64/month)</td>
-										<td>RMB24.69/hour<br />(about RMB18369.36/month)</td>
-										<td>RMB55.37/hour<br />(about RMB41195.28/month)</td>
+										<td>RMB14.56/hour<br />(about RMB10,832.64/month)</td>
+										<td>RMB24.69/hour<br />(about RMB18,369.36/month)</td>
+										<td>RMB55.37/hour<br />(about RMB41,195.28/month)</td>
 									</tr>
 								</table>
 								
@@ -2181,7 +2184,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -2193,52 +2196,52 @@
 										<td>2</td>
 										<td>14.0 GiB</td>
 										<td>100 GiB</td>
-										<td>RMB2.1/hour<br />(about RMB1562.4/month)</td>
-										<td>RMB4.64/hour<br />(about RMB3452.16/month)</td>
-										<td>RMB12.31/hour<br />(about RMB9158.64/month)</td>
+										<td>RMB2.1/hour<br />(about RMB1,562.4/month)</td>
+										<td>RMB4.64/hour<br />(about RMB3,452.16/month)</td>
+										<td>RMB12.31/hour<br />(about RMB9,158.64/month)</td>
 									</tr>
 									<tr>
 										<td>D12 v2</td>
 										<td>4</td>
 										<td>28.0 GiB</td>
 										<td>200 GiB</td>
-										<td>RMB3.98/hour<br />(about RMB2961.12/month)</td>
-										<td>RMB6.52/hour<br />(about RMB4850.88/month)</td>
-										<td>RMB14.19/hour<br />(about RMB10557.36/month)</td>
+										<td>RMB3.98/hour<br />(about RMB2,961.12/month)</td>
+										<td>RMB6.52/hour<br />(about RMB4,850.88/month)</td>
+										<td>RMB14.19/hour<br />(about RMB10,557.36/month)</td>
 									</tr>
 									<tr>
 										<td>D13 v2</td>
 										<td>8</td>
 										<td>56.0 GiB</td>
 										<td>400 GiB</td>
-										<td>RMB7.96/hour<br />(about RMB5922.24/month)</td>
-										<td>RMB13.02/hour<br />(about RMB9686.88/month)</td>
-										<td>RMB28.36/hour<br />(about RMB21099.84/month)</td>
+										<td>RMB7.96/hour<br />(about RMB5,922.24/month)</td>
+										<td>RMB13.02/hour<br />(about RMB9,686.88/month)</td>
+										<td>RMB28.36/hour<br />(about RMB21,099.84/month)</td>
 									</tr>
 									<tr>
 										<td>D14 v2</td>
 										<td>16</td>
 										<td>112.0 GiB</td>
 										<td>800 GiB</td>
-										<td>RMB15.92/hour<br />(about RMB11844.48/month)</td>
-										<td>RMB26.05/hour<br />(about RMB19381.2/month)</td>
-										<td>RMB56.73/hour<br />(about RMB42207.12/month)</td>
+										<td>RMB15.92/hour<br />(about RMB11,844.48/month)</td>
+										<td>RMB26.05/hour<br />(about RMB19,381.2/month)</td>
+										<td>RMB56.73/hour<br />(about RMB42,207.12/month)</td>
 									</tr>
 									<tr>
 										<td>D15 v2</td>
 										<td>20</td>
 										<td>140.0 GiB</td>
 										<td>1,000 GiB</td>
-										<td>RMB20.2306/hour<br />(about RMB15051.5664/month)</td>
-										<td>RMB36.7973/hour<br />(about RMB27377.1912/month)</td>
-										<td>RMB86.3173/hour<br />(about RMB64220.0712/month)</td>
+										<td>RMB20.2306/hour<br />(about RMB15,051.5664/month)</td>
+										<td>RMB36.7973/hour<br />(about RMB27,377.1912/month)</td>
+										<td>RMB86.3173/hour<br />(about RMB64,220.0712/month)</td>
 									</tr>
 								</table>
 								
 								<p><sup>2 </sup>It’s recommended that SQL Enterprise Edition of standard D3 and the SQL Edition of standard D2 be employed as a minimum.</p>
 								
 								<h3>DS 11-15 v2</h3>
-								<p>For permanent storage, please use the “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series.<br/>Of which, DS13-2_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS13-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-8_v2<sup style="color:#e66102; font-weight: bold">new</sup> are brand new instances. Compared with DS13 v2 and DS14 v2, they’ve reduced the number of cores and size of the vCPU, and saved on costs while guaranteeing the same memory, disk size and price.<!--DSv2 虚拟机 目前只在中国东部区域提供服务。--></p>
+								<p>For permanent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series.<br/>Of which, DS13-2_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS13-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-4_v2<sup style="color:#e66102; font-weight: bold">new</sup> DS14-8_v2<sup style="color:#e66102; font-weight: bold">new</sup> are brand new instances. Compared with DS13 v2 and DS14 v2, they’ve reduced the number of cores and size of the vCPU, and saved on costs while guaranteeing the same memory, disk size and price.<!--DSv2 虚拟机 目前只在中国东部区域提供服务。--></p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
@@ -2247,7 +2250,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -2259,45 +2262,45 @@
 										<td>2</td>
 										<td>14.0 GiB</td>
 										<td>28 GiB</td>
-										<td>RMB2.1/hour<br />(about RMB1562.4/month)</td>
-										<td>RMB4.64/hour<br />(about RMB3452.16/month)</td>
-										<td>RMB12.31/hour<br />(about RMB9158.64/month)</td>
+										<td>RMB2.1/hour<br />(about RMB1,562.4/month)</td>
+										<td>RMB4.64/hour<br />(about RMB3,452.16/month)</td>
+										<td>RMB12.31/hour<br />(about RMB9,158.64/month)</td>
 									</tr>
 									<tr>
 										<td>DS12 v2</td>
 										<td>4</td>
 										<td>28.0 GiB</td>
 										<td>56 GiB</td>
-										<td>RMB3.98/hour<br />(about RMB2961.12/month)</td>
-										<td>RMB6.52/hour<br />(about RMB4850.88/month)</td>
-										<td>RMB14.19/hour<br />(about RMB10557.36/month)</td>
+										<td>RMB3.98/hour<br />(about RMB2,961.12/month)</td>
+										<td>RMB6.52/hour<br />(about RMB4,850.88/month)</td>
+										<td>RMB14.19/hour<br />(about RMB10,557.36/month)</td>
 									</tr>
 									<tr>
 										<td>DS13 v2</td>
 										<td>8</td>
 										<td>56.0 GiB</td>
 										<td>112 GiB</td>
-										<td>RMB7.96/hour<br />(about RMB5922.24/month)</td>
-										<td>RMB13.02/hour<br />(about RMB9686.88/month)</td>
-										<td>RMB28.36/hour<br />(about RMB21099.84/month)</td>
+										<td>RMB7.96/hour<br />(about RMB5,922.24/month)</td>
+										<td>RMB13.02/hour<br />(about RMB9,686.88/month)</td>
+										<td>RMB28.36/hour<br />(about RMB21,099.84/month)</td>
 									</tr>
 									<tr>
 										<td>DS14 v2</td>
 										<td>16</td>
 										<td>112.0 GiB</td>
 										<td>224 GiB</td>
-										<td>RMB15.92/hour<br />(about RMB11844.48/month)</td>
-										<td>RMB26.05/hour<br />(about RMB19381.2/month)</td>
-										<td>RMB56.73/hour<br />(about RMB42207.12/month)</td>
+										<td>RMB15.92/hour<br />(about RMB11,844.48/month)</td>
+										<td>RMB26.05/hour<br />(about RMB19,381.2/month)</td>
+										<td>RMB56.73/hour<br />(about RMB42,207.12/month)</td>
 									</tr>
 									<tr>
 										<td>DS15 v2</td>
 										<td>20</td>
 										<td>140.0 GiB</td>
 										<td>280 GiB</td>
-										<td>RMB20.2306/hour<br />(about RMB15051.5664/month)</td>
-										<td>RMB36.7973/hour<br />(about RMB27377.1912/month)</td>
-										<td>RMB86.3173/hour<br />(about RMB64220.0712/month)</td>
+										<td>RMB20.2306/hour<br />(about RMB15,051.5664/month)</td>
+										<td>RMB36.7973/hour<br />(about RMB27,377.1912/month)</td>
+										<td>RMB86.3173/hour<br />(about RMB64,220.0712/month)</td>
 									</tr>
 								</table>
 								
@@ -2336,7 +2339,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -2351,9 +2354,9 @@
 										<td>RMB0.33/hour
 											<br />(about RMB245.52/month)</td>
 										<td>RMB2.87/hour
-											<br />(about RMB2135.28/month)</td>
+											<br />(about RMB2,135.28/month)</td>
 										<td>RMB10.54/hour
-											<br />(about RMB7841.76/month)</td>
+											<br />(about RMB7,841.76/month)</td>
 									</tr>
 									<tr>
 										<td>A1</td>
@@ -2363,9 +2366,9 @@
 										<td>RMB0.47/hour
 											<br />(about RMB349.68/month)</td>
 										<td>RMB3.01/hour
-											<br />(about RMB2239.44/month)</td>
+											<br />(about RMB2,239.44/month)</td>
 										<td>RMB10.68/hour
-											<br />(about RMB7945.92/month)</td>
+											<br />(about RMB7,945.92/month)</td>
 									</tr>
 									<tr>
 										<td>A2</td>
@@ -2375,9 +2378,9 @@
 										<td>RMB0.88/hour
 											<br />(about RMB654.72/month)</td>
 										<td>RMB3.42/hour
-											<br />(about RMB2544.48/month)</td>
+											<br />(about RMB2,544.48/month)</td>
 										<td>RMB11.09/hour
-											<br />(about RMB8250.96/month)</td>
+											<br />(about RMB8,250.96/month)</td>
 									</tr>
 									<tr>
 										<td>A3</td>
@@ -2385,11 +2388,11 @@
 										<td>7 GiB</td>
 										<td>120 GiB</td>
 										<td>RMB1.53/hour
-											<br />(about RMB1138.32/month)</td>
+											<br />(about RMB1,138.32/month)</td>
 										<td>RMB4.07/hour
-											<br />(about RMB3028.08/month)</td>
+											<br />(about RMB3,028.08/month)</td>
 										<td>RMB11.74/hour
-											<br />(about RMB8734.56/month)</td>
+											<br />(about RMB8,734.56/month)</td>
 									</tr>
 									<tr>
 										<td>A4</td>
@@ -2397,11 +2400,11 @@
 										<td>14 GiB</td>
 										<td>240 GiB</td>
 										<td>RMB3.07/hour
-											<br />(about RMB2284.08/month)</td>
+											<br />(about RMB2,284.08/month)</td>
 										<td>RMB8.13/hour
-											<br />(about RMB6048.72/month)</td>
+											<br />(about RMB6,048.72/month)</td>
 										<td>RMB23.47/hour
-											<br />(about RMB17461.68/month)</td>
+											<br />(about RMB17,461.68/month)</td>
 									</tr>
 								</table>
 								
@@ -2415,7 +2418,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -2430,9 +2433,9 @@
 										<td>RMB0.35/hour
 											<br />(about RMB260.4/month)</td>
 										<td>RMB2.89/hour
-											<br />(about RMB2150.16/month)</td>
+											<br />(about RMB2,150.16/month)</td>
 										<td>RMB10.56/hour
-											<br />(about RMB7856.64/month)</td>
+											<br />(about RMB7,856.64/month)</td>
 									</tr>
 									<tr>
 										<td>A1</td>
@@ -2442,9 +2445,9 @@
 										<td>RMB0.51/hour
 											<br />(about RMB379.44/month)</td>
 										<td>RMB3.05/hour
-											<br />(about RMB2269.2/month)</td>
+											<br />(about RMB2,269.2/month)</td>
 										<td>RMB10.72/hour
-											<br />(about RMB7975.68/month)</td>
+											<br />(about RMB7,975.68/month)</td>
 									</tr>
 									<tr>
 										<td>A2</td>
@@ -2454,9 +2457,9 @@
 										<td>RMB0.97/hour
 											<br />(about RMB721.68/month)</td>
 										<td>RMB3.51/hour
-											<br />(about RMB2611.44/month)</td>
+											<br />(about RMB2,611.44/month)</td>
 										<td>RMB11.18/hour
-											<br />(about RMB8317.92/month)</td>
+											<br />(about RMB8,317.92/month)</td>
 									</tr>
 									<tr>
 										<td>A3</td>
@@ -2464,11 +2467,11 @@
 										<td>7 GiB</td>
 										<td>285 GiB</td>
 										<td>RMB1.73/hour
-											<br />(about RMB1287.12/month)</td>
+											<br />(about RMB1,287.12/month)</td>
 										<td>RMB4.27/hour
-											<br />(about RMB3176.88/month)</td>
+											<br />(about RMB3,176.88/month)</td>
 										<td>RMB11.94/hour
-											<br />(about RMB8883.36/month)</td>
+											<br />(about RMB8,883.36/month)</td>
 									</tr>
 									<tr>
 										<td>A4</td>
@@ -2476,11 +2479,11 @@
 										<td>14 GiB</td>
 										<td>605 GiB</td>
 										<td>RMB3.46/hour
-											<br />(about RMB2574.24/month)</td>
+											<br />(about RMB2,574.24/month)</td>
 										<td>RMB8.52/hour
-											<br />(about RMB6338.88/month)</td>
+											<br />(about RMB6,338.88/month)</td>
 										<td>RMB23.86/hour
-											<br />(about RMB17751.84/month)</td>
+											<br />(about RMB17,751.84/month)</td>
 									</tr>
 									<tr>
 										<td>A5</td>
@@ -2488,11 +2491,11 @@
 										<td>14 GiB</td>
 										<td>135 GiB</td>
 										<td>RMB1.84/hour
-											<br />(about RMB1368.96/month)</td>
+											<br />(about RMB1,368.96/month)</td>
 										<td>RMB4.38/hour
-											<br />(about RMB3258.72/month)</td>
+											<br />(about RMB3,258.72/month)</td>
 										<td>RMB12.05/hour
-											<br />(about RMB8965.2/month)</td>
+											<br />(about RMB8,965.2/month)</td>
 									</tr>
 									<tr>
 										<td>A6</td>
@@ -2500,11 +2503,11 @@
 										<td>28 GiB</td>
 										<td>285 GiB</td>
 										<td>RMB3.47/hour
-											<br />(about RMB2581.68/month)</td>
+											<br />(about RMB2,581.68/month)</td>
 										<td>RMB6.01/hour
-											<br />(about RMB4471.44/month)</td>
+											<br />(about RMB4,471.44/month)</td>
 										<td>RMB13.68/hour
-											<br />(about RMB10177.92/month)</td>
+											<br />(about RMB10,177.92/month)</td>
 									</tr>
 									<tr>
 										<td>A7</td>
@@ -2512,11 +2515,11 @@
 										<td>56 GiB</td>
 										<td>605 GiB</td>
 										<td>RMB6.94/hour
-											<br />(about RMB5163.36/month)</td>
+											<br />(about RMB5,163.36/month)</td>
 										<td>RMB12/hour
-											<br />(about RMB8928/month)</td>
+											<br />(about RMB8,928/month)</td>
 										<td>RMB27.34/hour
-											<br />(about RMB20340.96/month)</td>
+											<br />(about RMB20,340.96/month)</td>
 									</tr>
 								</table>
 								
@@ -2530,7 +2533,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -2545,9 +2548,9 @@
 										<td>RMB0.657/hour
 											<br />(about RMB488.808/month)</td>
 										<td>RMB3.197/hour
-											<br />(about RMB2378.568/month)</td>
+											<br />(about RMB2,378.568/month)</td>
 										<td>RMB10.867/hour
-											<br />(about RMB8085.048/month)</td>
+											<br />(about RMB8,085.048/month)</td>
 									</tr>
 									<tr>
 										<td>A2 v2</td>
@@ -2557,9 +2560,9 @@
 										<td>RMB1.0825/hour
 											<br />(about RMB805.38/month)</td>
 										<td>RMB3.6225/hour
-											<br />(about RMB2695.14/month)</td>
+											<br />(about RMB2,695.14/month)</td>
 										<td>RMB11.2925/hour
-											<br />(about RMB8401.62/month)</td>
+											<br />(about RMB8,401.62/month)</td>
 									</tr>
 									<tr>
 										<td>A4 v2</td>
@@ -2567,11 +2570,11 @@
 										<td>8 GiB</td>
 										<td>40 GiB</td>
 										<td>RMB1.9565/hour
-											<br />(about RMB1455.636/month)</td>
+											<br />(about RMB1,455.636/month)</td>
 										<td>RMB4.4965/hour
-											<br />(about RMB3345.396/month)</td>
+											<br />(about RMB3,345.396/month)</td>
 										<td>RMB12.1665/hour
-											<br />(about RMB9051.876/month)</td>
+											<br />(about RMB9,051.876/month)</td>
 									</tr>
 									<tr>
 										<td>A8 v2</td>
@@ -2579,11 +2582,11 @@
 										<td>16 GiB</td>
 										<td>80 GiB</td>
 										<td>RMB3.9115/hour
-											<br />(about RMB2910.156/month)</td>
+											<br />(about RMB2,910.156/month)</td>
 										<td>RMB8.9715/hour
-											<br />(about RMB6674.796/month)</td>
+											<br />(about RMB6,674.796/month)</td>
 										<td>RMB24.3115/hour
-											<br />(about RMB18087.756/month)</td>
+											<br />(about RMB18,087.756/month)</td>
 									</tr>
 									<tr>
 										<td>A2m v2</td>
@@ -2591,11 +2594,11 @@
 										<td>16 GiB</td>
 										<td>20 GiB</td>
 										<td>RMB2.083/hour
-											<br />(about RMB1549.752/month)</td>
+											<br />(about RMB1,549.752/month)</td>
 										<td>RMB4.623/hour
-											<br />(about RMB3439.512/month)</td>
+											<br />(about RMB3,439.512/month)</td>
 										<td>RMB12.293/hour
-											<br />(about RMB9145.992/month)</td>
+											<br />(about RMB9,145.992/month)</td>
 									</tr>
 									<tr>
 										<td>A4m v2</td>
@@ -2603,11 +2606,11 @@
 										<td>32 GiB</td>
 										<td>40 GiB</td>
 										<td>RMB3.9538/hour
-											<br />(about RMB2941.6272/month)</td>
+											<br />(about RMB2,941.6272/month)</td>
 										<td>RMB6.4938/hour
-											<br />(about RMB4831.3872/month)</td>
+											<br />(about RMB4,831.3872/month)</td>
 										<td>RMB14.1638/hour
-											<br />(about RMB10537.8672/month)</td>
+											<br />(about RMB10,537.8672/month)</td>
 									</tr>
 									<tr>
 										<td>A8m v2</td>
@@ -2615,11 +2618,11 @@
 										<td>64 GiB</td>
 										<td>80 GiB</td>
 										<td>RMB7.9135/hour
-											<br />(about RMB5887.644/month)</td>
+											<br />(about RMB5,887.644/month)</td>
 										<td>RMB12.9735/hour
-											<br />(about RMB9652.284/month)</td>
+											<br />(about RMB9,652.284/month)</td>
 										<td>RMB28.3135/hour
-											<br />(about RMB21065.244/month)</td>
+											<br />(about RMB21,065.244/month)</td>
 									</tr>
 								</table>
 								
@@ -2634,7 +2637,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -2649,9 +2652,9 @@
 										<td>RMB0.66/hour
 											<br />(about RMB491.04/month)</td>
 										<td>RMB3.2/hour
-											<br />(about RMB2380.8/month)</td>
+											<br />(about RMB2,380.8/month)</td>
 										<td>RMB10.87/hour
-											<br />(about RMB8087.28/month)</td>
+											<br />(about RMB8,087.28/month)</td>
 									</tr>
 									<tr>
 										<td>D2</td>
@@ -2661,9 +2664,9 @@
 										<td>RMB1.14/hour
 											<br />(about RMB848.16/month)</td>
 										<td>RMB3.68/hour
-											<br />(about RMB2737.92/month)</td>
+											<br />(about RMB2,737.92/month)</td>
 										<td>RMB11.35/hour
-											<br />(about RMB8444.4/month)</td>
+											<br />(about RMB8,444.4/month)</td>
 									</tr>
 									<tr>
 										<td>D3</td>
@@ -2671,11 +2674,11 @@
 										<td>14 GiB</td>
 										<td>200 GiB</td>
 										<td>RMB2.07/hour
-											<br />(about RMB1540.08month)</td>
+											<br />(about RMB1,540.08/month)</td>
 										<td>RMB4.61/hour
-											<br />(about RMB3429.84/month)</td>
+											<br />(about RMB3,429.84/month)</td>
 										<td>RMB12.28/hour
-											<br />(about RMB9136.32/month)</td>
+											<br />(about RMB9,136.32/month)</td>
 									</tr>
 									<tr>
 										<td>D4</td>
@@ -2683,11 +2686,11 @@
 										<td>28 GiB</td>
 										<td>400 GiB</td>
 										<td>RMB4.18/hour
-											<br />(about RMB3109.92/month)</td>
+											<br />(about RMB3,109.92/month)</td>
 										<td>RMB9.24/hour
-											<br />(about RMB6874.56/month)</td>
+											<br />(about RMB6,874.56/month)</td>
 										<td>RMB24.58/hour
-											<br />(about RMB18287.52/month)</td>
+											<br />(about RMB18,287.52/month)</td>
 									</tr>
 								</table>
 								
@@ -2758,7 +2761,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -2775,7 +2778,7 @@
 										<td>RMB3.25/hour
 											<br />(about RMB2,418/month)</td>
 										<td>RMB10.92/hour
-											<br />(about RMB8124.48/month)</td>
+											<br />(about RMB8,124.48/month)</td>
 									</tr>
 									<tr>
 										<td>D2 v2</td>
@@ -2787,7 +2790,7 @@
 										<td>RMB3.78/hour
 											<br />(about RMB2,812.32/month)</td>
 										<td>RMB11.45/hour
-											<br />(about RMB8518.8/month)</td>
+											<br />(about RMB8,518.8/month)</td>
 									</tr>
 									<tr>
 										<td>D3 v2</td>
@@ -2799,7 +2802,7 @@
 										<td>RMB4.8/hour
 											<br />(about RMB3,571.2/month)</td>
 										<td>RMB12.47/hour
-											<br />(about RMB9277.68/month)</td>
+											<br />(about RMB9,277.68/month)</td>
 									</tr>
 									<tr>
 										<td>D4 v2</td>
@@ -2811,7 +2814,7 @@
 										<td>RMB9.61/hour
 											<br />(about RMB7,149.84/month)</td>
 										<td>RMB24.95/hour
-											<br />(about RMB18562.8/month)</td>
+											<br />(about RMB18,562.8/month)</td>
 									</tr>
 									<tr>
 										<td>D5 v2</td>
@@ -2823,14 +2826,14 @@
 										<td>RMB19.19/hour
 											<br />(about RMB14,277.36/month)</td>
 										<td>RMB49.87/hour
-											<br />(about RMB37103.28/month)</td>
+											<br />(about RMB37,103.28/month)</td>
 									</tr>
 								</table>
 							
 								
 								<h3>DS 1-5 v2</h3>
 								
-								<p> For permanent storage, please use “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of DSv2 size are the same as the Dv2 series. <!--DSv2虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a href="/pricing/details/storage/" id="vm-pricing_storage-3" style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;">Storage Pricing Details</a> page.</p>
+								<p> For permanent storage, please use “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing standards of DSv2 size are the same as the Dv2 series. <!--DSv2虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a href="/pricing/details/storage/" id="vm-pricing_storage-3" style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;">Storage Pricing Details</a> page.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
@@ -2839,7 +2842,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -2912,10 +2915,10 @@
 							</div>
 							<!-- END: Tab level 2 content 4-1--> <!-- BEGIN: Tab level 2 content 4-2 -->
 							<div class="tab-panel" id="tabContent4-2">
-								<h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and application server. </h3>
+								<h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and App Services</h3>
 								<h3>F series/FS series</h3>
 								<p>The F Series/FS Series Virtual Machine supports RAM of every CPU core 2 GiB and 16 GiB local solid state disk (SSD), and has been prioritized for computing-intensive workloads. The F Series/FS Series are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to a 3.2 GHz clock speed using Intel Turbo Boost Technology 2.0. These Virtual Machines are suitable for batch processing, Web servers, analysis and gaming programs, etc.
-									<br /> For permanent storage, please use the “FS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the FS size are the same as the F Series.<!--FS 虚拟机 目前只在中国东部区域提供服务。-->
+									<br /> For permanent storage, please use the “FS” virtual machine, and purchase Premium Storage separately. The pricing and billing standards of the FS size are the same as the F Series. <!--FS 虚拟机 目前只在中国东部区域提供服务。-->
 								</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -2925,7 +2928,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -2999,7 +3002,7 @@
 							<div class="tab-panel" id="tabContent4-3">
 								<h3>Memory prioritization: high memory to core ratio. Suitable for relational database servers, medium- and large-scale caches and memory analysis.</h3>
 								<h3>D11-14/DS11-14</h3>
-								<p>The D11-14/DS11-14 instances are suitable for memory-intensive enterprise applications. </p>
+								<p>The D11-14/DS11-14 instances are suitable for memory-intensive enterprise applications.</p>
 								<p>For permanent storage, please use variable “DS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DS size are the same as the D Series.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -3009,7 +3012,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -3133,7 +3136,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -3203,7 +3206,7 @@
 								</table>
 								
 								<h3>DS 11-15 v2</h3>
-								<p>For permanent storage, please use the “DSv2” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series.<!--DSv2 虚拟机 目前只在中国东部区域提供服务。-->
+								<p>For permanent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series.<!--DSv2 虚拟机 目前只在中国东部区域提供服务。-->
 								</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -3213,7 +3216,7 @@
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
-										<th align="left"><strong>Number of Cores</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
 										<th align="left"><strong>RAM</strong></th>
 										<th align="left"><strong>Temporary Storage</strong></th>
 										<th align="left"><strong>SQL WEB</strong></th>
@@ -3287,7 +3290,755 @@
 						</div>
 						<!-- END: Tab level 2 content 4 -->
 					</div>
-					<!-- END: Level 1 tab content panel 4 -->
+					<!-- END: Level 1 tab content panel 4 --> <!-- BEGIN: Level 1 tab content panel 5 -->
+					<div class="tab-panel" id="tabContent5">
+						<!-- BEGIN: Tab level 2 navigator 5 -->
+						<ul class="tab-nav">
+							<li class="active">
+								<a href="javascript:void(0)" data-href="#tabContent5-1" data-toggle="tab" id="vm-vm-r-server-linux-general-purpose">General Purpose</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" data-href="#tabContent5-2"  data-toggle="tab" id="vm-vm-r-server-linux-compute-optimized">Computing Prioritization</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" data-href="#tabContent5-3"  data-toggle="tab" id="vm-vm-r-server-linux-memory-optimized">Memory Prioritization</a>
+							</li>
+						</ul>
+						<!-- END: Tab level 2 navigator 4 --> <!-- BEGIN: Tab level 2 content 5 -->
+						<div class="tab-content">
+							<!-- BEGIN: Tab level 2 content 5-1 -->
+							<div class="tab-panel" id="tabContent5-1">
+								<h3>General purpose: balancing of CPU to memory ratio. Suitable for testing and development of small- and medium-sized databases and low- and medium-traffic Web servers.</h3>
+								<h3>A0-4 – Basic</h3>
+								<p>The A Series Basic tier provides a cost-effective option for developing/testing the workload and other applications not requiring load balancing, Autoscale or memory-intensive Virtual Machines.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>A0</td>
+										<td>1</td>
+										<td>0.75 GiB</td>
+										<td>20 GiB</td>
+										<td>RMB10.54/hour
+											<br />(about RMB7,841.76/month)</td>
+									</tr>
+									<tr>
+										<td>A1</td>
+										<td>1</td>
+										<td>1.75 GiB</td>
+										<td>40 GiB</td>
+										<td>RMB10.68/hour
+											<br />(about RMB7,945.92/month)</td>
+									</tr>
+									<tr>
+										<td>A2</td>
+										<td>2</td>
+										<td>3.5 GiB</td>
+										<td>60 GiB</td>
+										<td>RMB11.09/hour
+											<br />(about RMB8,250.96/month)</td>
+									</tr>
+									<tr>
+										<td>A3</td>
+										<td>4</td>
+										<td>7 GiB</td>
+										<td>120 GiB</td>
+										<td>RMB11.74/hour
+											<br />(about RMB8,734.56/month)</td>
+									</tr>
+									<tr>
+										<td>A4</td>
+										<td>8</td>
+										<td>14 GiB</td>
+										<td>240 GiB</td>
+										<td>RMB23.47/hour
+											<br />(about RMB17,461.68/month)</td>
+									</tr>
+								</table>
+								
+								<h3>A Series Standard</h3>
+								<p>The A Series standard tier supports applications requiring load balancing and Autoscale. These Virtual Machines are suitable for developing workloads, generating servers, code memory, low-traffic websites and Web Apps, microservices, early product trials and small databases.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>A0</td>
+										<td>1</td>
+										<td>0.75 GiB</td>
+										<td>20 GiB</td>
+										<td>RMB10.56/hour
+											<br />(about RMB7,856.64/month)</td>
+									</tr>
+									<tr>
+										<td>A1</td>
+										<td>1</td>
+										<td>1.75 GiB</td>
+										<td>70 GiB</td>
+										<td>RMB10.72/hour
+											<br />(about RMB7,975.68/month)</td>
+									</tr>
+									<tr>
+										<td>A2</td>
+										<td>2</td>
+										<td>3.5 GiB</td>
+										<td>135 GiB</td>
+										<td>RMB11.18/hour
+											<br />(about RMB8,317.92/month)</td>
+									</tr>
+									<tr>
+										<td>A3</td>
+										<td>4</td>
+										<td>7 GiB</td>
+										<td>285 GiB</td>
+										<td>RMB11.94/hour
+											<br />(about RMB8,883.36/month)</td>
+									</tr>
+									<tr>
+										<td>A4</td>
+										<td>8</td>
+										<td>14 GiB</td>
+										<td>605 GiB</td>
+										<td>RMB23.86/hour
+											<br />(about RMB17,751.84/month)</td>
+									</tr>
+									<tr>
+										<td>A5</td>
+										<td>2</td>
+										<td>14 GiB</td>
+										<td>135 GiB</td>
+										<td>RMB12.05/hour
+											<br />(about RMB8,965.2/month)</td>
+									</tr>
+									<tr>
+										<td>A6</td>
+										<td>4</td>
+										<td>28 GiB</td>
+										<td>285 GiB</td>
+										<td>RMB13.68/hour
+											<br />(about RMB10,177.92/month)</td>
+									</tr>
+									<tr>
+										<td>A7</td>
+										<td>8</td>
+										<td>56 GiB</td>
+										<td>605 GiB</td>
+										<td>RMB27.34/hour
+											<br />(about RMB20,340.96/month)</td>
+									</tr>
+								</table>
+								
+								<h3>Av2 Standard</h3>
+								<p>The Av2 Standard Virtual Machine is the latest generation of A Series Virtual Machine, which has similar CPU performance but a faster disk speed. These Virtual Machines are suitable for developing workloads, generating servers, code memory, low-traffic website and Web Apps, microservices, early product trials, and small databases. The same as the previous A Standard, Av2 Virtual Machines will include load balancing and Autoscale, and with no extra fees.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>A1 v2</td>
+										<td>1</td>
+										<td>2 GiB</td>
+										<td>10 GiB</td>
+										<td>RMB10.867/hour
+											<br />(about RMB8,085.048/month)</td>
+									</tr>
+									<tr>
+										<td>A2 v2</td>
+										<td>2</td>
+										<td>4 GiB</td>
+										<td>20 GiB</td>
+										<td>RMB11.2925/hour
+											<br />(about RMB8,401.62/month)</td>
+									</tr>
+									<tr>
+										<td>A4 v2</td>
+										<td>4</td>
+										<td>8 GiB</td>
+										<td>40 GiB</td>
+										<td>RMB12.1665/hour
+											<br />(about RMB9,051.876/month)</td>
+									</tr>
+									<tr>
+										<td>A8 v2</td>
+										<td>8</td>
+										<td>16 GiB</td>
+										<td>80 GiB</td>
+										<td>RMB24.3115/hour
+											<br />(about RMB18,087.756/month)</td>
+									</tr>
+									<tr>
+										<td>A2m v2</td>
+										<td>2</td>
+										<td>16 GiB</td>
+										<td>20 GiB</td>
+										<td>RMB12.293/hour
+											<br />(about RMB9,145.992/month)</td>
+									</tr>
+									<tr>
+										<td>A4m v2</td>
+										<td>4</td>
+										<td>32 GiB</td>
+										<td>40 GiB</td>
+										<td>RMB14.1638/hour
+											<br />(about RMB10,537.8672/month)</td>
+									</tr>
+									<tr>
+										<td>A8m v2</td>
+										<td>8</td>
+										<td>64 GiB</td>
+										<td>80 GiB</td>
+										<td>RMB28.3135/hour
+											<br />(about RMB21,065.244/month)</td>
+									</tr>
+								</table>
+								
+								<h3>D1-4/DS 1-4</h3>
+								<p>The D1-4/DS 1-4 instances involve provision of powerful CPU, memory and local disk combinations for most production applications.</p>
+								<p>For permanent storage, please use variable “DS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DS size are the same as the D Series.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>D1</td>
+										<td>1</td>
+										<td>3.5 GiB</td>
+										<td>50 GiB</td>
+										<td>RMB10.87/hour
+											<br />(about RMB8,087.28/month)</td>
+									</tr>
+									<tr>
+										<td>D2</td>
+										<td>2</td>
+										<td>7 GiB</td>
+										<td>100 GiB</td>
+										<td>RMB11.35/hour
+											<br />(about RMB8,444.4/month)</td>
+									</tr>
+									<tr>
+										<td>D3</td>
+										<td>4</td>
+										<td>14 GiB</td>
+										<td>200 GiB</td>
+										<td>RMB12.28/hour
+											<br />(about RMB9,136.32/month)</td>
+									</tr>
+									<tr>
+										<td>D4</td>
+										<td>8</td>
+										<td>28 GiB</td>
+										<td>400 GiB</td>
+										<td>RMB24.58/hour
+											<br />(about RMB18,287.52/month)</td>
+									</tr>
+								</table>
+								
+								<!--
+														<h3>D2-5 v2 促销 - 限时</h3>
+														<p>仅提供限时优惠。</p>
+														<div class="tags-date">
+															<div class="ms-date">*以下价格均为含税价格。</div><br />
+															<div class="ms-date">*每月价格估算基于每个月 744 小时的使用量。</div>
+														</div>
+														<table cellpadding="0" cellspacing="0" width="100%">
+															<tr>
+																<th align="left"><strong>实例</strong></th>
+																<th align="left"><strong>内核数</strong></th>
+																<th align="left"><strong>RAM</strong></th>
+																<th align="left"><strong>临时存储</strong></th>
+																<th align="left"><strong>操作系统价格</strong></th>
+																<th align="left"><strong>软件促销价格</strong></th>
+																<th align="left"><strong>价格总计</strong></th>   
+															</tr>
+															<tr>
+																<td>D2 v2 促销</td>
+																<td>2</td>
+																<td>7 GiB</td>
+																<td>100 GiB</td>
+																<td>￥1.02/小时<br />( 约 ￥758.88/月 )</td>
+																<td>￥9.858/小时<br />( 约 ￥7334.352/月 )</td>
+																<td>￥10.878/小时<br />( 约 ￥8093.232/月 )</td>
+															</tr>
+															<tr>
+																<td>D3 v2 促销</td>
+																<td>4</td>
+																<td>14 GiB</td>
+																<td>200 GiB</td>
+																<td>￥2.04/小时<br />( 约 ￥1,517.76/月 )</td>
+																<td>￥9.858/小时<br />( 约 ￥7334.352/月 )</td>
+																<td>￥11.898/小时<br />( 约 ￥8852.112/月 )</td>
+															</tr>
+															<tr>
+																<td>D4 v2 促销</td>
+																<td>8</td>
+																<td>28 GiB</td>
+																<td>400 GiB</td>
+																<td>￥4.1/小时<br />( 约 ￥3,050.4/月 )</td>
+																<td>￥19.716/小时<br />( 约 ￥14668.704/月 )</td>
+																<td>￥23.816/小时<br />( 约 ￥17719.104/月 )</td>
+															</tr>
+															<tr>
+																<td>D5 v2 促销</td>
+																<td>16</td>
+																<td>56 GiB</td>
+																<td>800 GiB</td>
+																<td>￥8.17/小时<br />( 约 ￥6,078.48/月 )</td>
+																<td>￥39.432/小时<br />( 约 ￥29337.408/月 )</td>
+																<td>￥47.602/小时<br />( 约 ￥35415.888/月 )</td>
+															</tr>
+														</table>
+														
+														-->
+								<h3>D1-5 v2</h3>
+								<p>The D1-5 v2 instances are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to 3.2 GHz via Intel Turbo Boost Technology 2.0. The D1-5 v2/DS 1-5 v2 instances involve provision of powerful CPU, memory and local disk combinations for most of production applications.</p>
+								
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>D1 v2</td>
+										<td>1</td>
+										<td>3.5 GiB</td>
+										<td>50 GiB</td>
+										<td>RMB10.92/hour
+											<br />(about RMB8,124.48/month)</td>
+									</tr>
+									<tr>
+										<td>D2 v2</td>
+										<td>2</td>
+										<td>7 GiB</td>
+										<td>100 GiB</td>
+										<td>RMB11.45/hour
+											<br />(about RMB8,518.8/month)</td>
+									</tr>
+									<tr>
+										<td>D3 v2</td>
+										<td>4</td>
+										<td>14 GiB</td>
+										<td>200 GiB</td>
+										<td>RMB12.47/hour
+											<br />(about RMB9,277.68/month)</td>
+									</tr>
+									<tr>
+										<td>D4 v2</td>
+										<td>8</td>
+										<td>28 GiB</td>
+										<td>400 GiB</td>
+										<td>RMB24.95/hour
+											<br />(about RMB18,562.8/month)</td>
+									</tr>
+									<tr>
+										<td>D5 v2</td>
+										<td>16</td>
+										<td>56 GiB</td>
+										<td>800 GiB</td>
+										<td>RMB49.87/hour
+											<br />(about RMB37,103.28/month)</td>
+									</tr>
+								</table>
+							
+								
+								<h3>DS 1-5 v2</h3>
+								
+								<p> For permanent storage, please use “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing standards of DSv2 size are the same as the Dv2 series. <!--DSv2虚拟机 目前只在中国东部区域提供服务。-->For disk pricing, please view the <a href="/pricing/details/storage/" id="vm-pricing_storage-3" style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;">Storage Pricing Details</a> page.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>DS1 v2</td>
+										<td>1</td>
+										<td>3.5 GiB</td>
+										<td>7 GiB</td>
+										<td>RMB10.92/hour
+											<br />(about RMB8,124.48/month)</td>
+									</tr>
+									<tr>
+										<td>DS2 v2</td>
+										<td>2</td>
+										<td>7 GiB</td>
+										<td>14 GiB</td>
+										<td>RMB11.45/hour
+											<br />(about RMB8,518.8/month)</td>
+									</tr>
+									<tr>
+										<td>DS3 v2</td>
+										<td>4</td>
+										<td>14 GiB</td>
+										<td>28 GiB</td>
+										<td>RMB12.47/hour
+											<br />(about RMB9,277.68/month)</td>
+									</tr>
+									<tr>
+										<td>DS4 v2</td>
+										<td>8</td>
+										<td>28 GiB</td>
+										<td>56 GiB</td>
+										<td>RMB24.95/hour
+											<br />(about RMB18,562.8/month)</td>
+									</tr>
+									<tr>
+										<td>DS5 v2</td>
+										<td>16</td>
+										<td>56 GiB</td>
+										<td>112 GiB</td>
+										<td>RMB49.87/hour
+											<br />(about RMB37,103.28/month)</td>
+									</tr>
+								</table>
+							
+								
+							</div>
+							<!-- END: Tab level 2 content 5-1--> <!-- BEGIN: Tab level 2 content 5-2 -->
+							<div class="tab-panel" id="tabContent5-2">
+								<h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and App Services</h3>
+								<h3>F series/FS series</h3>
+								<p>The F Series/FS Series Virtual Machine supports RAM of every CPU core 2 GiB and 16 GiB local solid state disk (SSD), and has been prioritized for computing-intensive workloads. The F Series/FS Series are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to a 3.2 GHz clock speed using Intel Turbo Boost Technology 2.0. These Virtual Machines are suitable for batch processing, Web servers, analysis and gaming programs, etc.
+									<br /> For permanent storage, please use the “FS” virtual machine, and purchase Premium Storage separately. The pricing and billing standards of the FS size are the same as the F Series. <!--FS 虚拟机 目前只在中国东部区域提供服务。-->
+								</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>F1</td>
+										<td>1</td>
+										<td>2 GiB</td>
+										<td>16 GiB</td>
+										<td>RMB10.86/hour
+											<br />(about RMB8,079.84/month)</td>
+									</tr>
+									<tr>
+										<td>F2</td>
+										<td>2</td>
+										<td>4 GiB</td>
+										<td>32 GiB</td>
+										<td>RMB11.33/hour
+											<br />(about RMB8,429.52/month)</td>
+									</tr>
+									<tr>
+										<td>F4</td>
+										<td>4</td>
+										<td>8 GiB</td>
+										<td>64 GiB</td>
+										<td>RMB12.23/hour
+											<br />(about RMB9,099.12/month)</td>
+									</tr>
+									<tr>
+										<td>F8</td>
+										<td>8</td>
+										<td>16 GiB</td>
+										<td>128 GiB</td>
+										<td>RMB24.46/hour
+											<br />(about RMB18,198.24/month)</td>
+									</tr>
+									<tr>
+										<td>F16</td>
+										<td>16</td>
+										<td>32 GiB</td>
+										<td>256 GiB</td>
+										<td>RMB48.89/hour
+											<br />(about RMB36,374.16/month)</td>
+									</tr>
+								</table>
+								
+							</div>
+							<!-- END: Tab level 2 content 5-2--> <!-- BEGIN: Tab level 2 content 5-3 -->
+							<div class="tab-panel" id="tabContent5-3">
+								<h3>Memory prioritization: high memory to core ratio. Suitable for relational database servers, medium- and large-scale caches and memory analysis.</h3>
+								<h3>D11-14/DS11-14</h3>
+								<p>The D11-14/DS11-14 instances are suitable for memory-intensive enterprise applications.</p>
+								<p>For permanent storage, please use variable “DS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing standards of the DS size are the same as the D Series.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>D11</td>
+										<td>2</td>
+										<td>14 GiB</td>
+										<td>100 GiB</td>
+										<td>RMB12/hour
+											<br />(about RMB8,928/month)</td>
+									</tr>
+									<tr>
+										<td>D12</td>
+										<td>4</td>
+										<td>28 GiB</td>
+										<td>200 GiB</td>
+										<td>RMB13.57/hour
+											<br />(about RMB10,096.08/month)</td>
+									</tr>
+									<tr>
+										<td>D13</td>
+										<td>8</td>
+										<td>56 GiB</td>
+										<td>400 GiB</td>
+										<td>RMB27.14/hour
+											<br />(about RMB20,192.16/month)</td>
+									</tr>
+									<tr>
+										<td>D14</td>
+										<td>16</td>
+										<td>112 GiB</td>
+										<td>800 GiB</td>
+										<td>RMB54.28/hour
+											<br />(about RMB40,384.32/month)</td>
+									</tr>
+								</table>
+								
+								<!--
+														<h3>D11-14/DS11-14 – v2 促销 - 限时</h3>
+														<p>仅提供限时优惠。</p>
+														<div class="tags-date">
+															<div class="ms-date">*以下价格均为含税价格。</div><br />
+															<div class="ms-date">*每月价格估算基于每个月 744 小时的使用量。</div>
+														</div>
+														<table cellpadding="0" cellspacing="0" width="100%">
+															<tr>
+																<th align="left"><strong>实例</strong></th>
+																<th align="left"><strong>内核数</strong></th>
+																<th align="left"><strong>RAM</strong></th>
+																<th align="left"><strong>临时存储</strong></th>
+																<th align="left"><strong>操作系统价格</strong></th>
+																<th align="left"><strong>软件促销价格</strong></th>
+																<th align="left"><strong>价格总计</strong></th>   
+															</tr>
+															<tr>
+																<td>D11 v2</td>
+																<td>2</td>
+																<td>14 GiB</td>
+																<td>100 GiB</td>
+																<td>￥1.73/小时<br />( 约 ￥1,287.12/月 )</td>
+																<td>￥9.858/小时<br />( 约 ￥7334.352/月 )</td>
+																<td>￥11.588/小时<br />( 约 ￥8621.472/月 )</td>
+															</tr>
+															<tr>
+																<td>D12 v2</td>
+																<td>4</td>
+																<td>28 GiB</td>
+																<td>200 GiB</td>
+																<td>￥3.46/小时<br />( 约 ￥2,574.24/月 )</td>
+																<td>￥9.858/小时<br />( 约 ￥7334.352/月 )</td>
+																<td>￥13.318/小时<br />( 约 ￥9908.592/月 )</td>
+															</tr>
+															<tr>
+																<td>D13 v2</td>
+																<td>8</td>
+																<td>56 GiB</td>
+																<td>400 GiB</td>
+																<td>￥6.92/小时<br />( 约 ￥5,148.48/月 )</td>
+																<td>￥19.716/小时<br />( 约 ￥14668.704/月 )</td>
+																<td>￥26.636/小时<br />( 约 ￥19817.184/月 )</td>
+															</tr>
+															<tr>
+																<td>D14 v2</td>
+																<td>16</td>
+																<td>112 GiB</td>
+																<td>800 GiB</td>
+																<td>￥13.83/小时<br />( 约 ￥10,289.52/月 )</td>
+																<td>￥39.432/小时<br />( 约 ￥29337.408/月 )</td>
+																<td>￥53.262/小时<br />( 约 ￥39626.928/月 )</td>
+															</tr>
+														</table>
+														
+														-->
+								<h3>D11-15 v2</h3>
+								<p>The D11-15 v2/DS 11-15 v2 Series instances are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to 3.2 GHz via Intel Turbo Boost Technology 2.0. The D11-15 v2 are suitable for memory-intensive enterprise applications. The D15 v2 instance is independent from the hardware exclusively used for individual customers.</p>
+									
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>D11 v2</td>
+										<td>2</td>
+										<td>14 GiB</td>
+										<td>100 GiB</td>
+										<td>RMB12.16/hour
+											<br />(about RMB9,047.04/month)</td>
+									</tr>
+									<tr>
+										<td>D12 v2</td>
+										<td>4</td>
+										<td>28 GiB</td>
+										<td>200 GiB</td>
+										<td>RMB13.89/hour
+											<br />(about RMB10,334.16/month)</td>
+									</tr>
+									<tr>
+										<td>D13 v2</td>
+										<td>8</td>
+										<td>56 GiB</td>
+										<td>400 GiB</td>
+										<td>RMB27.77/hour
+											<br />(about RMB20,660.88/month)</td>
+									</tr>
+									<tr>
+										<td>D14 v2</td>
+										<td>16</td>
+										<td>112 GiB</td>
+										<td>800 GiB</td>
+										<td>RMB55.53/hour
+											<br />(about RMB41,314.32/month)</td>
+									</tr>
+									<tr>
+										<td>D15 v2</td>
+										<td>20</td>
+										<td>140 GiB</td>
+										<td>1000 GiB</td>
+										<td>RMB84.8173/hour
+											<br />(about RMB63,104.0712/month)</td>
+									</tr>
+								</table>
+								
+								<h3>DS 11-15 v2</h3>
+								<p>For permanent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing standards of the DSv2 size are the same as the Dv2 Series.<!--DSv2 虚拟机 目前只在中国东部区域提供服务。-->
+								</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>DS11 v2</td>
+										<td>2</td>
+										<td>14 GiB</td>
+										<td>28 GiB</td>
+										<td>RMB12.16/hour
+											<br />(about RMB9,047.04/month)</td>
+									</tr>
+									<tr>
+										<td>DS12 v2</td>
+										<td>4</td>
+										<td>28 GiB</td>
+										<td>56 GiB</td>
+										<td>RMB13.89/hour
+											<br />(about RMB10,334.16/month)</td>
+									</tr>
+									<tr>
+										<td>DS13 v2</td>
+										<td>8</td>
+										<td>56 GiB</td>
+										<td>112 GiB</td>
+										<td>RMB27.77/hour
+											<br />(about RMB20,660.88/month)</td>
+									</tr>
+									<tr>
+										<td>DS14 v2</td>
+										<td>16</td>
+										<td>112 GiB</td>
+										<td>224 GiB</td>
+										<td>RMB55.53/hour
+											<br />(about RMB41,314.32/month)</td>
+									</tr>
+									<tr>
+										<td>DS15 v2</td>
+										<td>20</td>
+										<td>140 GiB</td>
+										<td>280 GiB</td>
+										<td>RMB84.8173/hour
+											<br />(about RMB63,104.0712/month)</td>
+									</tr>
+								</table>
+												
+							</div>
+							<!-- END: Tab level 2 content 5-3-->
+						</div>
+						<!-- END: Tab level 2 content 5 -->
+					</div>
+					<!-- END: Level 1 tab content panel 5 -->
 
 				</div>
 				<!-- END: Level 1 tab content -->
@@ -3298,7 +4049,7 @@
 				<h2>IP Address Options</h2>
 				<p>Every cloud service option including one or multiple Azure Virtual Machines is automatically assigned a free dynamic virtual IP (VIP) address. For an additional fee, you can also get:</p>
 				<ul>
-					<li><strong>Instance-level public IP address:</strong>a dynamic public IP (PIP) address assigned to the Virtual Machine for direct access.</li>
+					<li><strong>Instance-level public IP address:</strong> a dynamic public IP (PIP) address assigned to the virtual machine for direct access.</li>
 					<li><strong>Reserved IP address: </strong>this may be a public IP address reserved for subscription, or used as a VIP address for any cloud service within the region.</li>
 					<li><strong>Load balancing IP address: </strong>other load balancing VIP addresses could be assigned to cloud services that include one or multiple Azure Virtual Machines.</li>
 				</ul>
@@ -3307,7 +4058,7 @@
 			<div class="pricing-page-section">
 				<div class="more-detail">
 					<h2>FAQ</h2>
-					<em>Expand all</em>
+					<em>Expand All</em>
 					<h3>Common</h3>
 					<ul>
 						<li>
@@ -3315,7 +4066,7 @@
 							<div>
 								<a id="vm-que-1">Is it necessary for me to purchase local disk storage for the virtual machine separately? </a>
 								<section>
-									<p>When you create a virtual machine, all virtual machines in Azure are configured with at least two disks--one is the OS disk, and the other is a temporary local disk (sometimes called the resources disk). The Disk Storage area of the temporary local disk is provided free of charge along with the virtual machine. The OS disk is paid at the regular rate. If you want to browse the virtual machine configuration, please click <a href="http://msdn.microsoft.com/zh-cn/library/windowsazure/dn197896.aspx" id="vm-price-cl">here</a>.</p>
+									<p>When you create a virtual machine, all virtual machines in Azure are configured with at least two disks—one is the OS disk, and the other is a temporary local disk (sometimes called the resources disk). The Disk Storage area of the temporary local disk is provided free of charge along with the virtual machine. The OS disk is paid at the regular rate. If you want to browse the virtual machine configuration, please click <a href="http://msdn.microsoft.com/zh-cn/library/windowsazure/dn197896.aspx" id="vm-price-cl">here</a>.</p>
 								</section>
 							</div>
 						</li>
@@ -3324,7 +4075,7 @@
 							<div>
 								<a id="vm-que-2"> If my deployed instances are in a “suspended” status, do you still charge me?</a>
 								<section>
-									<p>If your instances are in a “suspended de-allocation” status, it is not charged. If your instances are in a “suspended allocation” status, as this still occupies computing resources, the allocated virtual cores are charged, but the software license itself is not charged. </p>
+									<p>If your instances are in a “suspended de-allocation” status, it is not charged. If your instances are in a “suspended allocation” status, as this still occupies computing resources, the allocated virtual cores are charged, but the software license itself is not charged.</p>
 									<p>Assuming a computing instance is in the following status, the billing conditions are for your reference:</p>
 									<table cellpadding="0" cellspacing="0" width="100%">
 										<tr>
@@ -3340,7 +4091,7 @@
 										<tr>
 											<td>Running (already started)</td>
 											<td>Yes</td>
-											<td>Running status of Virtual Machine</td>
+											<td>Running status of virtual machine</td>
 										</tr>
 										<tr>
 											<td>Suspended</td>
@@ -3348,14 +4099,14 @@
 											<td>If the virtual machine is suspended (but not de-allocated), software billing is not performed, but core billing is performed.</td>
 										</tr>
 										<tr>
-											<td>Suspended (de-allocated)</td>
+											<td>stopped-deallocated</td>
 											<td>No</td>
-											<td>No charge (excluding storage fee) </td>
+											<td>No charge (excluding storage fee).</td>
 										</tr>
 										<tr>
 											<td>Deleted</td>
 											<td>No</td>
-											<td>The virtual machine is deleted without occupying the core. </td>
+											<td>The virtual machine is deleted without occupying the core.</td>
 										</tr>
 									</table>
 								</section>
@@ -3375,7 +4126,7 @@
 							<div>
 								<a id="vm-que-q4">How are instances of different sizes charged?</a>
 								<section>
-									<p>On the bills shown to you, all hours will be converted into hours of small-sized instances.</p>
+									<p>On the billing history shown to you, all hours will be converted into hours of small-sized instances.</p>
 								</section>
 							</div>
 						</li>
@@ -3400,7 +4151,7 @@
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="vm-que-q7">How do we view if the virtual machine is stopped correctly without being charged?</a>
+								<a id="vm-que-q7">How can we see if the virtual machine has stopped correctly without being charged?</a>
 								<section>
 									<p>You may view the state of the virtual machine in the “Virtual Machines” option tab of the Virtual Machine tool panel. Charging is still performed if the status of the virtual machine is “suspended”. Only when the state is “suspended (de-allocated)” is no cost incurred by the virtual machine. For example, if the power supply option in Windows is used to suspend the virtual machine, a cost will be incurred by the virtual machine; however, if the virtual machine is suspended from the administrative portal, no cost will be incurred by the virtual machine.</p>
 									<p>“Suspended” and “Suspended (de-allocated)” virtual machine on the “Virtual Machine” option tab</p>
@@ -3453,7 +4204,7 @@
 							<div>
 								<a id="vm-que-12">If I locally download my Windows Server mirror running on Azure, can the license provided in Azure be transferred locally?</a>
 								<section>
-									<p>No, if you locally download the Windows Server mirror running on Azure, a license for this mirror must be provided. </p>
+									<p>No, if you locally download the Windows Server mirror running on Azure, a license for this mirror must be provided.</p>
 								</section>
 							</div>
 						</li>
@@ -3483,7 +4234,7 @@
 							<div>
 								<a id="vm-que-q15">Is there any difference between the common SQL Servericon-plus Enterprise Edition and the DW-oriented SQL Server Enterprise Edition?</a>
 								<section>
-									<p>Data Warehouse represents typical complex workloads, which is set, configured and optimized to realize optimum inquiry performance and hardware (CPU, IO and storage) balancing. With this mirror, Microsoft enables perfection of the extensive engineering design of SQL Server Enterprise on Azure, so that optimum Data Warehouse configuration can be realized in the cloud. Using the best practices of third-party hardware authentication by SQL Server Enterprise over the years, this mirror has provided the same know-how to SQL Server in the Azure virtual machine. </p>
+									<p>Data Warehouse represents typical complex workloads, which is set, configured and optimized to realize optimum inquiry performance and hardware (CPU, IO and storage) balancing. With this mirror, Microsoft enables perfection of the extensive engineering design of SQL Server Enterprise on Azure, so that optimum Data Warehouse configuration can be realized in the cloud. Using the best practices of third-party hardware authentication by SQL Server Enterprise over the years, this mirror has provided the same know-how to SQL Server in the Azure virtual machine.</p>
 								</section>
 							</div>
 						</li>
@@ -3518,7 +4269,7 @@
 			</div>
             <div class="pricing-page-section">
                 <h2>Region</h2>
-                <p>The Virtual Machine Scale Sets (DSv2 Virtual Machine and FS Virtual Machine currently provide services only in Eastern China Region) are available in the following regions: </p>
+                <p>The Virtual Machine Scale Sets (DSv2 Virtual Machine and FS Virtual Machine currently provide services only in Eastern China Region) are available in the following regions:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
                         <th align="left"><strong>Territory</strong></th>
@@ -3531,7 +4282,7 @@
                 </table>
                 <div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
-                <p>If you have any questions or need any help, please visit <a href="/support/contact/" id="vmscale-contact-page">Azure Support</a> and select self-help service or any other methods to contact us for support.</p>
+                <p>If you have any questions or need any help, please visit <a href="/support/contact/" id="vmscale-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				 <p>Virtual Machine Scale Sets is a free service, so no Service Level Agreement with financial guarantee is provided. However, if the Virtual Machine Scale Sets include a Virtual Machine in 2 or more than 2 of the fault tolerant domains, the availability depends on the basic Virtual Machine Service Level Agreement. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/virtual-machine-scale-sets/" id="pricing_vmscale_sla">Service Level Agreements</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk-->
@@ -3539,12 +4290,11 @@
             <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                    
     
     ]]></bodyText>
-    <pageTitle>Azure Virtual Machine Scale Sets quotation_pricing estimation -  Azure Cloud Computing</pageTitle>
+    <pageTitle>Azure Virtual Machine Scale Sets quotation_pricing estimation - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-virtual-machine-scale-sets</linkid>
     <metaKeywords>Virtual Machine Scale Sets, billing, type of Virtual Machine, Virtual Machine, Azure</metaKeywords>
-    <metaDescription><![CDATA[Virtual Machine Scale Sets allow you to take the same Virtual Machines as a set for easy deployment and management, so as to easily generate highly scalable applications. The Virtual Machine Scale Sets generated on the Azure Resource Manager deployment model are fully integrated with the load balancer and Autoscale, and support Windows, Linux, customized imaging and scaling.]]></metaDescription>
-    <urlDisplayName>Pricing - Virtual Machine Scale Sets
-									</urlDisplayName>
+    <metaDescription><![CDATA[Virtual Machine Scale Sets allow you to take the same Virtual Machines as a set for easy deployment and management, so as to easily generate highly scalable applications. The Virtual Machine Scale Sets generated on the Azure Resource Manager deployment model are fully integrated with Azure Load Balancer and Autoscale, and support Windows, Linux, customized imaging and scaling.]]></metaDescription>
+    <urlDisplayName>Pricing - Virtual Machine Scale Sets</urlDisplayName>
   </TextpageLeftNav>
 </localize>

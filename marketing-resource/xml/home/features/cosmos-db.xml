@@ -10,7 +10,7 @@
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/media,images,production,cosmos-db.png">
                         <h2><span>Azure Cosmos DB</span></h2>
                         <h4>Distributed, multi-model database service.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_cosmos-db_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cosmos-db_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_cosmos-db_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cosmos-db_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -22,7 +22,7 @@
                 <p>Build distributed applications easily without the trouble of the complex configuration of multiple data centers. As a <a id="production-cosmos-db_docs-distribute-data-globally-2" style="color: #00a8d9;" href="//docs.azure.cn/cosmos-db/distribute-data-globally/">distributed database system</a>, Azure Cosmos DB will automatically replicate all your data to any number of regions of your choice for fast, immediate access. Azure Cosmos DB supports transparent multi-homing features and guarantees availability as high as 99.99%.</p>
 				
 				<h2>Multi-model + Multi-API</h2>
-                <p>Only Azure Cosmos DB allows you to use key value, graphic, and document data in one service within the range of multiple data centers, without having to worry about architecture or index management. Azure Cosmos DB automatically indexes all data and allows you to use your favorite APIs (including <a id="production-cosmos-db_docs-documentdb-sql-query" style="color: #00a8d9;" href="//docs.azure.cn/zh-cn/documentdb/documentdb-sql-query/">SQL</a>, <a id="production-cosmos-db_docs-programming" style="color: #00a8d9;" href="//docs.azure.cn/cosmos-db/programming/">JavaScript</a><!--、<a id="production-cosmos-db_docs-graph-introduction" style="color: #00a8d9;" href="//docs.azure.cn/cosmos-db/graph-introduction/">Gremlin</a>-->, MongoDB, and <a id="production-cosmos-db_pricing-storage" style="color: #00a8d9;" href="/pricing/details/storage#tabContent4">Azure Table Storage</a>) to access your data.</p>
+                <p>Only Azure Cosmos DB allows you to use key value, graphic, and document data in one service within the range of multiple data centers, without having to worry about architecture or index management. Azure Cosmos DB automatically indexes all data and allows you to use your favorite APIs (including <a id="production-cosmos-db_docs-documentdb-sql-query" style="color: #00a8d9;" href="//docs.azure.cn/zh-cn/documentdb/documentdb-sql-query/">SQL</a>, <a id="production-cosmos-db_docs-programming" style="color: #00a8d9;" href="//docs.azure.cn/cosmos-db/programming/">JavaScript</a>, and MongoDB) to access your data.</p>
                 
                 <h2>Limitless flexible scaling within the range of multiple data centers</h2>
                 <p>With Azure Cosmos DB, you only pay for the throughput and storage you need. Azure Cosmos DB allows you to independently and <a id="production-cosmos-db_docs-documentdb-partition-data" style="color: #00a8d9;" href="//docs.azure.cn/documentdb/documentdb-partition-data/">flexibly scale storage and throughput</a> at any time, anywhere in each region.</p>
@@ -41,11 +41,11 @@
 				
 				<h2>Distributed critical applications</h2>
                 <p>Guarantee access to users in various regions with the high availability and low latency capabilities built into Azure data centers.</p>
-				<p><a id="production-cosmos-db_use-cases-2" href="//docs.azure.cn/cosmos-db/use-cases/" >Learn more<i class="icon icon-arrow-right-thin"></i></a></p>
+				<p><a id="production-cosmos-db_use-cases-2" href="//docs.azure.cn/cosmos-db/use-cases/" >More<i class="icon icon-arrow-right-thin"></i></a></p>
 				
 				<h2>IoT</h2>
                 <p>Scale instantly and flexibly to accommodate diverse and unpredictable IoT workloads without affecting ingestion or query performance.</p>
-				<p><a id="production-cosmos-db_use-cases-3" href="//docs.azure.cn/cosmos-db/use-cases#iot-and-telematics" >Learn more<i class="icon icon-arrow-right-thin"></i></a></p>
+				<p><a id="production-cosmos-db_use-cases-3" href="//docs.azure.cn/cosmos-db/use-cases#iot-and-telematics" >More<i class="icon icon-arrow-right-thin"></i></a></p>
 				
 				<h2>Personalization</h2>
                 <p>Generate personalized recommendations for customers in real time, using low latency and tunable consistency settings for immediate insights.</p>
