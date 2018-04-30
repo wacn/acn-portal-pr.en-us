@@ -65,7 +65,7 @@
 			.data-center-map{
 				min-height:100%;
 				padding-bottom:20px;
-				height:500px;
+				height:650px;
 			}
 			.data-center-map svg{
 				max-height:350px;
@@ -115,6 +115,30 @@
 				<div class="banner_box swiper-wrapper" id="banner_box">
 					<!--banner-->
 					<div class="banner swiper-slide image-banner" style="" idx="0">
+						<a target="_blank" id="bannerBtn_0_azure-stack" href="/overview/azure-stack/" class="background container" rel="nofollow"> <img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_stack_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									 Official commercial launch of Azure Stack
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Official commercial launch of Azure Stack
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									Extend Azure to your data center<br/>to create genuinely consistent hybrid cloud applications
+
+								</div>
+								<div class="banner-p device-mobile-banner">
+									Extend Azure to your data center<br/>to create genuinely consistent hybrid cloud applications
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>More</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div>
+					<div class="banner swiper-slide image-banner" style="" idx="1">
 						<a target="_blank" id="bannerBtn_0_azure-hdinsight" href="/pricing/details/hdinsight/" class="background container" rel="nofollow"> <img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure-hdinsight-d-drop_slice_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
@@ -139,7 +163,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="1">
+					<div class="banner swiper-slide image-banner" style="" idx="2">
 						<a target="_blank" id="bannerBtn_0_azure-monitor" href="/home/features/monitor/" class="background container" rel="nofollow"> <img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure-monitor_slice_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
@@ -164,8 +188,8 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="2">
-						<a target="_blank" id="bannerBtn_0_the-beauty-and-it" href="/webinars/register/70/" class="background container" rel="nofollow"> <img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_the-beauty-and-it-slice-banner.png">
+					<div class="banner swiper-slide image-banner" style="" idx="3">
+						<a target="_blank" id="bannerBtn_0_the-beauty-and-it" href="/webinars/register/71" class="background container" rel="nofollow"> <img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_the-beauty-and-it-slice-banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
 									Beauty and the IT Beast - open digital transformation course
@@ -188,7 +212,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="3">
+					<div class="banner swiper-slide image-banner" style="" idx="4">
 						<a target="_blank" id="bannerBtn_0_dotnet-application-architecture-ebooks" href="/campaigns/dotnet-application-architecture-ebooks/" class="background container" rel="nofollow"> <img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_dotnet-ebooks-slice-banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
@@ -207,39 +231,531 @@
 								</div>
 								<span class="promo-link">
 									<div class="banner_btn">
-										<span>Download now</span><i class="icon icon-arrow-right"></i>
+										<span>Download</span><i class="icon icon-arrow-right"></i>
 									</div>
 								</span>
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="4">
-						<a target="_blank" id="bannerBtn_0_cognitive-services" href="/pricing/details/cognitive-services/" class="background container" rel="nofollow"> <img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_cognitive-face-api-drop-slice-banner.png">
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="4">
+						<a target="_blank" id="bannerBtn_0_cognitive-services" href="/pricing/details/cognitive-services/" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_cognitive-face-api-drop-slice-banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
-									Price Cut on Azure Cognitive Services Face Recognition API!
+									Azure 认知服务的人脸识别 API 降价啦！
 								</div>
 								<div class="banner-title device-mobile-banner">
-									Price Cut on Azure Face Recognition API!
+									Azure 人脸识别 API 降价啦！
 								</div>
 								<div class="banner-p device-desktop-banner" style="height:80px;">
-									Up to 50% off<br/>
-									No upfront cost or termination fees. Only pay for the features you require.
+									降幅高达 50%<br/>
+									无前期成本，无终止费用，只为所需功能付费
 								</div>
 								<div class="banner-p device-mobile-banner">
-									Up to 50% off<br/>
-									No upfront cost or termination fees. Only pay for the features you require.
+									降幅高达 50%<br/>
+									无前期成本，无终止费用，只为所需功能付费
 								</div>
 								<span class="promo-link">
 									<div class="banner_btn">
-										<span>View Details</span><i class="icon icon-arrow-right"></i>
+										<span>查看详情</span><i class="icon icon-arrow-right"></i>
 									</div>
 								</span>
 							</div>
 						</a>
-					</div>
+					</div> -->
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="4">
+						<a target="_blank" id="bannerBtn_3_api-management" href="/home/features/api-management/" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_api-management_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									API 管理预览版上线
+								</div>
+								<div class="banner-title device-mobile-banner">
+									API 管理预览版上线
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									提供一流的开发人员体验<br/>几分钟内发布、管理、保护和分析 API
+								</div>
+								<div class="banner-p device-mobile-banner">
+									提供一流的开发人员体验<br/>几分钟内发布、管理、保护和分析 API
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>立即查看</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="4">
+						<a target="_blank" id="bannerBtn_0_azure-goglobal" href="//www.microsoft.com/china/azure/" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/promo-minisite-acn_slice_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									 全球版 Azure 重磅来袭！
+								</div>
+								<div class="banner-title device-mobile-banner">
+									全球版 Azure 重磅来袭！
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									予力全球每一组织，每一人<br/>
+									成就不凡
+								</div>
+								<div class="banner-p device-mobile-banner">
+									予力全球每一组织，每一人<br/>
+									成就不凡
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>查看详情</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="4">
+						<a target="_blank" id="bannerBtn_0_azure-hdinsight" href="/pricing/details/hdinsight/" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/hdinsight-price-drop_slice_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									 Azure HDInsight 降价啦
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Azure HDInsight 降价啦
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									降幅高达 52%<br/>
+									以更低的价格获得更多价值
+								</div>
+								<div class="banner-p device-mobile-banner">
+									降幅高达 52%<br/>
+									以更低的价格获得更多价值
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>了解更多</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="4">
+						<a target="_blank" id="bannerBtn_1_azure-network-watcher" href="/home/features/network-watcher/" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_network-watcher_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									 网络观察程序正式发布
+								</div>
+								<div class="banner-title device-mobile-banner">
+									网络观察程序正式发布
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									远程捕获虚拟机的数据包数据<br/>使用流日志和安装组视图监视虚拟机网络安全<br/>诊断 VPN 连接问题
+								</div>
+								<div class="banner-p device-mobile-banner">
+									远程捕获虚拟机的数据包数据<br/>使用流日志和安装组视图监视虚拟机网络安全<br/>诊断 VPN 连接问题
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>了解更多</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->
 					
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="4">
+						<a target="_blank" id="bannerBtn_1_azure-certificate_promotion_slice" href="/campaigns/certificate-promotion/" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_certificate_promotion_slice_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									 Azure MCP 考试限时大优惠
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Azure MCP 考试限时大优惠
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									原价 1800 元，现在仅需 788 元<br/>10 门 Azure 考试任选，1 次考试机会赠送 1 次重考机会
+ 
+
+								</div>
+								<div class="banner-p device-mobile-banner">
+									原价 1800 元，现在仅需 788 元<br/>10 门 Azure 考试任选，1 次考试机会赠送 1 次重考机会 
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>了解更多</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="4">
+						<a target="_blank" id="bannerBtn_1_azure-playbook_acn_slice" href="//docs.azure.cn/zh-cn/articles/azure-china-purchasing-guidance/" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_playbook_acn_slice_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									 Azure 中国购买指南
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Azure 中国购买指南
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									一次掌握端到端的购买流程及指导说明<br/>包罗信息收集、试用、购买、使用管理、支持和答疑， 让您轻松上云！
+ 
+
+								</div>
+								<div class="banner-p device-mobile-banner">
+									一次掌握端到端的购买流程及指导说明<br/>让您轻松上云！ 
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>了解更多</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="4">
+						<a target="_blank" id="bannerBtn_1_azure-account" href="//docs.azure.cn/zh-cn/billing/" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure-account_slice_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									 Azure 账户管理一站搞定
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Azure 账户管理一站搞定
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									完整文档帮你快速了解订阅申请、账户管理、充值付款、帐单解读、发票索取等热搜讯息
+ 
+
+								</div>
+								<div class="banner-p device-mobile-banner">
+									完整文档帮你快速了解订阅申请、账户管理、充值付款、帐单解读、发票索取等热搜讯息
+ 
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>了解更多</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="4">
+						<a target="_blank" id="bannerBtn_1_azure-media-services" href="/pricing/details/media-services/" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/media-service-price-drop_02_slice_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									 Azure 媒体服务降价啦！
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Azure 媒体服务降价啦！
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									使用实时编码的实时频道价格下调<br/>降幅高达 38%
+
+								</div>
+								<div class="banner-p device-mobile-banner">
+									使用实时编码的实时频道价格下调<br/>降幅高达 38%
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>了解更多</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="4">
+						<a target="_blank" id="bannerBtn_2_azure-cdn" href="/pricing/details/cdn" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_cdn-pricedrop_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									 Azure 内容分发网络（CDN）降价啦！
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Azure 内容分发网络（CDN）降价啦！
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									Azure CDN 服务全面降价，降幅高达 17%<br/>参加 1 元试用活动，即享最高 5TB CDN 用量
+
+								</div>
+								<div class="banner-p device-mobile-banner">
+									Azure CDN 服务全面降价，降幅高达 17%<br/>参加 1 元试用活动，即享最高 5TB CDN 用量
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>了解更多</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="4">
+						<a target="_blank" id="bannerBtn_3_analysis-services" href="/home/features/analysis-services/" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_analysis-services_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									Azure 分析服务正式发布
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Azure 分析服务正式发布
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									快速入门，缩放灵活<br/>可简化数据，支持在熟悉环境开发<br/>加快交付时间，随时随地提供安全访问
+								</div>
+								<div class="banner-p device-mobile-banner">
+									快速入门，缩放灵活<br/>可简化数据，支持在熟悉环境开发<br/>加快交付时间，随时随地提供安全访问
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>立即查看</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="4">
+						<a target="_blank" id="bannerBtn_4_azure-stack" href="/azure-stack/" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_stack_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									 Azure Stack 正式发布
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Azure Stack 正式发布
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									将 Azure 延伸到您的数据中心<br/>实现真正一致的混合云平台
+
+								</div>
+								<div class="banner-p device-mobile-banner">
+									将 Azure 延伸到您的数据中心<br/>实现真正一致的混合云平台
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>了解更多</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="4">
+						<a target="_blank" id="bannerBtn_5_azure-cognitive-services" href="/home/features/cognitive-services" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_cognitive-services_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									 认知服务的人脸/计算机视觉 API 正式发布
+								</div>
+								<div class="banner-title device-mobile-banner">
+									认知服务的人脸/计算机视觉 API 正式发布
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									使用智能 API 启用影像、语音、语言和知识<br/>对图像进行智能提取、分类、处理和审查
+
+								</div>
+								<div class="banner-p device-mobile-banner">
+									使用智能 API 启用影像、语音、语言和知识<br/>对图像进行智能提取、分类、处理和审查
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>了解更多</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="0">
+						<a target="_blank" id="bannerBtn_5_ai" href="JavaScript:;" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_ai_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									人工智能零售场景线上直播 · 11 月 9 日
+								</div>
+								<div class="banner-title device-mobile-banner">
+									人工智能零售场景线上直播<br/>11 月 9 日
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									用 AI 实时掌握消费者满意度及客流情况<br/>10 个已落地的人工智能零售场景
+								</div>
+								<div class="banner-p device-mobile-banner">
+									用 AI 实时掌握消费者满意度及客流情况<br/>10 个已落地的人工智能零售场景
+								</div>
+							</div>
+						</a>
+					</div> -->
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="0">
+						<a target="_blank" id="bannerBtn_6_cli" href="https://docs.azure.cn/zh-cn/cli/overview?view=azure-cli-latest" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_cli_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									Azure CLI 2.0 技术文档正式上线
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Azure CLI 2.0 技术文档正式上线
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									结构化的文档体系<br/>全面涵盖入门用例，示例脚本和 CLI Reference
+								</div>
+								<div class="banner-p device-mobile-banner">
+									结构化的文档体系<br/>全面涵盖入门用例，示例脚本和 CLI Reference
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>立即查看</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> 1102-->
+					<!-- <div class="banner swiper-slide image-banner" style="background-color: #066DBA;" idx="0">
+						<a id="bannerBtn_2_share-release" href="JavaScript:;" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_share_banner01.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									云上核心痛点研讨会 · 10 月 24 日 14:00-16:00
+								</div>
+								<div class="banner-title device-mobile-banner">
+									云上核心痛点研讨会 <br/>10 月 24 日 14:00-16:00
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									专为中小型企业量身打造<br/>亚信安全 /Veritas/Citrix 在线为你解决公有云上痛点
+								</div>
+								<div class="banner-p device-mobile-banner">
+									专为中小型企业量身打造<br/>亚信安全 /Veritas/Citrix 在线为你解决公有云上痛点
+								</div>
+								
+							</div>
+						</a>
+					</div> -->
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="0">
+						<a target="_blank" id="bannerBtn_2_java" href="https://docs.azure.cn/zh-cn/java/" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_java_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									面向 Java 开发者的 Azure – 文档中心正式上线
+								</div>
+								<div class="banner-title device-mobile-banner">
+									面向 Java 开发者的 Azure – 文档中心正式上线
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									涵盖从 5 分钟入门到详尽的 API Reference<br/>全面整合 Java 开发文档
+								</div>
+								<div class="banner-p device-mobile-banner">
+									涵盖从 5 分钟入门到详尽的 API Reference<br/>全面整合 Java 开发文档
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>立即查看</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->	
+
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="0">
+						<a target="_blank" id="bannerBtn_5_market" href="https://market.azure.cn/" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_market_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									Azure 市场正式上线
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Azure 市场正式上线
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									数字化转型时代的云生态中心<br/>为 Azure 客户和服务商（ISV）之间搭建的一站式门户<br/>高品质的应用和多样化的解决方案，快速满足您上云的各种需求
+								</div>
+								<div class="banner-p device-mobile-banner">
+									数字化转型时代的云生态中心<br/>Azure 客户和服务商（ISV）之间的一站式门户
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>立即查看</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->
 					
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="0">
+						<a target="_blank" id="bannerBtn_4_vpn" href="/pricing/details/vpn-gateway/" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_vpn_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									新一代 Azure VPN 网关正式上线
+								</div>
+								<div class="banner-title device-mobile-banner">
+									新一代 Azure VPN 网关正式上线
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									带宽和服务级别协议 (SLA) 大幅提升<br/>为您提供高于 6 倍的性能
+								</div>
+								<div class="banner-p device-mobile-banner">
+									带宽和服务级别协议 (SLA) 大幅提升<br/>为您提供高于 6 倍的性能
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>立即查看</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> 10-31-->
+
+					
+					<!-- <div class="banner swiper-slide image-banner" style="" idx="0">
+						<a target="_blank" id="bannerBtn_5_azure-wlw" href="https://www.microsoft.com/china/techsummit/2017/??wt.mc_id=AID642533_Azure" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure-techniqueecology.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									 2017 微软技术暨生态大会 · 10 月 31 日 北京
+								</div>
+								<div class="banner-title device-mobile-banner">
+									2017 微软技术暨生态大会<br/>10 月 31 日 北京
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									学习、分享和协作<br/>进一步构建属于您的云端技能
+
+								</div>
+								<div class="banner-p device-mobile-banner">
+									学习、分享和协作<br/>进一步构建属于您的云端技能
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>立即注册</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->
+					
+					<!-- <div class="banner swiper-slide image-banner" style="background-color:#40c5af;" idx="0">
+						<a target="_blank" id="bannerBtn_5_school-release" href="https://school.azure.cn/" class="background container" rel="nofollow">
+							<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/azure_school_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									Azure School  课程上线，助力上云学习与成长
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Azure School 课程上线
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									场景化快速入门与项目教程<br/> 专家分享与权威解读
+								</div>
+								<div class="banner-p device-mobile-banner">
+									场景化快速入门与项目教程<br/> 专家分享与权威解读
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn light-green">
+										<span>立即查看</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div> -->
 				</div>
 				<div class="swiper-pagination"></div>
 			</div>
@@ -267,7 +783,7 @@
 											alt="">
 							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large" rel="nofollow"><span>Latest posts</span><i class="icon icon-arrow-right"></i></span></div>
 							<span class="link link-sharp-btn blue large device-mobile-banner" rel="nofollow"><span>Azure Updates</span></span>
-							<p>Official release of Azure Monitor</p>
+							<p>Official release of Azure Monitor </p>
 						</a>
 
 					</div>
@@ -366,7 +882,7 @@
 						<div class="col-xs-12 col-sm-12 col-md-4">
 							<a class="solution-promotion" id="homepage-solution_playback" href="/webinars/">
 								<h1>Azure Webinars</h1>
-								<div style="color:#fff;font-size:14px;margin:5px 0 20px;">April 11 Enjoying Pictures With You and Singing for You<br/>- Implant Microsoft AI into your application in 15 minutes</div>
+								<div style="color:#fff;font-size:14px;margin:5px 0 20px;">April 27 - With a 50% increase in translation accuracy, this company’s translation machine relies on AI</div>
 								<span class="link link-sharp-btn blue large"> <span>Sign up now</span> <i class="icon icon-arrow-right"></i> </span> <img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/quick-start-webinar@2x.png" alt="back-up-webinar"> </a>
 						</div>
 					</div>
@@ -388,7 +904,7 @@
 								<div class="home-p larger-line">The only completely trusted<br />Cloud Hadoop products that allow understanding of big data and their use</div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/hdinsight/" id="homepage_services_pricing_hdinsight">0.3981</a><a class="single-link" href="/pricing/details/hdinsight/" id="homepage_services_pricing_hdinsight">/hour</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/hdinsight/" id="homepage_services_pricing_hdinsight">0.3981</a><a class="single-link" href="/pricing/details/hdinsight/" id="homepage_services_pricing_hdinsight">/hour</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 						
@@ -408,7 +924,7 @@
 							<a href="/home/features/ccs/" id="homepage_services_ccs">
 								<h2 class="bigger-header">Cloud Connection Service <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 14px;position: relative;top: -2px;">(Preview)</span></h2>
 								<div class="svg-icon ccs"></div>
-								<div class="home-p">Provide a secure, stable, and predictable dedicated connection with Azure<br/><br/></div>
+								<div class="home-p">Provides a secure, stable, and predictable<br>dedicated connection with Azure</div>
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/pricing/details/ccs/" id="homepage_services1_pricing_ccs"></a> <a class="single-link" href="/pricing/details/ccs/" id="homepage_services_pricing_ccs">Please contact your Account Manager for specific prices</a> <i class="icon icon-arrow-right"></i>
@@ -423,7 +939,7 @@
 								<div class="home-p">Employs operational simplicity and functionality<br />Strengthened REST API machine learning power</div>
 							</a>
 							<div class="links-box">
-								From ￥<a class="home-h2-link" href="/pricing/details/cognitive-services/" id="homepage_services_pricing_cognitive-services">0.75</a><a class="single-link" href="/pricing/details/cognitive-services/" id="homepage_services_pricing_cognitive-services">/1,000 transactions</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/cognitive-services/" id="homepage_services_pricing_cognitive-services">0.75</a><a class="single-link" href="/pricing/details/cognitive-services/" id="homepage_services_pricing_cognitive-services">/1,000 transactions</a> <i class="icon icon-arrow-right"></i>
 							</div>
 							
 						</div>
@@ -436,7 +952,7 @@
 								<div class="home-p">You only need a few minutes to start and be completely on the cloud<br />Control servers and defend your enterprise</div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/virtual-machines/" id="homepage_services_pricing_virutal-machines">0.11</a><a class="single-link" href="/pricing/details/virtual-machines/" id="homepage_services_pricing_virutal-machines">/hour</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/virtual-machines/" id="homepage_services_pricing_virutal-machines">0.11</a><a class="single-link" href="/pricing/details/virtual-machines/" id="homepage_services_pricing_virutal-machines">/hour</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 						<!--VM end-->
@@ -457,7 +973,7 @@
 								<div class="home-p">Highly deployable<br />With limitless scaling of apps and API</div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/cloud-services/" id="homepage_services_pricing_cloud-services">0.11</a><a class="single-link" href="/pricing/details/cloud-services/" id="homepage_services_pricing_cloud-services">/hour</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/cloud-services/" id="homepage_services_pricing_cloud-services">0.11</a><a class="single-link" href="/pricing/details/cloud-services/" id="homepage_services_pricing_cloud-services">/hour</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 						<!--mysql-->
@@ -469,7 +985,7 @@
 								<div class="home-p">Compatible open-source databases can be rapidly deployed<br />Highly reliable, secure, useful, and high quality to cost ratio databases</div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/mysql/" id="homepage_services_pricing_mysql">0.09</a><a class="single-link" href="/pricing/details/mysql/" id="homepage_services_pricing_mysql">/hour</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/mysql/" id="homepage_services_pricing_mysql">0.09</a><a class="single-link" href="/pricing/details/mysql/" id="homepage_services_pricing_mysql">/hour</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 						<!--mysql end--> <!--API Management -->
@@ -480,7 +996,7 @@
 								<div class="home-p">Publish, manage, secure, and analyze your APIs in minutes<br /></div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/api-management/" id="homepage_services_pricing_api-management">0.2511</a><a class="single-link" href="/pricing/details/api-management/" id="homepage_services_pricing_cosmos-db">/hour</a><i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/api-management/" id="homepage_services_pricing_api-management">0.2511</a><a class="single-link" href="/pricing/details/api-management/" id="homepage_services_pricing_cosmos-db">/hour</a><i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 						<!--API Management--> <!--Azure 网络观察程序-->
@@ -502,7 +1018,7 @@
 								<div class="home-p">Secure transfer across devices anywhere<br />Content provides extensible end-to-end media solutions</div>
 							</a>
 							<div class="links-box">
-								From ￥<a class="home-h2-link" href="/pricing/details/media-services/" id="homepage_services_pricing_media-services">0.10</a><a class="single-link" href="/pricing/details/media-services/" id="homepage_services_pricing_media-services">/minute</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/media-services/" id="homepage_services_pricing_media-services">0.10</a><a class="single-link" href="/pricing/details/media-services/" id="homepage_services_pricing_media-services">/minute</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 						<!--media service end--> <!--Azure 分析服务-->
@@ -513,7 +1029,7 @@
 								<div class="home-p">Proven analytics engine<br /><br /></div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/analysis-services/" id="homepage_services_pricing_analysis-services">0.84</a><a class="single-link" href="/pricing/details/analysis-services/" id="homepage_services_pricing_analysis-services">/hour</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/analysis-services/" id="homepage_services_pricing_analysis-services">0.84</a><a class="single-link" href="/pricing/details/analysis-services/" id="homepage_services_pricing_analysis-services">/hour</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 						<!--Azure 分析服务 end--> <!--cdn-->
@@ -524,7 +1040,7 @@
 								<div class="home-p">Content caching over the entire content delivery network in China <br />Node intelligent caching and scheduling, providing a Usenet experience</div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/cdn/" id="homepage_services_pricing_cdn">0.2</a><a class="single-link" href="/pricing/details/cdn/" id="homepage_services_pricing_cdn">/GB</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/cdn/" id="homepage_services_pricing_cdn">0.2</a><a class="single-link" href="/pricing/details/cdn/" id="homepage_services_pricing_cdn">/GB</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 						<!--cdn end--> <!--Cosmos DB-->
@@ -535,7 +1051,7 @@
 								<div class="home-p">Worldwide distributed multi-modal database services<br /><br /></div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/cosmos-db/" id="homepage_services_pricing_cosmos-db">0.082</a><a class="single-link" href="/pricing/details/cosmos-db/" id="homepage_services_pricing_cosmos-db">/hour</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/cosmos-db/" id="homepage_services_pricing_cosmos-db">0.082</a><a class="single-link" href="/pricing/details/cosmos-db/" id="homepage_services_pricing_cosmos-db">/hour</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 						<!--Cosmos DB end--> <!--powerbi embedded-->
@@ -546,7 +1062,7 @@
 								<div class="home-p">Make the data in applications more vivid<br /><br /></div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/power-bi-embedded/" id="homepage_services_pricing_power-bi-embedded">0.19</a><a class="single-link" href="/pricing/details/power-bi-embedded/" id="homepage_services_pricing_power-bi-embedded">/GB</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/power-bi-embedded/" id="homepage_services_pricing_power-bi-embedded">0.19</a><a class="single-link" href="/pricing/details/power-bi-embedded/" id="homepage_services_pricing_power-bi-embedded">/GB</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 						<!--power bi embedded end-->
@@ -641,7 +1157,7 @@
 								<div class="home-p">Can store large amounts of data, locally or remotely<br />Using a SQL Database as an example, can create and arrange syncing of data</div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">1.04</a><a class="single-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">/day</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">1.04</a><a class="single-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">/day</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 
@@ -654,7 +1170,7 @@
 								<div class="home-p">A type of advance key-value storage service<br />Can provide assistance in expanding Azure apps quickly</div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/redis-cache/" id="homepage_services_pricing_redis-cache">0.14</a><a class="single-link" href="/pricing/details/redis-cache/" id="homepage_services_pricing_redis-cache">/hour</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/redis-cache/" id="homepage_services_pricing_redis-cache">0.14</a><a class="single-link" href="/pricing/details/redis-cache/" id="homepage_services_pricing_redis-cache">/hour</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 						
@@ -668,7 +1184,7 @@
 								<div class="home-p">Fully trusted and highly scalable data warehouse services<br /><br /></div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/sql-data-warehouse/" id="homepage_services_pricing_sql-data-warehouse">8.05</a><a class="single-link" href="/pricing/details/sql-data-warehouse/" id="homepage_services_pricing_sql-data-warehouse">/hour</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/sql-data-warehouse/" id="homepage_services_pricing_sql-data-warehouse">8.05</a><a class="single-link" href="/pricing/details/sql-data-warehouse/" id="homepage_services_pricing_sql-data-warehouse">/hour</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 						
@@ -681,7 +1197,7 @@
 								<div class="home-p">Cold and hot data can be exchanged from<br />SQL Server 2016 dynamic stretch to Azure</div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/sql-server-stretch-database/" id="homepage_services_pricing_sql-server-stretch-database">22.51</a><a class="single-link" href="/pricing/details/sql-server-stretch-database/" id="homepage_services_pricing_sql-server-stretch-database">/hour</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/sql-server-stretch-database/" id="homepage_services_pricing_sql-server-stretch-database">22.51</a><a class="single-link" href="/pricing/details/sql-server-stretch-database/" id="homepage_services_pricing_sql-server-stretch-database">/hour</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 						
@@ -696,7 +1212,7 @@
 								<div class="home-p">The event processing engine works fast in real time<br />Development and in-depth understanding of data attributes</div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/stream-analytics/" id="homepage_services_pricing_stream-analytics">0.01</a><a class="single-link" href="/pricing/details/stream-analytics/" id="homepage_services_pricing_stream-analytics">/GB</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/stream-analytics/" id="homepage_services_pricing_stream-analytics">0.01</a><a class="single-link" href="/pricing/details/stream-analytics/" id="homepage_services_pricing_stream-analytics">/GB</a> <i class="icon icon-arrow-right"></i>
 							</div>
 							
 						</div>	
@@ -735,7 +1251,7 @@
 								<div class="home-p">From websites to apps to equipment selection cloud scaling is needed<br />To support telemetry data, each second can contain several million events</div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/event-hubs/" id="homepage_services_pricing_event-hubs">0.1</a><a class="single-link" href="/pricing/details/event-hubs/" id="homepage_services_pricing_event-hubs">/hour</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/event-hubs/" id="homepage_services_pricing_event-hubs">0.1</a><a class="single-link" href="/pricing/details/event-hubs/" id="homepage_services_pricing_event-hubs">/hour</a> <i class="icon icon-arrow-right"></i>
 							</div>
 							
 						</div>	
@@ -768,7 +1284,7 @@
 								<div class="home-p">Provides with Azure fast, reliable link connections<br /><br /></div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/expressroute/" id="homepage_services_pricing_expressroute">253.02</a><a class="single-link" href="/pricing/details/expressroute/" id="homepage_services_pricing_expressroute">/month</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/expressroute/" id="homepage_services_pricing_expressroute">253.02</a><a class="single-link" href="/pricing/details/expressroute/" id="homepage_services_pricing_expressroute">/month</a> <i class="icon icon-arrow-right"></i>
 							</div>
 							
 							
@@ -783,7 +1299,7 @@
 								<div class="home-p">Incoming traffic routing according to area<br />Improves your apps functionality and usability</div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/traffic-manager/" id="homepage_services_pricing_traffic-manager">1.79</a><a class="single-link" href="/pricing/details/traffic-manager/" id="homepage_services_pricing_traffic-manager">/million</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/traffic-manager/" id="homepage_services_pricing_traffic-manager">1.79</a><a class="single-link" href="/pricing/details/traffic-manager/" id="homepage_services_pricing_traffic-manager">/million</a> <i class="icon icon-arrow-right"></i>
 							</div>
 							
 							
@@ -797,7 +1313,7 @@
 								<div class="home-p">Link your infrastructure<br />to the cloud, creating secure cross-border connections<br /></div>
 							</a>
 							<div class="links-box">
-								From ￥<a class="home-h2-link" href="/pricing/details/vpn-gateway/" id="homepage_services_pricing_vpn-gateway">0.25</a><a class="single-link" href="/pricing/details/vpn-gateway/" id="homepage_services_pricing_vpn-gateway">/gateway/hour</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/vpn-gateway/" id="homepage_services_pricing_vpn-gateway">0.25</a><a class="single-link" href="/pricing/details/vpn-gateway/" id="homepage_services_pricing_vpn-gateway">/gateway/hour</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>							
 						
@@ -809,7 +1325,7 @@
 								<div class="home-p">Uses HTTP load leveling<br />and gives control to deliver highly scalable websites</div>
 							</a>
 							<div class="links-box">
-								From ￥<a class="home-h2-link" href="/pricing/details/application-gateway/" id="homepage_services_pricing_application-gateway">0.16</a><a class="single-link" href="/pricing/details/application-gateway/" id="homepage_services_pricing_application-gateway">/gateway/hour</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/application-gateway/" id="homepage_services_pricing_application-gateway">0.16</a><a class="single-link" href="/pricing/details/application-gateway/" id="homepage_services_pricing_application-gateway">/gateway/hour</a> <i class="icon icon-arrow-right"></i>
 							</div>
 													
 						</div>
@@ -822,7 +1338,7 @@
 								<div class="home-p">Keep applications and equipment<br />connected across private cloud and public cloud scenarios</div>
 							</a>
 							<div class="links-box">
-								From ￥<a class="home-h2-link" href="/pricing/details/service-bus/" id="homepage_services_pricing_service-bus">0.05</a><a class="single-link" href="/pricing/details/service-bus/" id="homepage_services_pricing_service-bus">/10,000 messages</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/service-bus/" id="homepage_services_pricing_service-bus">0.05</a><a class="single-link" href="/pricing/details/service-bus/" id="homepage_services_pricing_service-bus">/10,000 messages</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						
 						</div>
@@ -837,7 +1353,7 @@
 								<div class="home-p">Simple, reliable, and economical cloud backup<br /><br /></div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/backup/" id="homepage_services_pricing_backup">31.65</a><a class="single-link" href="/pricing/details/backup/" id="homepage_services_pricing_backup">/instance</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/backup/" id="homepage_services_pricing_backup">31.65</a><a class="single-link" href="/pricing/details/backup/" id="homepage_services_pricing_backup">/instance</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						
 						</div>
@@ -852,7 +1368,7 @@
 								<div class="home-p">Copy from a master data center to an auxiliary website<br />to ensure data management, business continuity, and disaster recovery</div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/site-recovery/" id="homepage_services_pricing_site-recovery">101.27</a><a class="single-link" href="/pricing/details/site-recovery/" id="homepage_services_pricing_site-recovery">/month</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/site-recovery/" id="homepage_services_pricing_site-recovery">101.27</a><a class="single-link" href="/pricing/details/site-recovery/" id="homepage_services_pricing_site-recovery">/month</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						
 						</div>
@@ -924,7 +1440,7 @@
 								<div class="home-p">Protect and control cloud applications<br />and service encryption keys and other secrets</div>
 							</a>
 							<div class="links-box">
-								Starting from ￥<a class="home-h2-link" href="/pricing/details/key-vault/" id="homepage_services_pricing_key-vault">0.20</a><a class="single-link" href="/pricing/details/key-vault/" id="homepage_services_pricing_key-vault">/10,000 operations</a> <i class="icon icon-arrow-right"></i>
+								Starting from RMB<a class="home-h2-link" href="/pricing/details/key-vault/" id="homepage_services_pricing_key-vault">0.20</a><a class="single-link" href="/pricing/details/key-vault/" id="homepage_services_pricing_key-vault">/10,000 operations</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 					</div>
@@ -939,13 +1455,13 @@
 					<h1>Who is using Azure</h1>
 					<div class="row">
 						<div class="col-md-2 col-xs-6">
+							<a href="/partnerancasestudy/case-studies/unionclinic/" id="homepage_case-studies-unionclinic"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/unionclinic@2x.png" /></a>
+						</div>
+						<div class="col-md-2 col-xs-6">
 							<a href="/partnerancasestudy/case-studies/cmschina/" id="homepage_case-studies-cmschina"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/case-zhaoshang@2x.png" /></a>
 						</div>
 						<div class="col-md-2 col-xs-6">
 							<a href="/partnerancasestudy/case-studies/guangmingwang/" id="homepage_case-studies-guangmingwang"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/guangmingwang@2x.png" /></a>
-						</div>
-						<div class="col-md-2 col-xs-6">
-							<a href="/partnerancasestudy/case-studies/hshospital/" id="homepage_case-studies-hshospital"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/huashanyiyuan@2x.png" /></a>
 						</div>
 						<div class="col-md-2 col-xs-6">
 							<a href="/partnerancasestudy/case-studies/qorosqloud/" id="homepage_case-studies-qorosqloud"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/logo_qoros@2x.png" /></a>
@@ -991,9 +1507,9 @@
 						<div class="col-md-4">
 						</div>
 						<div class="col-md-8">
-							<h1>Are you ready to start?</h1>
-							<h6>Apply for a trial use, and immediately experience up to 99.99% Service Level Agreement as financial security</h6>
-							<a href="/pricing/1rmb-trial/" id="haizaiyouyu" class="inner_box-button"><span>Apply for 1RMB Trial</span><i class="icon icon-arrow-right"></i></a>
+							<h1>Ready to get started?</h1>
+							<h6>Sign up for a trial and experience an up to 99.99% Service Level Agreement (SLA) with financial guarantees</h6>
+							<a href="/pricing/1rmb-trial/" id="haizaiyouyu" class="inner_box-button"><span>1RMB Trial</span><i class="icon icon-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>

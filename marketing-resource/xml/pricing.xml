@@ -10,7 +10,7 @@
 		      }
       	}
       	.overview-content .nav_item{
-      	height:280px;
+      	height:310px;
       	}
 	      	
       </style>
@@ -49,7 +49,7 @@
 									</li>
 									
 									<li>
-										<a id="price_overview_cal_cloud-services" href="/pricing/details/cloud-services/" class="single-link"> Cloud services </a>
+										<a id="price_overview_cal_cloud-services" href="/pricing/details/cloud-services/" class="single-link"> Cloud Services </a>
 									</li>
 									
 								</ul>
@@ -60,26 +60,29 @@
 							<div class="nav_item" id="nav_item_pri">
 								<a id="overview_anchor_network" class="anchor"></a>
 								<h2 class="nav_title" >
-									Network
+									Networks
 								</h2>
-								<ul title="Network"  class="low-price">
+								<ul title="Networks"  class="low-price">
 									<li>
-										<a id="pricing_overview_network_virtual-network" href="/pricing/details/virtual-network/" class="single-link">Virtual network</a>
+										<a id="pricing_overview_network_virtual-network" href="/pricing/details/virtual-network/" class="single-link">Virtual Network</a>
 									</li>
 									<li>
 										<a id="pricing_overview_network_load-balancer" href="/pricing/details/load-balancer/" class="single-link">Load Balancer</a>
 									</li>
 									<li>
-										<a id="pricing_overview_network_application-gateway" href="/pricing/details/application-gateway/" class="single-link">App gateway</a>
+										<a id="pricing_overview_network_application-gateway" href="/pricing/details/application-gateway/" class="single-link">Application Gateway</a>
 									</li>
 									<li>
-										<a id="pricing_overview_network_vpn_gateway" href="/pricing/details/vpn-gateway/" class="single-link">VPN network router</a>
+										<a id="pricing_overview_network_vpn_gateway" href="/pricing/details/vpn-gateway/" class="single-link">VPN Gateway</a>
 									</li>
 									<li>
 										<a id="pricing_overview_network_cdn" href="/pricing/details/cdn/" class="single-link">Content Delivery Network</a>
 									</li>
 									<li>
-										<a id="pricing_overview_network_traffic-manager" href="/pricing/details/traffic-manager/" class="single-link">Traffic volume manager</a>
+										<a id="pricing_overview_network_traffic-manager" href="/pricing/details/traffic-manager/" class="single-link">Traffic Manager</a>
+									</li>
+									<li>
+										<a id="pricing_overview_network_ccs" href="/pricing/details/ccs/" class="single-link">Cloud Connection Service</a>
 									</li>
 									<li>
 										<a id="pricing_overview_network_expressroute" href="/pricing/details/expressroute/" class="single-link">ExpressRoute</a>
@@ -91,7 +94,7 @@
 										<a id="pricing_overview_network_ip-addresses" href="/pricing/details/ip-addresses/" class="single-link">IP Address</a>
 									</li>
 									<li>
-										<a id="pricing_overview_network_reserved-network-watcher" href="/pricing/details/network-watcher/" class="single-link">Network Observation Procedures</a>
+										<a id="pricing_overview_network_network-watcher" href="/pricing/details/network-watcher/" class="single-link">Network Watcher</a>
 									</li>
 								</ul>
 							</div>
@@ -153,7 +156,7 @@
 										<a id="pricing_overview_database_mysql" href="/pricing/details/mysql/" class="single-link"> MySQL Database on Azure </a>
 									</li>
 									<li>
-										<a id="pricing_overview_database_sql-data-warehouse" href="/pricing/details/sql-data-warehouse/" class="single-link">SQL data warehouse</a>
+										<a id="pricing_overview_database_sql-data-warehouse" href="/pricing/details/sql-data-warehouse/" class="single-link">SQL Data Warehouse</a>
 									</li>
 									<li>
 										<a id="pricing_overview_database_sql_server_stretch_database" href="/pricing/details/sql-server-stretch-database/" class="single-link"> SQL Server Stretch Database </a>
@@ -222,7 +225,7 @@
 								</h2>
 								<ul title="Internet of Things">
 									<li>
-										<a id="pricing_overview_internet_iot_hub" href="/pricing/details/iot-hub/" class="single-link">Azure IoT Center</a>
+										<a id="pricing_overview_internet_iot_hub" href="/pricing/details/iot-hub/" class="single-link">Azure IoT Hub</a>
 									</li>
 									<li>
 										<a id="pricing_overview_internet_event-hubs" href="/pricing/details/event-hubs/" class="single-link">Event Hubs</a>
@@ -231,7 +234,7 @@
 										<a id="pricing_overview_internet_stream-analytics" href="/pricing/details/stream-analytics/" class="single-link">Stream Analytics</a>
 									</li>
 									<li>
-										<a id="pricing_overview_internet_notification-hubs" href="/pricing/details/notification-hubs/" class="single-link">Notification Center</a>
+										<a id="pricing_overview_internet_notification-hubs" href="/pricing/details/notification-hubs/" class="single-link">Notification Hubs</a>
 									</li>
 								</ul>
 							</div>

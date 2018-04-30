@@ -669,7 +669,7 @@
             <!-- END: TAB-CONTROL -->
             <div class="pricing-page-section">
                 <div class="more-detail">
-                    <h2>FAQs</h2>
+                    <h2>FAQ</h2>
                     <em>Expand all</em>
                     <ul>
                         <li>
@@ -693,7 +693,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="SQL_Database_question3">Example of pricing for an elastic database preset with extra storage capacity</a>
+                                <a id="SQL_Database_question3">Example of pricing for an elastic pool preset with extra storage capacity</a>
                                 <section>
                                     <p>Suppose a 125 eDTU Premium pool is preset with 1TB and that the pool has a storage capacity of 250GB, so its extra storage capacity is 1TB - 250GB = 774GB. During preview, the unit price of extra storage in the Premium pool is about RMB1.0812/GB/month, so the price of extra storage is 774 GB * RMB1.0812/GB/month = RMB836.85/month. Therefore, the total price of the database equals RMB8,835.00/month (eDTU) + RMB836.85/month of extra storage = RMB9,671.85/month.</p>
                                 </section>
@@ -754,7 +754,7 @@
 				<p>We guarantee a connection time between a single or elastic Basic, Standard or Premium Azure SQL Database and our Internet Gateway of not less than a 99.99%.</p>
 				<p>Web and Enterprise Editions (no longer available)</p>
 				<p>We ensure customers will be able to establish a connection between the Web Edition or Enterprise Edition Azure SQL Database and our Internet Gateway at least 99.9% of the time.</p>
-				<p>To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/sql-database/" id="pricing_database_sla">Service Level Agreement</a> page.</p>
+				<p>To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/sql-data/" id="pricing_database_sla">Service Level Agreement</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                    
     
