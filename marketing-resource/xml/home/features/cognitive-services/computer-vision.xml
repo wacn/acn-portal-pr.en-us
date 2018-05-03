@@ -67,8 +67,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,computer-vision.png" />
-                        <h2>Computer Vision API <span>Computer Vision</span></h2>
-                        <h4>Extract enrichment data from images to categorize and handle visual data, inspect images with computer assistance, providing help for curation services.</h4>
+                        <h2>Computer Vision API <span>Computer Vision API</span></h2>
+                        <h4>Extract enrichment data from images to categorize and handle visual data, inspect images with computer assistance, provide help for curation services.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="computer-vision_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="computer-vision_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                     </div>
                     <div class="col-md-9">
                         <h2>Analyze Images</h2>
-                        <p>This feature can find visual object-related information. Using tags, descriptions, and specified domains to identify content and mark it as trustworthy. Installing the “Adult/Indecent” app enables adult content restriction. Recognizes image types and color schemes.</p>
+                        <p>This feature can find visual object-related information using tags, descriptions, and specified domains to identify content and mark it as trustworthy. Installing the “Adult/Indecent” app enables adult content restriction. Recognizes image types and color schemes.</p>
                     </div>
                 </div>
                 <div class="cognitive-figure">
@@ -112,7 +112,7 @@
                     </div>
                     <div class="col-md-9">
                         <h2>Recognize Celebrities and Landmarks</h2>
-                        <p>Celebrity and landmark models are examples of domain-specific models. The celebrity model can recognize 20,000 business, political, sports, and entertainment celebrities. The landmark model can recognize 9,000 natural and man-made objects from around the world. Specific domain models are in the computer image API and performance is continuously being updated.</p>
+                        <p>Celebrity and landmark models are examples of domain-specific models. The celebrity model can recognize 200,000 business, political, sports, and entertainment celebrities. The landmark model can recognize 9,000 natural and man-made objects from around the world. Specific domain models are in the Computer Vision API and performance is continuously being updated.</p>
                     </div>
                 </div>
                 <div class="cognitive-figure">
@@ -121,7 +121,7 @@
                     </div>
                     <div class="col-md-9">
                         <h2>Near Real-Time Video Analysis</h2>
-                        <p>Near real-time video analysis: extracts video frames from a device and sends them to your choice of API using any computer vision API on the video file. It can rapidly get results from video.</p>
+                        <p>Near real-time video analysis: extracts video frames from a device and sends them to your choice of API using any Computer Vision API on the video file. It can rapidly get results from video.</p>
                     </div>
                 </div>
                 <div class="cognitive-figure">
@@ -139,25 +139,25 @@
                     <li>
                         <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,face.png"/></div>
                         <div class="cognitive-text">
-                            <h2>Face Recognition API</h2>
+                            <h2>Face API</h2>
                             <p>Detects relatively similar faces based on similar images grouped together, recognizing previously marked persons in the images.</p>
-                            <p><a id="computer-vision_face" href="/home/features/cognitive-services/face/" class="single-link">Learn more<i class="icon icon-arrow-right-thin"></i></a></p>
+                            <p><a id="computer-vision_face" href="/home/features/cognitive-services/face/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>                    
                     <li>
                         <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,emotion.png"/></div>
                         <div class="cognitive-text">
-                            <h2>Mood Recognition API</h1>
+                            <h2>Emotion API</h1>
                             <p>Analyzes the face to detect emotions and personalizes the application’s response.</p>
-                            <p><a id="computer-vision_emotion" href="/home/features/cognitive-services/emotion/" class="single-link">Learn more<i class="icon icon-arrow-right-thin"></i></a></p>
+                            <p><a id="computer-vision_emotion" href="/home/features/cognitive-services/emotion/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>
                     <li>
                         <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,computer-vision.png"/></div>
                         <div class="cognitive-text">
                            <h2>Computer Vision API</h2>
-                        <p>Extract enrichment data from images to categorize and handle visual data, inspect images with computer assistance, providing help for curation services.</p>
-                        <p><a id="computer-vision_computer-vision" href="/home/features/cognitive-services/computer-vision/" class="single-link">Learn more<i class="icon icon-arrow-right-thin"></i></a></p>
+                        <p>Extract enrichment data from images to categorize and handle visual data, inspect images with computer assistance, provide help for curation services.</p>
+                        <p><a id="computer-vision_computer-vision" href="/home/features/cognitive-services/computer-vision/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>
                 </ul>
@@ -167,11 +167,11 @@
                           
     
     ]]></bodyText>
-    <pageTitle>Computer Vision API_Intelligent Apps - Azure Cloud Computing</pageTitle>
+    <pageTitle>Computer Vision API_Intelligent Apps – Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-cognitive-services-computer-vision</linkid>
-    <metaKeywords>Azure, Cognitive Services, Computer Vision</metaKeywords>
-    <metaDescription><![CDATA[Extract rich information from images to classify and process visual data, and it also protects your users from harmful content.]]></metaDescription>
-    <urlDisplayName>Cognitive Services - Computer Vision API</urlDisplayName>
+    <metaKeywords>Azure, Cognitive Services, Cognitive Services, Computer Vision</metaKeywords>
+    <metaDescription><![CDATA[Computer Vision API extracts rich information from images to classify and process visual data, and also protects your users from harmful content.]]></metaDescription>
+    <urlDisplayName>Cognitive Services – Computer Vision API</urlDisplayName>
   </TextpageLeftNav>
 </localize>

@@ -117,8 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ACITVATION_CODE_DB_ERROR_MSG" xml:space="preserve">
+    <value>Database error!</value>
+  </data>
+  <data name="ACITVATION_CODE_ERROR_MSG" xml:space="preserve">
+    <value>Activation code error!</value>
+  </data>
+  <data name="ACITVATION_CODE_FORMAT_ERROR_MSG" xml:space="preserve">
+    <value>Activation code format error!</value>
+  </data>
+  <data name="ACTIVATION_CODE_ENTER_LABEL" xml:space="preserve">
+    <value>Please enter the activation code:</value>
+  </data>
+  <data name="ACTIVATION_CODE_LABEL" xml:space="preserve">
+    <value>Activation code</value>
+  </data>
+  <data name="ACTIVATION_CODE_SUBMIT_LABEL" xml:space="preserve">
+    <value>Submit</value>
+  </data>
   <data name="AZURE_SUPPORT_LABEL" xml:space="preserve">
-    <value>Azure support</value>
+    <value>Azure Support</value>
   </data>
   <data name="BUY_PIA_LABEL" xml:space="preserve">
     <value>Standard Pay-in-Advance purchase</value>
@@ -153,8 +171,11 @@
   <data name="LOGIN_IBIZA_LABEL" xml:space="preserve">
     <value>Sign in to Azure portal</value>
   </data>
+  <data name="MUST_ENTER_ACTIVATION_CODE_MSG" xml:space="preserve">
+    <value>Please enter an activation code!</value>
+  </data>
   <data name="OTHER_REGION_LABEL" xml:space="preserve">
-    <value>Visit global version of Azure website</value>
+    <value>Global Azure</value>
   </data>
   <data name="PIA_PAGE_META_DESC" xml:space="preserve">
     <value>Azure Pay-in-Advance product purchase application form | Azure</value>
