@@ -14,7 +14,7 @@
 							<a href="#" id="service-fabric_year_2018-march_azure-site-recovery"><span>March 20 </span>Before March 31, 2018, please update Azure Site Recovery, which uses Access Control authentication<i class="icon icon-update"></i></a>
 							<section>
 								<p>Azure Site Recovery helps to coordinate replication and protects running workloads. Access Control authentication services used by older versions of the Site Recovery Provider (also known as DRA) and Recovery Service (also known as MARS) agents are about to be retired. To avoid interruptions, please update these older versions before March 31, 2018.</p>
-								<p>Earlier versions of DRA agents (before 5.1.2700) and MARS agents (before 2.0.9096) rely on access control service capabilities for authentication, but this service plan will be completely retired in April 2018. Newer versions of DRA agents (5.1.2700 or later) and MARS agents (2.0.9096 or later) use the latest Azure Active Directory authentication mechanism, which includes role-based control and finer access capabilities. Users who are still using DRA versions before 5.1.2700 and/or MARS agents before 2.0.9096 and replicating servers to one or more recovery service vaults are requested to update your old version to continue using the Site Recovery service and its upcoming features. If you have already performed these updates, no additional action is required. The new version relies on Azure Active Directory instead of access control.</p>
+								<p>Earlier versions of DRA agents (before 5.1.2700) and MARS agents (before 2.0.9096) rely on access control service capabilities for authentication, but this service plan will be completely retired in April 2018. Newer versions of DRA agents (5.1.2700 or later) and MARS agents (2.0.9096 or later) use the latest Azure Active Directory authentication mechanism, which includes role-based control and finer access capabilities. Users who are still using DRA versions before 5.1.2700 and/or MARS agents before 2.0.9096 and replicating servers to one or more recovery service vaults are requested to update your old version to continue using the Site Recovery Service and its upcoming features. If you have already performed these updates, no additional action is required. The new version relies on Azure Active Directory instead of Access Control.</p>
 								<p>We recommend that you update DRA instances to version 5.1.2700 or later and MARS agents to version 2.0.9096 or later before March 31, 2018. Please complete all updates by this date to prevent the failure of replication and failover configurations in Azure Site Recovery.</p>
 								<p>You can perform updates on the Azure portal:</p>
 								<ol>
@@ -40,9 +40,9 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-jan_cpu"><span>1/6</span>Protecting Azure’s Clients from the Threat of CPU Security Vulnerabilities<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-jan_cpu"><span>January 6</span>Protecting Azure’s Clients from the Threat of CPU Security Vulnerabilities<i class="icon icon-update"></i></a>
 							<section>
-								<p>An update to repair a CPU hardware-based security vulnerability of extensive impact that has been completely deployed in all regions across China. The Azure infrastructure has been updated on the virtualization engine level this time. We advise you to continue to use best security practices when it comes to virtual machine imaging. Maintaining the security of our users is always our primary mission. Thank you very much for your understanding and cooperation during this update!</p>
+								<p>An update to repair a CPU hardware-based security vulnerability of extensive impact that has been completely deployed in all regions across China. The Azure infrastructure has been updated on the virtualization engine level this time. We advise you to continue to use best security practices when it comes to Virtual Machine imaging. Maintaining the security of our users is always our primary mission. Thank you very much for your understanding and cooperation during this update!</p>
 								<p>For more information, please visit <a href="/blog/2018/01/04/Securing-Azure-customers-from-CPU-vulnerability" id="what-is-new-2018-1-4_blog-Securing-Azure-customers-from-CPU-vulnerability">Azure’s blog articles</a>.</p>
 							</section>
 						</div>
@@ -109,6 +109,21 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
+							<a href="#" id="service-fabric_year_2018-april_iot-hub"><span>April 27 </span>Notice on price reductions for Standard version of Azure IoT Hub<i class="icon icon-update"></i></a>
+							<section>
+
+								<p>There are four editions of Azure IoT Hub: Free, S1, S2, and S3.</p>
+								<p>Free Edition: free trial of Azure IoT Hub services. Upon sign up, you can transmit up to 8,000 messages per day. It is suitable for understanding and testing features of IoT Hub Services.</p>
+								<p>S1 Edition: the IoT Hub S1 edition is designed for IoT solutions that generate relatively small amounts of data. Each pricing unit of the S1 Edition allows you to transfer up to 400,000 million messages per day across all connected devices.</p>
+								<p>S2 Edition: the IoT Hub S2 Edition is designed for IoT solutions that generate relatively large amounts of data. Each pricing unit of the S2 Edition allows you to transfer up to 6 million messages per day across all connected devices.</p>
+								<p>S3 Edition: The IoT Hub S3 Edition is designed for IoT solutions that generate extra large amounts of data. Each S3 Edition pricing unit allows you to transfer up to 300 million messages per day across all connected devices.</p>
+								<p>We have now reduced the prices of the S1, S2, and S3 Editions by as much as 35%. For more information about these services and their pricing, please visit the <a href="/home/features/iot-hub/" id="service-fabric_year_2018-April_feature-iot-hub">IoT Hub Service Features</a> page and the <a href="/pricing/details/iot-hub/" id="service-fabric_year_2018-April_pricing-iot-hub">IoT Hub Pricing Details</a> page.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
 							<a href="#" id="service-fabric_year_2018-april_monitor"><span>April 4</span> Official release of Azure Monitor<i class="icon icon-update"></i></a>
 							<section>
 								<p>We are very happy to announce that Azure Monitor has now been officially released in China.</p>
@@ -135,7 +150,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-april_ccs"><span>April 2</span> Official release of Cloud Connection Service preview version <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-april_ccs"><span>April 2 </span>Official release of Cloud Connection Service preview version</a>
 							<section>
 								<p>Customers can use the physical line and network support provided by Cloud Connection Service to easily connect to local data centers and Azure data centers, and deploy flexible, reliable, and secure hybrid cloud scenarios to meet different business needs, including business continuity, disaster recovery, and key business support. For more information about this service and its pricing, please visit the <a href="/home/features/ccs/" id="service-fabric_year_2018-March_feature-ccs">Cloud Connection Service Features</a> page and the <a href="/pricing/details/ccs/" id="service-fabric_year_2018-March_pricing-ccs">Cloud Connection Service Pricing Details</a> page. For more details, please refer to the <a href="//docs.azure.cn/zh-cn/articles/cloud-connection-service/cloud-connection-service-quick-start/">Cloud Connection Service Introduction</a> documentation page.</p>
 							</section>
@@ -160,11 +175,11 @@
 							<section>
 								<p>We are very happy to announce that Azure Service Health (ASH) has been officially released in China. This is a personalized dashboard that provides guidance and support when issues are encountered during Azure services. In contrast to service dashboards that provide basic status information, ASH can provide tailored information for your resources. It can also help you to make planned maintenance preparations and other changes to prevent the availability of your resources from being affected. In the personalized ASH dashboard, you can see:</p>
 									<ul style="list-style:none;">
-										<li>Service issues - existing issues affecting resources in Azure services.</li>
-										<li>Maintenance plans - Maintenance activities that will affect resources in Azure soon.</li>
-										<li>Health advisories - Reports and operational recommendations for downtime, stopping Azure functions, and excess quota.</li>
-										<li>Health history - Various historical issues that have affected the operation of resources. This includes post mortems after the issues are resolved.</li>
-										<li>Health alerts - Proactive notifications on service health.</li>
+										<li>Service issues – existing issues affecting resources in Azure services.</li>
+										<li>Maintenance plans – Maintenance activities that will affect resources in Azure soon.</li>
+										<li>Health advisories – Reports and operational recommendations for downtime, stopping Azure functions, and excess quota.</li>
+										<li>Health history – Various historical issues that have affected the operation of resources. This includes post mortems after the issues are resolved.</li>
+										<li>Health alerts – Proactive notifications on Service Health.</li>
 									</ul>
 									<p>For more information, please see the <a href="/features/service-health/">Azure Service Health</a> page and the <a href="//docs.azure.cn/zh-cn/service-health/">Technical Documentation</a> page.</p>
 							</section>
@@ -232,8 +247,8 @@
 						<div>
 							<a href="#" id="service-fabric_year_2018-feb_vm"><span>February 1</span> Official release of new Azure SQL Server mirroring</a>
 							<section>
-								<p>SQL Server 2017 is the first release of SQL Server available on Linux (excluding Windows). You can now run SQL Server on the Azure Virtual Machine of available releases of Ubuntu Linux in your region. This mirroring applies to stand-alone instances, including all versions available to SQL Server: Developer Edition, Express Edition, Web Edition, Standard Edition and Enterprise Edition.</p>
-								<p>Please refer to <a href="//docs.microsoft.com/zh-cn/azure/virtual-machines/linux/sql/provision-sql-server-linux-virtual-machine" id="service-fabric_year_2018-feb_provision-sql-server-linux-virtual-machine">Linux-based SQL Server VM</a> or <a href="//docs.azure.cn/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision/" id="service-fabric_year_2018-feb_virtual-machines-windows-portal-sql-server-provision">Windows-based SQL Server VM</a> to get started quickly. Please implement the following operations to configure an SQL Server applicable to your scenario:</p>
+								<p>SQL Server 2017 is the first release of SQL Server available on Linux (excluding Windows). You can now run SQL Server on the Azure Virtual Machines of available releases of Ubuntu Linux in your region. This mirroring applies to stand-alone instances, including all versions available to SQL Server: Developer Edition, Express Edition, Web Edition, Standard Edition and Enterprise Edition.</p>
+								<p>Please refer to <a href="//docs.microsoft.com/zh-cn/azure/virtual-machines/linux/sql/provision-sql-server-linux-virtual-machine" id="service-fabric_year_2018-feb_provision-sql-server-linux-virtual-machine">Linux-based SQL Server VM</a> or <a href="//docs.azure.cn/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision/" id="service-fabric_year_2018-feb_virtual-machines-windows-portal-sql-server-provision">Windows-based SQL Server VM</a> to get started quickly. Please implement the following operations to configure a SQL Server Virtual Machine applicable to your scenario:</p>
 								<ul>
 									<li>Select a platform — Windows Server or Linux;</li>
 									<li>Select an edition, including the Developer Edition applicable to development and testing scenarios and Express Edition applicable to lightweight workloads;</li>
@@ -246,7 +261,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-feb_HDInsigh"><span>2/1</span>Price Reduction Notice for HDInsight Linux Cluster</a>
+							<a href="#" id="service-fabric_year_2018-feb_HDInsigh"><span>February 1</span>Price Reduction Notice for HDInsight Linux Cluster</a>
 							<section>
 								<p>Azure HDInsight offers Apache Hadoop, Spark, HBase and Storm clusters which are fully administered and supported. HDInsight provides you with the following features:</p>
 								<ul>
@@ -261,7 +276,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-jan_apim"><span>2/1</span>Azure API Management Public Preview Version Will Be Released Soon</a>
+							<a href="#" id="service-fabric_year_2018-jan_apim"><span>February 1</span>Azure API Management Public Preview Version Will Be Released Soon</a>
 							<section>
 								<p>We will release the public preview version of Azure API Management on March 1, 2018. Azure API Management is a suite of full life-cycle solutions released to both external and internal clients. The clients will use API Management to rapidly create a consistent, modern API gateway for existing back-end services hosted in any location, helping clients prevent abuse and overuse, as well as gain an in-depth understanding of usage and operations.</p>
 								<p>The major application scenarios of Azure API Management include:</p>
@@ -286,11 +301,11 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-jan_network-watcher"><span>1/31</span>Azure Network Watcher Officially Released</a>
+							<a href="#" id="service-fabric_year_2018-jan_network-watcher"><span>January 31</span>Azure Network Watcher Officially Released</a>
 							<section>
 								<p>Monitoring and diagnosis of your cloud Azure network can be simplified by the application of Azure network monitoring programs (Network Watcher). By using the diagnostics and visualization tools in the Network Watcher, you can:</p>
 								<ul>
-									<li>Capture remote data packets in the virtual machines;</li>
+									<li>Capture remote data packets in the Virtual Machines;</li>
 									<li>Use a traffic log to learn about network traffic;</li>
 									<li>Carry out diagnosis on the Azure VPN gateway and connection.</li>
 								</ul>
@@ -319,9 +334,9 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-jan_vm"><span>1/15</span>Notice about R Server Virtual Machines Being Renamed as the Machine Learning Server</a>
+							<a href="#" id="service-fabric_year_2018-jan_vm"><span>January 15</span>Notice about R Server Virtual Machines Being Renamed as the Machine Learning Server</a>
 							<section>
-								<p>R Server is an enterprise-level server to host and manage the parallel and distributed work load of the R process in servers (Linux and Windows) and clusters (Hadoop and Apache Spark). It provides solutions structured by using R software with execution engines, expands open-source R, supports high-performance analysis, statistical analysis, machine learning scenarios and large-scale data sets. </p>
+								<p>R Server is an enterprise-level server to host and manage the parallel and distributed work load of the R process in servers (Linux and Windows) and clusters (Hadoop and Apache Spark). It provides solutions structured by using R software with execution engines, expands open-source R, supports high-performance analysis, statistical analysis, machine learning scenarios, and large-scale data sets. </p>
 								<p>This renaming is reflected in the fact that Python is a new advanced analysis language. R Server virtual machines in the existing Azure can be used continuously within a limited period of time. If you obtained your R Server virtual machine through the Azure website, you can continue to visit existing R Server products. As it is only a name change at this time, using the existing application developed for the R Server in the Machine Learning Server will cause no problems. In addition, you will benefit from the Python language.</p>
 							</section>
 						</div>
@@ -329,7 +344,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-jan_portal"><span>1/8</span>Notice of Discontinuation of the Azure Classic portal</a>
+							<a href="#" id="service-fabric_year_2018-jan_portal"><span>January 8</span>Notice of Discontinuation of the Azure Classic portal</a>
 							<section>
 								<p>We have added more functions on a continual basis to <a href="https://portal.azure.cn/" id="what-is-new-2018-1-9_portal">Azure portal</a> ever since its launch. We are also gradually carrying out a service transition from <a href="https://portal.azure.cn/"id="what-is-new-2018-1-9_manage-windowsazure">Azure Classic portal</a> to this portal. Azure portal is currently the core of all Azure services, providing a broad range of management experiences and functions, including the instrument panel for fixed resources, intelligent search to search for resources, Cloud Shell and Azure Resource Manager to achieve automation as well as a labelling function for resource management.</p>
 								<p>We will shut down Azure Classic portal on January 8, 2018 to provide users of Azure portal with single and simplified experience. The existing users of Azure Classic portal do not need to perform any operations. We will provide you with all services and resources in the Azure portal. </p>
@@ -342,16 +357,16 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-dec_mysql"><span>12/31</span>End of MP1 and MP2 Example Sales Promotion for the MySQL Database on Azure Service</a>
+							<a href="#" id="service-fabric_year_2017-dec_mysql"><span>December 31</span>End of MP1 and MP2 Example Sales Promotion for the MySQL Database on Azure Service</a>
 							<section>
-								<p>The 50% off MP1 and MP2 example promotion from MySQL Database on Azure service will come to an end immediately. Starting on January 1, 2018, the price of MP1 will go back to RMB7.64/hour (RMB5,684.16/month), while the price of MP2 will return to RMB12.02/hour (RMB8,942.88/month). For detailed information on pricing, please visit the <a href="/pricing/details/mysql/" id="what-is-new-12-31_mysql-pricing">Detailed Pricing of MySQL Database on Azure</a> web page.</p>
+								<p>The 50% off MP1 and MP2 example promotion from MySQL Database on Azure service will come to an end immediately. Starting on January 1, 2018, the price of MP1 will go back to ¥ 7.64/hour (¥ 5,684.16/month), while the price of MP2 will return to ¥ 12.02/hour (¥ 8,942.88/month). For detailed information on pricing, please visit the <a href="/pricing/details/mysql/" id="what-is-new-12-31_mysql-pricing">Detailed Pricing of MySQL Database on Azure</a> web page.</p>
 							</section>
 						</div>
 					</li>
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-dec_media-services"><span>12/19</span>Azure Media Service’s “Real-time Channel Using Real-time Coding” Price Cut!</a>
+							<a href="#" id="service-fabric_year_2017-dec_media-services"><span>December 19</span>Azure Media Services’ “Real-time Channel Using Real-time Coding” Price Cut!</a>
 							<section>
 								<p>Azure Media Services’ real-time channel provides audiences with a streaming content transmission using 2 types of nearly real-time methods: an unencoded real-time channel and a real-time channel using real-time coding. All real-time channel types will charge users based on the running-state time of channels instead of charging on data transferred and processed. With the help of this service, you can quickly deploy a real-time coding channel within a few seconds. All mainstream formats (HLS, MPEG - DASH and Smooth Streaming) and top DRM content protection systems (PlayReady, Widevine and Apple Fairplay) are supported. The price of a standard real-time coding channel is now up to 38% off, valid for settlement cycles starting on and after December 19, 2017.</p>
 								<p>To learn more about this service and pricing, please visit the <a href="/home/features/media-services/" id="what-is-new-12-19_features-media-services">Media Services Functions</a> and <a href="/pricing/details/media-services/" id="what-is-new-12-19_pricing-media-services">Detailed Price of Media Services</a> web pages.</p>
@@ -361,7 +376,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-dec_iot-suite"><span>12/18</span>Azure IoT Suite Upgraded Remote Monitoring Solution Officially Released</a>
+							<a href="#" id="service-fabric_year_2017-dec_iot-suite"><span>December 18</span>Azure IoT Suite Upgraded Remote Monitoring Solution Officially Released</a>
 							<section>
 								<p>We are very pleased to announce today that the upgraded remote monitoring solution Azure IoT Suite has been officially released. This solution accelerator is offered in .NET and Java in an open-source format. It has a whole new interface. It is structured for scalability and size.</p>
 								<p>The updated remote monitoring pre-configuration solution adopts the optimum functions in existing pre-configuration solutions, including a direct deployment into subscription function taking place within minutes, open-source availability and comprehensive functionality from equipment to business applications.</p>
@@ -374,12 +389,12 @@
 						<div>
 							<a href="#" id="service-fabric_year_2017-dec_MySQL"><span>December 1</span>The MySQL Database on Azure Services example sales promotion of MP1 and MP2 will come to an end soon. The non-public preview plan for Azure Database for MySQL and PostgreSQL is going forward in an orderly manner</a>
 							<section>
-								<p>The 50% off example promotion of MP1 and MP2 from MySQL Database on Azure service will come to an end on December 31, 2017. Starting January 1, 2018, the price of MP1 will go back to RMB7.64/hour (RMB5,684.16/month), while the price of MP2 will return to RMB12.02/hour (RMB8,942.88/month). For detailed information on pricing, please visit the <a href="/pricing/details/mysql/" id="what-is-new-12-01_mysql-pricing">Detailed Prices on MySQL Database on Azure</a> web page.</p>
+								<p>The 50% off example promotion of MP1 and MP2 from MySQL Database on Azure service will come to an end on December 31, 2017. Starting January 1, 2018, the price of MP1 will go back to ¥ 7.64/hour (¥ 5,684.16/month), while the price of MP2 will return to ¥ 12.02/hour (¥ 8,942.88/month). For detailed information on pricing, please visit the <a href="/pricing/details/mysql/" id="what-is-new-12-01_mysql-pricing">Detailed Prices on MySQL Database on Azure</a> web page.</p>
 								<p>In addition, the Azure Database for MySQL and PostgreSQL service which is on global public preview will soon embark into China. The new-generation Azure open-source relationship database service possesses the following new features:</p>
 								<ul>
 									<li>High availability service guarantee for 99.99% single examples (SLA)</li>
 									<li>Obtain corresponding IOPS performance scalability by changing the size of memory</li>
-									<li>It adopts the same architecture and service model as Azure services operated abroad by Microsoft. Although it cannot be directly connected with Microsoft’s foreign Azure data center, it is more beneficial for the client’s execution of the seamless transition of 21VIANET’s Azure and Microsoft’s foreign Azure.</li>
+									<li>It adopts the same architecture and service model as Azure services operated abroad by Microsoft. Although it cannot be directly connected with Microsoft’s foreign Azure data center, it is more beneficial for the client’s execution of the seamless transition of 21Vianet’s Azure and Microsoft’s foreign Azure.</li>
 									<li>PostgreSQL database service support</li>
 								</ul>
 								<p>We sincerely invite MP1 and MP2 users to participate in the free non-public preview. The service team can create free examples in the non-public preview of Azure Database for MySQL for the existing MP users’ database examples. They can be configured as general read-write main base or readable backup subordinate base examples for existing MP examples. During the non-public preview, the use of transited or newly created examples in services will be free. For specific details, please contact your sales representative and product manager from the product services team.</p>
@@ -393,11 +408,11 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-nov_event-hubs"><span>11/30</span>New Azure Event Hubs Pricing Layer Officially Released</a>
+							<a href="#" id="service-fabric_year_2017-nov_event-hubs"><span>November 30</span>New Azure Event Hubs Pricing Layer Officially Released</a>
 							<section>
 								<p>We have provided Azure Event Hubs with a new pricing layer—dedicated event hubs. This pricing layer will introduce a fixed price based on an hourly rate. It is offered to all clients.</p>
 								<p>Azure Event Hubs is an introductory service for super-large scale remote monitoring which can collect, convert and store millions of events. It is a fully hosted service, thus you can focus on capturing values from remote monitoring instead of data collection.</p>
-								<p>Dedicated event hubs can provide single-tenant deployment for the most demanding clients. The major advantages of this service include:</p>
+								<p>Dedicated Event Hubs can provide single-tenant deployment for the most demanding clients. The major advantages of this service include:</p>
 								<ul>
 									<li>Supports messages up to 1 MB</li>
 									<li>Guarantees that the capacity meets peak demand</li>
@@ -405,7 +420,7 @@
 									<li>Single stream can support real-time pipeline and batch-based pipeline by using the Event Hubs capture function.</li>
 								</ul>
 								<p>These enhanced functions bring more value to price per capacity unit and enable you to pay for more flexible capacity use. For detailed information on pricing, please visit the <a href="/pricing/details/event-hubs/" id="what-is-new-11-30_event-hubs">Detailed Pricing of Event Hubs</a> web page.</p>
-								<p>If you have any questions, please click <a href="/support/support-azure/" id="what-is-new-11-30_support">here</a> to create online work orders, or call the 21VIANET technical support hotline at 400-089-0365 to receive Azure support.</p>
+								<p>If you have any questions, please click <a href="/support/support-azure/" id="what-is-new-11-30_support">here</a> to create online work orders, or call the 21Vianet technical support hotline at 400-089-0365 to receive Azure support.</p>
 								
 							</section>
 						</div>
@@ -413,9 +428,9 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-nov_storage"><span>11/24</span>Azure Host Disk P15 Now Officially Released</a>
+							<a href="#" id="service-fabric_year_2017-nov_storage"><span>November 24</span>Azure Managed Disks P15 Now Officially Released</a>
 							<section>
-								<p>Azure host disk is used in Azure virtual machines to realize the recommended disk memory products through permanent data storage. Host disk provides secure disk storage and simplified management as well as industry-leading durability and availability. The P15 disk is an advanced 256 GB host disk, providing a speed of 1,100 input/output operations (IOPS)/disk/second and a throughput of 125 MB/second. For more information about this service and its pricing, please visit the <a href="/home/features/storage/" id="what-is-new-11-24_storage-features">Storage Service Function</a> and <a href="/pricing/details/storage/"  id="what-is-new-11-24_storage-pricing">Host Disk Detailed Pricing</a> web pages.</p>
+								<p>Azure Managed Disks is used in Azure virtual machines to realize the recommended disk memory products through permanent data storage. Managed disks provides secure disk storage and simplified management as well as industry-leading durability and availability. The P15 disk is an advanced 256 GB managed disk, providing a speed of 1,100 input/output operations (IOPS)/disk/second and a throughput of 125 MB/second. For more information about this service and its pricing, please visit the <a href="/home/features/storage/" id="what-is-new-11-24_storage-features">Storage Service Function</a> and <a href="/pricing/details/storage/"  id="what-is-new-11-24_storage-pricing">Managed Disks Detailed Pricing</a> web pages.</p>
 								
 							</section>
 						</div>
@@ -423,7 +438,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-nov_cdn"><span>11/02</span>Azure Content Delivery Network (CDN) Price Cut!</a>
+							<a href="#" id="service-fabric_year_2017-nov_cdn"><span>November 2</span>Azure Content Delivery Network (CDN) Price Cut!</a>
 							<section>
 								<p>Azure Content Delivery Network (CDN) offers a discount of up to 17%. It provides enterprises with a faster, smoother client experience, helps you structure applications with high scalability and high response speed while reducing investment cost. For detailed pricing information, please visit the <a href="/pricing/details/cdn/">CDN Services Detailed Pricing</a> web page.</p>
 								
@@ -433,10 +448,10 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-Nov_analysis"><span>11/01</span>Azure Analysis Services Officially Released</a>
+							<a href="#" id="service-fabric_year_2017-Nov_analysis"><span>November 1</span>Azure Analysis Services Officially Released</a>
 							<section>
 								<p>Azure Analysis Services can convert complex data into operable insights. Azure Analysis Services is based on the verified analysis engines from Microsoft SQL Server 2016 analysis services. It can provide enterprise-level data modeling according to the size and advantages of the cloud. In addition, your team can capture more benefits from existing investments by using current technology, tools and data.</p>
-								<p>You can use Azure Analysis Services to:</p>
+								<p> You can use Azure Analysis Services to:</p>
 								<ul>
 									<li style="list-type-style:disc;">Simulate and structure any data of any size;</li>
 									<li style="list-type-style:disc;">Quick start-up without any need for management infrastructure;</li>
@@ -455,7 +470,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-October_apim"><span>10/31</span>Cognitive Services: Computer Vision API and Face API Officially Released</a>
+							<a href="#" id="service-fabric_year_2017-October_apim"><span>October 31</span>Cognitive Services: Computer Vision API and Face API Officially Released</a>
 							<section>
 								<p>Computer Vision API &amp; Face API have been officially launched in Azure portal. Cognitive Services is a set of APIs that have been developed over several decades to allow developers to build intelligent applications by mining high-quality visual, speech, language, and search technologies. For more information about this product, please visit the <a href="/home/features/cognitive-services/face/">Face API</a> and <a href="/home/features/cognitive-services/computer-vision/">Computer Vision API</a> web pages. For detailed information on pricing, please visit the <a href="/pricing/details/cognitive-services/">Cognitive Services Pricing</a> web page. For more documentation information, please visit the <a href="https://docs.azure.cn/zh-cn/cognitive-services/face/">Face API Documentation</a> and <a href="https://docs.azure.cn/zh-cn/cognitive-services/computer-vision/">Computer Vision Documentation</a> web pages.</p>
 								
@@ -465,7 +480,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-september_apim"><span>10/20</span>New Azure Virtual Machine Models Officially Released</a>
+							<a href="#" id="service-fabric_year_2017-september_apim"><span>October 20</span>New Azure Virtual Machine Models Officially Released</a>
 							<section>
 								<p>The DS13-2_v2, DS13-4_v2, DS14-4_v2, and DS14-8_v2 Azure Virtual Machines DS series have been officially released. It limits the number of vCPU to half or one quarter of the original number of Virtual Machine while maintaining the same memory, storage and I/O bandwidth. The new range limits the number of vCPU and reduces the cost of software licensing compared with previous series, thus increasing its cost effectiveness. For more details, please visit the <a href="/blog/2017/10/20/virtual-machine-newrelease" id="service-fabric_year_2017-October_VM-blog">New Models of Azure Virtual Machine Released — More Cost-effective Database Workloads</a> blog.</p>
 								
@@ -489,9 +504,9 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-september_standard-managed-disks"><span>9/30</span>Azure Storage Standard Managed Disk Promotion Ends</a>
+							<a href="#" id="service-fabric_year_2017-september_standard-managed-disks"><span>September 30</span>Azure Storage Standard Managed Disks Promotion Ends</a>
 							<section>
-								<p>Standard Managed Disk employs an HDD-based storage medium. It is most suitable for development/testing not sensitive to performance changes and other non-frequent access workloads.The total cost of the Standard Managed Disk storage depends on the size and quantity of disks, quantity of transactions and transition volume of outbound data. For IOPS and throughput, there is no difference between the various sizes of Standard Managed Disk. The offer is over effective immediately, and resumes its regular price on October 1, 2017. For more information on this service and its pricing, please visit the <a href="/home/features/storage" id="service-fabric_year_2017-september_standard-managed-disks">Storage Service Features</a> page and the <a href="/pricing/details/storage#tabContent3-1" id="service-fabric_year_2017-september_standard-managed-disks">Managed Disk Pricing Details</a> page.</p>
+								<p>Standard Managed Disks employs an HDD-based storage medium. It is most suitable for development/testing not sensitive to performance changes and other non-frequent access workloads.The total cost of the Standard Managed Disks storage depends on the size and quantity of disks, quantity of transactions and transition volume of outbound data. For IOPS and throughput, there is no difference between the various sizes of Standard Managed Disks. The offer is over effective immediately, and resumes its regular price on October 1, 2017. For more information on this service and its pricing, please visit the <a href="/home/features/storage" id="service-fabric_year_2017-september_standard-managed-disks">Storage Service Features</a> page and the <a href="/pricing/details/storage#tabContent3-1" id="service-fabric_year_2017-september_standard-managed-disks">Managed Disks Pricing Details</a> page.</p>
 								
 							</section>
 						</div>
@@ -500,7 +515,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-september_blog-data-science-vm-images"><span>9/8</span>Data Science Virtual Machine Mirror Formally Launched</a>
+							<a href="#" id="service-fabric_year_2017-september_blog-data-science-vm-images"><span>September 8</span>Data Science Virtual Machine Mirror Formally Launched</a>
 							<section>
 								<p>The Data Science Virtual Machine (DSVM) is an Azure Virtual Machine mirror customized for data science. It integrates many popular data sciences, preliminary installation tools and preliminary configuration tools that can quickly build smart applications for advanced analysis on both Windows Server and Linux servers. The design and configuration of DSVM applies to a broad range of usage scenarios. You can zoom in and out of the environment based on changes in project requirements and use your favorite languages to program for data sciences. You can also install other customary systems based on your specific requirements. For more details, please visit this <a href="/blog/2017/09/08/data-science-vm-images/">blog</a>.</p>
 								
@@ -511,7 +526,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-september_blog-visual-studio2017-vm-images"><span>9/7</span>Azure Visual Studio 2017 Virtual Machine Mirror Formally Launched</a>
+							<a href="#" id="service-fabric_year_2017-september_blog-visual-studio2017-vm-images"><span>September 7</span>Azure Visual Studio 2017 Virtual Machine Mirror Formally Launched</a>
 							<section>
 								<p>VS 2017 makes the development of Azure applications a seamless integration experience. It includes all features required for Azure development and provides all features that allow the user to easily build, manage and deploy cloud applications on a large scale on the Azure platform. After launch of the Azure Virtual Machine mirror in China, the user now can easily build a development environment on Azure, and use the Visual Studio to build and test applications. For more details, please visit this <a href="/blog/2017/09/07/visual-studio2017-vm-images/">blog</a>.</p>
 							</section>
@@ -521,10 +536,10 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-september_apim"><span>9/7</span>Azure Launches New Performance Level of SQL Database and Additional Storage Preview Version</a>
+							<a href="#" id="service-fabric_year_2017-september_apim"><span>September 7</span>Azure Launches New Performance Level of SQL Database and Additional Storage Preview Version</a>
 							<section>
-								<p>S4, S6, S7, S9 and S12 are five new standard performance levels recently launched. At present, they remain at the previous status, and are very suitable for the CPU-intensive workloads that don’t require IO performance (provided by the higher level).</p>
-								<p>The new additional storage allows the user to purchase the additional storage without adding DTU or eDTU. Now, the user can purchase S3-S12, P1-P6 and PRS1-PRS6 databases with a size of up to 1&#160;TB, a standard elastic pool with a size of up to 4&#160;TB, and a small eDTU advanced pool with a size of up to 1TB.</p>
+								<p>S4, S6, S7, S9 and S12 are five new standard performance levels recently launched. At present, they remain at the preview status, and are very suitable for the CPU-intensive workloads that don’t require IO performance (provided by the higher level).</p>
+								<p>The new additional storage allows the user to purchase the additional storage without adding DTU or eDTU. Now, the user can purchase S3-S12, P1-P6 and PRS1-PRS6 databases with a size of up to 1&#160;TB, a standard elastic pool with a size of up to 4&#160;TB, and a small eDTU advanced pool with a size of up to 1 TB.</p>
 								<p>For more information about new performance levels and additional storage, please visit the <a href="/home/features/sql-database/" id="service-fabric_year_2017-September_sql-database">SQL Database Features</a> page and the <a href="/pricing/details/sql-database/" id="service-fabric_year_2017-September_pricing-sql-database">SQL Database Pricing Details</a> page.</p>
 								
 							</section>
@@ -533,7 +548,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-august_vpn-gateway"><span>9/7</span>Azure Media Redactor Formally Launched</a>
+							<a href="#" id="service-fabric_year_2017-august_vpn-gateway"><span>September 7</span>Azure Media Redactor Formally Launched</a>
 							<section>
 								<p>The Azure Media Redactor is a powerful cloud video processing service that can automatically detect and dim human faces in the video and is well suited for public security, news media and other scenarios. It is based on the AI technology developed by Microsoft and used to improve efficiency of manual video editing. For detailed price information, please visit the <a href="/pricing/details/media-services/" id="service-fabric_year_2017-September_pricing-media-services">Media Services Detailed Pricing Information</a> page. For more information about the service and how to deploy it, please visit the <a href="https://docs.azure.cn/zh-cn/media-services/media-services-face-redaction" id="service-fabric_year_2017-September_media-services-face-redaction">Using Azure Media Analytics for Facial Modifications</a> documentation and the <a href="https://docs.azure.cn/zh-cn/media-services/media-services-redactor-walkthrough" id="service-fabric_year_2017-September_media-services-redactor-walkthrough">Using Azure Media Analytics for Facial Modification Exercises</a> documentation.</p>
 								
@@ -546,9 +561,9 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-august_standard-managed-disks"><span>8/30</span>Azure to End Standard Hosting Disk Service Marketing Campaign Soon</a>
+							<a href="#" id="service-fabric_year_2017-august_standard-managed-disks"><span>August 30</span>Azure to End Standard Managed Disks Service Marketing Campaign Soon</a>
 							<section>
-								<p>Standard Managed Disk employs an HDD-based storage medium. It is most suitable for development/testing not sensitive to performance changes and other non-frequent access workloads. The total cost of Standard Managed Disk storage depends on the size and quantity of disks, quantity of transactions and transition volume of outbound data. For IOPS and throughput, there is no difference between various sizes of Standard Managed Disk. The current price is a promotional price, and the offer will continue until September 30, 2017. Its regular price will be resumed on October 1, 2017. For more information on this service and its pricing, please visit the <a href="/home/features/storage" id="service-fabric_year_2017-august_standard-managed-disks">Storage Services Features</a>page and the <a href="/pricing/details/storage#tabContent3-1" id="service-fabric_year_2017-august_standard-managed-disks">Managed Disk Pricing Details</a> page.</p>
+								<p>Standard Managed Disks employs an HDD-based storage medium. It is most suitable for development/testing not sensitive to performance changes and other non-frequent access workloads. The total cost of Standard Managed Disks storage depends on the size and quantity of disks, quantity of transactions and transition volume of outbound data. For IOPS and throughput, there is no difference between various sizes of Standard Managed Disks. The current price is a promotional price, and the offer will continue until September 30, 2017. Its regular price will be resumed on October 1, 2017. For more information on this service and its pricing, please visit the <a href="/home/features/storage" id="service-fabric_year_2017-august_standard-managed-disks">Storage Services Features</a>page and the <a href="/pricing/details/storage#tabContent3-1" id="service-fabric_year_2017-august_standard-managed-disks">Managed Disks Pricing Details</a> page.</p>
 								
 							</section>
 						</div>
@@ -557,9 +572,9 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-august_hdinsight"><span>8/30</span>HDInsight Kafka Preview Version Launched</a>
+							<a href="#" id="service-fabric_year_2017-august_hdinsight"><span>August 30</span>HDInsight Kafka Preview Version Launched</a>
 							<section>
-								<p>Now, a user can save the trouble of signing up and directly deploy Kafka Cluster and Managed Disk through the Azure portal. The service will provide strong scalability and reduce the cost with the expansion of the workload. With the pre-built system on the Azure Resource Manager template, the user can take only a few minutes to deploy a manageable, safe streaming channel (Kafka, Storm or Spark Stream) integration experience. For pricing details, please visit the <a href="/pricing/details/hdinsight/" id="service-fabric_year_2017-august_pricing-hdinsight">HDInsight Pricing Details</a> page. To learn more information on the service and how to deploy it, please visit the <a href="/home/features/hdinsight/" id="service-fabric_year_2017-august_features-hdinsight">HDInsight Features</a> page and the <a href="https://docs.azure.cn/zh-cn/hdinsight/hdinsight-apache-kafka-get-started">Apache Kafka on HDInsight Introduction</a> documentation page.</p>
+								<p>Now, a user can save the trouble of signing up and directly deploy Kafka Cluster and Managed Disks through the Azure portal. The service will provide strong scalability and reduce the cost with the expansion of the workload. With the pre-built system on the Azure Resource Manager template, the user can take only a few minutes to deploy a manageable, safe streaming channel (Kafka, Storm or Spark Stream) integration experience. For pricing details, please visit the <a href="/pricing/details/hdinsight/" id="service-fabric_year_2017-august_pricing-hdinsight">HDInsight Pricing Details</a> page. To learn more information on the service and how to deploy it, please visit the <a href="/home/features/hdinsight/" id="service-fabric_year_2017-august_features-hdinsight">HDInsight Features</a> page and the <a href="https://docs.azure.cn/zh-cn/hdinsight/hdinsight-apache-kafka-get-started">Apache Kafka on HDInsight Introduction</a> documentation page.</p>
 							</section>
 						</div>
 					</li>
@@ -567,9 +582,9 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-august_vpn-gateway"><span>8/30</span>New-generation Azure VPN Gateway Formally Launched</a>
+							<a href="#" id="service-fabric_year_2017-august_vpn-gateway"><span>August 30</span>New-generation Azure VPN Gateway Formally Launched</a>
 							<section>
-								<p>We recently introduced three all-new VPN gateways (VpnGw1, VpnGw2 and VpnGw3) for the Azure VPN gateway service to considerably improve the bandwidth and the service level agreement (SLA).</p>
+								<p>We recently introduced three all-new VPN Gateways (VpnGw1, VpnGw2 and VpnGw3) for the Azure VPN Gateway service to considerably improve the bandwidth and the service level agreement (SLA).</p>
 								<ol>
 									<li style="list-style:disc;">The Basic level will stay unchanged under the current architecture. Standard and High-performance levels will be replaced with VpnGw1, VpnGw2 and VpnGw3.</li>
 									<li style="list-style:disc;">VPN Gateways already deployed so far will not be automatically upgraded to the new level, but will maintain the current performance and pricing. Even so, we still suggest you migrate current gateways to a new level. Given no price change, the new gateways will enhance the performance by as much as 7 times. For pricing details, please visit the <a href="/pricing/details/vpn-gateway/" id="service-fabric_year_2017-august_pricing-vpn-gateway">VPN Gateway Pricing Details</a> page. To get more information on the service and how to deploy it, please visit the <a href="/home/features/vpn-gateway/" id="service-fabric_year_2017-august_features-vpn-gateway">VPN Gateway Services</a> page and <a href="https://docs.azure.cn/zh-cn/vpn-gateway/" id="service-fabric_year_2017-august_docs-vpn-gateway">VPN Gateway Documentation</a> page.</li>
@@ -581,14 +596,14 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-august_storage_store"><span>8/18</span> Azure Storage Disk Hosting Service Now Formally Launched</a>
+							<a href="#" id="service-fabric_year_2017-august_storage_store"><span>August 18</span> Azure Storage Managed Disks Service Now Formally Launched</a>
 							<section>
-								<p>Azure has formally launched the Managed Disk Service in the China region. Azure Managed Disk manages the <a href="https://docs.azure.cn/zh-cn/storage/storage-introduction" id="service-fabric_year_2017-august_storage-introduction">Storage accounts</a> associated with the Virtual Machine disk to simplify the disk management of Azure IaaS Virtual Machines. You only need to designate the type and size of the required disk, and Azure will create and manage the disk for you. You can use more than one Managed Disk for every Virtual Machine. The Managed Disk Service provides two persistent storage options: Premium Managed Disk and Standard Managed Disk.</p>
-								<p>Disk Storage provides high-security persistent disk options to support Virtual Machines. Premium Disk Storage (SSD) is the most suitable for I/O-intensive applications, and low latency and high throughput are key features of the application. Now, in the China region, Azure has introduced two large-volume disks with the sizes of P40 (2TB) and P50 (4TB) for the Managed and Non-managed Premium Disks. Premium Disk has increased the maximum IPOS to 7,500 and the bandwidth to 250MBps.</p>
+								<p>Azure has formally launched the Managed Disks Service in the China region. Azure Managed Disks manages the <a href="https://docs.azure.cn/zh-cn/storage/storage-introduction" id="service-fabric_year_2017-august_storage-introduction">Storage accounts</a> associated with the Virtual Machine disk to simplify the disk management of Azure IaaS Virtual Machines. You only need to designate the type and size of the required disk, and Azure will create and manage the disk for you. You can use more than one Managed Disk for every Virtual Machine. The Managed Disks Service provides two persistent storage options: Premium Managed Disks and Standard Managed Disks.</p>
+								<p>Disk Storage provides high-security persistent disk options to support Virtual Machines. Premium Disk Storage (SSD) is the most suitable for I/O-intensive applications, and low latency and high throughput are key features of the application. Now, in the China region, Azure has introduced two large-volume disks with the sizes of P40 (2 TB) and P50 (4 TB) for the Managed and Non-managed Premium Disks. Premium Disk has increased the maximum IPOS to 7,500 and the bandwidth to 250 MBps.</p>
 
-								<p>As far as testing is concerned, Standard Disk Storage (HDD) helps you cut down on costs during rapid vertical scaling. In the China region, we also provide two new options, S40 (2TB) and S50 (4TB), for the Standard Managed Disk service. For the Standard Non-managed Disk, we can create a disk with a maximum size of 4.095TB. Standard disks of all sizes will provide an IOPS as high as 500 and a bandwidth of 60MBps.</p>
+								<p>As far as testing is concerned, Standard Disk Storage (HDD) helps you cut down on costs during rapid vertical scaling. In the China region, we also provide two new options, S40 (2 TB) and S50 (4 TB), for the Standard Managed Disk service. For the Standard Non-managed Disk, we can create a disk with a maximum size of 4.095 TB. Standard disks of all sizes will provide an IOPS as high as 500 and a bandwidth of 60&#160;MBps.</p>
 
-								<p>When you only have a small disk, such as the operating system disk of a Linux Virtual Machine, but need to obtain consistent disk performance, you can use these new disks of varying sizes to reduce costs. The P4 Premium Managed Disk provides an IOPS of up to 120 and a disk throughput of 25MBps, while these figures for the P6 Premium Managed Disk are 240 and 50MBps respectively.</p>
+								<p>When you only have a small disk, such as the operating system disk of a Linux Virtual Machine, but need to obtain consistent disk performance, you can use these new disks of varying sizes to reduce costs. The P4 Premium Managed Disks provide an IOPS of up to 120 and a disk throughput of 25&#160;MBps, while these figures for the P6 Premium Managed Disk are 240 and 50&#160;MBps respectively.</p>
 								<p>For more details, please visit <a href="https://docs.azure.cn/zh-cn/virtual-machines/windows/migrate-to-managed-disks">Migrate Azure VM to Azure Managed Disks</a>. To learn more about the services and pricing, please visit the <a href="/home/features/storage" id="service-fabric_year_2017-august_storage">Storage Disk Features</a> page and the <a href="/pricing/details/storage#tabContent3-1" id="service-fabric_year_2017-august_storage-detail">Hosting Disk Pricing</a> page.</p>
 							</section>
 						</div>
@@ -596,7 +611,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-August_ade"><span>8/18</span>Azure Disk Encryption Launched in China</a>
+							<a href="#" id="service-fabric_year_2017-August_ade"><span>August 18</span>Azure Disk Encryption Launched in China</a>
 							<section>
 								<p>Today, we are announcing the release of Azure Disk Encryption for Windows and Linux IaaS Virtual Machines in the China region. This signifies that Azure has released Disk Encryption Services for all users of Windows and Linux IaaS Standard Virtual Machines (Standard A, D, DS, F and other series), and customers now can employ encryption technologies based on industrial standards to protect their static operating systems and data disks.</p>
 								<p>The Azure Disk Encryption feature allows you to encrypt the disks of Windows and Linux IaaS Virtual Machines. Azure Disk Encryption technology employs the <a href="https://technet.microsoft.com/zh-cn/library/cc732774.aspx" id="service-fabric_year_2017-june_ade_BitLocker" target="_blank" rel="nofollow">BitLocker</a> feature of Windows as the industrial standard and Linux’s DM-Crypt feature to encrypt operating system and data disks and protect your data. Moreover, the technology also helps you deliver on your organization’s commitment to security and compliance. This solution, integrated with the <a href="/documentation/services/key-vault/" id="service-fabric_year_2017-june_ade_documentation-key-vault">Azure Key Vault</a>, helps you protect, control and manage disk encryption keys for key vault subscriptions. At the same time, the solution ensures all data in the disks of Virtual Machines realize static encryption in your Azure Storage.</p>
@@ -611,7 +626,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-july_cosmos-db"><span>7/19</span>Your Current DocumentDB Resource Has Become Part of the Azure Cosmos DB Resources on the Azure portal.</a>
+							<a href="#" id="service-fabric_year_2017-july_cosmos-db"><span>July 19</span>Your Current DocumentDB Resource Has Become Part of the Azure Cosmos DB Resources on the Azure portal.</a>
 							<section>
 								<p>As announced at the Microsoft Build conference in 2017, Azure Cosmos DB is the first multimodal database service spreading across the entire world, and provides universal SLAs that can be used to forge global applications. You have possibly noticed that your current DocumentDB resource has become part of the Azure Cosmos DB resources on the Azure portal. Azure Cosmos DB provides the same SLA and pricing as those of DocumentDB, but offers more features and functions. Please note: As part of the recent evolution, the indicator and SKU names will be changed after August 1, 2017, and indicator GUID and pricing will remain unchanged. For more information on the recent evolution, please visit the <a href="/blog/2017/07/19/WelcometoAzureCosmosDB/" id="service-fabric_year_2017-july_cosmos-db_blog">Dear DocumentDB User, Welcome to Azure Cosmos DB!</a> blog. For product information, please visit the <a href="/home/features/cosmos-db/" id="service-fabric_year_2017-july_cosmos-db_production">Cosmos DB Features</a> page. For pricing information, please visit <a href="/pricing/details/cosmos-db/" id="service-fabric_year_2017-july_cosmos-db_pricing">Cosmos DB Pricing Details</a> page.</p>
 							</section>
@@ -621,7 +636,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-july_event-hubs"><span>7/11</span>Azure Event Hubs has Formally Released the Capture Function</a>
+							<a href="#" id="service-fabric_year_2017-july_event-hubs"><span>July 11</span>Azure Event Hubs has Formally Released the Capture Function</a>
 							<section>
 								<p>Azure Event Hubs is a data stream intake service that features real time, high scalability and full management. It can take in millions of events per second and generate a data stream with multiple applications. This enables you to process and analyze mass data generated by connected appliances and applications.</p>
 								<p>The Capture feature of Event Hubs (namely, the Event Hubs documentation in the earlier public preview version) has been formally released. This feature allows you to directly access data of the Event Hubs based on the time and size you define, and send these data to your destination, thereby specifically addressing your demand for long-term data saving and processing of downstream small batch data:</p>
@@ -639,7 +654,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-july_messaging"><span>7/11</span>Azure Relay Hybrid Connection in Azure Service Bus Formally Launched</a>
+							<a href="#" id="service-fabric_year_2017-july_messaging"><span>July 11</span>Azure Relay Hybrid Connection in Azure Service Bus Formally Launched</a>
 							<section>
 								<p>The Azure Relay hybrid connection in the Azure Service Bus has been formally launched. For pricing details, please visit the <a href="/pricing/details/service-bus/" id="service-fabric_year_2017-july_messaging_pricing">Service Bus Pricing Details</a> page. With the hybrid connection, you can use HTTPS, WebSockets and other open standards to realize safe connection with resources behind the local firewall and other cloud-based services or resources. To learn details about the service, please visit the <a href="/home/features/service-bus/" id="service-fabric_year_2017-july_messaging_production">Service Bus Features</a> page.</p>								
 							</section>
@@ -649,16 +664,16 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-july_traffic-manager"><span>7/11</span>Azure Traffic Manager’s Rapid Failover Formally Released</a>
+							<a href="#" id="service-fabric_year_2017-july_traffic-manager"><span>July 11</span>Azure Traffic Manager’s Rapid Failover Formally Released</a>
 							<section>
 								<p>When using Azure Traffic Manager, you can employ the Rapid Failover service to realize more features and optimize and customize failover behaviors. The Rapid Failover feature has now been formally released. You can choose to redirect users even faster to keep yourself away from abnormal terminals. Specifically now you can:</p>
 								<ol>
-									<li>Define a 10s interval for the Traffic Manager to check the working status of the terminal (the interval is shorter than the present 30s);</li>
+									<li>Define a 10&#160;s interval for the Traffic Manager to check the working status of the terminal (the interval is shorter than the present 30&#160;s);</li>
 									<li>Configure the continuous failure counter (which falls between 1 and 10) before the terminal is marked as abnormal;</li>
-									<li>Configure the timeout interval for every detection attempt (if the detection interval is 10s, the timeout interval will fall between 5s and 9s, and if the detection interval is 30s, the timeout interval will fall between 5s to 10s);</li>
+									<li>Configure the timeout interval for every detection attempt (if the detection interval is 10&#160;s, the timeout interval will fall between 5&#160;s and 9&#160;s, and if the detection interval is 30&#160;s, the timeout interval will fall between 5&#160;s to 10&#160;s);</li>
 									<li>Set the time-to-live (TTL) response.</li>
 								</ol>
-								<p>When the aforementioned configurable settings are used together, Traffic Manager can divert traffic from a degraded terminal at a faster speed than the standard settings by 90%. You can use Azure portal, PowerShell, CLI, REST API or SDK to set the Rapid Failover.</p>
+								<p>When the aforementioned configurable settings are used together, Traffic Manager can divert traffic from a degraded terminal at a faster speed than the standard settings by 90%. You can use Azure portal, PowerShell, CLI, REST API, or SDK to set the Rapid Failover.</p>
 								<p>For more pricing information, please visit the <a href="/pricing/details/traffic-manager/" id="service-fabric_year_2017-july_traffic-manager_pricing">Traffic Manager Pricing Details</a> page. To learn how to use the Rapid Failover feature, please visit the <a href="//docs.azure.cn/zh-cn/traffic-manager/traffic-manager-monitoring?WT.mc_id=azurebg_email_Trans_33675_1421_Release_MOSP_Tier2_June26_CORRECTION/" id="service-fabric_year_2017-july_traffic-manager_document">Traffic Manager Terminal Monitoring and Failover</a> documentation.</p>								
 							</section>
 						</div>
@@ -667,7 +682,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2017-july_documentdb"><span>7/7</span>Azure DocumentDB Launches Corporate Preview Version of Minute Preliminary Configuration</a>
+							<a href="#" id="service-fabric_year_2017-july_documentdb"><span>July 07</span>Azure DocumentDB Launches Corporate Preview Version of Minute Preliminary Configuration</a>
 							<section>
 								<p>Now, you can employ the throughput configuration mode with a lower cost to supplement the seconds-based normal throughput (RU/s) in minute. For more pricing information, please visit the <a href="/pricing/details/documentdb/" id="service-fabric_year_2017-july_documentdb_pricing">DocumentDB Pricing Details</a> page.</p>								
 							</section>
@@ -1087,6 +1102,8 @@
                     </li>
                 </ul>
 				-->
+
+  
             </div>                      
         </div>
         <a id="_whatisnew-linkbutton" href="/what-is-new/archives/2017/" class="single-link h2-link">View Historical Announcements<i class="icon icon-arrow-right-thin"></i></a>

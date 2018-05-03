@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <umbTextpage id="19502" parentID="18486" level="5" writerID="106" creatorID="106" nodeType="1059" template="9" sortOrder="30" createDate="2015-8-24T14:55:52" updateDate="" nodeName="Aile" urlName="aile" writerName="content" creatorName="content" path="-1,11978,19421,18486,19502" isDoc="">
+    <bodyText><![CDATA[
+      
+        <!-- BEGIN: Section -->
+            <div class="section-component">
+				<h2>Digital transformation enables customers to maximize the value of their Windows Server license</h2>
+				
+				<p>Similar to other popular Microsoft solutions such as SQL Server and SharePoint, customers can now use their existing Windows Server licenses in combination with Azure and take full advantage of this benefit to scale data centers to the cloud smoothly.</p>
+				
+				<h3>Lower virtual machine prices.</h3> 
+				<p>With the A-HUB (Azure Hybrid Use Benefit) plan, customers can deploy and run special price Windows Server virtual machines in Azure using local Windows Server licenses covered by Software Assurance (SA). Customers then only need to pay the basic virtual machine costs at the same rates as Linux virtual machine costs</p>
+				<p>(refer to the <a href="/pricing/details/virtual-machines/" id="a-hub_pricing-vm">Virtual Machine Pricing Details</a> page).</p>
+				
+				<h3>Flexible, cloud-ready licensing modes are supported.</h3> 
+				<p>With the A-HUB benefit plan, customers can scale part of their organization's workload or their entire data center to the cloud, creating cloud-ready architecture that fits the needs of the organization.</p>
+				
+				<h3>Get this great value benefit now.</h3> 
+				<p>If a customer’s license does not include Software Assurance (SA), then now is the best time to consider subscribing. With a Software Assurance Agreement, customers can save up to 20% on Azure instance usage (this depends on factors including usage, instance type, and data center location).</p>
+				
+				<p>To subscribe to Software Assurance, please contact your Microsoft Account team.</p>
+				
+				
+				<table cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+				<th align="left" style="width: 50%;"><strong>Data Center Edition License with Software Assurance</strong></th>
+				<th align="left" style="width: 50%;"><strong>Standard Edition License with Software Assurance</strong></th>
+				</tr>
+				<tr>
+				<td class="left_align">
+					<ul>
+						<li>Two virtual machines can be deployed with each dual processor license, with up to 8 cores per virtual machine.</li>
+						<li>Save up to 20% on Azure deployment costs.</li>
+						<li>Each license can be used both locally and in Azure.</li>
+					</ul>
+				</td>
+				<td class="left_align">
+					<ul>
+						<li>Two virtual machines can be deployed with each dual processor license, with up to 8 cores per virtual machine.</li>
+						<li>Save up to 20% on Azure deployment costs.</li>
+						<li>Each license can either be used locally or in Azure.</li>
+					</ul>
+				</td>
+				</tr>
+				</table>
+							
+				<h2>Case analysis</h2>
+				<div style="text-align: left;"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/hybrid-use-benefit-save.jpg" alt="A-HUB-comparison" title="" style="max-width:auto;height:auto;"></div>
+				</br>
+				<p>This example shows the costs that customers can save compared to other public clouds by running Windows Server through Azure. Customers only need to pay for basic computing resources after using a local Windows Server license with Software Assurance.</p>
+				
+				<p>*The savings estimate is based on the A4 version operated by 21Vianet in mainland China. The example is a one-year estimate using the pricing on September 13, 2016. Pricing is subject to change without notice.</p>
+				
+				
+				<h2>How to participate in the A-HUB benefit plan</h2>
+				
+				<ul>
+				<li><strong>Confirm eligibility and calculate licenses.</strong> For each Windows Server dual processor license with Software Assurance, customers can run two virtual machines with up to 8 cores or a 16-core virtual machine, whichever is lower in price.</li>
+				
+				<li><strong>Upload image file.</strong> You need to create a Windows Server virtual machine locally using Windows PowerShell, add the Azure Hybrid Use Benefit tag to it, then upload it to Azure.</li>
+				
+				<li><strong>Benefit from significant savings.</strong> Azure will subsequently bill at the non-Windows virtual machine rate.</li>
+				</ul>
+				
+                </br></br>
+				<p><strong>Special tip:</strong></p>
+				<p>1. This plan is only valid for genuine Windows Server software and assurance (SA) customers within the validity period. 21Vianet will audit users who use the plan and make necessary adjustments to user prices based on the audit results, and/or request customers to make up the balance from their previous bill.</p>
+				<p>2. Reminder that CPP and A-HUB (Azure Hybrid Use Benefit) cannot overlap or be shared: If your virtual machine already contains multiple deals, you will only be eligible for individual discounts which cannot overlap or be shared.</p>
+				<p>3. The CPP plan is a yearly service for virtual machines. It currently only applies to Online Service Premium Agreements.</p>
+
+				
+                
+            </div>
+        <!-- END: Section -->
+      
+    ]]></bodyText>
+    <umbracoNaviHide>0</umbracoNaviHide>
+    <pageTitle>A-HUB Benefit Plan - Microsoft Azure</pageTitle>
+    <metaKeywords></metaKeywords>
+    <metaDescription></metaDescription>
+    <linkid>Azure-Hybrid-Use-Benefit</linkid>
+    <urlDisplayName></urlDisplayName>
+    <headerExpose></headerExpose>
+    <footerExpose></footerExpose>
+    <disqusComments>0</disqusComments>
+    <metaCanonical></metaCanonical>
+    <isHeader>0</isHeader>
+    <pageTemplate></pageTemplate>
+    <localize>0</localize>
+    <localizePartial>0</localizePartial>
+    <sitemapHide>0</sitemapHide>
+    <banner><![CDATA[
+      <!-- BEGIN: Banner -->
+           <div class=”common-banner” data-config=”{'backgroundColor':'#2c65b0', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/css/images/hybrid-use-benefit-cloud.png','imageHeight':'180'}” id=”banner”>   
+              <div class=”common-banner-image”>
+                <div class=”common-banner-title”>
+                  <h1>Azure Hybrid Use Benefit</h1>
+				  <p></p>
+						<p>A-HUB benefit plan enables Windows Server SA customers to add value in the cloud</p>
+                </div>
+              </div>
+          </div>  
+        <!-- End: Banner-->
+    ]]></banner>
+    <headerText>
+    </headerText>
+    <forbidPublish>0</forbidPublish>
+  </umbTextpage>
+</localize>
+
