@@ -808,9 +808,6 @@
 						</a>
 					</div> -->
 					
-
-
-
 				</div>
 				<div class="swiper-pagination"></div>
 			</div>
@@ -822,7 +819,7 @@
 						<a target="_blank" class="col-md-4 quickstart-item" href="https://school.azure.cn/category?filter=%7B%22curriculumDirectionId%22%3A%221%22%2C%22curriculumCategoryId%22%3A%220%22%2C%22courseCategoryId%22%3A%220%22%7D" id="homepage_quickstart-starter-guide"> <img data-rjs="2" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/rocket.png" alt="">
 							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large"><span>Getting Started</span><i class="icon icon-arrow-right "></i></span></div>
 							<span class="link link-sharp-btn blue large device-mobile-banner"><span>Getting Started</span></span>
-							<p>Helping you get to know Azure, providing operational efficiency, and saving operational costs</p>
+							<p>Learn about using Azure to increase efficiencies and cut operational costs</p>
 						</a> <!--<a class="col-md-4 quickstart-item" href="/solutions/wechat-techsun/" id="homepage_quickstart_solutions-wechat-techsun">
 							<img data-rjs="2" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/hot-topic.png"
 											alt="">
@@ -888,17 +885,15 @@
 										</div>
 										<div id="homepage_solution_tab3" class="tab-panel">
 											<div class="menu-child">
-												<h2>1RMB Trial: SQL Database Backup solutions</h2>
-												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-SQL-slice.png" alt="Azure 1RMB Trial: SQL Database Backup solutions">
-												<p>Maintenance free, low cost, with high availability and secure configuration, SQL Database automatic backup to Azure storage, can be recovered anytime based on business needs</p>
+												<h2>1RMB Trial: SQL Database Backup solutions</h2><img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-SQL-slice.png" alt="Azure 1RMB Trial: SQL Database Backup solutions"><p>Maintenance free, low cost, with high availability and secure configuration, SQL Database automatic backup to Azure storage, can be recovered anytime based on business needs</p>
 												<a id="homepage-solution_tab-content_link3" href="/pricing/1rmb-trial-back-up/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
 											</div>
 										</div>
 										<div id="homepage_solution_tab4" class="tab-panel">
 											<div class="menu-child">
-												<h2>1RMB Trial: “Cognitive Services” Face API with WeChat app solutions</h2>
+												<h2>1RMB Trial: Cognitive Services Face API with WeChat app solutions</h2>
 												<img class="img-responsive" src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/SM-cognitive-slice.png" alt="Internet of Things Solutions">
-												<p>A 1RMB Trial account provides the “Cognitive Services” Face API to help users in the rapid development and testing of facial recognition apps. </p>
+												<p>A 1RMB Trial account provides the Cognitive Services Face API to help users in the rapid development and testing of facial recognition apps.</p>
 												<a id="homepage-solution_tab-content_link4" href="pricing/1rmb-trial-cognitive-services/" class="btn line-btn white"><span>More</span><i class="icon icon-arrow-right"></i></a>
 											</div>
 										</div>
@@ -1555,9 +1550,7 @@
 						</div>
 						<div class="col-md-8">
 							<h1>Ready to get started?</h1>
-							<h6>Sign up for a trial and experience an up to 99.99% Service Level Agreement (SLA) with financial guarantees</h6>
-							<a href="/pricing/1rmb-trial/" id="haizaiyouyu" class="inner_box-button"><span>1RMB Trial</span><i class="icon icon-arrow-right"></i></a>
-						</div>
+							<h6>Sign up for a trial and experience an up to 99.99% Service Level Agreement (SLA) with financial guarantees</h6><a href="/pricing/1rmb-trial/" id="haizaiyouyu" class="inner_box-button"><span>1RMB Trial</span><i class="icon icon-arrow-right"></i></a></div>
 					</div>
 				</div>
 			</div>

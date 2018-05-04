@@ -310,9 +310,7 @@
             <div class="summary">
                 <div class="total">
                     Total Price
-                    <p>
-                        <span class="num">RMB1428.4</span> <span class="unit">/month</span>
-                    </p>
+                    <p><span class="num">￥ 1428.4</span> <span class="unit">/month</span></p>
                 </div>
                 <div class="btn-group">
                     <a class="calcul-btn buy" href="/pricing/pia/" id="sidebarWinCalculBuy">Go to purchase</a> <a class="calcul-btn-white export" href="#" id="sidebarWinCalculExport">Export List</a> <a class="calcul-btn-white reset" href="#" id="sidebarWinCalculReset">Reset</a>

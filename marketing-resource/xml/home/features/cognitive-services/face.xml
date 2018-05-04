@@ -128,25 +128,25 @@
                     <li>
                         <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,face.png"/></div>
                         <div class="cognitive-text">
-                            <h2>Face Recognition API</h2>
+                            <h2>Face API</h2>
                             <p>Detects relatively similar faces based on similar images grouped together, recognizing previously marked persons in the images.</p>
-                            <p><a id="face_face" href="/home/features/cognitive-services/face/" class="single-link">Learn more<i class="icon icon-arrow-right-thin"></i></a></p>
+                            <p><a id="face_face" href="/home/features/cognitive-services/face/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>                    
                     <li>
                         <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,emotion.png"/></div>
                         <div class="cognitive-text">
-                            <h2>Mood Recognition API</h1>
+                            <h2>Emotion API</h1>
                             <p>Analyzes the face to detect emotions and personalizes the application’s response.</p>
-                            <p><a id="face_emotion" href="/home/features/cognitive-services/emotion/" class="single-link">Learn more<i class="icon icon-arrow-right-thin"></i></a></p>
+                            <p><a id="face_emotion" href="/home/features/cognitive-services/emotion/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>
                     <li>
                         <div class="cognitive-icon"><img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services,computer-vision.png"/></div>
                         <div class="cognitive-text">
                            <h2>Computer Vision API</h2>
-                        <p>Extract enrichment data from images to categorize and handle visual data, inspect images with computer assistance, providing help for curation services.</p>
-                        <p><a id="face_computer-vision" href="/home/features/cognitive-services/computer-vision/" class="single-link">Learn more<i class="icon icon-arrow-right-thin"></i></a></p>
+                        <p>Extract enrichment data from images to categorize and handle visual data, inspect images with computer assistance, provide help for curation services.</p>
+                        <p><a id="face_computer-vision" href="/home/features/cognitive-services/computer-vision/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>
                 </ul>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -60,45 +60,45 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -121,7 +121,7 @@
     <value>Please accept the Privacy Statement and Agreement</value>
   </data>
   <data name="Account" xml:space="preserve">
-    <value>Username</value>
+    <value>Account</value>
   </data>
   <data name="AccountMaxLengthError" xml:space="preserve">
     <value>User name is too long</value>
@@ -211,7 +211,7 @@
     <value>A – Critical business impact, need immediate attention</value>
   </data>
   <data name="AzureSeverity_B" xml:space="preserve">
-    <value>B - Medium business impact, business or service levels have declined, but work can be reasonably continued, just with less efficiency</value>
+    <value>B - Moderate business impact, your business has moderate loss or degradation of services but work can reasonably continue in an impaired manner</value>
   </data>
   <data name="AzureSeverity_C" xml:space="preserve">
     <value>C - Minimum business impact, your business is substantially functioning with minor or no impediments of services</value>
@@ -223,7 +223,7 @@
     <value>Windows Azure Subscription is too long</value>
   </data>
   <data name="AzureSupportForm_ApplyForSupport" xml:space="preserve">
-    <value>Application support</value>
+    <value>Get Support</value>
   </data>
   <data name="AzureSupportForm_Description" xml:space="preserve">
     <value>Please fill the form below and describe your issue for support.&lt;br /&gt;Our staff will contact you shortly.</value>
@@ -331,7 +331,7 @@
     <value>C – Minimum business impact, your business is substantially functioning with minor or no impediments to services</value>
   </data>
   <data name="O365SupportForm_ApplyForSuport" xml:space="preserve">
-    <value>Application support</value>
+    <value>Get Support</value>
   </data>
   <data name="O365SupportForm_Description" xml:space="preserve">
     <value>Please fill the form below and describe your issue for support.&lt;br /&gt;Our staff will contact you shortly.</value>
@@ -367,7 +367,7 @@
     <value>Please describe the issue in detail (Remaining words:</value>
   </data>
   <data name="TicketDetailMaxLengthError" xml:space="preserve">
-    <value>Support question is too long</value>
+    <value>The description of the support issue is too long</value>
   </data>
   <data name="TicketTitle" xml:space="preserve">
     <value>Title of the Support Issue</value>
@@ -376,25 +376,25 @@
     <value>The title is too long</value>
   </data>
   <data name="TicketType" xml:space="preserve">
-    <value>Support type</value>
+    <value>Ticket Type</value>
   </data>
   <data name="TicketTypeEmptyError" xml:space="preserve">
     <value>Please select an option</value>
   </data>
   <data name="TicketType_Billing" xml:space="preserve">
-    <value>Billing questions</value>
+    <value>Billing</value>
   </data>
   <data name="TicketType_Contract" xml:space="preserve">
     <value>Contract</value>
   </data>
   <data name="TicketType_ICP" xml:space="preserve">
-    <value>ICP record</value>
+    <value>ICP</value>
   </data>
   <data name="TicketType_Presales" xml:space="preserve">
-    <value>Product consulting</value>
+    <value>Presales</value>
   </data>
   <data name="TicketType_Technical" xml:space="preserve">
-    <value>Technology</value>
+    <value>Technical</value>
   </data>
   <data name="Attachement_CountError" xml:space="preserve">
     <value>Maximum number of files to upload : 3</value>
@@ -595,7 +595,7 @@
     <value>A crash or exception occurred when using SQL Server Services</value>
   </data>
   <data name="L2_25" xml:space="preserve">
-    <value/>
+    <value />
   </data>
   <data name="L2_26" xml:space="preserve">
     <value>Create VPN</value>
@@ -856,7 +856,7 @@
     <value>Please select a category</value>
   </data>
   <data name="AttachFile" xml:space="preserve">
-    <value>Upload attachment</value>
+    <value>Attach File</value>
   </data>
   <data name="SelectList_Blank" xml:space="preserve">
     <value>Please choose</value>
@@ -865,7 +865,7 @@
     <value>Input Error!</value>
   </data>
   <data name="TicketType_Quota" xml:space="preserve">
-    <value>Quota application</value>
+    <value>Quota</value>
   </data>
   <data name="TicketType_SubscriptionManagement" xml:space="preserve">
     <value>Subscription management</value>
@@ -895,16 +895,16 @@
     <value>Production environment impacted by the issue?</value>
   </data>
   <data name="OptionAQ2" xml:space="preserve">
-    <value>Are you able to work with a technical support engineer 24/7 until the problem is resolved?</value>
+    <value>Can you work with our technical support engineer 7*24 until the issue get resolved or else severity could be downgraded?</value>
   </data>
   <data name="OptionAQ3" xml:space="preserve">
     <value>Multiple users are impacted by the issue?</value>
   </data>
   <data name="OptionAQ3_AffectedUserNum" xml:space="preserve">
-    <value>Please enter the number of customers that have been affected</value>
+    <value>If yes, please fill in the number of users impacted</value>
   </data>
   <data name="OptionAQ4" xml:space="preserve">
-    <value>Which of your services has this problem affected? (remaining characters: </value>
+    <value>Which service(s) are impacted by the issue?  (Remaining words : </value>
   </data>
   <data name="OptionAWarning" xml:space="preserve">
     <value>Please ensure the authenticity of information given below, otherwise severity of your ticket could be downgraded!</value>
@@ -928,7 +928,7 @@
     <value>Please input number.</value>
   </data>
   <data name="OptionA_Alert" xml:space="preserve">
-    <value>Sorry, your current situation does not meet the requirements for A, please select B or C as appropriate.</value>
+    <value>Sorry, your situation is not eligible for severity A, please adjust to B or C.</value>
   </data>
   <data name="Ticket_RightBrace" xml:space="preserve">
     <value>)</value>
@@ -940,13 +940,13 @@
     <value>Please enter a detailed description of the affected service.</value>
   </data>
   <data name="Homepage" xml:space="preserve">
-    <value>Return to homepage</value>
+    <value>Home Page</value>
   </data>
   <data name="Reload" xml:space="preserve">
-    <value>Log in again</value>
+    <value>Sign in again with another account</value>
   </data>
   <data name="SupportLoadAccountError" xml:space="preserve">
-    <value>This Live account number is not supported, please try again using your Azure China account number (example format：xxx@yyy.partner.onmschina.cn, or corresponding account bound to AAD).</value>
+    <value>The Live Account is not supported, please retry by using your Azure China account in the format of xxx@yyy.partner.onmschina.cn or the associated Azure AD account.</value>
   </data>
   <data name="SwitchAccount" xml:space="preserve">
     <value>Switch accounts</value>
@@ -955,10 +955,10 @@
     <value>(</value>
   </data>
   <data name="TicketType_Commerce_O365" xml:space="preserve">
-    <value>Business support</value>
+    <value>Commerce Support</value>
   </data>
   <data name="TicketType_ICP_O365" xml:space="preserve">
-    <value>ICP record</value>
+    <value>ICP</value>
   </data>
   <data name="TicketType_Technical_O365" xml:space="preserve">
     <value>Technical Support</value>
@@ -967,7 +967,7 @@
     <value>your support ticket cannot be submitted currently. Please retry to submit again in 10 minutes. Again, we are sorry for any inconvenience that may cause to you !</value>
   </data>
   <data name="O365ResultBodySuccess1front" xml:space="preserve">
-    <value>We have received your support application and created a service event SR based on your problem description:</value>
+    <value>Thank you for contacting O365 Operated by 21Vianet customer service !  A new service request</value>
   </data>
   <data name="O365ResultFooter1Fail" xml:space="preserve">
     <value>You can contact 21Vianet support team directly for help:</value>
@@ -985,22 +985,22 @@
     <value>Thank you</value>
   </data>
   <data name="O365ResultBodySuccess1behind" xml:space="preserve">
-    <value>We will contact you as soon as possible using the email address or telephone number you provided.</value>
+    <value>has been created for you.  The customer service agent will contact you very soon.</value>
   </data>
   <data name="O365ResultBodySuccess2" xml:space="preserve">
     <value>If you want to know about the progress of this event or have any questions, you can call the 21Vianet support hotline (+86 400 089 0365) or email office365support@oe.21vianet.com.</value>
   </data>
   <data name="O365ResultBodySuccess3" xml:space="preserve">
-    <value>Please provide the event number to the customer representative so that they can transfer you to the relevant engineer as quickly as possible.</value>
+    <value>Provide the customer service representative with your service request number to help you get transferred to the right support engineer as soon as possible.</value>
   </data>
   <data name="TicketResultButtionRefill" xml:space="preserve">
-    <value>Reenter</value>
+    <value>Re-fill the Form</value>
   </data>
   <data name="TicketResultButtionBackTo365" xml:space="preserve">
     <value>Back to O365</value>
   </data>
   <data name="AzureResultBodyFail1" xml:space="preserve">
-    <value>We are unable to submit your application information, error code:</value>
+    <value>We are unable to submit your request, error code:</value>
   </data>
   <data name="AzureResultBodyFail2" xml:space="preserve">
     <value>Please try to fill the form once again after making adjustments and submit, or you can call 21Vianet service hotline (+86 400 089 0365) directly.</value>
@@ -1009,28 +1009,28 @@
     <value>Again, we are sorry for any inconvenience that may cause to you !</value>
   </data>
   <data name="AzureResultBodyFailReason_Repeat" xml:space="preserve">
-    <value>Resubmit.</value>
+    <value>Duplicated submission</value>
   </data>
   <data name="AzureResultBodySuccess1behind" xml:space="preserve">
-    <value>Please leave your email address or phone number and the relevant support engineer will contact you as soon as possible.</value>
+    <value>has been created according to your issue description. Please keep an eye on your mailbox or cell phone, our support engineer will contact you soon.</value>
   </data>
   <data name="AzureResultBodySuccess1front" xml:space="preserve">
-    <value>We have created a service event SR for you based on your problem description:</value>
+    <value>Service request SR</value>
   </data>
   <data name="AzureResultBodySuccess2" xml:space="preserve">
-    <value>If you wish to find out about the progress of this event or you have any questions, you can call 21Vianet’s support hotline (+86 400 089 0365).</value>
+    <value>If you would like to know the progress or have any question about the request, please call 21Vianet service hotline (+86 400 089 0365).</value>
   </data>
   <data name="AzureResultBodySuccess3" xml:space="preserve">
-    <value>Please provide the event number to the customer representative so that they can transfer you to the relevant engineer as quickly as possible.</value>
+    <value>Provide the customer service representative with your service request number to help you get transferred to the right support engineer as soon as possible.</value>
   </data>
   <data name="AzureTicketTitleFail" xml:space="preserve">
-    <value>Sorry, we are unable to submit your application information.</value>
+    <value>We are sorry!</value>
   </data>
   <data name="AzureTicketTitleSuccess" xml:space="preserve">
     <value>Azure support ticket has been submitted successfully!</value>
   </data>
   <data name="AzureResultBodyFailReasonOthers" xml:space="preserve">
-    <value>Other abnormality.</value>
+    <value>Other exception.</value>
   </data>
   <data name="AzureResultBodyFailReasonSameTicket" xml:space="preserve">
     <value>The same ticket already exists :</value>
@@ -1042,7 +1042,7 @@
     <value>This subscription has expired, please select another valid subscription.</value>
   </data>
   <data name="SupportPlanType" xml:space="preserve">
-    <value>Support plan</value>
+    <value>Support Plan Type</value>
   </data>
   <data name="TicketEventStartTime" xml:space="preserve">
     <value>When did the problem start</value>
