@@ -180,7 +180,7 @@
                             <div>
                                 <a id="pricing_enent_hubs_question5">How long is the longest retention period?</a>
                                 <section>
-                                    <p>After public listing, we provide a 7-day retention period at most. Please note, Event Hubs shall not be used as permanent data storage. Providing a retention period over 24 hours is mainly for enabling customers to replay the events flow on the same system, so as to realize training or validating new computer learning models based on existing data.</p>
+                                    <p>After public listing, we provide a 7-day retention period at most. Please note, Event Hubs shall not be used as persistent data storage. Providing a retention period over 24 hours is mainly for enabling customers to replay the events flow on the same system, so as to realize training or validating new computer learning models based on existing data.</p>
                                 </section>
 
                             </div>
@@ -199,7 +199,7 @@
                             <div>
                                 <a id="pricing_enent_hubs_question7">How is the memory size of Event Hubs computed and charged?</a>
                                 <section>
-                                    <p>The total size of all storage events (including all internal expenses of the event header, or the disk storage structure within all Event Hubs in a certain namespace) is measured in days. At the end of a day, the peak memory size will be computed. The daily storage quota is computed by the minimum throughput units selected in a day (the quota provided by every throughput unit is 84 GB). If the total size exceeds the daily storage quota, the extra storage will be charged at the Azure Blob Storage rate (by the local redundant storage rate).</p>
+                                    <p>The total size of all storage events (including all internal expenses of the event header, or the disk storage structure within all Event Hubs in a certain namespace) is measured in days. At the end of a day, the peak memory size will be computed. The daily storage quota is computed by the minimum throughput units selected in a day (the quota provided by every throughput unit is 84 GB). If the total size exceeds the daily storage quota, the extra storage will be charged at the Azure Blob Storage rate (by the Locally redundant storage rate).</p>
                                 </section>
                             </div>
                         </li>

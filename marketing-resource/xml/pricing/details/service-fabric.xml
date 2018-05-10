@@ -26,7 +26,7 @@
                     <h3>Service Fabric on Azure</h3>
                     <p>Service Fabric can be applied to a Windows Server virtual machines or Linux virtual machines of any standard size (only the preview version of Service Fabric is currently available on Linux). Service Fabric can also be used under the preview version, meanwhile Ubuntu images can run on Azure. You will be charged only for the calculation instances you select and for the memory and network resources used to build Service Fabric clusters. The Service Fabric services are free of charge. For details on the pricing of necessary resources, please visit the following webpages:</p>
                     <p><a id="sla-Global-distribution01" href="/pricing/details/virtual-machines/" target="_blank">Virtual Machines Pricing</a></p>
-                    <p><a id="sla-Global-distribution02" href="/pricing/details/storage/" target="_blank">Memory Pricing</a></p>
+                    <p><a id="sla-Global-distribution02" href="/pricing/details/storage/" target="_blank">Storage Pricing</a></p>
                     <p><a id="sla-Global-distribution03" href="/pricing/details/ip-addresses/" target="_blank">IP Address Pricing</a> (if your Service Fabric cluster requires other load balancers).</p>
                     <p>To better estimate the cost of required Service Fabric clusters, please use the <a id="sla-Global-distribution04" style="color: #00a8d9;" href="/pricing/calculator/" target="_blank">Azure Pricing Calculator</a>.</p>
                     <!-- END: Table1-Content-->

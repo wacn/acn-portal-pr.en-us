@@ -17,7 +17,7 @@
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
                 <p>The virtual network in Azure is free of charge. Every subscription permits building at most 50 virtual networks across all regions.</p>
-                <p>The public IP address and retained IP address used by services in virtual networks are charged.</p>
+                <p>The public IP address and reserved IP address used by services in virtual networks are charged.</p>
                 <p>The network devices including VPN gateway and application gateway running in the virtual network are also charged.</p>
             </div>
 			
@@ -31,11 +31,11 @@
                             <th align="left"><strong>Price</strong></th>
                         </tr>
                         <tr>
-                            <td>Incoming Data Transmission</td>
+                            <td>Inbound data transfers</td>
                             <td>¥ 0.06572 /GB</td>
                         </tr>
                         <tr>
-                            <td>Outgoing Data Transmission</td>
+                            <td>Outbound data transfer</td>
                             <td>¥ 0.06572 /GB</td>
                         </tr>
                     </table>
@@ -44,11 +44,11 @@
 			
             <div class="pricing-page-section">
                 <h2>IP Address</h2>
-                <p>The public IP address and retained IP address can be applied to services running in the virtual network. The <a target="_blank"  id="virtual_network_price_here" style="color: #00a8d9;" href="/pricing/details/reserved-ip-addresses/">IP Address Pricing Details</a> page lists the standard fees of these IP addresses.</p>
+                <p>The public IP address and reserved IP address can be applied to services running in the virtual network. The <a target="_blank"  id="virtual_network_price_here" style="color: #00a8d9;" href="/pricing/details/reserved-ip-addresses/">IP Address Pricing Details</a> page lists the standard fees of these IP addresses.</p>
             </div>
             <div class="pricing-page-section">
                 <h2>VPN Gateway</h2>
-                <p>The virtual network may have one or several VPN gateways of the local network or other virtual networks connected back to Azure.</p>
+                <p>The virtual network may have one or several VPN gateways of the on-premises network or other virtual networks connected back to Azure.</p>
                 <p>For the charging standards of VPN gateways, see the <a target="_blank" class="link-btn" id="virtual_network_price_detail" style="color: #00a8d9;" href="/pricing/details/vpn-gateway/">VPN Gateway Pricing Details</a> page.</p>
             </div>
 

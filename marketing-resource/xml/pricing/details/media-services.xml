@@ -126,7 +126,7 @@
                     </table>
                     <p><strong>Example:</strong> If there is a QuickTime video with a resolution of 1920x1080p and a duration of 20 minutes, then it will encode as a mono track MP4 output with the same resolution of 1920x1080p. The effective multiplier will be 2 (HD) plus 0.25 (audio) with a total multiplier of 2.25. The total billing minutes will be (20 minutes x 2.25) = 45 output minutes. If Media Encoder Standard is applied for encoding, the cost will be (45 output minutes x ￥ 0.09858/output minutes) = ￥ 4.4361</p>
                     <p>See FAQ for more examples.</p>
-                    <p>There may also be <a href="/pricing/details/storage/">Storage Space</a> and <a href="/pricing/details/data-transfer/">Data Transmission Rates</a> that will be billed at standard Azure rates.</p>
+                    <p>There may also be <a href="/pricing/details/storage/">Storage Space</a> and <a href="/pricing/details/data-transfer/">Data Transfer Rates</a> that will be billed at standard Azure rates.</p>
                     <!-- BEGIN: Table2-Content-->
                     <h3>Media reserved units</h3>
 					<p>From January 1, 2017, the billing unit for media reservation unit changed from daily to hourly, and the price was lowered.</p> 
@@ -226,7 +226,7 @@
                     </table>
                     <p><sup>1</sup> Live Channels are used in conjunction with streaming units to provide live streaming services. Please refer to this page for details of pricing for streaming units.</p>
                     <p>Billing is prorated per minute. Billing is based on the amount of time the channel is in a running state. Stop channels when not in use to avoid unnecessary costs.</p>
-                    <p>There may also be <a id="Media_serivce_storage2" href="/pricing/details/storage/" target="_blank">Storage</a> and <a id="Media_serivce_data2" style="color: #008fbf;" href="/pricing/details/data-transfer/" target="_blank">Data Transmission Rates</a> that will be charged at standard Azure rates.</p>
+                    <p>There may also be <a id="Media_serivce_storage2" href="/pricing/details/storage/" target="_blank">Storage</a> and <a id="Media_serivce_data2" style="color: #008fbf;" href="/pricing/details/data-transfer/" target="_blank">Data Transfer Rates</a> that will be charged at standard Azure rates.</p>
                     <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
                     <h3>Live Channels with Live Encoding</h3>
                     <p>Live Channels with Live Encoding is now officially released. Since December 19, 2017, the price has been lowered again. The following is the comparison table between the original price and the new price:</p>
@@ -262,12 +262,12 @@
                         </tr>
                     </table>
                     <p>Billing is prorated per minute. Billing is based on the amount of time the channel is in a running state. Stop channels when not in use to avoid unnecessary costs.</p>
-                    <p>There may also be <a href="/pricing/details/storage/">Storage Space</a> and <a href="/pricing/details/data-transfer/">Data Transmission Rates</a> that will be billed at standard Azure rates.</p>
+                    <p>There may also be <a href="/pricing/details/storage/">Storage Space</a> and <a href="/pricing/details/data-transfer/">Data Transfer Rates</a> that will be billed at standard Azure rates.</p>
                     <!-- END: Table2-Content-->
                 </div>
                 <!-- END: TAB-CONTAINER-2 --> <!-- BEGIN: TAB-CONTAINER-3 -->
                 <div class="tab-control-container" id="tabContent3">
-                    <p>Deliver on-demand and live video streaming to customers on a large scale in multiple formats. Standard and Advanced streaming services can deliver content directly to media player applications or content delivery networks (CDNs) for further distribution.</p>
+                    <p>Deliver on-demand and live video streaming to customers on a large scale in multiple formats. Standard and Premium streaming services can deliver content directly to media player applications or content delivery networks (CDNs) for further distribution.</p>
                     <p>Streaming unit provides dedicated bandwidth capacity for on-demand and live streaming. Live Channel (utilized with streaming units) provides live streaming capability.</p>
                     <p>Media Services customers can choose Standard endpoints or one or more Premium streaming units according to their needs. The <strong>Standard streaming endpoint</strong> is suitable for high workloads. It has the same functionality as the Premium streaming units and can automatically scale outbound bandwidth. The <strong>Premium streaming units</strong> are suitable for high workloads and provides dedicated, scalable bandwidth capacity. The Premium streaming unit will "stack", which means that each enabled unit will provide additional bandwidth capacity for the application. The Standard streaming endpoint will not "stack"; instead, it automatically scales bandwidth based on bandwidth requirements. Please visit the <a href="/home/features/media-services/">Media Services Functions</a> page for more information on the service.</p>
                     <p>Billing for stream processing is jointly determined by the stream processing service and the amount of data transferred. After enabling Azure CDN through the Media Services Portal or APIs of stream processing endpoints, <a href="/pricing/details/cdn/">Standard CDN Pricing</a> applies to all transmitted data. If Azure CDN is not enabled for stream processing endpoints, data transfer is charged according to <a href="/pricing/details/data-transfer/" id="media-services_data-transfer">Data Transfer Pricing </a>.</p>
@@ -317,7 +317,7 @@
                 <div class="tab-control-container" id="tabContent4">
                     <!-- BEGIN: Table1-Content-->
                     <h3>PlayReady</h3>
-                    <p>Ensure asset security with PlayReady Digital Rights Management (DRM), Apple FairPlay Streaming, or encryption with clear key advanced encryption standard (AES). Pricing is made on the number of licenses or keys issued by the service.</p>
+                    <p>Ensure asset security with PlayReady Digital Rights Management (DRM), Apple FairPlay Streaming, or encryption with clear key Premium encryption standard (AES). Pricing is made on the number of licenses or keys issued by the service.</p>
                     <!-- <p>从2016年4月1日起，PlayRead 的价格下调 25.5%，以下是下调后的新价格：</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -336,7 +336,7 @@
                         </tr>                        
                     </table>
                     <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
-                    <h3>Advanced encryption standard (AES) Keys</h3>
+                    <h3>Premium encryption standard (AES) Keys</h3>
                     <!-- <p>从2016年4月1日起， 高级加密标准 (AES) 密钥价格下调 25.5%，以下是下调后的新价格：</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -352,7 +352,7 @@
                             <td>￥ 0.67/100 keys</td>
                         </tr>
                     </table>
-                    <p>There may also be <a id="Media_serivce_storage3" href="/pricing/details/storage/" target="_blank">Storage</a> and <a id="Media_serivce_data3" href="/pricing/details/data-transfer/" target="_blank">Data Transmission Rates</a> that will be charged at standard Azure rates.</p>
+                    <p>There may also be <a id="Media_serivce_storage3" href="/pricing/details/storage/" target="_blank">Storage</a> and <a id="Media_serivce_data3" href="/pricing/details/data-transfer/" target="_blank">Data Transfer Rates</a> that will be charged at standard Azure rates.</p>
                     <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
                     <h3>FairPlay</h3>
                     <div class="tags-date">
@@ -405,7 +405,7 @@
                     </table>
                     <p><sup>1</sup> The cost is prorated by minutes, and the minimum fee is charged starting from five minutes.</p>
                     <h3>Redactor  <sup style="color:#e66102; font-weight: bold">new</sup></h3>
-                    <p>The video is anonymized by detecting and obscuring the faces of selected individuals. The Azure Media Editor is very applicable to public security and news media programs. Pricing depends on the duration and resolution of the input file. Where possible, the editor may also use the media reserved unit to run video parallel-processing tasks. (Note: the Service Level Agreement of the editor is only applicable to the S3 media reserved unit). For more details, please refer to our <a href="https://docs.azure.cn/zh-cn/media-services/media-services-face-redaction">documentation</a>.</p>
+                    <p>The video is anonymized by detecting and obscuring the faces of selected individuals. The Azure Media Redactor is very applicable to public security and news media programs. Pricing depends on the duration and resolution of the input file. Where possible, the Redactor may also use the media reserved unit to run video parallel-processing tasks. (Note: the Service Level Agreement of the editor is only applicable to the S3 media reserved unit). For more details, please refer to our <a href="https://docs.azure.cn/zh-cn/media-services/media-services-face-redaction">documentation</a>.</p>
                     <p>Note: As of October 31, 2017, all input resolutions (no more than 1920x1200) are charged according to the metering of S1. Starting November 1, 2017, usage will be measured according to the "Supported Input Resolutions" as set out below.</p>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -651,7 +651,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Media_faq_que14">How does the Editor measure non-standard video resolution? </a>
+                                <a id="Media_faq_que14">How does the Redactor measure non-standard video resolution? </a>
                                 <section>
                                     <p>Both sides of the input video must be consistent with the supported input resolution for each measurement. For example, a video with resolution of 600x481 that exceeds the maximum 640x480 resolution of S1, where both sides are greater than 480, will be regarded as an S2 measurement.</p>
                                 </section>

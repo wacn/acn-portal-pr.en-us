@@ -47,7 +47,7 @@
                             <td>￥ 342.55/month for storage of every protected instance</td>
                         </tr>
                     </table>
-                    <p>Besides, storage, storage transactions and data transmission are independently charged.</p>
+                    <p>Besides, storage, storage transactions and Data Transfer are independently charged.</p>
                     <p>Azure Site Recovery is charged by the average daily number of protected instances stored per month. For example, if you have 20 protected instances stored in the former half of the month and have no Virtual Machine instance storage protection in the latter half of the month, the daily protected instance storage of the month will be 10.</p>
                  
                 </div>
@@ -59,7 +59,7 @@
                 <p>Site Recovery service is available in the following regions:</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territories</strong></th>
+                        <th align="left"><strong>Territory</strong></th>
                         <th align="left"><strong>Region</strong></th>
                     </tr>
                     <tr>

@@ -222,7 +222,7 @@
                     </div>
 					
 					<h3>Basic Service Plan</h3>
-					<p>Designed for apps that have lower traffic requirements and don’t need more advanced auto-scale and traffic management features. Pricing is based on the size and number of VM instances you run. Built-in network load balancing support automatically distributes traffic between VM instances.</p>
+					<p>Designed for apps that have lower traffic requirements and don’t need more Premium auto-scale and traffic management features. Pricing is based on the size and number of VM instances you run. Built-in network load balancing support automatically distributes traffic between VM instances.</p>
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
                         <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
@@ -296,7 +296,7 @@
                     </table>
                     
 					<h3>Premium Service Plan</h3>						
-					<p>The Premium plan is designed for API apps. <!--支持大量缩放实例、附加连接器和 BizTalk 功能，并同时-->All the advanced capabilities found in the Standard plan are included.<!-- 高级计划还能够创建应用服务环境 (ASE)，它提供完全隔离，并在客户的虚拟网络中运行且最多增加到 50 个实例（根据请求可增加更多实例）。ASE 部署也支持超大 (XL) 实例。</p> -->
+					<p>The Premium plan is designed for API apps. <!--支持大量缩放实例、附加连接器和 BizTalk 功能，并同时-->All the Premium capabilities found in the Standard plan are included.<!-- 高级计划还能够创建应用服务环境 (ASE)，它提供完全隔离，并在客户的虚拟网络中运行且最多增加到 50 个实例（根据请求可增加更多实例）。ASE 部署也支持超大 (XL) 实例。</p> -->
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
                         <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
