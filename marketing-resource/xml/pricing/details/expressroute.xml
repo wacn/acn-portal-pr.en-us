@@ -39,8 +39,8 @@
                             <th align="left"><strong>Port Speed</strong></th>
                             <th align="left"><strong>Monthly Prices</strong></th>
                             <th align="left"><strong>Monthly Price of Premium Edition Add-on</strong></th>
-                            <th align="left"><strong>Includes Incoming Data Transmission</strong></th>
-                            <th align="left"><strong>Includes Outgoing Data Transmission</strong></th>
+                            <th align="left"><strong>Includes Inbound data transfers</strong></th>
+                            <th align="left"><strong>Outbound data transfer</strong></th>
                         </tr>
                         <tr>
                             <td>50 Mbp(A0)</td>
@@ -131,8 +131,8 @@
                             <th align="left"><strong>Port Speed</strong></th>
                             <th align="left"><strong>Monthly Prices</strong></th>
                             <th align="left"><strong>Monthly Price of Premium Edition Add-on</strong></th>
-                            <th align="left"><strong>Includes Incoming Data Transmission</strong></th>
-                            <th align="left"><strong>Includes Outgoing Data Transmission</strong></th>
+                            <th align="left"><strong>Includes Inbound data transfers</strong></th>
+                            <th align="left"><strong>Outbound data transfer</strong></th>
                         </tr>
                         <tr>
                             <td>50 Mbp(A0)</td>
@@ -228,7 +228,7 @@
                             <div>
                                 <a id="expressroute-china">If I connect to one of China's ExpressRoute locations (such as Eastern China), can I access other areas in China via ExpressRoute?</a>
                                 <section>
-                                    <p>Yes. After connecting to one of China's ExpressRoute locations (such as Eastern China), you can purchase ExpressRoute's advanced services (to be launched in the near future) to access other regions in China via ExpressRoute.</p>
+                                    <p>Yes. After connecting to one of China's ExpressRoute locations (such as Eastern China), you can purchase ExpressRoute's Premium services (to be launched in the near future) to access other regions in China via ExpressRoute.</p>
                                 </section>
 
                             </div>

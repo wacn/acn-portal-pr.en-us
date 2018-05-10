@@ -35,8 +35,8 @@
                             </tr>
 							<tr>
                                 <td><p>Static IP address</p><p>(Retention + utilization)</p></td>
-                                <td><p>The first 5 retained IP addresses associated with the cloud service currently used: free of charge</p><p>Others: ¥ 0.026/hour (¥ 19.344/month)<sup>2</sup></p></td>
-                                <td><p>The first 5 retained IP addresses associated with the cloud service currently used: ￥ 0.026/hour (￥ 19.344/month)</p><p>Others: ¥ 0.052/hour (¥ 38.688/month)<sup>3</sup></p></td>
+                                <td><p>The first 5 reserved IP addresses associated with the cloud service currently used: free of charge</p><p>Others: ¥ 0.026/hour (¥ 19.344/month)<sup>2</sup></p></td>
+                                <td><p>The first 5 reserved IP addresses associated with the cloud service currently used: ￥ 0.026/hour (￥ 19.344/month)</p><p>Others: ¥ 0.052/hour (¥ 38.688/month)<sup>3</sup></p></td>
                             </tr>
                     </table> 
                     <div class="tags-date">
@@ -49,7 +49,7 @@
                     <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
                     <h3>IP address remaps </h3>
                     <!--<p>即日起，IP 地址重新映射价格下调 24%，以下是下调后的新价格：</p>-->
-					<p>Whenever the retained IP address is associated with a new cloud service, it’s deemed as a remapping.</p>
+					<p>Whenever the reserved IP address  is associated with a new cloud service, it’s deemed as a remapping.</p>
                     <div class="tags-date">
                         <div class="ms-date">*Suitable only for deployment in ASM/Classics deployment models.</div><br />
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -105,7 +105,7 @@
                             <div>
                                 <a id="public_IP_question2">When does the billing clock for public IP address start and stop?</a>
                                 <section>
-                                    <p>For the “static” public IP address in the ARM deployment model and the “retained” IP address in the ASM deployment model, the billing clock will start from the 2nd hour after you create the IP address so that some time is left to allocate IP addresses. The billing clock will stop after you delete the IP addresses.</p>
+                                    <p>For the “static” public IP address in the ARM deployment model and the “reserved” IP address in the ASM deployment model, the billing clock will start from the 2nd hour after you create the IP address so that some time is left to allocate IP addresses. The billing clock will stop after you delete the IP addresses.</p>
 									<p>For all other IP addresses, the clock will start once relevant resources are activated, or stop when deleting or stopping allocation of relevant resources. </p>	
                                 </section>
 
@@ -134,9 +134,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="public_IP_question4">What’s an unused retained IP address?</a>
+                                <a id="public_IP_question4">What’s an unused reserved IP address ?</a>
                                 <section>
-                                    <p>This is a retained IP address that is not used in the running deployment. We nominally charge the retained IP address not being used (see the pricing table).</p>
+                                    <p>This is a reserved IP address that is not used in the running deployment. We nominally charge the reserved IP address not being used (see the pricing table).</p>
                                 </section>
 
                             </div>
@@ -145,10 +145,10 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="public_IP_question5">When the virtual machine is in a suspended de-allocation state, will you charge a certain retained IP address?</a>
+                                <a id="public_IP_question5">When the virtual machine is in a stopped-deallocated  state, will you charge a certain reserved IP address?</a>
                                 <section>
-                                    <p>No, not if there is a virtual machine running in the deployment and the retained IPs include one of 5 retained IP addresses currently in use.</p>
-                                    <p>However, the retained IP addresses will be charged if all virtual machines in deployment are in a suspended de-allocation state.</p>
+                                    <p>No, not if there is a virtual machine running in the deployment and the reserved IPs include one of 5 retained IP addresses currently in use.</p>
+                                    <p>However, the reserved IP addresses will be charged if all virtual machines in deployment are in a stopped-deallocated state.</p>
                                 </section>
 
                             </div>

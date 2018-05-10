@@ -16,7 +16,7 @@
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>By providing HTTP load balancing and delivery control, Azure Application Gateway permits you to build highly expandable and highly available websites.</p>
+                <p>By providing HTTP load balancing and delivery control, Azure Application Gateway permits you to build highly scalable and highly available websites.</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
@@ -141,10 +141,10 @@
                     
                     <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
                     <h3>Inbound data transfers</h3>
-                    <p>(Namely, data transmission into the Azure Datacenter): data transmitted into the Azure Datacenter via Application Gateway will be charged at the standard <a class="rolecashLink" id="redis_roleCaching_datacenter" href="/pricing/details/data-transfer/" target="_blank">Data Transmission Rate</a>.</p>
+                    <p>(Namely, Data Transfer into the Azure Datacenter): data transmitted into the Azure Datacenter via Application Gateway will be charged at the standard <a class="rolecashLink" id="redis_roleCaching_datacenter" href="/pricing/details/data-transfer/" target="_blank">Data Transfer Rate</a>.</p>
                     <!-- END: Table3-Content--> <!-- BEGIN: Table4-Content-->
                     <h3>Outbound data transfers</h3>
-                    <p>(Namely, data transmission from Azure Datacenter): data transmitted from Azure Datacenter via Application Gateway will be charged at the standard <a class="rolecashLink" id="redis_roleCaching_cloudService" href="/pricing/details/data-transfer/" target="_blank">Data Transmission Rate</a>.</p>
+                    <p>(Namely, Data Transfer from Azure Datacenter): data transmitted from Azure Datacenter via Application Gateway will be charged at the standard <a class="rolecashLink" id="redis_roleCaching_cloudService" href="/pricing/details/data-transfer/" target="_blank">Data Transfer Rate</a>.</p>
                     <!-- END: Table4-Content-->
                 </div>
                 <!-- END: TAB-CONTAINER-1 -->

@@ -63,7 +63,7 @@
                                 <section>
                                     <p>The new pricing has two components:</p>
                                     <ul>
-                                        <li>Used Azure Block Blob Storage capacity: used for storing backup data and restore points. Storage redundancy options are also flexible. For the backup vault, customers can choose between locally redundant storage (LRS) and geo-redundant storage (GRS).</li>
+                                        <li>Used Azure Block Blob Storage capacity: used for storing backup data and restore points. Storage redundancy options are also flexible. For the backup vault, customers can choose between Locally redundant storage (LRS) and geo-redundant storage (GRS).</li>
                                         <li>Price of Azure Backup software for protected instances.</li>
                                     </ul>
                                     <p>This content will be listed on your Azure monthly bills as individual line items.</p>
@@ -274,7 +274,7 @@
                             <div>
                                 <a id="Backup_price_stor2">Does Block Blob pricing apply to LRS or GRS storage?</a>
                                 <section>
-                                    <p>This depends on the storage options selected for the backup vault. The storage options for backup vaults include: locally redundant storage (LRS) or geo-redundant storage (GRS).</p>
+                                    <p>This depends on the storage options selected for the backup vault. The storage options for backup vaults include: Locally redundant storage (LRS) or geo-redundant storage (GRS).</p>
                                 </section>
                             </div>
                         </li>
@@ -294,7 +294,7 @@
                                 <section>
                                     <p>The Azure <a id="bp_pri_stor4" href="/home/features/storage/#pricing">Storage Pricing Page</a> provides basic guidance relating to the value of LRS and GRS storage types.</p>
                                     <p>In ideal conditions, the backup data should be placed on GRS if the recovered object needs to be used immediately. This ensures that there are always copies of other backup data for time-critical recovery.</p>
-                                    <p>Price-sensitive customers seeking to maintain inexpensive storage (in lieu of local disk) on a long-term basis will find huge value in using Local Redundant Storage.</p>
+                                    <p>Price-sensitive customers seeking to maintain inexpensive storage (in lieu of local disk) on a long-term basis will find huge value in using Locally Redundant Storage.</p>
                                 </section>
                             </div>
                         </li>
