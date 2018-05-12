@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/site-recovery@2x.png" />
-                        <h2><span>Site Recovery</span></h2>
+                        <h2>Azure Site Recovery<span>Site Recovery</span></h2>
                         <h4>Schedules and manages the recovery process, and replicates the primary data center to a secondary site, to implement data management, service continuity, and disaster recovery.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_recovery_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_recovery_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -37,7 +37,7 @@
                 <p>Site Recovery continuously monitors the status of the System Center Virtual Machine Manager cloud remotely from Azure. When you replicate between two sites that you control, only the Virtual Machine Manager server directly communicates with Azure - your virtual machine data and replicated content remains on the network, and all communication with Azure is encrypted. When you replicate to Azure as a secondary site, your data is encrypted, and you can also choose to encrypt static data.</p>
 
                 <h2>Arranged recovery</h2>
-                <p>This service helps you to automatically recover services in an orderly manner if the primary datacenter suffers from site interruptions. Virtual machines can be started in a pre-arranged way, so that you can restore service quickly, even if you are dealing with complex, multi-tier workloads. You can conveniently create recovery plans with Azure Management Portal and save them in the portal. Depending on your service requirements, the recovery plan may be relatively simple or extremely advanced, including running custom Windows PowerShell scripts and suspending operation to facilitate manual intervention. You can also map virtual networks between the primary site and the recovery site, and customize the network. You can test these plans at any time without interfering with the services of the primary location.</p>
+                <p>This service helps you to automatically recover services in an orderly manner if the primary datacenter suffers from site interruptions. Virtual machines can be started in a pre-arranged way, so that you can restore service quickly, even if you are dealing with complex, multi-tier workloads. You can conveniently create recovery plans with Azure Management Portal and save them in the portal. Depending on your service requirements, the recovery plan may be relatively simple or extremely Premium, including running custom Windows PowerShell scripts and suspending operation to facilitate manual intervention. You can also map virtual networks between the primary site and the recovery site, and customize the network. You can test these plans at any time without interfering with the services of the primary location.</p>
 
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
