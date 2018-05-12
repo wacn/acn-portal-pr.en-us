@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/SQL_DW_icon.png" />
-                        <h2><!-- <sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">预览</sup>--> <span>SQL Data Warehouse</span></h2>
+                        <h2>SQL Data Warehouse<!-- <sup style="color: #a5ce00; font-weight: bold; text-transform: uppercase; font-family: '微软雅黑'; font-size: 20px;" class="wa-previewTag">预览</sup>--> <span>SQL Data Warehouse</span></h2>
                         <h4>Fully-managed and highly scalable data warehousing services.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_warehouse_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_warehouse_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -29,7 +29,7 @@
                 <p>In the past, data warehousing required fixed storage devices and computing pools that generally resulted in poor utilization of expensive resources. With Azure SQL Data Warehouse, storage and computing are independently scalable, so you can use the optimal price-performance ratio to dynamically deploy, expand, contract, and even pause computing. SQL Data Warehouse can also utilize the powerful functions and convenience of T-SQL to enable you to easily integrate query results that span relational data in data warehouses and non-relational data in Azure Blob Storage. Visit Azure portal and select “Add new function” to register for our restricted public preview version.</p>
 
                 <h2>Provides breakthrough price/performance queries</h2>
-                <p>SQL Data Warehouse uses Microsoft’s massively parallel processing (MPP) architecture to gain insights on acquisition time (rather than hardware) costs, with payment based on performance targets for basic data warehousing operations such as scanning, loading and query processing). SQL Data Warehouse uses the columnstore indexes within SQL Server’s internal storage and a cost-based advanced query optimizer to provide the best prices and performance.</p>
+                <p>SQL Data Warehouse uses Microsoft’s massively parallel processing (MPP) architecture to gain insights on acquisition time (rather than hardware) costs, with payment based on performance targets for basic data warehousing operations such as scanning, loading and query processing). SQL Data Warehouse uses the columnstore indexes within SQL Server’s internal storage and a cost-based Premium query optimizer to provide the best prices and performance.</p>
                 
                 <h2>Only pay for what you use when you need it</h2>
                 <p>As SQL Data Warehouse independently scales computing and storage, you only pay for query performance when it is needed. Unlike other cloud data warehouses that take hours or even days to make size adjustments, SQL Data Warehouse lets you increase or decrease computing capabilities in minutes, so you can make good use of cloud-scale storage and use query computing based on constantly changing performance requirements. When computing is paused, you just pay for storage at our market-leading on-demand per TB prices.</p>

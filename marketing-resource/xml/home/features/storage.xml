@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/storage@2x.png" />
-                        <h2><span>Storage</span></h2>
+                        <h2>Storage<span>Storage</span></h2>
                         <h4>Suitable for various types of data, economical and reliable cloud storage, provides a high guarantee of security, lasting and stable storage, has the capability to scale rapidly and flexibly.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_storage_trial">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_storage_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -29,7 +29,7 @@
                 <p>Azure Storage Service possess a high degree of flexibility when it comes to data storage and retrieval. It can store large amounts of unstructured data, for example you can use Azure Blob to store documents and media files, or use Azure Storage Table to form NoSQL data, or use Azure Queue Storage for reliable information. And, based on SMB <a id="home-files_storage" class="link-btn_one" href="/home/features/storage/files/" style="color:#00a8d9" target="_blank">Azure File</a>service, sequence local apps for migration to the cloud.</p>
                 
                 <h2>Premium Storage</h2>
-                <p>Azure Advanced Storage is a Azure virtual machine running an I/O-intensive workload to provide high performance and low-latency disk support. You can add several advanced storage disks to a virtual machine (VM). With the help of advanced storage and apps, each VM can hold up to 32 TB of storage and achieve 50,000 IOPS (input/output operations per-second). Read operation latency is also very low. Currently, Advanced Storage can only store data on Azure Virtual Machine disks.</p>
+                <p>Azure Premium Storage is a Azure virtual machine running an I/O-intensive workload to provide high performance and low-latency disk support. You can add several Premium storage disks to a virtual machine (VM). With the help of Premium storage and apps, each VM can hold up to 32 TB of storage and achieve 50,000 IOPS (input/output operations per-second). Read operation latency is also very low. Currently, Premium Storage can only store data on Azure Virtual Machine disks.</p>
                 <p><a id="home_advanceStoMore" href="/home/features/xio-storage/" target="_blank">Find out more</a></p>
 
                 <h2>High flexibility</h2>

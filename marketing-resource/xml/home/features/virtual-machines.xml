@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/icon-virtual-machines.png" />
-                        <h2><span>Virtual Machines</span></h2>
+                        <h2>Virtual Machines<span>Virtual Machines</span></h2>
                         <h4>The Windows Server and Linux Server can be started within a few minutes. You can fully control the server in the cloud and maintain it according to your business needs.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_vm_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vm_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -24,14 +24,14 @@
                     <li>Supports Linux, Windows Server, SQL Server, Oracle, IBM and SAP</li>
                     <li>Billing by the minute, saves on costs</li>
                 </ul>
-                <p>You can deploy Windows Server, Linux, or third-party software mirrors onto Azure using the Azure Virtual Machines, and select the mirrors in the library or use self-defined mirrors.</p>
-                <p>The Azure mirror library provides the following editions of Windows Server: Windows Server 2008 R2, Windows Server 2012 and Windows Server 2012 R2.</p>
-                <p>The Azure mirror library also provides the following editions of SQL Server: SQL Server 2014, SQL Server 2012, and SQL Server 2008 R2.</p>
+                <p>You can deploy Windows Server, Linux, or third-party software mirrors onto Azure using the Azure Virtual Machines, and select the mirrors in the library or use self-defined images.</p>
+                <p>The Azure image library provides the following editions of Windows Server: Windows Server 2008 R2, Windows Server 2012 and Windows Server 2012 R2.</p>
+                <p>The Azure image library also provides the following editions of SQL Server: SQL Server 2014, SQL Server 2012, and SQL Server 2008 R2.</p>
                 <p><strong>Warning:</strong></p>
                 <p>Azure Virtual Machines disk contains a temporary disk, the D: disk (Windows) or /dev/sdb1 (Linux). They only provide temporary storage, so there is a risk of data loss and that the data cannot be recovered. This often occurs when the Virtual Machines is migrated to different host machines. Reasons for Virtual Machines migration include: adjust the size of the Virtual Machines, updating the host machine, or host machine hardware failure.</p>
                 <!-- <a href="//docs.azure.cn/zh-cn/virtual-machines/linux/classic/faq/" id="home_vm_overview_info" class="single-link">了解更多信息<i class="icon icon-arrow-right-thin"></i></a> -->
                 <h2>SQL Server</h2>
-                <p>Using mirrors created by the SQL Server team, you can easily set up SQL Server within a few minutes. You can build Virtual Machines with the free MSDN license provided for the rapid development/testing environment, or deploy complex production applications across multiple Azure regions using SQL Server AlwaysOn.</p>
+                <p>Using images created by the SQL Server team, you can easily set up SQL Server within a few minutes. You can build Virtual Machines with the free MSDN license provided for the rapid development/testing environment, or deploy complex production applications across multiple Azure regions using SQL Server AlwaysOn.</p>
 
                 <h2>Open, More Options Available</h2>
                 <p>You can deploy fully open and community-driven OS and software solutions on Azure. With Azure, you can select various Linux release editions, including Ubuntu and SUSE. Azure is open and provides you with many options.</p>
@@ -58,11 +58,11 @@
             <div class="pricing-page-section link-group-container">
                 <h1>More</h1>
                 <ul>
-                    <li><a href="//docs.azure.cn/zh-cn/virtual-machines/linux/endorsed-distros?toc=%2fvirtual-machines%2flinux%2ftoc.json" id="home_virtual_documention_list">Virtual Machines mirrors supported in Azure </a></li>
+                    <li><a href="//docs.azure.cn/zh-cn/virtual-machines/linux/endorsed-distros?toc=%2fvirtual-machines%2flinux%2ftoc.json" id="home_virtual_documention_list">Virtual Machines images supported in Azure </a></li>
                     <li><a href="//docs.azure.cn/zh-cn/virtual-machines/windows/quick-create-portal/" id="home_virtual_tutorial-classic-portal">Create Virtual Machines running Windows Server </a></li>
                     <li><a href="//docs.azure.cn/zh-cn/virtual-machines/linux/quick-create-portal/" id="home_virtual_linux-tutorial-portal-rm">Create Virtual Machines running Linux </a></li>
                     <li><a href="/home/features/virtual-network/" id="home_virtual-machines_networking">Virtual Network</a></li>
-                    <li><a href="//docs.azure.cn/zh-cn/virtual-machines/windows/manage-availability/" id="home_virtual_cap">Capture mirrors of Windows Server </a></li>
+                    <li><a href="//docs.azure.cn/zh-cn/virtual-machines/windows/manage-availability/" id="home_virtual_cap">Capture images of Windows Server </a></li>
                     <li><a href="//docs.azure.cn/zh-cn/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-ps-sql-create/" id="home_virtual_sqlserver">Learn details about the SQL Server on Azure </a></li>
                 </ul>
             </div>
@@ -73,7 +73,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-virtual-machines</linkid>
     <metaKeywords>Azure, Virtual Machines, Virtual Machines, features, SQL Server, Virtual Machines instances</metaKeywords>
-    <metaDescription><![CDATA[Azure Virtual Machines (Virtual Machines) can rapidly create scalable Linux or Windows servers and deploy open-source Virtual Machines locally or in the cloud. It has built-in virtual network and load balancing, and a mixed environment compatible with local environment support Microsoft SQL Server and SharePoint Server. You can deploy Windows Server, Linux or third-party software mirrors onto Azure using Azure Virtual Machines, and select the mirrors in the library or use self-defined mirrors.]]></metaDescription>
+    <metaDescription><![CDATA[Azure Virtual Machines (Virtual Machines) can rapidly create scalable Linux or Windows servers and deploy open-source Virtual Machines locally or in the cloud. It has built-in virtual network and load balancing, and a mixed environment compatible with local environment support Microsoft SQL Server and SharePoint Server. You can deploy Windows Server, Linux or third-party software images onto Azure using Azure Virtual Machines, and select the images in the library or use self-defined images.]]></metaDescription>
     <urlDisplayName>Virtual Machines</urlDisplayName>
   </TextpageLeftNav>
 </localize>

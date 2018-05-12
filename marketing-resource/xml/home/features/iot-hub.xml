@@ -8,8 +8,10 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/azure-iot-hub80.png" />
-                        <h2><span>Azure IoT Hub</span></h2>
-                        <h4>Connect, monitor, and control millions of IoT assets, and improve the security of IoT solutions</h4><em><a href="/pricing/1rmb-trial/" id="home_iot-hub_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-hub_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a></div>
+                        <h2>Azure IoT Hub<span>Azure IoT Hub</span></h2>
+                        <h4>Connect, monitor, and control millions of IoT assets, and improve the security of IoT solutions</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_iot-hub_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-hub_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
@@ -26,7 +28,7 @@
                 <p>Easily connect IoT assets with Azure IoT Hub. Use device-to-cloud telemetry to find out the status of devices and assets and take immediate action as soon as devices need attention. Reliably send instructions and notifications to connected devices using cloud-to-device messaging, and track message delivery using confirmation receipts. Adapt to intermittently connected devices by sending device messages with persistent methods.</p>
 
                 <h2>Use familiar platforms and protocols</h2>
-                <p>Add new devices and connect existing devices with open source device SDKs that work on multiple platforms (including Linux, Windows and real-time operating systems). Use standard protocols and custom protocols including HTTP, Advanced Message Queuing Protocol (AMQP) and Message Queuing Telemetry Transport (MQTT).</p>
+                <p>Add new devices and connect existing devices with open source device SDKs that work on multiple platforms (including Linux, Windows and real-time operating systems). Use standard protocols and custom protocols including HTTP, Premium Message Queuing Protocol (AMQP) and Message Queuing Telemetry Transport (MQTT).</p>
 
                 <h2>Increase the security of IoT solutions with authentication for every device</h2>
                 <p>Set identifiers and credentials for each connected device to help you keep cloud-to-device and device-to-cloud messages confidential. To maintain system integrity, please revoke access permissions for specific devices.</p>
