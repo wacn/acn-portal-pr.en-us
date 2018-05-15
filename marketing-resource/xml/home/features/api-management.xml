@@ -71,7 +71,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/api_management@2x.png" />
-                        <h2><span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">API Management</span> <span>Preview</span></h2>
+                        <h2><span>API Management</span></h2>
                         <h4>Publish, manage, secure, and analyze your APIs in minutes</h4>
                         <em><a href="/pricing/1rmb-trial/" id="api-management_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="api-management_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -165,7 +165,7 @@
                     <li><a href="https://docs.azure.cn/zh-cn/api-management/api-management-key-concepts">What is API Management?</a></li>
                     <li><a href="https://docs.azure.cn/zh-cn/api-management/api-management-get-started">Managing your first API in Azure API Management</a></li>
                     <li><a href="https://docs.azure.cn/zh-cn/api-management/api-management-howto-create-apis">How to create an API in Azure API Management</a></li>
-                    <li><a href="https://docs.azure.cn/zh-cn/api-management/api-management-faq">Azure API Management FAQs</a></li>
+                    <li><a href="https://docs.azure.cn/zh-cn/api-management/api-management-faq">Azure API Management FAQ</a></li>
                 </ul>
             </div>
             <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: api-management-Content -->

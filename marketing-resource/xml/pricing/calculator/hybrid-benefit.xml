@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="6" createDate="2014-08-05T07:49:24" updateDate="2016-06-30T15:41:59" urlName="api-management" writerName="content" creatorName="content">
+  <TextpageLeftNav template="6" createDate="2014-08-05T07:49:24" updateDate="2014-10-20T09:41:59" urlName="virtual-machines" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
-           <tags ms.service="api-management" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
-            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/css/images/product-banner-api-01.png','imageHeight':'auto'}">
+           <tags ms.service="" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
-                        <img src="//resource.cdn.azure.cn/marketing-resource/css/images/api_management@2x.png" />
-                        <h2><span>API Management</span></h2>
-                        <h4>Publish, manage, secure, and analyze your APIs in minutes</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_api-management_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_api-management_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        
+                        <h2><span>Azure Hybrid Benefit</span></h2>
+                        <h4>The most cost-effective cloud for Windows Server or SQL Server migration.</h4>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Pricing calculator -->
             <div class="pricing-page-section">                      
-                <div id="calculator" data-service="api-management data-transferenter data-transfer support">
-                </div>
-
+                <div id="calculator" data-service="hybird-benefit data-transferenter data-transfer support" data-addService="media-services traffic-manager backup hdinsight mobile-service"></div>
                 <!-- BEGIN: Pricing calculator Sidebar-->                      
                 <div class="sidebar-win calculator empty hide">
                     <div class="control">
@@ -96,14 +93,14 @@
                 <div class="azsidebar"></div>  
                 <!-- END: Pricing calculator Sidebar-->                  
             </div>
-            <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
+            <!-- END: Pricing calculator --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                    
     
     ]]></bodyText>
-    <pageTitle>Pricing Calculator - API Management | Azure</pageTitle>
+    <pageTitle>Pricing Calculator - Azure Hybrid Benefit</pageTitle>
     <sitemapHide>0</sitemapHide>
-    <linkid>api-management</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, IoT, API Management, Price Estimation</metaKeywords>
-    <metaDescription><![CDATA[Estimate the usage cost of API Management.]]></metaDescription>
-    <urlDisplayName>Pricing Calculator - API Management</urlDisplayName>
+    <linkid>pricing-calculator-hybird-benefit</linkid>
+    <metaKeywords>Azure Hybrid Benefit</metaKeywords>
+    <metaDescription><![CDATA[You can use existing licenses and Software Assurance to save up to 40% on Windows Server virtual machine costs, and obtain all the advantages of cloud computing.]]></metaDescription>
+    <urlDisplayName>Pricing Calculator - Azure Hybrid Benefit</urlDisplayName>
   </TextpageLeftNav>
 </localize>
