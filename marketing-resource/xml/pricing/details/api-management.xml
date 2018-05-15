@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/api_management@2x.png" />
-                        <h2><span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">API Management</span> <span>Preview</span></h2>
+                        <h2><span>API Management</span></h2>
                         <h4>Publish, manage, secure, and analyze your APIs in minutes</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_api_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_api_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -45,10 +45,10 @@
                     </tr>
                     <tr>
                         <td>Pricing</td>
-                        <td>¥ 0.2511/hour </br>(about ¥ 186.8184/month)</td>
-                        <td>¥ 0.7693/hour </br>(about ¥ 572.3592/month)</td>
-                        <td>¥ 3.5897/hour </br>(about ¥ 2,670.7368/month)</td>
-                        <td>¥ 14.6115/hour </br>(about ¥ 10,870.9560/month)</td>
+                        <td>RMB0.5022/hour</br>(about RMB373.6368/month)</td>
+                        <td>RMB1.5386/hour</br>(about RMB1,144.7184/month)</td>
+                        <td>RMB7.1794/hour</br>(about RMB5,341.4736/month)</td>
+                        <td>RMB29.2229/hour</br>(about RMB21,741.8376/month)</td>
                     </tr>
                     <!-- <tr>
                         <td>原价格</td>
@@ -82,12 +82,13 @@
                         <td>4</td>
                         <td>10 per region (call support to add more)</td>
                     </tr>
-                   <!--  <tr>
+                   <tr>
                         <td>SLA</td>
-                        <td>否</td>
+                        <td>No</td>
                         <td>99.9%</td>
-                        <td>99.95%</td>
-                    </tr> -->
+                        <td>99.9%</td>
+                        <td>99.95% <sup>1</sup></td>
+                    </tr>
                     <tr>
                         <td>Azure Active Directory integration</td>
                         <td>Yes</td>
@@ -110,7 +111,7 @@
                         <td>Yes</td>
                     </tr>
                     <tr>
-                        <td>Estimated maximum throughput <sup>1</sup> (per unit)</td>
+                        <td>Estimated maximum throughput <sup>2</sup> (per unit)</td>
                         <td>500 requests/second</td>
                         <td>1,000 requests/second</td>
                         <td>2,500 requests/second</td>
@@ -123,7 +124,8 @@
                         <td>收取标准请见<a href="/pricing/details/data-transfer/"> 数据传输价格详情 </a>页面</td>
                     </tr> -->
                 </table>
-                <p><sup>1 </sup>Actual throughput is affected by many factors, including the number and rate of concurrent client connections, the kind and number of configured policies, payload sizes, and back-end API performance. The numbers in the table were obtained by testing with 1,000 concurrent persistent secure client HTTP connections, minimal payload sizes, no policies configured, and a low-latency back-end API.</p>                   
+                <p><sup>1 </sup> Requires the deployment of at least one unit in two or more regions.</p> 
+                <p><sup>2 </sup>Actual throughput is affected by many factors, including the number and rate of concurrent client connections, the kind and number of configured policies, payload sizes, and back-end API performance. The numbers in the table were obtained by testing with 1,000 concurrent persistent secure client HTTP connections, minimal payload sizes, no policies configured, and a low-latency back-end API.</p>                   
             </div>
 
 
@@ -182,7 +184,7 @@
             <div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="cognitive-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-                 <p>The API Management feature doesn’t offer a service level agreement during the preview period. If you want to learn more about the details of our server level agreement, please visit the <a href="/support/legal/sla/" id="pricing_api-management_sla">Service Level Agreement</a> page.</p>
+                 <p>We guarantee that API management service instances running in the Standard tier will respond to requests to perform operations at least 99.9% of the time. We guarantee that API management service instances deployed across two or more regions running in the Premium tier will respond to requests to perform operations at least 99.95% of the time. No service level agreement is provided for the Developer tier API management service. To learn more about the details of our Service Level Agreement, please visit the<a href="/support/sla/api-management/" id="pricing_api-management_sla">Service Level Agreements</a> page.</p>
             </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                            
     

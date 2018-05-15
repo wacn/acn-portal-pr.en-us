@@ -69,20 +69,19 @@
                             <td>256 KB</td>
                             <td>256 KB</td>
                         </tr>
-                        <tr>
-                            <td>Relay</td>
+                        <!-- <tr>
+                            <td>中继</td>
                             <td><i class="icon icon-tick"></i></td>
                             <td><i class="icon icon-tick"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Event Hubs<sup>1</sup></td>
+                        </tr> --> <!-- <tr>
+                            <td>事件中心<sup> 1</sup></td>
                             <td><i class="icon icon-tick"></i></td>
                             <td><i class="icon icon-tick"></i></td>
-                        </tr>
+                        </tr> -->
                         <tr>
                             <td>Comes with transfer connections</td>
                             <td>100</td>
-                            <td>1,000<sup> 2</sup></td>
+                            <td>1,000<sup> 1</sup></td>
                         </tr>
                         <tr>
                             <td>Transfer connections (excess allowed)</td>
@@ -90,12 +89,12 @@
                             <td><i class="icon icon-tick"></i>(Chargeable)</td>
                         </tr>
                     </table>
-                    <p><sup>1</sup> In the process of service usage, the usage of Event Hubs are charged individually. Please visit the <a id="service_bus_transfer_price-page-event-center" href="/pricing/details/event-hubs/" target="_blank">Event Hubs Pricing Page</a> to learn the relevant rates.</p>
-                    <p><sup>2</sup> The Standard message transfer level (via basic expenses) includes 1,000 transfer connections, so you can share these transfer connections across all queues, themes/subscriptions and Event Hubs in the associated Azure subscription.</p>
+                    <!-- <p><sup>1</sup> 在服务使用过程中，事件中心的使用将单独计费，请访问<a id="service_bus_transfer_price-page-event-center" href="/pricing/details/event-hubs/" target="_blank">事件中心价格页面</a>了解相关费率。</p> -->
+                    <p><sup>1</sup> 1,000 transfer connections are included with the standard messaging tier (via the base charge), which can be shared across all queues, topics/subscriptions, and event hubs within the associated Azure subscription.</p>
 
                     <h2>Message Transfer Operations</h2>
                     <p>One operation refers to any API call to Service Bus services.</p>
-                    <!--<p>从2016年4月1日起，消息传送操作的价格会下调 25.5%，以下是下调后的新价格：</p>-->
+                    <p>As of May 2, 2018, Service Bus standard units are billed by the hour, replacing the current daily and hourly billing to be more consistent with other Azure services. Customers are only required to pay for the hours spent using Service Bus, instead of for an entire day or month.</p>
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br>
                         <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
@@ -107,7 +106,7 @@
                         </tr>
                         <tr>
                             <td>Operation</td>
-                            <td>¥ 0.31 per million operations</td>
+                            <td>RMB0.31 per 1,000,000 operations</td>
                         </tr>
                     </table>
                     <table cellpadding="0" cellspacing="0" width="100%">
@@ -116,8 +115,8 @@
                             <th align="left"><strong>&#160;</strong></th>
                         </tr>
                         <tr>
-                            <td>Basic fees<sup> 1<sup></td>
-                            <td>￥ 63.29/month</td>
+                            <td>Base charge<sup> 1<sup></td>
+                            <td>RMB0.0851/hour (about RMB63.3144/month)</td>
                         </tr>
                         <tr>
                             <td>First 13M operations/month</td>
@@ -125,18 +124,18 @@
                         </tr>
                         <tr>
                             <td>Subsequent 88M operations (13M - 100M operations)/month</td>
-                            <td>¥ 5.21 per million operations</td>
+                            <td>RMB5.21 per 1,000,000 operations</td>
                         </tr>
                         <tr>
                             <td>Subsequent 2,400M operations (100M - 2,500M operations)/month</td>
-                            <td>¥ 3.20 per million operations</td>
+                            <td>RMB3.20 per 1,000,000 operations</td>
                         </tr>
                         <tr>
                             <td>First 2,500M operations/month</td>
-                            <td>¥ 1.27 per million operations</td>
+                            <td>RMB1.27 per 1,000,000 operations</td>
                         </tr>
                     </table>
-                    <p><sup>1</sup> Allocation The basic fee is allocated on a daily basis based on a 31-day month.</p>
+                    <p><sup>1</sup> Charges are prorated on an hourly basis based on 744 hours per month.</p>
 
                     <h2>Transfer connection</h2>
                     <p>Number of AMQP connections or number of HTTP calls to Service Bus.</p>
@@ -156,21 +155,21 @@
                         </tr>
                         <tr>
                             <td>Subsequent 99K (1K – 100K)/month</td>
-                            <td>¥ 0.18 per connection per month</td>
+                            <td>RMB0.18 per connection per month</td>
                         </tr>
                         <tr>
                             <td>Subsequent 400K (100K – 500K)/month</td>
-                            <td>¥ 0.15 per connection per month</td>
+                            <td>RMB0.18 per connection per month</td>
                         </tr>
                         <tr>
                             <td>More than 500K/month</td>
-                            <td>¥ 0.10 per connection per month</td>
+                            <td>RMB0.10 per connection per month</td>
                         </tr>
                     </table>
                     <p>This will be charged by the peak amount of concurrent connections, and the expenses are allocated in proportion every hour, 744 hours every month.</p>
 					
 					<h2>Mixed connection</h2>
-                    <p>Mixed connection is charged per listener, including 5 GB/month of data transmission. In the event of excess of this limit, the extra parts will also be charged.</p>
+                    <p>Mixed connection is charged per listener, including 5 GB/month of Data Transfer. In the event of excess of this limit, the extra parts will also be charged.</p>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <th align="left"><strong>Pricing of Mixed Connections</strong></th>
@@ -178,15 +177,15 @@
                         </tr>
                         <tr>
                             <td>Connection fees (including 5 GB data/month) <sup>1</sup></td>
-                            <td>¥ 76.087/listener per month</br>(¥ 0.102/listener per hour)</td>
+                            <td>RMB76.087 per listener per month</br>(RMB 0.102 per listener per hour)</td>
                         </tr>
                         <tr>
-                            <td>Excess data transmission (excess of the included 5 GB/month of data)</td>
-                            <td>￥ 13.398/GB</td>
+                            <td>Excess Data Transfer (excess of the included 5 GB/month of data)</td>
+                            <td>RMB 13.398/GB</td>
                         </tr>
                     </table>
                     <div class="tags-date">
-                        <div class="ms-date"><sup>1</sup> 5 GB data transmission limits include total data transmission among all listener units.</div>
+                        <div class="ms-date"><sup>1</sup> 5 GB Data Transfer limits include total Data Transfer among all listener units.</div>
                     </div>
 					
                     <h2>Relay</h2>
@@ -202,11 +201,11 @@
                         </tr>
                         <tr>
                             <td>Relay hours</td>
-                            <td>¥ 0.52 per 100 relay hours</td>
+                            <td>RMB0.52 per 100 relay hours</td>
                         </tr>
                         <tr>
                             <td>Number of messages</td>
-                            <td>¥ 0.05 per 10,000 messages</td>
+                            <td>RMB0.05 per 10,000 messages</td>
                         </tr>
                     </table>
                 </div>
@@ -278,7 +277,7 @@
                                         <li>An HTTP call to receiving messages from Service Bus themes or queues with a receiving timeout bigger than zero.<br/>The charging of concurrent transfer connections exceeding the peak of the attached number (standard level is 1,000). Peak value will be measured once every hour. Expenses are allocated in proportion to 744 hours every month, and accumulated within the billing cycle of every month. At the end of the billing period, the amount added will be applied to the sum of the hourly peaks that are prorated (1,000 transfer connections every month).<br/>
                                         Examples<br/>
                                             <ol>
-                                                <li>You can establish connections with 10,000 devices through one AMQP Connection, receive commands from Service Bus themes and send remote-sensing events to Event Hubs. If all devices are connected 12 hours per day, you’re required to pay the following connection fees (excluding any other Service Bus fees): 10,000 connections * 12 hours * 31 days/744 = 5,000 transfer connections. After deducting the limit of 1,000 connections per month, you need to pay a fee of 4,000 transfer connections at a rate of ￥ 0.18 for every transfer connection, totaling ￥ 720.</li>
+                                                <li>Ten thousand devices are connected through an AMQP connection. They receive commands from Service Bus topics and send telemetry events to Event Hubs. If all devices are connected for 12 hours per day, you will need to pay the following connection fees (not including any other Service Bus charges): 10,000 connections x 12 hours x 31 days/744 = 5,000 transfer connections. After deducting the monthly limit of 1,000 transfer connections, you will need to pay for 4,000 transfer connections at a rate of RMB0.18 per transfer connection, for a total of RMB720.</li>
                                                 <li>Timeout is not zero when 10,000 appliances receive messages from Service Bus queues via HTTP. If all appliances are connected 12 hours per day, you’re required to pay the following connection fees (excluding any other Service Bus fees): 10,000 HTTP receiving connections * 12 hours/day * 31 days/744 hours = 5,000 transfer connections.</li>
                                             </ol>
                                         </li>
@@ -301,7 +300,7 @@
                                 <a id="service_bus_standard_charge">If my Azure subscription has multiple standard namespaces, am I charged the basic fees multiple times?</a>
                                 <section>
                                     <p>No. Every Azure subscription is only required to pay the monthly basic fees of a Standard Edition message transfer. This means that after you create a Standard tier Service Bus namespace, you will be able to create any number of Standard tier namespaces in the same Azure subscription without generating any additional basic fees.</p>
-                                    <p>For other FAQs about Service Bus billing, please refer to <a href="http://msdn.microsoft.com/library/azure/hh667438.aspx" id="service-bus-msdn">MSDN articles</a>.</p>
+                                    <p>For other FAQ about Service Bus billing, please refer to <a href="http://msdn.microsoft.com/library/azure/hh667438.aspx" id="service-bus-msdn">MSDN articles</a>.</p>
                                 </section>
                             </div>
                         </li>
@@ -318,10 +317,10 @@
                             <div>
                             <i class="icon icon-plus"></i> <a id="service_bus_standard_charging">How are mixed connections billed?</a>
                             <section>
-                                <p>When creating the first mixed connection listener, you pay the expenses according to the rate of every listener unit. Every individual listener to be created is charged using the same rate. The services include 5 GB free data transmission every month. You can use this 5 GB free data transmission in all listener units. If the total data transmissions among all listener units exceed 5 GB, the extra data transmission is charged.</p>
-                                <p><strong>Pricing example 1: </strong>If a listener has been installed (e.g.: a mixed connection manager instance) and has run continuously one month, and also sent 3 GB data across the connection, the total expenses are ¥ 76.09.</p>
-                                <p><strong>Pricing example 2: </strong>If a listener has been installed (e.g.: a mixed connection manager instance) and has run continuously one month, and also sent 10 GB data across the connection, the total expenses are ¥ 143.077: ¥ 76.087 (connection and first 5 GB) + ¥ 66.99 (extra 5 GB data).</p>
-                                <p><strong>Pricing example 3: </strong>If the instances of two mixed connection managers (A and B) have been installed and have run continuously one month, and also sent 3 GB data across connection A and 6 GB data across connection B, the total expenses are ￥ 205.766: ￥ 76.087 (connection A) + ￥ 76.087 (connection B) + ￥ 53.592 (4 GB excess data due to connection A 3 GB + connection B 6 GB).</p>
+                                <p>When creating the first mixed connection listener, you pay the expenses according to the rate of every listener unit. Every individual listener to be created is charged using the same rate. The services include 5 GB free Data Transfer every month. You can use this 5 GB free Data Transfer in all listener units. If the total data transmissions among all listener units exceed 5 GB, the extra Data Transfer is charged.</p>
+                                <p><strong>Pricing example 1: </strong>If a listener has been installed (e.g.: a mixed connection manager instance) and has run continuously one month, and also sent 3 GB data across the connection, the total expenses are RMB76.09.</p>
+                                <p><strong>Pricing example 2: </strong>If a listener has been installed (e.g.: a mixed connection manager instance) and has run continuously one month, and also sent 10 GB data across the connection, the total expenses are RMB143.077: RMB76.087 (connection and first 5 GB) + RMB66.99 (extra 5 GB data).</p>
+                                <p><strong>Pricing example 3: </strong>If the instances of two mixed connection managers (A and B) have been installed and have run continuously one month, and also sent 3 GB data across connection A and 6 GB data across connection B, the total expenses are RMB205.766: RMB76.087 (connection A) + RMB76.087 (connection B) + RMB53.592 (4 GB excess data due to connection A 3 GB + connection B 6 GB).</p>
                             </section>
                             </div>
                         </li>
@@ -336,7 +335,7 @@
                         </li>
                         <li >
                             <div>
-                            <i class="icon icon-plus"></i> <a id="service_bus_standard_how">How long does the mixed connection listener stay open if there is no data transmission? What is the fee for keeping the connection open?</a>
+                            <i class="icon icon-plus"></i> <a id="service_bus_standard_how">How long does the mixed connection listener stay open if there is no Data Transfer? What is the fee for keeping the connection open?</a>
                             <section>
                                 <p>If the connection is opened but hasn’t transmitted any data, we will transmit 1 KB per minute to keep the connection available on your behalf. Doing this prevents the network from disconnecting automatically every few minutes.</p>
                             </section>
@@ -374,7 +373,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-messaging</linkid>
     <metaKeywords>Azure, Service Bus, message transfer, transfer connection</metaKeywords>
-    <metaDescription><![CDATA[Learn more about the pricing details of Azure Service Bus (Search Bus). Azure Service Bus (Search Bus) is a message transfer infrastructure located among various applications, permitting the applications to exchange messages, so as to expand the scale and improve recovery capabilities. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[Learn more about the pricing details of Azure Service Bus (Search Bus). Azure Service Bus (Search Bus) is a message transfer infrastructure located among various applications, permitting the applications to exchange messages, so as to expand the scale and improve recovery capabilities. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Service Bus</urlDisplayName>
   </TextpageLeftNav>
 </localize>

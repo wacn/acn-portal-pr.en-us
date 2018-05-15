@@ -11,25 +11,25 @@
 			"title": "Cognitive Services"}, 
 			{"link": "/home/features/cognitive-services/face/", 
 			"id": "leftnav_product_face", 
-			"title": "- Face Recognition API"}, 
+			"title": "- Face API"}, 
 			{"link": "/home/features/cognitive-services/emotion/", 
 			"id": "leftnav_product_emotion", 
-			"title": "- Emotion Recognition API"},
+			"title": "- Emotion API"},
 			{"link": "/home/features/cognitive-services/computer-vision/", 
 			"id": "leftnav_product_computer-vision", 
 			"title": "- Computer Vision API"},
 			{"link": "/pricing/details/cognitive-services/", 
 			"id": "leftnav_product_cognitive-services_pricing", 
-			"title": "Pricing details"},
+			"title": "Pricing"},
 			{"link": "/pricing/calculator/cognitive-services/", 
 			"id": "leftnav_product_cognitive-services_calculator", 
 			"title": "Pricing calculator"},
-			{"link": "/support/sla/cognitive-services/", 
-			"id": "leftnav_product_cognitive-services_sla", 
-			"title": "Service Level Agreement"},
 			{"link": "https://docs.azure.cn/cognitive-services/", 
 			"id": "leftnav_product_cognitive-services_documentation", 
-			"title": "Documentation"}
+			"title": "Documentation"},
+			{"link": "/support/sla/cognitive-services/", 
+			"id": "leftnav_product_cognitive-services_sla", 
+			"title": "Service Level Agreement"}
 		]
 	}
 ]
