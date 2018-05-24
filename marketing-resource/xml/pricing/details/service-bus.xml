@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/media/images/production/service-bus-icon01.png" />
-                        <h2><span>Service Bus</span></h2>
+                        <h2>Service Bus<span>Service Bus</span></h2>
                         <h4>Keep applications and devices connected across private cloud and public cloud scenarios.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_mess_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mess_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -106,7 +106,7 @@
                         </tr>
                         <tr>
                             <td>Operation</td>
-                            <td>RMB0.31 per 1,000,000 operations</td>
+                            <td>￥ 0.31 per 1,000,000 operations</td>
                         </tr>
                     </table>
                     <table cellpadding="0" cellspacing="0" width="100%">
@@ -116,7 +116,7 @@
                         </tr>
                         <tr>
                             <td>Base charge<sup> 1<sup></td>
-                            <td>RMB0.0851/hour (about RMB63.3144/month)</td>
+                            <td>￥ 0.0851/hour (about ￥ 63.3144/month)</td>
                         </tr>
                         <tr>
                             <td>First 13M operations/month</td>
@@ -124,15 +124,15 @@
                         </tr>
                         <tr>
                             <td>Subsequent 88M operations (13M - 100M operations)/month</td>
-                            <td>RMB5.21 per 1,000,000 operations</td>
+                            <td>￥ 5.21 per 1,000,000 operations</td>
                         </tr>
                         <tr>
                             <td>Subsequent 2,400M operations (100M - 2,500M operations)/month</td>
-                            <td>RMB3.20 per 1,000,000 operations</td>
+                            <td>￥ 3.20 per 1,000,000 operations</td>
                         </tr>
                         <tr>
                             <td>First 2,500M operations/month</td>
-                            <td>RMB1.27 per 1,000,000 operations</td>
+                            <td>￥ 1.27 per 1,000,000 operations</td>
                         </tr>
                     </table>
                     <p><sup>1</sup> Charges are prorated on an hourly basis based on 744 hours per month.</p>
@@ -155,15 +155,15 @@
                         </tr>
                         <tr>
                             <td>Subsequent 99K (1K – 100K)/month</td>
-                            <td>RMB0.18 per connection per month</td>
+                            <td>￥ 0.18 per connection per month</td>
                         </tr>
                         <tr>
                             <td>Subsequent 400K (100K – 500K)/month</td>
-                            <td>RMB0.18 per connection per month</td>
+                            <td>￥ 0.18 per connection per month</td>
                         </tr>
                         <tr>
                             <td>More than 500K/month</td>
-                            <td>RMB0.10 per connection per month</td>
+                            <td>￥ 0.10 per connection per month</td>
                         </tr>
                     </table>
                     <p>This will be charged by the peak amount of concurrent connections, and the expenses are allocated in proportion every hour, 744 hours every month.</p>
@@ -177,11 +177,11 @@
                         </tr>
                         <tr>
                             <td>Connection fees (including 5 GB data/month) <sup>1</sup></td>
-                            <td>RMB76.087 per listener per month</br>(RMB 0.102 per listener per hour)</td>
+                            <td>￥ 76.087 per listener per month</br>(￥  0.102 per listener per hour)</td>
                         </tr>
                         <tr>
                             <td>Excess Data Transfer (excess of the included 5 GB/month of data)</td>
-                            <td>RMB 13.398/GB</td>
+                            <td>￥  13.398/GB</td>
                         </tr>
                     </table>
                     <div class="tags-date">
@@ -201,11 +201,11 @@
                         </tr>
                         <tr>
                             <td>Relay hours</td>
-                            <td>RMB0.52 per 100 relay hours</td>
+                            <td>￥ 0.52 per 100 relay hours</td>
                         </tr>
                         <tr>
                             <td>Number of messages</td>
-                            <td>RMB0.05 per 10,000 messages</td>
+                            <td>￥ 0.05 per 10,000 messages</td>
                         </tr>
                     </table>
                 </div>
@@ -277,7 +277,7 @@
                                         <li>An HTTP call to receiving messages from Service Bus themes or queues with a receiving timeout bigger than zero.<br/>The charging of concurrent transfer connections exceeding the peak of the attached number (standard level is 1,000). Peak value will be measured once every hour. Expenses are allocated in proportion to 744 hours every month, and accumulated within the billing cycle of every month. At the end of the billing period, the amount added will be applied to the sum of the hourly peaks that are prorated (1,000 transfer connections every month).<br/>
                                         Examples<br/>
                                             <ol>
-                                                <li>Ten thousand devices are connected through an AMQP connection. They receive commands from Service Bus topics and send telemetry events to Event Hubs. If all devices are connected for 12 hours per day, you will need to pay the following connection fees (not including any other Service Bus charges): 10,000 connections x 12 hours x 31 days/744 = 5,000 transfer connections. After deducting the monthly limit of 1,000 transfer connections, you will need to pay for 4,000 transfer connections at a rate of RMB0.18 per transfer connection, for a total of RMB720.</li>
+                                                <li>Ten thousand devices are connected through an AMQP connection. They receive commands from Service Bus topics and send telemetry events to Event Hubs. If all devices are connected for 12 hours per day, you will need to pay the following connection fees (not including any other Service Bus charges): 10,000 connections x 12 hours x 31 days/744 = 5,000 transfer connections. After deducting the monthly limit of 1,000 transfer connections, you will need to pay for 4,000 transfer connections at a rate of ￥ 0.18 per transfer connection, for a total of ￥ 720.</li>
                                                 <li>Timeout is not zero when 10,000 appliances receive messages from Service Bus queues via HTTP. If all appliances are connected 12 hours per day, you’re required to pay the following connection fees (excluding any other Service Bus fees): 10,000 HTTP receiving connections * 12 hours/day * 31 days/744 hours = 5,000 transfer connections.</li>
                                             </ol>
                                         </li>
@@ -318,9 +318,9 @@
                             <i class="icon icon-plus"></i> <a id="service_bus_standard_charging">How are mixed connections billed?</a>
                             <section>
                                 <p>When creating the first mixed connection listener, you pay the expenses according to the rate of every listener unit. Every individual listener to be created is charged using the same rate. The services include 5 GB free Data Transfer every month. You can use this 5 GB free Data Transfer in all listener units. If the total data transmissions among all listener units exceed 5 GB, the extra Data Transfer is charged.</p>
-                                <p><strong>Pricing example 1: </strong>If a listener has been installed (e.g.: a mixed connection manager instance) and has run continuously one month, and also sent 3 GB data across the connection, the total expenses are RMB76.09.</p>
-                                <p><strong>Pricing example 2: </strong>If a listener has been installed (e.g.: a mixed connection manager instance) and has run continuously one month, and also sent 10 GB data across the connection, the total expenses are RMB143.077: RMB76.087 (connection and first 5 GB) + RMB66.99 (extra 5 GB data).</p>
-                                <p><strong>Pricing example 3: </strong>If the instances of two mixed connection managers (A and B) have been installed and have run continuously one month, and also sent 3 GB data across connection A and 6 GB data across connection B, the total expenses are RMB205.766: RMB76.087 (connection A) + RMB76.087 (connection B) + RMB53.592 (4 GB excess data due to connection A 3 GB + connection B 6 GB).</p>
+                                <p><strong>Pricing example 1: </strong>If a listener has been installed (e.g.: a mixed connection manager instance) and has run continuously one month, and also sent 3 GB data across the connection, the total expenses are ¥ 76.09.</p>
+                                <p><strong>Pricing example 2: </strong>If a listener has been installed (e.g.: a mixed connection manager instance) and has run continuously one month, and also sent 10 GB data across the connection, the total expenses are ¥ 143.077: ¥ 76.087 (connection and first 5 GB) + ¥ 66.99 (extra 5 GB data).</p>
+                                <p><strong>Pricing example 3: </strong>If the instances of two mixed connection managers (A and B) have been installed and have run continuously one month, and also sent 3 GB data across connection A and 6 GB data across connection B, the total expenses are ￥ 205.766: ￥ 76.087 (connection A) + ￥ 76.087 (connection B) + ￥ 53.592 (4 GB excess data due to connection A 3 GB + connection B 6 GB).</p>
                             </section>
                             </div>
                         </li>
@@ -373,7 +373,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-messaging</linkid>
     <metaKeywords>Azure, Service Bus, message transfer, transfer connection</metaKeywords>
-    <metaDescription><![CDATA[Learn more about the pricing details of Azure Service Bus (Search Bus). Azure Service Bus (Search Bus) is a message transfer infrastructure located among various applications, permitting the applications to exchange messages, so as to expand the scale and improve recovery capabilities. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[Learn more about the pricing details of Azure Service Bus (Search Bus). Azure Service Bus (Search Bus) is a message transfer infrastructure located among various applications, permitting the applications to exchange messages, so as to expand the scale and improve recovery capabilities. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Service Bus</urlDisplayName>
   </TextpageLeftNav>
 </localize>
