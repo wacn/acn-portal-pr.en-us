@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                     	<img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/storage@2x.png" />
-                        <h2><span>Managed Disks</span></h2>
+                        <h2>Managed Disks<span>Managed Disks</span></h2>
                         <h4>A new and recommended disk storage product for Azure Virtual Machines that facilitates persistent data storage.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_storage_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_storage_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -21,12 +21,12 @@
 				<div>
 	                <h2>Pricing Details</h2>
 	                <h4>Premium Hosting Disk</h4>
-					<p>Premium Managed Disk, based on high-performance solid state drive (SSD), aims to support I/O intensive workloads, with extremely high throughput and low delay. With the help of Premium Managed Disk, we can set a permanent disk and configure its size and performance characteristics.</p>
+					<p>Premium Managed Disk, based on high-performance solid state drive (SSD), aims to support I/O intensive workloads, with extremely high throughput and low delay. With the help of Premium Managed Disk, we can set a permanent disk and configure its size and performance characteristics. </p>
 					<p>The total cost of Premium Managed Disks depends on the size and number of the disks, and will be affected by the number of <a id="pricing_storage_data-transfer-1" href="/pricing/details/data-transfer/">outbound data transfers</a>. These disk sizes provide different input/output operations per second (IOPs), throughput caps, and monthly price per GB. You can choose the option that best meets your required storage size, IOPs, and throughput. Attach several persistent disks to a VM and you can configure up to 64 TB of storage per VM, and achieve 80,000 input/output operations per second and 1,600 MB per second disk throughput per VM at less than one millisecond latency for read operations. Premium Managed Disks are supported by DS-series, DSv2-series, and FS-series VM sizes which are specifically targeted for Premium Disks.</p>
 					<div class="tags-date">
 						<div class="ms-date">*The following prices are tax-inclusive.</div><br />
 						<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
-						<p>The pricing of screenshots is charged at the rate of RMB2.35/GB per month.</p>
+						<p>The pricing of screenshots is charged at the rate of ￥ 2.35/GB per month. </p>
 					</div>
 					<table cellpadding="0" cellspacing="0" width="100%">
 						<tr>
@@ -53,14 +53,14 @@
 						</tr>
 						<tr>
 							<td>Monthly pricing</td>
-							<td>RMB47.53</td>
-							<td>RMB91.9</td>
-							<td>RMB132.15</td>
-							<td>RMB254.86</td>
-							<td>RMB490.93</td>
-							<td>RMB906.29</td>
-							<td>RMB1,736.83</td>
-							<td>RMB3,322.63</td>
+							<td>￥ 47.53</td>
+							<td>￥ 91.9</td>
+							<td>￥ 132.15</td>
+							<td>￥ 254.86</td>
+							<td>￥ 490.93</td>
+							<td>￥ 906.29</td>
+							<td>￥ 1,736.83</td>
+							<td>￥ 3,322.63</td>
 						</tr>
 						<tr>
 							<td>IOP of every disk</td>
@@ -89,16 +89,16 @@
 					<div class="tags-date">
 						<div class="ms-date">Premium Disk has no transaction processing expenses.</div>
 					</div>
-					<p>The aforementioned pricing are also suitable for Premium Non-Managed Disk.</p>
+					<p>The aforementioned pricing are also suitable for Premium Non-Managed Disk. </p>
 			
 					<h4>Standard Managed Disk</h4>
 					<p>Standard Managed Disks employ a hard disk drive (HDD)-based storage medium. They are most suitable for development/testing not sensitive to performance changes and other non-frequent access workloads.</p>
-					<p>The total cost of Standard Managed Disk storage depends on the disk’s size and quantity, transaction amount and <a id="pricing_storage_data-transfer-2" href="/pricing/details/data-transfer/">outgoing Data Transfer</a>. There is no difference between different Standard Disk sizes in IOPS and throughput.</p>
+					<p>The total cost of Standard Managed Disk storage depends on the disk’s size and quantity, transaction amount and <a id="pricing_storage_data-transfer-2" href="/pricing/details/data-transfer/">outgoing Data Transfer</a>. There is no difference between different Standard Disk sizes in IOPS and throughput. </p>
 					<!-- <p>以下价格反映了 50% 的促销折扣。促销活动将持续至 2017 年 9 月 30 日。</p> -->
 					<div class="tags-date">
 						<div class="ms-date">*The following prices are tax-inclusive.</div><br />
 						<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
-						<p>The pricing of screenshots is charged at the rate of RMB0.3/GB per month.</p>
+						<p>The pricing of screenshots is charged at the rate of ￥ 0.3/GB per month. </p>
 					</div>
 					<table cellpadding="0" cellspacing="0" width="100%">
 						<tr>
@@ -127,22 +127,22 @@
 						</tr>
 						<tr>
 							<td>Monthly pricing</td>
-							<td>RMB8.64</td>
-							<td>RMB17.28</td>
-							<td>RMB34.56</td>
-							<td>RMB69.12</td>
-							<td>RMB138.24</td>
-							<td>RMB276.48</td>
-							<td>RMB552.96</td>
-							<td>RMB1105.92</td>
+							<td>¥ 8.64</td>
+							<td>¥ 17.28</td>
+							<td>￥ 34.56</td>
+							<td>￥ 69.12</td>
+							<td>￥ 138.24</td>
+							<td>￥ 276.48</td>
+							<td>¥ 552.96</td>
+							<td>￥ 1105.92</td>
 							<!-- <td>￥2211.84</td> -->
 						</tr>
 					</table>
 					<div class="tags-date">
-						<div class="ms-date">We charge RMB0.0044 for every 10,000 Standard Managed Disk transaction. Any type of operations for storage are considered to be transactions, including: reads, writes and deletions.</div>
+						<div class="ms-date">We charge ￥ 0.0044 for every 10,000 Standard Managed Disk transaction. Any type of operations for storage are considered to be transactions, including: reads, writes and deletions. </div>
 					</div>
 					<h4>Locally Redundant Storage (LRS)</h4>								
-					<p>Create multiple synchronous copies of data in a Data Center.</p>
+					<p>Create multiple synchronous copies of data in a Data Center. </p>
 					<p>To learn more about the redundancy options and how to use these options to obtain high availability, please view the <a id="pricing_storage_documentation-storage-redundancy" href="/documentation/articles/storage-redundancy/">Azure Storage Space Replication Page</a>.</p>
 					<!--
 					<h3>高级和标准托管快照（副本）</h3>

@@ -56,7 +56,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/storage@2x.png" />
-                        <h2><span>Page Blob</span></h2>
+                        <h2>Page Blob<span>Page Blob</span></h2>
                         <h4>Optimized for random read and write options.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_storage_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_storage_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -92,14 +92,14 @@
 										<th align="left"><strong>Read-access Redundant Storage (RA-GRS)</strong></th>
 									</tr>
 									<tr>
-										<td>RMB0.4579/GB</td>
-										<td>RMB0.6106/GB</td>
-										<td>RMB0.7632/GB</td>
+										<td>￥ 0.4579/GB</td>
+										<td>￥ 0.6106/GB</td>
+										<td>￥ 0.7632/GB</td>
 									</tr>
 								</table>
 								<p><strong><sup>1 </sup></strong>1 TB = 1,024GB</p>
 								<h4>Prices for operation of a Page Blob used as an unmanaged disk</h4>
-								<p>A Standard Page Blob attached to a virtual machine and used as an unmanaged disk costs RMB0.0051 per 10,000 transactions. Various types of unmanaged disk operations are counted as transactions, including reads, writes, and deletes.</p>
+								<p>A Standard Page Blob attached to a virtual machine and used as an unmanaged disk costs ￥ 0.0051 per 10,000 transactions. Various types of unmanaged disk operations are counted as transactions, including reads, writes, and deletes.</p>
 								<h4>Prices for Page Blob operation (non-disk)</h4>
 								<p>Page Blob transactions are billed per transaction if they are not executed through a VM. For each transaction, a single operation should be billed as a read, write, or delete operation. If the size of a read or write transaction exceeds 64 KB, then an additional read or write input/output (IO) charge needs to be paid every time 64 KB is exceeded, with up to 15 IO charges per transaction. If the transaction size exceeds 1 MB [64 KB x (1 transaction + 15 IOs)], there are no other IO charges regardless of the transaction size.</p>
 								<div class="tags-date">
@@ -115,27 +115,27 @@
 									</tr>						
 									<tr>
 										<td>Writes <sup>1</sup> (per 10,000 counted)</td>
-										<td align="left">RMB0.0153</td>
-										<td align="left">RMB0.3053</td>						   
-										<td align="left">RMB0.3053</td>			   
+										<td align="left">￥ 0.0153</td>
+										<td align="left">￥ 0.3053</td>						   
+										<td align="left">￥ 0.3053</td>			   
 									</tr>
 									<tr>
 										<td>Write extra IO units (per 10,000 counted)</td>
-										<td align="left">RMB0.0237</td>
-										<td align="left">RMB0.0474</td>						   
-										<td align="left">RMB0.0474</td>						   
+										<td align="left">￥ 0.0237</td>
+										<td align="left">￥ 0.0474</td>						   
+										<td align="left">￥ 0.0474</td>						   
 									</tr>
 									<tr>
 										<td>Read<sup>2</sup> (per 10,000 counted)</td>
-										<td align="left">RMB0.0153</td>
-										<td align="left">RMB0.0153</td>						   
-										<td align="left">RMB0.0153</td>						   
+										<td align="left">￥ 0.0153</td>
+										<td align="left">￥ 0.0153</td>						   
+										<td align="left">￥ 0.0153</td>						   
 									</tr>
 									<tr>
 										<td>Read extra IO units (per 10,000 counted)</td>
-										<td align="left">RMB0.0017</td>
-										<td align="left">RMB0.0017</td>						   
-										<td align="left">RMB0.0017</td>						   
+										<td align="left">￥ 0.0017</td>
+										<td align="left">￥ 0.0017</td>						   
+										<td align="left">￥ 0.0017</td>						   
 									</tr>
 									<tr>
 										<td>Delete</td>	
@@ -153,13 +153,13 @@
 							<div class="tab-panel" id="tabContent2">
 								<p>General Purpose v1 has the lowest transaction prices, while its storage prices are higher. It can be used to access Block Blobs, Page Blobs, Files, Queues, and Tables. General Purpose v1 accounts do not support access to Cool and Archive storage.</p>
 								<h4>Premium Non-Managed Disk and Page Blob</h4>
-								<p>Premium Non-Managed Disk, a high-performance storage based on a solid state drive (SSD), aims to support I/O intensive workloads through extremely large throughput and extremely low delay. With the help of Premium Non-Managed Disk, we can set permanent disk and configure its size and performance characteristics.</p>
-								<p>The total expenses of Premium Non-Managed Disk depends on the disk size and quantity, and is subjected to the <a id="pricing_storage_data-transfer-3" href="/pricing/details/data-transfer/">outgoing data transmission</a>. The disk size provides different input/output operations per second (IOP), throughput limit and monthly pricing per GB. We can select necessary options most appropriate to applications, including storage size, IOP and throughput. We can add several permanent disks onto the VM and configure at most 64 TB storage space to every VM. The disk throughput of every VM can reach up to 80,000 (number of input/output operations per second) and 1600 MB/second, with a read delay of less than 1 millisecond. Premium Non-Managed Disk is supported by the sizes of the DS Series, DSv2 Series and FS Series VMs exclusively used for Premium Disk. The pricing and billing meters of DS Series VMs are the same as the D Series VMs.</p>
+								<p>Premium Non-Managed Disk, a high-performance storage based on a solid state drive (SSD), aims to support I/O intensive workloads through extremely large throughput and extremely low delay. With the help of Premium Non-Managed Disk, we can set permanent disk and configure its size and performance characteristics. </p>
+								<p>The total expenses of Premium Non-Managed Disk depends on the disk size and quantity, and is subjected to the <a id="pricing_storage_data-transfer-3" href="/pricing/details/data-transfer/">outgoing data transmission</a>. The disk size provides different input/output operations per second (IOP), throughput limit and monthly pricing per GB. We can select necessary options most appropriate to applications, including storage size, IOP and throughput. We can add several permanent disks onto the VM and configure at most 64 TB storage space to every VM. The disk throughput of every VM can reach up to 80,000 (number of input/output operations per second) and 1600 MB/second, with a read delay of less than 1 millisecond. Premium Non-Managed Disk is supported by the sizes of the DS Series, DSv2 Series and FS Series VMs exclusively used for Premium Disk. The pricing and billing meters of DS Series VMs are the same as the D Series VMs. </p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<p>The pricing of screenshots is charged at the rate of RMB2.35/GB per month.</p>
+								<p>The pricing of screenshots is charged at the rate of ￥ 2.35/GB per month. </p>
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
 										<th align="left"><strong>Disk Types</strong></th>
@@ -183,13 +183,13 @@
 									</tr>
 									<tr>
 										<td>Monthly pricing</td>
-										<td>RMB132.15</td>
-										<td>RMB254.86</td>
-										<td>RMB490.93</td>
-										<td>RMB906.29</td>
-										<td>RMB1,736.83</td>
-										<td>RMB3,322.63</td>
-										<td>RMB6,343.21</td>
+										<td>￥ 132.15</td>
+										<td>￥ 254.86</td>
+										<td>￥ 490.93</td>
+										<td>￥ 906.29</td>
+										<td>￥ 1,736.83</td>
+										<td>¥ 3,322.63</td>
+										<td>¥ 6,343.21</td>
 									</tr>
 									<tr>
 										<td>IOP of every disk</td>
@@ -231,33 +231,33 @@
 									</tr>
 									<tr>
 										<td>0 to 1 TB<sup>1</sup></td>
-										<td>RMB0.44/GB</td>
-										<td>RMB0.88/GB</td>
-										<td>RMB1.056/GB</td>
+										<td>￥ 0.44/GB</td>
+										<td>￥ 0.88/GB</td>
+										<td>¥ 1.056/GB</td>
 									</tr>
 									<tr>
 										<td>1 TB to 50 TB</td>
-										<td>RMB0.3667/GB</td>
-										<td>RMB0.7334/GB</td>
-										<td>RMB0.8801/GB</td>
+										<td>￥ 0.3667/GB</td>
+										<td>¥ 0.7334/GB</td>
+										<td>￥ 0.8801/GB</td>
 									</tr>
 									<tr>
 										<td>50 TB to 500 TB</td>
-										<td>RMB0.33/GB</td>
-										<td>RMB0.66/GB</td>
-										<td>RMB0.792/GB</td>
+										<td>￥ 0.33/GB</td>
+										<td>￥ 0.66/GB</td>
+										<td>¥ 0.792/GB</td>
 									</tr>
 									<tr>
 										<td>500 TB to 1000 TB</td>
-										<td>RMB0.2933/GB</td>
-										<td>RMB0.5866/GB</td>
-										<td>RMB0.7039/GB</td>
+										<td>￥ 0.2933/GB</td>
+										<td>￥ 0.5866/GB</td>
+										<td>￥ 0.7039/GB</td>
 									</tr>
 									<tr>
 										<td>1000 TB to 5000 TB</td>
-										<td>RMB0.275/GB</td>
-										<td>RMB0.55/GB</td>
-										<td>RMB0.66/GB</td>
+										<td>￥ 0.275/GB</td>
+										<td>￥ 0.55/GB</td>
+										<td>￥ 0.66/GB</td>
 									</tr>
 									<tr>
 										<td>More than 5000 TB</td>
@@ -285,9 +285,9 @@
 									</tr>						
 									<tr>
 										<td>Writes <sup>1</sup> (per 10,000 counted)</td>
-										<td align="left">RMB0.0037</td>
-										<td align="left">RMB0.0037</td>						   
-										<td align="left">RMB0.0037</td>			   
+										<td align="left">￥ 0.0037</td>
+										<td align="left">¥ 0.0037</td>						   
+										<td align="left">￥ 0.0037</td>			   
 									</tr>
 									<tr>
 										<td>Write extra IO units (per 10,000 counted)</td>
@@ -297,9 +297,9 @@
 									</tr>
 									<tr>
 										<td>Read<sup>2</sup> (per 10,000 counted)</td>
-										<td align="left">RMB0.0037</td>
-										<td align="left">RMB0.0037</td>						   
-										<td align="left">RMB0.0037</td>						   
+										<td align="left">￥ 0.0037</td>
+										<td align="left">¥ 0.0037</td>						   
+										<td align="left">¥ 0.0037</td>						   
 									</tr>
 									<tr>
 										<td>Read extra IO units (per 10,000 counted)</td>
@@ -309,9 +309,9 @@
 									</tr>
 									<tr>
 										<td>Delete</td>	
-										<td align="left">RMB0.0037</td>
-										<td align="left">RMB0.0037</td>						   
-										<td align="left">RMB0.0037</td>						   
+										<td align="left">¥ 0.0037</td>
+										<td align="left">¥ 0.0037</td>						   
+										<td align="left">￥ 0.0037</td>						   
 									</tr>
 								</table>
 								<div class="tags-date">

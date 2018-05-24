@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,cognitive-services.png"/>
-                        <h2><span>Cognitive Services APIs</span></h2>
+                        <h2>Cognitive Services APIs<span>Cognitive Services APIs</span></h2>
 						<h4>Infuse your apps, websites, and bots with intelligent algorithms to see, hear, speak, understand, and interpret user needs using natural methods of communication. Transform your business with AI now.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_cognitive-services">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cognitive-services-calculator_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -28,7 +28,7 @@
         <table cellpadding="0" cellspacing="0" width="100%">
             <tr>
 				<th align="left"><strong>Tier</strong></th>
-				<th align="left"><strong>Features</strong></th>
+				<th align="left"><strong>Feature</strong></th>
                 <th align="left"><strong>Pricing</strong></th>
             </tr>
             <tr>
@@ -44,27 +44,27 @@
             <tr>
                 <td></td>
                 <td>0-1,000,000 transactions</td>
-                <td>RMB6.36 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
+                <td>￥ 6.36 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
             </tr>
             <tr>
                 <td></td>
                 <td>1,000,001-5,000,000 transactions</td>
-                <td>RMB5.09 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
+                <td>￥ 5.09 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
             </tr>
             <tr>
                 <td></td>
                 <td>5,000,001–100,000,000 transactions</td>
-                <td>RMB3.82 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
+                <td>￥ 3.82 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
             </tr>
             <tr>
                 <td></td>
                 <td>More than 100,000,000 transactions</td>
-                <td>RMB2.54 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
+                <td>￥2.54 per 1,000 transactions <sup style="color:#e66102; font-weight: bold">new</sup></td>
             </tr>
 			<tr>
 				<td>Facial recognition storage</td>
 				<td>Maximum 4 MB per image</td>
-                <td>RMB1.59 per month per 1,000 images <sup style="color:#e66102; font-weight: bold">new</sup></td>
+                <td>￥ 1.59 per month per 1,000 images <sup style="color:#e66102; font-weight: bold">new</sup></td>
             </tr>
             
         </table>
@@ -120,37 +120,37 @@
             <tr>
                 <td>S1</td>
 				<td>Tagging, facial recognition, getting thumbnail colors and image types</td>
-                <td>0-1 million transactions - RMB6.36 per 1,000 transactions </td>
+                <td>0-1 million transactions - ¥ 6.36 per 1,000 transactions </td>
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td>1 million-5 million transactions - RMB5.088 per 1,000 transactions</td>
+                <td>1 million-5 million transactions - ¥ 5.088 per 1,000 transactions</td>
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td>5 million+ transactions - RMB4.134 per 1,000 transactions </td>
+                <td>5 million+ transactions - ¥ 4.134 per 1,000 transactions </td>
             </tr>
             <tr>
                 <td>S2</td>
                 <td>OCR (print), adults, celebrities, and landmarks</td>
-                <td>0-1 million transactions - RMB9.54 per 1,000 transactions </td>
+                <td>0-1 million transactions - ¥ 9.54 per 1,000 transactions </td>
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td>1 million-5 million transactions - RMB6.36 per 1,000 transactions</td>
+                <td>1 million-5 million transactions - ¥ 6.36 per 1,000 transactions</td>
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td>5 million+ transactions - RMB4.13 per 1,000 transactions </td>
+                <td>5 million+ transactions - ¥ 4.13 per 1,000 transactions </td>
             </tr>
             <tr>
                 <td>S3</td>
                 <td>Description and OCR (handwriting)</td>
-                <td>RMB15.90 per 1,000 transactions</td>
+                <td>¥ 15.90 per 1,000 transactions</td>
             </tr>
             
         </table>
@@ -214,7 +214,7 @@
                 <div>
                     <a id="cognitive-services_question5">If the number of images stored during the month changes, how do you calculate this amount for billing?</a>
                     <section>
-                        <p>Stored images are charged at RMB1.59 per 1,000 faces. This rate is prorated on a daily basis. For example, if your account used 10,000 persisted faces each day during the first half of the month and none during the second half, you would only be billed for the number of days the 10,000 faces were stored for. This would be calculated as (RMB 1.59/1,000) x (10,000 x 15 + 0 x 16)/31 = RMB7.69. Alternatively, if you retained 1,000 faces for a few hours each day during a month and then deleted them every night, you would still be billed for the 1,000 faces retained each day.</p>
+                        <p>Stored images are charged at ￥ 1.59 per 1,000 faces. This rate is prorated on a daily basis. For example, if your account used 10,000 persisted faces each day during the first half of the month and none during the second half, you would only be billed for the number of days the 10,000 faces were stored for. This would be calculated as (￥ 1.59/1,000) x (10,000 x 15 + 0 x 16)/31 = ￥ 7.69. Alternatively, if you retained 1,000 faces for a few hours each day during a month and then deleted them every night, you would still be billed for the 1,000 faces retained each day.</p>
                     </section>
 
                 </div>

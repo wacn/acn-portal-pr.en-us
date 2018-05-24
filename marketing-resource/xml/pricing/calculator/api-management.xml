@@ -8,7 +8,7 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/api_management@2x.png" />
-                        <h2><span>API Management</span></h2>
+                        <h2>API Management<span>API Management</span></h2>
                         <h4>Publish, manage, secure, and analyze your APIs in minutes</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_api-management_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_api-management_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
@@ -31,7 +31,7 @@
                         <div class="total">
                             Total price
                             <p>
-                                <span class="num">RMB0.00</span> <span class="unit">/month</span>
+                                <span class="num">￥ 0.00</span> <span class="unit">/month</span>
                             </p>
                         </div>
                         <div class="btn-group">
@@ -102,7 +102,7 @@
     <pageTitle>Pricing Calculator - API Management | Azure</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>api-management</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, IoT, API Management, Price Estimation</metaKeywords>
+    <metaKeywords>Azure, Microsoft Cloud, IoT, API Management, Price Estimation </metaKeywords>
     <metaDescription><![CDATA[Estimate the usage cost of API Management.]]></metaDescription>
     <urlDisplayName>Pricing Calculator - API Management</urlDisplayName>
   </TextpageLeftNav>
