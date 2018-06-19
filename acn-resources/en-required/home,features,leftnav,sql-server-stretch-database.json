@@ -1,0 +1,52 @@
+{"service": "SQL Server Stretch Database", 
+"id": "leftnav_product_sql-server-stretch-database", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_sql-server-stretch-database_details", 
+	"articles": 
+		[
+			{"link": "/home/features/sql-server-stretch-database/", 
+			"id": "leftnav_product_sql-server-stretch-database_function", 
+			"title": "Product overview"}, 
+			{"link": "/pricing/details/sql-server-stretch-database/", 
+			"id": "leftnav_product_sql-server-stretch-database_pricing", 
+			"title": "Pricing"},
+			{"link": "/pricing/calculator/sql-server-stretch-database/", 
+			"id": "leftnav_product_sql-server-stretch-database_calculator", 
+			"title": "Pricing calculator"},
+			{"link": "https://docs.azure.cn/sql-server-stretch-database/", 
+			"id": "leftnav_product_sql-server-stretch-database_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/sql-server-stretch-database", 
+			"id": "leftnav_product_sql-server-stretch-database_sla", 
+			"title": "Service Level Agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_sql-server-stretch-database_related", 
+	"articles": 
+		[
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_storage_function", 
+			"title": "Storage"},
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_function", 
+			"title": "Virtual Machines"}, 
+			{"link": "/home/features/sql-database/", 
+			"id": "leftnav_product_sql-database_function", 
+			"title": "SQL Database"}, 
+			{"link": "/home/features/virtual-network/", 
+			"id": "leftnav_product_networking_function", 
+			"title": "Virtual Network"}
+		]
+	}, 
+	{"group": "Related documentation and links", 
+	"id": "leftnav_product_sql-server-stretch-database_others", 
+	"articles": 
+		[
+			
+		]
+	}
+]
+}

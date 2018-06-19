@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2016-06-29T13:44:24" updateDate="2016-06-29T13:46:59" urlName="sql-database" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="sql-database" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/sql-server.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/sql-database@2x.png" />
+                        <h2>SQL Database<span>SQL Database</span></h2>
+                        <h4>Managed relational SQL Database as a service</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_sql_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_sql_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h1>One service provides a relational database, allowing you to get Layer 1 functionality</h1>
+                <ul>
+                    <li>Expandable to thousands of databases</li>
+                    <li>Scales smoothly for predictable performance</li>
+                    <li>Provides guaranteed availability through a backup and run-time Service Level Agreement</li>
+                    <li>It protects data through recovery and geo-replication</li>
+                    <li>It achieves efficient development and operations similar to programmable DBA functionality</li>
+                    <li>Automated self-management virtually eliminates the need for manual intervention</li>
+                </ul>
+                <h2>Built-in support for large-scale SaaS apps</h2>
+                <p>Built-in Software as a Service (SaaS) apps provide flexible SQL Databases developers can use to support explosive growth and profitable business models. Regarding workloads that have unpredictable database resource consumption, flexible database models enable you to split demand among a group of databases without exceeding the allocated databases’ ability to meet peak demand. On the other hand, you can use a flexible database pool to allow hundreds or thousands of databases to be used while staying within your allocated resources. You can draw support from a group of distributed databases to control a price and performance purchase model to push for cost effectiveness.</p>
+
+                <h2>Easy to manage large-scale databases</h2>
+                <p>When you expand to thousands of databases, simple administration tasks can become complicated and this explosive growth can become a challenge. With constant business growth, SaaS developers will spend a great deal of time writing complex logic statements in response to changing architecture and other operational issues. Using a flexible database, this becomes effortless. You select a script and submit the task to the Azure SQL Database to complete the implementation of the script across a multitude of databases. Elastic Database Pool can simplify the production and administration of apps across many databases. Because it can inject an app into one or thousands of databases and uses the well-known T-SQL and ADO.NET programming model for ease of use, you can still run a centralized query, for example pull a report from across a number of databases, and return a unified result.</p>
+
+                <h2>Supports flexible expansion and more predictable performance</h2>
+                <p>With the support of Azure’s powerful features, high throughput apps can be flexibly extended among thousands of databases. New SQL Database service level apps can easily extend or contract on each database, obtaining predictable performance. The flexible extension of the Azure SQL database can simplify the development and administration of apps and their lateral extension over a large number of databases.</p>
+                <p>Flavorous connected its on-premises and cloud environments using a hybrid architecture that supports massive scale-out, to cope with temporary spikes and develop new business.</p>
+                
+                <h2>Enhance the business continuity of your most critical apps</h2>
+                <p>Built-in auxiliary functions and database levels are provided in the 99.99%* Service Level Agreement (supported by 21Vianet), so you can feel relieved about data availability. By using the continuity built into different service levels, you can get even better app continuity for appropriate protection against catastrophic events. The Premium version of SQL Database provides active regional redundancy that can allow you to build up to 4 readable copies in the Azure zone, providing control of a failover whenever and wherever it occurs. Through automatic restoration, it provides even better control over recovery from a setback. Clients can use a backup copy to control the entire process of data restoration. In the Premium version, SQL Database will be backed up for 35 days, so that you can recover at any time.</p>
+                <p>*99.99% run-time service level agreement is only available on Basic, Standard, and Premium service levels. SQL Database Web edition and Enterprise edition provide a 99.9% run-time Service Level Agreement.</p>
+                <p>By deploying disaster recovery solutions and regional redundancy, MYOB can be expanded to thousands of databases based on your needs.</p>
+
+                <h2>The service can manage itself automatically, almost eliminating the need for human maintenance</h2>
+                <p>SQL Database services include automatic software repair functionality so you don’t need basic architecture defense. At the same time, copies of internal systems can help you provide intrinsic data protection, to ensure continuous database run-time and system stability, allowing developers and architects worry-free use. Malfunctions happen in old computer equipment all the time and a copy of the system can be automatically moved over to the system configuration of a new computer.</p>
+                <p>Pottermore migrated its applications to an Azure PaaS, which eliminated the hard work of managing and maintaining virtual machines.</p>
+                
+                <h2>It uses the Dv2 series of virtual machine functionality</h2>
+                <p>The Dv2 series virtual machine is an improvement over the D series virtual machine and provides an even stronger CPU that under identical storage and configuration conditions runs 35% faster. The Dv2 series is based on the newest generation 2.4 GHz Intel Xeon E5-2673 v3 (Haswell) processor and uses Intel Turbo Boost technology 2.0, which can exceed a speed of 3.2 GHz. Speaking of the need for an even faster CPU, better local disk performance, or higher enterprise-level storage apps, the combination of the Dv2 series and the D series offers enhanced functionality.</p>
+
+                <h2>Supports well-known tools and platforms, raising work efficiency</h2>
+                <p>Propelling operational tasks through programmable APIs (for example outward extension or business continuity), while at the same time making it simpler to manage the expansion process from hundreds to thousands of databases. SQL Database provides more administration tools, for example REST API, PowerShell, support for the HTML5 Azure administration portal, and SQL Server administration, while still supporting common platforms and technologies (including .NET, Java, PHP, Ruby on Rails and Node.js). Together with Visual Studio integration, it can carry out seamless online/offline development as well as development of local apps and apps designed for the cloud. By supporting the DAC framework (permitting migration between local and the cloud), currently existing apps can be expanded into the cloud.</p>
+                <p>Samsung’s globally-focused SmartTV business simplified development, lowering costs by 80%. The Premium edition of SQL Database supported thousands of users simultaneously signing in online and led the market in Smart TV services.</p>
+                
+                <h2>Supports compliance-related tasks</h2>
+                <p>SQL Database is already the major authentication mechanism for auditing the cloud, and this authentication already includes Azure, compliance authentication, HIPAA BAA, ISO/IEC 27001:2005, FedRAMP and European standard authentication.</p>
+                <p>“The firewalls and security deployed in SQL Database are already very strong. Our cloud services now have the same security as our internal data center services.” BetOnSoft Chief Software Architect Devan Govender.</p>
+                
+                <h2>Pairing up different levels of service supports innovative planning</h2>
+                <p>SQL Database provides many different levels of service and can support different types of database workloads (from light to heavy). Change your service level based on your application design needs or pair up different levels accordingly. Drawing support from Azure’s powerful capabilities, you can pair Azure services with SQL Database to meet the needs of unique and modern apps. This will lower costs and raise resource efficiency, breaking new ground for business opportunities.</p>
+                </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>Find out more</h1>
+                <ul>
+                    <li><a id="feature_SQL_Database_docs" href="http://msdn.microsoft.com/zh-cn/library/azure/ee336279.aspx" target="_blank">Azure SQL Database Document Library</a></li>
+                    <li><a id="feature_SQL_Database_guide" href="http://msdn.microsoft.com/zh-cn/library/azure/ee336282.aspx" target="_blank">Related links to the Azure SQL Guide</a></li>
+                    <li><a id="feature_SQL_Database_moreinfomation" href="http://go.microsoft.com/fwlink/?linkid=395278&amp;clcid=0x804" target="_blank">Find out more about using Azure SQL Database to ensure business continuity</a></li>
+                    <li><a id="sql_database_SaaSDetail" href="https://docs.azure.cn/sql-database/sql-database-elastic-pool/" target="_blank">Detailed information on knowing how to create Elastic Database pools</a></li>
+                    <li><a id="sql_database_scale-get-started" href="https://docs.azure.cn/sql-database/sql-database-elastic-scale-get-started/" target="_blank">Detailed information on knowing how to use Elastic Database tools</a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
+    
+    ]]></bodyText>
+    <pageTitle>Azure SQL Database_Trusted Database Services - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-SQL-Database</linkid>
+    <metaKeywords>Azure, Microsoft Cloud, Azure SQL Database, Functionalities</metaKeywords>
+    <metaDescription><![CDATA[Azure SQL Database (SQL Database) scales seamlessly and can store a large amount of data. It can expand and effortlessly manage thousands of databases; it can be scheduled to sync between the SQL cloud database and a local SQL Server or some other SQL Database instance. You can manage services by yourself, but it requires almost no manual maintenance; you can pair different levels of service to support innovative planning.]]></metaDescription>
+    <urlDisplayName>SQL Database</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2016-07-04T10:41:59" urlName="iot-hub" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="iot-hub" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/azure-Iot-hub.jpg','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/azure-iot-hub80.png" />
+                        <h2>Azure IoT Hub<span>Azure IoT Hub</span></h2>
+                        <h4>Connect, monitor, and control billions of IoT assets</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_iot-hub_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-hub_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner -->
+            <div class="pricing-page-section">
+                <p>Connect, monitor, and manage millions of IoT assets running on various operating systems and protocols to rapidly start your Internet of Things projects through Azure IoT Hub. If required, control access to specific devices to maintain system integrity. The reliable two-way communication (even intermittent connections) can be established with the help of these assets to analyze the input remote-sensing data and send commands and notifications according to requirements. Improve the security of IoT solutions by using the identity verification of each device and through suitable credentials and equipment communications.</p>
+            </div>
+            <!-- BEGIN: TAB-CONTROL -->
+            <div class="technical-azure-selector tab-control-selector">
+                <!-- BEGIN: TAB-CONTAINER-1 -->
+                <div class="tab-control-container tab-active" id="tabContent1">
+                    <!-- BEGIN: Table1-Content-->
+                    <h2>Pricing Details</h2>
+                    <!-- <p>Azure IoT 中心有四个版本：免费版、S1 版、S2 版和 S3 版。IoT 中心现已公开发布。新的定价将按如下标注生效。</p>
+                    <p><strong>免费版：</strong>免费试用 Azure IoT 中心服务。注册后即可每天共传输最多 8,000 条消息。免费版适用于了解和测试 IoT 中心服务的功能。</p>
+                    <p><strong>S1 版：</strong>IoT 中心 S1 版为生成相对少量数据的 IoT 解决方案而设计。S1 版的每个计价单位让你能够在所有已连接设备间每天传输最多 400,000 条消息。</p>
+                    <p><strong>S2 版：</strong>IoT 中心 S2 版为生成大量数据的 IoT 解决方案而设计。S2 版的每个计价单位让你能够在所有已连接设备间每天传输最多 600 万条消息。</p>
+                    <p><strong>S3 版：</strong>IoT 中心 S3 版为生成超大量数据的 IoT 解决方案而设计。S3 版的每个计价单位让你能够在所有已连接设备间每天传输最多 3 亿条消息。</p> -->
+                    <p>Connect IoT devices, build IoT solutions, and convert data into business intelligence.</p>
+                    <h4>Basic Level <sup style="color:#e66102; font-weight: bold">new</sup></h4>
+                    <div class="tags-date">
+                        <div class="ms-date">*The following prices are tax-inclusive.</div><br />
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+                    </div>
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <th align="left"><strong>Edition Type</strong></th>
+                            <th align="left"><strong>Pricing/Unit/Month</strong></th>
+                            <th align="left"><strong>Total consumption/Day/Unit</strong></th>
+                            <th align="left"><strong>Consumption Calculation Size</strong></th>
+                        </tr>
+                        <tr>
+                            <td>B1</td>
+                            <td>¥ 101.76</td>
+                            <td>400,000</td>
+                            <td>4KB</td>
+                        </tr>
+                        <tr>
+                            <td>B2</td>
+                            <td>¥ 508.80</td>
+                            <td>6,000,000</td>
+                            <td>4KB</td>
+                        </tr>
+                        <tr>
+                            <td>B3</td>
+                            <td>¥ 5,088.00</td>
+                            <td>300,000,000</td>
+                            <td>4KB</td>
+                        </tr>
+                    </table>
+                    <h4>Standard Level</h4>
+                    <div class="tags-date">
+                        <div class="ms-date">*The following prices are tax-inclusive.</div><br />
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+                    </div>
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <th align="left"><strong>Edition Type</strong></th>
+                            <th align="left"><strong>Price/Unit/Month</strong></th>
+                            <th align="left"><strong>Total consumption/Day/Unit</strong></th>
+                            <th align="left"><strong>Consumption Calculation Size</strong></th>
+                        </tr>
+                        <tr>
+                            <td>Free</td>
+                            <td>Free</td>
+                            <td>8,000</td>
+                            <td>0.5KB</td>
+                        </tr>
+                        <tr>
+                            <td>S1</td>
+                            <td>¥ 254.40</td>
+                            <td>400,000</td>
+                            <td>4KB</td>
+                        </tr>
+                        <tr>
+                            <td>S2</td>
+                            <td>¥ 2,544.00</td>
+                            <td>6,000,000</td>
+                            <td>4KB</td>
+                        </tr>
+                        <tr>
+                            <td>S3</td>
+                            <td>¥ 25,440.00</td>
+                            <td>300,000,000</td>
+                            <td>4KB</td>
+                        </tr>
+                    </table>
+                   <p>If you need a detailed understanding of Basic and Standard level support features. please consult <a href="//docs.azure.cn/zh-cn/iot-hub/iot-hub-scaling">How to select a suitable IoT Hub level</a>.</p>
+                   <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <th align="left"><strong>Features</strong></th>
+                            <th align="left"><strong>Basic</strong></th>
+                            <th align="left"><strong>Standard</strong></th>
+                        </tr>
+                        <tr>
+                            <td>Device to cloud telemetry</td>
+                            <td>√</td>
+                            <td>√</td>
+                        </tr>
+                        <tr>
+                            <td>Every piece of equipment is identified</td>
+                            <td>√</td>
+                            <td>√</td>
+                        </tr>
+                        <tr>
+                            <td>Message routing and Event Grid integration</td>
+                            <td>√</td>
+                            <td>√</td>
+                        </tr>
+                        <tr>
+                            <td>HTTP, AMQP, MQTT Agreements</td>
+                            <td>√</td>
+                            <td>√</td>
+                        </tr>
+                        <tr>
+                            <td>DPS support</td>
+                            <td>√</td>
+                            <td>√</td>
+                        </tr>
+                        <tr>
+                            <td>Monitoring and diagnosis</td>
+                            <td></td>
+                            <td>√</td>
+                        </tr>
+                        <tr>
+                            <td>Cloud to device message transmission</td>
+                            <td></td>
+                            <td>√</td>
+                        </tr>
+                        <tr>
+                            <td>Device management and device twinning</td>
+                            <td></td>
+                            <td>√</td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- END: TAB-CONTAINER-1 -->
+            </div>
+            <!-- END: TAB-CONTROL -->
+            <div class="pricing-page-section">
+                <div class="more-detail">
+                    <h2>FAQ</h2>
+                    <em>Expand All</em>
+                    <ul>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="ih-que-q1">What is included in the free edition of Azure IoT Hub?</a>
+                                <section>
+                                    <p>The free version of the Azure IoT Hub is designed to promote concept proofing projects. It allows you to transmit up to 8,000 messages a day and sign up for up to 500 device IDs. Device ID restrictions now only exist in the free version.</p>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="ih-que-q2">How to increase or decrease the number of IoT Hub units purchased?</a>
+                                <section>
+                                    <p>Each tier has a daily message limit. Please refer to the <a href="//docs.azure.cn/zh-cn/iot-hub/iot-hub-devguide-quotas-throttling">Limit Documentation</a> for more information. If you need to change your limit, you can adjust the units in the IoT Hub. You can also change the unit types within the tiers (for example, from S1 to S2) or you can upgrade to a higher level (for example B1 to S2). If you wish to use more than 200 units of IoT Hub S1 or S2 SKUs and IoT Hub B1 B2 SKU or more than 10 units of IoT Hub B3 or S3, please contact Azure Support.</p>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="ih-que-q3">What is the maximum message size I can send through the IoT Hub?</a>
+                                <section>
+                                    <p>The maximum size of messages that can be sent from the device to the cloud is 256 KB. In the paid versions (S1 and S2), these messages are measured by 4 KB. For example, if the device sends a 16 KB message via S1 or S2 edition, the message will be billed as 4 messages. Messages sent by connected devices via the free version are measured by 0.5 KB. For example, if a device sends a 16 KB message via the free Edition of the IoT Hub, the message will be billed as 32 messages.</p>
+                                    <p>As for the paid SKU (namely S1 Edition and S2 Edition), the maximum size of messages that can be sent from the cloud to the device is 64 KB. Such messages are measured by 4 KB. For example, an 8 KB message sent via the S1 or S2 Edition will be billed as 2 messages. Messages sent via the free version are measured by 0.5 KB. For example, a 8 KB message sent via the free edition of the IoT Hub will be billed as 16 messages.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="ih-que-q4">Is there a fee for messages related to file upload?</a>
+                                <section>
+                                    <p>The message allocation is calculated on a daily basis only when you begin a new upload and provide full upload notification information. The customer must provide their own storage account and pay for storage. Fees are not based on file uploads alone. For example, a typical upload method only has two messages: a single message indicates that a file has been fully uploaded and another message indicates when the file has been fully uploaded. When an upload failure notification is received, the customer can choose to send additional data under specified conditions. For additional detailed information of file upload features, consult the IoT Hub documentation.</p>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="ih-que-q5">How big a file can we upload and send?</a>
+                                <section>
+                                    <p>IoT Hub file upload functions follow established Azure Storage upload limits.</p>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="ih-que-q6">In the IoT Hub environment, what is a device twin and query? </a>
+                                <section>
+                                    <p>Device twins contain device status information (metadata, configuration, and conditions) and are stored as JSON documents. They can update apps on the cloud and device, and support numerous query languages. A device twin is an IoT Hub device managed resource that can be accessed for many operations like read, write and query.</p>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="ih-que-q7">How is the price for read, write and query calculated?</a>
+                                <section>
+                                    <p>Read, write, and query are only available on Standard Level, with the price calculated in 0.5KB blocks and the size considered returned, update size, and size of the query results. For example, reading 4KB is priced as 8 messages, updating 1KB effectively is calculated as loading 2 messages, and a query returning 10KB would be priced as 20 messages. All other fee-level messages (S1, S2, S3) are calculated in 4KB blocks, the fee level is calculated at 0.5KB.</p>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="ih-que-q8">How is the price of the direct method calculated?</a>
+                                <section>
+                                    <p>The direct method is a cloud originated request response communication. Cloud to device receives an immediate response. Request and response together total 8KB and at the fee level (like S1, S2, and S3) is calculated in 4KB blocks. So, if an 8KB request is sent through S1, S2 or S3 levels, the request price is calculated as 2 messages. Using the Free tier, prices are calculated in blocks of 0.5KB per request. For example, the price for one 8KB-sized message sent through an IoT Hub at the Free tier is calculated as 16 messages.</p>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="ih-que-q9">How are prices calculated for long running jobs?</a>
+                                <section>
+                                    <p>Jobs permitted to start on numerous devices or set up for paired write and execute on the direct method. Costs for job operations aren’t calculated, but paired write and method transfers ae priced as above.</p>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="ih-que-q10">What are the billing methods for Azure IoT Hub services?</a>
+                                <section>
+                                    <p>The daily amount of IoT Hub units used generates monthly bills. Customers are billed based on the number of IoT Hub Units consumed during the month.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="ih-que-q11">If I purchase extra IoT Hub units in the middle of the month, will I be charged pro rata?</a>
+                                <section>
+                                    <p>You can choose to increase the number of IoT Hub Units purchased at any time. If the service is signed up for in the middle of the month, the cost for this month will be calculated in proportion to the remaining days of the month. (For IoT Hub Services, one month is defined as 31 days). If you increase the number of IoT Hub Units in the middle of the month, the cost for this month will be calculated based on the number of units available each day this month.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="vm-que-q12">If business needs change, can the number of units be reduced?</a>
+                                <section>
+                                    <p>Yes, you can reduce the number of units at any time from the “Settings” page. Changes will take effect the next day and will be reflected on the bill at the end of the month.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="vm-que-q13">Can I switch from the free edition to the paid edition?</a>
+                                <section>
+                                    <p>No, you can not switch from the free edition to the paid edition. The free edition is only for testing concepts and proofing solutions.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="vm-que-q14">How is an IoT Hub service subscription cancelled?</a>
+                                <section>
+                                    <p>Cancel an IoT Hub subscription from the <a href="//portal.azure.cn/">Azure Management Portal</a>.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="vm-que-q15">What is the management fee for devices in an IoT Hub?</a>
+                                <section>
+                                    <p>Device management functions are part of the IoT Hub. Device management messages are measured similarly to other IoT Hub telemetry messages.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="vm-que-q16">Is it possible to switch between Standard IoT Hub editions?</a>
+                                <section>
+                                    <p>Yes, You must take steps to switch from one paid version to another paid version. The device ID and any messages will be transferred to the new version. If the customer thinks they want to switch from a Premium level to a lower level (like from S2 to S1), and they use messages in excess of the daily amount of messages allowed for S1, then on those days they will be charged at an S2 customer rate and on the next day start paying at the S1 rate.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="vm-que-q17">Is it possible to switch between Basic IoT Hub versions?</a>
+                                <section>
+                                    <p>Yes, You must take steps to switch from one paid version to another paid version. The device ID and any messages will be transferred to the new version. If the customer thinks they want to switch from a Premium level to a lower level (like from B2 to B1), and they use messages in excess of the daily amount of messages allowed for B1, then on those days they will be charged at an B2 customer rate and on the next day start paying at the B1 rate.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="vm-que-q18">Is it possible to switch between Basic and Standard IoT Hub levels?</a>
+                                <section>
+                                    <p>Yes, you can upgrade from Basic to Standard levels through the Azure Portal, but you cannot drop from a Standard level to a Basic level. To move from a Standard level to a Basic level you must create a new Basic level IoT Hub and you must re-register devices to the IoT Hub.</p>
+                                </section>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pricing-page-section">
+                <h2>Region</h2>
+                <p>Azure IoT Hub is available in the following areas:</p>
+                <table cellpadding="0" cellspacing="0" class="table-col6">
+                    <tr>
+                        <th align="left"><strong>Territory</strong></th>
+                        <th align="left"><strong>Region</strong></th>
+                    </tr>
+                    <tr>
+                        <td>Mainland China</td>
+                        <td>China North, China East</td>
+                    </tr>
+                </table>
+				<div class="pricing-page-section">
+                <h2>Support &amp; SLA</h2>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="iot-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
+                <p>For IoT Hub, we guarantee that, at least 99.9% of the time, the deployed IoT Hub can send information to and receive information from registered devices, and the service can perform operations such as creation, reading, updates, and deletion on the IoT Hub.</p>
+				<p>Service Level Agreement is not available in the free edition of IoT Hub.</p> 
+				<p>To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/iot-hub/" id="pricing_iot-hub_sla">Service Level Agreements</a> page.</p> 
+                </div>
+            <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />  --> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                             
+    
+    ]]></bodyText>
+    <pageTitle>Azure IoT Solution Services Pricing – Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>pricing-details-iot-hub</linkid>
+    <metaKeywords>Azure, Microsoft Cloud, Internet of Things, Azure IoT Hub, Azure IoT Hub, monitoring Internet of Things assets, two-way communications, and price</metaKeywords>
+    <metaDescription><![CDATA[Learn about the pricing details of Azure IoT Hub. Connect, monitor, and control millions of Internet of Things assets by using Azure IoT Hub. Azure IoT Hub offers free, S1, S2, and S3 Editions. The free version of Azure IoT Hub can transmit up to 8,000 messages per day. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
+    <urlDisplayName>Pricing - Azure IoT Hub</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

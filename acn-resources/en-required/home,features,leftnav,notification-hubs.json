@@ -1,0 +1,79 @@
+
+{"service": "Notification Hubs", 
+"id": "leftnav_product_notification-hubs", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_notification-hubs_details", 
+	"articles": 
+		[
+			{"link": "/home/features/notification-hubs/", 
+			"id": "leftnav_product_notification-hubs_function", 
+			"title": "Product overview"}, 
+			{"link": "/pricing/details/notification-hubs/", 
+			"id": "leftnav_product_notification-hubs_pricing", 
+			"title": "Pricing"},
+			{"link": "/pricing/calculator/notification-hubs/", 
+			"id": "leftnav_product_notification-hubs_calculator", 
+			"title": "Pricing calculator"},
+			{"link": "https://docs.azure.cn/notification-hubs/", 
+			"id": "leftnav_product_notification-hubs_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/notification-hubs/", 
+			"id": "leftnav_product_notification-hubs_sla", 
+			"title": "Service Level Agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_notification-hubs_related", 
+	"articles": 
+		[
+			{"link": "/home/features/web-site/", 
+			"id": "leftnav_product_web-site_function", 
+			"title": "Web Apps"}, 
+			{"link": "/home/features/service-bus/", 
+			"id": "leftnav_product_messaging_function", 
+			"title": "Service Bus"},
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_storage_function", 
+			"title": "Storage"},
+			{"link": "/home/features/virtual-network/", 
+			"id": "leftnav_product_networking_function", 
+			"title": "Virtual Network"}
+		]
+	}, 
+	{"group": "Related Documentation and Links", 
+	"id": "leftnav_product_notification-hubs_others", 
+	"articles": 
+		[
+			{"link": "/solutions/mobile-services/", 
+			"id": "leftnav_product_notification-hubs_solutions_mobile-services", 
+			"title": "Mobile Services Solutions"},
+			{"link": "https://docs.azure.cn/", 
+			"id": "leftnav_product_notification-hubs_articles_mobile-services-ios-get-started", 
+			"title": "Getting Started with iOS"},
+			{"link": "https://docs.azure.cn/", 
+			"id": "leftnav_product_notification-hubs_articles_notification-hubs-windows-phone-get-started", 
+			"title": "Getting Started with Windows Phone"},
+			{"link": "https://docs.azure.cn/", 
+			"id": "leftnav_product_notification-hubs_articles_notification-hubs-kindle-get-started", 
+			"title": "Getting Started with Kindle"},
+			{"link": "https://docs.azure.cn/", 
+			"id": "leftnav_product_notification-hubs_articles_notification-hubs-baidu-get-started", 
+			"title": "Getting Started with Baidu"},
+			{"link": "https://docs.azure.cn/", 
+			"id": "leftnav_product_notification-hubs_articles_notification-hubs-faq", 
+			"title": "Azure Notification Hubs FAQ"}
+		]
+	}
+]
+}
+
+
+
+
+
+
+
+
+

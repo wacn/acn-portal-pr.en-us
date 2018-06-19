@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2014-10-20T09:41:59" urlName="virtual-machines" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="site-recovery" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/site_recovery.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/site-recovery@2x.png" />
+                        <h2><span>Site Recovery</span></h2>
+                        <h4>Set up protection and recovery for private clouds</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_recovery_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_recovery_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h1>Coordinates app protection and recovery to simplify disaster recovery</h1>
+                <ul>
+                    <li>Automatically protects and replicates VMs</li>
+                    <li>Remote health monitoring</li>
+                    <li>Customizable recovery plans</li>
+                    <li>Recovery plan testing with zero impact</li>
+                    <li>Arranges recovery when needed</li>
+                    <li>Replicates to Azure - and recovers within Azure</li>
+                </ul>
+                <p>Regardless of whether you need to protect a few dozen or a few hundred virtual machines, Azure Site Recovery helps protect important apps by coordinating a dedicated cloud for replication and recovery sites. You can protect apps to your own secondary site or host site, or even use Azure as the disaster recovery site, avoiding the hassle and expense of creating and managing your own secondary location.</p>
+
+                <h2>Automated protection made simple</h2>
+                <p>Protects your environment by automatically replicating virtual machines based on your settings and control strategies. Site recovery integrates existing technologies (such as Hyper-V copies, System Center and SQL Server AlwaysOn) to coordinate and manage any data replication that is currently running.</p>
+
+                <h2>Replicate and restore to Azure</h2>
+                <p>You can further simplify disaster recovery protection by replicating to Azure, while also benefiting from the simplicity, automation, customizable recovery plans, health monitoring, and pre-arranged recovery that this service provides. One of the main barriers to implementing comprehensive app protection is the cost of creating and maintaining secondary sites for disaster recovery. Now Azure can become your disaster recovery site.</p>
+
+                <h2>Continuous health monitoring</h2>
+                <p>Site Recovery continuously monitors the status of the System Center Virtual Machine Manager cloud remotely from Azure. When you replicate between two sites that you control, only the Virtual Machine Manager server directly communicates with Azure - your virtual machine data and replicated content remains on the network, and all communication with Azure is encrypted. When you replicate to Azure as a secondary site, your data is encrypted, and you can also choose to encrypt static data.</p>
+
+                <h2>Arranged recovery</h2>
+                <p>This service helps you to automatically recover services in an orderly manner if the primary datacenter suffers from site interruptions. Virtual machines can be started in a pre-arranged way, so that you can restore service quickly, even if you are dealing with complex, multi-tier workloads. You can conveniently create recovery plans with Azure Management Portal and save them in the portal. Depending on your service requirements, the recovery plan may be relatively simple or extremely Premium, including running custom Windows PowerShell scripts and suspending operation to facilitate manual intervention. You can also map virtual networks between the primary site and the recovery site, and customize the network. You can test these plans at any time without interfering with the services of the primary location.</p>
+
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>Find out more</h1>
+                <ul>
+                    <li><a id="home_site_recovery_plan" href="http://msdn.microsoft.com/zh-cn/library/dn440569.aspx">Planning and Deployment Guide</a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->     
+        
+    ]]></bodyText>
+    <pageTitle>Site recovery_cloud data - Azure Cloud Computing</pageTitle>
+    <metaKeywords>Azure, site recovery, disaster recovery</metaKeywords>
+    <metaDescription><![CDATA[Regardless of whether you need to protect a few dozen or a few hundred virtual machines, Azure Site Recovery helps protect important apps by coordinating a dedicated cloud for replication and recovery sites. You can protect apps to your own secondary site or host site, or even use Azure as the disaster recovery site, avoiding the hassle and expense of creating and managing a secondary location.]]></metaDescription>
+    <linkid>home-features-site-recovery</linkid>
+    <urlDisplayName>Site Recovery</urlDisplayName>
+    <headerText><![CDATA[站点恢复]]></headerText>
+  </TextpageLeftNav>
+</localize>
