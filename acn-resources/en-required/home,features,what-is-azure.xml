@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <umbTextpage id="19329" parentID="19326" level="3" writerID="52" creatorID="94" nodeType="1059" template="1" sortOrder="3" createDate="2013-08-27T11:20:07" updateDate="2014-08-18T11:34:25" nodeName="Web" urlName="web" writerName="uRest" creatorName="xunfan" path="-1,11978,19326,19329" isDoc="" isResponsive="1">
+    <bodyText><![CDATA[
+      
+        <div class="figure-group">
+            <ul class="figure-left">
+                <li>
+                    <h1>Infrastructure</h1>
+                    <div class="figure-img">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/what-is-azure/what-is-azure-city@2x.png" />
+                    </div>
+                    <div class="figure-section">
+                        <p>In China, 21Vianet’s operation of Microsoft Azure is an independently managed, publicly-owned cloud platform on Mainland China and is physically and logically independent of Microsoft Cloud-managed Azure services in other regions worldwide. <strong>21Vianet uses Microsoft global Azure technology</strong> to provide clients <strong>globally consistent services with guaranteed quality</strong>. All client data and the handling of their data applications is carried out by 21Vianet online data centers wholly located in China. The data centers are positioned in <strong>Eastern China (Shanghai) and Northern China (Beijing)</strong>, geographically separated by over 1,000 kilometers to provide <strong>Geo-replication</strong> and <strong>business continuity support</strong> enabling <strong>data reliability</strong> for Azure services.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="figure-img">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/what-is-azure/what-is-azure-node@2x.png" />
+                    </div>
+                    <div class="figure-section">
+                        <p>With respect to network access, 21Vianet managed Microsoft Azure data centers use <strong>BGP</strong> to <strong>directly connect to</strong> <strong>major telecommunications carriers’</strong> (China Telecom, China Unicom, and China Mobile) provincial-level core network nodes to provide <strong>high speed, stable</strong> network access. The two data centers located in Eastern and Northern China use identical broadcast addresses and BGP routing policies so that users can use their <strong>nearest access</strong> for Azure services from these two data centers to reach optimum network performance.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="figure-img">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/what-is-azure/what-is-azure-eco@2x.png" />
+                    </div>
+                    <div class="figure-section">
+                        <p>All data centers choose a <strong>top node data center</strong> from a telecommunications carrier in China, and on the basis of <strong>green energy</strong>, can use <strong>N+1 </strong>or<strong> 2N uninterruptible power supply protection</strong>. In addition, there are also high-power diesel generators to provide backup power to the data centers with on-site diesel storage and nearby supply stations with which we have a guaranteed supply agreement. The data centers’ machine rooms are all above ground, air-condition sealed with backup refrigeration systems and the refrigerators, cooling tower, and ice pond form an efficient cooling cycle. This allows the machine room servers to provide a <strong>suitably stable environment</strong>. This is joined with a <strong>ventilation system</strong> that under favorable weather conditions can to a great extent <strong>lower the data centers’ PUE</strong>.</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="figure-right">
+                <li>
+                    <h1>Trusted security</h1>
+                    <div class="figure-img">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/what-is-azure/what-is-azure-safe@2x.png" />
+                    </div>
+                    <div class="figure-section">
+                        <p class="figure-h2">Security</p>    
+                        <p>We guarantee that your client data is secure. Azure has adopted a series of reliable security technologies and practices that help ensure that Azure infrastructure can <strong>respond to attacks</strong> and protect users’ access to the Azure environment. Moreover, <strong>encrypted communication, threat management, and countermeasures</strong> (including recurring testing against infiltration) assist in ensuring client data is secure. Industry leading security technology and practices ensure that client data <strong>confidentiality, integrity</strong> and <strong>availability</strong> guarantees that we exceed <strong>99.99%</strong> a month of our Service Level Agreement, and both data centers in Beijing and Shanghai provide at most <strong>6</strong> data backups.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="figure-img">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/what-is-azure/what-is-azure-privacy@2x.png" />
+                    </div>
+                    <div class="figure-section">    
+                        <p class="figure-h2">Privacy protection</p>
+                        <p>You have to control your client data. <strong>Client permission management</strong> of your client data and permissions decides the storage position of client data. No one can use client data without permission. Different tenant client data is logically <strong>completely separate</strong> and client data cannot be used for advertising or other commercial purposes.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="figure-img">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/what-is-azure/what-is-azure-trucs@2x.png" />
+                    </div>
+                    <div class="figure-section">    
+                        <p class="figure-h2">Compliance</p>
+                        <p>We comply with global and national standards. We satisfy international and industry specific standard <strong>ISO/IEC27001</strong> and Ministry of Public Security information system <strong>security protection</strong> evaluation <strong>3rd level</strong> filing, as well as multiple <strong>trusted Microsoft Azure Cloud Services certifications</strong>. Rigorous third party audit and inspection of Azure satisfies different standards of compulsory security controls. We promise transparency and you can request our third party audit results in order to verify our numerous security controls.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="figure-img">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/what-is-azure/what-is-azure-transparency@2x.png" />
+                    </div>
+                    <div class="figure-section">    
+                        <p class="figure-h2">Transparency</p>
+                        <p>We know how your client data is stored and accessed and how to protect it. We were the first to push out a <strong>public service dashboard</strong> to provide a <strong>transparent and trusted service guarantee</strong>. Through accessible tools and simple, direct language, we transparently reveal how client data is stored, who can access it, and the methods 21Vianet uses to protect client data. With 21Vianet managed Microsoft Azure, we can assist clients in getting better control of their client data. Clients will clearly know where their client data is stored and how client data is used, managed, and protected.</p>
+                    </div>
+                </li>
+            </ul>   
+            <ul class="figure-left">
+                <li>
+                    <h1>Flexible and open</h1>
+                    <div class="figure-img">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/what-is-azure/what-is-azure-oss@2x.png" />
+                    </div>
+                    <div class="figure-section">
+                        <p>Azure is an open platform—<strong>support</strong> is extensive and includes <strong>open-source software and systems</strong> in server operating systems, various programming languages, frameworks, software packages, development tools, database and client premises equipment. For example, it runs with Docker integrated Linux containers, connects to MySQL, Redis PaaS services, and uses JavaScript, Python, .Net, PHP, Java, and Node.js development applications. It can generate to backend iOS, Android and Windows equipment. With the guiding principle that<strong>”Microsoft Loves Open Source”</strong>, Azure Cloud Services supports hundreds of different technologies that developers and IT professionals trust and rely on. Along with the Azure Engineering Team and in close cooperation with the open source community, the Microsoft Open Source Technology Center provides clients with best-in-class tools and technology for design work, development, deployment, and administration of Microsoft Azure Cloud Services and apps, ensuring investment in current technology and training.</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="figure-right">
+                <li>
+                    <h1>Economically efficient</h1>
+                    <div class="figure-img">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/what-is-azure/what-is-azure-cost@2x.png" />
+                    </div>
+                    <div class="figure-section">
+                        <p>We offer the most favorable pricing to provide you excellent service. Based on each individual service, and according to different configurations, different levels, and <strong>pricing separately</strong>, we will satisfy your diverse and multiple levels of business needs according to usage and <strong>charging separately according to usage time</strong>. At the same time, we still provide completely cost-free services: for example processing and Active Directory. Become an Azure PIA customer, you can enjoy up to<strong> 99.99%</strong> <a href="/support/legal/sla" id="whai-is-azure-sla">SLA (Service Level Agreement)</a>. You can rapidly deploy infrastructure and services to fully meet all of your enterprise needs, help you reduce <strong>saving operating costs</strong> and allow you concentrate on your core business.</p>
+                    </div>
+                </li>
+            </ul>                   
+        </div>
+        <!-- BEGIN: Product-Detail-BottomBanner -->
+        <div class="common-banner col-bottom-banner col-bottom-banner-azure" data-config="{'backgroundColor':'#02A2DC', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/what-is-azure/bottom-banner-azure.png','imageHeight':'auto'}">           
+            <div class="common-banner-image">
+                <div class="common-banner-title">
+                    <h1>Are you ready to start?</h1>
+                    <p>Apply for a 1RMB Trial, and get an ¥ 1,500 free credit limit with Azure</p>
+<em><a href="/pricing/1rmb-trial/" id="what_is_azure_bottom_trial">Apply for 1RMB Trial</a><i class="icon icon-arrow-right-thin"></i></em>
+</div>
+            </div>
+        </div>  
+        <!-- END: Product-Detail-BottomBanner -->     
+      
+    ]]></bodyText>
+    <umbracoNaviHide>0</umbracoNaviHide>
+    <pageTitle>What is Azure? - Azure Cloud Computing</pageTitle>
+    <localize>0</localize>
+    <localizePartial>0</localizePartial>
+    <sitemapHide>0</sitemapHide>
+    <forbidPublish>0</forbidPublish>
+    <linkid>home-features-what-is-azure</linkid>
+    <metaKeywords>Azure, Cloud Server, Cloud Services, Features</metaKeywords>
+    <metaDescription><![CDATA[Azure supports open source, is safe and reliable, flexible and open, and economically efficient. It provides Infrastructure as a Service (IaaS) and Platform as a Service (PaaS). Azure has a Level 3 information security rating and many trusted Microsoft Azure Cloud Services certifications. Apply for a 1RMB Trial and get a ￥ 1,500 Azure service credit limit.]]></metaDescription>
+    <headerExpose />
+    <footerExpose />
+    <urlDisplayName>Understanding Azure</urlDisplayName>
+    <disqusComments>0</disqusComments>
+    <metaCanonical />
+    <isHeader>0</isHeader>
+    <pageTemplate />
+    <banner><![CDATA[
+        <!-- BEGIN: Banner -->
+            <div class="common-banner" data-config="{'backgroundColor':'#0078d7', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/what-is-azure/what-is-azure-banner.png','imageHeight':'220'}" id="banner">         
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <h1>Understanding Azure</h1>
+                        <p>An ever-growing set of integrated Cloud Services</p>   
+                        <p>Helps speed up your development, raise work efficiency, and save operating costs</p>           
+                    </div>  
+                </div>
+            </div>  
+        <!-- End: Banner-->
+    ]]></banner>
+  </umbTextpage>
+</localize>
