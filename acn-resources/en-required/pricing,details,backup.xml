@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-05-31T11:50:00" urlName="backup" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="backup" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/backup.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/backup@2x.png" />
+                        <h2>Backup<span>Backup</span></h2>
+                        <h4>Simple and reliable cloud-based server backup</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_backup_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_backup_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner -->
+            <div class="pricing-page-section">
+                <p>Azure Backup is a reliable, low-cost, and scalable solution, allowing for backup of local data onto the cloud. Without any capital investment, you can protect your key business data with the lowest operating expenses.</p>
+                <p>Azure Backup now enables backup of virtual machines on Azure through a few simple steps, and also permits placing the restore points on the cloud storage. Whenever necessary, you can respond from the restore points to meet various demands for protecting Azure Virtual Machines.</p>
+            </div>
+            <!-- BEGIN: TAB-CONTROL -->
+            <div class="technical-azure-selector tab-control-selector">
+                <div class="tab-control-container tab-active">
+                    <h2>Pricing Details</h2>
+                    <p>Backup services are charged by the size of every protected instance, at an increment of 500 GB. In addition, Azure storage space is charged individually, allowing for reduction in long-lasting storage cost. Customers can make a flexible selection between LRS or GRS Block Blob Storage (please refer to the pricing details for <a id="pricing-bankup_storage-blob" href="/pricing/details/storage/blob/" target="_blank">Block Blob for General Purpose Storage Accounts</a>).</p>
+                   <h4>Azure VM and local server backup</h4>
+                    <div class="tags-date">
+                        <div class="ms-date">*The following prices are tax-inclusive.</div><br>
+                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                    </div>
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <th align="left"><strong>Data stored per protected instance per month</strong></th>
+                            <th align="left"><strong>Price</strong></th>
+                        </tr>
+                        <tr>
+                            <td>Instances with 0 to 50 GB (including 50 GB) of data</td>
+                            <td>￥ 31.65/protected instance + storage used</td>
+                        </tr>
+                        <tr>
+                            <td>Instances with 50 GB to 500 GB (including 500 GB) of data</td>
+                            <td>￥ 63.29/protected instance + storage used</td>
+                        </tr>
+                        <tr>
+                            <td>Instances with more than 500 GB of data</td>
+                            <td>Increments of ¥ 63.29 every 500 GB + storage used</td>
+                        </tr>
+                    </table>
+                    <h4>Backup storage space</h4>
+                    <p>Azure Storage uses an instance of Block Blob Storage for backup. You can flexibly select Locally Redundant Storage (LRS) or Geo-Redundant Storage (GRS). LRS and GRS are both Block Blob Storage.</p>
+                    <div class="tags-date">
+                        <div class="ms-date">*The following prices are tax-inclusive.</div><br>
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+                    </div>
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <th align="left"><strong>Locally Redundant Storage (LRS)</strong></th>
+                            <th align="left"><strong>Geo-Redundant Storage (GRS)</strong></th>
+                        </tr>
+                        <tr>
+                            <td>¥ 0.36/GB</td>
+                            <td>¥ 0.18/GB</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- END: TAB-CONTROL -->
+            <div class="pricing-page-section">
+                <div class="more-detail">
+                    <h2>FAQ</h2>
+                    <em class="pos-em">Expand all</em>
+                    <h3>Overview</h3>
+                    <ul>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_question1">How does the set price model work? </a>
+                                <section>
+                                    <p>Azure Backup’s new price model has two components:</p>
+                                    <ul>
+                                        <li>Protected instance: This is the main charge unit for Azure Backup. The client  can pay to use a protected instance of Azure Backup services.</li>
+                                        <li>Memory: The client can select <a href="//docs.azure.cn/zh-cn/storage/common/storage-introduction#replication">Locally Redundant Storage (LRS) or Geo-Redundant Storage (GRS) </a> to use as their backup vault. Memory net price depends on the amount of data stored.</li>
+                                    </ul>
+                                    <p>These two components will be listed on your Azure monthly bills as individual line items.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_question2">What are protected instances? </a>
+                                <section>
+                                    <p>A protected instance is configured to a Azure Backup computer, physical/virtual machine, server or database installed with a backup policy, and the instance is protected after a copy of the data is created. Successive backups of the data will change  the amount of storage used, but the extra backup copies will not add to the volume of the protected instance. Some typical examples of protected instances include executing a Windows operating system virtual machine, application server, database, and personal computer. For example:</p>
+                                    <ul>
+                                        <li>Running a virtual machine monitoring program for a Hyper-V or Azure IaaS virtual machine. This virtual machine guest operating system can be a Windows Server or Linux.</li>
+                                        <li>This includes running a Windows Server physical or virtual machine and the workload data. Typical workload data has a file server role in Microsoft SQL Server, Microsoft Exchange server, Microsoft SharePoint server, Microsoft Dynamics and Windows Server. The workload data that needs backup or protection requires an Azure Backup Server or System Center Data Protection Manager (DPM).</li>
+                                        <li>A personal computer running a Windows operating system.</li>
+                                        <li>A SQL Server, including all databases associated with the above servers.</li>
+                                    </ul>
+                                    <p>If you select a virtual machine monitoring program configuration and it has guest workload data, then the virtual machine monitoring program configuration and its guest workload will viewed as an independent protected instance and be billed separately.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_question3">Are all protected instance prices the same?</a>
+                                <section>
+                                    <p>No, from a billing point of view there are three categories of instances based on size. Each protected instance price depends on the list of prices above. Please note, the above price list does not include the price of memory as memory is billed separately.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_question4">Do I have to pay for restoration and Internet exports?</a>
+                                <section>
+                                    <p>We will not charge customers for any restore operations and/or outgoing network bandwidth (exports) relating to restore operations.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_question5">What clients will get the new prices? </a>
+                                <section>
+                                    <p>The new prices will apply to all Azure Backup clients.</p>
+                                </section>
+                            </div>
+                        </li>
+                    </ul>
+                    <h3>Protected Servers and Instances</h3>
+                    <ul>
+                        
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_question6">If I protect the computer on Azure starting in the middle of a month, do I still need to pay the full price for the protected instances? </a>
+                                <section>
+                                    <p>No, the cost is prorated according to the number of days the instance is protected in the month.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_question7">If we increase the time that our backup data is retained and use more Azure Backup Storage, what happens?</a>
+                                <section>
+                                    <p>The above backup storage rates apply to all data using Axure Backup Storage and extending the time Azure Backup data is retained will be charged in advance. However, increasing the retention period does not affect what you pay for the cost of protected instance software. Please note, you must have the latest version of Azure Backup to ensure this result.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_question8">If we stop protection, what happens to the data retained in the Azure Backup vault? </a>
+                                <section>
+                                    <p>You will continue to be billed for protected instances and memory as long as you have data in Azure Backup. Invoicing of protected instances is based on the size of the features backed up prior to your decision to stop protection. Memory invoicing is based on the amount of data the instance stores in the backup vault.</p>
+                                    
+                                    <p>For example, consider backing up a 100GB virtual machine. The protected instance cost is RMB 63.29 per month. If 1GB of data is added daily and the data is retained for 120 days, you will be billed separately for that share of memory. After one month, if you decide to stop protecting the virtual machine, but retain Azure Backup data, then you will be billed RMB 63.29 each month until you delete the backup data.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_question9">Do I need to upgrade my Azure Backup proxy?</a>
+                                <section>
+                                    <p>Yes, the new pricing can be used only after the Azure Backup proxy is upgraded to the latest edition. Use of the proxy for older editions will yield adverse effects on the size of the protected instances being charged.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_question10">What clients will get the new prices?</a>
+                                <section>
+                                     <p>The new prices will apply to all Azure Backup clients.</p>
+                                </section>
+                            </div>
+                        </li>
+                    </ul>
+                    <h3>Backup Storage Costs</h3>
+                    <ul>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_stor1">How will we be billed if we use Storage?</a>
+                                <section>
+                                    <p>Any data in Azure Backup Storage will be billed according to the price list above.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_stor2">Does Block Blob pricing depend on whether the storage is LRS or GRS? </a>
+                                <section>
+                                    <p>This depends on the storage options selected for the backup vault. The storage options for backup vaults include: Locally redundant storage (LRS) or geo-redundant storage (GRS).</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_stor3">Can I have two different vaults, namely, one using LRS and the other using GRS?</a>
+                                <section>
+                                    <p>Yes, this is supported. The backup data in every vault will be charged by the corresponding LRS or GRS Block Blob rate in the vault’s region. Customers have full control over Azure storage space billing for selected vault options.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_stor4">What factors contribute to backup storage?</a>
+                                <section>
+                                    <p>The total backup data size ("back-end size") maintained in Azure Backup for specific protected instances may vary according to the following factors:</p>
+                                    <ul>
+                                        <li>Retention period of backup data</li>
+                                        <li>Network turnover of storage at each restore point</li>
+                                        <li>The actual compression of backup data</li>
+                                        <li>The planned frequency of backups</li>
+                                        <li>Any correlated backup metadata</li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_stor5">How do I ascertain the backup storage capacity used?</a>
+                                <section>
+                                    <p>The backup vault dashboard page will show the total number of computers logged into the vault. It can even show the type of storage in the backup vault.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_stor6">Are we required to pay for Storage transactions?</a>
+                                <section>
+                                    <p>As with current pricing, you’re not required to pay for Azure Backup storage transactions. This content is included as a part of the software price you pay.</p>
+                                </section>
+                            </div>
+                        </li>
+                    </ul>
+                    <h3>Network costs</h3>
+                    <ul>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="backup_price_dpm1">We’ve already signed up for ExpressRoute. What must we pay?</a>
+                                <section>
+                                   <p>ExpressRoute costs are not included in Azure Backup. Customers will continue to be billed for Azure Backup separately, and ExpressRoute will be billed based on port speed.</p>
+                                </section>
+                            </div>
+                        </li>
+                    </ul>
+                    <h3>Examples</h3>
+                    <ul>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="backup_price_ex1">Examples</a>
+                                <section>
+                                   <table> 
+                                        <thead>
+                                            <tr>
+                                                <th>Host Computer</th> 
+                                                <th>Workload</th> 
+                                                <th>Size of Protected Instances</th> 
+                                                <th>Billing Amount*</th> 
+                                            </tr>
+                                        </thead> 
+                                        <tbody> 
+                                            <tr> 
+                                                <td>1 Windows host computer</td> 
+                                                <td>Windows Server 2012 (documents/folders backup)</td> 
+                                                <td>300 GB</td> 
+                                                <td>￥ 63.29/month</td> 
+                                            </tr> 
+                                            <tr> 
+                                                <td>3 Windows host computers</td> 
+                                                <td>Microsoft Exchange<br>Microsoft Exchange<br>Microsoft Exchange</td> 
+                                                <td>600 GB<br>1,300 GB<br>400 GB</td> 
+                                                <td>¥ 126.58/month<br/>¥ 189.87/month<br/>¥ 63.29/month</td> 
+                                            </tr> 
+                                            <tr> 
+                                                <td>1 Windows client computer</td> 
+                                                <td>Windows 8.1 (documents/folders backup)</td> 
+                                                <td>25 GB</td> 
+                                                <td>￥ 31.65/month</td> 
+                                            </tr> 
+                                            <tr> 
+                                                <td>1 Hyper-V Virtual Machine</td> 
+                                                <td>Virtual Machine backup</td> 
+                                                <td>30 GB</td> 
+                                                <td>¥ 31.65/month</td> 
+                                            </tr> 
+                                            <tr> 
+                                                <td>1 Azure IaaS Virtual Machine</td> 
+                                                <td>Virtual Machine backup</td> 
+                                                <td>250GB</td> 
+                                                <td>¥ 63.29/month</td> 
+                                            </tr> 
+                                            <tr> 
+                                                <td>1 Windows guest computer</td> 
+                                                <td>Windows Server 2012 (documents/folders backup)</td> 
+                                                <td>120 GB</td> 
+                                                <td>￥ 63.29/month</td> 
+                                            </tr> 
+                                            <tr> 
+                                                <td>1 Windows guest computer</td> 
+                                                <td>Microsoft SQL Server (independent)</td> 
+                                                <td>600 GB</td> 
+                                                <td>￥ 126.58/month</td> 
+                                            </tr> 
+                                            <tr> 
+                                                <td>3 Windows guest computers</td> 
+                                                <td>Microsoft SQL Server (cluster):
+                                                <ul> 
+                                                        <li>Computer 1: 50 databases</li> 
+                                                        <li>Computer 2: 75 databases</li> 
+                                                        <li>Computer 3: 20 databases</li> 
+                                                    </ul> 
+                                                </td> 
+                                                <td>70 GB<br>80 GB<br>15 GB</td> 
+                                                <td>¥ 63.29/month+<br>¥ 63.29/month+<br>¥ 31.65/month<p>Note: if the databases move around in the cluster, the size of the backup is used for calculation</p> </td> 
+                                            </tr> 
+                                            <tr> 
+                                                <td>5 Windows guest computers</td> 
+                                                <td>Complete SharePoint field including front-end and content database, etc.</td> 
+                                                <td>1,300 GB</td> 
+                                                <td>¥ 189.87/month (size of SharePoint field is larger than 1,000 GB and smaller than 1,500 GB)<p>Note: A SharePoint field is a special entity, which is charged on the basis of the total size of protected data in it.</p> </td> 
+                                            </tr> 
+                                        </tbody> 
+                                    </table>
+                                    <p>*They can be additional fees based on the Azure Memory selected for backup.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="backup_price_ex2">If I use a Microsoft Azure Backup (MAB) server to back up data locally, and the data will not be backed up to Azure, are there services I am still required to pay for?</a>
+                                <section>
+                                    <p>Yes, When using MAB servers to backup data locally, you still can be charged based on the cost of the instance backup services used. But, because the data is only being backed up locally, you will not incur any Azure Storage costs.</p>
+                                </section>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pricing-page-section">
+                <h2>Region</h2>
+                <p>Azure Backup services are available in the following regions:</p>
+                <table cellpadding="0" cellspacing="0" class="table-col6">
+                    <tr>
+                        <th align="left"><strong>Territory</strong></th>
+                        <th align="left"><strong>Region</strong></th>
+                    </tr>
+                    <tr>
+                        <td>Mainland China</td>
+                        <td>China North, China East</td>
+                    </tr>
+                </table>
+                <div class="pricing-page-section">
+                <h2>Support &amp; SLA</h2>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="backup-contact-page">Azure Support</a> to select self-service or any other method to contact us for support.</p>
+                <p>We guarantee that the availability of the backup and recovery functions of Azure Backup services reaches at least 99.9%. The availability is calculated by the monthly billing cycle. If you want to learn more about the details of our server level agreement, please visit the <a href="/support/sla/back-up/" id="pricing_backup_sla">Service Level Agreement</a> page.</p>
+                </div>
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                                    
+    
+    ]]></bodyText>
+    <pageTitle>Azure Cloud Backup_Cloud Data - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>pricing-details-back-up</linkid>
+    <metaKeywords>Azure, Backup, data, prices, pricing</metaKeywords>
+    <metaDescription><![CDATA[Learn more about the pricing details for Azure Backup. Azure Backup is a reliable, low-cost, and scalable solution, allowing for backup of local data into the cloud. Without any capital investment, you can protect your key business data with the lowest operating expenses. A 1RMB Trial gets you ¥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
+    <urlDisplayName>Pricing details - Backup</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

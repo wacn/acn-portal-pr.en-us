@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2014-10-20T09:41:59" urlName="virtual-machines" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="media-services" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/media_service.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/media-services@2x.png" />
+                        <h2><span>Media Services</span></h2>
+                        <h4>Encoding, storage, and video and audio streaming at scale</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_media_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_media_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h1>You can use the cloud for Premium video workflow</h1>
+                <ul>
+                    <li>Implements live streaming and VOD media delivery on the scale of international sporting events</li>
+                    <li>High availability encoding and stream processing</li>
+                    <li>Supports Flash, iOS, Android, HTML5 and Xbox</li>
+                    <li>Get movie studio-certified DRM support</li>
+                    <li>Extensive content monetization options</li>
+                    <li>Huge pre-integrated partner ecosystem</li>
+                </ul>
+                <p>With Azure’s cloud functions you can deliver any media content on virtually any device anywhere, anytime. Use Azure Media Services to create end-to-end media workflows and provide flexible, highly scalable encoding, packaging and distribution services. Securely upload, store, encode and package audio or video content for streaming or VOD delivery on endpoint devices including TVs, PCs and mobile devices.</p>
+                <h2>Large-scale encoding, storage and streaming delivery for audio and video</h2>
+                <p>Using Azure Media Services, you can build general end-to-end media workflows that reduce the costs associated with integrating multiple products and providers. You can choose integrated, immediately useable services from Microsoft and its partners.</p>
+
+                <h2>Live streaming delivery and VOD</h2>
+                <p>The service includes everything you need to operate your own cloud-based video platform (provide real-time programs and video-on-demand (VOD)). Azure Media Services include all the tools and services needed for media processing, delivery and consumption.</p>
+
+                <h2>Deliver to hundreds of millions of endpoint devices</h2>
+                <p>Geared to the requirements of today’s popular client devices, including PCs, tablets and smartphones running Windows, Android and iOS, as well as TVs and games consoles.</p>
+
+                <h2>Fast ingestion options and dynamic packaging</h2>
+                <p>Quickly upload assets by supporting UDP or mailing hard disks. Content can be encoded as multi-bitrate MP4 files, while all formats can be provided at any time and only one copy of the content is saved, in order to optimize storage utilization.</p>
+
+                <h2>Fast, efficient and affordable encoding</h2>
+                <p>Use our “basic”, “standard” and “premium” media reserved units, which are specially formulated for the encoding speed requirements of your workflow. Use the Azure Media Encoder, which supports a variety of studio-grade input and output file formats with charges based on the number of gigabytes (GB) output.</p>
+
+                <h2>Integrated CDN functions</h2>
+                <p>Pulls content from a range of sources and provides token-based authentication and region blocking. With Azure CDN you can provide content to end users around the world via a stable network of global datacenters with high bandwidth, low latency and high availability.</p>
+
+                <h2>Content protection and secure delivery</h2>
+                <p>Your assets can be appropriately protected by encryption during the upload process, after which they will be securely stored in the storage system, and then protected with Microsoft PlayReady digital rights management (DRM) or AES encryption during playback.</p>
+
+                <h2>Cover the widest range of users with the Player Frameworks and SDK</h2>
+                <p>With Microsoft’s Player Frameworks, existing players and SDK, you can provide service to the most popular platforms and the devices with the most customers.</p>
+
+                <h2>Reliable partner ecosystem</h2>
+                <p>We have an extensible platform that incorporates well known third-party media technologies that are optimized and integrated for the cloud, scalable, and charged at standardized rates.</p>
+
+                <h2>Pay-As-You-Go</h2>
+                <p>You can easily and reliably perform scaling for only the portion of the fees that you use and perfectly match usage with actual demand to meet burst or peak demand, so you don’t need to pay the cost of urgent encoding units, and you can reduce preliminary and current IT expenditure.</p>
+
+                <h2>Simplified video content management</h2>
+                <p>Use our simple and easy to use management solutions to store, encode and manage your media service video content.</p>
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>More</h1>
+                <ul>
+                    <li><a href="/support/contact/" id="home_features_con">Contact us for more information</a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   
+        
+    ]]></bodyText>
+    <pageTitle>Azure Media Services - Azure Cloud Computing</pageTitle>
+    <metaKeywords>Azure, Media Services, video encoding, video content</metaKeywords>
+    <metaDescription><![CDATA[Azure Media Services implement live streaming and VOD media delivery on the scale of international sporting events. Media Services securely provide scalable end-to-end media solutions for you to deliver media content across devices anywhere, any time.]]></metaDescription>
+    <linkid>home-features-media-services</linkid>
+    <urlDisplayName>Media Services</urlDisplayName>
+    <headerText><![CDATA[]]></headerText>
+  </TextpageLeftNav>
+</localize>

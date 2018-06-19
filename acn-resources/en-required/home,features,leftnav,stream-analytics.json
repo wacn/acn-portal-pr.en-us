@@ -1,0 +1,60 @@
+{"service": "Stream Analytics", 
+"id": "leftnav_product_stream-analytics", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_stream-analytics_details", 
+	"articles": 
+		[
+			{"link": "/home/features/stream-analytics/", 
+			"id": "leftnav_product_stream-analytics_function", 
+			"title": "Product overview"}, 
+			{"link": "/pricing/details/stream-analytics/", 
+			"id": "leftnav_product_stream-analytics_pricing", 
+			"title": "Pricing"},
+			{"link": "/pricing/calculator/stream-analytics/", 
+			"id": "leftnav_product_stream-analytics_calculator", 
+			"title": "Pricing calculator"},
+			{"link": "https://docs.azure.cn/stream-analytics/", 
+			"id": "leftnav_product_stream-analytics_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/stream-analytics/", 
+			"id": "leftnav_product_stream-analytics_sla", 
+			"title": "Service Level Agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_stream-analytics_related", 
+	"articles": 
+		[
+			{"link": "/home/features/event-hubs/", 
+			"id": "leftnav_product_event-hubs_function", 
+			"title": "Event Hubs"}, 
+			{"link": "/home/features/hdinsight/", 
+			"id": "leftnav_product_hdinsight_function", 
+			"title": "HDInsight"},
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_function", 
+			"title": "Virtual Machines"}, 
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_storage_function", 
+			"title": "Storage"}
+		]
+	}, 
+	{"group": "Related Documentation and Links", 
+	"id": "leftnav_product_stream-analytics_others", 
+	"articles": 
+		[
+			{"link": "/solutions/data-analysis/", 
+			"id": "leftnav_product_stream-analytics_solutions_data-analysis", 
+			"title": "Data Analysis Solutions"},
+			{"link": "/solutions/iot/", 
+			"id": "leftnav_product_stream-analytics_solutions_iot", 
+			"title": "Internet of Things Solutions"},
+			{"link": "https://docs.azure.cn/stream-analytics/stream-analytics-get-started/", 
+			"id": "leftnav_product_stream-analytics_articles_stream-analytics-get-started", 
+			"title": "Getting Started with Stream Analytics"}
+		]
+	}
+]
+}

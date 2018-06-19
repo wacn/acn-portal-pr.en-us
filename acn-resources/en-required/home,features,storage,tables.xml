@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-07-01T16:41:59" urlName="storage-tables" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="storage-tables" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure:last-child{
+                border:0; 
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'/wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/storage.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/storage@2x.png" />
+                        <h2>Table<span>Table</span></h2>
+                        <h4>Provides NoSQL storage for unstructured and semi-structured data</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial_storage-tables">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia_storage-blobs">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <ul>
+                    <li>Storage of highly available semi-structured data</li>
+                    <li>Create highly scalable apps</li>
+                    <li>Create apps with flexible data structures</li>
+                    <li>Use JSON serialized data</li>
+                    <li>Implement queries based on OData</li>
+                </ul>
+            </div>
+            <div class="pricing-page-section">
+                <h2><a href="//docs.azure.cn/zh-cn/cosmos-db/tutorial-develop-table-dotnet/">Azure Cosmos DB's support for the Table API can now be used in the preview to take advantage of global distribution, automatic indexing and rich queries, dedicated throughput, and millisecond latency.</a></h2>
+            </div>
+            <div class="pricing-page-section">
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/tables-store.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Storage PM level of structured data</h2>
+                        <p>Use Azure Table Storage PB-level semi-structured data and lower costs. Most (local or cloud-based) data storage is not the same. Table Storage does not need manual data collection to expand. Availability isn’t an issue: use Geo-Redundant Storage and store three copies of the data in one region and another three copies in another region over 100 km away.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/tables-support.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Supports flexible data structures</h2>
+                        <p>Table Storage is an extremely flexible dataset (web user data, address books, equipment information, and other metadata), and there is no need for the data model to be locked into a special data structure to generate cloud apps. Different structures can be used in the same table (for example, order information on one line and customer information on another line), so that you can still launch applications and structure tables even when online.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/tables-enterprise.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Enterprise-facing</h2>
+                        <p>Table Storage includes a strong, consistent model. When inserting or updating data In Table Storage, the most recent version of the data will be visible on subsequent access, which is very important when many users are updating the data storage system.</p>
+                    </div>
+                </div>
+                <p>Azure Storage space provides content enrichment of customer-end libraries using .NET, Java, Android, C++, Node.js, PHP, Ruby and Python to create apps. The customer-end library provides advanced features to Table Storage and supports OData if using queries of optimistic locking features. Data in memory can be accessed through REST API and REST API can invoke any language through HTTP/HTTPS requests.</p>
+            </div>
+            
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More --> <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
+    
+    ]]></bodyText>
+    <pageTitle>Table Storage - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-storage-tables</linkid>
+    <metaKeywords>Table Storage</metaKeywords>
+    <metaDescription><![CDATA[Azure Table Storage provides the ability to use large amounts of semi-structured data to rapidly develop NoSQL Key-Value Storage and rapid operation.]]></metaDescription>
+    <urlDisplayName>Table Storage</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

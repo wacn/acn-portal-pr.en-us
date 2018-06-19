@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2018-05-24T11:00:00" urlName="cosmos-db" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="cosmos-db" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/media,images,production,cosmos-db-background.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/media,images,production,cosmos-db.png">
+                        <h2>Azure Cosmos DB<span>Azure Cosmos DB</span></h2>
+                        <h4>Multi-model database service at any scale</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_cosmos-db_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cosmos-db_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <p>Azure Cosmos DB was built from the ground up with <a id="production-cosmos-db_docs-distribute-data-globally" style="color: #00a8d9;" href="//docs.azure.cn/cosmos-db/distribute-data-globally/">distribution</a> and horizontal scaling at its core. It offers turnkey distribution across any number of Azure regions by transparently scaling and replicating data (wherever users are). Flexibly scale throughput and storage within the range of multiple data centers, and only pay for what you need. Azure Cosmos DB guarantees single digit millisecond latencies at the 99th percentile, offers <a id="production-cosmos-db_docs-documentdb-consistency-levels" style="color: #00a8d9;" href="//docs.azure.cn/documentdb/documentdb-consistency-levels/">multiple well-defined consistency models</a> for fine tuning performance, and guarantees high availability with multi-homing functionality anywhere in each region – all supported by industry-leading, comprehensive <a id="production-cosmos-db_sla-cosmos-db" style="color: #00a8d9;" href="/support/sla/documentdb/">Service Level Agreements</a> (SLAs).</p>
+                
+                <h2>Turnkey distribution</h2>
+                <p>Build distributed applications easily without the trouble of the complex configuration of multiple data centers. As a <a id="production-cosmos-db_docs-distribute-data-globally-2" style="color: #00a8d9;" href="//docs.azure.cn/cosmos-db/distribute-data-globally/">distributed database system</a>, Azure Cosmos DB will automatically replicate all your data to any number of regions of your choice for fast, immediate access. Azure Cosmos DB supports transparent multi-homing features and guarantees availability as high as 99.99%.</p>
+				
+				<h2>Multi-model + Multi-API</h2>
+                <p>Only Azure Cosmos DB allows you to use key value, graphic, and document data in one service within the range of multiple data centers, without having to worry about architecture or index management. Azure Cosmos DB automatically indexes all data and allows you to use your favorite APIs (including <a id="production-cosmos-db_docs-documentdb-sql-query" style="color: #00a8d9;" href="//docs.azure.cn/zh-cn/documentdb/documentdb-sql-query/">SQL</a>, <a id="production-cosmos-db_docs-programming" style="color: #00a8d9;" href="//docs.azure.cn/cosmos-db/programming/">JavaScript</a>, and MongoDB) to access your data.</p>
+                
+                <h2>Limitless flexible scaling within the range of multiple data centers</h2>
+                <p>With Azure Cosmos DB, you only pay for the throughput and storage you need. Azure Cosmos DB allows you to independently and <a id="production-cosmos-db_docs-documentdb-partition-data" style="color: #00a8d9;" href="//docs.azure.cn/documentdb/documentdb-partition-data/">flexibly scale storage and throughput</a> at any time, anywhere in each region.</p>
+                
+                <h2>Multiple, well-defined consistency choices</h2>
+                <p>Azure Cosmos DB offers five well-defined consistency levels (strong, limited expiration, consistent-prefix, sessions, and eventual) for an intuitive programming model with low latency and high availability for apps within the range of multiple data centers.</p>
+
+                <h2>Guaranteed Low latency</h2>
+                <p>Serve read and write requests from the nearest region, while simultaneously distributing data within multiple data centers. With its latch-free and write-optimized database engine, Azure Cosmos DB guarantees latencies of less than 10 milliseconds on reads and less than 15 milliseconds on (indexed) writes in the 99th percentile.</p>
+                
+                <h2>Industry-leading, enterprise-grade Service Level Agreements</h2>
+                <p>Rest assured your apps are running on a “battle-tested” database service, built on world-class infrastructure. Azure Cosmos DB provides enterprise-grade security and compliance, and is the first and only service to offer <a id="production-cosmos-db_sla-2" href="/support/sla/documentdb/">industry-leading Service Level Agreements</a> for 99.99% high availability, latency in the 99th percentile, guaranteed throughput, and consistency.</p>
+				
+				<h1>What can you build with Azure Cosmos DB?</h1>
+				<p>Learn about <a id="production-cosmos-db_use-cases" href="//docs.azure.cn/cosmos-db/use-cases/" >use cases</a> below:</p>
+				
+				<h2>Distributed critical applications</h2>
+                <p>Guarantee access to users in various regions with the high availability and low latency capabilities built into Azure data centers.</p>
+				<p><a id="production-cosmos-db_use-cases-2" href="//docs.azure.cn/cosmos-db/use-cases/" >More<i class="icon icon-arrow-right-thin"></i></a></p>
+				
+				<h2>IoT</h2>
+                <p>Scale instantly and flexibly to accommodate diverse and unpredictable IoT workloads without affecting ingestion or query performance.</p>
+				<p><a id="production-cosmos-db_use-cases-3" href="//docs.azure.cn/cosmos-db/use-cases#iot-and-telematics" >More<i class="icon icon-arrow-right-thin"></i></a></p>
+				
+				<h2>Personalization</h2>
+                <p>Generate personalized recommendations for customers in real time, using low latency and tunable consistency settings for immediate insights.</p>
+				<p><a id="production-cosmos-db_use-cases-4" href="//docs.azure.cn/cosmos-db/use-cases#personalization" >More<i class="icon icon-arrow-right-thin"></i></a></p>
+				
+				<h2>Retail and e-commerce</h2>
+                <p>Support in-depth queries with regard to various product catalogs, traffic spikes, and rapidly changing inventory.</p>
+				<p><a id="production-cosmos-db_use-cases-5" href="//docs.azure.cn/cosmos-db/use-cases#retail-and-marketing" >More<i class="icon icon-arrow-right-thin"></i></a></p>
+				
+				<h2>Gaming</h2>
+                <p>Flexibly scale databases to accommodate unpredictable bursts of traffic and deliver low latency, multi-player experiences within the range of multiple data centers.</p>
+				<p><a id="production-cosmos-db_use-cases-6" href="//docs.azure.cn/cosmos-db/use-cases#gaming" >More<i class="icon icon-arrow-right-thin"></i></a></p>
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>More</h1>
+                <ul>
+                    <li><a id="production-cosmos-db_docs-documentdb-get-started" href="//docs.azure.cn/documentdb/documentdb-get-started/" target="_blank">Get started with Azure Cosmos DB<i class="icon icon-arrow-right-thin"></i></a></li>
+                    <li><a id="production-cosmos-db_docs-documentdb-create-account" href="//docs.azure.cn/documentdb/documentdb-create-account/" target="_blank">How to create a database account<i class="icon icon-arrow-right-thin"></i></a></li>
+                    <li><a id="production-cosmos-db_docs" href="//docs.azure.cn/documentdb/" target="_blank">Visit our Document Center<i class="icon icon-arrow-right-thin"></i></a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
+    
+    ]]></bodyText>
+    <pageTitle>Azure Cosmos DB Cosmos Database - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>CosmosDB</linkid>
+    <metaKeywords>Azure Cosmos DB, Cosmos Database, Azure Cosmos DB</metaKeywords>
+    <metaDescription><![CDATA[Azure Cosmos DB is a truly architecture neutral, fully managed NoSQL database that guarantees low latency and cross-regional expansion of throughput and storage space, enabling unlimited scale. It offers an infrastructure and software billing model that meets the needs of users, and has more consistency options. Azure Cosmos DB specifically provides transparent regional homing that enables continuous availability when faced with faults.]]></metaDescription>
+    <urlDisplayName>Azure Cosmos DB</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

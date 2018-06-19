@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-07-01T16:41:59" urlName="stream-analytics" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="stream-analytics" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'/wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/stream_analystics.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/stream-analytics@2x.png" />
+                        <h2><span>Stream Analytics</span></h2>
+                        <h4>Real-time, on-demand processing for streams of data from millions of IoT devices</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial_stream_analytics">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia_stream_analytics">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h1>The cloud can handle real-time streams</h1>
+                <ul>
+                    <li>It can carry out real-time analysis of Internet of Things solutions</li>
+                    <li>Stream millions of events per second</li>
+                    <li>Get mission critical reliability and performance prediction results</li>
+                    <li>Equipment and app utilization data to build real-time dashboards and alerts</li>
+                    <li>Make associations across multiple data streams</li>
+                    <li>Use common SQL language for real-time, rapid development</li>
+                </ul>
+                
+                <h2>Get deep insight in real time</h2>
+                <p>Using Azure Stream Analytics to understand the cloud helps you rapidly develop and deploy low cost analytic solutions to get deep insight into equipment, sensors, infrastructure, and apps. It can create opportunities, including Internet of Things (IoT) scenarios (for example, real-time remote administration and monitoring or deep insight into appliances like mobile phones or connected automobiles).</p>
+
+                <h2>Real-time, rapid development</h2>
+                <p>Decrease barriers to the time it takes to analyze the capabilities of distributed systems and reduce the level of complexity. You only need to use SQL language to describe needed changes and the system will make automatic allocations using real-time extension, performance and recovery capabilities so that there is no need to manage complicated infrastructure and software.</p>
+
+                <h2>Conduct real-time analysis</h2>
+                <p>Stream Analytics provides ready-made integration with <a id="home_landing_event_tow_stream_analytics" class="link-btn_tow" style="color: #00a8d9;" href="/home/features/event-hubs/" target="_blank">Event Hubs</a>, receiving hundreds of events each second. Stream Analytics can handle events in real time, comparing multiple real-time streams with historical data and models. This can in real time detect anomalies and inbound data changes. It is capable of alerting to the appearance of particular errors or conditions in the stream and offer real-time support through a dashboard.</p>
+
+                <h2>Real-time mission-critical reliability and extension capabilities</h2>
+                <p>It can be expanded to fit any amount of data needed, while still achieving high throughput, low latency and guaranteed recovery. It doesn’t require any hardware or up-front costs and also doesn’t require time-consuming installation. Azure can do all this work for you. You can get up and running in minutes. Stream Analytics can handle data under high throughput conditions where you can predict the results with no loss of data.</p>
+
+               
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>Learn more</h1>
+                <ul>
+                    <li><a id="home_landing_intro_stream_analytics" href="https://docs.azure.cn/stream-analytics/stream-analytics-get-started/" target="_blank">Get Started with Stream Analytics</a></li>
+                    <li><a id="home_landing_php_stream_analytics" href="https://msdn.microsoft.com/zh-cn/library/dn834998.aspx" target="_blank">Stream Analytics Query Language</a></li>
+                    <li><a id="home_landing_mac_stream_analytics" href="https://social.msdn.microsoft.com/Forums/zh-cn/home?forum=AzureStreamAnalytics" target="_blank">Stream Analytics Forum</a></li>
+                    <li><a id="home_landing_con_stream_analytics" href="https://customers.microsoft.com/Pages/CustomerStory.aspx?recid=12216" target="_blank">Client cases — Aerocrine：Improved running of Deep Data</a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
+    
+    ]]></bodyText>
+    <pageTitle>Azure Stream Analytics_Data Analytics - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-stream-analytics</linkid>
+    <metaKeywords>Azure, Stream Analytics, Streaming Analytics, Features, Data Handling, Analytic Services, Streaming</metaKeywords>
+    <metaDescription><![CDATA[Azure Stream Analytics (Streaming Analytics) is a kind of event data handling service that can analyze and view applications, equipment, and sensors, allowing real-time, rapid development for deep insight into currently existing data attributes. It can provide real-time analysis of Internet of Things solutions and can handle streams of hundreds of events per second.]]></metaDescription>
+    <urlDisplayName>Stream Analytics</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

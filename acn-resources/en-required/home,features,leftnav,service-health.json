@@ -1,0 +1,30 @@
+{"service": "Azure Service Health", 
+"id": "leftnav_product_service-health", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_service-health_details", 
+	"articles": 
+		[
+			{"link": "/home/features/service-health/", 
+			"id": "leftnav_product_service-health", 
+			"title": "Product overview"},
+			{"link": "https://docs.azure.cn/service-health/", 
+			"id": "leftnav_product_service-health", 
+			"title": "Documentation"}
+		]
+	},
+	{"group": "Related Documentation and Links", 
+	"id": "leftnav_product_iot-hub_others", 
+	"articles": 
+		[
+			{"link": "//docs.azure.cn/zh-cn/service-health/service-health-overview/", 
+			"id": "leftnav_service-health_service-health-overview", 
+			"title": "What is Service Health?"},
+			{"link": "//docs.azure.cn/zh-cn/service-health/resource-health-overview/", 
+			"id": "leftnav_service-health_resource-health-overview", 
+			"title": "What is resource Service Health?"}
+		]
+	}
+]
+}

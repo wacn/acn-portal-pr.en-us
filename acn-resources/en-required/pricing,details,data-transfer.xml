@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-06-07T11:41:59" urlName="data-transfer" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            
+            <div>   
+                    <h1>Data Transfer<span>Data Transfer</span></h1>
+                    <p>Data Transfer means that data is moved in and out of Azure Data Centers that are not explicitly covered by Content Delivery Network pricing.</p>
+			</div>
+			<div class="pricing-page-section">
+                    <h2>Pricing Details</h2>
+                    <p>Input and output of data:</p>
+                    <p>Users of the 1RMB Trial receive 50GB of free data. In the event of excess of the Data Transfer usage limit, the customer's account will be suspended without prior notice and the free credit limit will be set to "0". You can click <a id="pricing_details_here" href="https://account.windowsazure.cn/Subscriptions" style="color: #00a8d9;">here</a> to check your data usage in real time.</p>
+                    <P>Official paying users enjoy the first 1 TB (1024 GB) of data free of charge each month when using incoming Data Transfer services. Users in excess of 1 TB of free data are charged at the following Data Transfer rates.</P>
+                    <p>Input data (data transmission into the data center): ¥ 0.67/GB</p>
+                    <p>Output data (data transmission from the data center): ￥ 0.67/GB</p>
+            </div>           
+            <div class="pricing-page-section">
+                <div class="more-detail">
+                    <h2>FAQ</h2>
+                    <em>Expand All</em>
+                    <ul>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Data_Transfer_question1">Is there a fee for data transfer between Azure services located in the same region (China East or China North)?</a>
+                                <section>
+                                    <p>No. For example, data transfer within an Azure SQL Database in the same region (China East or China North) will not incur any additional costs.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Data_Transfer_question2">Is there a fee for data transfer between Azure services located in two different regions (China East or China North)?</a>
+                                <section>
+                                    <p>Yes, input and output data between various Azure services located in two different regions (China East or China North) needs to be charged according to the pricing.</p>
+                                </section>
+                            </div>
+                        </li>                       
+                    </ul>
+				</div>
+			</div>
+			<div class="pricing-page-section">
+                <h2>Support &amp; SLA</h2>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="reserved-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
+				<p>Data transfer doesn’t provide a Service Level Agreement. If you want to learn about the details of our server level agreement, please access the <a href="/support/legal/sla/" id="pricing_data-transfer_sla">Service Levels Agreements</a> page.</p>
+                </div>
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <!-- <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />                                                                        --> <!--END: Support and service code chunk-->                                         
+    
+    ]]></bodyText>
+    <pageTitle>Pricing Details - Data Transfer (Data Transfer) | Azure</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>pricing-details-data-transfer</linkid>
+    <metaKeywords>Azure, Price, Fapiao, FAQ, Data Transfer</metaKeywords>
+    <metaDescription><![CDATA[Learn about the pricing details of Azure Data Transfer. Data transfer means that data is moved in and out of Azure Data Centers that are not explicitly covered by Content Delivery Network pricing. A 1RMB Trial gets you ￥ 1,500 in service credits, or you can become an Azure Pay-in-Advance user through direct purchasing and enjoy the highest 99.99% Service Level Agreement.]]></metaDescription>
+    <urlDisplayName>Pricing Details - Data Transfer</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

@@ -1,0 +1,63 @@
+{"service": "Event Hubs", 
+"id": "leftnav_product_event-hubs", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_event-hubs_details", 
+	"articles": 
+		[
+			{"link": "/home/features/event-hubs/", 
+			"id": "leftnav_product_event-hubs_function", 
+			"title": "Product overview"}, 
+			{"link": "/pricing/details/event-hubs/", 
+			"id": "leftnav_product_event-hubs_pricing", 
+			"title": "Pricing"},
+			{"link": "/pricing/calculator/event-hubs/", 
+			"id": "leftnav_product_event-hubs_calculator", 
+			"title": "Pricing calculator"},
+			{"link": "https://docs.azure.cn/event-hubs/", 
+			"id": "leftnav_product_event-hubs_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/event-hubs/", 
+			"id": "leftnav_product_event-hubs_sla", 
+			"title": "Service Level Agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_event-hubs_related", 
+	"articles": 
+		[
+			{"link": "/home/features/service-bus/", 
+			"id": "leftnav_product_messaging_function", 
+			"title": "Service Bus"},
+			{"link": "/home/features/hdinsight/", 
+			"id": "leftnav_product_hdinsight_function", 
+			"title": "HDInsight"},
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_storage_function", 
+			"title": "Storage"},
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_function", 
+			"title": "Virtual Machines"}
+		]
+	}, 
+	{"group": "Related Documentation and Links", 
+	"id": "leftnav_product_event-hubs_others", 
+	"articles": 
+		[
+			{"link": "/solutions/data-analysis/", 
+			"id": "leftnav_product_event-hubs_solutions_data-analysis", 
+			"title": "Data Analysis Solutions"},
+			{"link": "/solutions/iot/", 
+			"id": "leftnav_product_event-hubs_solutions_iot", 
+			"title": "Internet of Things Solutions"},
+			{"link": "https://docs.azure.cn/event-hubs/event-hubs-csharp-ephcs-getstarted/", 
+			"id": "leftnav_product_event-hubs_articles_event-hubs-csharp-ephcs-getstarted", 
+			"title": "Getting Started with Event Hubs"},
+			{"link": "https://docs.azure.cn/event-hubs/event-hubs-faq/", 
+			"id": "leftnav_product_event-hubs_articles_event-hubs-faq", 
+			"title": "Event Hubs FAQ"}
+		]
+	}
+]
+}
