@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
 <localize>
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1ff00418e5685001248cb3fa479c71008506aef0" />
+    <Meta Name="ms.sourcegitcommit" Value="69721383fbc1d79356c6e97ea28fefa74ac963ab" />
+    <Meta Name="ms.translationtype" Value="HT" />
+    <Meta Name="ms.contentlocale" Value="en-US" />
+    <Meta Name="ms.lasthandoff" Value="02/01/2018" />
+    <Meta Name="ms.locfileid" Value="28949511" />
+  </Metadata>
   <umbTextpage template="21" createDate="2017-12-04T11:20:07" updateDate="2017-12-04T11:34:25">
     <bodyText><![CDATA[
-    
          <p><tags
             ms.service="public-security-registration"
             ms.workload=""
@@ -13,61 +19,58 @@
             wacn.date="03/2017"
             wacn.lang="cn" 
             ms.author="will"/></p>
-        <h1>Website filing process</h1><div class="tags-date"><div class="wacn-date">Last updated: March 2017</div></div>
-        <h3>1. Initial online review</h3>
-        <p>Initial review materials for website filing need to be submitted on the national public security system (apply after the 5th of every month). Review materials may only be submitted to the branch after the initial review has been passed and “in-person verification” has been displayed (refer to the message left by the system for details of the specific in-person verification time and requirements).</p>
-        <p>Filing website: <a href="http://www.beian.gov.cn">http://www.beian.gov.cn</a></p>
-        <p>Note:</p>
+        <h1>网站备案流程</h1><div class="tags-date"><div class="wacn-date">最后更新时间：2017年03月</div></div>
+        <h3>一、网上初审</h3>
+        <p>网站备案需在全国公安系统上提交初审材料(每月 5 号后申请)，待初审通过显示“当面核验”后方可提交复审材料到分局（具体当面核验时间和要求详见系统留言）；</p>
+        <p>备案网址：<a href="http://www.beian.gov.cn">http://www.beian.gov.cn</a></p>
+        <p>备注：</p>
         <ol>
         <li>
-        <p>Website filing applications must be submitted in the district or county where the office of the public institution, company, or social organization is located.</p>
+        <p>网站备案须在事业单位、企业或社会团体办公所在地的区、县进行备案申请提交。</p>
         </li>
         <li>
-        <p>Personal websites need to be filed at the household filing location.</p>
+        <p>个人网站需到户籍所在地办理备案。</p>
         </li>
         </ol>
-        <h3>2. Onsite verification</h3>
-        <p>After the website being filed passes its initial review, please bring the following materials to the Internet Security reception room at 2F, 800 Lingshan Road for in-person verification:</p>
+        <h3>二、当场核验</h3>
+        <p>备案网站上初审通过后，请携带以下材料至灵山路 800 号 2 楼网安接待室进行当面核验:</p>
         <ol>
         <li>
-        <p>International Online Organization Filing Form, filed International Online User Information and Internet Usage Form, Online Information Security Protection Group (these three forms can be downloaded from<a href="http://www.pdxa.cn">http://www.pdxa.cn</a>).</p>
+        <p>网络国际联网单位备案表、国际联网备案用户信息网络使用情况表、网络信息安全保护小组（此三张表可在<a href="http://www.pdxa.cn">http://www.pdxa.cn</a>下载）；</p>
         </li>
         <li>
-        <p>Main qualification documents: Communist Party organizations, government organizations, and public institutions are to submit copies of their Organization Code Certificate and Public Institution Legal Person Certificate. Companies are to submit copies of their Organization Code Certificate, Business License, and Corporate Tax Filing Certificate.</p>
+        <p>主体资质证明:党政机关、事业单位提交本单位《组织机构代码证书》、《事业法人证书》的复印件；企业提交《组织机构代码证书》、《企业法人营业执照》、《企业税务登记证》的复印件；</p>
         </li>
         <li>
-        <p>Website-related materials: Copy of website ownership certificate (i.e., domain name certificate) and network topology map.</p>
+        <p>网站相关材料:网站所有权证明（即域名证书)复印件、网络拓扑结构图；</p>
         </li>
         <li>
-        <p>Information on website owner: Copy of identification card (people not from this city are requested to provide proof of residence).</p>
+        <p>网站负责人资料：身份证复印件（非本市人口请提供居住证明）；</p>
         </li>
         <li>
-        <p>Industry certification: Those engaged in online services that require prior approval are requested to submit a copy of an approval document, such as a payment business license, pharmaceutical industry qualification certificate, food industry qualification certificate, audiovisual program qualification certificate, or online cultural operations qualification certificate.</p>
+        <p>行业证明：从事需审批后才可经营的网络服务的请提交批准文件复印件，如支付业务许可证、医药行业资质证明、食品行业资质证明、视听节目类资质证明、网络文化经营资质证明等。</p>
         </li>
         <li>
-        <p>Website security status: Website security vulnerability scan report (needs to have the seal of the testing organization affixed).</p>
+        <p>网站安全情况：网站安全漏洞扫描报告（需检测单位盖章）；</p>
         </li>
         <li>
-        <p>Proof of operating location: A copy of the rental contract, etc.</p>
+        <p>开办地证明：房屋租赁合同复印件等。</p>
         </li>
         <li>
-        <p>Website security management system: Interactive websites are to establish a security management system in accordance with Information Security Technology: Security Requirements for Interactive Internet Services (see Appendix for further details of the specific content).</p>
+        <p>网站安全管理制度：交互式网站根据《信息安全技术互联网交互式服务安全保护要求》建立安全管理制度（具体内容详见附件）</p>
         </li>
         </ol>
-        <p>Note: The above materials must all have official seals affixed. Please call 22047852 if you have any questions.</p>
-        <h3>3. Logo display</h3>
-        <p>After you have passed your filing audit, sign in to <a href="http://www.beian.gov.cn">www.beian.gov.cn</a>.</p>
-        <p>In the filed Website menu on the platform homepage, click on Public Security Bureau Filing Number Details to view and download filing icon code which you can copy into the code on your website’s homepage.</p>
-    
+        <p>备注：上述材料均需盖好公章，如有疑问请致电 22047852 咨询。</p>
+        <h3>三、悬挂标志</h3>
+        <p>备案审核通过后，登录<a href="http://www.beian.gov.cn">www.beian.gov.cn</a></p>
+        <p>平台主页在“已备案网站”菜单中，点击公安机关备案号详情，可以查看、下载备案图标代码，复制代码到网站首页代码中即可。</p>
     ]]></bodyText>
     <umbracoNaviHide>0</umbracoNaviHide>
-    <pageTitle>Public security website filing process | Azure</pageTitle>
+    <pageTitle>网站公安备案流程 | Azure</pageTitle>
     <metaKeywords></metaKeywords>
     <metaDescription><![CDATA[
-        
-            Public security website filing process
-            
-    ]]></metaDescription>
+            网站公安备案流程
+        ]]></metaDescription>
     <linkid>0</linkid>
     <urlDisplayName></urlDisplayName>
     <headerExpose></headerExpose>
@@ -79,7 +82,6 @@
     <localize>1</localize>
     <localizePartial>0</localizePartial>
     <sitemapHide>0</sitemapHide>
-    <banner>
-    </banner>
+    <banner></banner>
   </umbTextpage>
 </localize>

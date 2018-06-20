@@ -1,74 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?>
 <localize>
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b0a2081092fc20f2c06a9592b8d2b35fc8e66ba9" />
+    <Meta Name="ms.sourcegitcommit" Value="69721383fbc1d79356c6e97ea28fefa74ac963ab" />
+    <Meta Name="ms.translationtype" Value="HT" />
+    <Meta Name="ms.contentlocale" Value="en-US" />
+    <Meta Name="ms.lasthandoff" Value="02/01/2018" />
+    <Meta Name="ms.locfileid" Value="28949579" />
+  </Metadata>
   <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-07-04T10:41:59" urlName="iot-suite" writerName="content" creatorName="content">
     <bodyText><![CDATA[
-      
-           <tags ms.service="iot-suite" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+           <tags ms.service="iot-suite" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+
+            <!-- BEGIN: Product-Detail-TopBanner -->
             <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/css/images/home_features_iot_slice.png','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/images/home,features,iot-icon.png" />
-                        <h2>Azure IoT Suite<span>Azure IoT Suite</span></h2>
-                        <h4>Use Azure IoT Suite to capture and analyze unused data and improve business outcomes. Integrate Azure IoT Suite with apps to generate reliable IoT solutions.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_iot-suite_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-suite_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Azure IoT 套件<span>Azure IoT Suite</span></h2>
+                        <h4>借助 Azure IoT 套件，捕获并分析未使用的数据，改善业务成果。将 Azure IoT 套件与应用程序集成，生成可靠的 IoT 解决方案。</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_iot-suite_trial">申请试用<i class="icon icon-arrow-right-thin"></i></a></em>
+                        <a href="/pricing/pia/" id="home_iot-suite_pia">立即购买<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
-            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <!-- END: Product-Detail-TopBanner -->
+            <!-- BEGIN: Product-Detail-Content -->
             <div class="pricing-page-section">
-                <h1>Capture and analyze unused data to improve business results</h1>
+                <h1>捕获并分析未使用的数据，以改善业务成果</h1>
                 <ul>
-                    <li>Get started quickly with preconfigured solutions</li>
-                    <li>Customize preconfigured solutions to meet your needs</li>
-                    <li>Increase the security of IoT solutions</li>
-                    <li>Supports a variety of operating systems and protocols</li>
-                    <li>Easily connect to millions of devices</li>
-					<li>Analyze and display large quantities of operational data</li>
-					<li>Integrates with your existing systems and applications</li>
-					<li>Scale from proof of concept to general deployment</li>
+                    <li>预配置解决方案快速入门</li>
+                    <li>定制预配置解决方案，满足你的需求</li>
+                    <li>提升 IoT 解决方案的安全性</li>
+                    <li>支持各种操作系统和协议</li>
+                    <li>轻松连接数百万台设备</li>
+					<li>分析并显示大量操作数据</li>
+					<li>与你的现有系统和应用程序集成</li>
+					<li>从概念证明扩展到广泛部署</li>
                 </ul>
-                <h2>Fast connection and efficient scaling</h2>
-                <p>Get started quickly with Azure IoT Suite. Use preconfigured solutions to expedite the development of IoT solutions. Add new devices and connect existing devices with device SDKs that work on multiple platforms (including Linux, Windows and real-time operating systems). No matter how large or small your project, you can depend on the global availability of Azure to easily scale up from a handful of sensors to synchronous connections to millions of devices.</p>
+                <h2>迅速连接，高效扩展</h2>
+                <p>Azure IoT 套件快速入门。使用预配置解决方案，并加快物联网（IoT）解决方案的开发。使用适用于多个平台（包括 Linux、Windows 和实时操作系统）的设备 SDK 添加新设备并连接现有设备。无论你的项目大小，都可从少数几个传感器轻松扩展至数百万台同步连接的设备，并依赖 Azure 的全球可用性。</p>
 
-                <h2>Analyze and process unused data</h2>
-                <p>Collect previously unused data from devices and sensors, then display and process data using built-in features. Configure real-time analysis with SQL-based languages for high-performance with flexibility and scalability, without the need to manage complex infrastructure and software. Use large algorithm libraries to upscale predictive analysis solutions.</p>
+                <h2>分析并处理未使用的数据</h2>
+                <p>从设备和传感器收集以前未使用的数据，并使用内置功能显示并处理该数据。以灵活、可扩展的高性能方法使用基于 SQL 的语法来设置实时分析，而无需管理复杂的基础结构和软件。使用大型算法库来扩展预测分析解决方案。将 R 和 Python 语言中的代码直接集成到你的工作区中，从而扩展实时分析和机器学习解决方案。</p>
 
-                <h2>Integrate and convert your services</h2>
-                <p>Easily integrate Azure IoT Suite with your systems and applications (including Salesforce, SAP, Oracle Database and Microsoft Dynamics), so you can easily access data and keep distributed systems up to date. With only minimal development work, you can use the mobile push notification engine to send millions of messages to heterogeneous devices. Generate mobile and Web Apps that integrate with Microsoft and third-party web APIs, and use OAuth 2.0 to generate your own secure web API.</p>
+                <h2>集成并转换你的业务</h2>
+                <p>将 Azure IoT 套件与你的系统和应用程序（包括 Salesforce、SAP、Oracle Database 和 Microsoft Dynamics）轻松集成，轻松访问数据并使分散的系统保持最新。只需极少的开发工作即可通过移动推送通知引擎将数百万消息发送给异构设备。生成与 Microsoft 和第三方 Web API 相集成的移动和 Web 应用程序，并使用 OAuth 2.0 生成自己的安全 Web API。</p>
 
-                <h2>Increase the security of IoT solutions using authentication for every device</h2>
-                <p>Set identifiers and credentials for each connected device to help you keep cloud-to-device and device-to-cloud messages confidential. Selectively revoke access permissions for specific devices to maintain system integrity.</p>
+                <h2>通过每设备身份验证 提升 IoT 解决方案的安全性</h2>
+                <p>为每个连接的设备设置标识和凭据，并帮助保持云到设备和设备到云消息的保密性。并且，选择性地撤消特定设备的访问权限以保持系统的完整性。</p>
 				<br>
 				
-				<p>*This service is currently only available to enterprise customers who have signed an Online Service Premier Agreement with 21Vianet.</p>
+				<p>*此服务暂时只对签订世纪互联在线服务高级协议的企业客户开放。</p>
 
                 
             </div>
-            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <!-- END: Product-Detail-Content -->
+            <!-- BEGIN: Read-More -->
             <div class="pricing-page-section link-group-container">
-                <h1>More</h1>
+                <h1>了解更多</h1>
                 <ul>
-                    <li><a id="home_virtual_centre" href="https://docs.azure.cn/iot-suite/iot-suite-guidance-on-customizing-preconfigured-solutions/" target="_blank">Customized preconfigured solutions</a></li>
+                    <li><a id="home_virtual_centre" href="https://docs.azure.cn/iot-suite/iot-suite-guidance-on-customizing-preconfigured-solutions/" target="_blank">自定义预配置解决方案</a></li>
                 </ul>
 				<ul>
-                    <li><a id="home_virtual_centre" href="https://docs.azure.cn/iot-suite/iot-security-best-practices/" target="_blank">IoT Security Best Practices</a></li>
+                    <li><a id="home_virtual_centre" href="https://docs.azure.cn/iot-suite/iot-security-best-practices/" target="_blank">物联网安全最佳实践</a></li>
                 </ul>
 				<ul>
-                    <li><a id="home_virtual_centre" href="https://docs.azure.cn/iot-suite/iot-security-architecture/" target="_blank">IoT Security Architecture</a></li>
+                    <li><a id="home_virtual_centre" href="https://docs.azure.cn/iot-suite/iot-security-architecture/" target="_blank">物联网安全体系结构</a></li>
                 </ul>
 				<ul>
-                    <li><a id="home_virtual_centre" href="https://docs.azure.cn/iot-suite/iot-suite-faq/" target="_blank">IoT Suite FAQ</a></li>
+                    <li><a id="home_virtual_centre" href="https://docs.azure.cn/iot-suite/iot-suite-faq/" target="_blank">有关 IoT 套件的常见问题</a></li>
                 </ul>				
 				
             </div>
-            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
-    
+            <!-- END: Read-More -->
+            <!--BEGIN: Support and service code chunk-->
+            <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />                                                                        
+            <!--END: Support and service code chunk-->              
     ]]></bodyText>
-    <pageTitle>Azure IoT Suite_IoT - Azure Cloud Computing</pageTitle>
+    <pageTitle>Azure IoT套件_IoT物联网 - Azure云计算</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-iot-suite</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, IoT</metaKeywords>
-    <metaDescription><![CDATA[Use Azure IoT Suite to capture and analyze previously unused data and improve business outcomes.]]></metaDescription>
-    <urlDisplayName>Azure IoT Suite</urlDisplayName>
+    <metaKeywords>Azure,微软云, 物联网, IoT</metaKeywords>
+    <metaDescription><![CDATA[使用 Azure IoT 套件（Azure IoT Suite）捕获并分析以前未使用的数据，改善业务成果。]]></metaDescription>
+    <urlDisplayName>Azure IoT 套件</urlDisplayName>
   </TextpageLeftNav>
 </localize>

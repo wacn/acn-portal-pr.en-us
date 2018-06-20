@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
 <localize>
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5811c1668894717b63c92d31113bdd226ecd226b" />
+    <Meta Name="ms.sourcegitcommit" Value="69721383fbc1d79356c6e97ea28fefa74ac963ab" />
+    <Meta Name="ms.translationtype" Value="HT" />
+    <Meta Name="ms.contentlocale" Value="en-US" />
+    <Meta Name="ms.lasthandoff" Value="02/01/2018" />
+    <Meta Name="ms.locfileid" Value="28949518" />
+  </Metadata>
   <umbTextpage template="21" createDate="2017-12-04T11:20:07" updateDate="2017-12-04T11:34:25">
     <bodyText><![CDATA[
-    
         <p><tags ms.service="public-security-registration"
             ms.workload=""
             ms.tgt_pltfrm=""
@@ -12,34 +18,32 @@
             wacn.date="03/2017"
             wacn.lang="cn" 
             ms.author="will"/></p>
-        <h1>Notification for Network Security Responsibilities for the Service Institutions of Internet Information</h1><div class="tags-date"><div class="wacn-date">Last updated: March 2017</div></div>
-        <h2>Dear users, hello!</h2>
-        <p>We recently received notice from the public security department on the website’s public security filing. It is requested that you log into the <a href="http://www.beian.gov.cn">National Public Security Internet Websites Security Management Services Platform</a> as soon as possible, and submit an application to file with public security. If the formalities are not handled for more than 30 days after the date the network is officially connected, the connection will be suspended in accordance with the laws. The contents of the notice are as follows:
+        <h1>互联网信息服务单位网络安全责任告知书</h1><div class="tags-date"><div class="wacn-date">最后更新时间：2017年03月</div></div>
+        <h2>尊敬的用户您好！</h2>
+        <p>近日接到公安部门关于网站公安备案的通知，请您尽快登录 <a href="http://www.beian.gov.cn">全国公安机关互联网站安全管理服务平台</a> 提交公安备案申请。自网络正式联通之日起，超过 30 日未办理的，将依法暂停接入。通知内容如下：
         </br>
         </br>
-        In order to protect the security of network information, guarantee the legitimate rights and interests of citizens, legal persons and other organizations, and safeguard national security and public interests, in accordance with the regulations of applicable laws and rules, such as the Regulations of the People's Republic of China for Computer Information Systems Security Protection and Computer Information Network International Network Security Protection Management Measures, the network security responsibilities that your institution shall fulfill according to law are given below:</p>
-        <p>I. Possess related qualifications that are required by the laws and regulations;</p>
-        <p>The providers for Internet information services shall be the entities that solely bear the legal responsibilities. Related licenses and qualifications shall be obtained for engaging in Internet information services which require approval of the relevant departments, in accordance with laws and regulations and related decisions of the State Council.</p>
-        <p>II. Accept the supervision, inspection and guidance of public security organizations according to law;</p>
-        <p>III. Assist public security organizations in investigating and punishing illegal criminal activities related to the Internet in accordance with laws;</p>
-        <p>IV. Be in accordance with applicable laws and regulations and standards for security management, such as the <a href="http://www.gov.cn/flfg/2005-08/06/content_20928.htm">Regulations of the People's Republic of China for Computer Information Systems Security Protections</a>, <a href="http://www.gov.cn/gongbao/content/2011/content_1860856.htm"> Computer Information Network International Network Security Protection Management Measures</a>, <a href="http://www.gov.cn/gongbao/content/2006/content_421771.htm"> Provisions on Technical Measures for the Protection of Internet Security</a>, <a href="http://www.beian.gov.cn/portal/index"> Security Protection Requirements for Internet Interactive Services</a>, and <a href="http://www.beian.gov.cn/portal/index">Basic Procedures and Requirements for Internet Service Security Evaluation</a>, and perform other security protection obligations, for instance, filtration of illegal information, inspection of public information and users’ qualifications, retention of log information, rapid disposal, and implementation of safety management responsibilities and related technical measures for security protection;</p>
-        <p>V. Post a filing icon issued by public security organizations in a prominent position on the home page of the website;</p>
-        <p>VI. When the filing information of the website changes, it is requested that you log in to the platform to submit the changed information within 30 days after the information was changed. If you fail to go through the formalities in line with the regulated requirements and time limits, the public security organization will notify the access provider to suspend website access according to law;</p>
-        <p>VII. When the website is no longer opened, you are requested to log in to the National Public Security Internet Sites Security Management Services Platform within 5 working days and submit an application for cancellation to the network security department of the local public security organization.</p>
-        <p>No fees are charged for filing with public security. In case of any problems related to records in the public security organization, you can consult the local network police department, or visit the <a href="http://www.beian.gov.cn">National Public Security Internet Sites Security Management Services Platform</a> for more details.
+        为了保护网络信息安全，保障公民、法人和其他组织的合法权益，维护国家安全和社会公共利益，根据《中华人民共和国计算机信息系统安全保护条例》、《计算机信息网络国际联网安全保护管理办法》等相关法律法规规定，现就您单位应依法履行的网络安全责任告知如下：</p>
+        <p>一、具备法律法规所要求的相应资质；</p>
+        <p>互联网信息服务提供者应为独立承担法律责任的主体，从事互联网信息服务依据法律、行政法规以及国务院有关决定，需经有关部门许可的应取得相应许可资质。</p>
+        <p>二、依法接受公安机关监督、检查、指导；</p>
+        <p>三、协助公安机关依法查处涉网违法犯罪活动；</p>
+        <p>四、根据<a href="http://www.gov.cn/flfg/2005-08/06/content_20928.htm">《中华人民共和国计算机信息系统安全保护条例》</a>、<a href="http://www.gov.cn/gongbao/content/2011/content_1860856.htm">《计算机信息网络国际联网安全保护管理办法》</a>、<a href="http://www.gov.cn/gongbao/content/2006/content_421771.htm">《互联网安全保护技术措施规定》</a>、<a href="http://www.beian.gov.cn/portal/index">《互联网交互式服务安全保护要求》</a>、<a href="http://www.beian.gov.cn/portal/index">《互联网服务安全评估基本程序及要求》</a>等相关法律法规以及安全管理标准规范，履行违法信息过滤、公共信息巡查、用户资质查验、日志信息留存和应急快速处置等安全保护义务，落实安全管理责任和相关安全保护技术措施；</p>
+        <p>五、在网站首页显著位置张贴公安机关核发的备案图标；</p>
+        <p>六、当网站备案信息发生变更时，请您于变更后 30 日内登录本平台提交变更信息，若未按规定要求、时限办理变更手续，公安机关将依法通知接入商暂停网站接入；</p>
+        <p>七、当网站不再开办时，请您于５个工作日内登录全国公安机关互联网站安全管理服务平台，向属地公安机关网安部门提出注销申请。</p>
+        <p>公安备案不收取任何费用。如您有公安备案相关问题可咨询各地网警部门或访问 <a href="http://www.beian.gov.cn">全国公安机关互联网站安全管理服务平台</a>  了解更多信息。
          </br>
          </br>
-        21Vianet’s Microsoft Azure Team on April 21, 2016</p>
-    
+        世纪互联 Microsoft Azure 团队
+        二零一六年四月二十一日</p>
     ]]></bodyText>
     <umbracoNaviHide>0</umbracoNaviHide>
-    <pageTitle>Notification for Network Security Responsibilities for the Service Institutions of Internet Information - Azure Cloud Computing</pageTitle>
+    <pageTitle>互联网信息服务单位网络安全责任告知书 - Azure 云计算</pageTitle>
     <metaKeywords></metaKeywords>
     <metaDescription><![CDATA[
-        
-            Notification of Network Security Responsibilities for Internet Information Service Institutions
-            
-    ]]></metaDescription>
+            互联网信息服务单位网络安全责任告知书
+        ]]></metaDescription>
     <linkid>0</linkid>
     <urlDisplayName></urlDisplayName>
     <headerExpose></headerExpose>
@@ -51,7 +55,6 @@
     <localize>1</localize>
     <localizePartial>0</localizePartial>
     <sitemapHide>0</sitemapHide>
-    <banner>
-    </banner>
+    <banner></banner>
   </umbTextpage>
 </localize>

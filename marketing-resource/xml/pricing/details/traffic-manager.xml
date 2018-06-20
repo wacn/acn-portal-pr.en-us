@@ -1,64 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?>
 <localize>
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ad01e3a35dc98c87bc1c27cc066c419fe24a4348" />
+    <Meta Name="ms.sourcegitcommit" Value="69721383fbc1d79356c6e97ea28fefa74ac963ab" />
+    <Meta Name="ms.translationtype" Value="HT" />
+    <Meta Name="ms.contentlocale" Value="en-US" />
+    <Meta Name="ms.lasthandoff" Value="02/01/2018" />
+    <Meta Name="ms.locfileid" Value="28949542" />
+  </Metadata>
   <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2016-07-05T10:41:59" urlName="traffic-manager" writerName="content" creatorName="content">
     <bodyText><![CDATA[
-      
-            <tags ms.service="traffic-manager" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <tags ms.service="traffic-manager" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <!-- BEGIN: Product-Detail-TopBanner -->
             <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/css/traffic_manager.png','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/traffic-manager@2x.png" />
-                        <h2>Traffic Manager<span>Traffic Manager</span></h2>
-                        <h4>It can regionally route inbound traffic based on your usage to improve app performance and availability.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_traffic_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_traffic_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>流量管理器<span>Traffic Manager</span></h2>
+                        <h4>将传入的流量根据地域划分路由到你的应用，改善应用程序的性能和可用性。</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_traffic_trial">申请试用<i class="icon icon-arrow-right-thin"></i></a></em>
+                        <a href="/pricing/pia/" id="home_traffic_pia">立即购买<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>Applying the Azure Traffic Manager, you can make the incoming traffic among several hosted Azure services achieve load balance, whether these services are operated in the same data center or different data centers in China.</p>
+                <p>利用 Azure 流量管理器，您可以使多个托管 Azure 服务之间的传入流量实现负载均衡，无论这些服务是在同一个数据中心内运行，或是在中国不同数据中心内运行皆可支持。</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
                 <!-- BEGIN: TAB-CONTAINER-1 -->
                 <div class="tab-control-container tab-active" id="tabContent1">
                     <!-- BEGIN: Table1-Content-->
-                    <h2>Pricing Details</h2>
+                    <h2>定价详细信息</h2>
                     <!-- <p>从2016年4月1日起，价格会下调 25.5%，以下是下调后的新价格：</p> -->
                     <div class="tags-date">
-                        <div class="ms-date">*The following prices are tax-inclusive.</div><br />
+                        <div class="ms-date">*以下价格均为含税价格。</div><br />
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <th align="left">&#160;</th>
-                            <th align="left"><strong>Pricing</strong></th>
+                            <th align="left"> </th>
+                            <th align="left"><strong>价格</strong></th>
                         </tr>
                         <tr>
-                            <td>First 1 billion DNS queries/month </td>
-                            <td>¥ 3.57/1 million queries</td>
+                            <td>头 10 亿条 DNS 查询/月</td>
+                            <td>¥ 3.57/100 万条查询</td>
                         </tr>
                         <tr>
-                            <td>DNS queries/month for over 1 billion queries</td>
-                            <td>¥ 1.79/1 million queries</td>
+                            <td>超过 10 亿条的 DNS 查询/月</td>
+                            <td>¥ 1.79/100 万条查询</td>
                         </tr>
                         <tr>
-                            <td>Inspection of operating conditions (Azure)</td>
-                            <td>¥ 2.38 /Azure terminal/month</td>
+                            <td>运行状况检查 (Azure)</td>
+                            <td>¥ 2.38/Azure 终结点/月</td>
                         </tr>
 						<tr>
-                            <td>Inspect of additional items under fast-interval operating conditions (Azure)<sup>1</sup></td>
-                            <td>¥ 8.16/Azure terminals/month</td>
+                            <td>快速间隔运行状况检查附加项 (Azure)<sup>1</sup></td>
+                            <td>¥ 8.16/Azure 终结点/月</td>
                         </tr>
                         <tr>
-                            <td>Inspection of operating conditions (external)</td>
-                            <td>¥ 3.57/external terminals/month</td>
+                            <td>运行状况检查（外部）</td>
+                            <td>¥ 3.57/外部终结点/月</td>
                         </tr>
 						<tr>
-                            <td>Inspect of additional items under fast-interval operating conditions (external) <sup>1</sup></td>
-                            <td>¥ 15.24/Azure terminals/month</td>
+                            <td>快速间隔运行状况检查附加项（外部）<sup>1</sup></td>
+                            <td>¥ 15.24/Azure 终结点/月</td>
                         </tr>
                     </table>
-					<p><sup>1 </sup> Inspection of operating conditions of fast terminals shall be purchased as an additional item to the inspection of operating conditions of basic terminals.</p>
+					<p><sup>1 </sup>快速终结点运行状况检查需作为基本终结点运行状况检查的附加项进行购买。</p>
                     <!-- END: Table1-Content-->
                   
                 </div>
@@ -68,16 +76,16 @@
            
             <div class="pricing-page-section">
                 <div class="more-detail">
-                    <h2>FAQ</h2>
-                    <em>Expand All</em>
+                    <h2>常见问题</h2>
+                    <em>全部展开</em>
                     <ul>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Traffic_Manager_question1">What is a Traffic Manager “DNS query”?</a>
+                                <a id="Traffic_Manager_question1">什么是流量管理器 “DNS 查询”？</a>
                                 <section>
-                                    <p>Whenever users access your applications, your service name is mapped to the IP address with the DNS query. By providing different response content for different DNS queries, the Traffic Manager can make the incoming traffic of your several hosted Azure services achieve load balance, no matter whether these services are operated in the same data center or different data centers in China.</p>
-                                        <p>The Traffic Manager provides several load-balance methods, including transfer of performance, failover and round robin. Applying these methods can effectively manage traffic, ensure higher performance, availability and recovery capability.</p>
+                                    <p>无论用户何时访问您的应用程序，都将借助 DNS 查询将您的服务名称映射到 IP 地址。通过为不同的 DNS 查询提供的不同响应内容，流量管理器可让您多个托管 Azure 服务之间的传入流量达到负载平衡，无论这些服务是在同一个数据中心内运行，还是在不同数据中心内运行皆可支持。</p>
+                                        <p>流量管理器提供了多种负载平衡方法供您选择，包括性能、故障转移和轮循机制。通过使用这些方法有效管理流量，可确保应用程序具有较高的性能、可用性和恢复能力。</p>
                                 </section>
 
                             </div>
@@ -85,10 +93,10 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Traffic_Manager_question2">What is Traffic Manager’s “inspection of operating conditions”?</a>
+                                <a id="Traffic_Manager_question2">什么是流量管理器“运行状况检查”？</a>
                                 <section>
-                                    <p>Applying Traffic Manager, you can utilize Azure service terminals for supervision and hosting, and Traffic Manager can also supply automatic failover features during service interruption, so as to improve availability of key applications.</p>
-                                    <p>Therefore, Traffic Manager will continuously monitor operating conditions of every service terminal. When these “operating condition inspections” detect that a service is stopped, the Traffic Manager will route traffic to the other services again.</p>
+                                    <p>利用流量管理器，您可以通过监视托管的 Azure 服务端点，并在服务中断时提供自动故障转移功能，以提高关键应用程序的可用性。</p>
+                                    <p>为此，流量管理器将持续监视每个服务端点的运行状况。当这些“运行状况检查”检测到某个服务停止时，流量管理器会将流量重新路由到其他服务。</p>
                                 </section>
 
                             </div>
@@ -96,9 +104,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Traffic_Manager_question3">Are all pricing of the load-balancing methods the same? </a>
+                                <a id="Traffic_Manager_question3">是否所有负载平衡方法的价格都相同？</a>
                                 <section>
-                                    <p>Yes. No matter which load-balance method is used, pricing for DNS query and inspection of operating conditions are the same.</p>
+                                    <p>是的，无论使用哪种负载平衡方法，DNS 查询和运行状况检查的价格都是相同的。</p>
                                 </section>
 
                             </div>
@@ -106,13 +114,13 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Traffic_Manager_question4">How to reduce Traffic Manager fees?</a>
+                                <a id="Traffic_Manager_question4">如何降低流量管理器的费用？</a>
                                 <section>
-                                    <p>The PC of the end user will not directly contact the name server of the traffic manager while performing a DNS query. Instead, these queries will be sent by the "recursive" DNS server operated by the enterprise and the ISP. These servers will cache the DNS response results, so that other users' queries can be processed quickly. Meanwhile, these cached responses will not reach the Traffic Manager name server, thus no cost is incurred.</p>
-                                    <p>The cache duration is determined by the “TTL” parameters responded to in the original DNS. This parameter can be configured in the Traffic Manager with a default value of 300s and minimal value of 30s.</p>
-                                    <p>The larger TTL can be applied to increase the quantity of the completed cache of the recursive DNS server, so as to decrease DNS query fees. However, increasing the cache will also affect the speed for the end user receiving status changes in the terminal (that is, in case of failure of a terminal, the failover time of your end user will be extended). Thus we do not recommend using extremely large TTL values.</p>
-                                    <p>Similarly, if the TTL is quite small, the failover speed will become faster, while due to the decreased cache, the query times for the name server of the Traffic Manager will increase.</p>
-                                    <p>By configuring the TTL value by yourself, the traffic manager allows you to set the optimal TTL value based on the business needs of the application.</p>
+                                    <p>最终用户的 PC 执行 DNS 查询时不会直接联系流量管理器名称服务器。相反，这些查询将通过由企业和 ISP 运行的“递归”DNS 服务器发送。这些服务器会将 DNS 响应结果缓存起来，以便让其他用户的查询得到快速处理。由于这些缓存的响应不会到达流量管理器名称服务器，因此不会产生费用。</p>
+                                    <p>缓存持续时间由原始 DNS 响应中的“TTL”参数决定。此参数可在流量管理器中配置，默认值为 300 秒，最小值为 30 秒。</p>
+                                    <p>通过使用较大的 TTL，可增加递归 DNS 服务器完成缓存的数量，并借此降低 DNS 查询费用。但是增加缓存还将影响最终用户获取端点状态变化的速度（即，当某个端点出现故障时，您的最终用户故障转移时间将延长）。因此我们不建议使用非常大的 TTL 值。</p>
+                                    <p>同理，如果 TTL 较小，故障转移速度会变快，但由于缓存减少，针对流量管理器名称服务器的查询次数将增加。</p>
+                                    <p>通过您自行配置 TTL 值，流量管理器使您能根据应用程序的业务需求设置最佳 TTL 值。</p>
                                 </section>
 
                             </div>
@@ -122,32 +130,37 @@
                 </div>
             </div>
             <div class="pricing-page-section">
-                <h2>Region</h2>
-                <p>The traffic manager is available in the following regions:</p>
+                <h2>上市地区</h2>
+                <p>流量管理器在以下区域中提供：</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territory</strong></th>
-                        <th align="left"><strong>Region</strong></th>
+                        <th align="left"><strong>地域</strong></th>
+                        <th align="left"><strong>区域</strong></th>
                     </tr>
                     <tr>
-                        <td>Mainland China</td>
-                        <td>China North, China East</td>
+                        <td>中国大陆</td>
+                        <td>中国东部数据中心 , 中国北部数据中心</td>
                     </tr>
                 </table>
                
                  <div class="pricing-page-section">
-                <h2>Support &amp; SLA</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="traffic-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-				 <p>We guarantee that DNS queries will receive valid responses from at least one of our Azure Traffic Manager Name Clusters at least 99.99% of the time. Availability is calculated by the monthly billing cycle. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/traffic-manager/" id="pricing_traffic_sla">Service Level Agreements</a> page.</p>
+                <h2>支持和服务级别协议</h2>
+                <p>如有任何疑问或需要帮助，请访问<a href="/support/contact/" id="traffic-contact-page">Azure 支持</a>选择自助服务或者其他任何方式联系我们获得支持。</p>
+				 <p>我们保证，DNS 查询至少在 99.99% 的时间内能够至少从我们的其中一个 Azure 流量管理器名称服务器群集收到有效的响应。可用性按月计费周期计算。若要了解有关我们的服务器级别协议的详细信息，请访问<a href="/support/sla/traffic-manager/" id="pricing_traffic_sla">服务级别协议</a>页。</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                           
-    
+                <!--BEGIN: Support and service code chunk-->
+                <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />-->
+                <!--END: Support and service code chunk-->
+              
+            <!--BEGIN: Support and service code chunk-->
+            <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />                                                                       
+            <!--END: Support and service code chunk-->                                                                           
     ]]></bodyText>
-    <pageTitle>Azure Traffic Manager Pricing - Azure Cloud Computing</pageTitle>
+    <pageTitle>Azure流量管理器定价服务 - Azure云计算</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-traffic-manager</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, networking, Virtual Networking, Traffic Manager, Traffic Manager, load balancing, traffic</metaKeywords>
-    <metaDescription><![CDATA[Learn about the pricing details of Azure Traffic Manager. Azure Traffic Manager is a cloud-based load balancing service that improves application performance by automatically load balancing incoming traffic across data centers. Traffic Manager uses more favorable, step-wise pricing. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
-    <urlDisplayName>Pricing Details - Traffic Manager</urlDisplayName>
+    <metaKeywords>Azure, 微软云, 网络, 虚拟网络, 流量管理器, Traffic Manager, 负载均衡, 流量</metaKeywords>
+    <metaDescription><![CDATA[了解 Azure 流量管理器（Traffic Manager）的价格详情。Azure 流量管理器是一种基于云的负载均衡服务，通过自动在数据中心间对传入流量进行负载均衡，来提高应用性能。流量管理器的定价按照阶梯式价格收费，更优惠。1元试用即获1500元人民币的服务使用额度，也可直接购买成为 Azure 预付费客户，尽享最高 99.99% 的服务级别协议。]]></metaDescription>
+    <urlDisplayName>价格详情 - 流量管理器</urlDisplayName>
   </TextpageLeftNav>
 </localize>
