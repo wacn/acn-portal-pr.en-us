@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2016-06-28T11:31:22" urlName="batch" writerName="content" creatorName="content">
+  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-06-12T16:00:00" urlName="batch" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
             <tags ms.service="batch" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
@@ -12,7 +12,7 @@
                         <h4>Cloud-scale job scheduling and
 compute management</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_batch_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_batch_trial">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
-                        </div>
+                    </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
@@ -20,25 +20,25 @@ compute management</h4>
                 <p>Azure Batch is currently available through Cloud Services and is offered as a free tier service. There are no additional charges for using Batch services in free tier services. You only pay for the underlying computing resources consumed by the selected Cloud Service instance, and the cost will be billed according to the number of minutes of use. For more details on these rates, visit the <a href="/pricing/details/cloud-services/" href="javascript:void(0)"  id="ws-sla-services">Cloud Services</a> pricing page.</p>
             </div>
 
-            <div class="pricing-page-section">
-                <h2>Region</h2>
-                <p>Batch services are available in the following regions:</p>
+            <!-- <div class="pricing-page-section">
+                <h2>上市地区</h2>
+                <p>批处理 ( Batch ) 服务在以下区域中提供：</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territory</strong></th>
-                        <th align="left"><strong>Region</strong></th>
+                        <th align="left"><strong>地域</strong></th>
+                        <th align="left"><strong>区域</strong></th>
                     </tr>
                     <tr>
-                        <td>Mainland China</td>
-                        <td>China North, China East</td>
+                        <td>中国大陆</td>
+                        <td>中国东部数据中心 , 中国北部数据中心</td>
                     </tr>
                 </table>
-                
-                <div class="pricing-page-section">
+            </div>  -->   
+            <div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="batch-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				<p>The Batch feature doesn’t offer a Service Level Agreement during the preview period. If you want to learn more about the details of our server level agreement, please visit the <a href="/support/legal/sla/" id="pricing_batch_sla">Service Level Agreement</a> page.</p>
-                </div>
+            </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                                      
     
     ]]></bodyText>

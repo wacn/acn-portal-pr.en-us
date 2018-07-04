@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2016-07-05T09:41:59" urlName="api-management" writerName="content" creatorName="content">
+  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-06-12T16:00:00" urlName="api-management" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
             <tags ms.service="api-management" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
@@ -45,7 +45,7 @@
                     </tr>
                     <tr>
                         <td>Pricing</td>
-                        <td>¥ 0.5022/hour</br>(about ¥ 373.6368/month)</td>
+                        <td>¥ 0.5022/hour</br>(about ￥ 373.6368/month)</td>
                         <td>￥ 1.5386/hour</br>(about ￥ 1,144.7184/month)</td>
                         <td>￥ 7.1794/hour</br>(about ￥ 5,341.4736/month)</td>
                         <td>￥ 29.2229/hour</br>(about ¥ 21,741.8376/month)</td>
@@ -167,20 +167,20 @@
                     </ul>
                 </div>
             </div>
-            <div class="pricing-page-section">
-                <h2>Region</h2>
-                <p>API Management is available in the following regions:</p>
+            <!-- <div class="pricing-page-section">
+                <h2>上市地区</h2>
+                <p>API 管理在以下区域中提供：</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territory</strong></th>
-                        <th align="left"><strong>Region</strong></th>
+                        <th align="left"><strong>地域</strong></th>
+                        <th align="left"><strong>区域</strong></th>
                     </tr>
                     <tr>
-                        <td>Mainland China</td>
-                        <td>China North, China East</td>
+                        <td>中国大陆</td>
+                        <td>中国东部数据中心 , 中国北部数据中心</td>
                     </tr>
                 </table>
-            </div>    
+            </div> -->    
             <div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="cognitive-contact-page">Azure Support</a> and select the self-help service or any other method to contact us for support.</p>
