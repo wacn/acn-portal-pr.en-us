@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-05-23T17:37:59" urlName="virtual-machines" writerName="content" creatorName="content">
+  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-06-26T18:00:00" urlName="virtual-machines" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
 			<style type="text/css">
@@ -235,6 +235,72 @@
 									</tr>
 								</table>
 								
+								<h3>B Series <sup style="color:#e66102; font-weight: bold">new</sup></h3>
+								<p>The B series is an affordable VM providing a low-cost option that can generally run on CPUs with low to middling benchmark performance, but that sometimes needs bursts of workload with much higher performance when demand increases. These workloads do not require the CPU to constantly run at full load, but occasionally require bursts to complete particular tasks more quickly. This model is suitable for many apps (such as developing and testing servers, low-traffic web browsing, small databases, micro-services, proof-of-concept servers, foundation servers, and code repositories).</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
+									<div class="ms-date">*B series is only applicable to data centers in China East 2 and China North 2.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>B1S</td>
+										<td>1</td>
+										<td>1.00 GiB</td>
+										<td>2 GiB</td>
+										<td>￥ 0.018/hour
+											<br />(about ￥ 13.392/month)</td>
+									</tr>
+									<tr>
+										<td>B2S</td>
+										<td>2</td>
+										<td>4.00 GiB</td>
+										<td>8 GiB</td>
+										<td>￥ 0.066/hour
+											<br />(about ￥ 49.104/month)</td>
+									</tr>
+									<tr>
+										<td>B1MS</td>
+										<td>1</td>
+										<td>2.00 GiB</td>
+										<td>4 GiB</td>
+										<td>￥ 0.032/hour
+											<br />(about ￥ 23.808/month)</td>
+									</tr>
+									<tr>
+										<td>B2MS</td>
+										<td>2</td>
+										<td>8.00 GiB</td>
+										<td>16 GiB</td>
+										<td>￥ 0.122/hour
+											<br />(about ￥ 90.768/month)</td>
+									</tr>
+									<tr>
+										<td>B4MS</td>
+										<td>4</td>
+										<td>16.00 GiB</td>
+										<td>32 GiB</td>
+										<td>￥ 0.23/hour
+											<br />(about ￥ 171.12/month)</td>
+									</tr>
+									<tr>
+										<td>B8MS</td>
+										<td>8</td>
+										<td>32.00 GiB</td>
+										<td>64 GiB</td>
+										<td>￥ 0.438/hour
+											<br />(about ￥ 325.872/month)</td>
+									</tr>
+								</table>
+
 								<h3>Av2 Standard</h3>
 								<p>The Av2 Standard Virtual Machine is the latest generation of A Series Virtual Machine, which has similar CPU performance but a faster disk speed. These Virtual Machines are suitable for developing workloads, generating servers, code memory, low-traffic website and Web Apps, microservices, early product trials, and small databases. The same as the previous A Standard, Av2 Virtual Machines will include load balancing and autoscaling, and with no extra fees.</p>
 								<div class="tags-date">
@@ -300,7 +366,140 @@
 										<td>￥ 7.8775/hour<br />(about ￥ 5,860.86/month)</td>
 									</tr>
 								</table>
-								
+
+								<h3>Dv3 <sup style="color:#e66102; font-weight: bold">new</sup></h3>
+								<p>Dv3 instances are the latest generation of Hyper-Threading instances for conventional purposes. Dv3 instances are based on the 2.3 GHz Intel Xeon® E5-2673 v4 (Broadwell) processor, which can reach up to 3.5 GHz via Intel Turbo Boost Technology 2.0. Dv3 instances provide a combination of CPU, memory, and local disks suitable for most production workloads.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
+									<div class="ms-date">*Dv3 instances are only applicable to data centers in China East 2 and China North 2.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>D2 v3</td>
+										<td>2</td>
+										<td>8.00 GiB</td>
+										<td>50 GiB</td>
+										<td>￥ 1.25/hour
+											<br />(about ￥ 930/month)</td>
+									</tr>
+									<tr>
+										<td>D4 v3</td>
+										<td>4</td>
+										<td>16.00 GiB</td>
+										<td>100 GiB</td>
+										<td>￥ 2.52/hour
+											<br />(about ￥ 1,874.88/month)</td>
+									</tr>
+									<tr>
+										<td>D8 v3</td>
+										<td>8</td>
+										<td>32.00 GiB</td>
+										<td>200 GiB</td>
+										<td>￥ 5.04/hour
+											<br />(about ￥ 3,749.76/month)</td>
+									</tr>
+									<tr>
+										<td>D16 v3</td>
+										<td>16</td>
+										<td>64.00 GiB</td>
+										<td>400 GiB</td>
+										<td>￥ 10.08/hour
+											<br />(about ￥ 7,499.52/month)</td>
+									</tr>
+									<tr>
+										<td>D32 v3</td>
+										<td>32</td>
+										<td>128.00 GiB</td>
+										<td>800 GiB</td>
+										<td>￥ 20.15/hour
+											<br />(about ￥ 14,991.6/month)</td>
+									</tr>
+									<tr>
+										<td>D64 v3</td>
+										<td>64</td>
+										<td>256.00 GiB</td>
+										<td>1,600 GiB</td>
+										<td>￥ 40.3/hour
+											<br />(about ￥ 29,983.2/month)</td>
+									</tr>
+								</table>
+
+								<h3>Dsv3 <sup style="color:#e66102; font-weight: bold">new</sup></h3>
+								<p>Dsv3-series instances support premium storage and are the latest hyper-threaded generation of general purpose instances based on the 2.3 GHz Intel Xeon® E5-2673 v4 (Broadwell) processor, which can achieve a clock speed of 3.5GHz with Intel Turbo Boost Technology 2.0. Dsv3-series sizes offer a combination of vCPUs, memory, and temporary storage for most production workloads.</p>
+								<p>The VM pricing and billing meters for Dsv3 sizes are the same as for the Dv3-series. Persistent storage disks are billed separately from virtual machines. <a style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;" href="/pricing/details/storage/managed-disks/" id="vm-pricing_storage-managed-disks">See pricing for disks</a>.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
+									<div class="ms-date">*Dsv3 instances are only applicable to data centers in China East 2 and China North 2.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>D2s v3</td>
+										<td>2</td>
+										<td>8.00 GiB</td>
+										<td>16 GiB</td>
+										<td>￥ 1.25/hour
+											<br />(about ￥ 930/month)</td>
+									</tr>
+									<tr>
+										<td>D4s v3</td>
+										<td>4</td>
+										<td>16.00 GiB</td>
+										<td>32 GiB</td>
+										<td>￥ 2.52/hour
+											<br />(about ￥ 1,874.88/month)</td>
+									</tr>
+									<tr>
+										<td>D8s v3</td>
+										<td>8</td>
+										<td>32.00 GiB</td>
+										<td>64 GiB</td>
+										<td>￥ 5.04/hour
+											<br />(about ￥ 3,749.76/month)</td>
+									</tr>
+									<tr>
+										<td>D16s v3</td>
+										<td>16</td>
+										<td>64.00 GiB</td>
+										<td>128 GiB</td>
+										<td>￥ 10.08/hour
+											<br />(about ￥ 7,499.52/month)</td>
+									</tr>
+									<tr>
+										<td>D32s v3</td>
+										<td>32</td>
+										<td>128.00 GiB</td>
+										<td>256 GiB</td>
+										<td>￥ 20.15/hour
+											<br />(about ￥ 14,991.6/month)</td>
+									</tr>
+									<tr>
+										<td>D64s v3</td>
+										<td>64</td>
+										<td>256.00 GiB</td>
+										<td>512 GiB</td>
+										<td>￥ 40.3/hour
+											<br />(about ￥ 29,983.2/month)</td>
+									</tr>
+								</table>
+
 								<h3>D1-4/DS 1-4</h3>
 								<p>The D1-4/DS 1-4 instances involve provision of powerful CPU, memory and local disk combinations for most production applications.</p>
 								<p>For persistent storage, please use variable “DS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DS size are the same as the D Series.</p>
@@ -563,6 +762,141 @@
 							<div class="tab-panel" id="tabContent1-3">
 								<!-- BEGIN: Table1-1-3-Content-->
 								<h3>Memory prioritization: high memory to core ratio. Suitable for relational database servers, medium- and large-scale caches and memory analysis.</h3>
+
+								<h3>Ev3 <sup style="color:#e66102; font-weight: bold">new</sup></h3>
+								<p>Ev3 instances are the latest generation of Hyper-Threading memory-optimized instances. Ev3 instances are based on the 2.3 GHz Intel Xeon® E5-2673 v4 (Broadwell) processor, which can reach up to 3.5 GHz via Intel Turbo Boost Technology 2.0. Ev3 instances are suitable for memory-intensive business applications.</p>
+								<p>Persistent storage disks are billed separately from VMs. You can use Premium Storage disks through variable Esv3 VMs. Pricing and billing meters for Esv3-series sizes are the same as for the Ev3-series. See <a style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;" href="/pricing/details/storage/managed-disks/" id="vm-pricing_storage-managed-disks">pricing for disks</a>.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
+									<div class="ms-date">*Ev3 instances are only applicable to data centers in China East 2 and China North 2.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>E2 v3</td>
+										<td>2</td>
+										<td>16.00 GiB</td>
+										<td>50 GiB</td>
+										<td>￥ 1.6/hour
+											<br />(about ￥ 1,190.4/month)</td>
+									</tr>
+									<tr>
+										<td>E4 v3</td>
+										<td>4</td>
+										<td>32.00 GiB</td>
+										<td>100 GiB</td>
+										<td>￥ 3.21/hour
+											<br />(about ￥ 2,388.24/month)</td>
+									</tr>
+									<tr>
+										<td>E8 v3</td>
+										<td>8</td>
+										<td>64.00 GiB</td>
+										<td>200 GiB</td>
+										<td>￥ 6.41/hour
+											<br />(about ￥ 4,769.04/month)</td>
+									</tr>
+									<tr>
+										<td>E16 v3</td>
+										<td>16</td>
+										<td>128.00 GiB</td>
+										<td>400 GiB</td>
+										<td>￥ 12.84/hour
+											<br />(about ￥ 9,552.96/month)</td>
+									</tr>
+									<tr>
+										<td>E32 v3</td>
+										<td>32</td>
+										<td>256.00 GiB</td>
+										<td>800 GiB</td>
+										<td>￥ 25.66/hour
+											<br />(about ￥ 19,091.04/month)</td>
+									</tr>
+									<tr>
+										<td>E64 v3</td>
+										<td>64</td>
+										<td>432.00 GiB</td>
+										<td>1,600 GiB</td>
+										<td>￥ 51.33/hour
+											<br />(about ￥ 38,189.52/month)</td>
+									</tr>
+								</table>
+
+								<h3>ESv3 <sup style="color:#e66102; font-weight: bold">new</sup></h3>
+								<p>ESv3-series instances are based on the 2.3 GHz Intel Xeon® E5-2673 v4 (Broadwell) processor, can achieve 3.5 GHz with Intel Turbo Boost Technology 2.0, and use Premium Storage. Ev3-series instances are suitable for memory-intensive enterprise apps.</p>
+								<p>Persistent storage disks are billed separately from VMs. You can use Premium Storage disks through variable Esv3 VMs. Pricing and billing meters for Esv3-series sizes are the same as for the Ev3-series. See <a style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;" href="/pricing/details/storage/managed-disks/" id="vm-pricing_storage-managed-disks">pricing for disks</a>.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
+									<div class="ms-date">*Esv3 instances are only applicable to data centers in China East 2 and China North 2.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>E2s v3</td>
+										<td>2</td>
+										<td>16.00 GiB</td>
+										<td>32 GiB</td>
+										<td>￥ 1.6/hour
+											<br />(about ￥ 1,190.4/month)</td>
+									</tr>
+									<tr>
+										<td>E4s v3</td>
+										<td>4</td>
+										<td>32.00 GiB</td>
+										<td>64 GiB</td>
+										<td>￥ 3.21/hour
+											<br />(about ￥ 2,388.24/month)</td>
+									</tr>
+									<tr>
+										<td>E8s v3</td>
+										<td>8</td>
+										<td>64.00 GiB</td>
+										<td>128 GiB</td>
+										<td>￥ 6.41/hour
+											<br />(about ￥ 4,769.04/month)</td>
+									</tr>
+									<tr>
+										<td>E16s v3</td>
+										<td>16</td>
+										<td>128.00 GiB</td>
+										<td>256 GiB</td>
+										<td>￥ 12.84/hour
+											<br />(about ￥ 9,552.96/month)</td>
+									</tr>
+									<tr>
+										<td>E32s v3</td>
+										<td>32</td>
+										<td>256.00 GiB</td>
+										<td>512 GiB</td>
+										<td>￥ 25.66/hour
+											<br />(about ￥ 19,091.04/month)</td>
+									</tr>
+									<tr>
+										<td>E64s v3</td>
+										<td>64</td>
+										<td>432.00 GiB</td>
+										<td>864 GiB</td>
+										<td>￥ 51.33/hour
+											<br />(about ￥ 38,189.52/month)</td>
+									</tr>
+								</table>
+
 								<h3>D11-14/DS11-14</h3>
 								<p>The D11-14/DS11-14 instances are suitable for memory-intensive enterprise applications.</p>
 								<p>For persistent storage, please use the variable “DS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DS size are the same as the D Series.</p>
@@ -715,7 +1049,8 @@
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
-									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br/>
+									<div class="ms-date">*DS15 v2 instances are only applicable to data centers in China East and China North.</div>
 								</div>
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
@@ -913,7 +1248,73 @@
 										<td>￥ 6.49/hour<br />(about ￥ 4,828.56/month)</td>
 									</tr>
 								</table>
-								
+
+								<h3>B Series <sup style="color:#e66102; font-weight: bold">new</sup></h3>
+								<p>The B series is an affordable VM providing a low-cost option that can generally run on CPUs with low to middling benchmark performance, but that sometimes needs bursts of workload with much higher performance when demand increases. These workloads do not require the CPU to constantly run at full load, but occasionally require bursts to complete particular tasks more quickly. This model is suitable for many apps (such as developing and testing servers, low-traffic web browsing, small databases, micro-services, proof-of-concept servers, foundation servers, and code repositories).</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
+									<div class="ms-date">*B series is only applicable to data centers in China East 2 and China North 2.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>B1S</td>
+										<td>1</td>
+										<td>1.00 GiB</td>
+										<td>2 GiB</td>
+										<td>￥ 0.012/hour
+											<br />(about ￥ 8.928/month)</td>
+									</tr>
+									<tr>
+										<td>B2S</td>
+										<td>2</td>
+										<td>4.00 GiB</td>
+										<td>8 GiB</td>
+										<td>￥ 0.048/hour
+											<br />(about ￥ 35.712/month)</td>
+									</tr>
+									<tr>
+										<td>B1MS</td>
+										<td>1</td>
+										<td>2.00 GiB</td>
+										<td>4 GiB</td>
+										<td>￥ 0.024/hour
+											<br />(about ￥ 17.856/month)</td>
+									</tr>
+									<tr>
+										<td>B2MS</td>
+										<td>2</td>
+										<td>8.00 GiB</td>
+										<td>16 GiB</td>
+										<td>￥ 0.122/hour
+											<br />(about ￥ 90.768/month)</td>
+									</tr>
+									<tr>
+										<td>B4MS</td>
+										<td>4</td>
+										<td>16.00 GiB</td>
+										<td>32 GiB</td>
+										<td>￥ 0.23/hour
+											<br />(about ￥ 171.12/month)</td>
+									</tr>
+									<tr>
+										<td>B8MS</td>
+										<td>8</td>
+										<td>32.00 GiB</td>
+										<td>64 GiB</td>
+										<td>￥ 0.376/hour
+											<br />(about ￥ 279.744/month)</td>
+									</tr>
+								</table>
+
 								<h3>Av2 Standard</h3>
 								<p>The Av2 Standard Virtual Machine is the latest generation of A Series Virtual Machine, which has similar CPU performance but a faster disk speed. These Virtual Machines are suitable for developing workloads, generating servers, code memory, low-traffic website and Web Apps, microservices, early product trials, and small databases. The same as the previous A Standard, Av2 Virtual Machines will include load balancing and autoscaling, and with no extra fees.</p>
 								<div class="tags-date">
@@ -980,6 +1381,137 @@
 									</tr>
 								</table>
 								
+								<h3>Dv3 <sup style="color:#e66102; font-weight: bold">new</sup></h3>
+								<p>Dv3 instances are the latest generation of Hyper-Threading instances for conventional purposes. Dv3 instances are based on the 2.3 GHz Intel Xeon® E5-2673 v4 (Broadwell) processor, which can reach up to 3.5 GHz via Intel Turbo Boost Technology 2.0. Dv3 instances provide a combination of CPU, memory, and local disks suitable for most production workloads.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
+									<div class="ms-date">*Dv3 instances are only applicable to data centers in China East 2 and China North 2.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>D2 v3</td>
+										<td>2</td>
+										<td>8.00 GiB</td>
+										<td>50 GiB</td>
+										<td>￥ 1.14/hour<br />(about ￥ 848.16/month)</td>
+									</tr>
+									<tr>
+										<td>D4 v3</td>
+										<td>4</td>
+										<td>16.00 GiB</td>
+										<td>100 GiB</td>
+										<td>￥ 2.29/hour
+											<br />(about ￥ 1,703.76/month)</td>
+									</tr>
+									<tr>
+										<td>D8 v3</td>
+										<td>8</td>
+										<td>32.00 GiB</td>
+										<td>200 GiB</td>
+										<td>￥ 4.58/hour
+											<br />(about ￥ 3,407.52/month)</td>
+									</tr>
+									<tr>
+										<td>D16 v3</td>
+										<td>16</td>
+										<td>64.00 GiB</td>
+										<td>400 GiB</td>
+										<td>￥ 9.16/hour
+											<br />(about ￥ 6,815.04/month)</td>
+									</tr>
+									<tr>
+										<td>D32 v3</td>
+										<td>32</td>
+										<td>128.00 GiB</td>
+										<td>800 GiB</td>
+										<td>￥ 18.32/hour
+											<br />(￥ 13,630.08/month)</td>
+									</tr>
+									<tr>
+										<td>D64 v3</td>
+										<td>64</td>
+										<td>256.00 GiB</td>
+										<td>1,600 GiB</td>
+										<td>￥ 36.64/hour
+											<br />(about ￥ 27,260.16/month)</td>
+									</tr>
+								</table>
+
+								<h3>Dsv3 <sup style="color:#e66102; font-weight: bold">new</sup></h3>
+								<p>Dsv3-series instances support premium storage and are the latest hyper-threaded generation of general purpose instances based on the 2.3 GHz Intel Xeon® E5-2673 v4 (Broadwell) processor, which can achieve a clock speed of 3.5 GHz with Intel Turbo Boost Technology 2.0. Dsv3-series sizes offer a combination of vCPUs, memory, and temporary storage for most production workloads.</p>
+								<p>The VM pricing and billing meters for Dsv3 sizes are the same as for the Dv3-series. Persistent storage disks are billed separately from virtual machines. <a style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;" href="/pricing/details/storage/managed-disks/" id="vm-pricing_storage-managed-disks">See pricing for disks</a>.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
+									<div class="ms-date">*Dsv3 instances are only applicable to data centers in China East 2 and China North 2.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>D2s v3</td>
+										<td>2</td>
+										<td>8.00 GiB</td>
+										<td>16 GiB</td>
+										<td>￥ 1.14/hour<br />(about ￥ 848.16/month)</td>
+									</tr>
+									<tr>
+										<td>D4s v3</td>
+										<td>4</td>
+										<td>16.00 GiB</td>
+										<td>32 GiB</td>
+										<td>￥ 2.29/hour
+											<br />(about ￥ 1,703.76/month)</td>
+									</tr>
+									<tr>
+										<td>D8s v3</td>
+										<td>8</td>
+										<td>32.00 GiB</td>
+										<td>64 GiB</td>
+										<td>￥ 4.58/hour
+											<br />(about ￥ 3,407.52/month)</td>
+									</tr>
+									<tr>
+										<td>D16s v3</td>
+										<td>16</td>
+										<td>64.00 GiB</td>
+										<td>128 GiB</td>
+										<td>￥ 9.16/hour
+											<br />(about ￥ 6,815.04/month)</td>
+									</tr>
+									<tr>
+										<td>D32s v3</td>
+										<td>32</td>
+										<td>128.00 GiB</td>
+										<td>256 GiB</td>
+										<td>￥ 18.32/hour
+											<br />(￥ 13,630.08/month)</td>
+									</tr>
+									<tr>
+										<td>D64s v3</td>
+										<td>64</td>
+										<td>256.00 GiB</td>
+										<td>512 GiB</td>
+										<td>￥ 36.64/hour
+											<br />(about ￥ 27,260.16/month)</td>
+									</tr>
+								</table>
+
 								<h3>D1-4/DS 1-4</h3>
 								<p>The D1-4/DS 1-4 instances involve provision of powerful CPU, memory and local disk combinations for most production applications.</p>
 								<p>For persistent storage, please use variable “DS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DS size are the same as the D Series.</p>
@@ -1241,6 +1773,140 @@
 							<!-- END: Tab level 2 content 2-2--> <!-- BEGIN: Tab level 2 content 2-3 -->
 							<div class="tab-panel" id="tabContent2-3">
 								<h3>Memory prioritization: high memory to core ratio. Suitable for relational database servers, medium- and large-scale caches and memory analysis.</h3>
+								<h3>Ev3 <sup style="color:#e66102; font-weight: bold">new</sup></h3>
+								<p>Ev3 instances are the latest generation of Hyper-Threading memory-optimized instances. Ev3 instances are based on the 2.3 GHz Intel Xeon® E5-2673 v4 (Broadwell) processor, which can reach up to 3.5 GHz via Intel Turbo Boost Technology 2.0. Ev3 instances are suitable for memory-intensive business applications.</p>
+								<p>Persistent storage disks are billed separately from VMs. You can use Premium Storage disks through variable Esv3 VMs. Pricing and billing meters for Esv3-series sizes are the same as for the Ev3-series. See <a style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;" href="/pricing/details/storage/" id="vm-pricing_storage">pricing for disks</a>.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
+									<div class="ms-date">*Ev3 instances are only applicable to data centers in China East 2 and China North 2.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>E2 v3</td>
+										<td>2</td>
+										<td>16.00 GiB</td>
+										<td>50 GiB</td>
+										<td>￥ 1.45/hour
+											<br />(about ￥ 1,078.8/month)</td>
+									</tr>
+									<tr>
+										<td>E4 v3</td>
+										<td>4</td>
+										<td>32.00 GiB</td>
+										<td>100 GiB</td>
+										<td>￥ 2.92/hour
+											<br />(about ￥ 2,172.48/month)</td>
+									</tr>
+									<tr>
+										<td>E8 v3</td>
+										<td>8</td>
+										<td>64.00 GiB</td>
+										<td>200 GiB</td>
+										<td>￥ 5.83/hour
+											<br />(about ￥ 4,337.52/month)</td>
+									</tr>
+									<tr>
+										<td>E16 v3</td>
+										<td>16</td>
+										<td>128.00 GiB</td>
+										<td>400 GiB</td>
+										<td>￥ 11.67/hour
+											<br />(about ￥ 8,682.48/month)</td>
+									</tr>
+									<tr>
+										<td>E32 v3</td>
+										<td>32</td>
+										<td>256.00 GiB</td>
+										<td>800 GiB</td>
+										<td>￥ 23.33/hour
+											<br />(about ￥ 17,357.52/month)</td>
+									</tr>
+									<tr>
+										<td>E64 v3</td>
+										<td>64</td>
+										<td>432.00 GiB</td>
+										<td>1,600 GiB</td>
+										<td>￥ 46.66/hour
+											<br />(about ￥ 34,715.04/month)</td>
+									</tr>
+								</table>
+
+								<h3>ESv3 <sup style="color:#e66102; font-weight: bold">new</sup></h3>
+								<p>ESv3-series instances are based on the 2.3 GHz Intel Xeon® E5-2673 v4 (Broadwell) processor, can achieve 3.5 GHz with Intel Turbo Boost Technology 2.0, and use Premium Storage. Ev3-series instances are suitable for memory-intensive enterprise apps.</p>
+								<p>Persistent storage disks are billed separately from VMs. You can use Premium Storage disks through variable Esv3 VMs. Pricing and billing meters for Esv3-series sizes are the same as for the Ev3-series. See <a style="background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;" href="/pricing/details/storage/" id="vm-pricing_storage">pricing for disks</a>.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
+									<div class="ms-date">*Esv3 instances are only applicable to data centers in China East 2 and China North 2.</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>E2s v3</td>
+										<td>2</td>
+										<td>16.00 GiB</td>
+										<td>32 GiB</td>
+										<td>￥ 1.45/hour
+											<br />(about ￥ 1,078.8/month)</td>
+									</tr>
+									<tr>
+										<td>E4s v3</td>
+										<td>4</td>
+										<td>32.00 GiB</td>
+										<td>64 GiB</td>
+										<td>￥ 2.92/hour
+											<br />(about ￥ 2,172.48/month)</td>
+									</tr>
+									<tr>
+										<td>E8s v3</td>
+										<td>8</td>
+										<td>64.00 GiB</td>
+										<td>128 GiB</td>
+										<td>￥ 5.83/hour
+											<br />(about ￥ 4,337.52/month)</td>
+									</tr>
+									<tr>
+										<td>E16s v3</td>
+										<td>16</td>
+										<td>128.00 GiB</td>
+										<td>256 GiB</td>
+										<td>￥ 11.67/hour
+											<br />(about ￥ 8,682.48/month)</td>
+									</tr>
+									<tr>
+										<td>E32s v3</td>
+										<td>32</td>
+										<td>256.00 GiB</td>
+										<td>512 GiB</td>
+										<td>￥ 23.33/hour
+											<br />(about ￥ 17,357.52/month)</td>
+									</tr>
+									<tr>
+										<td>E64s v3</td>
+										<td>64</td>
+										<td>432.00 GiB</td>
+										<td>864 GiB</td>
+										<td>￥ 46.66/hour
+											<br />(about ￥ 34,715.04/month)</td>
+									</tr>
+								</table>
+
 								<h3>D11-14/DS11-14</h3>
 								<p>The D11-14/DS11-14 instances are suitable for memory-intensive enterprise applications.</p>
 								<p>For persistent storage, please use variable “DS” Virtual Machine, and purchase Premium Storage separately. The pricing and billing meters of the DS size are the same as the D Series.</p>
@@ -1393,7 +2059,8 @@
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
-									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br/>
+									<div class="ms-date">*DS15 v2 instances are only applicable to data centers in China East and China North.</div>
 								</div>
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
@@ -1571,16 +2238,16 @@
 										<td>3.5 GiB</td>
 										<td>135 GiB</td>
 										<td>￥ 1.16/hour<br />(about ￥ 863.04/month)</td>
-										<td>￥&#160;3.7/hour<br />(about ￥ 2,752.8/month)</td>
-										<td>¥ 11.37/hour<br />(about ￥ 8,459.28/month)</td>
+										<td>￥ 3.7/hour<br />(about ￥ 2,752.8/month)</td>
+										<td>￥ 11.37/hour<br />(about ￥ 8,459.28/month)</td>
 									</tr>
 									<tr>
 										<td>A3</td>
 										<td>4</td>
 										<td>7 GiB</td>
 										<td>285 GiB</td>
-										<td>￥&#160;2.1/hour<br />(about ￥&#160;1,562.4/month)</td>
-										<td>￥&#160;4.64/hour<br />(about ￥ 3,452.16/month)</td>
+										<td>￥ 2.1/hour<br />(about ￥ 1,562.4/month)</td>
+										<td>￥ 4.64/hour<br />(about ￥ 3,452.16/month)</td>
 										<td>¥ 12.31/hour<br />(about ¥ 9,158.64/month)</td>
 									</tr>
 									<tr>
@@ -1588,25 +2255,25 @@
 										<td>8</td>
 										<td>14 GiB</td>
 										<td>605 GiB</td>
-										<td>¥ 4.21/hour<br />(about ￥&#160;3,132.24/month)</td>
-										<td>￥&#160;9.27/hour<br />(about ¥ 6,896.88/month)</td>
-										<td>￥ 24.61/hour<br />(about ￥&#160;18,309.84/month)</td>
+										<td>¥ 4.21/hour<br />(about ￥ 3,132.24/month)</td>
+										<td>￥ 9.27/hour<br />(about ¥ 6,896.88/month)</td>
+										<td>￥ 24.61/hour<br />(about ￥ 18,309.84/month)</td>
 									</tr>
 									<tr>
 										<td>A5</td>
 										<td>2</td>
 										<td>14 GiB</td>
 										<td>135 GiB</td>
-										<td>￥ 1.93/hour<br />(about ￥&#160;1,435.92/month)</td>
+										<td>￥ 1.93/hour<br />(about ￥ 1,435.92/month)</td>
 										<td>¥ 4.47/hour<br />(about ￥ 3,325.68/month)</td>
-										<td>¥ 12.14/hour<br />(about ￥&#160;9,032.16/month)</td>
+										<td>¥ 12.14/hour<br />(about ￥ 9,032.16/month)</td>
 									</tr>
 									<tr>
 										<td>A6</td>
 										<td>4</td>
 										<td>28 GiB</td>
 										<td>285 GiB</td>
-										<td>￥ 3.65/hour<br />(about ￥&#160;2,715.6/month)</td>
+										<td>￥ 3.65/hour<br />(about ￥ 2,715.6/month)</td>
 										<td>￥ 6.19/hour<br />(about ￥ 4,605.36/month)</td>
 										<td>￥ 13.86/hour<br />(about ￥ 10,311.84/month)</td>
 									</tr>
@@ -1616,7 +2283,7 @@
 										<td>56 GiB</td>
 										<td>605 GiB</td>
 										<td>¥ 7.3/hour<br />(about ￥ 5,431.2/month)</td>
-										<td>¥ 12.36/hour<br />(about ￥&#160;9,195.84/month)</td>
+										<td>¥ 12.36/hour<br />(about ￥ 9,195.84/month)</td>
 										<td>￥ 27.7/hour<br />(about ￥ 20,608.8/month)</td>
 									</tr>
 								</table>
@@ -1646,9 +2313,9 @@
 										<td>2 GiB</td>
 										<td>10 GiB</td>
 										<td>¥ 0.7605/hour
-											<br />(about ￥&#160;565.812/month)</td>
+											<br />(about ￥ 565.812/month)</td>
 										<td>¥ 3.3005/hour
-											<br />(about ￥&#160;2,455.572/month)</td>
+											<br />(about ￥ 2,455.572/month)</td>
 										<td>￥ 10.9705/hour<br />(about ￥ 8162.052/month)</td>
 									</tr>
 									<tr>
@@ -1656,12 +2323,12 @@
 										<td>2</td>
 										<td>4 GiB</td>
 										<td>20 GiB</td>
-										<td>￥&#160;1.301/hour
+										<td>￥ 1.301/hour
 											<br />(about ¥ 967.944/month)</td>
 										<td>¥ 3.841/hour
 											<br />(about ￥ 2,857.704/month)</td>
 										<td>¥ 11.511/hour
-											<br />(about ￥&#160;8,564.184/month)</td>
+											<br />(about ￥ 8,564.184/month)</td>
 									</tr>
 									<tr>
 										<td>A4 v2</td>
@@ -1670,7 +2337,7 @@
 										<td>40 GiB</td>
 										<td>￥ 2.382/hour<br />(about ￥ 1,772.208/month)</td>
 										<td>¥ 4.922/hour
-											<br />(about ￥&#160;3,661.968/month)</td>
+											<br />(about ￥ 3,661.968/month)</td>
 										<td>￥ 12.592/hour<br />(about ￥ 9,368.448/month)</td>
 									</tr>
 									<tr>
@@ -1679,7 +2346,7 @@
 										<td>16 GiB</td>
 										<td>80 GiB</td>
 										<td>¥ 4.7855/hour
-											<br />(about ￥&#160;3,560.412/month)</td>
+											<br />(about ￥ 3,560.412/month)</td>
 										<td>￥ 9.8455/hour<br />(about ¥ 7,325.052/month)</td>
 										<td>¥ 25.1855/hour
 											<br />(about ￥ 18,738.012/month)</td>
@@ -1701,8 +2368,8 @@
 										<td>32 GiB</td>
 										<td>40 GiB</td>
 										<td>¥ 4.1594/hour
-											<br />(about ￥&#160;3,094.5936/month)</td>
-										<td>￥ 6.6994/hour<br />(about ￥&#160;4,984.3536/month)</td>
+											<br />(about ￥ 3,094.5936/month)</td>
+										<td>￥ 6.6994/hour<br />(about ￥ 4,984.3536/month)</td>
 										<td>¥ 14.3694/hour
 											<br />(about ￥ 10,690.8336/month)</td>
 									</tr>
@@ -1740,9 +2407,9 @@
 										<td>1</td>
 										<td>3.5 GiB</td>
 										<td>50 GiB</td>
-										<td>￥&#160;0.7/hour<br />(about ￥&#160;520.8/month)</td>
-										<td>¥ 3.24/hour<br />(about ￥&#160;2,410.56/month)</td>
-										<td>¥ 10.91/hour<br />(about ￥&#160;8,117.04/month)</td>
+										<td>￥ 0.7/hour<br />(about ￥ 520.8/month)</td>
+										<td>¥ 3.24/hour<br />(about ￥ 2,410.56/month)</td>
+										<td>¥ 10.91/hour<br />(about ￥ 8,117.04/month)</td>
 									</tr>
 									<tr>
 										<td>D2</td>
@@ -1751,7 +2418,7 @@
 										<td>100 GiB</td>
 										<td>￥ 1.22/hour<br />(about ¥ 907.68/month)</td>
 										<td>¥ 3.76/hour<br />(about ￥ 2,797.44/month)</td>
-										<td>￥ 11.43/hour<br />(about ￥&#160;8,503.92/month)</td>
+										<td>￥ 11.43/hour<br />(about ￥ 8,503.92/month)</td>
 									</tr>
 									<tr>
 										<td>D3</td>
@@ -1760,7 +2427,7 @@
 										<td>200 GiB</td>
 										<td>¥ 2.23/hour<br />(about ¥ 1,659.12/month)</td>
 										<td>¥ 4.77/hour<br />(about ¥ 3,548.88/month)</td>
-										<td>￥ 12.44/hour<br />(about ￥&#160;9,255.36/month)</td>
+										<td>￥ 12.44/hour<br />(about ￥ 9,255.36/month)</td>
 									</tr>
 									<tr>
 										<td>D4</td>
@@ -1768,8 +2435,8 @@
 										<td>28 GiB</td>
 										<td>400 GiB</td>
 										<td>￥ 4.5/hour<br />(about ￥ 3,348/month)</td>
-										<td>¥ 9.56/hour<br />(about ￥&#160;7,112.64/month)</td>
-										<td>¥ 24.9/hour<br />(about ￥&#160;18,525.6/month)</td>
+										<td>¥ 9.56/hour<br />(about ￥ 7,112.64/month)</td>
+										<td>¥ 24.9/hour<br />(about ￥ 18,525.6/month)</td>
 									</tr>
 								</table>
 								
@@ -1799,16 +2466,16 @@
 										<td>3.5 GiB</td>
 										<td>50 GiB</td>
 										<td>¥ 0.75/hour<br />(about ￥ 558/month)</td>
-										<td>￥&#160;3.29/hour<br />(about ￥&#160;2,447.76/month)</td>
-										<td>￥ 10.96/hour<br />(about ￥&#160;8,154.24/month)</td>
+										<td>￥ 3.29/hour<br />(about ￥ 2,447.76/month)</td>
+										<td>￥ 10.96/hour<br />(about ￥ 8,154.24/month)</td>
 									</tr>
 									<tr>
 										<td>D2 v2</td>
 										<td>2</td>
 										<td>7.0 GiB</td>
 										<td>100 GiB</td>
-										<td>￥ 1.33/hour<br />(about ￥&#160;989.52/month)</td>
-										<td>¥ 3.87/hour<br />(about ￥&#160;2,879.28/month)</td>
+										<td>￥ 1.33/hour<br />(about ￥ 989.52/month)</td>
+										<td>¥ 3.87/hour<br />(about ￥ 2,879.28/month)</td>
 										<td>￥ 11.54/hour<br />(about ￥ 8,585.76/month)</td>
 									</tr>
 									<tr>
@@ -1817,24 +2484,24 @@
 										<td>14.0 GiB</td>
 										<td>200 GiB</td>
 										<td>¥ 2.44/hour<br />(about ￥ 1,815.36/month)</td>
-										<td>￥ 4.98/hour<br />(about ￥&#160;3,705.12/month)</td>
-										<td>￥ 12.65/hour<br />(about ￥&#160;9,411.6/month)</td>
+										<td>￥ 4.98/hour<br />(about ￥ 3,705.12/month)</td>
+										<td>￥ 12.65/hour<br />(about ￥ 9,411.6/month)</td>
 									</tr>
 									<tr>
 										<td>D4 v2</td>
 										<td>8</td>
 										<td>28.0 GiB</td>
 										<td>400 GiB</td>
-										<td>¥ 4.9/hour<br />(about ￥&#160;3,645.6/month)</td>
+										<td>¥ 4.9/hour<br />(about ￥ 3,645.6/month)</td>
 										<td>¥ 9.96/hour<br />(about ¥ 7,410.24/month)</td>
-										<td>¥ 25.3/hour<br />(about ￥&#160;18,823.2/month)</td>
+										<td>¥ 25.3/hour<br />(about ￥ 18,823.2/month)</td>
 									</tr>
 									<tr>
 										<td>D5 v2</td>
 										<td>16</td>
 										<td>56.0 GiB</td>
 										<td>800 GiB</td>
-										<td>￥&#160;9.45/hour<br />(about ￥ 7,030.8/month)</td>
+										<td>￥ 9.45/hour<br />(about ￥ 7,030.8/month)</td>
 										<td>￥ 19.58/hour<br />(about ¥ 14,567.52/month)</td>
 										<td>¥ 50.26/hour<br />(about ￥ 3,7393.44/month)</td>
 									</tr>
@@ -1865,7 +2532,7 @@
 										<td>3.5 GiB</td>
 										<td>7 GiB</td>
 										<td>￥ 0.75/hour<br />(about ￥ 558/month)</td>
-										<td>￥&#160;3.29/hour<br />(about ￥&#160;2,447.76/month)</td>
+										<td>￥ 3.29/hour<br />(about ￥ 2,447.76/month)</td>
 										<td>￥ 10.96/hour<br />(about ￥ 8,154.24/month)</td>
 									</tr>
 									<tr>
@@ -1873,8 +2540,8 @@
 										<td>2</td>
 										<td>7.0 GiB</td>
 										<td>14 GiB</td>
-										<td>￥ 1.33/hour<br />(about ￥&#160;989.52/month)</td>
-										<td>¥ 3.87/hour<br />(about ￥&#160;2,879.28/month)</td>
+										<td>￥ 1.33/hour<br />(about ￥ 989.52/month)</td>
+										<td>¥ 3.87/hour<br />(about ￥ 2,879.28/month)</td>
 										<td>￥ 11.54/hour<br />(about ￥ 8,585.76/month)</td>
 									</tr>
 									<tr>
@@ -1883,7 +2550,7 @@
 										<td>14.0 GiB</td>
 										<td>28 GiB</td>
 										<td>¥ 2.44/hour<br />(about ￥ 1,815.36/month)</td>
-										<td>￥ 4.98/hour<br />(about ￥&#160;3,705.12/month)</td>
+										<td>￥ 4.98/hour<br />(about ￥ 3,705.12/month)</td>
 										<td>￥ 12.65/hour<br />(about ￥ 9,411.6/month)</td>
 									</tr>
 									<tr>
@@ -1891,9 +2558,9 @@
 										<td>8</td>
 										<td>28.0 GiB</td>
 										<td>56 GiB</td>
-										<td>￥ 4.9/hour<br />(about ￥&#160;3,645.6/month)</td>
+										<td>￥ 4.9/hour<br />(about ￥ 3,645.6/month)</td>
 										<td>¥ 9.96/hour<br />(about ¥ 7,410.24/month)</td>
-										<td>¥ 25.3/hour<br />(about ￥&#160;18,823.2/month)</td>
+										<td>¥ 25.3/hour<br />(about ￥ 18,823.2/month)</td>
 									</tr>
 									<tr>
 										<td>DS5 v2</td>
@@ -1952,7 +2619,7 @@
 											<br />(about ￥ 885.36/month)</td>
 										<td>¥ 3.73/hour
 											<br />(about ¥ 2,775.12/month)</td>
-										<td>￥ 11.4/hour<br />(about ￥&#160;8,481.6/month)</td>
+										<td>￥ 11.4/hour<br />(about ￥ 8,481.6/month)</td>
 									</tr>
 									<tr>
 										<td>F4</td>
@@ -1979,8 +2646,8 @@
 										<td>32 GiB</td>
 										<td>256 GiB</td>
 										<td>￥ 8.42/hour<br />(about ¥ 6,264.48/month)</td>
-										<td>￥ 18.55/hour<br />(about ￥&#160;13,801.2/month)</td>
-										<td>￥ 49.23/hour<br />(about ￥&#160;36,627.12/month)</td>
+										<td>￥ 18.55/hour<br />(about ￥ 13,801.2/month)</td>
+										<td>￥ 49.23/hour<br />(about ￥ 36,627.12/month)</td>
 									</tr>
 								</table>
 								
@@ -2010,8 +2677,8 @@
 										<td>2</td>
 										<td>14 GiB</td>
 										<td>100 GiB</td>
-										<td>￥&#160;1.92/hour<br />(about ￥ 1,428.48/month)</td>
-										<td>￥&#160;4.46/hour<br />(about ￥&#160;3,318.24/month)</td>
+										<td>￥ 1.92/hour<br />(about ￥ 1,428.48/month)</td>
+										<td>￥ 4.46/hour<br />(about ￥ 3,318.24/month)</td>
 										<td>￥ 12.13/hour<br />(about ￥ 9,024.72/month)</td>
 									</tr>
 									<tr>
@@ -2019,8 +2686,8 @@
 										<td>4</td>
 										<td>28 GiB</td>
 										<td>200 GiB</td>
-										<td>￥&#160;3.63/hour<br />(about ￥ 2,700.72/month)</td>
-										<td>¥ 6.17/hour<br />(about ￥&#160;4,590.48/month)</td>
+										<td>￥ 3.63/hour<br />(about ￥ 2,700.72/month)</td>
+										<td>¥ 6.17/hour<br />(about ￥ 4,590.48/month)</td>
 										<td>¥ 13.84/hour<br />(about ￥ 10,296.96/month)</td>
 									</tr>
 									<tr>
@@ -2037,7 +2704,7 @@
 										<td>16</td>
 										<td>112 GiB</td>
 										<td>800 GiB</td>
-										<td>￥ 14.56/hour<br />(about ￥&#160;10,832.64/month)</td>
+										<td>￥ 14.56/hour<br />(about ￥ 10,832.64/month)</td>
 										<td>￥ 24.69/hour<br />(about ￥ 18,369.36/month)</td>
 										<td>¥ 55.37/hour<br />(about ¥ 41,195.28/month)</td>
 									</tr>
@@ -2067,8 +2734,8 @@
 										<td>2</td>
 										<td>14.0 GiB</td>
 										<td>100 GiB</td>
-										<td>￥ 2.1/hour<br />(about ￥&#160;1,562.4/month)</td>
-										<td>￥&#160;4.64/hour<br />(about ￥ 3,452.16/month)</td>
+										<td>￥ 2.1/hour<br />(about ￥ 1,562.4/month)</td>
+										<td>￥ 4.64/hour<br />(about ￥ 3,452.16/month)</td>
 										<td>¥ 12.31/hour<br />(about ￥ 9,158.64/month)</td>
 									</tr>
 									<tr>
@@ -2076,8 +2743,8 @@
 										<td>4</td>
 										<td>28.0 GiB</td>
 										<td>200 GiB</td>
-										<td>￥&#160;3.98/hour<br />(about ¥ 2,961.12/month)</td>
-										<td>￥&#160;6.52/hour<br />(about ￥ 4,850.88/month)</td>
+										<td>￥ 3.98/hour<br />(about ¥ 2,961.12/month)</td>
+										<td>￥ 6.52/hour<br />(about ￥ 4,850.88/month)</td>
 										<td>¥ 14.19/hour<br />(about ￥ 10,557.36/month)</td>
 									</tr>
 									<tr>
@@ -2094,7 +2761,7 @@
 										<td>16</td>
 										<td>112.0 GiB</td>
 										<td>800 GiB</td>
-										<td>￥ 15.92/hour<br />(about ￥&#160;11,844.48/month)</td>
+										<td>￥ 15.92/hour<br />(about ￥ 11,844.48/month)</td>
 										<td>¥ 26.05/hour<br />(about ￥ 19,381.2/month)</td>
 										<td>￥ 56.73/hour<br />(about ￥ 42,207.12/month)</td>
 									</tr>
@@ -2105,7 +2772,7 @@
 										<td>1,000 GiB</td>
 										<td>￥ 20.2306/hour<br />(about ￥ 15,051.5664/month)</td>
 										<td>¥ 36.7973/hour<br />(about ￥ 27,377.1912/month)</td>
-										<td>￥ 86.3173/hour<br />(about ￥&#160;64,220.0712/month)</td>
+										<td>￥ 86.3173/hour<br />(about ￥ 64,220.0712/month)</td>
 									</tr>
 								</table>
 								
@@ -2116,7 +2783,8 @@
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*The following prices include the pricing of both Windows Virtual Machine and SQL Server.</div>
+									<div class="ms-date">*The following prices include the pricing of both Windows Virtual Machine and SQL Server.</div><br/>
+									<div class="ms-date">*DS15 v2 instances are only applicable to data centers in China East and China North.</div>
 								</div>
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
@@ -2133,8 +2801,8 @@
 										<td>2</td>
 										<td>14.0 GiB</td>
 										<td>28 GiB</td>
-										<td>￥ 2.1/hour<br />(about ￥&#160;1,562.4/month)</td>
-										<td>￥&#160;4.64/hour<br />(about ￥ 3,452.16/month)</td>
+										<td>￥ 2.1/hour<br />(about ￥ 1,562.4/month)</td>
+										<td>￥ 4.64/hour<br />(about ￥ 3,452.16/month)</td>
 										<td>¥ 12.31/hour<br />(about ￥ 9,158.64/month)</td>
 									</tr>
 									<tr>
@@ -2143,7 +2811,7 @@
 										<td>28.0 GiB</td>
 										<td>56 GiB</td>
 										<td>￥ 3.98/hour<br />(about ¥ 2,961.12/month)</td>
-										<td>￥&#160;6.52/hour<br />(about ￥ 4,850.88/month)</td>
+										<td>￥ 6.52/hour<br />(about ￥ 4,850.88/month)</td>
 										<td>¥ 14.19/hour<br />(about ￥ 10,557.36/month)</td>
 									</tr>
 									<tr>
@@ -2160,18 +2828,18 @@
 										<td>16</td>
 										<td>112.0 GiB</td>
 										<td>224 GiB</td>
-										<td>￥&#160;15.92/hour<br />(about ￥&#160;11,844.48/month)</td>
+										<td>￥ 15.92/hour<br />(about ￥ 11,844.48/month)</td>
 										<td>¥ 26.05/hour<br />(about ￥ 19,381.2/month)</td>
-										<td>￥ 56.73/hour<br />(about ￥&#160;42,207.12/month)</td>
+										<td>￥ 56.73/hour<br />(about ￥ 42,207.12/month)</td>
 									</tr>
 									<tr>
 										<td>DS15 v2</td>
 										<td>20</td>
 										<td>140.0 GiB</td>
 										<td>280 GiB</td>
-										<td>￥&#160;20.2306/hour<br />(about ￥ 15,051.5664/month)</td>
+										<td>￥ 20.2306/hour<br />(about ￥ 15,051.5664/month)</td>
 										<td>¥ 36.7973/hour<br />(about ￥ 27,377.1912/month)</td>
-										<td>￥ 86.3173/hour<br />(about ￥&#160;64,220.0712/month)</td>
+										<td>￥ 86.3173/hour<br />(about ￥ 64,220.0712/month)</td>
 									</tr>
 								</table>
 								
@@ -2232,9 +2900,9 @@
 										<td>1</td>
 										<td>1.75 GiB</td>
 										<td>40 GiB</td>
-										<td>￥&#160;0.47/hour
-											<br />(about ￥&#160;349.68/month)</td>
-										<td>￥&#160;3.01/hour
+										<td>￥ 0.47/hour
+											<br />(about ￥ 349.68/month)</td>
+										<td>￥ 3.01/hour
 											<br />(about ¥ 2,239.44/month)</td>
 										<td>￥ 10.68/hour<br />(about ¥ 7,945.92/month)</td>
 									</tr>
@@ -2871,7 +3539,7 @@
 														
 														-->
 								<h3>D11-15 v2</h3>
-								<p>The D11-15 v2/DS 11-15 v2 Series instances are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to 3.2 GHz via Intel Turbo Boost Technology 2.0. The D11-15 v2 are suitable for memory-intensive enterprise applications. The D15 v2 instance is independent from the hardware exclusively used for individual customers.</p>
+								<p>D11-15 v2 series instances are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to 3.2 GHz via Intel Turbo Boost Technology 2.0. D11-15 v2 instances are suitable for memory-intensive enterprise applications. D15 v2 instances are independent from the hardware exclusively used for individual customers.</p>
 									
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -2941,7 +3609,8 @@
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
-									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br/>
+									<div class="ms-date">*DS15 v2 instances are only applicable to data centers in China East and China North.</div>
 								</div>
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
@@ -3590,7 +4259,7 @@
 														
 														-->
 								<h3>D11-15 v2</h3>
-								<p>The D11-15 v2/DS 11-15 v2 Series instances are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to 3.2 GHz via Intel Turbo Boost Technology 2.0. The D11-15 v2 are suitable for memory-intensive enterprise applications. The D15 v2 instance is independent from the hardware exclusively used for individual customers.</p>
+								<p>D11-15 v2 series instances are based on the 2.4 GHz Intel Xeon® E5-2673 v3 (Haswell) processor, which can reach up to 3.2 GHz via Intel Turbo Boost Technology 2.0. D11-15 v2 instances are suitable for memory-intensive enterprise applications. D15 v2 instances are independent from the hardware exclusively used for individual customers.</p>
 									
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -3648,7 +4317,8 @@
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
-									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br/>
+									<div class="ms-date">*DS15 v2 instances are only applicable to data centers in China East and China North.</div>
 								</div>
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
@@ -3735,9 +4405,9 @@
 						<li>
 							<i class="icon icon-plus"></i>
 							<div>
-								<a id="vm-que-2">What is a temporary disk?</a>
+								<a id="vm-que-2">What are temporary drives?</a>
 								<section>
-									<p>Temporary disk is storage that is attached directly to the deployed VM. Data on a temporary disk is lost once the VM is shut down. If you need persistent storage, there are a number of types and sizes of persistent data disks available that are charged separately. Please see the<a href="/pricing/details/storage/" id="vm_storage">storage pricing page</a>for information. For persistent VM storage, we recommend that you use Managed Disks to take advantage of better management features, scalability, availability, and security.</p>
+									<p>Temporary drives are storage devices that are directly attached to the deployed VM. When the VM is shut down, the data on the temporary drive will be lost. If you need persistent storage, persistent data drives are available in a range of sizes (these drives are billed separately). See the <a href="/pricing/details/storage/managed-disks/" id="vm_storage">storage pricing page</a> for more information. We recommend the use of managed disks for persistent VM storage, as they provide better management functions, scalability, availability, and security.</p>
 								</section>
 							</div>
 						</li>
@@ -3955,27 +4625,25 @@
 					</ul>
 				</div>
 			</div>
-            <div class="pricing-page-section">
-                <h2>Region</h2>
-                <p>The Virtual Machine A and D Series instances are available in the following region:</p>
+            <!-- <div class="pricing-page-section">
+                <h2>上市地区</h2>
+                <p>虚拟机 A 系列和 D 系列实例在以下区域中提供：</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territory</strong></th>
-                        <th align="left"><strong>Region</strong></th>
+                        <th align="left"><strong>地域</strong></th>
+                        <th align="left"><strong>区域</strong></th>
                     </tr>
                     <tr>
-                        <td>Mainland China</td>
-                        <td>China North, China East</td>
+                        <td>中国大陆</td>
+                        <td>中国东部数据中心 , 中国北部数据中心</td>
                     </tr>
-                </table>
-               <div class="pricing-page-section">
+                </table> -->
+           <div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
-                <p>If you have any questions or need any help, please visit <a href="/support/contact/" id="vm-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="vm-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				 <p>For all virtual machines deployed with two or more instances in the same availability, we guarantee that you can have VM connection at least 99.95% of the time. For any single-instance virtual machine that uses Premium Storage for all disks, we guarantee that you can have VM connection at least 99.9% of the time. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/virtual-machines/" id="vm-sla-page">Service Level Agreements</a> page.</p>
-                </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk-->
-             </div>
-            <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                    
+            </div>
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                    
     
     ]]></bodyText>
     <pageTitle>Azure Virtual Machine Pricing Details Estimates - Azure Cloud Computing</pageTitle>

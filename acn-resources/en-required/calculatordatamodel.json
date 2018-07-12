@@ -353,51 +353,103 @@
                     "MaxUnit": "100",
                     "Sizes": [{
                         "Name": "CalculatorConst.A0Size",
-                        "Description": "1 (shared) core, 0.75 GiB RAM, 20 GiB disk",
+                        "Description": "1 (shared) core, 0.75 GiB RAM, 20 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.13"
                     },
                     {
                         "Name": "CalculatorConst.A1Size",
-                        "Description": "1 core, 1.75 GiB RAM, 70 GiB disk",
+                        "Description": "1 core, 1.75 GiB RAM, 70 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.36"
                     },
                     {
                         "Name": "CalculatorConst.A2Size",
-                        "Description": "2 cores, 3.5 GiB RAM, 135 GiB disk",
+                        "Description": "2 cores, 3.5 GiB RAM, 135 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.94"
                     },
                     {
                         "Name": "CalculatorConst.A3Size",
-                        "Description": "4 cores, 7 GiB RAM, 285 GiB disk",
+                        "Description": "4 core, 7 GiB RAM, 285 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.88"
                     },
                     {
                         "Name": "CalculatorConst.A4Size",
-                        "Description": "8 cores, 14 GiB RAM, 605 GiB disk",
+                        "Description": "8 cores, 14 GiB RAM, 605 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "3.76"
                     },
                     {
                         "Name": "CalculatorConst.A5Size",
-                        "Description": "2 cores, 14 GiB RAM, 135 GiB disk",
+                        "Description": "2 cores, 14 GiB RAM, 135 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.71"
                     },
                     {
                         "Name": "CalculatorConst.A6Size",
-                        "Description": "4 cores, 28 GiB RAM, 285 GiB disk",
+                        "Description": "4 cores, 28 GiB RAM, 285 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "3.43"
                     },
                     {
                         "Name": "CalculatorConst.A7Size",
-                        "Description": "8 cores, 56 GiB RAM, 605 GiB disk",
+                        "Description": "8 cores, 56 GiB RAM, 605 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "6.85"
+                    }]
+                },
+                {
+                    "Name": "B series/BS series",
+                    "Description": "B series/BS series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "B1/BS1",
+                        "Description": "1 core, 1 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.018"
+                    },
+                    {
+                        "Name": "B2/BS2",
+                        "Description": "2 cores, 4 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.066"
+                    }]
+                },
+                {
+                    "Name": "B series/BS series",
+                    "Description": "B series/BS series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "B1m/BS1m",
+                        "Description": "1 core, 2 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.032"
+                    },
+                    {
+                        "Name": "B2m/BS2m",
+                        "Description": "2 cores, 8 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.122"
+                    },
+                    {
+                        "Name": "B4m/BS4m",
+                        "Description": "4 cores, 16 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.23"
+                    },
+                    {
+                        "Name": "B8m/BS8m",
+                        "Description": "8 cores, 32 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.438"
                     }]
                 },
                 {
@@ -409,31 +461,31 @@
                     "MaxUnit": "100",
                     "Sizes": [{
                         "Name": "CalculatorConst.A1v2Size",
-                        "Description": "1 core, 2 GiB RAM, 10 GiB disk",
+                        "Description": "1 core, 2 GiB RAM, 10 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.5405"
                     },
                     {
                         "Name": "CalculatorConst.A2v2Size",
-                        "Description": "2 cores, 4 GiB RAM, 20 GiB disk",
+                        "Description": "2 cores, 4 GiB RAM, 20 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.0810"
                     },
                     {
                         "Name": "CalculatorConst.A4v2Size",
-                        "Description": "4 cores, 8 GiB RAM, 40 GiB disk",
+                        "Description": "4 cores, 8 GiB RAM, 40 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "2.1620"
                     },
                     {
                         "Name": "CalculatorConst.A8v2Size",
-                        "Description": "8 cores, 16 GiB RAM, 80 GiB disk",
+                        "Description": "8 cores, 16 GiB RAM, 80 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "4.3355"
                     }]
                 },
                 {
-                    "Name": "",
+                    "Name": "Av2 Series",
                     "Description": "Av2 Series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
                     "PriceUnit": "Machine",
@@ -441,194 +493,313 @@
                     "MaxUnit": "100",
                     "Sizes": [{
                         "Name": "CalculatorConst.A2mv2Size",
-                        "Description": "2 cores, 16 GiB RAM, 20 GiB disk",
+                        "Description": "2 cores, 16 GiB RAM, 20 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.9665"
                     },
                     {
                         "Name": "CalculatorConst.A4mv2Size",
-                        "Description": "4 cores, 32 GiB RAM, 40 GiB disk",
+                        "Description": "4 cores, 32 GiB RAM, 40 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "3.9394"
                     },
                     {
                         "Name": "CalculatorConst.A8mv2Size",
-                        "Description": "8 cores, 64 GiB RAM, 80 GiB disk",
+                        "Description": "8 cores, 64 GiB RAM, 80 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "7.8775"
                     }]
                 },
-             {
-                "Name": "D Series",
-                "Description": "D Series",
-                "PricePeriod": "PricePeriodEnum.Hourly",
-                "PriceUnit": "Machine",
-                "MinUnit": "0",
-                "MaxUnit": "100",
-                "Sizes": [{
-                    "Name": "CalculatorConst.D1Size",
-                    "Description": "CalculatorConst.D1SizeDesc",
-                    "PriceTier": "PriceTierEnum.Fixed",
-                    "PricePerTier": "0.48"
-                },
                 {
-                    "Name": "CalculatorConst.D2Size",
-                    "Description": "CalculatorConst.D2SizeDesc",
-                    "PriceTier": "PriceTierEnum.Fixed",
-                    "PricePerTier": "1"
-                },
-                {
-                    "Name": "CalculatorConst.D3Size",
-                    "Description": "CalculatorConst.D3SizeDesc",
-                    "PriceTier": "PriceTierEnum.Fixed",
-                    "PricePerTier": "2.01"
-                },
-                {
-                    "Name": "CalculatorConst.D4Size",
-                    "Description": "CalculatorConst.D4SizeDesc",
-                    "PriceTier": "PriceTierEnum.Fixed",
-                    "PricePerTier": "4.05"
-                },
-                {
-                    "Name": "CalculatorConst.D11Size",
-                    "Description": "CalculatorConst.D11SizeDesc",
-                    "PriceTier": "PriceTierEnum.Fixed",
-                    "PricePerTier": "1.7"
-                },
-                {
-                    "Name": "CalculatorConst.D12Size",
-                    "Description": "CalculatorConst.D12SizeDesc",
-                    "PriceTier": "PriceTierEnum.Fixed",
-                    "PricePerTier": "3.41"
-                },
-                {
-                    "Name": "CalculatorConst.D13Size",
-                    "Description": "CalculatorConst.D13SizeDesc",
-                    "PriceTier": "PriceTierEnum.Fixed",
-                    "PricePerTier": "6.83"
-                },
-                {
-                    "Name": "CalculatorConst.D14Size",
-                    "Description": "CalculatorConst.D14SizeDesc",
-                    "PriceTier": "PriceTierEnum.Fixed",
-                    "PricePerTier": "13.67"
-                }]
-            },
-             {
-                 "Name": " ",
-                 "Description": "D-2v Series",
-                 "PricePeriod": "PricePeriodEnum.Hourly",
-                 "PriceUnit": "Machine",
-                 "MinUnit": "0",
-                 "MaxUnit": "100",
-                 "Sizes": [{
-                     "Name": "CalculatorConst.D1V2Size",
-                     "Description": "CalculatorConst.D1V2SizeDesc",
-                     "PriceTier": "PriceTierEnum.Fixed",
-                     "PricePerTier": "0.53"
-                 },
-                 {
-                     "Name": "CalculatorConst.D2V2Size",
-                     "Description": "CalculatorConst.D2V2SizeDesc",
-                     "PriceTier": "PriceTierEnum.Fixed",
-                     "PricePerTier": "1.11"
-                 },
-                 {
-                     "Name": "CalculatorConst.D3V2Size",
-                     "Description": "CalculatorConst.D3V2SizeDesc",
-                     "PriceTier": "PriceTierEnum.Fixed",
-                     "PricePerTier": "2.22"
-                 },
-                 {
-                     "Name": "CalculatorConst.D4V2Size",
-                     "Description": "CalculatorConst.D4V2SizeDesc",
-                     "PriceTier": "PriceTierEnum.Fixed",
-                     "PricePerTier": "4.45"
-                 },
-                 {
-                     "Name":"CalculatorConst.D5V2Size",
-                     "Description": "CalculatorConst.D5V2SizeDesc",
-                     "PriceTier": "PriceTierEnum.Fixed",
-                     "PricePerTier": "8.56"
-                 }]
-             },
-                {
-                    "Name": "Dv2 Series",
-                    "Description": "D-2v Series",
+                    "Name": "Dv3 series/DSv3 series",
+                    "Description": "Dv3 series/DSv3 series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
                     "PriceUnit": "Machine",
                     "MinUnit": "0",
                     "MaxUnit": "100",
                     "Sizes": [{
-                        "Name": "CalculatorConst.D11V2Size",
+                        "Name": "D2 v3/DS2 v3",
+                        "Description": "2 cores, 8 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.25"
+                    },
+                    {
+                        "Name": "D4 v3/DS4 v3",
+                        "Description": "4 cores, 16 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.52"
+                    },
+                    {
+                        "Name": "D8 v3/DS8 v3",
+                        "Description": "8 cores, 32 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "5.04"
+                    }]
+                },
+                {
+                    "Name": "Dv3 series/DSv3 series",
+                    "Description": "Dv3 series/DSv3 series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "D16 v3/DS16 v3",
+                        "Description": "16 cores, 64 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "10.08"
+                    },
+                    {
+                        "Name": "D32 v3/DS32 v3",
+                        "Description": "32 cores, 128 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "20.15"
+                    },
+                    {
+                        "Name": "D64 v3/DS64 v3",
+                        "Description": "64 cores, 256 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "40.3"
+                    }]
+                },
+                {
+                    "Name": "D series/DS series",
+                    "Description": "D series/DS series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "D1/DS1",
+                        "Description": "CalculatorConst.D1SizeDesc",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.48"
+                    },
+                    {
+                        "Name": "D2/DS2",
+                        "Description": "CalculatorConst.D2SizeDesc",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1"
+                    },
+                    {
+                        "Name": "D3/DS3",
+                        "Description": "CalculatorConst.D3SizeDesc",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.01"
+                    },
+                    {
+                        "Name": "D4/DS4",
+                        "Description": "CalculatorConst.D4SizeDesc",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "4.05"
+                    }]
+                },
+                {
+                    "Name": "D series/DS series",
+                    "Description": "D series/DS series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "D11/DS11",
+                        "Description": "CalculatorConst.D11SizeDesc",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.7"
+                    },
+                    {
+                        "Name": "D12/DS12",
+                        "Description": "CalculatorConst.D12SizeDesc",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "3.41"
+                    },
+                    {
+                        "Name": "D13/DS13",
+                        "Description": "CalculatorConst.D13SizeDesc",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "6.83"
+                    },
+                    {
+                        "Name": "D14/DS14",
+                        "Description": "CalculatorConst.D14SizeDesc",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "13.67"
+                    }]
+                },
+                {
+                    "Name": "Ev3 series/ESv3 series",
+                    "Description": "Ev3 series/ESv3 series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "E2 v3/ES2 v3",
+                        "Description": "2 cores, 16 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.6"
+                    },
+                    {
+                        "Name": "E4 v3/ES4 v3",
+                        "Description": "4 cores, 32 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "3.21"
+                    },
+                    {
+                        "Name": "E8 v3/ES8 v3",
+                        "Description": "8 cores, 64 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "6.41"
+                    }]
+                },
+                {
+                    "Name": "Ev3 series/ESv3 series",
+                    "Description": "Ev3 series/ESv3 series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "E16 v3/ES16 v3",
+                        "Description": "16 cores, 128 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "12.84"
+                    },
+                    {
+                        "Name": "E32 v3/ES32 v3",
+                        "Description": "32 cores, 256 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "25.66"
+                    },
+                    {
+                        "Name": "E64 v3/ES64 v3",
+                        "Description": "64 cores, 432 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "51.33"
+                    }]
+                },
+                {
+                     "Name": "Dv2 series/DSv2 series",
+                     "Description": "Dv2 series/DSv2 series",
+                     "PricePeriod": "PricePeriodEnum.Hourly",
+                     "PriceUnit": "Machine",
+                     "MinUnit": "0",
+                     "MaxUnit": "100",
+                     "Sizes": [{
+                         "Name": "D1 v2/DS1 v2",
+                         "Description": "CalculatorConst.D1V2SizeDesc",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "0.53"
+                     },
+                     {
+                         "Name": "D2 v2/DS2 v2",
+                         "Description": "CalculatorConst.D2V2SizeDesc",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "1.11"
+                     },
+                     {
+                         "Name": "D2 v2/DS2 v2",
+                         "Description": "CalculatorConst.D3V2SizeDesc",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "2.22"
+                     },
+                     {
+                         "Name": "D4 v2/DS4 v2",
+                         "Description": "CalculatorConst.D4V2SizeDesc",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "4.45"
+                     }]
+                },
+                {
+                    "Name": "Dv2 series/DSv2 series",
+                    "Description": "Dv2 series/DSv2 series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name":"D5 v2/DS5 v2",
+                        "Description": "CalculatorConst.D5V2SizeDesc",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "8.56"
+                    },
+                    {
+                        "Name": "D11 v2/DS11 v2",
                         "Description": "CalculatorConst.D11V2SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.88"
                     },
                     {
-                        "Name": "CalculatorConst.D12V2Size",
+                        "Name": "D12 v2/DS12 v2",
                         "Description": "CalculatorConst.D12V2SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "3.76"
-                    },
-                    {
-                        "Name": "CalculatorConst.D13V2Size",
+                    }]
+                },
+                {
+                    "Name": "Dv2 series/DSv2 series",
+                    "Description": "Dv2 series/DSv2 series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "D13 v2/DS13 v2",
                         "Description": "CalculatorConst.D13V2SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "7.51"
                     },
                     {
-                        "Name": "CalculatorConst.D14V2Size",
+                        "Name": "D14 v2/DS14 v2",
                         "Description": "CalculatorConst.D14V2SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "15.03"
-                    }
-                    , {
-                        "Name": "CalculatorConst.D15V2Size",
+                    }, 
+                    {
+                        "Name": "D15 v2/DS15 v2",
                         "Description": "CalculatorConst.D15V2SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "18.79"
-                    }
-                    ]
+                    }]
                 },
                 {
-                "Name": "F Series",
-                "Description": "F Series",
-                "PricePeriod": "PricePeriodEnum.Hourly",
-                "PriceUnit": "Machine",
-                "MinUnit": "0",
-                "MaxUnit": "100",
-                "Sizes": [{
-                    "Name": "CalculatorConst.F1Size",
-                    "Description": "CalculatorConst.F1SizeDesc",
-                    "PriceTier": "PriceTierEnum.Fixed",
-                    "PricePerTier": "0.46"
-                },
-                {
-                    "Name": "CalculatorConst.F2Size",
-                    "Description": "CalculatorConst.F2SizeDesc",
-                    "PriceTier": "PriceTierEnum.Fixed",
-                    "PricePerTier": "0.97"
-                },
-                {
-                    "Name": "CalculatorConst.F4Size",
-                    "Description": "CalculatorConst.F4SizeDesc",
-                    "PriceTier": "PriceTierEnum.Fixed",
-                    "PricePerTier": "1.95"
-                },
-                {
-                    "Name": "CalculatorConst.F8Size",
-                    "Description": "CalculatorConst.F8SizeDesc",
-                    "PriceTier": "PriceTierEnum.Fixed",
-                    "PricePerTier": "3.91"
-                },
-                {
-                    "Name": "CalculatorConst.F16Size",
-                    "Description": "CalculatorConst.F16SizeDesc",
-                    "PriceTier": "PriceTierEnum.Fixed",
-                    "PricePerTier": "7.53"
+                    "Name": "F series/FS series",
+                    "Description": "F series/FS series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "F1/FS1",
+                        "Description": "CalculatorConst.F1SizeDesc",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.46"
+                    },
+                    {
+                        "Name": "F2/FS2",
+                        "Description": "CalculatorConst.F2SizeDesc",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.97"
+                    },
+                    {
+                        "Name": "F4/FS4",
+                        "Description": "CalculatorConst.F4SizeDesc",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.95"
+                    },
+                    {
+                        "Name": "F8/FS8",
+                        "Description": "CalculatorConst.F8SizeDesc",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "3.91"
+                    },
+                    {
+                        "Name": "F16/FS16",
+                        "Description": "CalculatorConst.F16SizeDesc",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "7.53"
+                    }]
                 }]
-            }]
             }]
         },
         "virtual-machines-linux": {
@@ -684,51 +855,109 @@
                     "MaxUnit": "100",
                     "Sizes": [{
                         "Name": "CalculatorConst.A0Size",
-                        "Description": "1 (shared) core, 0.75 GiB RAM, 20 GiB disk",
+                        "Description": "1 (shared) core, 0.75 GiB RAM, 20 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.13"
                     },
                     {
                         "Name": "CalculatorConst.A1Size",
-                        "Description": "1 core, 1.75 GiB RAM, 70 GiB disk",
+                        "Description": "1 core, 1.75 GiB RAM, 70 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.29"
                     },
                     {
                         "Name": "CalculatorConst.A2Size",
-                        "Description": "2 cores, 3.5 GiB RAM, 135 GiB disk",
+                        "Description": "2 cores, 3.5 GiB RAM, 135 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.75"
                     },
                     {
                         "Name": "CalculatorConst.A3Size",
-                        "Description": "4 cores, 7 GiB RAM, 285 GiB disk",
+                        "Description": "4 core, 7 GiB RAM, 285 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.51"
                     },
                     {
                         "Name": "CalculatorConst.A4Size",
-                        "Description": "8 cores, 14 GiB RAM, 605 GiB disk",
+                        "Description": "8 cores, 14 GiB RAM, 605 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "3.01"
                     },
                     {
                         "Name": "CalculatorConst.A5Size",
-                        "Description": "2 cores, 14 GiB RAM, 135 GiB disk",
+                        "Description": "2 cores, 14 GiB RAM, 135 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.62"
                     },
                     {
                         "Name": "CalculatorConst.A6Size",
-                        "Description": "4 cores, 28 GiB RAM, 285 GiB disk",
+                        "Description": "4 cores, 28 GiB RAM, 285 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "3.25"
                     },
                     {
                         "Name": "CalculatorConst.A7Size",
-                        "Description": "8 cores, 56 GiB RAM, 605 GiB disk",
+                        "Description": "8 cores, 56 GiB RAM, 605 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "6.49"
+                    }]
+                },
+                {
+                    "Name": "B series/BS series",
+                    "Description": "B series/BS series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "B1/BS1",
+                        "Description": "1 core, 1 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.012"
+                    },
+                    {
+                        "Name": "B2/BS2",
+                        "Description": "2 cores, 4 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.048"
+                    },
+                    {
+                        "Name": "B1m/BS1m",
+                        "Description": "1 core, 2 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.024"
+                    }]
+                },
+                {
+                    "Name": "B series/BS series",
+                    "Description": "B series/BS series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "B1m/BS1m",
+                        "Description": "1 core, 2 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.024"
+                    },
+                    {
+                        "Name": "B2m/BS2m",
+                        "Description": "2 cores, 8 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.122"
+                    },
+                    {
+                        "Name": "B4m/BS4m",
+                        "Description": "4 cores, 16 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.23"
+                    },
+                    {
+                        "Name": "B8m/BS8m",
+                        "Description": "8 cores, 32 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.376"
                     }]
                 },
                 {
@@ -740,31 +969,31 @@
                     "MaxUnit": "100",
                     "Sizes": [{
                         "Name": "CalculatorConst.A1v2Size",
-                        "Description": "1 core, 2 GiB RAM, 10 GiB disk",
+                        "Description": "1 core, 2 GiB RAM, 10 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.4370"
                     },
                     {
                         "Name": "CalculatorConst.A2v2Size",
-                        "Description": "2 cores, 4 GiB RAM, 20 GiB disk",
+                        "Description": "2 cores, 4 GiB RAM, 20 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.8625"
                     },
                     {
                         "Name": "CalculatorConst.A4v2Size",
-                        "Description": "4 cores, 8 GiB RAM, 40 GiB disk",
+                        "Description": "4 cores, 8 GiB RAM, 40 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.7365"
                     },
                     {
                         "Name": "CalculatorConst.A8v2Size",
-                        "Description": "8 cores, 16 GiB RAM, 80 GiB disk",
+                        "Description": "8 cores, 16 GiB RAM, 80 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "3.4615"
                     }]
                 },
                 {
-                    "Name": "",
+                    "Name": "Av2 Series",
                     "Description": "Av2 Series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
                     "PriceUnit": "Machine",
@@ -772,189 +1001,310 @@
                     "MaxUnit": "100",
                     "Sizes": [{
                         "Name": "CalculatorConst.A2mv2Size",
-                        "Description": "2 cores, 16 GiB RAM, 20 GiB disk",
+                        "Description": "2 cores, 16 GiB RAM, 20 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.8630"
                     },
                     {
                         "Name": "CalculatorConst.A4mv2Size",
-                        "Description": "4 cores, 32 GiB RAM, 40 GiB disk",
+                        "Description": "4 cores, 32 GiB RAM, 40 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "3.7338"
                     },
                     {
                         "Name": "CalculatorConst.A8mv2Size",
-                        "Description": "8 cores, 64 GiB RAM, 80 GiB disk",
+                        "Description": "8 cores, 64 GiB RAM, 80 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "7.4635"
                     }]
                 },
-             {
-                    "Name": "D Series",
-                    "Description": "D Series",
+
+                {
+                    "Name": "Dv3 series/DSv3 series",
+                    "Description": "Dv3 series/DSv3 series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
                     "PriceUnit": "Machine",
                     "MinUnit": "0",
                     "MaxUnit": "100",
                     "Sizes": [{
-                        "Name": "CalculatorConst.D1Size",
+                        "Name": "D2 v3/DS2 v3",
+                        "Description": "2 cores, 8 GiB RAM, 50 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.14"
+                    },
+                    {
+                        "Name": "D4 v3/DS4 v3",
+                        "Description": "4 cores, 16 GiB RAM, 100 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.29"
+                    },
+                    {
+                        "Name": "D8 v3/DS8 v3",
+                        "Description": "8 cores, 32 GiB RAM, 200 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "4.58"
+                    }]
+                },
+                {
+                    "Name": "Dv3 series/DSv3 series",
+                    "Description": "Dv3 series/DSv3 series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "D16 v3/DS16 v3",
+                        "Description": "16 cores, 64 GiB RAM, 400 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "9.16"
+                    },
+                    {
+                        "Name": "D32 v3/DS32 v3",
+                        "Description": "32 cores, 128 GiB RAM, 800 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "18.32"
+                    },
+                    {
+                        "Name": "D64 v3/DS64 v3",
+                        "Description": "64 cores, 256 GiB RAM, 1,600 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "36.64"
+                    }]
+                },
+                {
+                    "Name": "D series/DS series",
+                    "Description": "D series/DS series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "D1/DS1",
                         "Description": "CalculatorConst.D1SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.44"
                     },
                     {
-                        "Name": "CalculatorConst.D2Size",
+                        "Name": "D2/DS2",
                         "Description": "CalculatorConst.D2SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.92"
                     },
                     {
-                        "Name": "CalculatorConst.D3Size",
+                        "Name": "D3/DS3",
                         "Description": "CalculatorConst.D3SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.85"
                     },
                     {
-                        "Name": "CalculatorConst.D4Size",
+                        "Name": "D4/DS4",
                         "Description": "CalculatorConst.D4SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "3.73"
-                    },
-                    {
-                        "Name": "CalculatorConst.D11Size",
+                    }]
+                },
+                {
+                    "Name": "D series/DS series",
+                    "Description": "D series/DS series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "D11/DS11",
                         "Description": "CalculatorConst.D11SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.57"
                     },
                     {
-                        "Name": "CalculatorConst.D12Size",
+                        "Name": "D12/DS12",
                         "Description": "CalculatorConst.D12SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "3.14"
                     },
                     {
-                        "Name": "CalculatorConst.D13Size",
+                        "Name": "D13/DS13",
                         "Description": "CalculatorConst.D13SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "6.29"
                     },
                     {
-                        "Name": "CalculatorConst.D14Size",
+                        "Name": "D14/DS14",
                         "Description": "CalculatorConst.D14SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "12.58"
                     }]
                 },
-             {
-                 "Name": " ",
-                 "Description": "D-2v Series",
-                 "PricePeriod": "PricePeriodEnum.Hourly",
-                 "PriceUnit": "Machine",
-                 "MinUnit": "0",
-                 "MaxUnit": "100",
-                 "Sizes": [{
-                     "Name": "CalculatorConst.D1V2Size",
-                     "Description": "CalculatorConst.D1V2SizeDesc",
-                     "PriceTier": "PriceTierEnum.Fixed",
-                     "PricePerTier": "0.49"
-                 },
-                 {
-                     "Name": "CalculatorConst.D2V2Size",
-                     "Description": "CalculatorConst.D2V2SizeDesc",
-                     "PriceTier": "PriceTierEnum.Fixed",
-                     "PricePerTier": "1.02"
-                 },
-                 {
-                     "Name": "CalculatorConst.D3V2Size",
-                     "Description": "CalculatorConst.D3V2SizeDesc",
-                     "PriceTier": "PriceTierEnum.Fixed",
-                     "PricePerTier": "2.04"
-                 },
-                 {
-                     "Name": "CalculatorConst.D4V2Size",
-                     "Description": "CalculatorConst.D4V2SizeDesc",
-                     "PriceTier": "PriceTierEnum.Fixed",
-                     "PricePerTier": "4.1"
-                 },
-                 {
-                     "Name": "CalculatorConst.D5V2Size",
-                     "Description": "CalculatorConst.D5V2SizeDesc",
-                     "PriceTier": "PriceTierEnum.Fixed",
-                     "PricePerTier": "8.17"
-                 }]
-             },
                 {
-                    "Name": "Dv2 Series",
-                    "Description": "D-2v Series",
+                    "Name": "Ev3 series/ESv3 series",
+                    "Description": "Ev3 series/ESv3 series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
                     "PriceUnit": "Machine",
                     "MinUnit": "0",
                     "MaxUnit": "100",
                     "Sizes": [{
-                        "Name": "CalculatorConst.D11V2Size",
+                        "Name": "E2 v3/ES2 v3",
+                        "Description": "2 cores, 16 GiB RAM, 50 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.45"
+                    },
+                    {
+                        "Name": "E4 v3/ES4 v3",
+                        "Description": "4 cores, 32 GiB RAM, 100 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.92"
+                    },
+                    {
+                        "Name": "E8 v3/ES8 v3",
+                        "Description": "8 cores, 64 GiB RAM, 200 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "5.83"
+                    }]
+                },
+                {
+                    "Name": "Ev3 series/ESv3 series",
+                    "Description": "Ev3 series/ESv3 series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "E16 v3/ES16 v3",
+                        "Description": "16 cores, 128 GiB RAM, 400 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "11.67"
+                    },
+                    {
+                        "Name": "E32 v3/ES32 v3",
+                        "Description": "32 cores, 256 GiB RAM, 800 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "23.33"
+                    },
+                    {
+                        "Name": "E64 v3/ES64 v3",
+                        "Description": "64 cores, 432 GiB RAM, 1,600 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "46.66"
+                    }]
+                },
+                {
+                     "Name": "Dv2 series/DSv2 series",
+                     "Description": "Dv2 series/DSv2 series",
+                     "PricePeriod": "PricePeriodEnum.Hourly",
+                     "PriceUnit": "Machine",
+                     "MinUnit": "0",
+                     "MaxUnit": "100",
+                     "Sizes": [{
+                         "Name": "D1 v2/DS1 v2",
+                         "Description": "CalculatorConst.D1V2SizeDesc",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "0.49"
+                     },
+                     {
+                         "Name": "D2 v2/DS2 v2",
+                         "Description": "CalculatorConst.D2V2SizeDesc",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "1.02"
+                     },
+                     {
+                         "Name": "D3 v2/DS3 v2",
+                         "Description": "CalculatorConst.D3V2SizeDesc",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "2.04"
+                     },
+                     {
+                         "Name": "D4 v2/DS4 v2",
+                         "Description": "CalculatorConst.D4V2SizeDesc",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "4.1"
+                     }]
+                },
+                {
+                    "Name": "Dv2 series/DSv2 series",
+                    "Description": "Dv2 series/DSv2 series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [
+                     {
+                         "Name": "D5 v2/DS5 v2",
+                         "Description": "CalculatorConst.D5V2SizeDesc",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "8.17"
+                     },
+                     {
+                        "Name": "D11 v2/DS11 v2",
                         "Description": "CalculatorConst.D11V2SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.73"
                     },
                     {
-                        "Name": "CalculatorConst.D12V2Size",
+                        "Name": "D12 v2/DS12 v2",
                         "Description": "CalculatorConst.D12V2SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "3.46"
-                    },
-                    {
-                        "Name": "CalculatorConst.D13V2Size",
+                    }]
+                },
+                {
+                     "Name": "Dv2 series/DSv2 series ",
+                     "Description": "Dv2 series/DSv2 series",
+                     "PricePeriod": "PricePeriodEnum.Hourly",
+                     "PriceUnit": "Machine",
+                     "MinUnit": "0",
+                     "MaxUnit": "100",
+                     "Sizes": [{
+                        "Name": "D13 v2/DS13 v2",
                         "Description": "CalculatorConst.D13V2SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "6.92"
                     },
                     {
-                        "Name": "CalculatorConst.D14V2Size",
+                        "Name": "D14 v2/DS14 v2",
                         "Description": "CalculatorConst.D14V2SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "13.83"
-                    }
-                    , {
-                        "Name": "CalculatorConst.D15V2Size",
+                    }, 
+                    {
+                        "Name": "D15 v2/DS15 v2",
                         "Description": "CalculatorConst.D15V2SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "17.29"
-                    }
-                    ]
+                    }]
                 },
                 {
-                    "Name": "F Series",
-                    "Description": "F Series",
+                    "Name": "F series/FS series",
+                    "Description": "F series/FS series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
                     "PriceUnit": "Machine",
                     "MinUnit": "0",
                     "MaxUnit": "100",
                     "Sizes": [{
-                        "Name": "CalculatorConst.F1Size",
+                        "Name": "F1/FS1",
                         "Description": "CalculatorConst.F1SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.43"
                     },
                     {
-                        "Name": "CalculatorConst.F2Size",
+                        "Name": "F2/FS2",
                         "Description": "CalculatorConst.F2SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.9"
                     },
                     {
-                        "Name": "CalculatorConst.F4Size",
+                        "Name": "F4/FS4",
                         "Description": "CalculatorConst.F4SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.8"
                     },
                     {
-                        "Name": "CalculatorConst.F8Size",
+                        "Name": "F8/FS8",
                         "Description": "CalculatorConst.F8SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "3.61"
-                    }
-                    , {
-                        "Name": "CalculatorConst.F16Size",
+                    },
+                    {
+                        "Name": "F16/FS16",
                         "Description": "CalculatorConst.F16SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "7.19"
@@ -10831,37 +11181,6 @@
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "31.65"
                     }]
-                }, {
-                    "Name": "LRS Block Blob",
-                    "PricePeriod": "PricePeriodEnum.Monthly",
-                    "PriceUnit": "Each",
-                    "MinUnit": "0",
-                    "MaxUnit": "20",
-                    "Sizes": [{
-                        "Name": "default",
-                        "Description": "default",
-                        "PriceTier": "0,1024,1025,51200,51201,512000",
-                        "PricePerTier": "0.41,0.37,0.33",
-                        "MinUnit": "0",
-                        "MaxUnit": "100000",
-                        "PriceUnit": "GB"
-                    }]
-                },
-                {
-                    "Name": "GRS Block Blob",
-                    "PricePeriod": "PricePeriodEnum.Monthly",
-                    "PriceUnit": "Each",
-                    "MinUnit": "0",
-                    "MaxUnit": "20",
-                    "Sizes": [{
-                        "Name": "default",
-                        "Description": "default",
-                        "PriceTier": "0,1024,1025,51200,51201,512000",
-                        "PricePerTier": "0.82,0.74,0.66",
-                        "MinUnit": "0",
-                        "MaxUnit": "100000",
-                        "PriceUnit": "GB"
-                    }]
                 }]
             },
             {
@@ -10878,39 +11197,7 @@
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "63.29"
                     }]
-                }, {
-                    "Name": "LRS Block Blob",
-                    "PricePeriod": "PricePeriodEnum.Monthly",
-                    "PriceUnit": "Each",
-                    "MinUnit": "0",
-                    "MaxUnit": "20",
-                    "Sizes": [{
-                        "Name": "default",
-                        "Description": "default",
-                        "PriceTier": "0,1024,1025,51200,51201,512000",
-                        "PricePerTier": "0.41,0.37,0.33",
-                        "MinUnit": "0",
-                        "MaxUnit": "100000",
-                        "PriceUnit": "GB"
-                    }]
-                },
-                {
-                    "Name": "GRS Block Blob",
-                    "PricePeriod": "PricePeriodEnum.Monthly",
-                    "PriceUnit": "Each",
-                    "MinUnit": "0",
-                    "MaxUnit": "20",
-                    "Sizes": [{
-                        "Name": "default",
-                        "Description": "default",
-                        "PriceTier": "0,1024,1025,51200,51201,512000",
-                        "PricePerTier": "0.82,0.74,0.66",
-                        "MinUnit": "0",
-                        "MaxUnit": "100000",
-                        "PriceUnit": "GB"
-                    }]
-                }
-                ]
+                }]
             },
             {
                 "Name": "More than 500 GB",
@@ -10926,40 +11213,7 @@
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "63.29"
                     }]
-                },
-              {
-                  "Name": "LRS Block Blob",
-                  "PricePeriod": "PricePeriodEnum.Monthly",
-                  "PriceUnit": "Each",
-                  "MinUnit": "0",
-                  "MaxUnit": "20",
-                  "Sizes": [{
-                      "Name": "default",
-                      "Description": "default",
-                      "PriceTier": "0,1024,1025,51200,51201,512000",
-                      "PricePerTier": "0.41,0.37,0.33",
-                      "MinUnit": "0",
-                      "MaxUnit": "100000",
-                      "PriceUnit": "GB"
-                  }]
-              },
-                {
-                    "Name": "GRS Block Blob",
-                    "PricePeriod": "PricePeriodEnum.Monthly",
-                    "PriceUnit": "Each",
-                    "MinUnit": "0",
-                    "MaxUnit": "20",
-                    "Sizes": [{
-                        "Name": "default",
-                        "Description": "default",
-                        "PriceTier": "0,1024,1025,51200,51201,512000",
-                        "PricePerTier": "0.82,0.74,0.66",
-                        "MinUnit": "0",
-                        "MaxUnit": "100000",
-                        "PriceUnit": "GB"
-                    }]
-                }
-                ]
+                }]
             }]
         },
          "backup-backup-storage": {
@@ -10976,7 +11230,7 @@
                         "Name": "default",
                         "Description": "default",
                         "PriceTier": "0,512000",
-                        "PricePerTier": "0.36",
+                        "PricePerTier": "0.18",
                         "MinUnit": "0",
                         "MaxUnit": "100000",
                         "PriceUnit": "GB"
@@ -10992,7 +11246,7 @@
                         "Name": "default",
                         "Description": "default",
                         "PriceTier": "0,512000",
-                        "PricePerTier": "0.18",
+                        "PricePerTier": "0.36",
                         "MinUnit": "0",
                         "MaxUnit": "100000",
                         "PriceUnit": "GB"
@@ -12725,9 +12979,9 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "1,000,000 free standard API calls included.",
+                        "Description": "1,000,000 free standard API calls included",
                         "PriceTier": "0,5000",
-                        "PricePerTier": "3.0528",
+                        "PricePerTier": "0.101",
                         "MinUnit": "0",
                         "MaxUnit": "5000",
                         "PriceUnit": "Other standard API calls (/1,000)"
@@ -12766,6 +13020,246 @@
                         "MinUnit": "0",
                         "MaxUnit": "5000",
                         "PriceUnit": "Other webhooks (/1,000,000)"
+                    }]
+                },
+                {
+                    "Name": "Text message - China (+86)",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "0.219165",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "per text message"
+                    }]
+                },
+                {
+                    "Name": "Text message - Hong Kong SAR, China (+852)",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "Hong Kong SAR, China (+852)",
+                        "Description": "",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "0.179988",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "per text message"
+                    }]
+                },
+                {
+                    "Name": "Text message - Australia (+61)",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "0.36252",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "per text message"
+                    }]
+                },
+                {
+                    "Name": "Text message - Brazil (+55)",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "0.148188",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "per text message"
+                    }]
+                },    
+                {
+                    "Name": "Text message - France (+33)",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "0.34344",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "per text message"
+                    }]
+                },
+                {
+                    "Name": "Text message - Germany (+49)",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "0.634855",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "per text message"
+                    }]
+                },
+                {
+                    "Name": "Text message - India (+91)",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "0.026711",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "per text message"
+                    }]
+                },
+                {
+                    "Name": "Text message - Ireland (+353)",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "0.251856",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "per text message"
+                    }]
+                },
+                {
+                    "Name": "Text message - Japan (+81)",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "0.29256",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "per text message"
+                    }]
+                },
+                {
+                    "Name": "Text message - Netherlands (+31)",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "0.8586",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "per text message"
+                    }]
+                },
+                {
+                    "Name": "Text message - Singapore (+65)",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "0.197605",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "per text message"
+                    }]
+                },
+                {
+                    "Name": "Text message - South Africa (+27)",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "0.158491",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "per text message"
+                    }]
+                },
+                {
+                    "Name": "Text message - South Korea (+82)",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "0.29892",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "per text message"
+                    }]
+                },
+                {
+                    "Name": "Text message - United Kingdom (+44)",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "0.22896",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "per text message"
+                    }]
+                },
+                {
+                    "Name": "Text message - United States (+1)",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "",
+                        "PriceTier": "0,100,101,5000",
+                        "PricePerTier": "0,0.065635",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "per text message"
                     }]
                 }]
             }]
