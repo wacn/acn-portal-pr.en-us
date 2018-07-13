@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2014-11-11T02:00:53" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-06-27T10:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
             <div class="more-detail">
             	 <h1>Important Notice</h1>
+            	 <h3>June 2018</h3>
+            	 <ul>
+            	 	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-june-new-region"><span>June 27</span>New Azure data center (region) is officially opened <i class="icon icon-update"></i></a>
+							<section>
+								<p>Two new data centers for Microsoft Azure operated by 21Vianet (located in two new regions) have officially opened: China East 2 and China North 2. Both new and existing customers are free to use the new data center resources. As the first international public cloud technology platform to operate commercially in China, we have not only tripled the number of data centers that we operate, but also accelerated the deployment of the latest Azure services, to provide the China market with a diverse range of virtual machines instances, faster data processing capabilities, more advanced AI (artificial intelligence), more data connection options, and more convenient and efficient PaaS (Platform as a Service) services. For details, visit the blog entry <a href="/blog/2018/06/27/New-regions-now-available-in-China" id="service-fabric_year_2018-june_documentation-new-region">New China Azure data centers (regions) are officially launched</a>.</p>
+							</section>
+						</div>
+					</li>
+            	 </ul>
             	 <h3>March 2018</h3>
                 <ul>
                 	<li>
@@ -104,12 +116,38 @@
                 </ul> -->
                 <h1>Product Update</h1>
                 <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a>
-                <h3>May 2018</h3>
+                <h3>June 2018</h3>
                 <ul>
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-june-media-services"><span>6/1</span>Azure Media Services Premium encoder will be officially released <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-june-azure-policy"><span>June 25</span>Azure Policy officially released <i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Policy is a new service that allows customers to assess and implement management standards on the enterprise scale throughout the entire Azure environment, and achieve appropriate control and compatibility. Azure Policy can evaluate Azure resources that breach policies and run compliance audits for every policy in a subscription. The goal of Azure Policy is to manage the largest possible Azure environment, in order to provide consistent standards for all of a department or company’s Azure subscriptions.</p>
+								
+								<p>For more information about this service, visit the <a href="/home/features/azure-policy/" id="service-fabric_year_2018-june_features-policy">Azure Policy Service Functions</a> page. For more detailed information, visit the <a href="//docs.azure.cn/zh-cn/azure-policy/" id="service-fabric_year_2018-june_documentation-policy">Azure Policy Documents</a> page.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-june-advisor"><span>June 11</span>Azure Advisor preview version released <i class="icon icon-update"></i></a>
+							<section>
+								<p>The preview version of Azure Advisor has been released in China. Azure Advisor is a free product that helps you to optimize Azure deployment to follow best practices. It analyzes your resource configuration and usage telemetry, and then recommends solutions that help you to increase resource cost-effectiveness, performance, and availability. Azure Advisor allows you to obtain the following workable recommendations:</p>
+								<ul>
+									<li>High availability: Safeguards and improves the continuity of business-critical apps;</li>
+									<li>Performance: Increases the speed of apps;</li>
+									<li>Cost: Optimizes and reduces overall Azure expenditure.</li>
+								</ul>
+								<p>For more information about this service, visit the <a href="/home/features/advisor/" id="service-fabric_year_2018-june_features-advisor">Azure Advisor Service Functions</a> page. For more detailed information, visit the <a href="//docs.azure.cn/zh-cn/advisor/" id="service-fabric_year_2018-june_documentation-advisor">Azure Advisor Documents</a> page.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-june-media-services"><span>June 1</span>Azure Media Services Premium encoder will be officially released <i class="icon icon-update"></i></a>
 							<section>
 								<p>In addition to supporting 4K AVC, multiple language audio, hidden captions, reversed interlaced scanning, and color changes, Azure Media Services Premium Encoder still provides new Premium Encoder features, including support for MXF and DVCPRO formats. These features can be accessed through the Azure Media Services Explorer desktop tool.</p>
 								
@@ -123,7 +161,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-may_azure-iot-hub"><span>May 15</span> Azure IoT Hub Basic tier will be officially released <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-may_azure-iot-hub"><span>May 15</span>Azure IoT Hub Basic tier officially released </a>
 							<section>
 								<p>Azure IoT Hub Basic tier is now officially released. it is only suitable for simple (from the device to the cloud) IoT solutions and this Basic tier is at a better price. Each IoT Hub tier provides three sizes, dependent on daily capacity for data throughput. These sizes are labeled 1, 2 or 3. Grade 1 can handle 400,000 messages per unit per day. Grade 3 handles 300 million messages per unit per day. After an IoT Hub is created, you can upgrade from the Basic tier to the Standard tier with no interruption in operations.</p>
 								
@@ -134,7 +172,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-may_azure-functions"><span>May 10</span> Azure Functions managed in the App Service Plan was officially launched <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-may_azure-functions"><span>May 10</span>Azure Functions managed in the App Service Plan is officially launched </a>
 							<section>
 								<p>We are very happy to announce the official release in China of Azure Functions managed in the <a href="//docs.azure.cn/zh-cn/app-service/azure-web-sites-web-hosting-plans-in-depth-overview" id="service-fabric_year_2018-may-10_documentation-paa-service">App Service Plan</a>. Azure Functions allows you to run code on demand, without configuring or managing infrastructure. Using Azure Functions, you can:</p>
 								<ul>
@@ -168,7 +206,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-may_sql-database-hybrid-benefit"><span>5/4</span>Azure SQL Database released a new purchasing model (preview)</a>
+							<a href="#" id="service-fabric_year_2018-may_sql-database-hybrid-benefit"><span>May 4</span>Azure SQL Database released a new purchasing model (preview)</a>
 							<section>
 								<p>We are very happy to announce that a new purchasing model has been released for Azure SQL Database elastic pools and single databases - a vCore-based purchasing model (preview). The new model is different from the existing DTU-based model and is designed to give you flexibility, control, transparency, and an easier way to compare to on-premises workloads. It allows you to scale compute, storage, and IO independently based upon your workload needs. The vCore model is also eligible for savings of up to 30% with Azure Hybrid Benefit for SQL Server.</p>
 								<p>For more information on pricing, please visit the <a href="/pricing/details/sql-database/" id="service-fabric_year_2018-may-4_pricing-sql-database"> SQL Database Pricing Details </a> page. To learn more about Azure Hybrid Benefit, please visit the <a href="/pricing/hybrid-benefit/" id="service-fabric_year_2018-may-4_hybrid-benefit">Azure Hybrid Benefit</a> page. For more information on this service and how these features are deployed, please visit the <a href="/home/features/sql-database" id="service-fabric_year_2018-may-4_sql-database">SQL Database Service Features</a> page and the <a href="//docs.azure.cn/zh-cn/sql-database/sql-database-service-tiers#vcore-based-purchasing-model-preview" id="service-fabric_year_2018-may-4_documentation-sql-database">SQL Database Documentation</a> page.</p>
@@ -265,7 +303,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-april_ccs"><span>April 02 </span>Official release of Cloud Connection Service preview version</a>
+							<a href="#" id="service-fabric_year_2018-april_ccs"><span>April 2 </span>Official release of Cloud Connection Service preview version</a>
 							<section>
 								<p>Customers can use the physical line and network support provided by Cloud Connection Service to easily connect to local data centers and Azure data centers, and deploy flexible, reliable, and secure hybrid cloud scenarios to meet different business needs, including business continuity, disaster recovery, and key business support. For more information about this service and its pricing, please visit the <a href="/home/features/ccs/" id="service-fabric_year_2018-March_feature-ccs">Cloud Connection Service Features</a> page and the <a href="/pricing/details/ccs/" id="service-fabric_year_2018-March_pricing-ccs">Cloud Connection Service Pricing Details</a> page. For more details, please refer to the <a href="//docs.azure.cn/zh-cn/articles/cloud-connection-service/cloud-connection-service-quick-start/">Cloud Connection Service Introduction</a> documentation page.</p>
 							</section>
@@ -651,7 +689,7 @@
 							<a href="#" id="service-fabric_year_2017-september_apim"><span>September 7</span> Azure Launches New Performance Level of SQL Database and Additional Storage Preview Version</a>
 							<section>
 								<p>S4, S6, S7, S9, and S12 are five new standard performance levels recently launched. At present, they remain at the preview status, and are very suitable for the CPU-intensive workloads that don’t require IO performance (provided by the higher level).</p>
-								<p>The new additional storage allows the user to purchase the additional storage without adding DTU or eDTU. Now, the user can purchase S3-S12, P1-P6 and PRS1-PRS6 databases with a size of up to 1&#160;TB, a standard elastic pool with a size of up to 4&#160;TB, and a small eDTU Premium pool with a size of up to 1 TB.</p>
+								<p>The new additional storage allows the user to purchase the additional storage without adding DTU or eDTU. Now, the user can purchase S3-S12, P1-P6 and PRS1-PRS6 databases with a size of up to 1 TB, a standard elastic pool with a size of up to 4 TB, and a small eDTU Premium pool with a size of up to 1 TB.</p>
 								<p>For more information about new performance levels and additional storage, please visit the <a href="/home/features/sql-database/" id="service-fabric_year_2017-September_sql-database">SQL Database Features</a> page and the <a href="/pricing/details/sql-database/" id="service-fabric_year_2017-September_pricing-sql-database">SQL Database Pricing Details</a> page.</p>
 								
 							</section>
@@ -713,9 +751,9 @@
 								<p>Azure has formally launched the Managed Disks Service in the China region. Azure Managed Disks manages the <a href="https://docs.azure.cn/zh-cn/storage/storage-introduction" id="service-fabric_year_2017-august_storage-introduction">Storage accounts</a> associated with the Virtual Machine disk to simplify the disk management of Azure IaaS Virtual Machines. You only need to designate the type and size of the required disk, and Azure will create and manage the disk for you. You can use more than one Managed Disk for every Virtual Machine. The Managed Disks Service provides two persistent storage options: Premium Managed Disks and Standard Managed Disks.</p>
 								<p>Disk Storage provides high-security persistent disk options to support Virtual Machines. Premium Disk Storage (SSD) is the most suitable for I/O-intensive applications, and low latency and high throughput are key features of the application. Now, in the China region, Azure has introduced two large-volume disks with the sizes of P40 (2 TB) and P50 (4 TB) for the Managed and Non-managed Premium Disks. Premium Disk has increased the maximum IPOS to 7,500 and the bandwidth to 250 MBps.</p>
 
-								<p>As far as testing is concerned, Standard Disk Storage (HDD) helps you cut down on costs during rapid vertical scaling. In the China region, we also provide two new options, S40 (2 TB) and S50 (4 TB), for the Standard Managed Disk service. For the Standard Non-managed Disk, we can create a disk with a maximum size of 4.095 TB. Standard disks of all sizes will provide an IOPS as high as 500 and a bandwidth of 60&#160;MBps.</p>
+								<p>As far as testing is concerned, Standard Disk Storage (HDD) helps you cut down on costs during rapid vertical scaling. In the China region, we also provide two new options, S40 (2 TB) and S50 (4 TB), for the Standard Managed Disk service. For the Standard Non-managed Disk, we can create a disk with a maximum size of 4.095 TB. Standard disks of all sizes will provide an IOPS as high as 500 and a bandwidth of 60 MBps.</p>
 
-								<p>When you only have a small disk, such as the operating system disk of a Linux Virtual Machine, but need to obtain consistent disk performance, you can use these new disks of varying sizes to reduce costs. The P4 Premium Managed Disks provide an IOPS of up to 120 and a disk throughput of 25&#160;MBps, while these figures for the P6 Premium Managed Disk are 240 and 50&#160;MBps respectively.</p>
+								<p>When you only have a small disk, such as the operating system disk of a Linux Virtual Machine, but need to obtain consistent disk performance, you can use these new disks of varying sizes to reduce costs. The P4 Premium Managed Disks provide an IOPS of up to 120 and a disk throughput of 25 MBps, while these figures for the P6 Premium Managed Disk are 240 and 50 MBps respectively.</p>
 								<p>For more details, please visit <a href="https://docs.azure.cn/zh-cn/virtual-machines/windows/migrate-to-managed-disks">Migrate Azure VM to Azure Managed Disks</a>. To learn more about the services and pricing, please visit the <a href="/home/features/storage" id="service-fabric_year_2017-august_storage">Storage Disk Features</a> page and the <a href="/pricing/details/storage#tabContent3-1" id="service-fabric_year_2017-august_storage-detail">Hosting Disk Pricing</a> page.</p>
 							</section>
 						</div>
@@ -780,9 +818,9 @@
 							<section>
 								<p>When using Azure Traffic Manager, you can employ the Rapid Failover service to realize more features and optimize and customize failover behaviors. The Rapid Failover feature has now been formally released. You can choose to redirect users even faster to keep yourself away from abnormal terminals. Specifically now you can:</p>
 								<ol>
-									<li>Define a 10&#160;second interval for the Traffic Manager to check the working status of the terminal (the interval is shorter than the present 30&#160;seconds);</li>
+									<li>Define a 10 second interval for the Traffic Manager to check the working status of the terminal (the interval is shorter than the present 30 seconds);</li>
 									<li>Configure the continuous failure counter (which falls between 1 and 10) before the terminal is marked as abnormal;</li>
-									<li>Configure the timeout interval for every detection attempt (if the detection interval is 10&#160;seconds, the timeout interval will fall between 5&#160;seconds and 9&#160;seconds; if the detection interval is 30&#160;seconds, the timeout interval will fall between 5&#160;seconds to 10&#160;seconds);</li>
+									<li>Configure the timeout interval for every detection attempt (if the detection interval is 10 seconds, the timeout interval will fall between 5 seconds and 9 seconds; if the detection interval is 30 seconds, the timeout interval will fall between 5 seconds to 10 seconds);</li>
 									<li>Set the time-to-live (TTL) response.</li>
 								</ol>
 								<p>When the aforementioned configurable settings are used together, Traffic Manager can divert traffic from a degraded terminal 90% faster than the standard settings. You can use the Azure portal, PowerShell, CLI, REST API, or SDK to set the Rapid Failover.</p>
@@ -902,9 +940,11 @@
 				</li>-->
 				
 				</ul>
+				
+
 
 				
-				
+  
             </div>                      
         </div>
         <a id="_whatisnew-linkbutton" href="/what-is-new/archives/2017/" class="single-link h2-link">View Historical Announcements<i class="icon icon-arrow-right-thin"></i></a>
