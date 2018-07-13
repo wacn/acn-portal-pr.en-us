@@ -11,7 +11,10 @@
 			"title": "Product overview"}, 
 			{"link": "/pricing/details/batch/", 
 			"id": "leftnav_product_batch_pricing", 
-			"title": "Pricing details"},
+			"title": "Pricing"},
+			{"link": "/pricing/calculator/batch/", 
+			"id": "leftnav_product_batch_calculator", 
+			"title": "Pricing calculator"},
 			{"link": "https://docs.azure.cn/batch/", 
 			"id": "leftnav_product_batch_documentation", 
 			"title": "Documentation"}
