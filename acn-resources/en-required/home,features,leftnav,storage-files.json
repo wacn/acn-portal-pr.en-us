@@ -1,4 +1,4 @@
-{"service": "Storage - FIle Storage<li style='color:#00a3d9;margin-top:6px;list-style:none;'><a href='/home/features/storage/' style='color:#00a3d9;'>Check out other storage options</li>", 
+{"service": "<a href='/home/features/storage/' style='color:#00a3d9;'>Storage</a> <li style='margin-top:6px;list-style:none;'>File Storage</li>", 
 "id": "leftnav_product_storage_files", 
 "navigation": 
 [
@@ -27,21 +27,24 @@
 	"id": "leftnav_product_storage_related", 
 	"articles": 
 		[
-			{"link": "/home/features/sql-database/", 
-			"id": "leftnav_product_sql-database_function", 
-			"title": "SQL Database"}, 
-			{"link": "/home/features/virtual-machines/", 
-			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual Machines"}, 
-			{"link": "/home/features/virtual-network/", 
-			"id": "leftnav_product_networking_function", 
-			"title": "Virtual Network"},
-			{"link": "/home/features/backup/", 
-			"id": "leftnav_product_back-up_function", 
-			"title": "Backup"}
+			{"link": "/home/features/storage/blobs/", 
+			"id": "leftnav_product_sstorage_blobs", 
+			"title": "Block Blob"}, 
+			{"link": "/home/features/storage/disks/", 
+			"id": "leftnav_product_sstorage_disks", 
+			"title": "Disk Storage"}, 
+			{"link": "/home/features/storage/managed-disks/", 
+			"id": "leftnav_product_storage-managed-disks", 
+			"title": "Managed Disk"}, 
+			{"link": "/home/features/storage/queues/", 
+			"id": "leftnav_product_storage-queues", 
+			"title": "Queue"},
+			{"link": "/home/features/storage/tables/", 
+			"id": "leftnav_product_storage-tables", 
+			"title": "Table Storage"}
 		]
 	}, 
-	{"group": "Related documentation and links", 
+	{"group": "Related Documentation and Links", 
 	"id": "leftnav_product_storage_others", 
 	"articles": 
 		[
