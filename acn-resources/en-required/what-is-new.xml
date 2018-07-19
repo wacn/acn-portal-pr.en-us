@@ -116,6 +116,20 @@
                 </ul> -->
                 <h1>Product Update</h1>
                 <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a>
+                <h3>July 2018</h3>
+                <ul>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-july-azure-sql-database"><span>2 July</span> Azure SQL Database Standard Performance Tiers S4, S6, S7, S9, and S12 Are Officially Launched <i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure SQL Database is a managed intelligent relational cloud database service. Using existing SQL Server functions, you can migrate SQL Server databases, speed up app development, and simplify maintenance without changing your app. New performance tiers (S4, S6, S7, S9, and S12) for single databases within SQL database have been officially launched. They provide more CPUs for standard databases, so that you can obtain a significant number of CPUs without having to use the Premium version, thereby reducing costs.</p>
+								
+								<p>For more information about this service and pricing, please visit the <a href="/home/features/sql-database/" id="service-fabric_year_2018-july_features-sql-database">SQL Database Service Features</a> page and the <a href="/pricing/details/sql-database/" id="service-fabric_year_2018-july_pricing-sql-database">SQL Database Pricing Details</a> page.</p>
+							</section>
+						</div>
+					</li>
+                </ul>
                 <h3>June 2018</h3>
                 <ul>
                 	<li>
@@ -147,9 +161,9 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-june-media-services"><span>June 1</span>Azure Media Services Premium encoder will be officially released <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-june-media-services"><span>1 June</span> Azure Media Services Premium encoder will be officially released</a>
 							<section>
-								<p>In addition to supporting 4K AVC, multiple language audio, hidden captions, reversed interlaced scanning, and color changes, Azure Media Services Premium Encoder still provides new Premium Encoder features, including support for MXF and DVCPRO formats. These features can be accessed through the Azure Media Services Explorer desktop tool.</p>
+								<p>In addition to supporting 4K AVC, multiple language audio, hidden captions, deinterlacing, and color changes, Azure Media Services Premium Encoder still provides new Premium Encoder features, including support for MXF and DVCPRO formats. These features can be accessed through the Azure Media Services Explorer desktop tool.</p>
 								
 								<p>To learn more about this service and its pricing, please visit the <a href="/home/features/media-services/" id="service-fabric_year_2018-june_features-media-services">Media Services Functions</a> and <a href="/pricing/details/media-services/" id="service-fabric_year_2018-june_pricing-media-services">Pricing Details for Media Services</a> web pages.</p>
 							</section>
@@ -163,9 +177,9 @@
 						<div>
 							<a href="#" id="service-fabric_year_2018-may_azure-iot-hub"><span>May 15</span>Azure IoT Hub Basic tier officially released </a>
 							<section>
-								<p>Azure IoT Hub Basic tier is now officially released. it is only suitable for simple (from the device to the cloud) IoT solutions and this Basic tier is at a better price. Each IoT Hub tier provides three sizes, dependent on daily capacity for data throughput. These sizes are labeled 1, 2 or 3. Grade 1 can handle 400,000 messages per unit per day. Grade 3 handles 300 million messages per unit per day. After an IoT Hub is created, you can upgrade from the Basic tier to the Standard tier with no interruption in operations.</p>
+								<p>Azure IoT Hub Basic tier is now officially released. It is only suitable for simple (from the device to the cloud) IoT solutions, and this Basic tier has a better price than the Standard tier. Each IoT Hub tier provides three sizes, dependent on daily capacity for data throughput. These sizes are labeled 1, 2, or 3. Grade 1 can handle 400,000 messages per unit per day. Grade 3 can handle 300 million messages per unit per day. After an IoT Hub is created, you can upgrade from the Basic tier to the Standard tier with no interruption in operations.</p>
 								
-								<p>For more information, consult the <a href="/home/features/iot-hub" id="service-fabric_year_2018-may_features-iot-hub">Azure IoT Hub Service Features</a> page and the <a href="/pricing/details/iot-hub/" id="service-fabric_year_2018-may_pricing-iot-hub">Azure IoT Hub Pricing Details</a> page. To better understand which IoT tier is appropriate, refer to the document <a href="//docs.azure.cn/zh-cn/iot-hub/iot-hub-scaling" id="service-fabric_year_2018-may-10_documentation-iot-hub-scaling">Selecting a suitable IoT Hub solution tier</a>.</p>
+								<p>For more information on services and pricing, please consult the <a href="/home/features/iot-hub" id="service-fabric_year_2018-may_features-iot-hub">Azure IoT Hub Service Features</a> page and the <a href="/pricing/details/iot-hub/" id="service-fabric_year_2018-may_pricing-iot-hub">Azure IoT Hub Pricing Details</a> page. To better understand which IoT tier is appropriate, refer to the document <a href="//docs.azure.cn/zh-cn/iot-hub/iot-hub-scaling" id="service-fabric_year_2018-may-10_documentation-iot-hub-scaling">Selecting a suitable IoT Hub solution tier</a>.</p>
 							</section>
 						</div>
 					</li>
@@ -176,13 +190,13 @@
 							<section>
 								<p>We are very happy to announce the official release in China of Azure Functions managed in the <a href="//docs.azure.cn/zh-cn/app-service/azure-web-sites-web-hosting-plans-in-depth-overview" id="service-fabric_year_2018-may-10_documentation-paa-service">App Service Plan</a>. Azure Functions allows you to run code on demand, without configuring or managing infrastructure. Using Azure Functions, you can:</p>
 								<ul>
-									<li>satisfy your requirements simply, without server functions, to effortlessly build needed apps;</li>
+									<li>easily build the apps you need using simple, serverless functions;</li>
 									<li>manage your apps without infrastructure;</li>
 									<li>only compile code that is genuinely important to your business;</li>
 									<li>use your programming language of choice to create functions.</li>
 								</ul>
-								<p>An enriched portal experience allows you to create, manage, and monitor your functions. You can use C#, F#, or JavaScript to develop, and use triggers or binding with each type of service integration. Deploy apps as previously to Azure, selecting from a series of tools, for example cross-platform CLI, Visual Studio IDE and VS Code for local development, debugging, and testing.</p>
-								<p>Currently, Azure Functions can only be managed in an <a href="//docs.azure.cn/zh-cn/app-service/azure-web-sites-web-hosting-plans-in-depth-overview" id="service-fabric_year_2018-may-10_documentation-paa-service">App Service Plan</a> with a Pay-in-advance plan. Each plan requires you to choose the actual quantity of VM in a region, a region in China, and the size of a dedicated application VM. If you have a consumption plan, consult with your customer manager in advance.</p>
+								<p>An enriched portal experience allows you to create, manage, and monitor your functions. You can use C#, F#, or JavaScript to develop, and you can use triggers or binding to integrate with various types of services. Deploy apps to Azure as before, selecting from a series of tools, for example cross-platform CLI, Visual Studio IDE and VS Code for local development, debugging, and testing.</p>
+								<p>Currently, Azure Functions can only be managed in an <a href="//docs.azure.cn/zh-cn/app-service/azure-web-sites-web-hosting-plans-in-depth-overview" id="service-fabric_year_2018-may-10_documentation-paa-service">App Service Plan</a> and billed using an App Service billing model. Each plan requires you to choose the region, the actual quantity of VM in the region, and the size of VM needed for a dedicated application. If you have a consumption plan, please consult with your customer manager.</p>
 								<p>For more information on this service and pricing, visit the <a href="/home/features/azure-functions" id="service-fabric_year_2018-may_features-azure-functions">Azure Functions Service Features</a> page and the <a href="/pricing/details/azure-functions/" id="service-fabric_year_2018-may_pricing-azure-functions">Azure Functions pricing details</a> page. For even more details, visit the <a href="//docs.azure.cn/zh-cn/azure-functions/" id="service-fabric_year_2018-may-10_documentation-azure-functions">Azure Functions documentation</a> page.</p>
 							</section>
 						</div>
@@ -192,13 +206,13 @@
 						<div>
 							<a href="#" id="service-fabric_year_2018-may_storage-gpv2"><span>May 10 </span>Azure Storage General Purpose v2 storage account was officially released</a>
 							<section>
-								<p>Azure Storage Service General Purpose v2 (GPv2) is a kind of Azure Storage account:</p>
+								<p>Azure Storage Service General Purpose v2 (GPv2) is a new kind of Azure Storage account:</p>
 								<ul>
 									<li>it supports Tiered Storage;</li>
 									<li>helps manage the cost of expanded storage requirements;</li>
-									<li>and allows you to use Tiered Storage, organizing data according to access frequency and planned retention period properties.</li>
+									<li>and allows you to use Tiered Storage to organize data according to properties such as access frequency and planned retention period.</li>
 								</ul>
-								<p>Azure currently provides three types of Storage accounts: General Purpose v2, General Purpose v1, and Blob Storage. For Storage accounts deciding to qualify for special services and functions, the price for each Storage account will be different. We recommend carefully considering a price model, then determining which model is most suitable, because prices for some workloads can differ greatly depending on the account. For new customers we often recommend using General Purpose v2 to access Tiered Storage and the newest Storage functions. We only recommend that experienced customers use General Purpose v1 and Blob Storage accounts, but these customers can already use the benefits of GPv2.</p>
+								<p>Azure currently provides three kinds of storage accounts: General Purpose v2, General Purpose v1, and Blob Storage. Storage accounts determine eligibility for specific storage services and features, and each storage account is priced differently. We suggest you carefully consult the price models to determine which is most suitable. Depending on the account type you are using, the differences between some workloads might be quite large. We generally recommend new customers use General Purpose v2 to access the newest file storage features, including Tiered Storage and Archive. We only recommend that experienced customers use General Purpose v1 and Blob Storage accounts, but these customers can also benefit from the use of GPv2.</p>
 								<p>To learn more about the advantages of the different Storage accounts, visit <a href="//docs.azure.cn/zh-cn/storage/common/storage-account-options" id="service-fabric_year_2018-may-10_documentation-storage-account-options">this documentation</a>; to learn about Tiered Storage, visit <a href="//docs.azure.cn/zh-cn/storage/blobs/storage-blob-storage-tiers" id="service-fabric_year_2018-may-10_documentation-storage-blob-storage-tiers">this documentation</a>.</p>
 							</section>
 						</div>
@@ -206,7 +220,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-may_sql-database-hybrid-benefit"><span>May 4</span>Azure SQL Database released a new purchasing model (preview)</a>
+							<a href="#" id="service-fabric_year_2018-may_sql-database-hybrid-benefit"><span>5/4</span>Azure SQL Database released a new purchasing model (preview)</a>
 							<section>
 								<p>We are very happy to announce that a new purchasing model has been released for Azure SQL Database elastic pools and single databases - a vCore-based purchasing model (preview). The new model is different from the existing DTU-based model and is designed to give you flexibility, control, transparency, and an easier way to compare to on-premises workloads. It allows you to scale compute, storage, and IO independently based upon your workload needs. The vCore model is also eligible for savings of up to 30% with Azure Hybrid Benefit for SQL Server.</p>
 								<p>For more information on pricing, please visit the <a href="/pricing/details/sql-database/" id="service-fabric_year_2018-may-4_pricing-sql-database"> SQL Database Pricing Details </a> page. To learn more about Azure Hybrid Benefit, please visit the <a href="/pricing/hybrid-benefit/" id="service-fabric_year_2018-may-4_hybrid-benefit">Azure Hybrid Benefit</a> page. For more information on this service and how these features are deployed, please visit the <a href="/home/features/sql-database" id="service-fabric_year_2018-may-4_sql-database">SQL Database Service Features</a> page and the <a href="//docs.azure.cn/zh-cn/sql-database/sql-database-service-tiers#vcore-based-purchasing-model-preview" id="service-fabric_year_2018-may-4_documentation-sql-database">SQL Database Documentation</a> page.</p>
@@ -303,7 +317,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-april_ccs"><span>April 2 </span>Official release of Cloud Connection Service preview version</a>
+							<a href="#" id="service-fabric_year_2018-april_ccs"><span>April 02 </span>Official release of Cloud Connection Service preview version</a>
 							<section>
 								<p>Customers can use the physical line and network support provided by Cloud Connection Service to easily connect to local data centers and Azure data centers, and deploy flexible, reliable, and secure hybrid cloud scenarios to meet different business needs, including business continuity, disaster recovery, and key business support. For more information about this service and its pricing, please visit the <a href="/home/features/ccs/" id="service-fabric_year_2018-March_feature-ccs">Cloud Connection Service Features</a> page and the <a href="/pricing/details/ccs/" id="service-fabric_year_2018-March_pricing-ccs">Cloud Connection Service Pricing Details</a> page. For more details, please refer to the <a href="//docs.azure.cn/zh-cn/articles/cloud-connection-service/cloud-connection-service-quick-start/">Cloud Connection Service Introduction</a> documentation page.</p>
 							</section>
@@ -940,9 +954,6 @@
 				</li>-->
 				
 				</ul>
-				
-
-
 				
   
             </div>                      

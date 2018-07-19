@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19502" parentID="18486" level="5" writerID="106" creatorID="106" nodeType="1059" template="9" sortOrder="30" createDate="2015-8-24T14:55:52" updateDate="" nodeName="Aile" urlName="aile" writerName="content" creatorName="content" path="-1,11978,19421,18486,19502" isDoc="">
+  <umbTextpage id="19502" parentID="18486" level="5" writerID="106" creatorID="106" nodeType="1059" template="9" sortOrder="30" createDate="2015-8-24T14:55:52" updateDate="2018-06-26T15:00:00" nodeName="Aile" urlName="aile" writerName="content" creatorName="content" path="-1,11978,19421,18486,19502" isDoc="">
     <bodyText><![CDATA[
     
       	<style>
@@ -13,7 +13,7 @@
 			<p>We provide users with the following free support services:</p>
 			<div class="scroll-table"><div><table cellpadding="0" cellspacing="0" class="table-col6">
                 <tbody><tr>
-                    <th align="left">&#160;</th>
+                    <th align="left"> </th>
                     <th align="left"><strong>Supported or not</strong></th>
                 </tr>
                 <tr>
@@ -45,8 +45,9 @@
 										
 			<h2>Support Scope</h2>
 			<ul>
-				<li>Disruption/restore issues are the issues that users have encountered when using Azure and are confirmed to be caused by the platform.</li>
+				<li>The issues for break/fix support are technical issues that you encounter while using Azure Services. ‘Break/fix’ is an industry term that refers to the support work required when a particular piece of technology fails during the course of normal operation, which requires a support team to intervene in order to restore it to working order.</li>
 				<li>We support all the Azure services that are publicly available online, as well as non-Microsoft technologies (e.g. the sample codes of Azure SDK and Python ) provided by Microsoft as part of Azure product functions.</li>
+				<li>See <a href="/support/faq/#support">Support FAQs</a> for more information about the scope of support.</li>
 			</ul>
 			
 			<h2>Working Time</h2>
@@ -123,7 +124,7 @@
 			<p><span class="common_serial_num"> 1 </span> <span> Class A severity support is available only to customers who have signed the 21Vianet Premium online service agreement (purchasing services through the sales team). </span></p>
 			<p><span class="common_serial_num"> 2 </span> <span> 21Vianet may reduce the severity level if the customer fails to provide sufficient resources or respond appropriately to enable 21Vianet to continue to address the issue. </span></p>
 						
-			<p>&#160;</p>
+			<p> </p>
 			<p><a href="/support/contact/" id="support_plans_contact" class="single-link">Contact us<i class="icon icon-arrow-right-thin"></i></a></p>
             
         </div>

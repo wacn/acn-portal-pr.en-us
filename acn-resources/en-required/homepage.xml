@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2018-06-28T160:30:00" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
+  <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2018-07-11T11:30:00" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
     <bodyText><![CDATA[
       
 	<style type="text/css">
@@ -115,7 +115,7 @@
 				<div class="banner_box swiper-wrapper" id="banner_box">
 					<!--banner-->
 					<div class="banner swiper-slide image-banner" style="" idx="0">
-						<a target="_blank" id="bannerBtn_0_azure_new-region" href="/blog/2018/06/20/New-regions-now-available-in-China/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_new_region_banner.png">
+						<a target="_blank" id="bannerBtn_0_azure_new-region" href="/blog/2018/06/27/New-regions-now-available-in-China/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_new_region_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
 									The Eastern China 2 and Northern China 2 data centers are officially opened
@@ -230,8 +230,7 @@
 						</a>
 					</div>
 					
-
-
+					
 					
 				</div>
 				<div class="swiper-pagination"></div>
@@ -256,11 +255,11 @@
 							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large"><span>Practical Tutorials</span><i class="icon icon-arrow-right"></i></span></div>
 							<span class="link link-sharp-btn blue large device-mobile-banner"><span>Practical Tutorials</span></span>
 							<p style="">Develop Azure skills quickly with the latest online training and keep up with the latest technology</p>
-						</a> <a class="col-md-4 quickstart-item" href="/what-is-new/" id="homepage_quickstart-what-is-new_2018-june_azure-new-region"> <img data-rjs="2" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/homepage/hot-topic.png"
+						</a> <a class="col-md-4 quickstart-item" href="/what-is-new/" id="homepage_quickstart-what-is-new_2018-july_azure-sql-database"> <img data-rjs="2" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/homepage/hot-topic.png"
 											alt="">
 							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large" rel="nofollow"><span>Azure Updates</span><i class="icon icon-arrow-right"></i></span></div>
 							<span class="link link-sharp-btn blue large device-mobile-banner" rel="nofollow"><span>Azure Updates</span></span>
-							<p>New Azure data center officially opened</p>
+							<p>Azure SQL Database Standard Performance Tiers S4, S6, S7, S9, and S12 Are Officially Launched</p>
 						</a>
 
 					</div>
@@ -372,6 +371,60 @@
 						<h1>We recommend all-around, efficient Azure products for you</h1>
 					</div>
 					<div class="_bottom clearfix">
+						
+						<!--VM-->
+						<div class="col-md-3 col-xs-6 item-box">
+							<!-- <div class="price-reduction"></div> --> <a href="/home/features/virtual-machines/" id="homepage_services_virtual-machines">
+								<h2 class="bigger-header">Virtual Machines</h2>
+								<div class="svg-icon vm"></div>
+								<div class="home-p">Provisioning in seconds<br/> Windows and Linux Virtual Machines</div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/virtual-machines/" id="homepage_services_pricing_virutal-machines">0.11</a><a class="single-link" href="/pricing/details/virtual-machines/" id="homepage_services_pricing_virutal-machines">/hour</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<!--VM end-->
+						<div class="col-md-3 col-xs-6 item-box">
+							<!-- <div class="price-reduction"></div> --> <a href="/home/features/cloud-services/" id="homepage_services_cloud-services">
+								<h2 class="bigger-header">Cloud Services</h2>
+								<div class="svg-icon cloud-services"></div>
+								<div class="home-p">Establish high usability and availability<br/>With limitless scaling of apps and API</div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/cloud-services/" id="homepage_services_pricing_cloud-services">0.11</a><a class="single-link" href="/pricing/details/cloud-services/" id="homepage_services_pricing_cloud-services">/hour</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/batch/" id="homepage_services_batch">
+								<h2 class="bigger-header">Batch <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 14px;position: relative;top: -2px;">(Preview)</span></h2>
+								<div class="svg-icon batch"></div>
+								<div class="home-p">Cloud-scale job scheduling and compute management<br/><br /></div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/batch/" id="homepage_services_pricing_batch">Start for free</a> <a class="single-link" href="/pricing/details/batch/" id="homepage_services_pricing_batch"></a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/sql-database/" id="homepage_services_sql-database">
+								<h2 class="bigger-header">SQL Database</h2>
+								<div class="svg-icon sql-database"></div>
+								<div class="home-p">Managed relational SQL Database as a service<br/><br/></div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">1.04</a><a class="single-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">/day</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/storage/" id="homepage_services_storage">
+								<h2 class="bigger-header">Storage</h2>
+								<div class="svg-icon storage"></div>
+								<div class="home-p">A durable, highly available,<br/>massively scalable cloud storage solution.</div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage">Free version available</a> <a class="single-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage"></a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
 						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/azure-policy/" id="homepage_services_policy">
 								<h2 class="bigger-header">Azure Policy</h2>
@@ -599,18 +652,8 @@
 								<a class="home-h2-link" href="/pricing/details/advisor/" id="homepage_services_pricing_advisor">Start for free</a> <a class="single-link" href="/pricing/details/advisor/" id="homepage_services_pricing_advisor"></a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
-						<!-- Azure Monitor -->
-						<div class="col-md-3 col-xs-6 item-box monitor">
-							<a href="/home/features/monitor/" id="homepage_services_monitor">
-								<h2 class="common-header">Azure Monitor</h2>
-								<div class="svg-icon azure-monitor"></div>
-								<div class="home-p larger-line">Precise,<br/>real-time monitoring of all Azure resource data</div>
-							</a>
-							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/monitor/" id="homepage_services_pricing1_monitor"></a> <a class="single-link" href="/pricing/details/monitor/" id="homepage_services_pricing_monitor">First 1 million standard API calls are free</a> <i class="icon icon-arrow-right"></i>
-							</div>
-						</div>
-						<!-- Azure Monitor end --> <!--media service-->
+
+						<!--media service-->
 						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/media-services/" id="homepage_services_media-services">
 								<h2 class="bigger-header">Media Services</h2>
@@ -621,49 +664,7 @@
 								Starting from ￥ <a class="home-h2-link" href="/pricing/details/media-services/" id="homepage_services_pricing_media-services">0.10</a><a class="single-link" href="/pricing/details/media-services/" id="homepage_services_pricing_media-services">/minute</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
-						<!--media service end--> <!--VM-->
-						<div class="col-md-3 col-xs-6 item-box">
-							<!-- <div class="price-reduction"></div> --> <a href="/home/features/virtual-machines/" id="homepage_services_virtual-machines">
-								<h2 class="bigger-header">Virtual Machines</h2>
-								<div class="svg-icon vm"></div>
-								<div class="home-p">Provisioning in seconds<br/> Windows and Linux Virtual Machines</div>
-							</a>
-							<div class="links-box">
-								Starting from ￥ <a class="home-h2-link" href="/pricing/details/virtual-machines/" id="homepage_services_pricing_virutal-machines">0.11</a><a class="single-link" href="/pricing/details/virtual-machines/" id="homepage_services_pricing_virutal-machines">/hour</a> <i class="icon icon-arrow-right"></i>
-							</div>
-						</div>
-						<!--VM end-->
-						<div class="col-md-3 col-xs-6 item-box">
-							<a href="/home/features/storage/" id="homepage_services_storage">
-								<h2 class="bigger-header">Storage</h2>
-								<div class="svg-icon storage"></div>
-								<div class="home-p">A durable, highly available,<br/>massively scalable cloud storage solution.</div>
-							</a>
-							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage">Free version available</a> <a class="single-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage"></a> <i class="icon icon-arrow-right"></i>
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-6 item-box">
-							<!-- <div class="price-reduction"></div> --> <a href="/home/features/cloud-services/" id="homepage_services_cloud-services">
-								<h2 class="bigger-header">Cloud Services</h2>
-								<div class="svg-icon cloud-services"></div>
-								<div class="home-p">Establish high usability and availability<br/>With limitless scaling of apps and API</div>
-							</a>
-							<div class="links-box">
-								Starting from ￥ <a class="home-h2-link" href="/pricing/details/cloud-services/" id="homepage_services_pricing_cloud-services">0.11</a><a class="single-link" href="/pricing/details/cloud-services/" id="homepage_services_pricing_cloud-services">/hour</a> <i class="icon icon-arrow-right"></i>
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-6 item-box">
-							<a href="/home/features/sql-database/" id="homepage_services_sql-database">
-								<h2 class="bigger-header">SQL Database</h2>
-								<div class="svg-icon sql-database"></div>
-								<div class="home-p">Managed relational SQL Database as a service<br/><br/></div>
-							</a>
-							<div class="links-box">
-								Starting from ￥ <a class="home-h2-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">1.04</a><a class="single-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">/day</a> <i class="icon icon-arrow-right"></i>
-							</div>
-						</div>
-						<!--mysql-->
+						<!--media service end-->
 
 						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/backup/" id="homepage_services_back-up">
@@ -876,17 +877,6 @@
 							</a>
 							<div class="links-box">
 								<a class="home-h2-link" href="/pricing/details/virtual-machine-scale-sets/" id="homepage_services_pricing_vmss">Start for free</a> <a class="single-link" href="/pricing/details/virtual-machine-scale-sets/" id="homepage_services_pricing_vmss"></a> <i class="icon icon-arrow-right"></i>
-							</div>
-						</div>
-						
-						<div class="col-md-3 col-xs-6 item-box">
-							<a href="/home/features/batch/" id="homepage_services_batch">
-								<h2 class="bigger-header">Batch <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 14px;position: relative;top: -2px;">(Preview)</span></h2>
-								<div class="svg-icon batch"></div>
-								<div class="home-p">Cloud-scale job scheduling and compute management<br/><br /></div>
-							</a>
-							<div class="links-box">
-								<a class="home-h2-link" href="/pricing/details/batch/" id="homepage_services_pricing_batch">Start for free</a> <a class="single-link" href="/pricing/details/batch/" id="homepage_services_pricing_batch"></a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
 						<div class="col-md-3 col-xs-6 item-box">

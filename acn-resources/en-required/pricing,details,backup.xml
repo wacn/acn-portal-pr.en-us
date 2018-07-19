@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-06-12T16:00:00" urlName="backup" writerName="content" creatorName="content">
+  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-07-06T16:00:00" urlName="backup" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
             <tags ms.service="backup" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
@@ -27,12 +27,12 @@
                    <h4>Azure VM and local server backup</h4>
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br>
-                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <th align="left"><strong>Data stored per protected instance per month</strong></th>
-                            <th align="left"><strong>Pricing</strong></th>
+                            <th align="left"><strong>Price</strong></th>
                         </tr>
                         <tr>
                             <td>Instances with 0 to 50 GB (including 50 GB) of data</td>
@@ -69,7 +69,7 @@
             <div class="pricing-page-section">
                 <div class="more-detail">
                     <h2>FAQ</h2>
-                    <em class="pos-em">Expand All</em>
+                    <em class="pos-em">Expand all</em>
                     <h3>Overview</h3>
                     <ul>
                         <li>
@@ -79,7 +79,7 @@
                                 <section>
                                     <p>Azure Backup’s new price model has two components:</p>
                                     <ul>
-                                        <li>Protected instance: This is the main charge unit for Azure Backup. The client can pay to use a protected instance of Azure Backup services.</li>
+                                        <li>Protected instance: This is the main charge unit for Azure Backup. The client  can pay to use a protected instance of Azure Backup services.</li>
                                         <li>Memory: The client can select <a href="//docs.azure.cn/zh-cn/storage/common/storage-introduction#replication">Locally Redundant Storage (LRS) or Geo-Redundant Storage (GRS) </a> to use as their backup vault. Memory net price depends on the amount of data stored.</li>
                                     </ul>
                                     <p>These two components will be listed on your Azure monthly bills as individual line items.</p>
@@ -91,7 +91,7 @@
                             <div>
                                 <a id="Backup_price_question2">What are protected instances? </a>
                                 <section>
-                                    <p>A protected instance is configured to a Azure Backup computer, physical/virtual machine, server or database installed with a backup policy, and the instance is protected after a copy of the data is created. Successive backups of the data will change the amount of storage used, but the extra backup copies will not add to the volume of the protected instance. Some typical examples of protected instances include executing a Windows operating system virtual machine, application server, database, and personal computer. For example:</p>
+                                    <p>A protected instance is configured to a Azure Backup computer, physical/virtual machine, server or database installed with a backup policy, and the instance is protected after a copy of the data is created. Successive backups of the data will change  the amount of storage used, but the extra backup copies will not add to the volume of the protected instance. Some typical examples of protected instances include executing a Windows operating system virtual machine, application server, database, and personal computer. For example:</p>
                                     <ul>
                                         <li>Running a virtual machine monitoring program for a Hyper-V or Azure IaaS virtual machine. This virtual machine guest operating system can be a Windows Server or Linux.</li>
                                         <li>This includes running a Windows Server physical or virtual machine and the workload data. Typical workload data has a file server role in Microsoft SQL Server, Microsoft Exchange server, Microsoft SharePoint server, Microsoft Dynamics and Windows Server. The workload data that needs backup or protection requires an Azure Backup Server or System Center Data Protection Manager (DPM).</li>
@@ -158,7 +158,7 @@
                                 <section>
                                     <p>You will continue to be billed for protected instances and memory as long as you have data in Azure Backup. Invoicing of protected instances is based on the size of the features backed up prior to your decision to stop protection. Memory invoicing is based on the amount of data the instance stores in the backup vault.</p>
                                     
-                                    <p>For example, consider backing up a 100 GB virtual machine. The protected instance cost is ¥ 63.29 per month. If 1 GB of data is added daily and the data is retained for 120 days, you will be billed separately for that share of memory. After one month, if you decide to stop protecting the virtual machine, but retain Azure Backup data, then you will be billed ¥ 63.29 each month until you delete the backup data.</p>
+                                    <p>For example, consider backing up a 100GB virtual machine. The protected instance cost is RMB 63.29 per month. If 1GB of data is added daily and the data is retained for 120 days, you will be billed separately for that share of memory. After one month, if you decide to stop protecting the virtual machine, but retain Azure Backup data, then you will be billed RMB 63.29 each month until you delete the backup data.</p>
                                 </section>
                             </div>
                         </li>
@@ -186,7 +186,16 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Backup_price_stor1">How will we be billed if we use Storage?</a>
+                                <a id="Backup_price_stor1">What prompts are there if I’m using Virtual Machine backup on Premium Storage? </a>
+                                <section>
+                                    <p>If the disk type used by the VM instance that you are backing up is Premium Storage, the backup service will create a temporary storage location called ‘Azure Backup-’ in the Premium Storage account when you initiate the backup function. Storage pricing for the temporary storage location is the same as for Premium Storage. For details, see <a href="//docs.azure.cn/zh-cn/backup/backup-introduction-to-azure-backup#using-premium-storage-vms-with-azure-backup">Combine the Use of Premium Storage VMs and Azure Backup</a>.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_stor2">How will we be billed if we use Storage?</a>
                                 <section>
                                     <p>Any data in Azure Backup Storage will be billed according to the price list above.</p>
                                 </section>
@@ -195,7 +204,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Backup_price_stor2">Does Block Blob pricing depend on whether the storage is LRS or GRS? </a>
+                                <a id="Backup_price_stor3">Does Block Blob pricing depend on whether the storage is LRS or GRS? </a>
                                 <section>
                                     <p>This depends on the storage options selected for the backup vault. The storage options for backup vaults include: Locally redundant storage (LRS) or geo-redundant storage (GRS).</p>
                                 </section>
@@ -204,16 +213,16 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Backup_price_stor3">Can I have two different vaults, namely, one using LRS and the other using GRS?</a>
+                                <a id="Backup_price_stor4">Can I have two different vaults, namely, one using LRS and the other using GRS?</a>
                                 <section>
-                                    <p>Yes, this is supported. The backup data in every vault will be charged by the corresponding LRS or GRS Block Blob rate in the vault’s region. Customers have full control over Azure storage space billing for selected vault options. </p>
+                                    <p>Yes, this is supported. The backup data in every vault will be charged by the corresponding LRS or GRS Block Blob rate in the vault’s region. Customers have full control over Azure storage space billing for selected vault options.</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Backup_price_stor4">What factors contribute to backup storage?</a>
+                                <a id="Backup_price_stor5">What factors contribute to backup storage?</a>
                                 <section>
                                     <p>The total backup data size ("back-end size") maintained in Azure Backup for specific protected instances may vary according to the following factors:</p>
                                     <ul>
@@ -229,7 +238,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Backup_price_stor5">How do I ascertain the backup storage capacity used?</a>
+                                <a id="Backup_price_stor6">How do I ascertain the backup storage capacity used?</a>
                                 <section>
                                     <p>The backup vault dashboard page will show the total number of computers logged into the vault. It can even show the type of storage in the backup vault.</p>
                                 </section>
@@ -284,7 +293,7 @@
                                                 <td>3 Windows host computers</td> 
                                                 <td>Microsoft Exchange<br>Microsoft Exchange<br>Microsoft Exchange</td> 
                                                 <td>600 GB<br>1,300 GB<br>400 GB</td> 
-                                                <td>￥ 126.58/month<br/>¥ 189.87/month<br/>￥ 63.29/month</td> 
+                                                <td>¥ 126.58/month<br/>¥ 189.87/month<br/>¥ 63.29/month</td> 
                                             </tr> 
                                             <tr> 
                                                 <td>1 Windows client computer</td> 
@@ -296,13 +305,13 @@
                                                 <td>1 Hyper-V Virtual Machine</td> 
                                                 <td>Virtual Machine backup</td> 
                                                 <td>30 GB</td> 
-                                                <td>￥ 31.65/month</td> 
+                                                <td>¥ 31.65/month</td> 
                                             </tr> 
                                             <tr> 
                                                 <td>1 Azure IaaS Virtual Machine</td> 
                                                 <td>Virtual Machine backup</td> 
                                                 <td>250GB</td> 
-                                                <td>￥ 63.29/month</td> 
+                                                <td>¥ 63.29/month</td> 
                                             </tr> 
                                             <tr> 
                                                 <td>1 Windows guest computer</td> 
@@ -319,14 +328,14 @@
                                             <tr> 
                                                 <td>3 Windows guest computers</td> 
                                                 <td>Microsoft SQL Server (cluster):
-                                                    <ul> 
+                                                <ul> 
                                                         <li>Computer 1: 50 databases</li> 
                                                         <li>Computer 2: 75 databases</li> 
                                                         <li>Computer 3: 20 databases</li> 
                                                     </ul> 
                                                 </td> 
                                                 <td>70 GB<br>80 GB<br>15 GB</td> 
-                                                <td>￥ 63.29/month+<br>￥ 63.29/month+<br>￥ 31.65/month<p>Note: if the databases move around in the cluster, the size of the backup is used for calculation</p> </td> 
+                                                <td>¥ 63.29/month+<br>¥ 63.29/month+<br>¥ 31.65/month<p>Note: if the databases move around in the cluster, the size of the backup is used for calculation</p> </td> 
                                             </tr> 
                                             <tr> 
                                                 <td>5 Windows guest computers</td> 
@@ -336,7 +345,7 @@
                                             </tr> 
                                         </tbody> 
                                     </table>
-                                    <p>*They can be additional fees based on the Azure Memory selected for backup</p>
+                                    <p>*They can be additional fees based on the Azure Memory selected for backup.</p>
                                 </section>
                             </div>
                         </li>
@@ -368,8 +377,8 @@
             <div> -->
             <div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="backup-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-                <p>We guarantee that the availability of the backup and recovery functions of Azure Backup services reaches at least 99.9%. The availability is calculated by the monthly billing cycle. If you want to learn more about the details of our service level agreement, please visit the <a href="/support/sla/back-up/" id="pricing_backup_sla">Service Level Agreement</a> page.</p>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="backup-contact-page">Azure Support</a> to select self-service or any other method to contact us for support.</p>
+                <p>We guarantee that the availability of the backup and recovery functions of Azure Backup services reaches at least 99.9%. The availability is calculated by the monthly billing cycle. If you want to learn more about the details of our server level agreement, please visit the <a href="/support/sla/back-up/" id="pricing_backup_sla">Service Level Agreement</a> page.</p>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk-->
             </div> 
             <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                                    
