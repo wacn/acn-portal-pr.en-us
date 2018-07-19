@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="5" createDate="2016-06-29T15:44:24" updateDate="2018-06-06T11:44:24" urlName="sql-database" writerName="content" creatorName="content">
+  <TextpageLeftNav template="5" createDate="2016-06-29T15:44:24" updateDate="2018-06-29T16:00:00" urlName="sql-database" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
         <style type="text/css">
@@ -59,7 +59,7 @@
                         <h2>SQL Database<span>SQL Database</span></h2>
                         <h4>Managed relational SQL Database as a service</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_sql_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_sql_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
-                        </div>
+                    </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
@@ -434,7 +434,7 @@
                                         <td>4 TB</td>
                                         <td>500</td>
                                         <td>100</td>
-                                        <td>¥  2,760.00/day<br/>(about ¥ 85,560.00/month)</td>
+                                        <td>¥ 2,760.00/day<br/>(about ¥ 85,560.00/month)</td>
                                     </tr>
                                 </table>
                                 <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
@@ -849,7 +849,7 @@
                                         <td>250 GB</td>
                                         <td>250 GB</td>
                                         <!-- <td>14天内的任何点</td> -->
-                                        <td>￥ 3.13/day<br />(about ￥ 97.03/month)</td>
+                                        <td>¥0.1304/hour<br />(about ￥ 97.03/month)</td>
                                     </tr>
                                     <tr>
                                         <td>S1</td>
@@ -857,7 +857,7 @@
                                         <td>250 GB</td>
                                         <td>250 GB</td>
                                         <!-- <td>14天内的任何点</td> -->
-                                        <td>￥ 6.24/day<br />(about ￥ 193.44/month)</td>
+                                        <td>¥0.26/hour<br />(about ￥ 193.44/month)</td>
                                     </tr>
                                     <tr>
                                         <td>S2</td>
@@ -865,7 +865,7 @@
                                         <td>250 GB</td>
                                         <td>250 GB</td>
                                        <!--  <td>14天内的任何点</td> -->
-                                        <td>￥ 15.65/day<br />(about ￥ 485.15/month)</td>
+                                        <td>¥0.6521/hour<br />(about ￥ 485.15/month)</td>
                                     </tr>
                                     <tr>
                                         <td>S3</td>
@@ -873,54 +873,51 @@
                                         <td>250 GB</td>
                                         <td>1 TB</td>
                                        <!--  <td>14天内的任何点</td> -->
-                                        <td>￥ 31.27/day<br />(about ￥ 969.37/month)</td>
+                                        <td>¥1.3029/hour<br />(about ￥ 969.37/month)</td>
                                     </tr> 
                                     <tr>
-                                        <td>S4 Preview</td>
+                                        <td>S4 <sup style="color:#e66102; font-weight: bold">new</sup></td>
                                         <td>200 DTU</td>
                                         <td>250 GB</td>
                                         <td>1 TB</td>
                                         <!-- <td>14天内的任何点</td> -->
-                                        <td>￥ 32.45/day<br />(about ￥ 1,005.95/month)</td>
+                                        <td>¥3.2447/hour<br />(about ¥2,414.0568/month)</td>
                                     </tr> 
                                     <tr>
-                                        <td>S6 Preview</td>
+                                        <td>S6 <sup style="color:#e66102; font-weight: bold">new</sup></td>
                                         <td>400 DTU</td>
                                         <td>250 GB</td>
                                         <td>1 TB</td>
                                         <!-- <td>14天内的任何点</td> -->
-                                        <td>￥ 64.89/day<br />(about ￥ 2,011.59/month)</td>
+                                        <td>¥6.4893/hour<br />(about ¥4,828.0392/month)</td>
                                     </tr> 
                                     <tr>
-                                        <td>S7 Preview</td>
+                                        <td>S7 <sup style="color:#e66102; font-weight: bold">new</sup></td>
                                         <td>800 DTU</td>
                                         <td>250 GB</td>
                                         <td>1 TB</td>
                                         <!-- <td>14天内的任何点</td> -->
-                                        <td>￥ 129.79/day<br />(about ￥ 4,023.49/month)</td>
+                                        <td>¥12.9786/hour<br />(about ¥9,656.0784/month)</td>
                                     </tr> 
                                     <tr>
-                                        <td>S9 Preview</td>
+                                        <td>S9 <sup style="color:#e66102; font-weight: bold">new</sup></td>
                                         <td>1600 DTU</td>
                                         <td>250 GB</td>
                                         <td>1 TB</td>
                                         <!-- <td>14天内的任何点</td> -->
-                                        <td>￥ 259.57/day<br />(about ￥ 8,046.67/month)</td>
+                                        <td>¥25.9573/hour<br />(about ¥19,312.2312/month)</td>
                                     </tr> 
                                     <tr>
-                                        <td>S12 Preview</td>
+                                        <td>S12 <sup style="color:#e66102; font-weight: bold">new</sup></td>
                                         <td>3000 DTU</td>
                                         <td>250 GB</td>
                                         <td>1 TB</td>
                                         <!-- <td>14天内的任何点</td> -->
-                                        <td>￥ 486.70/day<br />(about ￥ 15,087.70/month)</td>
+                                        <td>¥48.6699/hour<br />(about ¥36,210.4056/month)</td>
                                     </tr> 
                                 </table>
-            					<!--
-                                <div class="tags-date">
-                                    <div class="ms-date">从 12 月 31 日开始，S0 大小的使用费将作为 S1 大小的费用部分出现在你的账单上。</div><br />
-                                </div>
-            					--> <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
+                                
+                                <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
                                 <h3>Premium RS<span style="font-family: '微软雅黑',regular;font-weight:normal;"> Preview</span></h3>
                                     <p>Premium RS is designed for IO intensive workloads that can accept a limited durability guarantee and lower Service Level Agreements. The running of Premium RS reduces the number of redundant copies, which means that in the event of a service failure, capturing the backup and recovery data may require a five-minute delay.</p>
                                 <div class="tags-date">
@@ -1265,20 +1262,20 @@
                 </div>
                 <p>Please refer to the <a href="//docs.azure.cn/zh-cn/sql-database/sql-database-faq/">SQL Database FAQ</a> in Documentation.</p>
             </div>
-            <div class="pricing-page-section">
-                <h2>Region</h2>
-                <p>SQL Database is provided in:</p>
+            <!-- <div class="pricing-page-section">
+                <h2>上市地区</h2>
+                <p>SQL 数据库在以下区域中提供：</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territory</strong></th>
-                        <th align="left"><strong>Region</strong></th>
+                        <th align="left"><strong>地域</strong></th>
+                        <th align="left"><strong>区域</strong></th>
                     </tr>
                     <tr>
-                        <td>Mainland China</td>
-                        <td>China North, China East</td>
+                        <td>中国大陆</td>
+                        <td>中国东部数据中心 , 中国北部数据中心</td>
                     </tr>
                 </table>
-                
+                 -->
                <div class="pricing-page-section">
                     <h2>Support &amp; SLA</h2>
                     <p>If you have any questions or need help, please visit <a href="/support/contact/" id="database-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
@@ -1288,7 +1285,6 @@
     				<p>We ensure customers will be able to establish a connection between the Web Edition or Enterprise Edition Azure SQL Database and our Internet Gateway at least 99.9% of the time.</p>
     				<p>To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/sql-data/" id="pricing_database_sla">Service Level Agreement</a> page.</p>
                 </div>
-            </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                    
     
     ]]></bodyText>

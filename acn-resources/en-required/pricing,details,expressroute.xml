@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2014-10-20T09:41:59" urlName="expressroute" writerName="content" creatorName="content">
+  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-07-12T16:00:00" urlName="expressroute" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
             <tags ms.service="expressroute" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
@@ -206,6 +206,20 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
+                                <a id="expressroute_region">Which regions correspond to Region 1 and Region 2?</a>
+                                <section>
+                                    <p>The sub-region is the lowest level of geographical location that you can choose to deploy apps and affiliated data to. For ExpressRoute, Region 1 and Region 2 correspond to the regions below.</p>
+                                    <ul>
+                                        <li>Region 1 - China East and China North;</li>
+                                        <li>Region 2 - China East 2 and China North 2.</li>
+                                    </ul>
+                                </section>
+
+                            </div>
+                        </li>  
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
                                 <a id="expressroute-cost">What additional fees will other parties charge me for in this solution?</a>
                                 <section>
                                     <p>The ExpressRoute connection service provider will charge you extra fees. Please contact your network connection service provider for pricing information.</p>
@@ -248,7 +262,7 @@
                             <div>
                                 <a id="expressroute-account">Can I set up multiple lines in my account? If so, what do I need to do?</a>
                                 <section>
-                                    <p>If you are using Azure based on an Enterprise agreement with 21Vianet, please contact our data setup team to ensure correct setup.</p>
+                                    <p>If you are using Azure based on an Enterprise Agreement with 21Vianet, please contact our data setup team to ensure correct setup.</p>
                                 </section>
 
                             </div>
@@ -283,25 +297,25 @@
                     </ul>
                 </div>
             </div>
-            <div class="pricing-page-section">
-                <h2>Region</h2>
-                <p>The ExpressRoute service is available in the following regions:</p>
+            <!-- <div class="pricing-page-section">
+                <h2>上市地区</h2>
+                <p>ExpressRoute 服务在以下区域中提供：</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territory</strong></th>
-                        <th align="left"><strong>Region</strong></th>
+                        <th align="left"><strong>地域</strong></th>
+                        <th align="left"><strong>区域</strong></th>
                     </tr>
                     <tr>
-                        <td>Mainland China</td>
-                        <td>China North, China East</td>
+                        <td>中国大陆</td>
+                        <td>中国东部数据中心 , 中国北部数据中心</td>
                     </tr>
                 </table>
-                
-                <div class="pricing-page-section">
+              -->   
+            <div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="expressroute-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="expressroute-contact-page">Azure Support</a> to select self-service or any other method to contact us for support.</p>
 				 <p>We guarantee at least 99.9% availability of ExpressRoute private lines. To learn more about the details of our server level agreement, please visit the <a href="/support/sla/expressroute/" id="pricing_expressroute_sla">Service Level Agreements</a> page.</p>
-                </div>
+            </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!--END: Support and service code chunk-->                                                                 
     
     ]]></bodyText>

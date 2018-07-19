@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-06-07T11:41:59" urlName="data-transfer" writerName="content" creatorName="content">
+  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-07-12T11:41:59" urlName="data-transfer" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
             
@@ -24,6 +24,19 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
+                                <a id="Data_Transfer_region">Which regions correspond to Region 1?</a>
+                                <section>
+                                    <p>The sub-region is the lowest level of geographical location that you can choose to deploy apps and affiliated data to. For data transfers (excluding the CDN), Region 1 corresponds to the regions below.</p>
+                                    <ul>
+                                        <li>Region 1 - China East and China East 2, China North and China North 2.</li>
+                                    </ul>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
                                 <a id="Data_Transfer_question1">Is there a fee for data transfer between Azure services located in the same region (China East or China North)?</a>
                                 <section>
                                     <p>No. For example, data transfer within an Azure SQL Database in the same region (China East or China North) will not incur any additional costs.</p>
@@ -44,7 +57,7 @@
 			</div>
 			<div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="reserved-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="reserved-contact-page">Azure Support</a> to select self-service or any other method to contact us for support.</p>
 				<p>Data transfer doesn’t provide a Service Level Agreement. If you want to learn about the details of our server level agreement, please access the <a href="/support/legal/sla/" id="pricing_data-transfer_sla">Service Levels Agreements</a> page.</p>
                 </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <!-- <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />                                                                        --> <!--END: Support and service code chunk-->                                         
