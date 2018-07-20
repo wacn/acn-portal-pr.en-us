@@ -3746,43 +3746,43 @@
                          "Description": "CalculatorConst.D1SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "0.48"
-                     },             
+                     },
                      {
                          "Name": "CalculatorConst.D2Size",
                          "Description": "CalculatorConst.D2SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "1"
-                     },             
+                     },
                      {
                          "Name": "CalculatorConst.D3Size",
                          "Description": "CalculatorConst.D3SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "2.01"
-                     },             
+                     },
                      {
                          "Name": "CalculatorConst.D4Size",
                          "Description": "CalculatorConst.D4SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "4.05"
-                     },             
+                     },
                      {
                          "Name": "CalculatorConst.D11Size",
                          "Description": "CalculatorConst.D11SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "1.7"
-                     },             
+                     },
                      {
                          "Name": "CalculatorConst.D12Size",
                          "Description": "CalculatorConst.D12SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "3.41"
-                     },             
+                     },
                      {
                          "Name": "CalculatorConst.D13Size",
                          "Description": "CalculatorConst.D13SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "6.83"
-                     },             
+                     },
                      {
                          "Name": "CalculatorConst.D14Size",
                          "Description": "CalculatorConst.D14SizeDesc",
@@ -3802,25 +3802,25 @@
                          "Description": "CalculatorConst.D1V2SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "0.53"
-                     },             
+                     },
                      {
                          "Name": "CalculatorConst.D2V2Size",
                          "Description": "CalculatorConst.D2V2SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "1.11"
-                     },             
+                     },
                      {
                          "Name": "CalculatorConst.D3V2Size",
                          "Description": "CalculatorConst.D3V2SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "2.22"
-                     },             
+                     },
                      {
                          "Name": "CalculatorConst.D4V2Size",
                          "Description": "CalculatorConst.D4V2SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "4.45"
-                     },             
+                     },
                      {
                          "Name": "CalculatorConst.D5V2Size",
                          "Description": "CalculatorConst.D5V2SizeDesc",
@@ -7298,7 +7298,7 @@
                 }]
             },
             {
-                "Name": "Extra storage",
+                "Name": "Additonal storage",
                 "Features": [{
                     "Name": "default",
                     "PricePeriod": "PricePeriodEnum.Monthly",
@@ -7307,13 +7307,13 @@
                     "MaxUnit": "100",
                     "Sizes": [{
                         "Name": "Standard",
-                        "Description": "Extra storage – Standard",
+                        "Description": "Additonal storage – Standard",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.5406"
                     },
                     {
                         "Name": "Premium level and Premium RS",
-                        "Description": "Extra storage – Premium and Premium RS",
+                        "Description": "Additonal storage – Premium and Premium RS",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.0812"
                     }]
@@ -7544,31 +7544,31 @@
                         "Name": "CalculatorConst.S4Size",
                         "Description": "CalculatorConst.S4SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
-                        "PricePerTier": "2414.0568"
+                        "PricePerTier": "2011.7016"
                     },
                     {
                         "Name": "CalculatorConst.S6Size",
                         "Description": "CalculatorConst.S6SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
-                        "PricePerTier": "4828.0392"
+                        "PricePerTier": "4023.4032"
                     },
                     {
                         "Name": "CalculatorConst.S7Size",
                         "Description": "CalculatorConst.S7SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
-                        "PricePerTier": "9656.0784"
+                        "PricePerTier": "8046.732"
                     },
                     {
                         "Name": "CalculatorConst.S9Size",
                         "Description": "CalculatorConst.S9SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
-                        "PricePerTier": "19312.2312"
+                        "PricePerTier": "16093.5384"
                     },
                     {
                         "Name": "CalculatorConst.S12Size",
                         "Description": "CalculatorConst.S12SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
-                        "PricePerTier": "36210.4056"
+                        "PricePerTier": "30175.3752"
                     }]
                 }]
             },
@@ -7653,7 +7653,7 @@
                 }]
             },
             {
-                "Name": "Extra storage",
+                "Name": "Additonal storage",
                 "Features": [{
                     "Name": "default",
                     "PricePeriod": "PricePeriodEnum.Monthly",
@@ -7662,13 +7662,13 @@
                     "MaxUnit": "100",
                     "Sizes": [{
                         "Name": "Standard",
-                        "Description": "Extra storage – Standard",
+                        "Description": "Additonal storage – Standard",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.5406"
                     },
                     {
                         "Name": "Premium level and Premium RS",
-                        "Description": "Extra storage – Premium and Premium RS",
+                        "Description": "Additonal storage – Premium and Premium RS",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.0812"
                     }]
@@ -12331,31 +12331,31 @@
                     },
                     {
                         "Name": "200",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "16.1"
                     },
                     {
                         "Name": "300",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "24.15"
                     },
                     {
                         "Name": "400",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "32.2"
                     },
                     {
                         "Name": "500",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "40.25"
                     },
                     {
                         "Name": "600",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "48.3"
                     }]
@@ -12371,37 +12371,37 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "1,000",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "80.5"
                     },
                     {
                         "Name": "1,200",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "96.6"
                     },
                     {
                         "Name": "1,500",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "120.75"
                     },
                     {
                         "Name": "2,000",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "161"
                     },
                     {
                         "Name": "3,000",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "241.5"
                     },
                     {
                         "Name": "6,000",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "483"
                     }]
@@ -12560,37 +12560,37 @@
                     "MaxUnit": "100",
                     "Sizes": [{
                         "Name": "100",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "22.51"
                     },
                     {
                         "Name": "200",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "45.02"
                     },
                     {
                         "Name": "300",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "67.53"
                     },
                     {
                         "Name": "400",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "90.04"
                     },
                     {
                         "Name": "500",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "112.55"
                     },
                     {
                         "Name": "600",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "135.06"
                     }]
@@ -12606,37 +12606,37 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "1,000",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "225.1"
                     },
                     {
                         "Name": "1,200",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "270.12"
                     },
                     {
                         "Name": "1,500",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "337.65"
                     },
                     {
                         "Name": "2,000",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "450.2"
                     },
                     {
                         "Name": "3,000",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "675.3"
                     },
                     {
                         "Name": "6,000",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1350.6"
                     }]
@@ -13070,7 +13070,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "Hong Kong SAR, China (+852)",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "0,5000",
                         "PricePerTier": "0.179988",
                         "MinUnit": "0",
@@ -13086,7 +13086,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "0,5000",
                         "PricePerTier": "0.36252",
                         "MinUnit": "0",
@@ -13102,7 +13102,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "0,5000",
                         "PricePerTier": "0.148188",
                         "MinUnit": "0",
@@ -13118,7 +13118,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "0,5000",
                         "PricePerTier": "0.34344",
                         "MinUnit": "0",
@@ -13134,7 +13134,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "0,5000",
                         "PricePerTier": "0.634855",
                         "MinUnit": "0",
@@ -13150,7 +13150,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "0,5000",
                         "PricePerTier": "0.026711",
                         "MinUnit": "0",
@@ -13166,7 +13166,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "0,5000",
                         "PricePerTier": "0.251856",
                         "MinUnit": "0",
@@ -13182,7 +13182,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "0,5000",
                         "PricePerTier": "0.29256",
                         "MinUnit": "0",
@@ -13198,7 +13198,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "0,5000",
                         "PricePerTier": "0.8586",
                         "MinUnit": "0",
@@ -13214,7 +13214,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "0,5000",
                         "PricePerTier": "0.197605",
                         "MinUnit": "0",
@@ -13230,7 +13230,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "0,5000",
                         "PricePerTier": "0.158491",
                         "MinUnit": "0",
@@ -13246,7 +13246,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "0,5000",
                         "PricePerTier": "0.29892",
                         "MinUnit": "0",
@@ -13262,7 +13262,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "0,5000",
                         "PricePerTier": "0.22896",
                         "MinUnit": "0",
@@ -13278,7 +13278,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "",     
+                        "Description": "",
                         "PriceTier": "0,100,101,5000",
                         "PricePerTier": "0,0.065635",
                         "MinUnit": "0",
