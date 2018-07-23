@@ -1,11 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-06-27T10:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-07-16T10:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
             <div class="more-detail">
             	 <h1>Important Notice</h1>
+            	 <h3>July 2018</h3>
+            	 <ul>
+            	 	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-july-php-minor"><span>July 16</span> PHP Minor Version + Xdebug Update Notice<i class="icon icon-update"></i></a>
+							<section>
+								<p>In August 2018, Azure App Services will stack update PHP to the latest version. For information about changes in the latest version, please see the change logs on the PHP website.</p>
+								<table cellpadding="0" cellspacing="0" width="100%">
+			                        <tr>
+			                            <th align="left"><strong>PHP Versions</strong></th>
+			                            <th align="left"><strong>Change Logs</strong></th>
+			                        </tr>
+			                        <tr>
+			                            <td>7.1.19</td>
+			                            <td><a target="_blank" href="http://www.php.net/ChangeLog-7.php#7.1.19" id="service-fabric_year_2018-july_php#7.1.19">http://www.php.net/ChangeLog-7.php#7.1.19</a></td>
+			                        </tr>
+			                        <tr>
+			                            <td>7.2.7</td>
+			                            <td><a target="_blank" href="http://www.php.net/ChangeLog-7.php#7.2.7" id="service-fabric_year_2018-july_php#7.2.7">http://www.php.net/ChangeLog-7.php#7.2.7</a></td>
+			                        </tr>
+			                    </table>
+			                    <p>We will also update the Xdebug binary files, which will include adding Xdebug support for PHP versions 7.1 and 7.2.</p>
+			                    <table cellpadding="0" cellspacing="0" width="100%">
+			                        <tr>
+			                            <th align="left"><strong>PHP Versions</strong></th>
+			                            <th align="left"><strong>Xdebug Path</strong></th>
+			                        </tr>
+			                        <tr>
+			                            <td>5.6</td>
+			                            <td>D:\devtools\xdebug\2.5.5\php_5.6\php_xdebug-2.5.5-5.6-vc11-nts.dll</td>
+			                        </tr>
+			                        <tr>
+			                            <td>7.0 x86</td>
+			                            <td>D:\devtools\xdebug\2.6.0\php_7.0\php_xdebug-2.6.0-7.0-vc14-nts.dll</td>
+			                        </tr>
+			                        <tr>
+			                            <td>7.0 x64</td>
+			                            <td>D:\devtools\xdebug\2.6.0\php_7.0\php_xdebug-2.6.0-7.0-vc14-nts-x86_64.dll</td>
+			                        </tr>
+			                        <tr>
+			                            <td>7.1 x86 (new)</td>
+			                            <td>D:\devtools\xdebug\2.6.0\php_7.1\php_xdebug-2.6.0-7.1-vc14-nts.dll</td>
+			                        </tr>
+			                        <tr>
+			                            <td>7.1 x64 (new)</td>
+			                            <td>D:\devtools\xdebug\2.6.0\php_7.1\php_xdebug-2.6.0-7.1-vc14-nts-x86_64.dll</td>
+			                        </tr>
+			                        <tr>
+			                            <td>7.2 x86 (new)</td>
+			                            <td>D:\devtools\xdebug\2.6.0\php_7.2\php_xdebug-2.6.0-7.2-vc15-nts.dll</td>
+			                        </tr>
+			                        <tr>
+			                            <td>7.2 x64 (new)</td>
+			                            <td>D:\devtools\xdebug\2.6.0\php_7.2\php_xdebug-2.6.0-7.2-vc15-nts-x86_64.dll</td>
+			                        </tr>
+			                    </table>
+			                    <p>Please note that the paths for xdebug.dll will be updated to the paths in the image above. We will delete the old xdebug.dll paths, including:</p>
+			                    <p>Xdebug paths to be deleted:</p>
+			                    <p>D:\devtools\xdebug\2.4.0\php_5.4\php_xdebug-2.4.0-5.4-vc9-nts.dll</p>
+			                    <p>D:\devtools\xdebug\2.4.0\php_5.5\php_xdebug-2.4.0-5.5-vc11-nts.dll</p>
+			                    <p>D:\devtools\xdebug\2.4.0\php_5.6\php_xdebug-2.4.0-5.6-vc11-nts.dll</p>
+			                    <p>D:\devtools\xdebug\2.4.0\php_7.0\php_xdebug-2.4.0-7.0-vc14-nts-x86_64.dll</p>
+			                    <p>D:\devtools\xdebug\2.4.0\php_7.0\php_xdebug-2.4.0-7.0-vc14-nts.dll</p>
+			                    <p>For more information about how to use the right version of Xdebug for your version of PHP, see the <a target="_blank" id="service-fabric_year_2018-july_ms-blog-troubleshooting-php-performance-in-microsoft-azure-web-sites-with-xdebug" href="//blogs.msdn.microsoft.com/waws/2014/04/04/troubleshooting-php-performance-in-microsoft-azure-web-sites-with-xdebug/">Xdebug Blog</a>.</p>
+							</section>
+						</div>
+					</li>
+            	 </ul>
             	 <h3>June 2018</h3>
             	 <ul>
             	 	<li>
@@ -52,7 +121,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-jan_cpu"><span>January 6</span> Protecting Azure’s Clients from the Threat of CPU Security Vulnerabilities<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-jan_cpu"><span>January 6</span> Protecting Azure Clients from the Threat of CPU Security Vulnerabilities</a>
 							<section>
 								<p>An update to repair a CPU hardware-based security vulnerability of extensive impact has been completely deployed in all regions across China. The Azure infrastructure has been updated on the virtualization engine level this time. We advise you to continue to use best security practices when it comes to Virtual Machine imaging. Maintaining the security of our users is always our primary mission. Thank you very much for your understanding and cooperation during this update.</p>
 								<p>For more information, please visit <a href="/blog/2018/01/04/Securing-Azure-customers-from-CPU-vulnerability" id="what-is-new-2018-1-4_blog-Securing-Azure-customers-from-CPU-vulnerability">Azure’s blog articles</a>.</p>
