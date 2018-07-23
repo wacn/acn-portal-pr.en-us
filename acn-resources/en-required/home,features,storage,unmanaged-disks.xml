@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2017-09-06T07:49:24" updateDate="2018-07-02T10:41:59" urlName="storage-unmanaged-disks" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="storage-unmanaged-disks-page-blobs" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: storage-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/storage.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/storage@2x.png" />
+                        <h2>Disk Storage <span>Disk Storage</span></h2>
+                        <h4>Options that support virtual machine disk durability and security</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="storage_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="storage_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: storage-TopBanner --> <!-- BEGIN: storage-Content -->
+            <div class="pricing-page-section">
+                <p>Azure Disk Storage can provide durability, availability, and security no matter the requirement, for a high degree of availability for any critical workload or cost effective options for testing. For I/O intensive apps (where low-latency and high-throughput are critical), select Premium Disk Storage (SSD). To test the need for rapid expansion and scaling, you can reliably select Standard Disk Storage (HDD) for lower costs.</p>
+            </div>
+            <div class="pricing-page-section">
+				<div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <svg style="display:none; visibility:hidden;"><defs><symbol id="svg-management-storage" viewBox="0 0 172.364 123.898"> <path d="M85.657,111.821c-.077,0-.143.018-.219.02A12.608,12.608,0,0,0,64.757,99.164,16.55,16.55,0,0,0,32.3,101.972c-.138-.025-.274-.046-.412-.066a12.587,12.587,0,0,0-20.477,5.247A8.6,8.6,0,1,0,8.6,123.884H28.751a11.176,11.176,0,0,0,1.636.121h55.27a6.092,6.092,0,1,0,0-12.184Z" fill="#cbebf5"/> <path d="M82.722,43.079l.168-.031a9.906,9.906,0,0,0-1.712-19.663l-.1,0c.056-.63.087-1.266.087-1.909a21.476,21.476,0,0,0-41.839-6.827,14.677,14.677,0,1,0-4.8,28.548H82.044l-.01-.034c.209-.017.416-.042.62-.075Z" fill="#cbebf5" opacity="0.8"/> <path d="M165.614,84.938l.077-.014a4.515,4.515,0,0,0-.779-8.962h-.046c.025-.287.04-.578.04-.87a9.789,9.789,0,0,0-19.07-3.112,6.69,6.69,0,1,0-2.187,13.012H165.3l0-.015c.1-.008.189-.019.282-.034Z" fill="#cbebf5" opacity="0.8"/> <path d="M51.814,108.828a3.5,3.5,0,0,0,3.484,3.494h87.283a3.5,3.5,0,0,0,3.494-3.494l.008-62.48H51.814Z" fill="#a0a1a2"/> <path d="M142.589,32.023H55.3a3.5,3.5,0,0,0-3.484,3.5V46.35H146.08l0-10.832a3.506,3.506,0,0,0-3.495-3.5" fill="#7a7a7a"/> <rect x="58.792" y="52.974" width="38.404" height="24.429" fill="#0072c6"/> <rect x="58.792" y="80.893" width="38.404" height="24.449" fill="#0072c6"/> <rect x="100.692" y="52.974" width="38.365" height="24.429" fill="#fff"/> <rect x="100.692" y="80.893" width="38.365" height="24.449" fill="#0072c6"/> <path d="M55.6,31.975a3.785,3.785,0,0,0-3.785,3.784v72.813a3.788,3.788,0,0,0,3.785,3.786h4.125l74.318-80.383Z" fill="#fff" opacity="0.2"/> </symbol> </defs></svg><svg aria-hidden="true" role="presentation" style="    max-width: 100%;"><use xlink:href="#svg-management-storage"></use></svg>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Simple management</h2>
+                        <p>Designate a storage type (SSD or HDD) and disk size to create a Managed Disks and Azure will create and manage the disk for you.</p>
+                        <p><a href="/home/features/storage/managed-disks/">Overview of Managed Disks</a></p>
+                    </div>
+                </div>
+
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/unmanaged-disks-durability.png" />
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Highly durable, available, and secure</h2>
+                        <p>Azure Disks are 99.999% available. Your data will have three copies and be highly durable, allowing the user peace of mind. If one or two copies have problems, the remaining copy will help ensure data durability and high tolerance for errors. This structure helps Azure to continue to provide enterprise level durability for IaaS disks, with an annualized fault rate of 0%, reaching industry-leading levels. Encryption is also used to automatically protect static data.</p>
+                    </div>
+                </div>
+
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/unmanaged-disks-why-choose.png" />
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Why choose Azure Disk Storage?</h2>
+                        <p>Not all cloud disk storage is the same. Azure provides:</p>
+                        <p>1. Certified direct migration - Azure SQL Database, Microsoft Dynamics AX, Microsoft Dynamics CRM, Microsoft Exchange Server, and Microsoft SharePoint with Premium Disk Storage have all already been inspected and verified for trustworthy and fully integrated deployment solutions.</p>
+                        <p>2. Cache-enhanced features - when using Premium Disk Storage and DS series Virtual Machines, unique caching features reduce latency and improve functionality.</p>
+                        <p>3. Cross-Platform - supports Linux and trusted Microsoft solutions for end-to-end integration providing verified options for customers.</p>                           
+                    </div>
+                </div>
+
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/unmanaged-disks-simple-scaling.png" />
+                    </div>
+                    <div class="col-md-9">
+                        <h2>On-demand, effortless extension</h2>
+                        <p>Will migrate local enterprise apps to the cloud so that you can eliminate hardware and infrastructure management tasks. Expand and scale virtual machine storage based on your needs to respond to unexpected increases in traffic or the need to expand data storage space. Improve and transform your entire infrastructure (Windows or Linux). Get highly scalable, globally available cloud storage.</p>
+                    </div>
+                </div>
+
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/unmanaged-disks-latency.png" />
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Low-latency, high-throughput storage</h2>
+                        <p>Under conditions where functionality is paramount, use Premium Disk Storage (SSD) to achieve low-latency and high throughput. Use large-scale Azure Virtual Machines (GS series) to build a high-performance database. The user can experience as much as 80,000 IOPS and 2,000 MB of maximum disk throughput per virtual machine per second. Even cache speed is faster (this cache speed responds to high-demand enterprise workloads).</p>
+                        <p><a href="//docs.azure.cn/zh-cn/virtual-machines/windows/premium-storage/">Premium Storage Overview</a></p>
+                    </div>
+                </div>
+
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/unmanaged-disks-cost-effective.png" />
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Cost effective testing</h2>
+                        <p>Lower local costs through simple cloud extensibility that supports DevOps goals and testing workloads. If you do not need standard functions, durable data protection is in Standard Disk Storage (HDD) to start testing virtual machines as needed.</p>
+                    </div>
+                </div>
+
+            </div>
+            <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: storage-Content -->
+                          
+    
+    ]]></bodyText>
+    <pageTitle>Disk Storage - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-storage-unmanaged-disk</linkid>
+    <metaKeywords></metaKeywords>
+    <metaDescription><![CDATA[Simple, secure, and totally managed cloud file sharing]]></metaDescription>
+    <urlDisplayName>Disk Storage</urlDisplayName>
+  </TextpageLeftNav>
+</localize>
