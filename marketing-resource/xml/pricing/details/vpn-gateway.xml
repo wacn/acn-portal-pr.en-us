@@ -1,122 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?>
 <localize>
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="758a9fc16b9a6c250db25878c922cde0aa35d434" />
+    <Meta Name="ms.sourcegitcommit" Value="69721383fbc1d79356c6e97ea28fefa74ac963ab" />
+    <Meta Name="ms.translationtype" Value="HT" />
+    <Meta Name="ms.contentlocale" Value="en-US" />
+    <Meta Name="ms.lasthandoff" Value="02/01/2018" />
+    <Meta Name="ms.locfileid" Value="28949551" />
+  </Metadata>
   <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2016-07-05T09:41:59" urlName="vpn-gateway" writerName="content" creatorName="content">
     <bodyText><![CDATA[
-      
-            <tags ms.service="vpn-gateway" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <tags ms.service="vpn-gateway" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <!-- BEGIN: Product-Detail-TopBanner -->
             <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//resource.cdn.azure.cn/marketing-resource/css/vpn-gateway.png','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//resource.cdn.azure.cn/marketing-resource/css/vpn-gateway@2x.png" />
-                        <h2><span>VPN Gateway</span></h2>
-                        <h4>Can link your infrastructure to the cloud, creating secure cross-boundary linkages.</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_vpn_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vpn_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>VPN 网关<span>VPN Gateway</span></h2>
+                        <h4>将基础结构连接到云，创建安全的跨界连接。</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_vpn_trial">申请试用<i class="icon icon-arrow-right-thin"></i></a></em>
+                        <a href="/pricing/pia/" id="home_vpn_pia">立即购买<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>You can establish a safe crossover connection in virtual networks between Azure and a local IT infrastructure through the Azure VPN Gateway.</p>
+                <p>通过 Azure VPN 网关，你可以在 Azure 和本地 IT 基础结构内的虚拟网络之间创建安全的跨界连接。</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
                 <!-- BEGIN: TAB-CONTAINER-1 -->
                 <div class="tab-control-container tab-active" id="tabContent1">
                     <!-- BEGIN: Table1-Content-->
-                    <h2>Pricing Details</h2>
-                    <h3>VPN Gateway</h3>
-                    <p>Setting up the virtual network is free. However, we will charge for the VPN Gateway connected to the virtual networks at local and Azure. This fee is based on the configurations and time providing the gateway.</p>
+                    <h2>定价详细信息</h2>
+                    <h3>VPN 网关</h3>
+                    <p>设置虚拟网络是免费的。但是，我们会对连接到本地和 Azure 中其他虚拟网络的 VPN 网关收费。此费用基于设置和提供网关的时间量。</p>
                    
                     <div class="tags-date">
-                        <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*以下价格均为含税价格。</div><br />
+                        <div class="ms-date">*每月价格估算基于每个月 744 小时的使用量。</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                     <tr>
-                        <th align="left"><strong>VPN Gateway type</strong></th>
-                        <th align="left"><strong>Price per hour</strong></th>
-						<th align="left"><strong>Bandwidth</strong></th>
-						<th align="left"><strong>S2S Tunnel</strong></th>
+                        <th align="left"><strong>VPN 网关类型</strong></th>
+                        <th align="left"><strong>每小时价格</strong></th>
+						<th align="left"><strong>带宽</strong></th>
+						<th align="left"><strong>S2S 隧道</strong></th>
 						<!-- <th align="left"><strong>P2S 隧道</strong></th> -->
                     </tr>
                     <tr>
-                        <td>Basic</td>
-                        <td>￥ 0.25 every gateway/hour</br>(about ￥ 186.00 /month)</td>
+                        <td>基本</td>
+                        <td>￥0.25 每个网关/小时</br>（约￥186.00 /月）</td>
 						<td>100 Mbp</td>
-						<td>10 at most</br>1-10: included</td>
+						<td>最多 10</br>1-10：内附</td>
 						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
                     </tr>
 					<tr>
                         <td>VpnGw1<sup style="color:#e66102; font-weight: bold">new</sup></td>
-                        <td>￥ 1.1914 every gateway/hour</br>(about ￥ 885.4016 /month)</td>
+                        <td>￥1.1914 每个网关/小时</br>（约￥885.4016 /月）</td>
 						<td>650 Mbp</td>
-						<td>30 at most</br>1-10: included</br>11-30: ￥ 0.0945/every tunnel</td>
+						<td>最多 30</br>1-10：内附</br>11-30: ￥0.0945/每隧道</td>
 						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
                     </tr>
                     <tr>
                         <td>VpnGw2<sup style="color:#e66102; font-weight: bold">new</sup></td>
-                        <td>￥ 3.1276 every gateway/hour</br>(about ￥ 2,326.9344 /month)</td>
+                        <td>￥3.1276 每个网关/小时</br>（约￥2,326.9344 /月）</td>
 						<td>1 Gbps</td>
-						<td>30 at most</br>1-10: included</br>11-30: ￥ 0.0945/every tunnel</td>
+						<td>最多 30</br>1-10：内附</br>11-30: ￥0.0945/每隧道</td>
 						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
                     </tr>
                     <tr>
                         <td>VpnGw3<sup style="color:#e66102; font-weight: bold">new</sup></td>
-                        <td>￥ 7.95 every gateway/hour</br>(about ￥ 5,914.8 /month)</td>
+                        <td>￥7.95 每个网关/小时</br>（约￥5,914.8 /月）</td>
 						<td>1.25 Gbps</td>
-						<td>30 at most</br>1-10: included</br>11-30: ￥ 0.0945/every tunnel</td>
+						<td>最多 30</br>1-10：内附</br>11-30: ￥0.0945/每隧道</td>
 						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
                     </tr>
                     </table>                    
 					
-					<h3>ExpressRoute Gateway</h3>
-                    <p>The ExpressRoute Gateway is required, so that the VNET can be visited while using the ExpressRoute.</p>
+					<h3>ExpressRoute 网关</h3>
+                    <p>需要 ExpressRoute 网关，才可在使用 ExpressRoute 线路时访问 VNET。</p>
                    
                     <div class="tags-date">
-                        <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+                        <div class="ms-date">*以下价格均为含税价格。</div><br />
+                        <div class="ms-date">*每月价格估算基于每个月 744 小时的使用量。</div>
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                     <tr>
-                        <th align="left"><strong>Types of Gateways</strong></th>
-                        <th align="left"><strong>Price per hour</strong></th>
-                        <th align="left"><strong>Bandwidth (up to)</strong></th>
+                        <th align="left"><strong>网关类型</strong></th>
+                        <th align="left"><strong>每小时价格</strong></th>
+                        <th align="left"><strong>带宽（高达）</strong></th>
                     </tr>
                     <!-- <tr>
                         <td>基本 ExpressRoute 网关</td>
                         <td>￥0.25 每个网关/小时（约￥186.00 /月）</td>
                     </tr> -->
                     <tr>
-                        <td>Standard ExpressRoute Gateway</td>
-                        <td>￥ 1.19 every gateway/hour (about ￥ 885.36/month)</td>
+                        <td>标准 ExpressRoute 网关</td>
+                        <td>￥1.19 每个网关/小时（约￥885.36 /月）</td>
                         <td>1 Gbps</td>
                     </tr>
                     <tr>
-                        <td>High-performance ExpressRoute Gateway</td>
-                        <td>￥ 3.13 every gateway/hour (about ￥ 2,328.72 / per month)</td>
+                        <td>高性能 ExpressRoute 网关</td>
+                        <td>￥3.13 每个网关/小时（约￥2,328.72 /月）</td>
                         <td>2 Gbps</td>
                     </tr>
 					<tr>
-                        <td>Ultra High Performance ExpressRoute Gateway</td>
-                        <td>￥ 11.91 every gateway/hour (about ￥ 8,861.04/ per month)</td>
+                        <td>超高性能 ExpressRoute 网关</td>
+                        <td>￥11.91 每个网关 / 小时（约￥8,861.04 / 月）</td>
                         <td>9 Gbps</td>
                     </tr>
                     </table>
-                    <p>For technical specifications and limits for different VPN Gateways, please refer to the <a id="Virtual_Network_price_vpn" style="color: #00a8d9;" href="https://docs.azure.cn/vpn-gateway/vpn-gateway-about-vpngateways/" target="_blank">Information on VPN Gateways</a>, and provide the following discounts for Inter-VNET charges (previously, it was charged according to the standard <a id="Virtual_Network_price_sjcs" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a> rate).</p>
-                    <!-- END: Table1-Content--> <!-- BEGIN: Table2-Content-->
-                    <h3>Inbound Inter-virtual network data transfers</h3>
-                    <p>Inbound data between two virtual networks in one area: free</p>
-                    <p>Inbound data between virtual networks in two different areas (East China Data Center and North China Data Center): free</p>
-                    <!-- END: Table2-Content--> <!-- BEGIN: Table3-Content-->
+                    <p>关于不同 VPN 网关的技术规范和限制，请参阅<a id="Virtual_Network_price_vpn" style="color: #00a8d9;" href="https://docs.azure.cn/vpn-gateway/vpn-gateway-about-vpngateways/" target="_blank">关于 VPN 网关</a>，虚拟网络间收费现在提供下面所列的折扣（以前按标准<a id="Virtual_Network_price_sjcs" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">数据传输</a>费率进行收费）。</p>
+                    <!-- END: Table1-Content-->
+                    <!-- BEGIN: Table2-Content-->
+                    <h3>入站虚拟网络间数据传输</h3>
+                    <p>数据传入发生在同一区域内的两个虚拟网络之间：免费</p>
+                    <p>数据传入发生在两个不同区域（中国东部数据中心 , 中国北部数据中心）内的虚拟网络之间：免费</p>
+                    <!-- END: Table2-Content-->
+                    <!-- BEGIN: Table3-Content-->
                     
-                    <h3>Outbound Inter-virtual network data transfers</h3>
-                    <p>Outbound data between two virtual networks in one area: free</p>
-                    <p>Outbound data between virtual networks in two different areas (China East and China North): ￥ 0.16/GB</p>
-                    <!-- END: Table3-Content--> <!-- BEGIN: Table4-Content-->
+                    <h3>出站虚拟网络间数据传输</h3>
+                    <p>数据传出发生在同一区域内的两个虚拟网络之间：免费</p>
+                    <p>数据传出发生在两个不同区域（中国东部数据中心 , 中国北部数据中心）内的虚拟网络之间：￥0.16 /GB</p>
+                    <!-- END: Table3-Content-->
+                    <!-- BEGIN: Table4-Content-->
                     
-                    <h3>Outgoing P2S (point-to-site) VPN data transfer</h3>
-                    <p>(That is, data is transferred out of the Azure virtual network through P2S VPN):</p>
-                    <p>The data transferred out of the Azure virtual network through the P2S VPN will be charged in accordance with standard <a id="Virtual_Network_price_sjcs1" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a> rates.</p>
+                    <h3>出站 P2S（点到站点）VPN 数据传输</h3>
+                    <p>（也即，数据通过 P2S VPN 离开 Azure 虚拟网络）：</p>
+                    <p>通过 P2S VPN 传输出 Azure 虚拟网络的数据将以标准<a id="Virtual_Network_price_sjcs1" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">数据传输</a>费率收费。</p>
                     <!-- END: Table4-Content-->
                 </div>
                 <!-- END: TAB-CONTAINER-1 -->
@@ -125,15 +136,15 @@
           
             <div class="pricing-page-section">
                 <div class="more-detail">
-                    <h2>FAQ</h2>
-                    <em>Expand All</em>
+                    <h2>常见问题</h2>
+                    <em>全部展开</em>
                     <ul>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Virtual_Network_less-hour">Is a usage of less than 1 hour charged for 1 hour?</a>
+                                <a id="Virtual_Network_less-hour">是否不足 1 小时按 1 小时计费？</a>
                                 <section>
-                                    <p>Yes. the usage less than 1 hour will be charged for 1 hour.</p>
+                                    <p>可以。不足 1 小时按 1 小时计费。</p>
                                 </section>
 
                             </div>
@@ -141,9 +152,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Virtual_Network_vpn-connection">Will the data transfer in the VPN connection be charged separately?</a>
+                                <a id="Virtual_Network_vpn-connection">VPN 连接上的数据传输是否单独收费？</a>
                                 <section>
-                                    <p>Yes. Data transfer between two virtual networks is charged at the Inter-VNET rates listed above. And other data transfer with your local site or normal Internet site through VPN connection is charged separately in accordance with standard <a id="Virtual_Network_price_sjcs2" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">data transfer</a> rates.</p>
+                                    <p>可以。在两个虚拟网络之间进行的数据传输按上面列出的虚拟网络间费率收费。与你的本地站点或普通 Internet 站点之间通过 VPN 连接进行的其他数据传输按正常的<a id="Virtual_Network_price_sjcs2" style="color: #00a8d9;" href="/pricing/details/data-transfer/" target="_blank">数据传输</a>费率单独收费。</p>
                                 </section>
 
                             </div>
@@ -151,9 +162,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Virtual_Network_data-transmission"> Is the Inter-VNET transfer charged at the rates of the source region or the destination region? </a>
+                                <a id="Virtual_Network_data-transmission">虚拟网络间的数据传输是根据源区域还是目标区域的费率收费？</a>
                                 <section>
-                                    <p>It is similar to the standard data transfer charge, and Inter-VNET data transfer is charged at the rates of the source region.</p>
+                                    <p>与标准的数据传输收费模式类似，虚拟网络间的数据传输根据源区域的费率收费。</p>
                                 </section>
 
                             </div>
@@ -161,9 +172,9 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Virtual_Network_same-area">Will a Inter-VNET data transfer in the same region be charged? </a>
+                                <a id="Virtual_Network_same-area">位于同一区域中的虚拟网络之间的数据传输是否会收费？</a>
                                 <section>
-                                    <p>No, it will not. It is similar to the standard data transfer charge, and Inter-VNET data transfer is charged at the rates of the source region, except P2S VPN.</p>
+                                    <p>不会。与标准的数据传输收费模式类似，虚拟网络间的数据传输根据源区域的费率收费，除了 P2S VPN。</p>
                                 </section>
 
                             </div>
@@ -171,11 +182,11 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Virtual_Network_vpn-tunnel">How many site-to-site VPN tunnels can a VPN gateway support? </a>
+                                <a id="Virtual_Network_vpn-tunnel">VPN 网关可以支持多少个站点到站点 VPN 隧道？</a>
                                 <section>
-                                    <p>Static-routing VPN Gateway: 1</p>
-                                    <p>Dynamic-routing VPN Gateway: 10</p>
-                                    <p>High-performance VPN Gateway: 30</p>
+                                    <p>静态路由 VPN 网关：1</p>
+                                    <p>动态路由 VPN 网关：10</p>
+                                    <p>高性能 VPN 网关：30</p>
                                 </section>
 
                             </div>
@@ -184,32 +195,37 @@
                 </div>
             </div>
             <div class="pricing-page-section">
-                <h2>Region</h2>
-                <p>The VPN Gateway is available in the following regions:</p>
+                <h2>上市地区</h2>
+                <p>VPN 网关在以下区域中提供：</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
                     <tr>
-                        <th align="left"><strong>Territory</strong></th>
-                        <th align="left"><strong>Region</strong></th>
+                        <th align="left"><strong>地域</strong></th>
+                        <th align="left"><strong>区域</strong></th>
                     </tr>
                     <tr>
-                        <td>Mainland China</td>
-                        <td>China North, China East</td>
+                        <td>中国大陆</td>
+                        <td>中国东部数据中心 , 中国北部数据中心</td>
                     </tr>
                 </table>
                 
                  <div class="pricing-page-section">
-                <h2>Support &amp; SLA</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="vpn-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-				 <p>We guarantee at least 99.9% availability of the basic gateway of each VPN or ExpressRoute, 99.95% availability of the standard gateway of each VPN or ExpressRoute, and 99.95% availability of the high-performance gateway of each VPN or ExpressRoute. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/vpn-gateway/" id="vpn_authentication_sla">Service Level Agreements</a> page.</p>
+                <h2>支持和服务级别协议</h2>
+                <p>如有任何疑问或需要帮助，请访问<a href="/support/contact/" id="vpn-contact-page">Azure 支持</a>选择自助服务或者其他任何方式联系我们获得支持。</p>
+				 <p>我们保证每个 VPN 或 ExpressRoute 的基本网关均具有 99.9% 的可用性。 我们保证每个 VPN 或 ExpressRoute 的标准网关均具有 99.95% 的可用性。 我们保证每个 VPN 或 ExpressRoute 的高性能网关均具有 99.95% 的可用性。若要了解有关我们的服务器级别协议的详细信息，请访问<a href="/support/sla/vpn-gateway/" id="vpn_authentication_sla">服务级别协议</a>页。</p>
                 </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                            
-    
+                <!--BEGIN: Support and service code chunk-->
+                <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />-->
+                <!--END: Support and service code chunk-->
+              
+            <!--BEGIN: Support and service code chunk-->
+            <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />                                                                       
+            <!--END: Support and service code chunk-->                                                                            
     ]]></bodyText>
-    <pageTitle>VPN Gateway Pricing - Azure Cloud Computing</pageTitle>
+    <pageTitle>VPN网关定价 - Azure云计算</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-vpn-gateway</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Network, Virtual Network, Azure VPN Gateway, Virtual Private Network, Site-to-Site, VPN, IP Address, DNS, Ipsec and ExpressRoute</metaKeywords>
-    <metaDescription><![CDATA[About pricing details for the Azure VPN Gateway. The VPN Gateway can connect the basic structure to the cloud. Its free for setting up virtual networks. The VPN Gateway can provide different pricing for the Basic, Standard, and Premium VPN Gateway or ExpressRoute Gateway. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
-    <urlDisplayName>Pricing Details - VPN Gateway</urlDisplayName>
+    <metaKeywords>Azure, 微软云, 网络, 虚拟网络, Azure VPN 网关, Azure VPN Gateway, 虚拟专用网络, 点到站点, VPN, IP 地址, DNS, Ipsec, ExpressRoute</metaKeywords>
+    <metaDescription><![CDATA[了解 Azure VPN 网关（Azure VPN Gateway）的价格详情，VPN 网关可以将基础结构连接到云。设置虚拟网络是免费的。VPN 网关提供基本、标准和高性能 VPN 或 ExpressRoute 网关的不同定价。1元试用即获1500元人民币的服务使用额度，也可直接购买成为 Azure 预付费客户，尽享最高 99.99% 的服务级别协议。]]></metaDescription>
+    <urlDisplayName>价格详情 - VPN 网关</urlDisplayName>
   </TextpageLeftNav>
 </localize>

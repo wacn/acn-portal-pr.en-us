@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
 <localize>
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="528be118b776fa9388a1ccbb19599c75316dba46" />
+    <Meta Name="ms.sourcegitcommit" Value="69721383fbc1d79356c6e97ea28fefa74ac963ab" />
+    <Meta Name="ms.translationtype" Value="HT" />
+    <Meta Name="ms.contentlocale" Value="en-US" />
+    <Meta Name="ms.lasthandoff" Value="02/01/2018" />
+    <Meta Name="ms.locfileid" Value="28949496" />
+  </Metadata>
   <umbTextpage template="21" createDate="2017-12-04T11:20:07" updateDate="2017-12-04T11:34:25">
     <bodyText><![CDATA[
-    
         <p><tags
             ms.service="public-security-registration"
             ms.workload=""
@@ -13,28 +19,25 @@
             wacn.date="03/2017"
             wacn.lang="cn" 
             ms.author="will"/></p>
-        <h1>Public Security Filing</h1><div class="tags-date"><div class="wacn-date">Last updated: March 2017</div></div>
-        <h2>Why we have to register</h2>
-        <p>“Administrative Measures for the Security Protection of Computer Information Networks Linked to the Internet” (Ministry of Public Security Decree 33) approved and issued by the State Council stipulates that:
+        <h1>公安备案</h1><div class="tags-date"><div class="wacn-date">最后更新时间：2017年03月</div></div>
+        <h2>为什么要备案</h2>
+        <p>由国务院批准发布的《计算机信息网络国际联网安全保护管理办法》（公安部第 33 号令）中规定：
         </br>
         </br>
-        Article 11 A Users shall fill in the user registration form when going through the formalities of accessing the network at the receiving institution. The user registration form shall be prepared under the supervision of the Ministry of Public Security.
+        第十一条 用户在接入单位办理入网手续时，应当填写用户备案表。备案表由公安部监制。
         </br>
         </br>
-        Article 12 interconnected and access units, legal persons and other organizations that use the international network of computer information networks (including cross-province, cross-autonomous region and cross-municipality directly under Central Government interconnected units and their branches) should go through the formalities of registering at the processing agencies designated by the public security organs of the governments of the provinces, autonomous regions and municipalities directly under the Central Government wherein the units are located within 30 days starting from the date of formal connection of the network.
+        第十二条 互联单位、接入单位、使用计算机信息网络国际联网的法人和其他组织（包括跨省、自治区、直辖市联网的单位和所属的分支机构），应当自网络正式联通之日起三十日内，到所在地的省、自治区、直辖市人民政府公安机关指定的受理机关办理备案手续。
         </br>
         </br>
-        The institutions listed in the preceding article shall be responsible for registering information on the access units and users connecting to the network to local public security organizations and report changes in the access units and users connecting to this network in a timely manner.</p>
-    
+        前款所列单位应当负责将接入本网络的接入单位和用户情况报当地公安机关备案，并及时报告本网络中接入单位和用户的变更情况。</p>
     ]]></bodyText>
     <umbracoNaviHide>0</umbracoNaviHide>
-    <pageTitle>Public Security Filing | Azure</pageTitle>
+    <pageTitle>公安备案 | Azure</pageTitle>
     <metaKeywords></metaKeywords>
     <metaDescription><![CDATA[
-        
-            Reasons for Public Security Filing
-            
-    ]]></metaDescription>
+            公安备案原因
+        ]]></metaDescription>
     <linkid>0</linkid>
     <urlDisplayName></urlDisplayName>
     <headerExpose></headerExpose>
@@ -46,7 +49,6 @@
     <localize>1</localize>
     <localizePartial>0</localizePartial>
     <sitemapHide>0</sitemapHide>
-    <banner>
-    </banner>
+    <banner></banner>
   </umbTextpage>
 </localize>
