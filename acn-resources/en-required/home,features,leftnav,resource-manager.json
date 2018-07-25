@@ -1,0 +1,39 @@
+{"service": "Azure Resource Manager", 
+"id": "leftnav_product_resource-manager", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_resource-manager_details", 
+	"articles": 
+		[
+			{"link": "/home/features/resource-manager/", 
+			"id": "leftnav_product_resource-manager", 
+			"title": "Product overview"},
+			{"link": "//docs.azure.cn/zh-cn/azure-resource-manager/", 
+			"id": "leftnav_product_resource-manager", 
+			"title": "Documentation"}
+		]
+	},
+	{"group": "Related Documentation and Links", 
+	"id": "leftnav_product_iot-hub_others", 
+	"articles": 
+		[
+			{"link": "//docs.azure.cn/zh-cn/azure-resource-manager/resource-group-overview/", 
+			"id": "leftnav_resource-manager_resource-manager-overview", 
+			"title": "Azure Resource Manager Overview"},
+			{"link": "//docs.azure.cn/zh-cn/azure-resource-manager/resource-manager-supported-services/", 
+			"id": "leftnav_resource-manager_resource-manager-supported-services", 
+			"title": "Resource providers and types"},
+			{"link": "//docs.azure.cn/zh-cn/azure-resource-manager/resource-group-portal/", 
+			"id": "leftnav_resource-manager_resource-group-portal", 
+			"title": "Manage Azure resources through portal"},
+			{"link": "//docs.azure.cn/zh-cn/azure-resource-manager/resource-group-using-tags/", 
+			"id": "leftnav_resource-manager_resource-group-using-tags", 
+			"title": "Using tagging to organize Azure resources"},
+			{"link": "//docs.azure.cn/zh-cn/azure-resource-manager/resource-manager-vscode-extension/", 
+			"id": "leftnav_resource-manager_resource-manager-vscode-extension", 
+			"title": "Using Visual Studio Code extension to create Azure Resource Manager templates"}
+		]
+	}
+]
+}
