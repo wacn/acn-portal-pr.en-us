@@ -5311,7 +5311,6 @@
                     }]
                 }]
                 }
-
             ]
         },          
 
@@ -7298,7 +7297,7 @@
                 }]
             },
             {
-                "Name": "Additonal storage",
+                "Name": "Extra storage",
                 "Features": [{
                     "Name": "default",
                     "PricePeriod": "PricePeriodEnum.Monthly",
@@ -7307,13 +7306,13 @@
                     "MaxUnit": "100",
                     "Sizes": [{
                         "Name": "Standard",
-                        "Description": "Additonal storage – Standard",
+                        "Description": "Extra storage – Standard",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.5406"
                     },
                     {
                         "Name": "Premium level and Premium RS",
-                        "Description": "Additonal storage – Premium and Premium RS",
+                        "Description": "Extra storage – Premium and Premium RS",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.0812"
                     }]
@@ -7653,7 +7652,7 @@
                 }]
             },
             {
-                "Name": "Additonal storage",
+                "Name": "Extra storage",
                 "Features": [{
                     "Name": "default",
                     "PricePeriod": "PricePeriodEnum.Monthly",
@@ -7662,13 +7661,13 @@
                     "MaxUnit": "100",
                     "Sizes": [{
                         "Name": "Standard",
-                        "Description": "Additonal storage – Standard",
+                        "Description": "Extra storage – Standard",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.5406"
                     },
                     {
                         "Name": "Premium level and Premium RS",
-                        "Description": "Additonal storage – Premium and Premium RS",
+                        "Description": "Extra storage – Premium and Premium RS",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.0812"
                     }]
@@ -8371,6 +8370,604 @@
                         "Description": "CalculatorConst.mysqlMP2SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "12.02"
+                    }]
+                }]
+            }]
+        },
+        "azure-database-for-mysql": {
+            "Name": "Azure Database for MySQL",
+            "Types": [{
+                "Name": "Basic",
+                "Features": [{
+                    "Name": "Compute - Gen 4",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 1",
+                        "Description": "1 vCore",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.2699"
+                    },
+                    {
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.5398"
+                    }]
+                },
+                {
+                    "Name": "Compute - Gen 5",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 1",
+                        "Description": "1 vCore",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.2699"
+                    },
+                    {
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.5398"
+                    }]
+                },
+                {
+                    "Name": "Storage",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Storage",
+                        "Description": "Storage",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Backup",
+                        "Description": "Backup",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "I/O",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                         "Name": "I/O",
+                        "Description": "I/O",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                }]
+            },
+            {
+                "Name": "General Purpose",
+                "Features": [{
+                    "Name": "Compute - Gen 4",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.6676"
+                    },
+                    {
+                        "Name": "vCore 4",
+                        "Description": "4 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.3352"
+                    },
+                    {
+                        "Name": "vCore 8",
+                        "Description": "8 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.6704"
+                    },
+                    {
+                        "Name": "vCore 16",
+                        "Description": "16 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "5.3408"
+                    },
+                    {
+                        "Name": "vCore 32",
+                        "Description": "32 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "10.6816"
+                    }]
+                },
+                {
+                    "Name": "Compute - Gen 5",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.6676"
+                    },
+                    {
+                        "Name": "vCore 4",
+                        "Description": "4 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.3352"
+                    },
+                    {
+                        "Name": "vCore 8",
+                        "Description": "8 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.6704"
+                    },
+                    {
+                        "Name": "vCore 16",
+                        "Description": "16 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "5.3408"
+                    },
+                    {
+                        "Name": "vCore 32",
+                        "Description": "32 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "10.6816"
+                    }]
+                },
+                {
+                    "Name": "Storage",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Storage",
+                        "Description": "Storage",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.8033",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Locally redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Locally redundant",
+                        "Description": "Locally redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Geo-redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Geo-redundant",
+                        "Description": "Geo-redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "1.5875",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                }]
+            },
+            {
+                "Name": "Memory optimization",
+                "Features": [{
+                    "Name": "Compute - Gen 5",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.8748"
+                    },
+                    {
+                        "Name": "vCore 4",
+                        "Description": "4 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "3.7496"
+                    },
+                    {
+                        "Name": "vCore 8",
+                        "Description": "8 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "7.4992"
+                    },
+                    {
+                        "Name": "vCore 16",
+                        "Description": "16 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "14.9984"
+                    }]
+                },
+                {
+                    "Name": "Storage",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Storage",
+                        "Description": "Storage",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.8033",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Locally redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Locally redundant",
+                        "Description": "Locally redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Geo-redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Geo-redundant",
+                        "Description": "Geo-redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "1.5875",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                }]
+            }]
+        },
+        "azure-database-for-postgresql": {
+            "Name": "Azure Database for PostgreSQL",
+            "Types": [{
+                "Name": "Basic",
+                "Features": [{
+                    "Name": "Compute - Gen 4",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 1",
+                        "Description": "1 vCore",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.2699"
+                    },
+                    {
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.5398"
+                    }]
+                },
+                {
+                    "Name": "Compute - Gen 5",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 1",
+                        "Description": "1 vCore",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.2699"
+                    },
+                    {
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.5398"
+                    }]
+                },
+                {
+                    "Name": "Storage",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Storage",
+                        "Description": "Storage",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Backup",
+                        "Description": "Backup",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "I/O",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                         "Name": "I/O",
+                        "Description": "I/O",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                }]
+            },
+            {
+                "Name": "General Purpose",
+                "Features": [{
+                    "Name": "Compute - Gen 4",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.6676"
+                    },
+                    {
+                        "Name": "vCore 4",
+                        "Description": "4 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.3352"
+                    },
+                    {
+                        "Name": "vCore 8",
+                        "Description": "8 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.6704"
+                    },
+                    {
+                        "Name": "vCore 16",
+                        "Description": "16 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "5.3408"
+                    },
+                    {
+                        "Name": "vCore 32",
+                        "Description": "32 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "10.6816"
+                    }]
+                },
+                {
+                    "Name": "Compute - Gen 5",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.6676"
+                    },
+                    {
+                        "Name": "vCore 4",
+                        "Description": "4 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.3352"
+                    },
+                    {
+                        "Name": "vCore 8",
+                        "Description": "8 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.6704"
+                    },
+                    {
+                        "Name": "vCore 16",
+                        "Description": "16 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "5.3408"
+                    },
+                    {
+                        "Name": "vCore 32",
+                        "Description": "32 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "10.6816"
+                    }]
+                },
+                {
+                    "Name": "Storage",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Storage",
+                        "Description": "Storage",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.8033",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Locally redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Locally redundant",
+                        "Description": "Locally redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Geo-redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Geo-redundant",
+                        "Description": "Geo-redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "1.5875",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                }]
+            },
+            {
+                "Name": "Memory optimization",
+                "Features": [{
+                    "Name": "Compute - Gen 5",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.8748"
+                    },
+                    {
+                        "Name": "vCore 4",
+                        "Description": "4 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "3.7496"
+                    },
+                    {
+                        "Name": "vCore 8",
+                        "Description": "8 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "7.4992"
+                    },
+                    {
+                        "Name": "vCore 16",
+                        "Description": "16 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "14.9984"
+                    }]
+                },
+                {
+                    "Name": "Storage",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Storage",
+                        "Description": "Storage",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.8033",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Locally redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Locally redundant",
+                        "Description": "Locally redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Geo-redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Geo-redundant",
+                        "Description": "Geo-redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "1.5875",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
                     }]
                 }]
             }]
@@ -12415,7 +13012,7 @@
             "Types": [{
                 "Name": "Basic",
                 "Features": [{
-                    "Name": "default",
+                    "Name":  "default",
                     "PricePeriod": "PricePeriodEnum.Monthly",
                     "PriceUnit": "Each",
                     "MinUnit": "0",
