@@ -1,4 +1,4 @@
-{"service": "Power BI Workspace Collection", 
+{"service": "Power BI Embedded", 
 "id": "leftnav_product_power-bi-embedded", 
 "navigation": 
 [
@@ -15,7 +15,7 @@
 			{"link": "/pricing/calculator/power-bi-embedded/", 
 			"id": "leftnav_product_power-bi-embedded_calculator", 
 			"title": "Pricing calculator"},
-			{"link": "https://docs.azure.cn/zh-cn/power-bi-workspace-collections/get-started/", 
+			{"link": "//docs.azure.cn/zh-cn/power-bi-embedded/", 
 			"id": "leftnav_product_power-bi-embedded_documentation", 
 			"title": "Documentation"},
 			{"link": "/support/sla/power-bi-embedded/", 
@@ -41,30 +41,26 @@
 			"title": "SQL Database"}
 		]
 	}, 
-	{"group": "Related documentation and links", 
+	{"group": "Related Documentation and Links", 
 	"id": "leftnav_product_power-bi-embedded_others", 
 	"articles": 
 		[
 			
-			{"link": "https://docs.azure.cn/power-bi-embedded/power-bi-embedded-get-started/", 
-			"id": "leftnav_product_power-bi-embedded_articles_power-bi-embedded-get-started", 
-			"title": "Power BI Workspace Collection basics"},
+			{"link": "//docs.azure.cn/zh-cn/power-bi-embedded/what-is-power-bi-embedded/", 
+			"id": "leftnav_product_power-bi-embedded_articles_what-is-power-bi-embedded", 
+			"title": "About Power BI Embedded"},
 			
-			{"link": "https://docs.azure.cn/power-bi-embedded/power-bi-embedded-get-started-sample/", 
-			"id": "leftnav_product_power-bi-embedded_articles_power-bi-embedded-get-started-sample", 
-			"title": "Power BI Workspace Collection sample basics"},
+			{"link": "//docs.azure.cn/zh-cn/power-bi-embedded/get-started/", 
+			"id": "leftnav_product_power-bi-embedded_articles_get-started", 
+			"title": "Get started with Power BI Embedded"},
 			
-			{"link": "https://docs.azure.cn/power-bi-embedded/power-bi-embedded-what-is-power-bi-embedded/", 
-			"id": "leftnav_product_power-bi-embedded_articles_power-bi-embedded-what-is-power-bi-embedded", 
-			"title": "What is the Power BI Workspace Collection?"},
+			{"link": "//docs.azure.cn/zh-cn/articles/azure-operations-guide/power-bi-embedded/aog-power-bi-embedded-qa-creation-issue/", 
+			"id": "leftnav_product_power-bi-embedded_articles_aog-power-bi-embedded-qa-creation-issue", 
+			"title": "Register for an Azure AD app"},
 			
-			{"link": "https://docs.azure.cn/power-bi-embedded/power-bi-embedded-faq/", 
-			"id": "leftnav_product_power-bi-embedded_articles_power-bi-embedded-faq", 
-			"title": "Answers to FAQ about the Power BI Workspace Collection"},
-			
-			{"link": "https://docs.azure.cn/power-bi-embedded/power-bi-embedded-whats-new/", 
-			"id": "leftnav_product_power-bi-embedded_articles_power-bi-embedded-whats-new", 
-			"title": "New capabilities in the Power BI Workspace Collection"}
+			{"link": "//docs.azure.cn/zh-cn/power-bi-embedded/create-capacity/", 
+			"id": "leftnav_product_power-bi-embedded_articles_create-capacity", 
+			"title": "Create capacity"}
 		]
 	}
 ]
