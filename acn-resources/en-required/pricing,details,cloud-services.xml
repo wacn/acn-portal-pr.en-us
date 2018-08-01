@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="5" createDate="2016-06-29T11:30:24" updateDate="2018-07-02T16:00:00" urlName="cloud-services" writerName="content" creatorName="content">
+  <TextpageLeftNav template="5" createDate="2016-06-29T11:30:24" updateDate="2018-07-23T16:00:00" urlName="cloud-services" writerName="content" creatorName="content">
     <bodyText><![CDATA[
        
             <style>
@@ -387,7 +387,81 @@
                             <td>￥ 51.33/hour<br />(about ￥ 38,189.52/month)</td>
                         </tr>
                     </table>
-                    <!-- END: Table5-Content--> <!-- END: TAB-CONTAINER-2 -->   
+                    <!-- END: Table5-Content--> 
+                    <h3>Computing Prioritization</h3>
+                    <p>The Fv2 Virtual Machine supports 2 GiB RAM and 8 GB local temporary storage (SSD) per vCPU and has been optimized for compute intensive workloads. The F Series is hyper-threaded and based on the 2.7 GHz Intel Xeon® Platinum 8168 (SkyLake) processor, which can achieve clock speeds as high as a 3.7 GHz clock speed with Intel Turbo Boost Technology 2.0. These Virtual Machines are suitable for batch processing, Web servers, analysis and gaming programs, etc.</p>
+                    <div class="tags-date">
+                        <div class="ms-date">*The following prices are tax-inclusive.</div>
+                        <br />
+                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+                    </div>
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <th align="left"><strong>Instances</strong></th>
+                            <th align="left"><strong>vCPU</strong></th>
+                            <th align="left"><strong>RAM</strong></th>
+                            <th align="left"><strong>Temporary Storage</strong></th>
+                            <th align="left"><strong>Pricing</strong></th>
+                        </tr>
+                        <tr>
+                            <td>F2 v2</td>
+                            <td>2</td>
+                            <td>4.00 GiB</td>
+                            <td>16 GiB</td>
+                            <td>￥2.166/hour
+                                <br />(about ￥1,611.504/month)</td>
+                        </tr>
+                        <tr>
+                            <td>F4 v2</td>
+                            <td>4</td>
+                            <td>8.00 GiB</td>
+                            <td>32 GiB</td>
+                            <td>￥4.332/hour
+                                <br />(about ￥3,223.008/month)</td>
+                        </tr>
+                        <tr>
+                            <td>F8 v2</td>
+                            <td>8</td>
+                            <td>16.00 GiB</td>
+                            <td>64 GiB</td>
+                            <td>￥8.664/hour
+                                <br />(about ￥6,446.016/month)</td>
+                        </tr>
+                        <tr>
+                            <td>F16 v2</td>
+                            <td>16</td>
+                            <td>32.00 GiB</td>
+                            <td>128 GiB</td>
+                            <td>￥17.328/hour
+                                <br />(about ￥12,892.032/month)</td>
+                        </tr>
+                        <tr>
+                            <td>F32 v2</td>
+                            <td>32</td>
+                            <td>64.00 GiB</td>
+                            <td>256 GiB</td>
+                            <td>￥34.656/hour
+                                <br />(about ￥25,784.064/month)</td>
+                        </tr>
+                        <tr>
+                            <td>F64 v2</td>
+                            <td>64</td>
+                            <td>128.00 GiB</td>
+                            <td>512 GiB</td>
+                            <td>￥69.312/hour
+                                <br />(about ￥51,568.128/month)</td>
+                        </tr>
+                        <tr>
+                            <td>F72 v2</td>
+                            <td>72</td>
+                            <td>144.00 GiB</td>
+                            <td>576 GiB</td>
+                            <td>￥138.624/hour
+                                <br />(about ￥103,136.256/month)</td>
+                        </tr>
+                    </table>
+                
+                <!-- END: TAB-CONTAINER-2 -->   
             </div>
             <!-- END: TAB-CONTROL -->
             <div class="pricing-page-section">
@@ -490,7 +564,7 @@
             </div> --> 
             <div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="cloud-contact-page"> Azure Support</a> to select self-service or any other method to contact us for support.</p>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="cloud-contact-page"> Azure Support</a> to select self-service or any other methods to contact us for support.)</p>
 				 <p>For Cloud Services, we guarantee that when you deploy two or more role instances in different fault domains and upgrade domains, Internet-facing roles will be able to establish external connections at least 99.95% of the time. If you want to learn more about the details of our Service Level Agreement, please visit the <a id="prricing_cloud_sla" style="color: #00a8d9;" href="/support/sla/cloud-services/">Service Level Agreement</a> page.</p>
             </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                              

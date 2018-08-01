@@ -74,6 +74,9 @@
             </div>
             <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
             <div class="pricing-page-section">
+                <div width="100%" style="background-color:#e5f1fb;margin-bottom:20px;border: 1px solid transparent;border-color: rgba(0,120,215,0.5);padding: 0 15px;">
+                    <p>This page is concerning new service content under Azure Database for MySQL. To view legacy MySQL Database on Azure services, please visit <a href="/home/features/mysqldatabaseonazure/">MySQL Database on Azure service features page</a>. </p>
+                </div>
                 <p>Azure Database for MySQL delivers fully trusted, enterprise-ready Community MySQL database as a service. The MySQL Community edition helps you easily move to the cloud using languages and frameworks of your choice. Most importantly, you will get built-in high availability and dynamic scaling to help you easily adapt to changes in customer demands. In addition, you can benefit from unrivaled security and compliance, including Azure IP advantage and Azure’s industry leading business coverage. All these with a flexible pricing model so that you can choose the resources for your workload without any hidden cost.</p>
 
                 <div class="cognitive-figure">
@@ -140,7 +143,7 @@
                         <div class="col-md-12">
                             <h2>Intelligent applications</h2>
                             <p>Use the state-of-the-art machine learning algorithms and integrated visualization tools to develop complex and transformational applications to obtain actionable insights and analysis.</p>
-                            <!-- <p><a href="https://docs.microsoft.com/zh-cn/azure/mysql/">了解更多</a></p> -->
+                            <p><a href="//docs.azure.cn/zh-cn/mysql/">Find out more</a></p>
                         </div>
                     </div>
                     <div class="cognitive-figure">
@@ -150,7 +153,7 @@
                         <div class="col-md-6">
                             <h2>Retail and e-commerce</h2>
                             <p>Build secure, scalable e-commerce solutions that meet the demands of both customers and businesses. Engage customers with customized products and offers, process transactions quickly and securely and focus on product delivery and customer service.</p>
-                            <!-- <p><a href="https://docs.microsoft.com/zh-cn/azure/mysql/">了解更多</a></p> -->
+                            <p><a href="//docs.azure.cn/zh-cn/mysql/">Find out more</a></p>
                         </div>
                     </div>
                     <div class="cognitive-figure">
@@ -160,7 +163,7 @@
                         <div class="col-md-6">
                             <h2>Scalable Web and mobile applications</h2>
                             <p>Swiftly build engaging and scalable cross-platform and native applications for iOS, Android, Windows or Mac.</p>
-                            <!-- <p><a href="https://docs.microsoft.com/zh-cn/azure/mysql/">了解更多</a></p> -->
+                            <p><a href="//docs.azure.cn/zh-cn/mysql/">Find out more</a></p>
                         </div>
                     </div>
                     <div class="cognitive-figure">
@@ -170,7 +173,7 @@
                         <div class="col-md-6">
                             <h2>Digital marketing</h2>
                             <p>Engage customers around the world with a rich and personalized digital marketing experience. Quickly build and launch automatically scalable digital marketing campaigns based on customer demands.</p>
-                            <!-- <p><a href="https://docs.microsoft.com/zh-cn/azure/mysql/">了解更多</a></p> -->
+                            <p><a href="//docs.azure.cn/zh-cn/mysql/">Find out more</a></p>
                         </div>
                     </div>
                     <div class="cognitive-figure">
@@ -180,7 +183,7 @@
                         <div class="col-md-6">
                             <h2>Finance management applications</h2>
                             <p>Securely store critical data and deliver high-value analytics and insights over aggregated data to users, using in-built security and performance.</p>
-                            <!-- <p><a href="https://docs.microsoft.com/zh-cn/azure/mysql/">了解更多</a></p> -->
+                            <p><a href="//docs.azure.cn/zh-cn/mysql/">Find out more</a></p>
                         </div>
                     </div>
                     <div class="cognitive-figure">
@@ -190,7 +193,7 @@
                         <div class="col-md-6">
                             <h2>Gaming</h2>
                             <p>Flexibly scale databases to accommodate unpredictable bursts of traffic and deliver low latency multi-player experiences.</p>
-                            <!-- <p><a href="https://docs.microsoft.com/zh-cn/azure/mysql/">了解更多</a></p> -->
+                            <p><a href="//docs.azure.cn/zh-cn/mysql/">Find out more</a></p>
                         </div>
                     </div>
                 </div>

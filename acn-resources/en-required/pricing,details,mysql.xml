@@ -64,6 +64,9 @@
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
+                <div width="100%" style="background-color:#e5f1fb;margin-bottom:20px;border: 1px solid transparent;border-color: rgba(0,120,215,0.5);padding: 0 15px;">
+                    <p>This page is concerning new service content under Azure Database for MySQL. To view classic MySQL Database on Azure services, please visit <a href="/pricing/details/mysqldatabaseonazure/">MySQL Database on Azure Service pricing details page</a>.</p>
+                </div>
                 <p>Azure Database for MySQL delivers a fully trusted database service for app development and deployment with built-in capabilities (such as high availability) at no extra cost.</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
