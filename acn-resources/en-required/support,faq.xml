@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="12103" parentID="12095" level="3" writerID="106" creatorID="22" nodeType="1059" template="15" sortOrder="3" createDate="2012-05-29T21:04:52" updateDate="2018-07-27T17:00:00" nodeName="FAQ" urlName="faq" writerName="content" creatorName="Brad" path="-1,11978,12095,12103" isDoc="">
+  <umbTextpage id="12103" parentID="12095" level="3" writerID="106" creatorID="22" nodeType="1059" template="15" sortOrder="3" createDate="2012-05-29T21:04:52" updateDate="2018-07-30T14:00:00" nodeName="FAQ" urlName="faq" writerName="content" creatorName="Brad" path="-1,11978,12095,12103" isDoc="">
     <bodyText><![CDATA[
       
         <div class="section-component">
             <!-- <h2>请您选择常见问题的类别进行浏览</h2> --> <!-- BEGIN: TAB-CONTROL -->
             <div class="tab-control-selector">
-                <a href="#" data-href="#general" id="faq-general" class="active">General Issues</a> <a href="#" data-href="#registration" id="faq-registration">Registration Issues</a> <a href="#" data-href="#billingAndSubscription" id="faq-billingAndSubscription">Billing, Subscriptions, and Invoices</a> <a href="#" data-href="#implementationAndMaintenance" id="faq-implementationAndMaintenance">Technical Issues</a> <a href="#" data-href="#wd-support" id="wd-faq-support">WD Support Issues</a> <a href="#" data-href="#ea-support" id="ea-faq-support">Business Support Issues</a> <a href="#" id="new_control_bexpend" class="faq-floder"><em>Expand All</em></a>
+                <a href="#" data-href="#general" id="faq-general" class="active">General Issues</a> <a href="#" data-href="#registration" id="faq-registration">Registration Issues</a> <a href="#" data-href="#billingAndSubscription" id="faq-billingAndSubscription">Billing, Subscription and Fapiao</a> <a href="#" data-href="#implementationAndMaintenance" id="faq-implementationAndMaintenance">Technical Issues</a> <a href="#" data-href="#wd-support" id="wd-faq-support">Online Purchase Customer Support</a> <a href="#" data-href="#ea-support" id="ea-faq-support">Enterprise Customer Support</a> <a href="#" id="new_control_bexpend" class="faq-floder"><em>Expand All</em></a>
                 <div class="clearfix"></div>
                 <div class="floder-layer">
                     <div class="tab-control-container tab-active" id="general">   
@@ -1192,7 +1192,7 @@
 					<div class="tab-control-container" id="wd-support">
                         <div class="pricing-page-section">                      
                             <div class="more-detail">
-                                <h2>WD Support Questions</h2>
+                                <h2>Online Purchase Customer Support</h2>
                                 <h3>Azure Support Overview</h3>
 								<ul>
                                     <li>
@@ -1370,7 +1370,7 @@
                     <div class="tab-control-container" id="ea-support">
                         <div class="pricing-page-section">                      
                             <div class="more-detail">
-                                <h2>Business Support Questions</h2>
+                                <h2>Enterprise Customer Support</h2>
                                 <h3>Online Service Premium Agreements (Direct OSPA)</h3>
                                 <ul>
                                     <li>
@@ -1663,7 +1663,7 @@
     <umbracoNaviHide>0</umbracoNaviHide>
     <pageTitle>Azure FAQ Guide – Azure Cloud Computing</pageTitle>
     <metaKeywords>Azure Operations Guide</metaKeywords>
-    <metaDescription><![CDATA[ The Azure FAQ Guide summarizes and classifies some of the common issues when using Azure. These include general issues, registration, billing and reading, and technical support. You can understand Azure further through the answers to the questions.]]></metaDescription>
+    <metaDescription><![CDATA[ The Azure FAQ Guide summarizes and classifies some of the common issues when using Azure. These issues are classified into 5 aspects: general issues; registration issues; billing, subscription and Fapiao; technical issues, online purchase customer support as well as enterprise customer support. You can understand Azure further through the answers to the questions.]]></metaDescription>
     <linkid>support-faq</linkid>
     <urlDisplayName>FAQ</urlDisplayName>
     <headerExpose></headerExpose>
