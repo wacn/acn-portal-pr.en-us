@@ -1,4 +1,4 @@
-{"service": "MySQL Database on Azure", 
+{"service": "Azure Database for MySQL", 
 "id": "leftnav_product_mysql", 
 "navigation": 
 [
@@ -15,7 +15,7 @@
 			{"link": "/pricing/calculator/mysql/", 
 			"id": "leftnav_product_mysql_calculator", 
 			"title": "Pricing calculator"},
-			{"link": "https://docs.azure.cn/mysql/", 
+			{"link": "//docs.azure.cn/zh-cn/mysql/", 
 			"id": "leftnav_product_mysql_documentation", 
 			"title": "Documentation"},
 			{"link": "/support/sla/mysql/", 
@@ -27,36 +27,30 @@
 	"id": "leftnav_product_mysql_related", 
 	"articles": 
 		[
-			{"link": "/home/features/virtual-machines/", 
-			"id": "leftnav_product_virtual-machines_function", 
-			"title": "Virtual Machines"}, 
-			{"link": "/home/features/storage/", 
-			"id": "leftnav_product_storage_function", 
-			"title": "Storage"},
-			{"link": "/home/features/virtual-network/", 
-			"id": "leftnav_product_networking_function", 
-			"title": "Virtual Network"},
-			{"link": "/home/features/cloud-services/", 
-			"id": "leftnav_product_cloud-services_function", 
-			"title": "Cloud Services"}
+			{"link": "/home/features/app-service/web-apps/", 
+			"id": "leftnav_product_app-service-web-apps", 
+			"title": "Web Apps"}, 
+			{"link": "/home/features/postgresql/", 
+			"id": "leftnav_product_postgresql_function", 
+			"title": "Azure Database for PostgreSQL"},
+			{"link": "/home/features/redis-cache/", 
+			"id": "leftnav_product_redis-cache_function", 
+			"title": "Redis Cache"}
 		]
-	}, 
+	},
 	{"group": "Related Documentation and Links", 
-	"id": "leftnav_product_mysql_others", 
+	"id": "leftnav_product_postgresql_others", 
 	"articles": 
 		[
-			{"link": "https://docs.azure.cn/mysql/mysql-database-get-started/", 
-			"id": "leftnav_product_mysql_articles_mysql-database-get-started", 
-			"title": "Getting Started with MySQL Database on Azure database"}, 
-			{"link": "https://docs.azure.cn/mysql/mysql-database-performance-guidance-asdb-test-result/", 
-			"id": "leftnav_product_mysql_articles_mysql-database-performance-guidance-asdb-test-result", 
-			"title": "Understanding service tiers and versions (Azure SQL Database benchmark data)"}, 
-			{"link": "https://docs.azure.cn/mysql/mysql-database-operation-limitation/", 
-			"id": "leftnav_product_mysql_articles_mysql-database-operation-limitation", 
-			"title": "Learn about MySQL Database on Azure service limitations"}, 
-			{"link": "https://docs.azure.cn/mysql/mysql-database-tech-faq/", 
-			"id": "leftnav_product_mysql_articles_mysql-database-tech-faq", 
-			"title": "Technical FAQ"}
+			{"link": "//docs.azure.cn/zh-cn/mysql/overview/", 
+			"id": "leftnav_product_postgresql_articles_mysql-overview", 
+			"title": "Azure DB for MySQL"}, 
+			{"link": "//docs.azure.cn/zh-cn/mysql/quickstart-create-mysql-server-database-using-azure-portal/", 
+			"id": "leftnav_product_mysql-quickstart-create-mysql-server-database-using-azure-portal", 
+			"title": "Create DB - Portal"}, 
+			{"link": "//docs.azure.cn/zh-cn/mysql/tutorial-design-database-using-portal/", 
+			"id": "leftnav_product_mysql-tutorial-design-database-using-portal", 
+			"title": "Design Database"}
 		]
 	}
 ]

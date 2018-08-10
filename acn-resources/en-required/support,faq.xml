@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="12103" parentID="12095" level="3" writerID="106" creatorID="22" nodeType="1059" template="15" sortOrder="3" createDate="2012-05-29T21:04:52" updateDate="2018-07-11T15:00:00" nodeName="FAQ" urlName="faq" writerName="content" creatorName="Brad" path="-1,11978,12095,12103" isDoc="">
+  <umbTextpage id="12103" parentID="12095" level="3" writerID="106" creatorID="22" nodeType="1059" template="15" sortOrder="3" createDate="2012-05-29T21:04:52" updateDate="2018-07-30T14:00:00" nodeName="FAQ" urlName="faq" writerName="content" creatorName="Brad" path="-1,11978,12095,12103" isDoc="">
     <bodyText><![CDATA[
       
         <div class="section-component">
             <!-- <h2>请您选择常见问题的类别进行浏览</h2> --> <!-- BEGIN: TAB-CONTROL -->
             <div class="tab-control-selector">
-                <a href="#" data-href="#general" id="faq-general" class="active">General Issues</a> <a href="#" data-href="#registration" id="faq-registration">Registration Issues</a> <a href="#" data-href="#billingAndSubscription" id="faq-billingAndSubscription">Billing, Subscriptions, and Invoices</a> <a href="#" data-href="#implementationAndMaintenance" id="faq-implementationAndMaintenance">Technical Issues</a> <a href="#" data-href="#wd-support" id="wd-faq-support">WD Support Issues</a> <a href="#" data-href="#ea-support" id="ea-faq-support">Business Support Issues</a> <a href="#" id="new_control_bexpend" class="faq-floder"><em>Expand All</em></a>
+                <a href="#" data-href="#general" id="faq-general" class="active">General Issues</a> <a href="#" data-href="#registration" id="faq-registration">Registration Issues</a> <a href="#" data-href="#billingAndSubscription" id="faq-billingAndSubscription">Billing, Subscription and Fapiao</a> <a href="#" data-href="#implementationAndMaintenance" id="faq-implementationAndMaintenance">Technical Issues</a> <a href="#" data-href="#wd-support" id="wd-faq-support">Online Purchase Customer Support</a> <a href="#" data-href="#ea-support" id="ea-faq-support">Enterprise Customer Support</a> <a href="#" id="new_control_bexpend" class="faq-floder"><em>Expand All</em></a>
                 <div class="clearfix"></div>
                 <div class="floder-layer">
                     <div class="tab-control-container tab-active" id="general">   
@@ -269,6 +269,7 @@
                                                 </ul>
                                                 <p>Publish and search questions in the <a href="//social.msdn.microsoft.com/Forums/zh-CN/home?forum=windowsazurezhchs">Azure Forum</a>.</p>
                                                 <p>Browse the <a href="//school.azure.cn/">Azure School</a> for related Azure courses and expert columns.</p>
+                                                <p>View <a href="//docs.azure.cn/zh-cn/articles/azure-operations-guide/">Common Operations Guide</a> for FAQs and answers under Azure support.</p>
                                             </section>
                                         </div>
                                     </li>
@@ -278,7 +279,7 @@
                                         <div>
                                             <a id="q-1-15" href="#q-1-15">Are all data stored in Azure encrypted? </a>
                                             <section>
-                                                <p>Regarding data encryption, Azure provides all kinds of encryption functions including AES-256, Allowing customers to choose the best solutions for their requirements.</p>
+                                                <p>All data stored in Azure Storage is encrypted. Please refer to <a href="//docs.azure.cn/zh-cn/storage/common/storage-service-encryption">Azure Storage Service Encryption for Data at Rest</a> for details.</p>
                                             </section>
                                         </div>
                                     </li>
@@ -479,7 +480,7 @@
                                         <div>
                                             <a id="q-2-16" href="#q-2-16">Can I use foreign currency for remittance when I choose to pay by wire transfer for my Azure subscription account?</a>
                                             <section>
-                                                <p>Only the Chinese ￥ is accepted as the payment currency for Azure's service in China.</p>
+                                                <p>Only the Chinese ￥  is accepted as the payment currency for Azure's service in China.</p>
                                             </section>
                                         </div>
                                     </li>
@@ -520,7 +521,7 @@
                                             <section>
                                                 
                                                 <p>The Standard Pay-in-Advance PIA subscription supports three payment methods, i.e. Alipay, UnionPay and Online Payment and wire transfer, and each payment method has the minimum recharge amount. If you select "Alipay" or "UnionPay Online" and other methods of online remittance, after clicking on "Upgrade" or "Recharge", enter the recharge amount according to the prompt (the minimum amount is ￥ 1,000, and the maximum amount is ￥ 150,000), and then click on the check mark. The payment page will appear and you should follow the instructions to complete the payment. If you select wire transfer, the minimum recharge amount should be ￥ 5,000. Please refer to <a href="//docs.azure.cn/zh-cn/billing/billing-recharge-an-existing-pia-subscription" id="support_faq_subscriptions-wire-transfer_billing-recharge-an-existing-pia-subscription">recharging Standard Pay-in-Advance PIA subscriptions</a> for details.</p>
-                                                <p>Note: Microsoft Azure services currently operated by 21Vianet only accepts payments in ￥.</p>
+                                                <p>Note: Microsoft Azure services currently operated by 21Vianet only accepts payments in ￥ .</p>
                                             </section>
                                         </div>
                                     </li>
@@ -847,29 +848,27 @@
                             <div class="more-detail">
                                 <h2>Technical Questions</h2>
                                 <ul>
-                                    <li>
-                                        <i class="icon icon-plus"></i>
-                                        <div>
-                                            <a id="q-4-1" href="#q-4-1">During the maintenance period, how long will a single IaaS virtual machine or single PaaS role instance stays offline?</a>
-                                            <section>
-                                                <p>
-                                                    Answer: it requires about 15 minutes for self-service maintenance of the IaaS virtual machine or PaaS role example, and 30–45 minutes for planned maintenance.
-                                                </p>
-                                            </section>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <i class="icon icon-plus"></i>
-                                        <div>
-                                            <a id="q-4-2" href="#q-4-2"> If my virtual machine is impacted for a relatively short time, can I define the maintenance time point on my own?</a>
-                                            <section>
-                                                <p>
-                                                    Answer: Yes. For maintenance requiring restarting the virtual machine, the system will inform the customer in advance. The planned maintenance has two stages: self-service maintenance by the user and self-service maintenance by the system. The customer can check the status of the virtual machine, start self-service maintenance and restart the virtual machine in the self-service maintenance by user stage. Please refer to <a href="//docs.azure.cn/virtual-machines/windows/maintenance-and-updates">Maintenance and Updates for Azure Virtual Machines and Maintenance in the Plan</a> for more information about the maintenance of virtual machines.
-                                                </p>
-                                            </section>
-                                        </div>
-                                    </li>
                                     <!-- <li>
+                                        <i class="icon icon-plus"></i>
+                                        <div>
+                                            <a id="q-4-1" href="#q-4-1">维护时段期间，单个 IaaS 虚拟机或 PaaS 角色实例要保持多长时间的脱机状态？</a>
+                                            <section>
+                                                <p>
+                                                    回答：单个 IaaS 虚拟机或 PaaS 角色实例自助维护一般需要 15 分钟左右即可，而计划维护需要 30~45 分钟。
+                                                </p>
+                                            </section>
+                                        </div>
+                                    </li> --> <!-- <li>
+                                        <i class="icon icon-plus"></i>
+                                        <div>
+                                            <a id="q-4-2" href="#q-4-2">如果我的虚拟机受影响时间相对较短，我是否可以自定维护时间点？</a>
+                                            <section>
+                                                <p>
+                                                    回答：可以。对于需要重启虚拟机的维护，系统会提前告知客户。计划维护有两个阶段：用户自助维护和系统自助维护。客户可以在用户自助维护阶段内查看虚拟机状态，并启动自助式维护和重新启动虚拟机。更多有关虚拟机维护的信息，请参阅<a href="//docs.azure.cn/virtual-machines/windows/maintenance-and-updates">Azure 虚拟机维护和更新以及计划内维护</a>。
+                                                </p>
+                                            </section>
+                                        </div>
+                                    </li> --> <!-- <li>
                                         <i class="icon icon-plus"></i>
                                         <div>
                                             <a id="q-4-3" href="#q-4-3"> 我能否选择让我的虚拟机退出此维护？  </a>
@@ -905,7 +904,7 @@
                                         <div>
                                             <a id="q-4-6" href="#q-4-6">Can I create a virtual machine in Azure Virtual Machines?</a>
                                             <section>
-                                                <p>No, you cannot create it at present. The Dv3 and Ev3 series of the Azure Virtual Machines support nested virtualization, but as of now, Azure in China temporarily does not support creating virtual machines of this series.</p>
+                                                <p>Azure Virtual Machines Dv3 and Ev3 series support nested virtualization. However currently only Chinaeast2 and Chinanorth2 support the creation of VMs of these series. Customers can create Dv3 or Ev3 VMs to meet their needs in these two regions.</p>
                                             </section>
                                         </div>
                                     </li>
@@ -927,7 +926,7 @@
                                     <li>
                                         <i class="icon icon-plus"></i>
                                         <div>
-                                            <a id="q-4-8" href="#q-4-8"> Is it supported to deploy Microsoft Exchange,Skype, and SharePoint in Azure? </a>
+                                            <a id="q-4-8" href="#q-4-8"> Is it supported to deploy Microsoft Exchange,Skype and Sharepoint in Azure? </a>
                                             <section>
                                                 <p>The SharePoint virtual machine templates can be selected from Azure Virtual Machines templates and can be officially supported by Microsoft. Exchange Server and Lync Server can be customized and uploaded, but not officially supported.</p>
                                             </section>
@@ -970,11 +969,10 @@
                                                         <td>Storage service</td>
                                                         <td>3 copies of Active-Active</td>
                                                         <td>None</td>
-                                                        <td>Asynchronous replication to the remote location, RPO=30 minutes, without RTO</td>
+                                                        <td>Asynchronous geo-replication, without RTO</td>
                                                         <td>
                                                             <ol>
                                                                 <li>Locally Redundant Storage (LRS)</li>
-                                                                <li>Zone Redundant Storage (ZRS)</li>
                                                                 <li>Geo-Redundant Storage (GRS)</li>
                                                                 <li>Read-Access Geo-Redundant Storage (RA-GRS)</li>
                                                                 <li><a href="//docs.azure.cn/zh-cn/articles/azure-operations-guide/storage/aog-storage-how-to-use-azcopy">Apply AzCopy</a></li>
@@ -1042,7 +1040,7 @@
                                         <div>
                                             <a id="q-4-12" href="#q-4-12">What should I pay attention to when running a business application with a virtual machine?</a>
                                             <section>
-                                                <p>Azure will regularly update the environment of the host to ensure that all the operating applications and virtual machines in the platform are always in a secure environment. This updating process may restart your virtual machines. Restarting of the virtual machine will cause the operating applications in the virtual machine to go offline.</p>
+                                                <p>Azure will update its hosting environment periodically to ensure all applications and VMs operating on its platform are doing so in a secure environment.</p>
                                                 <p>The data may be lost when the virtual machine is migrated. Some reasons for virtual machine migration are as follows:</p>
                                                 <ul>
                                                     <li>Adjusting the size of the virtual machine</li>
@@ -1111,7 +1109,7 @@
                                         <div>
                                             <a id="q-4-17" href="#q-4-17">How to configure websites deployed in Azure virtual machine to be accessible from public networks?</a>
                                             <section>
-                                                <p>By default, Azure virtual machines only open limited ports corresponding to its VIP, used for remote connection or management. If a newly built website needs to be accessed via a certain port of a VIP, it is required to add an Endpoint to this virtual machine. This operation can be completed through Azure portal or PowerShell.</p>
+                                                <p>By default, Azure virtual machines only open limited ports corresponding to its VIP, used for remote connection or management. If a newly built website needs to be accessed via a certain port of a VIP, it is required to add an Endpoint to this virtual machine. This operation can be completed through Azure portal or Powershell.</p>
                                             </section>
                                         </div>
                                     </li>
@@ -1131,9 +1129,15 @@
                                         <div>
                                             <a id="q-4-19" href="#q-4-19">How about the security of the Azure Storage service?</a>
                                             <section>
-                                                <p>The Azure Storage service will allocate two access keys to the user: the primary and secondary access keys. This access key is a character string with 256 bytes, and the user can use it to verify every data access request for Azure Storage services.</p>
-                                                <p>The two access keys have the same function of being able to access data. The setting of two access keys is to help the user switch access keys. For instance, the user will usually use the primary access key, and if the primary access key is revealed, the user can make the primary access key invalid in the shortest time (a new primary access key will be generated) and then switch over to the secondary access key. Meanwhile, the user does not have to alter the code and just needs to alter the service configuration file. There will also be no downtime for simultaneously updating the service configuration file. Another effective method is for the application code to use the primary access key to access data, with the code automatically using the secondary access key if verification fails. In this way, there will be no downtime when the user switches access keys.</p>
-                                                <p>In order to further increase flexibility of Access Control for Blob data, another data Access Control method is provided by the Azure Data Storage service, called Shared Access Signature. Management personnel can apply the Shared Access Signature to generate a temporary data access request for other users, and the temporary data access request covers effective digital signatures, and can thus pass the data verification. It also includes information about which information users can access and the operation limits and so on. At the same time, it will be effective only during the appointed time. In this way, the administrator can not only allow other users to access data, but also do so without leaking the access key.</p>
+                                                <p>Azure Storage provides a comprehensive set of security capabilities:</p>
+                                                <ol>
+                                                    <li>Storage accounts can be protected via role-based access control and Azure Active Directory.</li>
+                                                    <li>Data can be secured in transit between an application and Azure by using Client-Side Encryption, HTTPS, or SMB 3.0.</li>
+                                                    <li>Data can be set to be automatically encrypted when written to Azure Storage using Storage Service Encryption.</li>
+                                                    <li>Delegated access to the data objects in Azure Storage can be granted using Shared Access Signatures.</li>
+                                                    <li>The authentication method used by someone when they access storage can be tracked using Storage analytics.</li>
+                                                </ol>
+                                                <p>Please refer to our <a href="//docs.azure.cn/zh-cn/security/security-storage-overview">Azure storage security overview</a>for the latest content.</p>
                                             </section>
                                         </div>
                                     </li>
@@ -1142,7 +1146,7 @@
                                         <div>
                                             <a id="q-4-20" href="#q-4-20"> What is the difference between the Azure SQL Database and the traditional SQL Server Database? </a>
                                             <section>
-                                                <p>Sometimes, the SQL Server and Azure SQL Database handle the same application working load. While one is a traditional database server applying the software licensing model, the other one is the service-mode cloud database, which is running in the data center of <span>21Vianet</span>, and is available as a pay-as-you-go model or a commitment rate model. You can easily choose the platform and business model most suitable to your technological requirements through these two products.</p>
+                                                <p>Sometimes, the SQL Server and Azure SQL Database handle the same application working load. While one is a traditional database server applying the software licensing model, the other one is the service-mode cloud database Azure SQL Database, which is running in the data center of <span>21Vianet</span>, and is available as a pay-as-you-go model or a commitment rate model. You can easily choose the platform and business model most suitable to your technological requirements through these two products.</p>
                                                 <table cellpadding="0" cellspacing="0" width="100%">
                                                     <tr>
                                                         <th align="left"><strong>SQL Server</strong></th>
@@ -1167,9 +1171,17 @@
                                                     <li>Locally Redundant Storage (LRS): we maintain multiple copies of data in a zone so as to provide high durability.</li>
                                                     <li>Geo-Redundant Storage(GRS): we asynchronously provide extra data durability through replication between two zones hundreds of miles apart in the same territory. In the two zones, we maintain multiple copies of the data.</li>
                                                     <li>Read-access Redundant Storage (RA-GRS): in addition to GRS services, we provide read-only access to the storage account in the secondary region (which has a final edition consistent with data in main storage system). When the storage account in the primary region is not available, customers can use this service to access the data.</li>
-                                                    <li>Zone Redundant Storage (ZRS): in addition to the storage of three copies like LRS, the ZRS space will replicate data asynchronously between data centers of one or two zones, so as to improve the durability of LRS.</li>
                                                 </ul>
                                                 <p>For details on Azure Redundant Storage, please refer to <a href="//docs.azure.cn/storage/common/storage-introduction">Introduction to Azure Storage</a> and <a href="/pricing/details/storage/">Pricing Details</a>.</p>
+                                            </section>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="icon icon-plus"></i>
+                                        <div>
+                                            <a id="q-4-22" href="#q-4-22">Are there more Azure operational guides offering more specifics on hot topics?</a>
+                                            <section>
+                                                <p>You can view <a href="//docs.azure.cn/zh-cn/articles/azure-operations-guide/"> Common Operations Guide</a> for FAQs and answers under Azure support.</p>
                                             </section>
                                         </div>
                                     </li>
@@ -1180,7 +1192,7 @@
 					<div class="tab-control-container" id="wd-support">
                         <div class="pricing-page-section">                      
                             <div class="more-detail">
-                                <h2>WD Support Questions</h2>
+                                <h2>Online Purchase Customer Support</h2>
                                 <h3>Azure Support Overview</h3>
 								<ul>
                                     <li>
@@ -1358,7 +1370,7 @@
                     <div class="tab-control-container" id="ea-support">
                         <div class="pricing-page-section">                      
                             <div class="more-detail">
-                                <h2>Business Support Questions</h2>
+                                <h2>Enterprise Customer Support</h2>
                                 <h3>Online Service Premium Agreements (Direct OSPA)</h3>
                                 <ul>
                                     <li>
@@ -1651,7 +1663,7 @@
     <umbracoNaviHide>0</umbracoNaviHide>
     <pageTitle>Azure FAQ Guide – Azure Cloud Computing</pageTitle>
     <metaKeywords>Azure Operations Guide</metaKeywords>
-    <metaDescription><![CDATA[ The Azure FAQ Guide summarizes and classifies some of the common issues when using Azure. These include general issues, registration, billing and reading, and technical support. You can understand Azure further through the answers to the questions.]]></metaDescription>
+    <metaDescription><![CDATA[ The Azure FAQ Guide summarizes and classifies some of the common issues when using Azure. These issues are classified into 5 aspects: general issues; registration issues; billing, subscription and Fapiao; technical issues, online purchase customer support as well as enterprise customer support. You can understand Azure further through the answers to the questions.]]></metaDescription>
     <linkid>support-faq</linkid>
     <urlDisplayName>FAQ</urlDisplayName>
     <headerExpose></headerExpose>

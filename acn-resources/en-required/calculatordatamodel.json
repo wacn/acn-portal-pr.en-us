@@ -254,7 +254,7 @@
                     "MaxUnit": "1000",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "Custom domains are charged by the year at ¥ 78.798/year (includes privacy protection).",
+                        "Description": "Custom domains are charged by the year at ￥78.798/year (includes privacy protection).",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "6.5665"
                     }]
@@ -371,7 +371,7 @@
                     },
                     {
                         "Name": "CalculatorConst.A3Size",
-                        "Description": "4 core, 7 GiB RAM, 285 GiB temporary storage",
+                        "Description": "4 cores, 7 GiB RAM, 285 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.88"
                     },
@@ -395,7 +395,7 @@
                     },
                     {
                         "Name": "CalculatorConst.A7Size",
-                        "Description": "8 cores, 56 GiB RAM, 605 GiB temporary storage",
+                        "Description": "8 cores, 56GiB RAM, 605GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "6.85"
                     }]
@@ -769,6 +769,64 @@
                     }]
                 },
                 {
+                    "Name": "Fv2 Series",
+                    "Description": "Fv2 Series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "F2 v2",
+                        "Description": "2 vCPU, 4 GiB RAM, 16 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.166"
+                    },
+                    {
+                        "Name": "F4 v2",
+                        "Description": "4 vCPU, 8 GiB RAM, 32 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "4.332"
+                    },
+                    {
+                        "Name": "F8 v2",
+                        "Description": "8 vCPU, 16 GiB RAM, 64 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "8.664"
+                    },
+                    {
+                        "Name": "F16 v2",
+                        "Description": "16 vCPU, 32 GiB RAM, 128 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "17.328"
+                    }]
+                },
+                {
+                    "Name": "Fv2 Series",
+                    "Description": "Fv2 Series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "F32 v2",
+                        "Description": "32 vCPU, 64 GiB RAM, 256 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "34.656"
+                    },
+                    {
+                        "Name": "F64 v2",
+                        "Description": "64 vCPU, 128 GiB RAM, 512 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "69.312"
+                    },
+                    {
+                        "Name": "F72 v2",
+                        "Description": "72 vCPU, 144 GiB RAM, 576 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "138.624"
+                    }]
+                },
+                {
                     "Name": "F series/FS series",
                     "Description": "F series/FS series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
@@ -804,6 +862,38 @@
                         "Description": "CalculatorConst.F16SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "7.53"
+                    }]
+                },
+                {
+                    "Name": "NCsv3 Series",
+                    "Description": "NCsv3 Series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "NC6s v3",
+                        "Description": "6 cores, 112 GiB RAM, 336 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "26.16"
+                    },
+                    {
+                        "Name": "NC12s v3",
+                        "Description": "12 cores, 224 GiB RAM, 672 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "52.32"
+                    },
+                    {
+                        "Name": "NC24s v3",
+                        "Description": "24 cores, 448 GiB RAM, 1344 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "104.65"
+                    },
+                    {
+                        "Name": "NC24rs v3",
+                        "Description": "24 cores, 448 GiB RAM, 1344 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "115.11"
                     }]
                 }]
             }]
@@ -879,7 +969,7 @@
                     },
                     {
                         "Name": "CalculatorConst.A3Size",
-                        "Description": "4 core, 7 GiB RAM, 285 GiB temporary storage",
+                        "Description": "4 cores, 7 GiB RAM, 285 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.51"
                     },
@@ -903,7 +993,7 @@
                     },
                     {
                         "Name": "CalculatorConst.A7Size",
-                        "Description": "8 cores, 56 GiB RAM, 605 GiB temporary storage",
+                        "Description": "8 cores, 56GiB RAM, 605GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "6.49"
                     }]
@@ -1285,6 +1375,64 @@
                     }]
                 },
                 {
+                    "Name": "Fv2 Series",
+                    "Description": "Fv2 Series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "F2 v2",
+                        "Description": "2 vCPU, 4 GiB RAM, 16 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.083"
+                    },
+                    {
+                        "Name": "F4 v2",
+                        "Description": "4 vCPU, 8 GiB RAM, 32 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.166"
+                    },
+                    {
+                        "Name": "F8 v2",
+                        "Description": "8 vCPU, 16 GiB RAM, 64 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "4.332"
+                    },
+                    {
+                        "Name": "F16 v2",
+                        "Description": "16 vCPU, 32 GiB RAM, 128 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "8.664"
+                    }]
+                },
+                {
+                    "Name": "Fv2 Series",
+                    "Description": "Fv2 Series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "F32 v2",
+                        "Description": "32 vCPU, 64 GiB RAM, 256 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "17.328"
+                    },
+                    {
+                        "Name": "F64 v2",
+                        "Description": "64 vCPU, 128 GiB RAM, 512 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "34.656"
+                    },
+                    {
+                        "Name": "F72 v2",
+                        "Description": "72 vCPU, 144 GiB RAM, 576 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "69.312"
+                    }]
+                },
+                {
                     "Name": "F series/FS series",
                     "Description": "F series/FS series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
@@ -1320,6 +1468,38 @@
                         "Description": "CalculatorConst.F16SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "7.19"
+                    }]
+                },
+                {
+                    "Name": "NCsv3 Series",
+                    "Description": "NCsv3 Series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "NC6s v3",
+                        "Description": "6 cores, 112 GiB RAM, 336 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "23.35"
+                    },
+                    {
+                        "Name": "NC12s v3",
+                        "Description": "12 cores, 224 GiB RAM, 672 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "46.71"
+                    },
+                    {
+                        "Name": "NC24s v3",
+                        "Description": "24 cores, 448 GiB RAM, 1344 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "93.42"
+                    },
+                    {
+                        "Name": "NC24rs v3",
+                        "Description": "24 cores, 448 GiB RAM, 1344 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "102.76"
                     }]
                 }]
             }]
@@ -3878,6 +4058,64 @@
                         "Description": "Ev3 Series - E64i v3",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "51.33"
+                    }]
+                },
+                {
+                    "Name": "Fv2 Series",
+                    "Description": "Fv2 Series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "F2 v2",
+                        "Description": "2 vCPU, 4 GiB RAM, 16 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.166"
+                    },
+                    {
+                        "Name": "F4 v2",
+                        "Description": "4 vCPU, 8 GiB RAM, 32 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "4.332"
+                    },
+                    {
+                        "Name": "F8 v2",
+                        "Description": "8 vCPU, 16 GiB RAM, 64 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "8.664"
+                    },
+                    {
+                        "Name": "F16 v2",
+                        "Description": "16 vCPU, 32 GiB RAM, 128 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "17.328"
+                    }]
+                },
+                {
+                    "Name": "Fv2 Series",
+                    "Description": "Fv2 Series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "F32 v2",
+                        "Description": "32 vCPU, 64 GiB RAM, 256 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "34.656"
+                    },
+                    {
+                        "Name": "F64 v2",
+                        "Description": "64 vCPU, 128 GiB RAM, 512 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "69.312"
+                    },
+                    {
+                        "Name": "F72 v2",
+                        "Description": "72 vCPU, 144 GiB RAM, 576 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "138.624"
                     }]
                 }]
             }]
@@ -7298,7 +7536,7 @@
                 }]
             },
             {
-                "Name": "Additonal storage",
+                "Name": "Extra storage",
                 "Features": [{
                     "Name": "default",
                     "PricePeriod": "PricePeriodEnum.Monthly",
@@ -7307,13 +7545,13 @@
                     "MaxUnit": "100",
                     "Sizes": [{
                         "Name": "Standard",
-                        "Description": "Additonal storage – Standard",
+                        "Description": "Extra storage – Standard",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.5406"
                     },
                     {
                         "Name": "Premium level and Premium RS",
-                        "Description": "Additonal storage – Premium and Premium RS",
+                        "Description": "Extra storage – Premium and Premium RS",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.0812"
                     }]
@@ -7653,7 +7891,7 @@
                 }]
             },
             {
-                "Name": "Additonal storage",
+                "Name": "Extra storage",
                 "Features": [{
                     "Name": "default",
                     "PricePeriod": "PricePeriodEnum.Monthly",
@@ -7662,13 +7900,13 @@
                     "MaxUnit": "100",
                     "Sizes": [{
                         "Name": "Standard",
-                        "Description": "Additonal storage – Standard",
+                        "Description": "Extra storage – Standard",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "0.5406"
                     },
                     {
                         "Name": "Premium level and Premium RS",
-                        "Description": "Additonal storage – Premium and Premium RS",
+                        "Description": "Extra storage – Premium and Premium RS",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.0812"
                     }]
@@ -7919,8 +8157,106 @@
             }]
         },
         
-        
         "power-bi-embedded":{
+            "Name": "Power BI Embedded",
+            "Types": [{
+                "Name": "A1",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Virtual core 1",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "6.4115"                     
+                    }]
+                }]
+            },
+            {
+                "Name": "A2",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Virtual core 2",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "12.7715"                     
+                    }]
+                }]
+            },
+            {
+                "Name": "A3",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Virtual core 4",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "25.5939"                     
+                    }]
+                }]
+            },
+            {
+                "Name": "A4",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Virtual core 8",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "51.2393"                     
+                    }]
+                }]
+            },
+            {
+                "Name": "A5",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Virtual core 16",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "102.5296"                     
+                    }]
+                }]
+            },
+            {
+                "Name": "A6",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Virtual core 32",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "205.1138"                     
+                    }]
+                }]
+            }]
+        },
+        "power-bi-workspace-collections":{
             "Name": "Power BI Workspace Collection",
             "Types": [{
                 "Name": "default",
@@ -8371,6 +8707,604 @@
                         "Description": "CalculatorConst.mysqlMP2SizeDesc",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "12.02"
+                    }]
+                }]
+            }]
+        },
+        "azure-database-for-mysql": {
+            "Name": "Azure Database for MySQL",
+            "Types": [{
+                "Name": "Basic",
+                "Features": [{
+                    "Name": "Compute - Gen 4",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 1",
+                        "Description": "1 vCore",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.2699"
+                    },
+                    {
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.5398"
+                    }]
+                },
+                {
+                    "Name": "Compute - Gen 5",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 1",
+                        "Description": "1 vCore",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.2699"
+                    },
+                    {
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.5398"
+                    }]
+                },
+                {
+                    "Name": "Storage",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Storage",
+                        "Description": "Storage",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Backup",
+                        "Description": "Backup",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "I/O",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                         "Name": "I/O",
+                        "Description": "I/O",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                }]
+            },
+            {
+                "Name": "General Purpose",
+                "Features": [{
+                    "Name": "Compute - Gen 4",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.6676"
+                    },
+                    {
+                        "Name": "vCore 4",
+                        "Description": "4 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.3352"
+                    },
+                    {
+                        "Name": "vCore 8",
+                        "Description": "8 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.6704"
+                    },
+                    {
+                        "Name": "vCore 16",
+                        "Description": "16 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "5.3408"
+                    },
+                    {
+                        "Name": "vCore 32",
+                        "Description": "32 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "10.6816"
+                    }]
+                },
+                {
+                    "Name": "Compute - Gen 5",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.6676"
+                    },
+                    {
+                        "Name": "vCore 4",
+                        "Description": "4 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.3352"
+                    },
+                    {
+                        "Name": "vCore 8",
+                        "Description": "8 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.6704"
+                    },
+                    {
+                        "Name": "vCore 16",
+                        "Description": "16 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "5.3408"
+                    },
+                    {
+                        "Name": "vCore 32",
+                        "Description": "32 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "10.6816"
+                    }]
+                },
+                {
+                    "Name": "Storage",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Storage",
+                        "Description": "Storage",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.8033",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Locally redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Locally redundant",
+                        "Description": "Locally redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Geo-redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Geo-redundant",
+                        "Description": "Geo-redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "1.5875",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                }]
+            },
+            {
+                "Name": "Memory optimization",
+                "Features": [{
+                    "Name": "Compute - Gen 5",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.8748"
+                    },
+                    {
+                        "Name": "vCore 4",
+                        "Description": "4 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "3.7496"
+                    },
+                    {
+                        "Name": "vCore 8",
+                        "Description": "8 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "7.4992"
+                    },
+                    {
+                        "Name": "vCore 16",
+                        "Description": "16 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "14.9984"
+                    }]
+                },
+                {
+                    "Name": "Storage",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Storage",
+                        "Description": "Storage",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.8033",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Locally redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Locally redundant",
+                        "Description": "Locally redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Geo-redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Geo-redundant",
+                        "Description": "Geo-redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "1.5875",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                }]
+            }]
+        },
+        "azure-database-for-postgresql": {
+            "Name": "Azure Database for PostgreSQL",
+            "Types": [{
+                "Name": "Basic",
+                "Features": [{
+                    "Name": "Compute - Gen 4",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 1",
+                        "Description": "1 vCore",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.2699"
+                    },
+                    {
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.5398"
+                    }]
+                },
+                {
+                    "Name": "Compute - Gen 5",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 1",
+                        "Description": "1 vCore",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.2699"
+                    },
+                    {
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.5398"
+                    }]
+                },
+                {
+                    "Name": "Storage",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Storage",
+                        "Description": "Storage",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Backup",
+                        "Description": "Backup",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "I/O",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                         "Name": "I/O",
+                        "Description": "I/O",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                }]
+            },
+            {
+                "Name": "General Purpose",
+                "Features": [{
+                    "Name": "Compute - Gen 4",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.6676"
+                    },
+                    {
+                        "Name": "vCore 4",
+                        "Description": "4 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.3352"
+                    },
+                    {
+                        "Name": "vCore 8",
+                        "Description": "8 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.6704"
+                    },
+                    {
+                        "Name": "vCore 16",
+                        "Description": "16 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "5.3408"
+                    },
+                    {
+                        "Name": "vCore 32",
+                        "Description": "32 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "10.6816"
+                    }]
+                },
+                {
+                    "Name": "Compute - Gen 5",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.6676"
+                    },
+                    {
+                        "Name": "vCore 4",
+                        "Description": "4 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.3352"
+                    },
+                    {
+                        "Name": "vCore 8",
+                        "Description": "8 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.6704"
+                    },
+                    {
+                        "Name": "vCore 16",
+                        "Description": "16 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "5.3408"
+                    },
+                    {
+                        "Name": "vCore 32",
+                        "Description": "32 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "10.6816"
+                    }]
+                },
+                {
+                    "Name": "Storage",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Storage",
+                        "Description": "Storage",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.8033",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Locally redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Locally redundant",
+                        "Description": "Locally redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Geo-redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Geo-redundant",
+                        "Description": "Geo-redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "1.5875",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                }]
+            },
+            {
+                "Name": "Memory optimization",
+                "Features": [{
+                    "Name": "Compute - Gen 5",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "vCore 2",
+                        "Description": "2 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.8748"
+                    },
+                    {
+                        "Name": "vCore 4",
+                        "Description": "4 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "3.7496"
+                    },
+                    {
+                        "Name": "vCore 8",
+                        "Description": "8 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "7.4992"
+                    },
+                    {
+                        "Name": "vCore 16",
+                        "Description": "16 vCores",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "14.9984"
+                    }]
+                },
+                {
+                    "Name": "Storage",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Storage",
+                        "Description": "Storage",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.8033",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Locally redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Locally redundant",
+                        "Description": "Locally redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "0.7938",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
+                    }]
+                },
+                {
+                    "Name": "Backup - Geo-redundant",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "1000",
+                    "Sizes": [{
+                        "Name": "Geo-redundant",
+                        "Description": "Geo-redundant",
+                        "PriceTier": "0,5120000",
+                        "PricePerTier": "1.5875",
+                        "MinUnit": "0",
+                        "MaxUnit": "5120000",
+                        "PriceUnit": "GB"
                     }]
                 }]
             }]
@@ -11553,7 +12487,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "Public IP address Dynamic ¥ 0.026/IP/hour x 744 hours",
+                        "Description": "Public IP address Dynamic ￥0.026/IP/hour x 744 hours",
                         "PriceTier": "PriceTierEnum.Linear",
                         "PricePerTier": "0.026",
                         "MinUnit": "0",
@@ -11569,7 +12503,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "0-5, ¥ 0.026/IP/hour x 744 hours, the 6th starts at ¥ 0.052/IP/hour x 744 hours",
+                        "Description": "0-5, ￥0.026/IP/hour x 744 hours, the 6th starts at ￥0.052/IP/hour x 744 hours",
                         "PriceTier": "0,5,6,1000",
                         "PricePerTier": "0.026,0.052",
                         "MinUnit": "0",
@@ -11585,7 +12519,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "The 1st is free, Cloud Services VIP ¥ 0.026/IP/hour x 744 hours",
+                        "Description": "The 1st is free, Cloud Services VIP ￥0.026/IP/hour x 744 hours",
                         "PriceTier": "0,1,2,1000",
                         "PricePerTier": "0,0.026",
                         "MinUnit": "0",
@@ -11601,7 +12535,7 @@
                     "MaxUnit": "1000",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "0-5 are free and over 6 are ¥ 0.026/IP/hour x 744 hours",
+                        "Description": "0-5 are free and over 6 are ￥0.026/IP/hour x 744 hours",
                         "PriceTier": "0,5,6,1000",
                         "PricePerTier": "0,0.026",
                         "MinUnit": "0",
@@ -11617,7 +12551,7 @@
                     "MaxUnit": "20",
                     "Sizes": [{
                         "Name": "default",
-                        "Description": "Hierarchical IP address ¥ 0.026/IP/hour x 744 hours",
+                        "Description": "Hierarchical IP address ￥0.026/IP/hour x 744 hours",
                         "PriceTier": "PriceTierEnum.Linear",
                         "PricePerTier": "0.026",
                         "MinUnit": "0",
@@ -11633,7 +12567,7 @@
                      "MaxUnit": "1000",
                      "Sizes": [{
                          "Name": "default",
-                         "Description": " 0-100 are free and after that ¥ 0.456/remap x 744 hours",
+                         "Description": " 0-100 are free and after that ￥0.456/remap x 744 hours",
                          "PriceTier": "0,100,101,1000",
                          "PricePerTier": "0,0.456",
                          "MinUnit": "0",
@@ -13293,46 +14227,287 @@
             "Types": [{
                 "Name": "Windows Virtual Machines",
                 "Features": [{
-                    "Name": "default",
+                    "Name": "Fv2 Series",
+                    "Description": "Fv2 Series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
                     "PriceUnit": "Machine",
                     "MinUnit": "0",
                     "MaxUnit": "100",
                     "Sizes": [{
-                        "Name": "E64i v3/E64is v3",
-                        "Description": "64 cores, 432 GiB RAM",
+                        "Name": "F2 v2",
+                        "Description": "2 vCPU, 4 GiB RAM, 16 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.8664"
+                    },
+                    {
+                        "Name": "F4 v2",
+                        "Description": "4 vCPU, 8 GiB RAM, 32 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.7328"
+                    },
+                    {
+                        "Name": "F8 v2",
+                        "Description": "8 vCPU, 16 GiB RAM, 64 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "3.4656"
+                    },
+                    {
+                        "Name": "F16 v2",
+                        "Description": "16 vCPU, 32 GiB RAM, 128 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "6.9312"
+                    }]
+                },
+                {
+                    "Name": "Fv2 Series",
+                    "Description": "Fv2 Series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "F32 v2",
+                        "Description": "32 vCPU, 64 GiB RAM, 256 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "13.8624"
+                    },
+                    {
+                        "Name": "F64 v2",
+                        "Description": "64 vCPU, 128 GiB RAM, 512 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "27.7248"
+                    },
+                    {
+                        "Name": "F72 v2",
+                        "Description": "72 vCPU, 144 GiB RAM, 576 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "55.4496"
+                    }]
+                },
+                {
+                    "Name": "E2 64 v3",
+                    "Description": "E2 64 v3",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "E64i v3",
+                        "Description": "E64i v3: 64 vCPU, 432 GiB RAM, 1600 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "20.532"
+                    }]
+                },
+                {
+                    "Name": "NCsv3 Series",
+                    "Description": "NCsv3 Series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "NC6s v3",
+                        "Description": "6 cores, 112 GiB RAM, 336 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "10.465"
+                    },
+                    {
+                        "Name": "NC12s v3",
+                        "Description": "12 cores, 224 GiB RAM, 672 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "20.93"
+                    },
+                    {
+                        "Name": "NC24s v3",
+                        "Description": "24 cores, 448 GiB RAM, 1344 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "41.86"
+                    },
+                    {
+                        "Name": "NC24rs v3",
+                        "Description": "24 cores, 448 GiB RAM, 1344 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "46.0454"
                     }]
                 }]
             },
             {
                 "Name": "Linux Virtual Machines",
                 "Features": [{
-                    "Name": "default",
+                    "Name": "Fv2 Series",
+                    "Description": "Fv2 Series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
                     "PriceUnit": "Machine",
                     "MinUnit": "0",
                     "MaxUnit": "100",
                     "Sizes": [{
-                        "Name": "E64i v3/E64is v3",
-                        "Description": "64 cores, 432 GiB RAM",
+                        "Name": "F2 v2",
+                        "Description": "2 vCPU, 4 GiB RAM, 16 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.2166"
+                    },
+                    {
+                        "Name": "F4 v2",
+                        "Description": "4 vCPU, 8 GiB RAM, 32 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.4332"
+                    },
+                    {
+                        "Name": "F8 v2",
+                        "Description": "8 vCPU, 16 GiB RAM, 64 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.8664"
+                    },
+                    {
+                        "Name": "F16 v2",
+                        "Description": "16 vCPU, 32 GiB RAM, 128 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.7328"
+                    }]
+                },
+                {
+                    "Name": "Fv2 Series",
+                    "Description": "Fv2 Series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "F32 v2",
+                        "Description": "32 vCPU, 64 GiB RAM, 256 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "3.4656"
+                    },
+                    {
+                        "Name": "F64 v2",
+                        "Description": "64 vCPU, 128 GiB RAM, 512 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "6.9312"
+                    },
+                    {
+                        "Name": "F72 v2",
+                        "Description": "72 vCPU, 144 GiB RAM, 576 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "13.8624"
+                    }]
+                },
+                {
+                    "Name": "E2 64 v3",
+                    "Description": "E2 64 v3",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "E64i v3",
+                        "Description": "E64i v3: 64 vCPU, 432 GiB RAM, 1600 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "9.332"
+                    }]
+                },
+                {
+                    "Name": "NCsv3 Series",
+                    "Description": "NCsv3 Series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "NC6s v3",
+                        "Description": "6 cores, 112 GiB RAM, 336 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "4.6708"
+                    },
+                    {
+                        "Name": "NC12s v3",
+                        "Description": "12 cores, 224 GiB RAM, 672 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "9.3416"
+                    },
+                    {
+                        "Name": "NC24s v3",
+                        "Description": "24 cores, 448 GiB RAM, 1344 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "18.6831"
+                    },
+                    {
+                        "Name": "NC24rs v3",
+                        "Description": "24 cores, 448 GiB RAM, 1344 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "20.5515"
                     }]
                 }]
             },
             {
                 "Name": "Cloud Services",
                 "Features": [{
-                    "Name": "default",
+                    "Name": "Fv2 Series",
+                    "Description": "Fv2 Series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
                     "PriceUnit": "Machine",
                     "MinUnit": "0",
                     "MaxUnit": "100",
                     "Sizes": [{
-                        "Name": "E64i v3/E64is v3",
-                        "Description": "64 cores, 432 GiB RAM",
+                        "Name": "F2 v2",
+                        "Description": "2 vCPU, 4 GiB RAM, 16 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.8664"
+                    },
+                    {
+                        "Name": "F4 v2",
+                        "Description": "4 vCPU, 8 GiB RAM, 32 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1.7328"
+                    },
+                    {
+                        "Name": "F8 v2",
+                        "Description": "8 vCPU, 16 GiB RAM, 64 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "3.4656"
+                    },
+                    {
+                        "Name": "F16 v2",
+                        "Description": "16 vCPU, 32 GiB RAM, 128 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "6.9312"
+                    }]
+                },
+                {
+                    "Name": "Fv2 Series",
+                    "Description": "Fv2 Series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "F32 v2",
+                        "Description": "32 vCPU, 64 GiB RAM, 256 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "13.8624"
+                    },
+                    {
+                        "Name": "F64 v2",
+                        "Description": "64 vCPU, 128 GiB RAM, 512 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "27.7248"
+                    },
+                    {
+                        "Name": "F72 v2",
+                        "Description": "72 vCPU, 144 GiB RAM, 576 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "55.4496"
+                    }]
+                },
+                {
+                    "Name": "E2 64 v3",
+                    "Description": "E2 64 v3",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "E64i v3",
+                        "Description": "E64i v3: 64 vCPU, 432 GiB RAM, 1600 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "20.532"
                     }]

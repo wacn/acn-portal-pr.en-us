@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-07-16T10:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-08-06T13:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -190,6 +190,17 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
+							<a href="#" id="service-fabric_year_2018-july-azure-mysql&postgresql"><span>July 23</span> Azure Database for MySQL and Azure Database for PostgreSQL officially released<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Database for MySQL and Azure Database for PostgreSQL have now been officially released. They offer Azure Community edition MySQL and PostgreSQL database engines, built-in high availability, elastic scale for performance, as well as industry-leading security and compliance with 99.99% SLA. They also deliver flexibility for your applications. From framework and language of your choice to a rich tools and service ecosystem, thereby enabling you to build intelligent applications faster and with greater ease.</p>
+								
+								<p>To learn more about Azure Database for MySQL and its pricing details, please visit<a href="/home/features/mysql/" id="service-fabric_year_2018-july_features-mysql"> Azure Database for MySQL Service Features</a> page and<a href="/pricing/details/mysql/" id="service-fabric_year_2018-july_pricing-mysql"> Azure Database for MySQL Pricing Details</a> page. To learn more about Azure Database for PostgreSQL and its pricing details, please visit <a href="/home/features/postgresql/" id="service-fabric_year_2018-july_features-postgresql">Azure Database for PostgreSQL Service Features</a> page and<a href="/pricing/details/postgresql/" id="service-fabric_year_2018-july_pricing-postgresql"> Azure Database for PostgreSQL Pricing Details</a> page.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
 							<a href="#" id="service-fabric_year_2018-july-azure-sql-database"><span>2 July</span> Azure SQL Database Standard Performance Tiers S4, S6, S7, S9, and S12 Are Officially Launched <i class="icon icon-update"></i></a>
 							<section>
 								<p>Azure SQL Database is a managed intelligent relational cloud database service. Using existing SQL Server functions, you can migrate SQL Server databases, speed up app development, and simplify maintenance without changing your app. New performance tiers (S4, S6, S7, S9, and S12) for single databases within SQL database have been officially launched. They provide more CPUs for standard databases, so that you can obtain a significant number of CPUs without having to use the Premium version, thereby reducing costs.</p>
@@ -215,7 +226,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-june-advisor"><span>June 11</span>Azure Advisor preview version released <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-june-advisor"><span>June 11</span>Azure Advisor preview version released</a>
 							<section>
 								<p>The preview version of Azure Advisor has been released in China. Azure Advisor is a free product that helps you to optimize Azure deployment to follow best practices. It analyzes your resource configuration and usage telemetry, and then recommends solutions that help you to increase resource cost-effectiveness, performance, and availability. Azure Advisor allows you to obtain the following workable recommendations:</p>
 								<ul>

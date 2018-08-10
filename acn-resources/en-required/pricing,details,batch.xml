@@ -1,15 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-07-02T16:00:00" urlName="batch" writerName="content" creatorName="content">
+  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-08-02T12:00:00" urlName="batch" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
+            <style type="text/css">
+                .pricing-detail-tab .tab-nav{
+                    padding-left: 0!important;
+                    margin-top: 5px;
+                    margin-bottom: 0;
+                    overflow: hidden;
+                }
+                .pricing-detail-tab .tab-nav li {
+                    list-style: none;
+                    float: left;
+                }
+
+                .pricing-detail-tab .tab-nav li.active a {
+                    border-bottom: 4px solid #00a3d9;
+                }
+
+                .pricing-detail-tab .tab-nav li.active a:hover {
+                    border-bottom: 4px solid #00a3d9;
+                }
+
+                .pricing-detail-tab .tab-content .tab-panel{
+                    display: none;
+                }
+
+                .pricing-detail-tab .tab-content .tab-panel.show-md{
+                    display: block;
+                }
+
+                .pricing-detail-tab .tab-content .tab-panel .tab-nav li a{
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    color: #00a3d9;
+                    background-color: #FFF;
+                }
+
+                .pricing-detail-tab .tab-content .tab-panel .tab-nav li.active a{
+                    color: #FFF;
+                    background-color: #00a3d9;              
+                }
+
+                .pricing-detail-tab .tab-content .tab-panel .tab-nav li a:hover{
+                    color: #FFF;
+                    background-color: #00a3d9;              
+                }
+            </style>
             <tags ms.service="batch" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
             <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/bacth.png','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/batch@2x.png" />
                         <h2>Batch<span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;"> (Preview)</span> <span></span></h2>
-                        <h4>Cloud-scale job scheduling and compute management</h4>
+                        <h4>Cloud-scale job scheduling and
+compute management</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_batch_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_batch_trial">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -21,63 +67,501 @@
                 <h3>Low-priority VMs within Batch</h3>
                 <p>Low-priority VMs are much cheaper than ordinary VMs and can significantly reduce the costs of running certain workloads, or enable you to complete more work at the same cost. However, as the characteristics of low-priority VMs are quite different, they are only suitable for certain types of app or workload. As low-priority VMs are allocated from excess capacity, availability may differ significantly from ordinary VMs, to the extent that it may sometimes be impossible to allocate VMs, or the allocated VMs may sometimes be occupied by higher-priority allocations. For this reason, availability SLAs for ordinary VMs do not apply to low-priority VMs.</p>
                 <p>If your app can tolerate interruptions, using low-priority VMs may significantly reduce computing costs. Suitable workloads include batch processing and HPC services, and in such situations the work will be split into a large number of asynchronous tasks. If the VM is occupied, the tasks will be interrupted and rerun; if capacity falls, the amount of time taken to complete the operation will also increase correspondingly. Initially, low-priority VMs can only be used via Azure Batch processing; the latter provides operation scheduling and resource management for batch processing workloads. Azure Batch pools can contain both ordinary and low-priority VMs. If the low-priority VMs are occupied, any interrupted tasks will be put back in the queue, and the pool will attempt to automatically replace the lost capacity.</p>
-                <h3>Windows Virtual Machines</h3>
-                <table cellpadding="0" cellspacing="0" width="100%">
-                    <tr>
-                        <th align="left"><strong>Instances</strong></th>
-                        <th align="left"><strong>Number of cores</strong></th>
-                        <th align="left"><strong>RAM</strong></th>
-                        <th align="left"><strong>Temporary Storage</strong></th>
-                        <th align="left"><strong>Low-priority</strong></th>
-                    </tr>
-                    <tr>
-                        <td>E64i v3</td>
-                        <td>64</td>
-                        <td>432.00 GiB</td>
-                        <td>1,600 GiB</td>
-                        <td>¥20.532/hour
-                            <br />(about ¥15,275.808/month)</td>
-                    </tr>
+                <p>Virtual machines are billed per-second rounded down to the last minute.</p>
 
-                </table>
-                <h3>Linux Virtual Machines</h3>
-                <table cellpadding="0" cellspacing="0" width="100%">
-                    <tr>
-                        <th align="left"><strong>Instances</strong></th>
-                        <th align="left"><strong>Number of cores</strong></th>
-                        <th align="left"><strong>RAM</strong></th>
-                        <th align="left"><strong>Temporary Storage</strong></th>
-                        <th align="left"><strong>Low-priority</strong></th>
-                    </tr>
-                    <tr>
-                        <td>E64i v3</td>
-                        <td>64</td>
-                        <td>432.00 GiB</td>
-                        <td>1,600 GiB</td>
-                        <td>¥9.332/hour
-                            <br />(about ¥6,943.008/month)</td>
-                    </tr>
+            </div>
+            <div class="technical-azure-selector pricing-detail-tab">
+                <ul class="tab-nav">
+                    <li class="active">
+                        <a href="javascript:void(0)" data-href="#tabContent1" id="vm-vm-win" data-toggle="tab">Windows Virtual Machines</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" data-href="#tabContent2" id="vm-vm-linux" data-toggle="tab">Linux Virtual Machines</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" data-href="#tabContent3" id="vm-vm-cloud-service" data-toggle="tab">Cloud Services</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-panel" id="tabContent1">
+                        <ul class="tab-nav">
+                            <li class="active">
+                                <a href="javascript:void(0)" data-href="#tabContent1-1"  data-toggle="tab" id="vm-vm-win-compute-optimized">Computing Prioritization</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" data-href="#tabContent1-2"  data-toggle="tab" id="vm-vm-win-memory-optimized">Memory Prioritization</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" data-href="#tabContent1-3"  data-toggle="tab" id="vm-vm-win-GPU">GPU</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-panel" id="tabContent1-1">
+                                <h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and App Services.</h3>
+                                <h3>Fv2 Series</h3>
+                                <p>The Fv2 Virtual Machine supports 2 GiB RAM and 8 GB local temporary storage (SSD) per vCPU and has been optimized for compute intensive workloads. The F Series is hyper-threaded and based on the 2.7 GHz Intel Xeon® Platinum 8168 (SkyLake) processor, which can achieve clock speeds as high as a 3.7 GHz clock speed with Intel Turbo Boost Technology 2.0. These Virtual Machines are suitable for batch processing, Web servers, analysis and gaming programs, etc.</p>
+                                <div class="tags-date">
+                                    <div class="ms-date">*The following prices are tax-inclusive.</div>
+                                    <br />
+                                    <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+                                </div>
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <th align="left"><strong>Instances</strong></th>
+                                        <th align="left"><strong>vCPU</strong></th>
+                                        <th align="left"><strong>RAM</strong></th>
+                                        <th align="left"><strong>Temporary Storage</strong></th>
+                                        <th align="left"><strong>Low-priority</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>F2 v2</td>
+                                        <td>2</td>
+                                        <td>4.00 GiB</td>
+                                        <td>16 GiB</td>
+                                        <td>￥0.8664/hour
+                                            <br />(about ￥644.6016/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F4 v2</td>
+                                        <td>4</td>
+                                        <td>8.00 GiB</td>
+                                        <td>32 GiB</td>
+                                        <td>￥1.7328/hour
+                                            <br />(about ￥1,289.2032/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F8 v2</td>
+                                        <td>8</td>
+                                        <td>16.00 GiB</td>
+                                        <td>64 GiB</td>
+                                        <td>￥3.4656/hour
+                                            <br />(about CNY2,578.4064/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F16 v2</td>
+                                        <td>16</td>
+                                        <td>32.00 GiB</td>
+                                        <td>128 GiB</td>
+                                        <td>￥6.9312/hour
+                                            <br />(about ￥5,156.8128/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F32 v2</td>
+                                        <td>32</td>
+                                        <td>64.00 GiB</td>
+                                        <td>256 GiB</td>
+                                        <td>￥13.8624/hour
+                                            <br />(about ￥10,313.6256/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F64 v2</td>
+                                        <td>64</td>
+                                        <td>128.00 GiB</td>
+                                        <td>512 GiB</td>
+                                        <td>￥27.7248/hour
+                                            <br />(about ￥20,627.2512/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F72 v2</td>
+                                        <td>72</td>
+                                        <td>144.00 GiB</td>
+                                        <td>576 GiB</td>
+                                        <td>￥55.4496/hour
+                                            <br />(about ￥41,254.5024/month)</td>
+                                    </tr>
 
-                </table>
-                <h3>Cloud Services</h3>
-                <table cellpadding="0" cellspacing="0" width="100%">
-                    <tr>
-                        <th align="left"><strong>Instances</strong></th>
-                        <th align="left"><strong>Number of cores</strong></th>
-                        <th align="left"><strong>RAM</strong></th>
-                        <th align="left"><strong>Temporary Storage</strong></th>
-                        <th align="left"><strong>Low-priority</strong></th>
-                    </tr>
-                    <tr>
-                        <td>E64i v3</td>
-                        <td>64</td>
-                        <td>432.00 GiB</td>
-                        <td>1,600 GiB</td>
-                        <td>¥20.532/hour
-                            <br />(about ¥15,275.808/month)</td>
-                    </tr>
+                                </table>
+                            </div>
+                            <div class="tab-panel" id="tabContent1-2">
+                                <h3>Memory optimization: high memory to core ratio. Suitable for relational database servers, medium- and large-scale caches and memory analysis.</h3>
+                                <h3>E2 64 v3</h3>
+                                <p>E2-64 v3 instances are the latest generation of Hyper-Threading memory-optimized instances. E2-64 v3 instances are based on the 2.3 GHz Intel Xeon® E5-2673 v4 (Broadwell) processor, which can reach up to 3.5 GHz via Intel Turbo Boost Technology 2.0. E2-64 v3 instances are suitable for memory-intensive business applications.</p>
+                                
+                                <div class="tags-date">
+                                    <div class="ms-date">*The following prices are tax-inclusive.</div>
+                                    <br />
+                                    <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+                                </div>
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <th align="left"><strong>Instances</strong></th>
+                                        <th align="left"><strong>vCPU</strong></th>
+                                        <th align="left"><strong>RAM</strong></th>
+                                        <th align="left"><strong>Temporary Storage</strong></th>
+                                        <th align="left"><strong>Low-priority</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>E64i v3</td>
+                                        <td>64</td>
+                                        <td>432.00 GiB</td>
+                                        <td>1,600 GiB</td>
+                                        <td>¥20.532/hour
+                                            <br />(about ¥15,275.808/month)</td>
+                                    </tr>
 
-                </table>
+                                </table>
+                            </div>
+                            <div class="tab-panel" id="tabContent1-3">
+                                <h3>GPU: Specifically designed for virtual machines that require large volume graphics rendering or video editing. Single or multiple GPUs can be selected.</h3>
+                                <h3>NCsv3 Series</h3>
+                                <p>The NCsv3 series virtual machine is a new member of the GPU product series (this series offers the next generation of popular NC series virtual machines) that is powered by the NVIDIA Tesla V100 GPU. Customers can use these updated GPUs for traditional HPC workloads that will benefit from a performance boost, powering scenarios like reservoir simulations, DNA sequencing, protein analysis, Monte Carlo simulations, and other projects. We provide a configuration with InfiniBand network and NC24rs v3 for workloads (such as oil and gas, automotive, and genomics) that require fast interconnect in order to speed up the scale-out capability as well as improved single instance performance.</p>
+                                <div class="tags-date">
+                                    <div class="ms-date">*The following prices are tax-inclusive.</div>
+                                    <br />
+                                    <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
+                                    <div class="ms-date">*NCsv3 series is only applicable to data centers in China East 2 and China North 2.</div>
+                                </div>
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <th align="left"><strong>Instances</strong></th>
+                                        <th align="left"><strong>Number of cores</strong></th>
+                                        <th align="left"><strong>RAM</strong></th>
+                                        <th align="left"><strong>Temporary Storage</strong></th>
+                                        <th align="left"><strong>GPU</strong></th>
+                                        <th align="left"><strong>Low-priority</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>NC6s v3</td>
+                                        <td>6</td>
+                                        <td>112.00 GiB</td>
+                                        <td>336 GiB</td>
+                                        <td>1X V100</td>
+                                        <td>￥10.465/hour
+                                            <br />(about ￥7,785.96/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>NC12s v3</td>
+                                        <td>12</td>
+                                        <td>224.00 GiB</td>
+                                        <td>672 GiB</td>
+                                        <td>2X V100</td>
+                                        <td>￥20.93/hour
+                                            <br />( about ￥15,571.92/month )</td>
+                                    </tr>
+                                    <tr>
+                                        <td>NC24s v3</td>
+                                        <td>24</td>
+                                        <td>448.00 GiB</td>
+                                        <td>1,344 GiB</td>
+                                        <td>4X V100</td>
+                                        <td>￥41.86/hour
+                                            <br />(about ￥31,143.84/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>NC24rs v3</td>
+                                        <td>24</td>
+                                        <td>448.00 GiB</td>
+                                        <td>1,344 GiB</td>
+                                        <td>4X V100</td>
+                                        <td>￥46.0454/hour
+                                            <br />( about ￥34,257.7776/month )</td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-panel" id="tabContent2">
+                        <ul class="tab-nav">
+                            <li class="active">
+                                <a href="javascript:void(0)" data-href="#tabContent2-1"  data-toggle="tab" id="vm-vm-linux-compute-optimized">Computing Prioritization</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" data-href="#tabContent2-2"  data-toggle="tab" id="vm-vm-linux-memory-optimized">Memory Prioritization</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" data-href="#tabContent2-3"  data-toggle="tab" id="vm-vm-linux-GPU">GPU</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-panel" id="tabContent2-1">
+                                <h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and App Services.</h3>
+                                <h3>Fv2 Series</h3>
+                                <p>The Fv2 Virtual Machine supports 2 GiB RAM and 8 GB local temporary storage (SSD) per vCPU and has been optimized for compute intensive workloads. The F Series is hyper-threaded and based on the 2.7 GHz Intel Xeon® Platinum 8168 (SkyLake) processor, which can achieve clock speeds as high as a 3.7 GHz clock speed with Intel Turbo Boost Technology 2.0. These Virtual Machines are suitable for batch processing, Web servers, analysis and gaming programs, etc.</p>
+                                <div class="tags-date">
+                                    <div class="ms-date">*The following prices are tax-inclusive.</div>
+                                    <br />
+                                    <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+                                </div>
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <th align="left"><strong>Instances</strong></th>
+                                        <th align="left"><strong>vCPU</strong></th>
+                                        <th align="left"><strong>RAM</strong></th>
+                                        <th align="left"><strong>Temporary Storage</strong></th>
+                                        <th align="left"><strong>Low-priority</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>F2 v2</td>
+                                        <td>2</td>
+                                        <td>4.00 GiB</td>
+                                        <td>16 GiB</td>
+                                        <td>￥0.2166/hour<br />(about ￥161.1504/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F4 v2</td>
+                                        <td>4</td>
+                                        <td>8.00 GiB</td>
+                                        <td>32 GiB</td>
+                                        <td>￥0.4332/hour
+                                            <br />(about ￥322.3008/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F8 v2</td>
+                                        <td>8</td>
+                                        <td>16.00 GiB</td>
+                                        <td>64 GiB</td>
+                                        <td>￥0.8664/hour
+                                            <br />(about ￥644.6016/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F16 v2</td>
+                                        <td>16</td>
+                                        <td>32.00 GiB</td>
+                                        <td>128 GiB</td>
+                                        <td>￥1.7328/hour
+                                            <br />(about ￥1,289.2032/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F32 v2</td>
+                                        <td>32</td>
+                                        <td>64.00 GiB</td>
+                                        <td>256 GiB</td>
+                                        <td>￥3.4656/hour
+                                            <br />(about CNY2,578.4064/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F64 v2</td>
+                                        <td>64</td>
+                                        <td>128.00 GiB</td>
+                                        <td>512 GiB</td>
+                                        <td>￥6.9312/hour
+                                            <br />(about ￥5,156.8128/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F72 v2</td>
+                                        <td>72</td>
+                                        <td>144.00 GiB</td>
+                                        <td>576 GiB</td>
+                                        <td>￥13.8624/hour
+                                            <br />(about ￥10,313.6256/month)</td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                            <div class="tab-panel" id="tabContent2-2">
+                                <h3>Memory optimization: high memory to core ratio. Suitable for relational database servers, medium- and large-scale caches and memory analysis.</h3>
+                                <h3>E2 64 v3</h3>
+                                <p>E2-64 v3 instances are the latest generation of Hyper-Threading memory-optimized instances. E2-64 v3 instances are based on the 2.3 GHz Intel Xeon® E5-2673 v4 (Broadwell) processor, which can reach up to 3.5 GHz via Intel Turbo Boost Technology 2.0. E2-64 v3 instances are suitable for memory-intensive business applications.</p>
+                                
+                                <div class="tags-date">
+                                    <div class="ms-date">*The following prices are tax-inclusive.</div>
+                                    <br />
+                                    <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+                                </div>
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <th align="left"><strong>Instances</strong></th>
+                                        <th align="left"><strong>vCPU</strong></th>
+                                        <th align="left"><strong>RAM</strong></th>
+                                        <th align="left"><strong>Temporary Storage</strong></th>
+                                        <th align="left"><strong>Low-priority</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>E64i v3</td>
+                                        <td>64</td>
+                                        <td>432.00 GiB</td>
+                                        <td>1,600 GiB</td>
+                                        <td>¥9.332/hour
+                                            <br />(about ¥6,943.008/month)</td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                            <div class="tab-panel" id="tabContent2-3">
+                                <h3>GPU: Specifically designed for virtual machines that require large volume graphics rendering or video editing. Single or multiple GPUs can be selected.</h3>
+                                <h3>NCsv3 Series</h3>
+                                <p>The NCsv3 series virtual machine is a new member of the GPU product series (this series offers the next generation of popular NC series virtual machines) that is powered by the NVIDIA Tesla V100 GPU. Customers can use these updated GPUs for traditional HPC workloads that will benefit from a performance boost, powering scenarios like reservoir simulations, DNA sequencing, protein analysis, Monte Carlo simulations, and other projects. We provide a configuration with InfiniBand network and NC24rs v3 for workloads (such as oil and gas, automotive, and genomics) that require fast interconnect in order to speed up the scale-out capability as well as improved single instance performance.</p>
+                                <div class="tags-date">
+                                    <div class="ms-date">*The following prices are tax-inclusive.</div>
+                                    <br />
+                                    <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
+                                    <div class="ms-date">*NCsv3 series is only applicable to data centers in China East 2 and China North 2.</div>
+                                </div>
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <th align="left"><strong>Instances</strong></th>
+                                        <th align="left"><strong>Number of cores</strong></th>
+                                        <th align="left"><strong>RAM</strong></th>
+                                        <th align="left"><strong>Temporary Storage</strong></th>
+                                        <th align="left"><strong>GPU</strong></th>
+                                        <th align="left"><strong>Low-priority</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>NC6s v3</td>
+                                        <td>6</td>
+                                        <td>112.00 GiB</td>
+                                        <td>336 GiB</td>
+                                        <td>1X V100</td>
+                                        <td>￥4.6708/hour
+                                            <br />(about ￥3,475.0752/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>NC12s v3</td>
+                                        <td>12</td>
+                                        <td>224.00 GiB</td>
+                                        <td>672 GiB</td>
+                                        <td>2X V100</td>
+                                        <td>￥9.3416/hour
+                                            <br />(about ￥6,950.1504/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>NC24s v3</td>
+                                        <td>24</td>
+                                        <td>448.00 GiB</td>
+                                        <td>1,344 GiB</td>
+                                        <td>4X V100</td>
+                                        <td>￥18.6831/hour
+                                            <br />(about ¥ 13,900.2264/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>NC24rs v3</td>
+                                        <td>24</td>
+                                        <td>448.00 GiB</td>
+                                        <td>1,344 GiB</td>
+                                        <td>4X V100</td>
+                                        <td>￥20.5515/hour
+                                            <br />(about ¥ 15,290.316/month)</td>
+                                    </tr>
+
+                                </table>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="tab-panel" id="tabContent3">
+                        <ul class="tab-nav">
+                            <li class="active">
+                                <a href="javascript:void(0)" data-href="#tabContent3-1"  data-toggle="tab" id="vm-vm-cloud-service-compute-optimized">Computing Prioritization</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" data-href="#tabContent3-2"  data-toggle="tab" id="vm-vm-cloud-service-memory-optimized">Memory Prioritization</a>
+                            </li>
+                            
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-panel" id="tabContent3-1">
+                                <h3>Computing optimization: high CPU to memory. Suitable for medium-traffic Web server, network device, batch processing and App Services.</h3>
+                                <h3>Fv2 Series</h3>
+                                <p>The Fv2 Virtual Machine supports 2 GiB RAM and 8 GB local temporary storage (SSD) per vCPU and has been optimized for compute intensive workloads. The F Series is hyper-threaded and based on the 2.7 GHz Intel Xeon® Platinum 8168 (SkyLake) processor, which can achieve clock speeds as high as a 3.7 GHz clock speed with Intel Turbo Boost Technology 2.0. These Virtual Machines are suitable for batch processing, Web servers, analysis and gaming programs, etc.</p>
+                                <div class="tags-date">
+                                    <div class="ms-date">*The following prices are tax-inclusive.</div>
+                                    <br />
+                                    <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+                                </div>
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <th align="left"><strong>Instances</strong></th>
+                                        <th align="left"><strong>vCPU</strong></th>
+                                        <th align="left"><strong>RAM</strong></th>
+                                        <th align="left"><strong>Temporary Storage</strong></th>
+                                        <th align="left"><strong>Low-priority</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>F2 v2</td>
+                                        <td>2</td>
+                                        <td>4.00 GiB</td>
+                                        <td>16 GiB</td>
+                                        <td>￥0.8664/hour
+                                            <br />(about ￥644.6016/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F4 v2</td>
+                                        <td>4</td>
+                                        <td>8.00 GiB</td>
+                                        <td>32 GiB</td>
+                                        <td>￥1.7328/hour
+                                            <br />(about ￥1,289.2032/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F8 v2</td>
+                                        <td>8</td>
+                                        <td>16.00 GiB</td>
+                                        <td>64 GiB</td>
+                                        <td>￥3.4656/hour
+                                            <br />(about CNY2,578.4064/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F16 v2</td>
+                                        <td>16</td>
+                                        <td>32.00 GiB</td>
+                                        <td>128 GiB</td>
+                                        <td>￥6.9312/hour
+                                            <br />(about ￥5,156.8128/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F32 v2</td>
+                                        <td>32</td>
+                                        <td>64.00 GiB</td>
+                                        <td>256 GiB</td>
+                                        <td>￥13.8624/hour
+                                            <br />(about ￥10,313.6256/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F64 v2</td>
+                                        <td>64</td>
+                                        <td>128.00 GiB</td>
+                                        <td>512 GiB</td>
+                                        <td>￥27.7248/hour
+                                            <br />(about ￥20,627.2512/month)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F72 v2</td>
+                                        <td>72</td>
+                                        <td>144.00 GiB</td>
+                                        <td>576 GiB</td>
+                                        <td>￥55.4496/hour
+                                            <br />(about ￥41,254.5024/month)</td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                            <div class="tab-panel" id="tabContent3-2">
+                                <h3>Memory optimization: high memory to core ratio. Suitable for relational database servers, medium- and large-scale caches and memory analysis.</h3>
+                                <h3>E2 64 v3</h3>
+                                <p>E2-64 v3 instances are the latest generation of Hyper-Threading memory-optimized instances. E2-64 v3 instances are based on the 2.3 GHz Intel Xeon® E5-2673 v4 (Broadwell) processor, which can reach up to 3.5 GHz via Intel Turbo Boost Technology 2.0. E2-64 v3 instances are suitable for memory-intensive business applications.</p>
+                                
+                                <div class="tags-date">
+                                    <div class="ms-date">*The following prices are tax-inclusive.</div>
+                                    <br />
+                                    <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+                                </div>
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <th align="left"><strong>Instances</strong></th>
+                                        <th align="left"><strong>vCPU</strong></th>
+                                        <th align="left"><strong>RAM</strong></th>
+                                        <th align="left"><strong>Temporary Storage</strong></th>
+                                        <th align="left"><strong>Low-priority</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>E64i v3</td>
+                                        <td>64</td>
+                                        <td>432.00 GiB</td>
+                                        <td>1,600 GiB</td>
+                                        <td>¥20.532/hour
+                                            <br />(about ¥15,275.808/month)</td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
             </div>
 
             <!-- <div class="pricing-page-section">

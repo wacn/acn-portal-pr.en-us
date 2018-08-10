@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2018-06-30T10:41:59" urlName="postgresql" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+        <style>
+            .cognitive-banner{
+                margin: 30px 0;
+            }
+            .cognitive-figure{
+                padding-bottom: 30px;
+                margin-bottom: 30px;
+                border-bottom: 1px #ccc solid;
+                overflow: hidden;
+            }
+            .cognitive-figure .col-md-3{
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .cognitive-figure .col-md-9{
+                padding-left: 2%;
+                padding-right: 0;
+            }
+            .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                margin-top: 4px !important;
+            }
+            .cognitive-icon-group{
+                margin-top: 20px;
+                margin-bottom: 0;
+                list-style:none;
+                padding-left:0 !important;
+            }
+            .cognitive-icon-group li{
+                width:100%;
+                overflow:hidden;
+                margin-bottom: 30px !important;
+            }
+            .cognitive-icon-group li div{
+                float: left;
+            }
+            .cognitive-icon{
+                width: 10%;
+                min-width: 100px;
+                margin-right:-120px;
+            }
+            .cognitive-text{                   
+                margin-left:120px;
+            }
+            .cognitive-icon-group li:last-child{
+                margin-bottom: 0 !important;
+            }
+            @media only screen and (max-width: 769px){
+                .cognitive-figure{
+                    padding-bottom: 20px;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2{
+                    margin-top: 26px !important;
+                }
+            }
+        </style>
+           <tags ms.service="postgresql" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/service-banner-postgressql.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/postgressql_icon@2x.svg" />
+                        <h2>Azure <small>Database for PostgreSQL</small></h2>
+                        <h4>Trusted PostgreSQL Database services geared toward app developers</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_mysql_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mysql_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <p>Azure Database for PostgreSQL delivers fully trusted, enterprise-ready community PostgreSQL database as a service. The PostgreSQL Community edition helps you easily move to the cloud using languages and frameworks of your choice. Most importantly, you will get built-in high availability and the capability to extend within seconds to help you easily adapt to changes in customer demands. In addition, you can benefit from unrivaled security and compliance, including Azure IP advantage and Azure’s industry leading business coverage. All these with a flexible pricing model so that you can choose the resources for your workload without any hidden cost.</p>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/postgresql-01-native-postgresql.png">
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Community PostgreSQL that’s fully trusted</h2>
+                        <p>Combine PostgreSQL community edition with the advantages of being a fully trusted service provider to easily manage infrastructure and database. Use Azure Database for PostgreSQL to get back to building your applications.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/postgresql-02-fav-lang.png">
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Languages and frameworks of your choice</h2>
+                        <p>Use popular open source frameworks and languages (including C#, C++, Java, Python, Node and PHP) to deliver a fully integrated experience to meet application development demands.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/postgresql-03-availability.png">
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Built-in high availability</h2>
+                        <p>Trust Azure to keep your enterprise applications running continuously. Azure Database for PostgreSQL offers high availability (99.99% SLA) to ensure your applications run as per normal when needed without extra configuration, replication or cost.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/postgresql-04-scale-on-the-fly.png">
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Scale within seconds</h2>
+                        <p>Provision within minutes and scale compute or storage with independence and flexibility within seconds.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/postgresql-05-rest-assured.png">
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Unrivaled security and coverage</h2>
+                        <p>Fully integrate into the Azure ecosystem to take advantage of Microsoft global network of datacenters, industry-leading security and round-the-clock monitoring capabilities.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/postgresql-06-pay-one-simple.png">
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Simple and flexible pricing</h2>
+                        <p>Enjoy everything you need with simple and flexible pricing, including capabilities such as automatic database patching, automatic backup, built-in monitoring and security, at no extra cost.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-page-section">
+                    <h1>What can you build with Azure Database for PostgreSQL?</h1>
+                    <div class="cognitive-figure">
+                        <div class="col-md-6">
+                            <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/postgresql-pro-01.png">
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Digital marketing campaigns</h2>
+                            <p>Engage customers around the world with a rich and personalized digital marketing experience. Quickly build and launch automatically scalable digital marketing campaigns based on customer demands.</p>
+                            <p><a href="//docs.azure.cn/zh-cn/postgresql/">Find out more</a></p>
+                        </div>
+                    </div>
+                    <div class="cognitive-figure">
+                        <div class="col-md-6">
+                            <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/postgresql-pro-02.png">
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Retail and e-commerce solutions</h2>
+                            <p>Build secure, scalable e-commerce solutions that meet the demands of both customers and businesses. Engage customers with customized products and offers, process transactions quickly and securely and focus on product delivery and customer service.</p>
+                            <p><a href="//docs.azure.cn/zh-cn/postgresql/">Find out more</a></p>
+                        </div>
+                    </div>
+                    <div class="cognitive-figure">
+                        <div class="col-md-6">
+                            <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/postgresql-pro-03.png">
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Finance management applications</h2>
+                            <p>Securely store critical data and deliver high-value analytics and insights over aggregated data to users, using in-built security and performance.</p>
+                            <p><a href="//docs.azure.cn/zh-cn/postgresql/">Find out more</a></p>
+                        </div>
+                    </div>
+                    <div class="cognitive-figure">
+                        <div class="col-md-6">
+                            <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/postgresql-pro-04.png">
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Scalable Web and mobile applications</h2>
+                            <p>Swiftly build engaging, high-performance and scalable cross-platform and native applications for iOS, Android, Windows or Mac.</p>
+                            <p><a href="//docs.azure.cn/zh-cn/postgresql/">Find out more</a></p>
+                        </div>
+                    </div>
+                    <div class="cognitive-figure">
+                        <!-- <div class="col-md-6">
+                            <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/.png">
+                        </div> -->
+                        <div class="col-md-12">
+                            <h2>Intelligent applications</h2>
+                            <p>Use the state-of-the-art machine learning algorithms and integrated visualization tools to develop complex and transformational applications to obtain actionable insights and analysis.</p>
+                            <p><a href="//docs.azure.cn/zh-cn/postgresql/">Find out more</a></p>
+                        </div>
+                    </div>
+                </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More --> <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->             
+    
+    ]]></bodyText>
+    <pageTitle>Azure Database for PostgreSQL- Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-postgresql</linkid>
+    <metaKeywords>PostgreSQL, trusted open source database, fully trusted database services, OS application development</metaKeywords>
+    <metaDescription><![CDATA[Azure Database for PostgreSQL is a trusted database service for OS application development and deployment that enables you to focus on the application rather than the infrastructure.]]></metaDescription>
+    <urlDisplayName>Azure Database for PostgreSQL</urlDisplayName>
+  </TextpageLeftNav>
+</localize>
