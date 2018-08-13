@@ -5549,7 +5549,6 @@
                     }]
                 }]
                 }
-
             ]
         },          
 
@@ -13229,7 +13228,7 @@
                     }]
                 },
                 {
-                    "Name": "Certificate renewal",
+                    "Name": "Certificate operations - Certificate Renewals",
                     "PricePeriod": "PricePeriodEnum.Monthly",
                     "PriceUnit": "Each",
                     "MinUnit": "0",
@@ -13242,6 +13241,22 @@
                         "MinUnit": "0",
                         "MaxUnit": "5000",
                         "PriceUnit": "Renewal request"
+                    }]
+                },
+            {
+                    "Name": "Certificate operations - all other operations",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "default",
+                        "PriceTier": "PriceTierEnum.Linear",
+                        "PricePerTier": "0.20",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "10,000 operations"
                     }]
                 }]
             }]
