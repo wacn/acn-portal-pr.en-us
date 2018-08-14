@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-08-06T13:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-08-09T18:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
             <div class="more-detail">
             	 <h1>Important Notice</h1>
+            	 <h3>August 2018</h3>
+            	 <ul>
+            	 	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-august-linux"><span>8/9 </span>Risk Warning: Linux Denial of Service Vulnerability<i class="icon icon-update"></i></a>
+							<section>
+								<p>We noticed that a newly disclosed security vulnerability (<a target="_blank" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5390">CVE-2018-5390</a>) may cause the Linux operating system to temporarily fall into a "Denial of Service (DoS)" state. Virtual Machines running the Linux operating system may be vulnerable, but the Azure hosting platforms will not be affected by this vulnerability. We are currently working with the numerous Linux distributions providers to help them address this security issue.</p>
+								<p>You can receive guidance and advices on how to deal with the <a target="_blank"  href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5390">CVE-2018-5390</a> security vulnerability from the various Linux distribution providers. For more information regarding this vulnerability, please visit the Vulnerability Notes Database at <a target="_blank" href="https://www.kb.cert.org/vuls/id/962459">https://www.kb.cert.org/vuls/id/962459</a>.</p>
+								<p>We will continue to update this security notice as the case progresses.</p>
+							</section>
+						</div>
+					</li>
+            	 </ul>
             	 <h3>July 2018</h3>
             	 <ul>
             	 	<li>
@@ -92,7 +106,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-march_azure-site-recovery"><span>March 20 </span>Before March 31, 2018, please update Azure Site Recovery, which uses Access Control authentication<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-march_azure-site-recovery"><span>3/20 </span>Please update Azure Site Recovery, which uses Access Control authentication before March 31, 2018.</a>
 							<section>
 								<p>Azure Site Recovery helps to coordinate replication and protects running workloads. Access Control authentication services used by older versions of the Site Recovery Provider (also known as DRA) and Recovery Service (also known as MARS) agents are about to be retired. To avoid interruptions, please update these older versions before March 31, 2018.</p>
 								<p>Earlier versions of DRA agents (before 5.1.2700) and MARS agents (before 2.0.9096) rely on access control service capabilities for authentication, but this service plan will be completely retired in April 2018. Newer versions of DRA agents (5.1.2700 or later) and MARS agents (2.0.9096 or later) use the latest Azure Active Directory authentication mechanism, which includes role-based control and finer access capabilities. Users who are still using DRA versions before 5.1.2700 and/or MARS agents before 2.0.9096 and replicating servers to one or more recovery service vaults are requested to update your old version to continue using the Site Recovery Service and its upcoming features. If you have already performed these updates, no additional action is required. The new version relies on Azure Active Directory instead of Access Control.</p>
