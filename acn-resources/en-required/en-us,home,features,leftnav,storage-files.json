@@ -1,0 +1,90 @@
+{"service": "<a href='/home/features/storage/' style='color:#00a3d9;'>Storage</a> <li style='margin-top:6px;list-style:none;'>File Storage</li>", 
+"id": "leftnav_product_storage_files", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_storage_details", 
+	"articles": 
+		[
+			{"link": "/home/features/storage/files/", 
+			"id": "leftnav_product_storage-files_function", 
+			"title": "Product overview"},
+			{"link": "/pricing/details/storage/files/", 
+			"id": "leftnav_product_storage-files_pricing", 
+			"title": "Pricing"}, 
+			{"link": "/pricing/calculator/storage/files/", 
+			"id": "leftnav_product_storage-files_calculator", 
+			"title": "Pricing calculator"},
+			{"link": "https://docs.azure.cn/storage/", 
+			"id": "leftnav_product_storage_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/storage/", 
+			"id": "leftnav_product_storage_sla", 
+			"title": "Service Level Agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_storage_related", 
+	"articles": 
+		[
+			{"link": "/home/features/storage/blobs/", 
+			"id": "leftnav_product_sstorage_blobs", 
+			"title": "Block Blob"}, 
+			{"link": "/home/features/storage/disks/", 
+			"id": "leftnav_product_sstorage_disks", 
+			"title": "Disk Storage"}, 
+			{"link": "/home/features/storage/managed-disks/", 
+			"id": "leftnav_product_storage-managed-disks", 
+			"title": "Managed Disk"}, 
+			{"link": "/home/features/storage/queues/", 
+			"id": "leftnav_product_storage-queues", 
+			"title": "Queue"},
+			{"link": "/home/features/storage/tables/", 
+			"id": "leftnav_product_storage-tables", 
+			"title": "Table Storage"}
+		]
+	}, 
+	{"group": "Related Documentation and Links", 
+	"id": "leftnav_product_storage_others", 
+	"articles": 
+		[
+			{"link": "/solutions/web/", 
+			"id": "leftnav_product_storage_solutions_web", 
+			"title": "Web Apps Solutions"}, 
+			{"link": "/solutions/mobile-services/", 
+			"id": "leftnav_product_storage_solutions_mobile-services", 
+			"title": "Mobile Services Solutions"}, 
+			{"link": "/solutions/virtual-machines/", 
+			"id": "leftnav_product_storage_solutions_virtual-machines", 
+			"title": "Virtual Machines Solutions"}, 
+			{"link": "/solutions/data-analysis/", 
+			"id": "leftnav_product_storage_solutions_data-analysis", 
+			"title": "Data Analysis Solutions"},
+			{"link": "/solutions/high-performance-computing/", 
+			"id": "leftnav_product_storage_solutions_high-performance-computing", 
+			"title": "High-Performance Compute Services Solutions"}, 
+			{"link": "/solutions/iot/", 
+			"id": "leftnav_product_storage_solutions_iot", 
+			"title": "Internet of Things Solutions"}, 
+			{"link": "/solutions/dev-test/", 
+			"id": "leftnav_product_storage_solutions_dev-test", 
+			"title": "Development and Testing Solutions"},
+			{"link": "/solutions/storage-backup-recovery-plan/", 
+			"id": "leftnav_product_storage_solutions_storage-backup-recovery-plan", 
+			"title": "Recovery"},
+			{"link": "https://docs.azure.cn/storage/storage-dotnet-how-to-use-blobs/", 
+			"id": "leftnav_product_storage_articles_storage-dotnet-how-to-use-blobs", 
+			"title": "Blob Storage"},
+			{"link": "https://docs.azure.cn/storage/storage-dotnet-how-to-use-files/", 
+			"id": "leftnav_product_storage_articles_storage-dotnet-how-to-use-files", 
+			"title": "Files\n"},
+			{"link": "https://docs.azure.cn/storage/storage-dotnet-how-to-use-tables/", 
+			"id": "leftnav_product_storage_articles_storage-dotnet-how-to-use-tables", 
+			"title": "Table Storage"},
+			{"link": "https://docs.azure.cn/storage/storage-dotnet-how-to-use-queues/", 
+			"id": "leftnav_product_storage_articles_storage-dotnet-how-to-use-queues", 
+			"title": "Queue Storage"}
+		]
+	}
+]
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <umbTextpage id="19329" parentID="19326" level="3" writerID="52" creatorID="94" nodeType="1059" template="2" sortOrder="3" createDate="2013-08-27T11:20:07" updateDate="2014-08-18T11:34:25" nodeName="Web" urlName="web" writerName="uRest" creatorName="xunfan" path="-1，11978，19326，19329" isDoc="" isResponsive="1">
+    <bodyText><![CDATA[
+      
+      <tags ms.service="service-health" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+      <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+                .ash-pad-img{
+                    padding-top:20px;
+                 }
+            </style>
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/service/product-page-banner-ash-01.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px" style="float:left;margin-right: 10px;margin-top: 5px;"><defs><style>.azure-service-health-1{fill:#59b4d9;}</style></defs><title>ASH</title><path class="azure-service-health-1" d="M12.92,28c2.65,0,2.44-.31,3.38-2.83.29-.77.35-1.45.66-2.21,0,0-.1,10.77,0,14a2.12,2.12,0,0,0,1.19,1.6c1.47.35,1.95-.82,2.35-1.64,1.52-2.83,2.69-4.81,4.25-7.89.56-1.22,1.2-1,2.5-1,3.59.09,11.48,0,11.84,0a1.37,1.37,0,0,0,1.49-1.55A1.54,1.54,0,0,0,39.08,25c-5-.09-10.11-.09-15.08,0a1.43,1.43,0,0,0-1.22.85c-.83,1.43-1.7,3.24-2.72,4.9,0-.5,0-11,0-15.48,0-1,0-2-1.33-2.18-1.36-.31-1.88.53-2.28,1.6-1,2.8-2.14,5.57-3.16,8.38-.33.92-1,1.93-2,1.93H3.33c-.42,0-.79-.67-1-1-2.5-4.27-3.47-9.55-.53-14.09C4.64,5.54,8.68,4.07,13.73,5.57c3.55,1,9.7,6.67,10,7,2.08-1.74,3.94-3.54,6-5a13.57,13.57,0,0,1,8.87-2.38c5.31.39,8.42,5.41,9.13,9.18s-.33,7.13-2.06,10.36C42.39,31,37.38,35.82,31.78,40.09c-2.27,1.72-4.73,3.19-7.16,4.68a2.08,2.08,0,0,1-1.79,0A63.1,63.1,0,0,1,4.17,28Z"/></svg>
+                        <h2>Azure Service Health<span>Azure Service Health</span></h2>
+                        <h4>Receive personalized guidance and support for when issues in Azure services affect you.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="azure-service-health_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="azure-service-health_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: azure-service-health-TopBanner --> <!-- BEGIN: azure-service-health-Content -->
+            <div class="pricing-page-section">
+                <p><a href="//portal.azure.cn/#blade/Microsoft_Azure_Health/AzureHealthBrowseBlade/serviceIssues/">Already using Azure? View your personalized dashboard now</a></p>
+                <div class="cognitive-figure">
+                    <div class="col-md-2 ash-pad-img">
+                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/service-health-setup.png" alt=""/>
+                    </div>
+                    <div class="col-md-10">
+                        <h2>Access a personalized dashboard</h2>
+                        <p>Find timely information about service issues, periodic maintenance, and health reports for your resources directly from the Azure portal. A filtered view that helps you focus on what’s important is also provided.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-2 ash-pad-img">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/service-health-targeted.png" alt=""/>
+                    </div>
+                    <div class="col-md-10">
+                        <h2>Set up targeted notifications</h2>
+                        <p>Azure Service Health integrates into Azure Monitor to notify you and your teams via email or webhook when your business-critical resources are affected.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-2 ash-pad-img">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/service-health-support.png" alt=""/>
+                    </div>
+                    <div class="col-md-10">
+                        <h2>Receive guidance and support</h2>
+                        <p>When an Azure issue affects your resources, Service Health helps you diagnose it and get support. You’ll receive constant updates on how Azure is fixing the issue until everything is resolved.</p>
+                    </div>
+                </div>
+                
+                <div class="cognitive-figure">
+                    <div class="col-md-2 ash-pad-img">
+                       <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/service-health-share.png" alt=""/>
+                    </div>
+                    <div class="col-md-10">
+                        <h2>Share details and updates easily</h2>
+                        <p>Get a link for the issue to use in your problem management system, then download a PDF summary of the issue to share with people who don’t have access to the Azure portal.</p>
+                    </div>
+                </div>              
+            </div>
+            <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>Related resources</h1>
+                <h2 style="color: #00a3d9;font-size: 20px;margin: 10px 0 11px;"><a href="/support/contact/" style="font-size: 20px;">Azure support</a></h2>
+                <p style=" margin: -4px 0 0;">View support plans or contact support</p>
+            </div>
+            <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" /> 
+
+
+    
+    ]]></bodyText>
+    <umbracoNaviHide>0</umbracoNaviHide>
+    <pageTitle>Azure Service Health - Azure Cloud Computing</pageTitle>
+    <metaKeywords>Azure Service Health</metaKeywords>
+    <metaDescription><![CDATA[When an issue in an Azure service affects a business-critical resource, Azure Service Health will notify you and provide personalized information from the Azure portal]]></metaDescription>
+    <linkid>service-health</linkid>
+    <urlDisplayName></urlDisplayName>
+    <headerExpose></headerExpose>
+    <footerExpose></footerExpose>
+    <disqusComments>0</disqusComments>
+    <metaCanonical></metaCanonical>
+    <isHeader>0</isHeader>
+    <pageTemplate>solution-template</pageTemplate>
+    <localize>1</localize>
+    <localizePartial>0</localizePartial>
+    <sitemapHide>0</sitemapHide>
+    <banner></banner>
+  </umbTextpage>
+</localize>

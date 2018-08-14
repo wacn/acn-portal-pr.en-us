@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-07-01T16:41:59" urlName="storage-queues" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="storage-queues" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure:last-child{
+                border:0; 
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'/wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/storage.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/storage@2x.png" />
+                        <h2>Queue Storage<span>Queue Storage</span></h2>
+                        <h4>Effectively scale apps  based on traffic volume</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial_storage-blobs">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia_storage-blobs">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <ul>
+                    <li>Simple, durable, and cost-effective message queuing for large workloads</li>
+                    <li>Rich client libraries for .NET, Java, Android, C++, Node.js, PHP, Ruby, and Python</li>
+                    <li>Data accessible via the REST API</li>
+                </ul>
+            </div>
+            <div class="pricing-page-section">
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/queue-flexible-queue.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Partition modules</h2>
+                        <p>Use Azure Queue Storage to create flexible apps and partitioned features to achieve even better durability between large workloads. When designing scalable apps, they can be separated into program modules and each module can scale independently. In communicating between modules, Queue Storage can queue messages asynchronously whether they are in the cloud or local and running on desktop or mobile equipment.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/queue-traffic.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Elastic building</h2>
+                        <p>Queue Storage can increase app scalability and lower sensitivity to individual module malfunctions. If a part of the infrastructure appears to malfunction, the message will be buffered and workload integrity maintained at other processing nodes.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/queue-scale.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Surges</h2>
+                        <p>Queue Storage right sizes service deployments. When applications experience unexpected traffic surges, it prevents servers being attacked by receiving sudden sharp increases in requests. It monitors queue length, adding flexibility to apps, and deploys or halts assistance from additional nodes based on customer requirements.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More --> <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
+    
+    ]]></bodyText>
+    <pageTitle>Queue Storage - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-storage-queues</linkid>
+    <metaKeywords>Queue Storage</metaKeywords>
+    <metaDescription><![CDATA[Azure Premium Storage is immediately suitable for low-latency, I/O intensive apps and high-throughput storage.]]></metaDescription>
+    <urlDisplayName>Queue Storage</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

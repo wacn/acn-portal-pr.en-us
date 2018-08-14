@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2014-10-20T09:41:59" urlName="virtual-machine-scale-sets" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="virtual-machine-scale-sets" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/virtual_machine.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/icon-virtual-machines.png" />
+                        <h2>Virtual Machine Scale Sets<span>Virtual Machine Scale Sets</span></h2>
+                        <h4>Manage and scale thousands of Linux and Windows virtual machines</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_vmss_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_vmss_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <ul>
+                    <li>Create hundreds of identical virtual machines in under an hour</li>
+                    <li>Rapidly extend your large-scale computing and Big Data apps</li>
+                    <li>Dependably integrate load balancing and automatic extension</li>
+                    <li>Large-scale deployment of virtual machines and updates</li>
+                    <li>Supports Linus or Windows mapping and extension</li>
+					<li>Runs Cassandra, Cloudera, Hadoop, MongoDB and Mesos</li>
+                </ul>
+                
+                <h2>Similar to laaS control, similar to PaaS extension</h2>
+                <p>Use Azure Resource Manager as a template for deployment of Virtual Machine Scale Sets - supports Windows and Linux platform imaging and custom imaging and extension.</p>
+
+				<h2>Carry out large-scale and reliable deployment and replacement</h2>
+                <p>You can deploy hundreds of identical Virtual Machines in minutes without any worries. You can rely on large-scale, simple updates in order to focus on important content, such as your applications, and not your infrastructure.</p>
+				
+				<h2>Automatic extension</h2>
+                <p>Virtual Machine Scale Sets with Azure Insights automatic scaling<!--<a href="https://docs.azure.cn" id="virtual-machine-scale-sets_documentation">Azure Insights 自动缩放</a>--> integration provide genuine automatic extension. There is no need to preset virtual machines, therefore you only use computer resources when you need to run apps.</p>
+								
+				<h2>Simplify networks</h2>
+                <p>Virtual Machine Scale Sets with Azure network resource integration (for example <a href="/home/features/load-balancer/" id="virtual-machine-scale-sets_load-balancer">Load Balancer</a> and <a href="/home/features/application-gateway/" id="virtual-machine-scale-sets_application-gateway">Application Gateway</a>). In Virtual Machine Scale Sets you can easily extend workloads between individual virtual machines, and configure network address switching (NAT) rules to link to specific virtual machine instances to conduct failure recovery.</p>
+				
+				<h2>Supports extremely large-scale workloads</h2>
+                <p>Virtual Machine Scale Sets are very flexible and designed to support lateral extension of workloads - including stateless Web front ends, business process containers, and micro service clusters. <a href="/home/features/service-fabric/" id="virtual-machine-scale-sets_service-fabric">Service Fabric</a> actually runs on Virtual Machine Scale Set.</p>
+				
+				
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>More</h1>
+
+				<ul>
+                    <li><a href="https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-overview/" id="virtual-machine-scale-sets_articles_virtual-machine-scale-sets-overview">About Virtual Machine Scale Sets</a></li>
+                    <li><a href="https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-design-overview/" id="virtual-machine-scale-sets_articles_virtual-machine-scale-sets-design-overview">Designing the scale of Virtual Machine Scale Sets</a></li>                
+                    <li><a href="https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-windows-create/" id="virtual-machine-scale-sets_articles_virtual-machine-scale-sets-windows-create">Creating Windows Virtual Machine Scale Sets</a></li>
+                    <li><a href="https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-cli-quick-create/" id="virtual-machine-scale-sets_articles_virtual-machine-scale-sets-cli-quick-create">Using Azure CLI to create Virtual Machine Scale Sets</a></li>                    
+                </ul>
+
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
+    
+    ]]></bodyText>
+    <pageTitle>Virtual Machine Scale Sets - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-virtual-machine-scale-sets</linkid>
+    <metaKeywords>Virtual Machine Scale Sets, Virtual Machines, Azure</metaKeywords>
+    <metaDescription><![CDATA[Understanding Virtual Machine Scale Sets’ automatic extension of virtual machines to get high availability: hundreds of identical machines can be created in minutes; rapidly extend your large-scale computing and Big Data apps; dependable and integrated load balancing and automatic extension; large scale deployment of virtual machines and updates; supports Linus or Windows mapping and extension; runs Cassandra, Cloudera, Hadoop, MongoDB and Mesos.]]></metaDescription>
+    <urlDisplayName>Virtual Machine Scale Sets</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

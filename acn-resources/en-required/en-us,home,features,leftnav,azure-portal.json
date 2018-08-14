@@ -1,0 +1,32 @@
+{"service": "Azure portal", 
+"id": "leftnav_product_azure-portal", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_azure-portal_details", 
+	"articles": 
+		[
+			{"link": "/home/features/azure-portal/", 
+			"id": "leftnav_product_azure-portal_function", 
+			"title": "Product overview"}
+		]
+	}, 
+	{"group": "Related Documentation and Links", 
+	"id": "leftnav_product_azure-portal_others", 
+	"articles": 
+		[
+			{"link": "https://docs.azure.cn/zh-cn/azure-portal-overview/", 
+			"id": "leftnav_product_azure-portal_articles_azure-portal-overview", 
+			"title": "Overview of Getting Started with Azure portal"}
+		]
+	}
+]
+}
+
+
+
+
+
+
+
+

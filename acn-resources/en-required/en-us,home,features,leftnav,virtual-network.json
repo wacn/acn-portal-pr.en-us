@@ -1,0 +1,69 @@
+{"service": "Virtual Network", 
+"id": "leftnav_product_virtual-network", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_networking_details", 
+	"articles": 
+		[
+			{"link": "/home/features/virtual-network/", 
+			"id": "leftnav_product_networking_function", 
+			"title": "Product overview"}, 
+			{"link": "/pricing/details/virtual-network/", 
+			"id": "leftnav_product_networking_pricing", 
+			"title": "Pricing"},
+			{"link": "/pricing/calculator/virtual-network/", 
+			"id": "leftnav_product_networking_calculator", 
+			"title": "Pricing calculator"},
+			{"link": "https://docs.azure.cn/virtual-network/", 
+			"id": "leftnav_product_networking_documentation", 
+			"title": "Documentation"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_networking_related", 
+	"articles": 
+		[
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_virtual-machines_function", 
+			"title": "Virtual Machines"},
+			{"link": "/home/features/cloud-services/", 
+			"id": "leftnav_product_cloud-services_function", 
+			"title": "Cloud Services"},
+			{"link": "/home/features/expressroute/", 
+			"id": "leftnav_product_expressroute_function", 
+			"title": "ExpressRoute"},
+			{"link": "/home/features/vpn-gateway/", 
+			"id": "leftnav_product_vpn-gateway_function", 
+			"title": "VPN Gateway"}
+		]
+	}, 
+	{"group": "Related documentation and links", 
+	"id": "leftnav_product_networking_others", 
+	"articles": 
+		[
+			{"link": "/solutions/mobile-services/", 
+			"id": "leftnav_product_networking_mobile-services", 
+			"title": "Mobile Services Solutions"}, 
+			{"link": "/solutions/virtual-machines/", 
+			"id": "leftnav_product_networking_solutions_virtual-machines", 
+			"title": "Virtual Machines Solutions"}, 
+			{"link": "/solutions/high-performance-computing/", 
+			"id": "leftnav_product_networking_solutions_high-performance-computing", 
+			"title": "High-Performance Compute Services Solutions"}, 
+			{"link": "/solutions/dev-test/", 
+			"id": "leftnav_product_networking_solutions_dev-test", 
+			"title": "Development and Testing Solutions"},
+			{"link": "/solutions/storage-backup-recovery-plan/", 
+			"id": "leftnav_product_networking_solutions_storage-backup-recovery-plan", 
+			"title": "Recovery"},
+			{"link": "https://docs.azure.cn/virtual-network/virtual-networks-create-vnet-classic-portal/", 
+			"id": "leftnav_product_networking_articles_virtual-networks-create-vnet-classic-portal", 
+			"title": "Creating a virtual network"},
+			{"link": "https://docs.azure.cn/virtual-network/virtual-networks-faq/", 
+			"id": "leftnav_product_networking_articles_virtual-networks-faq", 
+			"title": "Answers to Virtual Network FAQ"}
+		]
+	}
+]
+}

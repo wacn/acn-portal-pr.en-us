@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-07-05T10:41:59" urlName="traffic-manager" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="traffic-manager" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/traffic_manager.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/traffic-manager@2x.png" />
+                        <h2>Traffic Manager<span>Traffic Manager</span></h2>
+                        <h4>Route incoming traffic for better performance and availability</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_traffic_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_traffic_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h1>Routes inbound traffic across regions to improve app performance and availability</h1>
+                <ul>
+                    <li>Automatic failover improves app availability</li>
+                    <li>Raises app response speed</li>
+                    <li>Smooths cloud migration in real time</li>
+                    <li>Averages or weights the distribution of app traffic</li>
+                    <li>Conduct A/B testing in a newly deployed environment</li>
+                    <li>Seamlessly integrates internal and cloud environments</li>
+                </ul>
+                <h2>Flexible load balancing choices</h2>
+                <p>Traffic Manager provides three choices of load balancing: failover, performance, or weighted polling. You can choose whatever different apps or scenarios are appropriate.</p>
+
+                <h2>Lowers app downtime</h2>
+                <p>Traffic Manager can monitor your Azure or external website and services. Whenever a malfunction occurs, the user will be directed to a new site thereby improving important app availability.</p>
+
+                <h2>Improves app performance and internal hand-over</h2>
+                <p>Traffic Manager by design can guide users to an Azure or external site with the lowest network delay, thereby improving app response speed and speeding up internal delivery.</p>
+
+                <h2>User traffic is dispersed to multiple sites</h2>
+                <p>Traffic Manager can guide user traffic and divide it up among multiple sites, for example multiple cloud services within the Azure Datacenter, or multiple Azure sites at different data centers. Traffic Manager can carry out averaged or weighted load sharing.</p>
+
+
+                <h2>Coordinating use with internal data centers</h2>
+                <p>Traffic Manager also is an important implementation for many internal app scenarios, including “peak extension to the cloud”, “migration to the cloud”, or “failover to the cloud” services. You can carry out upgrades or take perform maintenance tasks in your internal data center when a user causes problems.</p>
+
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>More</h1>
+                <ul>
+                    <li><a id="home_traffic_traffic-manager-overview" href="https://docs.azure.cn/traffic-manager/traffic-manager-overview/" target="_blank">What is Traffic Manager?</a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
+    
+    ]]></bodyText>
+    <pageTitle>Traffic Manager_Cloud Load Balancing - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-traffic-manager</linkid>
+    <metaKeywords>Azure, Traffic Manager, Load Leveling, Traffic</metaKeywords>
+    <metaDescription><![CDATA[Azure Traffic Manager (Traffic Manager) is a type of cloud-based load balancing service. It automatically causes inbound traffic load balancing between data centers, raises performance, usability, and response speed, achieves smooth cloud migration, and seamless integration of local and cloud systems.]]></metaDescription>
+    <urlDisplayName>Traffic Manager</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

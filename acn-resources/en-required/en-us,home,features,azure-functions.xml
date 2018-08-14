@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2018-05-30T10:15:59" urlName="azure-functions" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="azure-functions" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: functions-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/service/product_banner_functions.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 45 41.5" width="48px" height="48px" style="enable-background:new 0 0 45 41.5;float: left;margin-right: 10px;margin-top: 5px;" xml:space="preserve">
+                            <style type="text/css">
+                                .azure-functions0{fill:#3999C6;}
+                                .azure-functions1{fill:#FAD11B;}
+                                .azure-functions2{opacity:0.3;fill:#F78C21;enable-background:new    ;}
+                            </style>
+                            <title>Azure Functions</title>
+                            <g> <path class="azure-functions0" d="M44.7,21c0.4-0.5,0.4-1.1,0-1.6l-2.2-2.2l-9.7-9.4c-0.4-0.4-1.1-0.4-1.5,0l0,0c-0.4,0.4-0.5,1.1-0.1,1.5
+                                    c0,0,0.1,0.1,0.1,0.1l10.2,10c0.4,0.5,0.4,1.2,0,1.6L31.1,31.3c-0.4,0.5-0.4,1.2,0,1.6l0,0c0.4,0.4,1.1,0.4,1.5,0l9.6-9.6l0.1-0.1
+                                    L44.7,21z"/> <path class="azure-functions0" d="M0.3,21c-0.4-0.5-0.4-1.1,0-1.6l2.2-2.2l9.7-9.4c0.4-0.4,1.1-0.4,1.5,0l0,0c0.4,0.4,0.5,1.1,0.1,1.5
+                                    c0,0-0.1,0.1-0.1,0.1l-10,10c-0.4,0.5-0.4,1.2,0,1.6l10.2,10.3c0.4,0.5,0.4,1.2,0,1.6l0,0c-0.4,0.4-1.1,0.4-1.5,0l-9.8-9.4
+                                    l-0.1-0.1L0.3,21z"/> <polygon class="azure-functions1" points="33.5,0 19.8,0 12.4,20.8 21.4,20.9 14.3,41.5 33.7,14 24.3,14   "/> <polygon class="azure-functions2" points="24.3,14 33.5,0 26.3,0 18.7,17.3 27.7,17.4 14.3,41.5 33.7,14   "/> </g> </svg>
+                        <h2>Azure Functions</h2>
+                        <h4>Using non-server coding</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="functions_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="functions_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: functions-TopBanner --> <!-- BEGIN: functions-Content -->
+            <div class="pricing-page-section">
+                <p>Experience for yourself developing through event-driven type non-servers. On demand scaling by only paying for the resources used.</p>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/functions-video-thumbnail.png" alt=""/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Use non-server calculations provided by Azure Functions</h2>
+                        <p>As needed you can scale simple non-server functions to effortlessly create apps. You can select your preferred programming language without need to worry about a server or infrastructure.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/function-01-manage-apps.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Manage apps not infrastructure</h2>
+                        <p>Concentrate on creating powerful apps. No need to worry about provisioning and administering servers. Azure Functions provides a completely trusted computing platform, which is highly reliable and secure. Based on your scaling and computing needs, you can get any computing resources when needed without having to consider capacity.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/function-optimize.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Optimize business logic</h2>
+                        <p>Only for business critical code compiling. It uses innovative programming models to resolve problems, for example with other service communications, and for creating dependable HTTP API or coordinating complicated workflows. Azure Functions provides you applicable microservices used to create apps that are highly scalable and stable.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/function-develop.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Develop according to your needs</h2>
+                        <p>Use your preferred programming language to set up Azure Functions. Compile code on an easy to use web-based interface or use your favorite development tool on your computer to create and test locally. Use built-in persistent deployment and use integrated monitoring tools to resolve faults. Focus on multiple targets (Cloud Services and Azure Stack) using identical function code.</p>
+                    </div>
+                </div>
+							
+            </div>
+             <div class="pricing-page-section">
+                <h1>Use Azure Functions to perform operations</h1><br/>
+                <div class="cognitive-figure">
+                    <div class="col-md-6">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/functions-web-app_scenario-1.png" alt=""/>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Backend Web applications</h2>
+                        <p>Get online orders and carry out operations from within the queue to generate data preserved in the database.</p>
+                    </div>
+                </div>
+
+                <div class="cognitive-figure">
+                    <div class="col-md-6">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/function-mobile-app_scenario-2.png" alt=""/>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Backend mobile apps</h2>
+                        <p>Co-workers can settle lunch costs between themselves using mobile banking: the person advancing money for lunch can request payment through a mobile app, triggering a notification on the other co-worker’s cell phone.</p>
+                    </div>
+                </div>
+
+                <div class="cognitive-figure">
+                    <div class="col-md-6">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/function-file-processing_scenario-3.png" alt=""/>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Real time file processing</h2>
+                        <p>Safe uploading of medical PDF files. Afterwards, use OCR to detect, decompose, and process the data and add a searchable version to a database.</p>
+                    </div>
+                </div>
+
+                <div class="cognitive-figure">
+                    <div class="col-md-6">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/function-stream-processing_scenario-4.png" alt=""/>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Realtime stream processing</h2>
+                        <p>Gather large volumes of telemetry data from a large number of cloud apps. Close to real time processing of the data and storage in a database to provide an analytic dashboard.</p>
+                    </div>
+                </div>
+
+                <div class="cognitive-figure">
+                    <div class="col-md-6">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/function-automation_scenario-5.png" alt=""/>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Program mission automation</h2>
+                        <p>Every 15 minutes an analysis is conducted of the customer database, checking for duplicate entries and preventing multiple communications from being sent to the same customer.</p>
+                    </div>
+                </div>
+
+                <div class="cognitive-figure">
+                    <div class="col-md-6">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/function-saas_scenario-6.png" alt=""/>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Extending SaaS apps</h2>
+                        <p>SaaS resolves programs through webhook (achieved through Azure Functions) to provide augmentability by automating some of the workflow.</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>Learn more</h1>
+                <ul>
+                    <li><a href="//docs.azure.cn/zh-cn/azure-functions/functions-overview/" id="home_functions_documention_function-functions-overview">Introduction to Azure Functions</a></li>
+                    <li><a href="//docs.azure.cn/zh-cn/azure-functions/functions-runtime-overview/" id="home_functions_documention_function-functions-runtime-overview">Azure Functions Runtime Overview</a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: functions-Content -->
+                          
+    
+    ]]></bodyText>
+    <pageTitle>Azure Functions - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-services-functions</linkid>
+    <metaKeywords>Azure Functions</metaKeywords>
+    <metaDescription><![CDATA[Azure Functions supports the use of Cron operational syntax based on a timer-triggered event. For example, run code every 15 minutes and fix a database table based on self-determined business logic.]]></metaDescription>
+    <urlDisplayName>Azure Functions</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

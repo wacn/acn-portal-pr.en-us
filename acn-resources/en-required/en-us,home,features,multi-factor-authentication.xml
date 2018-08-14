@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2014-10-20T09:41:59" urlName="virtual-machines" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="multi-factor-authentication" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/multi-factor%20authentication.PNG','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/multi-factor%20authentication@2x.png" />
+                        <h2>Multi-Factor Authentication<span>Multi-Factor Authentication</span></h2>
+                        <h4>More security for your data and apps without adding hassles for your users</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_multiple_experience_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_multiple_experience">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h1>Increased security for data and apps</h1>
+                <ul>
+                    <li>Protect access using Mobile Apps, phone calls and text messages</li>
+                    <li>Deploy in the cloud</li>
+                    <li>Keep hybrid environments consistent with local environments</li>
+                    <li>Reduce risk and fulfill compliance requirements</li>
+                </ul>
+                <h2>Greater security, fewer obstacles</h2>
+                <p>Azure Multi-Factor Authentication protects access to your data and apps, while also meeting user demand for simple logon processes. Multi-Factor Authentication uses a range of simple authentication options, including phone calls, texts and mobile app notifications, to provide identity verification, so users can use their preferred method.</p>
+
+                <h2>Deploy in the cloud</h2>
+                <p>Enable Multi-Factor Authentication in Azure Active Directory to add extra authentication measures for all cloud-based apps and services.</p>
+
+                <h2>Provides more protection for Azure administrators</h2>
+                <p>Azure Multi-Factor Authentication provides additional layers of security for Azure administrator accounts for free. If you enable Multi-Factor Authentication, you will need to confirm your identity before you can run Virtual Machines, manage storage or use other Azure services.</p>
+
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>More</h1>
+                <ul>
+                    <li><a href="https://docs.azure.cn/multi-factor-authentication/multi-factor-authentication/" id="home_multiple_verification">What is Multi-Factor Authentication?</a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->  
+        
+    ]]></bodyText>
+    <pageTitle>Azure Multi-Factor Authentication_App services - Azure Cloud Computing</pageTitle>
+    <metaKeywords>Azure, Multi-Factor Authentication, security</metaKeywords>
+    <metaDescription><![CDATA[Enhance security with Azure Multi-Factor Authentication and protect the security of your data and apps.]]></metaDescription>
+    <linkid>home-features-nulti-factor-authentication</linkid>
+    <urlDisplayName>Multi-Factor Authentication</urlDisplayName>
+    <headerText><![CDATA[]]></headerText>
+  </TextpageLeftNav>
+</localize>

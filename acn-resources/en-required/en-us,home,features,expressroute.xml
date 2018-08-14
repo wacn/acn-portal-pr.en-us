@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2014-10-20T09:41:59" urlName="expressroute" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="expressroute" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/express_route.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/expressroute@2x.png" />
+                        <h2>ExpressRoute</h2>
+                        <h4>Dedicated private network fiber connections to Azure</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_expressroute_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_expressroute_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h1>Experience a faster private connection to Azure</h1>
+                <ul>
+                    <li>Private connections to Azure</li>
+                    <li>Increased reliability and speed</li>
+                    <li>Lower latency</li>
+                    <li>Higher security</li>
+                    <li>Significant cost benefits possible</li>
+                    <li>Connect directly from your WAN</li>
+                </ul>
+                <h2>Make your connections fast, reliable, and secure</h2>
+                <p>With Azure ExpressRoute, you can create private connections between an Azure Datacenter and infrastructure on your premises or in a colocation environment. ExpressRoute connections don’t go over the public Internet, and offer more reliability, faster speeds, lower latencies, and higher security than typical Internet connections. In some cases, using ExpressRoute connections to transfer data between on-premises systems and Azure can give you significant cost benefits. You can use ExpressRoute to establish connections to Azure at an ExpressRoute location (ExpressRoute connects to service provider facilities).</p>
+
+                <h2>Recovery</h2>
+                <p>ExpressRoute provides you with a fast and reliable connection to Azure, which is suitable for the following scenarios: periodic data migration, replication for business continuity, disaster recovery, and other high availability strategies. It can also be a cost-effective option for transferring large amounts of data (such as datasets for high-performance computing applications), or moving large virtual machines between your development/test environment in Azure and your on-premises production environment.</p>
+
+                <h2>Expand your data center</h2>
+                <p>ExpressRoute allows you to securely add compute and storage capacity to your existing data center. With high throughput and low latency, Azure feels like a natural extension of your data center, so you enjoy the scalability and economy of the public cloud without having to compromise on network performance.</p>
+
+                <h2>Build hybrid applications</h2>
+                <p>You can use the predictable, reliable, and high-throughput connections offered by ExpressRoute to build applications that span on-premises infrastructure and Azure without compromising security or performance. For example, run a corporate intranet application in Azure that authenticates your users with an on-premises Active Directory service, and serve all your corporate customers without traffic ever routing through the public Internet.</p>
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>Find out more</h1>
+                <ul>
+                    <li><a href="https://docs.azure.cn/expressroute/expressroute-introduction/" id="home_expressroute_php">Technical Overview</a></li>
+                    <li><a href="https://msdn.microsoft.com/library/azure/dn606310.aspx" id="home_expressroute_con">Service Management REST API</a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
+    
+    ]]></bodyText>
+    <pageTitle>Azure ExpressRoute - Azure cloud computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-expressroute</linkid>
+    <metaKeywords>Azure, Microsoft Cloud, networking, virtual networking, ExpressRoute, dedicated line, VPN, IP address, DNS</metaKeywords>
+    <metaDescription><![CDATA[Azure ExpressRoute is a cloud-integrated solution for creating fast and secure private connections between Azure and local data centers. It possesses lower latency and higher security.]]></metaDescription>
+    <urlDisplayName>ExpressRoute</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2018-08-14T09:41:59" urlName="notification-hubs" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="notification-hubs" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/notifications_hubs.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/notification-hubs@2x.png" />
+                        <h2>Notification Hubs<span>Notification Hubs</span></h2>
+                        <h4>Send push notifications to any platform from any backend</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_hubs_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_hubs_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h1>Push notifications from any backend system to any platform</h1>
+                <ul>
+                    <li>Supports all major platforms: iOS, Android (via Baidu Push), Windows, Kindle</li>
+                    <li>Supports backend systems running in the cloud or internal environment</li>
+                    <li>Call the API once to cover millions of devices</li>
+                    <li>Personalize notifications by audience, language or location</li>
+                    <li>Instantly scale up to millions of devices</li>
+                    <li>Dynamically define and reach subdivided audiences</li>
+                </ul>
+                <h2>Broadcast to millions of devices in minutes</h2>
+                <p>Notification Hubs is a type of scalable large-scale mobile push notification engine that can rapidly push millions of messages to iOS, Android (via Baidu Push), Windows or Kindle devices. With just a few lines of code, you can send personalized notifications to part or all of the audience with support for cross-platform sending.</p>
+
+                <h2>Supports any backend system</h2>
+                <p>Notification Hubs is very flexible and can be embedded into any backend system running on an internal environment or the Azure cloud, including .NET, PHP, Java and Node, making it even easier to send instant updates targeted at Mobile Apps and draw in customers with personalized methods.</p>
+
+                <h2>Use dynamic tags to push to different user groups</h2>
+                <p>You can broadcast notifications to all users at once, or user the tagging features of Notification Hubs to perform targeted pushes. You can use the tagging functions to subdivide user groups by activity, interests, location or preferences, enabling you to push the right messages to the right people at the right time.</p>
+
+                <h2>Easily implement localization with templates</h2>
+                <p>If your app targets multiple markets, you can use Notification Hub’s template features to conveniently push localized notification messages, so that users receive information that matches their language. The template functions also mean that you don’t need to store localized settings for every client or create hundreds of tags.</p>
+
+                <h2>Designed for large-scale environments</h2>
+                <p>You can rapidly scale up to millions of devices and send billions of push notifications without the need for reconstruction or sharding. Notifications Hubs can automatically make the necessary infrastructure adjustments and push your messages to every single active device with extremely low latency.</p>
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>More</h1>
+                <ul>
+                    <li><a href="http://msdn.microsoft.com/zh-cn/library/jj927170.aspx" id="home_notification_what">What is Notification Hubs?</a></li>
+                    <li><a href="https://docs.azure.cn/notification-hubs/notification-hubs-baidu-china-android-notifications-get-started/" id="home_notification_note">Get Started with Notification Hubs</a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
+    
+    ]]></bodyText>
+    <pageTitle>Notification Hubs_IoT - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>notification-hubs</linkid>
+    <metaKeywords>Azure, Microsoft Cloud, Azure Notification Hubs, features</metaKeywords>
+    <metaDescription><![CDATA[Azure Notification Hubs is a scalable large-scale mobile push notification engine that can rapidly push millions of messages to multiple platforms (iOS, Android, Windows Phone, etc.). It supports pushing notifications from any backend system to any platform, and can dynamically define and reach segmented audiences by providing notifications personalized by audience, language or location. Users can easily implement localization using templates, allowing the audience to obtain information that matches their language.]]></metaDescription>
+    <urlDisplayName>Notification Hubs</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

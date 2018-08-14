@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2016-12-30T15:40:24" updateDate="2018-07-25T12:00:00" urlName="power-bi-embedded" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="power-bi-embedded" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+			<style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+			
+            <!-- BEGIN: Product-Detail-TopBanner -->
+           <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/service/service-banner-power-bi-embedded-slice.png ','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/service/power-bi-embedded.png" /> 
+                        <h2>Power BI Embedded</h2>
+                        <h4>Embed fully interactive data visualizations in your application</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_power_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_power_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <p>Scale your applications with stunning and interactive visuals, dashboards and reports.</p>
+                <h2>Why embed analytics solutions in your applications?</h2>
+                <h3>Develop your business faster</h3>
+                <p>Achieve faster time to market with your applications by minimizing development efforts</p>
+                <p>Stand out from competitors and bring your applications to life</p>
+                <h3>Make development more efficient</h3>
+                <p>Get Started quickly to access API libraries and SDKs</p>
+                <p>Focusing on your product rather than developing visual analytics features from scratch</p>
+                <p>Quickly meet report and dashboard requirements of customers</p>
+                <h3>Create value for your customers</h3>
+                <p>Explore data and get insights from anywhere</p>
+                <p>Make intelligent decisions quickly in context</p>
+                <p>Increase their level of business intelligence and feel more confident with data-driven decisions</p>
+                
+                <h2>How can Power BI Embedded help you achieve your expectation</h2>
+                <ul style=" list-style: inherit;">
+                    <li>Get a complete PaaS solution with cloud development and deployment when using Power BI Embedded - without requiring servers.</li>
+                    <li>Connect to hundreds of data sources, so that you deliver valuable insights.</li>
+                    <li>Access complete libraries with existing visuals, download community-created visuals or create your own visuals with ease.</li>
+                    <li>Use other Microsoft services within the same Azure framework.</li>
+                    <li>Keep customers up to date with real-time analytics.</li>
+                    <li>Offer customers with high fidelity interactive visualizations across any device - rendered in HTML 5.</li>
+                </ul>
+
+                <h2>Embed Power BI analytics into your applications in three simple steps</h2>
+                <h3>1. Create</h3>
+                <p>Create rich visuals with Power BI Desktop. Connect to multiple data sources, format and model your data, explore interactive visuals and publish created content.</p>
+                <h3>2. Develop</h3>
+                <p>Instantly integrate with open source tools, other analytics solutions and dedicated applications. Develop with <a href="https://docs.microsoft.com/zh-cn/power-bi/service-admin-purchasing-power-bi-pro">Power BI Pro</a> by leveraging on familiar tools (such as JavaScript SDK or Visual Studio).</p>
+                <h3>3.Deployment</h3>
+                <p>Register your application in the production environment and deploy with Power BI Embedded.</p>
+
+                <h2>Use Azure features for embedded analytics</h2> 
+                <p>Solutions supported by a trusted cloud</p> 
+                <ul style=" list-style: inherit;">
+                    <li>Scalable and flexible</li>
+                    <li>Globally secure and compliant</li>
+                    <li>Reliable infrastructure</li>
+                    <li>Premium data services</li>
+                </ul>
+
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>Learn more</h1>
+                <p></p>
+                <ul>
+                    <li><a id="power-bi-embedded_articles_what-is-power-bi-embedded" href="//docs.azure.cn/zh-cn/power-bi-embedded/what-is-power-bi-embedded/" >About Power BI Embedded<i class="icon icon-arrow-right-thin"></i></a></li>
+                    <li><a id="power-bi-embedded_articles_get-started" href="//docs.azure.cn/zh-cn/power-bi-embedded/get-started/" >Get started with Power BI Embedded<i class="icon icon-arrow-right-thin"></i></a></li>
+					<li><a id="power-bi-embedded_articles_aog-power-bi-embedded-qa-creation-issue" href="//docs.azure.cn/zh-cn/articles/azure-operations-guide/power-bi-embedded/aog-power-bi-embedded-qa-creation-issue/" >Register for Azure AD application<i class="icon icon-arrow-right-thin"></i></a></li>
+					<li><a id="power-bi-embedded_articles_create-capacity" href="//docs.azure.cn/zh-cn/power-bi-embedded/create-capacity/" >Create capacity<i class="icon icon-arrow-right-thin"></i></a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />                                                                                
+    
+    ]]></bodyText>
+    <pageTitle>Power BI Embedded_Intelligent Data Analysis Systems - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-power-bi-embedded</linkid>
+    <metaKeywords>Azure, Microsoft Cloud, Power BI Embedded</metaKeywords>
+    <metaDescription><![CDATA[Azure Power BI Embedded makes data within your applications livelier, enable you to create influential interactive data visualizations for application data within Power BI Desktop without writing any code.]]></metaDescription>
+    <urlDisplayName>Power BI Embedded</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

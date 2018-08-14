@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2018-06-11T11:09:24" updateDate="2018-06-25T11:09:24" urlName="azure-policy" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="azure-policy" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: policys-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/service/product_banner_policy.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/policy.svg" /> <!-- width="48px" height="48px" style="enable-background:new 0 0 45 41.5;float: left;margin-right: 10px;margin-top: 5px;"  -->    
+                        <h2>Azure Policy<span>Azure Policy</span></h2>
+                        <h4>Implement large-scale company management and standards for Azure resources</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="policy_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="policy_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: policy-TopBanner --> <!-- BEGIN: policy-Content -->
+            <div class="pricing-page-section">
+                <ul>
+                    <li>Easily manage Azure resources</li>
+                    <li>Large-scale app management and security</li>
+                    <li>Implement policies and audit compliance</li>
+                    <li>Continuously monitor compliance</li>
+                    <li>Flexibly create custom policies</li>
+                    <li>Apply built-in policies from the community and official Azure sources</li>
+                </ul>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/azure-policy-add-policies.svg">
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Add policies to resources</h2>
+                        <p>Turn on built-in policies or build your own custom policies to implement large-scale security and management of Azure resources. Limit your organization’s deployment options to specific data centers, or only enable specific resource types to be created. Create metadata tokens to help promote accountability and compliance.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/azure-policy-build-policy.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Choose how to build policies</h2>
+                        <p>Create policies in the Azure portal, which has full support for IntelliSense, or any other JSON editor, and import policies using Bash, PowerShell, or APIs.</p>
+                    </div>
+                </div>
+                <!-- <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/azure-policy-scale-policy.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>针对任何规模应用策略</h2>
+                        <p>对所选范围内的 Azure 资源应用策略，从单个订阅到在整个组织中具有控制权的管理组。</p>
+                    </div>
+                </div> -->
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/azure-policy-monitor.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Monitor compliance</h2>
+                        <p>Choose to execute policies or audit policy compliance targeting best practices. View policy compliance for all policies, or aggregate multiple policies into a plan and supervise compliance for the entire plan.</p>
+                    </div>
+                </div>
+							
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>Learn more</h1>
+                <ul>
+                    <li><a href="//docs.azure.cn/zh-cn/azure-policy/azure-policy-introduction/" id="home_policy_documention_azure-policy-introduction">Azure Policy Overview</a></li>
+                    <li><a href="//docs.azure.cn/zh-cn/azure-policy/assign-policy-definition/" id="home_policy_documention_assign-policy-definition">Assign Policies - Portal</a></li>
+                </ul>
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: policy-Content -->
+                          
+    
+    ]]></bodyText>
+    <pageTitle>Azure Policy – Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-services-policy</linkid>
+    <metaKeywords>Azure Policy, control, management, compliance</metaKeywords>
+    <metaDescription><![CDATA[Use Azure Policy to manage Azure resources and monitor compliance. Flexibly configure policies on a large scale or for individual resources.]]></metaDescription>
+    <urlDisplayName>Azure Policy</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

@@ -1,0 +1,75 @@
+{"service": "Power BI Embedded", 
+"id": "leftnav_product_power-bi-embedded", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_power-bi-embedded_details", 
+	"articles": 
+		[
+			{"link": "/home/features/power-bi-embedded/", 
+			"id": "leftnav_product_power-bi-embedded_function", 
+			"title": "Product overview"}, 
+			{"link": "/pricing/details/power-bi-embedded/", 
+			"id": "leftnav_product_power-bi-embedded_pricing", 
+			"title": "Pricing"},
+			{"link": "/pricing/calculator/power-bi-embedded/", 
+			"id": "leftnav_product_power-bi-embedded_calculator", 
+			"title": "Pricing calculator"},
+			{"link": "//docs.azure.cn/zh-cn/power-bi-embedded/", 
+			"id": "leftnav_product_power-bi-embedded_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/power-bi-embedded/", 
+			"id": "leftnav_product_power-bi-embedded_sla", 
+			"title": "Service Level Agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_power-bi-embedded_related", 
+	"articles": 
+		[
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_power-bi-embedded_virtual-machines_function", 
+			"title": "Virtual Machines"}, 
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_power-bi-embedded_storage_function", 
+			"title": "Storage"},
+			{"link": "/home/features/virtual-network/", 
+			"id": "leftnav_product_power-bi-embedded_networking_function", 
+			"title": "Virtual Network"},		
+			{"link": "/home/features/sql-database/", 
+			"id": "leftnav_product_power-bi-embedded_sql-database_function", 
+			"title": "SQL Database"}
+		]
+	}, 
+	{"group": "Related Documentation and Links", 
+	"id": "leftnav_product_power-bi-embedded_others", 
+	"articles": 
+		[
+			
+			{"link": "//docs.azure.cn/zh-cn/power-bi-embedded/what-is-power-bi-embedded/", 
+			"id": "leftnav_product_power-bi-embedded_articles_what-is-power-bi-embedded", 
+			"title": "About Power BI Embedded"},
+			
+			{"link": "//docs.azure.cn/zh-cn/power-bi-embedded/get-started/", 
+			"id": "leftnav_product_power-bi-embedded_articles_get-started", 
+			"title": "Get started with Power BI Embedded"},
+			
+			{"link": "//docs.azure.cn/zh-cn/articles/azure-operations-guide/power-bi-embedded/aog-power-bi-embedded-qa-creation-issue/", 
+			"id": "leftnav_product_power-bi-embedded_articles_aog-power-bi-embedded-qa-creation-issue", 
+			"title": "Register for an Azure AD app"},
+			
+			{"link": "//docs.azure.cn/zh-cn/power-bi-embedded/create-capacity/", 
+			"id": "leftnav_product_power-bi-embedded_articles_create-capacity", 
+			"title": "Create capacity"}
+		]
+	}
+]
+}
+
+
+
+
+
+
+
+
