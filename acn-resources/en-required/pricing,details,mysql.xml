@@ -67,7 +67,7 @@
                 <div width="100%" style="background-color:#e5f1fb;margin-bottom:20px;border: 1px solid transparent;border-color: rgba(0,120,215,0.5);padding: 0 15px;">
                     <p>This page is concerning new service content under Azure Database for MySQL. To view classic MySQL Database on Azure services, please visit <a href="/pricing/details/mysqldatabaseonazure/">MySQL Database on Azure Service pricing details page</a>.</p>
                 </div>
-                <p>Azure Database for MySQL delivers a fully trusted database service for app development and deployment with built-in capabilities (such as high availability) at no extra cost.</p>
+                <p>Azure Database for MySQL delivers a fully managed database service for app development and deployment with built-in capabilities (such as high availability) at no extra cost.</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector pricing-detail-tab">
@@ -86,7 +86,7 @@
                 <div class="tab-content">
                     <!-- BEGIN: Level 1 tab content panel 1 -->
                     <div class="tab-panel" id="tabContent1">
-                        <p>Workloads that requires light compute and I/O performance.</p>
+                        <p>Workloads that require light compute and I/O performance.</p>
                         <h2>Compute</h2>
                         <p>Compute is provisioned in virtual core (vCore). A vCore represents a logical CPU offered with an option to choose between compute generations.</p>
                         <h4>Compute Gen 4</h4>
@@ -123,7 +123,7 @@
                             </table>
 
                         <h2>Storage</h2>
-                        <p>You are billed for provisioned storage in the server. Storage can be provisioned up to 1TB.</p>
+                        <p>You are billed for the storage you provision in the server. You can provision up to 1TB of storage.</p>
                         <table cellpadding="0" cellspacing="0" width="100%">
                             <tr>
                                 <th align="left"><strong></strong></th>
@@ -223,7 +223,7 @@
                             </table>
 
                         <h2>Storage</h2>
-                        <p>You are billed for provisioned storage in the server. Storage can be provisioned up to 2TB.</p>
+                        <p>You are billed for the storage you provision in the server. You can provision up to 2TB of storage.</p>
                         <table cellpadding="0" cellspacing="0" width="100%">
                             <tr>
                                 <th align="left"><strong></strong></th>
@@ -250,11 +250,11 @@
                                 <td>¥1.5875</td>
                             </tr>
                         </table>
-                        <p>Limited-time promotion: Backup Storage will not be charged until August 1, 2018.</p>
+                        <p>Limited-time promotion: No Backup Storage fees will be charged until August 1, 2018.</p>
                     </div>
                     <!-- END: TAB-CONTAINER-2 --> <!-- BEGIN: TAB-CONTAINER-3 -->
                     <div class="tab-panel" id="tabContent3">
-                        <p>Workloads of high-performance database require in-memory performance to achieve faster transaction processing and higher concurrency.</p>
+                        <p>High-performance database workloads require in-memory performance for faster transaction processing and higher concurrency.</p>
                         <h2>Compute</h2>
                         <p>Compute is provisioned in virtual core (vCore). A vCore represents a logical CPU offered with an option to choose between compute generations.</p>
                         <!-- <h4>计算生成 4</h4>
@@ -307,7 +307,7 @@
                         </table>
 
                         <h2>Storage</h2>
-                        <p>You are billed for provisioned storage in the server. Storage can be provisioned up to 2TB.</p>
+                        <p>You are billed for the storage you provision in the server. You can provision up to 2TB of storage.</p>
                         <table cellpadding="0" cellspacing="0" width="100%">
                             <tr>
                                 <th align="left"><strong></strong></th>
@@ -334,7 +334,7 @@
                                 <td>¥1.5875</td>
                             </tr>
                         </table>
-                        <p>Limited-time promotion: Backup Storage will not be charged until August 1, 2018.</p>
+                        <p>Limited-time promotion: No Backup Storage fees will be charged until August 1, 2018.</p>
                     </div>
                     <!-- END: TAB-CONTAINER-3 -->
                 </div>
@@ -349,7 +349,7 @@
                             <div>
                                 <a id="pricing_mysql_question1">What are the differences between the Basic, General Purpose, and Memory Optimized tiers?</a>
                                 <section>
-                                    <p>Basic tier is designed for workloads that require light compute and I/O performance. Examples include servers for development or testing or less frequently-used small applications. General Purpose tier is suitable for most business workloads, which require balanced compute, memory and scalable I/O throughput. Examples include servers for trusted Web and mobile applications, as well as other enterprise applications. Memory Optimized tier is for high performance database workloads that require in-memory performance to achieve faster transaction processing and higher concurrency. Examples include servers for processing real-time data and high-performance transactional or analytical applications. For more details, please see <a href="//docs.azure.cn/zh-cn/mysql/concepts-pricing-tiers/">documentation</a>.</p>
+                                    <p>Basic tier is designed for workloads that require light compute and I/O performance. Examples include servers for development or testing or infrequently used small-scale applications. General Purpose tier is suitable for most business workloads that require balanced compute, memory and scalable I/O throughput. Examples include servers for hosting web and mobile apps, as well as other enterprise applications. Memory Optimized tier is for high performance database workloads that require in-memory performance for faster transaction processing and higher concurrency. Examples include servers for processing real-time data and high-performance transactional or analytical applications. For more details, please see <a href="//docs.azure.cn/zh-cn/mysql/concepts-pricing-tiers/">documentation</a>.</p>
                                 </section>
                             </div>
                         </li>
@@ -359,7 +359,7 @@
                                 <a id="pricing_mysql_question2">How is the bill calculated?</a>
                                 <section>
                                     <p>For all tiers, the service is billed on a predictable, hourly rate based on the pricing tier, provisioned compute in vCore, as well as storage (GB/month) provisioned for servers and backups. vCore hours, storage (GB/month) of servers and storage (GB/month) of backups are itemized separately on the bill.</p>
-                                    <p>In addition, you will also be billed for number of I/Os used per month starting from September 1, 2018.</p>
+                                    <p>In addition, starting September 1, 2018, you will also be billed for the number of I/Os used per month.</p>
                                 </section>
 
                             </div>
