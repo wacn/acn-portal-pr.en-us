@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-08-09T18:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-08-22T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
-      
+       
          <div class="section-component">
             <div class="more-detail">
             	 <h1>Important Notice</h1>
@@ -11,10 +11,10 @@
             	 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-august-linux"><span>8/9 </span>Risk Warning: Linux Denial of Service Vulnerability<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-august-linux">Risk Warning: Linux Denial of Service Vulnerability<i class="icon icon-update"></i></a>
 							<section>
-								<p>We noticed that a newly disclosed security vulnerability (<a target="_blank" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5390">CVE-2018-5390</a>) may cause the Linux operating system to temporarily fall into a "Denial of Service (DoS)" state. Virtual Machines running the Linux operating system may be vulnerable, but the Azure hosting platforms will not be affected by this vulnerability. We are currently working with the numerous Linux distributions providers to help them address this security issue.</p>
-								<p>You can receive guidance and advices on how to deal with the <a target="_blank"  href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5390">CVE-2018-5390</a> security vulnerability from the various Linux distribution providers. For more information regarding this vulnerability, please visit the Vulnerability Notes Database at <a target="_blank" href="https://www.kb.cert.org/vuls/id/962459">https://www.kb.cert.org/vuls/id/962459</a>.</p>
+								<p>8/15: Another security vulnerability called “FragmentSmack” (<a href="https://www.kb.cert.org/vuls/id/641765">CVE-2018-5391</a>) also leads to denial of service (DoS) of Linux operating system. We have taken proper protective measures to ensure Microsoft cloud platform’s customers (Azure and Microsoft 365) free from the affection of this vulnerability. You do not need to take any immediate protective actions. However, as a best practice, we still recommend that you regularly consult each Linux distribution provider to install the latest updates for Linux Virtual Machines running on the Azure platform. You can consult each Linux distribution provider for more information on Linux security vulnerabilities.</p>
+								<p>8/7: We noticed that a newly disclosed security vulnerability (<a target="_blank" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5390">CVE-2018-5390</a>) may cause the Linux operating system to temporarily fall into a “Denial of Service (DoS)” state. Virtual Machines running the Linux operating system may be vulnerable, but Azure hosting platform will not be affected by this vulnerability. We are currently working with numerous Linux distribution providers to help them address this security issue. Please contact each Linux distribution provider for guidance on how to address the <a target="_blank"  href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5390">CVE-2018-5390</a> security vulnerability. For more information on this vulnerability, please visit the Vulnerability Information Database at <a target="_blank" href="https://www.kb.cert.org/vuls/id/962459">https://www.kb.cert.org/vuls/id/962459</a>.</p>
 								<p>We will continue to update this security notice as the case progresses.</p>
 							</section>
 						</div>
@@ -199,6 +199,20 @@
                 </ul> -->
                 <h1>Product Update</h1>
                 <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a>
+                <h3>August 2018</h3>
+                <ul>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-august-azure-mysql&postgresql"><span>8/22 </span>Azure Container Registry preview version release<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Container Registry preview version has been released in China. It provides a hosted Docker registration service for storing and managing private container images. Azure Container Registry can work along with the existing container development and deployment channels. You can generate a container image in Azure using the Azure Container Registry Build. The source code submission and base image update can be used to generate triggers on demand as needed or fully automatically.</p>
+								
+								<p>To learn more about this service and pricing, please visit the <a href="/home/features/container-registry/" id="service-fabric_year_2018-august_features-container-registry">Container Registry Service Feature</a> page and the <a href="/pricing/details/container-registry/" id="service-fabric_year_2018-august_pricing-container-registry">Container Registry Price Details</a>page. For more details, please visit the <a href="//docs.azure.cn/zh-cn/container-registry/" id="service-fabric_year_2018-may-10_documentation-container-registry">Azure Container Registry Document</a> page.</p>
+							</section>
+						</div>
+					</li>
+                </ul>
                 <h3>July 2018</h3>
                 <ul>
                 	<li>
@@ -229,7 +243,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-june-azure-policy"><span>June 25</span>Azure Policy officially released <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-june-azure-policy"><span>6/25</span>Official Release of Azure Policy</a>
 							<section>
 								<p>Azure Policy is a new service that allows customers to assess and implement management standards on the enterprise scale throughout the entire Azure environment, and achieve appropriate control and compatibility. Azure Policy can evaluate Azure resources that breach policies and run compliance audits for every policy in a subscription. The goal of Azure Policy is to manage the largest possible Azure environment, in order to provide consistent standards for all of a department or company’s Azure subscriptions.</p>
 								
