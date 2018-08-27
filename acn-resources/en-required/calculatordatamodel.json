@@ -1603,6 +1603,58 @@
                     }]
                 },
                 {
+                    "Name": "B series/BS series",
+                    "Description": "B series/BS series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "B1/BS1",
+                        "Description": "1 core, 1 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.238"
+                    },
+                    {
+                        "Name": "B2/BS2",
+                        "Description": "2 cores, 4 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.286"
+                    },
+                    {
+                        "Name": "B1m/BS1m",
+                        "Description": "1 core, 2 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.252"
+                    }]
+                },
+                {
+                    "Name": "B series/BS series",
+                    "Description": "B series/BS series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "B2m/BS2m",
+                        "Description": "2 cores, 8 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.342"
+                    },
+                    {
+                        "Name": "B4m/BS4m",
+                        "Description": "4 cores, 16 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.45"
+                    },
+                    {
+                        "Name": "B8m/BS8m",
+                        "Description": "8 cores, 32 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.888"
+                    }]
+                },
+                {
                     "Name": "Av2 Series",
                     "Description": "Av2 Series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
@@ -1929,6 +1981,58 @@
                     }]
                 },
                 {
+                    "Name": "B series/BS series",
+                    "Description": "B series/BS series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "B1/BS1",
+                        "Description": "1 core, 1 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.778"
+                    },
+                    {
+                        "Name": "B2/BS2",
+                        "Description": "2 cores, 4 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.826"
+                    },
+                    {
+                        "Name": "B1m/BS1m",
+                        "Description": "1 core, 2 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.792"
+                    }]
+                },
+                {
+                    "Name": "B series/BS series",
+                    "Description": "B series/BS series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "B2m/BS2m",
+                        "Description": "2 cores, 8 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.882"
+                    },
+                    {
+                        "Name": "B4m/BS4m",
+                        "Description": "4 cores, 16 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "2.99"
+                    },
+                    {
+                        "Name": "B8m/BS8m",
+                        "Description": "8 cores, 32 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "5.948"
+                    }]
+                },
+                {
                     "Name": "Av2 Series",
                     "Description": "Av2 Series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
@@ -2252,6 +2356,58 @@
                         "Description": "8 cores, 56 GiB RAM, 605 GiB disk",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "27.7"
+                    }]
+                },
+                {
+                    "Name": "B series/BS series",
+                    "Description": "B series/BS series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "B1/BS1",
+                        "Description": "1 core, 1 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "10.448"
+                    },
+                    {
+                        "Name": "B2/BS2",
+                        "Description": "2 cores, 4 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "10.496"
+                    },
+                    {
+                        "Name": "B1m/BS1m",
+                        "Description": "1 core, 2 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "10.462"
+                    }]
+                },
+                {
+                    "Name": "B series/BS series",
+                    "Description": "B series/BS series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "B2m/BS2m",
+                        "Description": "2 cores, 8 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "10.552"
+                    },
+                    {
+                        "Name": "B4m/BS4m",
+                        "Description": "4 cores, 16 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "10.66"
+                    },
+                    {
+                        "Name": "B8m/BS8m",
+                        "Description": "8 cores, 32 GiB RAM",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "21.288"
                     }]
                 },
                 {
@@ -5549,7 +5705,6 @@
                     }]
                 }]
                 }
-
             ]
         },          
 
