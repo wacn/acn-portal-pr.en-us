@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
+<<<<<<< HEAD
   <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-08-06T13:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+=======
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-08-22T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+>>>>>>> master
     <bodyText><![CDATA[
       
          <div class="section-component">
             <div class="more-detail">
             	 <h1>Important Notice</h1>
+            	 <h3>August 2018</h3>
+            	 <ul>
+            	 	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-august-linux">Risk Warning: Linux Denial of Service Vulnerability<i class="icon icon-update"></i></a>
+							<section>
+								<p>8/15: Another security vulnerability called “FragmentSmack” (<a href="https://www.kb.cert.org/vuls/id/641765">CVE-2018-5391</a>) also leads to denial of service (DoS) of Linux operating system. We have taken proper protective measures to ensure Microsoft cloud platform’s customers (Azure and Microsoft 365) free from the affection of this vulnerability. You do not need to take any immediate protective actions. However, as a best practice, we still recommend that you regularly consult each Linux distribution provider to install the latest updates for Linux Virtual Machines running on the Azure platform. You can consult each Linux distribution provider for more information on Linux security vulnerabilities.</p>
+								<p>8/7: We noticed that a newly disclosed security vulnerability (<a target="_blank" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5390">CVE-2018-5390</a>) may cause the Linux operating system to temporarily fall into a “Denial of Service (DoS)” state. Virtual Machines running the Linux operating system may be vulnerable, but Azure hosting platform will not be affected by this vulnerability. We are currently working with numerous Linux distribution providers to help them address this security issue. Please contact each Linux distribution provider for guidance on how to address the <a target="_blank"  href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5390">CVE-2018-5390</a> security vulnerability. For more information on this vulnerability, please visit the Vulnerability Information Database at <a target="_blank" href="https://www.kb.cert.org/vuls/id/962459">https://www.kb.cert.org/vuls/id/962459</a>.</p>
+								<p>We will continue to update this security notice as the case progresses.</p>
+							</section>
+						</div>
+					</li>
+            	 </ul>
             	 <h3>July 2018</h3>
             	 <ul>
             	 	<li>
@@ -92,7 +110,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-march_azure-site-recovery"><span>March 20 </span>Before March 31, 2018, please update Azure Site Recovery, which uses Access Control authentication<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-march_azure-site-recovery"><span>3/20 </span>Please update Azure Site Recovery, which uses Access Control authentication before March 31, 2018.</a>
 							<section>
 								<p>Azure Site Recovery helps to coordinate replication and protects running workloads. Access Control authentication services used by older versions of the Site Recovery Provider (also known as DRA) and Recovery Service (also known as MARS) agents are about to be retired. To avoid interruptions, please update these older versions before March 31, 2018.</p>
 								<p>Earlier versions of DRA agents (before 5.1.2700) and MARS agents (before 2.0.9096) rely on access control service capabilities for authentication, but this service plan will be completely retired in April 2018. Newer versions of DRA agents (5.1.2700 or later) and MARS agents (2.0.9096 or later) use the latest Azure Active Directory authentication mechanism, which includes role-based control and finer access capabilities. Users who are still using DRA versions before 5.1.2700 and/or MARS agents before 2.0.9096 and replicating servers to one or more recovery service vaults are requested to update your old version to continue using the Site Recovery Service and its upcoming features. If you have already performed these updates, no additional action is required. The new version relies on Azure Active Directory instead of Access Control.</p>
@@ -185,6 +203,20 @@
                 </ul> -->
                 <h1>Product Update</h1>
                 <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a>
+                <h3>August 2018</h3>
+                <ul>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-august-azure-mysql&postgresql"><span>8/22 </span>Azure Container Registry preview version release<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Container Registry preview version has been released in China. It provides a hosted Docker registration service for storing and managing private container images. Azure Container Registry can work along with the existing container development and deployment channels. You can generate a container image in Azure using the Azure Container Registry Build. The source code submission and base image update can be used to generate triggers on demand as needed or fully automatically.</p>
+								
+								<p>To learn more about this service and pricing, please visit the <a href="/home/features/container-registry/" id="service-fabric_year_2018-august_features-container-registry">Container Registry Service Feature</a> page and the <a href="/pricing/details/container-registry/" id="service-fabric_year_2018-august_pricing-container-registry">Container Registry Price Details</a>page. For more details, please visit the <a href="//docs.azure.cn/zh-cn/container-registry/" id="service-fabric_year_2018-may-10_documentation-container-registry">Azure Container Registry Document</a> page.</p>
+							</section>
+						</div>
+					</li>
+                </ul>
                 <h3>July 2018</h3>
                 <ul>
                 	<li>
@@ -215,7 +247,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-june-azure-policy"><span>June 25</span>Azure Policy officially released <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-june-azure-policy"><span>6/25</span>Official Release of Azure Policy</a>
 							<section>
 								<p>Azure Policy is a new service that allows customers to assess and implement management standards on the enterprise scale throughout the entire Azure environment, and achieve appropriate control and compatibility. Azure Policy can evaluate Azure resources that breach policies and run compliance audits for every policy in a subscription. The goal of Azure Policy is to manage the largest possible Azure environment, in order to provide consistent standards for all of a department or company’s Azure subscriptions.</p>
 								
@@ -934,111 +966,14 @@
 					</li>					
 				</ul>
 		  
-				<!-- <h3>2016年12月</h3>
-				<ul> --> <!-- <li>
-					<i class="icon icon-plus"></i>
-					<div>
-						<a href="#" id="service-fabric_year_dec_stream-analytics"><span>12/22</span>关于自 2017 年 2 月 1 日起 Azure 流分析即将使用全新定价模型的通知</a>
-						<section>
-							<p>
-							   自 2017 年 2 月 1 日起，Azure 流分析即将使用全新的定价模型，引入更为丰富的功能，包括地理空间信息功能、用 JavaScript 创建自定义代码功能、Visual Studio 集成功能以及移除入口节流限制功能。流分析现有用户在 2017 年 12 月 31 之前或当前订阅期结束之前，可以继续使用现有定价模型。订阅到期后，所有流分析作业都将迁移到新的定价模型。自 2017 年 2 月 1 日起，新用户只能通过新定价模型来配置流分析。有关迁移选项的详细信息，请访问<a href="//portal.azure.cn/" id="fabric_what_new_dec_stream-analytics_portal">Azure 门户</a>。有关定价的详细信息，请访问<a href="/pricing/details/stream-analytics/" id="fabric_what_new_dec_pricing-stream-analytics">流分析价格详情</a>页面。
-							</p>							
-						</section>
-					</div>
-				</li>
 				
-				<li>
-					<i class="icon icon-plus"></i>
-					<div>
-						<a href="#" id="service-fabric_year_dec_virtual-network"><span>12/22</span>Azure 虚拟网络对等互连现已正式发布</a>
-						<section>
-							<p>
-							   借助 Azure 虚拟网络对等互连，客户可以通过私有 IP 地址直接连接同一区域两个虚拟网络中的虚拟机，就像它们在同样的网络里。虚拟网络对等互连通过内部 Azure 主干网络路由数据包，途中没有任何网关。这样，不同虚拟网络中的虚拟机之间就可以实现低延迟、高带宽连接。虚拟网络对等互连还允许通过对等虚拟网络传输，因此一个虚拟网络中的网络虚拟设备或 VPN 网关可以被另一对等虚拟网络中的虚拟机使用。对等互连适用于跨不同订阅中的虚拟网络以及 ARM (V2) 和 ASM (V1) 虚拟机网络之间。它不适用于两个 ASM 虚拟网络之间。有关详细信息，请访问<a id="fabric_what_new_dec_virtual_network" href="/home/features/networking/">虚拟网络服务功能</a>页面和<a id="fabric_what_new_dec_pricing-virtual_network" href="/pricing/details/networking/">虚拟网络价格详情</a>页面。
-							</p>							
-						</section>
-					</div>
-				</li>
-				
-				<li>
-					<i class="icon icon-plus"></i>
-					<div>
-						<a href="#" id="service-fabric_year_dec_inport-export"><span>12/20</span>Azure 导入/导出服务已正式发布</a>
-						<section>
-							<p>
-							   Azure 导入/导出服务已正式发布。通过将硬盘驱动器直接运送到数据中心，该服务可实现将海量数据迁入或迁出 Azure Blob 存储。如果您希望将数 TB 的数据传入或传出 Azure 存储，但考虑到带宽或高额的网络费用无法实现，则可考虑使用Azure 导入/导出服务。有关详细信息，请访问<a id="fabric_what_new_dec_inport-export_storage-import-export-service" href="https://docs.azure.cn/storage/storage-import-export-service/">使用 Microsoft Azure 导入/导出服务传输数据到 Blob 存储</a>和<a id="fabric_what_new_dec_inport-export_pricing-storage" href="/pricing/details/storage-import-export/">导入/导出服务价格详情</a>页面。
-							</p>							
-						</section>
-					</div>
-				</li>
-				
-				<li>
-					<i class="icon icon-plus"></i>
-					<div>
-						<a href="#" id="service-fabric_year_dec_vm-cloud"><span>12/20</span>Azure 虚拟机和云服务的 Av2 系列实例现已正式发布</a>
-						<section>
-							<p>
-							   Av2 系列虚拟机和云服务标准版现已正式发布，免费提供负载均衡和自动缩放功能。有关定价的详细信息，请访问<a id="fabric_what_new_dec_vm-cloud_pricing-vm" href="/pricing/details/virtual-machines/">虚拟机价格详情</a>页面和<a id="fabric_what_new_dec_vm-cloud_pricing-cloud" href="/pricing/details/cloud-services/">云服务价格详情</a>页面。如需了解 Azure 虚拟机和云服务的详细信息，请访问<a id="fabric_what_new_dec_vm-cloud_virtual-machines" href="/home/features/virtual-machines/">虚拟机服务功能</a>页面和<a id="fabric_what_new_dec_vm-cloud_cloud-services" href="/home/features/cloud-services/">云服务功能</a>页面。该版提供内存介于 2 GB 到 16 GB 间的 1 核、2 核、4 核和 8 核的标准内存选项，以及内存介于 16 GB 到 64 GB 间的 2 核、4 核和 8 核的更高内存选项。
-							</p>							
-						</section>
-					</div>
-				</li>
-				
-				<li>
-					<i class="icon icon-plus"></i>
-					<div>
-						<a href="#" id="service-fabric_year_dec_iot-hub"><span>12/19</span>Azure IoT 中心设备管理全新功能正式发布</a>
-						<section>
-							<p>
-							  Azure IoT 中心提供功能和可扩展性模型，使设备和后端开发人员可以构建功能强大的设备管理解决方案。借助 Azure 物联网中心设备管理能力，物联网开发人员和运营人员可以运用 Azure 超大规模云的强大能力，组织、监控、查询和管理数以亿计的设备变更；物联网运营人员可以充分利用 Azure 物联网中心设备管理工具和应用，处理很多常见的业务需求。该服务的新特性和功能包括设备孪生、直接方法、作业和查询，此外还支持软件更新、重启、恢复出厂设置及配置。
-							  更多详情，请访问<a href="/home/features/iot-hub/" id="fabric_what_new_dec_iot-hub">Azure IoT 中心功能</a>页面和<a href="https://docs.azure.cn/zh-cn/iot-hub/iot-hub-device-management-overview/ " id="fabric_what_new_dec_iot-hub-device-management-overview">Azure IoT 中心设备管理概述</a>及<a href="/blog/2016/12/20/AzureIOTManagement/" id="fabric_what_new_dec_azureiotmanagement">博客</a>。
-							</p>							
-						</section>
-					</div>
-				</li>
-				
-				<li>
-					<i class="icon icon-plus"></i>
-					<div>
-						<a href="#" id="service-fabric_year_dec_iot-gateway-sdk"><span>12/19</span>Azure IoT 网关 SDK 全新功能正式发布</a>
-						<section>
-							<p>
-							  Azure IoT 网关 SDK 可以帮助新老设备连接到云，提升物联网解决方案的安全性，并降低带宽成本。随着 Azure IoT 网关 SDK 的进一步优化，我们在原有承诺的基础上，允许用户将 Azure 数据中心外的物联网和高级分析扩展到网络边缘，触及连接在网络边缘的企业资产和设备。Azure IoT 是最全面的物联网生态系统，凭借 Azure IoT 网关 SDK，我们可以提供更好的灵活性，帮助您灵活地设计和部署物联网。
-							  如果想更多地了解 Azure IoT 网关 SDK，请访问<a href="/home/features/iot-hub/iot-gateway-sdk/" id="fabric_what_new_dec_iot-gateway-sdk">Azure IoT 网关 SDK 功能</a>页面和博客<a href="/blog/2016/12/20/AzureIOTSDK/" id="fabric_what_new_dec_azureiotsdk">用 Azure 物联网网关 SDK 连接设备</a>。
-							</p>							
-						</section>
-					</div>
-				</li> --> <!--<li>
-					<i class="icon icon-plus"></i>
-					<div>
-						<a href="#" id="service-fabric_year_dec_iot-hub"><span>12/19</span>Azure IoT 中心设备管理全新功能正式发布</a>
-						<section>
-							<p>
-							  <a href="/home/features/iot-hub/" id="fabric_what_new_dec_iot-hub">Azure IoT 中心</a>提供功能和可扩展性模型，使设备和后端开发人员可以构建功能强大的设备管理解决方案。借助 Azure 物联网中心设备管理能力，物联网开发人员和运营人员可以运用 Azure 超大规模云的强大能力，组织、监控、查询和管理数以亿计的设备变更；物联网运营人员可以充分利用 Azure 物联网中心设备管理工具和应用，处理很多常见的业务需求。该服务的新特性和功能包括设备孪生、直接方法、作业和查询，此外还支持软件更新、重启、恢复出厂设置及配置。
-							  更多详情，请参考<a href="/documentation/articles/iot-hub-device-management-overview/ " id="fabric_what_new_dec_iot-hub-device-management-overview"> Azure IoT 中心设备管理概述</a>及此<a href="/blog/2016/12/20/AzureIOTManagement" id="fabric_what_new_dec_azureiotmanagement">博客</a>。
-							</p>							
-						</section>
-					</div>
-				</li>
-				
-				<li>
-					<i class="icon icon-plus"></i>
-					<div>
-						<a href="#" id="service-fabric_year_dec_iot-gateway-sdk"><span>12/19</span>Azure IoT 中心网关 SDK 全新功能正式发布</a>
-						<section>
-							<p>
-							  <a href="/home/features/iot-hub/iot-gateway-sdk/" id="fabric_what_new_dec_iot-gateway-sdk">Azure IoT 中心网关 SDK </a>可以帮助新老设备连接到云，提升物联网解决方案的安全性，并降低带宽成本。随着 Azure 物联网网关 SDK 的进一步优化，我们在原有承诺的基础上，允许用户将 Azure 数据中心外的物联网和高级分析扩展到网络边缘，触及连接在网络边缘的企业资产和设备。Azure 物联网是最全面的物联网生态系统，凭借 Azure 物联网网关 SDK，我们可以提供更好的灵活性，帮助您灵活地设计和部署物联网。
-							  如果想更多地了解 Azure 物联网网关 SDK，请访问<a href="/blog/2016/12/20/AzureIOTSDK " id="fabric_what_new_dec_azureiotsdk">此处</a>。
-							</p>							
-						</section>
-					</div>
-				</li>-->
 				
 				</ul>
 				
   
             </div>                      
         </div>
-        <a id="_whatisnew-linkbutton" href="/what-is-new/archives/2017/" class="single-link h2-link">View Historical Announcements<i class="icon icon-arrow-right-thin"></i></a>
+        <a id="_whatisnew-linkbutton" href="/what-is-new/archives/2017/" class="single-link h2-link">View Historical Circular<i class="icon icon-arrow-right-thin"></i></a>
     
     ]]></bodyText>
     <umbracoNaviHide>0</umbracoNaviHide>

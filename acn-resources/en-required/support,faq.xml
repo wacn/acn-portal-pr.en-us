@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
+<<<<<<< HEAD
   <umbTextpage id="12103" parentID="12095" level="3" writerID="106" creatorID="22" nodeType="1059" template="15" sortOrder="3" createDate="2012-05-29T21:04:52" updateDate="2018-07-30T14:00:00" nodeName="FAQ" urlName="faq" writerName="content" creatorName="Brad" path="-1,11978,12095,12103" isDoc="">
+=======
+  <umbTextpage id="12103" parentID="12095" level="3" writerID="106" creatorID="22" nodeType="1059" template="15" sortOrder="3" createDate="2012-05-29T21:04:52" updateDate="2018-08-13T14:00:00" nodeName="FAQ" urlName="faq" writerName="content" creatorName="Brad" path="-1,11978,12095,12103" isDoc="">
+>>>>>>> master
     <bodyText><![CDATA[
       
         <div class="section-component">
@@ -19,7 +23,7 @@
                                         <div>
                                             <a id="q-1-1" href="#q-1-1">What is Azure?</a>
                                             <section>
-                                                <p>Azure is a flexible and open cloud platform that enables you to quickly build, deploy, and manage applications in your data center. Azure supports all major operating systems, languages, or development tools and integrates public cloud applications with the existing IT infrastructure.</p>
+                                                <p>Azure is a flexible and open cloud platform that enables you to quickly build, deploy, and manage applications in your data center. Azure supports all major operating systems, languages, and development tools and integrates public cloud applications with the existing IT infrastructure.</p>
                                                 <p>Azure offers international standard Service Level Agreements that enable you to build and run highly available applications without having to focus on the infrastructure. It provides the ability to automatically repair operating systems and services and has built-in network load balancing and hardware error recovering capabilities. It supports the deployment models that allow you to upgrade applications with no downtime.</p>
                                                 <p>Azure enables you to generate applications in any language and by any framework or tool; Azure utilizes the public functions and services of open REST protocol. Azure’s client libraries are available in a variety of programming languages, are published under open source licenses and hosted on GitHub.</p>
                                                 <p>Azure offers a flexible cloud platform that meets the needs of any application.</p>
@@ -470,7 +474,7 @@
                                             <section>
                                                 <ul>
                                                     <li>1RMB Trial subscription<p>Not supported. The 1RMB Trial subscription only supports Alipay and UnionPay online payment methods.</p> </li>
-                                                    <li>Standard Pay-in-Advance PIA subscription<p>Supported. The Standard Pay-in-Advance PIA subscription supports three payment methods, i.e. Alipay, UnionPay and online payment and wire transfer. The minimum payment amount of the first two online payment methods is ¥ 1,000, the lowest payment amount of wire transfer is ¥ 5,000. Please refer to the <a href="//docs.azure.cn/zh-cn/billing/billing-pay-for-subscription-via-wire-transfer/">wire transfer instructions</a> for detailed wire transfer operations.</p></li>
+                                                    <li>Standard Pay-in-advance (PIA) subscription<p>Supported. The Standard Pay-in-Advance PIA subscription supports three payment methods, i.e. Alipay, UnionPay and online payment and wire transfer. The minimum payment amount of the first two online payment methods is ¥ 1,000, the lowest payment amount of wire transfer is ¥ 5,000. Please refer to the <a href="//docs.azure.cn/zh-cn/billing/billing-pay-for-subscription-via-wire-transfer/">wire transfer instructions</a> for detailed wire transfer operations.</p></li>
                                                 </ul>
                                             </section>
                                         </div>
@@ -572,7 +576,7 @@
                                             <section>
                                                 <ul>
                                                     <li>1RMB Trial subscription<p>When the remaining usage of your subscription is 0 or when the usage credits expire, your subscription will be disabled. You need to recharge it within 15 days and upgrade the subscription to the Standard Pay-in-Advance PIA subscription, and then you may continue to use this subscription.</p></li>
-                                                    <li>Standard Pay-in-Advance PIA subscription<p>When the remaining usage of your subscription is 0 or when the usage is expired, your subscription will be disabled. You need to recharge it within 90 days to resume this subscription.</p></li>
+                                                    <li>Standard Pay-in-advance (PIA) subscription<p>When the remaining usage of your subscription is 0 or when the usage is expired, your subscription will be disabled. You need to recharge it within 90 days to resume this subscription.</p></li>
                                                     <li>Enterprise Agreement User
                                                         <p>* When the excessive amount or annual order is not paid, your subscription will be disabled. After you finish the payment, the business team will help you manually restart the contract and subscription.</p>
                                                         <p>* When your subscription is unexpectedly canceled by the account owner, you need to contact the <a href="/support/contact/">21Vianet support staff</a> to help you manually restart it.</p>
@@ -607,7 +611,7 @@
                                                         <p>* New purchase: The two online payment methods of Alipay and UnionPay Online are supported, and the payment method cannot be changed before the recharge order fails.</p>
                                                         <p>* Upgrade now: The three online payment methods of Alipay, UnionPay Online and wire transfer are supported, and the payment method cannot be changed before the recharge order fails.</p>
                                                     </li>
-                                                    <li>Standard Pay-in-Advance PIA subscription
+                                                    <li>Standard Pay-in-advance (PIA) subscription
                                                         <p>* New purchase: The three online payment methods of Alipay, UnionPay Online and wire transfer are supported, and the payment method cannot be changed before the recharge order fails.</p>
                                                         <p>* Recharge: The three online payment methods of Alipay, Unionpay Online and wire transfer are supported, and the payment method can be changed at any time.</p></li>
                                                 </ul>
@@ -685,7 +689,7 @@
                                         <div>
                                             <a id="q-3-13" href="#q-3-13">After applying for a Fapiao, how do I get the Fapiao? Do I have to pay any extra costs?</a>
                                             <section>
-                                                <p>The Fapiao can be sent by express delivery or obtained by yourself. It is printed and delivered by 21Vianet Shanghai Blue Cloud Technology Co., Ltd, and you can select Yunda Express or SF Express (for freight collect payment only).</p>
+                                                <p>The Fapiao can be delivered by courier or picked up on-site. For express delivery, Yunda Express and SF Express are available (only supports COD). The Fapiao is printed and delivered by 21Vianet Shanghai Blue Cloud Technology Co., Ltd.</p>
                                                 <p>Except for the above-mentioned freight payment collected by SF Express, you do not need to pay any extra fees.</p>
                                             </section>
                                         </div>
@@ -954,7 +958,7 @@
                                         <div>
                                             <a id="q-4-10" href="#q-4-10">How do I perform data backup?</a>
                                             <section>
-                                                <p>Azure Backup provides two types of copies: Locally Redundant Storage (LRS) and Geo-Redundant Storage (GRS). Locally Redundant Storage copies the data in the matching data center of the same region three times (creating three data copies). Geo-Redundant Storage copies the data to the secondary region several kilometers from the primary location of the source data. In order to prevent temporary storage unavailability arising from a disaster in one region, we recommend that customers copy data by way of reading and accessing Read-access Redundant Storage (RA-GRS). This way, in case of unavailability of the storage account of the primary region, the data can be accessed from the secondary region.</p>
+                                                <p>Azure Backup provides two types of copies: Locally-redundant storage (LRS) and Geo-Redundant Storage (GRS). Locally Redundant Storage copies the data in the matching data center of the same region three times (creating three data copies). Geo-Redundant Storage copies the data to the secondary region several kilometers from the primary location of the source data. In order to prevent temporary storage unavailability arising from a disaster in one region, we recommend that customers copy data by way of reading and accessing Read-access Redundant Storage (RA-GRS). This way, in case of unavailability of the storage account of the primary region, the data can be accessed from the secondary region.</p>
                                                 <p>The following table describes the backup of all kinds of data services in the Azure, disaster recovery capabilities and backup methods:</p>
                                                 <table cellspacing="0" cellpadding="0" width="100%">
                                         
@@ -972,9 +976,13 @@
                                                         <td>Asynchronous geo-replication, without RTO</td>
                                                         <td>
                                                             <ol>
+<<<<<<< HEAD
                                                                 <li>Locally Redundant Storage (LRS)</li>
+=======
+                                                                <li>Locally-redundant storage (LRS)</li>
+>>>>>>> master
                                                                 <li>Geo-Redundant Storage (GRS)</li>
-                                                                <li>Read-Access Geo-Redundant Storage (RA-GRS)</li>
+                                                                <li>Read-access geo-redundant storage (RA-GRS)</li>
                                                                 <li><a href="//docs.azure.cn/zh-cn/articles/azure-operations-guide/storage/aog-storage-how-to-use-azcopy">Apply AzCopy</a></li>
                                                             </ol>
                                                         </td>
@@ -1168,7 +1176,7 @@
                                             <section>
                                                 <p>We provide geo-redundancy. One dedicated line will be used to connect the two data centers in Beijing and Shanghai, China, and is dedicated to data synchronization between data centers. In terms of the data storage, Azure provides four redundant levels for storage:</p>
                                                 <ul>
-                                                    <li>Locally Redundant Storage (LRS): we maintain multiple copies of data in a zone so as to provide high durability.</li>
+                                                    <li>Locally-redundant storage (LRS): we maintain multiple copies of data in a zone so as to provide high durability.</li>
                                                     <li>Geo-Redundant Storage(GRS): we asynchronously provide extra data durability through replication between two zones hundreds of miles apart in the same territory. In the two zones, we maintain multiple copies of the data.</li>
                                                     <li>Read-access Redundant Storage (RA-GRS): in addition to GRS services, we provide read-only access to the storage account in the secondary region (which has a final edition consistent with data in main storage system). When the storage account in the primary region is not available, customers can use this service to access the data.</li>
                                                 </ul>

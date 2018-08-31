@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
+<<<<<<< HEAD
   <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2018-07-26T11:30:00" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
+=======
+  <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2018-08-22T15:00:00" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
+>>>>>>> master
     <bodyText><![CDATA[
       
 	<style type="text/css">
@@ -23,11 +27,11 @@
 		} 
 
 		.homePageMain .buying_row .inner_box h1,.homePageMain .buying_row .inner_box h6{
-		    color: #323a45;
+		    color: #1a1a1a;
 		}
 
 		.homePageMain .buying_row .inner_box .inner_box-button {
-		    background-color: #E66102; 
+		    background-color: #DD5900; 
 		    color: #FFF;
 		}
 		 .homePageMain .buying_row .inner_box .inner_box-button:hover
@@ -254,11 +258,19 @@
 							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large"><span>Practical Tutorials</span><i class="icon icon-arrow-right"></i></span></div>
 							<span class="link link-sharp-btn blue large device-mobile-banner"><span>Practical Tutorials</span></span>
 							<p style="">Develop Azure skills quickly with the latest online training and keep up with the latest technology</p>
+<<<<<<< HEAD
 						</a> <a class="col-md-4 quickstart-item" href="/what-is-new/" id="homepage_quickstart-what-is-new_2018-july_azure-mysql&postgresql"> <img data-rjs="2" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/homepage/hot-topic.png"
 											alt="">
 							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large" rel="nofollow"><span>Azure Updates</span><i class="icon icon-arrow-right"></i></span></div>
 							<span class="link link-sharp-btn blue large device-mobile-banner" rel="nofollow"><span>Azure Updates</span></span>
 							<p>Azure Database for MySQL and Azure Database for PostgreSQL officially released</p>
+=======
+						</a> <a class="col-md-4 quickstart-item" href="/what-is-new/" id="homepage_quickstart-what-is-new_2018-august_container-registry"> <img data-rjs="2" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/homepage/hot-topic.png"
+											alt="">
+							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large" rel="nofollow"><span>Azure Updates</span><i class="icon icon-arrow-right"></i></span></div>
+							<span class="link link-sharp-btn blue large device-mobile-banner" rel="nofollow"><span>Azure Updates</span></span>
+							<p>Azure Container Registry preview version release</p>
+>>>>>>> master
 						</a>
 
 					</div>
@@ -357,7 +369,7 @@
 						<div class="col-xs-12 col-sm-12 col-md-4">
 							<a class="solution-promotion" id="homepage-solution_playback" href="/webinars/">
 								<h1>Azure Webinars</h1>
-								<div style="color:#fff;font-size:14px;margin:5px 0 20px;">On June 27, Azure invites you to share in a technology event and experience the real truth</div>
+								<div style="color:#fff;font-size:16px;margin:5px 0 20px;">On June 27, Azure invites you to share in a technology event and experience the real truth</div>
 								<span class="link link-sharp-btn blue large"> <span>Sign up now</span> <i class="icon icon-arrow-right"></i> </span> <img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/quick-start-webinar@2x.png" alt="backup-webinar"> </a>
 						</div>
 					</div>
@@ -370,6 +382,7 @@
 						<h1>We recommend all-around, efficient Azure products for you</h1>
 					</div>
 					<div class="_bottom clearfix">
+<<<<<<< HEAD
 						<!--Azure Resource Manager-->
 						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/resource-manager/" id="homepage_services_resource-manager">
@@ -389,6 +402,37 @@
 									C31.1,128,29.8,128.7,28.5,128.7z"/> <path class="resouse-manager3" d="M130.5,128.7c0.8,0,1.5-0.2,2.2-0.7l24-16c1.1-0.7,1.8-2,1.8-3.3v-88c0-1.3-0.7-2.6-1.8-3.3l-24-16
 									c-1.8-1.2-4.3-0.7-5.5,1.1c-1.2,1.8-0.7,4.3,1.1,5.5l22.2,14.8v83.7l-22.2,14.8c-1.8,1.2-2.3,3.7-1.1,5.5
 									C127.9,128,129.2,128.7,130.5,128.7z"/> </g> </svg>	
+=======
+						<!-- Container Registry -->
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/container-registry/" id="homepage_services_container-registry">
+							<h2 class="bigger-header">Container Registry <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 16px;position: relative;top: -2px;">(preview)</span></h2>
+							<!-- <div class="svg-icon container-registry"></div> --> <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 186 186" style="enable-background:new 0 0 186 186;margin: 17px auto 16px; display: block; width: 140px;height: 96px;" xml:space="preserve">
+								<style type="text/css">
+									.container-registry0{fill:#E3F4FF;}
+									.container-registry1{fill:#959595;}
+									.container-registry2{fill:#B3B4B5;}
+									.container-registry3{fill:#7A7A7A;}
+									.container-registry4{opacity:0.4;fill:#FFFFFF;}
+									.container-registry5{fill:#59B4D9;}
+									.container-registry6{clip-path:url(#SVGID_2_);}
+									.container-registry7{fill:#FFFFFF;}
+								</style>
+								<g> <g> <polygon class="container-registry1" points="91.3,102.2 91.3,167.2 184.3,148.7 184.3,119.4 		"/> <polygon class="container-registry1" points="184.3,113.5 184.3,78.3 91.3,42.4 91.3,93.9 		"/> <g> <polygon class="container-registry2" points="91.3,94 91.3,42.4 65.5,59.3 65.5,105.7 			"/> <polygon class="container-registry2" points="65.5,113.9 65.5,152.7 91.3,167.2 91.3,102.2 			"/> </g> <g> <polygon class="container-registry2" points="179.9,109.7 179.9,79.9 95.6,47.9 95.6,89.7 			"/> <polygon class="container-registry2" points="95.6,108.4 95.6,163.6 179.9,147.2 179.9,121.7 			"/> </g> <g> <g> <polygon class="container-registry1" points="158.5,100.6 158.5,75.8 150.4,72.9 150.4,98.5 				"/> <polygon class="container-registry1" points="150.4,122.2 150.4,148.1 158.5,146.8 158.5,123.2 				"/> </g> <g> <polygon class="container-registry1" points="142.2,96.5 142.2,70.1 133.1,67 133.1,94.1 				"/> <polygon class="container-registry1" points="133.1,120.6 133.1,151.2 142.2,149.7 142.2,121.7 				"/> </g> <g> <polygon class="container-registry1" points="176,105.1 176,81.8 166.6,78.6 166.6,102.7 				"/> <polygon class="container-registry1" points="166.6,125.1 166.6,145.2 176,143.7 176,126.2 				"/> </g> <g> <polygon class="container-registry1" points="125,92 125,64.1 116.2,61.1 116.2,89.8 				"/> <polygon class="container-registry1" points="116.2,117.6 116.2,154.2 125,152.7 125,118.7 				"/> </g> <g> <polygon class="container-registry1" points="108,87.7 108,58.2 99.7,55.3 99.7,85.5 				"/> <polygon class="container-registry1" points="99.7,115.9 99.7,157.2 108,155.7 108,116.9 				"/> </g> </g> <g> <polygon class="container-registry1" points="73.4,93.2 73.4,60.2 70.1,62 70.1,94.9 			"/> <polygon class="container-registry1" points="70.1,118.6 70.1,150.8 73.4,152.3 73.4,117 			"/> </g> <g> <polygon class="container-registry1" points="78,114.7 78,154.4 82.7,156.5 82.7,112.3 			"/> <polygon class="container-registry1" points="82.7,88.3 82.7,55.3 78,57.8 78,90.8 			"/> </g> <polygon class="container-registry3" points="82.7,57.8 70.1,65.6 70.1,62 82.7,54.2 		"/> <polygon class="container-registry3" points="82.7,115.4 70.1,121.1 70.1,117.4 82.7,111.8 		"/> <polygon class="container-registry3" points="176,83.9 99.7,58.5 99.7,54.8 176,80.8 		"/> <polygon class="container-registry3" points="176,126.9 99.7,118.4 99.7,114.7 176,124.2 		"/> <polygon class="container-registry4" points="184.3,119.4 133.1,109.9 91.3,167.2 184.3,148.7 		"/> <polygon class="container-registry4" points="137.7,103.7 184.3,113.5 184.3,78.3 162.6,70 		"/> </g> <path class="container-registry5" d="M56.9,131v-5V54.8l34-19.9l66.8,26.9c0-0.4,0-0.8,0-1.1c0-19.4-15.7-35.2-35.2-35.2c-6.4,0-12.4,1.7-17.6,4.7
+										c-8.3-10.7-21.2-17.6-35.8-17.6c-24.9,0-45.1,20.2-45.1,45.1c0,1.5,0.1,2.9,0.2,4.3C11.1,67.3,1.8,80.2,1.8,95.2
+										c0,19.5,15.7,35.4,35.2,35.7v0H56.9z"/> </g> </svg>	
+							<div class="home-p">Store and manage container images across all Azure<br />deployment types<br /></div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/home/features/container-registry/" id="homepage_services_pricing_azure-container-registry">Start for free</a> <a class="single-link" href="/home/features/container-registry/" id="homepage_services_pricing_azure-container-registry"></a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<!-- Container Registry end --> <!--Azure Resource Manager-->
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/resource-manager/" id="homepage_services_resource-manager">
+							<h2 class="mysql-header bigger-header  small-text">Azure Resource Manager</h2>
+							<div class="svg-icon resource-manager"></div>	
+>>>>>>> master
 							<div class="home-p">Simplify how you manage your app resources<br /><br /></div>
 							</a>
 							<div class="links-box">
@@ -410,6 +454,7 @@
 						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/postgresql/" id="homepage_services_postgresql">
 								<h2 class="mysql-header bigger-header">Azure <br /><span>Database for PostgreSQL</span></h2>
+<<<<<<< HEAD
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="140px" style="height:96px;margin:17px auto 16px;display: block;"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48" width="140px" style="enable-background:new 0 0 48 48;height:96px;margin:17px auto 16px;display: block;" xml:space="preserve">
 									<style type="text/css">
 										.st0{fill:#121F3A;}
@@ -518,12 +563,16 @@
 												C29,19.3,30.8,20.9,31.6,23.3z"/> <path class="st37" d="M19.4,31.8c-0.7-0.6-1.1-1.4-1.2-2.2c-0.1-1.8,0.1-5.2,0.2-6.5c0.1-1.1,0.7-2.7,2-3.9
 												c-0.9-0.3-3.2-1-4.4-0.8c-0.9,0.2-4,1.1-3.7,4.9c0.2,3.2,1.7,8.7,3.2,10.6c0.4,0.6,0.9,0.8,1.2,0.8c0.4,0,0.7-0.4,1-0.8
 												c0.1-0.1,0.2-0.3,0.3-0.4C18.5,32.9,19.1,32.1,19.4,31.8C19.4,31.8,19.4,31.8,19.4,31.8z"/> </g> </g> </svg>
+=======
+								<div class="svg-icon services-postgresql"></div>
+>>>>>>> master
 								<div class="home-p">Trusted PostgreSQL Database services <br />geared toward application developers<br /></div>
 							</a>
 							<div class="links-box">
 								Starting from <a class="home-h2-link" href="/pricing/details/postgresql/" id="homepage_services_pricing_postgresql">0.2699</a><a class="single-link" href="/pricing/details/postgresql/" id="homepage_services_pricing_postgresql">RMB/hour</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
+<<<<<<< HEAD
 						<!-- Azure Database for PostgreSQL end --> <!-- Azure Database for MySQL -->
 						<div class="col-md-3 col-xs-6 item-box">
 							
@@ -537,6 +586,9 @@
 							</div>
 						</div>
 						<!-- Azure Database for MySQL end --> <!--VM-->
+=======
+						<!-- Azure Database for PostgreSQL end --> <!--VM-->
+>>>>>>> master
 						<div class="col-md-3 col-xs-6 item-box">
 							<!-- <div class="price-reduction"></div> --> <a href="/home/features/virtual-machines/" id="homepage_services_virtual-machines">
 								<h2 class="bigger-header">Virtual Machines</h2>
@@ -579,6 +631,30 @@
 								<a class="home-h2-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage">Free version available</a> <a class="single-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage"></a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
+						<!-- Azure Database for MySQL -->
+						<div class="col-md-3 col-xs-6 item-box">
+							
+							<a href="/home/features/mysql/" id="homepage_services_mysql">
+								<h2 class="mysql-header bigger-header">Azure<br /><span>Database for MySQL</span> </h2>
+								<div class="svg-icon mysql"></div>
+								<div class="home-p">Trusted PostgreSQL Database services <br />geared toward application developers</div>
+							</a>
+							<div class="links-box">
+								Starting from <a class="home-h2-link" href="/pricing/details/mysql/" id="homepage_services_pricing_mysql">0.2699</a><a class="single-link" href="/pricing/details/mysql/" id="homepage_services_pricing_mysql">RMB/hour</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<!-- Azure Database for MySQL end -->
+						
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/batch/" id="homepage_services_batch">
+								<h2 class="bigger-header">Batch <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 16px;position: relative;top: -2px;">(Preview)</span></h2>
+								<div class="svg-icon batch"></div>
+								<div class="home-p">Cloud-scale job scheduling and compute management<br/><br /></div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/batch/" id="homepage_services_pricing_batch">Start for free</a> <a class="single-link" href="/pricing/details/batch/" id="homepage_services_pricing_batch"></a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
 						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/batch/" id="homepage_services_batch">
 								<h2 class="bigger-header">Batch <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 14px;position: relative;top: -2px;">(Preview)</span></h2>
@@ -592,7 +668,7 @@
 						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/azure-policy/" id="homepage_services_policy">
 								<h2 class="bigger-header">Azure Policy</h2>
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="140px" style="height:96px;margin:17px auto 16px;display: block;"><defs><style>.policy-1{fill:#4a4a4a;}.policy-2{fill:#fff;}.policy-3{fill:#eef7fb;}.policy-4{fill:#167ecb;}.policy-5{fill:#0072c6;}</style></defs><title>azure_policy_icon</title><g id="font"><rect class="policy-1" x="7" y="3" width="103" height="155"/><rect class="policy-2" x="13" y="9" width="91" height="143"/><rect class="policy-1" x="32" y="39" width="63" height="7"/><rect class="policy-1" x="32" y="64" width="63" height="7"/><rect class="policy-1" x="32" y="90" width="63" height="7"/><polygon class="policy-1" points="123.75 91.41 123.23 86.26 124.97 84.53 130.11 85.04 123.75 91.41"/><circle class="policy-3" cx="99" cy="61" r="28.5"/><path class="policy-1" d="M99,91a30,30,0,1,1,21.21-51.2h0A30,30,0,0,1,99,91Zm0-57a27,27,0,1,0,19.09,7.9h0A26.89,26.89,0,0,0,99,34Z"/><rect class="policy-1" x="121.9" y="79.69" width="3" height="10" transform="translate(-23.74 112.06) rotate(-45)"/><path class="policy-1" d="M135.87,82.66h9a0,0,0,0,1,0,0v33.5a4.5,4.5,0,0,1-4.5,4.5h0a4.5,4.5,0,0,1-4.5-4.5V82.66a0,0,0,0,1,0,0Z" transform="translate(-30.77 129.03) rotate(-45)"/><path class="policy-4" d="M138.24,84.68h3a0,0,0,0,1,0,0v31.2a1.5,1.5,0,0,1-1.5,1.5h0a1.5,1.5,0,0,1-1.5-1.5V84.68a0,0,0,0,1,0,0Z" transform="translate(-30.51 128.4) rotate(-45)"/><path class="policy-5" d="M151.3,112.59h0a1.49,1.49,0,0,1-2.12,0L127.12,90.53l1.06-1.06Z"/></g></svg>
+								<div class="svg-icon services_policy"></div>
 								<div class="home-p">for Azure Resource Manager<br />Implement large-scale company management and standards<br /></div>
 							</a>
 							<div class="links-box">
@@ -601,9 +677,505 @@
 						</div>
 						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/advisor/" id="homepage_services_advisor">
+<<<<<<< HEAD
 								<h2 class="bigger-header">Azure Advisor<span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 14px;position: relative;top: -2px;">（preview）</span></h2>
 								<!-- <div class="svg-icon advisor"></div> -->
 								
+=======
+								<h2 class="bigger-header">Azure Advisor<span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 16px;position: relative;top: -2px;">（preview）</span></h2>
+								<div class="svg-icon advisor"></div>
+								<div class="home-p">A personalized recommendation engine for Azure best practices.<br/><br /></div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/advisor/" id="homepage_services_pricing_advisor">Start for free</a> <a class="single-link" href="/pricing/details/advisor/" id="homepage_services_pricing_advisor"></a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<!-- Azure Monitor -->
+						<div class="col-md-3 col-xs-6 item-box monitor">
+							<a href="/home/features/monitor/" id="homepage_services_monitor">
+								<h2 class="common-header">Azure Monitor</h2>
+								<div class="svg-icon azure-monitor"></div>
+								<div class="home-p larger-line">Precise,<br/>real-time monitoring of all Azure resource data</div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/monitor/" id="homepage_services_pricing1_monitor"></a> <a class="single-link" href="/pricing/details/monitor/" id="homepage_services_pricing_monitor">First 1 million standard API calls are free</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<!-- Azure Monitor end --> <!--media service-->
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/media-services/" id="homepage_services_media-services">
+								<h2 class="bigger-header">Media Services</h2>
+								<div class="svg-icon media-services"></div>
+								<div class="home-p">Encode,<br/>store, and stream video and audio at scale<br/></div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/media-services/" id="homepage_services_pricing_media-services">0.10</a><a class="single-link" href="/pricing/details/media-services/" id="homepage_services_pricing_media-services">/minute</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<!--media service end-->
+
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/backup/" id="homepage_services_back-up">
+								<h2 class="bigger-header">Backup</h2>
+								<div class="svg-icon back-up"></div>
+								<div class="home-p">Simple and reliable cloud-based server backup<br /><br /></div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/backup/" id="homepage_services_pricing_backup">31.65</a><a class="single-link" href="/pricing/details/backup/" id="homepage_services_pricing_backup">/instance</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/service-health/" id="homepage_services_azure-service-health">
+								<h2 class="bigger-header">Azure Service Health</h2>
+								<div class="svg-icon azure-service-health"></div>
+								<div class="home-p">Existing Azure Services Issues<br>When there are problems, get personalized guidance and support</div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/home/features/service-health/" id="homepage_services_pricing_azure-service-health">Start for free</a> <a class="single-link" href="/home/features/service-health/" id="homepage_services_pricing_azure-service-health"></a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/azure-functions/" id="homepage_services_azure-functions">
+								<h2 class="bigger-header">Azure Functions</h2>
+								<div class="svg-icon services_azure-functions"></div>
+								<div class="home-p">Use non-server coding to process events<br/><br/></div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/azure-functions/" id="homepage_services_pricing_azure-functions1"></a> <a class="single-link" href="/pricing/details/azure-functions/" id="homepage_services_pricing_azure-functions">Trusted App Service Plan</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/iot-hub/" id="homepage_services_azure-iot-hub">
+								<h2 class="bigger-header">Azure IoT Hub</h2>
+								<div class="svg-icon iot-hub"></div>
+								<div class="home-p">Connect, monitor, and control billions of IoT assets<br /><br/></div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/iot-hub/" id="homepage_services_pricing_azure-iot-hub">Free version available</a> <a class="single-link" href="/pricing/details/iot-hub/" id="homepage_services_pricing_azure-iot-hub"></a> <i class="icon icon-arrow-right"></i>
+							</div>						
+						</div>
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/service-bus/" id="homepage_services_servibus">
+								<h2 class="bigger-header">Service Bus</h2>
+								<div class="svg-icon servicebus"></div>
+								<div class="home-p">Connect across private and public cloud environments<br/><br /></div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/service-bus/" id="homepage_services_pricing_service-bus">0.05</a><a class="single-link" href="/pricing/details/service-bus/" id="homepage_services_pricing_service-bus">/10,000 messages</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<!--API Management -->
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/api-management/" id="homepage_services_api-management">
+								<h2 class="bigger-header">API Management</h2>
+								<div class="svg-icon api-management"></div>
+								<div class="home-p">Publish APIs to<br />developers, partners, and employees securely and at scale</div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/api-management/" id="homepage_services_pricing_api-management">Starting from ￥ 0.5022</a><a class="single-link" href="/pricing/details/api-management/" id="homepage_services_pricing_cosmos-db">/hour</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<!--API Management-->
+
+						<div class="col-md-3 col-xs-6 item-box">
+							<div class="price-reduction"></div>
+							<a href="/home/features/hdinsight/" id="homepage_services_hdinsight">
+								<h2 class="common-header">HDInsight</h2>
+								<div class="svg-icon hdinsight"></div>						
+								<div class="home-p larger-line">Set up Hadoop, Spark,<br/>R Server, HBase, and Storm clusters in the cloud</div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/hdinsight/" id="homepage_services_pricing_hdinsight">0.3981</a><a class="single-link" href="/pricing/details/hdinsight/" id="homepage_services_pricing_hdinsight">/hour</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+
+						<!-- 云连接服务 -->
+						<div class="col-md-3 col-xs-6 item-box ccs">
+							<a href="/home/features/ccs/" id="homepage_services_ccs">
+								<h2 class="bigger-header">Cloud Connection Service <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 16px;position: relative;top: -2px;">(Preview)</span></h2>
+								<div class="svg-icon ccs"></div>
+								<div class="home-p">Provides a secure, stable, and predictable<br/>dedicated connection with Azure<br/></div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/ccs/" id="homepage_services1_pricing_ccs"></a> <a class="single-link" href="/pricing/details/ccs/" id="homepage_services_pricing_ccs">Please contact your Account Manager for specific prices</a> <i class="icon icon-arrow-right"></i>
+							</div>	
+						</div>
+						<!-- 云连接服务 end -->
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/cognitive-services/" id="homepage_services_cognitive-services">
+								<h2 class="bigger-header">Cognitive Services</h2>
+								<div class="svg-icon cognitive-services"></div>
+								<div class="home-p">Provision Windows and Linux virtual machines in seconds<br/><br/></div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/cognitive-services/" id="homepage_services_pricing_cognitive-services">0.75</a><a class="single-link" href="/pricing/details/cognitive-services/" id="homepage_services_pricing_cognitive-services">/1,000 transactions</a> <i class="icon icon-arrow-right"></i>
+							</div>
+							
+						</div>
+						
+						<!--Azure 网络观察程序-->
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/network-watcher/" id="homepage_services_network-watcher">
+								<h2 class="bigger-header">Network Watcher</h2>
+								<div class="svg-icon network-watcher"></div>									
+								<div class="home-p">Network performance monitoring and diagnostics solution<br /><br /></div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/network-watcher/" id="homepage_services_pricing_network-watchers"></a> <a class="single-link" href="/pricing/details/network-watcher/" id="homepage_services_pricing_network-watcher">The first 1,000 checks are free</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<!--Azure 网络观察程序 end--> <!--Azure 分析服务-->
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/analysis-services/" id="homepage_services_analysis-services">
+								<h2 class="bigger-header">Azure Analysis Services</h2>
+								<div class="svg-icon analysis-services"></div>
+								<div class="home-p">Enterprise-class analytics engine as a service<br /><br /></div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/analysis-services/" id="homepage_services_pricing_analysis-services">0.84</a><a class="single-link" href="/pricing/details/analysis-services/" id="homepage_services_pricing_analysis-services">/hour</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<!--Azure 分析服务 end--> <!--cdn-->
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/cdn/" id="homepage_services_cdn">
+								<h2 class="bigger-header">Content Delivery Network</h2>
+								<div class="svg-icon cdn"></div>
+								<div class="home-p">Ensure<br/>secure, reliable content delivery with broad reach</div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/cdn/" id="homepage_services_pricing_cdn">0.2</a><a class="single-link" href="/pricing/details/cdn/" id="homepage_services_pricing_cdn">/GB</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<!--cdn end--> <!--Cosmos DB-->
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/cosmos-db/" id="homepage_services_cosmos-db">
+								<h2 class="bigger-header">Azure Cosmos DB</h2>
+								<div class="svg-icon cosmos"></div>
+								<div class="home-p">Multi-model database service at any scale<br /><br /></div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/cosmos-db/" id="homepage_services_pricing_cosmos-db">0.082</a><a class="single-link" href="/pricing/details/cosmos-db/" id="homepage_services_pricing_cosmos-db">/hour</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<!--Cosmos DB end-->
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/virtual-network/" id="homepage_services_networking">
+								<h2 class="bigger-header">Virtual Network</h2>
+								<div class="svg-icon networking"></div>
+								<div class="home-p">Set up a private network<br/>with the option of connecting to an on-premises data center</div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/virtual-network/" id="homepage_services_pricing_networking">Free version available</a> <a class="single-link" href="/pricing/details/virtual-network/" id="homepage_services_pricing_networking"></a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/app-service/" id="homepage_services_app-service">
+								<h2 class="bigger-header">App Service</h2>
+								<div class="svg-icon app-service"></div>
+								<div class="home-p">Quickly create<br/>powerful cloud apps for web and mobile<br /></div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/app-service/" id="homepage_services_pricing_app-service">Free version available</a> <a class="single-link" href="/pricing/details/app-service/" id="homepage_services_pricing_app-service"></a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/virtual-machine-scale-sets/" id="homepage_services_vmss">
+								<h2 class="bigger-header">Virtual Machine Scale Sets</h2>
+								<div class="svg-icon vmss"></div>
+								<div class="home-p">Manage and scale up to<br/>thousands of Linux and Windows virtual machines</div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/virtual-machine-scale-sets/" id="homepage_services_pricing_vmss">Start for free</a> <a class="single-link" href="/pricing/details/virtual-machine-scale-sets/" id="homepage_services_pricing_vmss"></a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/service-fabric/" id="homepage_services_service-fabric">
+								<h2 class="bigger-header">Service Fabric</h2>
+								<div class="svg-icon fabric"></div>
+								<div class="home-p">Develop<br/>microservices and arrange containers on Windows or Linux</div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/service-fabric/" id="homepage_services_pricing_service-fabric">Start for free</a> <a class="single-link" href="/pricing/details/service-fabric/" id="homepage_services_pricing_service-fabric"></a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+
+						<!-- <div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/mobile-services/" id="homepage_services_mobile-services">
+								<h2 class="bigger-header">移动服务</h2>
+								<div class="svg-icon mobile-services"></div>
+								<div class="home-p">及时使用推送实时通知等个性化<br />服务轻松依托 Azure 创建移动 APP</div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/mobile-services/" id="homepage_services_pricing_mobile-services">提供免费版</a>
+								<a class="single-link" href="/pricing/details/mobile-services/" id="homepage_services_pricing_mobile-services"></a>
+								<i class="icon icon-arrow-right"></i>
+							</div>
+						</div> -->
+
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/notification-hubs/" id="homepage_services_notification-hubs">
+								<h2 class="bigger-header">Notification Hubs</h2>
+								<div class="svg-icon notification-hubs"></div>
+								<div class="home-p">Send push notifications to any platform from any backend<br/><br /></div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/notification-hubs/" id="homepage_services_pricing_notification-hubs">The first 1 million notifications are free</a> <a class="single-link" href="/pricing/details/notification-hubs/" id="homepage_services_pricing_notification-hubs"></a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/redis-cache/" id="homepage_services_redis-cache">
+								<h2 class="bigger-header">Redis Cache</h2>
+								<div class="svg-icon redis"></div>
+								<div class="home-p">A powerful application with high throughput<br/>and low-latency data access</div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/redis-cache/" id="homepage_services_pricing_redis-cache">0.14</a><a class="single-link" href="/pricing/details/redis-cache/" id="homepage_services_pricing_redis-cache">/hour</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/sql-data-warehouse/" id="homepage_services_sql-data-warehouse">
+								<h2 class="bigger-header">SQL Data Warehouse </h2>
+								<div class="svg-icon sql-data-warehouse"></div>
+								<div class="home-p">Elastic data warehouse as a service with enterprise-class features<br /><br /></div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/sql-data-warehouse/" id="homepage_services_pricing_sql-data-warehouse">8.05</a><a class="single-link" href="/pricing/details/sql-data-warehouse/" id="homepage_services_pricing_sql-data-warehouse">/hour</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/sql-server-stretch-database/" id="homepage_services_sql-server-stretch-database">
+							<h2 class="mysql-header bigger-header">SQL Server<br /><span> Stretch Database</span> </h2>
+								<div class="svg-icon stretch-database"></div>
+								<div class="home-p">Dynamically stretch on-premises<br/>SQL Server databases to Azure</div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/sql-server-stretch-database/" id="homepage_services_pricing_sql-server-stretch-database">22.51</a><a class="single-link" href="/pricing/details/sql-server-stretch-database/" id="homepage_services_pricing_sql-server-stretch-database">/hour</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/stream-analytics/" id="homepage_services_stream-analytics">
+								<h2 class="bigger-header">Stream Analytics</h2>
+								<div class="svg-icon stream-analytics"></div>
+								<div class="home-p">Real-time data streaming<br/>to process data from millions of IoT devices</div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/stream-analytics/" id="homepage_services_pricing_stream-analytics">0.01</a><a class="single-link" href="/pricing/details/stream-analytics/" id="homepage_services_pricing_stream-analytics">/GB</a> <i class="icon icon-arrow-right"></i>
+							</div>							
+						</div>	
+							
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/iot-suite/" id="homepage_services_azure-iot-suite">
+								<h2 class="bigger-header">Azure IoT Suite</h2>
+								<div class="svg-icon iot"></div>
+								<div class="home-p">Capture and analyze<br/>untapped data to make your business more successful</div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/home/features/iot-suite/" id="homepage_services_pricing_azure-iot-suite"></a> <a class="single-link" href="/home/features/iot-suite/" id="homepage_services_pricing_azure-iot-suite">Available to enterprise customers</a> <i class="icon icon-arrow-right"></i>
+							</div>
+							
+						</div>	
+							
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/event-hubs/" id="homepage_services_event-hubs">
+								<h2 class="bigger-header">Event Hubs </h2>
+								<div class="svg-icon event-hubs"></div>
+								<div class="home-p">Receive telemetry data from millions of devices<br/><br/></div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/event-hubs/" id="homepage_services_pricing_event-hubs">0.1</a><a class="single-link" href="/pricing/details/event-hubs/" id="homepage_services_pricing_event-hubs">/hour</a> <i class="icon icon-arrow-right"></i>
+							</div>							
+						</div>	
+							
+
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/load-balancer/" id="homepage_services_load-balancer">
+								<h2 class="bigger-header">Load Balancer</h2>
+								<div class="svg-icon load-balancer"></div>
+								<div class="home-p">Enables your applications<br />Raises program usability and network functionality<br /></div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/load-balancer/" id="homepage_services_pricing_load-balancer">Start for free</a> <a class="single-link" href="/pricing/details/load-balancer/" id="homepage_services_pricing_load-balancer"></a> <i class="icon icon-arrow-right"></i>
+							</div>	
+						</div>	
+						
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/expressroute/" id="homepage_services_expressroute">
+								<h2 class="bigger-header">ExpressRoute</h2>
+								<div class="svg-icon expressroute"></div>
+								<div class="home-p">Dedicated private network fiber connections to Azure<br /><br /></div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/expressroute/" id="homepage_services_pricing_expressroute">253.02</a><a class="single-link" href="/pricing/details/expressroute/" id="homepage_services_pricing_expressroute">/month</a> <i class="icon icon-arrow-right"></i>
+							</div>	
+						</div>			
+						
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/traffic-manager/" id="homepage_services_traffic-manager">
+								<h2 class="bigger-header">Traffic Manager</h2>
+								<div class="svg-icon traffic-manager"></div>
+								<div class="home-p">Route incoming traffic<br/>for better performance and availability</div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/traffic-manager/" id="homepage_services_pricing_traffic-manager">1.79</a><a class="single-link" href="/pricing/details/traffic-manager/" id="homepage_services_pricing_traffic-manager">/million</a> <i class="icon icon-arrow-right"></i>
+							</div>						
+						</div>
+						
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/vpn-gateway/" id="homepage_services_vpn-gateway">
+								<h2 class="bigger-header">VPN Gateway</h2>
+								<div class="svg-icon vpn-gateway"></div>
+								<div class="home-p">Establish secure, cross-premises connectivity<br /><br /></div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/vpn-gateway/" id="homepage_services_pricing_vpn-gateway">0.25</a><a class="single-link" href="/pricing/details/vpn-gateway/" id="homepage_services_pricing_vpn-gateway">/gateway/hour</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>							
+						
+						
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/application-gateway/" id="homepage_services_application-gateway">
+								<h2 class="bigger-header">Application Gateway</h2>
+								<div class="svg-icon application-gateway"></div>
+								<div class="home-p">Generate secure,<br/>scalable, and highly available web front ends in Azure</div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/application-gateway/" id="homepage_services_pricing_application-gateway">0.16</a><a class="single-link" href="/pricing/details/application-gateway/" id="homepage_services_pricing_application-gateway">/gateway/hour</a> <i class="icon icon-arrow-right"></i>
+							</div>						
+						</div>
+					
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/site-recovery/" id="homepage_services_site-recovery">
+								<h2 class="bigger-header">Site Recovery</h2>
+								<div class="svg-icon site-recovery"></div>
+								<div class="home-p">Set up protection and recovery for private clouds<br/><br /></div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/site-recovery/" id="homepage_services_pricing_site-recovery">101.27</a><a class="single-link" href="/pricing/details/site-recovery/" id="homepage_services_pricing_site-recovery">/month</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/active-directory/" id="homepage_services_identity">
+								<h2 class="bigger-header">Active Directory </h2>
+								<div class="svg-icon identity"></div>
+								<div class="home-p">Synchronize on-premises directories and enable single sign-on<br/><br /></div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/active-directory/" id="homepage_services_pricing_identity">Start for free</a> <a class="single-link" href="/pricing/details/active-directory/" id="homepage_services_pricing_identity"></a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+					
+					
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/multi-factor-authentication/" id="homepage_services_multi-factor-authentication">
+								<h2 class="bigger-header">Multi-Factor Authentication </h2>
+								<div class="svg-icon multi-factor-authentication"></div>
+								<div class="home-p">Improve data and application<br/>security without inconveniencing users</div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/multi-factor-authentication/" id="homepage_services_pricing_multi-factor-authentication">Start for free</a> <a class="single-link" href="/pricing/details/multi-factor-authentication/" id="homepage_services_pricing_multi-factor-authentication"></a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+
+					
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/scheduler/" id="homepage_services_scheduler">
+								<h2 class="bigger-header">Scheduler</h2>
+								<div class="svg-icon scheduler"></div>							
+								<div class="home-p">Run your jobs on simple or<br/>complex recurring schedules</div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/scheduler/" id="homepage_services_pricing_scheduler">Free version available</a> <a class="single-link" href="/pricing/details/scheduler/" id="homepage_services_pricing_scheduler"></a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+
+					
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/automation/" id="homepage_services_automation">
+								<h2 class="bigger-header">Automation</h2>
+								<div class="svg-icon automation"></div>
+								<div class="home-p">Simplify cloud management with process automation<br /><br/></div>
+							</a>
+							<div class="links-box">
+								<a class="home-h2-link" href="/pricing/details/automation/" id="homepage_services_pricing_automation">Free version available</a> <a class="single-link" href="/pricing/details/automation/" id="homepage_services_pricing_automation"></a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/key-vault/" id="homepage_services_key-vault">
+								<h2 class="bigger-header">Key Vault</h2>
+								<div class="svg-icon key-vault"></div>
+								<div class="home-p">Safeguard and maintain control of keys and other secrets<br /><br/></div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/key-vault/" id="homepage_services_pricing_key-vault">0.20</a><a class="single-link" href="/pricing/details/key-vault/" id="homepage_services_pricing_key-vault">/10,000 operations</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+					</div>
+			
+					<div class="all-production">
+						<a id="homepage_services_All_Services" href="#" class="read-more"> <span>All 49 cloud products</span> <i class="icon icon-arrow-down-sharp"></i> </a>
+					</div>
+				</div>
+			</div>
+			<div class="case_study_row">
+				<div class="row_box4 container">
+					<h1>Who's using Azure</h1>
+					<div class="row">
+						<div class="col-md-2 col-xs-6">
+							<a href="/partnerancasestudy/case-studies/unionclinic/" id="homepage_case-studies-unionclinic"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/homepage/unionclinic@2x.png" /></a>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<a href="/partnerancasestudy/case-studies/cmschina/" id="homepage_case-studies-cmschina"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/case-zhaoshang@2x.png" /></a>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<a href="/partnerancasestudy/case-studies/guangmingwang/" id="homepage_case-studies-guangmingwang"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/guangmingwang@2x.png" /></a>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<a href="/partnerancasestudy/case-studies/qorosqloud/" id="homepage_case-studies-qorosqloud"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/logo_qoros@2x.png" /></a>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<a href="/partnerancasestudy/case-studies/digitalchina/" id="homepage_case-studies-digitalchina"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/logo_digitalchina@2x.png"/></a>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<a href="/partnerancasestudy/case-studies/fengxiangbiao/" id="homepage_case-studies-fengxiangbiao"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/vane@2x.png" /></a>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<a href="/partnerancasestudy/case-studies/mobike/" id="homepage_case-studies-mobike"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/case-mobike@2x.png" /></a>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<a href="/partnerancasestudy/case-studies/ruier/" id="homepage_case-studies-ruier"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/arrail@2x.png" /></a>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<a href="/partnerancasestudy/case-studies/michelin/" id="homepage_case-studies-michelin"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/michelin@2x.png" /></a>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<a href="/partnerancasestudy/case-studies/thyssenkrupp/" id="homepage_case-studies-thyssenkrupp"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/thyssenkrupp@2x.png" /></a>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<a href="/partnerancasestudy/case-studies/roche/" id="homepage_case-studies-roche"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/case-roche@2x.png" /></a>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<a href="/partnerancasestudy/case-studies/rolls-royce/" id="homepage_case-studies-rolls-royce"><img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/case-rollsroyce@2x.png" /></a>
+						</div>
+					</div>			
+					<a id="homepage_case-studies-more" href="/partnerancasestudy/case-studies/" class="link link-sharp-btn blue large"> <span>Learn more</span> <i class="icon icon-arrow-right"></i> </a>
+				</div>
+			</div>
+			<div class="data-center-map">
+				<div class="container">
+					<h1>Azure technology spans the globe</h1>
+					<h6>Operated in China by 21Vianet with BGP access to data centers and support for geo-replication</h6>
+					<div class="map-svg"></div>
+>>>>>>> master
 				</div>
 			</div>
 		<div class="buying_row festival">
