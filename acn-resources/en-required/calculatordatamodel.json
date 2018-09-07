@@ -769,58 +769,66 @@
                     }]
                 },
                 {
-                    "Name": "Fv2 Series",
-                    "Description": "Fv2 Series",
+                    "Name": "Fv2 Series/FSv2 Series",
+                    "Description": "Fv2 Series/FSv2 Series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
                     "PriceUnit": "Machine",
                     "MinUnit": "0",
                     "MaxUnit": "100",
                     "Sizes": [{
-                        "Name": "F2 v2",
+                        "Name": "F2 v2/FS2 v2",
                         "Description": "2 vCPU, 4 GiB RAM, 16 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "2.166"
                     },
                     {
-                        "Name": "F4 v2",
+                        "Name": "F4 v2/FS4 v2",
                         "Description": "4 vCPU, 8 GiB RAM, 32 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "4.332"
                     },
                     {
-                        "Name": "F8 v2",
+                        "Name": "F8 v2/FS8 v2",
                         "Description": "8 vCPU, 16 GiB RAM, 64 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "8.664"
-                    },
-                    {
-                        "Name": "F16 v2",
-                        "Description": "16 vCPU, 32 GiB RAM, 128 GiB temporary storage",
-                        "PriceTier": "PriceTierEnum.Fixed",
-                        "PricePerTier": "17.328"
                     }]
                 },
                 {
-                    "Name": "Fv2 Series",
-                    "Description": "Fv2 Series",
+                    "Name": "Fv2 Series/FSv2 Series",
+                    "Description": "Fv2 Series/FSv2 Series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
                     "PriceUnit": "Machine",
                     "MinUnit": "0",
                     "MaxUnit": "100",
                     "Sizes": [{
-                        "Name": "F32 v2",
+                        "Name": "F16 v2/FS16 v2",
+                        "Description": "16 vCPU, 32 GiB RAM, 128 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "17.328"
+                    },
+                    {
+                        "Name": "F32 v2/FS32 v2",
                         "Description": "32 vCPU, 64 GiB RAM, 256 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "34.656"
-                    },
-                    {
-                        "Name": "F64 v2",
+                    }]
+                },
+                {
+                    "Name": "Fv2 Series/FSv2 Series",
+                    "Description": "Fv2 Series/FSv2 Series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "F64 v2/FS64 v2",
                         "Description": "64 vCPU, 128 GiB RAM, 512 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "69.312"
                     },
                     {
-                        "Name": "F72 v2",
+                        "Name": "F72 v2/FS72 v2",
                         "Description": "72 vCPU, 144 GiB RAM, 576 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "138.624"
@@ -1375,58 +1383,66 @@
                     }]
                 },
                 {
-                    "Name": "Fv2 Series",
-                    "Description": "Fv2 Series",
+                    "Name": "Fv2 Series/FSv2 Series",
+                    "Description": "Fv2 Series/FSv2 Series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
                     "PriceUnit": "Machine",
                     "MinUnit": "0",
                     "MaxUnit": "100",
                     "Sizes": [{
-                        "Name": "F2 v2",
+                        "Name": "F2 v2/FS2 v2",
                         "Description": "2 vCPU, 4 GiB RAM, 16 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "1.083"
                     },
                     {
-                        "Name": "F4 v2",
+                        "Name": "F4 v2/FS4 v2",
                         "Description": "4 vCPU, 8 GiB RAM, 32 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "2.166"
                     },
                     {
-                        "Name": "F8 v2",
+                        "Name": "F8 v2/FS8 v2",
                         "Description": "8 vCPU, 16 GiB RAM, 64 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "4.332"
-                    },
-                    {
-                        "Name": "F16 v2",
-                        "Description": "16 vCPU, 32 GiB RAM, 128 GiB temporary storage",
-                        "PriceTier": "PriceTierEnum.Fixed",
-                        "PricePerTier": "8.664"
                     }]
                 },
                 {
-                    "Name": "Fv2 Series",
-                    "Description": "Fv2 Series",
+                    "Name": "Fv2 Series/FSv2 Series",
+                    "Description": "Fv2 Series/FSv2 Series",
                     "PricePeriod": "PricePeriodEnum.Hourly",
                     "PriceUnit": "Machine",
                     "MinUnit": "0",
                     "MaxUnit": "100",
                     "Sizes": [{
-                        "Name": "F32 v2",
+                        "Name": "F16 v2/FS16 v2",
+                        "Description": "16 vCPU, 32 GiB RAM, 128 GiB temporary storage",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "8.664"
+                    },
+                    {
+                        "Name": "F32 v2/FS32 v2",
                         "Description": "32 vCPU, 64 GiB RAM, 256 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "17.328"
-                    },
-                    {
-                        "Name": "F64 v2",
+                    }]
+                },
+                {
+                    "Name": "Fv2 Series/FSv2 Series",
+                    "Description": "Fv2 Series/FSv2 Series",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Machine",
+                    "MinUnit": "0",
+                    "MaxUnit": "100",
+                    "Sizes": [{
+                        "Name": "F64 v2/FS64 v2",
                         "Description": "64 vCPU, 128 GiB RAM, 512 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "34.656"
                     },
                     {
-                        "Name": "F72 v2",
+                        "Name": "F72 v2/FS72 v2",
                         "Description": "72 vCPU, 144 GiB RAM, 576 GiB temporary storage",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "69.312"
