@@ -11,7 +11,7 @@
 			"title": "Product overview"}, 
 			{"link": "/pricing/details/container-registry/", 
 			"id": "leftnav_product_container-registry_pricing", 
-			"title": "Pricing"},
+			"title": "Pricing details"},
 			{"link": "//docs.azure.cn/zh-cn/container-registry/", 
 			"id": "leftnav_product_container-registry_documentation", 
 			"title": "Documentation"}
@@ -35,19 +35,19 @@
 		[
 			{"link": "//docs.azure.cn/zh-cn/container-registry/container-registry-auth-service-principal/", 
 			"id": "leftnav_product_container-registry_container-registry-auth-service-principal", 
-			"title": "Azure container registry authentication using service principals"},
+			"title": "Azure Container Registry authentication with service principals"},
 			{"link": "//docs.azure.cn/zh-cn/container-registry/container-registry-best-practices/", 
 			"id": "leftnav_product_container-registry_container-registry-best-practices", 
-			"title": "Azure container registry best practices"},
+			"title": "Best practices for Azure Container Registry"},
 			{"link": "//docs.azure.cn/zh-cn/container-registry/container-registry-get-started-docker-cli/", 
 			"id": "leftnav_product_container-registry_container-registry-get-started-docker-cli", 
-			"title": "Push the first image to the dedicated Docker container registry using the Docker CLI"},
+			"title": "Use the Docker CLI to push the first image to a private Docker Container Registry"},
 			{"link": "//docs.azure.cn/zh-cn/container-registry/container-registry-get-started-portal/", 
 			"id": "leftnav_product_container-registry_container-registry-get-started-portal", 
-			"title": "Quick start: Creating a container registry using the Azure portal"},
+			"title": "Quick start: Create a container registry using the Azure portal"},
 			{"link": "//docs.azure.cn/zh-cn/container-registry/container-registry-get-started-powershell/", 
 			"id": "leftnav_product_container-registry_container-registry-get-started-powershell", 
-			"title": "Tutorial: Creating an Azure Container Registry with PowerShell"}
+			"title": "Tutorial: Create an Azure Container Registry using PowerShell"}
 		]
 	}
 ]
