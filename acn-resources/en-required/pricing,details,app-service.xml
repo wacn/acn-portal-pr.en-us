@@ -26,12 +26,12 @@
                     <table  cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                            <th align="left">&#160;</th>
-                            <th align="left"><strong>Start for free</strong><br/><br/>&#160;</th>
+                            <th align="left"> </th>
+                            <th align="left"><strong>Start for free</strong><br/><br/> </th>
                             <th align="left"><strong>Shared</strong><br/>(Hosts basic apps)</th>
                             <th align="left"><strong>Basic</strong><br/>(More features for development/testing)</th>
-                            <th align="left"><strong>Standard</strong><br/>(Put web and mobile to use)<br/>&#160;</th>
-							<th align="left"><strong>Premium</strong><br/>(Enterprise-scale and integration)<br/>&#160;</th>
+                            <th align="left"><strong>Standard</strong><br/>(Put web and mobile to use)<br/> </th>
+							<th align="left"><strong>Premium</strong><br/>(Enterprise-scale and integration)<br/> </th>
                             </tr>
                         </thead>
                         <tbody>
@@ -197,7 +197,7 @@
                             <th align="left"><strong>Number of cores</strong></th>
                             <th align="left"><strong>RAM</strong></th>
                             <th align="left"><strong>Storage</strong></th>
-                            <th align="left"><strong>Pricing</strong></th>
+                            <th align="left"><strong>Price</strong></th>
                             </tr>
                         </thead>
 					    <tbody>
@@ -233,7 +233,7 @@
                             <th align="left"><strong>Number of cores</strong></th>
                             <th align="left"><strong>RAM</strong></th>
                             <th align="left"><strong>Storage</strong></th>
-                            <th align="left"><strong>Pricing</strong></th>
+                            <th align="left"><strong>Price</strong></th>
                         </tr>
                         <tr>
                             <td>Small (S)</td>
@@ -270,7 +270,7 @@
                             <th align="left"><strong>Number of cores</strong></th>
                             <th align="left"><strong>RAM</strong></th>
                             <th align="left"><strong>Storage</strong></th>
-                            <th align="left"><strong>Pricing</strong></th>
+                            <th align="left"><strong>Price</strong></th>
                         </tr>
                         <tr>
                             <td>Small (S)</td>
@@ -307,7 +307,7 @@
                             <th align="left"><strong>Number of cores</strong></th>
                             <th align="left"><strong>RAM</strong></th>
                             <th align="left"><strong>Storage</strong></th>
-                            <th align="left"><strong>Pricing</strong></th>
+                            <th align="left"><strong>Price</strong></th>
                         </tr>
                         <tr>
                             <td>Small (S)</td>
@@ -390,12 +390,12 @@
                     <p>There is no charge for using SNI-based SSL. One IP SSL can be used with the Standard and Premium service plans at no additional charge. The Free and Shared service plans do not support SSL. You can purchase the right to use more SSL connections at the prices below. In all cases, the SSL certificate itself must be purchased separately.</p>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <th align="left">&#160;</th>
+                            <th align="left"> </th>
                             <th align="left"><strong>SNI SSL</strong></th>
                             <th align="left"><strong>IP SSL</strong></th>
                         </tr>
                         <tr>
-                            <td>Pricing</td>
+                            <td>Price</td>
                             <td>￥ 0/month<br>(per certificate supported)</td>
                             <td>￥ 193.62/month<br>(per certificate supported)</td>
                         </tr>
