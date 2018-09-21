@@ -26,7 +26,7 @@
 					</div>
 					<table cellpadding="0" cellspacing="0" width="100%">
 						<tr>
-							<th align="left"><strong>Locally Redundant Storage (LRS)</strong></th>
+							<th align="left"><strong>Locally-redundant storage (LRS)</strong></th>
 							<th align="left"><strong>Geo-Redundant Storage (GRS)</strong></th>
 						</tr>
 						<tr>
@@ -42,7 +42,7 @@
 					<table cellpadding="0" cellspacing="0" width="100%">
 						<tr>
 							<th align="left"><strong></strong></th>
-							<th align="left"><strong>Locally Redundant Storage (LRS)</strong></th>
+							<th align="left"><strong>Locally-redundant storage (LRS)</strong></th>
 							<th align="left"><strong>Geo-Redundant Storage (GRS)</th>
 						  
 						</tr>						
@@ -107,7 +107,7 @@
                 <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="storage-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				<p>We guarantee that we can successfully process data reading requests from an Read-access Redundant Storage (RA-GRS) account at least 99.99% of the time (99.9% for the Cool Access Tier), provided that we will retry in the secondary zone from the data writing failure from the primary zone.</p>
-				<p>We guarantee that we can successfully process data reading from Locally redundant storage (LRS) and Geo Redundant Storage (GRS) accounts at least 99.9% of the time (99% for the Cool Access Tier)</p>
+				<p>We guarantee that we can successfully process data reading from Locally redundant storage (LRS) and Geo Redundant Storage (GRS) accounts at least 99.9% of the time (99% for the Cool Access Tier).</p>
 				<p>We guarantee that we can successfully process data writing requests into Locally redundant storage (LRS) and geo-redundant storage (GRS) accounts and read and access Read-access Redundant Storage (RA-GRS) accounts at least 99.9% of the time (99% for the Cool Access Tier).</p>
 				<p>To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/storage/" id="pricing_storage_sla">Service Level Agreements</a> page.</p>
 				<p>The Managed Disk itself doesn’t provide a Service Level Agreement with financial support. The availability of a Managed Disk depends on the Service Level Agreement governing the basic storage used and the Virtual Machine it’s attached to. To learn more about the details of the Service Level Agreements for the Managed Disk, please visit the <a href="/support/sla/managed-disks/">Managed Disk Service Level Agreements</a> page.</p>

@@ -187,13 +187,13 @@
                                 Maximum Number of Client Connections
                             </td>
                             <td style="min-width:100px;">
-                                20,000
+                                20000
                             </td>
                             <td style="padding-left: 80px;">
-                                20,000
+                                20000
                             </td>
                             <td style="padding-left: 80px;">
-                                40,000
+                                40000
                             </td>
                         </tr>
                         <tr>
@@ -633,7 +633,7 @@
                 --> 
             <div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="redis-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
+                <p>If you have any questions or need any help, please access <a href="/support/contact/" id="redis-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				 <p>We guarantee that the customers have connections between the cache terminal and Internet gateway at least 99.9% of the time. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/redis-cache/" id="pricing_redis_sla">Service Level Agreements</a> page.</p>
             </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                

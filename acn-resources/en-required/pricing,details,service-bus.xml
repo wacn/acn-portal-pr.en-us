@@ -159,7 +159,7 @@
                         </tr>
                         <tr>
                             <td>Subsequent 400K (100K – 500K)/month</td>
-                            <td>¥ 0.15 per connection per month</td>
+                            <td>¥ 0.18 per connection per month</td>
                         </tr>
                         <tr>
                             <td>More than 500K/month</td>
@@ -359,7 +359,7 @@
 
             <div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="messaging-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
+                <p>If you have any questions or need any help, please visit <a href="/support/contact/" id="messaging-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				<p>For Service Bus Relay, we guarantee that at least 99.9% time, applications configured correctly can establish connections with the deployed relay.</p>
 				<p>For the Service Bus queues and themes, we guarantee that at least 99.9% of the time, applications configured correctly can send or receive messages or perform other operations on the deployed queues or themes.</p>
 				<!-- <p>对于服务总线的“基本”和“标准”通知中心级别，我们保证至少在 99.9% 的时间里，正确配置的应用程序能够通过在基本或标准通知中心层上部署的通知中心，发送通知或执行注册管理操作。</p> -->
@@ -372,7 +372,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-messaging</linkid>
     <metaKeywords>Azure, Service Bus, message transfer, transfer connection</metaKeywords>
-    <metaDescription><![CDATA[Learn more about the pricing details of Azure Service Bus (Search Bus). Azure Service Bus (Search Bus) is a message transfer infrastructure located among various applications, permitting the applications to exchange messages, so as to expand the scale and improve recovery capabilities. A 1RMB Trial gets you ¥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[Learn more about the pricing details of Azure Service Bus (Search Bus). Azure Service Bus (Search Bus) is a message transfer infrastructure located among various applications, permitting the applications to exchange messages, so as to expand the scale and improve recovery capabilities. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
     <urlDisplayName>Pricing Details - Service Bus</urlDisplayName>
   </TextpageLeftNav>
 </localize>
