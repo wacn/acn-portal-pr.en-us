@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-06-12T16:00:00" urlName="data-transfer" writerName="content" creatorName="content">
+  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-09-10T11:00:00" urlName="data-transfer" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
 	      	<style type="text/css">
@@ -74,16 +74,40 @@
 			<div class="technical-azure-selector pricing-detail-tab">
                 <ul class="tab-nav">
                     <li class="active">
-                        <a href="javascript:void(0)" data-href="#tabContent1" id="home_storage_blobs" data-toggle="tab">Blob Storage</a>
+                        <a href="javascript:void(0)" data-href="#tabContent1" id="home_storage_gpv2" data-toggle="tab">General Purpose v2</a>
+                    </li>
+                        <a href="javascript:void(0)" data-href="#tabContent2" id="home_storage_blobs" data-toggle="tab">Blob Storage</a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" data-href="#tabContent2" id="home_storage_gpv1" data-toggle="tab">General Purpose v1</a>
+                        <a href="javascript:void(0)" data-href="#tabContent3" id="home_storage_gpv1" data-toggle="tab">General Purpose v1</a>
                     </li>
                 </ul>
                 <!-- BEGIN: TAB-CONTAINER-1 -->
 				<div class="tab-content">
-					<!-- BEGIN: Level 1 tab content panel 1 -->
-                    <div class="tab-panel" id="tabContent1">
+					<div class="tab-panel" id="tabContent1">
+		                <p>General Purpose v2 provides access to the latest Azure storage features, including Cool and Archive storage, with pricing optimized for the lowest GB storage prices. These accounts provide access to Block Blobs, Page Blobs, Files, and Queues.</p>
+						<h4>Cool early deletion</h4>
+						<p>For general-purpose v2 accounts, any blob that is moved into the Cool tier is also subject to a cool early deletion period of 30 days. This charge is prorated.</p>
+                    
+						<!-- BEGIN: Table-Content-->
+						<div class="tags-date">
+							<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+						</div>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<th align="left"><strong>Locally-redundant storage (LRS)</strong></th>
+								<th align="left"><strong>Geo-Redundant Storage (GRS)</strong></th>
+								<th align="left"><strong> Only Read/Access geo-redundant storage (RA-GRS)</strong></th>
+							</tr>
+							<tr>
+								<td>¥0.1018/GB</td>
+								<td>¥0.2035/GB</td>
+								<td>¥0.2544/GB</td>
+							</tr>
+						</table>
+					</div>
+					<!-- BEGIN: Level 1 tab content panel 2 -->
+                    <div class="tab-panel" id="tabContent2">
 						<p>Blob storage accounts can be used to access the latest features, but cannot access page blobs, files, queues, or tables.</p>
 						<h4>Data Storage Pricing</h4>
 						<p>These are the costs of storage data in Block Blob. The pricing shown below are monthly billing by the data size (GB) of storage. These pricing may vary from the access layer of Block Blob Storage (“hot” or “cold”) and the redundancy options you select as well as the data size of storage. </p>
@@ -93,9 +117,9 @@
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
 								<th align="left"><strong></strong></th>
-								<th align="center" colspan="2"><strong>Locally Redundant Storage (LRS)</strong></th>
+								<th align="center" colspan="2"><strong>Locally-redundant storage (LRS)</strong></th>
 								<th align="center" colspan="2"><strong>Geo-Redundant Storage (GRS)</strong></th>
-								<th align="center" colspan="2"><strong>Read-access Redundant Storage (RA-GRS)</strong></th>
+								<th align="center" colspan="2"><strong>Read-access geo-redundant storage (RA-GRS)</strong></th>
 							</tr>
 							<tr>
 								<td></td>
@@ -149,7 +173,7 @@
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
 								<th align="left"><strong></strong></th>
-								<th align="center" colspan="2"><strong>Locally redundant storage (LRS)</strong></th>
+								<th align="center" colspan="2"><strong>Locally-redundant storage (LRS)</strong></th>
 								<th align="center" colspan="2"><strong>Geo-Redundant Storage (GRS) Read and Access Geo-Redundant Storage (RA-GRS)</strong></th>
 							  
 							</tr>
@@ -209,8 +233,8 @@
 						
 						<p>The pricing of Page Blob is the same as that of Standard Disk. Please view the <a id="pricing_storage_contact" style="color: #00a8d9;" href="javascript:void(0)" data-href="#tabContent3" >Standard Disk Pricing</a> page.</p>
 						<!-- END: Table1-Content-1 -->
-				</div>
-                    <div class="tab-panel" id="tabContent2">
+					</div>
+                    <div class="tab-panel" id="tabContent3">
 		                <p>General Purpose v1 has the lowest transaction prices, while its storage prices are higher. It can be used to access Block Blobs, Page Blobs, Files, Queues, and Tables. General Purpose v1 accounts do not support access to Cool and Archive storage.</p>
 						<h4>Data Storage Pricing</h4>
                     
@@ -221,10 +245,10 @@
 						<table cellpadding="0" cellspacing="0" width="100%">
 							<tr>
 								<th align="left"><strong>Monthly storage capacity</strong></th>
-								<th align="left"><strong>Locally Redundant Storage (LRS)</strong></th>
-								<th align="left"><strong>Zone Redundant Storage (ZRS)</strong></th>
+								<th align="left"><strong>Locally-redundant storage (LRS)</strong></th>
+								<th align="left"><strong>Zone-redundant storage (ZRS)</strong></th>
 								<th align="left"><strong>Geo-Redundant Storage (GRS)</strong></th>
-								<th align="left"><strong> Only Read/Access Geo-Redundant Storage (RA-GRS)</strong></th>
+								<th align="left"><strong> Only Read/Access geo-redundant storage (RA-GRS)</strong></th>
 							</tr>
 							<tr>
 								<td>0 to 1TB<sup>1</sup></td>
