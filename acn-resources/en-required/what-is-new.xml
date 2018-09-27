@@ -6,13 +6,43 @@
          <div class="section-component">
             <div class="more-detail">
             	 <h1>Important Notice</h1>
+				 <h3>September 2018</h3>
+                <ul>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-septemper-azure-management_groups"><span>9/17</span>Azure Resource Manager's Management Groups feature is officially released in China East 2 and China North 2 data centers <i class="icon icon-update"></i></a>
+							<section>
+								<p>Management Groups is a feature of the Azure Resource Manager (ARM) service. If your organization has many subscriptions, you may need a way to effectively manage the access, policy, and compliance for those subscriptions. The Azure Management Groups provide a higher level of coverage than the subscriptions. You organize subscriptions to a container called "Management Group" and apply your management conditions to the Management Group. All subscriptions in the Management Group automatically inherit the conditions that apply to the Management Group. Regardless of the type of subscription you use, the management team can provide you with large-scale enterprise-level management. For more details, please visit <a href="//docs.azure.cn/zh-cn/azure-resource-manager/management-groups-overview" id="service-fabric_year_2018-septemper_documentation-management_groups">Management Group document</a>.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-septemper-azure-automation"><span>9/13</span>Azure Automation is officially released in China North 2 data center <i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Automation provides cloud-based automation and configuration services which allow to realize consistent management in both Azure and non-Azure environments. It consists of process automation, update management and configuration function. Azure Automation provides full control during the deployment, operation, and shutdown of workloads and resources. Azure Automation is now officially released in the China North 2 data center. To learn more about this service and pricing, please visit <a href="/home/features/automation/" id="service-fabric_year_2018-septemper_features-automation">Azure Automation Service Feature Page</a> and <a href="/pricing/details/automation/" id="service-fabric_year_2018-septemper_pricing-automation">Price Details Page</a>. For more details, please visit <a href="//docs.azure.cn/zh-cn/automation/" id="service-fabric_year_2018-septemper_documentation-automation">Azure Automation Documentation Page</a>.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-septemper-azure-batch"><span>9/10</span>Azure Batch is officially released in China East 2 and China North 2 data centers <i class="icon icon-update"></i></a>
+							<section>
+								<p>Using Azure Batch can efficiently run massively parallel and high performance computing (HPC) batch jobs in Azure. Users can use Batch scheduling function for free, paying only for the underlying virtual machine service consumption. There is no additional cost for using Azure Batch. Developers use Azure Batch to extend parallel workloads, manage the execution of tasks in queues, and offload computing jobs in the cloud through applications. By using Azure Batch, users can run these applications on demand or on a large scale without having to create and manage clusters, virtual machines, or job plans. Azure Batch can manage virtual machine deployment, autoscaling, and failback; be used as a part of the workflow; and deliver the application as a service.</p>
+								
+								<p>The Azure Batch is now officially released in the new data centers (China East 2 and China North 2). To learn more about this service and pricing, please visit <a href="/home/features/batch/" id="service-fabric_year_2018-septemper_features-batch">Azure Batch Service Feature Page</a> and <a href="/pricing/details/batch/" id="service-fabric_year_2018-septemper_pricing-batch">Price Details Page</a>.For more details, please visit <a href="//docs.azure.cn/zh-cn/batch/" id="service-fabric_year_2018-septemper_documentation-batch">Azure Batch Document Page</a>.</p>
+							</section>
+						</div>
+					</li>
+				</ul>
             	 <h3>August 2018</h3>
             	 <ul>
             	 	<li>
 						<i class="icon icon-plus"></i>
-						<div>
-							<a href="#" id="service-fabric_year_2018-august-linux">Risk Warning: Linux Denial of Service Vulnerability<i class="icon icon-update"></i></a>
-							<section>
+						<div><a href="#" id="service-fabric_year_2018-august-linux">Risk Warning: Linux denial of service vulnerability</a><section>
 								<p>8/15: Another security vulnerability called “FragmentSmack” (<a href="https://www.kb.cert.org/vuls/id/641765">CVE-2018-5391</a>) also leads to denial of service (DoS) of Linux operating system. We have taken proper protective measures to ensure Microsoft cloud platform’s customers (Azure and Microsoft 365) free from the affection of this vulnerability. You do not need to take any immediate protective actions. However, as a best practice, we still recommend that you regularly consult each Linux distribution provider to install the latest updates for Linux Virtual Machines running on the Azure platform. You can consult each Linux distribution provider for more information on Linux security vulnerabilities.</p>
 								<p>8/7: We noticed that a newly disclosed security vulnerability (<a target="_blank" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5390">CVE-2018-5390</a>) may cause the Linux operating system to temporarily fall into a “Denial of Service (DoS)” state. Virtual Machines running the Linux operating system may be vulnerable, but Azure hosting platform will not be affected by this vulnerability. We are currently working with numerous Linux distribution providers to help them address this security issue. Please contact each Linux distribution provider for guidance on how to address the <a target="_blank"  href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5390">CVE-2018-5390</a> security vulnerability. For more information on this vulnerability, please visit the Vulnerability Information Database at <a target="_blank" href="https://www.kb.cert.org/vuls/id/962459">https://www.kb.cert.org/vuls/id/962459</a>.</p>
 								<p>We will continue to update this security notice as the case progresses.</p>
@@ -24,9 +54,7 @@
             	 <ul>
             	 	<li>
 						<i class="icon icon-plus"></i>
-						<div>
-							<a href="#" id="service-fabric_year_2018-july-php-minor"><span>July 16</span> PHP Minor Version + Xdebug Update Notice<i class="icon icon-update"></i></a>
-							<section>
+						<div><a href="#" id="service-fabric_year_2018-july-php-minor"><span>7/16</span>PHP minor version + Xdebug update notifications</a><section>
 								<p>In August 2018, Azure App Services will stack update PHP to the latest version. For information about changes in the latest version, please see the change logs on the PHP website.</p>
 								<table cellpadding="0" cellspacing="0" width="100%">
 			                        <tr>
@@ -94,7 +122,7 @@
             	 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-june-new-region"><span>June 27</span>New Azure data center (region) is officially opened <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-june-new-region"><span>6/27</span> Azure new data centers (regions) have officially opened </a>
 							<section>
 								<p>Two new data centers for Microsoft Azure operated by 21Vianet (located in two new regions) have officially opened: China East 2 and China North 2. Both new and existing customers are free to use the new data center resources. As the first international public cloud technology platform to operate commercially in China, we have not only tripled the number of data centers that we operate, but also accelerated the deployment of the latest Azure services, to provide the China market with a diverse range of virtual machines instances, faster data processing capabilities, more advanced AI (artificial intelligence), more data connection options, and more convenient and efficient PaaS (Platform as a Service) services. For details, visit the blog entry <a href="/blog/2018/06/27/New-regions-now-available-in-China" id="service-fabric_year_2018-june_documentation-new-region">New China Azure data centers (regions) are officially launched</a>.</p>
 							</section>
