@@ -1876,24 +1876,24 @@
                     "MinUnit": "0",
                     "MaxUnit": "100",
                     "Sizes": [{
-                       "Name": "E32 v3/E32s v3",
+                        "Name": "E32 v3/E32s v3",
                         "Description": "32 cores, 256 GiB RAM",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "27.46"
                     },
                     {
-                       "Name": "E64i v3/E64is v3",
+                        "Name": "E64i v3/E64is v3",
                         "Description": "64 cores, 432 GiB RAM",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "54.93"
                     },
                     {
-                       "Name": "E64 v3/E64s v3",
+                        "Name": "E64 v3/E64s v3",
                         "Description": "64 cores, 432 GiB RAM",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "54.93"
                     }]
-                 },
+                },
              {
                  "Name": " ",
                  "Description": "D-2v Series",
@@ -5202,7 +5202,66 @@
                 }]
             }]
         },
-        
+        "storage-general-purpose-gpv2-cool-block-blob-early-delete": {
+            "Name": "Storage - Block Blob - General Purpose v2 - Cool Early Deletion",
+            "Types": [{
+                "Name": "LRS",
+                "Features": [{
+                    "Name": "Cool early deletion",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "default",
+                        "PriceTier": "0,512000",
+                        "PricePerTier": "0.1018",
+                        "MinUnit": "0",
+                        "MaxUnit": "100000",
+                        "PriceUnit": "GB"
+                    }]
+                }]
+            },
+            {
+                "Name": "GRS",
+                "Features": [{
+                    "Name": "Cool early deletion",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "default",
+                        "PriceTier": "0,512000",
+                        "PricePerTier": "0.2035",
+                        "MinUnit": "0",
+                        "MaxUnit": "100000",
+                        "PriceUnit": "GB"
+                    }]
+                }]
+            },
+            {
+                "Name": "RA-GRS",
+                "Features": [{
+                    "Name": "Cool early deletion",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "default",
+                        "PriceTier": "0,512000",
+                        "PricePerTier": "0.2544",
+                        "MinUnit": "0",
+                        "MaxUnit": "100000",
+                        "PriceUnit": "GB"
+                    }]
+                }]
+            }]
+        },
         "storage-general-purpose-block-blob-access": {
             "Name": "Storage - Block Blob - General Purpose v1 - Operations and Data Transfer Pricing",
             "Types": [{
@@ -15004,7 +15063,6 @@
                         "PricePerTier": "9.332"
                     }]
                 }
-               
             ]
             },
             {
