@@ -48,7 +48,9 @@
 					background-color: #00a3d9;				
 				}
 			</style>
-			<tags ms.service="virtual-machines" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+			<tags ms.service="virtual-machines" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+			<div class="hide-info" style="display:none;"><div class="cover-bg"><div class="pricing-unavailable-message">Selected area is not available</div></div></div>
+			<!-- BEGIN: Product-Detail-TopBanner -->
 			<div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/virtual_machine.png','imageHeight':'auto'}">
 				<div class="common-banner-image">
 					<div class="common-banner-title">
@@ -67,45 +69,79 @@
 			</div>
 
 			<!-- BEGIN: TAB-CONTROL -->
-			<div class="technical-azure-selector pricing-detail-tab">
+			<div class="technical-azure-selector pricing-detail-tab tab-dropdown">
 				<!-- BEGIN: Level 1 tab navigator -->
-				<ul class="tab-nav">
-					<li class="active">
-						<a href="javascript:void(0)" data-href="#tabContent1" id="vm-vm-win" data-toggle="tab">Windows</a>
-					</li>
-					<li>
-						<a href="javascript:void(0)" data-href="#tabContent2" id="vm-vm-linux" data-toggle="tab">Linux</a>
-					</li>
-					<li>
-						<a href="javascript:void(0)" data-href="#tabContent3" id="vm-vm-sql" data-toggle="tab">SQL Server for Windows</a>
-					</li>
-					<li>
-						<a href="javascript:void(0)" data-href="#tabContent4" id="vm-vm-rlinux" data-toggle="tab">SQL Server Ubuntu Linux</a>
-					</li>
-					<li>
-						<a href="javascript:void(0)" data-href="#tabContent5" id="vm-vm-ml-server" data-toggle="tab">Machine Learning Server</a>
-					</li>
-					
-				</ul>
+				<div class="tab-container-container">
+				<div class="tab-container-box">
+				<div class="tab-container">
+					<div class="dropdown-container software-kind-container">
+						<label>OS/Software:</label>
+						<div class="dropdown-box os-tab-nav hidden-sm hidden-xs">
+							<span class="selected-item">Windows</span> <i class="icon"></i>
+							<ol class="tab-items">
+								<li class="active"><a href="javascript:void(0)" data-href="#tabContent1" id="vm-vm-win">Windows</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent2" id="vm-vm-linux">Linux</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent3" id="vm-vm-sql">SQL Server for Windows</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent4" id="vm-vm-rlinux">SQL Server Ubuntu Linux</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent5" id="vm-vm-ml-server">Machine Learning Server</a></li>
+							</ol>
+						</div>
+						<select class="dropdown-select software-box hidden-lg hidden-md" id="software-box">
+							<option selected="selected" data-href="#tabContent1" value="Windows">Windows</option>
+							<option data-href="#tabContent2" value="Linux">Linux</option>
+							<option data-href="#tabContent3" value="SQL Server for Windows">SQL Server for Windows</option>
+							<option data-href="#tabContent4" value="SQL Server Ubuntu Linux">SQL Server Ubuntu Linux</option>
+							<option data-href="#tabContent5" value="Machine Learning Server">Machine Learning Server</option>
+						</select>
+					</div>
+					<div class="dropdown-container region-container">
+						<label>Region:</label>
+						<div class="dropdown-box os-tab-nav hidden-sm hidden-xs">
+							<span class="selected-item">China East 2</span> <i class="icon"></i>
+							<ol class="tab-items">
+								<li class="active"><a href="javascript:void(0)" data-href="#east-china2" id="east-china2" >China East 2</a></li>
+								<li><a href="javascript:void(0)" data-href="#north-china2" id="north-china2" >China North 2</a></li>
+								<li><a href="javascript:void(0)" data-href="#east-china" id="east-china" >China East</a></li>
+								<li><a href="javascript:void(0)" data-href="#north-china" id="north-china" >China North</a></li>
+							</ol>
+						</div>
+						<select class="dropdown-select region-box hidden-lg hidden-md" id="region-box">
+							<option selected="selected" data-href="#east-china2" value="east-china2">China East 2</option>
+							<option data-href="#north-china2" value="north-china2">China North 2</option>
+							<option data-href="#east-china" value="east-china">China East</option>
+							<option data-href="#north-china" value="north-china">China North</option>
+						</select>
+					</div>
+					<div class="clearfix"></div>
+					</div>
+				</div>
+				</div>
 				<!-- END: Level 1 tab navigator  --> <!-- BEGIN: Level 1 tab content -->
 				<div class="tab-content">
 					<!-- BEGIN: Level 1 tab content panel 1 -->
 					<div class="tab-panel" id="tabContent1">
 						<!-- BEGIN: Tab level 2 navigator 1 -->
-						<ul class="tab-nav">
-							<li class="active">
-								<a href="javascript:void(0)" data-href="#tabContent1-1" data-toggle="tab" id="vm-vm-win-general-purpose">General Purpose</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" data-href="#tabContent1-2"  data-toggle="tab" id="vm-vm-win-compute-optimized">Computing Prioritization</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" data-href="#tabContent1-3"  data-toggle="tab" id="vm-vm-win-memory-optimized">Memory Prioritization</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" data-href="#tabContent1-4"  data-toggle="tab" id="vm-vm-win-GPU">GPU</a>
-							</li>
+						<div class="category-container-container">
+						<div class="category-container-box">
+						<div class="category-container">
+						<span class="category-title hidden-lg hidden-md">Category：</span>
+						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
+							<li class="active"><a href="javascript:void(0)" data-href="#tabContent1-0" id="vm-vm-win-all">All</a></li>
+							<li><a href="javascript:void(0)" data-href="#tabContent1-1" id="vm-vm-win-general-purpose">General Purpose</a></li>
+							<li><a href="javascript:void(0)" data-href="#tabContent1-2" id="vm-vm-win-compute-optimized">Computing Prioritization</a></li>
+							<li><a href="javascript:void(0)" data-href="#tabContent1-3" id="vm-vm-win-memory-optimized">Memory optimization</a></li>
+							<li><a href="javascript:void(0)" data-href="#tabContent1-4" id="vm-vm-win-GPU">GPU</a></li>
 						</ul>
+						<select class="dropdown-select category-tabs hidden-lg hidden-md">
+							 <option data-href="#tabContent1-0" id="vm-vm-win-all" value="all">All</option>
+							 <option data-href="#tabContent1-1" id="vm-vm-win-general-purpose" value="general-purpose">General Purpose</option>
+							 <option data-href="#tabContent1-2" id="vm-vm-win-compute-optimized" value="compute-optimized">Computing Prioritization</option>
+							 <option data-href="#tabContent1-3" id="vm-vm-win-memory-optimized" value="memory-optimized">Memory optimization</option>
+							 <option data-href="#tabContent1-4" id="vm-vm-win-GPU" value="GPU">GPU</option>
+						</select>
+					</div>
+					</div>
+					</div>
 						<!-- END: Tab level 2 navigator 1 --> <!-- BEGIN: Tab level 2 content -->
 						<div class="tab-content">
 							<!-- BEGIN: Tab level 2 content 1-1 -->
@@ -119,7 +155,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-1-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -172,7 +208,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-1-2">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -244,9 +280,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*B series is only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-1-3">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -259,48 +294,42 @@
 										<td>1</td>
 										<td>1.00 GiB</td>
 										<td>2 GiB</td>
-										<td>￥ 0.018/hour
-											<br />(about ￥ 13.392/month)</td>
+										<td>￥ 0.17/hour<br />(about ¥ 126.48/month)</td>
 									</tr>
 									<tr>
 										<td>B2S</td>
 										<td>2</td>
 										<td>4.00 GiB</td>
 										<td>8 GiB</td>
-										<td>￥ 0.066/hour
-											<br />(about ￥ 49.104/month)</td>
+										<td>￥ 0.66/hour<br />(about ￥ 491.04/month)</td>
 									</tr>
 									<tr>
 										<td>B1MS</td>
 										<td>1</td>
 										<td>2.00 GiB</td>
 										<td>4 GiB</td>
-										<td>￥ 0.032/hour
-											<br />(about ￥ 23.808/month)</td>
+										<td>￥ 0.28/hour<br />(about ¥ 208.32/month)</td>
 									</tr>
 									<tr>
 										<td>B2MS</td>
 										<td>2</td>
 										<td>8.00 GiB</td>
 										<td>16 GiB</td>
-										<td>￥ 0.122/hour
-											<br />(about ￥ 90.768/month)</td>
+										<td>￥ 1.12/hour<br />(about ￥ 833.28/month)</td>
 									</tr>
 									<tr>
 										<td>B4MS</td>
 										<td>4</td>
 										<td>16.00 GiB</td>
 										<td>32 GiB</td>
-										<td>￥ 0.23/hour
-											<br />(about ￥ 171.12/month)</td>
+										<td>￥ 2.23/hour<br />(about ¥ 1,659.12/month)</td>
 									</tr>
 									<tr>
 										<td>B8MS</td>
 										<td>8</td>
 										<td>32.00 GiB</td>
 										<td>64 GiB</td>
-										<td>￥ 0.438/hour
-											<br />(about ￥ 325.872/month)</td>
+										<td>￥ 4.46/hour<br />(about ￥ 3,318.24/month)</td>
 									</tr>
 								</table>
 
@@ -311,7 +340,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-1-4">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -376,9 +405,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*Dv3 instances are only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-1-5">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -443,9 +471,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*Dsv3 instances are only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-1-6">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -512,7 +539,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-1-7">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -604,7 +631,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-1-8">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -656,7 +683,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-1-9">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -712,7 +739,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-2-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>vCPU</strong></th>
@@ -789,7 +816,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-2-2">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -847,9 +874,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*Ev3 instances are only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-3-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -923,9 +949,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*Esv3 instances are only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-3-2">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -1000,7 +1025,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-3-3">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -1092,7 +1117,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-3-4">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -1144,9 +1169,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br/>
-									<div class="ms-date">*DS15 v2 instances are only applicable to data centers in China East and China North.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-3-5">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -1203,9 +1227,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*NCsv3 series is only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-4-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Cores</strong></th>
@@ -1261,20 +1284,26 @@
 					<!-- END: Level 1 tab content panel 1 --> <!-- BEGIN: Level 1 tab content panel 2 -->
 					<div class="tab-panel" id="tabContent2">
 						<!-- BEGIN: Tab level 2 navigator 2 -->
-						<ul class="tab-nav">
-							<li class="active">
-								<a href="javascript:void(0)" data-href="#tabContent2-1" data-toggle="tab" id="vm-vm-linux-general-purpose">General Purpose</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" data-href="#tabContent2-2" data-toggle="tab" id="vm-vm-linux-compute-optimized">Computing Prioritization</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" data-href="#tabContent2-3" data-toggle="tab" id="vm-vm-linux-memory-optimized">Memory Prioritization</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" data-href="#tabContent2-4"  data-toggle="tab" id="vm-vm-linux-GPU">GPU</a>
-							</li>
-						</ul>
+						<div class="category-container-container">
+				<div class="category-container-box">
+						<div class="category-container">
+						<span class="category-title hidden-lg hidden-md">Category：</span>
+						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
+								<li class="active"><a href="javascript:void(0)" data-href="#tabContent2-0" id="vm-vm-linux-all">All</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent2-1" id="vm-vm-linux-general-purpose">General Purpose</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent2-2" id="vm-vm-linux-compute-optimized">Computing Prioritization</a> </li>
+								<li><a href="javascript:void(0)" data-href="#tabContent2-3" id="vm-vm-linux-memory-optimized">Memory optimization</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent2-4" id="vm-vm-linux-GPU">GPU</a></li>
+							</ul>
+							<select class="dropdown-select category-tabs hidden-lg hidden-md">
+								<option data-href="#tabContent2-0" id="vm-vm-linux-all" value="all">All</option>
+								<option data-href="#tabContent2-1" id="vm-vm-linux-general-purpose" value="general-purpose">General Purpose</option>
+								<option data-href="#tabContent2-2" id="vm-vm-linux-compute-optimized" value="compute-optimized">Computing Prioritization</option>
+								<option data-href="#tabContent2-3" id="vm-vm-linux-memory-optimized" value="memory-optimized">Memory optimization</option>
+								<option data-href="#tabContent2-4" id="vm-vm-linux-GPU" value="GPU">GPU</option>
+							</select>
+						</div>
+						</div></div>
 						<!-- END: Tab level 2 navigator 2 --> <!-- BEGIN: Tab level 2 content 2 -->
 						<div class="tab-content">
 							<!-- BEGIN: Tab level 2 content 2-1 -->
@@ -1288,7 +1317,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-1-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -1341,7 +1370,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-1-2">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -1413,9 +1442,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*B series is only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-1-3">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -1428,48 +1456,45 @@
 										<td>1</td>
 										<td>1.00 GiB</td>
 										<td>2 GiB</td>
-										<td>￥ 0.012/hour
-											<br />(about ￥ 8.928/month)</td>
+										<td>￥ 0.12/hour<br />(about ¥ 89.28/month)</td>
 									</tr>
 									<tr>
 										<td>B2S</td>
 										<td>2</td>
 										<td>4.00 GiB</td>
 										<td>8 GiB</td>
-										<td>￥ 0.048/hour
-											<br />(about ￥ 35.712/month)</td>
+										<td>￥ 0.48/hour<br />(about ￥ 357.12/month)</td>
 									</tr>
 									<tr>
 										<td>B1MS</td>
 										<td>1</td>
 										<td>2.00 GiB</td>
 										<td>4 GiB</td>
-										<td>￥ 0.024/hour
-											<br />(about ￥ 17.856/month)</td>
+										<td>￥ 0.23/hour
+											<br />(about ￥ 171.12/month)</td>
 									</tr>
 									<tr>
 										<td>B2MS</td>
 										<td>2</td>
 										<td>8.00 GiB</td>
 										<td>16 GiB</td>
-										<td>￥ 0.122/hour
-											<br />(about ￥ 90.768/month)</td>
+										<td>￥ 0.96/hour<br />(about ¥ 714.24/month)</td>
 									</tr>
 									<tr>
 										<td>B4MS</td>
 										<td>4</td>
 										<td>16.00 GiB</td>
 										<td>32 GiB</td>
-										<td>￥ 0.23/hour
-											<br />(about ￥ 171.12/month)</td>
+										<td>￥ 1.89/hour
+											<br />(about ¥ 1406.14/month)</td>
 									</tr>
 									<tr>
 										<td>B8MS</td>
 										<td>8</td>
 										<td>32.00 GiB</td>
 										<td>64 GiB</td>
-										<td>￥ 0.376/hour
-											<br />(about ￥ 279.744/month)</td>
+										<td>￥ 3.79/hour
+											<br />(about ¥ 2819.76/month)</td>
 									</tr>
 								</table>
 
@@ -1480,7 +1505,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-1-4">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -1545,9 +1570,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*Dv3 instances are only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-1-5">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -1611,9 +1635,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*Dsv3 instances are only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-1-6">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -1679,7 +1702,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-1-7">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -1771,7 +1794,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-1-8">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -1823,7 +1846,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-1-9">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -1880,7 +1903,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-2-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>vCPU</strong></th>
@@ -1957,7 +1980,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-2-2">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -2013,9 +2036,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*Ev3 instances are only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-3-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -2088,9 +2110,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*Esv3 instances are only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-3-2">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -2165,7 +2186,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-3-3">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -2257,7 +2278,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-3-4">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -2309,9 +2330,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br/>
-									<div class="ms-date">*DS15 v2 instances are only applicable to data centers in China East and China North.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-3-5">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -2366,9 +2386,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*NCsv3 series is only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-4-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Cores</strong></th>
@@ -2424,20 +2443,27 @@
 					<!-- END: Level 1 tab content panel 2 --> <!-- BEGIN: Level 1 tab content panel 3 -->
 					<div class="tab-panel" id="tabContent3">
 						<!-- BEGIN: Tab level 2 navigator 3 -->
-						<ul class="tab-nav">
-							<li class="active">
-								<a href="javascript:void(0)" data-href="#tabContent3-1" data-toggle="tab" id="vm-vm-sql-general-purpose">General Purpose</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" data-href="#tabContent3-2"  data-toggle="tab" id="vm-vm-win-compute-optimized">Computing Prioritization</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" data-href="#tabContent3-3"  data-toggle="tab" id="vm-vm-sql-memory-optimized">Memory Prioritization</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" data-href="#tabContent3-4"  data-toggle="tab" id="vm-vm-sql-GPU">GPU</a>
-							</li>
-						</ul>
+<div class="category-container-container">
+				<div class="category-container-box">
+						<div class="category-container">
+						<span class="category-title hidden-lg hidden-md">Category：</span>
+						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
+								<li class="active"><a href="javascript:void(0)" data-href="#tabContent3-0" id="vm-vm-sql-all">All</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent3-1" id="vm-vm-sql-general-purpose">General Purpose</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent3-2" id="vm-vm-sql-compute-optimized">Computing Prioritization</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent3-3" id="vm-vm-sql-memory-optimized">Memory optimization</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent3-4" id="vm-vm-sql-GPU">GPU</a></li>
+							</ul>
+							<select class="dropdown-select category-tabs hidden-lg hidden-md">
+								<option data-href="#tabContent3-0" id="vm-vm-sql-all" value="all">All</option>
+								<option data-href="#tabContent3-1" id="vm-vm-sql-general-purpose" value="general-purpose">General Purpose</option>
+								<option data-href="#tabContent3-2" id="vm-vm-sql-compute-optimized" value="compute-optimized">Computing Prioritization</option>
+								<option data-href="#tabContent3-3" id="vm-vm-sql-memory-optimized" value="memory-optimized">Memory optimization</option>
+								<option data-href="#tabContent3-4" id="vm-vm-sql-GPU" value="GPU">GPU</option>
+							</select>
+						</div>
+						</div>
+						</div>
 						<!-- END: Tab level 2 navigator 3 --> <!-- BEGIN: Tab level 2 content 3 -->
 						<div class="tab-content">
 							<!-- BEGIN: Tab level 2 content 3-1 -->
@@ -2451,7 +2477,7 @@
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
 									<div class="ms-date">*The following prices include the pricing of both Windows Virtual Machine and SQL Server.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-1-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -2517,7 +2543,7 @@
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
 									<div class="ms-date">*The following prices include the pricing of both Windows Virtual Machine and SQL Server.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-1-2">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -2608,9 +2634,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*B series is only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-1-3">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -2683,7 +2708,7 @@
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
 									<div class="ms-date">*The following prices include the pricing of both Windows Virtual Machine and SQL Server.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-1-4">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -2775,9 +2800,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*Dv3 instances are only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-1-5">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -2850,9 +2874,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*Dsv3 instances are only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-1-6">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -2925,7 +2948,7 @@
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
 									<div class="ms-date">*The following prices include the pricing of both Windows Virtual Machine and SQL Server.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-1-7">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -2983,7 +3006,7 @@
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
 									<div class="ms-date">*The following prices include the pricing of both Windows Virtual Machine and SQL Server.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-1-8">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -3049,7 +3072,7 @@
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
 									<div class="ms-date">*The following prices include the pricing of both Windows Virtual Machine and SQL Server.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-1-9">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -3122,7 +3145,7 @@
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
 									<div class="ms-date">*The following prices include the pricing of both Windows Virtual Machine and SQL Server.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-2-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -3197,9 +3220,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*Ev3 instances are only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-3-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -3282,9 +3304,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*Esv3 instances are only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-3-2">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -3364,7 +3385,7 @@
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
 									<div class="ms-date">*The following prices include the pricing of both Windows Virtual Machine and SQL Server.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-3-3">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -3421,7 +3442,7 @@
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
 									<div class="ms-date">*The following prices include the pricing of both Windows Virtual Machine and SQL Server.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-3-4">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -3486,9 +3507,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
 									<div class="ms-date">*The following prices include the pricing of both Windows Virtual Machine and SQL Server.</div><br/>
-									<div class="ms-date">*DS15 v2 instances are only applicable to data centers in China East and China North.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-3-5">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -3557,9 +3577,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
-									<div class="ms-date">*NCsv3 series is only applicable to data centers in China East 2 and China North 2.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table3-4-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Cores</strong></th>
@@ -3618,17 +3637,24 @@
 					<!-- END: Level 1 tab content panel 3 --> <!-- BEGIN: Level 1 tab content panel 4 -->
 					<div class="tab-panel" id="tabContent4">
 						<!-- BEGIN: Tab level 2 navigator 4 -->
-						<ul class="tab-nav">
-							<li class="active">
-								<a href="javascript:void(0)" data-href="#tabContent4-1" data-toggle="tab" id="vm-vm-r-server-linux-general-purpose">General Purpose</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" data-href="#tabContent4-2"  data-toggle="tab" id="vm-vm-r-server-linux-compute-optimized">Computing Prioritization</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" data-href="#tabContent4-3"  data-toggle="tab" id="vm-vm-r-server-linux-memory-optimized">Memory Prioritization</a>
-							</li>
-						</ul>
+						<div class="category-container-container">
+				<div class="category-container-box">
+						<div class="category-container">
+						<span class="category-title hidden-lg hidden-md">Category：</span>
+						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
+								<li class="active"><a href="javascript:void(0)" data-href="#tabContent4-0" id="vm-vm-r-server-linux-all">All</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent4-1" id="vm-vm-r-server-linux-general-purpose">General Purpose</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent4-2" id="vm-vm-r-server-linux-compute-optimized">Computing Prioritization</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent4-3" id="vm-vm-r-server-linux-memory-optimized">Memory optimization</a></li>
+							</ul>
+							<select class="dropdown-select category-tabs hidden-lg hidden-md">
+								<option data-href="#tabContent4-0" id="vm-vm-r-server-linux-all" value="all">All</option>
+								<option data-href="#tabContent4-1" id="vm-vm-r-server-linux-general-purpose" value="general-purpose">General Purpose</option>
+								<option data-href="#tabContent4-2" id="vm-vm-r-server-linux-compute-optimized" value="compute-optimized">Computing Prioritization</option>
+								<option data-href="#tabContent4-3" id="vm-vm-r-server-linux-memory-optimized" value="memory-optimized">Memory optimization</option>
+							</select>
+						</div>
+						</div></div>
 						<!-- END: Tab level 2 navigator 4 --> <!-- BEGIN: Tab level 2 content 4 -->
 						<div class="tab-content">
 							<!-- BEGIN: Tab level 2 content 4-1 -->
@@ -3641,7 +3667,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table4-1-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -3708,7 +3734,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table4-1-2">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -3799,7 +3825,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table4-1-3">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -3882,7 +3908,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table4-1-4">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -3994,7 +4020,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table4-1-5">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -4060,7 +4086,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table4-1-6">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -4132,7 +4158,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table4-2-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -4201,7 +4227,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table4-3-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -4313,7 +4339,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table4-3-2">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -4377,9 +4403,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br/>
-									<div class="ms-date">*DS15 v2 instances are only applicable to data centers in China East and China North.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table4-3-3">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -4444,17 +4469,24 @@
 					<!-- END: Level 1 tab content panel 4 --> <!-- BEGIN: Level 1 tab content panel 5 -->
 					<div class="tab-panel" id="tabContent5">
 						<!-- BEGIN: Tab level 2 navigator 5 -->
-						<ul class="tab-nav">
-							<li class="active">
-								<a href="javascript:void(0)" data-href="#tabContent5-1" data-toggle="tab" id="vm-vm-r-server-linux-general-purpose">General Purpose</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" data-href="#tabContent5-2"  data-toggle="tab" id="vm-vm-r-server-linux-compute-optimized">Computing Prioritization</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" data-href="#tabContent5-3"  data-toggle="tab" id="vm-vm-r-server-linux-memory-optimized">Memory Prioritization</a>
-							</li>
-						</ul>
+						<div class="category-container-container">
+				<div class="category-container-box">
+						<div class="category-container">
+						<span class="category-title hidden-lg hidden-md">Category：</span>
+						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
+								<li class="active"><a href="javascript:void(0)" data-href="#tabContent5-0" id="vm-vm-r-server-learn-all">All</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent5-1" id="vm-vm-r-server-learn-general-purpose">General Purpose</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent5-2" id="vm-vm-r-server-learn-compute-optimized">Computing Prioritization</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent5-3" id="vm-vm-r-server-learn-memory-optimized">Memory optimization</a></li>
+							</ul>
+							<select class="dropdown-select category-tabs hidden-lg hidden-md">
+								<option data-href="#tabContent5-0" id="vm-vm-r-server-learn-all" value="all">All</option>
+								<option data-href="#tabContent5-1" id="vm-vm-r-server-learn-general-purpose" value="general-purpose">General Purpose</option>
+								<option data-href="#tabContent5-2" id="vm-vm-r-server-learn-compute-optimized" value="compute-optimized">Computing Prioritization</option>
+								<option data-href="#tabContent5-3" id="vm-vm-r-server-learn-memory-optimized" value="memory-optimized">Memory optimization</option>
+							</select>
+						</div>
+						</div></div>
 						<!-- END: Tab level 2 navigator 4 --> <!-- BEGIN: Tab level 2 content 5 -->
 						<div class="tab-content">
 							<!-- BEGIN: Tab level 2 content 5-1 -->
@@ -4467,7 +4499,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table5-1-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -4519,7 +4551,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table5-1-2">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -4592,7 +4624,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table5-1-3">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -4659,7 +4691,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table5-1-4">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -4761,7 +4793,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table5-1-5">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -4815,7 +4847,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table5-1-6">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -4875,7 +4907,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table5-2-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -4932,7 +4964,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table5-3-1">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -5034,7 +5066,7 @@
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table5-3-2">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
@@ -5086,9 +5118,8 @@
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
 									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br/>
-									<div class="ms-date">*DS15 v2 instances are only applicable to data centers in China East and China North.</div>
 								</div>
-								<table cellpadding="0" cellspacing="0" width="100%">
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table5-3-3">
 									<tr>
 										<th align="left"><strong>Instances</strong></th>
 										<th align="left"><strong>Number of cores</strong></th>
