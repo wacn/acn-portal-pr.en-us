@@ -1,139 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-06-12T16:00:00" urlName="stream-analytics" writerName="content" creatorName="content">
-    <bodyText><![CDATA[
-      
+    <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-06-12T16:00:00" urlName="stream-analytics" writerName="content" creatorName="content">
+        <bodyText><![CDATA[
+            
             <tags ms.service="stream-analytics" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
             <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/stream_analystics.png','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/stream-analytics@2x.png" />
-                        <h2><span>Stream Analytics</span></h2>
+                        <h2><span>Stream Analytics</span>
+                        </h2>
                         <h4>Real-time, on-demand processing for streams of data from millions of IoT devices</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial_stream_analytics">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia_stream_analytics">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial_stream_analytics">Apply for a 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia_stream_analytics">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>Azure Stream Analytics </a>is an event analysis engine in the cloud that can deeply understand the equipment, sensors, basic structure of the cloud and attributes of existing data in real time. By integration with <a id="home_landing_event" class="link-btn_tow" style="color: #00a8d9;"  href="/home/features/event-hubs/" target="_blank">Event Hubs</a>, the combined solution can receive millions of events and analyze them when it is carrying out streaming of data in real time, so as to better understand modes and enhance dashboards, or begin executing operations.</p>
-            </div>
-            <!-- BEGIN: TAB-CONTROL -->
-            <div class="technical-azure-selector tab-control-selector">
-                <!-- BEGIN: TAB-CONTAINER-1 -->
-                <div class="tab-control-container tab-active" id="tabContent1">
-                    <!-- BEGIN: Table1-Content-->
-                    <h2>Pricing Details</h2>
-                    <!--<p>流分析按处理的数据量以及进行处理所需的流式处理单位数来定价。</p>--> <!-- <p>从2016年4月1日起，价格会下调 25.5%，以下是下调后的新价格：</p> -->
-                    <div class="tags-date">
-                        <div class="ms-date">*The following prices are tax-inclusive.</div><br />
-                        <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
-                    </div>
-                    <table cellpadding="0" cellspacing="0" width="100%">
-                        <tr>
-                            <th align="left"><strong></strong></th>
-                            <th align="left"><strong>Pricing</strong></th>
-                        </tr>
-                        <tr>
-                            <td>Standard stream processing unit</td>
-                            <td>￥ 0.723/hour</td>
-                        </tr>
-                    </table>
-					<!--<p>自 2017 年 2 月 1 日起，Azure 流分析即将使用全新的定价模型，引入更为丰富的功能。流分析现有用户在 2017 年 12 月 31 之前或当前订阅期结束之前，可以继续使用现有定价模型。订阅到期后，所有流分析作业都将迁移到新的定价模型。</p>-->
+                <p>Azure Stream Analytics </a>is a cloud-based event analysis engine that provides in-depth insights for devices, sensors, cloud infrastructure, and existing data attributes in real time. Through integration with <a id="home_landing_event" class="link-btn_tow" style="color: #00a8d9;"  href="/home/features/event-hubs/" target="_blank">Event Hubs</a>, the combined solution is able receive millions of events and analyze them while streaming data in real time, so as to better understand modes and enhance dashboards or begin executing operations.
+            </p>
+        </div>
+        <!-- BEGIN: TAB-CONTROL -->
+        <div class="technical-azure-selector tab-control-selector">
+            <!-- BEGIN: TAB-CONTAINER-1 -->
+            <div class="tab-control-container tab-active" id="tabContent1">
+                <!-- BEGIN: Table1-Content-->
+                <h2>Pricing Details</h2>
+                <!--<p>流分析按处理的数据量以及进行处理所需的流式处理单位数来定价。</p>--> <!-- <p>从2016年4月1日起，价格会下调 25.5%，以下是下调后的新价格：</p> -->
+                <div class="tags-date">
+                    <div class="ms-date">*The following prices are tax-inclusive.</div>
+                    <br />
+                    <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                 </div>
-                <!-- END: TAB-CONTAINER-1 -->
+                <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <th align="left">
+                            <strong></strong>
+                        </th>
+                        <th align="left">
+                            <strong>Pricing</strong>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Standard stream processing unit</td>
+                        <td>￥ 0.723/hour</td>
+                    </tr>
+                </table>
+                <!--<p>自 2017 年 2 月 1 日起，Azure 流分析即将使用全新的定价模型，引入更为丰富的功能。流分析现有用户在 2017 年 12 月 31 之前或当前订阅期结束之前，可以继续使用现有定价模型。订阅到期后，所有流分析作业都将迁移到新的定价模型。</p>-->
             </div>
-            <!-- END: TAB-CONTROL -->
-            <div class="pricing-page-section">
-                <div class="more-detail">
-                    <h2>FAQ</h2>
-                    <em>Expand all</em>
-                    <ul>
-                        <!--
-						<li>
-                            <i class="icon icon-plus"></i>
-                            <div>
-                                <a id="que-multiple_output_stream_analytics">“处理的数据量”是什么意思？</a>
-                                <section>
-                                    <p>流作业处理的实际数据量。流处理查询可能从事件源中一次或多次读取同一输入事件，这种情况通常在查询具有多个输出和/或多次引用同一输入时发生，此时将引发附加数据量，每次从事件源中读取这些数据时均收取费用。</p>
-                                </section>
-
-                            </div>
-                        </li>
+            <!-- END: TAB-CONTAINER-1 -->
+        </div>
+        <div class="pricing-page-section">
+            <h3>Azure Stream Analytics for IoT Edge <sup style="font-size:65%;">Preview</sup>
+            </h3>
+            <p>The beta version of Azure Stream Analytics for IoT Edge allows users to run streaming jobs on devices with Azure IoT Edge installed. Streaming jobs can be created in Azure Stream Analytics and deployed to devices running Azure IoT Edge via Azure IoT Hub.</p>
+            <p>With the preview version of Azure Stream Analytics for IoT Edge, you can extend the benefits of its unique streaming technology from the cloud to devices. It can be used to run complex event processing (CEP) closer to IoT devices and analyze multiple data streams on devices or gateways.</p>
+            <p>This feature is free during the preview period.</p>
+        </div>
+        <!-- END: TAB-CONTROL -->
+        <div class="pricing-page-section">
+            <div class="more-detail">
+                <h2>FAQ</h2>
+                <em>Expand All</em>
+                <ul>
+                    <!--
+						<li><i class="icon icon-plus"></i><div><a id="que-multiple_output_stream_analytics">“处理的数据量”是什么意思？</a><section><p>流作业处理的实际数据量。流处理查询可能从事件源中一次或多次读取同一输入事件，这种情况通常在查询具有多个输出和/或多次引用同一输入时发生，此时将引发附加数据量，每次从事件源中读取这些数据时均收取费用。</p></section></div></li>
 						-->
-                        <li>
-                            <i class="icon icon-plus"></i>
-                            <div>
-                                <a id="que-api_stream_analytics">What is the stream processing unit? </a>
-                                <section>
-                                    <p>The stream processing unit is a unit of stream processing capacity with a maximum handling capacity of 1MB/s. The number of stream processing units is chosen by the customer through the Azure portal or the stream analytics management API. And the stream processing unit can be used to extend stream processing operations to achieve higher handling capacity. Moreover, more stream processing units may be needed to achieve performance requirements, according to the complexity of the query and the required handling capacity.</p>
-                                    <p>The number of units for the stream processing is charged by the hour, and the billing is based on the maximum number of units chosen in one hour.</p>
-                                </section>
-
-                            </div>
-                        </li>
-                        <li>
-                            <i class="icon icon-plus"></i>
-                            <div>
-                                <a id="que-influence-flow_stream_analytics">What are the factors affecting the pricing of the stream operations? </a>
-                                <section>
-                                    <p>The main factors affecting the pricing of stream operations are the complexity of queries, the return rate (delay) for the queries and the amount of data processed.</p>
-                                </section>
-
-                            </div>
-                        </li>
-                        <li>
-                            <i class="icon icon-plus"></i>
-                            <div>
-                                <a id="que-limit_stream_analytics">Is there any limit on the number of stream processing units?</a>
-                                <section>
-                                    <p>There is no number limit for the stream processing units. The quota for the default stream processing unit subscribed individually by each region is 48. You can request a larger number of stream processing units by filling in the supporting worker order.</p>
-                                </section>
-
-                            </div>
-                        </li>
-                        <li>
-                            <i class="icon icon-plus"></i>
-                            <div>
-                                <a id="que-event-center_stream_analytics"> Does the running steam require Event Hubs during operation? </a>
-                                <section>
-                                    <p>It is recommended that Event Hubs be used as the transfer center for the scalable event, so as to be regarded as the solution for stream analytics. Currently, stream analytics also supports pulling data from Azure Blob. We may consider integrating with other input sources in the future.</p>
-                                </section>
-
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a id="que-api_stream_analytics">What is the stream processing unit? </a>
+                            <section>
+                                <p>The stream processing unit is a unit of stream processing capacity with a maximum handling capacity of 1MB/s. The number of stream processing units is chosen by the customer through the Azure portal or the stream analytics management API. And the stream processing unit can be used to extend stream processing operations to achieve higher handling capacity. Moreover, more stream processing units may be needed to achieve performance requirements, according to the complexity of the query and the required handling capacity.</p>
+                                <p>The number of units for the stream processing is charged by the hour, and the billing is based on the maximum number of units chosen in one hour.</p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a id="que-influence-flow_stream_analytics">What are the factors affecting the pricing of the stream operations? </a>
+                            <section>
+                                <p>The main factors affecting the pricing of stream operations are the complexity of queries, the return rate (delay) for the queries and the amount of data processed.</p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a id="que-limit_stream_analytics">Is there any limit on the number of stream processing units?</a>
+                            <section>
+                                <p>There is no number limit for the stream processing units. The quota for the default stream processing unit subscribed individually by each region is 48. You can request a larger number of stream processing units by filling in the supporting worker order.</p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a id="que-event-center_stream_analytics"> Does the running steam require Event Hubs during operation? </a>
+                            <section>
+                                <p>It is recommended that Event Hubs be used as the transfer center for the scalable event, so as to be regarded as the solution for stream analytics. Currently, stream analytics also supports pulling data from Azure Blob. We may consider integrating with other input sources in the future.</p>
+                            </section>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <!-- <div class="pricing-page-section">
-                <h2>上市地区</h2>
-                <p>流分析服务在以下区域中提供：</p>
-                <table cellpadding="0" cellspacing="0" class="table-col6">
-                    <tr>
-                        <th align="left"><strong>地域</strong></th>
-                        <th align="left"><strong>区域</strong></th>
-                    </tr>
-                    <tr>
-                        <td>中国大陆</td>
-                        <td>中国东部数据中心 , 中国北部数据中心</td>
-                    </tr>
-                </table> -->
-                
-            <div class="pricing-page-section">
-                <h2>Support &amp; SLA</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="stream-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-				<p>We guarantee that availability of the stream analytics API is at least 99.9%.</p>
-				<p>We guarantee that the deployed stream analytics operation will process data 99.9% of the time.</p>
-				<p>To learn more about the details about our Service Level Agreement, please visit the <a href="/support/sla/stream-analytics/" id="pricing_stream_sla">Service Level Agreements</a> page.</p>
-            </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                    
+        </div>
+        <!-- <div class="pricing-page-section"><h2>上市地区</h2><p>流分析服务在以下区域中提供：</p><table cellpadding="0" cellspacing="0" class="table-col6"><tr><th align="left"><strong>地域</strong></th><th align="left"><strong>区域</strong></th></tr><tr><td>中国大陆</td><td>中国东部数据中心 , 中国北部数据中心</td></tr></table> -->
+        <div class="pricing-page-section">
+            <h2>Support &amp; SLA</h2>
+            <p>If you have any questions or need help, please visit <a href="/support/contact/" id="stream-contact-page">Azure Support</a> and select self-service or any other method to contact us for support.
+            </p>
+            <p>We guarantee that availability of the stream analytics API is at least 99.9%.</p>
+            <p>We guarantee that the deployed stream analytics operation will process data 99.9% of the time.</p>
+            <p>For more details about our Service Level Agreement, please visit the <a href="/support/sla/stream-analytics/" id="pricing_stream_sla">Service Level Agreements</a> page.
+            </p>
+        </div>
+        <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" /> <!--END: Support and service code chunk-->                                                                                    
     
     ]]></bodyText>
     <pageTitle>Azure Stream Analytics Service Pricing - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-stream-analytics</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Stream Analysis, price, data processing, analysis service, stream processing and 1RMB Trial</metaKeywords>
-    <metaDescription><![CDATA[Learn about the pricing details of Azure Stream Analytics. Azure Stream Analytics is a real-time cloud service for data analysis. Stream Analytics is priced by the amount of data processed and the number of stream processing units for processing. A 1 RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
+    <metaDescription><![CDATA[
+        Learn about the pricing details of Azure Stream Analytics. Azure Stream Analytics is a real-time cloud service for data analysis. Stream Analytics is priced by the amount of data processed and the number of stream processing units for processing. A 1 RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.
+    ]]></metaDescription>
     <urlDisplayName>Pricing Details - Stream Analytics</urlDisplayName>
-  </TextpageLeftNav>
-</localize>
+</TextpageLeftNav>undefined</localize>

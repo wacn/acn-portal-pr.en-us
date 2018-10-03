@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2018-09-11T14:00:00" updateDate="2018-09-11T14:00:00" urlName="iot-edge" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="iot-edge" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home_features_iot-edge_slice.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/IoT%20Edge_icon.svg"/>
+                        <h2><span>Azure IoT Edge</span></h2>
+                        <h4>Extend cloud intelligence and analytics to edge devices</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_iot-edge_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-edge_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <p>Extend cloud intelligence and analytics to edge devices: Azure IoT Edge is a fully managed service that delivers cloud intelligence locally by deploying and running Artificial Intelligence (AI), Azure services, and custom logic directly on cross-platform IoT devices. Run your IoT solution securely and at scale, whether in the cloud or offline.</p>
+                <h1>Build the intelligent edge</h1>
+                <p>The Internet of Things is the convergence of Artificial Intelligence, the cloud, and edge computing. Containerize cloud workloads such as Azure Cognitive Services, Stream Analytics, and Functions, and run them locally on various devices (from a Raspberry Pi to an industrial gateway) using Azure IoT Edge. Manage edge applications and devices with Azure IoT Hub, scaled to support your solutions running in the cloud or in private environments, such as Azure Stack.</p>
+            </div>
+            <div class="pricing-page-section">
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/iot-edge-01.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Respond in near-real time</h2>
+                        <p>Most data becomes useless soon after it is generated, so having the lowest latency possible between data and decision-making is critical. IoT Edge optimizes performance between edge devices and the cloud while ensuring management, security, and scale.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/iot-edge-02.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Secure the intelligent edge</h2>
+                        <p>Intelligent edge devices face security threats ranging from physical tampering to IP hacking. Designed for increased security, IoT Edge scales to different risk scenarios and deployment solution, and provides the same protection that you’d expect from all Azure services.</p>
+                        <p>Learn more about the <a href="https://docs.azure.cn/iot-edge/security">edge security framework</a>.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/iot-edge-03.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Deploy AI and analytics to the edge</h2>
+                        <p>IoT Edge can be used to deploy complex event processing, image recognition, and other high-value artificial intelligence without having to write code in-house. Run Azure services such as Functions and Stream Analytics on-premises. Create AI modules and make them available to the community.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/iot-edge-04.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Reduce IoT solution costs</h2>
+                        <p>Only a small fraction of IoT data acquired is useful for follow-up analysis. Use services such as Azure Stream Analytics or trained models to process the data locally and send only what’s needed to the cloud for further analysis. This avoids the costs incurred by sending all your data to the cloud while ensuring high-quality data.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/iot-edge-05.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Simplify development</h2>
+                        <p>IoT Edge uses the same programming model as other Azure IoT services. For example, the same code can be run on a device or in the cloud. IoT Edge supports operating systems such as Linux and Windows, and languages such as Java, .NET Core 2.0, Node.js, C, and Python, so you can code in a language you know and use existing business logic without having to write it from scratch.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/iot-edge-06.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Operate offline or with intermittent connectivity</h2>
+                        <p>With IoT Edge, your edge devices operate reliably and securely even when they’re offline or only have intermittent connectivity to the cloud. Azure IoT device management will automatically sync the latest state of devices after they’ve reconnected to ensure seamless operation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-page-section">
+                
+                <h1>Deploy these services using IoT Edge</h1>
+                <table width="100%">
+                    <tr>
+                        <th align="left">
+                            <strong>Do you want to...</strong>
+                        </th>
+                        <th align="left">
+                            <strong>Use</strong>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Process real-time streaming data</td>
+                        <td><a href="https://docs.azure.cn/iot-edge/tutorial-deploy-stream-analytics">Stream Analytics</a></td>
+                    </tr>
+                    <tr>
+                        <td>Process events using serverless code</td>
+                        <td><a href="https://docs.azure.cn/iot-edge/tutorial-deploy-function">Functions</a></td>
+                    </tr>
+                    <tr>
+                        <td>Deploy an SQL Server database to the edge</td>
+                        <td><a href="https://docs.azure.cn/iot-edge/tutorial-store-data-sql-server">SQL Server databases</a></td>
+                    </tr>
+                    <tr>
+                        <td>Build custom logic </td>
+                        <td><a href="https://docs.azure.cn/iot-edge/tutorial-csharp-module">Custom module</a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <div class="pricing-page-section link-group-container">
+                <h1>Learn more</h1>
+                <ul>
+                    <li><a id="home_virtual_centre" href="https://docs.azure.cn/zh-cn/iot-edge/about-iot-edge" target="_blank">What is Azure IoT Edge?</a></li>
+                </ul>
+				<ul>
+                    <li><a id="home_virtual_centre" href="https://docs.azure.cn/zh-cn/iot-edge/quickstart-linux" target="_blank">Quick Start: Deploy the first IoT Edge module to a Linux x64 device</a></li>
+                </ul>
+				<ul>
+                    <li><a id="home_virtual_centre" href="https://docs.azure.cn/zh-cn/iot-edge/quickstart" target="_blank">Quick Start: Deploy the first IoT Edge module from the Azure portal to a Windows device – Preview</a></li>
+                </ul>			
+				
+            </div>
+            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" "/> <!--END: Support and service code chunk-->              
+    
+    ]]></bodyText>
+    <pageTitle>Azure IoT Edge_IoT Internet of Things – Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-iot-edge</linkid>
+    <metaKeywords>Azure, Microsoft Cloud, Azure IoT Edge, IoT</metaKeywords>
+    <metaDescription><![CDATA[Connect cloud intelligence to edge devices using Azure IoT Edge. Azure IoT Edge is a comprehensive service that deploys artificial intelligence and custom logic to all IoT devices.]]></metaDescription>
+    <urlDisplayName>Azure IoT Edge</urlDisplayName>
+  </TextpageLeftNav>
+</localize>
