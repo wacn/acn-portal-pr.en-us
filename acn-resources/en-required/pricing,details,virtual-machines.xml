@@ -915,7 +915,7 @@
 										<td>￥ 12.84/hour
 											<br />(about ￥ 9,552.96/month)</td>
 									</tr>
-                  <tr>
+                  					<tr>
 										<td>E20 v3</td>
 										<td>20</td>
 										<td>160.00 GiB</td>
@@ -998,7 +998,7 @@
 										<td>￥ 12.84/hour
 											<br />(about ￥ 9,552.96/month)</td>
 									</tr>
-                  <tr>
+                  					<tr>
 										<td>E20s v3</td>
 										<td>20</td>
 										<td>160.00 GiB</td>
@@ -1228,6 +1228,120 @@
 										<td>140 GiB</td>
 										<td>280 GiB</td>
 										<td>￥ 18.79/hour<br />(about ￥ 13,979.76/month)</td>
+									</tr>
+								</table>
+
+								<h3>M-series</h3>
+								<p>M-series virtual machines are hyper-threaded and feature <b>Intel® Xeon® E7-8890 v3 2.5 GHz (Haswell) processors</b>. The M-series offers up to 128 cores and 3.8 TiB of memory, providing unprecedented compute services to support large in-memory workloads.</p>
+								<p>M-series virtual machines of any size can use standard and premium persistent disks. Pricing and billing rates for Ms sizes are the same as for the M-series.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br/>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table1-3-6">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
+									</tr>
+									<tr>
+										<td>M32ls</td>
+										<td>32</td>
+										<td>256 GiB</td>
+										<td>1,000 GiB</td>
+										<td>¥ 33.02/hour
+											<br />(about ¥ 24,566.88/month)</td>
+									</tr>
+									<tr>
+										<td>M64ls</td>
+										<td>64</td>
+										<td>512 GiB</td>
+										<td>2,000 GiB</td>
+										<td>¥ 63.33/hour
+											<br />(about ¥ 47,117.52/month)</td>
+									</tr>
+									<tr>
+										<td>M8ms</td>
+										<td>8</td>
+										<td>219 GiB</td>
+										<td>250 GiB</td>
+										<td>¥ 17.42/hour
+											<br />(about ¥ 12,960.48/month)</td>
+									</tr>
+									<tr>
+										<td>M16ms</td>
+										<td>16</td>
+										<td>438 GiB</td>
+										<td>500 GiB</td>
+										<td>¥ 34.73/hour
+											<br />(about ¥ 25,839.12/month)</td>
+									</tr>
+									<tr>
+										<td>M32ms</td>
+										<td>32</td>
+										<td>875 GiB</td>
+										<td>1,000 GiB</td>
+										<td>¥ 69.56/hour
+											<br />(about ¥ 51,752.64/month)</td>
+									</tr>
+									<tr>
+										<td>M64ms</td>
+										<td>64</td>
+										<td>1,792 GiB</td>
+										<td>2,000 GiB</td>
+										<td>¥ 119.94/hour
+											<br />(about ¥ 89,235.36/month)</td>
+									</tr>
+									<tr>
+										<td>M128ms</td>
+										<td>128</td>
+										<td>3,892 GiB</td>
+										<td>4,000 GiB</td>
+										<td>¥ 298.71/hour
+											<br />(about ¥ 222,240.24/month)</td>
+									</tr>
+									<!-- <tr>
+										<td>M16s</td>
+										<td>***</td>
+										<td>*** GiB</td>
+										<td>*** GiB</td>
+										<td>￥28.05/小时
+											<br />( 约 ￥20869.2/月 )</td>
+									</tr>
+									<tr>
+										<td>M32s</td>
+										<td>***</td>
+										<td>*** GiB</td>
+										<td>*** GiB</td>
+										<td>￥42.02/小时
+											<br />( 约 ￥31262.88/月 )</td>
+									</tr> -->
+									<tr>
+										<td>M64s</td>
+										<td>64</td>
+										<td>1,024 GiB</td>
+										<td>2,000 GiB</td>
+										<td>¥ 84.03/hour
+											<br />(about ¥ 62,518.32/month)</td>
+									</tr>
+									<tr>
+										<td>M128s</td>
+										<td>128</td>
+										<td>2,048 GiB</td>
+										<td>4,000 GiB</td>
+										<td>¥ 168.08/hour
+											<br />(about ¥ 125,051.52/month)</td>
+									</tr>
+									<tr>
+										<td>M32ts</td>
+										<td>32</td>
+										<td>192 GiB</td>
+										<td>1,000 GiB</td>
+										<td>¥ 31.71/hour
+											<br />(about ¥ 23,592.24/month)</td>
 									</tr>
 								</table>
 								
@@ -1906,7 +2020,6 @@
 										<td>￥ 8.17/hour<br />(about ￥ 6,078.48/month)</td>
 									</tr>
 								</table>
-								
 							</div>
 							<!-- END: Tab level 2 content 2-1--> <!-- BEGIN: Tab level 2 content 2-2 -->
 							<div class="tab-panel" id="tabContent2-2">
@@ -2093,7 +2206,7 @@
 										<td>￥ 11.67/hour
 											<br />(about ￥ 8,682.48/month)</td>
 									</tr>
-                  <tr>
+                 					<tr>
 										<td>E20 v3</td>
 										<td>20</td>
 										<td>160.00 GiB</td>
@@ -2175,7 +2288,7 @@
 										<td>￥ 11.67/hour
 											<br />(about ￥ 8,682.48/month)</td>
 									</tr>
-                  <tr>
+                  					<tr>
 										<td>E20s v3</td>
 										<td>20</td>
 										<td>160.00 GiB</td>
@@ -2407,6 +2520,119 @@
 										<td>￥ 17.29/hour<br />(about ￥ 12,863.76/month)</td>
 									</tr>
 								</table>
+								<!-- <h3>M 系列 </h3>
+								<p>M 系列虚拟机为超线程机，配有 <b>Intel® Xeon® E7-8890 v3 2.5GHz (Haswell)</b> 处理器。M 系列配有多达 128 个内核和 3.8 TiB 内存，提供前所未有的计算性能，可支持大型内存中工作负荷。</p>
+								<p>任意大小的 M 系列虚拟机均可使用标准和高级永久性磁盘。Ms 大小的定价和计费标准与 M 系列相同。</p>
+								<div class="tags-date">
+									<div class="ms-date">*以下价格均为含税价格。</div>
+									<br />
+									<div class="ms-date">*每月价格估算基于每个月 744 小时的使用量。</div>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table2-3-6">
+									<tr>
+										<th align="left"><strong>实例</strong></th>
+										<th align="left"><strong>内核数</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>临时存储</strong></th>
+										<th align="left"><strong>价格</strong></th>
+									</tr>
+									<tr>
+										<td>M32ls</td>
+										<td>32</td>
+										<td>256 GiB</td>
+										<td>1,000 GiB</td>
+										<td>￥23.66/小时
+											<br />( 约 ￥17603.04/月 )</td>
+									</tr>
+									<tr>
+										<td>M64ls</td>
+										<td>64</td>
+										<td>512 GiB</td>
+										<td>2,000 GiB</td>
+										<td>￥44.6/小时
+											<br />( 约 ￥33182.4/月 )</td>
+									</tr>
+									<tr>
+										<td>M8ms</td>
+										<td>8</td>
+										<td>219 GiB</td>
+										<td>250 GiB</td>
+										<td>￥15.07/小时
+											<br />( 约 ￥11212.08/月 )</td>
+									</tr>
+									<tr>
+										<td>M16ms</td>
+										<td>16</td>
+										<td>438 GiB</td>
+										<td>500 GiB</td>
+										<td>￥30.5/小时
+											<br />( 约 ￥22357.2/月 )</td>
+									</tr>
+									<tr>
+										<td>M32ms</td>
+										<td>32</td>
+										<td>875 GiB</td>
+										<td>1,000 GiB</td>
+										<td>￥60.2/小时
+											<br />( 约 ￥44788.8/月 )</td>
+									</tr>
+									<tr>
+										<td>M64ms</td>
+										<td>64</td>
+										<td>1792 GiB</td>
+										<td>2,000 GiB</td>
+										<td>￥101.22/小时
+											<br />( 约 ￥75307.68/月 )</td>
+									</tr>
+									<tr>
+										<td>M128ms</td>
+										<td>128</td>
+										<td>3,892 GiB</td>
+										<td>4,000 GiB</td>
+										<td>￥261.26/小时
+											<br />( 约 ￥194377.44/月 )</td>
+									</tr>
+									<!-- <tr>
+										<td>M16s</td>
+										<td>***</td>
+										<td>*** GiB</td>
+										<td>*** GiB</td>
+										<td>￥23.37/小时
+											<br />( 约 ￥17387.28/月 )</td>
+									</tr>
+									<tr>
+										<td>M32s</td>
+										<td>***</td>
+										<td>*** GiB</td>
+										<td>*** GiB</td>
+										<td>￥32.66/小时
+											<br />( 约 ￥24299.04/月 )</td>
+									</tr> -->
+									<tr>
+										<td>M64s</td>
+										<td>64</td>
+										<td>1,024 GiB</td>
+										<td>2,000 GiB</td>
+										<td>¥ 65.31/hour
+											<br />(about ¥ 48,590.64/month)</td>
+									</tr>
+									<tr>
+										<td>M128s</td>
+										<td>128</td>
+										<td>2,048 GiB</td>
+										<td>4,000 GiB</td>
+										<td>¥ 130.63/hour
+											<br />(about ¥ 97,188.72/month)</td>
+									</tr>
+									<tr>
+										<td>M32ts</td>
+										<td>32</td>
+										<td>192 GiB</td>
+										<td>1,000 GiB</td>
+										<td>¥ 22.34/hour
+											<br />(about ¥ 16,620.96/month)</td>
+									</tr>
+								</table> -->
 							</div>
 							<!-- END: Tab level 2 content 2-3--> <!-- BEGIN: Tab level 2 content 2-4 -->
 							<div class="tab-panel" id="tabContent2-4">
@@ -2682,54 +2908,54 @@
 										<td>1</td>
 										<td>1.00 GiB</td>
 										<td>2 GiB</td>
-										<td>¥ 0.238/hour<br />(about ¥ 177.072/month)</td>
-										<td>¥ 2.778/hour<br />(about ¥ 2,066.832/month)</td>
-										<td>¥ 10.448/hour<br />(about ¥ 7,773.312/month)</td>
+										<td>￥ 0.39/hour<br />(about ￥ 290.16/month)</td>
+										<td>￥ 2.93/hour<br />(about ￥ 2,179.92/month)</td>
+										<td>￥ 10.60/hour<br />(about ￥ 7,886.40/month)</td>
 									</tr>
 									<tr>
 										<td>B2S</td>
 										<td>2</td>
 										<td>4.00 GiB</td>
 										<td>8 GiB</td>
-										<td>¥ 0.286/hour<br />(about ¥ 212.784/month)</td>
-										<td>¥ 2.826/hour<br />(about ¥ 2,102.544/month)</td>
-										<td>¥ 10.496/hour<br />(about ¥ 7,809.024/month)</td>
+										<td>￥ 0.88/hour<br />(about ￥ 654.72/month)</td>
+										<td>￥ 3.42/hour<br />(about ￥ 2,544.48/month)</td>
+										<td>￥ 11.09/hour<br />(about ￥ 8,250.96/month)</td>
 									</tr>
 									<tr>
 										<td>B1MS</td>
 										<td>1</td>
 										<td>2.00 GiB</td>
 										<td>4 GiB</td>
-										<td>¥ 0.252/hour<br />(about ¥ 187.488/month)</td>
-										<td>¥ 2.792/hour<br />(about ¥ 2,077.248/month)</td>
-										<td>¥ 10.462/hour<br />(about ¥ 7,783.728/month)</td>
+										<td>￥ 0.50/hour<br />(about ￥ 372.00/month)</td>
+										<td>￥ 3.04/hour<br />(about ￥ 2,261.76/month)</td>
+										<td>￥ 10.71/hour<br />(about ￥ 7,968.24/month)</td>
 									</tr>
 									<tr>
 										<td>B2MS</td>
 										<td>2</td>
 										<td>8.00 GiB</td>
 										<td>16 GiB</td>
-										<td>¥ 0.342/hour<br />(about ¥ 254.448/month)</td>
-										<td>¥ 2.882/hour<br />(about ¥ 2,144.208/month)</td>
-										<td>¥ 10.552/hour<br />(about ¥ 7,850.688/month)</td>
+										<td>￥ 1.34/hour<br />(about ￥ 996.96/month)</td>
+										<td>￥ 3.88/hour<br />(about ￥ 2,886.72/month)</td>
+										<td>￥ 11.55/hour<br />(about ￥ 8,593.20/month)</td>
 									</tr>
 									<tr>
 										<td>B4MS</td>
 										<td>4</td>
 										<td>16.00 GiB</td>
 										<td>32 GiB</td>
-										<td>￥ 0.45/hour<br />(about ¥ 334.8/month)</td>
-										<td>￥ 2.99/hour<br />(about ¥ 2,224.56/month)</td>
-										<td>￥ 10.66/hour<br />(about ¥ 7,931.04/month)</td>
+										<td>￥ 2.45/hour<br />(about ￥ 1,822.80/month)</td>
+										<td>￥ 4.99/hour<br />(about ￥ 3,712.56/month)</td>
+										<td>￥ 12.66/hour<br />(about ￥ 9,419.04/month)</td>
 									</tr>
 									<tr>
 										<td>B8MS</td>
 										<td>8</td>
 										<td>32.00 GiB</td>
 										<td>64 GiB</td>
-										<td>￥ 0.888/hour<br />(about ¥ 660.672/month)</td>
-										<td>￥ 5.948/hour<br />(about ¥ 4,425.312/month)</td>
-										<td>￥ 21.288/hour<br />(about ¥ 15,838.272/month)</td>
+										<td>￥ 4.68/hour<br />(about ￥ 3,481.92/month)</td>
+										<td>￥ 7.22/hour<br />(about ￥ 5,371.68/month)</td>
+										<td>￥ 14.89/hour<br />(about ￥ 111,078.16/month)</td>
 									</tr>
 								</table>
 								<h3>Av2 Standard</h3>			
