@@ -145,6 +145,10 @@
                                 <td>Locally redundant GB/month</td>
                                 <td>¥0.7938</td>
                             </tr>
+                            <tr>
+                                <td>Geo-redundant GB/month</td>
+                                <td>¥1.5875</td>
+                            </tr>
                         </table>
                         <h2>I/O</h2>
                         <table cellpadding="0" cellspacing="0" width="100%">
@@ -153,7 +157,7 @@
                                 <th align="left"><strong>Pricing</strong></th>
                             </tr>
                             <tr>
-                                <td>GB/month</td>
+                                <td>1 million operations</td>
                                 <td>¥0.7938</td>
                             </tr>
                         </table>
@@ -250,7 +254,6 @@
                                 <td>¥1.5875</td>
                             </tr>
                         </table>
-                        <p>Limited-time promotion: No Backup Storage fees will be charged until August 1, 2018.</p>
                     </div>
                     <!-- END: TAB-CONTAINER-2 --> <!-- BEGIN: TAB-CONTAINER-3 -->
                     <div class="tab-panel" id="tabContent3">
@@ -334,7 +337,6 @@
                                 <td>¥1.5875</td>
                             </tr>
                         </table>
-                        <p>Limited-time promotion: No Backup Storage fees will be charged until August 1, 2018.</p>
                     </div>
                     <!-- END: TAB-CONTAINER-3 -->
                 </div>
@@ -359,7 +361,6 @@
                                 <a id="pricing_mysql_question2">How is the bill calculated?</a>
                                 <section>
                                     <p>For all tiers, the service is billed on a predictable, hourly rate based on the pricing tier, provisioned compute in vCore, as well as storage (GB/month) provisioned for servers and backups. vCore hours, storage (GB/month) of servers and storage (GB/month) of backups are itemized separately on the bill.</p>
-                                    <p>In addition, starting September 1, 2018, you will also be billed for the number of I/Os used per month.</p>
                                 </section>
 
                             </div>
@@ -377,16 +378,6 @@
                                     </ul>
                                 </section>
  
-                            </div>
-                        </li>
-                        <li>
-                            <i class="icon icon-plus"></i>
-                            <div>
-                                <a id="pricing_mysql_question4">Do I need to bear any network data transfer costs?</a>
-                                <section>
-                                    <p>Starting from July 1, 2018, network data egress will be charged based on standard rates. For details, please see <a href="/pricing/details/data-transfer/">here</a>.</p>
-                                </section>
-
                             </div>
                         </li>
                         <li>
