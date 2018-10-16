@@ -1,0 +1,55 @@
+{"service": "Logic Apps", 
+"id": "leftnav_product_logic-apps", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_logic-apps_details", 
+	"articles": 
+		[
+			{"link": "/home/features/logic-apps/", 
+			"id": "leftnav_product_logic-apps_function", 
+			"title": "Product overview"}, 
+			{"link": "/pricing/details/logic-apps/", 
+			"id": "leftnav_product_logic-apps_pricing", 
+			"title": "Pricing details"},
+			{"link": "/pricing/calculator/logic-apps/", 
+			"id": "leftnav_product_logic-apps_calculator", 
+			"title": "Pricing calculator"},
+			{"link": "https://docs.azure.cn/logic-apps/", 
+			"id": "leftnav_product_logic-apps_documentation", 
+			"title": "Documentation"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_logic-apps_related", 
+	"articles": 
+		[
+			{"link": "/home/features/service-bus/", 
+			"id": "leftnav_product_service-bus_function", 
+			"title": "Service Bus"},
+			{"link": "/home/features/api-management/", 
+			"id": "leftnav_product_api-management_function", 
+			"title": "API Management"}		
+		]
+	}, 
+	{"group": "Related Documentation and Links", 
+	"id": "leftnav_product_logic-apps_others", 
+	"articles": 
+		[
+			
+			{"link": "//docs.azure.cn/zh-cn/logic-apps/logic-apps-overview/", 
+			"id": "leftnav_product_logic-apps-overview", 
+			"title": "What is an Azure Logic Apps?"},
+			{"link": "//docs.azure.cn/zh-cn/connectors/apis-list/", 
+			"id": "leftnav_product_logic-apps-apis-list", 
+			"title": "Connector for Azure Logic Applications"},
+			{"link": "//docs.azure.cn/zh-cn/logic-apps/quickstart-create-first-logic-app-workflow/", 
+			"id": "leftnav_product_logic-apps-quickstart-create-first-logic-app-workflow", 
+			"title": "Quick Start: Creating the first automated workflow with Azure Logic Applications"},
+			{"link": "//docs.azure.cn/zh-cn/logic-apps/logic-apps-control-flow-conditional-statement/", 
+			"id": "leftnav_product_logic-apps-control-flow-conditional-statement", 
+			"title": "Create conditional statements that control workflow actions in Azure Logic applications"}		
+		]
+	}
+]
+}
