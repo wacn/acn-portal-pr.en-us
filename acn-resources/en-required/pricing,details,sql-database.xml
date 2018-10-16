@@ -596,11 +596,11 @@
                                     </tr>
                                     <tr>
                                         <td>Standard</td>
-                                        <td>￥ 0.5406/month</td>
+                                        <td>¥0.5406/GB/month</td>
                                     </tr>
                                     <tr>
-                                        <td>Premium level and advanced RS</td>
-                                        <td>¥ 1.0812/month</td>
+                                        <td>Premium level and Premium RS</td>
+                                        <td>¥1.0812/GB/month</td>
                                     </tr>
                                 </table>
                                 <p>Extra storage only applies to the Standard and Premium service tiers.</p>
@@ -1048,11 +1048,11 @@
                                     </tr>
                                     <tr>
                                         <td>Standard</td>
-                                        <td>￥ 0.5406/month</td>
+                                        <td>¥0.5406/GB/month</td>
                                     </tr>
                                     <tr>
-                                        <td>Premium level and advanced RS</td>
-                                        <td>¥ 1.0812/month</td>
+                                        <td>Premium level and Premium RS</td>
+                                        <td>¥1.0812/GB/month</td>
                                     </tr>
                                 </table>
                                 <p>Extra storage only applies to the Standard and Premium service tiers.</p>
@@ -1086,6 +1086,13 @@
                 <p>Active Geo-replication can create up to 4 online (readable) secondary databases in any Azure region. The secondary database can be created using the same service level as the primary database, with some potential differences in performance. The secondary database is priced at 1 times the price of the selected performance level. The traffic costs arising from Geo-replication between the primary and secondary databases are included in the costs of the online secondary database.</p>
                 
                 <!-- END: Table5-Content-->
+            </div>
+            <div>
+                <!-- BEGIN: Table6-Content-->
+                <h3>Advanced Threat Protection (Preview)</h3>
+                <p>SQL Advanced Threat Protection (ATP) is free during the preview period. See <a href="https://docs.azure.cn/zh-cn/sql-database/sql-advanced-threat-protection" target="_blank">Advanced Threat Protection for Azure SQL Database</a> for more information.</p>
+                
+                <!-- END: Table6-Content-->
             </div>
             <div class="pricing-page-section">
                 <div class="more-detail">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="5" createDate="2018-06-25T12:00:00" updateDate="2018-07-24T12:00:00" urlName="mysql" writerName="content" creatorName="content">
+  <TextpageLeftNav template="5" createDate="2018-06-25T12:00:00" updateDate="2018-09-11T11:00:00" urlName="mysql" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
       <style type="text/css">
@@ -97,7 +97,7 @@
 >>>>>>> master
                         <h2>Compute</h2>
                         <p>Compute is provisioned in virtual core (vCore). A vCore represents a logical CPU offered with an option to choose between compute generations.</p>
-                        <h4>Compute Gen 4</h4>
+                        <h4>Gen 4 (Fourth Generation Compute)</h4>
                         <p>Gen 4 logical CPUs are based on Intel E5-2673 v3 (Haswell) 2.4 GHz processors.</p>
                         <table cellpadding="0" cellspacing="0" width="100%">
                             <tr>
@@ -113,7 +113,7 @@
                                 <td>¥0.5398/hour<br/>(~¥401.6112/month)</td>
                             </tr>
                         </table>
-                        <h4>Compute Gen 5</h4>
+                        <h4>Gen 5 (Fifth Generation Compute)</h4>
                             <p>Gen 5 logical CPUs are based on Intel E5-2673 v4 (Broadwell) 2.3 GHz processors.</p>
                             <table cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
@@ -157,6 +157,10 @@
                                 <td>Locally redundant GB/month</td>
                                 <td>¥0.7938</td>
                             </tr>
+                            <tr>
+                                <td>Geo-redundant GB/month</td>
+                                <td>¥1.5875</td>
+                            </tr>
                         </table>
                         <h2>I/O</h2>
                         <table cellpadding="0" cellspacing="0" width="100%">
@@ -165,7 +169,7 @@
                                 <th align="left"><strong>Pricing</strong></th>
                             </tr>
                             <tr>
-                                <td>GB/month</td>
+                                <td>1 million operations</td>
                                 <td>¥0.7938</td>
                             </tr>
                         </table>
@@ -177,7 +181,7 @@
                         <p>Most business workloads require balanced compute, memory and scalable I/O throughput.</p>
                         <h2>Compute</h2>
                         <p>Compute is provisioned in virtual core (vCore). A vCore represents a logical CPU offered with an option to choose between compute generations.</p>
-                        <h4>Compute Gen 4</h4>
+                        <h4>Gen 4 (Fourth Generation Compute)</h4>
                         <p>Gen 4 logical CPUs are based on Intel E5-2673 v3 (Haswell) 2.4 GHz processors.</p>
                         <table cellpadding="0" cellspacing="0" width="100%">
                             <tr>
@@ -190,7 +194,7 @@
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td>¥1.3352/hour<br/>(~¥401.6112/month)</td>
+                                <td>¥1.3352/hour<br/>(~¥993.3888/month)</td>
                             </tr>
                             <tr>
                                 <td>8</td>
@@ -205,7 +209,7 @@
                                 <td>¥10.6816/hour<br/>(~¥7,947.1104/month)</td>
                             </tr>
                         </table>
-                        <h4>Compute Gen 5</h4>
+                        <h4>Gen 5 (Fifth Generation Compute)</h4>
                             <p>Gen 5 logical CPUs are based on Intel E5-2673 v4 (Broadwell) 2.3 GHz processors.</p>
                             <table cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
@@ -218,7 +222,7 @@
                                 </tr>
                                 <tr>
                                     <td>4</td>
-                                    <td>¥1.3352/hour<br/>(~¥401.6112/month)</td>
+                                    <td>¥1.3352/hour<br/>(~¥993.3888/month)</td>
                                 </tr>
                                 <tr>
                                     <td>8</td>
@@ -267,6 +271,7 @@
                             </tr>
                         </table>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <p>Limited-time promotion: Backup Storage will not be charged until August 1, 2018.</p>
                     </div>
                     <!-- END: TAB-CONTAINER-2 --> <!-- BEGIN: TAB-CONTAINER-3 -->
@@ -274,6 +279,8 @@
                         <p>Workloads of high-performance database require in-memory performance to achieve faster transaction processing and higher concurrency.</p>
 =======
                         <p>Limited-time promotion: No Backup Storage fees will be charged until August 1, 2018.</p>
+=======
+>>>>>>> master
                     </div>
                     <!-- END: TAB-CONTAINER-2 --> <!-- BEGIN: TAB-CONTAINER-3 -->
                     <div class="tab-panel" id="tabContent3">
@@ -281,8 +288,8 @@
 >>>>>>> master
                         <h2>Compute</h2>
                         <p>Compute is provisioned in virtual core (vCore). A vCore represents a logical CPU offered with an option to choose between compute generations.</p>
-                        <!-- <h4>计算生成 4</h4>
-                        <p>生成 4 逻辑 CPU 基于 Intel E5-2673 v3 (Haswell) 2.4 GHz 处理器。</p>
+                        <!-- <h4>Gen 4（第四代计算）</h4>
+                        <p>第四代逻辑 CPU 基于 Intel E5-2673 v3 (Haswell) 2.4 GHz 处理器。</p>
                         <table cellpadding="0" cellspacing="0" width="100%">
                             <tr>
                                 <th align="left"><strong>vCore</strong></th>
@@ -305,7 +312,7 @@
                                 <td>¥14.9984/小时<br/>（~¥11158.8096/月）</td>
                             </tr>
                         </table> -->
-                        <h4>Compute Gen 5</h4>
+                        <h4>Gen 5 (Fifth Generation Compute)</h4>
                         <p>Gen 5 logical CPUs are based on Intel E5-2673 v4 (Broadwell) 2.3 GHz processors.</p>
                         <table cellpadding="0" cellspacing="0" width="100%">
                             <tr>
@@ -363,9 +370,12 @@
                             </tr>
                         </table>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <p>Limited-time promotion: Backup Storage will not be charged until August 1, 2018.</p>
 =======
                         <p>Limited-time promotion: No Backup Storage fees will be charged until August 1, 2018.</p>
+>>>>>>> master
+=======
 >>>>>>> master
                     </div>
                     <!-- END: TAB-CONTAINER-3 -->
@@ -396,9 +406,12 @@
                                 <section>
                                     <p>For all tiers, the service is billed on a predictable, hourly rate based on the pricing tier, provisioned compute in vCore, as well as storage (GB/month) provisioned for servers and backups. vCore hours, storage (GB/month) of servers and storage (GB/month) of backups are itemized separately on the bill.</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <p>In addition, you will also be billed for number of I/Os used per month starting from September 1, 2018.</p>
 =======
                                     <p>In addition, starting September 1, 2018, you will also be billed for the number of I/Os used per month.</p>
+>>>>>>> master
+=======
 >>>>>>> master
                                 </section>
 
@@ -417,16 +430,6 @@
                                     </ul>
                                 </section>
  
-                            </div>
-                        </li>
-                        <li>
-                            <i class="icon icon-plus"></i>
-                            <div>
-                                <a id="pricing_mysql_question4">Do I need to bear any network data transfer costs?</a>
-                                <section>
-                                    <p>Starting from July 1, 2018, network data egress will be charged based on standard rates. For details, please see <a href="/pricing/details/data-transfer/">here</a>.</p>
-                                </section>
-
                             </div>
                         </li>
                         <li>

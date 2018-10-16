@@ -59,8 +59,14 @@
                     }
                 }
                 .column{
-                    height:210px;
+                    height:260px;
+					overflow: hidden;
                 }
+				@media only screen and (max-width: 979px){
+					.column{
+						height:auto;
+					}
+				}
             </style>
             <!-- BEGIN: Product-Detail-TopBanner -->
             <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/storage.png','imageHeight':'auto'}">
@@ -75,43 +81,43 @@
             </div>
             <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
             <div class="pricing-page-section">
-                <p>Azure provides a series of storage solution plans that can satisfy user needs for scale, functionality, and budget. From low-cost archive solutions to low-latency, high throughput Managed Disk products/services suitable for I/O-intensive apps, there is everything you need.</p>
+                <p>Azure provides a series of storage solution plans that can satisfy user needs in terms of scale, functionality, and budget. From low-cost archive solutions to low-latency, high throughput Premium Managed Disk products/services suitable for I/O-intensive apps, Azure has everything you need.</p>
                 <div class="cognitive-figure">
                     <div class="col-md-4 column">
                         <h2>Block Blob</h2>
                         <p>Scalable object storage for files, video, images, and non-structured and binary data. Provides options for hot, cold, and archive layers.</p>
                         <p>Free transactions available</p>
-                        <p><a href="/pricing/details/storage/blobs/">Check out the price</a></p>
+                        <p><a href="/pricing/details/storage/blobs/">See pricing</a></p>
                     </div>
                     <div class="col-md-4 column">
                         <h2>Page Blob</h2>
-                        <p>Page Blobs have been optimized for random read and write options. Page Blobs are well suited to scenarios where a random segment of a known address needs to be covered, for example, when storing index-based and sparse data structures.</p>
+                        <p>Page Blobs have been optimized for random read and write options. Page Blobs are well suited to scenarios where a random small segment of a known address needs to be overwritten, for example, when storing index-based and sparse data structures.</p>
                         <p>Free transactions available</p>
-                        <p><a href="/pricing/details/storage/page-blobs/">Check out the price</a></p>
+                        <p><a href="/pricing/details/storage/page-blobs/">See pricing</a></p>
                     </div>
                     <div class="col-md-4 column">
                         <h2>Managed Disk</h2>
-                        <p>Durable and secure disks that support scalable, uncomplicated virtual machine deployment. Possesses 99.999% availability. Choose advanced (SSD) disks that achieve low latency and high throughput.</p>
-                        <p>Starting at <strong>¥0.0044</strong>/10,000 transactions</p>
-                        <p><a href="/pricing/details/storage/managed-disks/">Check out the price</a></p>
+                        <p>Durable and secure disks that support scalable, simple virtual machine deployment. Possesses 99.999% availability. Choose advanced (SSD) disks that achieve low latency and high throughput.</p>
+                        <p>Starting at <strong>¥ 0.0044</strong>/10,000 transactions</p>
+                        <p><a href="/pricing/details/storage/managed-disks/">See pricing</a></p>
                     </div>
                     <div class="col-md-4 column">
                         <h2>Files</h2>
                         <p>Completely manage file sharing in the cloud through standard Server Message Blocks (SMB) protocol. Achieve file sharing between Windows API or REST API applications.</p>
-                        <p>Starting at ¥<strong>0.01</strong></p>
-                        <p><a href="/pricing/details/storage/files/">Check out the price</a></p>
+                        <p>Starting at ¥<strong> 0.01</strong></p>
+                        <p><a href="/pricing/details/storage/files/">See pricing</a></p>
                     </div>
                     <div class="col-md-4 column">
                         <h2>Queue</h2>
                         <p>Storage and retrieval of up to 64 KB messages. Using Storage requires asynchronous message processing.</p>
                        	<p>Free transactions available</p>
-                        <p><a href="/pricing/details/storage/queues/">Check out the price</a></p>
+                        <p><a href="/pricing/details/storage/queues/">See pricing</a></p>
                     </div>
                     <div class="col-md-4 column">
                         <h2>Table</h2>
                         <p>Table provides NoSQL storage for unstructured and semi-structured data. It is suitable for web applications, address books, and other user data.</p>
-                        <p>Starting at ¥<strong>0.02</strong></p>
-                        <p><a href="/pricing/details/storage/tables/">Check out the price</a></p>
+                        <p>Starting at ¥<strong> 0.02</strong></p>
+                        <p><a href="/pricing/details/storage/tables/">See pricing</a></p>
                     </div>
                 </div>
 
@@ -124,30 +130,30 @@
             	<h2>Data redundancy options</h2>
             	<table cellpadding="0" cellspacing="0" width="100%">
             		<tr>
-            			<th align="left"><strong>Locally Redundant Storage (LRS)</strong></th>
+            			<th align="left"><strong>Locally-redundant storage (LRS)</strong></th>
             			<th align="left">Will retain multiple copies of data in one data center. Offers object persistence of at least 99.999999999% (11 nines) in a given year.</th>
             		</tr>
             		<tr>
-            			<td><strong>Zone Redundant Storage (ZRS)</strong></td>
+            			<td><strong>Zone-redundant storage (ZRS)</strong></td>
             			<td>Will retain multiple copies of data in multiple data centers or regions. Offers object persistence of at least 99.9999999999% (12 nines) in a given year.</td>
             		</tr>
             		<tr>
             			<td><strong>Geo-Redundant Storage (GRS)</strong></td>
-            			<td>Will retain multiple copies of data in one region and an asynchronous copy in a second region. Provides object persistence of at least 99.99999999999999% (16 nines) in a given year.</td>
+            			<td>Will retain multiple copies of data in one region and an asynchronous copy in a second region. Offers object persistence of at least 99.99999999999999% (16 nines) in a given year.</td>
             		</tr>
             		<tr>
-            			<td><strong>Read-Access Geo-Redundant Storage (RA-GRS)</strong></td>
+            			<td><strong>Read-access geo-redundant storage (RA-GRS)</strong></td>
             			<td>Permits read access from a second GRS region. Provides object persistence of at least 99.99999999999999% （16 nines） and 99.99% reliability in a given year.</td>
             		</tr>
             	</table>
-            	<p>To learn more about the redundancy options and how to use these options to obtain high availability, please refer to the <a href="//docs.azure.cn/zh-cn/storage/common/storage-redundancy/">Azure Storage Space Replication Page</a>.</p>
+            	<p>To learn more about the redundancy options and how to use these options to obtain high availability, please refer to the <a href="//docs.azure.cn/zh-cn/storage/common/storage-redundancy/">Azure Storage Space Replication Page</a>. Please note that not all redundancy types are available for all storage types.</p>
             
             	<h2>Migrating data to Azure Storage</h2>
-            	<p>Using <a href="/pricing/details/storage-import-export/" id="pricing_storage_storage-import-export">Azure Import/Export</a> will send data to Azure Storage as a way to rapidly and cheaply move a hard-disk drive.</p>
+            	<p>Using <a href="/pricing/details/storage-import-export/" id="pricing_storage_storage-import-export">Azure Import/Export</a> will send data to Azure Storage. This is a way to rapidly and cheaply move a hard disk drive.</p>
 
             	<h2>Now available: General Purpose v2 storage account</h2>
-            	<p>Azure currently provides three kinds of storage accounts: General Purpose v2, General Purpose v1, and Blob Storage. Storage accounts that have decided to get special storage services and features will have a different price for each storage account. We suggest you carefully consult the price models to determine which is most suitable because the price differences of some of the workloads might be quite large.</p>
-            	<p>We generally recommend new customers use General Purpose v2 to access Tiered Storage and the newest file storage features. We recommend that only experienced customers use General Purpose v1 and Blob Storage accounts, but these customers already benefit from using GPv2. Learn more about <a href="//docs.azure.cn/zh-cn/storage/common/storage-account-options/">the advantages of different Storage accounts</a>.</p>
+            	<p>Azure currently provides three kinds of storage accounts: General Purpose v2, General Purpose v1, and Blob Storage. Storage accounts determine eligibility for specific storage services and features, and each storage account is priced differently. We suggest you carefully consult the price models to determine which is most suitable. Depending on the account type you are using, the differences between some workloads might be quite large.</p>
+            	<p>We generally recommend new customers use General Purpose v2 to access the newest file storage features, including Tiered Storage and Archive. We recommend that only experienced customers use General Purpose v1 and Blob Storage accounts, but these customers can also benefit from using GPv2. Learn more about <a href="//docs.azure.cn/zh-cn/storage/common/storage-account-options/">the advantages of different Storage accounts</a>.</p>
             </div>
             <div class="pricing-page-section">
 			    <div class="more-detail">
@@ -157,9 +163,9 @@
 			            <li>
 			                <i class="icon icon-plus"></i>
 			                <div>
-			                    <a id="Storage_question1">If we only use Azure Storage for a few days in a month, will we be charged proportionally?</a>
+			                    <a id="Storage_question1">If I only use Azure Storage for a few days a month, is the cost prorated?</a>
 			                    <section>
-			                        <p>Yes. Storage capacity is charged according to the daily average of data storage during a month (in GB). For example, if you consistently use 10 GB of storage space in the first half of the month and don’t use any storage space in the rest of the month, then the cost will be calculated according to the average of 5 GB of storage. However, if you use “Cold” (limited to GPv2 accounts) or “Archive,” the time periods are 30 and 180 days, which incur extra costs.</p>
+			                        <p>Yes. Storage capacity is charged according to the daily average of data storage during a month (in GB). For example, if you consistently use 10 GB of storage space in the first half of the month and don’t use any storage space in the rest of the month, then the cost will be calculated according to the average of 5 GB of storage. However, if you use the “Cool" (limited to GPv2 accounts) or “Archive” tier for less than 30 and 180 days, respectively, you will incur an additional charge.</p>
 			                    </section>
 
 			                </div>
@@ -169,7 +175,7 @@
 			                <div>
 			                    <a id="Storage_question2">How do I know which data redundancy option I am using (see the text above)? </a>
 			                    <section>
-			                        <p>You may select redundancy in creating storage accounts. After creation, you may view the redundancy by using the Azure portal or the Service Management API.</p>
+			                        <p>You may select redundancy while creating your storage account. After creation, you may view the redundancy by using the Azure portal or the Service Management API.</p>
 			                    </section>
 
 			                </div>
@@ -196,7 +202,7 @@
                 <h2>Support &amp; SLA</h2>
                 <p>If you have any questions or need help, please visit <a href="/support/contact/" id="storage-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
                 <p>We guarantee that we can successfully process data reading requests from an Read-access Redundant Storage (RA-GRS) account at least 99.99% of the time (99.9% for the Cool Access Tier), provided that we will retry in the secondary zone from the data writing failure from the primary zone.</p>
-                <p>We guarantee that we can successfully process data reading from Locally redundant storage (LRS) and Geo Redundant Storage (GRS) accounts at least 99.9% of the time (99% for the Cool Access Tier)</p>
+                <p>We guarantee that we can successfully process data reading from Locally redundant storage (LRS) and Geo Redundant Storage (GRS) accounts at least 99.9% of the time (99% for the Cool Access Tier).</p>
                 <p>We guarantee that we can successfully process data writing requests into Locally redundant storage (LRS) and geo-redundant storage (GRS) accounts and read and access Read-access Redundant Storage (RA-GRS) accounts at least 99.9% of the time (99% for the Cool Access Tier).</p>
                 <p>To learn more about the details of our Service Level Agreement, please visit the <a href="/support/sla/storage/" id="pricing_storage_sla">Service Level Agreements</a> page.</p>
                 <p>The Managed Disk itself doesn’t provide a Service Level Agreement with financial support. The availability of a Managed Disk depends on the Service Level Agreement governing the basic storage used and the Virtual Machine it’s attached to. To learn more about the details of the Service Level Agreements for the Managed Disk, please visit the <a href="/support/sla/managed-disks/">Managed Disk Service Level Agreements</a> page.</p>
