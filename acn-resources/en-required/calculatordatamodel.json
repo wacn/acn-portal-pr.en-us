@@ -6206,6 +6206,23 @@
                     }]
                 }]
                 }
+              ,
+                {
+                   "Name": "S60",
+                   "Features": [{
+                       "Name": "default",
+                       "PricePeriod": "PricePeriodEnum.Monthly",
+                       "PriceUnit": "Each",
+                       "MinUnit": "0",
+                       "MaxUnit": "20",
+                       "Sizes": [{
+                           "Name": "default",
+                           "Description": "Disk size 8TB",
+                           "PriceTier": "PriceTierEnum.Fixed",
+                           "PricePerTier": "2211.84"
+                       }]
+                   }]
+            }
             ]
         },          
 
@@ -14987,6 +15004,39 @@
                         "PricePerTier": "20.532"
                     }]
                 }
+                 ,
+                 {
+                     "Name": "NCsv3 Series",
+                     "Description": "NCsv3 Series",
+                     "PricePeriod": "PricePeriodEnum.Hourly",
+                     "PriceUnit": "Machine",
+                     "MinUnit": "0",
+                     "MaxUnit": "100",
+                     "Sizes": [{
+                         "Name": "NC6s v3",
+                         "Description": "6 cores, 112 GiB RAM, 336 GiB temporary storage",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "10.465"
+                     },
+                     {
+                         "Name": "NC12s v3",
+                         "Description": "12 cores, 224 GiB RAM, 672 GiB temporary storage",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "20.93"
+                     },
+                     {
+                         "Name": "NC24s v3",
+                         "Description": "24 cores, 448 GiB RAM, 1344 GiB temporary storage",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "41.86"
+                     },
+                     {
+                         "Name": "NC24rs v3",
+                         "Description": "24 cores, 448 GiB RAM, 1344 GiB temporary storage",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "46.0454"
+                     }]
+                 }
             ]
             },
             {
@@ -15063,6 +15113,39 @@
                         "PricePerTier": "9.332"
                     }]
                 }
+                 ,
+                 {
+                     "Name": "NCsv3 Series",
+                     "Description": "NCsv3 Series",
+                     "PricePeriod": "PricePeriodEnum.Hourly",
+                     "PriceUnit": "Machine",
+                     "MinUnit": "0",
+                     "MaxUnit": "100",
+                     "Sizes": [{
+                         "Name": "NC6s v3",
+                         "Description": "6 cores, 112 GiB RAM, 336 GiB temporary storage",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "4.6708"
+                     },
+                     {
+                         "Name": "NC12s v3",
+                         "Description": "12 cores, 224 GiB RAM, 672 GiB temporary storage",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "9.3416"
+                     },
+                     {
+                         "Name": "NC24s v3",
+                         "Description": "24 cores, 448 GiB RAM, 1344 GiB temporary storage",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "18.6831"
+                     },
+                     {
+                         "Name": "NC24rs v3",
+                         "Description": "24 cores, 448 GiB RAM, 1344 GiB temporary storage",
+                         "PriceTier": "PriceTierEnum.Fixed",
+                         "PricePerTier": "20.5515"
+                     }]
+                 }
             ]
             },
             {
@@ -15140,7 +15223,114 @@
                     }]
                 }]
             }]
+        },
+        "logic-apps": {
+            "Name": "Logic Apps",
+            "Types": [{
+                "Name": "Operation",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Logic Apps - Operation - Price per execution",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.000254"
+                    }]
+                }]
+            },
+            {
+                "Name": "Standard connector",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Logic Apps - Standard connector - Price per execution",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.001272"
+                    }]
+                }]
+            },
+            {
+                "Name": "Enterprise connector",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Logic Apps - Enterprise connector - Price per execution",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "0.010176"
+                    }]
+                }]
+            }]
+        },
+        "logic-apps-data-retention": {
+            "Name": "Logic Apps - Data retention",
+            "Types": [{
+                "Name": "Data retention",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Logic Apps - Data retention",
+                        "PriceTier": "0,10000",
+                        "PricePerTier": "1.2211",
+                        "MinUnit": "0",
+                        "MaxUnit": "2000",
+                        "PriceUnit": "GB"
+                    }]
+                }]
+            }]
+        },
+        "logic-apps-integration-account": {
+           "Name": "Logic Apps - Integration account",
+            "Types": [{
+                "Name": "Basic",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Logic Apps - Integration account - Basic",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "4.1049"
+                    }]
+                }]
+            },
+            {
+                "Name": "Standard",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Hourly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Logic Apps - Integration account - Standard",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "13.7163"
+                    }]
+                }]
+            }]
         }
-
     }
 }
