@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-08-22T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-10-18T11:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -216,6 +216,20 @@
                 </ul> -->
                 <h1>Product Update</h1>
                 <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a>
+                <h3>October 2018</h3>
+                <ul>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-october-logic-apps"><span>10/15</span>Release of Azure Logic Apps Preview <i class="icon icon-update"></i></a>
+							<section>
+								<p>Logic Apps helps you to quickly generate powerful integration solutions, connecting business-critical apps and services and automating workflows without writing any codes. You can connect apps, data, and devices anywhere - locally or in the cloud - with our large ecosystem of software as a service (SaaS) and cloud-based connectors that includes Salesforce, Office 365, Twitter, Dropbox, Google services, and more.</p>
+
+								<p>To learn more about this capability and pricing, please visit the <a href="/home/features/logic-apps/" id="service-fabric_year_2018-october_features-logic-apps">Logic Apps Feature</a> page and the <a href="/pricing/details/logic-apps/" id="service-fabric_year_2018-october_pricing-logic-apps">Logic Apps Pricing</a>page. For more details, please visit the <a href="//docs.azure.cn/zh-cn/logic-apps/" id="service-fabric_year_2018-october_documentation-logic-apps">Azure Logic Apps</a> page.</p></p>
+							</section>
+						</div>
+					</li>
+                </ul>
                 <h3>September 2018</h3>
                 <ul>
 					<li>
@@ -227,10 +241,35 @@
 							</section>
 						</div>
 					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-septemper-azure-backup"><span>September 18</span>Azure Backup is officially released in China East 2 and China North 2 data centers <i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Backup is a reliable, low-cost, and scalable solution, allowing for backup of local data onto the cloud. Without any capital investment, you can protect your key business data with the lowest operating expenses.</p>
+								<p>Azure Backup now enables backup of virtual machines on Azure through a few simple steps, and also permits placing the restore points on the cloud storage. Whenever necessary, you can respond from the restore points to meet various demands for protecting Azure Virtual Machines.</p>
+								<p>The Azure Backup is now officially released in the new data centers (China East 2 and China North 2). To learn more about this service and pricing, please visit <a href="/home/features/backup/">Azure Backup Service Feature </a>page and <a href="/pricing/details/backup/">Price Details </a>page. For more details, please visit <a href="//docs.azure.cn/zh-cn/backup/">Azure Backup Document </a>page.</p>
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-septemper-azure-site-recovery"><span>September 18</span> Azure Site Recovery is officially released in China East 2 and China North 2 data centers </a>
+							<section>
+								<p>Azure Site Recovery can help protect your major services by coordinating automatic copying and recovery of the private cloud at auxiliary positions. There are two major deployment choices.</p>
+								<ul>
+									<li>The Virtual Machine operated while Hyper-V and system center are used can be copied between two client sites. Azure Site Recovery can monitor the status and storage recovery plan of the application programs operated at home sites and execute the plan when necessary. When site interruptions happen at the main data center, Virtual Machine recovers as arranged so as to help rapidly recover services. This process can also be used for recovery tests or temporary transmission services.</li>
+									<li>Now, Virtual Machine can be copied directly from a home site to Azure instead of your own auxiliary site. When home site interrupt happens, this service can coordinate the recovery of Virtual Machine in Azure.</li>
+								</ul>
+								<p>The Azure Site Recovery is now officially released in the new data centers (China East 2 and China North 2). To learn more about this service and pricing, please visit <a href="/home/features/site-recovery/">Azure Site Recovery Services Feature </a>page and <a href="/pricing/details/site-recovery/">Price Details </a>page.For more details, please visit <a href="//docs.azure.cn/zh-cn/site-recovery/"> Azure Site Recovery Document </a>page.</p>
+							</section>
+						</div>
+					</li>
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-septemper-azure-management_groups"><span>September 17 </span>Azure Resource Manager's Management Groups feature is officially released in China East 2 and China North 2 data centers <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-septemper-azure-management_groups"><span>September 17</span>Azure Resource Manager Management Groups Feature is officially released in China East 2 and China North 2 data centers</a>
 							<section>
 								<p>Management Groups is a feature of the Azure Resource Manager (ARM) service. If your organization has many subscriptions, you may need a way to effectively manage the access, policy, and compliance for those subscriptions. The Azure Management Groups provide a higher level of coverage than the subscriptions. You organize subscriptions to a container called "Management Group" and apply your management conditions to the Management Group. All subscriptions in the Management Group automatically inherit the conditions that apply to the Management Group. Regardless of the type of subscription you use, the management team can provide you with large-scale enterprise-level management. For more details, please visit <a href="//docs.azure.cn/zh-cn/azure-resource-manager/management-groups-overview" id="service-fabric_year_2018-septemper_documentation-management_groups">Management Group document</a>.</p>
 							</section>
@@ -239,7 +278,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-septemper-azure-automation"><span>9/13</span>Azure Automation is officially released in China North 2 data center <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-septemper-azure-automation"><span>September 13</span>Azure Automation is officially released in China North 2 data center </a>
 							<section>
 								<p>Azure Automation provides cloud-based automation and configuration services which allow to realize consistent management in both Azure and non-Azure environments. It consists of process automation, update management and configuration function. Azure Automation provides full control during the deployment, operation, and shutdown of workloads and resources. Azure Automation is now officially released in the China North 2 data center. To learn more about this service and pricing, please visit <a href="/home/features/automation/" id="service-fabric_year_2018-septemper_features-automation">Azure Automation Service Feature Page</a> and <a href="/pricing/details/automation/" id="service-fabric_year_2018-septemper_pricing-automation">Price Details Page</a>. For more details, please visit <a href="//docs.azure.cn/zh-cn/automation/" id="service-fabric_year_2018-septemper_documentation-automation">Azure Automation Documentation Page</a>.</p>
 							</section>
@@ -1018,7 +1057,7 @@
 							</section>
 						</div>
 					</li>					
-				</ul> 
+				</ul>
             </div>                      
         </div>
         <a id="_whatisnew-linkbutton" href="/what-is-new/archives/2017/" class="single-link h2-link">View Historical Circular<i class="icon icon-arrow-right-thin"></i></a>
