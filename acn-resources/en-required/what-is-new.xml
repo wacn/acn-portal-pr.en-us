@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-10-18T11:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-10-24T11:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
             <div class="more-detail">
             	 <h1>Important Notice</h1>
-				       <h3>October 2018</h3>
-            	 <ul>
-            	 	<li>
-						<i class="icon icon-plus"></i>
-						<div>
-							<a href="#" id="support-chatbot_year_2018-october">Azure online customer support preview announced <i class="icon icon-update"></i></a>
-							<section>								<p>Effective immediately, you can quickly get answers to the FAQs while using Azure through two channels without the need to wait.</p>
-								<p> • Login to <a href="https://support.azure.cn/support/support-azure/" id="support-chatbot_year_2018-october">Azure Support Submission </a>Page, click on “<strong>Online Customer Support</strong>”at the lower right corner</p>
-								<p> • Follow “Microsoft cloud technologies” WeChat Official Accounts, click on the menu <strong>experience cloud - intelligent customer support (preview version)</strong> (note: WeChat channel provides only intelligent customer support at the moment)</p>
-								<p>Azure intelligent customer support “Cloud” uses Azure Cognitive Services, Azure Cosmos DB and machine learning, as well as supporting data and technical knowledge base to help customers get answers to relevant Azure questions. At the same time, through continuing training of machine learning, intelligent customer support can self-evolve as time progresses, giving ever more accurate answers. Users can choose a human operator online on top of the intelligent customer support, which allows users to engage engineers in the same chat. With this “online customer support” model, we hope to provide you with a faster, easier and more intelligent Azure support experience.</p>
-							</section>
-						</div>
-					</li>
-            	 </ul>
-				 
-				 
-				 
 				       <h3>August 2018</h3>
             	 <ul>
             	 	<li>
@@ -221,11 +204,36 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
+							<a href="#" id="service-fabric_year_2018-october-logic-apps"><span>10/24</span>China regions cloud migration and expansion preview now available <i class="icon icon-update"></i></a>
+							<section>
+								<p>China regions cloud migration and expansion provides customers with assessment services and migration guidance to reduce instances from arising based on the below two scenarios:</p>
+								<p>1. For customers migrating your Azure Cloud Services among China regions, please visit <a href="http://aka.ms/ccmechina" id="service-fabric_year_2018-october_features-china-ccme">http://aka.ms/ccmechina</a>;</p>
+								<p>2. For customers migrating and expanding your Azure Cloud Services between Azure Global and Azure China, please visit <a href="http://aka.ms/ccme" id="service-fabric_year_2018-october_features-global-ccme">http://aka.ms/ccme</a>.</p>
+								<p>This product has two components:</p>
+								<p>Online assessment service can assess consistency of services and configurations between original and destination environments, as well as estimate the migration costs. Customers can conduct this assessment through subscription and/or Azure usage reports.</p>
+								<p>This migration guide has undergone verification tests by engineers. It provides step-by-step video guides on migrating main workloads. Main workloads include Virtual Machines, Storage, Virtual Network, Database, Web Apps and Azure Cosmos DB.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
 							<a href="#" id="service-fabric_year_2018-october-logic-apps"><span>10/15</span>Release of Azure Logic Apps Preview <i class="icon icon-update"></i></a>
 							<section>
 								<p>Logic Apps helps you to quickly generate powerful integration solutions, connecting business-critical apps and services and automating workflows without writing any codes. You can connect apps, data, and devices anywhere - locally or in the cloud - with our large ecosystem of software as a service (SaaS) and cloud-based connectors that includes Salesforce, Office 365, Twitter, Dropbox, Google services, and more.</p>
 
 								<p>To learn more about this capability and pricing, please visit the <a href="/home/features/logic-apps/" id="service-fabric_year_2018-october_features-logic-apps">Logic Apps Feature</a> page and the <a href="/pricing/details/logic-apps/" id="service-fabric_year_2018-october_pricing-logic-apps">Logic Apps Pricing</a>page. For more details, please visit the <a href="//docs.azure.cn/zh-cn/logic-apps/" id="service-fabric_year_2018-october_documentation-logic-apps">Azure Logic Apps</a> page.</p></p>
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="support-chatbot_year_2018-october"><span>October 15</span>Azure online customer support preview announced <i class="icon icon-update"></i></a>
+							<section>								<p>Effective immediately, you can quickly get answers to the FAQs while using Azure through two channels without the need to wait.</p>
+								<p> • Login to <a href="https://support.azure.cn/support/support-azure/" id="support-chatbot_year_2018-october">Azure Support Submission </a>Page, click on “<strong>Online Customer Support</strong>”at the lower right corner</p>
+								<p> • Follow “Microsoft cloud technologies” WeChat Official Accounts, click on the menu <strong>experience cloud - intelligent customer support (preview version)</strong> (note: WeChat channel provides only intelligent customer support at the moment)</p>
+								<p>Azure intelligent customer support “Cloud” uses Azure Cognitive Services, Azure Cosmos DB and machine learning, as well as supporting data and technical knowledge base to help customers get answers to relevant Azure questions. At the same time, through continuing training of machine learning, intelligent customer support can self-evolve as time progresses, giving ever more accurate answers. Users can choose a human operator online on top of the intelligent customer support, which allows users to engage engineers in the same chat. With this “online customer support” model, we hope to provide you with a faster, easier and more intelligent Azure support experience.</p>
 							</section>
 						</div>
 					</li>
@@ -235,7 +243,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-septemper-azure-stream-analytics"><span>September 28 </span>Azure Stream Analytics on IoT Edge preview version released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-septemper-azure-stream-analytics"><span>September 28</span>Azure Stream Analytics on IoT Edge preview version released</a>
 							<section>
 								<p>Azure Stream Analytics on Azure IoT Edge enables developers to deploy near-real-time analytical intelligence closer to IoT devices so that they can unlock the full value of device-generated data. Azure Stream Analytics is designed for low latency, resiliency, efficient use of bandwidth, and compliance. Enterprises can now deploy control logic close to industrial operations and complement big data analytics performed in the cloud. For more information on this feature and its pricing, please visit the <a href="//www.azure.cn/zh-cn/pricing/details/stream-analytics/" id="service-fabric_year_2018-septemper_pricing-stream-analytics">Azure Stream Analytics Pricing Page</a>. Please see <a href="//docs.azure.cn/zh-cn/stream-analytics/stream-analytics-edge" id="service-fabric_year_2018-septemper_documentation-stream-analytics-edge">this documentation</a> for more details.</p>
 							</section>
@@ -244,7 +252,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-septemper-azure-backup"><span>September 18</span>Azure Backup is officially released in China East 2 and China North 2 data centers <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-septemper-azure-backup"><span>September 18</span>Azure Backup is officially released in China East 2 and China North 2 data centers</a>
 							<section>
 								<p>Azure Backup is a reliable, low-cost, and scalable solution, allowing for backup of local data onto the cloud. Without any capital investment, you can protect your key business data with the lowest operating expenses.</p>
 								<p>Azure Backup now enables backup of virtual machines on Azure through a few simple steps, and also permits placing the restore points on the cloud storage. Whenever necessary, you can respond from the restore points to meet various demands for protecting Azure Virtual Machines.</p>
@@ -1057,7 +1065,7 @@
 							</section>
 						</div>
 					</li>					
-				</ul>
+				</ul>  
             </div>                      
         </div>
         <a id="_whatisnew-linkbutton" href="/what-is-new/archives/2017/" class="single-link h2-link">View Historical Circular<i class="icon icon-arrow-right-thin"></i></a>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2018-10-18T10:00:00" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
+  <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2018-10-24T14:00:00" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
     <bodyText><![CDATA[
       
 	<style type="text/css">
@@ -115,6 +115,29 @@
 				<div class="banner_box swiper-wrapper" id="banner_box">
 					<!--banner-->
 					<div class="banner swiper-slide image-banner" style="" idx="0">
+						<a target="_blank" id="bannerBtn_0_azure_cloud-migration-and-expansion" href="https://ccme.azure.cn/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure-cloud-migration-and-expansion_slice_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									China regions cloud migration and expansion preview now available
+						</div>
+								<div class="banner-title device-mobile-banner">
+									China regions cloud migration and expansion preview now available
+						</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									Easily assess and migrate your Azure services to Azure China
+								</div>
+								<div class="banner-p device-mobile-banner">
+									Easily assess and migrate your Azure services to Azure China
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>More</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div>
+					<div class="banner swiper-slide image-banner" style="" idx="1">
 						<a target="_blank" id="bannerBtn_0_azure_logic-apps" href="/home/features/logic-apps/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure-logic-apps_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
@@ -137,7 +160,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="1">
+					<div class="banner swiper-slide image-banner" style="" idx="2">
 						<a target="_blank" id="bannerBtn_0_azure_sql" href="/home/features/mysql/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/Azure_mysql_postgressql_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
@@ -160,7 +183,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="2">
+					<div class="banner swiper-slide image-banner" style="" idx="3">
 						<a target="_blank" id="bannerBtn_0_azure_new-region" href="/blog/2018/06/20/New-regions-now-available-in-China/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_new_region_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
@@ -183,7 +206,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="3">
+					<div class="banner swiper-slide image-banner" style="" idx="4">
 						<a target="_blank" id="bannerBtn_0_azure-policy" href="/home/features/azure-policy/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_policy_slice_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
@@ -197,29 +220,6 @@
 								</div>
 								<div class="banner-p device-mobile-banner">
 									Used to create, assign, and manage policy definitions<br/>Actively control and manage Azure resources on a large scale
-								</div>
-								<span class="promo-link">
-									<div class="banner_btn">
-										<span>View now</span><i class="icon icon-arrow-right"></i>
-									</div>
-								</span>
-							</div>
-						</a>
-					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="4">
-						<a target="_blank" id="bannerBtn_0_azure-advisor" href="/home/features/advisor/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_azure-advisor_slice_banner.png">
-							<div class="banner-content">
-								<div class="banner-title device-desktop-banner">
-									Azure Advisor preview version released
-								</div>
-								<div class="banner-title device-mobile-banner">
-									Azure Advisor preview version released
-								</div>
-								<div class="banner-p device-desktop-banner" style="height:80px;">
-									Analyzes resource configuration and telemetry usage, recommends solutions<br/>Assists in following best practices to optimize Azure deployment
-								</div>
-								<div class="banner-p device-mobile-banner">
-									Analyzes resource configuration and telemetry usage, recommends solutions<br/>Assists in following best practices to optimize Azure deployment
 								</div>
 								<span class="promo-link">
 									<div class="banner_btn">
@@ -252,11 +252,11 @@
 							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large"><span>Practical Tutorials</span><i class="icon icon-arrow-right"></i></span></div>
 							<span class="link link-sharp-btn blue large device-mobile-banner"><span>Practical Tutorials</span></span>
 							<p style="">Develop Azure skills quickly with the latest online training and keep up with the latest technology</p>
-						</a> <a class="col-md-4 quickstart-item" href="/what-is-new/" id="homepage_quickstart-what-is-new_2018-october_logic-apps"> <img data-rjs="2" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/homepage/hot-topic.png"
+						</a> <a class="col-md-4 quickstart-item" href="/what-is-new/" id="homepage_quickstart-what-is-new_2018-october_CCMEz"> <img data-rjs="2" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/homepage/hot-topic.png"
 											alt="">
 							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large" rel="nofollow"><span>Azure Updates</span><i class="icon icon-arrow-right"></i></span></div>
 							<span class="link link-sharp-btn blue large device-mobile-banner" rel="nofollow"><span>Azure Updates</span></span>
-							<p>Release of Azure Logic Apps Preview</p>
+							<p>China regions cloud migration and expansion preview now available</p>
 						</a>
 
 					</div>
@@ -581,7 +581,7 @@
 									.st195{fill:#D6EAF3;}
 									.st196{fill:#009580;}
 								</style>
-								<g> <defs> <rect id="SVGID_5_" x="310.4" y="-172.4" width="93.5" height="82"/> </defs> <clipPath id="SVGID_2_"> <use xlink:href="#SVGID_5_"  style="overflow:visible;"/> </clipPath> <g class="st187"> </image> </g> </g> <g> <path class="st107" d="M71.1,40.6v-10h-5v10c0,1.8-1.6,3.4-4.2,4.2l-6.8,1.4c-4.6,1.4-7.8,5-7.8,9v11.4h5V55.2
+								<g> <defs> <rect id="SVGID_5_" x="310.4" y="-172.4" width="93.5" height="82"/> </defs> <clipPath id="SVGID_2_"> <use xlink:href="#SVGID_5_"  style="overflow:visible;"/> </clipPath> <g class="st187"> </g> </g> <g> <path class="st107" d="M71.1,40.6v-10h-5v10c0,1.8-1.6,3.4-4.2,4.2l-6.8,1.4c-4.6,1.4-7.8,5-7.8,9v11.4h5V55.2
 										c0-1.8,1.6-3.4,4.2-4.2l6.8-1.6C67.6,48.6,70.8,45,71.1,40.6z"/> <path class="st112" d="M58.3,71.8v-9.2c0-2.2-1.8-4-4-4h-9.2c-2.2,0-4,1.8-4,4v9.2c0,2.2,1.8,4,4,4h9.2
 										C56.6,75.8,58.3,74,58.3,71.8z"/> <path class="st107" d="M65.5,40.6v-10h5v10c0,1.8,1.6,3.4,4.2,4.2l8.4,1.8c4.6,1.4,7.8,5,7.8,9V67h-5V55.6c0-1.8-1.6-3.4-4.2-4.2
 										l-8.4-1.8C68.7,48.2,65.5,44.6,65.5,40.6z"/> <path class="st112" d="M79.9,72.2V63c0-2.2,1.8-4,4-4h9.2c2.2,0,4,1.8,4,4v9.2c0,2.2-1.8,4-4,4h-9.2C81.7,76.2,80,74.4,79.9,72.2z"
