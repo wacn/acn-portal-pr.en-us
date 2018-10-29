@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
   <TextpageLeftNav template="5" createDate="2018-09-11T14:00:00" updateDate="2018-09-11T14:00:00" urlName="iot-edge" writerName="content" creatorName="content">
@@ -73,3 +74,80 @@
     <urlDisplayName>Pricing – Azure IoT Edge</urlDisplayName>
   </TextpageLeftNav>
 </localize>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="5" createDate="2018-09-11T14:00:00" updateDate="2018-09-11T14:00:00" urlName="iot-edge" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="iot-edge" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/azure-iot-edge.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/azure-iot-edge80.svg" />
+                        <h2><span>Azure IoT Edge</span></h2>
+                        <h4>Extend cloud intelligence and analytics to edge devices</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_iot-edge_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-edge_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner -->
+            <div class="pricing-page-section">
+                <p>Azure IoT Edge deploys cloud services to IoT devices, enabling you to process data, run analytics, and gain insights locally on your edge devices. This achieved by deploying cloud services such as Artificial Intelligence, Azure Functions, and Azure Stream Analytics and managing edge devices from the Azure IoT Hub. Custom code can also be deployed for deployment of customized complex business logic on edge devices. Azure IoT Edge enables code symmetry between the cloud and the edge, simplifying development work and enabling developers to focus on building features that are useful for end users without the need to manage infrastructure.</p>
+            </div>
+            <!-- BEGIN: TAB-CONTROL -->
+            <div class="technical-azure-selector tab-control-selector">
+                <!-- BEGIN: TAB-CONTAINER-1 -->
+                <div class="tab-control-container tab-active" id="tabContent1">
+                    <!-- BEGIN: Table1-Content-->
+                    <h2>Pricing Details</h2>
+
+                    <p>Azure IoT Hub is required for the secure management of devices and services deployed to the edge via Azure IoT Edge. Azure IoT Edge is designed to run on any hardware with Windows or Linux. Deploy Azure IoT Edge on an IoT device with sufficient memory or other resources, typically a gateway class device.</p>
+
+                    <p>Azure IoT Hub <a href="/home/features/iot-hub/">More information</a> <a href="/pricing/details/iot-hub/">Pricing</a></p>
+                    <p>There is no charge for using Azure IoT Edge. Azure IoT Edge allows you to run multiple Azure services on edge. Azure services running on IoT Edge will be billed according to their respective pricing.</p>
+                    <p>For more information and pricing details on services that can be run on Azure IoT Edge, please visit the following pages:</p>
+
+                    <p>Azure Functions <a href="/home/features/azure-functions/">More information</a> <a href="/pricing/details/azure-functions/">Pricing</a></p>
+                    <p>Stream Analytics <a href="/home/features/stream-analytics/">More information</a> <a href="/pricing/details/stream-analytics/">Pricing</a></p>
+                </div>
+                <!-- END: TAB-CONTAINER-1 -->
+            </div>
+            <!-- END: TAB-CONTROL -->
+            <div class="pricing-page-section">
+                <div class="more-detail">
+                    <h2>FAQ</h2>
+                    <em>Expand All</em>
+                    <ul>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="ih-que-q1">How is usage of IoT Edge billed?</a>
+                                <section>
+                                    <p>Azure IoT Edge is free but requires the use of Azure IoT Hub for the secure management of devices and edge deployment. If you choose to use Azure services via IoT Edge, you are billed for the specific service based on its billing model for use on the edge. For example, if you choose to run Azure Stream Analytics on IoT Edge, you will be billed according to IoT Hub usage as well as the pricing for Azure Stream Analytics on IoT Edge.</p>
+                                </section>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+			<div class="pricing-page-section">
+                <h2>Support &amp; SLA</h2>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="iot-contact-page">Azure Support</a> and select the self-help service or any other method to contact us for support.</p>
+                
+				<p>IoT Edge is free and a Service Level Agreement is not provided.</p> 
+				<p>To learn more about the details of our Service Level Agreement, please visit the <a href="/support/legal/sla/" id="pricing_iot-edge_sla">Service Level Agreement</a> page.</p> 
+            </div>
+            <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />  --> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                             
+    
+    ]]></bodyText>
+    <pageTitle>Azure IoT Edge service pricing – Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>pricing-details-iot-edge</linkid>
+    <metaKeywords>Azure, Internet of Things, Azure IoT Edge, Pricing</metaKeywords>
+    <metaDescription><![CDATA[Learn more about the pricing details for Azure IoT Edge. Deploy cloud services to IoT devices. No upfront costs. Pay as you go. Free trial. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy a Service Level Agreement of up to 99.99%.]]></metaDescription>
+    <urlDisplayName>Pricing – Azure IoT Edge</urlDisplayName>
+  </TextpageLeftNav>
+</localize>
+>>>>>>> master

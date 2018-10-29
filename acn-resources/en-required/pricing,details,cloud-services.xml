@@ -8,7 +8,9 @@
                     line-height: 20px;
                 }
             </style>
-            <tags ms.service="cloud-services" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <tags ms.service="cloud-services" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+			<div class="hide-info" style="display:none;"><div class="cover-bg"><div class="pricing-unavailable-message">Selected area is not available</div></div></div>
+            <!-- BEGIN: Product-Detail-TopBanner -->
             <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/cloud_services.png','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
@@ -25,16 +27,67 @@
                 <h2>Pricing Details</h2>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
-            <div class="technical-azure-selector tab-control-selector">
-                
+            <div class="technical-azure-selector tab-control-selector pricing-detail-tab tab-dropdown">
+                <div class="tab-container-container">
+				<div class="tab-container-box">
+				<div class="tab-container">
+					<div class="dropdown-container software-kind-container" style="display: none;">
+						<label>OS/Software:</label>
+						<div class="dropdown-box os-tab-nav hidden-sm hidden-xs">
+							<span class="selected-item">Cloud Services</span> <i class="icon"></i>
+							<ol class="tab-items">
+								<li class="active"><a href="javascript:void(0)" data-href="#tabContent1" id="cloud-services-standard" target="_blank">Cloud Services</a></li>
+							</ol>
+						</div>
+						<select class="dropdown-select software-box hidden-lg hidden-md" id="software-box">
+							<option selected="selected" data-href="#tabContent1" value="Cloud Services">Cloud Services</option>
+						</select>
+					</div>
+					<div class="dropdown-container region-container">
+						<label>Region:</label>
+						<div class="dropdown-box os-tab-nav hidden-sm hidden-xs">
+							<span class="selected-item">China East 2</span> <i class="icon"></i>
+							<ol class="tab-items">
+								<li class="active"><a href="javascript:void(0)" data-href="#east-china2" id="east-china2" >China East 2</a></li>
+								<li><a href="javascript:void(0)" data-href="#north-china2" id="north-china2" >China North 2</a></li>
+								<li><a href="javascript:void(0)" data-href="#east-china" id="east-china" >China East</a></li>
+								<li><a href="javascript:void(0)" data-href="#north-china" id="north-china" >China North</a></li>
+							</ol>
+						</div>
+						<select class="dropdown-select region-box hidden-lg hidden-md" id="region-box">
+							<option selected="selected" data-href="#east-china2" value="east-china2">China East 2</option>
+							<option data-href="#north-china2" value="north-china2">China North 2</option>
+							<option data-href="#east-china" value="east-china">China East</option>
+							<option data-href="#north-china" value="north-china">China North</option>
+						</select>
+					</div>
+					<div class="clearfix"></div>
+					</div>
+				</div>
+				</div>
                 <!-- BEGIN: TAB-CONTAINER-1 --> <!-- BEGIN: Table1-Content-->
-                    <h3>General Purpose</h3>
+					<div class="tab-content">   
+					<div class="tab-panel" id="tabContent1"><div class="category-container-container">
+						<div class="category-container-box">
+					<div class="category-container">
+						<span class="category-title hidden-lg hidden-md">Category:</span>
+						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
+							<li class="active"><a href="javascript:void(0)" data-href="#tabContent1-1" id="" target="_blank">General Purpose</a></li>
+						</ul>
+						<select class="dropdown-select category-tabs hidden-lg hidden-md">
+							 <option data-href="#tabContent1-1" id="" value="Standard Instances">General Purpose</option>
+						</select>
+					</div>
+					</div>
+					</div>
+    
+    <div class="tab-content">
 					<p>Used for websites, small- and medium-sized databases, and other everyday applications.</p>
                     <div class="tags-date">
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
                         <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
                     </div>
-                    <table cellpadding="0" cellspacing="0" width="100%">
+                    <table cellpadding="0" cellspacing="0" width="100%" id="cloudservice-table1-1-1">
                         <tr>
                             <th align="left"><strong>Standard Instance name</strong></th>
                             <th align="left"><strong>CPU core</strong></th>
@@ -85,7 +138,7 @@
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
                         <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
-                    <table cellpadding="0" cellspacing="0" width="100%">
+                    <table cellpadding="0" cellspacing="0" width="100%" id="cloudservice-table1-1-2">
                         <tr>
                             <th align="left"><strong>Instances</strong></th>
                             <th align="left"><strong>Number of cores</strong></th>
@@ -153,7 +206,7 @@
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
                         <div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
                     </div>
-                    <table cellpadding="0" cellspacing="0" width="100%">
+                    <table cellpadding="0" cellspacing="0" width="100%" id="cloudservice-table1-1-3">
                         <tr>
                             <th align="left"><strong>Standard Instance name</strong></th>
                             <th align="left"><strong>CPU core</strong></th>
@@ -192,7 +245,7 @@
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
                         <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
-                    <table cellpadding="0" cellspacing="0" width="100%">
+                    <table cellpadding="0" cellspacing="0" width="100%" id="cloudservice-table1-1-4">
                         <tr>
                             <th class="left" width="20%"></th>    
                             <th align="left"><strong>Instances</strong></th>
@@ -271,7 +324,7 @@
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
                         <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
-                    <table cellpadding="0" cellspacing="0" width="100%">
+                    <table cellpadding="0" cellspacing="0" width="100%" id="cloudservice-table1-1-5">
                         <tr>
                             <th align="left"><strong>Instances</strong></th>
                             <th align="left"><strong>Number of cores</strong></th>
@@ -323,7 +376,7 @@
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
                         <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
-                    <table cellpadding="0" cellspacing="0" width="100%">
+                    <table cellpadding="0" cellspacing="0" width="100%" id="cloudservice-table1-1-6">
                         <tr>
                             <th align="left"><strong>Instances</strong></th>
                             <th align="left"><strong>Number of cores</strong></th>
@@ -371,7 +424,7 @@
                         <div class="ms-date">*The following prices are tax-inclusive.</div><br />
                         <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
-                    <table cellpadding="0" cellspacing="0" width="100%">
+                    <table cellpadding="0" cellspacing="0" width="100%" id="cloudservice-table1-1-7">
                         <tr>
                             <th align="left"><strong>Instances</strong></th>
                             <th align="left"><strong>Number of cores</strong></th>
@@ -395,7 +448,7 @@
                         <br />
                         <div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
                     </div>
-                    <table cellpadding="0" cellspacing="0" width="100%">
+                    <table cellpadding="0" cellspacing="0" width="100%" id="cloudservice-table1-1-8">
                         <tr>
                             <th align="left"><strong>Instances</strong></th>
                             <th align="left"><strong>vCPU</strong></th>
@@ -460,9 +513,10 @@
                                 <br />(about ￥103,136.256/month)</td>
                         </tr>
                     </table>
-                
+                </div></div>
                 <!-- END: TAB-CONTAINER-2 -->   
             </div>
+			    </div>
             <!-- END: TAB-CONTROL -->
             <div class="pricing-page-section">
                 <h2>IP Address Options</h2>

@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-08-06T13:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
 =======
   <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-08-22T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+>>>>>>> master
+=======
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-10-18T11:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
 >>>>>>> master
     <bodyText><![CDATA[
       
          <div class="section-component">
             <div class="more-detail">
             	 <h1>Important Notice</h1>
+<<<<<<< HEAD
+=======
+				       <h3>October 2018</h3>
+            	 <ul>
+            	 	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="support-chatbot_year_2018-october">Azure online customer support preview announced <i class="icon icon-update"></i></a>
+							<section>								<p>Effective immediately, you can quickly get answers to the FAQs while using Azure through two channels without the need to wait.</p>
+								<p> • Login to <a href="https://support.azure.cn/support/support-azure/" id="support-chatbot_year_2018-october">Azure Support Submission </a>Page, click on “<strong>Online Customer Support</strong>”at the lower right corner</p>
+								<p> • Follow “Microsoft cloud technologies” WeChat Official Accounts, click on the menu <strong>experience cloud - intelligent customer support (preview version)</strong> (note: WeChat channel provides only intelligent customer support at the moment)</p>
+								<p>Azure intelligent customer support “Cloud” uses Azure Cognitive Services, Azure Cosmos DB and machine learning, as well as supporting data and technical knowledge base to help customers get answers to relevant Azure questions. At the same time, through continuing training of machine learning, intelligent customer support can self-evolve as time progresses, giving ever more accurate answers. Users can choose a human operator online on top of the intelligent customer support, which allows users to engage engineers in the same chat. With this “online customer support” model, we hope to provide you with a faster, easier and more intelligent Azure support experience.</p>
+							</section>
+						</div>
+					</li>
+            	 </ul>
+				 
+				 
+				 
+>>>>>>> master
 				       <h3>August 2018</h3>
             	 <ul>
             	 	<li>
@@ -98,7 +122,7 @@
             	 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-june-new-region"><span>June 27</span>New Azure data center (region) is officially opened <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-june-new-region"><span>6/27</span> Azure new data centers (regions) have officially opened</i> </a>
 							<section>
 								<p>Two new data centers for Microsoft Azure operated by 21Vianet (located in two new regions) have officially opened: China East 2 and China North 2. Both new and existing customers are free to use the new data center resources. As the first international public cloud technology platform to operate commercially in China, we have not only tripled the number of data centers that we operate, but also accelerated the deployment of the latest Azure services, to provide the China market with a diverse range of virtual machines instances, faster data processing capabilities, more advanced AI (artificial intelligence), more data connection options, and more convenient and efficient PaaS (Platform as a Service) services. For details, visit the blog entry <a href="/blog/2018/06/27/New-regions-now-available-in-China" id="service-fabric_year_2018-june_documentation-new-region">New China Azure data centers (regions) are officially launched</a>.</p>
 							</section>
@@ -190,6 +214,117 @@
 						</div>
 					</li>
 				</ul>
+<<<<<<< HEAD
+=======
+				
+				 <h3>2016年8月</h3>
+				<ul>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="sixteen_year_august_guid"><span>8/1</span>信任中心全新上线</a>
+                            <section>
+                                <p class="">
+                                    全新的<a id="support_na01_safelinks_protection_outlook_com" href="https://www.trustcenter.cn/" target="_blank">信任中心</a>是一个由世纪互联运营的Microsoft Azure和Office 365与您分享承诺，提供信任相关信息的新平台。<a id="support_na01_safelinks_protection_outlook_com" href="https://www.trustcenter.cn/" target="_blank">信任中心</a>以可信为核心，围绕安全性、隐私保护、合规性和透明度四大基本原则传递深度可信云信息，开启全新的用户体检。原<a id="support_trustcenter_cn" href="https://www.trustcenter.cn/" target="_blank;">由世纪互联运营的 Microsoft Azure 信任中心</a>正式关闭切换至新的<a id="support_trustcenter_cn" href="https://www.trustcenter.cn/"  target="_blank">信任中心</a>。<a id="support_na01_safelinks_protection_outlook_com" href="https://www.trustcenter.cn/"  target="_blank">立即查看</a>。
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <div>
+                            <a href="#" id="sixteen_year_august_guid2"><span>8/8</span>提醒：2016 年 8 月 18 日后未经备案的域名可能会被屏蔽</a>
+                            <section>
+                                <p>作为可信赖的云服务，Azure 服务需要客户与服务提供商共担责任。世纪互联负责提供基于微软技术的云服务，并努力满足客户对安全性、隐私保护和合规性的需求。在配置服务之后，客户负责维护其环境，包括其自行部署的应用程序、数据内容、虚拟机、访问凭据以及遵守适用于其特定行业和区域的法规。详细信息请访问<a id="support_guid-migration" href="/support/shared-responsibility/">云计算中的共担责任</a>页面。</p>
+                            </section>
+                        </div>
+                    </li>
+                    
+                    
+                </ul> -->
+                <h1>Product Update</h1>
+                <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a>
+                <h3>October 2018</h3>
+                <ul>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-october-logic-apps"><span>10/15</span>Release of Azure Logic Apps Preview <i class="icon icon-update"></i></a>
+							<section>
+								<p>Logic Apps helps you to quickly generate powerful integration solutions, connecting business-critical apps and services and automating workflows without writing any codes. You can connect apps, data, and devices anywhere - locally or in the cloud - with our large ecosystem of software as a service (SaaS) and cloud-based connectors that includes Salesforce, Office 365, Twitter, Dropbox, Google services, and more.</p>
+
+								<p>To learn more about this capability and pricing, please visit the <a href="/home/features/logic-apps/" id="service-fabric_year_2018-october_features-logic-apps">Logic Apps Feature</a> page and the <a href="/pricing/details/logic-apps/" id="service-fabric_year_2018-october_pricing-logic-apps">Logic Apps Pricing</a>page. For more details, please visit the <a href="//docs.azure.cn/zh-cn/logic-apps/" id="service-fabric_year_2018-october_documentation-logic-apps">Azure Logic Apps</a> page.</p></p>
+							</section>
+						</div>
+					</li>
+                </ul>
+                <h3>September 2018</h3>
+                <ul>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-septemper-azure-stream-analytics"><span>September 28 </span>Azure Stream Analytics on IoT Edge preview version released<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Stream Analytics on Azure IoT Edge enables developers to deploy near-real-time analytical intelligence closer to IoT devices so that they can unlock the full value of device-generated data. Azure Stream Analytics is designed for low latency, resiliency, efficient use of bandwidth, and compliance. Enterprises can now deploy control logic close to industrial operations and complement big data analytics performed in the cloud. For more information on this feature and its pricing, please visit the <a href="//www.azure.cn/zh-cn/pricing/details/stream-analytics/" id="service-fabric_year_2018-septemper_pricing-stream-analytics">Azure Stream Analytics Pricing Page</a>. Please see <a href="//docs.azure.cn/zh-cn/stream-analytics/stream-analytics-edge" id="service-fabric_year_2018-septemper_documentation-stream-analytics-edge">this documentation</a> for more details.</p>
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-septemper-azure-backup"><span>September 18</span>Azure Backup is officially released in China East 2 and China North 2 data centers <i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Backup is a reliable, low-cost, and scalable solution, allowing for backup of local data onto the cloud. Without any capital investment, you can protect your key business data with the lowest operating expenses.</p>
+								<p>Azure Backup now enables backup of virtual machines on Azure through a few simple steps, and also permits placing the restore points on the cloud storage. Whenever necessary, you can respond from the restore points to meet various demands for protecting Azure Virtual Machines.</p>
+								<p>The Azure Backup is now officially released in the new data centers (China East 2 and China North 2). To learn more about this service and pricing, please visit <a href="/home/features/backup/">Azure Backup Service Feature </a>page and <a href="/pricing/details/backup/">Price Details </a>page. For more details, please visit <a href="//docs.azure.cn/zh-cn/backup/">Azure Backup Document </a>page.</p>
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-septemper-azure-site-recovery"><span>September 18</span> Azure Site Recovery is officially released in China East 2 and China North 2 data centers </a>
+							<section>
+								<p>Azure Site Recovery can help protect your major services by coordinating automatic copying and recovery of the private cloud at auxiliary positions. There are two major deployment choices.</p>
+								<ul>
+									<li>The Virtual Machine operated while Hyper-V and system center are used can be copied between two client sites. Azure Site Recovery can monitor the status and storage recovery plan of the application programs operated at home sites and execute the plan when necessary. When site interruptions happen at the main data center, Virtual Machine recovers as arranged so as to help rapidly recover services. This process can also be used for recovery tests or temporary transmission services.</li>
+									<li>Now, Virtual Machine can be copied directly from a home site to Azure instead of your own auxiliary site. When home site interrupt happens, this service can coordinate the recovery of Virtual Machine in Azure.</li>
+								</ul>
+								<p>The Azure Site Recovery is now officially released in the new data centers (China East 2 and China North 2). To learn more about this service and pricing, please visit <a href="/home/features/site-recovery/">Azure Site Recovery Services Feature </a>page and <a href="/pricing/details/site-recovery/">Price Details </a>page.For more details, please visit <a href="//docs.azure.cn/zh-cn/site-recovery/"> Azure Site Recovery Document </a>page.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-septemper-azure-management_groups"><span>September 17</span>Azure Resource Manager Management Groups Feature is officially released in China East 2 and China North 2 data centers</a>
+							<section>
+								<p>Management Groups is a feature of the Azure Resource Manager (ARM) service. If your organization has many subscriptions, you may need a way to effectively manage the access, policy, and compliance for those subscriptions. The Azure Management Groups provide a higher level of coverage than the subscriptions. You organize subscriptions to a container called "Management Group" and apply your management conditions to the Management Group. All subscriptions in the Management Group automatically inherit the conditions that apply to the Management Group. Regardless of the type of subscription you use, the management team can provide you with large-scale enterprise-level management. For more details, please visit <a href="//docs.azure.cn/zh-cn/azure-resource-manager/management-groups-overview" id="service-fabric_year_2018-septemper_documentation-management_groups">Management Group document</a>.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-septemper-azure-automation"><span>September 13</span>Azure Automation is officially released in China North 2 data center </a>
+							<section>
+								<p>Azure Automation provides cloud-based automation and configuration services which allow to realize consistent management in both Azure and non-Azure environments. It consists of process automation, update management and configuration function. Azure Automation provides full control during the deployment, operation, and shutdown of workloads and resources. Azure Automation is now officially released in the China North 2 data center. To learn more about this service and pricing, please visit <a href="/home/features/automation/" id="service-fabric_year_2018-septemper_features-automation">Azure Automation Service Feature Page</a> and <a href="/pricing/details/automation/" id="service-fabric_year_2018-septemper_pricing-automation">Price Details Page</a>. For more details, please visit <a href="//docs.azure.cn/zh-cn/automation/" id="service-fabric_year_2018-septemper_documentation-automation">Azure Automation Documentation Page</a>.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-septemper-azure-batch"><span>September 10</span> Azure Batch is officially released in China East 2 and China North 2 data centers </a>
+							<section>
+								<p>Using Azure Batch can efficiently run massively parallel and high performance computing (HPC) batch jobs in Azure. Users can use Batch scheduling function for free, paying only for the underlying virtual machine service consumption. There is no additional cost for using Azure Batch. Developers use Azure Batch to extend parallel workloads, manage the execution of tasks in queues, and offload computing jobs in the cloud through applications. By using Azure Batch, users can run these applications on demand or on a large scale without having to create and manage clusters, virtual machines, or job plans. Azure Batch can manage virtual machine deployment, autoscaling, and failback; be used as a part of the workflow; and deliver the application as a service.</p>
+								
+								<p>The Azure Batch is now officially released in the new data centers (China East 2 and China North 2). To learn more about this service and pricing, please visit <a href="/home/features/batch/" id="service-fabric_year_2018-septemper_features-batch">Azure Batch Service Feature Page</a> and <a href="/pricing/details/batch/" id="service-fabric_year_2018-septemper_pricing-batch">Price Details Page</a>.For more details, please visit <a href="//docs.azure.cn/zh-cn/batch/" id="service-fabric_year_2018-septemper_documentation-batch">Azure Batch Document Page</a>.</p>
+							</section>
+						</div>
+					</li>
+				</ul>
+>>>>>>> master
                 <h3>August 2018</h3>
                 <ul>
                 	<li>
@@ -940,7 +1075,10 @@
 						</div>
 					</li>					
 				</ul>
+<<<<<<< HEAD
   
+=======
+>>>>>>> master
             </div>                      
         </div>
         <a id="_whatisnew-linkbutton" href="/what-is-new/archives/2017/" class="single-link h2-link">View Historical Circular<i class="icon icon-arrow-right-thin"></i></a>

@@ -2,12 +2,16 @@
 <localize>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2018-07-26T11:30:00" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
 =======
   <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2018-08-22T15:00:00" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
 >>>>>>> master
 =======
   <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2018-08-30T16:00:00" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
+>>>>>>> master
+=======
+  <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2018-10-18T10:00:00" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
 >>>>>>> master
     <bodyText><![CDATA[
       
@@ -123,6 +127,33 @@
 				<div class="banner_box swiper-wrapper" id="banner_box">
 					<!--banner-->
 					<div class="banner swiper-slide image-banner" style="" idx="0">
+<<<<<<< HEAD
+						<a target="_blank" id="bannerBtn_0_azure_sql" href="/home/features/mysql/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/Azure_mysql_postgressql_banner.png">
+=======
+						<a target="_blank" id="bannerBtn_0_azure_logic-apps" href="/home/features/logic-apps/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure-logic-apps_banner.png">
+>>>>>>> master
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									Release of Azure Logic Apps Preview
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Release of Azure Logic Apps Preview
+								</div>
+								<div class="banner-p device-desktop-banner" style="height:80px;">
+									Create intuitive workflows with easy to use tools<br/>First-class support for Enterprise Integration and B2B solutions
+								</div>
+								<div class="banner-p device-mobile-banner">
+									Create intuitive workflows with easy to use tools<br/>First-class support for Enterprise Integration and B2B solutions
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>More</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div>
+					<div class="banner swiper-slide image-banner" style="" idx="1">
 						<a target="_blank" id="bannerBtn_0_azure_sql" href="/home/features/mysql/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/Azure_mysql_postgressql_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
@@ -145,7 +176,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="1">
+					<div class="banner swiper-slide image-banner" style="" idx="2">
 						<a target="_blank" id="bannerBtn_0_azure_new-region" href="/blog/2018/06/20/New-regions-now-available-in-China/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_new_region_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
@@ -168,7 +199,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="2">
+					<div class="banner swiper-slide image-banner" style="" idx="3">
 						<a target="_blank" id="bannerBtn_0_azure-policy" href="/home/features/azure-policy/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_policy_slice_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
@@ -191,7 +222,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="3">
+					<div class="banner swiper-slide image-banner" style="" idx="4">
 						<a target="_blank" id="bannerBtn_0_azure-advisor" href="/home/features/advisor/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_azure-advisor_slice_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
@@ -213,31 +244,12 @@
 								</span>
 							</div>
 						</a>
-					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="4">
-						<a target="_blank" id="bannerBtn_0_azure_translator-service" href="/webinars/detail/76" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_translator-service_banner.png">
-							<div class="banner-content">
-								<div class="banner-title device-desktop-banner">
-									Azure Translation Services Solution
-								</div>
-								<div class="banner-title device-mobile-banner">
-									Azure Translation Services Solution
-								</div>
-								<div class="banner-p device-desktop-banner" style="height:80px;">
-									Helps thousands of enterprises around the world raise application and work efficiency<br/>Lower costs and communicate more effectively with clients around the world
-								</div>
-								<div class="banner-p device-mobile-banner">
-									Helps thousands of enterprises around the world raise application and work efficiency<br/>Lower costs and communicate more effectively with clients around the world
-								</div>
-								<span class="promo-link">
-									<div class="banner_btn">
-										<span>View now</span><i class="icon icon-arrow-right"></i>
-									</div>
-								</span>
-							</div>
-						</a>
+<<<<<<< HEAD
 					</div>
 					
+=======
+					</div>					
+>>>>>>> master
 				</div>
 				<div class="swiper-pagination"></div>
 			</div>
@@ -262,6 +274,7 @@
 							<span class="link link-sharp-btn blue large device-mobile-banner"><span>Practical Tutorials</span></span>
 							<p style="">Develop Azure skills quickly with the latest online training and keep up with the latest technology</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
 						</a> <a class="col-md-4 quickstart-item" href="/what-is-new/" id="homepage_quickstart-what-is-new_2018-july_azure-mysql&postgresql"> <img data-rjs="2" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/homepage/hot-topic.png"
 											alt="">
 							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large" rel="nofollow"><span>Azure Updates</span><i class="icon icon-arrow-right"></i></span></div>
@@ -273,6 +286,13 @@
 							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large" rel="nofollow"><span>Azure Updates</span><i class="icon icon-arrow-right"></i></span></div>
 							<span class="link link-sharp-btn blue large device-mobile-banner" rel="nofollow"><span>Azure Updates</span></span>
 							<p>Azure Container Registry preview version release</p>
+>>>>>>> master
+=======
+						</a> <a class="col-md-4 quickstart-item" href="/what-is-new/" id="homepage_quickstart-what-is-new_2018-october_logic-apps"> <img data-rjs="2" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/homepage/hot-topic.png"
+											alt="">
+							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large" rel="nofollow"><span>Azure Updates</span><i class="icon icon-arrow-right"></i></span></div>
+							<span class="link link-sharp-btn blue large device-mobile-banner" rel="nofollow"><span>Azure Updates</span></span>
+							<p>Release of Azure Logic Apps Preview</p>
 >>>>>>> master
 						</a>
 
@@ -372,7 +392,7 @@
 						<div class="col-xs-12 col-sm-12 col-md-4">
 							<a class="solution-promotion" id="homepage-solution_playback" href="/webinars/">
 								<h1>Azure Webinars</h1>
-								<div style="color:#fff;font-size:16px;margin:5px 0 20px;">On June 27, Azure invites you to share in a technology event and experience the real truth</div>
+								<div style="color:#fff;font-size:16px;margin:5px 0 20px;">Explore the development of .Net Core on Changdushucheng on September 27</div>
 								<span class="link link-sharp-btn blue large"> <span>Sign up now</span> <i class="icon icon-arrow-right"></i> </span> <img src="//resource.cdn.azure.cn/marketing-resource/media/images/homepage/quick-start-webinar@2x.png" alt="backup-webinar"> </a>
 						</div>
 					</div>
@@ -385,6 +405,7 @@
 						<h1>We recommend all-around, efficient Azure products for you</h1>
 					</div>
 					<div class="_bottom clearfix">
+<<<<<<< HEAD
 <<<<<<< HEAD
 						<!--Azure Resource Manager-->
 						<div class="col-md-3 col-xs-6 item-box">
@@ -406,6 +427,237 @@
 									c-1.8-1.2-4.3-0.7-5.5,1.1c-1.2,1.8-0.7,4.3,1.1,5.5l22.2,14.8v83.7l-22.2,14.8c-1.8,1.2-2.3,3.7-1.1,5.5
 									C127.9,128,129.2,128.7,130.5,128.7z"/> </g> </svg>	
 =======
+=======
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/sql-database/" id="homepage_services_sql-database">
+								<h2 class="bigger-header">SQL Database</h2>
+								<div class="svg-icon sql-database"></div>
+								<div class="home-p">Managed relational SQL Database as a service<br/><br/></div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">0.4681</a><a class="single-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">/month</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/logic-apps/" id="homepage_services_logic-apps">
+							<h2 class="bigger-header">Logic Apps<span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 16px;position: relative;top: -2px;">(Preview)</span></h2>
+							<!-- <div class="svg-icon logic-apps"></div> --> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 140 96" style="enable-background:new 0 0 140 96; margin: 0px auto 16px; display: block;width: 140px;height: 96px;" xml:space="preserve">
+								<style type="text/css">
+									.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#85C9D5;}
+									.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#EDF0F4;}
+									.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#B5C0CE;}
+									.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#33B4DF;}
+									.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#7B4D87;}
+									.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#482255;}
+									.st7{fill-rule:evenodd;clip-rule:evenodd;fill:none;}
+									.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#E3F3F6;}
+									.st9{fill-rule:evenodd;clip-rule:evenodd;fill:#A3BF3A;}
+									.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#8BA63C;}
+									.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#5E6D80;}
+									.st12{fill-rule:evenodd;clip-rule:evenodd;fill:#88909B;}
+									.st13{fill:#85C9D5;}
+									.st14{fill:#E56225;}
+									.st15{fill-rule:evenodd;clip-rule:evenodd;fill:#2F75BB;}
+									.st16{fill:#00A2D8;}
+									.st17{fill-rule:evenodd;clip-rule:evenodd;fill:#00A2D8;}
+									.st18{fill:#F79E1C;}
+									.st19{fill-rule:evenodd;clip-rule:evenodd;fill:#2ABAEC;}
+									.st20{fill:#F7B218;}
+									.st21{fill:#009480;}
+									.st22{fill-rule:evenodd;clip-rule:evenodd;fill:#009480;}
+									.st23{fill:#2ABAEC;}
+									.st24{fill:#323A45;}
+									.st25{fill:#88909B;}
+									.st26{fill:#A3BF3A;}
+									.st27{fill:#80A23E;}
+									.st28{fill:#7B4D87;}
+									.st29{fill:#2F75BB;}
+									.st30{opacity:0.15;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st31{fill:#A5D9E2;}
+									.st32{fill-rule:evenodd;clip-rule:evenodd;fill:#323A45;}
+									.st33{fill:#FFFFFF;}
+									.st34{fill:#DAEFF3;}
+									.st35{fill:#2A65AF;}
+									.st36{fill:#F6ECF4;}
+									.st37{fill:none;}
+									.st38{fill-rule:evenodd;clip-rule:evenodd;fill:#F9BA19;}
+									.st39{fill:#F6931D;}
+									.st40{fill:#5E6D80;}
+									.st41{fill:#6B903D;}
+									.st42{fill-rule:evenodd;clip-rule:evenodd;}
+									.st43{fill:#00B8E2;}
+									.st44{fill:none;stroke:#85C9D5;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;}
+									.st45{fill:#2A89CA;}
+									.st46{opacity:0.3;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st47{opacity:0.3;fill:#FFFFFF;}
+									.st48{fill-rule:evenodd;clip-rule:evenodd;fill:#78B843;}
+									.st49{fill:#78B843;}
+									.st50{fill:#005BA3;}
+									.st51{fill:#9AD9E9;}
+									.st52{fill:#0F80B0;}
+									.st53{fill:#005F87;}
+									.st54{fill:#B7D332;}
+									.st55{fill:#7FB900;}
+									.st56{fill:#66C8E7;}
+									.st57{fill:#33B4DF;}
+									.st58{opacity:0.6;fill:#FFFFFF;}
+									.st59{opacity:0.4;fill:#FFFFFF;}
+									.st60{opacity:0.1;clip-path:url(#XMLID_228_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st61{opacity:0.1;clip-path:url(#XMLID_229_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st62{fill:#73BDCD;}
+									.st63{opacity:0.6;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st64{fill-rule:evenodd;clip-rule:evenodd;fill:#80A23E;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+									.st65{fill-rule:evenodd;clip-rule:evenodd;fill:#80A23E;}
+									.st66{clip-path:url(#XMLID_241_);fill:none;}
+									.st67{fill-rule:evenodd;clip-rule:evenodd;fill:#F7B218;}
+									.st68{opacity:0.35;clip-path:url(#XMLID_279_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st69{opacity:0.8;fill:#FFFFFF;}
+									.st70{opacity:0.35;clip-path:url(#XMLID_280_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st71{fill-rule:evenodd;clip-rule:evenodd;fill:#DB5B26;}
+									.st72{fill-rule:evenodd;clip-rule:evenodd;fill:#F58B1F;}
+									.st73{opacity:0.35;clip-path:url(#XMLID_281_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st74{fill-rule:evenodd;clip-rule:evenodd;fill:#404B59;}
+									.st75{opacity:0.1;clip-path:url(#XMLID_358_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st76{fill-rule:evenodd;clip-rule:evenodd;fill:#D1B0D3;}
+									.st77{opacity:0.15;clip-path:url(#XMLID_363_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st78{fill-rule:evenodd;clip-rule:evenodd;fill:#15B2E7;}
+									.st79{fill-rule:evenodd;clip-rule:evenodd;fill:#E1F3F8;}
+									.st80{opacity:0.15;clip-path:url(#XMLID_414_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st81{opacity:0.15;clip-path:url(#XMLID_591_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st82{opacity:0.3;clip-path:url(#XMLID_592_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st83{opacity:0.15;clip-path:url(#XMLID_1891_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st84{fill-rule:evenodd;clip-rule:evenodd;fill:#7C8737;}
+									.st85{opacity:0.3;clip-path:url(#XMLID_1944_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st86{opacity:0.15;clip-path:url(#XMLID_1946_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st87{fill:#CCCBCB;}
+									.st88{opacity:0.1;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st89{opacity:0.1;clip-path:url(#XMLID_1956_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st90{opacity:0.1;clip-path:url(#XMLID_1957_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st91{display:none;}
+									.st92{fill:#45B6F4;}
+									.st93{fill:#89919C;}
+									.st94{fill:#61ADD1;}
+									.st95{fill:#3899C6;}
+									.st96{fill:#F78F08;}
+									.st97{fill:#C1BFBC;}
+									.st98{fill:#B3B4B5;}
+									.st99{fill:#7AC3E1;}
+									.st100{opacity:0.12;fill:#333333;enable-background:new    ;}
+									.st101{fill:#7A7A7A;}
+									.st102{opacity:0.48;}
+									.st103{fill:#A0A1A2;}
+									.st104{fill:#A1DEF0;}
+									.st105{fill:#804998;}
+									.st106{fill:#0072C6;}
+									.st107{fill:#59B4D9;}
+									.st108{fill:#3999C6;}
+									.st109{fill:#B8D432;}
+									.st110{opacity:0.8;fill:#FFFFFF;enable-background:new    ;}
+									.st111{opacity:0.2;fill:#FFFFFF;enable-background:new    ;}
+									.st112{fill:#7FBA00;}
+									.st113{fill:#414141;}
+									.st114{fill:#0078D7;}
+									.st115{fill:#414142;}
+									.st116{fill:#D1B972;}
+									.st117{fill:#FEE087;}
+									.st118{fill:#B1CE2D;}
+									.st119{fill:#FCD116;}
+									.st120{fill:#719904;}
+									.st121{fill-rule:evenodd;clip-rule:evenodd;fill:#804898;}
+									.st122{fill-rule:evenodd;clip-rule:evenodd;fill:#6B2980;}
+									.st123{fill:#6B2980;}
+									.st124{opacity:0.3;fill:#FFFFFF;enable-background:new    ;}
+									.st125{opacity:0.2;fill:#1E1E1E;enable-background:new    ;}
+									.st126{fill:#33BCF0;}
+									.st127{opacity:0.2;fill:#636363;}
+									.st128{opacity:0.1;clip-path:url(#XMLID_1960_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st129{fill:#8B77B6;}
+									.st130{fill:#9B6CAC;}
+									.st131{fill:#874B94;}
+									.st132{opacity:0.4;fill:#7FBA00;enable-background:new    ;}
+									.st133{opacity:0.8;fill:#7FBA00;enable-background:new    ;}
+									.st134{opacity:0.6;fill:#7FBA00;enable-background:new    ;}
+									.st135{opacity:0.25;fill:#7FBA00;enable-background:new    ;}
+									.st136{fill:#DD5900;}
+									.st137{fill:#FF8C00;}
+									.st138{fill-rule:evenodd;clip-rule:evenodd;fill:#3E3E3E;}
+									.st139{fill:url(#path3060_1_);}
+									.st140{fill:#1870C5;}
+									.st141{fill:#72BFDF;}
+									.st142{fill:#3C3938;}
+									.st143{fill:#0072AC;}
+									.st144{fill:#0079B6;}
+									.st145{fill:#00A2D9;}
+									.st146{fill:#BFDC34;}
+									.st147{fill:#898989;}
+									.st148{fill:#EDF0F5;}
+									.st149{fill:#A3A4A7;}
+									.st150{fill:#353535;}
+									.st151{fill:#FF8C02;}
+									.st152{fill:#00AC8C;}
+									.st153{fill:#6EC2E9;}
+									.st154{fill:#442359;}
+									.st155{fill:#6DC0E6;}
+									.st156{fill:#432056;}
+									.st157{fill:#86CAD7;}
+									.st158{fill:#009E48;}
+									.st159{fill:#68217A;}
+									.st160{fill:#E5E5E5;}
+									.st161{opacity:0.15;fill:#FFFFFF;enable-background:new    ;}
+									.st162{fill:#3898C6;}
+									.st163{fill:#80BA42;}
+									.st164{fill:#B3D234;}
+									.st165{opacity:0.1;clip-path:url(#XMLID_1961_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st166{opacity:0.1;clip-path:url(#XMLID_1962_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st167{opacity:0.1;clip-path:url(#XMLID_1963_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st168{opacity:0.1;clip-path:url(#XMLID_1965_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st169{opacity:0.35;clip-path:url(#XMLID_1967_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st170{opacity:0.1;clip-path:url(#XMLID_1968_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st171{opacity:0.15;clip-path:url(#XMLID_1969_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st172{opacity:0.35;clip-path:url(#XMLID_1970_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st173{opacity:0.1;clip-path:url(#XMLID_1971_);fill-rule:evenodd;clip-rule:evenodd;fill:#F1F1F2;}
+									.st174{fill-rule:evenodd;clip-rule:evenodd;fill:#008EBE;}
+									.st175{fill:#017F6F;}
+									.st176{opacity:0.1;clip-path:url(#XMLID_1972_);fill-rule:evenodd;clip-rule:evenodd;fill:#F1F1F2;}
+									.st177{opacity:0.15;clip-path:url(#XMLID_1975_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st178{opacity:0.15;clip-path:url(#XMLID_1976_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st179{opacity:0.15;clip-path:url(#XMLID_1978_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st180{opacity:0.15;clip-path:url(#XMLID_1979_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st181{clip-path:url(#XMLID_1980_);fill:none;}
+									.st182{opacity:0.1;clip-path:url(#XMLID_1981_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st183{opacity:0.3;clip-path:url(#XMLID_1982_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+									.st184{fill-rule:evenodd;clip-rule:evenodd;fill:#F9F9F9;}
+									.st185{opacity:0.1;fill-rule:evenodd;clip-rule:evenodd;fill:#F1F1F2;}
+									.st186{fill:#BAD80A;}
+									.st187{clip-path:url(#SVGID_2_);}
+									.st188{fill:#00BCF2;}
+									.st189{clip-path:url(#SVGID_4_);}
+									.st190{fill:#5AB4DA;}
+									.st191{fill:none;stroke:#5AB4DA;stroke-width:0.75;stroke-miterlimit:10;}
+									.st192{fill:#3898C5;}
+									.st193{fill:#7A7B7B;}
+									.st194{fill:#545555;}
+									.st195{fill:#D6EAF3;}
+									.st196{fill:#009580;}
+								</style>
+								<g> <defs> <rect id="SVGID_5_" x="310.4" y="-172.4" width="93.5" height="82"/> </defs> <clipPath id="SVGID_2_"> <use xlink:href="#SVGID_5_"  style="overflow:visible;"/> </clipPath> <g class="st187"> </image> </g> </g> <g> <path class="st107" d="M71.1,40.6v-10h-5v10c0,1.8-1.6,3.4-4.2,4.2l-6.8,1.4c-4.6,1.4-7.8,5-7.8,9v11.4h5V55.2
+										c0-1.8,1.6-3.4,4.2-4.2l6.8-1.6C67.6,48.6,70.8,45,71.1,40.6z"/> <path class="st112" d="M58.3,71.8v-9.2c0-2.2-1.8-4-4-4h-9.2c-2.2,0-4,1.8-4,4v9.2c0,2.2,1.8,4,4,4h9.2
+										C56.6,75.8,58.3,74,58.3,71.8z"/> <path class="st107" d="M65.5,40.6v-10h5v10c0,1.8,1.6,3.4,4.2,4.2l8.4,1.8c4.6,1.4,7.8,5,7.8,9V67h-5V55.6c0-1.8-1.6-3.4-4.2-4.2
+										l-8.4-1.8C68.7,48.2,65.5,44.6,65.5,40.6z"/> <path class="st112" d="M79.9,72.2V63c0-2.2,1.8-4,4-4h9.2c2.2,0,4,1.8,4,4v9.2c0,2.2-1.8,4-4,4h-9.2C81.7,76.2,80,74.4,79.9,72.2z"
+										/> <rect x="65.5" y="30.6" class="st107" width="5.6" height="9.6"/> <path class="st106" d="M72.1,21.4v7.4h-7.4v-7.4H72.1 M73.7,15.8H63.1c-2.2,0-4,1.8-4,4v10.6c0,2.2,1.8,4,4,4h10.6c2.2,0,4-1.8,4-4
+										V19.8C77.7,17.6,76,15.8,73.7,15.8z"/> <path class="st107" d="M34.9,86.8c-3.2,0.2-6.3-0.5-9-2.2c-1.8-1.6-2.6-4.2-2.6-8V55.8c0-3.4-1.4-5.2-4.2-5.2v-5.2
+										c2.8,0,4.2-1.8,4.2-5.4V19.6c0-3.8,0.8-6.6,2.6-8.2c1.8-1.6,4.8-2.2,9-2.2v5.2c-3,0-4.6,1.6-4.6,5v20c0,4.6-1.4,7.4-4.4,8.6l0,0
+										c2.8,1.2,4.4,4,4.4,8.6v19.8c-0.1,1.4,0.3,2.8,1,4c0.9,0.9,2.1,1.3,3.4,1.2C34.7,81.6,34.9,86.8,34.9,86.8z"/> <path class="st107" d="M103.3,9.2c3.2-0.2,6.3,0.5,9,2.2c1.8,1.6,2.6,4.2,2.6,8v20.8c0,3.4,1.4,5.2,4.2,5.2v5.2
+										c-2.8,0-4.2,1.8-4.2,5.4v20.2c0,3.8-0.8,6.6-2.6,8.2s-4.8,2.4-9,2.4v-5.2c3,0,4.6-1.6,4.6-5v-20c0-4.6,1.4-7.4,4.4-8.6l0,0
+										c-2.8-1.2-4.4-4-4.4-8.6V19.6c0.1-1.4-0.3-2.8-1-4c-0.9-0.9-2.1-1.3-3.4-1.2L103.3,9.2z"/> </g> </svg>
+							<div class="home-p">Automation business process<br /><br /></div>
+							</a>
+							<div class="links-box">
+								Starting from ￥ <a class="home-h2-link" href="/pricing/details/logic-apps/" id="homepage_services_pricing_azure-logic-apps">1.2211</a><a class="single-link" href="/pricing/details/logic-apps/" id="homepage_services_pricing_azure-logic-apps">/month</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+>>>>>>> master
 						<!-- Container Registry -->
 						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/container-registry/" id="homepage_services_container-registry">
@@ -429,6 +681,7 @@
 								<a class="home-h2-link" href="/home/features/resource-manager/" id="homepage_services_pricing_azure-resource-manager">Start for free</a> <a class="single-link" href="/home/features/resource-manager/" id="homepage_services_pricing_azure-resource-manager"></a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
+<<<<<<< HEAD
 						<!--Azure Resource Manager end--> <!--powerbi embedded-->
 						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/power-bi-embedded/" id="homepage_services_power-bi-embedded">
@@ -579,6 +832,9 @@
 =======
 						<!-- Azure Database for PostgreSQL end --> <!--VM-->
 >>>>>>> master
+=======
+						<!--Azure Resource Manager end--> <!--VM-->
+>>>>>>> master
 						<div class="col-md-3 col-xs-6 item-box">
 							<!-- <div class="price-reduction"></div> --> <a href="/home/features/virtual-machines/" id="homepage_services_virtual-machines">
 								<h2 class="bigger-header">Virtual Machines</h2>
@@ -602,16 +858,6 @@
 						</div>
 
 						<div class="col-md-3 col-xs-6 item-box">
-							<a href="/home/features/sql-database/" id="homepage_services_sql-database">
-								<h2 class="bigger-header">SQL Database</h2>
-								<div class="svg-icon sql-database"></div>
-								<div class="home-p">Managed relational SQL Database as a service<br/><br/></div>
-							</a>
-							<div class="links-box">
-								Starting from ￥ <a class="home-h2-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">1.04</a><a class="single-link" href="/pricing/details/sql-database/" id="homepage_services_pricing_sql-database">/day</a> <i class="icon icon-arrow-right"></i>
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/storage/" id="homepage_services_storage">
 								<h2 class="bigger-header">Storage</h2>
 								<div class="svg-icon storage"></div>
@@ -621,7 +867,18 @@
 								<a class="home-h2-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage">Free version available</a> <a class="single-link" href="/pricing/details/storage/" id="homepage_services_pricing_storage"></a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
-						<!-- Azure Database for MySQL -->
+						<!--powerbi embedded-->
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/power-bi-embedded/" id="homepage_services_power-bi-embedded">
+							<h2 class="mysql-header bigger-header  small-text">Power BI Embedded</h2> 
+								<div class="svg-icon power-bi"></div>
+								<div class="home-p">Embed<br/>complete interactive visualization data in your application<br /></div>
+							</a>
+							<div class="links-box">
+								Starting from <a class="home-h2-link" href="/pricing/details/power-bi-embedded/" id="homepage_services_pricing_power-bi-embedded">￥6.4115</a><a class="single-link" href="/pricing/details/power-bi-embedded/" id="homepage_services_pricing_power-bi-embedded">/hour</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<!--power bi embedded end--> <!-- Azure Database for MySQL -->
 						<div class="col-md-3 col-xs-6 item-box">
 							
 							<a href="/home/features/mysql/" id="homepage_services_mysql">
@@ -633,7 +890,18 @@
 								Starting from <a class="home-h2-link" href="/pricing/details/mysql/" id="homepage_services_pricing_mysql">0.2699</a><a class="single-link" href="/pricing/details/mysql/" id="homepage_services_pricing_mysql">RMB/hour</a> <i class="icon icon-arrow-right"></i>
 							</div>
 						</div>
-						<!-- Azure Database for MySQL end -->
+						<!-- Azure Database for MySQL end --> <!-- Azure Database for PostgreSQL -->
+						<div class="col-md-3 col-xs-6 item-box">
+							<a href="/home/features/postgresql/" id="homepage_services_postgresql">
+								<h2 class="mysql-header bigger-header">Azure <br /><span>Database for PostgreSQL</span></h2>
+								<div class="svg-icon services-postgresql"></div>
+								<div class="home-p">Trusted PostgreSQL Database services <br />geared toward application developers<br /></div>
+							</a>
+							<div class="links-box">
+								Starting from <a class="home-h2-link" href="/pricing/details/postgresql/" id="homepage_services_pricing_postgresql">0.2699</a><a class="single-link" href="/pricing/details/postgresql/" id="homepage_services_pricing_postgresql">RMB/hour</a> <i class="icon icon-arrow-right"></i>
+							</div>
+						</div>
+						<!-- Azure Database for PostgreSQL end -->
 						
 						<div class="col-md-3 col-xs-6 item-box">
 							<a href="/home/features/batch/" id="homepage_services_batch">
@@ -1112,7 +1380,7 @@
 					</div>
 			
 					<div class="all-production">
-						<a id="homepage_services_All_Services" href="#" class="read-more"> <span>All 49 cloud products</span> <i class="icon icon-arrow-down-sharp"></i> </a>
+						<a id="homepage_services_All_Services" href="#" class="read-more"> <span>All 50 cloud products</span> <i class="icon icon-arrow-down-sharp"></i> </a>
 					</div>
 				</div>
 			</div>
