@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2017-09-06T07:49:24" updateDate="2018-10-12T10:00:00" urlName="logic-apps" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="logic-apps" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: logic-apps-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/product-banner-logic-apps.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/logicapps-icon.svg" />
+                        <h2>Logic Apps <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">(preview )</span><span>Logic Apps </span></h2>
+                        <h4>Quickly generate powerful integrated solutions</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="logic-apps_1rmb-trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="logic-apps_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: logic-apps-TopBanner --> <!-- BEGIN: logic-apps-Content -->
+            
+            <div class="pricing-page-section">
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/logic-apps-01.jpg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Connect key business applications and services, automate workflows</h2>
+                        <ul>
+                        <li>Visually create business processes and workflows</li>
+                        <li>Integrate with SaaS and enterprise applications</li>
+                        <li>Unleash the value of local and cloud applications</li>
+                        <li>Automate EAI, B2B/EDI and business processes</li>
+                        <li>Leverage Azure Enhanced Integration Solutions</li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="cognitive-figure"> 
+                    <div class="col-md-3">
+                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/logic-apps-01-connectors.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Out-of-the-box connectors reduce integration challenges</h1>
+                        <p>You can connect apps, data, and devices anywhere - on-premises or in the cloud - with our large ecosystem of software as a service (SaaS) and cloud-based connectors that includes Salesforce, Office 365, Twitter, Dropbox, Google services, and more. It’s never been easier to access data and keep your disparate systems up-to-date, in real-time. New connectors are being added to the Azure Marketplace all of the time.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/logic-apps-02-integrate.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Connect and integrate data in the cloud to on-premises</h1>
+                        <p>Logic Apps gives you a robust set of capabilities that make it easier to unlock data from behind the firewall, securely connect to cloud-based services, and take advantage of rich integration without having to migrate away from the on-premises systems you’re already invested in.</p>
+                    </div>
+                </div>
+                
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/logic-apps-03-b2b.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>B2B and enterprise messaging in the cloud</h2>
+                        <p>B2B capabilities in Logic Apps make it easier for you to work with trading partners via Electronic Data Interchange (EDI) standards including EDIFACT, X12, and AS2. With the integration of Microsoft Operations Management Suite, you can quickly see and troubleshoot these transactions, which makes it easier for small and medium-size businesses to work with partners, and allows larger enterprises to take advantage of the scalable benefits of the cloud for B2B messaging.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/logic-apps-04-leverage.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Take advantage of your current BizTalk Server investments to connect to SaaS applications</h2>
+                        <p>Logic Apps makes it possible to start Azure BizTalk Server processing from the cloud, which allows you to take advantage of existing processes implemented with BizTalk Server, keep data within their on-premises environment, and integrate with cloud-based processes. A new adapter enables BizTalk Server to invoke Logic Apps, which provides seamless connectivity to numerous SaaS applications, including SalesForce.com and SharePoint Online. This allows you to take advantage of cloud-based integration and keep data and processes entirely on-premises.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/logic-apps-05-tap.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Tap into the power of Azure services</h2>
+                        <p>Unleash the power of Azure services like Machine Learning and Cognitive Services - build rich serverless workflows, extend your integration scenarios, and get insights from all of your connected systems to help you make informed business decisions.</p>
+                    </div>
+                </div>              
+            </div>
+            
+            <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: logic-apps-Content -->
+                          
+    
+    ]]></bodyText>
+    <pageTitle>Logic Apps - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-logic-apps</linkid>
+    <metaKeywords></metaKeywords>
+    <metaDescription><![CDATA[Quickly generate powerful integrated solutions]]></metaDescription>
+    <urlDisplayName>Logic Apps</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

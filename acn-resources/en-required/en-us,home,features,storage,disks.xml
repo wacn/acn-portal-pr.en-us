@@ -68,14 +68,14 @@
                     <div class="common-banner-title">
                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/storage@2x.png" />
                         <h2>Disk Storage <span>Disk Storage</span></h2>
-                        <h4>Options that support virtual machine disk durability and security</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="storage_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="storage_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h4>Persistent, secure disk options that support virtual machines</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="storage_1rmb-trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="storage_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: storage-TopBanner --> <!-- BEGIN: storage-Content -->
             <div class="pricing-page-section">
-                <p>Azure Disk Storage can provide durability, availability, and security no matter the requirement, for a high degree of availability for any critical workload or cost effective options for testing. For I/O intensive apps (where low-latency and high-throughput are critical), select Premium Disk Storage (SSD). To test the need for rapid expansion and scaling, you can reliably select Standard Disk Storage (HDD) for lower costs.</p>
+                <p>Whether you need a workload with a high degree of availability or cost-effective options for testing, Azure Disk Storage can provide the durability, availability, and security that virtual machines need. For I/O intensive apps (where low-latency and high-throughput are critical), select Premium Disk Storage (SSD). When rapid expansion and scaling are needed for testing, consider using Standard Disk Storage (HDD) to reduce costs.</p>
             </div>
             <div class="pricing-page-section">
 				<div class="cognitive-figure">
