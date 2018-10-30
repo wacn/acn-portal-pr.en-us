@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2018-10-24T14:00:00" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
+  <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2018-10-25T10:00:00" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
     <bodyText><![CDATA[
       
 	<style type="text/css">
@@ -115,19 +115,19 @@
 				<div class="banner_box swiper-wrapper" id="banner_box">
 					<!--banner-->
 					<div class="banner swiper-slide image-banner" style="" idx="0">
-						<a target="_blank" id="bannerBtn_0_azure_cloud-migration-and-expansion" href="https://ccme.azure.cn/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure-cloud-migration-and-expansion_slice_banner.png">
+						<a target="_blank" id="bannerBtn_0_azure_cloud-migration-and-expansion" href="//docs.azure.cn/zh-cn/china-cloud-migration-and-expansion/product-overview/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure-cloud-migration-and-expansion_slice_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
 									China regions cloud migration and expansion preview now available
-						</div>
+								</div>
 								<div class="banner-title device-mobile-banner">
 									China regions cloud migration and expansion preview now available
-						</div>
+								</div>
 								<div class="banner-p device-desktop-banner" style="height:80px;">
-									Easily assess and migrate your Azure services to Azure China
+									Easily assess and migrate your services with an Azure China-centric approach.
 								</div>
 								<div class="banner-p device-mobile-banner">
-									Easily assess and migrate your Azure services to Azure China
+									Easily assess and migrate your services with an Azure China-centric approach.
 								</div>
 								<span class="promo-link">
 									<div class="banner_btn">
@@ -228,7 +228,8 @@
 								</span>
 							</div>
 						</a>
-					</div>					
+					</div>
+					
 				</div>
 				<div class="swiper-pagination"></div>
 			</div>
