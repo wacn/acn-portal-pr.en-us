@@ -1,0 +1,45 @@
+{"service": "Customer Engagement Fabric", 
+"id": "leftnav_product_customer-engagement-fabric", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_customer-engagement-fabric_details", 
+	"articles": 
+		[
+			{"link": "/home/features/customer-engagement-fabric/", 
+			"id": "leftnav_product_customer-engagement-fabric", 
+			"title": "Customer Engagement Fabric"},
+			{"link": "/home/features/customer-engagement-fabric/sms/", 
+			"id": "leftnav_product_customer-engagement-fabric-sms", 
+			"title": "- Text message services"},
+			{"link": "/home/features/customer-engagement-fabric/social-login/", 
+			"id": "leftnav_product_customer-engagement-fabric-social-login", 
+			"title": "- Third-party sign-in"},
+			{"link": "/pricing/details/customer-engagement-fabric/", 
+			"id": "leftnav_pricing_customer-engagement-fabric", 
+			"title": "Pricing"},
+			{"link": "/pricing/calculator/customer-engagement-fabric/", 
+			"id": "leftnav_pricing_calculator_customer-engagement-fabric", 
+			"title": "Calculator"},
+			{"link": "//docs.azure.cn/zh-cn/customer-engagement-fabric/customer-engagement-fabric-product-overview/", 
+			"id": "leftnav_product_customer-engagement-fabric-product-overview", 
+			"title": "Documentation"}
+		]
+	},
+	{"group": "Related Documentation and Links", 
+	"id": "leftnav_product_iot-hub_others", 
+	"articles": 
+		[
+			{"link": "//docs.azure.cn/zh-cn/customer-engagement-fabric/customer-engagement-fabric-create-cef-account-rest-api/", 
+			"id": "leftnav_docs_customer-engagement-fabric-create-cef-account-rest-api", 
+			"title": "Build through the Azure REST API"},
+			{"link": "//docs.azure.cn/zh-cn/customer-engagement-fabric/customer-engagement-fabric-get-cef-key/", 
+			"id": "leftnav_docs_customer-engagement-fabric-get-cef-key", 
+			"title": "Get CEF Key"},
+			{"link": "//docs.azure.cn/zh-cn/customer-engagement-fabric/customer-engagement-fabric-generate-sas-token/", 
+			"id": "leftnav_docs_customer-engagement-fabric-generate-sas-token", 
+			"title": "Share SAS Token"}
+		]
+	}
+]
+}

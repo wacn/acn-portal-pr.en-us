@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2018-09-04T12:00:00" updateDate="2018-10-22T13:00:00" urlName="customer-engagement-fabric" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="customer-engagement-fabric" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: customer-engagement-fabric-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/customer-engagement-fabric_banner.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/customer-engagement-fabric_icon.svg" />
+                        <h2>Third-party sign-in <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">(preview)</span><span>Social Login</span></h2>
+                        <h4>Unified API implements multi-platform social sign-in and helps you quickly get users</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="customer-engagement-fabric_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="customer-engagement-fabric_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: customer-engagement-fabric-TopBanner --> <!-- BEGIN: customer-engagement-fabric-Content -->
+            <div class="pricing-page-section">
+                
+                <h1>Third-party sign-in</h1>
+                <p>CEF third-party sign-in service provides unified SDK to help developers implement WeChat, QQ and Weibo Sign-in, shortens development time for developers and helps APP to quickly get users. User data from various platforms will be centrally stored in the CEF background for greater convenience in access and analysis.</p>
+                <br/>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/customer-engagement-fabric-8.png" alt=""/>
+                    </div>
+                    <div class="col-md-9">
+                        <p>Implements personalized product Sign-in. Members will no longer be required to memorize passwords and they will skip to commonly used third-party sign-in.</p>
+                        <p>Third-party sign-in service simplifies the registration process and helps APP quickly get users.</p>
+                        <p>Convenience for developers to get user information and implement user portrait to provide a personalized user experience.</p>
+                    </div>
+
+                </div>
+                <p>Sample code:</p>
+                <div class="cognitive-figure">
+                    <div class="col-md-12">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/customer-engagement-fabric-11.png" alt=""/>
+                    </div>
+                    <div class="col-md-12" style="margin-top:20px;">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/customer-engagement-fabric-12.png" alt=""/>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More --> <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: customer-engagement-fabric-Content -->
+                          
+    
+    ]]></bodyText>
+    <pageTitle>Customer Engagement Fabric - Third-party sign-in - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-services-customer-engagement-fabric</linkid>
+    <metaKeywords>Customer Engagement Fabric</metaKeywords>
+    <metaDescription><![CDATA[Customer Engagement Fabric provides a series of basic services that allow interactive connectivity between the app and users, including multi-channel notification, fast user Sign-in and unified mobile payment.]]></metaDescription>
+    <urlDisplayName>Customer Engagement Fabric</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

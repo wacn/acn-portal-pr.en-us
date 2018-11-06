@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="5" createDate="2018-08-22T12:00:00" updateDate="2018-10-19T15:00:00" urlName="customer-engagement-fabric" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="customer-engagement-fabric" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/customer-engagement-fabric_banner.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/customer-engagement-fabric_icon.svg" />
+                         <h2>Customer Engagement Fabric <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">(Preview)</span><span>Customer Engagement Fabric</span></h2>
+                        <h4>Provides unified API to help App developers quickly build general functions such as notification, verification and payment. Through the improvement of development efficiency and unified management of user data, operational efficiency is improved.</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_customer-engagement-fabric_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_customer-engagement-fabric_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- BEGIN: TAB-CONTROL -->
+            <div class="technical-azure-selector tab-control-selector">
+                <h2>Pricing Details</h2>
+                <!-- BEGIN: TAB-CONTAINER-1 -->
+                <div class="tab-control-container tab-active" id="tabContent1">
+                    <!-- BEGIN: Table1-Content-->					
+					<h3>Message pricing</h3>
+                    <div class="tags-date">
+                        <div class="ms-date">*The following prices are tax-inclusive.</div>
+                    </div>
+                    <h4>Industry message and verification code</h4>
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <th align="left"><strong>Text message usage per month (number of messages)</strong></th>
+                            <th align="left"><strong>Unit</strong></th>
+                        </tr>
+                        <tr>
+                            <td>First 100,000</td>
+                            <td>¥0.042</td>
+                        </tr>
+                        <tr>
+                            <td>Next 400,000</td>
+                            <td>¥0.040</td>
+                        </tr>
+                        <tr>
+                            <td>Next 500,000</td>
+                            <td>¥0.038</td>
+                        </tr>
+                        <tr>
+                            <td>Next 2 million</td>
+                            <td>¥0.037</td>
+                        </tr>
+                        <tr>
+                            <td>Above 3 million</td>
+                            <td>¥0.036</td>
+                        </tr>
+                    </table>
+                    <br/>
+                    <h4>marketing text messages for members</h4>
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <th align="left"><strong>Text message usage per month (number of messages)</strong></th>
+                            <th align="left"><strong>Unit</strong></th>
+                        </tr>
+                        <tr>
+                            <td>First 100,000</td>
+                            <td>¥0.052</td>
+                        </tr>
+                        <tr>
+                            <td>Next 400,000</td>
+                            <td>¥0.050</td>
+                        </tr>
+                        <tr>
+                            <td>Next 500,000</td>
+                            <td>¥0.048</td>
+                        </tr>
+                        <tr>
+                            <td>Next 2 million</td>
+                            <td>¥0.047</td>
+                        </tr>
+                        <tr>
+                            <td>Above 3 million</td>
+                            <td>¥0.046</td>
+                        </tr>
+                    </table>
+                    <br/>
+                    <h3>Third-party sign-in pricing</h3>
+                    <div class="tags-date">
+                        <div class="ms-date">*The following prices are tax-inclusive.</div>
+                    </div>
+                    <p>Services offered are free of charge currently. 100,000 MAU are supported per month.</p>
+                    <!-- END: Table1-Content-->
+                </div>
+                <!-- END: TAB-CONTAINER-1 -->  
+            </div>
+            <!-- END: TAB-CONTROL --> 
+            
+           <div class="pricing-page-section">
+                <h2>Support &amp; SLA</h2>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="customer-engagement-fabric-contact-page">Azure Support</a> to select self-service or any other method to contact us for support.</p>
+				 <p>The Customer Engagement Fabric feature doesn’t offer a Service Level Agreement during the preview period. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/legal/sla/" id="pricing_customer-engagement-fabric_sla">Service Level Agreements</a> page.</p>
+            </div>
+                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                      
+    
+    ]]></bodyText>
+    <pageTitle>Customer Engagement Fabric quotes_price budgeting - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>pricing-details-customer-engagement-fabric</linkid>
+    <metaKeywords>
+							Azure, Customer Engagement Fabric, Pricing
+							</metaKeywords>
+    <metaDescription><![CDATA[Learn about the pricing details of Customer Engagement Fabric. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become an Azure Pay-in-Advance customer to enjoy a service level agreement of up to 99.99%.]]></metaDescription>
+    <urlDisplayName>Pricing details - Customer Engagement Fabric</urlDisplayName>
+  </TextpageLeftNav>
+</localize>
