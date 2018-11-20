@@ -78,14 +78,14 @@
             </div>
             <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
             <div class="pricing-page-section">
-                <p>With exabytes of capacity and immense scalability, Blob storage can store hundreds to billions of objects in “Hot”, “Cold”, or “Archive” levels based on data access frequency.</p>
+                <p>With exabytes of capacity and immense scalability, Blob storage can store hundreds to billions of objects in “Hot”, “Cool”, or “Archive” levels based on data access frequency.</p>
                 <div class="cognitive-figure">
                     <div class="col-md-3">
                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/blobs-scale-blob.png"/>
                     </div>
                     <div class="col-md-9">
-                        <h2>Add or reduce “Hot”, “Cold”, or “Archive” levels</h2>
-                        <p>Do you deal with different servers on different racks every day? No more. Blob storage can handle all kinds of unstructured data, and expand (or reduce) scale as demands change. No further need to manage it, only pay for what you use and save money by choosing to store locally. Select “Hot”, “Cold” or “Archive” storage levels based on data access frequency. If data will be accessed infrequently, then select the “Cold” or “Archive” storage levels. If data will be accessed frequently, then select the “Hot” storage level.</p>
+                        <h2>Add or reduce “Hot”, “Cool”, or “Archive” levels</h2>
+                        <p>Do you deal with different servers on different racks every day? No more. Blob storage can handle all kinds of unstructured data, and expand (or reduce) scale as demands change. No further need to manage it, only pay for what you use and save money by choosing to store locally. Select “Hot”, “Cool” or “Archive” storage levels based on data access frequency. If data will be accessed infrequently, then select the “Cool” or “Archive” storage levels. If data will be accessed frequently, then select the “Hot” storage level.</p>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-storage-blobs</linkid>
     <metaKeywords>Azure Blob Storage, Azure Object Storage, and Blob Storage are based on object and cloud object storage</metaKeywords>
-    <metaDescription><![CDATA[Use Azure Blob Storage to store all kinds of files. Azure hot, cold, and archive storage is suitable for the reliable cloud object storage of unstructured data.]]></metaDescription>
+    <metaDescription><![CDATA[Use Azure Blob Storage to store all kinds of files. Azure hot, cool, and archive storage is suitable for the reliable cloud object storage of unstructured data.]]></metaDescription>
     <urlDisplayName>Blob Storage</urlDisplayName>
   </TextpageLeftNav>
 </localize>
