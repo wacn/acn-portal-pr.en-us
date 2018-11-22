@@ -11,7 +11,10 @@
 			"title": "Product overview"}, 
 			{"link": "/pricing/details/load-balancer/", 
 			"id": "leftnav_product_load-balancer_pricing", 
-			"title": "Pricing details"},
+			"title": "Pricing"},
+			{"link": "/pricing/calculator/load-balancer/", 
+				"id": "leftnav_product_load-balancer_calculator", 
+				"title": "Pricing calculator"},
 			{"link": "https://docs.azure.cn/load-balancer/", 
 			"id": "leftnav_product_load-balancer_documentation", 
 			"title": "Documentation"}
