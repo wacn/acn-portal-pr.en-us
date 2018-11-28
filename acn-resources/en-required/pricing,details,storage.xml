@@ -81,7 +81,7 @@
             </div>
             <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
             <div class="pricing-page-section">
-                <p>Azure provides a series of storage solution plans that can satisfy user needs in terms of scale, functionality, and budget. From low-cost archive solutions to low-latency, high throughput Premium Managed Disk products/services suitable for I/O-intensive apps, Azure has everything you need.</p>
+                <p>Azure provides a series of storage solution plans that can satisfy user needs in terms of scale, functionality, and budget. From low-cost archive solutions to low-latency, high throughput Premium Managed Disk offers suitable for I/O-intensive apps, Azure has everything you need.</p>
                 <div class="cognitive-figure">
                     <div class="col-md-4 column">
                         <h2>Block Blob</h2>
@@ -160,12 +160,22 @@
 			        <h2>FAQ</h2>
 			        <em>Expand All</em>
 			        <ul>
-			            <li>
+                        <li>
 			                <i class="icon icon-plus"></i>
 			                <div>
-			                    <a id="Storage_question1">If I only use Azure Storage for a few days a month, is the cost prorated?</a>
+			                    <a id="Storage_question3">Do all types of storage support cool/hot storage tiers?</a>
 			                    <section>
-			                        <p>Yes. Storage capacity is charged according to the daily average of data storage during a month (in GB). For example, if you consistently use 10 GB of storage space in the first half of the month and don’t use any storage space in the rest of the month, then the cost will be calculated according to the average of 5 GB of storage. However, if you use the “Cool" (limited to GPv2 accounts) or “Archive” tier for less than 30 and 180 days, respectively, you will incur an additional charge.</p>
+			                        <p>No, currently only Block Blobs offer cool/hot storage tiers.</p>
+			                    </section>
+
+			                </div>
+			            </li>
+                        <li>
+			                <i class="icon icon-plus"></i>
+			                <div>
+			                    <a id="Storage_question2">How do I know which data redundancy option  I’m using? </a>
+			                    <section>
+			                        <p>You may select redundancy while creating your storage account. After creation, you may view the redundancy by using the Azure portal or the Service Management API.</p>
 			                    </section>
 
 			                </div>
@@ -173,9 +183,9 @@
 			            <li>
 			                <i class="icon icon-plus"></i>
 			                <div>
-			                    <a id="Storage_question2">How do I know which data redundancy option I am using (see the text above)? </a>
+			                    <a id="Storage_question1">If I only use Azure Storage for a few days a month, is the cost prorated?</a>
 			                    <section>
-			                        <p>You may select redundancy while creating your storage account. After creation, you may view the redundancy by using the Azure portal or the Service Management API.</p>
+			                        <p>Yes. Storage capacity is charged according to the daily average of data storage during a month (in GB). For example, if you consistently use 10 GB of storage space in the first half of the month and don’t use any storage space in the rest of the month, then the cost will be calculated according to the average of 5 GB of storage. However, if you use the “Cool" (limited to GPv2 accounts) or “Archive” tier for less than 30 and 180 days, respectively, you will incur an additional charge.</p>
 			                    </section>
 
 			                </div>

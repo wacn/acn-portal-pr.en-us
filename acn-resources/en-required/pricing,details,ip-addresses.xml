@@ -76,17 +76,7 @@
                     <h2>FAQ</h2>
                     <em>Expand All</em>
                     <ul>
-                        <li>
-                            <i class="icon icon-plus"></i>
-                            <div>
-                                <a id="public_IP_question8">When the virtual machine is in a “suspended de-allocation” status, are you charging me for the public IP address? </a>
-                                <section>
-                                    <p>In the ARM deployment model, when the relevant VM is in “suspended de-allocation”, no charging is imposed on “dynamic” public IP addresses. Yet, no matter how relevant resources are, “static” public IP addresses are charged (unless it’s one of the first 5 “static” public IP addresses in this region). For details about static and dynamic allocation methods, please view <a id="public_IP_us2" style="color: #00a8d9;" href="https://docs.azure.cn/virtual-network/virtual-network-ip-addresses-overview-arm/">IP Addresses in Azure</a>.</p>
-									<p>In the ARM deployment model, when the VM is in “suspended de-allocation”, no charges are imposed on an instance level public IP (ILPIP).</p>
-                                </section>
-
-                            </div>
-                        </li>
+                        
 						<!--
 						<li>
                             <i class="icon icon-plus"></i>
@@ -99,18 +89,6 @@
                             </div>
                         </li>
 						-->
-						
-                        <li>
-                            <i class="icon icon-plus"></i>
-                            <div>
-                                <a id="public_IP_question2">When does the billing clock for public IP address start and stop?</a>
-                                <section>
-                                    <p>For the “static” public IP address in the ARM deployment model and the “reserved” IP address in the ASM deployment model, the billing clock will start from the 2nd hour after you create the IP address so that some time is left to allocate IP addresses. The billing clock will stop after you delete the IP addresses.</p>
-									<p>For all other IP addresses, the clock will start once relevant resources are activated, or stop when deleting or stopping allocation of relevant resources. </p>	
-                                </section>
-
-                            </div>
-                        </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
@@ -135,12 +113,43 @@
                             <i class="icon icon-plus"></i>
                             <div>                                <a id="public_IP_question4">What’s an unused reserved IP address ?</a>
                                 <section>
-                                    <p>This is a reserved IP address that is not used in the running deployment. We nominally charge the reserved IP address not being used (see the pricing table).</p>
+                                    <p>It's a reserved IP address that isn't used in a running deployment. We charge a nominal fee (see the pricing table) for unused reserved IP addresses.</p>
                                 </section>
 
                             </div>
                         </li>
-						
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="public_IP_question2">When does the billing clock for public IP address start and stop?</a>
+                                <section>
+                                    <p>For the “static” public IP address in the ARM deployment model and the “reserved” IP address in the ASM deployment model, the billing clock will start from the 2nd hour after you create the IP address so that some time is left to allocate IP addresses. The billing clock will stop after you delete the IP addresses.</p>
+									<p>For all other IP addresses, the clock will start once relevant resources are activated, or stop when deleting or stopping allocation of relevant resources. </p>	
+                                </section>
+
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="public_IP_question7">Under the ARM model, would first five static IPs  be charged for reservation associated with a running virtual machine?</a>
+                                <section>
+                                    <p>The first five static IPs are not charged for reservation but for usage</p>
+                                </section>
+
+                            </div>
+                        </li>
+						<li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="public_IP_question8">When the virtual machine is in a “suspended de-allocation” status, are you charging me for the public IP address? </a>
+                                <section>
+                                    <p>In the ARM deployment model, when the relevant VM is in “suspended de-allocation”, no charging is imposed on “dynamic” public IP addresses. Yet, no matter how relevant resources are, “static” public IP addresses are charged (unless it’s one of the first 5 “static” public IP addresses in this region). For details about static and dynamic allocation methods, please view <a id="public_IP_us2" style="color: #00a8d9;" href="https://docs.azure.cn/virtual-network/virtual-network-ip-addresses-overview-arm/">IP Addresses in Azure</a>.</p>
+									<p>In the ARM deployment model, when the VM is in “suspended de-allocation”, no charges are imposed on an instance level public IP (ILPIP).</p>
+                                </section>
+
+                            </div>
+                        </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>                                <a id="public_IP_question5">When the virtual machine is in a stopped-deallocated  state, will you charge a certain reserved IP address?</a>

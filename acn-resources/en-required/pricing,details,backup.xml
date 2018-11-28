@@ -253,6 +253,19 @@
                                 </section>
                             </div>
                         </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="Backup_price_stor7">Will I be charged for data transfers as a result of using Azure Backup?</a>
+                                <section>
+                                    <p>This depends on the customer’s backup method:</p>
+                                    <ul>
+                                        <li>1. For data uploaded on-premises to Azure datacenters (storage accounts or disks) and subsequently backed up to vaults, the data transfers are charged.</li>
+                                        <li>2. For on-premises data directly backed up to vaults using Azure backup agent, backup services will be charged. No data transfer charges are incurred.</li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </li>
                     </ul>
                     <h3>Network costs</h3>
                     <ul>
