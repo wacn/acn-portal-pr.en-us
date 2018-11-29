@@ -56,10 +56,8 @@
             	 <ul>
             	 	<li>
 						<i class="icon icon-plus"></i>
-						<div>
-							<a href="#" id="service-fabric_year_2018-august-linux">Risk Warning: Linux Denial of Service Vulnerability<i class="icon icon-update"></i></a>
-							<section>
-								<p>8/15: Another security vulnerability called “FragmentSmack” (<a href="https://www.kb.cert.org/vuls/id/641765">CVE-2018-5391</a>) also causes the Linux operating system to create a denial of service (DoS). We have taken proper protective measures to ensure that customers of the Microsoft cloud platform  (Azure and Microsoft 365) are not effected by this vulnerability. You do not need to take any immediate protective actions. However, as a best practice, we still recommend that you regularly consult each Linux distribution provider to install the latest updates for Linux Virtual Machines running on the Azure platform. You can consult each Linux distribution provider for more information on Linux security vulnerabilities.</p>
+						<div><a href="#" id="service-fabric_year_2018-august-linux">Risk Warning: Linux denial of service vulnerability</a><section>
+								<p>8/15: Another security vulnerability called “FragmentSmack” (<a href="https://www.kb.cert.org/vuls/id/641765">CVE-2018-5391</a>) also leads to denial of service (DoS) of Linux operating system. We have taken proper protective measures to ensure Microsoft cloud platform’s customers (Azure and Microsoft 365) free from the affection of this vulnerability. You do not need to take any immediate protective actions. However, as a best practice, we still recommend that you regularly consult each Linux distribution provider to install the latest updates for Linux Virtual Machines running on the Azure platform. You can consult each Linux distribution provider for more information on Linux security vulnerabilities.</p>
 								<p>8/7: We noticed that a newly disclosed security vulnerability (<a target="_blank" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5390">CVE-2018-5390</a>) may cause the Linux operating system to temporarily fall into a “Denial of Service (DoS)” state. Virtual Machines running the Linux operating system may be vulnerable to this attack, but Azure hosting platform will not be affected. We are currently working with numerous Linux distribution providers to help them address this security issue. Please contact each Linux distribution provider for guidance on how to address the <a target="_blank"  href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5390">CVE-2018-5390</a> security vulnerability. For more information on this vulnerability, please visit the Vulnerability Notes Database at <a target="_blank" href="https://www.kb.cert.org/vuls/id/962459">https://www.kb.cert.org/vuls/id/962459</a>.</p>
 								<p>We will continue to update this security notice as the case progresses.</p>
 							</section>
@@ -70,9 +68,7 @@
             	 <ul>
             	 	<li>
 						<i class="icon icon-plus"></i>
-						<div>
-							<a href="#" id="service-fabric_year_2018-july-php-minor"><span>July 16</span> PHP Minor Version + Xdebug Update Notice<i class="icon icon-update"></i></a>
-							<section>
+						<div><a href="#" id="service-fabric_year_2018-july-php-minor"><span>7/16</span>PHP minor version + Xdebug update notifications</a><section>
 								<p>In August 2018, Azure App Services will stack update PHP to the latest version. For information about changes in the latest version, please see the change logs on the PHP website.</p>
 								<table cellpadding="0" cellspacing="0" width="100%">
 			                        <tr>
@@ -248,6 +244,17 @@
                 
                 <h3>November 2018</h3>
                 <ul>
+					<li>
+							<i class="icon icon-plus"></i>
+								<div>
+									<a href="#" id="service-fabric_year_2018-november-sqldb-vcore-gen5"><span>11/22</span>Azure SQL Database Single DB Gen5 using vCore-based purchasing model has been announced for China East 2 and China North 2 datacenters<i class="icon icon-update"></i></a>
+									<section>
+										<p>Azure SQL database is a fully managed relational database with built-in intelligence supporting self-driving features, such as performance tuning and threat alerts. Microsoft performs all the patching and updating of the code base, and manages the underlying infrastructure for you, so you can save time and resources.With high SQL Server compatibility, you can also migrate your databases to SQL Database Managed Instance without changing your apps.</p>
+										<p>If flexible, controllable, and transparent independent resource usage is required, a vCore-based purchasing model is most suitable. This model allows calculation scaling, memory, and storage based on workload requirements and provides a direct way to translate local workload requirements into the cloud. The single DB Gen5 platform has been announced for China East 2 and China North 2 datacenters.</p>
+										<p>To understand more about pricing for this service, please visit <a href="https://www.azure.cn/zh-cn/pricing/details/sql-database/">Azure SQL Database pricing details page</a>. For more details please visit <a href="https://docs.azure.cn/zh-cn/sql-database/">Azure SQL Database Documentation page</a>.</p>
+									</section>
+								</div>
+							</li>
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
@@ -1148,7 +1155,7 @@
 							</section>
 						</div>
 					</li>					
-				</ul> 
+				</ul>
             </div>                      
         </div>
         <a id="_whatisnew-linkbutton" href="/what-is-new/archives/2017/" class="single-link h2-link">View Historical Circular<i class="icon icon-arrow-right-thin"></i></a>
