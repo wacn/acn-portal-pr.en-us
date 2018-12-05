@@ -68,46 +68,47 @@
                     <div class="common-banner-title">
                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/customer-engagement-fabric_icon.svg" />
                         <h2>Customer Engagement Fabric <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">(Preview)</span><span>Customer Engagement Fabric</span></h2>
-                        <h4>Provide unified API and SDK to accelerate development of customer engagement functions including notification, authentication, and payment. Through the improvement of development efficiency and unified management of user data, operational efficiency is improved.</h4>
+                        <h4>Provide unified API and SDK to accelerate development of customer engagement functions including notification, authentication, and payment. Improve operational efficiency through increased development efficiency and unified management of user data.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="customer-engagement-fabric_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="customer-engagement-fabric_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: customer-engagement-fabric-TopBanner --> <!-- BEGIN: customer-engagement-fabric-Content -->
             <div class="pricing-page-section">
-                <p>Customer Engagement Fabric (CEF) brings together many local service providers to provide a series of basic services that allow interactive connectivity between the app and users, including multi-channel notification service, sign-in verification and aggregate functions for payment. These services can help the app to quickly implement relevant user connectivity functions, improve user engagement and analyze user behavior data to improve app operational efficiency.</p>
+                <p>Customer Engagement Fabric (CEF) brings together many service providers to enable a series of services that allow personalized customer engagement between businesses and customers using apps. This includes multi-channel notification services, sign-in verification, and aggregate functions for payment. These services can help the app to quickly implement relevant user connectivity functions, improve user engagement, and analyze user behavior data to improve the operational efficiency of the app.</p>
             </div>
             <div class="pricing-page-section">
                 <h2>Notification service</h2>
-                <p>Provides stable and efficient text message notification, email notification, App push with high arrive rate and intelligent Azure Notification Hubs (integration notification).</p>
+                <p>Provide robust and efficient text messaging notification, email notification, and app push services with high availability rate and intelligent One Notification.</p>
             </div>
             <div class="pricing-page-section">
                 <h2>Sign-in verification</h2>
-                <p>Provides concise API to implement third-party sign-in and dynamic password verification so as to reduce development time and quickly get users.</p>
+                <p>Provide simplified API to implement social login and One-Time-Password verification to accelerate development of customer engagement functions and quickly onboard users.
+</p>
             </div>
             <div class="pricing-page-section">
                 <h2>Aggregate functions for payment</h2>
-                <p>Provides unified API to quickly implement third-party payment functions, unified management of user data and analysis of user behavior data.</p>
+                <p>Provide unified API to accelerate implementation of third-party payment functions, unified management of payment data, and analysis of user behavior data.</p>
             </div>
             <div class="pricing-page-section">
-				<h2>List of subservices (announced)</h2>
+				<h2>List of subservices (in Public Preview)</h2>
 				<div class="message-box col-md-6">
-					<h3>Text message service</h3>
+					<h3>Text messaging service</h3>
 					<ul>
-						<li>Supports notification reminder, text message with verification code and marketing text messaging</li>
-						<li>arrived in 5 seconds, 99% arrive rate</li>
+						<li>Supports notification reminder, text messaging verification code, and marketing text messaging</li>
+						<li>arrival within 5 seconds, 99% arrival rate</li>
 						<li>Trip-Play, 10690 dedicated channels</li>
-						<li>Fast API access, real-time data count</li>
+						<li>Fast API access, real-time data statistics</li>
 					</ul>
 					<p><a href="/home/features/customer-engagement-fabric/sms/">Find out more</a></p>
 				</div>
                 <div class="third-part col-md-6">
-					<h3>Third-party sign-in service</h3>
+					<h3>Social Login</h3>
 					<ul>
-						<li>Unified SDK, quickly build third-party sign-in</li>
-						<li>Save time for developers</li>
-						<li>Quickly get users</li>
-						<li>Aggregates user information data for convenience in performing statistical analysis</li>
+						<li>Unified SDK, allow accelerated third-party social login integration</li>
+						<li>Reduce development time</li>
+						<li>Quickly onboard users</li>
+						<li>Aggregates data to make statistical analysis easier</li>
 					</ul>
 					<p><a href="/home/features/customer-engagement-fabric/social-login/">Find out more</a></p>
 				</div>

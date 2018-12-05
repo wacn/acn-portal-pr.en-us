@@ -67,8 +67,8 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/customer-engagement-fabric_icon.svg" />
-                        <h2>Third-party sign-in <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">(preview)</span><span>Social Login</span></h2>
-                        <h4>Unified API implements multi-platform social sign-in and helps you quickly get users</h4>
+                        <h2>Social Login <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">(preview)</span><span>Social Login</span></h2>
+                        <h4>Unified API implements multi-platform social login and helps you to onboard users quickly</h4>
                         <em><a href="/pricing/1rmb-trial/" id="customer-engagement-fabric_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="customer-engagement-fabric_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -76,17 +76,17 @@
             <!-- END: customer-engagement-fabric-TopBanner --> <!-- BEGIN: customer-engagement-fabric-Content -->
             <div class="pricing-page-section">
                 
-                <h1>Third-party sign-in</h1>
-                <p>CEF third-party sign-in service provides unified SDK to help developers implement WeChat, QQ and Weibo Sign-in, shortens development time for developers and helps APP to quickly get users. User data from various platforms will be centrally stored in the CEF background for greater convenience in access and analysis.</p>
+                <h1>Social Login</h1>
+                <p>CEF social login service provides unified SDK to help implement WeChat, QQ, and Weibo login, reduce development time, and onboard users quickly. Data from various platforms will be centrally stored in the CEF backend for greater convenience in access and analysis.</p>
                 <br/>
                 <div class="cognitive-figure">
                     <div class="col-md-3">
                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/customer-engagement-fabric-8.png" alt=""/>
                     </div>
                     <div class="col-md-9">
-                        <p>Implements personalized product Sign-in. Members will no longer be required to memorize passwords and they will skip to commonly used third-party sign-in.</p>
-                        <p>Third-party sign-in service simplifies the registration process and helps APP quickly get users.</p>
-                        <p>Convenience for developers to get user information and implement user portrait to provide a personalized user experience.</p>
+                        <p>Implement personalized product login. Users will no longer be required to memorize passwords and can navigate directly to commonly used social login.</p>
+                        <p>Social login service simplifies the registration process and helps onboard users quickly.</p>
+                        <p>Convenient for accessing data and implementing a user portrait to provide a personalized user experience.</p>
                     </div>
 
                 </div>
@@ -106,7 +106,7 @@
                           
     
     ]]></bodyText>
-    <pageTitle>Customer Engagement Fabric - Third-party sign-in - Azure Cloud Computing</pageTitle>
+    <pageTitle>Customer Engagement Fabric - Social Login - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-services-customer-engagement-fabric</linkid>
     <metaKeywords>Customer Engagement Fabric</metaKeywords>
