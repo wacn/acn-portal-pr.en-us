@@ -85,7 +85,7 @@
 								<p>The total expenses of Premium Non-Managed Disk depends on the disk size and quantity, and is subjected to the <a id="pricing_storage_data-transfer-3" href="/pricing/details/data-transfer/">data transmission</a>. The disk size provides different input/output operations per second (IOP), throughput limit and monthly pricing per GB. We can select necessary options most appropriate to applications, including storage size, IOP and throughput. We can add several permanent disks onto the VM and configure at most 64 TB storage space to every VM. The disk throughput of every VM can reach up to 80,000 (number of input/output operations per second) and 1600 MB/second, with a read delay of less than 1 millisecond. Premium Non-Managed Disk is supported by the sizes of the DS Series, DSv2 Series and FS Series VMs exclusively used for Premium Disk. The pricing and billing meters of DS Series VMs are the same as the D Series VMs.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
-									<div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
@@ -141,7 +141,7 @@
 								<p>We also support three additional page blob types that require you to deploy with Blob Tier set explicitly. If you deploy the page blob or unmanaged disks only specifying the target size, it will be rounded up to the supported page blob types listed in the table above.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
-									<div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
@@ -252,7 +252,7 @@
 								<p>The total expenses of Premium Non-Managed Disk depends on the disk size and quantity, and is subjected to the <a id="pricing_storage_data-transfer-3" href="/pricing/details/data-transfer/">data transmission</a>. The disk size provides different input/output operations per second (IOP), throughput limit and monthly pricing per GB. We can select necessary options most appropriate to applications, including storage size, IOP and throughput. We can add several permanent disks onto the VM and configure at most 64 TB storage space to every VM. The disk throughput of every VM can reach up to 80,000 (number of input/output operations per second) and 1600 MB/second, with a read delay of less than 1 millisecond. Premium Non-Managed Disk is supported by the sizes of the DS Series, DSv2 Series and FS Series VMs exclusively used for Premium Disk. The pricing and billing meters of DS Series VMs are the same as the D Series VMs.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
-									<div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
@@ -308,7 +308,7 @@
 								<p>We also support three additional page blob types that require you to deploy with Blob Tier set explicitly. If you deploy the page blob or unmanaged disks only specifying the target size, it will be rounded up to the supported page blob types listed in the table above.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
-									<div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								</div>
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
