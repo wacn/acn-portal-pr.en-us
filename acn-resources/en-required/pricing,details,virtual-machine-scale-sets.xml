@@ -135,15 +135,15 @@
 						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
 							<li class="active"><a href="javascript:void(0)" data-href="#tabContent1-0" id="vm-vm-win-all">All</a></li>
 							<li><a href="javascript:void(0)" data-href="#tabContent1-1" id="vm-vm-win-general-purpose">General Purpose</a></li>
-							<li><a href="javascript:void(0)" data-href="#tabContent1-2" id="vm-vm-win-compute-optimized">Computing Prioritization</a></li>
-							<li><a href="javascript:void(0)" data-href="#tabContent1-3" id="vm-vm-win-memory-optimized">Memory optimization</a></li>
+							<li><a href="javascript:void(0)" data-href="#tabContent1-2" id="vm-vm-win-compute-optimized">Compute optimized</a></li>
+							<li><a href="javascript:void(0)" data-href="#tabContent1-3" id="vm-vm-win-memory-optimized">Memory optimized</a></li>
 							<li><a href="javascript:void(0)" data-href="#tabContent1-4" id="vm-vm-win-GPU">GPU</a></li>
 						</ul>
 						<select class="dropdown-select category-tabs hidden-lg hidden-md">
 							 <option data-href="#tabContent1-0" id="vm-vm-win-all" value="all">All</option>
 							 <option data-href="#tabContent1-1" id="vm-vm-win-general-purpose" value="general-purpose">General Purpose</option>
-							 <option data-href="#tabContent1-2" id="vm-vm-win-compute-optimized" value="compute-optimized">Computing Prioritization</option>
-							 <option data-href="#tabContent1-3" id="vm-vm-win-memory-optimized" value="memory-optimized">Memory optimization</option>
+							 <option data-href="#tabContent1-2" id="vm-vm-win-compute-optimized" value="compute-optimized">Compute optimized</option>
+							 <option data-href="#tabContent1-3" id="vm-vm-win-memory-optimized" value="memory-optimized">Memory optimized</option>
 							 <option data-href="#tabContent1-4" id="vm-vm-win-GPU" value="GPU">GPU</option>
 						</select>
 					</div>
@@ -1412,15 +1412,15 @@
 						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
 								<li class="active"><a href="javascript:void(0)" data-href="#tabContent2-0" id="vm-vm-linux-all">All</a></li>
 								<li><a href="javascript:void(0)" data-href="#tabContent2-1" id="vm-vm-linux-general-purpose">General Purpose</a></li>
-								<li><a href="javascript:void(0)" data-href="#tabContent2-2" id="vm-vm-linux-compute-optimized">Computing Prioritization</a> </li>
-								<li><a href="javascript:void(0)" data-href="#tabContent2-3" id="vm-vm-linux-memory-optimized">Memory optimization</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent2-2" id="vm-vm-linux-compute-optimized">Compute optimized</a> </li>
+								<li><a href="javascript:void(0)" data-href="#tabContent2-3" id="vm-vm-linux-memory-optimized">Memory optimized</a></li>
 								<li><a href="javascript:void(0)" data-href="#tabContent2-4" id="vm-vm-linux-GPU">GPU</a></li>
 							</ul>
 							<select class="dropdown-select category-tabs hidden-lg hidden-md">
 								<option data-href="#tabContent2-0" id="vm-vm-linux-all" value="all">All</option>
 								<option data-href="#tabContent2-1" id="vm-vm-linux-general-purpose" value="general-purpose">General Purpose</option>
-								<option data-href="#tabContent2-2" id="vm-vm-linux-compute-optimized" value="compute-optimized">Computing Prioritization</option>
-								<option data-href="#tabContent2-3" id="vm-vm-linux-memory-optimized" value="memory-optimized">Memory optimization</option>
+								<option data-href="#tabContent2-2" id="vm-vm-linux-compute-optimized" value="compute-optimized">Compute optimized</option>
+								<option data-href="#tabContent2-3" id="vm-vm-linux-memory-optimized" value="memory-optimized">Memory optimized</option>
 								<option data-href="#tabContent2-4" id="vm-vm-linux-GPU" value="GPU">GPU</option>
 							</select>
 						</div>
@@ -2680,15 +2680,15 @@
 						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
 								<li class="active"><a href="javascript:void(0)" data-href="#tabContent3-0" id="vm-vm-sql-all">All</a></li>
 								<li><a href="javascript:void(0)" data-href="#tabContent3-1" id="vm-vm-sql-general-purpose">General Purpose</a></li>
-								<li><a href="javascript:void(0)" data-href="#tabContent3-2" id="vm-vm-sql-compute-optimized">Computing Prioritization</a></li>
-								<li><a href="javascript:void(0)" data-href="#tabContent3-3" id="vm-vm-sql-memory-optimized">Memory optimization</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent3-2" id="vm-vm-sql-compute-optimized">Compute optimized</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent3-3" id="vm-vm-sql-memory-optimized">Memory optimized</a></li>
 								<li><a href="javascript:void(0)" data-href="#tabContent3-4" id="vm-vm-sql-GPU">GPU</a></li>
 							</ul>
 							<select class="dropdown-select category-tabs hidden-lg hidden-md">
 								<option data-href="#tabContent3-0" id="vm-vm-sql-all" value="all">All</option>
 								<option data-href="#tabContent3-1" id="vm-vm-sql-general-purpose" value="general-purpose">General Purpose</option>
-								<option data-href="#tabContent3-2" id="vm-vm-sql-compute-optimized" value="compute-optimized">Computing Prioritization</option>
-								<option data-href="#tabContent3-3" id="vm-vm-sql-memory-optimized" value="memory-optimized">Memory optimization</option>
+								<option data-href="#tabContent3-2" id="vm-vm-sql-compute-optimized" value="compute-optimized">Compute optimized</option>
+								<option data-href="#tabContent3-3" id="vm-vm-sql-memory-optimized" value="memory-optimized">Memory optimized</option>
 								<option data-href="#tabContent3-4" id="vm-vm-sql-GPU" value="GPU">GPU</option>
 							</select>
 						</div>
@@ -3873,14 +3873,14 @@
 						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
 								<li class="active"><a href="javascript:void(0)" data-href="#tabContent4-0" id="vm-vm-r-server-linux-all">All</a></li>
 								<li><a href="javascript:void(0)" data-href="#tabContent4-1" id="vm-vm-r-server-linux-general-purpose">General Purpose</a></li>
-								<li><a href="javascript:void(0)" data-href="#tabContent4-2" id="vm-vm-r-server-linux-compute-optimized">Computing Prioritization</a></li>
-								<li><a href="javascript:void(0)" data-href="#tabContent4-3" id="vm-vm-r-server-linux-memory-optimized">Memory optimization</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent4-2" id="vm-vm-r-server-linux-compute-optimized">Compute optimized</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent4-3" id="vm-vm-r-server-linux-memory-optimized">Memory optimized</a></li>
 							</ul>
 							<select class="dropdown-select category-tabs hidden-lg hidden-md">
 								<option data-href="#tabContent4-0" id="vm-vm-r-server-linux-all" value="all">All</option>
 								<option data-href="#tabContent4-1" id="vm-vm-r-server-linux-general-purpose" value="general-purpose">General Purpose</option>
-								<option data-href="#tabContent4-2" id="vm-vm-r-server-linux-compute-optimized" value="compute-optimized">Computing Prioritization</option>
-								<option data-href="#tabContent4-3" id="vm-vm-r-server-linux-memory-optimized" value="memory-optimized">Memory optimization</option>
+								<option data-href="#tabContent4-2" id="vm-vm-r-server-linux-compute-optimized" value="compute-optimized">Compute optimized</option>
+								<option data-href="#tabContent4-3" id="vm-vm-r-server-linux-memory-optimized" value="memory-optimized">Memory optimized</option>
 							</select>
 						</div>
 						</div></div>
@@ -4704,14 +4704,14 @@
 						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
 								<li class="active"><a href="javascript:void(0)" data-href="#tabContent5-0" id="vm-vm-r-server-learn-all">All</a></li>
 								<li><a href="javascript:void(0)" data-href="#tabContent5-1" id="vm-vm-r-server-learn-general-purpose">General Purpose</a></li>
-								<li><a href="javascript:void(0)" data-href="#tabContent5-2" id="vm-vm-r-server-learn-compute-optimized">Computing Prioritization</a></li>
-								<li><a href="javascript:void(0)" data-href="#tabContent5-3" id="vm-vm-r-server-learn-memory-optimized">Memory optimization</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent5-2" id="vm-vm-r-server-learn-compute-optimized">Compute optimized</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent5-3" id="vm-vm-r-server-learn-memory-optimized">Memory optimized</a></li>
 							</ul>
 							<select class="dropdown-select category-tabs hidden-lg hidden-md">
 								<option data-href="#tabContent5-0" id="vm-vm-r-server-learn-all" value="all">All</option>
 								<option data-href="#tabContent5-1" id="vm-vm-r-server-learn-general-purpose" value="general-purpose">General Purpose</option>
-								<option data-href="#tabContent5-2" id="vm-vm-r-server-learn-compute-optimized" value="compute-optimized">Computing Prioritization</option>
-								<option data-href="#tabContent5-3" id="vm-vm-r-server-learn-memory-optimized" value="memory-optimized">Memory optimization</option>
+								<option data-href="#tabContent5-2" id="vm-vm-r-server-learn-compute-optimized" value="compute-optimized">Compute optimized</option>
+								<option data-href="#tabContent5-3" id="vm-vm-r-server-learn-memory-optimized" value="memory-optimized">Memory optimized</option>
 							</select>
 						</div>
 						</div></div>
