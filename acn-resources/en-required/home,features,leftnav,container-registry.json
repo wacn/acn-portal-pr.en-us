@@ -8,46 +8,57 @@
 		[
 			{"link": "/home/features/container-registry/", 
 			"id": "leftnav_product_container-registry_function", 
-			"title": "Product overview"}, 
+			"title": "Product overview"},
 			{"link": "/pricing/details/container-registry/", 
 			"id": "leftnav_product_container-registry_pricing", 
-			"title": "Pricing details"},
-			{"link": "//docs.azure.cn/zh-cn/container-registry/", 
+			"title": "Pricing"},
+			{"link": "/pricing/calculator/container-registry/", 
+			"id": "leftnav_product_container-registry_calculator", 
+			"title": "Pricing calculator"},
+			{"link": "https://docs.azure.cn/container-registry/", 
 			"id": "leftnav_product_container-registry_documentation", 
-			"title": "Documentation"}
+			"title": "Documentation"},
+			{"link": "/support/sla/container-registry/", 
+			"id": "leftnav_product_container-registry_sla", 
+			"title": "Service Level Agreement"}
 		]
 	}, 
 	{"group": "Related products", 
 	"id": "leftnav_product_container-registry_related", 
 	"articles": 
 		[
-			{"link": "/home/features/app-service/", 
-			"id": "leftnav_product_1_function-app-service", 
-			"title": "App Service"}, 
-			{"link": "/home/features/service-fabric/", 
-			"id": "leftnav_product_2_function-service-fabric", 
-			"title": "Service Fabric"}
+			{"link": "/home/features/virtual-machines/", 
+			"id": "leftnav_product_container-registry_virtual-machines_function", 
+			"title": "Virtual Machines"}, 
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_container-registry_storage_function", 
+			"title": "Storage"},
+			{"link": "/home/features/virtual-network/", 
+			"id": "leftnav_product_container-registry_networking_function", 
+			"title": "Virtual Network"},
+			{"link": "/home/features/cloud-services/", 
+			"id": "leftnav_product_container-registry_cloud-services_function", 
+			"title": "Cloud Services"}
 		]
 	}, 
+	
 	{"group": "Related Documentation and Links", 
 	"id": "leftnav_product_container-registry_others", 
 	"articles": 
 		[
-			{"link": "//docs.azure.cn/zh-cn/container-registry/container-registry-auth-service-principal/", 
-			"id": "leftnav_product_container-registry_container-registry-auth-service-principal", 
-			"title": "Azure Container Registry authentication with service principals"},
-			{"link": "//docs.azure.cn/zh-cn/container-registry/container-registry-best-practices/", 
-			"id": "leftnav_product_container-registry_container-registry-best-practices", 
-			"title": "Best practices for Azure Container Registry"},
-			{"link": "//docs.azure.cn/zh-cn/container-registry/container-registry-get-started-docker-cli/", 
-			"id": "leftnav_product_container-registry_container-registry-get-started-docker-cli", 
-			"title": "Use the Docker CLI to push the first image to a private Docker Container Registry"},
-			{"link": "//docs.azure.cn/zh-cn/container-registry/container-registry-get-started-portal/", 
+			{"link": "https://docs.azure.cn/zh-cn/container-registry/", 
+			"id": "leftnav_product_container-registry", 
+			"title": "Azure Container Registry Documentation"},
+			{"link": "https://docs.azure.cn/zh-cn/container-registry/container-registry-intro", 
+			"id": "leftnav_product_container-registry_container-registry-intro", 
+			"title": "About Container Registry"}, 
+			{"link": "https://docs.azure.cn/zh-cn/container-registry/container-registry-get-started-portal", 
 			"id": "leftnav_product_container-registry_container-registry-get-started-portal", 
-			"title": "Quick start: Create a container registry using the Azure portal"},
-			{"link": "//docs.azure.cn/zh-cn/container-registry/container-registry-get-started-powershell/", 
-			"id": "leftnav_product_container-registry_container-registry-get-started-powershell", 
-			"title": "Tutorial: Create an Azure Container Registry using PowerShell"}
+			"title": "Quick start: Create a container registry using the Azure portal"}, 											
+			{"link": "https://docs.azure.cn/zh-cn/container-registry/container-registry-skus", 
+			"id": "leftnav_product_container-registry_container-registry-skus", 
+			"title": "Azure Container Registry SKU"}			
+			
 		]
 	}
 ]
