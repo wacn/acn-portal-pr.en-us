@@ -12,8 +12,6 @@
 					}
       	</style>
         <div class="section-component">
-		<p>Note: The support plan will take effect since Dec 15th.</p>
-		</br>            
 			<div class="scroll-table"><div><table cellpadding="0" cellspacing="0">
 				<tr>
 				<th align="left" ><b>Support plan</b></th>
@@ -72,13 +70,13 @@
 				<tr>
 					<td><b>ICP Filing Support</b></td>
 					<td>
-						✔
+						<i class="icon icon-tick"></i>
 					</td>
 					<td>
-						✔
+						<i class="icon icon-tick"></i>
 					</td>
 					<td>
-						✔
+						<i class="icon icon-tick"></i>
 					</td>
 				</tr>
 				<tr>
@@ -126,7 +124,7 @@
 				<tr>
 					<td><b>    •  Third Party Software Support</b></td>
 					<td>
-						×
+						<i class="icon icon-close-sharp"></i>
 					</td>
 					<td>
 						configuration guidance and troubleshooting
@@ -191,7 +189,7 @@
 				<tr>
 					<td><b>Architecture/Advisory Support</b></td>
 					<td>
-					×
+					<i class="icon icon-close-sharp"></i>
 					</td>
 					<td>
 					General guidance
@@ -203,10 +201,10 @@
 				<tr>
 					<td><b>Training</b></td>
 					<td>
-					×
+					<i class="icon icon-close-sharp"></i>
 					</td>
 					<td>
-					×
+					<i class="icon icon-close-sharp"></i>
 					</td>
 					<td class=" support-plans-table-td-bg">
 						Azure web seminars, on-demand training
@@ -215,25 +213,25 @@
 				<tr>
 					<td><b>Onsite Support</b></td>
 					<td>
-					×
+					<i class="icon icon-close-sharp"></i>
 					</td>
 					<td>
-					×
+					<i class="icon icon-close-sharp"></i>
 					</td>
 					<td class=" support-plans-table-td-bg">
-						✔
+						<i class="icon icon-tick"></i>
 					</td>
 				</tr>
 				<tr>
 					<td><b>Proactive Guidance</b></td>
 					<td>
-					×
+					<i class="icon icon-close-sharp"></i>
 					</td>
 					<td>
-					×
+					<i class="icon icon-close-sharp"></i>
 					</td>
 					<td class=" support-plans-table-td-bg">
-						✔
+						<i class="icon icon-tick"></i>
 					</td>
 				</tr>
 				<tr>
