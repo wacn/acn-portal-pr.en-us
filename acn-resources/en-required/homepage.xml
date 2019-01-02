@@ -113,8 +113,28 @@
 			<div class="swiper-container">
 				<div class="swiper-container">
 				<div class="banner_box swiper-wrapper" id="banner_box">
-					<!--banner-->
 					<div class="banner swiper-slide image-banner" style="" idx="0">
+						<a target="_blank" id="bannerBtn_0_azure_sql" href="/home/features/dns/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_dns_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner">
+									Azure DNS officially released
+								</div>
+								<div class="banner-p device-desktop-banner" >
+									Super high availability, supports all common DNS record types<br/>Get DNS updates without the wait
+								</div>
+								<div class="banner-p device-mobile-banner">
+									Ultra-high availability<br/>Supports all common DNS record types<br/>Get DNS updates without the wait
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>More</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div>
+					<!--banner-->
+					<div class="banner swiper-slide image-banner" style="" idx="1">
 						<a target="_blank" id="bannerBtn_0_azure_cloud-migration-and-expansion" href="/support/legal/privacy-statement/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/privacy-statement_slice_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
@@ -138,7 +158,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="1">
+					<div class="banner swiper-slide image-banner" style="" idx="2">
 						<a target="_blank" id="bannerBtn_0_azure_customer-engagement-fabric" href="/home/features/customer-engagement-fabric/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/customer-engagement-fabric_slice_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
@@ -161,7 +181,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="2">
+					<div class="banner swiper-slide image-banner" style="" idx="3">
 						<a target="_blank" id="bannerBtn_0_azure_cloud-migration-and-expansion" href="//docs.azure.cn/zh-cn/china-cloud-migration-and-expansion/product-overview/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure-cloud-migration-and-expansion_slice_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
@@ -184,7 +204,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="3">
+					<div class="banner swiper-slide image-banner" style="" idx="4">
 						<a target="_blank" id="bannerBtn_0_azure_logic-apps" href="/home/features/logic-apps/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure-logic-apps_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner">
@@ -206,30 +226,7 @@
 								</span>
 							</div>
 						</a>
-					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="4">
-						<a target="_blank" id="bannerBtn_0_azure_sql" href="/home/features/mysql/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/Azure_mysql_postgressql_banner.png">
-							<div class="banner-content">
-								<div class="banner-title device-desktop-banner">
-									Latest framework MySQL and PostgreSQL database services released
-								</div>
-								<div class="banner-title device-mobile-banner">
-									Latest framework MySQL and PostgreSQL database services released
-								</div>
-								<div class="banner-p device-desktop-banner" style="height:80px;">
-									More reliable and stable performance and product experience assured<br/>deliver higher SLA
-								</div>
-								<div class="banner-p device-mobile-banner">
-									More reliable and stable performance and product experience assured<br/>deliver higher SLA
-								</div>
-								<span class="promo-link">
-									<div class="banner_btn">
-										<span>More</span><i class="icon icon-arrow-right"></i>
-									</div>
-								</span>
-							</div>
-						</a>
-					</div>
+					</div>					
 				</div>
 				<div class="swiper-pagination"></div>
 			</div>
