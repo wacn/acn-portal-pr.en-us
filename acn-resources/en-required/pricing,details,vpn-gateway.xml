@@ -37,35 +37,35 @@
                         <th align="left"><strong>Price per hour</strong></th>
 						<th align="left"><strong>Bandwidth</strong></th>
 						<th align="left"><strong>S2S Tunnel</strong></th>
-						<!-- <th align="left"><strong>P2S 隧道</strong></th> -->
+						<th align="left"><strong>P2S Tunnel</strong></th>
                     </tr>
                     <tr>
                         <td>Basic</td>
                         <td>￥ 0.25 every gateway/hour</br>(about ￥ 186.00 /month)</td>
 						<td>100 Mbp</td>
 						<td>10 at most</br>1-10: included</td>
-						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
+						<td>128 at most</br>1-128: included<br/>￥0.0636 /tunnel</td>
                     </tr>
 					<tr>
                         <td>VpnGw1<sup style="color:#e66102; font-weight: bold">new</sup></td>
                         <td>￥ 1.1914 every gateway/hour</br>(about ￥ 885.4016 /month)</td>
 						<td>650 Mbp</td>
-						<td>30 at most</br>1-10: included</br>11-30: ￥ 0.0945/every tunnel</td>
-						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
+						<td>30 at most</br>1-10: included</br>11-30: ￥0.0945 /tunnel</td>
+						<td>128 at most</br>1-128: included<br/>￥0.0636 /tunnel</td>
                     </tr>
                     <tr>
                         <td>VpnGw2<sup style="color:#e66102; font-weight: bold">new</sup></td>
                         <td>￥ 3.1276 every gateway/hour</br>(about ￥ 2,326.9344 /month)</td>
 						<td>1 Gbps</td>
-						<td>30 at most</br>1-10: included</br>11-30: ￥ 0.0945/every tunnel</td>
-						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
+						<td>30 at most</br>1-10: included</br>11-30: ￥0.0945 /tunnel</td>
+						<td>128 at most</br>1-128: included<br/>￥0.0636 /tunnel</td>
                     </tr>
                     <tr>
                         <td>VpnGw3<sup style="color:#e66102; font-weight: bold">new</sup></td>
                         <td>￥ 7.95 every gateway/hour</br>(about ￥ 5,914.8 /month)</td>
 						<td>1.25 Gbps</td>
-						<td>30 at most</br>1-10: included</br>11-30: ￥ 0.0945/every tunnel</td>
-						<!-- <td>最多 128</br>￥0.0636/每隧道</td> -->
+						<td>30 at most</br>1-10: included</br>11-30: ￥0.0945 /tunnel</td>
+						<td>128 at most</br>1-128: included<br/>￥0.0636 /tunnel</td>
                     </tr>
                     </table>                    
 					
@@ -183,20 +183,6 @@
                     </ul>
                 </div>
             </div>
-            <!-- <div class="pricing-page-section">
-                <h2>上市地区</h2>
-                <p>VPN 网关在以下区域中提供：</p>
-                <table cellpadding="0" cellspacing="0" class="table-col6">
-                    <tr>
-                        <th align="left"><strong>地域</strong></th>
-                        <th align="left"><strong>区域</strong></th>
-                    </tr>
-                    <tr>
-                        <td>中国大陆</td>
-                        <td>中国东部数据中心 , 中国北部数据中心</td>
-                    </tr>
-                </table>
-            </div> -->
 
             <div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
