@@ -132,15 +132,15 @@
 						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
 							<li class="active"><a href="javascript:void(0)" data-href="#tabContent1-0" id="vm-vm-win-all">All</a></li>
 							<li><a href="javascript:void(0)" data-href="#tabContent1-1" id="vm-vm-win-general-purpose">General Purpose</a></li>
-							<li><a href="javascript:void(0)" data-href="#tabContent1-2" id="vm-vm-win-compute-optimized">Computing Prioritization</a></li>
-							<li><a href="javascript:void(0)" data-href="#tabContent1-3" id="vm-vm-win-memory-optimized">Memory optimization</a></li>
+							<li><a href="javascript:void(0)" data-href="#tabContent1-2" id="vm-vm-win-compute-optimized">Compute optimized</a></li>
+							<li><a href="javascript:void(0)" data-href="#tabContent1-3" id="vm-vm-win-memory-optimized">Memory optimized</a></li>
 							<li><a href="javascript:void(0)" data-href="#tabContent1-4" id="vm-vm-win-GPU">GPU</a></li>
 						</ul>
 						<select class="dropdown-select category-tabs hidden-lg hidden-md">
 							 <option data-href="#tabContent1-0" id="vm-vm-win-all" value="all">All</option>
 							 <option data-href="#tabContent1-1" id="vm-vm-win-general-purpose" value="general-purpose">General Purpose</option>
-							 <option data-href="#tabContent1-2" id="vm-vm-win-compute-optimized" value="compute-optimized">Computing Prioritization</option>
-							 <option data-href="#tabContent1-3" id="vm-vm-win-memory-optimized" value="memory-optimized">Memory optimization</option>
+							 <option data-href="#tabContent1-2" id="vm-vm-win-compute-optimized" value="compute-optimized">Compute optimized</option>
+							 <option data-href="#tabContent1-3" id="vm-vm-win-memory-optimized" value="memory-optimized">Memory optimized</option>
 							 <option data-href="#tabContent1-4" id="vm-vm-win-GPU" value="GPU">GPU</option>
 						</select>
 					</div>
@@ -1181,9 +1181,8 @@
 										<td>￥ 18.79/hour<br />(about ￥ 13,979.76/month)</td>
 									</tr>
 								</table>
-								<h3>DS 11-15 v2</h3>
-								<p>For persistent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.<br/>Of which, DS13-2_v2 DS13-4_v2 DS14-4_v2 DS14-8_v2 are brand new instances. Compared with DS13 v2 and DS14 v2, they’ve reduced the number of cores and size of the vCPU, and saved on costs while guaranteeing the same memory, disk size and price.<!--DSv2虚拟机 目前只在中国东部区域提供服务。-->
-								</p>
+								<h3>DS 11-14 v2</h3>
+								<p>For persistent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.<br/>Of which, DS13-2_v2 DS13-4_v2 DS14-4_v2 DS14-8_v2 are brand new instances. Compared with DS13 v2 and DS14 v2, they’ve reduced the number of cores and size of the vCPU, and saved on costs while guaranteeing the same memory, disk size and price.</p>
 								<!-- <p>从 2017 年 2 月 1 日起，Windows Dv2 系列实例价格下调，以下是下调前及下调后的价格列表：</p> -->
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -1225,6 +1224,23 @@
 										<td>112 GiB</td>
 										<td>224 GiB</td>
 										<td>￥ 15.03/hour<br />(about ¥ 11,182.32/month)</td>
+									</tr>
+								</table>
+
+								<h3>DS 15 v2</h3>
+								<p>For persistent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br/>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table-windows-memoryprioritization-ds15v2">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
 									</tr>
 									<tr>
 										<td>DS15 v2</td>
@@ -1425,15 +1441,15 @@
 						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
 								<li class="active"><a href="javascript:void(0)" data-href="#tabContent2-0" id="vm-vm-linux-all">All</a></li>
 								<li><a href="javascript:void(0)" data-href="#tabContent2-1" id="vm-vm-linux-general-purpose">General Purpose</a></li>
-								<li><a href="javascript:void(0)" data-href="#tabContent2-2" id="vm-vm-linux-compute-optimized">Computing Prioritization</a> </li>
-								<li><a href="javascript:void(0)" data-href="#tabContent2-3" id="vm-vm-linux-memory-optimized">Memory optimization</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent2-2" id="vm-vm-linux-compute-optimized">Compute optimized</a> </li>
+								<li><a href="javascript:void(0)" data-href="#tabContent2-3" id="vm-vm-linux-memory-optimized">Memory optimized</a></li>
 								<li><a href="javascript:void(0)" data-href="#tabContent2-4" id="vm-vm-linux-GPU">GPU</a></li>
 							</ul>
 							<select class="dropdown-select category-tabs hidden-lg hidden-md">
 								<option data-href="#tabContent2-0" id="vm-vm-linux-all" value="all">All</option>
 								<option data-href="#tabContent2-1" id="vm-vm-linux-general-purpose" value="general-purpose">General Purpose</option>
-								<option data-href="#tabContent2-2" id="vm-vm-linux-compute-optimized" value="compute-optimized">Computing Prioritization</option>
-								<option data-href="#tabContent2-3" id="vm-vm-linux-memory-optimized" value="memory-optimized">Memory optimization</option>
+								<option data-href="#tabContent2-2" id="vm-vm-linux-compute-optimized" value="compute-optimized">Compute optimized</option>
+								<option data-href="#tabContent2-3" id="vm-vm-linux-memory-optimized" value="memory-optimized">Memory optimized</option>
 								<option data-href="#tabContent2-4" id="vm-vm-linux-GPU" value="GPU">GPU</option>
 							</select>
 						</div>
@@ -2471,10 +2487,8 @@
 										<td>￥ 17.29/hour<br />(about ￥ 12,863.76/month)</td>
 									</tr>
 								</table>
-								<h3>DS 11-15 v2</h3>
-								<p>For persistent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.<!--DSv2虚拟机 目前只在中国东部区域提供服务。-->
-								</p>
-								<!-- <p>从 2017 年 2 月 1 日起，Linux Dv2 系列虚拟机价格下调，以下是下调前及下调后的价格列表：</p> -->
+								<h3>DS 11-14 v2</h3>
+								<p>For persistent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
 									<br />
@@ -2514,7 +2528,24 @@
 										<td>16</td>
 										<td>112 GiB</td>
 										<td>224 GiB</td>
-										<td>￥ 13.83/hour<br />(about ¥ 10,289.52/month)</td>
+										<td>￥ 13.83/hour<br />(about ￥ 10,289.52/month)</td>
+									</tr>
+								</table>
+
+								<h3>DS 15 v2</h3>
+								<p>For persistent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br/>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table-linux-memoryprioritization-ds15v2">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
 									</tr>
 									<tr>
 										<td>DS15 v2</td>
@@ -2707,15 +2738,15 @@
 						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
 								<li class="active"><a href="javascript:void(0)" data-href="#tabContent3-0" id="vm-vm-sql-all">All</a></li>
 								<li><a href="javascript:void(0)" data-href="#tabContent3-1" id="vm-vm-sql-general-purpose">General Purpose</a></li>
-								<li><a href="javascript:void(0)" data-href="#tabContent3-2" id="vm-vm-sql-compute-optimized">Computing Prioritization</a></li>
-								<li><a href="javascript:void(0)" data-href="#tabContent3-3" id="vm-vm-sql-memory-optimized">Memory optimization</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent3-2" id="vm-vm-sql-compute-optimized">Compute optimized</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent3-3" id="vm-vm-sql-memory-optimized">Memory optimized</a></li>
 								<li><a href="javascript:void(0)" data-href="#tabContent3-4" id="vm-vm-sql-GPU">GPU</a></li>
 							</ul>
 							<select class="dropdown-select category-tabs hidden-lg hidden-md">
 								<option data-href="#tabContent3-0" id="vm-vm-sql-all" value="all">All</option>
 								<option data-href="#tabContent3-1" id="vm-vm-sql-general-purpose" value="general-purpose">General Purpose</option>
-								<option data-href="#tabContent3-2" id="vm-vm-sql-compute-optimized" value="compute-optimized">Computing Prioritization</option>
-								<option data-href="#tabContent3-3" id="vm-vm-sql-memory-optimized" value="memory-optimized">Memory optimization</option>
+								<option data-href="#tabContent3-2" id="vm-vm-sql-compute-optimized" value="compute-optimized">Compute optimized</option>
+								<option data-href="#tabContent3-3" id="vm-vm-sql-memory-optimized" value="memory-optimized">Memory optimized</option>
 								<option data-href="#tabContent3-4" id="vm-vm-sql-GPU" value="GPU">GPU</option>
 							</select>
 						</div>
@@ -3758,7 +3789,7 @@
 								
 								<p><sup>2 </sup>It’s recommended that SQL Enterprise Edition of standard D3 and the SQL Edition of standard D2 be employed as a minimum.</p>
 								
-								<h3>DS 11-15 v2</h3>
+								<h3>DS 11-14 v2</h3>
 								<p>For persistent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.<br/>Of which, DS13-2_v2 DS13-4_v2 DS14-4_v2 DS14-8_v2 are brand new instances. Compared with DS13 v2 and DS14 v2, they’ve reduced the number of cores and size of the vCPU, and saved on costs while guaranteeing the same memory, disk size and price.<!--DSv2 虚拟机 目前只在中国东部区域提供服务。--></p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -3811,6 +3842,26 @@
 										<td>¥ 26.05/hour<br />(about ￥ 19,381.2/month)</td>
 										<td>￥ 56.73/hour<br />(about ￥ 42,207.12/month)</td>
 									</tr>
+								</table>
+								<p><sup>2 </sup>It’s recommended that SQL Enterprise Edition of standard D3 and the SQL Edition of standard D2 be employed as a minimum.</p>
+
+								<h3>DS 15 v2</h3>
+								<p>For persistent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br />
+									<div class="ms-date">*The following prices include the pricing of both Windows Virtual Machine and SQL Server.</div><br/>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table-sqlserverwindows-memoryprioritization-ds15v2">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>SQL WEB</strong></th>
+										<th align="left"><strong>SQL Standard Edition<sup>2</sup></strong></th>
+										<th align="left"><strong>SQL Enterprise Edition<sup>2</sup></strong></th>
+									</tr>
 									<tr>
 										<td>DS15 v2</td>
 										<td>20</td>
@@ -3821,7 +3872,6 @@
 										<td>￥ 86.3173/hour<br />(about ￥ 64,220.0712/month)</td>
 									</tr>
 								</table>
-								
 								<p><sup>2 </sup>It’s recommended that SQL Enterprise Edition of standard D3 and the SQL Edition of standard D2 be employed as a minimum.</p>
 							</div>
 							<!-- END: Tab level 2 content 3-3--> <!-- BEGIN: Tab level 2 content 3-4 -->
@@ -3901,14 +3951,14 @@
 						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
 								<li class="active"><a href="javascript:void(0)" data-href="#tabContent4-0" id="vm-vm-r-server-linux-all">All</a></li>
 								<li><a href="javascript:void(0)" data-href="#tabContent4-1" id="vm-vm-r-server-linux-general-purpose">General Purpose</a></li>
-								<li><a href="javascript:void(0)" data-href="#tabContent4-2" id="vm-vm-r-server-linux-compute-optimized">Computing Prioritization</a></li>
-								<li><a href="javascript:void(0)" data-href="#tabContent4-3" id="vm-vm-r-server-linux-memory-optimized">Memory optimization</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent4-2" id="vm-vm-r-server-linux-compute-optimized">Compute optimized</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent4-3" id="vm-vm-r-server-linux-memory-optimized">Memory optimized</a></li>
 							</ul>
 							<select class="dropdown-select category-tabs hidden-lg hidden-md">
 								<option data-href="#tabContent4-0" id="vm-vm-r-server-linux-all" value="all">All</option>
 								<option data-href="#tabContent4-1" id="vm-vm-r-server-linux-general-purpose" value="general-purpose">General Purpose</option>
-								<option data-href="#tabContent4-2" id="vm-vm-r-server-linux-compute-optimized" value="compute-optimized">Computing Prioritization</option>
-								<option data-href="#tabContent4-3" id="vm-vm-r-server-linux-memory-optimized" value="memory-optimized">Memory optimization</option>
+								<option data-href="#tabContent4-2" id="vm-vm-r-server-linux-compute-optimized" value="compute-optimized">Compute optimized</option>
+								<option data-href="#tabContent4-3" id="vm-vm-r-server-linux-memory-optimized" value="memory-optimized">Memory optimized</option>
 							</select>
 						</div>
 						</div></div>
@@ -4653,7 +4703,7 @@
 									</tr>
 								</table>
 								
-								<h3>DS 11-15 v2</h3>
+								<h3>DS 11-14 v2</h3>
 								<p>For persistent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.<!--DSv2 虚拟机 目前只在中国东部区域提供服务。-->
 								</p>
 								<div class="tags-date">
@@ -4707,6 +4757,26 @@
 										<td>￥ 24.85/hour<br />(about ￥ 18,488.4/month)</td>
 										<td>￥ 55.53/hour<br />(about ￥ 41,314.32/month)</td>
 									</tr>
+								</table>
+
+								<h3>DS 15 v2</h3>
+								<p>For persistent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.
+								</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br/>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table-sqlserverlinux-memoryprioritization-ds15v2">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>SQL WEB</strong></th>
+										<th align="left"><strong>SQL Standard Edition</strong></th>
+										<th align="left"><strong>SQL Enterprise Edition</strong></th>
+									</tr>
 									<tr>
 										<td>DS15 v2</td>
 										<td>20</td>
@@ -4733,14 +4803,14 @@
 						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
 								<li class="active"><a href="javascript:void(0)" data-href="#tabContent5-0" id="vm-vm-r-server-learn-all">All</a></li>
 								<li><a href="javascript:void(0)" data-href="#tabContent5-1" id="vm-vm-r-server-learn-general-purpose">General Purpose</a></li>
-								<li><a href="javascript:void(0)" data-href="#tabContent5-2" id="vm-vm-r-server-learn-compute-optimized">Computing Prioritization</a></li>
-								<li><a href="javascript:void(0)" data-href="#tabContent5-3" id="vm-vm-r-server-learn-memory-optimized">Memory optimization</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent5-2" id="vm-vm-r-server-learn-compute-optimized">Compute optimized</a></li>
+								<li><a href="javascript:void(0)" data-href="#tabContent5-3" id="vm-vm-r-server-learn-memory-optimized">Memory optimized</a></li>
 							</ul>
 							<select class="dropdown-select category-tabs hidden-lg hidden-md">
 								<option data-href="#tabContent5-0" id="vm-vm-r-server-learn-all" value="all">All</option>
 								<option data-href="#tabContent5-1" id="vm-vm-r-server-learn-general-purpose" value="general-purpose">General Purpose</option>
-								<option data-href="#tabContent5-2" id="vm-vm-r-server-learn-compute-optimized" value="compute-optimized">Computing Prioritization</option>
-								<option data-href="#tabContent5-3" id="vm-vm-r-server-learn-memory-optimized" value="memory-optimized">Memory optimization</option>
+								<option data-href="#tabContent5-2" id="vm-vm-r-server-learn-compute-optimized" value="compute-optimized">Compute optimized</option>
+								<option data-href="#tabContent5-3" id="vm-vm-r-server-learn-memory-optimized" value="memory-optimized">Memory optimized</option>
 							</select>
 						</div>
 						</div></div>
@@ -5368,8 +5438,8 @@
 									</tr>
 								</table>
 								
-								<h3>DS 11-15 v2</h3>
-								<p>For persistent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.<!--DSv2 虚拟机 目前只在中国东部区域提供服务。-->
+								<h3>DS 11-14 v2</h3>
+								<p>For persistent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.
 								</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -5411,6 +5481,24 @@
 										<td>112 GiB</td>
 										<td>224 GiB</td>
 										<td>￥ 55.53/hour<br />(about ￥ 41,314.32/month)</td>
+									</tr>
+								</table>
+
+								<h3>DS 15 v2</h3>
+								<p>For persistent storage, please use the “DSv2” virtual machine, and purchase Premium Storage separately. The pricing and billing meters of the DSv2 size are the same as the Dv2 Series.
+								</p>
+								<div class="tags-date">
+									<div class="ms-date">*The following prices are tax-inclusive.</div>
+									<br />
+									<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div><br/>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%" id="vm-table-machinelearning-memoryprioritization-ds15v2">
+									<tr>
+										<th align="left"><strong>Instances</strong></th>
+										<th align="left"><strong>Number of cores</strong></th>
+										<th align="left"><strong>RAM</strong></th>
+										<th align="left"><strong>Temporary Storage</strong></th>
+										<th align="left"><strong>Pricing</strong></th>
 									</tr>
 									<tr>
 										<td>DS15 v2</td>

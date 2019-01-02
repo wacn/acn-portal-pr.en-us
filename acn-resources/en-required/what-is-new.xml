@@ -8,6 +8,35 @@
             	 <h1>Important Notice</h1>
 				 <h3>November 2018</h3>
 				       <ul>
+					   		<li>
+								<i class="icon icon-plus"></i>
+								<div>
+									<a href="#" id="service-fabric_year_2018-november-mysqldatabase"><span>11/30</span> We are ending the MySQL Database on Azure service on Dec 1st, 2019, which will be replaced by the Azure Database for MySQL service. <i class="icon icon-update"></i></a>
+									<section>
+										<p>Azure Database for MySQL provides fully managed, enterprise-ready community MySQL database as a service. With Azure Database for MySQL:</p>
+										<ul>
+											<li>Customers can easily migrate to the cloud, using languages and frameworks of their choice.</li>
+											<li>Customers get built-in high availability and dynamic scaling, helping them easily adjust to changes in their demands.</li>
+											<li>Customers will benefit from the unparalleled security and compliance, including <a href="https://www.azure.cn/support/azure-ip-advantage/">Azure IP Advantage</a>.</li>
+										</ul>
+										<p>All this with a flexible pricing model so customers can choose resources for their workloads with no hidden cost. To know more about Azure Database for MySQL, please see <a href="https://www.azure.cn/zh-cn/home/features/mysql/">product details</a> and <a href="https://www.azure.cn/zh-cn/pricing/details/mysql">pricing details</a> pages.</p>
+										<p>If you are an existing customer:</p>
+										<ul>
+										<li>No interruption of service</li>
+										<li>You will be automatically migrated to the new service before the end of life of the existing service</li>
+										<li>Migration will begin on Feb 15th, 2019</li>
+										<li>Special pricing will be lost when scaled to a different service tier or if server is deleted.</li>
+										<li>You will continue to pay the same price post migration. Detailed information about the SKU mapping between the old service and the new service will be published before end of December 2018.</li>
+										<li>No action necessary for now. At a minimum, 30 days prior to your scheduled migration you will receive additional notifications including the exact timeline for your migration.</li>
+										</ul>
+										<p>If you are a new customer:</p>
+										<ul>
+										<li>You will not be accepted on the “MySQL Database on Azure” service as of the date of this announcement</li>
+										</ul>
+										<p>Please refer to <a href="https://www.azure.cn/zh-cn/support/faq#implementationAndMaintenance">MySQL Database on Azure Migration FAQs</a> for the most common questions of this migration</p>
+									</section>
+								</div>
+							</li>
 					       	<li>
 								<i class="icon icon-plus"></i>
 								<div>
@@ -240,6 +269,30 @@
                 <h1>Product Update</h1>
                 <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a>
                 
+				<h3>December 2018</h3>
+				<ul>
+						<li>
+							<i class="icon icon-plus"></i>
+								<div>
+									<a href="#" id="service-fabric_year_2018-dec-dns"><span>12/27</span>Azure DNS Now Officially Released<i class="icon icon-update"></i></a>
+									<section>
+										<p>Host your domain in Azure for outstanding performance and availability. You can use Azure DNS to host your Domain Name System (DNS) in Azure. Manage your DNS records using the same credentials, and billing and support contract, as your other Azure services. Seamlessly integrate Azure-based services with corresponding DNS updates and streamline your end-to-end deployment process. Azure DNS is now officially released.</p>
+										<p>To understand more about this service and pricing, please visit <a href="https://www.azure.cn/zh-cn/home/features/dns">Azure DNS feature page</a> and <a href="https://www.azure.cn/zh-cn/pricing/details/dns">pricing details page</a>. For more details please visit <a href="https://docs.azure.cn/zh-cn/dns/">Azure DNS Documentation page</a>.</p>
+									</section>
+								</div>
+						</li>
+						<li>
+						<i class="icon icon-plus"></i>
+							<div>
+								<a href="#" id="service-fabric_year_2018-dec-expressroute"><span>12/25</span>ExpressRoute is now officially released in China East 2 and China North 2 data center<i class="icon icon-update"></i></a>
+								<section>
+									<p>ExpressRoute is now officially released in China East 2 and China North 2 data center. You can contact the local support ExpressRoute connection service provider (GDS Services Ltd.) to create a private network connection. ExpressRoute is a service that enables you to create private connections between Azure datacenters and customer-owned environment. ExpressRoute connections don't go over the public internet, and offer more reliability, faster speeds, and lower latencies than internet connections.</p>
+									<p>To understand more about this service and pricing, please visit <a href="https://www.azure.cn/zh-cn/home/features/expressroute/">ExpressRoute feature</a> page and <a href="https://www.azure.cn/zh-cn/pricing/details/expressroute/">pricing details</a> page. For more details please visit <a href="https://docs.azure.cn/zh-cn/expressroute/">ExpressRoute</a> Documentation page.</p>
+								</section>
+							</div>
+						</li>
+                </ul>
+
                 <h3>November 2018</h3>
                 <ul>
 					<li>
@@ -268,7 +321,7 @@
 						<div>
 							<a href="#" id="service-fabric_year_2018-november-customer-engagement-fabric"><span>11/12</span> Azure HDInsight Linux is now officially released in China North 2 data center<i class="icon icon-update"></i></a>
 							<section>
-								<p>Azure HDInsight is a fully-managed cloud service that makes it easy, fast, and cost-effective to process massive amounts of data. Use popular open-source frameworks such as Hadoop, Spark, Hive, LLAP, Kafka, Storm, HBase and more. Azure HDInsight enables a broad range of scenarios such as ETL, Data Warehousing, IoT and more.</p>
+								<p>Azure HDInsight is a fully-managed cloud service that makes it easy, fast, and cost-effective to process massive amounts of data. Use popular open-source frameworks such as Hadoop, Spark, Hive, LLAP, Kafka, Storm, HBase, and more. Azure HDInsight enables a broad range of scenarios such as ETL, Data Warehousing, IoT, and more.</p>
 								<p>Azure HDInsight Linux is now officially released in China North 2 data center. To learn more about this service and pricing, please visit <a href="https://www.azure.cn/zh-cn/home/features/hdinsight/">Azure HDInsight Services Feature </a>page and <a href="https://www.azure.cn/zh-cn/pricing/details/hdinsight/">Price Details </a>page. For more details, please visit<a href="https://docs.azure.cn/zh-cn/hdinsight/"> Azure HDInsight Document </a>page.</p>
 							</section>
 						</div>
@@ -291,7 +344,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-october-logic-apps"><span>10/24</span>China regions cloud migration and expansion preview now available <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-october-logic-apps"><span>10/24</span>China regions cloud migration and expansion preview now available</a>
 							<section>
 								<p>China regions cloud migration and expansion provides customers with assessment services and migration guidance to reduce instances from arising based on the below two scenarios:</p>
 								<p>1. For customers migrating your Azure Cloud Services among China regions, please visit <a href="http://aka.ms/ccmechina" id="service-fabric_year_2018-october_features-china-ccme">http://aka.ms/ccmechina</a>;</p>
@@ -305,7 +358,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-october-logic-apps"><span>10/15</span>Release of Azure Logic Apps Preview <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-october-logic-apps"><span>10/15</span>Release of Azure Logic Apps Preview</a>
 							<section>
 								<p>Logic Apps helps you to quickly generate powerful integration solutions, connecting business-critical apps and services and automating workflows without writing any codes. You can connect apps, data, and devices anywhere - locally or in the cloud - with our large ecosystem of software as a service (SaaS) and cloud-based connectors that includes Salesforce, Office 365, Twitter, Dropbox, Google services, and more.</p>
 
@@ -1097,7 +1150,7 @@
 							</section>
 						</div>
 					</li>					
-				</ul> 
+				</ul>
             </div>                      
         </div>
         <a id="_whatisnew-linkbutton" href="/what-is-new/archives/2017/" class="single-link h2-link">View Historical Circular<i class="icon icon-arrow-right-thin"></i></a>
