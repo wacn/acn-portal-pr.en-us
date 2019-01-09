@@ -6,6 +6,32 @@
          <div class="section-component">
             <div class="more-detail">
             	 <h1>Important Notice</h1>
+				 <h3>December 2018</h3>
+				 		<ul>
+						 	<li>
+								<i class="icon icon-plus"></i>
+								<div>
+									<a href="#" id="service-fabric_year_2018-december-cognitive-service-emotion-api-retirement"><span>12/28</span>Azure Cognitive Services Emotion API will be deprecated - Please migrate to Face API by February 15, 2019<i class="icon icon-update"></i></a>
+									<section>
+										<p>Our<a href="https://www.azure.cn/zh-cn/home/features/cognitive-services/face/">Face API (human face API) </a> is officially released. It can detect emotions displayed on human faces in your applications. As the existing Emotion API features have been fully replaced by the Face API, we will deprecate Emotion API on <strong> February 15, 2019</strong>.</p>
+										<p>To continue using Emotion API, please migrate to Face API by the stated date. We encourage you to make the switch at the earliest possible to take advantage of Face API, including richer facial recognition features, service level agreements and full Azure support.</p>
+										<p>Please <a href="https://docs.azure.cn/cognitive-services/face/">migrate to Face API</a> by February 15, 2019, to prevent any service disruption to your applications and fully utilize emotion recognition features.</p>
+									</section>
+								</div>
+							</li>
+					   		<li>
+								<i class="icon icon-plus"></i>
+								<div>
+									<a href="#" id="service-fabric_year_2018-december-IoThub-operations-monitoring-retirement"><span>12/18</span>Diagnostic settings in Azure IoT Hub (IoT Hub) to replace operations monitoring, please migrate by March 10, 2019<i class="icon icon-update"></i></a>
+									<section>
+										<p>Diagnostic settings in Azure Monitor provide a single, simplified monitoring and logging experience. Azure Monitor and Azure IoT Hub are fully integrated, which can help you to keep your IoT solutions running in a healthy state. As diagnostic settings have replaced operations monitoring in Azure IoT Hub, the operations monitoring will be deprecated on March 10, 2019.</p>
+										<p>To continue to collect logs on Azure IoT Hub without disruption, please <a href="https://docs.azure.cn/zh-cn/iot-hub/iot-hub-migrate-to-diagnostics-settings">migrate to diagnostic settings</a> by March 10, 2019, at which time operations monitoring will be completely removed from the Hub and the support for it will end.</p>
+										<p>Learn about <a href="https://docs.azure.cn/zh-cn/iot-hub/iot-hub-monitor-resource-health">details of using diagnostic settings to monitor the operations and health of Hub</a>.</p>
+									</section>
+								</div>
+							</li>
+				       </ul>
+
 				 <h3>November 2018</h3>
 				       <ul>
 					   		<li>
@@ -57,7 +83,8 @@
 				       <ul>
 					       	<li>
 								<i class="icon icon-plus"></i>
-								<div>									<a href="#" id="service-fabric_year_2018-october-privacy-statement"><span>10/31</span>We have updated our Privacy Statement for Online Services <i class="icon icon-update"></i></a>
+								<div>
+									<a href="#" id="service-fabric_year_2018-october-privacy-statement"><span>10/31</span>We have updated our Privacy Statement for Online Services</a>
 									<section>
 										<p>Your privacy is of critical importance to us. We strive to protect your personal information. Therefore, we have updated our Privacy Statement and would like to share the updates with you. The updates takes effect as from today.</p>
 										<p>In particular, we have combined the Privacy Statements of Azure and Office 365 and made adjustments as shown below:</p>
@@ -267,8 +294,20 @@
                     
                 </ul> -->
                 <h1>Product Update</h1>
-                <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a>
-                
+                <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a> <!-- <h3>2019年2月</h3>
+				<ul>
+						<li>
+							<i class="icon icon-plus"></i>
+								<div>
+									<a href="#" id="service-fabric_year_2019-feb-IoT-Hub-GA-in-new-regions"><span>2/1</span> Azure IoT Hub 在中国东部 2 及中国北部 2 数据中心正式发布<i class="icon icon-update"></i></a>
+									<section>
+										<p>Azure IoT 中心（Azure IoT Hub）的现已在中国东部 2 及中国北部 2数据中心正式发布，它依靠 Azure IoT 中心轻松安全地连接物联网 (IoT) 资产，适用于多个平台（包括 Linux、Windows 和实时操作系统）的开放源代码设备 SDK 添加新设备并连接现有设备。使用标准协议和自定义协议，包括 HTTP、高级消息队列协议 (AMQP) 和 MQ 遥测传输 (MQTT)。也能借助 Azure IoT 中心新的设备管理功能，管理员可在云端大规模地远程维护、更新和管理 IoT 设备。免除自定义设备管理解决方案的开发和维护任务，或者无需再花费资源维护全球资产，从而节省了时间和成本。</p>
+										<p>要了解此服务及定价的更多信息，请访问 <a href="https://www.azure.cn/home/features/iot-hub">Azure IoT 中心服务功能</a>页面和 <a href="https://www.azure.cn/pricing/details/iot-hub/">Azure IoT 中心价格详情</a>页面；更多详细信息请访问 <a href="https://docs.azure.cn/zh-cn/iot-hub/">Azure IoT 中心 文档页面</a>。</p>
+									</section>
+								</div>
+						</li>
+                </ul> -->
+
 				<h3>December 2018</h3>
 				<ul>
 						<li>
@@ -298,7 +337,7 @@
 					<li>
 							<i class="icon icon-plus"></i>
 								<div>
-									<a href="#" id="service-fabric_year_2018-november-sqldb-vcore-gen5"><span>11/22</span>Azure SQL Database Single DB Gen5 using vCore-based purchasing model has been announced for China East 2 and China North 2 datacenters<i class="icon icon-update"></i></a>
+									<a href="#" id="service-fabric_year_2018-november-sqldb-vcore-gen5"><span>11/22</span>The single database (Single DB) Gen5 in Azure SQL Database vCore-based purchasing model has been officially released in China East 2 and China North 2 datacenters</a>
 									<section>
 										<p>Azure SQL database is a fully managed relational database with built-in intelligence supporting self-driving features, such as performance tuning and threat alerts. Microsoft performs all the patching and updating of the code base, and manages the underlying infrastructure for you, so you can save time and resources.With high SQL Server compatibility, you can also migrate your databases to SQL Database Managed Instance without changing your apps.</p>
 										<p>If flexible, controllable, and transparent independent resource usage is required, a vCore-based purchasing model is most suitable. This model allows calculation scaling, memory, and storage based on workload requirements and provides a direct way to translate local workload requirements into the cloud. The single DB Gen5 platform has been announced for China East 2 and China North 2 datacenters.</p>
@@ -309,7 +348,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-november-standard-load-balancer"><span>11/20</span>Azure Standard Load Balancer announced <i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-november-standard-load-balancer"><span>11/20</span>Azure Standard Load Balancer has been officially released</a>
 							<section>
 								<p>Standard Load Balancer supports inbound as well as outbound scenarios, provides low latency and high throughput, and scales up to millions of flows for all TCP and UDP applications. You can use load balancing rules with TCP/HTTP/HTTPS health probes, inbound NAT rules for port forwarding, and outbound rules to scale and tune your outbound connectivity.</p>
 								<p>For more information about Standard Load Balancer and its pricing, see <a href="https://www.azure.cn/zh-cn/home/features/load-balancer/">Standard Load Balancer overview page</a> and <a href="https://www.azure.cn/zh-cn/pricing/details/load-balancer/">Standard Load Balancer Pricing Details page</a>. For more details, please visit the <a href="https://docs.azure.cn/zh-cn/load-balancer/load-balancer-standard-overview">Standard Load Balancer Documentation page</a>.</p>
@@ -319,7 +358,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2018-november-customer-engagement-fabric"><span>11/12</span> Azure HDInsight Linux is now officially released in China North 2 data center<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2018-november-customer-engagement-fabric"><span>11/12</span>Azure HDInsight Linux is now officially released in China North 2 datacenter</a>
 							<section>
 								<p>Azure HDInsight is a fully-managed cloud service that makes it easy, fast, and cost-effective to process massive amounts of data. Use popular open-source frameworks such as Hadoop, Spark, Hive, LLAP, Kafka, Storm, HBase, and more. Azure HDInsight enables a broad range of scenarios such as ETL, Data Warehousing, IoT, and more.</p>
 								<p>Azure HDInsight Linux is now officially released in China North 2 data center. To learn more about this service and pricing, please visit <a href="https://www.azure.cn/zh-cn/home/features/hdinsight/">Azure HDInsight Services Feature </a>page and <a href="https://www.azure.cn/zh-cn/pricing/details/hdinsight/">Price Details </a>page. For more details, please visit<a href="https://docs.azure.cn/zh-cn/hdinsight/"> Azure HDInsight Document </a>page.</p>
@@ -328,7 +367,8 @@
 					</li>
 					<li>
 						<i class="icon icon-plus"></i>
-						<div>							<a href="#" id="service-fabric_year_2018-november-customer-engagement-fabric"><span>11/1</span>Azure Customer Engagement Fabric preview version announced <i class="icon icon-update"></i></a>
+						<div>
+							<a href="#" id="service-fabric_year_2018-november-customer-engagement-fabric"><span>11/1</span>Azure Customer Engagement Fabric preview version released</a>
 							<section>
 								<p>Customer Engagement Fabric preview version is announced. Customer Engagement Fabric (CEF) provides a series of basic services that allow interactive connectivity between the app and users, including multi-channel notification service, third-party sign-in and aggregate functions for payment. These services can help the app quickly implement relevant user connectivity functions, improve user engagement and analyze user behavior data to improve app operational efficiency.</p>
 								<p>Services formally announced in the preview version include:</p>
