@@ -39,27 +39,27 @@
 								<div>
 									<a href="#" id="service-fabric_year_2018-november-mysqldatabase"><span>11/30</span> We are ending the MySQL Database on Azure service on Dec 1st, 2019, which will be replaced by the Azure Database for MySQL service. <i class="icon icon-update"></i></a>
 									<section>
-										<p>Azure Database for MySQL provides fully managed, enterprise-ready community MySQL database as a service. With Azure Database for MySQL:</p>
+										<p>Azure Database for MySQL provides fully managed, enterprise-level MySQL database as a service. With Azure Database for MySQL:</p>
 										<ul>
 											<li>Customers can easily migrate to the cloud, using languages and frameworks of their choice.</li>
 											<li>Customers get built-in high availability and dynamic scaling, helping them easily adjust to changes in their demands.</li>
 											<li>Customers will benefit from the unparalleled security and compliance, including <a href="https://www.azure.cn/support/azure-ip-advantage/">Azure IP Advantage</a>.</li>
 										</ul>
-										<p>All this with a flexible pricing model so customers can choose resources for their workloads with no hidden cost. To know more about Azure Database for MySQL, please see <a href="https://www.azure.cn/zh-cn/home/features/mysql/">product details</a> and <a href="https://www.azure.cn/zh-cn/pricing/details/mysql">pricing details</a> pages.</p>
+										<p>All these services come with a flexible pricing model so customers can choose resources for their workloads with no hidden cost. To find out more about Azure Database for MySQL, please see the <a href="https://www.azure.cn/zh-cn/home/features/mysql/">Product Function</a> page and <a href="https://www.azure.cn/zh-cn/pricing/details/mysql">Price Details</a> page.</p>
 										<p>If you are an existing customer:</p>
 										<ul>
-										<li>No interruption of service</li>
+										<li>There will be no interruption of service</li>
 										<li>You will be automatically migrated to the new service before the end of life of the existing service</li>
 										<li>Migration will begin on Feb 15th, 2019</li>
 										<li>Special pricing will be lost when scaled to a different service tier or if server is deleted.</li>
 										<li>You will continue to pay the same price post migration. Detailed information about the SKU mapping between the old service and the new service will be published before end of December 2018.</li>
-										<li>No action necessary for now. At a minimum, 30 days prior to your scheduled migration you will receive additional notifications including the exact timeline for your migration.</li>
+										<li>There is no action necessary for now. At a minimum, 30 days prior to your scheduled migration, you will receive additional notifications including the exact timeline for your migration.</li>
 										</ul>
 										<p>If you are a new customer:</p>
 										<ul>
 										<li>You will not be accepted on the “MySQL Database on Azure” service as of the date of this announcement</li>
 										</ul>
-										<p>Please refer to <a href="https://www.azure.cn/zh-cn/support/faq#implementationAndMaintenance">MySQL Database on Azure Migration FAQs</a> for the most common questions of this migration</p>
+										<p>Please refer to <a href="https://www.azure.cn/zh-cn/support/faq#implementationAndMaintenance">MySQL Database on Azure Migration FAQs</a> for the most common questions related to this migration</p>
 									</section>
 								</div>
 							</li>
@@ -307,6 +307,19 @@
 								</div>
 						</li>
                 </ul> -->
+				<h3>January 2019</h3>
+				<ul>
+						<li>
+							<i class="icon icon-plus"></i>
+								<div>
+									<a href="#" id="service-fabric_year_2019-jan-azure-storage-ssd-e4-e6"><span>1/1</span>E4 and E6 Standard SSD Managed Disks of Azure Storage Managed Disks are now officially released<i class="icon icon-update"></i></a>
+									<section>
+										<p>Standard SSD Managed Disks, a low-cost SSD offering, are optimized for test and entry-level production workloads requiring consistent latency. Standard SSD Managed Disks can also be used for big data workloads that require high throughput. Standard SSD Managed Disks deliver lower latency compared to Standard HDDs, while improving reliability and scalability for your applications, and are available with all Azure VM sizes. Standard SSD Managed Disks can be easily upgraded to Premium SSD Managed Disks for more demanding and latency-sensitive enterprise workloads. Offered as a managed disk solution, Standard SSD Managed Disks come with the same industry leading durability and availability that you expect from Premium SSD Managed Disks. E4 and E6 Standard SSD Managed Disks are now officially released.</p>
+										<p>To understand more about this service and pricing, please visit <a href="https://www.azure.cn/home/features/storage/managed-disks/">Azure Storage Managed Disks feature page</a> and <a href="https://www.azure.cn/pricing/details/storage/managed-disks">pricing details page</a>. For more details please visit <a href="https://docs.azure.cn/storage/">Azure Storage Documentation</a>.</p>
+									</section>
+								</div>
+						</li>
+                </ul>
 
 				<h3>December 2018</h3>
 				<ul>
@@ -1190,8 +1203,7 @@
 							</section>
 						</div>
 					</li>					
-				</ul>
-            </div>                      
+				</ul></div>                      
         </div>
         <a id="_whatisnew-linkbutton" href="/what-is-new/archives/2017/" class="single-link h2-link">View Historical Circular<i class="icon icon-arrow-right-thin"></i></a>
     
