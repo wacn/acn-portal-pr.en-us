@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2019-01-14T10:41:59" urlName="cognitive-services-face" writerName="content" creatorName="content">
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2019-01-14T10:41:59" urlName="cognitive-services-content-moderator" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
             <tags ms.service="cognitive-services" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
@@ -74,63 +74,53 @@
                 }
             </style>
             <!-- BEGIN: Cognitive-Services-TopBanner -->
-            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/cognitive-face-api-slice-01.png','imageHeight':'auto'}">
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/cognitive-content-moderator-api-slice-01.png','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
-                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,face.svg" />
-                        <h2>>Face API<span>Face API</span></h2>
-                        <h4>Detect, recognize, organize, and tag faces in images</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="face_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="face_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,content-moderator.svg" />
+                        <h2>Content Moderator API<span>Content Moderator API</span></h2>
+                        <h4>Machine-assisted content moderation APIs and human review tool for images, text, and videos</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="content-moderator_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="content-moderator_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Cognitive-Services-TopBanner --> <!-- BEGIN: Cognitive-Services-Content -->
-            <div class="pricing-page-section">   
-                <h2>Face Verification</h2> 
-                <p>Examines two faces and can determine if they are the same person. The API returns a confidence rating, describes how confident it is that it is the same person.</p>
-                <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-face-c01.png" class="cognitive-banner"/>                                                                
-            </div>
-            <div class="pricing-page-section">   
-                <h2>Face Detection</h2> 
-                <p>Detects if an image contains a face or faces and locates the face in a rectangle against the background and includes machine learning to predict the characteristics of a face. Facial attributes recognized include: age, expression, gender, posture, smile, and facial hair. It can detect 27 facial attributes in an image.</p>
-                <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-face-people.png" class="cognitive-banner"/>                                                                
-            </div>
             
             <div class="pricing-page-section">
-                <!-- <div class="cognitive-figure">
-                    <div class="col-md-3">
-                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-face-verification.png"/>
-                    </div>
-                    <div class="col-md-9">
-                        <h2>人脸验证</h2>
-                        <p>核对两张脸是否属于同一个人。并给出置信度评分。</p>
-                    </div>
-                </div> -->
                 <div class="cognitive-figure">
-                    <div class="col-md-3">
-                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-face-identification.png"/>
-                    </div>
                     <div class="col-md-9">
-                        <h2>Facial Recognition</h2>
-                        <p>Search for and recognize faces. It uses user-provided data to tag a person or group to conduct a search and to match with a previously seen face.</p>
+                        <h2>Image moderation</h2>
+                        <p>Enhance your ability to detect potentially offensive or unwanted images through machine learning-based classifiers, custom lists, and optical character recognition (OCR).</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-content-moderator-image-moderation.png"/>
                     </div>
                 </div>
                 <div class="cognitive-figure">
-                    <div class="col-md-3">
-                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-face-similar-face-search.png"/>
-                    </div>
                     <div class="col-md-9">
-                        <h2>Similar Face Searches</h2>
-                        <p>Easily find similar faces. Given a set of faces and a new face, conduct a search. The API will return if a similar face is in the group.</p>
+                        <h2>Text moderation</h2>
+                        <p>Use content filtering to detect potential profanity in more than 100 languages, flag text that may be deemed inappropriate depending on context (in public preview), and match text against your custom lists. Content Moderator also helps check for personally identifiable information (PII).</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-content-moderator-text-moderation.png"/>
                     </div>
                 </div>
                 <div class="cognitive-figure">
-                    <div class="col-md-3">
-                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-face-grouping.png"/>
-                    </div>
                     <div class="col-md-9">
-                        <h2>Face Grouping</h2>
-                        <p>According to the degree of visual similarity, it will make a group from faces it cannot recognize.</p>
+                        <h2>Video moderation</h2>
+                        <p>Enable machine-assisted detection of possible adult and racy content in videos. The video moderation service (in public preview) is available as part of Azure Media Services.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-content-moderator-video-moderation.png"/>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-9">
+                        <h2>Human review tool</h2>
+                        <p>The best content moderation results come from humans and machines working together. Use the review tool when prediction confidence can be improved or tempered with a real-world context.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-content-moderator-review-tool.png"/>
                     </div>
                 </div>
 
@@ -175,11 +165,11 @@
                           
     
     ]]></bodyText>
-    <pageTitle>Facial Recognition API_Intelligent Apps - Azure Cloud Computing</pageTitle>
+    <pageTitle>Content Moderator API_Intelligent Apps – Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
-    <linkid>home-features-cognitive-services-face</linkid>
-    <metaKeywords>Azure, Cognitive Services, Cognitive Service, Facial Recognition</metaKeywords>
-    <metaDescription><![CDATA[The Azure Cognitive Services Face API can detect one or more faces in an image. It can also mark a face with a border while making a facial attribute prediction using machine learning. After a person’s face is detected, you can use the face frame directly as an input to the Emotion API to rapidly process the image. Facial features recognized include age, gender, attitude, smile, and facial hair, along with 27 important facial characteristics.]]></metaDescription>
-    <urlDisplayName>Cognitive Services – Face API</urlDisplayName>
+    <linkid>home-features-cognitive-services-content-moderator</linkid>
+    <metaKeywords>Azure, Cognitive Services, Cognitive Service, Content Moderator API</metaKeywords>
+    <metaDescription><![CDATA[Azure Content Moderator is machine-assisted content filtering software that includes content moderation APIs and a human review tool for images, text, and videos.]]></metaDescription>
+    <urlDisplayName>Cognitive Services - Content Moderator API</urlDisplayName>
   </TextpageLeftNav>
 </localize>

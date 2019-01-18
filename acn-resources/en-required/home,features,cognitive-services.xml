@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-07-07T10:41:59" urlName="cognitive-services" writerName="content" creatorName="content">
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2019-01-14T10:41:59" urlName="cognitive-services" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
             <tags ms.service="cognitive-services" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
@@ -44,6 +44,17 @@
                     min-width: 100px;
                     margin-right:-120px;
                 }
+                .common-banner-title>img{
+                    width:48px;
+                    height:48px;
+                    margin-top: 8px !important;
+                }
+                .cognitive-icon>img{
+                    width:64px;
+                    height:64px;
+                    margin:0 auto;
+                    margin-top: 20px;
+                }
                 .cognitive-text{                   
                     margin-left:120px;
                 }
@@ -61,12 +72,13 @@
                         margin-top: 26px !important;
                     }
                 }
+                
             </style>
             <!-- BEGIN: Cognitive-Services-TopBanner -->
             <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/cognitive-slice-01.png','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
-                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services.png" />
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services.svg" />
                         <h2>Cognitive Services APIs<span>Cognitive Services APIs</span></h2>
                         <h4>Provision Windows and Linux virtual machines in seconds</h4>
                         <em><a href="/pricing/1rmb-trial/" id="cognitive-services_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="cognitive-services_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
@@ -84,7 +96,7 @@
 				   
                 <ul class="cognitive-icon-group">
                     <li>
-                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,face.png"/></div>
+                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,face.svg"/></div>
                         <div class="cognitive-text">
                             <h2>Face API</h2>
                             <p>Detects the location of people’s faces within an image. Performs facial comparison, grouping, and identification based on visual similarity from faces where the user has tagged the identity.</p>
@@ -92,7 +104,7 @@
                         </div>
                     </li>                    
                     <li>
-                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,emotion.png"/></div>
+                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,emotion.svg"/></div>
                         <div class="cognitive-text">
                             <h2>Emotion API (Preview)</h1>
                             <p>Analyzes faces to detect a variety of emotions, enabling your application to provide users with personalized feedback.</p>
@@ -100,11 +112,19 @@
                         </div>
                     </li>
                     <li>
-                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,computer-vision.png"/></div>
+                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,computer-vision.svg"/></div>
                         <div class="cognitive-text">
                            <h2>Computer Vision API</h2>
                         <p>Extract rich information from images to classify and process visual data, and protect your users from harmful content.</p>
                         <p><a id="cognitive-services_computer-vision" href="/home/features/cognitive-services/computer-vision/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,content-moderator.svg"/></div>
+                        <div class="cognitive-text">
+                           <h2>Content Moderator API</h2>
+                        <p>Machine-assisted content moderation APIs and human review tool for images, text, and videos</p>
+                        <p><a id="face_content-moderator" href="/home/features/cognitive-services/content-moderator/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>
                 </ul>
@@ -117,7 +137,7 @@
     <pageTitle>Azure Cognitive Services REST API with powerful functions - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-cognitive-services</linkid>
-    <metaKeywords>Azure, Cognitive Services, Cognitive Services, API, Face API, Emotion API, Computer Vision API</metaKeywords>
+    <metaKeywords>Azure, Cognitive Services, Cognitive Services, API, Face API, Emotion API, Computer Vision API, Content Moderator API</metaKeywords>
     <metaDescription><![CDATA[Azure Cognitive Services enable you to develop applications with powerful algorithms using only a few lines of code. You can easily complete configuration across devices or platforms, whether they are iOS, Android, or Windows.]]></metaDescription>
     <urlDisplayName>Cognitive Services</urlDisplayName>
   </TextpageLeftNav>
