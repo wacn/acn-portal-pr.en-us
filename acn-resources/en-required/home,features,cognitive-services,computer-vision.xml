@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-07-07T10:41:59" urlName="cognitive-services-computer-vision" writerName="content" creatorName="content">
+  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2019-01-14T10:41:59" urlName="cognitive-services-computer-vision" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
             <tags ms.service="cognitive-services" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
@@ -44,6 +44,17 @@
                     min-width: 100px;
                     margin-right:-120px;
                 }
+                .common-banner-title>img{
+                    width:48px;
+                    height:48px;
+                    margin-top: 8px !important;
+                }
+                .cognitive-icon>img{
+                    width:64px;
+                    height:64px;
+                    margin:0 auto;
+                    margin-top: 20px;
+                }
                 .cognitive-text{                   
                     margin-left:120px;
                 }
@@ -66,7 +77,7 @@
             <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/cognitive-computer-vision-slice-01.png','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
-                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,computer-vision.png" />
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,computer-vision.svg" />
                         <h2>Computer Vision API<span>Computer Vision API</span></h2>
                         <h4>Distill actionable information from images</h4>
                         <em><a href="/pricing/1rmb-trial/" id="computer-vision_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="computer-vision_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
@@ -137,7 +148,7 @@
                 <h1>Learn about the Cognitive Services API</h1>
                 <ul class="cognitive-icon-group">
                     <li>
-                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,face.png"/></div>
+                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,face.svg"/></div>
                         <div class="cognitive-text">
                             <h2>Face API</h2>
                             <p>Detects relatively similar faces based on similar images grouped together, recognizing previously marked persons in the images.</p>
@@ -145,7 +156,7 @@
                         </div>
                     </li>                    
                     <li>
-                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,emotion.png"/></div>
+                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,emotion.svg"/></div>
                         <div class="cognitive-text">
                             <h2>Emotion API</h1>
                             <p>Analyzes the face to detect emotions and personalizes the application’s response.</p>
@@ -153,11 +164,19 @@
                         </div>
                     </li>
                     <li>
-                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,computer-vision.png"/></div>
+                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,computer-vision.svg"/></div>
                         <div class="cognitive-text">
                            <h2>Computer Vision API</h2>
                         <p>Extract enrichment data from images to categorize and handle visual data, inspect images with computer assistance, provide help for curation services.</p>
                         <p><a id="computer-vision_computer-vision" href="/home/features/cognitive-services/computer-vision/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,content-moderator.svg"/></div>
+                        <div class="cognitive-text">
+                           <h2>Content Moderator API</h2>
+                        <p>Machine-assisted content moderation APIs and human review tool for images, text, and videos</p>
+                        <p><a id="face_content-moderator" href="/home/features/cognitive-services/content-moderator/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>
                 </ul>
