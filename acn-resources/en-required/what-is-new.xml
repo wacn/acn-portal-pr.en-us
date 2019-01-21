@@ -6,6 +6,20 @@
          <div class="section-component">
             <div class="more-detail">
             	 <h1>Important Notice</h1>
+				 <h3>January 2019</h3>
+				 		<ul>
+						 	<li>
+								<i class="icon icon-plus"></i>
+								<div>
+									<a href="#" id="service-fabric_year_2019-january-webapps-python-update"><span>01/14</span>Azure App Services have updated Python 3.4.1 to 3.6.6<i class="icon icon-update"></i></a>
+									<section>
+										<p>To solve the known security issue in Python 3.4.1, we have updated all App Services running Python 3.4.1. Original Python 3.4.1 has been updated to Python 3.6.6.</p>
+										<p>We suggest you to run a test for App Services and update the code, to ensure your websites fully compatible with the new version of Python.</p>
+										<p>If you need to force App Services to run the old version of Python for special reasons, please refer to our GitHub announcement: <a href="https://github.com/Azure/app-service-announcements/issues/144">https://github.com/Azure/app-service-announcements/issues/144</a></p>
+									</section>
+								</div>
+							</li>
+				       </ul>
 				 <h3>December 2018</h3>
 				 		<ul>
 						 	<li>
