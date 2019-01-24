@@ -326,6 +326,27 @@
 						<li>
 							<i class="icon icon-plus"></i>
 								<div>
+									<a href="#" id="service-fabric_year_2019-jan-azure-azure-cognitive-services-text-analytics-api"><span>1/16</span>Azure Cognitive Services Text Analytics API officially released<i class="icon icon-update"></i></a>
+									<section>
+										<p>The Text Analytics API is a cloud-based service that provides advanced natural language processing over raw text, and includes four main functions: sentiment analysis, key phrase extraction, language detection, and entity linking.</p>
+										<p>The API is backed by resources in Microsoft Cognitive Services, a collection of machine learning and AI algorithms in the cloud, readily consumable in your development projects.</p>
+										<p>Azure Cognitive Services Text Analytics API is now officially released. For more information on this feature and its pricing, please visit <a href="https://www.azure.cn/home/features/cognitive-services/text-analytics/">Text Analytics API Feature Page</a> and <a href="https://www.azure.cn/pricing/details/cognitive-services/">Price Details Page</a>.</p>
+									</section>
+								</div>
+						</li>
+						<li>
+							<i class="icon icon-plus"></i>
+								<div>
+									<a href="#" id="service-fabric_year_2019-jan-azure-cognitive-services-content-moderator-api"><span>1/7</span>Azure Cognitive Services Content Moderator API officially released<i class="icon icon-update"></i></a>
+									<section>
+										<p>The Azure Content Moderator API is a cognitive service that checks text, image, and video content for material that is potentially offensive, risky, or otherwise undesirable. When such material is found, the service applies appropriate labels (flags) to the content. Your app can then handle flagged content in order to comply with regulations or maintain the intended environment for users.</p>
+										<p>Azure Cognitive Services Content Moderator API is now officially released. For more information on this feature and its pricing, please visit <a href="https://www.azure.cn/home/features/cognitive-services/content-moderator/">Content Moderator API Feature Page</a> and <a href="https://www.azure.cn/pricing/details/cognitive-services/">Price Details Page</a>.</p>
+									</section>
+								</div>
+						</li>
+						<li>
+							<i class="icon icon-plus"></i>
+								<div>
 									<a href="#" id="service-fabric_year_2019-jan-azure-storage-ssd-e4-e6"><span>1/1</span>E4 and E6 Standard SSD Managed Disks of Azure Storage Managed Disks are now officially released<i class="icon icon-update"></i></a>
 									<section>
 										<p>Standard SSD Managed Disks, a low-cost SSD offering, are optimized for test and entry-level production workloads requiring consistent latency. Standard SSD Managed Disks can also be used for big data workloads that require high throughput. Standard SSD Managed Disks deliver lower latency compared to Standard HDDs, while improving reliability and scalability for your applications, and are available with all Azure VM sizes. Standard SSD Managed Disks can be easily upgraded to Premium SSD Managed Disks for more demanding and latency-sensitive enterprise workloads. Offered as a managed disk solution, Standard SSD Managed Disks come with the same industry leading durability and availability that you expect from Premium SSD Managed Disks. E4 and E6 Standard SSD Managed Disks are now officially released.</p>
