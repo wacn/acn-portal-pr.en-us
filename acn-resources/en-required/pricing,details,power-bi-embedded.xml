@@ -97,11 +97,9 @@
                            <td>￥205.1138/hour<br/>(about ￥152,604.6672/month)</td>
                        </tr>
                     </table>
-					
 
                     <div class="tags-date">
-						
-						<p>Review pricing for Power BI Workspace Collections.</p>
+                        <p>Review pricing for Power BI Workspace Collections.</p>
                         <div class="tags-date">
                             <div class="ms-date">*The following prices are tax-inclusive.</div><br />                        
                         </div>
@@ -118,8 +116,12 @@
                                <td>￥ 32.86 /month</td>
                            </tr>
                         </table>
+                        <div class="tags-date">
+                            <div class="ms-date">*Power BI Workspace Collections will only be available until June 30th, 2019. Learn more about <a style="font-size:12px" href="https://docs.azure.cn/zh-cn/power-bi-embedded/migrate-from-power-bi-workspace-collections">how to migrate Power BI Workspace Collections to Power BI Embedded</a></div><br />                        
+                        </div>
 						<p>Use the Power BI Embedded service in the below applications: These applications add primary and important functions to the service. They are not fundamental a substitute for any Power BI service and are provided for third-party use.</p>
                     </div>
+                    
                     <!-- END: Table1-Content-->
                 </div>
                 <!-- END: TAB-CONTAINER-1 -->
@@ -222,7 +224,7 @@
 				
 			<div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="pricing_power-bi-embedded_contact-page">Azure Support</a> and select the self-help service or any other method to contact us for support.</p>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="pricing_power-bi-embedded_contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
 				<p>We guarantee at least 99.9% availability of Power BI Embedded when users execute API to call or embed reports. To learn more about the details of our Server Level Agreement, please visit the <a href="/support/sla/power-bi-embedded/" id="pricing_power-bi-embedded_sla">Service Level Agreements</a> page.</p> 
             </div>
             <!--  <?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />   --> <!-- BEGIN: Product-Detail-BottomBanner --> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!-- END: Product-Detail-BottomBanner -->                                                                                       

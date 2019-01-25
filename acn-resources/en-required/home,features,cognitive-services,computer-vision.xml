@@ -156,14 +156,6 @@
                         </div>
                     </li>                    
                     <li>
-                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,emotion.svg"/></div>
-                        <div class="cognitive-text">
-                            <h2>Emotion API</h1>
-                            <p>Analyzes the face to detect emotions and personalizes the application’s response.</p>
-                            <p><a id="computer-vision_emotion" href="/home/features/cognitive-services/emotion/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
-                        </div>
-                    </li>
-                    <li>
                         <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,computer-vision.svg"/></div>
                         <div class="cognitive-text">
                            <h2>Computer Vision API</h2>
@@ -177,6 +169,14 @@
                            <h2>Content Moderator API</h2>
                         <p>Machine-assisted content moderation APIs and human review tool for images, text, and videos</p>
                         <p><a id="face_content-moderator" href="/home/features/cognitive-services/content-moderator/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,text-analytics.svg"/></div>
+                        <div class="cognitive-text">
+                           <h2>Text Analytics API</h2>
+                        <p>Detect sentiment, key phrases, and language from your text</p>
+                        <p><a id="face_text-analytics" href="/home/features/cognitive-services/text-analytics/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>
                 </ul>
