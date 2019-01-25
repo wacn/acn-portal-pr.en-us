@@ -16,14 +16,14 @@
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>Azure HDInsight is a fully-managed cloud service that makes it easy, fast, and cost-effective to process massive amounts of data. Use popular open-source frameworks such as Hadoop, Spark, Hive, LLAP, Kafka, Storm, HBase and more. Azure HDInsight enables a broad range of scenarios such as ETL, Data Warehousing, IoT and more.</p>
+                <p>Azure HDInsight is a fully-managed cloud service that makes it easy, fast, and cost-effective to process massive amounts of data. Use popular open-source frameworks such as Hadoop, Spark, Hive, LLAP, Kafka, Storm, HBase, and more. Azure HDInsight enables a broad range of scenarios such as ETL, Data Warehousing, IoT, and more.</p>
                 <h2>Service features</h2>
                 <p>Preconfigured clusters optimized for different big data scenarios</p>
                 <p>99.9 % SLA on the cluster</p>
                 <p>High availability</p>
                 <p>Cost effective for cloud scale</p>
                 <p>Network Security: Secure Gateway Azure VNET Support</p>
-                <p>Data Security: Encryption +Role-based access control on Storage</p>
+                <p>Data Security: Encryption and role-based access control for Storage</p>
                 <p>Integration: Azure Cosmos DB and other Azure data services</p>
 
 				<h3>Components</h3>
@@ -48,7 +48,7 @@
 			
         	<div class="pricing-page-section">
                 <h2>Pricing Details</h2>
-				<p>HDInsight Cluster is composed of a group of nodes. In the lifecycle of the cluster, customers need to pay for these nodes. Billing starts from creation of the cluster, and ends in deletion of the cluster. Billing is done proportionately every minute.</p>
+				<p>HDInsight Clusters are composed of groups of nodes.  Customers need to pay for these nodes for the duration of the lifecycle of each cluster. Billing starts from creation of the cluster and ends in deletion of the cluster. Billing is done proportionally on a per minute basis.</p>
 				<p>HDInsight Kafka is now in a preview state, with no other extra fee charged.</p>
 				
 				<h3>Pricing Method</h3>
@@ -146,15 +146,13 @@
 						<th align="left"><strong>Number of cores</strong></th>
 						<th align="left"><strong>Memory</strong></th>
 						<th align="left"><strong>Disk size</strong></th>
-						<th align="left"><strong>Original price</strong></th>
-						<th align="left"><strong><sup style="color:#e66102; font-weight: bold">New price</sup></strong></th>
+						<th align="left"><strong>Pricing</strong></th>
 					</tr>
 					<tr>
 						<td>D1</td>
 						<td>1</td>
 						<td>3.5 GB</td>
 						<td>50 GB</td>
-						<td>￥ 1.12/hour<br />(about ￥ 833.28/month)</td>
 						<td>￥ 0.5981/month<br />(about ￥ 444.9864/month)</td>
 					</tr>
 					<tr>
@@ -162,7 +160,6 @@
 						<td>2</td>
 						<td>7 GB</td>
 						<td>100 GB</td>
-						<td>￥ 2.23/hour<br />(about ￥ 1,659.12/month)</td>
 						<td>￥ 1.2362/hour<br />(about ￥ 919.7328/month)</td>
 					</tr>
 					<tr>
@@ -170,7 +167,6 @@
 						<td>4</td>
 						<td>14 GB</td>
 						<td>200 GB</td>
-						<td>￥ 4.47/hour<br />(about ￥ 3,325.68/month)</td>
 						<td>￥ 2.4725/hour<br />(about ￥ 1,839.54/month)</td>
 					</tr>
 					<tr>
@@ -178,7 +174,6 @@
 						<td>8</td>
 						<td>28 GB</td>
 						<td>400 GB</td>
-						<td>￥ 8.94/hour<br />(about ￥ 6,651.36/month)</td>
 						<td>￥ 4.965/hour<br />(about ￥ 3,693.96/month)</td>
 					</tr>
 					<tr>
@@ -186,7 +181,6 @@
 						<td>16</td>
 						<td>56 GB</td>
 						<td>800 GB</td>
-						<td>￥ 16.07/hour<br />(about ￥ 11,956.08/month)</td>
 						<td>￥ 9.8999/hour<br />(about ￥ 7,365.5256/month)</td>
 					</tr>
 					<tr>
@@ -194,7 +188,6 @@
 						<td>2</td>
 						<td>14 GB</td>
 						<td>100 GB</td>
-						<td>￥ 2.67/hour<br />(about ￥ 1,986.48/month)</td>
 						<td>￥ 1.9717/hour<br />(about ￥ 1,466.9448/month)</td>
 					</tr>
 					<tr>
@@ -202,7 +195,6 @@
 						<td>4</td>
 						<td>28 GB</td>
 						<td>200 GB</td>
-						<td>￥ 5.34/hour<br />(about ￥ 3,972.96/month)</td>
 						<td>￥ 3.9434/hour<br />(about ￥ 2,933.8896/month)</td>
 					</tr>
 					<tr>
@@ -210,7 +202,6 @@
 						<td>8</td>
 						<td>56 GB</td>
 						<td>400 GB</td>
-						<td>￥ 9.61/hour<br />(about ￥ 7,149.84/month)</td>
 						<td>￥ 7.8867/hour<br />(about ￥ 5,867.7048/month)</td>
 					</tr>
 					<tr>
@@ -237,15 +228,13 @@
 						<th align="left"><strong>Number of cores</strong></th>
 						<th align="left"><strong>Memory</strong></th>
 						<th align="left"><strong>Disk size</strong></th>
-						<th align="left"><strong>Original price</strong></th>
-						<th align="left"><strong><sup style="color:#e66102; font-weight: bold">New price</sup></strong></th>
+						<th align="left"><strong>Pricing</strong></th>
 					</tr>
 					<tr>
 						<td>D1 v2</td>
 						<td>1</td>
 						<td>3.5 GB</td>
 						<td>50 GB</td>
-						<td>￥ 1.12/hour<br />(about ￥ 833.28/month)</td>
 						<td>￥ 0.5981/month<br />(about ￥ 444.9864/month)</td>
 					</tr>
 					<tr>
@@ -253,7 +242,6 @@
 						<td>2</td>
 						<td>7 GB</td>
 						<td>100 GB</td>
-						<td>￥ 2.23/hour<br />(about ￥ 1,659.12/month)</td>
 						<td>￥ 1.2362/hour<br />(about ￥ 919.7328/month)</td>
 					</tr>
 					<tr>
@@ -261,7 +249,6 @@
 						<td>4</td>
 						<td>14 GB</td>
 						<td>200 GB</td>
-						<td>￥ 4.47/hour<br />(about ￥ 3,325.68/month)</td>
 						<td>￥ 2.4725/hour<br />(about ￥ 1,839.54/month)</td>
 					</tr>
 					<tr>
@@ -269,7 +256,6 @@
 						<td>8</td>
 						<td>28 GB</td>
 						<td>400 GB</td>
-						<td>￥ 8.94/hour<br />(about ￥ 6,651.36/month)</td>
 						<td>￥ 4.965/hour<br />(about ￥ 3,693.96/month)</td>
 					</tr>
 					<tr>
@@ -277,7 +263,6 @@
 						<td>16</td>
 						<td>56 GB</td>
 						<td>800 GB</td>
-						<td>￥ 16.07/hour<br />(about ￥ 11,956.08/month)</td>
 						<td>￥ 9.8999/hour<br />(about ￥ 7,365.5256/month)</td>
 					</tr>
 					<tr>
@@ -285,7 +270,6 @@
 						<td>2</td>
 						<td>14 GB</td>
 						<td>100 GB</td>
-						<td>￥ 2.67/hour<br />(about ￥ 1,986.48/month)</td>
 						<td>￥ 1.9717/hour<br />(about ￥ 1,466.9448/month)</td>
 					</tr>
 					<tr>
@@ -293,7 +277,6 @@
 						<td>4</td>
 						<td>28 GB</td>
 						<td>200 GB</td>
-						<td>￥ 5.34/hour<br />(about ￥ 3,972.96/month)</td>
 						<td>￥ 3.9434/hour<br />(about ￥ 2,933.8896/month)</td>
 					</tr>
 					<tr>
@@ -301,7 +284,6 @@
 						<td>8</td>
 						<td>56 GB</td>
 						<td>400 GB</td>
-						<td>￥ 9.61/hour<br />(about ￥ 7,149.84/month)</td>
 						<td>￥ 7.8867/hour<br />(about ￥ 5,867.7048/month)</td>
 					</tr>
 					<tr>
@@ -571,7 +553,7 @@
 					                    <li>Zone Server (at least 1 node)</li>
 					                    <li>Main node/Zookeeper node (3 nodes)</li>
 					                </ul>
-					                <p>HDInsight’s Storm Cluster can deploy three kinds of roles:</p>
+					                <p>Storm clusters for HDInsight are deployed with three roles:</p>
 					                <ul>
 					                    <li>Nimbus node (2 nodes)</li>
 					                    <li>Supervision Server (at least 1 node)</li>
@@ -602,7 +584,7 @@
                             <div>
                                 <a id="HDInsight_question3">Could you give me an example on how billing works?</a>
                                 <section>
-                                    <p>If you run a cluster for 100 hours with 2 D13v2 head nodes, 3 D12v2 data nodes and 3 D11 v2 Zookeepers, the billing scenarios are as follows:</p>
+                                    <p>If you run a cluster for 100 hours with 2 D13v2 head nodes, 3 D12v2 data nodes, and 3 D11 v2 Zookeepers, the billing scenarios are as follows:</p>
                                     <p>On the Standard HDInsight Cluster - 100 hours x (2 x ￥7.8867/hour + 3 x ￥3.9434/hour + 3 x ￥1.9717/hour) = ￥3351.87</p>
                                 </section>
                             </div>
@@ -612,7 +594,7 @@
                             <div>
                                 <a id="HDInsight_question4">How can I check that I have properly stopped an HDInsight cluster and that I am not being billed for it?</a>
                                 <section>
-                                    <p>To stop the HDInsight cluster, you must delete this cluster. By default, all data an HDInsight cluster operates on resides in Azure Blob storage, so data will not be impacted by this. If you want to preserve your Hive metadata (tables and schemas), you should provision a cluster with an external metadata store. For more details, please refer to <a id="HDInsight_price_clu" style="color: #00a8d9;" href="https://docs.azure.cn/hdinsight/hdinsight-hadoop-provision-linux-clusters/">this documentation</a>.</p>
+                                    <p>To stop an HDInsight cluster, you must delete the cluster. By default, all data an HDInsight cluster operates on resides in Azure Blob storage, so data will not be impacted by this. If you want to preserve your Hive metadata (tables and schemas), you should provision a cluster with an external metadata store. For more details, please refer to <a id="HDInsight_price_clu" style="color: #00a8d9;" href="https://docs.azure.cn/hdinsight/hdinsight-hadoop-provision-linux-clusters/">this documentation</a>.</p>
                                 </section>
                             </div>
                         </li>

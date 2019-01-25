@@ -114,15 +114,40 @@
 				<div class="swiper-container">
 				<div class="banner_box swiper-wrapper" id="banner_box">
 					<div class="banner swiper-slide image-banner" style="" idx="0">
+						<a target="_blank" id="bannerBtn_0_azure_sql" href="/home/features/cognitive-services/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_cognitive-services_content-moderator&text-analytics_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
+									Azure Cognitive Services Text Analytics and Content Moderator API officially released
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Azure Cognitive Services Text Analytics and Content Moderator API officially released
+								</div>
+								<div class="banner-p device-desktop-banner desktop-banner-rem-content">
+									Text Analytics API is used to detect sentiment, key phrases, and language from your text<br/>
+									Content Moderator API is a machine-assisted content moderation API and a human review tool for images, text, and videos
+								</div>
+								<div class="banner-p device-mobile-banner">
+									Text Analytics API is used to detect sentiment, key phrases, and language from your text<br/>
+									Content Moderator API is a machine-assisted content moderation API and a human review tool for images, text, and videos
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>More</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div>
+					<div class="banner swiper-slide image-banner" style="" idx="1">
 						<a target="_blank" id="bannerBtn_0_azure_sql" href="/home/features/dns/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_dns_banner.png">
 							<div class="banner-content">
-								<div class="banner-title device-desktop-banner">
+								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
 									Azure DNS officially released
 								</div>
 								<div class="banner-title device-mobile-banner">
 									Azure DNS officially released
 								</div>
-								<div class="banner-p device-desktop-banner" >
+								<div class="banner-p device-desktop-banner desktop-banner-rem-content">
 									Super high availability, supports all common DNS record types<br/>Get DNS updates without the wait
 								</div>
 								<div class="banner-p device-mobile-banner">
@@ -137,16 +162,16 @@
 						</a>
 					</div>
 					<!--banner-->
-					<div class="banner swiper-slide image-banner" style="" idx="1">
+					<div class="banner swiper-slide image-banner" style="" idx="2">
 						<a target="_blank" id="bannerBtn_0_azure_cloud-migration-and-expansion" href="/support/legal/privacy-statement/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/privacy-statement_slice_banner.png">
 							<div class="banner-content">
-								<div class="banner-title device-desktop-banner">
+								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
 									We have updated our Privacy Statement for Online Services
 								</div>
 								<div class="banner-title device-mobile-banner">
 									We have updated our Privacy Statement for Online Services
 								</div>
-								<div class="banner-p device-desktop-banner" style="height:80px;">
+								<div class="banner-p device-desktop-banner desktop-banner-rem-content" style="height:80px;">
 									
 
 								</div>
@@ -161,43 +186,20 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="2">
+					<div class="banner swiper-slide image-banner" style="" idx="3">
 						<a target="_blank" id="bannerBtn_0_azure_customer-engagement-fabric" href="/home/features/customer-engagement-fabric/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/customer-engagement-fabric_slice_banner.png">
 							<div class="banner-content">
-								<div class="banner-title device-desktop-banner">
+								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
 									Azure Customer Engagement Fabric preview version announced
 								</div>
 								<div class="banner-title device-mobile-banner">
 									Customer Engagement Fabric preview version announced
 								</div>
-								<div class="banner-p device-desktop-banner" style="height:80px;">
+								<div class="banner-p device-desktop-banner desktop-banner-rem-content" style="height:80px;">
 									Quick implement text message notification, verification code sign on, third-party sign-in<br/>simple, flexible and efficient
 								</div>
 								<div class="banner-p device-mobile-banner">
 									Quick implement text message notification, verification code sign on, third-party sign-in<br/>simple, flexible and efficient
-								</div>
-								<span class="promo-link">
-									<div class="banner_btn">
-										<span>More</span><i class="icon icon-arrow-right"></i>
-									</div>
-								</span>
-							</div>
-						</a>
-					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="3">
-						<a target="_blank" id="bannerBtn_0_azure_cloud-migration-and-expansion" href="//docs.azure.cn/zh-cn/china-cloud-migration-and-expansion/product-overview/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure-cloud-migration-and-expansion_slice_banner.png">
-							<div class="banner-content">
-								<div class="banner-title device-desktop-banner">
-									China regions cloud migration and expansion preview now available
-								</div>
-								<div class="banner-title device-mobile-banner">
-									China regions cloud migration and expansion preview now available
-								</div>
-								<div class="banner-p device-desktop-banner" style="height:80px;">
-									Easily assess and migrate your services with an Azure China-centric approach.
-								</div>
-								<div class="banner-p device-mobile-banner">
-									Easily assess and migrate your services with an Azure China-centric approach.
 								</div>
 								<span class="promo-link">
 									<div class="banner_btn">
@@ -208,19 +210,19 @@
 						</a>
 					</div>
 					<div class="banner swiper-slide image-banner" style="" idx="4">
-						<a target="_blank" id="bannerBtn_0_azure_logic-apps" href="/home/features/logic-apps/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure-logic-apps_banner.png">
+						<a target="_blank" id="bannerBtn_0_azure_cloud-migration-and-expansion" href="//docs.azure.cn/zh-cn/china-cloud-migration-and-expansion/product-overview/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure-cloud-migration-and-expansion_slice_banner.png">
 							<div class="banner-content">
-								<div class="banner-title device-desktop-banner">
-									Release of Azure Logic Apps Preview
+								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
+									China regions cloud migration and expansion preview now available
 								</div>
 								<div class="banner-title device-mobile-banner">
-									Release of Azure Logic Apps Preview
+									China regions cloud migration and expansion preview now available
 								</div>
-								<div class="banner-p device-desktop-banner" style="height:80px;">
-									Create intuitive workflows with easy to use tools<br/>First-class support for Enterprise Integration and B2B solutions
+								<div class="banner-p device-desktop-banner desktop-banner-rem-content" style="height:80px;">
+									Easily assess and migrate your services with an Azure China-centric approach.
 								</div>
 								<div class="banner-p device-mobile-banner">
-									Create intuitive workflows with easy to use tools<br/>First-class support for Enterprise Integration and B2B solutions
+									Easily assess and migrate your services with an Azure China-centric approach.
 								</div>
 								<span class="promo-link">
 									<div class="banner_btn">
@@ -229,7 +231,8 @@
 								</span>
 							</div>
 						</a>
-					</div></div>
+					</div>
+				</div>
 				<div class="swiper-pagination"></div>
 			</div>
 				<div class="swiper-pagination"></div>
@@ -250,7 +253,7 @@
 											alt="">
 							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large" rel="nofollow"><span>Azure Updates</span><i class="icon icon-arrow-right"></i></span></div>
 							<span class="link link-sharp-btn blue large device-mobile-banner" rel="nofollow"><span>Azure Updates</span></span>
-							<p>Azure DNS Now Officially Released</p>
+							<p>Azure Cognitive Services Content Moderator API and Text Analytics API officially released</p>
 						</a>
 
 					</div>

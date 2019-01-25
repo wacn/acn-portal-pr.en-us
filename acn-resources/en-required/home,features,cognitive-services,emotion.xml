@@ -86,7 +86,9 @@
             </div>
             <!-- END: Cognitive-Services-TopBanner --> <!-- BEGIN: Cognitive-Services-Content -->
             <div class="pricing-page-section">
-                <p><strong>We will retire the Preview version of the Emotion API on February 15, 2019, as the Emotion API functions have now been integrated with the Face API. Try <a href="/home/features/cognitive-services/face/">the Face API emotion recognition function now</a>.</strong></p>
+                <div width="100%" style="background-color:#e5f1fb;margin-bottom:20px;border: 1px solid transparent;border-color: rgba(0,120,215,0.5);padding: 0 15px;">
+                    <p>As Face API now integrates emotion recognition capability in general availability, we’ll be deprecating Emotion API preview on February 15, 2019 for existing customers. Try the emotion recognition capabilities of Face API now. <a href="https://www.azure.cn/zh-cn/home/features/cognitive-services/face/">Learn more.</a></p>
+                </div>
                 <h2>Recognize facial emotions in images</h2> 
                 <p>The Emotion API takes a facial expression in an image as an input, and returns a set of emotional confidence scores for each face in the image, while using the Face API to mark the face areas. If a user has already called the Face API, they can also submit the face rectangle as an optional input.</p>
 				<p>It can detect if an emotion is anger, contempt, disgust, fear, happiness, neutral, sadness, or surprise. These emotions have characteristics that are recognized as being cross-cultural and universally expressed.</p>
@@ -94,8 +96,6 @@
                           
             </div>
             <div class="pricing-page-section"> 
-            
-
                 <h1>Learn about the Cognitive Services API</h1>
                 <ul class="cognitive-icon-group">
                     <li>
@@ -106,14 +106,6 @@
                             <p><a id="emotion_face" href="/home/features/cognitive-services/face/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>                    
-                    <li>
-                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,emotion.svg"/></div>
-                        <div class="cognitive-text">
-                            <h2>Emotion API</h1>
-                            <p>Analyzes the face to detect emotions and personalizes the application’s response.</p>
-                            <p><a id="emotion_emotion" href="/home/features/cognitive-services/emotion/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
-                        </div>
-                    </li>
                     <li>
                         <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,computer-vision.svg"/></div>
                         <div class="cognitive-text">
@@ -128,6 +120,14 @@
                            <h2>Content Moderator API</h2>
                         <p>Machine-assisted content moderation APIs and human review tool for images, text, and videos</p>
                         <p><a id="face_content-moderator" href="/home/features/cognitive-services/content-moderator/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,text-analytics.svg"/></div>
+                        <div class="cognitive-text">
+                           <h2>Text Analytics API</h2>
+                        <p>Detect sentiment, key phrases, and language from your text</p>
+                        <p><a id="face_text-analytics" href="/home/features/cognitive-services/text-analytics/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>
                 </ul>

@@ -77,7 +77,7 @@
 						<div class="tab-panel" id="tabContent2">
 			                <h4>Premium Hosting Disk</h4>
 							<p>Premium Managed Disk, based on high-performance solid state drive (SSD), aims to support I/O intensive workloads, with extremely high throughput and low delay. With the help of Premium Managed Disk, we can set a permanent disk and configure its size and performance characteristics. </p>
-							<p>The total cost of Premium Managed Disks depends on the size and number of the disks, and will be affected by the number of <a id="pricing_storage_data-transfer-1" href="/pricing/details/data-transfer/">outbound data transfers</a>. These disk sizes provide different input/output operations per second (IOPs), throughput caps, and monthly price per GB. You can choose the option that best meets your required storage size, IOPs, and throughput. Attach several persistent disks to a VM and you can configure up to 64 TB of storage per VM, and achieve 80,000 input/output operations per second and 1,600 MB per second disk throughput per VM at less than one millisecond latency for read operations. Premium Managed Disks are supported by DS-series, DSv2-series, and FS-series VM sizes which are specifically targeted for Premium Disks.</p>
+							<p>The total cost of Premium Managed Disks depends on the size and number of the disks, and will be affected by the number of <a id="pricing_storage_data-transfer-1" href="/pricing/details/data-transfer/">outbound data transfers</a>. These disk sizes provide different input/output operations per second (IOPs), throughput caps, and monthly price per GB. You can choose the option that best meets your required storage size, IOPs, and throughput. Attach several persistent disks to a VM and you can configure up to PBs of storage per VM, and achieve 80,000 input/output operations per second and 1,600 MB per second disk throughput per VM at less than one millisecond latency for read operations. Premium Managed Disks are supported by DS-series, DSv2-series, and FS-series VM sizes which are specifically targeted for Premium Disks.</p>
 							<div class="tags-date">
 								<div class="ms-date">*The following prices are tax-inclusive.</div><br />
 								<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
@@ -115,10 +115,10 @@
 									<td>￥ 490.93</td>
 									<td>￥ 906.29</td>
 									<td>￥ 1,736.83</td>
-									<td>￥ 3,322.63</td>
+									<td>¥ 3,322.63</td>
 								</tr>
 								<tr>
-									<td>IOP of every disk</td>
+									<td>IOPS of every disk</td>
 									<td>120</td>
 									<td>240</td>
 									<td>500</td>
@@ -148,16 +148,16 @@
 
 							<h4>Standard SSD Managed Disks</h4>
 							<p>Standard SSD Managed Disks, a low-cost SSD offering, are optimized for test and entry-level production workloads requiring consistent latency. Standard SSD Managed Disks can also be used for big data workloads that require high throughput. Standard SSD Managed Disks deliver lower latency compared to Standard HDDs, while improving reliability and scalability for your applications, and are available with all Azure VM sizes. Standard SSD Managed Disks can be easily upgraded to Premium SSD Managed Disks for more demanding and latency-sensitive enterprise workloads. Offered as a managed disk solution, Standard SSD Managed Disks come with the same industry leading durability and availability that you expect from Premium SSD Managed Disks.</p>
-							<p>The total cost of Standard SSD Managed Disk storage depends on the size and number of disks, the number of transactions, and the number of <a id="pricing_storage_data-transfer-2" href="/pricing/details/data-transfer/">outbound data transfers</a>. There is no difference between different Standard Disk sizes in IOPS and throughput.</p>
+							<p>The total cost of Standard SSD Managed Disk storage depends on the size and number of disks, the number of transactions, and the number of <a id="pricing_storage_data-transfer-2" href="/pricing/details/data-transfer/">outbound data transfers</a>.</p>
 							<!-- <p>以下价格反映了 50% 的促销折扣。促销活动将持续至 2017 年 9 月 30 日。</p> -->
 							<div class="tags-date">
 								<div class="ms-date">*The following prices are tax-inclusive.</div><br />
-								<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
+								<div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
 								<p>The pricing of screenshots is charged at the rate of ￥ 1.22112/GB per month.</p>
 							</div>
 							<table cellpadding="0" cellspacing="0" width="100%">
 								<tr>
-									<th></th>
+									<th align="left"><strong>Disk Types</strong></th>
 									<th align="left"><strong>E4</strong></th>
 									<th align="left"><strong>E6</strong></th>
 									<th align="left"><strong>E10</strong></th>
@@ -189,6 +189,28 @@
 									<td>￥1,563.034</td>
 									<td>￥3,126.067</td>
 								</tr>
+								<tr>
+									<td>IOPS of every disk</td>
+									<td>120 at most</td>
+									<td>240 at most</td>
+									<td>500 at most</td>
+									<td>500 at most</td>
+									<td>500 at most</td>
+									<td>500 at most</td>
+									<td>500 at most</td>
+									<td>500 at most</td>
+								</tr>
+								<tr>
+									<td>Throughput of every disk</td>
+									<td>Up to 25 MB/second</td>
+									<td>Up to 50 MB/second</td>
+									<td>Up to 60 MB/second</td>
+									<td>Up to 60 MB/second</td>
+									<td>Up to 60 MB/second</td>
+									<td>Up to 60 MB/second</td>
+									<td>Up to 60 MB/second</td>
+									<td>Up to 60 MB/second</td>
+								</tr>
 							</table>
 							<div class="tags-date">
 								<div class="ms-date">We charge ￥0.020352 for every 10,000 Standard SSD Managed Disk transactions. Any type of storage operation is considered to be a transaction, including reads, writes, and deletions.</div>
@@ -196,7 +218,7 @@
 					
 							<h4>Standard Managed Disk</h4>
 							<p>Standard Managed Disks employ a hard disk drive (HDD)-based storage medium. They are most suitable for development/testing not sensitive to performance changes and other non-frequent access workloads.</p>
-							<p>The total cost of Standard Managed Disk storage depends on the disk’s size and quantity, transaction amount and <a id="pricing_storage_data-transfer-2" href="/pricing/details/data-transfer/">outgoing Data Transfer</a>. There is no difference between different Standard Disk sizes in IOPS and throughput. </p>
+							<p>The total cost of Standard Managed Disk storage depends on the size and number of disks, the number of transactions, and the number of <a id="pricing_storage_data-transfer-2" href="/pricing/details/data-transfer/">outbound data transfers</a>.</p>
 							<!-- <p>以下价格反映了 50% 的促销折扣。促销活动将持续至 2017 年 9 月 30 日。</p> -->
 							<div class="tags-date">
 								<div class="ms-date">*The following prices are tax-inclusive.</div><br />
@@ -205,7 +227,7 @@
 							</div>
 							<table cellpadding="0" cellspacing="0" width="100%">
 								<tr>
-									<th></th>
+									<th align="left"><strong>Disk Types</strong></th>
 									<th align="left"><strong>S4</strong></th>
 									<th align="left"><strong>S6</strong></th>
 									<th align="left"><strong>S10</strong></th>
@@ -239,6 +261,28 @@
 									<td>¥ 552.96</td>
 									<td>￥ 1105.92</td>
 									<!-- <td>￥2211.84</td> -->
+								</tr>
+								<tr>
+									<td>IOPS of every disk</td>
+									<td>500 at most</td>
+									<td>500 at most</td>
+									<td>500 at most</td>
+									<td>500 at most</td>
+									<td>500 at most</td>
+									<td>500 at most</td>
+									<td>500 at most</td>
+									<td>500 at most</td>
+								</tr>
+								<tr>
+									<td>Throughput of every disk</td>
+									<td>Up to 60 MB/second</td>
+									<td>Up to 60 MB/second</td>
+									<td>Up to 60 MB/second</td>
+									<td>Up to 60 MB/second</td>
+									<td>Up to 60 MB/second</td>
+									<td>Up to 60 MB/second</td>
+									<td>Up to 60 MB/second</td>
+									<td>Up to 60 MB/second</td>
 								</tr>
 							</table>
 							<div class="tags-date">
