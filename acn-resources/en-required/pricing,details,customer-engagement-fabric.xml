@@ -9,7 +9,7 @@
                     <div class="common-banner-title">
                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/customer-engagement-fabric_icon.svg" />
                          <h2>Customer Engagement Fabric <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">(Preview)</span><span>Customer Engagement Fabric</span></h2>
-                        <h4>Provide unified API and SDK to accelerate development of customer engagement functions including notification, authentication, and payment. Through the improvement of development efficiency and unified management of user data, operational efficiency is improved.</h4>
+                        <h4>Provide unified API and SDK to accelerate development of customer engagement functions including notification, authentication, and payment. Improve operational efficiency through increased development efficiency and unified management of user data.</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_customer-engagement-fabric_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_customer-engagement-fabric_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
@@ -45,11 +45,19 @@
                         </tr>
                         <tr>
                             <td>Next 2 million</td>
-                            <td>¥0.037</td>
+                            <td>¥0.036</td>
                         </tr>
                         <tr>
-                            <td>Above 3 million</td>
-                            <td>¥0.036</td>
+                            <td>Next 3 million</td>
+                            <td>¥0.034</td>
+                        </tr>
+                        <tr>
+                            <td>Next 4 million</td>
+                            <td>¥0.032</td>
+                        </tr>
+                        <tr>
+                            <td>Above 10 million</td>
+                            <td>¥0.029</td>
                         </tr>
                     </table>
                     <br/>
@@ -73,11 +81,19 @@
                         </tr>
                         <tr>
                             <td>Next 2 million</td>
-                            <td>¥0.047</td>
+                            <td>¥0.046</td>
                         </tr>
                         <tr>
-                            <td>Above 3 million</td>
-                            <td>¥0.046</td>
+                            <td>Next 3 million</td>
+                            <td>¥0.043</td>
+                        </tr>
+                        <tr>
+                            <td>Next 4 million</td>
+                            <td>¥0.040</td>
+                        </tr>
+                        <tr>
+                            <td>Above 10 million</td>
+                            <td>¥0.036</td>
                         </tr>
                     </table>
                     <br/>
@@ -94,7 +110,7 @@
             
            <div class="pricing-page-section">
                 <h2>Support &amp; SLA</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="customer-engagement-fabric-contact-page">Azure Support</a> to select self-service or any other method to contact us for support.</p>
+                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="customer-engagement-fabric-contact-page">Azure Support</a> to select self-service or any other methods to contact us for support.</p>
 				 <p>The Customer Engagement Fabric feature doesn’t offer a Service Level Agreement during the preview period. To learn more about the details of our Service Level Agreement, please visit the <a href="/support/legal/sla/" id="pricing_customer-engagement-fabric_sla">Service Level Agreements</a> page.</p>
             </div>
                 <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                      
