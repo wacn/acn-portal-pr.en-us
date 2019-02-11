@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2018-10-31T11:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-02-01T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -22,6 +22,7 @@
 				       </ul>
 				 <h3>December 2018</h3>
 				 		<ul>
+
 						 	<li>
 								<i class="icon icon-plus"></i>
 								<div>
@@ -51,7 +52,7 @@
 					   		<li>
 								<i class="icon icon-plus"></i>
 								<div>
-									<a href="#" id="service-fabric_year_2018-november-mysqldatabase"><span>11/30</span> We are ending the MySQL Database on Azure service on Dec 1st, 2019, which will be replaced by the Azure Database for MySQL service. <i class="icon icon-update"></i></a>
+									<a href="#" id="service-fabric_year_2018-november-mysqldatabase"><span>11/30</span>We are ending the MySQL Database on Azure service on Dec 1st, 2019, which will be replaced by the Azure Database for MySQL service.</a>
 									<section>
 										<p>Azure Database for MySQL provides fully managed, enterprise-level MySQL database as a service. With Azure Database for MySQL:</p>
 										<ul>
@@ -80,7 +81,7 @@
 					       	<li>
 								<i class="icon icon-plus"></i>
 								<div>
-									<a href="#" id="service-fabric_year_2018-november-support-plans"><span>11/16</span>Azure Support Plan Notification <i class="icon icon-update"></i></a>
+									<a href="#" id="service-fabric_year_2018-november-support-plans"><span>11/16</span>Azure Support Plan Notification</a>
 									<section>
 										<p>We will be offering our new support plan from December 15. To deliver better experiences with Azure, we will continue to offer technical support services free-of-charge for enterprises. Customers who signed up for 21Vianet's Online Service Standard Agreement (OSSA) within the period of validity of your Azure agreement will get the “Developer” Support Plan. Customers who signed up for 21Vianet's Online Service Premier Agreement (OSPA) within the period of validity of your Azure agreement will get the “Standard” Support Plan. If you run business-critical workloads on Azure and would like to access services to satisfy the below needs, you may choose the paid “enterprise-tier” Premier Support Plan. Please contact your account manager for more details concerning purchase and use of “enterprise-tier” support plans.</p>
 										<ul>
@@ -321,6 +322,19 @@
 								</div>
 						</li>
                 </ul> -->
+				<h3>February 2019</h3>
+				<ul>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-feb-virtual-network"><span>2/1</span> Azure Virtual Network Global VNET Peering officially released<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Virtual Network enables many types of Azure resources, such as Azure Virtual Machines (VM), to securely communicate with each other, the internet, and on-premises networks. A virtual network is scoped to a single region. You can build a hybrid infrastructure that you control, bring your own IP addresses and DNS servers, secure your connections with an IPSec VPN or ExpressRoute, and get granular control over traffic between subnets for your private network in the cloud.</p>
+								<p>Azure Virtual Network Global VNET Peering is now officially released. To learn more about this service and pricing, please visit Virtual Network <a href="/home/features/virtual-network/" id="what-is-new_year_2019-feb-features-virtual-network">Feature</a> Page and <a href="/pricing/details/virtual-network/" id="what-is-new_year_2019-feb-pricing-virtual-network">Price Details</a> Page. For more details, please visit<a href="//docs.azure.cn/zh-cn/virtual-network/" id="what-is-new_year_2019-feb-docs-virtual-network"> Azure Virtual Network Documentation</a>.</p>
+							</section>
+						</div>
+					</li>
+				</ul>
 				<h3>January 2019</h3>
 				<ul>
 						<li>
@@ -347,7 +361,7 @@
 						<li>
 							<i class="icon icon-plus"></i>
 								<div>
-									<a href="#" id="service-fabric_year_2019-jan-azure-storage-ssd-e4-e6"><span>1/1</span>E4 and E6 Standard SSD Managed Disks of Azure Storage Managed Disks are now officially released<i class="icon icon-update"></i></a>
+									<a href="#" id="service-fabric_year_2019-jan-azure-storage-ssd-e4-e6"><span>1/1</span>E4 and E6 Standard SSD Managed Disks of Azure Storage Managed Disks are now officially released</a>
 									<section>
 										<p>Standard SSD Managed Disks, a low-cost SSD offering, are optimized for test and entry-level production workloads requiring consistent latency. Standard SSD Managed Disks can also be used for big data workloads that require high throughput. Standard SSD Managed Disks deliver lower latency compared to Standard HDDs, while improving reliability and scalability for your applications, and are available with all Azure VM sizes. Standard SSD Managed Disks can be easily upgraded to Premium SSD Managed Disks for more demanding and latency-sensitive enterprise workloads. Offered as a managed disk solution, Standard SSD Managed Disks come with the same industry leading durability and availability that you expect from Premium SSD Managed Disks. E4 and E6 Standard SSD Managed Disks are now officially released.</p>
 										<p>To understand more about this service and pricing, please visit <a href="https://www.azure.cn/home/features/storage/managed-disks/">Azure Storage Managed Disks feature page</a> and <a href="https://www.azure.cn/pricing/details/storage/managed-disks">pricing details page</a>. For more details please visit <a href="https://docs.azure.cn/storage/">Azure Storage Documentation</a>.</p>
@@ -358,10 +372,21 @@
 
 				<h3>December 2018</h3>
 				<ul>
+					<!-- <li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2018-december-service-bus"><span>12/30</span>服务总线高级层正式发布</a>
+							<section>
+								<p>Azure 服务总线是一种多租户云消息服务，可用于在应用程序和服务之间发送信息。 异步操作可实现灵活的中转消息传送、结构化的先进先出（FIFO）消息传送以及发布/订阅功能。</p>
+								<p>服务总线“高级”层在专有资源中运行，以提供更高吞吐量和更一致的性能。</p>
+								<p>Azure 服务总线高级层现已正式发布。要了解此功能及定价的信息，请访问服务总线<a href="/home/features/service-bus/" id="what-is-new_year_2018-december-features-service-bus">服务功能</a>页面和<a href="/pricing/details/service-bus/" id="what-is-new_year_2018-december-pricing-service-bus">价格详情</a>页面。更多详细信息请访问<a href="//docs.azure.cn/service-bus/" id="what-is-new_year_2018-december-docs-service-bus"> Azure 服务总线文档</a>。</p>
+							</section>
+						</div>
+					</li> -->
 						<li>
 							<i class="icon icon-plus"></i>
 								<div>
-									<a href="#" id="service-fabric_year_2018-dec-dns"><span>12/27</span>Azure DNS Now Officially Released<i class="icon icon-update"></i></a>
+									<a href="#" id="service-fabric_year_2018-dec-dns"><span>12/27</span>Azure DNS Now Officially Released</a>
 									<section>
 										<p>Host your domain in Azure for outstanding performance and availability. You can use Azure DNS to host your Domain Name System (DNS) in Azure. Manage your DNS records using the same credentials, and billing and support contract, as your other Azure services. Seamlessly integrate Azure-based services with corresponding DNS updates and streamline your end-to-end deployment process. Azure DNS is now officially released.</p>
 										<p>To understand more about this service and pricing, please visit <a href="https://www.azure.cn/zh-cn/home/features/dns">Azure DNS feature page</a> and <a href="https://www.azure.cn/zh-cn/pricing/details/dns">pricing details page</a>. For more details please visit <a href="https://docs.azure.cn/zh-cn/dns/">Azure DNS Documentation page</a>.</p>
@@ -371,7 +396,7 @@
 						<li>
 						<i class="icon icon-plus"></i>
 							<div>
-								<a href="#" id="service-fabric_year_2018-dec-expressroute"><span>12/25</span>ExpressRoute is now officially released in China East 2 and China North 2 data center<i class="icon icon-update"></i></a>
+								<a href="#" id="service-fabric_year_2018-dec-expressroute"><span>12/25</span>ExpressRoute is now officially released in China East 2 and China North 2 data center</a>
 								<section>
 									<p>ExpressRoute is now officially released in China East 2 and China North 2 data center. You can contact the local support ExpressRoute connection service provider (GDS Services Ltd.) to create a private network connection. ExpressRoute is a service that enables you to create private connections between Azure datacenters and customer-owned environment. ExpressRoute connections don't go over the public internet, and offer more reliability, faster speeds, and lower latencies than internet connections.</p>
 									<p>To understand more about this service and pricing, please visit <a href="https://www.azure.cn/zh-cn/home/features/expressroute/">ExpressRoute feature</a> page and <a href="https://www.azure.cn/zh-cn/pricing/details/expressroute/">pricing details</a> page. For more details please visit <a href="https://docs.azure.cn/zh-cn/expressroute/">ExpressRoute</a> Documentation page.</p>
