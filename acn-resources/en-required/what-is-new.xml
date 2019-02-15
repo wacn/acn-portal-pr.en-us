@@ -309,21 +309,20 @@
                     
                 </ul> -->
                 <h1>Product Update</h1>
-                <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a> <!-- <h3>2019年2月</h3>
+                <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a>
+                
+				<h3>February 2019</h3>
 				<ul>
-						<li>
+					<li>
 							<i class="icon icon-plus"></i>
 								<div>
-									<a href="#" id="service-fabric_year_2019-feb-IoT-Hub-GA-in-new-regions"><span>2/1</span> Azure IoT Hub 在中国东部 2 及中国北部 2 数据中心正式发布<i class="icon icon-update"></i></a>
+									<a href="#" id="service-fabric_year_2019-feb-IoT-Hub-GA-in-new-regions"><span>2/1</span> Azure IoT Hub is officially released in China East 2 and China North 2 data centers<i class="icon icon-update"></i></a>
 									<section>
-										<p>Azure IoT 中心（Azure IoT Hub）的现已在中国东部 2 及中国北部 2数据中心正式发布，它依靠 Azure IoT 中心轻松安全地连接物联网 (IoT) 资产，适用于多个平台（包括 Linux、Windows 和实时操作系统）的开放源代码设备 SDK 添加新设备并连接现有设备。使用标准协议和自定义协议，包括 HTTP、高级消息队列协议 (AMQP) 和 MQ 遥测传输 (MQTT)。也能借助 Azure IoT 中心新的设备管理功能，管理员可在云端大规模地远程维护、更新和管理 IoT 设备。免除自定义设备管理解决方案的开发和维护任务，或者无需再花费资源维护全球资产，从而节省了时间和成本。</p>
-										<p>要了解此服务及定价的更多信息，请访问 <a href="https://www.azure.cn/home/features/iot-hub">Azure IoT 中心服务功能</a>页面和 <a href="https://www.azure.cn/pricing/details/iot-hub/">Azure IoT 中心价格详情</a>页面；更多详细信息请访问 <a href="https://docs.azure.cn/zh-cn/iot-hub/">Azure IoT 中心 文档页面</a>。</p>
+										<p>Azure IoT Hub is now officially released in China East 2 and China North 2 data centers. It can easily connect IoT assets with Azure IoT Hub, add new devices and connect existing devices with open source device SDKs that work on multiple platforms (including Linux, Windows and real-time operating systems), and use standard protocols and custom protocols including HTTP, Premium Message Queuing Protocol (AMQP) and Message Queuing Telemetry Transport (MQTT). Using Azure IoT Hub’s device management function, administrators can also remotely maintain, update and manage IoT devices on a large scale, eliminating the need to develop and maintain custom device management solutions and expend further resources on maintaining global assets, and delivering savings in terms of both time and costs.</p>
+										<p>For more information on services and pricing, please consult the <a href="https://www.azure.cn/home/features/iot-hub">Azure IoT Hub Service Features</a> page and the <a href="https://www.azure.cn/pricing/details/iot-hub/">Azure IoT Hub Pricing Details</a> page. For more details, please visit <a href="https://docs.azure.cn/zh-cn/iot-hub/">Azure IoT Hub Documentation</a>.</p>
 									</section>
 								</div>
 						</li>
-                </ul> -->
-				<h3>February 2019</h3>
-				<ul>
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
@@ -344,7 +343,7 @@
 									<section>
 										<p>The Text Analytics API is a cloud-based service that provides advanced natural language processing over raw text, and includes four main functions: sentiment analysis, key phrase extraction, language detection, and entity linking.</p>
 										<p>The API is backed by resources in Microsoft Cognitive Services, a collection of machine learning and AI algorithms in the cloud, readily consumable in your development projects.</p>
-										<p>Azure Cognitive Services Text Analytics API is now officially released. For more information on this feature and its pricing, please visit <a href="https://www.azure.cn/home/features/cognitive-services/text-analytics/">Text Analytics API Feature Page</a> and <a href="https://www.azure.cn/pricing/details/cognitive-services/">Price Details Page</a>.</p>
+										<p>Azure Cognitive Services Text Analytics API is now officially released. For more information on this feature and its pricing, please visit <a href="https://www.azure.cn/home/features/cognitive-services/text-analytics/">Text Analytics API Feature Page</a> and <a href="https://www.azure.cn/pricing/details/cognitive-services/">Price Details Page</a>. For more details, please visit <a href="https://docs.azure.cn/cognitive-services/Text-Analytics/">Text Analytics API Documentation</a>.</p>
 									</section>
 								</div>
 						</li>
@@ -354,7 +353,7 @@
 									<a href="#" id="service-fabric_year_2019-jan-azure-cognitive-services-content-moderator-api"><span>1/7</span>Azure Cognitive Services Content Moderator API officially released<i class="icon icon-update"></i></a>
 									<section>
 										<p>The Azure Content Moderator API is a cognitive service that checks text, image, and video content for material that is potentially offensive, risky, or otherwise undesirable. When such material is found, the service applies appropriate labels (flags) to the content. Your app can then handle flagged content in order to comply with regulations or maintain the intended environment for users.</p>
-										<p>Azure Cognitive Services Content Moderator API is now officially released. For more information on this feature and its pricing, please visit <a href="https://www.azure.cn/home/features/cognitive-services/content-moderator/">Content Moderator API Feature Page</a> and <a href="https://www.azure.cn/pricing/details/cognitive-services/">Price Details Page</a>.</p>
+										<p>Azure Cognitive Services Content Moderator API is now officially released. For more information on this feature and its pricing, please visit <a href="https://www.azure.cn/home/features/cognitive-services/content-moderator/">Content Moderator API Feature Page</a> and <a href="https://www.azure.cn/pricing/details/cognitive-services/">Price Details Page</a>. For more details, please visit <a href="https://docs.azure.cn/cognitive-services/content-moderator/">Content Moderator API Documentation</a>.</p>
 									</section>
 								</div>
 						</li>
