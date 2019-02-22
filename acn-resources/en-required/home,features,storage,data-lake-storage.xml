@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2019-01-18T07:49:24" updateDate="2019-01-18T16:41:59" urlName="storage-data-lake-storage" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="storage-data-lake-storage" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure:last-child{
+                border:0; 
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'/wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/storage.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/storage@2x.png" />
+                        <h2>Azure Data Lake Storage<span>Azure Data Lake Storage</span></h2>
+                        <h4>Massively scalable, secure data lake functionality built on Azure Blob Storage</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial_storage-blobs">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia_storage-data-lake-storage">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <h2>Get powerful data lake functionality at cloud scale</h2>
+                <p>Azure Data Lake Storage Gen2 is a highly scalable and cost-effective data lake solution for big data analytics. It combines the power of a high-performance file system with massive scale and economy to help you speed your time to insight. Data Lake Storage Gen2 extends Azure Blob Storage capabilities and is optimized for analytics workloads. Data Lake Storage Gen2 is the most comprehensive data lake available.</p>
+            </div>
+            <div class="pricing-page-section">
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/data-lake-storage-fast.svg"/>
+                        <h3>Fast</h3>
+                        <p>Test models faster with a Hadoop-compatible file system that supports atomic file and folder operations and is optimized to execute jobs at lightning speed.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/data-lake-storage-scalable.svg"/>
+                        <h3>Scalable</h3>
+                        <p>Extend the global scale, durability, and performance of Azure Blob Storage, and get support for massive storage accounts.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/data-lake-storage-secure.svg"/>
+                        <h3>Secure</h3>
+                        <p>Meet the most stringent enterprise data security requirements with tools and resources like POSIX-compliant, fine-grained ACL support, object store security with at-rest encryption, Azure Active Directory integration, and storage account firewalls.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/data-lake-storage-cost.svg"/>
+                        <h3>Cost-effective</h3>
+                        <p>Get data lake functionality at cloud object store pricing levels. Data Lake Storage Gen2 provides the same lifecycle policy management and object-level tiering that’s built into Blob Storage.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-page-section">
+                <h2>Service capabilities</h2>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/data-lake-storage-massive-scalable.svg"/>
+                        <h3>Massive scalability</h3>
+                        <p>Near limitless storage for analytics data</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/data-lake-storage-cloud.svg"/>
+                        <h3>Cloud object store pricing</h3>
+                        <p>Same low-cost data storage model as Azure Blob Storage</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/data-lake-storage-few-file.svg"/>
+                        <h3>Fewer file and folder transactions</h3>
+                        <p>Atomic transactions for fewer compute cycles and faster job execution</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/data-lake-storage-secure-file.svg"/>
+                        <h3>Granular file and folder security</h3>
+                        <p>POSIX-compliant, fine-grained access control lists (ACLs)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-page-section">
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/data-lake-storage-simple-storage.svg"/>
+                        <h3>Simplified ingestion in a single store</h3>
+                        <p>Consolidated data storage using the Data Lake Storage Gen2 or Blob Storage REST API</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/data-lake-storage-blob-storage.svg"/>
+                        <h3>Full Azure Blob Storage feature set</h3>
+                        <p>Data lifecycle policy management; hot, cool, and archive tiers; and high availability/disaster recovery support</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/data-lake-storage-base-on-role.svg"/>
+                        <h3>Role-based access and storage account firewalls</h3>
+                        <p>Multi-layer security to govern data access so only users from authorized IPs can perform analytics</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/data-lake-storage-CDM.svg"/>
+                        <h3>Common data model (CDM) support</h3>
+                        <p>Ability to exchange data with powerful applications like Microsoft Dynamics 365 (for CRM) and Power BI</p>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More --> <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
+    
+    ]]></bodyText>
+    <pageTitle>Data Lake Storage for Big Data Analytics-Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-storage-data-lake-storage</linkid>
+    <metaKeywords>Azure Data Lake Storage Gen2, Data Lake Storage, Big Data Storage, Data Analytics Storage, Data Lake Storage</metaKeywords>
+    <metaDescription><![CDATA[Azure Data Lake Storage Gen2 is highly scalable and secure storage for big data analytics. Maximize costs and efficiency through full integrations with other Azure products.]]></metaDescription>
+    <urlDisplayName>Data Lake Storage for Big Data Analytics</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

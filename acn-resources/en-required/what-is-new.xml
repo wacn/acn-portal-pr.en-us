@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-02-18T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-02-20T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -217,6 +217,26 @@
 									</section>
 								</div>
 						</li> -->
+						<li>
+						<i class="icon icon-plus"></i>
+							<div>
+								<a href="#" id="service-fabric_year_2019-feb-storage"><span>2/14</span>Azure Data Lake Storage Gen2 now officially released<i class="icon icon-update"></i></a>
+								<section>
+									<p>Azure Data Lake Storage Gen2 is an uncompromising data lake platform that combines a wide variety of advanced data lake solution feature sets as well as the economy, global scale and enterprise-level security of Azure Blob Storage.</p>
+
+									<p>ADLS Gen2 has introduced many powerful features to the market:</p>
+									<ul>
+										<li>It adopts a storage model boasting the same low cost as Azure Blob Storage.</li>
+										<li>It is tightly integrated with Azure Data Factory, Azure SQL DW and Azure Databricks to accelerate development of end-to-end analysis workflows.</li>
+										<li>It will support Azure Blob Storage functions, including object layering, lifecycle policy management and high availability/disaster recovery data redundancy.</li>
+										<li>It provides a highly performing HDFS compatible file system, supports atomic operations and can reach a throughput up to 1 TB/s.</li>
+										<li>It supports Common Data Service data storage through Power BI or SQL Data Warehouse.</li>
+										<li>It features global network support by big data analysis partners and system integrators.</li>
+									</ul>
+									<p>Azure Data Lake Storage Gen2 is now officially released. To learn more about this service and pricing, please visit <a href="/home/features/storage/data-lake-storage/">Azure Data Lake Storage Gen2 Feature</a>Page.<!-- 更多详细信息请访问<a href="">Azure Data Lake Storage Gen2 文档</a>。 --></p>
+								</section>
+							</div>
+						</li>
 					<li>
 							<i class="icon icon-plus"></i>
 								<div>
@@ -243,7 +263,7 @@
 						<li>
 							<i class="icon icon-plus"></i>
 								<div>
-									<a href="#" id="service-fabric_year_2019-jan-azure-azure-cognitive-services-text-analytics-api"><span>1/16</span>Azure Cognitive Services Text Analytics API officially released<i class="icon icon-update"></i></a>
+									<a href="#" id="service-fabric_year_2019-jan-azure-azure-cognitive-services-text-analytics-api"><span>1/16</span>Azure Cognitive Services Text Analytics API officially released</a>
 									<section>
 										<p>The Text Analytics API is a cloud-based service that provides advanced natural language processing over raw text, and includes four main functions: sentiment analysis, key phrase extraction, language detection, and entity linking.</p>
 										<p>The API is backed by resources in Microsoft Cognitive Services, a collection of machine learning and AI algorithms in the cloud, readily consumable in your development projects.</p>

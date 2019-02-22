@@ -112,6 +112,16 @@
                         <p><a href="/home/features/storage/blobs/">Find out more</a></p>
                     </div>
                     <div class="col-md-4">
+                        <h2>Data Lake Storage</h2>
+                        <p>Secure, massively scalable data lake storage</p>
+                        <ul>
+                            <li>Limitless storage for analytics data</li>
+                            <li>Optimized for Apache Spark and Hadoop analytics engines</li>
+                            <li>High-performance file system with support for fine-grained ACLs</li>
+                        </ul>
+                        <p><a href="/home/features/storage/data-lake-storage/">Find out more</a></p>
+                    </div>
+                    <div class="col-md-4">
                         <h2>Queue</h2>
                         <p>Persistent queues for high-capacity Cloud Services</p>
                         <ul>
