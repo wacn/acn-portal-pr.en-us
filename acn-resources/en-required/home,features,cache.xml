@@ -24,8 +24,8 @@
                     <li>High performance</li>
                     <li>Secure</li>
                 </ul>
-                <p>Azure Redis Cache is based on the commonly used open source Redis Cache. This enables you to access the secure, professional Redis Cache operated and managed by 21Vianet. Caches created using Azure Redis Cache can be accessed from any app within Azure.</p>
-                <p>Azure Redis Cache is available in two tiers:</p>
+                <p>Azure Cache for Redis is based on the commonly used open source Redis Cache. This enables you to access the secure, professional Redis Cache operated and managed by 21Vianet. Caches created using Azure Cache for Redis can be accessed from any app within Azure.</p>
+                <p>Azure Cache for Redis is available in two tiers:</p>
                 <ul>
                     <li>Basic - Single node, multiple sizes.</li>
                     <li>Standard - Dual nodes, master/subordinate, includes Service Level Agreement (SLA) and replication support, multiple sizes.</li>
@@ -39,14 +39,14 @@
                 </ul>
                 <p>The basic tier and standard tier caches provide a maximum of 53 GB of storage, and the premium tier supports up to 530 GB and can be further expanded upon request.</p>
                 <h2>High performance</h2>
-                <p>Azure Redis Cache helps make your apps more responsive even when user load increases, and provides access to the low-latency, high-throughput functionality of the Redis Engine. This standalone distributed cache tier allows independent scaling of the data tier to deliver more efficient usage of computing resources in the application tier.</p>
+                <p>Azure Cache for Redis helps make your apps more responsive even when user load increases, and provides access to the low-latency, high-throughput functionality of the Redis Engine. This standalone distributed cache tier allows independent scaling of the data tier to deliver more efficient usage of computing resources in the application tier.</p>
 
                 <h2>Powerful functions</h2>
                 <p>Redis is a type of Premium key-value store, within which keys may include data structures such as <a id="home_redis_strings" href="http://redis.io/topics/data-types#strings" target="_blank">character strings</a>, <a id="home_redis_hashes" href="http://redis.io/topics/data-types#hashes" target="_blank">hashes</a>, <a id="home_redis_lists" href="http://redis.io/topics/data-types#lists" target="_blank">lists</a>, <a id="home_redis_sets" href="http://redis.io/topics/data-types#sets" target="_blank">sets</a> and <a id="home_redis_orderedSet" href="http://redis.io/topics/data-types#sorted-sets" target="_blank">ordered sets</a>. Redis supports single atomic operations for such data types.</p>
                 <p>Redis also allows you to set up simple <a id="home_redis_replication" href="http://redis.io/topics/replication" target=" _blank">master-slave replication</a> that automatically reconnects so you can perform initial synchronization and network partitioning quickly and without interruption.</p>
                 <p>Other features include <a id="home_redis_transactions" href="http://redis.io/topics/transactions" target=" _blank">tasks</a>, <a id="home_redis_pubsub" href="http://redis.io/topics/pubsub" target=" _blank">distribution/subscriptions</a>, <a id="home_redis_eval" href="http://redis.io/commands/eval" target=" _blank">Lua scripts</a>, <a id="home_redis_expire" href="http://redis.io/commands/expire" target=" _blank">limited-lifespan keys and configuration settings</a> that make Redis behave in a similar way to a cache.</p>
                 <p>You can use Redis with today’s <a id="home_redis_clients" href="http://redis.io/clients" target=" _blank">most commonly used programming languages</a>.</p>
-                <p>Azure Redis Cache uses Redis authentication and also supports SSL connections to Redis.</p>
+                <p>Azure Cache for Redis uses Redis authentication and also supports SSL connections to Redis.</p>
             </div>
             <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->            
     
@@ -54,9 +54,9 @@
     <pageTitle>Azure Cache for Redis_Redis Database - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-cache</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, Azure Redis Cache, Azure Cache for Redis, features</metaKeywords>
+    <metaKeywords>Azure, Microsoft Cloud, Azure Cache for Redis, Azure Cache for Redis, features</metaKeywords>
     <metaDescription><![CDATA[
-      Azure Redis Cache is a type of Premium key-store service based on the open source Redis Cache that provides data access with high throughput and consistently low latency and is available in three tiers: Basic, Standard and Premium. Azure Redis Cache makes your apps more responsive even when user load increases, and provides access to the low-latency, high-throughput functionality of the Redis Engine.
+      Azure Cache for Redis is a type of Premium key-store service based on the open source Redis Cache that provides data access with high throughput and consistently low latency and is available in three tiers: Basic, Standard and Premium. Azure Cache for Redis makes your apps more responsive even when user load increases, and provides access to the low-latency, high-throughput functionality of the Redis Engine.
  
     ]]></metaDescription>
     <urlDisplayName>Azure Cache for Redis</urlDisplayName>
