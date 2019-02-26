@@ -122,6 +122,17 @@
                         <p><a href="/home/features/storage/data-lake-storage/">Find out more</a></p>
                     </div>
                     <div class="col-md-4">
+                        <h2>Archive</h2>
+                        <p>Industry leading price point for storing rarely accessed data</p>
+                        <ul>
+                            <li>Data at rest automatically encrypted</li>
+                            <li>Seamless integration with hot and cool storage tiers</li>
+                            <li>Supported by leading data management partners</li>
+                        </ul>
+                        <p><a href="/home/features/storage/archive/">Find out more</a></p>
+
+                    </div>
+                    <div class="col-md-4">
                         <h2>Queue</h2>
                         <p>Persistent queues for high-capacity Cloud Services</p>
                         <ul>
@@ -130,6 +141,8 @@
                             <li>Restorable scaling and buffering</li>
                         </ul>
                         <p><a href="/home/features/storage/queues/">Find out more</a></p>
+                        <br/>
+                        <br/>
                     </div>
                     <div class="col-md-4">
                         <h2>Table</h2>
@@ -141,16 +154,7 @@
                         </ul>
                         <p><a href="/home/features/storage/tables/">Find out more</a></p>
                     </div>
-                    <!-- <div class="col-md-4">
-                        <h2>存档</h2>
-                        <p>对不常使用的数据进行低成本存储</p>
-                        <ul>
-                            <li>自动加密静态数据</li>
-                            <li>与热存储层和冷存储层无缝集成</li>
-                            <li>由领先的数据管理合作伙伴支持</li>
-                        </ul>
-                        <p><a href="/home/features/storage/archive/">了解更多</a></p>
-                    </div>  -->
+                    
                 </div>
             </div>
             <!-- END: Product-Detail-Content --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->
