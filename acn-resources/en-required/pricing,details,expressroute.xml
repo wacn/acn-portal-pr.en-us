@@ -192,9 +192,9 @@
             <h3>ExpressRoute Premium Edition Add-on</h3>
                     <p>ExpressRoute Premium is an add-on over the ExpressRoute Unlimited Data Plan/Metered Data Plan charges. The ExpressRoute Premium add-on provides the following capabilities:</p>
                     <ul>
-                        <li>Increased route limits for public and private peering from 4,000 routes to 10,000 routes.</li>
+                        <li>Increased routing table limit from 4,000 routes to 10,000 routes for public and private peering.</li>
                         <li>Connect any China regions through the Azure Core Network. An ExpressRoute circuit created in any China region will have access to resources across any other region. For example, a VNet created in China East can be accessed through an ExpressRoute circuit created in China North.</li>
-                        <li>Increased number of VNet links per ExpressRoute circuit from 10 to a larger limit (depending on the bandwidth of the circuit).</li>
+                        <li>Increased number of VNets that can be enabled on an ExpressRoute circuit from 10 to a larger limit (the exact number depends on the bandwidth of the circuit).</li>
                     </ul>
                     <p>For more details, please refer to the <a id="stor-sla-info" style="color: #00a8d9;" href="https://docs.azure.cn/expressroute/">ExpressRoute Service Documentation</a> page.</p>
                 <div class="more-detail">
@@ -204,7 +204,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="expressroute_dedicate-link">Which datacenters are available for ExpressRoute physical dedicate line in China?  </a>
+                                <a id="expressroute_dedicate-link">Which datacenters are available for an ExpressRoute physical dedicated line in China? </a>
                                 <section>
                                     <p>ExpressRoute physical dedicate line connections are available in China East, China East 2, China North and China North 2.</p>
                                 </section>
@@ -234,7 +234,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="expressroute-china">If I connect to one of China's ExpressRoute locations (such as Eastern China), can I access other areas in China via ExpressRoute? </a>
+                                <a id="expressroute-china">If I connect to one of China's ExpressRoute locations (such as Eastern China), can I access other regions in China via ExpressRoute? </a>
                                 <section>
                                     <p>Yes. You can purchase ExpressRoute Unlimited Data Plan/Metered Data Plan to connect from China East to China East 2. You will have access to resources across any other region in China via ExpressRoute Premium Add-on.</p>
                                 </section>
@@ -293,6 +293,15 @@
                                 <a id="expressroute-plan">Can I change the pricing plan for a circuit?</a>
                                 <section>
                                     <p>You can change your pricing plan from metered to unlimited at any time without any disruption. You can change the pricing plan from unlimited to metered by deleting the circuit under the unlimited pricing plan, and re-creating it under the metered pricing plan. Please coordinate with your service provider to provision the new circuit.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="expressroute-other-billing">What other charges will I incur when using ExpressRoute dedicated line besides the charges of traffic, port, and physical dedicated lines for cloud connection mentioned above?</a>
+                                <section>
+                                    <p>For more details of ExpressRoute dedicated line charges, please refer to <a href="https://www.azure.cn/zh-cn/pricing/details/vpn-gateway/">VPN Gateway Pricing Details</a></p>
                                 </section>
                             </div>
                         </li>

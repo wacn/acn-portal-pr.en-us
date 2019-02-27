@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2019-02-22T07:49:24" updateDate="2019-02-22T16:41:59" urlName="storage-archive" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+           <tags ms.service="storage-archive" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure:last-child{
+                border:0; 
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'/wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/storage.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/storage@2x.png" />
+                        <h2>Azure Archive Storage<span>Azure Archive Storage</span></h2>
+                        <h4>Industry leading price point for storing rarely accessed data</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_site_trial_storage-blobs">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_site_pia_storage-archive">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <ul>
+                    <li>Lowest-priced storage tier</li>
+                    <li>Data at rest automatically encrypted</li>
+                    <li>Seamless integration with hot and cool storage tiers</li>
+                    <li>Supported by leading data management partners</li>
+                </ul>
+            </div>
+            <div class="pricing-page-section">
+                <div class="cognitive-figure">
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/archive-cost.svg">
+                        <h3>Low cost, high value</h3>
+                        <p>Exponential data growth doesn’t have to mean exponential costs for data storage and management. Azure Archive Storage offers low-cost, durable, and highly available secure cloud storage for rarely accessed data with flexible latency requirements. Store terabytes of data in the cloud for only a few dollars a month, and repurpose your storage infrastructure for other critical business objectives.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/archive-secure.svg"/>
+                        <h3>Secure from the start</h3>
+                        <p>Rarely accessed doesn’t mean unimportant. Many industries require that organizations maintain multiple years of sensitive financial, medical, or employee data. When you move that data to the cloud, you want it to be protected with the highest level of security. Archive Storage provides secure data transfer to the cloud using HTTPS, and automatically secures that data at rest using 256-bit AES keys.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/archive-management.svg"/>
+                        <h3>Easier management and blob-level tiering</h3>
+                        <p>Azure Archive Storage is yet another storage tier available for blob storage. Hot, cool, and archive objects can all exist side by side in the same account. And with the introduction of blob-level tiering, you can change an object’s tier with a single click in the Azure portal, or you can use the REST API (or .NET, Java, Python, and a number of other SDKs) to programmatically change as many objects as needed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-page-section">
+                <h2>Archive Storage Use Cases</h2>
+                <div class="cognitive-figure">
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/archive-backup.svg"/>
+                        <h3>Long Term Backup Retention</h3>
+                        <p>Many organizations retain multi-year, PB sized collections of Server and Desktop data backups and store them on expensive storage arrays. Azure Archive Storage provides a secure, low-cost means for retaining those backups and freeing up storage capacity for other productive uses.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/archive-policy.svg"/>
+                        <h3>Business Policy Mandated Data Archiving</h3>
+                        <p>Companies can generate PB’s of data in the course of day to day operations and to meet legal compliance requirements. Company policies often dictate that this data (sensitive HR records, email, financial/tax records) is retained in perpetuity. Archive Storage can work with Smart Archiving offerings from ISV’s to create a low cost, content archiving solution.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/archive-healthcare.svg"/>
+                        <h3>Healthcare Data Archiving</h3>
+                        <p>Healthcare providers are increasingly required to retain patient medical record data for multi-year periods. Storage requirements for patient data can quickly escalate when the records include high resolution images and ultrasound content. Azure Archive storage enables Healthcare providers to lower their storage costs while providing secure, globally compliant storage for sensitive medical data.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-page-section">
+                <div class="cognitive-figure">
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/archive-magnetic.svg"/>
+                        <h3>Magnetic Tape Replacement</h3>
+                        <p>Maintaining tape storage infrastructure is expensive and often requires specialized equipment and expertise. Archive Storage is a cost-effective, low maintenance replacement alternative for tape storage.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/archive-media.svg"/>
+                        <h3>Digital Media Content Retention</h3>
+                        <p>Creators can generate PB’s worth of video and picture content that is used in the development of original digital media. Archive Storage gives creators a low-cost storage repository for original source content. Blob-level tiering makes it easy to shift from cold to hot storage should the need arise to use that content for another project.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/archive-safety.svg"/>
+                        <h3>Security/Public Safety data retention</h3>
+                        <p>As the number and sophistication of threats to personal and business safety continue to increase, so does the demand for video surveillance. Public and now private sector companies generate TB’s of surveillance footage daily in the course of protecting their citizens and assets. Archive Storage is a low cost option for storing that data.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More --> <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
+    
+    ]]></bodyText>
+    <pageTitle>Azure Archive Storage - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-storage-archive</linkid>
+    <metaKeywords>Azure, Archive Storage, cloud storage, data management, archive</metaKeywords>
+    <metaDescription><![CDATA[Low cost, secure cloud storage for rarely accessed data. Exponential data growth doesn’t have to mean exponential costs for data storage and management. Azure Archive Storage is designed to provide organizations with a low cost means of delivering durable, highly available, secure cloud storage for rarely accessed data with flexible latency requirements.]]></metaDescription>
+    <urlDisplayName>Azure Archive Storage</urlDisplayName>
+  </TextpageLeftNav>
+</localize>
