@@ -220,6 +220,16 @@
 						<li>
 						<i class="icon icon-plus"></i>
 							<div>
+								<a href="#" id="service-fabric_year_2019-feb-storage-tiers"><span>2/15</span>Azure Archive Storage is officially released in China East 2 and China North 2 data centers<i class="icon icon-update"></i></a>
+								<section>
+									<p>Azure Storage offers different storage tiers, which allow you to store Blob object data in the most cost-effective manner. The available tiers include Hot storage, Cool storage, and Archive storage. Archive storage has the lowest storage cost and higher data retrieval costs compared to Hot and Cool storage. This tier is intended for data that can tolerate several hours of retrieval latency and will remain in the Archive tier for at least 180 days. Archive storage enables data at rest automatically encrypted, and provides seamless integration with hot and cool storage tiers.</p>
+									<p>Azure Archive Storage is officially released in China East 2 and China North 2 data centers. To learn more about this service and pricing, please visit <a href="/home/features/storage/archive">Azure Archive Storage Service Feature </a>page and <a href="/pricing/details/storage/blobs/">Price Details </a>page. For more details, please visit <a href="//docs.azure.cn/storage/blobs/storage-blob-storage-tiers/">Azure Archive Storage Document page</a>.</p>
+								</section>
+							</div>
+						</li>
+						<li>
+						<i class="icon icon-plus"></i>
+							<div>
 								<a href="#" id="service-fabric_year_2019-feb-storage"><span>2/14</span>Azure Data Lake Storage Gen2 now officially released<i class="icon icon-update"></i></a>
 								<section>
 									<p>Azure Data Lake Storage Gen2 is an uncompromising data lake platform that combines a wide variety of advanced data lake solution feature sets as well as the economy, global scale and enterprise-level security of Azure Blob Storage.</p>
@@ -250,7 +260,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-feb-virtual-network"><span>2/1</span> Azure Virtual Network Global VNET Peering officially released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-feb-virtual-network"><span>2/1</span> Azure Virtual Network Global VNET Peering officially released</a>
 							<section>
 								<p>Azure Virtual Network enables many types of Azure resources, such as Azure Virtual Machines (VM), to securely communicate with each other, the internet, and on-premises networks. A virtual network is scoped to a single region. You can build a hybrid infrastructure that you control, bring your own IP addresses and DNS servers, secure your connections with an IPSec VPN or ExpressRoute, and get granular control over traffic between subnets for your private network in the cloud.</p>
 								<p>Azure Virtual Network Global VNET Peering is now officially released. To learn more about this service and pricing, please visit Virtual Network <a href="/home/features/virtual-network/" id="what-is-new_year_2019-feb-features-virtual-network">Feature</a> Page and <a href="/pricing/details/virtual-network/" id="what-is-new_year_2019-feb-pricing-virtual-network">Price Details</a> Page. For more details, please visit<a href="//docs.azure.cn/zh-cn/virtual-network/" id="what-is-new_year_2019-feb-docs-virtual-network"> Azure Virtual Network Documentation</a>.</p>
