@@ -34,6 +34,37 @@
                     <!-- BEGIN: Table1-Content-->
                     
                     <h2>Pricing Details</h2>
+                    <h3>Log Analytics</h3>
+                    <p>Log Analytics is billed per gigabyte (GB) of data ingested into the service.</p>
+                    <div class="tags-date">
+                        <div class="ms-date">*The following prices are tax-inclusive.</div>
+                    </div>
+                    <table  cellpadding="0" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                            <th align="left"><strong>Features</strong></th>
+                            <th align="left"><strong>Includes free units</strong></th>
+                            <th align="left"><strong>Pricing</strong></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="left_align">Data ingestion</td>
+                                <td class="left_align">5 GB per customer per month<sup>1</sup></td>
+                                <td class="left_align">¥ 23.4/GB</td>
+                            </tr>
+                            <tr>
+                                <td class="left_align">Data retention</td>
+                                <td class="left_align">31 days <sup>2</sup></td>
+                                <td class="left_align">¥ 1.02/month</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="tags-date">
+						<div class="ms-date">1.The first 5 GB of data ingested per customer to the Azure Log Analytics service every month is offered free.</div><br data-filtered="filtered">
+						<div class="ms-date">2.Every GB of data ingested into your Azure Log Analytics workspace is retained at no charge for the first 31 days.</div><br data-filtered="filtered">
+					</div>
+
                     <h3>Metrics</h3>
                     <p>Metrics show a range of time series and are billed according to the number of time series and the number of API calls performed.</p>
                     <p>Metrics queries are free before August 1, 2018. Metrics queries will be billed at the rates below from August 1, 2018 onward.</p>
