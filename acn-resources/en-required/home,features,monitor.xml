@@ -75,6 +75,9 @@
             </div>
             <!-- END: Monitor-TopBanner --> <!-- BEGIN: Monitor-Content -->
             <div class="pricing-page-section">
+                <div width="100%" style="background-color:#e5f1fb;margin-bottom:20px;border: 1px solid transparent;border-color: rgba(0,120,215,0.5);padding: 0 15px;">
+                    <p>Azure Monitor now integrates the capabilities of Log Analytics and Application Insights for powerful, end-to-end monitoring of your applications. You can also keep using Log Analytics and Application Insights on their own. <a href="https://docs.azure.cn/azure-monitor/overview">Learn more</a></p>
+                </div>
                 <div class="cognitive-figure">
                     <div class="col-md-3">
                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/manage-monitoring-data.png"/>

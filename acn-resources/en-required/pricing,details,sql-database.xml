@@ -1592,8 +1592,24 @@
             </div>
 			 <div>
                 <!-- BEGIN: Table6-Content-->
-                <h3>Advanced Threat Protection (Preview)</h3>
-                <p>SQL Advanced Threat Protection (ATP) is free during the preview period. See <a href="https://docs.azure.cn/zh-cn/sql-database/sql-advanced-threat-protection" target="_blank">Advanced Threat Protection for Azure SQL Database</a> for more information.</p>
+                <h3>Advanced Threat Protection</h3>
+                <p>SQL Advanced Threat Protection (ATP) is now officially released. Azure Security Center is offered in two tiers: Free and Standard. See <a href="https://docs.azure.cn/zh-cn/sql-database/sql-advanced-threat-protection" target="_blank">Advanced Threat Protection for Azure SQL Database</a> for more information.</p>
+                <div class="tags-date">
+                    <div class="ms-date">*The following prices are tax-inclusive.</div><br />
+                    <div class="ms-date">*Monthly price estimation is based on a usage of 31 days per month.</div>
+                </div>
+                <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <th align="left"><strong>Resource Type</strong></th>
+                        <th align="left"><strong>Free Tier</strong></th>
+                        <th align="left"><strong>Standard Tier</strong></th>
+                    </tr>
+                    <tr>
+                        <td align="left">Pricing</td>
+                        <td align="left">Free</td>
+                        <td align="left">¥ 152.64/month</td>
+                    </tr>
+                </table>
                 
                 <!-- END: Table6-Content-->
             </div>
