@@ -11,10 +11,6 @@
                 .cognitive-figure{
                     overflow: hidden;
                 }
-                .cognitive-figure .col-md-3{
-                    padding-left: 0;
-                    padding-right: 0;
-                }
                 .cognitive-figure .col-md-9{
                     padding-left: 2%;
                     padding-right: 0;
@@ -81,51 +77,58 @@
             </div>
             <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
             <div class="pricing-page-section">
-                <p>Azure provides a series of storage solution plans that can satisfy user needs in terms of scale, functionality, and budget. From low-cost archive solutions to low-latency, high throughput Premium Managed Disk products/services suitable for I/O-intensive apps, Azure has everything you need.</p>
+                <p>Azure provides a series of storage solution plans that can satisfy user needs in terms of scale, functionality, and budget. From low-cost archive solutions to low-latency, high throughput Premium Managed Disk offers suitable for I/O-intensive apps, Azure has everything you need.</p>
                 <div class="cognitive-figure">
-                    <div class="col-md-4 column">
-                        <h2>Block Blob</h2>
+                    <div class="col-md-3 column">
+                        <h3>Block Blob</h3>
                         <p>Scalable object storage for files, video, images, and non-structured and binary data. Provides options for hot, cold, and archive layers.</p>
                         <p>Free transactions available</p>
                         <p><a href="/pricing/details/storage/blobs/">See pricing</a></p>
                     </div>
-                    <div class="col-md-4 column">
-                        <h2>Page Blob</h2>
-                        <p>Page Blobs have been optimized for random read and write options. Page Blobs are well suited to scenarios where a random small segment of a known address needs to be overwritten, for example, when storing index-based and sparse data structures.</p>
-                        <p>Free transactions available</p>
-                        <p><a href="/pricing/details/storage/page-blobs/">See pricing</a></p>
+                    <div class="col-md-3 column">
+                        <h3>Azure Data Lake Storage</h3>
+                        <p>Combines the power of a Hadoop compatible file system with integrated hierarchical namespace with the massive scale and economy of Azure Blob Storage to help speed your transition from proof of concept to production.</p>
+                        <p>Starting at <strong>¥ 0.015</strong>/10,000 transactions</p>
+                        <p><a href="/pricing/details/storage/data-lake/">See pricing</a></p>
                     </div>
-                    <div class="col-md-4 column">
-                        <h2>Managed Disk</h2>
+                    <!-- <div class="col-md-4 column">
+                        <h2>页 Blob</h2>
+                        <p>页 Blob 针对随机读写选项进行了优化。页 Blob 非常适合用于需要能够覆盖已知地址上随机一小段的方案，例如存储基于索引的数据结构和稀疏数据结构。</p>
+                        <p>提供免费事务</p>
+                        <p><a href="/pricing/details/storage/page-blobs/">查看定价</a></p>
+                    </div> -->
+                    <div class="col-md-3 column">
+                        <h3>Managed Disk</h3>
                         <p>Durable and secure disks that support scalable, simple virtual machine deployment. Possesses 99.999% availability. Choose advanced (SSD) disks that achieve low latency and high throughput.</p>
                         <p>Starting at <strong>¥ 0.0044</strong>/10,000 transactions</p>
                         <p><a href="/pricing/details/storage/managed-disks/">See pricing</a></p>
                     </div>
-                    <div class="col-md-4 column">
-                        <h2>Files</h2>
+                    <div class="col-md-3 column">
+                        <h3>Files</h3>
                         <p>Completely manage file sharing in the cloud through standard Server Message Blocks (SMB) protocol. Achieve file sharing between Windows API or REST API applications.</p>
                         <p>Starting at ¥<strong> 0.01</strong></p>
                         <p><a href="/pricing/details/storage/files/">See pricing</a></p>
                     </div>
-                    <div class="col-md-4 column">
-                        <h2>Queue</h2>
-                        <p>Storage and retrieval of up to 64 KB messages. Using Storage requires asynchronous message processing.</p>
-                       	<p>Free transactions available</p>
-                        <p><a href="/pricing/details/storage/queues/">See pricing</a></p>
+                    <!-- <div class="col-md-4 column">
+                        <h2>队列</h2>
+                        <p>存储和检索最大 64 KB 的消息。用于存储要异步处理的消息。</p>
+                       	<p>提供免费事务</p>
+                        <p><a href="/pricing/details/storage/queues/">查看定价</a></p>
                     </div>
                     <div class="col-md-4 column">
-                        <h2>Table</h2>
-                        <p>Table provides NoSQL storage for unstructured and semi-structured data. It is suitable for web applications, address books, and other user data.</p>
-                        <p>Starting at ¥<strong> 0.02</strong></p>
-                        <p><a href="/pricing/details/storage/tables/">See pricing</a></p>
-                    </div>
+                        <h2>表</h2>
+                        <p>表为非结构化及半结构化数据提供 NoSQL 存储器，适用于 Web 应用程序、地址簿和其他用户数据。</p>
+                        <p><strong>0.02</strong> 元 起</p>
+                        <p><a href="/pricing/details/storage/tables/">查看定价</a></p>
+                    </div> -->
                 </div>
 
             </div>
             <div class="pricing-page-section">
-            	<!-- <h2>其他存储选项</h2>
-            	<p><a href="/pricing/details/storage/page-blobs/">页 blob</a>针对在 blob 中的随机位置写入进行了优化。它们还支持非托管磁盘。</p>
-            	<p><a href="/pricing/details/storage/tables/">表存储</a>为大规模结构化数据提供 NoSQL 键值存储。</p> -->
+            	<h2>Additional storage options</h2>
+            	<p><a href="/pricing/details/storage/page-blobs/">Page blobs</a> are optimized for writes at random locations within a blob. They also support Unmanaged Disks.</p>
+            	<p><a href="/pricing/details/storage/tables/">Table storage</a> provides a NoSQL Key-Value store for massive scale structured data.</p> 
+                <p><a href="/pricing/details/storage/queues">Queues</a> stores messages to be processed asynchronously.</p>
             
             	<h2>Data redundancy options</h2>
             	<table cellpadding="0" cellspacing="0" width="100%">
@@ -160,12 +163,22 @@
 			        <h2>FAQ</h2>
 			        <em>Expand All</em>
 			        <ul>
-			            <li>
+                        <li>
 			                <i class="icon icon-plus"></i>
 			                <div>
-			                    <a id="Storage_question1">If I only use Azure Storage for a few days a month, is the cost prorated?</a>
+			                    <a id="Storage_question3">Do all types of storage support cool/hot storage tiers?</a>
 			                    <section>
-			                        <p>Yes. Storage capacity is charged according to the daily average of data storage during a month (in GB). For example, if you consistently use 10 GB of storage space in the first half of the month and don’t use any storage space in the rest of the month, then the cost will be calculated according to the average of 5 GB of storage. However, if you use the “Cool" (limited to GPv2 accounts) or “Archive” tier for less than 30 and 180 days, respectively, you will incur an additional charge.</p>
+			                        <p>No, currently only Block Blobs offer cool/hot storage tiers.</p>
+			                    </section>
+
+			                </div>
+			            </li>
+                        <li>
+			                <i class="icon icon-plus"></i>
+			                <div>
+			                    <a id="Storage_question2">How do I know which data redundancy option  I’m using? </a>
+			                    <section>
+			                        <p>You may select redundancy while creating your storage account. After creation, you may view the redundancy by using the Azure portal or the Service Management API.</p>
 			                    </section>
 
 			                </div>
@@ -173,9 +186,9 @@
 			            <li>
 			                <i class="icon icon-plus"></i>
 			                <div>
-			                    <a id="Storage_question2">How do I know which data redundancy option I am using (see the text above)? </a>
+			                    <a id="Storage_question1">If I only use Azure Storage for a few days a month, is the cost prorated?</a>
 			                    <section>
-			                        <p>You may select redundancy while creating your storage account. After creation, you may view the redundancy by using the Azure portal or the Service Management API.</p>
+			                        <p>Yes. Storage capacity is charged according to the daily average of data storage during a month (in GB). For example, if you consistently use 10 GB of storage space in the first half of the month and don’t use any storage space in the rest of the month, then the cost will be calculated according to the average of 5 GB of storage. However, if you use the “Cool" (limited to GPv2 accounts) or “Archive” tier for less than 30 and 180 days, respectively, you will incur an additional charge.</p>
 			                    </section>
 
 			                </div>
