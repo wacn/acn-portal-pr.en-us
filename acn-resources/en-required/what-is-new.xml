@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-02-20T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-03-04T12:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -205,6 +205,19 @@
                 <h1>Product Update</h1>
                 <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a>
                 
+				<h3>March 2019</h3>
+				<ul>
+					<li>
+						<i class="icon icon-plus"></i>
+							<div>
+								<a href="#" id="service-fabric_year_2019-march-log-analytics"><span>3/1</span>Log Analytics of Azure Monitor officially released<i class="icon icon-update"></i></a>
+								<section>
+									<p>Azure Log Analytics is part of the Azure Monitor. It collects telemetry from a variety of sources and uses the query language used by Azure Data Explorer to retrieve and analyze data.</p>
+									<p>Azure Log Analytics is now officially released in China regions. To learn more about Log Analytics, please visit <a href="/home/features/monitor/" id="what-is-new_year_2019-march-features-monitor">Azure Monitor Feature </a>page and <a href="/pricing/details/monitor/" id="what-is-new_year_2019-march-pricing-monitor">Azure Monitor Price Details </a>page. For more details, please visit <a href="//docs.azure.cn/zh-cn/azure-monitor/" id="what-is-new_year_2019-march-docs-monitor">Azure Monitor Document page</a>.</p>
+								</section>
+							</div>
+						</li>
+				</ul>
 				<h3>February 2019</h3>
 				<ul>
 					<!-- <li>
@@ -250,7 +263,7 @@
 					<li>
 							<i class="icon icon-plus"></i>
 								<div>
-									<a href="#" id="service-fabric_year_2019-feb-IoT-Hub-GA-in-new-regions"><span>2/1</span> Azure IoT Hub is officially released in China East 2 and China North 2 data centers<i class="icon icon-update"></i></a>
+									<a href="#" id="service-fabric_year_2019-feb-IoT-Hub-GA-in-new-regions"><span>2/1</span> Azure IoT Hub is officially released in China East 2 and China North 2 data centers</a>
 									<section>
 										<p>Azure IoT Hub is now officially released in China East 2 and China North 2 data centers. It can easily connect IoT assets with Azure IoT Hub, add new devices and connect existing devices with open source device SDKs that work on multiple platforms (including Linux, Windows and real-time operating systems), and use standard protocols and custom protocols including HTTP, Premium Message Queuing Protocol (AMQP) and Message Queuing Telemetry Transport (MQTT). Using Azure IoT Hub’s device management function, administrators can also remotely maintain, update and manage IoT devices on a large scale, eliminating the need to develop and maintain custom device management solutions and expend further resources on maintaining global assets, and delivering savings in terms of both time and costs.</p>
 										<p>For more information on services and pricing, please consult the <a href="https://www.azure.cn/home/features/iot-hub">Azure IoT Hub Service Features</a> page and the <a href="https://www.azure.cn/pricing/details/iot-hub/">Azure IoT Hub Pricing Details</a> page. For more details, please visit <a href="https://docs.azure.cn/zh-cn/iot-hub/">Azure IoT Hub Documentation</a>.</p>
