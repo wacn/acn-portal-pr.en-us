@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-03-04T12:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-03-06T12:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -209,14 +209,28 @@
 				<ul>
 					<li>
 						<i class="icon icon-plus"></i>
-							<div>
-								<a href="#" id="service-fabric_year_2019-march-log-analytics"><span>3/1</span>Log Analytics of Azure Monitor officially released<i class="icon icon-update"></i></a>
-								<section>
-									<p>Azure Log Analytics is part of the Azure Monitor. It collects telemetry from a variety of sources and uses the query language used by Azure Data Explorer to retrieve and analyze data.</p>
-									<p>Azure Log Analytics is now officially released in China regions. To learn more about Log Analytics, please visit <a href="/home/features/monitor/" id="what-is-new_year_2019-march-features-monitor">Azure Monitor Feature </a>page and <a href="/pricing/details/monitor/" id="what-is-new_year_2019-march-pricing-monitor">Azure Monitor Price Details </a>page. For more details, please visit <a href="//docs.azure.cn/zh-cn/azure-monitor/" id="what-is-new_year_2019-march-docs-monitor">Azure Monitor Document page</a>.</p>
-								</section>
-							</div>
-						</li>
+						<div>
+							<a href="#" id="service-fabric_year_2019-march-virtual-machines"><span>3/4</span>Azure Virtual Machines M-series are officially released in China North 2 data center<i class="icon icon-update"></i></a>
+							<section>
+								<p>The Azure Virtual Machines M Series – the VM that offers the highest performance so far – are now officially released in China North 2 data center. Optimized for large in-memory workloads (such as SAP HANA) and provisioned with large RAM and vCPU capabilities, the new M Series VM can cope with the harshest environments. The M Series can support up to 128 virtual CPUs (vCPU) and 1 to 3.8 TiB of RAM. In addition, such VM instances support premium storage and can handle largest enterprise workloads.</p>
+
+								<p>The new M Series are also integrated with accelerated networking and support VM-to-VM data transmission at a speed up to 30 GB/s (Gbps). It is therefore very suitable for ultra-fast real-time database replication and backup, where you no longer have to worry about the issue of rapidly growing space in your cloud environment.</p>
+
+								<p>To understand more about this service and pricing, please visit <a href="/home/features/virtual-machines/" id="what-is-new_year_2019-march-features-virtual-machines">Azure Virtual Machines Feature</a> page and <a href="/pricing/details/virtual-machines/" id="what-is-new_year_2019-march-pricing-virtual-machines">Price Details </a>page. For more details, please visit <a href="//docs.azure.cn/zh-cn/virtual-machines/" id="what-is-new_year_2019-march-docs-virtual-machines">Azure Virtual Machines Documentation</a> page.</p>
+
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-march-log-analytics"><span>3/1</span>Log Analytics of Azure Monitor is officially released in China East 2 data center<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Log Analytics is part of the Azure Monitor. It collects telemetry from a variety of sources and uses the query language used by Azure Data Explorer to retrieve and analyze data.</p>
+								<p>Azure Log Analytics is now officially released in China East 2 data center. To learn more about Log Analytics, please visit <a href="/home/features/monitor/" id="what-is-new_year_2019-march-features-monitor">Azure Monitor Feature </a>page and <a href="/pricing/details/monitor/" id="what-is-new_year_2019-march-pricing-monitor">Azure Monitor Price Details </a>page. For more details, please visit <a href="//docs.azure.cn/zh-cn/azure-monitor/" id="what-is-new_year_2019-march-docs-monitor">Azure Monitor Document page</a>.</p>
+							</section>
+						</div>
+					</li>
 				</ul>
 				<h3>February 2019</h3>
 				<ul>
@@ -243,20 +257,20 @@
 						<li>
 						<i class="icon icon-plus"></i>
 							<div>
-								<a href="#" id="service-fabric_year_2019-feb-storage"><span>2/14</span>Azure Data Lake Storage Gen2 now officially released<i class="icon icon-update"></i></a>
+								<a href="#" id="service-fabric_year_2019-feb-storage"><span>2/14</span>Azure Data Lake Storage Gen2 now officially released</a>
 								<section>
 									<p>Azure Data Lake Storage Gen2 is an uncompromising data lake platform that combines a wide variety of advanced data lake solution feature sets as well as the economy, global scale and enterprise-level security of Azure Blob Storage.</p>
 
 									<p>ADLS Gen2 has introduced many powerful features to the market:</p>
 									<ul>
 										<li>It adopts a storage model boasting the same low cost as Azure Blob Storage.</li>
-										<li>It is tightly integrated with Azure Data Factory, Azure SQL DW and Azure Databricks to accelerate development of end-to-end analysis workflows.</li>
+										<li>It is tightly integrated with Azure SQL Data Warehouse to speed up development of end-to-end analysis workflows.</li>
 										<li>It will support Azure Blob Storage functions, including object layering, lifecycle policy management and high availability/disaster recovery data redundancy.</li>
 										<li>It provides a highly performing HDFS compatible file system, supports atomic operations and can reach a throughput up to 1 TB/s.</li>
 										<li>It supports Common Data Service data storage through Power BI or SQL Data Warehouse.</li>
 										<li>It features global network support by big data analysis partners and system integrators.</li>
 									</ul>
-									<p>Azure Data Lake Storage Gen2 is now officially released. To learn more about this service and pricing, please visit <a href="/home/features/storage/data-lake-storage/">Azure Data Lake Storage Gen2 Feature</a>Page.<!-- 更多详细信息请访问<a href="">Azure Data Lake Storage Gen2 文档</a>。 --></p>
+									<p>Azure Data Lake Storage Gen2 is now officially released. To understand more about this service and pricing, please visit <a href="/home/features/storage/data-lake-storage/">Azure Data Lake Storage Gen2 Feature</a> page and <a href="/pricing/details/storage/data-lake">Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/storage/blobs/data-lake-storage-introduction">Azure Data Lake Storage Gen2 Documentation</a> page.</p>
 								</section>
 							</div>
 						</li>

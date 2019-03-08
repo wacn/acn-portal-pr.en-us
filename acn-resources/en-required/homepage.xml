@@ -114,6 +114,52 @@
 				<div class="swiper-container">
 				<div class="banner_box swiper-wrapper" id="banner_box">
 					<div class="banner swiper-slide image-banner" style="" idx="0">
+						<a target="_blank" id="bannerBtn_0_azure_virtual-machines" href="/home/features/virtual-machines/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_virtual-machine_m-series_slice_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
+									Azure Virtual Machines M-series are officially released in China North 2 data center
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Azure Virtual Machines M-series are officially released in China North 2 data center
+								</div>
+								<div class="banner-p device-desktop-banner desktop-banner-rem-content" style="height:80px;">
+									Optimized for large in-memory workloads, provisioned with large RAM and vCPU capabilities<br/>Coupled with accelerated networking and premium storage, ideal for largest enterprise workload deployment
+								</div>
+								<div class="banner-p device-mobile-banner">
+									Optimized for large in-memory workloads, provisioned with large RAM and vCPU capabilities<br/>Coupled with accelerated networking and premium storage, ideal for largest enterprise workload deployment
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>More</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div>
+					<div class="banner swiper-slide image-banner" style="" idx="1">
+						<a target="_blank" id="bannerBtn_0_azure_cloud-migration-and-expansion" href="/home/features/storage/data-lake-storage/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure-storage-data-lake_slice_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
+									Azure Data Lake Storage Gen2 now officially released
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Azure Data Lake Storage Gen2 now officially released
+								</div>
+								<div class="banner-p device-desktop-banner desktop-banner-rem-content" style="height:80px;">
+									Highly scalable and cost-effective data lake solution for big data analytics
+								</div>
+								<div class="banner-p device-mobile-banner">
+									Highly scalable and cost-effective data lake solution for big data analytics
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>More</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div>
+					<div class="banner swiper-slide image-banner" style="" idx="2">
 						<a target="_blank" id="bannerBtn_0_azure_sql" href="/home/features/cognitive-services/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_cognitive-services_content-moderator&text-analytics_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
@@ -138,7 +184,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="1">
+					<div class="banner swiper-slide image-banner" style="" idx="3">
 						<a target="_blank" id="bannerBtn_0_azure_sql" href="/home/features/dns/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_dns_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
@@ -162,7 +208,7 @@
 						</a>
 					</div>
 					<!--banner-->
-					<div class="banner swiper-slide image-banner" style="" idx="2">
+					<div class="banner swiper-slide image-banner" style="" idx="4">
 						<a target="_blank" id="bannerBtn_0_azure_cloud-migration-and-expansion" href="/support/legal/privacy-statement/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/privacy-statement_slice_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
@@ -186,52 +232,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="3">
-						<a target="_blank" id="bannerBtn_0_azure_customer-engagement-fabric" href="/home/features/customer-engagement-fabric/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/customer-engagement-fabric_slice_banner.png">
-							<div class="banner-content">
-								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
-									Azure Customer Engagement Fabric preview version announced
-								</div>
-								<div class="banner-title device-mobile-banner">
-									Customer Engagement Fabric preview version announced
-								</div>
-								<div class="banner-p device-desktop-banner desktop-banner-rem-content" style="height:80px;">
-									Quick implement text message notification, verification code sign on, third-party sign-in<br/>simple, flexible and efficient
-								</div>
-								<div class="banner-p device-mobile-banner">
-									Quick implement text message notification, verification code sign on, third-party sign-in<br/>simple, flexible and efficient
-								</div>
-								<span class="promo-link">
-									<div class="banner_btn">
-										<span>More</span><i class="icon icon-arrow-right"></i>
-									</div>
-								</span>
-							</div>
-						</a>
-					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="4">
-						<a target="_blank" id="bannerBtn_0_azure_cloud-migration-and-expansion" href="//docs.azure.cn/zh-cn/china-cloud-migration-and-expansion/product-overview/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure-cloud-migration-and-expansion_slice_banner.png">
-							<div class="banner-content">
-								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
-									China regions cloud migration and expansion preview now available
-								</div>
-								<div class="banner-title device-mobile-banner">
-									China regions cloud migration and expansion preview now available
-								</div>
-								<div class="banner-p device-desktop-banner desktop-banner-rem-content" style="height:80px;">
-									Easily assess and migrate your services with an Azure China-centric approach.
-								</div>
-								<div class="banner-p device-mobile-banner">
-									Easily assess and migrate your services with an Azure China-centric approach.
-								</div>
-								<span class="promo-link">
-									<div class="banner_btn">
-										<span>More</span><i class="icon icon-arrow-right"></i>
-									</div>
-								</span>
-							</div>
-						</a>
-					</div>
+					
 				</div>
 				<div class="swiper-pagination"></div>
 			</div>
