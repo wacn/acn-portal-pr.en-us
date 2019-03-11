@@ -114,6 +114,29 @@
 				<div class="swiper-container">
 				<div class="banner_box swiper-wrapper" id="banner_box">
 					<div class="banner swiper-slide image-banner" style="" idx="0">
+						<a target="_blank" id="bannerBtn_0_azure_Azure-Kuberentes" href="https://azure.microsoft.com/services/kubernetes-service/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_kubernetes_service2_slice_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
+									21Vianet Azure Kubernetes Service (AKS)<br/>public preview version released
+								</div>
+								<div class="banner-title device-mobile-banner">
+									21Vianet Azure Kubernetes Service (AKS)<br/>public preview version released
+								</div>
+								<div class="banner-p device-desktop-banner desktop-banner-rem-content" style="height:80px;">
+									Please contact 21Vianet sales or distributors for technical support and offer plan details of Azure Kubernetes Service (AKS) in China.
+								</div>
+								<div class="banner-p device-mobile-banner">
+									Please contact 21Vianet sales or distributors for technical support and offer plan details of Azure Kubernetes Service (AKS) in China.
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>More</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div>
+					<div class="banner swiper-slide image-banner" style="" idx="1">
 						<a target="_blank" id="bannerBtn_0_azure_virtual-machines" href="/home/features/virtual-machines/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_virtual-machine_m-series_slice_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
@@ -136,7 +159,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="1">
+					<div class="banner swiper-slide image-banner" style="" idx="2">
 						<a target="_blank" id="bannerBtn_0_azure_cloud-migration-and-expansion" href="/home/features/storage/data-lake-storage/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure-storage-data-lake_slice_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
@@ -159,7 +182,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="2">
+					<div class="banner swiper-slide image-banner" style="" idx="3">
 						<a target="_blank" id="bannerBtn_0_azure_sql" href="/home/features/cognitive-services/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_cognitive-services_content-moderator&text-analytics_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
@@ -184,7 +207,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="3">
+					<div class="banner swiper-slide image-banner" style="" idx="4">
 						<a target="_blank" id="bannerBtn_0_azure_sql" href="/home/features/dns/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_dns_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
@@ -208,30 +231,6 @@
 						</a>
 					</div>
 					<!--banner-->
-					<div class="banner swiper-slide image-banner" style="" idx="4">
-						<a target="_blank" id="bannerBtn_0_azure_cloud-migration-and-expansion" href="/support/legal/privacy-statement/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/privacy-statement_slice_banner.png">
-							<div class="banner-content">
-								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
-									We have updated our Privacy Statement for Online Services
-								</div>
-								<div class="banner-title device-mobile-banner">
-									We have updated our Privacy Statement for Online Services
-								</div>
-								<div class="banner-p device-desktop-banner desktop-banner-rem-content" style="height:80px;">
-									
-
-								</div>
-								<div class="banner-p device-mobile-banner">
-									
-								</div>
-								<span class="promo-link">
-									<div class="banner_btn">
-										<span>More</span><i class="icon icon-arrow-right"></i>
-									</div>
-								</span>
-							</div>
-						</a>
-					</div>
 					
 				</div>
 				<div class="swiper-pagination"></div>
