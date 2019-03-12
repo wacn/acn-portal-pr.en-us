@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-03-06T12:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-03-08T12:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -210,6 +210,18 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
+							<a href="#" id="service-fabric_year_2019-march-kubernetes-service"><span>3/8</span>21Vianet Azure Kubernetes Service (AKS) public preview version released<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Kubernetes Service (AKS) manages your hosted Kubernetes environment, making it quick and easy to deploy and manage containerized applications without container orchestration expertise. It also eliminates the burden of ongoing operations and maintenance by provisioning, upgrading, and scaling resources on demand, without taking your applications offline.</p>
+
+								<p>To understand more about this service, please visit<a href="//azure.microsoft.com/zh-cn/services/kubernetes-service/" id="what-is-new_year_2019-march-features-kubernetes-service"> Azure Kubernetes Feature</a> page. Please contact 21Vianet sales or distributors for technical support and offer plan details of Azure Kubernetes Service (AKS) in China.</p>
+
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
 							<a href="#" id="service-fabric_year_2019-march-virtual-machines"><span>3/4</span>Azure Virtual Machines M-series are officially released in China North 2 data center<i class="icon icon-update"></i></a>
 							<section>
 								<p>The Azure Virtual Machines M Series – the VM that offers the highest performance so far – are now officially released in China North 2 data center. Optimized for large in-memory workloads (such as SAP HANA) and provisioned with large RAM and vCPU capabilities, the new M Series VM can cope with the harshest environments. The M Series can support up to 128 virtual CPUs (vCPU) and 1 to 3.8 TiB of RAM. In addition, such VM instances support premium storage and can handle largest enterprise workloads.</p>
@@ -224,7 +236,17 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-march-log-analytics"><span>3/1</span>Log Analytics of Azure Monitor is officially released in China East 2 data center<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-march-cosmosdb"><span>3/1</span>Azure Cosmos DB Multi-Master support official released<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Cosmos DB is a globally distributed, multi-model database service that supports document, key/value pairs, wide-column, and graph databases. With the click of a button, Cosmos DB enables you to elastically and independently scale throughput and storage across any number of Azure's geographic regions and take advantage of fast, single-digit-millisecond data access using your favorite API among SQL, MongoDB, Cassandra, Tables, or Gremlin. With multi-master, Azure Cosmos DB delivers a single digit millisecond write latency at the 99th percentile anywhere in the world, and now offers 99.999 percent write availability (in addition to 99.999 percent read availability) backed by the industry-leading <a href="/support/sla/cosmos-db/">SLAs</a>, providing throughput, latency, availability, and consistency guarantees, something no other database service can offer.</p>
+								<p>Azure Cosmos DB Multi-Master support is now official released. To learn more about Azure Cosmos DB, please visit <a href="/home/features/cosmos-db/" id="what-is-new_year_2019-march-features-cosmos-db">Azure Cosmos DB Feature</a> page and <a href="/pricing/details/cosmos-db/" id="what-is-new_year_2019-march-pricing-cosmos-db">Azure Cosmos DB Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/cosmos-db/" id="what-is-new_year_2019-march-docs-cosmos-db">Azure Cosmos DB Document page</a>.</p>
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-march-log-analytics"><span>3/1</span>Log Analytics of Azure Monitor is officially released in China East 2 data center</a>
 							<section>
 								<p>Azure Log Analytics is part of the Azure Monitor. It collects telemetry from a variety of sources and uses the query language used by Azure Data Explorer to retrieve and analyze data.</p>
 								<p>Azure Log Analytics is now officially released in China East 2 data center. To learn more about Log Analytics, please visit <a href="/home/features/monitor/" id="what-is-new_year_2019-march-features-monitor">Azure Monitor Feature </a>page and <a href="/pricing/details/monitor/" id="what-is-new_year_2019-march-pricing-monitor">Azure Monitor Price Details </a>page. For more details, please visit <a href="//docs.azure.cn/zh-cn/azure-monitor/" id="what-is-new_year_2019-march-docs-monitor">Azure Monitor Document page</a>.</p>
@@ -247,7 +269,7 @@
 						<li>
 						<i class="icon icon-plus"></i>
 							<div>
-								<a href="#" id="service-fabric_year_2019-feb-storage-tiers"><span>2/15</span>Azure Archive Storage is officially released in China East 2 and China North 2 data centers<i class="icon icon-update"></i></a>
+								<a href="#" id="service-fabric_year_2019-feb-storage-tiers"><span>2/15</span>Azure Archive Storage is officially released in China East 2 and China North 2 data centers</a>
 								<section>
 									<p>Azure Storage offers different storage tiers, which allow you to store Blob object data in the most cost-effective manner. The available tiers include Hot storage, Cool storage, and Archive storage. Archive storage has the lowest storage cost and higher data retrieval costs compared to Hot and Cool storage. This tier is intended for data that can tolerate several hours of retrieval latency and will remain in the Archive tier for at least 180 days. Archive storage enables data at rest automatically encrypted, and provides seamless integration with hot and cool storage tiers.</p>
 									<p>Azure Archive Storage is officially released in China East 2 and China North 2 data centers. To learn more about this service and pricing, please visit <a href="/home/features/storage/archive">Azure Archive Storage Service Feature </a>page and <a href="/pricing/details/storage/blobs/">Price Details </a>page. For more details, please visit <a href="//docs.azure.cn/storage/blobs/storage-blob-storage-tiers/">Azure Archive Storage Document page</a>.</p>
