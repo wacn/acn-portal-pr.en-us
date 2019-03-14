@@ -118,7 +118,7 @@
      <a id="CDN_price_premium-version">What is the difference between the Premium tier and the Standard tier of the CDN service?</a>
                                 <section>
                                     <p>Azure CDN Standard refers to static content acceleration, including web page acceleration, download acceleration, and VOD acceleration.</p>
-                                    <p>Azure CDN Premium refers to customized acceleration scenarios beyond the Azure CDN Standard, including live stream acceleration.</p>
+                                    <p>Premium CDN service refers to accelerations other than the Standard CDN service, including live-streaming acceleration and HTTPS with Azure supplied certificate. HTTPS with Azure supplied certificate is a legacy feature that only supports customers in use and will be deprecated starting July 1st 2019.</p>
                                 </section>
 
                             </div>

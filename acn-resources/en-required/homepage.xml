@@ -137,6 +137,29 @@
 						</a>
 					</div>
 					<div class="banner swiper-slide image-banner" style="" idx="1">
+						<a target="_blank" id="bannerBtn_0_azure_monitor" href="/home/features/monitor/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_monitor_banner.png">
+							<div class="banner-content">
+								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
+									Azure Log Analytics is officially released in China East 2 data center
+								</div>
+								<div class="banner-title device-mobile-banner">
+									Azure Log Analytics is officially released in China East 2 data center
+								</div>
+								<div class="banner-p device-desktop-banner desktop-banner-rem-content">
+									As part of the Azure Monitor, it collects telemetry from a variety of sources and uses the query language used by Azure Data Explorer to retrieve and analyze data
+								</div>
+								<div class="banner-p device-mobile-banner">
+									As part of the Azure Monitor, it collects telemetry from a variety of sources and uses the query language used by Azure Data Explorer to retrieve and analyze data
+								</div>
+								<span class="promo-link">
+									<div class="banner_btn">
+										<span>More</span><i class="icon icon-arrow-right"></i>
+									</div>
+								</span>
+							</div>
+						</a>
+					</div>
+					<div class="banner swiper-slide image-banner" style="" idx="2">
 						<a target="_blank" id="bannerBtn_0_azure_virtual-machines" href="/home/features/virtual-machines/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_virtual-machine_m-series_slice_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
@@ -159,7 +182,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="2">
+					<div class="banner swiper-slide image-banner" style="" idx="3">
 						<a target="_blank" id="bannerBtn_0_azure_cloud-migration-and-expansion" href="/home/features/storage/data-lake-storage/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure-storage-data-lake_slice_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
@@ -182,7 +205,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="3">
+					<div class="banner swiper-slide image-banner" style="" idx="4">
 						<a target="_blank" id="bannerBtn_0_azure_sql" href="/home/features/cognitive-services/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_cognitive-services_content-moderator&text-analytics_banner.png">
 							<div class="banner-content">
 								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
@@ -198,29 +221,6 @@
 								<div class="banner-p device-mobile-banner">
 									Text Analytics API is used to detect sentiment, key phrases, and language from your text<br/>
 									Content Moderator API is a machine-assisted content moderation API and a human review tool for images, text, and videos
-								</div>
-								<span class="promo-link">
-									<div class="banner_btn">
-										<span>More</span><i class="icon icon-arrow-right"></i>
-									</div>
-								</span>
-							</div>
-						</a>
-					</div>
-					<div class="banner swiper-slide image-banner" style="" idx="4">
-						<a target="_blank" id="bannerBtn_0_azure_sql" href="/home/features/dns/" class="background container" rel="nofollow"> <img class="img-responsive" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/azure_dns_banner.png">
-							<div class="banner-content">
-								<div class="banner-title device-desktop-banner desktop-banner-rem-title">
-									Azure DNS officially released
-								</div>
-								<div class="banner-title device-mobile-banner">
-									Azure DNS officially released
-								</div>
-								<div class="banner-p device-desktop-banner desktop-banner-rem-content">
-									Super high availability, supports all common DNS record types<br/>Get DNS updates without the wait
-								</div>
-								<div class="banner-p device-mobile-banner">
-									Ultra-high availability<br/>Supports all common DNS record types<br/>Get DNS updates without the wait 
 								</div>
 								<span class="promo-link">
 									<div class="banner_btn">
@@ -253,7 +253,7 @@
 											alt="">
 							<div class="device-desktop-banner"><span class="link link-sharp-btn blue large" rel="nofollow"><span>Azure Updates</span><i class="icon icon-arrow-right"></i></span></div>
 							<span class="link link-sharp-btn blue large device-mobile-banner" rel="nofollow"><span>Azure Updates</span></span>
-							<p>21Vianet Azure Kubernetes Service (AKS) public preview version released</p>
+							<p>Alert rules feature of Azure Monitor officially released in China East and China North data centers</p>
 						</a>
 
 					</div>
