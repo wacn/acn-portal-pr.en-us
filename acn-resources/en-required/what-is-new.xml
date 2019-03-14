@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-03-08T12:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-03-12T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -210,6 +210,20 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
+							<a href="#" id="service-fabric_year_2019-march-monitor"><span>3/11</span>Alert rules feature of Azure Monitor officially released in China East and China North data centers<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Monitor is a platform function used to monitor and control Azure resources. Azure Monitor allows you to gather detailed performance and usage data, activity and diagnostic logs, and notifications, in a consistent way. You can use Azure portal to view and analyze monitoring data and set up alert-based automated actions. Alerts proactively notify you when important conditions are found in your monitoring data. They allow you to identify and address issues before the users of your system notice them.</p>
+								<p>Alert rules are separated from alerts and the action that are taken when an alert fires.</p>
+								<P>The alert rule captures the target and criteria for alerting. The alert rule can be in an enabled or a disabled state. Alerts only fire when enabled.</P>
+								<P>The key attributes of an alert rule are: target resource, signal, criteria, alert name, alert description, severity, and action.</P>
+								<P>To understand more about this service and pricing, please visit <a href="/home/features/monitor/" id="what-is-new_year_2019-march-features-monitor">Azure Monitor Feature</a> page and <a href="/pricing/details/monitor/" id="what-is-new_year_2019-march-features-monitor">Azure Monitor Price Details </a>page. For more details, please visit <a href="//docs.azure.cn/zh-cn/azure-monitor/platform/alerts-overview/" id="what-is-new_year_2019-march-docs-azure-monitor">Azure Monitor Documentation page</a>.</P>
+
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
 							<a href="#" id="service-fabric_year_2019-march-kubernetes-service"><span>3/8</span>21Vianet Azure Kubernetes Service (AKS) public preview version released<i class="icon icon-update"></i></a>
 							<section>
 								<p>Azure Kubernetes Service (AKS) manages your hosted Kubernetes environment, making it quick and easy to deploy and manage containerized applications without container orchestration expertise. It also eliminates the burden of ongoing operations and maintenance by provisioning, upgrading, and scaling resources on demand, without taking your applications offline.</p>
@@ -236,7 +250,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-march-cosmosdb"><span>3/1</span>Azure Cosmos DB Multi-Master support official released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-march-cosmosdb"><span>3/1</span>Azure Cosmos DB Multi-Master support official released</a>
 							<section>
 								<p>Azure Cosmos DB is a globally distributed, multi-model database service that supports document, key/value pairs, wide-column, and graph databases. With the click of a button, Cosmos DB enables you to elastically and independently scale throughput and storage across any number of Azure's geographic regions and take advantage of fast, single-digit-millisecond data access using your favorite API among SQL, MongoDB, Cassandra, Tables, or Gremlin. With multi-master, Azure Cosmos DB delivers a single digit millisecond write latency at the 99th percentile anywhere in the world, and now offers 99.999 percent write availability (in addition to 99.999 percent read availability) backed by the industry-leading <a href="/support/sla/cosmos-db/">SLAs</a>, providing throughput, latency, availability, and consistency guarantees, something no other database service can offer.</p>
 								<p>Azure Cosmos DB Multi-Master support is now official released. To learn more about Azure Cosmos DB, please visit <a href="/home/features/cosmos-db/" id="what-is-new_year_2019-march-features-cosmos-db">Azure Cosmos DB Feature</a> page and <a href="/pricing/details/cosmos-db/" id="what-is-new_year_2019-march-pricing-cosmos-db">Azure Cosmos DB Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/cosmos-db/" id="what-is-new_year_2019-march-docs-cosmos-db">Azure Cosmos DB Document page</a>.</p>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-10-15T10:00:00" urlName="virtual-machines" writerName="content" creatorName="content">
+  <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-11-08T15:00:00" urlName="virtual-machines" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
             <tags ms.service="cdn" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
@@ -75,8 +75,8 @@
 						-->
                     </table>
                     <p><sup>1</sup> 1 TB = 1,000 GB</p>
-					<p><sup style="color:#e66102; font-weight: bold">2</sup> Users who have previously applied for certificates applied for by Azure CDN and are still using the certificate service shall still pay the charge for Premium CDNs.</p>
-                    <p>For bandwidth billing, please contact your customer service manager for more details.</p>
+					<p><sup style="color:#e66102; font-weight: bold">2</sup> Users who have previously applied for certificates by applying for Azure CDN and are still using the certificate service will still pay the  Premium CDN charge.</p>
+                    <p>For bandwidth billing, please refer to the <a href="//docs.azure.cn/zh-cn/cdn/cdn-faq-service-inquiry/">Explanation of Bandwidth Billing</a> and contact your customer service manager for more details.</p>
                     
                     <!-- <p>  自 2017 年 7 月 1 日起，用户自有证书的 HTTPS 加速服务将归为标准版 CDN 服务，高级版 CDN 服务将只包含 Azure CDN 代申请证书的 HTTPS 加速服务。</p>					
                     <p>  高级版服务自 2017 年 5 月 1 日起 降价，降幅最高达 33%，上表内高级版价格为降价后价格。</p> --> <!-- END: Table1-Content-->
@@ -105,26 +105,6 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="CDN_price_premium-version">What is the difference between the Premium version and the Standard version of the CDN service?</a>
-                                <section>
-                                    <p>Azure CDN Standard refers to static content acceleration, including web page acceleration, download acceleration, and VOD acceleration.</p>
-                                    <p>Azure CDN Premium refers to customized acceleration scenarios beyond the Azure CDN Standard, including dynamic acceleration and live stream acceleration.</p>
-                                </section>
-
-                            </div>
-                        </li>
-                        <li>
-                            <i class="icon icon-plus"></i>
-                            <div>                                <a id="CDN_price_higher-data-transmission">Are all data transfers charged at a higher rate once the amount of data transferred each month exceeds 10 TB?</a>
-                                <section>
-                                    <p>No. Usage at each tier will be charged according to the rate for that tier. For example, if you generate 50 TB of Standard version CDN data transfers in Zone 1, the first 10 TB will be billed at a rate of ￥ 0.272/GB, and the remaining 40 TB will be billed at a rate of ￥ 0.266 per GB.</p>
-                                </section>
-
-                            </div>
-                        </li>
-                        <li>
-                            <i class="icon icon-plus"></i>
-                            <div>
                                 <a id="CDN_price_question2">Can I designate a CDN data center to provide services to end users? </a>
                                 <section>
                                    <p>No. The service will select a CDN data center based on an end user's network configuration, developers cannot decide which CDN data center to use. Users will be provided services according to their ISP’s preferred location or a logically determined "closer" (not necessarily physically closer) node.</p>
@@ -135,9 +115,10 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="CDN_price_question3">Do CDN charges include requests to Storage to retrieve data, and data transfers from Storage to the CDN location? </a>
+     <a id="CDN_price_premium-version">What is the difference between the Premium tier and the Standard tier of the CDN service?</a>
                                 <section>
-                                    <p>No. When the CDN receives an object request for a non-edge location, it will make a request to Azure Storage to obtain the data. Operations for reading data from Storage and transferring it from Storage to the CDN will be charged at standard <a id="CDN_price_data" href="/pricing/details/data-transfer/">data transfer</a> rates.</p>
+                                    <p>Azure CDN Standard refers to static content acceleration, including web page acceleration, download acceleration, and VOD acceleration.</p>
+                                    <p>Premium CDN service refers to accelerations other than the Standard CDN service, including live-streaming acceleration and HTTPS with Azure supplied certificate. HTTPS with Azure supplied certificate is a legacy feature that only supports customers in use and will be deprecated starting July 1st 2019.</p>
                                 </section>
 
                             </div>
@@ -160,6 +141,47 @@
                                 </section>
                             </div>
                         </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>                                <a id="CDN_price_higher-data-transmission">Are all data transfers charged at a higher rate once the amount of data transferred each month exceeds 10 TB?</a>
+                                <section>
+                                    <p>No. Usage at each tier will be charged according to the rate for that tier. For example, if you generate 50 TB of Standard version CDN data transfers in Zone 1, the first 10 TB will be billed at a rate of ￥0.19/GB, and the remaining 40 TB will be billed at a rate of ￥0.16 per GB.</p>
+                                </section>
+
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="CDN_price_question3">Do CDN charges include requests to Storage to retrieve data, and data transfers from Storage to the CDN location? </a>
+                                <section>
+                                    <p>No. When the CDN receives an object request for a non-edge location, it will make a request to Azure Storage to obtain the data. Operations for reading data from Storage and transferring it from Storage to the CDN will be charged at standard <a id="CDN_price_data" href="/pricing/details/data-transfer/">data transfer</a> rates.</p>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="CDN_price_question7">Do CDN charges include standard data transfers?</a>
+                                <section>
+                                    <p>CDN origin requests generate standard data traffic. CDN node will request for data directly from the origin (Azure storage) when it does not have the content requested by clients. Traffic generated from data reading from Storage and operations of data transfer to the CDN node is ordinary traffic. Requesting for data is inbound traffic. Servers (Azure storage) responding to client requests is outbound traffic.</p>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="CDN_price_question8">When is CDN traffic generated?</a>
+                                <section>
+                                    <p>CDN traffic is generated when clients send requests to the CDN node (inbound) or the CDN node responds to client requests (outbound). Charges do not apply to CDN inbound traffic and traffic between CDN nodes.</p>
+                                </section>
+
+                            </div>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
