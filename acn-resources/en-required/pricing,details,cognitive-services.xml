@@ -180,30 +180,16 @@
                 <td>Review</td>
                 <td>N/A</td>
             </tr>
-            <!-- <tr>
-                <td>标准</td>
+            <tr>
+                <td>Standard</td>
                 <td>10 TPS</td>
-                <td>中等,审阅</td>
-                <td>0 到 100 万个事务 - $1/每 1,000 个事务</td>
+                <td>Medium</td>
+                <td>
+                    0-1M transactions - ￥ 10.18 per 1,000 transactions<br/>
+                    1M-5M transactions - ￥ 7.63 per 1,000 transactions<br/>
+                    5M-10M transactions - ￥ 6.11 per 1,000 transactions<br/>
+                    10M+ transactions - ￥ 4.07 per 1,000 transactions</td>
             </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>100 万到 500 万个事务 - $0.75/每 1,000 个事务</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>500 万到 1000 万个事务 - $0.60/每 1,000 个事务</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>超过 1000 万个事务 - $0.40/每 1,000 个事务</td>
-            </tr> -->
         </table>
         <!-- END: Table4-Content--> <!-- BEGIN: Table5-Content-->
         <h3>Text Analytics API</h3>
@@ -224,7 +210,7 @@
                 <td>5,000 free transactions per month</td>
             </tr>
             <tr>
-                <td>Text Analytics Standard<br/>up to 100 requests per second and 1,000 requests per minute</td>
+                <td>Standard<br/>up to 100 requests per second and 1,000 requests per minute</td>
                 <td>Sentiment Analysis<br/>Key phrase extraction<br/>Language detection<br/>Entity Extraction<br/></td>
                 <td>
                     0-500,000 text records — ￥ 20.35 per 1,000 text records  <br/>
