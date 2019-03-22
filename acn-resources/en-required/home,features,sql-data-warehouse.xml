@@ -43,7 +43,7 @@
                 <p>Using PolyBase, you can seamlessly use Transact-SQL to perform queries that span relational data in relational databases and non-relational data in common Hadoop formats. Individual Transact-SQL commands integrate non-relational data in Azure Blob Storage with the relationships in the data warehouse, enabling you to perform deep data mining, reporting and analysis using existing Transact-SQL techniques.</p>
                 
                 <h2>Rapidly deploy secure infrastructure without maintenance costs</h2>
-                <p>You can quickly deploy SQL Data Warehouse in just a few seconds. The service is a fully-managed product/service that eliminates the hassle of spending time updating and maintaining software. SQL Data Warehouse has built-in backups that support self-service restoration. Once the service has acquired a snapshot of the database restore point, it will automatically backup your data to Azure Storage.</p>
+                <p>You can quickly deploy SQL Data Warehouse in just a few seconds. The service is a fully-managed offer that eliminates the hassle of spending time updating and maintaining software. SQL Data Warehouse has built-in backups that support self-service restoration. Once the service has acquired a snapshot of the database restore point, it will automatically backup your data to Azure Storage.</p>
 
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
