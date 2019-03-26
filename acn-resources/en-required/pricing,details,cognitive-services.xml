@@ -171,7 +171,7 @@
             <tr>
                 <td>Free</td>
                 <td>1 TPS</td>
-                <td>Medium</td>
+                <td>Check</td>
                 <td>5,000 free transactions per month</td>
             </tr>
             <tr>
@@ -183,7 +183,7 @@
             <tr>
                 <td>Standard</td>
                 <td>10 TPS</td>
-                <td>Medium</td>
+                <td>Check</td>
                 <td>
                     0-1M transactions - ￥ 10.18 per 1,000 transactions<br/>
                     1M-5M transactions - ￥ 7.63 per 1,000 transactions<br/>
@@ -219,7 +219,52 @@
                        10M+ text records — ￥ 2.54 per 1,000 text records   </td>
             </tr>
         </table>
-        <!-- END: Table5-Content-->
+        <!-- END: Table5-Content--> <!-- BEGIN: Table6-Content-->
+        <h3>Translator Text API</h3>
+        <p>Translator Text API is a cloud-based machine translation service supporting multiple languages, reaching more than 95% of world's gross domestic product (GDP). Use Translator to build applications, websites, tools, or any solution requiring multi-language support.</p>
+       
+        <div class="tags-date">
+				<div class="ms-date">*The following prices are tax-inclusive.</div>
+        </div>
+        <table cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+				<th align="left"><strong>Instances</strong></th>
+                <th align="left"><strong>Features</strong></th>
+                <th align="left"><strong>Pricing</strong></th>
+            </tr>
+            <tr>
+                <td>Free</td>
+                <td>Translator Text<br/>Customization<br/>Language detection<br/>Bilingual Dictionary<br/>Transliteration<br/></td>
+                <td>2 million characters free per month</td>
+            </tr>
+            <tr>
+                <td>S1</td>
+                <td>Translator Text<br/>Customization<br/>Language detection<br/>Bilingual Dictionary<br/>Transliteration<br/></td>
+                <td>￥ 102 per million characters</td>
+            </tr>
+            <tr>
+                <td>S2</td>
+                <td>Translator Text<br/>Customization<br/>Language detection<br/>Bilingual Dictionary<br/>Transliteration<br/></td>
+                <td>￥ 20,912/month
+Up to 250 million characters per month
+Overage: ￥ 84 per million characters</td>
+            </tr>
+            <tr>
+                <td>S3</td>
+                <td>Translator Text<br/>Customization<br/>Language detection<br/>Bilingual Dictionary<br/>Transliteration<br/></td>
+                <td>￥ 61,056/month
+Up to 1 billion characters per month
+Overage: ￥ 61 per million characters</td>
+            </tr>
+            <tr>
+                <td>S4</td>
+                <td>Translator Text<br/>Customization<br/>Language detection<br/>Bilingual Dictionary<br/>Transliteration<br/></td>
+                <td>￥ 457,920/month
+Up to 10 billion characters per month
+Overage: ￥ 46 per million characters</td>
+            </tr>
+        </table>
+        <!-- END: Table6-Content-->
 
     </div>
     <!-- END: TAB-CONTAINER-1 -->
@@ -400,7 +445,7 @@
                 <div>
                     <a id="cognitive-services_question16">What constitutes a Text Record in the S Tier?</a>
                     <section>
-                        <p>A text record in the S tier contains up to 1,000 characters as measured by <a href="https://docs.microsoft.com/zh-cn/dotnet/api/system.string.length?view=netframework-4.7.2">String.Length</a>. If an input document into the text analytics API is more than 1,000 characters, it counts as one text record for each unit of 1,000 characters. For instance, if an input document sent to the API contains 7,500 characters, it would count as 8 text records. If an input document sent to the API contains 500 characters, it would count as 1 text record. If two documents are submitted, one document of 500 characters and one document of 1,200 characters, then the service would be billed for three text records in total: one record for the 500 character document and two text records for the 1,200 character document.</p>
+                        <p>A text record in the S tier contains up to 1,000 characters as measured by <a href="https://docs.microsoft.com/zh-cn/dotnet/api/system.string.length?view=netframework-4.7.2">String.Length</a>. If an input document on the Text Analytics API is more than 1,000 characters, it counts as one text record for each unit of 1,000 characters. For instance, if an input document sent to the API contains 7,500 characters, it would count as 8 text records. If an input document sent to the API contains 500 characters, it would count as 1 text record. If two documents are submitted, one document of 500 characters and one document of 1,200 characters, then the service would be billed for three text records in total: one record for the 500 character document and two text records for the 1,200 character document.</p>
                     </section>
                 </div>
             </li>

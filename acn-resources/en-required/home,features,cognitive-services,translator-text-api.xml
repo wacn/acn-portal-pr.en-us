@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2019-03-18T07:49:24" updateDate="2019-03-18T10:41:59" urlName="cognitive-services-translator-text-api" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="cognitive-services" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .common-banner-title>img{
+                    width:48px;
+                    height:48px;
+                    margin-top: 8px !important;
+                }
+                .cognitive-icon>img{
+                    width:64px;
+                    height:64px;
+                    margin:0 auto;
+                    margin-top: 20px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                .img-center-204{
+                    width:204px;
+                    height:204px !important;
+                    margin:0 auto;
+                }
+                .img-center-156{
+                    width:156px;
+                    height:156px !important;
+                    margin:0 auto;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: Cognitive-Services-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/cognitive-translator-text-api-slice-01.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,translator-text-api.svg" />
+                        <h2>Translator Text<span>Translator Text</span></h2>
+                        <h4>Easily conduct real-time text translation with a simple REST API call</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="translator-text_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="analytics_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Cognitive-Services-TopBanner --> <!-- BEGIN: Cognitive-Services-Content -->
+            
+            <div class="pricing-page-section">
+            <p>Translator API is a neural machine translation service that developers can easily integrate into their applications websites, tools, or any solution requiring multi-language support such as website localization, e-commerce, customer support, messaging applications, internal communication, and more.</p>
+            <br/>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img class="img-center-156" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-translator-text-expand.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Extend your application’s reach</h2>
+                        <p>Translate text in your mobile, desktop, and web applications to and from 60+ supported languages through the open REST interface of Translator API.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img class="img-center-156" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-translator-text-automatically.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Automatically detect languages</h2>
+                        <p>Easily and accurately detect the language of any text string, simplifying development processes and allowing you to quickly send for translation or serve localized content.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img class="img-center-204" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-translator-text-transliterate.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Transliterate into different alphabets</h2>
+                        <p>Display text in different alphabets to make it easier to read — Translate from Chinese characters to PinYin, display any of the <a href="https://www.microsoft.com/translator/languages.aspx">supported transliteration languages</a> in the Latin alphabet, and even show words written in the Latin alphabet in non-Latin characters such as Japanese, Hindi or Arabic.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img class="img-center-156" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-translator-text-lookup.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Look up words with the bilingual dictionary</h2>
+                        <p>Find alternative translations for words from or to English and examples of the words in context to help your app users choose the most appropriate translation. Provide context for alternate word translations by giving examples of human translated sentences using the word.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img class="img-center-156" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-translator-text-support.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Add online and offline translation support into your Android app</h2>
+                        <p>With the Translator <a href="https://aka.ms/TranslatorLocalFeature">local feature</a>, easily add online and offline neural translation to your Android apps. Instead of calling the cloud API directly, perform a simple call to the Translator app to easily integrate text translation capabilities to your app. The app will then use the Translator cloud service when the connected to the Internet or offline packs when disconnected, all using your existing Azure subscription for billing.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img class="img-center-204" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/cognitive-services/cognitive-services-translator-text-customized.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Build customized translation systems</h2>
+                        <p>Customize Microsoft Translator neural translation models to improve translation quality. Use your existing human-translated content to <a href="https://aka.ms/TranslatorCustomization">build a custom translation system</a> that can better handle your writing style and industry expressions and vocabulary.</p>
+                    </div>
+                </div>
+
+                <p><a href="/home/features/cognitive-services/">Learn about the Cognitive Services API</a></p>
+                    
+            </div>
+
+            <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: Cognitive-Services-Content -->
+                          
+    
+    ]]></bodyText>
+    <pageTitle>Translator Text API - Auto Translation - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-cognitive-services-translator-text-api</linkid>
+    <metaKeywords>Azure, Cognitive Services, Cognitive Services, voice translation API, auto translation, translation API, Microsoft translation API, free dictionary API, machine translation service</metaKeywords>
+    <metaDescription><![CDATA[The Translator Text API is a cloud-based machine translation service that extends the reach of apps with over 60 supported languages. Learn more about this API.]]></metaDescription>
+    <urlDisplayName>Cognitive Services - Translator Text API</urlDisplayName>
+  </TextpageLeftNav>
+</localize>
