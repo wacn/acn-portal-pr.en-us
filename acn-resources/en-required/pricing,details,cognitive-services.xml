@@ -156,7 +156,7 @@
         </table>
         <!-- END: Table3-Content--> <!-- BEGIN: Table4-Content-->
         <h3>Content Moderator API</h3>
-        <p>Content moderator enhances your ability to detect potentially offensive or unwanted images through machine-learning based classifiers, custom blacklists, and optical character recognition (OCR). It helps you detect potential profanity in more than 100 languages and match text against your custom lists automatically. Content Moderator also checks for possible personally identifiable information (PII). Each Text API call can contain up to 1,024 characters each. Scan images (minimum 128 pixels, maximum 4MB size) for adult and racy content, optical character recognition (OCR) and face detection. You can also match against custom image lists. Each API call is a transaction.</p>
+        <p>Content Moderator enhances your ability to detect potentially offensive or unwanted images through machine-learning based classifiers, custom blacklists, and optical character recognition (OCR). It helps you detect potential profanity in more than 100 languages and match text against your custom lists automatically. Content Moderator also checks for possible personally identifiable information (PII). Each Text API call can contain up to 1,024 characters. Scan images (minimum 128 pixels, maximum 4MB size) for adult and racy content, optical character recognition (OCR) and face detection. You can also match against custom image lists. Each API call is a transaction.</p>
        
         <div class="tags-date">
 				<div class="ms-date">*The following prices are tax-inclusive.</div>
@@ -234,31 +234,31 @@
             </tr>
             <tr>
                 <td>Free</td>
-                <td>Translator Text<br/>Customization<br/>Language detection<br/>Bilingual Dictionary<br/>Transliteration<br/></td>
+                <td>Translator Text<br/>Language detection<br/>Bilingual Dictionary<br/>Transliteration<br/></td>
                 <td>2 million characters free per month</td>
             </tr>
             <tr>
                 <td>S1</td>
-                <td>Translator Text<br/>Customization<br/>Language detection<br/>Bilingual Dictionary<br/>Transliteration<br/></td>
+                <td>Translator Text<br/>Language detection<br/>Bilingual Dictionary<br/>Transliteration<br/></td>
                 <td>￥ 102 per million characters</td>
             </tr>
             <tr>
                 <td>S2</td>
-                <td>Translator Text<br/>Customization<br/>Language detection<br/>Bilingual Dictionary<br/>Transliteration<br/></td>
+                <td>Translator Text<br/>Language detection<br/>Bilingual Dictionary<br/>Transliteration<br/></td>
                 <td>￥ 20,912/month
 Up to 250 million characters per month
 Overage: ￥ 84 per million characters</td>
             </tr>
             <tr>
                 <td>S3</td>
-                <td>Translator Text<br/>Customization<br/>Language detection<br/>Bilingual Dictionary<br/>Transliteration<br/></td>
+                <td>Translator Text<br/>Language detection<br/>Bilingual Dictionary<br/>Transliteration<br/></td>
                 <td>￥ 61,056/month
 Up to 1 billion characters per month
 Overage: ￥ 61 per million characters</td>
             </tr>
             <tr>
                 <td>S4</td>
-                <td>Translator Text<br/>Customization<br/>Language detection<br/>Bilingual Dictionary<br/>Transliteration<br/></td>
+                <td>Translator Text<br/>Language detection<br/>Bilingual Dictionary<br/>Transliteration<br/></td>
                 <td>￥ 457,920/month
 Up to 10 billion characters per month
 Overage: ￥ 46 per million characters</td>
@@ -385,7 +385,7 @@ Overage: ￥ 46 per million characters</td>
             <li>
                 <i class="icon icon-plus"></i>
                 <div>
-                    <a id="cognitive-services_question10">Is there an extra cost to using human review tool?</a>
+                    <a id="cognitive-services_question10">Is there an extra charge for using the human review tool?</a>
                     <section>
                         <p>Human review tool is included in your subscription.</p>
                     </section>
