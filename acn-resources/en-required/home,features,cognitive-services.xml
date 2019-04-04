@@ -96,7 +96,11 @@
 				   
                 <ul class="cognitive-icon-group">
                     <li>
-                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,face.svg"/></div>
+                        <div class="cognitive-icon">
+                    
+						<img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,face.svg"/>
+
+						</div>
                         <div class="cognitive-text">
                             <h2>Face API</h2>
                             <p>Detects the location of people’s faces within an image. Performs facial comparison, grouping, and identification based on visual similarity from faces where the user has tagged the identity.</p>
@@ -115,7 +119,7 @@
                         <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,content-moderator.svg"/></div>
                         <div class="cognitive-text">
                            <h2>Content Moderator API</h2>
-                        <p>Machine-assisted content moderation APIs and human review tool for images, text, and videos</p>
+                        <p>Machine-assisted content moderation APIs and human review tool for images, text, and videos.</p>
                         <p><a id="face_content-moderator" href="/home/features/cognitive-services/content-moderator/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>
@@ -123,16 +127,20 @@
                         <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,text-analytics.svg"/></div>
                         <div class="cognitive-text">
                            <h2>Text Analytics API</h2>
-                        <p>Detect sentiment, key phrases, and language from your text</p>
+                        <p>Detect sentiment, key phrases, and language from your text.</p>
                         <p><a id="face_text-analytics" href="/home/features/cognitive-services/text-analytics/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>
                     <li>
-                        <div class="cognitive-icon"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,translator-text-api.svg"/></div>
+                        <div class="cognitive-icon">
+                    
+						<img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/home,features,cognitive-services,translator-text-api.svg"/>
+
+						</div>
                         <div class="cognitive-text">
                            <h2>Translator Text API</h2>
-                        <p>Easily conduct real-time text translation with a simple REST API call</p>
-                        <p><a id="face_text-translator-api" href="/home/features/cognitive-services/text-translator-api/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
+                        <p>Easily conduct real-time text translation with a simple REST API call.</p>
+                        <p><a id="face_text-translator-api" href="/home/features/cognitive-services/translator-text-api/" class="single-link">More<i class="icon icon-arrow-right-thin"></i></a></p>
                         </div>
                     </li>
                 </ul>
