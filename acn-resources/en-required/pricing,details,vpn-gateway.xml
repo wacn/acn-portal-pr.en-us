@@ -50,22 +50,22 @@
                         <td>VpnGw1<sup style="color:#e66102; font-weight: bold">new</sup></td>
                         <td>￥ 1.1914 every gateway/hour</br>(about ￥ 885.4016 /month)</td>
 						<td>650 Mbp</td>
-						<td>30 at most</br>1-10: included</br>11-30: ￥0.0945 /tunnel</td>
-						<td>250 at most</br>1-128: included<br/>129-250: ￥0.0636 /tunnel</td>
+						<td>30 at most</br>1-10: included</br>11-30: ￥ 0.0945/hour per tunnel</td>
+						<td>250 at most</br>1-128: included<br/>129-250: ￥ 0.0636/hour per tunnel</td>
                     </tr>
                     <tr>
                         <td>VpnGw2<sup style="color:#e66102; font-weight: bold">new</sup></td>
                         <td>￥ 3.1276 every gateway/hour</br>(about ￥ 2,326.9344 /month)</td>
 						<td>1 Gbps</td>
-						<td>100 at most</br>1-10: included</br>11-100: ￥ 0.0945 /tunnel</td>
-						<td>500 at most</br>1-128: included<br/>129-500: ￥0.0636 /tunnel</td>
+						<td>100 at most</br>1-10: included</br>11-100: ￥ 0.0945/hour per tunnel</td>
+						<td>500 at most</br>1-128: included<br/>129-500: ￥ 0.0636/hour per tunnel</td>
                     </tr>
                     <tr>
                         <td>VpnGw3<sup style="color:#e66102; font-weight: bold">new</sup></td>
                         <td>￥ 7.95 every gateway/hour</br>(about ￥ 5,914.8 /month)</td>
 						<td>1.25 Gbps</td>
-						<td>100 at most</br>1-10: included</br>11-100: ￥ 0.0945 /tunnel</td>
-						<td>1000 at most</br>1-128: included<br/>129-1000: ￥0.0636 /tunnel</td>
+						<td>100 at most</br>1-10: included</br>11-100: ￥ 0.0945/hour per tunnel</td>
+						<td>1000 at most</br>1-128: included<br/>129-1000: ￥ 0.0636/hour per tunnel</td>
                     </tr>
                     </table>                    
 					
@@ -126,7 +126,7 @@
             <div class="pricing-page-section">
                 <div class="more-detail">
                     <h2>FAQ</h2>
-                    <em>Expand All</em>
+                    <em>Expand all</em>
                     <ul>
                         <li>
                             <i class="icon icon-plus"></i>
@@ -151,7 +151,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Virtual_Network_data-transmission"> Is the Inter-VNET transfer charged at the rates of the source region or the destination region? </a>
+                                <a id="Virtual_Network_data-transmission">Is the Inter-VNET transfer charged at the rates of the source region or the destination region? </a>
                                 <section>
                                     <p>It is similar to the standard data transfer charge, and Inter-VNET data transfer is charged at the rates of the source region.</p>
                                 </section>

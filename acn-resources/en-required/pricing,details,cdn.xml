@@ -33,28 +33,44 @@
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <th align="left"><strong>Service</strong></th>
-                            <th align="left"><strong>Standard</strong></th>
-                            <th align="left"><strong>Premium<sup style="color:#e66102; font-weight: bold"> 2</sup></strong></th>
+                            <th align="center" colspan="2"><strong>Standard</strong></th>
+                            <th align="center"><strong>Standard Plus</strong></th>
+                            <th align="center"><strong>Premium</strong></th>
+                        </tr>
+                        <tr>
+                            <td>Region</td>
+                            <td align="center">Zone1</td>
+                            <td align="center">Zone2</td>
+                            <td align="center">Zone1</td>
+                            <td align="center">Zone1</td>
                         </tr>
                         <tr>
                             <td>CDN data transfer (0-10 TB<sup>1</sup>/month)</td>
-                            <td>￥ 0.19/GB</td>
-                            <td>￥ 0.45/GB</td>
+                            <td align="center">￥ 0.19/GB</td>
+                            <td align="center">￥ 0.396/GB</td>
+                            <td align="center">￥ 0.228/GB</td>
+                            <td align="center">￥ 0.45/GB</td>
                         </tr>
                         <tr>
                             <td>CDN data transfer (10-50 TB/month)</td>
-                            <td>￥ 0.16/GB</td>
-                            <td>￥ 0.42/GB</td>
+                            <td align="center">￥ 0.16/GB</td>
+                            <td align="center">￥ 0.347/GB</td>
+                            <td align="center">￥ 0.198/GB</td>
+                            <td align="center">￥ 0.42/GB</td>
                         </tr>
                         <tr>
                             <td>CDN data transfer (50-100 TB/month)</td>
-                            <td>￥ 0.13/GB</td>
-                            <td>￥ 0.39/GB</td>
+                            <td align="center">￥ 0.13/GB</td>
+                            <td align="center">￥ 0.297/GB</td>
+                            <td align="center">￥ 0.169/GB</td>
+                            <td align="center">￥ 0.39/GB</td>
                         </tr>
                         <tr>
                             <td>CDN data transfer (more than 100 TB/month)</td>
-                            <td>￥ 0.1/GB</td>
-                            <td>￥ 0.36/GB</td>
+                            <td align="center">￥ 0.1/GB</td>
+                            <td align="center">￥ 0.277/GB</td>
+                            <td align="center">￥ 0.139/GB</td>
+                            <td align="center">￥ 0.36/GB</td>
                         </tr>
 						<!--
                         <tr>
@@ -75,7 +91,6 @@
 						-->
                     </table>
                     <p><sup>1</sup> 1 TB = 1,000 GB</p>
-					<p><sup style="color:#e66102; font-weight: bold">2</sup> Users who have previously applied for certificates by applying for Azure CDN and are still using the certificate service will still pay the  Premium CDN charge.</p>
                     <p>For bandwidth billing, please refer to the <a href="//docs.azure.cn/zh-cn/cdn/cdn-faq-service-inquiry/">Explanation of Bandwidth Billing</a> and contact your customer service manager for more details.</p>
                     
                     <!-- <p>  自 2017 年 7 月 1 日起，用户自有证书的 HTTPS 加速服务将归为标准版 CDN 服务，高级版 CDN 服务将只包含 Azure CDN 代申请证书的 HTTPS 加速服务。</p>					
@@ -87,17 +102,16 @@
             <div class="pricing-page-section">
                 <div class="more-detail">
                     <h2>FAQ</h2>
-                    <em>Expand All</em>
+                    <em>Expand all</em>
                     <ul>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="CDN_price_region">Which regions correspond to CN Zone 1?</a>
+                                <a id="CDN_price_region">Which regions correspond to Zone 1 and Zone 2?</a>
                                 <section>
                                     <p>CDN data transfer pricing is based on the location of the nodes that process the transfer, rather than the location of the end users. The geographical regions below correspond to the Azure CDN regions listed above:</p>
-                                    <ul>
-                                        <li>CN Zone 1 – China.</li>
-                                    </ul>
+                                    <p>• Zone 1 - Mainland China (Excluding Hong Kong, Taiwan and Macao)</p>
+                                    <p>• Zone 2 - North America, Europe, Asia Pacific, Mid-East, Africa, South America. Please refer to <a href="https://docs.azure.cn/cdn/cdn-pops">Oversea Node Distribution</a> for more information</p>
                                 </section>
 
                             </div>
@@ -115,10 +129,14 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-     <a id="CDN_price_premium-version">What is the difference between the Premium tier and the Standard tier of the CDN service?</a>
+                                <a id="CDN_price_premium-version">What’s the difference between CDN Standard, Standard Plus and Premium?</a>
                                 <section>
-                                    <p>Azure CDN Standard refers to static content acceleration, including web page acceleration, download acceleration, and VOD acceleration.</p>
-                                    <p>Premium CDN service refers to accelerations other than the Standard CDN service, including live-streaming acceleration and HTTPS with Azure supplied certificate. HTTPS with Azure supplied certificate is a legacy feature that only supports customers in use and will be deprecated starting July 1st 2019.</p>
+                                <br/>
+                                    <ul>
+                                        <li>Azure CDN Standard refers to static content acceleration, including web page acceleration, download acceleration, and VOD acceleration.</li>
+                                        <li>CDN Standard Plus refers to live-streaming acceleration.</li>
+                                        <li>CDN Premium serves the HTTPS users who applied Azure supplied certificate before and are still using that certificate. HTTPS with Azure supplied certificate will be deprecated from July 1 2019.</li>
+                                    </ul>
                                 </section>
 
                             </div>
@@ -143,7 +161,8 @@
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
-                            <div>                                <a id="CDN_price_higher-data-transmission">Are all data transfers charged at a higher rate once the amount of data transferred each month exceeds 10 TB?</a>
+                            <div>
+                                <a id="CDN_price_higher-data-transmission">Are all data transfers charged at a higher rate once the amount of data transferred each month exceeds 10 TB?</a>
                                 <section>
                                     <p>No. Usage at each tier will be charged according to the rate for that tier. For example, if you generate 50 TB of Standard version CDN data transfers in Zone 1, the first 10 TB will be billed at a rate of ￥0.19/GB, and the remaining 40 TB will be billed at a rate of ￥0.16 per GB.</p>
                                 </section>
@@ -161,12 +180,12 @@
 
                             </div>
                         </li>
-                        <li>
+                        <!-- <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="CDN_price_question7">Do CDN charges include standard data transfers?</a>
+                                <a id="CDN_price_question7">CDN 收费是否包括标准数据传输的费用？</a>
                                 <section>
-                                    <p>CDN origin requests generate standard data traffic. CDN node will request for data directly from the origin (Azure storage) when it does not have the content requested by clients. Traffic generated from data reading from Storage and operations of data transfer to the CDN node is ordinary traffic. Requesting for data is inbound traffic. Servers (Azure storage) responding to client requests is outbound traffic.</p>
+                                    <p>CDN 回源请求会产生标准数据流量，即当 CDN 节点没有客户请求的内容时会直接向原站（Azure 存储）请求数据，从存储读取数据以及将数据传出到 CDN 节点的操作产生的流量就是普通流量，请求数据为入站流量，服务器（Azure 存储）响应客户端请求为出站流量。</p>
                                 </section>
 
                             </div>
@@ -174,13 +193,13 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="CDN_price_question8">When is CDN traffic generated?</a>
+                                <a id="CDN_price_question8">什么时候会产生 CDN 的流量?</a>
                                 <section>
-                                    <p>CDN traffic is generated when clients send requests to the CDN node (inbound) or the CDN node responds to client requests (outbound). Charges do not apply to CDN inbound traffic and traffic between CDN nodes.</p>
+                                    <p>当客户端向 CDN 节点发出请求（传入）或 CDN 节点响应客户端的请求时（传出），会产生 CDN 流量。CDN 入站流量和 CDN 节点间流量不计费。</p>
                                 </section>
 
                             </div>
-                        </li>
+                        </li> -->
                         
                     </ul>
                 </div>
