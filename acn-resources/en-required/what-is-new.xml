@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-04-01T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-04-03T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -210,6 +210,18 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
+							<a href="#" id="service-fabric_year_2019-april-translator-text-api"><span>4/2</span>Translator Text API official released<i class="icon icon-update"></i></a>
+							<section>
+								<p>The Translator Text API is a neural machine translation service that developers can easily integrate into their applications websites, tools, or any solution requiring multi-language support such as website localization, e-commerce, customer support, messaging applications, internal communication, and more. It can be used to translate text in near real-time through a simple REST API call. It allows you to add multi-language user experiences in <a href="//docs.azure.cn/zh-cn/cognitive-services/translator/language-support/" id="what-is-new_year_2019-april-docs-language-support">more than 60 languages</a>, and can be used on any hardware platform with any operating system for text-to-text language translation.</p>
+								<p>The Translator Text API is part of the <a href="/home/features/cognitive-services/"  id="what-is-new_year_2019-april-features-cognitive-services">Azure Cognitive Services API</a> collection, and is readily consumable in your development projects.</p>
+								<p>The Translator Text API has now been officially released. To understand more about this service and pricing, please visit <a href="/home/features/cognitive-services/translator-text-api/" id="what-is-new_year_2019-april-features-translator-text-api">Translator Text API Feature</a> page and <a href="/pricing/details/cognitive-services/" id="what-is-new_year_2019-april-pricing-cognitive-services">Translator Text API Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/cognitive-services/translator/"   id="what-is-new_year_2019-april-docs-translator">Translator Text API Documentation</a>.</P>
+
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
 							<a href="#" id="service-fabric_year_2019-april-cdn"><span>4/1</span>Content Delivery Network Standard Plus for Zone 1 and Standard for Zone 2 officially released<i class="icon icon-update"></i></a>
 							<section>
 								<p>Azure CDN improves application performance by caching content to the location nearest the customer. CDN stands for content delivery network. Virtually all large-scale websites use the Content Delivery Network technology today, but the technology is by no means exclusive to large websites. The basic purpose of the network is to avoid bottlenecks and other parts of the Internet that could affect data transfer rates and stability, to make content transfers faster and more stable. By placing node servers in different places across the network and building a more intelligent layer of virtual networks by using the Internet as a foundation, Content Delivery Network systems can redirect user requests in real time to the service node closest to the user based on the status of network traffic and node connections and loads, as well as overall information on distance to the user and response times.</p>
@@ -239,7 +251,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-march-kubernetes-service"><span>3/8</span>21Vianet Azure Kubernetes Service (AKS) public preview version released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-march-kubernetes-service"><span>3/8</span>21Vianet Azure Kubernetes Service (AKS) public preview version released</a>
 							<section>
 								<p>Azure Kubernetes Service (AKS) manages your hosted Kubernetes environment, making it quick and easy to deploy and manage containerized applications without container orchestration expertise. It also eliminates the burden of ongoing operations and maintenance by provisioning, upgrading, and scaling resources on demand, without taking your applications offline.</p>
 
