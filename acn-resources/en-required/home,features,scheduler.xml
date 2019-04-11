@@ -40,9 +40,9 @@ recurring schedules</h1>
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
             <div class="pricing-page-section link-group-container">
-                <h1>Find out more</h1>
+                <h1>More</h1>
                 <ul>
-                    <li><a href="http://msdn.microsoft.com/zh-cn/library/azure/dn479785.aspx" id="home_sche_dn">Start Using Scheduler</a></li>
+                    <li><a href="https://docs.azure.cn/zh-cn/scheduler/scheduler-intro" id="home_sche_dn">What is Azure Scheduler</a></li>
                 </ul>
             </div>
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->      

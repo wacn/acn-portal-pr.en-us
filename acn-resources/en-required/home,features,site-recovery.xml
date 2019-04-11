@@ -42,9 +42,9 @@
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
             <div class="pricing-page-section link-group-container">
-                <h1>Find out more</h1>
+                <h1>More</h1>
                 <ul>
-                    <li><a id="home_site_recovery_plan" href="http://msdn.microsoft.com/zh-cn/library/dn440569.aspx">Planning and Deployment Guide</a></li>
+                    <li><a id="home_site_recovery_plan" href="https://docs.azure.cn/site-recovery/site-recovery-overview">About Site Recovery</a></li>
                 </ul>
             </div>
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->     
