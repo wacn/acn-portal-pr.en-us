@@ -54,12 +54,12 @@
             <div class="pricing-page-section link-group-container">
                 <h1>More</h1>
                 <ul>
-                    <li><a href="http://channel9.msdn.com/events/TechEd/NorthAmerica/2014/DBI-B328/" id="feature_hdinsight_services_BI_B328">Video: Getting Started with HDInsight</a></li>
-                    <li><a href="http://channel9.msdn.com/Events/Build/2014/3-613/" id="feature_hdinsight_services_3_613">Video: Integrate HDInsight with Azure Apps</a></li>
-                    <li><a href="http://aka.ms/IntroHDInsight/PDF" id="feature_hdinsight_services_pdf">Introduction to Hadoop HDInsight (E-Book)</a></li>
-                    <li><a href="http://hortonworks.com/hdp/" id="feature_hdinsight_hdp">Hortonworks Data Platform</a></li>
-                    <li><a href="http://www.microsoft.com/aps" id="feature_hdinsight_aps">Microsoft Analytics Platform System</a></li>
-                    <li><a href="https://docs.azure.cn/hdinsight/hdinsight-hadoop-use-blob-storage/" id="feature_hdinsight_blob-storage">Using Azure Blob Storage with HDInsight</a></li>
+                    <li><a href="https://channel9.msdn.com/events/TechEd/NorthAmerica/2014/DBI-B328/" id="feature_hdinsight_services_BI_B328">Video: Getting Started with HDInsight</a></li>
+                    <li><a href="https://channel9.msdn.com/Events/Build/2014/3-613/" id="feature_hdinsight_services_3_613">Video: Integrate HDInsight with Azure Apps</a></li>
+                    <li><a href="https://aka.ms/IntroHDInsight/PDF" id="feature_hdinsight_services_pdf">Introduction to Hadoop HDInsight (E-Book)</a></li>
+                    <li><a href="https://hortonworks.com/products/data-platforms/" id="feature_hdinsight_hdp">Hortonworks Data Platform</a></li>
+                    <li><a href="https://www.microsoft.com/sql-server/analytics-platform-system" id="feature_hdinsight_aps">Microsoft Analytics Platform System</a></li>
+                    <li><a href="https://docs.azure.cn/hdinsight/hdinsight-hadoop-use-blob-storage" id="feature_hdinsight_blob-storage">Using Azure Blob Storage with HDInsight</a></li>
                 </ul>
             </div>
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
