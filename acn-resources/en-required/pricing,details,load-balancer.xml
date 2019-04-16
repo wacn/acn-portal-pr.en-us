@@ -9,7 +9,9 @@
                     <div class="common-banner-title">
                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/loadbalancer-icon.png" />
                         <h2>Load Balancer<span>Load Balancer</span></h2>
-                        <h4>Enabling your application to increase its availability and network performance</h4><em><a href="/pricing/1rmb-trial/" id="load-balancer_trial">Apply for a 1RMB trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="load-balancer_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a></div>
+                        <h4>Enabling your application to increase its availability and network performance</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="load-balancer_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="load-balancer_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
@@ -21,15 +23,15 @@
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">                               
                 <div class="tab-control-container tab-active" id="tabContent1">                   
-                    <h3>Basic public load balancing</h3>
+                    <h3>Classic public load balancing</h3>
                     <p>Every cloud service can obtain a free public load balancing IP (VIP). If you want to upload Load Balancer on multiple VIPs, you may obtain extra VIPs for the nominal charges listed <a href="/pricing/details/ip-addresses/" id="ip-addresses">here</a>.</p>
                     <p>You may distribute at most 5 extra IPs to your Load Balancer.</p>
                    
-                    <h3>Basic internal load balancing</h3>
+                    <h3>Classic internal load balancing</h3>
                     <p>The Load Balancer (Internal Load Balancing) included within Virtual Machines in a virtual network is free of charge. Currently adding extra VIP to Internal Load Balancer is not supported.</p>         
 
                     <h3>Standard Load Balancer</h3>
-                    <p>The Standard Load Balancer offers customers several benefits over the Basic Load balancer:</p>       
+                    <p>The Standard Load Balancer offers customers several benefits over the Classic Load balancer:</p>       
                     <ul>
                         <li>More flexible and larger backend pools</li>
                         <li>HA Ports rules for scale and resiliency of Network Virtual Appliances and other scenarios</li>

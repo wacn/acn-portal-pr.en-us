@@ -121,7 +121,7 @@
 						<div class="category-container-container">
 						<div class="category-container-box">
 					<div class="category-container">
-						<span class="category-title hidden-lg hidden-md">Category：</span>
+						<span class="category-title hidden-lg hidden-md">Category:</span>
 						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
 							<li class="active"><a href="javascript:void(0)" data-href="#tabContent1-0" id="elastic_database-all">All</a></li>
 							<li><a href="javascript:void(0)" data-href="#tabContent1-1" id="elastic_database-VCore">vCore</a></li>
@@ -822,7 +822,7 @@
                                         <td>¥ 7,980.00/day<br/>(about ¥ 247,380.00/month)</td>
                                     </tr>
                                     <tr>
-                                        <td>4000</td>
+                                        <td>4,000</td>
                                         <td>750 GB</td>
                                         <td>1 TB</td>
                                         <td>100</td>
@@ -880,7 +880,7 @@
 						<div class="category-container-container">
 						<div class="category-container-box">
 					<div class="category-container">
-						<span class="category-title hidden-lg hidden-md">Category：</span>
+						<span class="category-title hidden-lg hidden-md">Category:</span>
 						<ul class="os-tab-nav category-tabs hidden-xs hidden-sm">
 							<li class="active"><a href="javascript:void(0)" data-href="#tabContent2-0" id="single_database-all">All</a></li>
 							<li><a href="javascript:void(0)" data-href="#tabContent2-1" id="single_database-vcore">vCore</a></li>
@@ -1635,8 +1635,8 @@
             </div>
 			 <div>
                 <!-- BEGIN: Table6-Content-->
-                <h3>Advanced Threat Protection</h3>
-                <p>SQL Advanced Threat Protection (ATP) is now officially released. Azure Security Center is offered in two tiers: Free and Standard. See <a href="https://docs.azure.cn/zh-cn/sql-database/sql-advanced-threat-protection" target="_blank">Advanced Threat Protection for Azure SQL Database</a> for more information.</p>
+                <h3>Advanced Data Security</h3>
+                <p>SQL Advanced Data Security (ADS) is now officially released. Azure Security Center is offered in two tiers: Free and Standard. See <a href="https://docs.azure.cn/zh-cn/sql-database/sql-advanced-threat-protection" target="_blank">Advanced Data Security for Azure SQL Database</a> for more information.</p>
                 <div class="tags-date">
                     <div class="ms-date">*The following prices are tax-inclusive.</div><br />
                     <div class="ms-date">*Monthly price estimation is based on a usage of 31 days per month.</div>
@@ -1826,7 +1826,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="home_sql_database_general_question1">How can I stop  being billed for database?</a>
+                                <a id="home_sql_database_general_question1">How can I stop being billed for database?</a>
                                 <section>
                                      <p>Billing for database will stop upon deletion.</p>
                                 </section>
