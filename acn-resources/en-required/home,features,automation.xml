@@ -44,9 +44,9 @@ process automation</h1>
                 <h1>More</h1>
                 <ul>
                     <li><a href="//docs.azure.cn/zh-cn/automation/automation-first-runbook-textual" id="feature_auto_rm">Get started with Automation</a></li>
-                    <li><a href="http://technet.microsoft.com/zh-cn/library/dn469262.aspx" id="feature_auto_arun">How to create runbooks</a></li>
-                    <li><a href="http://msdn.microsoft.com/zh-cn/library/dn690262.aspx" id="feature_auto_cmd">Azure Automation Cmdlets</a></li>
-                    <li><a href="http://technet.microsoft.com/zh-cn/library/dn469260.aspx" id="feature_auto_zd">Service Management Automation</a></li>
+                    <li><a href="https://docs.azure.cn/automation/automation-quickstart-create-runbook" id="feature_auto_arun">How to create runbooks</a></li>
+                    <li><a href="https://docs.azure.cn/automation/automation-quickstart-create-account" id="feature_auto_account">Create an Automation account</a></li>
+                    <li><a href="https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/dn469260(v=sc.12)" id="feature_auto_zd">Service Management Automation</a></li>
                 </ul>
             </div>
             <!-- END: Read-More --> <!-- BEGIN: Product-Detail-BottomBanner --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->      

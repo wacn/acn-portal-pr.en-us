@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-04-03T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-04-09T13:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -363,8 +363,8 @@
 								<div>
 									<a href="#" id="service-fabric_year_2019-feb-IoT-Hub-GA-in-new-regions"><span>2/1</span> Azure IoT Hub is officially released in China East 2 and China North 2 data centers</a>
 									<section>
-										<p>Azure IoT Hub is now officially released in China East 2 and China North 2 data centers. It can easily connect IoT assets with Azure IoT Hub, add new devices and connect existing devices with open source device SDKs that work on multiple platforms (including Linux, Windows and real-time operating systems), and use standard protocols and custom protocols including HTTP, Premium Message Queuing Protocol (AMQP) and Message Queuing Telemetry Transport (MQTT). Using Azure IoT Hub’s device management function, administrators can also remotely maintain, update and manage IoT devices on a large scale, eliminating the need to develop and maintain custom device management solutions and expend further resources on maintaining global assets, and delivering savings in terms of both time and costs.</p>
-										<p>For more information on services and pricing, please consult the <a href="https://www.azure.cn/home/features/iot-hub">Azure IoT Hub Service Features</a> page and the <a href="https://www.azure.cn/pricing/details/iot-hub/">Azure IoT Hub Pricing Details</a> page. For more details, please visit <a href="https://docs.azure.cn/zh-cn/iot-hub/">Azure IoT Hub Documentation</a>.</p>
+										<p>Azure IoT Hub has now been officially released in China East 2 and China North 2 data centers. The Azure IoT Hub can be used to easily and securely connect IoT assets, add new devices and connect existing devices with open source device SDKs that work on multiple platforms (including Linux, Windows and real-time operating systems), and use standard protocols and custom protocols including HTTP, Advanced Message Queuing Protocol (AMQP) and Message Queuing Telemetry Transport (MQTT). Using Azure IoT Hub’s device management function, administrators can also remotely maintain, update and manage IoT devices on a large scale, eliminating the need to develop and maintain custom device management solutions and expend further resources on maintaining global assets, and delivering savings in terms of both time and costs.</p>
+										<p>For more information on services and pricing, please consult the <a href="https://www.azure.cn/home/features/iot-hub">Azure IoT Hub Service Features</a> page and the <a href="https://www.azure.cn/pricing/details/iot-hub/">Azure IoT Hub Pricing Details</a> page. For more details, please visit <a href="https://docs.azure.cn/zh-cn/iot-hub/">Azure IoT Hub Documentation page</a>.</p>
 									</section>
 								</div>
 						</li>
@@ -432,7 +432,7 @@
 							<a href="#" id="service-fabric_year_2018-december-service-bus"><span>12/30</span>Service Bus Premium tier officially released</a>
 							<section>
 								<p>Azure Service Bus is a multi-tenant cloud messaging service you can use to send information between applications and services. The asynchronous operations give you flexible, brokered messaging, along with structured first-in, first-out (FIFO) messaging, and publish/subscribe capabilities.</p>
-								<p>Service Bus premium runs in dedicated resources to provide higher throughput and more consistent performance.</p>
+								<p>Service Bus Premium runs in dedicated resources to provide higher throughput and more consistent performance.</p>
 								<p>Azure Service Bus Premium tier is now officially released. To learn more about this service and pricing, please visit Service Bus <a href="/home/features/service-bus/" id="what-is-new_year_2018-december-features-service-bus">Feature</a> Page and <a href="/pricing/details/service-bus/" id="what-is-new_year_2018-december-pricing-service-bus">Price Details</a> Page. For more details, please visit<a href="//docs.azure.cn/service-bus/" id="what-is-new_year_2018-december-docs-service-bus"> Azure Service Bus Documentation</a>.</p>
 							</section>
 						</div>
@@ -514,8 +514,8 @@
 							<a href="#" id="service-fabric_year_2018-october-logic-apps"><span>10/24</span>China regions cloud migration and expansion preview now available</a>
 							<section>
 								<p>China regions cloud migration and expansion provides customers with assessment services and migration guidance to reduce instances from arising based on the below two scenarios:</p>
-								<p>1. For customers migrating your Azure Cloud Services among China regions, please visit <a href="http://aka.ms/ccmechina" id="service-fabric_year_2018-october_features-china-ccme">http://aka.ms/ccmechina</a>;</p>
-								<p>2. For customers migrating and expanding your Azure Cloud Services between Azure Global and Azure China, please visit <a href="http://aka.ms/ccme" id="service-fabric_year_2018-october_features-global-ccme">http://aka.ms/ccme</a>.</p>
+								<p>1. For customers migrating your Azure Cloud Services among China regions, please visit <a href="https://aka.ms/ccmechina" id="service-fabric_year_2018-october_features-china-ccme">https://aka.ms/ccmechina</a>;</p>
+								<p>2. For customers migrating and expanding your Azure Cloud Services between Azure Global and Azure China, please visit <a href="https://aka.ms/ccme" id="service-fabric_year_2018-october_features-global-ccme">https://aka.ms/ccme</a>.</p>
 								<p>This product has two components:</p>
 								<p>Online assessment service can assess consistency of services and configurations between original and destination environments, as well as estimate the migration costs. Customers can conduct this assessment through subscription and/or Azure usage reports.</p>
 								<p>This migration guide has undergone verification tests by engineers. It provides step-by-step video guides on migrating main workloads. Main workloads include Virtual Machines, Storage, Virtual Network, Database, Web Apps and Azure Cosmos DB.</p>
