@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-04-09T13:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-04-17T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -63,7 +63,7 @@
 										<p>All these services come with a flexible pricing model so customers can choose resources for their workloads with no hidden cost. To find out more about Azure Database for MySQL, please see the <a href="https://www.azure.cn/zh-cn/home/features/mysql/">Product Function</a> page and <a href="https://www.azure.cn/zh-cn/pricing/details/mysql">Price Details</a> page.</p>
 										<p>If you are an existing customer:</p>
 										<ul>
-										<li>There will be no interruption of service</li>
+										<li>There will be no interruption of service. Except when your server(s) has been scheduled for migration, we estimate the total downtime for migration per server to be less than 10 minutes in most cases. However, the exact downtime depends on the size and change rate of your existing MySQL Database on Azure instances.</li>
 										<li>You will be automatically migrated to the new service before the end of life of the existing service</li>
 										<li>Migration will begin on Feb 15th, 2019</li>
 										<li>Special pricing will be lost when scaled to a different service tier or if server is deleted.</li>
@@ -210,6 +210,29 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
+							<a href="#" id="service-fabric_year_2019-april-hdinsight"><span>4/17</span>Azure HDInsight now officially released in China East 2 data center<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure HDInsight is a fully-managed cloud service that makes it easy, fast, and cost-effective to process massive amounts of data. Use popular open-source frameworks such as Hadoop, Spark, Hive, LLAP, Kafka, Storm, HBase, and more. Azure HDInsight enables a broad range of scenarios such as ETL, Data Warehousing, IoT, and more.</p>
+
+								<p>Azure HDInsight Linux has now been officially released in China East 2 data center. To learn more about this service and pricing, please visit <a href="/home/features/hdinsight/" id="what-is-new_year_2019-april-features-hdinsight">Azure HDInsight Services Feature page</a> and <a href="/pricing/details/hdinsight/" id="what-is-new_year_2019-april-pricing-hdinsight">Price Details page</a>. For more details, please visit<a href="//docs.azure.cn/zh-cn/hdinsight/" id="what-is-new_year_2019-april-docs-hdinsight"> Azure HDInsight Document page</a>.</p>
+
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-april-container-registry"><span>4/5</span>Azure Container Registry officially released in China East and China North data centers<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Container Registry provides a hosted Docker registration service for storing and managing private container images. Azure Container Registry can work along with the existing container development and deployment channels. You can generate a container image in Azure using the Azure Container Registry Build. The source code submission and base image update can be used to generate triggers on demand as needed or fully automatically.</p>
+								<p>Azure Container Registry has been officially released in China East and China North data centers. To learn more about this service and pricing, please visit the <a href="/home/features/container-registry/" id="what-is-new_year_2019-april-features-container-registry">Container Registry Service Feature</a> page and the <a href="/pricing/details/container-registry/" id="what-is-new_year_2019-april-pricing-container-registry">Container Registry Price Details</a> page. For more details, please visit the <a href="//docs.azure.cn/zh-cn/container-registry/"   id="what-is-new_year_2019-april-docs-container-registry">Azure Container Registry Documentation</a> page.</p>
+
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
 							<a href="#" id="service-fabric_year_2019-april-translator-text-api"><span>4/2</span>Translator Text API official released<i class="icon icon-update"></i></a>
 							<section>
 								<p>The Translator Text API is a neural machine translation service that developers can easily integrate into their applications websites, tools, or any solution requiring multi-language support such as website localization, e-commerce, customer support, messaging applications, internal communication, and more. It can be used to translate text in near real-time through a simple REST API call. It allows you to add multi-language user experiences in <a href="//docs.azure.cn/zh-cn/cognitive-services/translator/language-support/" id="what-is-new_year_2019-april-docs-language-support">more than 60 languages</a>, and can be used on any hardware platform with any operating system for text-to-text language translation.</p>
@@ -222,10 +245,10 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-april-cdn"><span>4/1</span>Content Delivery Network Standard Plus for Zone 1 and Standard for Zone 2 officially released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-april-cdn"><span>4/1</span>Azure CDN for China regions with global coverage officially released</a>
 							<section>
 								<p>Azure CDN improves application performance by caching content to the location nearest the customer. CDN stands for content delivery network. Virtually all large-scale websites use the Content Delivery Network technology today, but the technology is by no means exclusive to large websites. The basic purpose of the network is to avoid bottlenecks and other parts of the Internet that could affect data transfer rates and stability, to make content transfers faster and more stable. By placing node servers in different places across the network and building a more intelligent layer of virtual networks by using the Internet as a foundation, Content Delivery Network systems can redirect user requests in real time to the service node closest to the user based on the status of network traffic and node connections and loads, as well as overall information on distance to the user and response times.</p>
-								<p>Content Delivery Network Standard Plus for Zone 1 and Standard for Zone 2 have now been officially released. To understand more about this service, please visit <a href="/home/features/cdn/" id="what-is-new_year_2019-april-features-cdn">Content Delivery Network Feature page</a> and <a href="/pricing/details/cdn/" id="what-is-new_year_2019-april-pricing-cdn">Content Delivery Network Price Details page</a>. For more details, please visit <a href="//docs.azure.cn/zh-cn/cdn/" id="what-is-new_year_2019-april-docs-cdn">Content Delivery Network Documentation page</a>.</P>
+								<p>Content Delivery Network Standard Plus for Zone 1 and Standard with global coverage for Zone 2 have now been officially released. To understand more about this service, please visit <a href="/home/features/cdn/" id="what-is-new_year_2019-april-features-cdn">Content Delivery Network Feature page</a> and <a href="/pricing/details/cdn/" id="what-is-new_year_2019-april-pricing-cdn">Content Delivery Network Price Details page</a>. For more details, please visit <a href="//docs.azure.cn/zh-cn/cdn/" id="what-is-new_year_2019-april-docs-cdn">Content Delivery Network Documentation page</a>.</P>
 
 							</section>
 						</div>
@@ -237,7 +260,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-march-monitor"><span>3/11</span>Alert rules feature of Azure Monitor officially released in China East and China North data centers<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-march-monitor"><span>3/11</span>Alert rules feature of Azure Monitor officially released in China East and China North data centers</a>
 							<section>
 								<p>Azure Monitor is a platform function used to monitor and control Azure resources. Azure Monitor allows you to gather detailed performance and usage data, activity and diagnostic logs, and notifications, in a consistent way. You can use Azure portal to view and analyze monitoring data and set up alert-based automated actions. Alerts proactively notify you when important conditions are found in your monitoring data. They allow you to identify and address issues before the users of your system notice them.</p>
 								<p>Alert rules are separated from alerts and the action that are taken when an alert fires.</p>
