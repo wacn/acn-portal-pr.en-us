@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2014-11-11T02:51:30" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
+  <wazcomHomepage id="11978" parentID="-1" level="1" writerID="106" creatorID="22" nodeType="1056" template="4" sortOrder="15" createDate="2012-05-29T21:00:07" updateDate="2019-04-19T02:51:30" nodeName="zh-cn" urlName="zh-cn" writerName="content" creatorName="Brad" path="-1,11978" isDoc="">
     <bodyText><![CDATA[
       
       	<style type="text/css">
@@ -47,7 +47,7 @@
             height: 21px;
             line-height: 22px;
             font-size: 14px;
-            color: #00a3d9;
+            color: #006FD4;
             float: none;
             display: inline;
           }
@@ -92,7 +92,7 @@
             display:block;
             height:100%;
           }
-          #t-a-r{
+          #t-a-r1,#t-a-r2,#t-a-r3{
           text-align:right;
           }
           @media only screen and (min-width:980px){
@@ -168,7 +168,7 @@
                   <div class="case-logo mb"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/mobike-logo-apia.png" /></div>
                   <div class="case-disc">
                     <p>“As of October 2017, Mobike had expanded its shared bicycle business in China and eight other countries around the world. In some areas, Mobike has decided to work with Microsoft SmartCloud. Mobike is accelerating its global market expansion with the help of Microsoft's high-quality services in the cloud and Azure IP Advantage.”</p>
-                    <p id="t-a-r">- Mobike</p>
+                    <p id="t-a-r1">- Mobike</p>
                   </div>
                 </div>
               </div>
@@ -178,7 +178,7 @@
                   <div class="case-disc">
                     <p>“Kohler is a famous brand in the home furnishing and sanitary fields. Facing new technological trends, Kohler is also keeping pace with the times and actively promoting the digital transformation of business and products. Kohler is actively building a new generation of smart home systems and user experiences through collaboration with technology vendors such as Microsoft.</p>
                     <p>“Azure IP Advantage enables us to focus more on product and technology innovation on the cloud platform and gives us greater confidence in the future of cloud development.”</p>
-                    <p id="t-a-r">- Wan Zhong, Asia Pacific Director of Kohler</p>
+                    <p id="t-a-r2">- Wan Zhong, Asia Pacific Director of Kohler</p>
                   </div>
                 </div>
               </div>
@@ -187,7 +187,7 @@
                   <div class="case-logo yj"><img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/yjny-logo-apia.png" /></div>
                   <div class="case-disc">
                     <p>“We have built the EnOS Smart Internet of Things platform on the Azure Cloud and are using the Azure Cloud to enter the international market while deploying and running in China. The Azure Cloud provides us with a compliant and reliable smart cloud platform that is uniformly developed and flexibly deployed and managed, while Azure IP Advantage provides us with an umbrella for patented technology, allowing us to focus on technological innovation and reduce unnecessary waste of resources.”</p>
-                    <p id="t-a-r">- Pan Yihong, Senior O&amp;M Manager of Envision Energy</p>
+                    <p id="t-a-r3">- Pan Yihong, Senior O&amp;M Manager of Envision Energy</p>
                   </div>
                 </div>
               </div>
