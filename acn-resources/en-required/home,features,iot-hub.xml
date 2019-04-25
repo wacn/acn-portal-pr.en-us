@@ -1,60 +1,138 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <localize>
   <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-07-04T10:41:59" urlName="iot-hub" writerName="content" creatorName="content">
-    <bodyText><![CDATA[
-      
-           <tags ms.service="iot-hub" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+    <bodyText>
+      <![CDATA[
+           <tags ms.service="iot-hub" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+           <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: Product-Detail-TopBanner -->
             <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/azure-Iot-hub.jpg','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/azure-iot-hub80.png" />
-                        <h2>Azure IoT Hub<span>Azure IoT Hub</span></h2>
-                        <h4>Connect, monitor, and control billions of IoT assets</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_iot-hub_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_iot-hub_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Azure IoT 中心<span>Azure IoT Hub</span></h2>
+                        <h4>连接、监视并控制数十亿 IoT 资产</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_iot-hub_trial">申请试用<i class="icon icon-arrow-right-thin"></i></a></em>
+                        <a href="/pricing/pia/" id="home_iot-hub_pia">立即购买<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
-            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <!-- END: Product-Detail-TopBanner -->
+            <!-- BEGIN: Product-Detail-Content -->
             <div class="pricing-page-section">
-                <h1>Connect, monitor, and control
-billions of IoT assets</h1>
-                <ul>
-                    <li>Quick Start</li>
-                    <li>Connect millions of IoT assets</li>
-                    <li>Supports a variety of operating systems and protocols</li>
-                    <li>Establish reliable two-way communication</li>
-                    <li>Increase the security of IoT solutions</li>
-                </ul>
-                <h2>Establish two-way communication with millions of IoT devices</h2>
-                <p>Easily connect IoT assets with Azure IoT Hub. Use device-to-cloud telemetry to find out the status of devices and assets and take immediate action as soon as devices need attention. Reliably send instructions and notifications to connected devices using cloud-to-device messaging, and track message delivery using confirmation receipts. Adapt to intermittently connected devices by sending device messages with persistent methods.</p>
-
-                <h2>Use familiar platforms and protocols</h2>
-                <p>Add new devices and connect existing devices with open source device SDKs that work on multiple platforms (including Linux, Windows and real-time operating systems). Use standard protocols and custom protocols including HTTP, Premium Message Queuing Protocol (AMQP) and Message Queuing Telemetry Transport (MQTT).</p>
-
-                <h2>Increase the security of IoT solutions with authentication for every device</h2>
-                <p>Set identifiers and credentials for each connected device to help you keep cloud-to-device and device-to-cloud messages confidential. To maintain system integrity, please revoke access permissions for specific devices.</p>
-
-                <h2>Manage IoT devices on a large scale using device management</h2>
-                <p>Using Azure IoT Hub’s device management function, administrators can remotely maintain, update and manage IoT devices on a large scale, eliminating the need to develop and maintain custom device management solutions and expend further resources on maintaining global assets, and delivering savings in terms of both time and costs.</p>
-
-                <h2>Make use of the intelligent edge via the Azure IoT gateway SDK</h2>
-                <p>The IoT SDK provides a powerful framework to generate, configure and deploy edge logic, enabling you to do even more with Azure IoT. Whether you are choosing strategies or other data processing to connect to old devices, reduce bandwidth costs or improve security, the IoT Gateway SDK simplifies the deployment process, so that you can focus on the issues that really matter. Learn more about <a href="/home/features/iot-hub/iot-gateway-sdk/" id="iot-hub_iot-gateway-sdk">Azure IoT Gateway SDK</a>.</p>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/product-iot-hub-establish.svg" alt="与数十亿台 IoT 设备建立双向通信">
+                    </div>
+                    <div class="col-md-9">
+                        <h2>与数十亿台 IoT 设备建立双向通信</h2>
+                        <p>设备到云的遥测数据可用于了解设备状态，以及定义到其他 Azure 服务的消息路由，无需编写任何代码。在云到设备消息中，可靠地向连接的设备发送命令和通知，并通过确认回执跟踪消息传递。通过持久的方法发送设备消息，以适应间歇性连接的设备。</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-9">
+                        <h2>每设备身份验证可提升 IoT 解决方案的安全性</h2>
+                        <p>为每台连接的设备设置个人标识和凭据，并帮助保持云到设备和设备到云消息的保密性。要保持系统的完整性，请根据需要选择性地撤消特定设备的访问权限。</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/product-iot-hub-authenticate.svg" alt="每设备身份验证可提升 IoT 解决方案的安全性">
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/product-iot-hub-automate.svg" alt="实现 IoT 设备配置和注册的自动化，加速 IoT 部署过程">
+                    </div>
+                    <div class="col-md-9">
+                        <h2>实现 IoT 设备配置和注册的自动化，加速 IoT 部署过程</h2>
+                        <p>采用可缩放的安全方式，以零接触方法注册和预配设备，加速 IoT 部署过程。IoT 中心设备预配服务支持与 IoT 中心兼容的任何 IoT 设备类型。<a href="https://docs.azure.cn/iot-dps/">阅读文档</a></p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-9">
+                        <h2>将云的功能扩展到边缘设备</h2>
+                        <p>利用 IoT Edge 实现混合云解决方案和边缘 IoT 解决方案。IoT Edge 提供代码和服务之间的简单业务流程，使其能够在云和边缘之间安全流动以在一系列设备之间分配智能。允许在边缘处启用人工智能和其他高级分析、降低 IoT 解决方案成本、简化开发工作并支持在离线或间歇性连接状态下操作设备。<a href="https://www.azure.cn/home/features/iot-edge/">探索 IoT Edge</a></p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/product-iot-hub-extend.svg" alt="将云的功能扩展到边缘设备">
+                    </div>
+                </div>
             </div>
-            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
+            <!-- END: Product-Detail-Content -->
+            <!-- BEGIN: Read-More -->
             <div class="pricing-page-section link-group-container">
-                <h1>More</h1>
+                <h1>了解更多</h1>
                 <ul>
-                    <li><a id="home_virtual_centre" href="https://docs.azure.cn/iot-hub/iot-hub-csharp-csharp-getstarted/" target="_blank">Getting Started with Azure IoT Hub<i class="icon icon-arrow-right-thin"></i></a></li>
+                    <li><a id="home_virtual_centre" href="https://docs.azure.cn/iot-hub/iot-hub-csharp-csharp-getstarted/" target="_blank">Azure IoT 中心入门<i class="icon icon-arrow-right-thin"></i></a></li>
                 </ul>
             </div>
-            <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
-    
-    ]]></bodyText>
-    <pageTitle>Azure IoT Hub_IoT - Azure Cloud Computing</pageTitle>
+            <!-- END: Read-More -->
+            <!--BEGIN: Support and service code chunk-->
+            <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />                                                                        
+            <!--END: Support and service code chunk-->              
+    ]]>
+    </bodyText>
+    <pageTitle>Azure IoT中心_IoT物联网 - Azure云计算</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-iot-hub</linkid>
-    <metaKeywords>Azure, Microsoft Cloud, IoT, Azure IoT Hub, control IoT assets, two-way communication, features</metaKeywords>
-    <metaDescription><![CDATA[Using Azure IoT Hub to connect, monitor, and control millions of IoT assets allows you to create secure and reliable IoT solutions. Azure IoT Hub supports a variety of operating systems and protocols for creating two-way communication and improving the security of IoT solutions.]]></metaDescription>
-    <urlDisplayName>Azure IoT Hub</urlDisplayName>
+    <metaKeywords>Azure, 微软云, 物联网，Azure IoT 中心，Azure IoT Hub，监控物联网资产，双向通信，功能</metaKeywords>
+    <metaDescription><![CDATA[使用 Azure IoT 中心（Azure IoT Hub），连接、监视并控制数百万 IoT 资产，创建可靠且安全的物联网解决方案。Azure IoT 中心可支持各种操作系统和协议，建立可靠的双向通信，提升物联网解决方案的安全性。]]></metaDescription>
+    <urlDisplayName>Azure IoT 中心</urlDisplayName>
   </TextpageLeftNav>
 </localize>
