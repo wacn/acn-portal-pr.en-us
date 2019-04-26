@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-04-23T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-04-25T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -63,9 +63,9 @@
 										<p>All these services come with a flexible pricing model so customers can choose resources for their workloads with no hidden cost. To find out more about Azure Database for MySQL, please see the <a href="https://www.azure.cn/zh-cn/home/features/mysql/">Product Function</a> page and <a href="https://www.azure.cn/zh-cn/pricing/details/mysql">Price Details</a> page.</p>
 										<p>If you are an existing customer:</p>
 										<ul>
-										<li>Less than 10 minutes of service interruption. When your server(s) has been scheduled for migration, we estimate the total downtime for migration per server to be less than 10 minutes in most cases. However, the exact downtime depends on the size and change rate of your existing MySQL Database on Azure instances.</li>
-										<li>You will be automatically migrated to the new service before the end of life of the existing service</li>
-										<li>Migration will begin on Feb 15th, 2019</li>
+										<li>You will be automatically migrated to the new service before the end of life of the existing service.</li>
+										<li>Support the business continuity.  When your server(s) has been scheduled for migration, we estimate the total downtime for migration per server to be less than 10 minutes in most cases. However, the exact downtime depends on the size and change rate of your existing MySQL Database on Azure instances.</li>
+										<li>Migration will begin on Feb 15th, 2019.</li>
 										<li>Special pricing will be lost when scaled to a different service tier or if server is deleted.</li>
 										<li>You will continue to pay the same price post migration. Detailed information about the SKU mapping between the old service and the new service will be published before end of December 2018.</li>
 										<li>There is no action necessary for now. At a minimum, 30 days prior to your scheduled migration, you will receive additional notifications including the exact timeline for your migration.</li>
