@@ -117,7 +117,7 @@
                     </table>
                     <!-- <p><sup>1</sup> 在服务使用过程中，事件中心的使用将单独计费，请访问<a id="service_bus_transfer_price-page-event-center" href="/pricing/details/event-hubs/" target="_blank">事件中心价格页面</a>了解相关费率。</p> -->
                     <div class="tags-date">
-                        <div class="ms-date">Service Bus premium runs in dedicated resources to provide higher throughput and more consistent performance.</div>
+                        <div class="ms-date">Service Bus Premium runs in dedicated resources to provide higher throughput and more consistent performance.</div>
                         <div class="ms-date"><sup>1</sup>1,000 transfer connections are included with the standard messaging tier (via the base charge), which can be shared across all queues, topics/subscriptions, and event hubs within the associated Azure subscription.</div>
                     </div>
                     <h2>Message Transfer Operations</h2>
@@ -372,7 +372,7 @@
                             <div>
                             <i class="icon icon-plus"></i> <a id="service_bus_billing_work_for_premiun">How does billing work for the premium tier?</a>
                             <section>
-                                <p>The premium tier of Service Bus messaging is a flat daily rate per messaging unit purchased. Namespaces created as premium can have 1, 2, or 4 messaging units which will each accrue the given number of messaging unit daily rate charges. Premium namespaces can have the number of purchased messaging units changed at any time, but the daily rate is based on the maximum number of message units assigned to the namespace at any time.</p>
+                                <p>The premium tier of Service Bus messaging is a flat daily rate per messaging unit purchased. Namespaces created as premium can have 1, 2, or 4 messaging units which will each accrue based on the given number of messaging unit daily rate charges. Premium namespaces can have the number of purchased messaging units changed at any time, but the daily rate is based on the maximum number of message units assigned to the namespace at any time.</p>
                             </section>
                             </div>
                         </li>
