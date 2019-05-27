@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-04-19T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-05-13T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -63,9 +63,9 @@
 										<p>All these services come with a flexible pricing model so customers can choose resources for their workloads with no hidden cost. To find out more about Azure Database for MySQL, please see the <a href="https://www.azure.cn/zh-cn/home/features/mysql/">Product Function</a> page and <a href="https://www.azure.cn/zh-cn/pricing/details/mysql">Price Details</a> page.</p>
 										<p>If you are an existing customer:</p>
 										<ul>
-										<li>There will be no interruption of service. Except when your server(s) has been scheduled for migration, we estimate the total downtime for migration per server to be less than 10 minutes in most cases. However, the exact downtime depends on the size and change rate of your existing MySQL Database on Azure instances.</li>
-										<li>You will be automatically migrated to the new service before the end of life of the existing service</li>
-										<li>Migration will begin on Feb 15th, 2019</li>
+										<li>You will be automatically migrated to the new service before the end of life of the existing service.</li>
+										<li>User business continuity is supported. When your server(s) has been scheduled for migration, we estimate the total downtime for migration per server to be less than 10 minutes in most cases. However, the exact downtime depends on the size and change rate of your existing MySQL Database on Azure instances.</li>
+										<li>Migration will begin on Feb 15th, 2019.</li>
 										<li>Special pricing will be lost when scaled to a different service tier or if server is deleted.</li>
 										<li>You will continue to pay the same price post migration. Detailed information about the SKU mapping between the old service and the new service will be published before end of December 2018.</li>
 										<li>There is no action necessary for now. At a minimum, 30 days prior to your scheduled migration, you will receive additional notifications including the exact timeline for your migration.</li>
@@ -204,13 +204,75 @@
             	
                 <h1>Product Update</h1>
                 <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a>
-                
+                <h3>May 2019</h3>
+                <ul>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-may-sql-database"><span>5/13</span>The Azure SQL Database hyperscale service tier Gen5 has now been officially released in China East 2 and China North 2 data centers<i class="icon icon-update"></i></a>
+							<section>
+								<p>The Azure SQL Database hyperscale service tier is the latest service tier in the vCore-based purchase models, which can be adjusted on demand according to workload requirements. Each database can be quickly and automatically scaled to 100 TB, eliminating the demand for provisioning storage resources, while significantly tapping the potential of application growth to keep it from being limited by the storage size. This new service tier can also scale computing and storage resources independently, giving the flexibility to optimize workload performance. Azure SQL Database is massive and can be used for a single database deployment.</p>
+								
+								<p>To learn more about this service and its pricing, please visit <a href="/home/features/sql-database/" id="what-is-new_year_2019-may-features-sql-database">Azure SQL Database Feature</a> page and <a href="/pricing/details/sql-database/" id="what-is-new_year_2019-may-pricing-sql-database">Azure SQL Database Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/sql-database/" id="what-is-new_year_2019-may-docs-sql-database">Azure SQL Database Document</a> page.</p>
+
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-may-ip-addresses"><span>5/9</span>The Azure public IP prefix officially released<i class="icon icon-update"></i></a>
+							<section>
+								<p>The public IP prefix is a service in the public IP address. It is a reserved range of IP addresses for your public endpoints in Azure. You can use prefixes to simplify IP address management in Azure. You can change the firewall rules knowing the address range in advance and no longer need to assign IP addresses to new resources. With address prediction, you can dramatically reduce management overhead when scaling in Azure.</p>
+								
+								<p>To learn more about this service and its pricing, please visit <a href="/pricing/details/ip-addresses/" id="what-is-new_year_2019-may-pricing-ip-addresses">Public IP Address Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/virtual-network/virtual-network-public-ip-address" id="what-is-new_year_2019-may-docs-virtual-network-public-ip-address">Public IP Address Document</a> page.</p>
+
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-may-managed-disks"><span>5/5</span>Azure Managed Disks Large Capacity Disks have now been officially released<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Managed Disks is a service that is designed and controlled by Azure for virtual disk files (VHDs) and storage accounts used by virtual machines.</p>
+								<ul>
+									<li>Premium Managed Disks are high performance Solid State Drive (SSD) based Storage designed to support I/O intensive workloads with significantly high throughput and low latency. Premium Managed Disks types P60, P70, and P80 (with disk size of 8TB, 16TB, and 32TB respectively) have now been officially released.</li>
+									<li>Standard SSD Managed Disks, a low-cost SSD offering, are optimized for test and entry-level production workloads requiring consistent latency. Standard SSD Managed Disks types E60, E70, and E80 (with disk size of 8TB, 16TB, and 32TB respectively) have now been officially released.</li>
+									<li>Standard Managed Disks use Hard Disk Drive (HDD) based Storage media. They are best suited for dev/test and other infrequent access workloads that are less sensitive to performance variability. Standard Managed Disks types S60, S70, and S80 (with disk size of 8TB, 16TB, and 32TB respectively) have now been officially released.</li>
+								</ul>
+
+								<p>To understand more about this service and pricing, please visit <a href="/home/features/storage/managed-disks/" id="what-is-new_year_2019-may-features-managed-disks">Azure Managed Disks Feature</a> page and <a href="/pricing/details/storage/managed-disks/" id="what-is-new_year_2019-may-pricing-managed-disks">Azure Managed Disks Price Details </a>page. For more details, please visit <a href="//docs.azure.cn/zh-cn/virtual-machines/linux/managed-disks-overview/" id="what-is-new_year_2019-may-docs-managed-disks-overview">Azure Managed Disks Documentation</a> page.</p>
+
+							</section>
+						</div>
+					</li>
+                </ul>
 				<h3>April 2019</h3>
 				<ul>
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-april-iothub"><span>4/18</span>The Azure IoT Hub Device Provisioning Service officially released in China East 2 and China North 2 data centers<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-april-virtual-machines"><span>4/23</span>Azure Virtual Machines SUSE Linux Enterprise Server Basic and SUSE Linux Enterprise Server for SAP Priority officially released</a>
+							<section>
+								<p>SUSE Linux Enterprise Server (SLES) is the world's leading modular operating system for secure open source servers and the first supported Enterprise Linux distribution on Azure. Its tuned kernel provides faster access to new and upcoming Azure features, helping users become more agile. SUSE Linux Enterprise Server Basic is the base version, and SUSE Linux Enterprise Server for SAP Priority provides the following key features:</p>
+								<ul>
+									<li>Automatic failover of the SAP HANA database;</li>
+									<li>Page cache limits able to maintain SAP application performance;</li>
+									<li>Built-in high availability cluster to reduce downtime;</li>
+									<li>Full system rollback, including service pack updates, to quickly recover errors;</li>
+									<li>Linux container with Docker for automated application deployment</li>
+								</ul>
+
+								<p>To understand more about this service and pricing, please visit <a href="/home/features/virtual-machines/" id="what-is-new_year_2019-april-features-virtual-machines">Azure Virtual Machines Feature</a> page and <a href="/pricing/details/virtual-machines/" id="what-is-new_year_2019-april-pricing-virtual-machines">Price Details </a>page. For more details, please visit <a href="//docs.azure.cn/zh-cn/virtual-machines/" id="what-is-new_year_2019-april-docs-virtual-machines">Azure Virtual Machines Documentation</a> page.</p>
+
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-april-iothub"><span>4/18</span>The Azure IoT Hub Device Provisioning Service officially released in China East 2 and China North 2 data centers</a>
 							<section>
 								<p>The Azure IoT Hub Device Provisioning Service, one of the features of Azure IoT Hub, allows you to make zero-contact device configurations for your Azure IoT Hub. With this function, you can securely provision and register IoT devices on a large scale. The Azure IoT Hub Device Provisioning Service is designed with full consideration of supply chain challenges and offers an infrastructure required for configuring millions of devices in a secure and scalable manner.</p>
 
@@ -222,7 +284,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-april-hdinsight"><span>4/17</span>Azure HDInsight now officially released in China East 2 data center<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-april-hdinsight"><span>4/17</span>Azure HDInsight now officially released in China East 2 data center</a>
 							<section>
 								<p>Azure HDInsight is a fully-managed cloud service that makes it easy, fast, and cost-effective to process massive amounts of data. Use popular open-source frameworks such as Hadoop, Spark, Hive, LLAP, Kafka, Storm, HBase, and more. Azure HDInsight enables a broad range of scenarios such as ETL, Data Warehousing, IoT, and more.</p>
 
@@ -234,7 +296,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-april-advisor"><span>4/10</span>Azure Advisor officially released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-april-advisor"><span>4/10</span>Azure Advisor officially released</a>
 							<section>
 								<p>Azure Advisor is a free product that provides personalized recommendation guide and helps you to optimize Azure deployment to follow best practices. It analyzes your resource configuration and telemetry usage, and then recommends solutions that help you to increase resource cost-effectiveness, performance, and availability. Azure Advisor allows you to obtain the following workable recommendations:</p>
 								<ul>
