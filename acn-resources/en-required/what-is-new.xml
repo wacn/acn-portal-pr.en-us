@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-05-13T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-05-27T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -209,6 +209,30 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
+							<a href="#" id="service-fabric_year_2019-may-27-sql-database"><span>5/27</span>The preview version of Azure SQL Database serverless computing released<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure SQL Database serverless computing has optimized its price performance and simplified the performance management of intermittent and unpredictable database. According to the requirement of workload, the auto scaling of single database computing is available and the used computing is charged on a basis of second. During periods of inactivity, the computing is automatically suspended (only storage is charged at this time) and automatically resumed when the activity returns. Users will focus on building applications more quickly and efficiently due to serverless. Like all databases in SQL databases, serverless databases provide high availability and benefit from built-in intelligence for security and performance optimization.</p>
+								
+								<p>For more information about this service and pricing, please visit the <a href="/home/features/sql-database/" id="what-is-new_year_2019-may-27-features-sql-database">Azure SQL Database Feature</a> page and the <a href="/pricing/details/sql-database/" id="what-is-new_year_2019-may-27-pricing-sql-database">Azure SQL Database Pricing Details</a> page.</p>
+
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-language-understanding-intelligent-service"><span>5/17</span>The free version of Azure Cognitive Services Language Understanding API officially released<i class="icon icon-update"></i></a>
+							<section>
+								<p>Language Understanding API is one of Azure Cognitive Services. You can build your own self-defined language model to make any program or robot understand your command and execute corresponding operation. Powerful developer tools are combined with customizable pre-built apps and entity dictionaries, such as Calendar, Music, and Devices, so you can build and deploy a solution more quickly. Dictionaries are mined from the collective knowledge of the web and supply billions of entries, helping your model to correctly identify valuable information from user conversations.</p>
+								
+								<p>To learn more about this service and its pricing, please visit <a href="/home/features/cognitive-services/language-understanding-intelligent-service/" id="what-is-new_year_2019-may-features-language-understanding-intelligent-service">Language Understanding API Feature</a> page and <a href="/pricing/details/cognitive-services/" id="what-is-new_year_2019-may-pricing-language-understanding-intelligent-service">Language Understanding API Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/cognitive-services/luis/" id="what-is-new_year_2019-may-docs-language-understanding-intelligent-service">Language Understanding API Document</a> page.</p>
+
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
 							<a href="#" id="service-fabric_year_2019-may-sql-database"><span>5/13</span>The Azure SQL Database hyperscale service tier Gen5 has now been officially released in China East 2 and China North 2 data centers<i class="icon icon-update"></i></a>
 							<section>
 								<p>The Azure SQL Database hyperscale service tier is the latest service tier in the vCore-based purchase models, which can be adjusted on demand according to workload requirements. Each database can be quickly and automatically scaled to 100 TB, eliminating the demand for provisioning storage resources, while significantly tapping the potential of application growth to keep it from being limited by the storage size. This new service tier can also scale computing and storage resources independently, giving the flexibility to optimize workload performance. Azure SQL Database is massive and can be used for a single database deployment.</p>
@@ -221,7 +245,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-may-ip-addresses"><span>5/9</span>The Azure public IP prefix officially released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-may-ip-addresses"><span>5/9</span>The Azure public IP prefix officially released</a>
 							<section>
 								<p>The public IP prefix is a service in the public IP address. It is a reserved range of IP addresses for your public endpoints in Azure. You can use prefixes to simplify IP address management in Azure. You can change the firewall rules knowing the address range in advance and no longer need to assign IP addresses to new resources. With address prediction, you can dramatically reduce management overhead when scaling in Azure.</p>
 								
@@ -233,7 +257,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-may-managed-disks"><span>5/5</span>Azure Managed Disks Large Capacity Disks have now been officially released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-may-managed-disks"><span>5/5</span>Azure Managed Disks Large Capacity Disks have now been officially released</a>
 							<section>
 								<p>Azure Managed Disks is a service that is designed and controlled by Azure for virtual disk files (VHDs) and storage accounts used by virtual machines.</p>
 								<ul>
