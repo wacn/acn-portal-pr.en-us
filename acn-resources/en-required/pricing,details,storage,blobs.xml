@@ -207,7 +207,7 @@
 								<td align="center">Archive</td>
 							</tr>
 							<tr>
-								<td>Write operations</td>
+								<td>Write Operations (per 10,000)<sup>1</sup></td>
 								<td align="center">￥ 0.045</td>
 								<td align="center">￥ 0.09</td>
 								<td align="center">￥ 0.712</td>
@@ -217,7 +217,7 @@
 							   
 							</tr>
 							<tr>
-								<td>List and create container operations (per 10,000 counted)</td>
+								<td>List and Create Container Operations (per 10,000)<sup>2</sup></td>
 								<td align="center">￥ 0.045</td>
 								<td align="center">￥ 0.045</td>
 								<td align="center">￥ 0.045</td>
@@ -226,7 +226,7 @@
 								<td align="center">￥ 0.09</td>
 							</tr>
 							<tr>
-								<td>Read operations (per 10,000 counted)</td>
+								<td>Read Operations (per 10,000)<sup>3</sup></td>
 								<td align="center">￥ 0.015</td>
 								<td align="center">￥ 0.03</td>
 								<td align="center">￥ 31.825</td>
@@ -235,7 +235,7 @@
 								<td align="center">￥ 31.825</td>							   
 							</tr>
 							<tr>
-								<td>All other operations (per 10,000 counted)</td>
+								<td>All other Operations (per 10,000), except Delete, which is free</td>
 								<td align="center">￥ 0.040704</td>
 								<td align="center">￥ 0.040704</td>
 								<td align="center">￥ 0.040704</td>
@@ -244,7 +244,7 @@
 								<td align="center">￥ 0.040704</td>
 							</tr>
 							<tr>
-								<td>Data Search (GB)</td>
+								<td>Data Retrieval (per GB)<sup>4</sup></td>
 								<td align="center">Free</td>
 								<td align="center">￥ 0.0657</td>
 								<td align="center">￥ 0.127</td>
@@ -253,7 +253,7 @@
 								<td align="center">￥ 0.127</td>
 							</tr>
 							<tr>
-								<td>Data writes (GB)</td>
+								<td>Data Write (per GB)<sup>4</sup></td>
 								<td align="center">Free</td>
 								<td align="center">Free</td>
 								<td align="center">Free</td>
@@ -264,8 +264,10 @@
 							
 						</tbody></table>
 						<div class="tags-date">
-							<div class="ms-date">*The following API calls are considered as write operations: PutBlob, PutBlock, PutBlockList, AppendBlock, SnapshotBlob, CopyBlob, and SetBlobTier (where blobs are moved from Hot to Cool, from Cool to Archive or from Hot to Archive.).</div><br />
-							<div class="ms-date">**The following API calls are considered as read operations: GetBlob and SetBlobTier (where blobs are moved from Archive to Cool, from Cool to Hot or from Archive to Hot.).</div><br />
+							<div class="ms-date"><sup>1</sup> The following API calls are considered as write operations: PutBlob, PutBlock, PutBlockList, AppendBlock, SnapshotBlob, CopyBlob, and SetBlobTier (where blobs are moved from Hot to Cool, from Cool to Archive or from Hot to Archive.).</div><br />
+							<div class="ms-date"><sup>2</sup> The following API calls are considered list and create container operations: ListBlobs, ListContainers, and CreateContainer.</div><br />
+							<div class="ms-date"><sup>3</sup> The following API calls are considered as read operations: GetBlob and SetBlobTier (where blobs are moved from Archive to Cool, from Cool to Hot or from Archive to Hot).</div><br />
+							<div class="ms-date"><sup>4</sup> <a style="font-size:12px;" href="https://www.azure.cn/pricing/details/bandwidth">Network costs</a> are charged separately.</div><br />
 							<div class="ms-date">For blobs in Archive, only the following operations are valid: GetBlobProperties, GetBlobMetadata, ListBlobs, SetBlobTier, and DeleteBlob. Setting an Archive tier to a Hot or Cool tier usually takes 15 hours to complete.</div>
 						</div>
 
@@ -362,23 +364,28 @@
 								<td align="center">Hot</td>
 							</tr>
 							<tr>
-								<td>List and create container operations (per 10,000 counted)</td>
+								<td>Write Operations (per 10,000)<sup>1</sup></td>
 								<td align="center">￥ 0.09</td>
 								<td align="center">￥ 0.045</td>
 								<td align="center">￥ 0.18</td>
 								<td align="center">￥ 0.09</td>
-							   
 							</tr>
 							<tr>
-								<td>Read operations (per 10,000 counted)</td>
+								<td>List and Create Container Operations (per 10,000)<sup>2</sup></td>
+								<td align="center">￥ 0.09</td>
+								<td align="center">￥ 0.045</td>
+								<td align="center">￥ 0.18</td>
+								<td align="center">￥ 0.09</td>
+							</tr>
+							<tr>
+								<td>Read Operations (per 10,000)<sup>3</sup></td>
 								<td align="center">￥ 0.03</td>
 								<td align="center">￥ 0.015</td>
 								<td align="center">￥ 0.03</td>
 								<td align="center">￥ 0.015</td>
-							   
 							</tr>
 							<tr>
-								<td>All other operations (per 10,000 counted)</td>
+								<td>All other Operations (per 10,000), except Delete, which is free</td>
 								<td align="center">￥ 0.040704</td>
 								<td align="center">￥ 0.040704</td>
 								<td align="center">￥ 0.040704</td>
@@ -386,21 +393,28 @@
 							
 							</tr>
 							<tr>
-								<td>Data Search (GB)</td>
+								<td>Data Retrieval (per GB)<sup>4</sup></td>
 								<td align="center">￥ 0.0657</td>
 								<td align="center">Free</td>
 								<td align="center">￥ 0.0657</td>
 								<td align="center">Free</td>
 							</tr>
 							<tr>
-								<td>Data writes (GB)</td>
+								<td>Data Write (per GB)<sup>4</sup></td>
 								<td align="center">￥ 0.0164</td>
 								<td align="center">Free</td>
 								<td align="center">￥ 0.0328</td>
 								<td align="center">Free</td>
 							</tr>
 						</table>
-						
+						<div class="tags-date">
+							<div class="ms-date"><sup>1</sup> The following API calls are considered as write operations: PutBlob, PutBlock, PutBlockList, AppendBlock, SnapshotBlob, CopyBlob, and SetBlobTier (where blobs are moved from Hot to Cool, from Cool to Archive or from Hot to Archive.).</div><br />
+							<div class="ms-date"><sup>2</sup> The following API calls are considered list and create container operations: ListBlobs, ListContainers, and CreateContainer.</div><br />
+							<div class="ms-date"><sup>3</sup> The following API calls are considered as read operations: GetBlob and SetBlobTier (where blobs are moved from Archive to Cool, from Cool to Hot or from Archive to Hot).</div><br />
+							<div class="ms-date"><sup>4</sup> <a style="font-size:12px;" href="https://www.azure.cn/pricing/details/bandwidth">Network costs</a> are charged separately.</div><br />
+							<div class="ms-date">For blobs in Archive, only the following operations are valid: GetBlobProperties, GetBlobMetadata, ListBlobs, SetBlobTier, and DeleteBlob. Setting an Archive tier to a Hot or Cool tier usually takes 15 hours to complete.</div>
+						</div>
+
 						<h4>Data transfer prices for Block Blobs (per GB)</h4>
 						<p>When you write data into GRS accounts, that data will be replicated to another Azure region. The Geo-Replication Data Transfer charge is for the bandwidth of replicating that data to another Azure region. This charge also applies when you change the account replication setting from LRS to GRS or RA-GRS.</p>
 						<table cellpadding="0" cellspacing="0" width="100%">
@@ -470,7 +484,7 @@
 							  
 							</tr>
 							<tr>
-								<td>Writes (per 10,000 counted)</td>
+								<td>Write Operations (per 10,000)<sup>*</sup></td>
 								<td align="left">￥ 0.045</td>					   
 								<td align="left">￥ 0.045</td>					   
 								<td align="left">￥ 0.09</td>					   
@@ -484,14 +498,14 @@
 								<td align="left">￥ 0.045</td>					   
 							</tr>
 							<tr>
-								<td>Reads (per 10,000 counted)</td>
+								<td>Read Operations (per 10,000)<sup>**</sup></td>
 								<td align="left">￥ 0.015</td>
 								<td align="left">￥ 0.015</td>						   
 								<td align="left">￥ 0.015</td>						   
 								<td align="left">￥ 0.015</td>						   
 							</tr>
 							<tr>
-								<td>All other operations (per 10,000 counted)</td>
+								<td>All other Operations (per 10,000), except Delete, which is free</td>
 								<td align="left">￥ 0.015</td>
 								<td align="left">￥ 0.015</td>						   
 								<td align="left">￥ 0.015</td>						   
@@ -519,6 +533,10 @@
 								<td align="left">Free</td>						   
 							</tr>
 						</table>
+						<div class="tags-date">
+							<div class="ms-date"><sup>*</sup> The following API calls are considered to be write options: AbortCopyBlob, AppendBlock, BreakBlobLease, BreakContainerLease, ChangeBlobLease, ChangeContainerLease, CopyBlob, CreateContainer, IncrementalCopyBlob, PutBlob, PutBlock, PutBlockList, PutGeoMessage, PutGeoRepairMessageMeasurementEvent, PutGeoVerificationMessageMeasurementEvent, SetBlobMetadata, SetBlobProperties, SetBlobServiceProperties, SetContainerACL, SetContainerMetadata, SnapshotBlob and UndeleteBlob.<br />
+							<div class="ms-date"><sup>**</sup> The following API calls are considered to be read operations: AcquireBlobLease, AcquireContainerLease, BlobPreflightRequest, GeoBootstrap, GetBlob, GetBlobLeaseInfo, GetBlobMetadata, GetBlobProperties, GetBlobServiceProperties, GetBlobServiceStats, GetBlockList, GetContainerACL, GetContainerMetadata, GetContainerProperties, GetCopyInformation, GetEncryptionKey, ReleaseBlobLease, ReleaseContainerLease, RenewBlobLease and RenewContainerLease.</div>
+						</div>
 					</div>	
 			
 					<!-- END: TAB-CONTROL -->

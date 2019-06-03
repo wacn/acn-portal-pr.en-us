@@ -822,7 +822,7 @@
                                         <td>¥ 7,980.00/day<br/>(about ¥ 247,380.00/month)</td>
                                     </tr>
                                     <tr>
-                                        <td>4,000</td>
+                                        <td>4000</td>
                                         <td>750 GB</td>
                                         <td>1 TB</td>
                                         <td>100</td>
@@ -901,10 +901,129 @@
 
                             <div class="tab-panel" id="tabContent2-1">
                                 <p>A vCore-based purchase model is best if you are looking for flexibility, control and transparency of individual resource consumption. This model allows you to scale compute, memory, and storage based upon your workload needs and provides a straightforward way to translate on-premises workload requirements to the cloud.</p>
+
+                                <h3>Serverless compute (preview)</h3>
+                                <p>The SQL Database serverless compute tier optimizes price-performance and simplifies performance management for single databases with intermittent, unpredictable usage by auto-scaling compute and billing for compute used per second. For details, see the FAQ section and <a style="font-size:17px" href="https://docs.azure.cn/sql-database/sql-database-serverless">documentation</a>.</p>
+                                <h4>Gen 5</h4>
+                                <p>Gen 5 logical CPUs are based on Intel E5-2673 v4 (Broadwell) 2.3 GHz processors. In Gen 5, 1 vCore = 1 hyper thread</p>
+                                <div class="tags-date">
+                                    <div class="ms-date">*The following prices are tax-inclusive.</div><br />
+                                    <div class="ms-date">*Monthly price estimation is based on a usage of 31 days per month.</div>
+                                </div>
+                                <table cellpadding="0" cellspacing="0" width="100%" id="sqldb-single-vcore-serverless-compute-gen5">
+                                    <tr>
+                                        <th align="left"><strong>Minimum vCores</strong></th>
+                                        <th align="left"><strong>Maximum vCores</strong></th>
+                                        <th align="left"><strong>Minimum Memory (GB)</strong></th>
+                                        <th align="left"><strong>Maximum Memory (GB)</strong></th>
+                                        <th align="left"><strong>Price<sup>1</sup></strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>0.5</td>
+                                        <td>4</td>
+                                        <td>2.02</td>
+                                        <td>12</td>
+                                        <td>￥ 1.9578/hour (about ￥ 1,456.6032/month)</td>
+                                    </tr>
+                                </table>
+                                <div class="tags-date">
+                                    <div class="ms-date"><sup>1</sup> The above price reflects a Preview discount.</div><br/>
+                                </div>
+
+                                <h4>Storage</h4>
+                                <p>In the General Purpose tier, you will be charged for Premium Blob Storage configured for databases or elastic pools. Storage can be configured from 5 GB to 4 TB (in 1 GB increments).</p>
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <th align="left"> </th>
+                                        <th align="left"><strong>Pricing</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>GB/month</td>
+                                        <td>￥ 0.8631</td>
+                                    </tr>
+                                </table>
+                                <!-- <h4>备份存储空间</h4>
+                                <p>数据库的 7 天自动备份默认会复制到 RA-GRS 标准 Blob 存储。由每周完整备份、每日差异备份和每 5 分钟复制一次的交易日志备份使用存储。备份成本因数据库变化率而异。提供与 100% 数据库大小相等的最小存储，不收取额外费用。超出此部分的其他备份存储空间按 GB/月收费。</p>
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <th align="left"> </th>
+                                        <th align="left"><strong>价格</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>RA-GRS</td>
+                                        <td>￥ 2.0352</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ZRS</td>
+                                        <td>￥ 1.272</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LRS</td>
+                                        <td>￥ 0.7505</td>
+                                    </tr>
+                                </table> -->
+
+                                <h4>Point-In-Time Restore</h4>
+                                <p>Seven days of automated backups of your databases will be copied to RA-GRS Standard blob storage by default. The storage is used by weekly full backups, daily differential backups, and transaction log backups copied every five minutes. The backup cost depends on the rate of change of the database. A minimum storage amount equal to 100% of database size is provided at no extra charge. Additional consumption of backup storage will be charged in GB/month.</p>
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <th align="left"> </th>
+                                        <th align="left"><strong>Pricing</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>RA-GRS</td>
+                                        <td>￥ 1.501/GB/month</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ZRS</td>
+                                        <td>￥ 0.938/GB/month</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LRS</td>
+                                        <td>￥ 0.75/GB/month</td>
+                                    </tr>
+                                </table>
+
+                                <h4>Long-term storage retention</h4>
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <th align="left"> </th>
+                                        <th align="left"><strong>Pricing</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>RA-GRS</td>
+                                        <td>￥ 0.375/GB/month</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ZRS</td>
+                                        <td>￥ 0.235/GB/month</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LRS</td>
+                                        <td>￥ 0.188/GB/month</td>
+                                    </tr>
+                                </table>
+
+                                <!-- <h4>I/O</h4>
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <th align="left">I/O 费率</th>
+                                        <th align="left"><strong>价格</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>每 100 万次请求</td>
+                                        <td>￥ 1.501</td>
+                                    </tr>
+                                </table> -->
+
                                 <h3>General Purpose</h3>
                                 <p>Suitable for most business workloads. Offers balanced, scalable calculation and storage options.</p>
                                 <h4>Gen 4</h4>
                                 <p>Gen 4 CPU are based on Intel E5-2673 v3 (Haswell) 2.4 GHz processors. In Gen 4, 1vCore=1 physical CPU</p>
+                                <div class="tags-date">
+                                    <div class="ms-date">*The following prices are tax-inclusive.</div><br />
+                                    <div class="ms-date">*Monthly price estimation is based on a usage of 31 days per month.</div>
+                                </div>
                                 <table cellpadding="0" cellspacing="0" width="100%" id="sqldb-single-vcore-general-purpose-gen4">
                                     <tr>
                                         <th align="left"><strong>vCore</strong></th>
@@ -956,6 +1075,10 @@
                                 
                                 <h4>Gen 5</h4>
                                 <p>Gen 5 logical CPUs are based on Intel E5-2673 v4 (Broadwell) 2.3 GHz processors. In Gen 5, 1 vCore = 1 hyper thread</p>
+                                <div class="tags-date">
+                                    <div class="ms-date">*The following prices are tax-inclusive.</div><br />
+                                    <div class="ms-date">*Monthly price estimation is based on a usage of 31 days per month.</div>
+                                </div>
                                 <table cellpadding="0" cellspacing="0" width="100%" id="sqldb-single-vcore-general-purpose-gen5">
                                     <tr>
                                         <th align="left"><strong>vCore</strong></th>
@@ -1016,7 +1139,6 @@
                                     <div class="ms-date"><sup>1 </sup>Applies to an SQL Server license with valid Software Assurance (SA). Learn more about <a href="/pricing/hybrid-benefit/">Azure Hybrid benefit for SQL Server</a>.</div><br/>
                                     <div class="ms-date">Calculations are configured in the virtual core (vCore) and various generations of computers can be selected.</div>
                                 </div>
-
 
                                 <h4>Storage</h4>
                                 <p>In the General Purpose tier, you will be charged for Premium Blob Storage configured for databases or elastic pools. Storage can be configured from 5 GB to 4 TB (in 1 GB increments).</p>
@@ -1108,6 +1230,10 @@
                                 <p>Business apps with high IO requirements. Uses multiple independent replicas to provide the highest level of recovery.</p>
                                 <h4>Gen 4</h4>
                                 <p>Gen 4 CPU are based on Intel E5-2673 v3 (Haswell) 2.4 GHz processors. In Gen 4, 1vCore=1 physical CPU</p>
+                                <div class="tags-date">
+                                    <div class="ms-date">*The following prices are tax-inclusive.</div><br />
+                                    <div class="ms-date">*Monthly price estimation is based on a usage of 31 days per month.</div>
+                                </div>
                                 <table cellpadding="0" cellspacing="0" width="100%" id="sqldb-single-vcore-business-critical-gen4">
                                     <tr>
                                         <th align="left"><strong>vCore</strong></th>
@@ -1158,6 +1284,10 @@
                                 </div>
                                 <h4>Gen 5</h4>
                                 <p>Gen 5 logical CPUs are based on Intel E5-2673 v4 (Broadwell) 2.3 GHz processors. In Gen 5, 1 vCore = 1 hyper thread</p>
+                                <div class="tags-date">
+                                    <div class="ms-date">*The following prices are tax-inclusive.</div><br />
+                                    <div class="ms-date">*Monthly price estimation is based on a usage of 31 days per month.</div>
+                                </div>
                                 <table cellpadding="0" cellspacing="0" width="100%" id="sqldb-single-vcore-business-critical-gen5">
                                     <tr>
                                         <th align="left"><strong>vCore</strong></th>
@@ -1285,11 +1415,15 @@
                                     </tr>
                                 </table>
 
-                                <!-- <h3>超大规模</h3>
-                                <p>超大规模提供可扩展至 100 TB 的快速动态存储，有助于根据工作负荷需求来优化数据库资源。预览期间将自动预配一个额外只读副本，按 Azure 混合权益定价收费。以下定价适用于主要实例。</p>
-                                <h4>Gen 4</h4>
+                                <h3>Hyperscale</h3>
+                                <p>Hyperscale provides rapid, dynamic storage scaling up to 100 TB to help you optimize database resources for your workload’s needs. Each additional read replica is billed at the Azure Hybrid Benefit pricing. The below pricing is for the primary instance.</p>
+                                <!-- <h4>Gen 4</h4>
                                 <p>第 4 代 CPU 基于 Intel E5-2673 v3 (Haswell) 2.4 GHz 处理器。在第 4 代中，1 vCore = 1 个物理 CPU</p>
-                                <table cellpadding="0" cellspacing="0" width="100%">
+                                <div class="tags-date">
+                                    <div class="ms-date">*以下价格均为含税价格。</div><br />
+                                    <div class="ms-date">*每月价格估算基于每个月 31 天的使用量。</div>
+                                </div>
+                                <table cellpadding="0" cellspacing="0" width="100%" id="sqldb-single-vcore-hyperscale-gen4">
                                     <tr>
                                         <th align="left"><strong>vCore</strong></th>
                                         <th align="left"><strong>内存（GB）</strong></th>
@@ -1336,25 +1470,97 @@
                                 <div class="tags-date">
                                     <div class="ms-date"><sup>1 </sup>应用到具备有效软件保障（SA）的 SQL Server 许可证。深入了解<a href="/pricing/hybrid-benefit/">面向 SQL Server 的 Azure 混合权益</a>。</div><br/>
                                     <div class="ms-date">计算配置在虚拟内核（vCore）中，可选择各代计算机。</div>
+                                </div> -->
+
+                                <h4>Gen 5</h4>
+                                <p>Gen 5 logical CPUs are based on Intel E5-2673 v4 (Broadwell) 2.3 GHz processors. In Gen 5, 1 vCore = 1 hyper thread</p>
+                                <div class="tags-date">
+                                    <div class="ms-date">*The following prices are tax-inclusive.</div><br />
+                                    <div class="ms-date">*Monthly price estimation is based on a usage of 31 days per month.</div><br />
+                                    <div class="ms-date">*The prices will go into effect on July 1, 2019.</div>
                                 </div>
-                                <h4>存储</h4>
-                                <p>超大规模层中根据实际用量收取数据库存储费用。存储将动态分配在 5 GB 到 100 TB 之间，增量为 1 GB。</p>
-                                <table cellpadding="0" cellspacing="0" width="100%">
+                                <table cellpadding="0" cellspacing="0" width="100%" id="sqldb-single-vcore-hyperscale-gen5">
                                     <tr>
-                                        <th align="left"> </th>
-                                        <th align="left"><strong>价格</strong></th>
+                                        <th align="left"><strong>vCore</strong></th>
+                                        <th align="left"><strong>Memory (GB)</strong></th>
+                                        <th align="left"><strong>License Included Price</strong></th>
+                                        <th align="left"><strong>Azure Hybrid Benefit<sup> 1</sup><br/>Pricing (savings)</strong></th>
                                     </tr>
                                     <tr>
-                                        <td>GB/月</td>
-                                        <td>￥ 1.0176</td>
+                                        <td>2</td>
+                                        <td>11</td>
+                                        <td>￥ 4.0132/hour<br/>(about ￥ 2,985.8208/month)</td>
+                                        <td>￥ 2.7417小时<br/>(about ￥ 2,039.8248/month)(~32%)</td>
+                                    </tr>
+                                   <tr>
+                                        <td>4</td>
+                                        <td>22</td>
+                                        <td>￥ 8.0264/hour<br/>(about ￥ 5,971.6416/month)</td>
+                                        <td>￥ 5.4833/hour<br/>(about ￥ 4,079.5752/month)(~32%)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>44</td>
+                                        <td>￥ 16.0529/hour<br/>(about ￥ 11,943.3427/month)</td>
+                                        <td>￥ 10.9666/hour<br/>(about ￥ 8,159.1504/month)(~32%)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td>88</td>
+                                        <td>￥ 32.1058/hour<br/>(about ￥ 23,886.7152/month)</td>
+                                        <td>￥ 21.9332/hour<br/>(about ￥ 16,318.3008/month)(~32%)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>24</td>
+                                        <td>132</td>
+                                        <td>￥ 48.1586/hour<br/>(about ￥ 35,829.9984/month)</td>
+                                        <td>￥ 32.8998/hour<br/>(about ￥ 24.477.4512/month)(~32%)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>32</td>
+                                        <td>176</td>
+                                        <td>￥ 64.2115/hour<br/>(about ￥ 47.773.356/month)</td>
+                                        <td>￥ 43.8665/hour<br/>(about ￥ 32,636.676/month)(~32%)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>40</td>
+                                        <td>220</td>
+                                        <td>￥ 80.2644/hour<br/>(about ￥ 59,716.7136/month)</td>
+                                        <td>￥ 54.8331/hour<br/>(about ￥ 40,795.8264/month)(~32%)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>80</td>
+                                        <td>396</td>
+                                        <td>￥ 160.5288/hour<br/>(about ￥ 119,433.4272/month)</td>
+                                        <td>￥ 109.6662/hour<br/>(about ￥ 81,591.6528/month)(~32%)</td>
                                     </tr>
                                 </table>
-                                <h4>备份存储空间</h4>
-                                <p>数据库的 7 天自动备份默认会复制到 RA-GRS 标准 Blob 存储。由每周完整备份、每日差异备份和每 5 分钟复制一次的交易日志备份使用存储。备份成本因数据库变化率而异。提供与 100% 数据库大小相等的最小存储，不收取额外费用。超出此部分的其他备份存储空间按 GB/月收费。</p>
+                                <div class="tags-date">
+                                    <div class="ms-date"><sup>1 </sup>Applies to an SQL Server license with valid Software Assurance (SA). Learn more about <a href="/pricing/hybrid-benefit/">Azure Hybrid benefit for SQL Server</a>.</div><br/>
+                                    <div class="ms-date">Calculations are configured in the virtual core (vCore) and various generations of computers can be selected.</div>
+                                </div>
+
+                                <h4>Storage</h4>
+                                <p>In the hyperscale tier, you are charged for storage for your database based on actual usage. Storage is dynamically allocated between 5 GB and 100 TB, in 1 GB increments.</p>
+                                <div class="tags-date">
+                                    <div class="ms-date">*The prices will go into effect on July 1, 2019.</div>
+                                </div>
                                 <table cellpadding="0" cellspacing="0" width="100%">
                                     <tr>
                                         <th align="left"> </th>
-                                        <th align="left"><strong>价格</strong></th>
+                                        <th align="left"><strong>Pricing</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>GB/month</td>
+                                        <td>￥ 0.75</td>
+                                    </tr>
+                                </table>
+                                <h4>Backup storage space</h4>
+                                <p>Seven days of automated backups of your databases will be copied to RA-GRS Standard blob storage by default. The storage is used by weekly full backups, daily differential backups, and transaction log backups copied every five minutes. The backup cost depends on the rate of change of the database. A minimum storage amount equal to 100% of database size is provided at no extra charge. Additional consumption of backup storage will be charged in GB/month.</p>
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <th align="left"> </th>
+                                        <th align="left"><strong>Pricing</strong></th>
                                     </tr>
                                     <tr>
                                         <td>RA-GRS</td>
@@ -1366,21 +1572,21 @@
                                     </tr>
                                     <tr>
                                         <td>LRS</td>
-                                        <td>￥ 1.0176</td>
+                                        <td>￥ 0.7505</td>
                                     </tr>
                                 </table>
 
                                 <h4>I/O</h4>
                                 <table cellpadding="0" cellspacing="0" width="100%">
                                     <tr>
-                                        <th align="left">I/O 费率</th>
-                                        <th align="left"><strong>价格</strong></th>
+                                        <th align="left">I/O rate</th>
+                                        <th align="left"><strong>Pricing</strong></th>
                                     </tr>
                                     <tr>
-                                        <td>每 100 万次请求</td>
-                                        <td>￥ 1.0176</td>
+                                        <td>Every 1 million requests</td>
+                                        <td>￥ 1.501</td>
                                     </tr>
-                                </table> -->
+                                </table>
 
                             </div>
                             <!-- END: Tab level 2 content 2-1--> <!-- BEGIN: Tab level 2 content 2-2 -->
@@ -1717,6 +1923,7 @@
                             </div>
                         </li>
                     </ul>
+
                     <h3>VCore</h3>
                     <ul>
                         <li>
@@ -1820,7 +2027,120 @@
                                 </section>
                             </div>
                         </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="home_sql_database_vcore_serverless-compute-different-to-compute">How is the serverless compute tier different from the provisioned compute tier of SQL Database?</a>
+                                <section>
+                                     <p>The key difference between the serverless and provisioned compute tiers is in the provisioning and billing of compute resources. In the serverless compute tier, compute resources scale dynamically up or down based on the workload’s requirements and are billed on a per-second basis, pausing during periods of inactivity. In the provisioned compute tier, a customer purchases a certain amount of compute resources and is billed for them on an hourly basis.</p>
+                                     <p>The serverless compute tier is generally better suited for single databases with variable usage patterns interspersed with periods of inactivity, or databases with compute resource usage that is difficult to predict. These can benefit from savings due to per-second billing based on the amount of compute resources used.</p>
+                                     <p>The provisioned compute tier is generally better suited for:</p>
+                                     <ul>
+                                        <li>Single databases with more uniform and more substantial compute utilization over time. Databases with this usage pattern are generally less expensive in the provisioned compute tier.</li>
+                                        <li>Multiple databases with varying and unpredictable compute usage that can be consolidated within an elastic pool for better price optimization.</li>
+                                     </ul>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="home_sql_database_vcore_serverless-compute-tiers-and-support">Which purchase model and service tier are supported in serverless?</a>
+                                <section>
+                                     <p>Serverless is offered on the vCore-based purchase model and the single database service tier.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="home_sql_database_vcore_billing-in-serverless-compute">How does billing work in serverless?</a>
+                                <section>
+                                     <p>The total bill is the summation of the compute bill and storage bill</p>
+                                     <p>Billing for compute is on a per-second rate based on actual usage of compute resources (for details, please see the next question: “<strong>How is the compute bill calculated in the serverless compute tier?</strong>”).</p>
+                                     <p>Billing for storage within a given service tier is the same for both the serverless and provisioned compute tiers.</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="home_sql_database_vcore_bill-calculated-in-serverless">How is the compute bill calculated in the serverless compute tier?</a>
+                                <section>
+                                     <p>Compute is billed on a per-second rate based on actual usage subject to billing for minimum compute resources provisioned while the database is online.</p>
+                                     <p>The amount of compute billed each second is based on the maximum of CPU and memory used each second. To compare CPU with memory for billing purposes, memory is normalized into units of vCores by rescaling the amount of memory in GB by 3 GB per vCore. If the amount of CPU and memory used is less than the minimum amount provisioned, then the provisioned amount is billed. When the database is paused, customers pay nothing for compute and only storage is billed.</p>
+                                     <p>Customers can configure the range of compute capacity available (<strong>min vCores</strong> and <strong>max vCores</strong>) for the database and the period of inactivity before a database is paused (<strong>auto-pause delay</strong>).</p>
+                                     <p>For example, let’s say you configure min vCores as <strong>1</strong>, max vCores as <strong>4</strong> and auto-pause delay as <strong>6</strong> hours. This configuration corresponds to a minimum memory of around <strong>6 GB</strong> and a maximum memory of <strong>12 GB</strong>. The below table represents your bill if usage varies as follows during a 12-hour period:</p>
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <thead>
+                                        <tr>
+                                            <th align="left"><strong>Duration</strong></th>
+                                            <th align="left"><strong>CPU used (vCores)</strong></th>
+                                            <th align="left"><strong>Memory used (GB)</strong></th>
+                                            <th align="left"><strong>Billed vCores</strong></th>
+                                            <th align="left"><strong>Billed vCore-seconds</strong></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1 minute (60 seconds)</td>
+                                            <td>1.5</td>
+                                            <td>3</td>
+                                            <td>1.5 (based on CPU used) <sup>1</sup></td>
+                                            <td>90</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1 minute (60 seconds)</td>
+                                            <td>4</td>
+                                            <td>9</td>
+                                            <td>4 (based on CPU used)</td>
+                                            <td>240</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1 minute (60 seconds)</td>
+                                            <td>0.5</td>
+                                            <td>12</td>
+                                            <td>4 (based on memory used)</td>
+                                            <td>240</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6 hours (21,600 seconds)</td>
+                                            <td>0</td>
+                                            <td>2</td>
+                                            <td>1 (based on minimum compute resources) <sup>2</sup></td>
+                                            <td>21,600</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5 hours 56 minutes (21,360 seconds)</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                            <td>0 (database is paused after 6-hour auto-pause delay)</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1 minute (60 seconds)</td>
+                                            <td>0.5</td>
+                                            <td>9</td>
+                                            <td>3 (based on memory used)</td>
+                                            <td>180</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Total: 12 hours</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>Total: 22,350</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><sup>1</sup> 1 CPU used (1.5 vCores) is greater than memory used after rescaling based on 3 GB per vCore (3 GB ÷ 3 vCores per GB = 1 vCore). Hence, 1.5 vCores are billed.</p>
+                                <p><sup>2</sup> CPU used (0 vCores) and memory used after rescaling based on 3 GB per vCore (2 GB ÷ 3 vCores per GB = 0.67 vCores) are both lower than the minimum compute resources (1 vCore). Hence, 1 vCore is billed.</p>
+                                <p>Total bill for compute during this 12-hour period will be ￥ 43,756.83.</p>
+                                </section>
+                            </div>
+                        </li>
                     </ul>
+
                     <h3>Overview</h3>
                     <ul>
                         <li>
@@ -1900,7 +2220,7 @@
                  -->
                <div class="pricing-page-section">
                     <h2>Support &amp; SLA</h2>
-                    <p>If you have any questions or need help, please visit <a href="/support/contact/" id="database-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
+                    <p>If you have any questions or need help, please visit <a href="https://support.azure.cn/en-us/support/contact" id="database-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
     				<p>Basic, Standard, and Premium Levels</p>
     				<p>We guarantee a connection time between a single or elastic Basic, Standard or Premium Azure SQL Database and our Internet Gateway of not less than a 99.99%.</p>
     				<p>Web and Enterprise Editions (no longer available)</p>
