@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2019-05-28T07:49:24" updateDate="2019-05-28T09:41:59" urlName="active-directory-b2c" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="active-directory-b2c" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+                .img-center{margin:0 auto;}
+            </style>
+            <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/activity_directory_b2c.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/active-directory-b2c@2x.svg" />
+                        <h2>Azure Active Directory B2C</h2>
+                        <h4>Customer identity and access management in the cloud</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_active_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_active_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <div class="cognitive-figure">
+                    <div class="col-md-9">
+                        <h2>Super simple or super custom</h2>
+                        <p>Flexibility is a key part of Azure Active Directory B2C. You can choose from two configuration options to suit your needs. Use built-in policies to create a login experience in minutes. For more complex scenarios, use our identity experience framework to build custom policies and integrate with CRM databases, marketing analytics tools, and account verification systems.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-center" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/product-active-directory-b2c-simple.png"/>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img class="img-center" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/product-active-directory-b2c-any-platform.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Reach any user on any platform</h2>
+                        <p>Build an identity experience that works everywhere on Android, iOS, or web. Make it easy for your customers to access your application by allowing them to sign in with their existing social accounts or personal emails. Azure Active Directory B2C supports Facebook, Microsoft Accounts, Google+, LinkedIn, and many others, or you can add your own.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-9">
+                        <h2>Protect your customers’ identities</h2>
+                        <p>Your customers will rest assured that their profiles are protected through various security controls in addition to application or policy-based multi-factor authentication.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-center" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/product-active-directory-b2c-protect.png"/>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img class="img-center" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/product-active-directory-b2c-standard.png"/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Supports open standards to integrate with all technology stacks</h2>
+                        <p>Connect to your user accounts using industry standard protocols such as OpenID Connect or SAML to make identity management possible on a variety of platforms, such as Microsoft .NET and Node.js. Through support for OAuth 2.0, developers can build their own secure web APIs, and open-source client libraries are available for .NET, Windows Store, iOS, and Android—and we’re constantly developing additional libraries.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-9">
+                        <h2>Scale to hundreds of millions of customers</h2>
+                        <p>Let us help you scale to as many users as you need while providing you maximum availability. Azure Active Directory B2C is a reliable, globally-distributed service with an SLA of 99.9%, capable of supporting millions of users and billions of authentications per day.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-center" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/product-active-directory-b2c-customers.png"/>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Product-Detail-BottomBanner --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   
+        
+    ]]></bodyText>
+    <pageTitle>Azure Active Directory B2C - Azure Cloud Computing</pageTitle>
+    <metaKeywords>Active Directory B2C, Service access management, Azure Active Directory integration</metaKeywords>
+    <metaDescription><![CDATA[Azure Active Directory B2C offers consumer identity and access management in the cloud. Improve consumer connections, protect their identities, and more.]]></metaDescription>
+    <linkid>home-features-identity</linkid>
+    <urlDisplayName>Azure Active Directory B2C</urlDisplayName>
+    <headerText><![CDATA[]]></headerText>
+  </TextpageLeftNav>
+</localize>

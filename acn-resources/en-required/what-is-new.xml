@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-05-27T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-05-29T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -213,7 +213,19 @@
 							<section>
 								<p>Azure SQL Database serverless computing has optimized its price performance and simplified the performance management of intermittent and unpredictable database. According to the requirement of workload, the auto scaling of single database computing is available and the used computing is charged on a basis of second. During periods of inactivity, the computing is automatically suspended (only storage is charged at this time) and automatically resumed when the activity returns. Users will focus on building applications more quickly and efficiently due to serverless. Like all databases in SQL databases, serverless databases provide high availability and benefit from built-in intelligence for security and performance optimization.</p>
 								
-								<p>For more information about this service and pricing, please visit the <a href="/home/features/sql-database/" id="what-is-new_year_2019-may-27-features-sql-database">Azure SQL Database Feature</a> page and the <a href="/pricing/details/sql-database/" id="what-is-new_year_2019-may-27-pricing-sql-database">Azure SQL Database Pricing Details</a> page.</p>
+								<p>To learn more about this service and its pricing, please visit <a href="/home/features/sql-database/" id="what-is-new_year_2019-may-27-features-sql-database">Azure SQL Database Feature</a> page and <a href="/pricing/details/sql-database/" id="what-is-new_year_2019-may-27-pricing-sql-database">Azure SQL Database Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/sql-database/sql-database-serverless" id="what-is-new_year_2019-may-27-docs-sql-database-serverless">Azure SQL Database Serverless Compute Documentation</a> page.</p>
+
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-may-aks"><span>5/24</span>21Vianet Azure Kubernetes Service (AKS) official version released<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Kubernetes Service (AKS) manages your hosted Kubernetes environment, making it quick and easy to deploy and manage containerized applications without container orchestration expertise. It also eliminates the burden of ongoing operations and maintenance by provisioning, upgrading, and scaling resources on demand, without taking your applications offline.</p>
+								
+								<p>To understand more about this service, please visit<a href="https://azure.microsoft.com/zh-cn/services/kubernetes-service/" id="what-is-new_year_2019-may-aks"> Azure Kubernetes Feature</a> page. Please contact 21Vianet sales or distributors for technical support and offer plan details of Azure Kubernetes Service (AKS) in China. For more details, please visit <a href="//docs.azure.cn/zh-cn/aks/" id="what-is-new_year_2019-may-docs-aks">Azure Kubernetes Service Documentation</a> page.</p>
 
 							</section>
 						</div>
@@ -233,7 +245,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-may-sql-database"><span>5/13</span>The Azure SQL Database hyperscale service tier Gen5 has now been officially released in China East 2 and China North 2 data centers<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-may-sql-database"><span>5/13</span>The Azure SQL Database hyperscale service tier Gen5 has now been officially released in China East 2 and China North 2 data centers</a>
 							<section>
 								<p>The Azure SQL Database hyperscale service tier is the latest service tier in the vCore-based purchase models, which can be adjusted on demand according to workload requirements. Each database can be quickly and automatically scaled to 100 TB, eliminating the demand for provisioning storage resources, while significantly tapping the potential of application growth to keep it from being limited by the storage size. This new service tier can also scale computing and storage resources independently, giving the flexibility to optimize workload performance. Azure SQL Database is massive and can be used for a single database deployment.</p>
 								
@@ -298,7 +310,7 @@
 						<div>
 							<a href="#" id="service-fabric_year_2019-april-iothub"><span>4/18</span>The Azure IoT Hub Device Provisioning Service officially released in China East 2 and China North 2 data centers</a>
 							<section>
-								<p>The Azure IoT Hub Device Provisioning Service, one of the features of Azure IoT Hub, allows you to make zero-contact device configurations for your Azure IoT Hub. With this function, you can securely provision and register IoT devices on a large scale. The Azure IoT Hub Device Provisioning Service is designed with full consideration of supply chain challenges and offers an infrastructure required for configuring millions of devices in a secure and scalable manner.</p>
+								<p>The Azure IoT Hub Device Provisioning Service, one of the features of Azure IoT Hub, allows you to make zero-touch device configurations for your Azure IoT Hub. With this feature, you can securely provision and register IoT devices on a large scale. The design of the Azure IoT Hub Device Provisioning Service takes supply chain challenges into full consideration and offers the infrastructure required to configure millions of devices in a secure and scalable manner.</p>
 
 								<p>Azure IoT Hub Device Provisioning Service has now been officially released in China East 2 and China North 2 data centers. To learn more about this service and pricing, please visit <a href="/zh-cn/home/features/iot-hub/" id="what-is-new_year_2019-april-features-iot-hub">Azure IoT Hub Feature page</a> and <a href="/pricing/details/iot-hub/" id="what-is-new_year_2019-april-pricing-iot-hub">Price Details page</a>. For more details, please visit <a href="//docs.azure.cn/zh-cn/iot-dps/" id="what-is-new_year_2019-april-docs-iot-hub">Azure IoT Hub Device Provisioning Service Document page</a>.</p>
 
@@ -322,14 +334,14 @@
 						<div>
 							<a href="#" id="service-fabric_year_2019-april-advisor"><span>4/10</span>Azure Advisor officially released</a>
 							<section>
-								<p>Azure Advisor is a free product that provides personalized recommendation guide and helps you to optimize Azure deployment to follow best practices. It analyzes your resource configuration and telemetry usage, and then recommends solutions that help you to increase resource cost-effectiveness, performance, and availability. Azure Advisor allows you to obtain the following workable recommendations:</p>
+								<p>Azure Advisor is a free, personalized cloud consulting product that helps you follow best practices to optimize your Azure deployments. It analyzes your resource configuration and usage telemetry, and then recommends solutions that help you to increase  cost-effectiveness, performance, and availability of Azure resources. Azure Advisor allows you to obtain the following workable recommendations:</p>
 								<ul>
 									<li>High availability: Safeguards and improves the continuity of business-critical apps;</li>
 									<li>Performance: Increases the speed of apps;</li>
 									<li>Cost: Optimizes and reduces overall Azure expenditure.</li>
 								</ul>
 
-								<p>Azure Advisor officially released has now been officially released. For more information about this service, please visit the <a href="/home/features/advisor/" id="what-is-new_year_2019-april-features-advisor">Azure Advisor Service Functions</a> page. For more detailed information, visit the <a href="//docs.azure.cn/zh-cn/advisor/" id="what-is-new_year_2019-april-docs-advisor">Azure Advisor Documents</a> page.</p>
+								<p>Azure Advisor has now been officially released. For more information about this service, please visit the <a href="/home/features/advisor/" id="what-is-new_year_2019-april-features-advisor">Azure Advisor Service Functions</a> page. For more detailed information, visit the <a href="//docs.azure.cn/zh-cn/advisor/" id="what-is-new_year_2019-april-docs-advisor">Azure Advisor Documents</a> page.</p>
 
 							</section>
 						</div>
@@ -348,7 +360,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-april-translator-text-api"><span>4/2</span>Translator Text API official released</a>
+							<a href="#" id="service-fabric_year_2019-april-translator-text-api"><span>4/2</span>Translator Text API officially released</a>
 							<section>
 								<p>The Translator Text API is a neural machine translation service that developers can easily integrate into their applications websites, tools, or any solution requiring multi-language support such as website localization, e-commerce, customer support, messaging applications, internal communication, and more. It can be used to translate text in near real-time through a simple REST API call. It allows you to add multi-language user experiences in <a href="//docs.azure.cn/zh-cn/cognitive-services/translator/language-support/" id="what-is-new_year_2019-april-docs-language-support">more than 60 languages</a>, and can be used on any hardware platform with any operating system for text-to-text language translation.</p>
 								<p>The Translator Text API is part of the <a href="/home/features/cognitive-services/"  id="what-is-new_year_2019-april-features-cognitive-services">Azure Cognitive Services API</a> collection, and is readily consumable in your development projects.</p>
