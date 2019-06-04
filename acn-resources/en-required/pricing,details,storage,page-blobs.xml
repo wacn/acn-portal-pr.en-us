@@ -351,49 +351,49 @@
 								</div>
 								<table cellpadding="0" cellspacing="0" width="100%">
 									<tr>
-										<th align="left"><strong>Monthly storage capacity</strong></th>
+										<!-- <th align="left"><strong>每月存储容量</strong></th> -->
 										<th align="left"><strong>Locally-redundant storage (LRS)</strong></th>
 										<th align="left"><strong>Geo-Redundant Storage (GRS)</strong></th>
 										<th align="left"><strong>Read-access geo-redundant storage (RA-GRS)</strong></th>
 									</tr>
 									<tr>
-										<td>0 to 1 TB<sup>1</sup></td>
-										<td>￥ 0.44/GB</td>
-										<td>￥ 0.88/GB</td>
-										<td>¥ 1.056/GB</td>
-									</tr>
-									<tr>
-										<td>1 TB to 50 TB</td>
-										<td>￥ 0.3667/GB</td>
-										<td>¥ 0.7334/GB</td>
-										<td>￥ 0.8801/GB</td>
-									</tr>
-									<tr>
-										<td>50 TB to 500 TB</td>
-										<td>￥ 0.33/GB</td>
-										<td>￥ 0.66/GB</td>
-										<td>¥ 0.792/GB</td>
-									</tr>
-									<tr>
-										<td>500 TB to 1000 TB</td>
-										<td>￥ 0.2933/GB</td>
-										<td>￥ 0.5866/GB</td>
-										<td>￥ 0.7039/GB</td>
-									</tr>
-									<tr>
-										<td>1000 TB to 5000 TB</td>
+										<!-- <td>0 至 1 TB</td> -->
 										<td>￥ 0.275/GB</td>
 										<td>￥ 0.55/GB</td>
 										<td>￥ 0.66/GB</td>
 									</tr>
-									<tr>
-										<td>More than 5000 TB</td>
-										<td align="left"><a id="pricing_storage_blob-disc_lrs_contact" style="color: #00a8d9;" href="/support/contact/">Contact us</a></td>
-										<td align="left"><a id="pricing_storage_blob-disc_grs_contact" style="color: #00a8d9;" href="/support/contact/">Contact us</a></td>
-										<td align="left"><a id="pricing_storage_blob-disc_ra-grs_contact" style="color: #00a8d9;" href="/support/contact/">Contact us</a></td>
+									<!-- <tr>
+										<td>1 TB 至 50 TB</td>
+										<td>¥ 0.275/GB</td>
+										<td>¥ 0.55/GB</td>
+										<td>¥ 0.66/GB</td>
 									</tr>
+									<tr>
+										<td>50 TB 至 500 TB</td>
+										<td>¥ 0.275/GB</td>
+										<td>¥ 0.55/GB</td>
+										<td>¥ 0.66/GB</td>
+									</tr>
+									<tr>
+										<td>500 TB 至 1000 TB</td>
+										<td>¥ 0.275/GB</td>
+										<td>¥ 0.55/GB</td>
+										<td>¥ 0.66/GB</td>
+									</tr>
+									<tr>
+										<td>1000 TB 至 5000 TB</td>
+										<td>¥ 0.275/GB</td>
+										<td>¥ 0.55/GB</td>
+										<td>¥ 0.66/GB</td>
+									</tr>
+									<tr>
+										<td>大于 5000 TB</td>
+										<td align="left"><a id="pricing_storage_blob-disc_lrs_contact" style="color: #00a8d9;" href="/support/contact/">联系我们</a></td>
+										<td align="left"><a id="pricing_storage_blob-disc_grs_contact" style="color: #00a8d9;" href="/support/contact/">联系我们</a></td>
+										<td align="left"><a id="pricing_storage_blob-disc_ra-grs_contact" style="color: #00a8d9;" href="/support/contact/">联系我们</a></td>
+									</tr> -->
 								</table>
-								<p><strong><sup>1 </sup></strong>1 TB = 1,024 GB</p>
+								<!-- <p><strong><sup>1 </sup></strong>1 TB = 1,024 GB</p> -->
 								
 								<h4>Prices for operation of a Page Blob used as an unmanaged disk</h4>
 								<p>A Standard Page Blob attached to a virtual machine and used as an unmanaged disk costs ￥ 0.0037 per 10,000 transactions. Various types of unmanaged disk operations are counted as transactions, including reads, writes, and deletes.</p>
