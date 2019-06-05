@@ -42,21 +42,18 @@
 	"id": "leftnav_product_identity_others", 
 	"articles": 
 		[
-			{"link": "/solutions/web/", 
-			"id": "leftnav_product_identity_solutions_web", 
-			"title": "Web Apps Solutions"},
-			{"link": "/solutions/mobile-services/", 
-			"id": "leftnav_product_identity_mobile-services", 
-			"title": "Mobile Services Solutions"},
-			{"link": "https://docs.azure.cn/zh-cn/active-directory/develop/active-directory-howto-tenant/", 
-			"id": "leftnav_product_identity_articles_active-directory-howto-tenant", 
-			"title": "How to get tenants"},
-			{"link": "https://docs.azure.cn/zh-cn/active-directory/develop/active-directory-developers-guide/", 
-			"id": "leftnav_product_identity_articles_active-directory-developers-guide", 
-			"title": "Creating an app"},
-			{"link": "https://docs.azure.cn/zh-cn/active-directory/connect/active-directory-aadconnect-faq/", 
-			"id": "leftnav_product_identity_articles_active-directory-aadconnect-faq", 
-			"title": "Azure AD Connect: FAQ"}
+			{"link": "https://docs.azure.cn/active-directory-b2c/active-directory-b2c-overview", 
+			"id": "leftnav_product_identity_articles_active-directory-b2c-overview", 
+			"title": "What is Azure Active Directory B2C?"},
+			{"link": "https://docs.azure.cn/active-directory-b2c/solution-articles", 
+			"id": "leftnav_product_identity_active-directory-b2c-solution-articles", 
+			"title": "Azure Active Directory B2C solution and training"},
+			{"link": "https://docs.azure.cn/zh-cn/active-directory-b2c/code-samples", 
+			"id": "leftnav_product_identity_articles_active-directory-b2c-code-samples", 
+			"title": "Azure Active Directory B2C code samples"},
+			{"link": "https://docs.azure.cn/zh-cn/active-directory-b2c/active-directory-b2c-faqs", 
+			"id": "leftnav_product_identity_articles_active-directory-b2c-faq", 
+			"title": "Azure AD B2C: FAQ"}
 		]
 	}
 ]
