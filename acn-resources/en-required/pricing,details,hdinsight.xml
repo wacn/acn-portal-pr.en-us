@@ -546,6 +546,7 @@
 					                <ul>
 					                    <li>Head node (2 nodes)</li>
 					                    <li>Data node (at least 1 node)</li>
+										<li>Zookeeper node (3 nodes)</li>
 					                </ul>
 					                <p>HBase clusters for HDInsight are deployed with three roles:</p>
 					                <ul>
