@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2018-06-25T12:00:00" updateDate="2018-08-15T17:00:00" urlName="mariadb" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+      <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+           <tags ms.service="mariadb" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/mariadb-banner.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/mariadb_icon@2x.svg" />
+                        <h2>Azure <small>Database for MariaDB</small></h2>
+                        <h4>Enterprise-ready fully managed community MariaDB</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_mariadb_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mariadb_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <p>Easily deploy applications to the cloud using your choice of languages and frameworks.</p>
+                <p>Achieve business continuity and dynamically respond to changes in customer demand with built-in high availability and elastic scaling.</p>
+                <p>Get unparalleled security and compliance, including Azure IP Advantage, and industry-leading reach through a global network of Microsoft datacenters.</p>
+                <p>Flexible pricing: Choose the right resources for your workloads, with no hidden costs.</p><br/>
+
+                <div class="cognitive-figure">
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//resource.cdn.azure.cn/marketing-resource/css/images/mariadb-community.svg" alt="imgAlt">
+                        <h3>Community MariaDB that’s fully managed</h3>
+                        <p>Combine MariaDB Community edition with the benefits of a fully managed service provider to free developers from complex infrastructure and database management so they can focus on building exceptional apps.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//resource.cdn.azure.cn/marketing-resource/css/images/mariadb-languages.svg" alt="imgAlt">
+                        <h3>Languages and frameworks of your choice</h3>
+                        <p>Azure Database for MariaDB works with popular open-source frameworks and languages, and features tight integration with Azure Web Apps. Use it with popular content management apps, such as WordPress and Drupal, for a fully integrated experience that supports your specific application development needs.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//resource.cdn.azure.cn/marketing-resource/css/images/mariadb-improve.svg" alt="imgAlt">
+                        <h3>Built-in high availability</h3>
+                        <p>Trust Azure to keep enterprise apps up and running. Built to deliver high availability with a service-level agreement (SLA) of 99.99 percent, Azure Database for MariaDB requires no extra configuration, replication, or cost to ensure that your apps run when you need them to.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//resource.cdn.azure.cn/marketing-resource/css/images/mariadb-scale.svg" alt="imgAlt">
+                        <h3>Scale within seconds</h3>
+                        <p>Provision within minutes and scale compute or storage with independence and flexibility within seconds.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//resource.cdn.azure.cn/marketing-resource/css/images/mariadb-pricing.svg" alt="imgAlt">
+                        <h3>Simple and flexible pricing</h3>
+                        <p>Azure Database for MariaDB provides the database management capabilities you need—like automatic patching, automatic backups, and built-in monitoring and security—at no extra cost.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//resource.cdn.azure.cn/marketing-resource/css/images/mariadb-reach.svg" alt="imgAlt">
+                        <h3>Unrivaled security and coverage</h3>
+                        <p>Run your apps on world-class infrastructure and the world's most trusted cloud. As a fully integrated service, Azure Database for MariaDB plugs you into the Microsoft global network of datacenters with unparalleled security and around-the-clock monitoring.</p>
+                    </div>
+                </div>
+            </div>
+                <!-- <div class="pricing-page-section">
+                    
+                    <div class="cognitive-figure">
+                        <h3 style="text-align:center;">使用 Azure Database for MariaDB 生成</h3>
+                        <p style="text-align:center;"><a href="https://docs.azure.cn/mariadb" >了解更多</a></p>
+                        <br/>
+                        <div class="col-md-6">
+                            <h2>智能应用</h2>
+                            <p>使用最先进的机器学习算法和集成式可视化工具开发复杂的转换型应用，从而获取分析及可操作性见解。</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/mariadb-intelligent.png">
+                        </div>
+                    </div>
+                    <div class="cognitive-figure">
+                        <div class="col-md-6">
+                            <h2>零售和电子商务</h2>
+                            <p>生成可同时满足客户和业务需求的安全、可缩放电子商务解决方案。通过自定义产品和优惠吸引客户，安全快速地处理事务并专注于产品交付和客户服务。</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/mariadb-retail.png">
+                        </div>
+                    </div>
+                    <div class="cognitive-figure">
+                        <div class="col-md-6">
+                            <h2>可缩放的 Web 和移动应用程序</h2>
+                            <p>为 iOS、Android、Windows 或 Mac 快速生成引人入胜、可缩放的跨平台应用和本机应用。</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/mariadb-scalable.png">
+                        </div>
+                    </div>
+                    <div class="cognitive-figure">
+                        <div class="col-md-6">
+                            <h2>数字营销</h2>
+                            <p>利用丰富、个性化的数字营销体验吸引全球的客户。快速生成和启动根据流量和客户需求自动缩放的数字营销活动。</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/mariadb-digital.png">
+                        </div>
+                    </div>
+                    <div class="cognitive-figure">
+                        <div class="col-md-6">
+                            <h2>财务管理应用</h2>
+                            <p>利用内置的安全性和高可用性，安全地存储关键数据并为用户提供针对聚合数据的高价值分析和见解。</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/mariadb-finance.png">
+                        </div>
+                    </div>
+                    <div class="cognitive-figure">
+                        <div class="col-md-6">
+                            <h2>游戏</h2>
+                            <p>灵活缩放数据库以适应不可预测的流量突发状况，并提供低延迟的多玩家体验。</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img role="presentation" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/mariadb-gaming.png">
+                        </div>
+                    </div>
+                    <a href="https://docs.azure.cn/mariadb">更多用例</a>
+                </div> --> <!-- END: Product-Detail-Content --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->             
+    
+    ]]></bodyText>
+    <pageTitle>Azure Database for MariaDB - fully trusted services - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-mariadb</linkid>
+    <metaKeywords>azure Database mariadb, mariadb azure, microsoft azure mariadb, managed mariadb, mariadb community, fully managed mariadb</metaKeywords>
+    <metaDescription><![CDATA[Get started with enterprise-ready, fully managed community MariaDB featuring open-source compatibility, built-in high availability and dynamic scaling, and flexible pricing.]]></metaDescription>
+    <urlDisplayName>Azure Database for MariaDB</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

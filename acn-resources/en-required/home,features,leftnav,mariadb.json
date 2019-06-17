@@ -1,0 +1,57 @@
+{"service": "Azure Database for MariaDB", 
+"id": "leftnav_product_mariadb", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_mariadb_details", 
+	"articles": 
+		[
+			{"link": "/home/features/mariadb/", 
+			"id": "leftnav_product_mariadb_function", 
+			"title": "Product overview"}, 
+			{"link": "/pricing/details/mariadb/", 
+			"id": "leftnav_product_mariadb_pricing", 
+			"title": "Pricing"},
+			{"link": "/pricing/calculator/mariadb/", 
+			"id": "leftnav_product_mariadb_calculator", 
+			"title": "Pricing calculator"},
+			{"link": "//docs.azure.cn/mariadb/", 
+			"id": "leftnav_product_mariadb_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/mariadb/", 
+			"id": "leftnav_product_mariadb_sla", 
+			"title": "Service Level Agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_mariadb_related", 
+	"articles": 
+		[
+			{"link": "/home/features/app-service/web-apps/", 
+			"id": "leftnav_product_app-service-web-apps", 
+			"title": "Web Apps"}, 
+			{"link": "/home/features/postgresql/", 
+			"id": "leftnav_product_postgresql_function", 
+			"title": "Azure Database for PostgreSQL"},
+			{"link": "/home/features/redis-cache/", 
+			"id": "leftnav_product_redis-cache_function", 
+			"title": "Redis Cache"}
+		]
+	},
+	{"group": "Related Documentation and Links", 
+	"id": "leftnav_product_postgresql_others", 
+	"articles": 
+		[
+			{"link": "//docs.azure.cn/mariadb/overview/", 
+			"id": "leftnav_product_postgresql_articles_mariadb-overview", 
+			"title": "Azure DB for MariaDB"}, 
+			{"link": "//docs.azure.cn/mariadb/quickstart-create-mariadb-server-database-using-azure-portal/", 
+			"id": "leftnav_product_mariadb-quickstart-create-mariadb-server-database-using-azure-portal", 
+			"title": "Create DB - Portal"}, 
+			{"link": "//docs.azure.cn/mariadb/tutorial-design-database-using-portal/", 
+			"id": "leftnav_product_mariadb-tutorial-design-database-using-portal", 
+			"title": "Design Database"}
+		]
+	}
+]
+}

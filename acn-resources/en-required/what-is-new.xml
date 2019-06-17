@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-05-30T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-06-10T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -204,6 +204,33 @@
             	
                 <h1>Product Update</h1>
                 <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a>
+                <h3>June 2019</h3>
+                <ul>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-june-sql-database"><span>6/11</span>Azure SQL Database Managed Instance preview released<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure SQL Database Managed Instance provides the broadest SQL Server engine compatibility and native virtual network support so you can migrate a large number of SQL Server databases from on-premises or virtual machines to SQL Database Managed Instance without changing your apps. Managed Instance combines rich SQL Server interface areas with fully managed service operations. It also retains all PaaS functions (automatic patching, version update, automatic backup, and high availability) and can significantly reduce management overhead and total cost of ownership.</p>
+								
+								<p>To learn more about this service and its pricing, please visit <a href="/home/features/sql-database/" id="what-is-new_year_2019-june-features-sql-database">Azure SQL Database Feature</a> page and <a href="/pricing/details/sql-database/" id="what-is-new_year_2019-june-pricing-sql-database">Azure SQL Database Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/sql-database/sql-database-managed-instance-quickstart-guide/" id="what-is-new_year_2019-june-docs-sql-database-managed-instance-quickstart-guide">Azure SQL Database Managed Instance Documentation</a> page.</p>
+
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-june-azure-cache-for-redis"><span>6/4</span>Azure Cache for Redis Premium tier P5 officially released<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Cache for Redis is a distributed memory management cache based on open source software Redis. It can improve the system performance and scalability of back-end data storage, and temporarily copy frequently accessed data to fast storage close to applications. With the characteristics of higher cache performance, larger workload supported, and disaster recovery capability, it is specially designed for maximum scale and enterprise integration. The officially released Premium tier P5 has a cache size of 120GB and the customer connections can reach 40,000.</p>
+								
+								<p>To learn more about this service and its pricing, please visit <a href="/home/features/cache/" id="what-is-new_year_2019-june-features-azure-cache-for-redis">Azure Cache for Redis Feature</a> page and <a href="/pricing/details/cache/" id="what-is-new_year_2019-june-pricing-azure-cache-for-redis">Azure Cache for Redis Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/azure-cache-for-redis/" id="what-is-new_year_2019-june-docs-azure-cache-for-redis">Azure Cache for Redis Documentation</a> page.</p>
+
+							</section>
+						</div>
+					</li>
+                </ul>
                 <h3>May 2019</h3>
                 <ul>
                 	<li>
@@ -221,7 +248,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-may-27-sql-database"><span>5/27</span>The preview version of Azure SQL Database serverless computing released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-may-27-sql-database"><span>5/27</span>The preview version of Azure SQL Database serverless computing released</a>
 							<section>
 								<p>Azure SQL Database serverless computing has optimized its price performance and simplified the performance management of intermittent and unpredictable database. According to the requirement of workload, the auto scaling of single database computing is available and the used computing is charged on a basis of second. During periods of inactivity, the computing is automatically suspended (only storage is charged at this time) and automatically resumed when the activity returns. Users will focus on building applications more quickly and efficiently due to serverless. Like all databases in SQL databases, serverless databases provide high availability and benefit from built-in intelligence for security and performance optimization.</p>
 								
@@ -233,7 +260,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-may-aks"><span>5/24</span>21Vianet Azure Kubernetes Service (AKS) official version released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-may-aks"><span>5/24</span>21Vianet Azure Kubernetes Service (AKS) official version released</a>
 							<section>
 								<p>Azure Kubernetes Service (AKS) manages your hosted Kubernetes environment, making it quick and easy to deploy and manage containerized applications without container orchestration expertise. It also eliminates the burden of ongoing operations and maintenance by provisioning, upgrading, and scaling resources on demand, without taking your applications offline.</p>
 								
