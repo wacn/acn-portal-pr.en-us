@@ -4524,49 +4524,49 @@
                          "Description": "CalculatorConst.D1SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "0.48"
-                     },
+                    },
                      {
                          "Name": "CalculatorConst.D2Size",
                          "Description": "CalculatorConst.D2SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "1"
-                     },
+                    },
                      {
                          "Name": "CalculatorConst.D3Size",
                          "Description": "CalculatorConst.D3SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "2.01"
-                     },
+                    },
                      {
                          "Name": "CalculatorConst.D4Size",
                          "Description": "CalculatorConst.D4SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "4.05"
-                     },
+                    },
                      {
                          "Name": "CalculatorConst.D11Size",
                          "Description": "CalculatorConst.D11SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "1.7"
-                     },
+                    },
                      {
                          "Name": "CalculatorConst.D12Size",
                          "Description": "CalculatorConst.D12SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "3.41"
-                     },
+                    },
                      {
                          "Name": "CalculatorConst.D13Size",
                          "Description": "CalculatorConst.D13SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "6.83"
-                     },
+                    },
                      {
                          "Name": "CalculatorConst.D14Size",
                          "Description": "CalculatorConst.D14SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "13.67"
-                     }]
+                    }]
                  },
                  {
                     "Name": "Dv3 Series",
@@ -4632,31 +4632,31 @@
                          "Description": "CalculatorConst.D1V2SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "0.53"
-                     },
+                    },
                      {
                          "Name": "CalculatorConst.D2V2Size",
                          "Description": "CalculatorConst.D2V2SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "1.11"
-                     },
+                    },
                      {
                          "Name": "CalculatorConst.D3V2Size",
                          "Description": "CalculatorConst.D3V2SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "2.22"
-                     },
+                    },
                      {
                          "Name": "CalculatorConst.D4V2Size",
                          "Description": "CalculatorConst.D4V2SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "4.45"
-                     },
+                    },
                      {
                          "Name": "CalculatorConst.D5V2Size",
                          "Description": "CalculatorConst.D5V2SizeDesc",
                          "PriceTier": "PriceTierEnum.Fixed",
                          "PricePerTier": "8.56"
-                     }]
+                    }]
                  },
                 {
                     "Name": "Dv2 Series",
@@ -10246,7 +10246,7 @@
                 }]
             },
             {
-                "Name": "Memory optimization",
+                "Name": "Memory optimized",
                 "Features": [{
                     "Name": "Compute - Gen 5",
                     "PricePeriod": "PricePeriodEnum.Hourly",
@@ -10545,7 +10545,7 @@
                 }]
             },
             {
-                "Name": "Memory optimization",
+                "Name": "Memory optimized",
                 "Features": [{
                     "Name": "Compute - Gen 5",
                     "PricePeriod": "PricePeriodEnum.Hourly",
@@ -16113,7 +16113,7 @@
                 }]
             },
             {
-                "Name": "Third-party sign-in",
+                "Name": "Social Login",
                 "Features": [{
                     "Name": "default",
                     "Sizes": [{
