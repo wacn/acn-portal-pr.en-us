@@ -5861,7 +5861,7 @@
             }]
         },
 
-         "storage-manager-disk-gpv2-access": {
+        "storage-manager-disk-gpv2-access": {
             "Name": "Storage - Managed Disks - General Purpose v2 - Operations and Data Transfer Pricing",
             "Types": [{
                 "Name": "LRS",
@@ -6349,7 +6349,176 @@
                     }]
                 }]
             }]
-        },  
+        }, 
+        "storage-page-blobs-gpv2-ummanager-disk-premium": {
+            "Name": "Storage – Premium Non-Managed Disk and Page Blob - General Purpose v2",
+            "Types": [{
+                "Name": "P10",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Disk size 128 GB, disk read/writes (IOPS) 500, disk throughput 100 MB/sec",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "132.15"
+                    }]
+                }]
+            },
+            {
+                "Name": "P20",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Disk size 512 GB, disk read/writes (IOPS) 2,300, disk throughput 150 MB/sec",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "490.93"
+                    }]
+                }]
+            },
+            {
+                "Name": "P30",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Disk size 1 TB, disk read/writes (IOPS) 5,000, disk throughput 200 MB/sec ",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "906.29"
+                    }]
+                }]
+            },
+            {
+                "Name": "P40",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Disk size 2 TB, disk writes (IOPS) 7,500, disk throughput 250 MB/sec ",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "1736.83"
+                    }]
+                }]
+            },
+            {
+                "Name": "P50",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Disk size 4 TB, disk read/writes (IOPS) 7,500, disk throughput 250 MB/sec ",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "3322.63"
+                    }]
+                }]
+            },
+            {
+                "Name": "P60",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Disk size 8 TB, disk read/writes (IOPS) 7,500, disk throughput 250 MB/sec ",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "6343.21"
+                    }]
+                }]
+            },
+            {
+                "Name": "P4",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Disk size 32 GB, disk read/writes (IOPS) 120, disk throughput 25 MB/sec ",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "47.53"
+                    }]
+                }]
+            },
+            {
+                "Name": "P6",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Disk size 64 GB, disk read/writes (IOPS) 240, disk throughput 50 MB/sec ",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "91.9"
+                    }]
+                }]
+            },
+            {
+                "Name": "P15",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Disk size 256 GB, disk read/writes (IOPS) 1,000, disk throughput 125 MB/sec",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "254.86"
+                    }]
+                }]
+            }]
+        },
+        "storage-page-blobs-gpv2-premium-snapshots": {
+            "Name": "Storage – Premium Non-Managed Disk and Page Blob - General Purpose v2 – Snapshot",
+            "Types": [{
+                "Name": "default",
+                "Features": [{
+                    "Name": "Snapshot",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "default",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "2.35",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "GB"
+                    }]
+                }]
+            }]
+        },
         "storage-page-blobs-gpv2-standard": {
             "Name": "Storage - Standard Page Blob - General Purpose v2 - Data Storage Pricing",
             "Types": [{
@@ -6655,22 +6824,6 @@
                 }]
             },
             {
-                "Name": "P15",
-                "Features": [{
-                    "Name": "default",
-                    "PricePeriod": "PricePeriodEnum.Monthly",
-                    "PriceUnit": "Each",
-                    "MinUnit": "0",
-                    "MaxUnit": "20",
-                    "Sizes": [{
-                        "Name": "default",
-                        "Description": "Disk size 256 GB, disk read/writes (IOPS) 1,000, disk throughput 125 MB/sec",
-                        "PriceTier": "PriceTierEnum.Fixed",
-                        "PricePerTier": "254.86"
-                    }]
-                }]
-            },
-            {
                 "Name": "P20",
                 "Features": [{
                     "Name": "default",
@@ -6747,6 +6900,76 @@
                         "Description": "Disk size 8 TB, disk read/writes (IOPS) 7,500, disk throughput 250 MB/sec ",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "6343.21"
+                    }]
+                }]
+            },
+            {
+                "Name": "P4",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Disk size 32 GB, disk read/writes (IOPS) 120, disk throughput 25 MB/sec ",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "47.53"
+                    }]
+                }]
+            },
+            {
+                "Name": "P6",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Disk size 64 GB, disk read/writes (IOPS) 240, disk throughput 50 MB/sec ",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "91.9"
+                    }]
+                }]
+            },
+            {
+                "Name": "P15",
+                "Features": [{
+                    "Name": "default",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Disk size 256 GB, disk read/writes (IOPS) 1,000, disk throughput 125 MB/sec",
+                        "PriceTier": "PriceTierEnum.Fixed",
+                        "PricePerTier": "254.86"
+                    }]
+                }]
+            }]
+        },
+        "storage-page-blobs-gpv1-premium-snapshots": {
+            "Name": "Storage – Premium Non-Managed Disk and Page Blob - General Purpose v1 – Snapshot",
+            "Types": [{
+                "Name": "default",
+                "Features": [{
+                    "Name": "Snapshot",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "default",
+                        "PriceTier": "0,5000",
+                        "PricePerTier": "2.35",
+                        "MinUnit": "0",
+                        "MaxUnit": "5000",
+                        "PriceUnit": "GB"
                     }]
                 }]
             }]
@@ -10023,7 +10246,7 @@
                 }]
             },
             {
-                "Name": "Memory optimization",
+                "Name": "Memory optimized",
                 "Features": [{
                     "Name": "Compute - Gen 5",
                     "PricePeriod": "PricePeriodEnum.Hourly",
@@ -10322,7 +10545,7 @@
                 }]
             },
             {
-                "Name": "Memory optimization",
+                "Name": "Memory optimized",
                 "Features": [{
                     "Name": "Compute - Gen 5",
                     "PricePeriod": "PricePeriodEnum.Hourly",
@@ -15848,6 +16071,56 @@
                         "Description": "Logic Apps - Integration account - Standard",
                         "PriceTier": "PriceTierEnum.Fixed",
                         "PricePerTier": "13.7163"
+                    }]
+                }]
+            }]
+        },
+        "customer-engagement-fabric": {
+            "Name": "Customer Engagement Fabric",
+            "Types": [{
+                "Name": "Message pricing",
+                "Features": [{
+                    "Name": "Industry message/verification code",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "default",
+                        "PriceTier": "0,100000,100001,500000,500001,1000000,1000001,3000000,3000001,10000000",
+                        "PricePerTier": "0.042,0.040,0.038,0.037,0.036",
+                        "MinUnit": "0",
+                        "MaxUnit": "10000000",
+                        "PriceUnit": "number of"
+                    }]
+                },
+                {
+                    "Name": "marketing text messages for members",
+                    "PricePeriod": "PricePeriodEnum.Monthly",
+                    "PriceUnit": "Each",
+                    "MinUnit": "0",
+                    "MaxUnit": "20",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "default",
+                        "PriceTier": "0,100000,100001,500000,500001,1000000,1000001,3000000,3000001,10000000",
+                        "PricePerTier": "0.052,0.050,0.048,0.047,0.046",
+                        "MinUnit": "0",
+                        "MaxUnit": "10000000",
+                        "PriceUnit": "number of"
+                    }]
+                }]
+            },
+            {
+                "Name": "Social Login",
+                "Features": [{
+                    "Name": "default",
+                    "Sizes": [{
+                        "Name": "default",
+                        "Description": "Services offered are free of charge currently. 100,000 MAU are supported per month.",
+                        "PriceTier": "PriceTierEnum.Free",
+                        "PricePerTier": "0"
                     }]
                 }]
             }]
