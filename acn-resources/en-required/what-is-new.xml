@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-06-13T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-06-19T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -288,7 +288,7 @@
 							<section>
 								<p>Azure Kubernetes Service (AKS) manages your hosted Kubernetes environment, making it quick and easy to deploy and manage containerized applications without container orchestration expertise. It also eliminates the burden of ongoing operations and maintenance by provisioning, upgrading, and scaling resources on demand, without taking your applications offline.</p>
 								
-								<p>To understand more about this service, please visit<a href="https://azure.microsoft.com/zh-cn/services/kubernetes-service/" id="what-is-new_year_2019-may-aks"> Azure Kubernetes Feature</a> page. Please contact 21Vianet sales or distributors for technical support and offer plan details of Azure Kubernetes Service (AKS) in China. For more details, please visit <a href="//docs.azure.cn/zh-cn/aks/" id="what-is-new_year_2019-may-docs-aks">Azure Kubernetes Service Documentation</a> page.</p>
+								<p>To understand more about this service, please visit<a href="/home/features/kubernetes-service/" id="what-is-new_year_2019-may-aks"> Azure Kubernetes Feature</a> page. Please contact 21Vianet sales or distributors for technical support and offer plan details of Azure Kubernetes Service (AKS) in China. For more details, please visit <a href="//docs.azure.cn/zh-cn/aks/" id="what-is-new_year_2019-may-docs-aks">Azure Kubernetes Service Documentation</a> page.</p>
 
 							</section>
 						</div>
