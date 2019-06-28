@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-06-19T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-06-24T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
@@ -209,6 +209,18 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
+							<a href="#" id="service-fabric_year_2019-june-language-understanding-intelligent-service"><span>6/24</span>Azure Cognitive Services Language Understanding API standard officially released<i class="icon icon-update"></i></a>
+							<section>
+								<p>The Text Request feature of Azure Cognitive Services Language Understanding API standard has been officially released. Applications can understand a user's conversational, natural language text, predict overall meaning, and pull out relevant, detailed information. A client application for LUIS is any conventional application that communicates with a user in natural language to complete a task. Examples of client applications include social media apps, chat bots, and speech-enabled desktop applications.</p>
+								
+								<p>To learn more about this service and its pricing, please visit <a href="/home/features/cognitive-services/language-understanding-intelligent-service/" id="what-is-new_year_2019-june-features-language-understanding-intelligent-service">Language Understanding API Feature</a> page and <a href="/pricing/details/cognitive-services/" id="what-is-new_year_2019-june-pricing-language-understanding-intelligent-service">Language Understanding API Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/cognitive-services/luis/" id="what-is-new_year_2019-june-docs-language-understanding-intelligent-service">Language Understanding API Documentation</a> page.</p>
+
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
 							<a href="#" id="service-fabric_year_2019-june-hdinsight"><span>6/13</span>Azure HDInsight Av2 Series and Ev3 Series officially released<i class="icon icon-update"></i></a>
 							<section>
 								<p>Azure HDInsight is a fully-managed cloud service that makes it easy, fast, and cost-effective to process massive amounts of data. The Av2 Series now officially released runs on the latest Av2 standard virtual machines, with the same CPU performance but faster disk speed. The Ev3 Series runs on Ev3 standard virtual machines and can achieve cache throughout and local disk throughput of up to 128,000 IOPS at 1024MBps (using 32 data disks).</p>
@@ -233,7 +245,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-june-sql-database"><span>6/11</span>Azure SQL Database Managed Instance preview released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-june-sql-database"><span>6/11</span>Azure SQL Database Managed Instance preview released</a>
 							<section>
 								<p>Azure SQL Database Managed Instance provides the broadest SQL Server engine compatibility and native virtual network support so you can migrate a large number of SQL Server databases from on-premises or virtual machines to SQL Database Managed Instance without changing your apps. Managed Instance combines rich SQL Server interface areas with fully managed service operations. It also retains all PaaS functions (automatic patching, version update, automatic backup, and high availability) and can significantly reduce management overhead and total cost of ownership.</p>
 								
