@@ -98,7 +98,7 @@
                             <td>Unlimited</td>
                         </tr>
                     </table>
-                    <p>Once connected to an ExpressRoute China location, users can connect to other regions in the same geo without the need for the premium add-on, and at no additional cost over existing plan charges. For example, once connected to China East, customers can send or retrieve data to or from China East 2 without the need to pay an additional fee on top of their existing plan charges. Similarly, once connected to China North, customers can send or retrieve data to or from China North 2 without the need to pay an additional fee on top of their existing plan charges.</p>
+                    <p>Once customers connect to Azure via ExpressRoute, they can access other Azure regions in the same geo without the need for the premium add-on, and at no additional cost over existing plan charges. For example, once connected to China East, customers can send or retrieve data to or from China East 2 without the need to pay an additional fee on top of their existing plan charges. Similarly, once connected to China North, customers can send or retrieve data to or from China North 2 without the need to pay an additional fee on top of their existing plan charges.</p>
                     <p><strong>Note: </strong>ExpressRoute <span>connection service providers may charge other fees not included in the fees listed above.</span></p>
                     
                     <!-- END: Table1-Content-->
@@ -181,7 +181,7 @@
                     </table>
                     <!-- END: Table1-Content-->
                     <p>The rate for output data traffic is: ¥ 0.22/GB.</p>
-                    <p>Once connected to an ExpressRoute China location, users can connect to other regions in the same geo without the need for the premium add-on, and at no additional cost over existing plan charges. For example, once connected to China East, customers can send or retrieve data to or from China East 2 without the need to pay an additional fee on top of their existing plan charges. Similarly, once connected to China North, customers can send or retrieve data to or from China North 2 without the need to pay an additional fee on top of their existing plan charges.</p>
+                    <p>Once customers connect to Azure via ExpressRoute, they can access other Azure regions in the same geo without the need for the premium add-on, and at no additional cost over existing plan charges. For example, once connected to China East, customers can send or retrieve data to or from China East 2 without the need to pay an additional fee on top of their existing plan charges. Similarly, once connected to China North, customers can send or retrieve data to or from China North 2 without the need to pay an additional fee on top of their existing plan charges.</p>
                     <p><strong>Note: </strong>ExpressRoute <span>connection service providers may charge other fees not included in the fees listed above.</span></p>
                 </div>
                 <!-- END: TAB-CONTAINER-2 -->
@@ -204,7 +204,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="expressroute_dedicate-link">Which datacenters are available for an ExpressRoute physical dedicated line in China? </a>
+                                <a id="expressroute_dedicate-link">Which datacenters are available for an ExpressRoute physical dedicated line in China?</a>
                                 <section>
                                     <p>ExpressRoute physical dedicate line connections are available in China East, China East 2, China North and China North 2.</p>
                                 </section>
@@ -214,7 +214,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="expressroute-cost">What additional charges will I incur from other parties in this solution?  </a>
+                                <a id="expressroute-cost">What additional charges will I incur from other parties in this solution?</a>
                                 <section>
                                     <p>The ExpressRoute connection service provider will charge you extra fees. Please contact your network connection service provider for pricing information.</p>
                                 </section>
@@ -224,7 +224,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="expressroute-port">How many ports are included in the monthly fee for ExpressRoute? </a>
+                                <a id="expressroute-port">How many ports are included in the monthly fee for ExpressRoute?</a>
                                 <section>
                                     <p>For the purpose of redundancy, 2 ports are included in the monthly fee as shown (on 2 routers).</p>
                                 </section>
@@ -234,7 +234,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="expressroute-china">If I connect to one of China's ExpressRoute locations (such as Eastern China), can I access other regions in China via ExpressRoute? </a>
+                                <a id="expressroute-china">If I connect to one of China's ExpressRoute locations (such as Eastern China), can I access other regions in China via ExpressRoute?</a>
                                 <section>
                                     <p>Yes. You can purchase ExpressRoute Unlimited Data Plan/Metered Data Plan to connect from China East to China East 2. You will have access to resources across any other region in China via ExpressRoute Premium Add-on.</p>
                                 </section>

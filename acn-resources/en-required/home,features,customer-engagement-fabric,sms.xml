@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2018-09-04T12:00:00" updateDate="2018-10-22T17:00:00" urlName="customer-engagement-fabric" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+            <tags ms.service="customer-engagement-fabric" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: customer-engagement-fabric-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/customer-engagement-fabric_banner.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/customer-engagement-fabric_icon.svg" />
+                        <h2>Text Messaging Service <span style="color: #4d4d4d;font-family: '微软雅黑',regular;font-size: 20px;top: -6px;position: relative;display: inline;">(preview)</span><span>SMS</span></h2>
+                        <h4>Highly efficient and simple text messaging service, suitable for verification code, notification text messaging, and Member Marketing Campaigns</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="customer-engagement-fabric_1rmb-trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="customer-engagement-fabric_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: customer-engagement-fabric-TopBanner --> <!-- BEGIN: customer-engagement-fabric-Content -->
+            <div class="pricing-page-section">
+                
+
+                <h1>Text messaging service</h1>
+                <p>CEF text messaging service supports text messaging verification code, text messaging notification, and text messaging Member Marketing Campaigns. Trip-Play dedicated channel resources provide you with a robust and highly efficient text messaging service, which can be used for a variety of scenarios such as account registration and sign-in, system notification, meeting notification, and store events.</p>
+                <p>Apart from receiving and sending text messages with API, CEF also provides convenient phone SDK to help accelerate the implementation of verification code sign-in, so that users can be onboarded with ease. The SDK has features to help with generating, managing, and verifying SMS dynamic passcodes.</p>
+            </div>
+            <div class="pricing-page-section">
+                <h2>Product Features</h2>
+                <div class="cognitive-figure">
+                    <div class="col-md-1">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/customer-engagement-fabric-4.png" alt=""/>
+                    </div>
+                     <div class="col-md-5">
+                        <p>Arrival within 5 seconds for industry messages, high performance, high-speed dedicated channel, exclusive signature, personalized template</p>
+                    </div>
+                    <div class="col-md-1">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/customer-engagement-fabric-5.png" alt=""/>
+                    </div>
+                     <div class="col-md-5">
+                        <p>Trip-Play, 1069 dedicated numbering block, full carrier support across all numbering block</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-1">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/customer-engagement-fabric-6.png" alt=""/>
+                    </div>
+                     <div class="col-md-5">
+                        <p>99% arrival rate for industry messages, information stack processing, high-capacity and high-concurrency processing, multi-channel redundant backup</p>
+                    </div>
+                    <div class="col-md-1">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/customer-engagement-fabric-7.png" alt=""/>
+                    </div>
+                     <div class="col-md-5">
+                        <p>Fast API access, support status callback and upstream text messages, dedicated SDK to implement verification code sign-in, real-time text message data count</p>
+                    </div>
+                </div>
+				<h2>Application scenarios</h2>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/customer-engagement-fabric-cellphone-1.png" alt=""/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Verification code</h2>
+                        <p>Text messaging verification code is a verification method which sends a random code to the user’s mobile phone. It can accurately and safely verify a user’s identity.</p>
+                        <br/>
+                        <p>Primary application scenarios:</p>
+                        <p>Account registration, SMS sign-in, password recovery, payment verification, information change, etc.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/customer-engagement-fabric-cellphone-2.png" alt=""/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Notification text messaging</h2>
+                        <p>Sends notifications to the user’s mobile phone in the form of text messages, to allow the user to understand the enterprise service status, receive system notification, and confirm activity completion.</p>
+                        <br/>
+                        <p>Primary application scenarios:</p>
+                        <p>Payment receipt, order notification, meeting reminder, service notification, event notification, logistics information, etc.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/service/customer-engagement-fabric-cellphone-3.png" alt=""/>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Member Marketing Campaigns</h2>
+                        <p>Send users information on product offerings and promotional activities in the form of text messages.</p>
+                        <br/>
+                        <p>Primary application scenarios:</p>
+                        <p>Membership benefits, offer notification, promotional activities, etc.</p>
+                        <p>Please note that contents like blind promoting, adding a WeChat contact, following an official account, and leaving a cell phone number could be intercepted by operators, which should be avoided.</p>
+                    </div>
+                 </div>
+                
+            </div>
+            <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More --> <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk--> <!-- END: customer-engagement-fabric-Content -->
+                          
+    
+    ]]></bodyText>
+    <pageTitle>Customer Engagement Fabric - Text messaging service - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-services-customer-engagement-fabric</linkid>
+    <metaKeywords>Customer Engagement Fabric</metaKeywords>
+    <metaDescription><![CDATA[Customer Engagement Fabric provides a series of basic services that allow interactive connectivity between the app and users, including multi-channel notification, fast user Sign-in and unified mobile payment.]]></metaDescription>
+    <urlDisplayName>Customer Engagement Fabric</urlDisplayName>
+  </TextpageLeftNav>
+</localize>

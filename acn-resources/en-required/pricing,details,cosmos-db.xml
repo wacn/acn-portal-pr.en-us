@@ -4,10 +4,10 @@
     <bodyText><![CDATA[
       
             <tags ms.service="cosmos-db" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
-            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/media,images,production,cosmos-db-background.png','imageHeight':'auto'}">
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/cosmos-db_banner.png','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
-                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/media,images,production,cosmos-db.png" />
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/cosmos-db_icon@2x.svg" />
                         <h2>Azure Cosmos DB<span>Azure Cosmos DB</span></h2>
                         <h4>Multi-model database service at any scale</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_cosmos-db_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cosmos-db_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
@@ -26,23 +26,93 @@
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <th align="left"><strong>Azure Cosmos DB capabilities</strong></th>
-                            <th align="left"><strong></strong></th>
+                            <th align="left">
+                
+                {
+                
+                1
+                
+                >
+                
+                &lt;
+                
+                1
+                
+                }
+                
+                </th>
                         </tr>
                         <tr>
                             <td>Turnkey global distribution with multi-master capability</td>
-                            <td><i class="icon icon-tick"></i></td>
+                            <td>
+                
+                {
+                
+                1
+                
+                >
+                
+                &lt;
+                
+                1
+                
+                }
+                
+                </td>
                         </tr>
                         <tr>
                             <td>Global Availability (all Azure regions, including US Government, DoD, China)</td>
-                            <td><i class="icon icon-tick"></i></td>
+                            <td>
+                
+                {
+                
+                1
+                
+                >
+                
+                &lt;
+                
+                1
+                
+                }
+                
+                </td>
                         </tr>
                         <tr>
                             <td>Multi-model, multi-API with rich query support and automatic indexing</td>
-                            <td><i class="icon icon-tick"></i></td>
+                            <td>
+                
+                {
+                
+                1
+                
+                >
+                
+                &lt;
+                
+                1
+                
+                }
+                
+                </td>
                         </tr>
                         <tr>
                             <td>Single digit millisecond read and write latency at the 99th percentile backed by SLA</td>
-                            <td><i class="icon icon-tick"></i></td>
+                            <td>
+                
+                {
+                
+                1
+                
+                >
+                
+                &lt;
+                
+                1
+                
+                }
+                
+                </td>
                         </tr>
                         <tr>
                             <td>
@@ -54,7 +124,21 @@
                                     <li>Latency SLA</li>
                                 </ul>
                             </td>
-                            <td><i class="icon icon-tick"></i></td>
+                            <td>
+                
+                {
+                
+                1
+                
+                >
+                
+                &lt;
+                
+                1
+                
+                }
+                
+                </td>
                         </tr>
                         <tr>
                             <td>
@@ -65,7 +149,21 @@
                                     <li>Access control and authorization</li>
                                 </ul>
                             </td>
-                            <td><i class="icon icon-tick"></i></td>
+                            <td>
+                
+                {
+                
+                1
+                
+                >
+                
+                &lt;
+                
+                1
+                
+                }
+                
+                </td>
                         </tr>
                         <tr>
                             <td>
@@ -75,11 +173,39 @@
                                     <li>Instant scaling that lowers TCO over on-prem and IaaS-hosted NoSQL databases</li>
                                 </ul>
                             </td>
-                            <td><i class="icon icon-tick"></i></td>
+                            <td>
+                
+                {
+                
+                1
+                
+                >
+                
+                &lt;
+                
+                1
+                
+                }
+                
+                </td>
                         </tr>
                         <tr>
                             <td>Comprehensive compliance certifications consistent with Azure compliance</td>
-                            <td><i class="icon icon-tick"></i></td>
+                            <td>
+                
+                {
+                
+                1
+                
+                >
+                
+                &lt;
+                
+                1
+                
+                }
+                
+                </td>
                         </tr>
                     </table>
 
@@ -219,7 +345,7 @@
                                     <p>During this period, billing is based on the total capacity (RU/second) provisioned under your Azure Cosmos DB account, using predictable hourly rates that fluctuate steadily.</p>
 									<p>If you create accounts for two partitions that use 500 RU/second and 700 RU/second respectively, the total provisioned capacity will reach 1,200 RU/second. Therefore, the billing amount will be 12 x ￥ 0.082 =￥ 0.984/hour.</p>
 									<p>If your throughput needs to be changed and you increase the capacity of each partition by 500 RU/second, while also creating a new unlimited container using 20,000 RU/s, your overall provisioned capacity would be 22,200 RU/second (1,000 RU/second + 1,200 RU/second + 20,000 RU/second). Your bill would then change to: ￥ 0.082 x 222 = ￥ 18.204/hour.</p>
-									<p>In a month of 720 hours, if 500 hours are provisioned at 1,200 RU/second and 220 hours are provisioned at 22,200 RU/second, the monthly bill will show: 500 x ￥ 0.984/hour + 220 x ￥ 18.204/hour = ￥ 4,496.88/hour.</p>
+									<p>In a month of 720 hours, if 500 hours are provisioned at 1,200 RU/second and 220 hours are provisioned at 22,200 RU/second, the monthly bill will show: 500 x ￥ 0.984/hour + 220 x ￥ 18.204/hour = ￥ 4,496.88.</p>
                                 </section>
 
                             </div>

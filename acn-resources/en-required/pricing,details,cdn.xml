@@ -95,7 +95,7 @@
                         <div class="ms-date"><sup>2 </sup> Azure CDN Standard refers to static content acceleration, including web page acceleration, download acceleration, and VOD acceleration.</div><br/>
                         <div class="ms-date"><sup>3 </sup> CDN Standard Plus refers to live-streaming acceleration.</div><br/>
                         <div class="ms-date"><sup>4 </sup> CDN Premium serves the HTTPS users who applied Azure supplied certificate before and are still using that certificate. HTTPS with Azure supplied certificate will be deprecated from July 1 2019.</div><br/>
-                        <div class="ms-date">For bandwidth billing, please refer to the <a style="font-size:12px" href="//docs.azure.cn/zh-cn/cdn/cdn-faq-service-inquiry/">Explanation of Bandwidth Billing</a> and contact your customer service manager for more details.</div>
+                        <div class="ms-date">Traffic billing is provided by default. If <a href="https://docs.azure.cn/zh-cn/cdn/cdn-faq-service-inquiry" style="font-size:12px;">bandwidth billing</a> model is required by enterprise customers who have signed an Online Service Premier Agreement, please contact 21 Vianet for settings.</div>
 					</div>
                     <!-- END: Table1-Content-->
                 </div>
@@ -105,7 +105,7 @@
             <div class="pricing-page-section">
                 <div class="more-detail">
                     <h2>FAQ</h2>
-                    <em>Expand all</em>
+                    <em>Expand All</em>
                     <ul>
                         <li>
                             <i class="icon icon-plus"></i>
