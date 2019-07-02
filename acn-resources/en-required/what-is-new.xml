@@ -209,7 +209,42 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-june-language-understanding-intelligent-service"><span>6/24</span>Azure Cognitive Services Language Understanding API standard officially released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-june-monitor"><span>6/26</span>Azure Application Insights has now been officially released in the China East 2 data center<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Application Insights, as a part of Azure Monitor, is an extensible Application Performance Management (APM) service for web developers on multiple platforms. It can monitor your live web application and automatically detect performance anomalies. It includes powerful analytics tools to help you diagnose issues and to understand what users actually do with your app. It's designed to help you continuously improve performance and usability. It works for apps on a wide variety of platforms including .NET, Node.js and Java EE, hosted on-premises, hybrid, or any public cloud.</p>
+								
+								<p>To learn more about this service and its pricing, please visit <a href="/home/features/monitor/" id="what-is-new_year_2019-june-features-monitor">Azure Application Insights Feature</a> page and <a href="/pricing/details/monitor/" id="what-is-new_year_2019-june-pricing-monitor">Azure Application Insights Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/azure-monitor/" id="what-is-new_year_2019-june-docs-monitor">Azure Application Insights Documentation</a> page.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-june-security-center"><span>6/25</span>Azure Security Center officially released<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Security Center provides comprehensive security management and advanced threat protection across hybrid cloud workloads, helping customers protect workloads running locally and in Azure from network threats. With Azure’s global threat intelligence and expertise, it automatically collects and analyze security-related events in Azure deployment to identify immediate threats and reduce false positives, providing quick fix solutions.</p>
+								
+								<p>To understand more about this service and its pricing, please visit <a href="/home/features/security-center/" id="what-is-new_year_2019-june-features-security-center">Azure Security Center Feature</a> page and <a href="/pricing/details/security-center/" id="what-is-new_year_2019-june-pricing-security-center">Azure Security Center Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/security-center/" id="what-is-new_year_2019-june-docs-security-center">Azure Security Center Documentation</a> page.</p>
+
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-june-data-factory"><span>6/25</span>Azure Data Factory officially released<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Data Factory is a cloud-based data integration service that allows you to create data-driven workflows in the cloud for orchestrating and automating data movement and data transformation. Easily construct ETL and ELT processes code-free within the intuitive visual environment, or write your own code. Visually integrate data sources using more than 80 natively built and maintenance-free connectors at no added cost. Focus on your data—the serverless integration service does the rest.</p>
+								
+								<p>To learn more about this service and its pricing, please visit <a href="/home/features/data-factory/" id="what-is-new_year_2019-june-features-language-understanding-intelligent-service">Azure Data Factory Feature</a> page and <a href="/pricing/details/data-factory/" id="what-is-new_year_2019-june-pricing-data-factory">Azure Data Factory Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/data-factory/" id="what-is-new_year_2019-june-data-factory">Azure Data Factory Documentation</a> page.</p>
+
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-june-language-understanding-intelligent-service"><span>6/24</span>Azure Cognitive Services Language Understanding API standard officially released</a>
 							<section>
 								<p>The Text Request feature of Azure Cognitive Services Language Understanding API standard has been officially released. Applications can understand a user's conversational, natural language text, predict overall meaning, and pull out relevant, detailed information. A client application for LUIS is any conventional application that communicates with a user in natural language to complete a task. Examples of client applications include social media apps, chat bots, and speech-enabled desktop applications.</p>
 								
@@ -221,7 +256,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-june-hdinsight"><span>6/13</span>Azure HDInsight Av2 Series and Ev3 Series officially released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-june-hdinsight"><span>6/13</span>Azure HDInsight Av2 Series and Ev3 Series officially released</a>
 							<section>
 								<p>Azure HDInsight is a fully-managed cloud service that makes it easy, fast, and cost-effective to process massive amounts of data. The Av2 Series now officially released runs on the latest Av2 standard virtual machines, with the same CPU performance but faster disk speed. The Ev3 Series runs on Ev3 standard virtual machines and can achieve cache throughout and local disk throughput of up to 128,000 IOPS at 1024MBps (using 32 data disks).</p>
 								
@@ -233,7 +268,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-june-mariadb"><span>6/12</span>Azure Database for MariaDB has now been officially released in China East 2 and China North 2 data centers<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-june-mariadb"><span>6/12</span>Azure Database for MariaDB has now been officially released in China East 2 and China North 2 data centers</a>
 							<section>
 								<p>Azure Database for MariaDB is a relational database service based on the open-source MariaDB Server engine. It is a fully managed community version of MariaDB that can be used by enterprises. The service has characteristics of open-source compatibility, built-in high availability, dynamic scaling and flexible pricing. With MariaDB Community Version, you can create scalable computing and storage resources using popular open-source frameworks, tools and languages. Azure Database for MariaDB makes it easy and fast to build smart applications.</p>
 								

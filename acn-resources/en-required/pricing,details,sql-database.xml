@@ -929,7 +929,7 @@
                                     </tr>
                                 </table>
                                 <div class="tags-date">
-                                    <div class="ms-date"><sup>1</sup> The above price reflects a Preview discount.</div><br/>
+                                    <div class="ms-date"><sup>1</sup> The above price reflects a preview discount.</div><br/>
                                 </div>
 
                                 <h4>Storage</h4>
@@ -1965,12 +1965,13 @@
                                         <td>0.432 /GB</td>
                                     </tr>
                                     <tr>
-                                        <td>Backup GB/month</td>
+                                        <td>Backup GB/month<sup>**</sup></td>
                                         <td>0.75</td>
                                     </tr>
                                 </table>
                                 <div class="tags-date">
-                                    <div class="ms-date"><sup>*</sup>Storage is available in increments of 32 GB up to 8 TB</div>
+                                    <div class="ms-date"><sup>*</sup> Storage is available in increments of 32 GB up to 8 TB</div><br/>
+                                    <div class="ms-date"><sup>**</sup> Backup storage will only charge for the storage space that exceeds the database reserved space. Backup storage will not be charged until September 1, 2019.</div>
                                 </div>
 
                                 <h3>Business-Critical</h3>
@@ -2099,12 +2100,13 @@
                                         <td>0.938 /GB</td>
                                     </tr>
                                     <tr>
-                                        <td>Backup GB/month</td>
+                                        <td>Backup GB/month<sup>**</sup></td>
                                         <td>0.75</td>
                                     </tr>
                                 </table>
                                 <div class="tags-date">
-                                    <div class="ms-date"><sup>*</sup>Storage is available in increments of 32 GB up to 8 TB</div>
+                                    <div class="ms-date"><sup>*</sup> Storage is available in increments of 32 GB up to 8 TB</div><br/>
+                                    <div class="ms-date"><sup>**</sup> Backup storage will only charge for the storage space that exceeds the database reserved space. Backup storage will not be charged until September 1, 2019.</div>
                                 </div>
                             <!-- END: Tab level 2 content 3-1-->
                         </div>

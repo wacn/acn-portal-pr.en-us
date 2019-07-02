@@ -11,7 +11,7 @@
 			</div>
 			<div class="pricing-page-section">
                     <h2>Pricing Details</h2>
-                    <p><strong>Device handling</strong>: the processing fee for each storage device is ¥380. The data transfer between the equipment and Azure storage is free. Conventional storage transactions are charged. Please view the <a href="/pricing/details/storage/" id="storage-import-export_pricing-storage">Storage Pricing Details</a> page.</p>
+                    <p><strong>Device handling</strong>: the processing fee for each storage device is ￥ 380. The network data transfer between the equipment and Azure storage is free. Conventional storage transactions are charged. Please view the <a href="/pricing/details/storage/" id="storage-import-export_pricing-storage">Storage Pricing Details</a> page.</p>
                     <p><strong>Equipment return shipping fees</strong>：Any shipping fees related to the return of equipment.</p>
                    
             </div>           
@@ -23,7 +23,7 @@
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="Data_Transfer_question1"> Does an extra fee need to be paid while importing/exporting the service transfer data and storing it in Azure? </a>
+                                <a id="Data_Transfer_question1">Does an extra fee need to be paid while importing/exporting the service transfer data and storing it in Azure?</a>
                                 <section>
                                     <p>The standard <a id="storage-import-export_pricing-storage-faq" href="/pricing/details/storage/">Storage</a> pricing is applicable to the data stored in Azure Storage after being imported.</p>
                                 </section>
