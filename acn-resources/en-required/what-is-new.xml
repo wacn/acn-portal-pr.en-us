@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-06-24T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
+  <umbTextpage id="19341" parentID="11978" level="2" writerID="106" creatorID="94" nodeType="1059" template="16" sortOrder="14" createDate="2013-10-29T16:12:26" updateDate="2019-07-01T17:00:00" nodeName="What Is New" urlName="what-is-new" writerName="content" creatorName="xunfan" path="-1,11978,19341" isDoc="">
     <bodyText><![CDATA[
       
          <div class="section-component">
             <div class="more-detail">
             	 <h1>Important Notice</h1>
+				 <h3>July 2019</h3>
+					 <ul>
+					 	<li>
+							<i class="icon icon-plus"></i>
+								<div>
+									<a href="#" id="service-fabric_year_2019-July-webapps-python-update"><span>7/1</span>Linux kernel TCP SACK denial of service vulnerability<i class="icon icon-update"></i></a>
+									<section>
+										<p>Newly disclosed security vulnerabilities (<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11477">CVE-2019-11477</a>, <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11478">CVE-2019-11478</a>, <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11479">CVE-2019-11479</a>) may cause the Linux operating system to the risk of "denial of service (DoS)". For customers running IaaS Linux virtual machines, please contact the providers of Linux distributions for guidance. For customers using Azure Kubernetes Service (AKS) and HDInsight, please refer to the following documents:</p>
+										<ul>
+											<li>Azure Kubernetes Service (AKS): <a href="https://github.com/Azure/AKS/issues/1065">https://github.com/Azure/AKS/issues/1065</a></li>
+											<li>HDInsight: <a href="https://azure.microsoft.com/en-us/updates/security-advisory-on-linux-kernel-tcp-vulnerabilities-for-hdinsight-clusters/">https://azure.microsoft.com/en-us/updates/security-advisory-on-linux-kernel-tcp-vulnerabilities-for-hdinsight-clusters/</a></li>
+										</ul>
+										<p>See <a href="https://portal.msrc.microsoft.com/zh-cn/security-guidance/advisory/ADV190020">Microsoft Security Notice 190020</a> for more information.</p>
+									</section>
+								</div>
+							</li>
+					 </ul>
 				 <h3>January 2019</h3>
 				 		<ul>
 						 	<li>
@@ -37,7 +54,7 @@
 					   		<li>
 								<i class="icon icon-plus"></i>
 								<div>
-									<a href="#" id="service-fabric_year_2018-december-IoThub-operations-monitoring-retirement"><span>12/18</span>Diagnostic settings in Azure IoT Hub (IoT Hub) to replace operations monitoring, please migrate by March 10, 2019<i class="icon icon-update"></i></a>
+									<a href="#" id="service-fabric_year_2018-december-IoThub-operations-monitoring-retirement"><span>12/18</span>Diagnostic settings in Azure IoT Hub (IoT Hub) to replace operations monitoring, please migrate by March 10, 2019</a>
 									<section>
 										<p>Diagnostic settings in Azure Monitor provide a single, simplified monitoring and logging experience. Azure Monitor and Azure IoT Hub are fully integrated, which can help you to keep your IoT solutions running in a healthy state. As diagnostic settings have replaced operations monitoring in Azure IoT Hub, the operations monitoring will be deprecated on March 10, 2019.</p>
 										<p>To continue to collect logs on Azure IoT Hub without disruption, please <a href="https://docs.azure.cn/zh-cn/iot-hub/iot-hub-migrate-to-diagnostics-settings">migrate to diagnostic settings</a> by March 10, 2019, at which time operations monitoring will be completely removed from the Hub and the support for it will end.</p>
@@ -204,12 +221,73 @@
             	
                 <h1>Product Update</h1>
                 <a href="#" id="new_control_bexpend" class="folded-link"><em>Expand All</em></a>
+                <h3>July 2019</h3>
+                <ul>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-july-time-series-insights"><span>7/2</span>Azure Time Series Insights has now been officially released in China East 2 and China North 2 data centers<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure Time Series Insights is a managed analytics and visualization service that democratizes the Internet of Things (IoT) by making it simple to explore and analyze your IoT time series data. It lets you quickly validate your IoT solution and avoid downtime to mission-critical devices by helping you discover hidden trends, spot anomalies, and conduct root-cause analyses in near real-time. It also offers up to 400 days of real-time analytics and storage of time series data, helping organizations to spot and understand longer-term trends in their IoT data. It provides powerful data exploration and telemetry tools to help you improve operational analysis.</p>
+								
+								<p>To learn more about this service and its pricing, please visit <a href="/home/features/time-series-insights/" id="what-is-new_year_2019-july-features-time-series-insights">Azure Time Series Insights Feature</a> page and <a href="/pricing/details/time-series-insights/" id="what-is-new_year_2019-july-pricing-time-series-insights">Azure Time Series Insights Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/time-series-insights/" id="what-is-new_year_2019-july-docs-time-series-insights">Azure Time Series Insights Documentation</a> page.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-july-expressroute"><span>7/1</span>Shanghai Telecom and Beijing Telecom are providing the ExpressRoute connectivity service in China East 2 and China North 2 data centers respectively<i class="icon icon-update"></i></a>
+							<section>
+								<p>You can contact Shanghai Telecom and Beijing Telecom to establish an ExpressRoute private network connection in China East 2 and China North 2 data centers. ExpressRoute connections don't go over the public internet, and offer more reliability, faster speeds, and lower latencies than internet connections.</p>
+								
+								<p>To learn more about this service and its pricing, please visit <a href="/home/features/expressroute/" id="what-is-new_year_2019-july-features-expressroute">ExpressRoute Feature</a> page and <a href="/pricing/details/expressroute/" id="what-is-new_year_2019-july-pricing-expressroute">ExpressRoute Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/expressroute/" id="what-is-new_year_2019-july-docs-expressroute">ExpressRoute Documentation</a> page.</p>
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-july-pricing-drop"><span>7/1</span>Data inbound traffic, Virtual Machines, CDN, Cosmos DB, and Storage services discount<i class="icon icon-update"></i></a>
+							<section>
+								<p>Since July 1, 2019, data inbound traffic, Virtual Machines, CDN, Cosmos DB, and Storage services have been reduced in price.</p>
+								<p>Data inbound traffic is free of charge. To learn more about this service and its pricing, please visit <a href="/pricing/details/bandwidth/" id="what-is-new_year_2019-july-pricing-bandwidth">Azure Data Transfer Price Details</a> page.</p>
+								<p>Azure virtual machine prices lower up to 73%. To learn more about this service and its pricing, please visit <a href="/home/features/virtual-machines/" id="what-is-new_year_2019-july-features-virtual-machines">Azure Virtual Machines Feature</a> page and <a href="/pricing/details/virtual-machines/" id="what-is-new_year_2019-july-pricing-virtual-machines">Azure Virtual Machines Price Details </a>page.</p>
+								<p>Content Delivery Network (CDN) prices lower up to 41%. To learn more about this service and its pricing, please visit <a href="/home/features/cdn/" id="what-is-new_year_2019-july-features-cdn">Content Delivery Network (CDN) Feature</a> page and <a href="/pricing/details/cdn/" id="what-is-new_year_2019-july-pricing-cdn">Content Delivery Network (CDN) Price Details</a> page.</p>
+								<p>Azure Cosmos DB prices lower up to 38%. To learn more about this service and its pricing, please visit <a href="/home/features/cosmos-db/" id="what-is-new_year_2019-july-features-cosmos-db">Azure Cosmos DB Feature</a> page and <a href="/pricing/details/cosmos-db/" id="what-is-new_year_2019-july-pricing-cosmos-db">Azure Cosmos DB Price Details</a>page.</p>
+								<p>Storage prices lower up to 21%. To learn more about this service and its pricing, please visit <a href="/home/features/storage/" id="what-is-new_year_2019-july-features-storage">Storage Feature</a> page and <a href="/pricing/details/storage/" id="what-is-new_year_2019-july-pricing-storage">Storage Price Details</a> page.</p>
+							</section>
+						</div>
+					</li>
+                </ul>
                 <h3>June 2019</h3>
                 <ul>
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-june-monitor"><span>6/26</span>Azure Application Insights has now been officially released in the China East 2 data center<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-june-media-services"><span>6/28</span>Azure Media Services has now been officially released in China East 2 and China North 2 data centers</a>
+							<section>
+								<p>Azure Media Services is a cloud-based media workflow platform that enables developers to build scalable media management and delivery applications. Azure Media Services makes it easy to use high-definition video encoding and streaming services to reach your audiences on today’s most popular devices. You can build end-to-end media workflows, securely upload, store, encode, and package video or audio content for both on-demand and live streaming delivery to various clients (for example, TV, PC, and mobile devices).</p>
+								
+								<p>To learn more about this service and its pricing, please visit <a href="/home/features/media-services/" id="what-is-new_year_2019-june-features-media-services">Azure Media Services Feature</a> page and <a href="/pricing/details/media-services/" id="what-is-new_year_2019-june-pricing-media-services">Azure Media Services Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/media-services/" id="what-is-new_year_2019-june-docs-media-services">Azure Media Services Documentation</a> page.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-june-data-explorer"><span>6/27</span>Azure Data Explorer officially released</a>
+							<section>
+								<p>Azure Data Explorer is a highly scalable and secure data analysis service that can analyze mass data streamed from applications, websites and IoT devices in real time. Ask questions and dynamically browse data in an iterative way to improve products, customer experiences, monitor devices, and support operations. Quickly identify patterns, anomalies, and trends in data, discover new issues and get answers in minutes. Azure Data Explorer makes it simple to ingest this data and enables you to perform complex ad hoc queries on the data in seconds.</p>
+								
+								<p>To learn more about this service and its pricing, please visit <a href="/home/features/data-explorer/" id="what-is-new_year_2019-june-features-data-explorer">Azure Data Explorer Feature</a> page and <a href="/pricing/details/data-explorer/" id="what-is-new_year_2019-june-pricing-data-explorer">Azure Data Explorer Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/data-explorer/" id="what-is-new_year_2019-june-docs-data-explorer">Azure Data Explorer Documentation</a> page.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-june-monitor"><span>6/26</span>Azure Application Insights has now been officially released in the China East 2 data center</a>
 							<section>
 								<p>Azure Application Insights, as a part of Azure Monitor, is an extensible Application Performance Management (APM) service for web developers on multiple platforms. It can monitor your live web application and automatically detect performance anomalies. It includes powerful analytics tools to help you diagnose issues and to understand what users actually do with your app. It's designed to help you continuously improve performance and usability. It works for apps on a wide variety of platforms including .NET, Node.js and Java EE, hosted on-premises, hybrid, or any public cloud.</p>
 								
@@ -220,7 +298,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-june-security-center"><span>6/25</span>Azure Security Center officially released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-june-security-center"><span>6/25</span>Azure Security Center officially released</a>
 							<section>
 								<p>Azure Security Center provides comprehensive security management and advanced threat protection across hybrid cloud workloads, helping customers protect workloads running locally and in Azure from network threats. With Azure’s global threat intelligence and expertise, it automatically collects and analyze security-related events in Azure deployment to identify immediate threats and reduce false positives, providing quick fix solutions.</p>
 								
@@ -232,7 +310,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-june-data-factory"><span>6/25</span>Azure Data Factory officially released<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-june-data-factory"><span>6/25</span>Azure Data Factory officially released</a>
 							<section>
 								<p>Azure Data Factory is a cloud-based data integration service that allows you to create data-driven workflows in the cloud for orchestrating and automating data movement and data transformation. Easily construct ETL and ELT processes code-free within the intuitive visual environment, or write your own code. Visually integrate data sources using more than 80 natively built and maintenance-free connectors at no added cost. Focus on your data—the serverless integration service does the rest.</p>
 								
