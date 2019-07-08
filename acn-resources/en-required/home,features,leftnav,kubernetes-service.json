@@ -1,0 +1,63 @@
+{"service": "Kubernetes Service", 
+"id": "leftnav_product_kubernetes-service", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_kubernetes-service_details", 
+	"articles": 
+		[
+			{"link": "/home/features/kubernetes-service/", 
+			"id": "leftnav_product_kubernetes-service_function", 
+			"title": "Product overview"}, 
+			{"link": "https://docs.azure.cn/aks/", 
+			"id": "leftnav_product_kubernetes-service_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/kubernetes-service/", 
+			"id": "leftnav_product_kubernetes-service_sla", 
+			"title": "Service Level Agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_kubernetes-service_related", 
+	"articles": 
+		[
+			{"link": "/home/features/web-site/", 
+			"id": "leftnav_product_web-site_function", 
+			"title": "Web Apps"}, 
+			{"link": "/home/features/expressroute/", 
+			"id": "leftnav_product_expressroute_function", 
+			"title": "ExpressRoute"},
+			{"link": "/home/features/storage/", 
+			"id": "leftnav_product_storage_function", 
+			"title": "Storage"},
+			{"link": "/home/features/virtual-network/", 
+			"id": "leftnav_product_networking_function", 
+			"title": "Virtual Network"}
+		]
+	}, 
+	{"group": "Related Documentation and Links", 
+	"id": "leftnav_product_kubernetes-service_others", 
+	"articles": 
+		[
+			{"link": "https://docs.azure.cn/aks/intro-kubernetes", 
+			"id": "leftnav_product_kubernetes-service_articles_intro-kubernetes", 
+			"title": "Azure Kubernetes Service (AKS)"}, 
+			{"link": "https://docs.azure.cn/zh-cn/aks/kubernetes-walkthrough", 
+			"id": "leftnav_product_kubernetes-service_articles_kubernetes-walkthrough", 
+			"title": "Quick start: Deploy an Azure Kubernetes Service (AKS) cluster using the Azure CLI"}, 
+			{"link": "https://docs.azure.cn/zh-cn/aks/kubernetes-walkthrough-rm-template", 
+			"id": "leftnav_product_kubernetes-service_articles_kubernetes-walkthrough-rm-template", 
+			"title": "Quick start: Deploy an Azure Kubernetes Service (AKS) cluster using an Azure Resource Manager template"}
+		]
+	}
+]
+}
+
+
+
+
+
+
+
+
+

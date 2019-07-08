@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <TextpageLeftNav template="2" createDate="2018-06-25T12:00:00" updateDate="2018-08-15T17:00:00" urlName="kubernetes-service" writerName="content" creatorName="content">
+    <bodyText><![CDATA[
+      
+        <tags ms.service="kubernetes-service" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+      <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+
+            <!-- BEGIN: Product-Detail-TopBanner -->
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/kubernetes-service_banner.png','imageHeight':'auto'}">
+                <div class="common-banner-image">
+                    <div class="common-banner-title">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/kubernetes-service_icon@2x.svg" />
+                        <h2>Azure Kubernetes Service (AKS)</h2>
+                        <h4>Highly available, secure, and fully managed Kubernetes service</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_kubernetes-service_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_kubernetes-service_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
+            <div class="pricing-page-section">
+                <p>The fully managed Azure Kubernetes Service (AKS) makes deploying and managing containerized applications easy. It offers serverless Kubernetes, an integrated continuous integration and continuous delivery (CI/CD) experience, and enterprise-grade security and governance. Unite your development and operations teams on a single platform to rapidly build, deliver, and scale applications with confidence.</p>
+            </div>
+            <div class="pricing-page-section">
+                <div class="cognitive-figure">
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/kubernetes-service-feature-c.svg" alt="imgAlt">
+                        <p>Advanced identity and access management using <a href="https://www.azure.cn/home/features/active-directory/">Azure Active Directory</a>, and dynamic rules enforcement across multiple clusters with <a href="https://www.azure.cn/home/features/azure-policy/">Azure Policy</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/kubernetes-service-feature-d.svg" alt="imgAlt">
+                        <p>Orchestration of containers across 25 regions and growing, in the public cloud, in Azure Stack, or on IoT Edge devices</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="64" heigh="64" src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/images/kubernetes-service-feature-b.svg" alt="imgAlt">
+                        <p>Faster end-to-end development experience and integration with <a href="https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools">Visual Studio Code Kubernetes tools</a> and <a href="https://www.azure.cn/home/features/monitor/">Azure Monitor</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-page-section">
+                <div class="cognitive-figure">
+                    <div class="col-md-12">
+                        <h3>Accelerate containerized application development</h3>
+                        <p>Easily define, deploy, debug, and upgrade even the most complex Kubernetes applications, and automatically containerize your applications.</p>
+                        <p>Add a full CI/CD pipeline to your AKS clusters with automated routine tasks, and set up a Canary deployment strategy in just a few clicks. Detect failures early and optimize your pipelines with deep traceability into your deployments.</p>
+                        <p>Gain visibility into your environment with control-plane telemetry, log aggregation, and container health, accessible in the Azure portal and automatically configured for AKS clusters.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <h3>Manage Kubernetes with ease</h3>
+                        <p>Easily provision clusters using the CLI or infrastructure-as-code tools such as Terraform. Minimize infrastructure maintenance using automated upgrades, repair, monitoring, and scaling.</p>
+                        <p>Elastically provision additional compute capacity in serverless Kubernetes in seconds without worrying about managing the infrastructure.</p>
+                        <p>Simplify cluster maintenance with automated patching, upgrades and scaling.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <h3>Build on an enterprise-grade, more secure foundation</h3>
+                        <p>Enforce rules defined in Azure Policy across multiple clusters. Track, validate, and reconfigure nodes, pods, and container images for compliance with agility.</p>
+                        <p>Use virtual network and policy-driven communication paths between resources to help secure your Kubernetes workloads.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <h3>Run any workload in the cloud, at the edge, or as a hybrid</h3>
+                        <p>Orchestrate any type of workload running in the environment of your choice. Whether you want to move .NET applications to Windows Server containers, modernize Java applications in Linux containers, or run microservices applications in the public cloud, at the edge, or in hybrid environments, Azure has the solution for you.</p>
+                        <p>Learn about the Kubernetes core concepts and apply <a href="https://docs.azure.cn/zh-cn/aks/best-practices">best practices</a> in production.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="pricing-page-section">
+                <div class="more-detail">
+                    <h3>常见问题</h3>
+                    <em>全部展开</em>
+                    <ul>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="home_kubernetes-service_what_is_kubernetes">什么是 Kubernetes？</a>
+                                <section>
+                                     <p>Kubernetes 是一款开源软件，有助于大规模部署和管理容器化应用程序。它协调 Azure VM 的群集、安排容器、自动管理服务发现、整合负载均衡并跟踪资源分配。它还检查各资源的运行状况，并通过自动重启和自动复制来修复应用。</p>
+                                     <p>AKS 提供托管 Kubernetes 服务，具有自动预配、升级、监视和按需缩放功能。要了解更多信息，请访问 <a href="https://kubernetes.io/">Kubernetes 网站</a>和 <a href="https://azure.microsoft.com/zh-cn/topic/kubernetes/">Kubernetes 主题页面</a>。</p>
+                                </section>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon icon-plus"></i>
+                            <div>
+                                <a id="home_kubernetes-service_different_between_docker_and_kubernetes">Docker 和 Kubernetes 有何不同？</a>
+                                <section>
+                                     <p>Docker 和 Kubernetes 是互补的。Docker 为打包和分发容器化应用程序提供了一个开放的标准，而 Kubernetes 则协调和管理通过 Docker 创建的分布式容器化应用程序。换句话说，Kubernetes 提供了部署和运行通过 Docker 生成的应用程序所需的基础结构。</p>
+                                </section>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div> --> <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More --> <!-- <div class="pricing-page-section link-group-container">
+                <h1>了解更多</h1>
+                <ul>
+                    <li>
+                        <a href="">documnet1</a>
+                    </li>
+                    
+                </ul>
+            </div> --> <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->             
+    
+    ]]></bodyText>
+    <pageTitle>Kubernetes Service - Fully Managed Service - Azure Cloud Computing</pageTitle>
+    <sitemapHide>0</sitemapHide>
+    <linkid>home-features-kubernetes-service</linkid>
+    <metaKeywords>Kubernetes Service, Fully Managed Service, Managed Service, Hosting Provider</metaKeywords>
+    <metaDescription><![CDATA[Easily manage Kubernetes with Azure Kubernetes Service (AKS). Use a managed Kubernetes service with hardened security and fast delivery.]]></metaDescription>
+    <urlDisplayName>Kubernetes Service</urlDisplayName>
+  </TextpageLeftNav>
+</localize>
