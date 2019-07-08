@@ -3,6 +3,7 @@
   <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-06-12T16:00:00" urlName="data-transfer" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
+			<tags ms.service="storage-managed-disks" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
       <style type="text/css">
 			.pricing-detail-tab .tab-nav{
 				padding-left: 0!important;
@@ -51,7 +52,7 @@
 			background: 0 0;padding: 0;margin: 0 6px;height: 21px;line-height: 22px;font-size: 14px;color: #00a3d9;float: none;display: inline;
 			}
 		</style>
-            <tags ms.service="storage-managed-disks" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            
             <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/storage.png','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
@@ -94,6 +95,9 @@
 									<th align="left"><strong>P30</strong></th>
 									<th align="left"><strong>P40</strong></th>
 									<th align="left"><strong>P50</strong></th>
+									<th align="left"><strong>P60</strong></th>
+									<th align="left"><strong>P70</strong></th>
+									<th align="left"><strong>P80</strong></th>
 								</tr>
 								<tr>
 									<td>Disk sizes</td>
@@ -105,17 +109,23 @@
 									<td>1 TB</td>
 									<td>2 TB</td>
 									<td>4 TB</td>
+									<td>8 TB</td>
+									<td>16 TB</td>
+									<td>32 TB (32767 GB)</td>
 								</tr>
 								<tr>
 									<td>Monthly pricing</td>
-									<td>￥ 47.53</td>
-									<td>￥ 91.9</td>
-									<td>￥ 132.15</td>
-									<td>￥ 254.86</td>
-									<td>￥ 490.93</td>
-									<td>￥ 906.29</td>
-									<td>￥ 1,736.83</td>
-									<td>¥ 3,322.63</td>
+									<td>￥ 42.302</td>
+									<td>￥ 81.791</td>
+									<td>￥ 117.61</td>
+									<td>￥ 226.83</td>
+									<td>￥ 436.93</td>
+									<td>￥ 806.6</td>
+									<td>￥ 1,545.78</td>
+									<td>￥ 2,957.14</td>
+									<td>￥ 5,914.28</td>
+									<td>￥ 11,828.56</td>
+									<td>￥ 23,657.13</td>
 								</tr>
 								<tr>
 									<td>IOPS of every disk</td>
@@ -127,6 +137,9 @@
 									<td>5,000</td>
 									<td>7,500</td>
 									<td>7,500</td>
+									<td>16,000</td>
+									<td>18,000</td>
+									<td>20,000</td>
 								</tr>
 								<tr>
 									<td>Throughput of every disk</td>
@@ -138,6 +151,9 @@
 									<td>200 MB /second</td>
 									<td>250 MB /second</td>
 									<td>250 MB /second</td>
+									<td>500 MB /second</td>
+									<td>750 MB /second</td>
+									<td>900 MB /second</td>
 								</tr>
 							</table>
 										
@@ -152,7 +168,7 @@
 							<!-- <p>以下价格反映了 50% 的促销折扣。促销活动将持续至 2017 年 9 月 30 日。</p> -->
 							<div class="tags-date">
 								<div class="ms-date">*The following prices are tax-inclusive.</div><br />
-								<div class="ms-date">*Monthly price estimates are based on 744 hours of usage per month.</div>
+								<div class="ms-date">*Monthly pricing estimates are based on 744 hours of usage per month.</div>
 								<p>The pricing of screenshots is charged at the rate of ￥ 1.22112/GB per month.</p>
 							</div>
 							<table cellpadding="0" cellspacing="0" width="100%">
@@ -166,6 +182,9 @@
 									<th align="left"><strong>E30</strong></th>
 									<th align="left"><strong>E40</strong></th>
 									<th align="left"><strong>E50</strong></th>
+									<th align="left"><strong>E60</strong></th>
+									<th align="left"><strong>E70</strong></th>
+									<th align="left"><strong>E80</strong></th>
 								</tr>
 								<tr>
 									<td>Disk sizes</td>
@@ -177,17 +196,23 @@
 									<td>1 TB</td>
 									<td>2 TB</td>
 									<td>4 TB</td>
+									<td>8 TB</td>
+									<td>16 TB</td>
+									<td>32 TB (32767 GB)</td>
 								</tr>
 								<tr>
 									<td>Monthly pricing</td>
-									<td>￥24.4225</td>
-									<td>￥48.845</td>
-									<td>￥97.69</td>
-									<td>￥195.379</td>
-									<td>￥390.758</td>
-									<td>￥781.517</td>
-									<td>￥1,563.034</td>
-									<td>￥3,126.067</td>
+									<td>￥ 19.2</td>
+									<td>￥ 38.4</td>
+									<td>￥ 76.8</td>
+									<td>￥ 153.6</td>
+									<td>￥ 307.2</td>
+									<td>￥ 614.4</td>
+									<td>￥ 1,228.8</td>
+									<td>￥ 2,457.6</td>
+									<td>￥ 4,915.2</td>
+									<td>￥ 9,830.4</td>
+									<td>￥ 19,660.8</td>
 								</tr>
 								<tr>
 									<td>IOPS of every disk</td>
@@ -199,6 +224,9 @@
 									<td>500 at most</td>
 									<td>500 at most</td>
 									<td>500 at most</td>
+									<td>2,000 at most</td>
+									<td>4,000 at most</td>
+									<td>6,000 at most</td>
 								</tr>
 								<tr>
 									<td>Throughput of every disk</td>
@@ -210,6 +238,9 @@
 									<td>Up to 60 MB/second</td>
 									<td>Up to 60 MB/second</td>
 									<td>Up to 60 MB/second</td>
+									<td>Up to 400 MB/second</td>
+									<td>Up to 600 MB/second</td>
+									<td>Up to 750 MB/second</td>
 								</tr>
 							</table>
 							<div class="tags-date">
@@ -236,7 +267,9 @@
 									<th align="left"><strong>S30</strong></th>
 									<th align="left"><strong>S40</strong></th>
 									<th align="left"><strong>S50</strong></th>
-									<!-- <th align="left"><strong>S60</strong></th> -->
+									<th align="left"><strong>S60</strong></th>
+									<th align="left"><strong>S70</strong></th>
+									<th align="left"><strong>S80</strong></th>
 								</tr>
 								<tr>
 									<td>Disk sizes</td>
@@ -248,7 +281,9 @@
 									<td>1 TB</td>
 									<td>2 TB</td>
 									<td>4 TB</td>
-									<!-- <td>8 TB</td> -->
+									<td>8 TB</td>
+									<td>16 TB</td>
+									<td>32 TB (32767 GB)</td>
 								</tr>
 								<tr>
 									<td>Monthly pricing</td>
@@ -260,7 +295,9 @@
 									<td>￥ 276.48</td>
 									<td>¥ 552.96</td>
 									<td>￥ 1105.92</td>
-									<!-- <td>￥2211.84</td> -->
+									<td>￥ 2211.84</td>
+									<td>￥ 4423.68</td>
+									<td>￥ 8847.36</td>
 								</tr>
 								<tr>
 									<td>IOPS of every disk</td>
@@ -272,6 +309,9 @@
 									<td>500 at most</td>
 									<td>500 at most</td>
 									<td>500 at most</td>
+									<td>1,300 at most</td>
+									<td>2,000 at most</td>
+									<td>2,000 at most</td>
 								</tr>
 								<tr>
 									<td>Throughput of every disk</td>
@@ -283,6 +323,9 @@
 									<td>Up to 60 MB/second</td>
 									<td>Up to 60 MB/second</td>
 									<td>Up to 60 MB/second</td>
+									<td>Up to 300 MB/second</td>
+									<td>Up to 500 MB/second</td>
+									<td>Up to 500 MB/second</td>
 								</tr>
 							</table>
 							<div class="tags-date">

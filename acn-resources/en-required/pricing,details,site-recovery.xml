@@ -35,7 +35,21 @@
                     </div>
                     <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <th align="left"><strong></strong></th>
+                            <th align="left">
+                
+                {
+                
+                1
+                
+                >
+                
+                &lt;
+                
+                1
+                
+                }
+                
+                </th>
                             <th align="left"><strong>Price for the first 31 days</strong></th>
                             <th align="left"><strong>Price after 31 days</strong></th>
                         </tr>
@@ -47,7 +61,7 @@
                         <tr>
                             <td>From Azure Site Recovery to Azure</td>
                             <td>Free</td>
-                            <td>￥ 342.55/month for storage of every protected instance</td>
+                            <td>￥ 254.4/month for storage of every protected instance</td>
                         </tr>
                     </table>
                     <p>Besides, storage, storage transactions and Data Transfer are independently charged.</p>
@@ -55,7 +69,77 @@
                  
                 </div>
             </div>
-            <!-- END: TAB-CONTROL --> <!-- <div class="pricing-page-section">
+            <!-- END: TAB-CONTROL -->
+            <div class="pricing-page-section">
+				<div class="more-detail">
+					<h2>FAQ</h2>
+					<em>Expand all</em>
+					<h3>Common</h3>
+					<ul>
+						<li>
+							<i class="icon icon-plus"></i>
+							<div>
+								<a id="site-recovery-que-1">How is Site Recovery service billed?</a>
+								<section>
+									<p>Azure Site Recovery is charged based on the number of protected instances. Besides, storage, storage transactions and data transfers are independently charged.</p>
+								</section>
+							</div>
+						</li>
+						<li>
+							<i class="icon icon-plus"></i>
+							<div>
+								<a id="site-recovery-que-2">I have been an Azure Site Recovery user for over a month. Do I still get the first 31 days free for every protected instance?</a>
+								<section>
+									<p>Yes, it does not matter how long you have been using Azure Site Recovery. Every protected instance incurs no Azure Site Recovery charges for the first 31 days. For example, if you have been protecting 10 instances for the last 6 months and you connect an 11th instance to Azure Site Recovery, there will be no Azure Site Recovery charges for the 11th instance for the first 31 days. The first 10 instances continue to incur Azure Site Recovery charges since they have been protected for more than 31 days.</p>
+								</section>
+							</div>
+						</li>
+						<li>
+							<i class="icon icon-plus"></i>
+							<div>
+								<a id="site-recovery-que-q3">During the first 31 days, will I incur any other Azure charges?</a>
+								<section>
+									<p>Yes, even though Azure Site Recovery is free during the first 31 days of a protected instance, you might incur charges for Azure Storage, storage transactions, and data transfer. A recovered virtual machine might also incur Azure compute charges.</p>
+								</section>
+							</div>
+						</li>
+
+						<li>
+							<i class="icon icon-plus"></i>
+							<div>
+								<a id="site-recovery-que-q4">What charges do I incur while using Azure Site Recovery? </a>
+								<section>
+									<p>When you use Site Recovery, you incur charges for the Site Recovery license, Azure storage, storage transactions, and outbound data transfer.</p>
+                                    <p>The Site Recovery license is per protected instance, where an instance is a virtual machine or a physical server.</p>
+                                    <ul>
+                                        <li>If a virtual machine disk replicates to a standard storage account, the Azure Storage charge is for the storage consumption. For example, if the source disk size is 1 TB, and 400 GB of storage is used, Site Recovery creates a 1 TB VHD in Azure, but the storage charged is 400 GB (plus the amount of storage space used for replication logs).</li>
+                                    <li>If a virtual machine disk replicates to a premium storage account, the Azure storage charge is for the provisioned storage size, rounded out for the nearest premium storage disk option. For example, if the source disk size is 50 GB, Site Recovery creates a 50 GB disk in Azure, and Azure maps this to the nearest premium storage disk (P10). Costs are calculated on P10, and not on the 50 GB disk size. Learn more. If you're using premium storage, a standard storage account for replication logging is also required, and the amount of standard storage space used for these logs is also billed.</li>
+                                    <li>No disks are created until a test failover or a failover. In the replication state, storage charges under the category of "Page blob and disk" as per the storage pricing calculator are incurred. These charges are based on the type of storage—premium or standard—and the data redundancy type, including LRS, GRS, RA-GRS, and more.</li>
+                                    <li>If the option to use managed disks on a failover is selected, charges for managed disks apply after a failover or test failover. Managed disks charges do not apply during replication. During replication, storage charges under the category of "Unmanaged disks and page blobs" are incurred. These charges are based on the storage type of premium/standard and the data redundancy type - LRS, GRS, RA-GRS etc.</li>
+                                    </ul>
+                                    <p>For example, for a VM replicating to premium storage with 128 GB OS disk and 500 GB data disk:</p>
+                                        <ul>
+                                            <li>1.During replication: Storage charges under the category of "Unmanaged disks and page blobs" for premium storage disk sizes P10 and P20 are incurred. The size of the disks being replicated (128 GB and 500 GB) are rounded off to the nearest unmanaged premium disk size of P10(128 GB) and P20(512 GB) for billing. A standard storage account for logging delta changes during replication is also used. Storage charges under the category of "Unmanaged disks and page blobs" based on the amount of standard storage used for these logs is also billed.</li>
+                                            <li>2. During a Test failover or after failover to managed disks: Managed disk charges for premium managed disks of sizes P10 and P20 apply.</li>
+                                        </ul>
+                                        <p>For example, for a VM replicating to standard storage with 32 GB OS disk and 250 GB data disk:</p>
+                                        <ul>
+                                        <li>1.During replication: Storage charges under the category of "Unmanaged disks and page blobs" for standard storage are incurred.</li>
+                                        <li>2. During a Test failover or after failover to managed disks: Managed disk charges for standard managed disks of sizes S4(32 GB) and S15(256 GB) apply. As you can see, the size of the disks (32 GB and 250 GB) have been rounded off to the nearest standard managed disk size of S4(32 GB) and S15(256 GB).</li>
+                                        </ul>
+                                    <ul>
+                                    <li>If the option to use managed disks on a failover is not selected, storage charges under the category of "Unmanaged Disks and Page blobs" as per the Storage pricing calculator are incurred after failover. These charges are based on the type of storage—premium or standard—and the data redundancy type, including LRS, GRS, RA-GRS, and more.</li>
+                                    <li>Storage transactions are charged during steady-state replication and for regular virtual machine operations after a failover or test failover. But these charges are negligible.
+                                    </li>
+                                    </ul>
+                                    <p>Costs are also incurred during test failover, where the virtual machine, storage, egress, and storage transactions costs will be applied.</p>
+                                </section>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+            <!-- <div class="pricing-page-section">
                 <h2>上市地区</h2>
                 <p>站点恢复服务在以下区域中提供：</p>
                 <table cellpadding="0" cellspacing="0" class="table-col6">
