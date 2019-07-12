@@ -70,7 +70,7 @@
                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/kubernetes-service_icon@2x.svg" />
                         <h2>Azure Kubernetes Service (AKS)</h2>
                         <h4>Highly available, secure, and fully managed Kubernetes service</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_kubernetes-service_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_kubernetes-service_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <a href="/pricing/pia/" id="home_kubernetes-service_pia">Buy now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
@@ -146,15 +146,7 @@
                         </li>
                     </ul>
                 </div>
-            </div> --> <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More --> <!-- <div class="pricing-page-section link-group-container">
-                <h1>了解更多</h1>
-                <ul>
-                    <li>
-                        <a href="">documnet1</a>
-                    </li>
-                    
-                </ul>
-            </div> --> <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->             
+            </div> --> <!-- END: Product-Detail-Content -->
     
     ]]></bodyText>
     <pageTitle>Kubernetes Service - Fully Managed Service - Azure Cloud Computing</pageTitle>
