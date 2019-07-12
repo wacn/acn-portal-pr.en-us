@@ -1,72 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <localize>
   <TextpageLeftNav template="5" createDate="2019-05-28T07:49:24" updateDate="2019-05-28T16:00:00" urlName="active-directory-b2c" writerName="content" creatorName="content">
-    <bodyText><![CDATA[
-      
-            <tags ms.service="active-directory-b2c" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+    <bodyText>
+      <![CDATA[
+            <tags ms.service="active-directory-b2c" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <!-- BEGIN: Product-Detail-TopBanner -->
             <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/activity_directory_b2c.png','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/images/production/active-directory-b2c@2x.svg" />
                         <h2>Azure Active Directory B2C</h2>
-                        <h4>Consumer identity and access management for the cloud</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_active_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_active_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h4>用于云的标识和访问管理</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_active_trial">申请试用<i class="icon icon-arrow-right-thin"></i></a></em>
+                        <a href="/pricing/pia/" id="home_active_pia">立即购买<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner -->
             <div class="pricing-page-section">
-                <p>Azure Active Directory B2C is a cloud-based identity and access management solution for your consumer-facing web and mobile applications. It is a highly-available global service that scales to hundreds of millions of consumer identities. Built on an enterprise-grade secure platform, Azure Active Directory B2C keeps your business and your consumers protected.</p>
+                <p>Azure Active Directory B2C 是一个基于云的标识和访问管理解决方案，适用于面向消费者的 Web 和移动应用程序。此服务在全球具有高可用性，可扩展到亿万消费者标识。以企业级安全平台为基础，Azure Active Directory B2C 可保护你的企业和消费者。</p>
             </div>
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
-                <h2>Pricing Details</h2>
-                <p>Azure Active Directory (Azure AD) B2C usage will be billed monthly based on the number of authentications. An authentication is a token issued either in response to a sign-in request initiated by a user, or initiated by an application on behalf of a user (e.g. token refresh, where the refresh interval is configurable).</p>
-                <p>The pricing below will go into effect from July 1, 2019.</p>
+                <h2>定价详细信息</h2>
+                <p>Azure Active Directory (Azure AD) B2C 使用情况将基于身份验证的数目按月计费。身份验证是为响应某个用户发出的或代表某个用户的应用程序发出的注册请求而颁发的令牌（例如令牌刷新，其中刷新时间间隔可配置）。</p>
                 <!-- <p>如果选择使用 Azure AD B2C 选项的“每个应用程序多重身份验证”来提供高级别保证，则将收取单独的费用。</p> -->
-                <p>Azure AD B2C usage will be billed using a volume-based tiered model, as shown below.</p>
+                <p>基于用量的分层模型对 Azure AD B2C 的使用进行计费，如下所示。</p>
                 <table cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <th align="left"><strong>Authentications/month</strong></th>
-                            <th align="left"><strong>General availability price</strong></th>
+                            <th align="left"><strong>身份验证次数/月</strong></th>
+                            <th align="left"><strong>正式发布版价格</strong></th>
                         </tr>
                         <tr>
-                            <td>First 50,000</td>
-                            <td>Free</td>
+                            <td>第一个 50,000</td>
+                            <td>免费</td>
                         </tr>
                         <tr>
-                            <td>Next 950,000</td>
-                            <td>￥ 0.0285</td>
+                            <td>下一个 950,000</td>
+                            <td>￥0.0285</td>
                         </tr>
                         <tr>
-                            <td>Next 9,000,000</td>
-                            <td>￥ 0.0214</td>
+                            <td>下一个 9,000,000</td>
+                            <td>￥0.0214</td>
                         </tr>
                         <tr>
-                            <td>Next 40,000,000</td>
-                            <td>￥ 0.0142</td>
+                            <td>下一个 40,000,000</td>
+                            <td>￥0.0142</td>
                         </tr>
                         <tr>
-                            <td>Greater than 50,000,000</td>
-                            <td>￥ 0.00712</td>
+                            <td>大于 50,000,000</td>
+                            <td>￥0.00712</td>
                         </tr>
                     </table>
-                    <p>Azure Multi-Factor Authentication for Azure AD B2C users will be charged at a flat fee of ￥ 0.305 per authentication</p>
-                    <p>For all other customers, Azure AD B2C usage will be billed at a low flat rate for each authentication, with no free tier. Azure Multi-Factor Authentication for B2C users will also be charged at a flat rate. For pricing, please contact your partner or 21Vianet.</div>
+                    <p>Azure AD B2C 用户的 Azure 多重身份验证将按每个身份验证的固定费率 ￥0.305 收费</p>
+                    <p>对于所有其他客户，将按每身份验证较低的固定费率对 Azure AD B2C 的使用进行计费（无免费层级）。B2C 用户的 Azure 多重身份验证也将按固定费率进行收费。有关定价信息，请联系你的合作伙伴或世纪互联。
+            </div>
             <!-- END: TAB-CONTROL -->
             <div class="pricing-page-section">
-                <h2>Support &amp; SLA</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="inentity-contact-page">Azure Support</a> to select self-service or any other method to contact us for support.</p>
-				 <p>The free version of Azure Active Directory doesn’t offer a service level agreement. If you want to learn more about the details of our server level agreement, please visit the <a href="/support/sla/active-directory-b2c/" id="pricing_identity_sla">Service Level Agreement</a> page.</p>
+                <h2>支持和服务级别协议</h2>
+                <p>如有任何疑问或需要帮助，请访问<a href="/support/contact/" id="inentity-contact-page">Azure 支持</a>选择自助服务或者其他任何方式联系我们获得支持。</p>
+				 <p>Azure Active Directory 免费版不提供服务级别协议。若要了解有关我们的服务器级别协议的详细信息，请访问<a href="/support/sla/active-directory-b2c/" id="pricing_identity_sla">服务级别协议</a>页。</p>
             </div>
-                <!--BEGIN: Support and service code chunk--> <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />--> <!--END: Support and service code chunk--> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                                                                                      
-    
-    ]]></bodyText>
-    <pageTitle>Active Directory B2C - Azure Cloud Computing</pageTitle>
+                <!--BEGIN: Support and service code chunk-->
+                <!--<?UMBRACO_MACRO chunkpath="production" chunkname="support-and-service" macroAlias="blankCodeChunk" />-->
+                <!--END: Support and service code chunk-->
+              
+            <!--BEGIN: Support and service code chunk-->
+            <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />                                                                       
+            <!--END: Support and service code chunk-->                                                                                      
+    ]]>
+    </bodyText>
+    <pageTitle>Active Directory B2C - Azure云计算</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-identity</linkid>
-    <metaKeywords>iaas, infrastructure as a service, active directory, pricing</metaKeywords>
-    <metaDescription><![CDATA[Azure Active Directory B2C is an identity and access management cloud solution for your consumer-facing web and mobile apps. A 1RMB Trial gets you RMB1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer to enjoy an up to 99.99% service level agreement.]]></metaDescription>
-    <urlDisplayName>Pricing Details - Azure Active Directory B2C</urlDisplayName>
+    <metaKeywords>iaas, 云基础结构即服务, active directory, 价格</metaKeywords>
+    <metaDescription><![CDATA[Azure Active Directory B2C 是一个标识和访问管理云解决方案，适用于面向消费者的 Web 和移动应用。1元试用即获1500元人民币的服务使用额度，也可直接购买成为 Azure 预付费客户，尽享最高 99.99% 的服务级别协议。]]></metaDescription>
+    <urlDisplayName>价格详情 - Azure Active Directory B2C</urlDisplayName>
   </TextpageLeftNav>
 </localize>

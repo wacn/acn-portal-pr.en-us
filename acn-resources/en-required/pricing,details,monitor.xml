@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <localize>
   <TextpageLeftNav template="5" createDate="2014-08-05T07:49:24" updateDate="2018-08-02T12:00:00" urlName="monitor" writerName="content" creatorName="content">
-    <bodyText><![CDATA[
-      
-            <tags ms.service="monitor" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+    <bodyText>
+      <![CDATA[
+            <tags ms.service="monitor" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+            <!-- BEGIN: Product-Detail-TopBanner -->
 			<style>
 				.monitor-icon{
 					width: 48px;
@@ -17,15 +18,16 @@
                 <div class="common-banner-image">
                     <div class="common-banner-title">
                         <div class="monitor-icon"></div>
-                        <h2>Azure Monitor<span>Azure Monitor</span></h2>
-                        <h4>Precise, real-time monitoring of all Azure resource data</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_monitor_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_monitor_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <h2>Azure 监控器<span>Azure Monitor</span></h2>
+                        <h4>高精度、实时监控所有 Azure 资源的数据</h4>
+                        <em><a href="/pricing/1rmb-trial/" id="home_monitor_trial">申请试用<i class="icon icon-arrow-right-thin"></i></a></em>
+                        <a href="/pricing/pia/" id="home_monitor_pia">立即购买<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner --> 
             <div class="pricing-page-section">   
-                <p>Azure Monitor is a platform function used to monitor and control Azure resources. Azure Monitor allows you to gather detailed performance and usage data, activity and diagnostic logs, and notifications, in a consistent way. You can use Azure portal to view and analyze monitoring data and set up alert-based automated actions.</p> 
+                <p>Azure 监控器是一个用于监控 Azure 资源的平台功能。Azure 监控器允许以一致的方式从 Azure 资源中收集精细的性能和利用率数据、活动和诊断日志，以及通知。可使用 Azure 门户查看和分析监控数据并设置基于警报的自动化操作。</p> 
             </div> 
             <!-- BEGIN: TAB-CONTROL -->
             <div class="technical-azure-selector tab-control-selector">
@@ -33,180 +35,181 @@
                 <div class="tab-control-container tab-active" id="tabContent1">
                     <!-- BEGIN: Table1-Content-->
                     
-                    <h2>Pricing Details</h2>
+                    <h2>定价详细信息</h2>
                     <h3>Log Analytics</h3>
-                    <p>Log Analytics is billed per gigabyte (GB) of data ingested into the service.</p>
+                    <p>针对引入的数据对 Log Analytics 服务按每十亿字节 (GB) 计费。</p>
                     <div class="tags-date">
-                        <div class="ms-date">*The following prices are tax-inclusive.</div>
+                        <div class="ms-date">*以下价格均为含税价格。</div>
                     </div>
                     <table  cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                            <th align="left"><strong>Features</strong></th>
-                            <th align="left"><strong>Includes free units</strong></th>
-                            <th align="left"><strong>Pricing</strong></th>
+                            <th align="left"><strong>功能</strong></th>
+                            <th align="left"><strong>内附免费单位数</strong></th>
+                            <th align="left"><strong>价格</strong></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="left_align">Data ingestion</td>
-                                <td class="left_align">5 GB per customer per month<sup>1</sup></td>
-                                <td class="left_align">¥ 23.4/GB</td>
+                                <td class="left_align">数据引入</td>
+                                <td class="left_align">每个客户每月 5 GB<sup>1</sup></td>
+                                <td class="left_align">¥23.4/GB</td>
                             </tr>
                             <tr>
-                                <td class="left_align">Data retention</td>
-                                <td class="left_align">31 days <sup>2</sup></td>
-                                <td class="left_align">¥ 1.02/month</td>
+                                <td class="left_align">数据保留</td>
+                                <td class="left_align">31 天<sup>2</sup></td>
+                                <td class="left_align">¥1.02/月</td>
                             </tr>
                         </tbody>
                     </table>
                     <div class="tags-date">
-						<div class="ms-date">1.The first 5 GB of data ingested per customer to the Azure Log Analytics service every month is offered free.</div><br data-filtered="filtered">
-						<div class="ms-date">2.Every GB of data ingested into your Azure Log Analytics workspace is retained at no charge for the first 31 days.</div><br data-filtered="filtered">
+						<div class="ms-date">1.每个客户每月引入 Azure Log Analytics 服务的前 5 GB 数据免费。</div><br data-filtered="filtered">
+						<div class="ms-date">2.引入 Azure Log Analytics 工作区的每 GB 数据均可免费保存 31 天。</div><br data-filtered="filtered">
 					</div>
 
                     <h3>Application Insights</h3>
-                    <p>Application Insights is billed based on the volume of telemetry data that your application sends and the number of web tests that you choose to run. The telemetry data is billed per Azure Log Analytics data ingestion rates.</p>
+                    <p>根据应用程序发送的遥测数据量和选择运行的 Web 测试数对 Application Insights 计费。遥测数据按 Azure Log Analytics 数据引入费率计费。</p>
                     <div class="tags-date">
-                        <div class="ms-date">*The following prices are tax-inclusive.</div>
+                        <div class="ms-date">*以下价格均为含税价格。</div>
                     </div>
                     <table  cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                            <th align="left"><strong>Features</strong></th>
-                            <th align="left"><strong>Includes free units</strong></th>
-                            <th align="left"><strong>Pricing</strong></th>
+                            <th align="left"><strong>功能</strong></th>
+                            <th align="left"><strong>内附免费单位数</strong></th>
+                            <th align="left"><strong>价格</strong></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="left_align">Data ingestion</td>
-                                <td class="left_align">5 GB per customer per month<sup>1</sup></td>
-                                <td class="left_align">¥ 23.4/GB</td>
+                                <td class="left_align">数据引入</td>
+                                <td class="left_align">每个客户每月 5 GB<sup>1</sup></td>
+                                <td class="left_align">¥23.4/GB</td>
                             </tr>
                             <tr>
-                                <td class="left_align">Data retention</td>
-                                <td class="left_align">90 days</td>
+                                <td class="left_align">数据保留</td>
+                                <td class="left_align">90 天</td>
                                 <td class="left_align">N/A</td>
                             </tr>
                             <tr>
-                                <td class="left_align">Ping web test<sup>2</sup></td>
-                                <td class="left_align">Unlimited</td>
-                                <td class="left_align">Free</td>
+                                <td class="left_align">Ping Web 测试<sup>2</sup></td>
+                                <td class="left_align">无限制</td>
+                                <td class="left_align">免费</td>
                             </tr>
                         </tbody>
                     </table>
                     <div class="tags-date">
-						<div class="ms-date">1.Every GB of data ingested by Application Insights is retained at no charge for 90 days.</div><br data-filtered="filtered">
-						<div class="ms-date">2.Notifications are separately charged per pricing below.</div><br data-filtered="filtered">
+						<div class="ms-date">1.Application Insights 引入的每 GB 数据将免费保留 90 天。</div><br data-filtered="filtered">
+						<div class="ms-date">2.通知按照下方定价单独收费。</div><br data-filtered="filtered">
 					</div>
 
-                    <h3>Metrics</h3>
-                    <p>Metrics show a range of time series and are billed according to the number of time series and the number of API calls performed.</p>
-                    <p>Metrics queries are free before August 1, 2018. Metrics queries will be billed at the rates below from August 1, 2018 onward.</p>
+                    <h3>度量值</h3>
+                    <p>指标表示一系列时间序列。按监测到的时间序列数和进行的 API 调用次数计费。</p>
+                    <p>2018 年 8 月 1 日之前的指标查询免费。指标查询的费用将按照下面的定价计划于 2018 年 8 月 1 日开始生效。</p>
                     <div class="tags-date">
-                        <div class="ms-date">*The following prices are tax-inclusive.</div>
+                        <div class="ms-date">*以下价格均为含税价格。</div>
                     </div>
                     <table  cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                            <th align="left"><strong>Features</strong></th>
-                            <th align="left"><strong>Includes free units</strong></th>
-                            <th align="left"><strong>Pricing</strong></th>
+                            <th align="left"><strong>功能</strong></th>
+                            <th align="left"><strong>内附免费单位数</strong></th>
+                            <th align="left"><strong>价格</strong></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="left_align">Metrics queries</td>
-                                <td class="left_align">1,000,000 standard API calls per month</td>
-                                <td class="left_align">¥ 0.101/1,000 standard API calls</td>
+                                <td class="left_align">指标查询</td>
+                                <td class="left_align">每月 1,000,000 个标准 API 调用</td>
+                                <td class="left_align">¥0.101/1,000 个标准 API 调用</td>
                             </tr>
                         </tbody>
                     </table>
                     
-                    <p>Billed on the basis of the number of standard API calls per metrics query. A standard API call analyzes 1,440 data points (1,440 is also the total number of data points that can be stored per metric per day). If the API call analyzes over 1,440 data points, it will be calculated as more than one standard API call. If the API call analyzes less than 1,440 data points, it will be counted as less than one API call. The number of standard API calls is calculated on a daily basis by dividing the number of data points analyzed per day by 1,440.</p>
+                    <p>根据标准 API 调用数对指标查询进行收费。标准 API 调用分析 1,440 个数据点（1,440 也是每天每个指标可存储的数据点的总数）。如果 API 调用分析超过 1,440 个数据点，会将其算作多个标准 API 调用。如果 API 调用分析少于 1,440 个数据点，会将其算作不到一个 API 调用。标准 API 调用数会每天进行计算，计算方法是将每天分析的数据点总数除以 1,440。</p>
                     <ul>
-                        <li>Metrics for 90 days are provided at no charge. If you need to retain more than 90 days of metrics data, you can route the metrics data to a storage account or Event Hub, and you will then be billed for the corresponding Storage or Event Hubs. You will also be billed for the corresponding API calls for metrics queries required to route the data.</li>
+                        <li>提供 90 天内的指标，无需任何费用。若要保留 90 天以上的指标数据，可将指标数据路由到存储帐户或事件中心。会分别对存储和事件中心收取相应的费用。此外，会针对路由数据所需的相应 API 调用对指标查询进行收费。</li>
                     </ul>
                     <!-- END: Table1-Content-->
                     
-                    <h4>Examples</h4>
-                    <p>API calls that return 2,000 data points will be calculated as 2,000/1,440 = 1.4 standard API calls.</p>
-                    <p>API calls that return 200 data points will be calculated as 200/1,440 = 0.1 standard API calls.</p>
-                    <p>Tracking five metrics from 100 virtual machines at a granularity level of one minute will produce 720,000 data points, i.e. (720,000/1,440)500 standard API calls per day.</p>
+                    <h4>示例</h4>
+                    <p>返回 2,000 个数据点的 API 调用将被算作 2,000/1,440 = 1.4 个标准 API 调用。</p>
+                    <p>返回 200 个数据点的 API 调用将被算作 200/1,440 = 0.1 个标准 API 调用。</p>
+                    <p>如果每天从 100 个虚拟机以一分钟的粒度跟踪五个指标，将产生 720,000 个数据点，即每天 (720,000/1,440) 500 个标准 API 调用。</p>
 
-                    <h3>Alert rules</h3>
-                    <p>An alert rule is charged based on the type and number of signals it monitors. A signal can be a resource metric, a log or an activity log. The cost of an alert rule that monitors multiple signals is the sum of the cost of monitoring each signal and any enabled features.</p>
+                    <h3>预警规则</h3>
+                    <p>预警规则根据监视信号的类型和数量进行收费。信号可能是资源指标、日志或者活动日志。监视多个信号的预警规则的费用是监视每个信号的费用和已启用功能费用的总和。</p>
                     <div class="tags-date">
-                        <div class="ms-date">*The following prices are tax-inclusive.</div>
+                        <div class="ms-date">*以下价格均为含税价格。</div>
                     </div>
                     <table  cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                            <th align="left"><strong>Alert signal</strong></th>
-                            <th align="left"><strong>Includes free units</strong></th>
-                            <th align="left"><strong>Pricing</strong></th>
+                            <th align="left"><strong>警报信号</strong></th>
+                            <th align="left"><strong>内附免费单位数</strong></th>
+                            <th align="left"><strong>价格</strong></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="left_align">Metrics<sup>1,</sup><sup>2</sup></td>
-                                <td class="left_align">10 monitored metric time-series per month</td>
-                                <td class="left_align">￥ 1.02 per metric time-series monitored per month</td>
+                                <td class="left_align">度量值<sup>1,</sup><sup>2</sup></td>
+                                <td class="left_align">每月 10 个受监视的时间指标系列</td>
+                                <td class="left_align">每月每个监视时间指标系列 ￥1.02</td>
                             </tr>
                             <tr>
-                                <td class="left_align">Log</td>
-                                <td class="left_align">None</td>
+                                <td class="left_align">日志</td>
+                                <td class="left_align">无</td>
                                 <td class="left_align">
-                                     	15-min interval (or greater): ￥ 5.09 per log monitored per month <br/>
-                                    10-min interval: ￥ 10.18 per log monitored per month <br/>
-                                    5-min interval: ￥ 15.26 per log monitored per month
+                                    15 分钟（或更长）间隔：每月每个受监视日志 ￥5.09 <br/>
+                                    10 分钟间隔：每月每个受监视日志 ￥10.18 <br/>
+                                    5 分钟间隔：每月每个受监视日志 ￥15.26
                                 </td>
                             </tr>
                             <tr>
-                                <td class="left_align">Activity Logs</td>
-                                <td class="left_align">Unlimited</td>
-                                <td class="left_align">Free</td>
+                                <td class="left_align">活动日志</td>
+                                <td class="left_align">无限制</td>
+                                <td class="left_align">免费</td>
                             </tr>
                             <tr>
-                                <td class="left_align">Dynamic threshold<sup>3</sup></td>
-                                <td class="left_align">None</td>
-                                <td class="left_align">￥ 1.02 per dynamic threshold per month</td>
+                                <td class="left_align">动态阈值<sup>3</sup></td>
+                                <td class="left_align">无</td>
+                                <td class="left_align">每月每个动态阈值 ￥1.02</td>
                             </tr>
                         </tbody>
                     </table>
                     <div class="tags-date">
-						<div class="ms-date">1.Price listed here represents the price of an alert rule monitoring a single metric time-series originating from a single resource.</div><br>
-						<div class="ms-date">2.Pricing is applicable to the new generation metric alert rules available under Alerts, previous generation alert rules (Alerts Classic) will continue to be available at no charge. There is a configuration limit of 100 metric time-series alerts, 100 activity log alerts, and 10 action groups per subscription. Contact Azure support to increase the limit.<br/>
-                                            Activity logs for 90 days are provided at no charge. If you need to retain more than 90 days of activity log data, you can route the activity log data to a storage account or Event Hub, and you will then be billed for storage or by the corresponding event hub. There are no charges for API call request activity log data.<br/>
-                                            Alerts offered as part of Azure Security Center (ASC) are not currently charged.
+						<div class="ms-date">1.此处列出的价格表示监视单个资源的单个时间指标系列的预警规则的价格。</div><br>
+						<div class="ms-date">2.定价适用于“警报”下新一代的可用指标预警规则，上一代的预警规则 (Alerts Classic) 将继续免费提供。
+                                            每个订阅均具有 100 个时间指标系列警报、100 个活动日志警报和 10 个操作组的配置限制。若要增加限额，请联系 Azure 支持。<br/>
+                                            提供 90 天内的活动日志，无需任何费用。若要保留 90 天以上的活动日志数据，可将活动日志数据路由到存储帐户或事件中心。会分别对存储和事件中心收取相应的费用。API 调用请求活动日志数据不会产生任何费用。<br/>
+                                            作为 Azure 安全中心 (ASC) 一部分提供的警报当前不收取费用。
                         </div>
                         <br>
-                        <div class="ms-date">3.A dynamic alert is billed for the dynamic threshold capability and the underlying metric alert.<br/>
-                            Examples<br/>
-                            a.The price of an alert rule which monitors the CPU utilization, and RAM usage (i.e. 2 metric time-series) for 10 VMs, and has dynamic threshold enabled, can be calculated as, <br/>
-                            Price of alert rule + Price of dynamic threshold<br/>
-                            (10 VMs * 2 metric time-series per VM – 10 free units) * ￥ 1.02 per metric time-series alert rule per month + [(10 VMs * 2 metric time-series per VM) * ￥ 1.02 per dynamic threshold per month] = ￥ 30.6 per month<br/>
-                            b.The price of an alert rule which queries 1 Log analytics workspace for a ‘404-error’ event every 15-minutes can be calculated as, <br/>
-                            1 workspace * 1 log alert query * ￥ 5.09 per log alert rule per month = ￥ 5.09 per month
+                        <div class="ms-date">3.动态警报将针对动态阈值功能和基础指标警报进行计费。<br/>
+                            示例<br/>
+                            a.监视 CPU 利用率和 10 VM RAM 使用情况（即 2 个时间指标系列）并启用了动态阈值的预警规则的费用可通过以下方式进行计算。<br/>
+                            预警规则的价格 + 动态阈值的价格<br/>
+                            （10 VM * 每个 VM 的 2 个时间指标系列 - 10 个免费单位）* 每月每个时间指标系列预警规则 ￥1.02 + [（10 VM * 每个 VM 的 2 个时间指标系列）* 每月每个动态阙值 ￥1.02] = 每月 ￥30.6<br/>
+                            b.每 15 分钟在 1 Log Analytics 工作区查询“404-error”事件的预警规则的价格可以通过以下方式进行计算。<br/>
+                            1个工作区 * 1 日志警报查询 * 每月每个日志预警规则 ￥5.09 = 每月 ￥5.09
                         </div>
 					</div>
 
-                    <h3>Notifications</h3>
-                    <p>Billed according to the type and quantity of notifications you choose to send.</p>
+                    <h3>通知</h3>
+                    <p>根据你选择发送的通知类型和数量来计费。</p>
                     <table  cellpadding="0" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                            <th align="left"><strong>Features</strong></th>
-                            <th align="left"><strong>Includes free units</strong></th>
-                            <th align="left"><strong>Pricing</strong></th>
+                            <th align="left"><strong>功能</strong></th>
+                            <th align="left"><strong>内附免费单位数</strong></th>
+                            <th align="left"><strong>价格</strong></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="left_align">Email</td>                                
-                                <td class="left_align">1,000 emails per month</td>
-                                <td class="left_align">¥ 20.30/100,000 emails</td>
+                                <td class="left_align">电子邮件</td>                                
+                                <td class="left_align">每月电子邮件数 1,000</td>
+                                <td class="left_align">¥20.3/100,000 电子邮件</td>
                             </tr>
                             <!-- <tr>
                                 <td class="left_align">推送通知（面向 Azure 应用）</td>
@@ -215,93 +218,93 @@
                             </tr> -->
                             <tr>
                                 <td class="left_align">Webhook</td>
-                                <td class="left_align">100,000 webhooks per month</td>
-                                <td class="left_align">¥ 6.10/1,000,000 webhooks</td>
+                                <td class="left_align">每月 100,000 个 Web 挂钩</td>
+                                <td class="left_align">¥6.1/1,000,000 个 Web 挂钩</td>
                             </tr>
                             <tr>
-                                <td class="left_align">Text message</td>
+                                <td class="left_align">短信</td>
                                 <td class="left_align"></td>
                                 <td class="left_align"></td>
                             </tr>
                             <tr>
-                                <td class="left_align"><strong>Country/region code</strong></td>
-                                <td class="left_align"><strong>Includes free units</strong></td>
-                                <td class="left_align"><strong>Pricing</strong></td>
+                                <td class="left_align"><strong>国家/地区代码</strong></td>
+                                <td class="left_align"><strong>内附免费单位数</strong></td>
+                                <td class="left_align"><strong>价格</strong></td>
                             </tr>
                             <tr>
-                                <td> China (+86)</td>
+                                <td> 中国（+ 86）</td>
                                 <td>–</td>
-                                <td>￥ 0.219165/per text message</td>
+                                <td>¥0.219165/每条短信</td>
                             </tr>
                             <tr>
-                                <td> Hong Kong SAR, China (+852)</td>
+                                <td> 中国香港特别行政区（+ 852）</td>
                                 <td>–</td>
-                                <td>￥ 0.179988/per text message</td>
+                                <td>¥0.179988/每条短信</td>
                             </tr>
                             <tr>
-                                <td> Australia (+61)</td>
+                                <td> 澳大利亚（+ 61）</td>
                                 <td>–</td>
-                                <td>￥ 0.36252/per text message</td>
+                                <td>¥0.36252/每条短信</td>
                             </tr>
                             <tr>
-                                <td> Brazil (+55)</td>
+                                <td> 巴西（+ 55）</td>
                                 <td>–</td>
-                                <td>￥ 0.148188/per text message</td>
+                                <td>¥0.148188/每条短信</td>
                             </tr>
                             <tr>
-                                <td> France (+33)</td>
+                                <td> 法国（+ 33）</td>
                                 <td>–</td>
-                                <td>￥ 0.34344/per text message</td>
+                                <td>¥0.34344/每条短信</td>
                             </tr>
                             <tr>
-                                <td> Germany (+49)</td>
+                                <td> 德国（+ 49）</td>
                                 <td>–</td>
-                                <td>￥ 0.634855/per text message</td>
+                                <td>¥0.634855/每条短信</td>
                             </tr>
                             <tr>
-                                <td> India (+91)</td>
+                                <td> 印度（+ 91）</td>
                                 <td>–</td>
-                                <td>￥ 0.026711/per text message</td>
+                                <td>¥0.026711/每条短信</td>
                             </tr>
                             <tr>
-                                <td> Ireland (+353)</td>
+                                <td> 爱尔兰（+ 353）</td>
                                 <td>–</td>
-                                <td>￥ 0.251856/per text message</td>
+                                <td>¥0.251856/每条短信</td>
                             </tr>
                             <tr>
-                                <td> Japan (+81)</td>
+                                <td> 日本（+ 81）</td>
                                 <td>–</td>
-                                <td>￥ 0.29256/per text message</td>
+                                <td>¥0.29256/每条短信</td>
                             </tr>
                             <tr>
-                                <td> Netherlands (+31)</td>
+                                <td> 荷兰（+ 31）</td>
                                 <td>–</td>
-                                <td>￥ 0.8586/per text message</td>
+                                <td>¥0.8586/每条短信</td>
                             </tr>
                             <tr>
-                                <td> Singapore (+65)</td>
+                                <td> 新加坡（+ 65）</td>
                                 <td>–</td>
-                                <td>￥ 0.197605/per text message</td>
+                                <td>¥0.197605/每条短信</td>
                             </tr>
                             <tr>
-                                <td> South Africa (+27)</td>
+                                <td> 南非（+ 27）</td>
                                 <td>–</td>
-                                <td>￥ 0.158491/per text message</td>
+                                <td>¥0.158491/每条短信</td>
                             </tr>
                             <tr>
-                                <td> South Korea (+82)</td>
+                                <td> 韩国（+ 82）</td>
                                 <td>–</td>
-                                <td>￥ 0.29892/per text message</td>
+                                <td>¥0.29892/每条短信</td>
                             </tr>
                             <tr>
-                                <td> United Kingdom (+44)</td>
+                                <td> 英国（+ 44）</td>
                                 <td>–</td>
-                                <td>￥ 0.22896/per text message</td>
+                                <td>¥0.22896/每条短信</td>
                             </tr>
                             <tr>
-                                <td> United States (+1)</td>
-                                <td>100 text messages per month</td>
-                                <td>￥ 0.065635/per text message</td>
+                                <td> 美国（+ 1）</td>
+                                <td>每月 100 条短信</td>
+                                <td>¥0.065635/每条短信</td>
                             </tr>
                         </tbody>
                     </table>
@@ -312,109 +315,109 @@
 
             <div class="pricing-page-section">
                 <div class="more-detail">
-                    <h2>FAQ</h2>
-                    <em>Expand All</em>
-                    <h3>Log Analytics FAQs</h3>
+                    <h2>常见问题</h2>
+                    <em>全部展开</em>
+                    <h3>Log Analytics 常见问题解答</h3>
                     <ul>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="home_monitor_log_analytics_question1" aria-label="home_monitor_log_analytics_question1">If I have Insight and Analytics per node pricing, can I continue to stay on that pricing to use Log Analytics?</a>
+                                <a id="home_monitor_log_analytics_question1" aria-label="home_monitor_log_analytics_question1">如果我正在使用按节点计价的见解和分析定价模型，我可以继续在该定价模型上使用 Log Analytics 吗？</a>
                                 <section>
-                                     <p>Yes. You can remain on the Insight &amp; Analytics per node pricing model to use Log Analytics.</p>
+                                     <p>可以。你可以继续在按节点计价的见解和分析定价模型上使用 Log Analytics。</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="home_monitor_log_analytics_question2" aria-label="home_monitor_log_analytics_question2">If I have Insight and Analytics per node pricing plan, how do I know if the new per GB pricing model is better for me?</a>
+                                <a id="home_monitor_log_analytics_question2" aria-label="home_monitor_log_analytics_question2">如果我正在使用按节点计价的见解和分析定价计划，我如何知道按 GB 计价的新定价模型是否更适合我？</a>
                                 <section>
-                                     <p>To estimate the impact of the per GB pricing model, visit our documentation on the <a href="https://docs.azure.cn/azure-monitor/platform/usage-estimated-costs">Usage and Estimated costs</a> page. Note that in the new pricing model, data ingestion and retention are both priced differently depending on the region in which you have your Log Analytics workspace. Be sure to account for this in making any estimated cost comparison. Also, if you purchased the OMS Suite, be sure to talk to your account representative, to fully understand the impact of any change.</p>
+                                     <p>若要预估按 GB 计价的定价模型的影响，请访问<a href="https://docs.azure.cn/azure-monitor/platform/usage-estimated-costs">使用情况和预估成本</a>页面上的文档。请注意，在新的定价模型中，数据引入和保留的计费都不相同，具体取决于 Log Analytics 工作区所在的区域。进行任何预估成本比较时请务必注意这一点。另外，如果购买了 OMS 套件，请务必与客户代表交流，充分了解任何更改会造成的影响。</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="home_monitor_log_analytics_question3" aria-label="home_monitor_log_analytics_question3">If I have Insight and Analytics per node pricing plan, can I access the per node pricing plan on new subscriptions?</a>
+                                <a id="home_monitor_log_analytics_question3" aria-label="home_monitor_log_analytics_question3">如果我正在使用按节点计价的见解和分析定价模型，可以对新订阅使用按节点计价的定价计划吗？</a>
                                 <section>
-                                     <p>Yes, Enterprise Agreement (EA) customers on the Insight &amp; Analytics per node pricing model can continue to access the per node pricing plans on any new subscriptions that they link to their existing EA.</p>
+                                     <p>可以。对于使用按节点计价的见解和分析定价模型的企业协议 (EA) 客户，其链接到现有 EA 的任何新订阅可继续使用按节点计价的定价模型。</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="home_monitor_log_analytics_question4" aria-label="home_monitor_log_analytics_question4">How is data retention calculated?</a>
+                                <a id="home_monitor_log_analytics_question4" aria-label="home_monitor_log_analytics_question4">如何计算数据保留成本？</a>
                                 <section>
-                                     <p>You can select a retention period ranging from 30 to 730 days. The retention cost calculation is done on a daily granularity based on the monthly price per GB being stored beyond the 31 days of included retention.</p>
+                                     <p>可以选择 30 天至 730 天的保留期。计算保留期成本时应除开 31 天的内附保留期，并按照根据每月每 GB 价格计算得出的每日粒度计算。</p>
                                 </section>
                             </div>
                         </li>
                     </ul>
 
-                    <h3>Alerts FAQs</h3>
+                    <h3>警报常见问题解答</h3>
                     <ul>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="home_monitor_alert_question1" aria-label="home_monitor_alert_question1">Is the above pricing applicable to activity log, service health and resource health alert rules?</a>
+                                <a id="home_monitor_alert_question1" aria-label="home_monitor_alert_question1">以上定价适用于活动日志、服务运行状况和资源运行状况预警规则吗？</a>
                                 <section>
-                                     <p>Activity log, service health and resource health alert rules continue to be available at no charge.</p>
+                                     <p>活动日志、服务运行状况和资源运行状况预警规则将继续免费提供。</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="home_monitor_alert_question2" aria-label="home_monitor_alert_question2">Is cost of alert notifications (via Azure Action Groups) included in the cost of an Alert rule?</a>
+                                <a id="home_monitor_alert_question2" aria-label="home_monitor_alert_question2">警报通知（通过 Azure 操作组）费用是否包含在预警规则费用中？</a>
                                 <section>
-                                     <p>Alert notifications are charged separately based on the type of notification used.</p>
+                                     <p>警报通知根据使用的通知类型单独收费。</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="home_monitor_alert_question3" aria-label="home_monitor_alert_question3">If I am an existing customer on the Classic Alerts platform, is the above Alert rule pricing applicable to me?</a>
+                                <a id="home_monitor_alert_question3" aria-label="home_monitor_alert_question3">如果我是经典警报平台的现有客户，上面的预警规则定价是否对我适用？</a>
                                 <section>
-                                     <p>The pricing listed above is applicable to the new Alerts platform. If you transition your existing alert rules from the Classic Alerts platform to the new platform the pricing listed above will be applicable.</p>
+                                     <p>上面列出的定价适用于新的警报平台。如果将现有预警规则从经典警报平台转到新的平台，则适用上面列出的定价。</p>
                                 </section>
                             </div>
                         </li>
                     </ul>
 
-                    <h3>Application Insights FAQs</h3>
+                    <h3>Application Insights 常见问题解答</h3>
                     <ul>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="home_monitor_application_insights_cost_application_insights_billing" aria-label="How can I control or limit my costs for Application Insights?">How can I control or limit my costs for Application Insights?</a>
+                                <a id="home_monitor_application_insights_cost_application_insights_billing" aria-label="如何控制或限制 Application Insights 的成本？">如何控制或限制 Application Insights 的成本？</a>
                                 <section>
-                                     <p>You can set a daily cap on the amount of data that Application Insights will accept from your application, allowing you to control your costs. After the daily cap has been reached, excess data will be ignored for the remainder of the day (in UTC time), and then will resume normally at the start of the next day.</p>
-                                     <p>Additionally, you can use <a href="https://docs.azure.cn/application-insights/app-insights-sampling">sampling</a> to reduce the amount of data you send to Application Insights from your application.</p>
+                                     <p>可以在 Application Insights 从应用程序接收的数据量中设置每日上限，以便控制成本。达到每日上限后，当天（UTC 时间）余下的时间内将忽略超额数据，并在次日开始时恢复正常。</p>
+                                     <p>此外，可使用<a href="https://docs.azure.cn/azure-monitor/app/sampling">采样</a>来减少应用程序发送到 Application Insights 的数据量。</p>
                                 </section>
                             </div>
                         </li>
                         <li>
                             <i class="icon icon-plus"></i>
                             <div>
-                                <a id="home_monitor_application_insights_application_insights_nodes" aria-label="What are nodes and how are the per-node data allowances applied under the Application Insights Enterprise pricing option?">What are nodes and how are the per-node data allowances applied under the Application Insights Enterprise pricing option?</a>
+                                <a id="home_monitor_application_insights_application_insights_nodes" aria-label="什么是节点？如何根据 Application Insights Enterprise 定价选项应用每节点数据限额？">什么是节点？如何根据 Application Insights Enterprise 定价选项应用每节点数据限额？</a>
                                 <section>
-                                     <p>A node is a physical or virtual machine, or a Platform-as-a-Service (PaaS) instance that's hosting your app. For example, if your application runs on three Azure App Service instances and one virtual machine, then you have four nodes hosting your application. We count the number of distinct nodes sending telemetry data each hour. If a node doesn't send any telemetry during a particular hour, then it's not counted. The monthly per-node pricing above assumes a node is sending telemetry every hour of the month, so if there are periods of inactivity for your application during the month, the actual charge will be lower.</p>
-                                     <p>As your application scales up or down, such as adding additional web servers during peak periods of activity, Application Insights Enterprise charges will scale up or down as well.</p>
-                                     <p>There are a few situations that are excluded from node counting (though data volume is always counted):</p>
+                                     <p>节点可以是托管应用的物理计算机、虚拟机或平台即服务 (PaaS) 实例。例如，如果应用程序在3个 Azure 应用服务实例和1台虚拟机上运行，则有4个托管应用程序的节点。每小时对发送遥测数据的不同节点进行。如果某节点在特定小时内未发送任何遥测数据，则不计入该节点。上述每月每节点定价假定节点在该月的每个小时都在发送遥测数据，因此，如果应用程序在一个月中有停止活动的时间段，则实际收费会更低。</p>
+                                     <p>随着应用程序的扩展或缩减（例如在活动高峰期添加额外的 Web 服务器），Application Insights Enterprise 费用也会相应地增加或减少。</p>
+                                     <p>下述几种情况不纳入节点计数中（尽管始终对数据量计数）：</p>
                                      <ul>
-                                        <li>Developer workstations running an application during debugging are not counted as nodes.</li>
-                                        <li>Using the JavaScript browser client SDK (or certain other SDKs that don't report “roleInstance”) doesn't count your end-users’ machines as nodes.</li>
-                                        <li>Using the HockeyApp bridge app doesn't count each mobile device monitored by HockeyApp as nodes.</li>
+                                        <li>调试期间运行应用程序的开发人员工作站不被计为节点。</li>
+                                        <li>使用 JavaScript 浏览器客户端 SDK（或其他某些不报告“roleInstance”的 SDK）时，最终用户的计算机将不计为节点。</li>
+                                        <li>使用 HockeyApp Bridge 应用时，HockeyApp 监视的移动设备均不计为节点。</li>
                                      </ul>
-                                     <p>What if I use the same node for multiple applications that I’m monitoring? That’s no problem. We only count the unique nodes sending telemetry data within your Azure subscription (billing account). For instance, if you have five separate websites running on the same physical server, and each website is configured with Application Insights Enterprise (charged per node), then collectively these will count as one node.</p>
-                                     <p>You can also have applications using Application Insights Basic (charged per GB) in the same Azure subscription, and this won't affect the node counting for the applications that use Application Insights Enterprise.</p>
-                                     <p>How does the daily 200 MB data work in Application Insights Enterprise? When you choose the Enterprise pricing option, your application gets a daily allowance of data based on the number of nodes sending telemetry. So, if you have five nodes sending data, you will have a pooled allowance of 1 GB per day for your application (as defined by the Application Insights resource you set up). It doesn’t matter if certain nodes are sending more data than other nodes because the included data is shared across all nodes for a given Azure subscription. If, on a given day, you send more data than is included in your daily data pool, the per-GB overage data charges apply. Unused data within your daily allowance doesn't roll over.</p>
-                                     <p>The daily pooled data allowance is calculated as the number of hours in the day that each node is sending telemetry divided by 24 times 200 MB. So, if you have four nodes sending telemetry during 15 of the 24 hours in the day, the included data for that day would be ((4 x 15) / 24) x 200 MB = 500 MB.</p>
-                                     <p>If you choose the Enterprise pricing option for multiple applications within the same Azure subscription, the daily allowance of data is shared across those applications. This daily allowance is not shared with applications for which you have chosen the Basic pricing option.</p>
+                                     <p>如果将同一节点用于正在监视的多个应用程序，会出现什么情况？没有任何问题。仅对 Azure 订阅中发送遥测数据的唯一节点计数（计费帐户）。例如，如果同一物理服务器上运行 5 个单独的网站，且每个网站均配置有 Application Insights Enterprise（按节点收费），则总共记为 1 个节点。</p>
+                                     <p>此外，同一 Azure 订阅中还可存在使用 Application Insights Basic（按 GB 收费）的应用程序，这不会影响使用 Application Insights Enterprise 的应用程序的节点计数。</p>
+                                     <p>Application Insights Enterprise 中如何使用每日 200 MB 的数据？选择 Enterprise 级定价选项时，将根据发送遥测的节点数为应用程序提供每日限额。如果有 5 个节点发送数据，则应用程序将获得每天 1GB 的池化限额（根据设置的 Application Insights 资源定义）。无所谓某些节点是否比其他节点发送更多数据，因为给定的 Azure 订阅的所有节点均共享已包含的数据。如果某天发送的数据多于每日数据池包含的数据，则按 GB 对超额数据收费。每日限额中未使用的数据不会累计。</p>
+                                     <p>每日池化数据限额的计算方式为所有节点在一天中发送遥测的小时数除以 24 再乘以 200 MB。因此，如果有 4 个节点一天 24 小时中有 15 个小时在发送遥测，则当天包括的数据为 ((4 x 15) / 24) x 200 MB = 500 MB。</p>
+                                     <p>如果在同一 Azure 订阅中为多个应用程序选择 Enterprise 定价选项，这些应用程序会共享每日数据限额。选择 Basic 定价选项时，应用程序不共享每日数据限额。</p>
                                 </section>
                             </div>
                         </li>
@@ -424,18 +427,20 @@
             </div>
   
             <div class="pricing-page-section">
-                <h2>Support &amp; SLA</h2>
-                <p>If you have any questions or need help, please visit <a href="/support/contact/" id="monitor-contact-page">Azure Support</a> and select self-help service or any other method to contact us for support.</p>
-				<p>Using Azure Monitor, you can gather detailed performance and usage data, as well as activity and diagnostic logs, and define alerts and notifications for Azure resources in a consistent manner. We guarantee that notifications will be delivered successfully at least 99.9% of the time. To learn more about the details of our Service Level Agreement, visit the <a href="/support/sla/monitor/" id="pricing_monitor_sla">Service Level Agreement</a> page.</p>
+                <h2>支持和服务级别协议</h2>
+                <p>如有任何疑问或需要帮助，请访问<a href="/support/contact/" id="monitor-contact-page"> Azure 支持</a>选择自助服务或者其他任何方式联系我们获得支持。</p>
+				<p>使用 Azure 监控器，您可以收集详尽的性能和使用情况数据、活动和诊断日志，并以一致的方式定义 Azure 资源的警报和通知。我们保证，在不少于 99.9% 的时间内，通知会成功送达。若要了解有关我们的服务器级别协议的详细信息，请访问<a href="/support/sla/monitor/" id="pricing_monitor_sla">服务级别协议</a>页。</p>
             </div>  
-            <!--BEGIN: Support and service code chunk--> <!-- <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  --> <!--END: Support and service code chunk-->                                                                             
-    
-    ]]></bodyText>
-    <pageTitle>Azure Monitor prices_budget quotes-Azure Cloud Computing</pageTitle>
+            <!--BEGIN: Support and service code chunk-->
+            <!-- <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  -->                                                                      
+            <!--END: Support and service code chunk-->                                                                             
+    ]]>
+    </bodyText>
+    <pageTitle>Azure监控器价格_预算报价-Azure云计算</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-monitor</linkid>
-    <metaKeywords>Azure Monitor pricing, Azure Monitor quotes</metaKeywords>
-    <metaDescription><![CDATA[Find out about pricing details for Azure Monitor. A 1RMB Trial gets you ￥ 1,500 in service credits. You can also make a direct purchase and become a Pay-in-Advance Azure customer.]]></metaDescription>
-    <urlDisplayName>Pricing details - Azure Monitor</urlDisplayName>
+    <metaKeywords>Azure监控器价格, Azure监控器报价</metaKeywords>
+    <metaDescription><![CDATA[了解Azure 监控器的价格详情。1元试用即获1500元人民币的服务使用额度，也可直接购买成为 Azure 预付费客户。]]></metaDescription>
+    <urlDisplayName>价格详情 - Azure 监控器</urlDisplayName>
   </TextpageLeftNav>
 </localize>
