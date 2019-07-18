@@ -226,6 +226,28 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
+							<a href="#" id="service-fabric_year_2019-july-sql-database"><span>7/12</span>Azure SQL Database Managed Instance officially released<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure SQL Database Managed Instance provides the broadest SQL Server engine compatibility and native virtual network support so you can migrate a large number of SQL Server databases from on-premises or virtual machines to SQL Database Managed Instance without changing your apps. Managed Instance combines rich SQL Server interface areas with fully managed service operations. It also retains all PaaS functions (automatic patching, version update, automatic backup, and high availability) and can significantly reduce management overhead and total cost of ownership.</p>
+								
+								<p>To learn more about this service and its pricing, please visit <a href="/home/features/sql-database/" id="what-is-new_year_2019-july-features-sql-database">Azure SQL Database Feature</a> page and <a href="/pricing/details/sql-database/" id="what-is-new_year_2019-july-pricing-sql-database">Azure SQL Database Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/sql-database/sql-database-managed-instance-quickstart-guide/" id="what-is-new_year_2019-july-docs-sql-database-managed-instance-quickstart-guide">Azure SQL Database Managed Instance Documentation</a> page.</p>
+							</section>
+						</div>
+					</li>
+					<li>
+						<i class="icon icon-plus"></i>
+						<div>
+							<a href="#" id="service-fabric_year_2019-july-app-service"><span>7/12</span>The new premium service plan of Azure App Service has now been officially released in China East 2 and China North 2 data centers<i class="icon icon-update"></i></a>
+							<section>
+								<p>Azure application service is a Platform as a Service (PaaS) product that allows you to quickly build, deploy, and expand enterprise-class Web, mobile, and API applications that runs on any platform. The Premium service plan is designed to provide enhanced performance for production apps. The upgraded Premium plan, Premium v2, features Dv2-series VMs with faster processors, SSD storage, and double memory-to-core ratio compared to Standard. The new Premium service plan is suitable for applications requiring high performance and scalability.</p>
+								
+								<p>To learn more about this service and its pricing, please visit <a href="/home/features/app-service/" id="what-is-new_year_2019-july-features-app-service">Azure App Service Feature</a> page and <a href="/pricing/details/app-service/" id="what-is-new_year_2019-july-pricing-app-service">Azure App Service Price Details</a> page. For more details, please visit <a href="//docs.azure.cn/zh-cn/app-service/" id="what-is-new_year_2019-july-docs-app-service">Azure App Service Documentation</a> page.</p>
+							</section>
+						</div>
+					</li>
+                	<li>
+						<i class="icon icon-plus"></i>
+						<div>
 							<a href="#" id="service-fabric_year_2019-july-time-series-insights"><span>7/2</span>Azure Time Series Insights has now been officially released in China East 2 and China North 2 data centers<i class="icon icon-update"></i></a>
 							<section>
 								<p>Azure Time Series Insights is a managed analytics and visualization service that democratizes the Internet of Things (IoT) by making it simple to explore and analyze your IoT time series data. It lets you quickly validate your IoT solution and avoid downtime to mission-critical devices by helping you discover hidden trends, spot anomalies, and conduct root-cause analyses in near real-time. It also offers up to 400 days of real-time analytics and storage of time series data, helping organizations to spot and understand longer-term trends in their IoT data. It provides powerful data exploration and telemetry tools to help you improve operational analysis.</p>
@@ -237,7 +259,7 @@
                 	<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-july-expressroute"><span>7/1</span>Shanghai Telecom and Beijing Telecom are providing the ExpressRoute connectivity service in China East 2 and China North 2 data centers respectively<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-july-expressroute"><span>7/1</span>Shanghai Telecom and Beijing Telecom are providing the ExpressRoute connectivity service in China East 2 and China North 2 data centers respectively</a>
 							<section>
 								<p>You can contact Shanghai Telecom and Beijing Telecom to establish an ExpressRoute private network connection in China East 2 and China North 2 data centers. ExpressRoute connections don't go over the public internet, and offer more reliability, faster speeds, and lower latencies than internet connections.</p>
 								
@@ -248,7 +270,7 @@
 					<li>
 						<i class="icon icon-plus"></i>
 						<div>
-							<a href="#" id="service-fabric_year_2019-july-pricing-drop"><span>7/1</span>Data inbound traffic, Virtual Machines, CDN, Cosmos DB, and Storage services discount<i class="icon icon-update"></i></a>
+							<a href="#" id="service-fabric_year_2019-july-pricing-drop"><span>7/1</span>Data inbound traffic, Virtual Machines, CDN, Cosmos DB, and Storage services discount</a>
 							<section>
 								<p>Since July 1, 2019, data inbound traffic, Virtual Machines, CDN, Cosmos DB, and Storage services have been reduced in price.</p>
 								<p>Data inbound traffic is free of charge. To learn more about this service and its pricing, please visit <a href="/pricing/details/bandwidth/" id="what-is-new_year_2019-july-pricing-bandwidth">Azure Data Transfer Price Details</a> page.</p>
