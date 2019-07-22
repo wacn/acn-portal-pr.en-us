@@ -1,0 +1,54 @@
+{"service": "Azure Time Series Insights", 
+"id": "leftnav_product_time-series-insights", 
+"navigation": 
+[
+	{"group": "Product", 
+	"id": "leftnav_product_time-series-insights_details", 
+	"articles": 
+		[
+			{"link": "/home/features/time-series-insights/", 
+			"id": "leftnav_product_time-series-insights_function", 
+			"title": "Product overview"}, 
+			{"link": "/pricing/details/time-series-insights/", 
+			"id": "leftnav_product_time-series-insights_pricing", 
+			"title": "Pricing"},
+			{"link": "/pricing/calculator/time-series-insights/", 
+			"id": "leftnav_product_time-series-insights_calculator", 
+			"title": "Pricing calculator"},
+			{"link": "//docs.azure.cn/zh-cn/time-series-insights/", 
+			"id": "leftnav_product_time-series-insights_documentation", 
+			"title": "Documentation"},
+			{"link": "/support/sla/time-series-insights/", 
+			"id": "leftnav_product_time-series-insights_sla", 
+			"title": "Service Level Agreement"}
+		]
+	}, 
+	{"group": "Related products", 
+	"id": "leftnav_product_time-series-insights_related", 
+	"articles": 
+		[
+			{"link": "/home/features/iot-hub/", 
+			"id": "leftnav_product_iot-hub", 
+			"title": "Azure IoT Hub"}, 
+			{"link": "/home/features/iot-edge/", 
+			"id": "leftnav_product_iot-edge_function", 
+			"title": "Azure IoT Edge"}
+		]
+	},
+	{"group": "Related Documentation and Links", 
+	"id": "leftnav_product_time-series-insights_others", 
+	"articles": 
+	[
+		{"link": "https://docs.azure.cn/zh-cn/time-series-insights/time-series-insights-update-overview", 
+		"id": "leftnav_product_time-series-insights-update-overview", 
+		"title": "Azure Time Series Insights Preview Overview"}, 
+		{"link": "https://docs.azure.cn/zh-cn/time-series-insights/time-series-quickstart", 
+		"id": "leftnav_product_time-series-quickstart", 
+		"title": "Quick Start: Explore Azure Time Series Insights"}, 
+		{"link": "https://docs.azure.cn/zh-cn/time-series-insights/tutorial-explore-js-client-lib", 
+		"id": "leftnav_product_tutorial-explore-js-client-lib", 
+		"title": "Tutorial: Explore the Azure Time Series Insights JavaScript client library"}
+	]
+	}
+]
+}
