@@ -119,7 +119,7 @@
                         <div class="tab-content">
 							<p>Data Processing Unit <sup>PREVIEW</sup> = ￥ 299.3 per unit per month (Each unit allows customers to process up to 100 GB/month)</p>
 							<p>Additional Data Processed <sup>PREVIEW</sup> = ￥ 2.035 per GB</p>
-							<p>Meta Data Storage <sup>PREVIEW</sup> = ￥ 0.407/MB</p>
+							<p>Meta Data Storage <sup>PREVIEW</sup> = ￥ 0.407 per MB</p>
 								<div class="tags-date">
 									<div class="ms-date">*The following prices are tax-inclusive.</div><br />
 								</div>
@@ -144,12 +144,12 @@
 										<th align="left"><strong>Cold Data Analysis (Used to analyze timeseries-optimized data)<sup>PREVIEW</sup></strong></th>
 									</tr>
 									<tr>
-										<td>Storage<sup>Preview</sup></td>
+										<td>Storage<sup>PREVIEW</sup></td>
 										<td>￥ 30.528/GB</td>
 										<td>Blob pricing<sup>*</sup></td>
 									</tr>
 									<tr>
-										<td>Queries<sup>Preview</sup></td>
+										<td>Queries<sup>PREVIEW</sup></td>
 										<td>No charge (limited to 10 concurrent queries)</td>
 										<td>￥ 0.102/GB</td>
 									</tr>
@@ -331,7 +331,7 @@
     <sitemapHide>0</sitemapHide>
     <linkid>pricing-details-time-series-insights</linkid>
     <metaKeywords>Azure, Microsoft Cloud, Azure Time Series Insights - Pricing Details, Pricing, Billing</metaKeywords>
-    <metaDescription><![CDATA[Learn about the pricing details of Azure Time Series Insights.]]></metaDescription>
+    <metaDescription><![CDATA[Learn about the pricing of Azure Time Series Insights.]]></metaDescription>
     <urlDisplayName>Pricing Details - Time Series Insights</urlDisplayName>
   </TextpageLeftNav>
 </localize>
