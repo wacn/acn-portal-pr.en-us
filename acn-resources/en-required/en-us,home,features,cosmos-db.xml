@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2018-05-24T11:00:00" urlName="cosmos-db" writerName="content" creatorName="content">
+  <TextpageLeftNav template="302" createDate="2014-08-05T07:49:24" updateDate="2018-05-24T11:00:00" urlName="cosmos-db" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
            <tags ms.service="cosmos-db" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
-            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/media,images,production,cosmos-db-background.png','imageHeight':'auto'}">
+            <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/cosmos-db_banner.png','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
-                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/media,images,production,cosmos-db.png">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/cosmos-db_icon@2x.svg" />
                         <h2>Azure Cosmos DB<span>Azure Cosmos DB</span></h2>
                         <h4>Multi-model database service at any scale</h4>
                         <em><a href="/pricing/1rmb-trial/" id="home_cosmos-db_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_cosmos-db_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
@@ -16,7 +16,7 @@
             </div>
             <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
             <div class="pricing-page-section">
-                <p>Azure Cosmos DB was built from the ground up with <a id="production-cosmos-db_docs-distribute-data-globally" style="color: #00a8d9;" href="//docs.azure.cn/cosmos-db/distribute-data-globally/">distribution</a> and horizontal scaling at its core. It offers turnkey distribution across any number of Azure regions by transparently scaling and replicating data (wherever users are). Flexibly scale throughput and storage within the range of multiple data centers, and only pay for what you need. Azure Cosmos DB guarantees single digit millisecond latencies at the 99th percentile, offers <a id="production-cosmos-db_docs-documentdb-consistency-levels" style="color: #00a8d9;" href="//docs.azure.cn/documentdb/documentdb-consistency-levels/">multiple well-defined consistency models</a> for fine tuning performance, and guarantees high availability with multi-homing functionality anywhere in each region – all supported by industry-leading, comprehensive <a id="production-cosmos-db_sla-cosmos-db" style="color: #00a8d9;" href="/support/sla/documentdb/">Service Level Agreements</a> (SLAs).</p>
+                <p>Azure Cosmos DB was built from the ground up with <a id="production-cosmos-db_docs-distribute-data-globally" style="color: #00a8d9;" href="//docs.azure.cn/cosmos-db/distribute-data-globally/">distribution</a> and horizontal scaling at its core. It offers turnkey distribution across any number of Azure regions by transparently scaling and replicating data (wherever users are). Flexibly scale throughput and storage within the range of multiple data centers, and only pay for what you need. Azure Cosmos DB provides native support for NoSQL and OSS APIs including MongoDB, Cassandra, Gremlin and SQL, offers multiple well-defined consistency models, guarantees single digit millisecond latencies at the 99th percentile, offers <a id="production-cosmos-db_docs-documentdb-consistency-levels" style="color: #00a8d9;" href="//docs.azure.cn/documentdb/documentdb-consistency-levels/">multiple well-defined consistency models</a> for fine tuning performance, and guarantees high availability with multi-homing functionality anywhere in each region – all supported by industry-leading, comprehensive <a id="production-cosmos-db_sla-cosmos-db" style="color: #00a8d9;" href="/support/sla/documentdb/">Service Level Agreements</a> (SLAs)</p>
                 
                 <h2>Turnkey distribution</h2>
                 <p>Build distributed applications easily without the trouble of the complex configuration of multiple data centers. As a <a id="production-cosmos-db_docs-distribute-data-globally-2" style="color: #00a8d9;" href="//docs.azure.cn/cosmos-db/distribute-data-globally/">distributed database system</a>, Azure Cosmos DB will automatically replicate all your data to any number of regions of your choice for fast, immediate access. Azure Cosmos DB supports transparent multi-homing features and guarantees availability as high as 99.99%.</p>
@@ -71,6 +71,7 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->                
     
     ]]></bodyText>
+    <redirectURL>/azure.microsoft.com/en-us/services/cosmos-db/</redirectURL>
     <pageTitle>Azure Cosmos DB Cosmos Database - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>CosmosDB</linkid>

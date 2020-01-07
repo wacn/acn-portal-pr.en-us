@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="2" createDate="2018-06-25T12:00:00" updateDate="2018-08-15T17:00:00" urlName="mysql" writerName="content" creatorName="content">
+  <TextpageLeftNav template="302" createDate="2018-06-25T12:00:00" updateDate="2018-08-15T17:00:00" urlName="mysql" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
       <style>
@@ -68,14 +68,14 @@
                         <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/mysql_database_on_azure_icon@2x.png" />
                         <h2>Azure <small>Database for MySQL</small></h2>
                         <h4>Trusted MySQL Database services geared toward app developers</h4>
-                        <em><a href="/pricing/1rmb-trial/" id="home_mysql_trial">1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mysql_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
+                        <em><a href="/pricing/1rmb-trial/" id="home_mysql_trial">Apply for 1RMB Trial<i class="icon icon-arrow-right-thin"></i></a></em> <a href="/pricing/pia/" id="home_mysql_pia">Buy Now<i class="icon icon-arrow-right-thin"></i></a>
                     </div>
                 </div>
             </div>
             <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
             <div class="pricing-page-section">
                 <div width="100%" style="background-color:#e5f1fb;margin-bottom:20px;border: 1px solid transparent;border-color: rgba(0,120,215,0.5);padding: 0 15px;">
-                    <p>This page is concerning new service content under Azure Database for MySQL. To view legacy MySQL Database on Azure services, please visit <a href="/home/features/mysqldatabaseonazure/">MySQL Database on Azure service features page</a>. </p>
+                    <p>We are ending the MySQL Database on Azure service on Dec 1st, 2019, which will be replaced by the Azure Database for MySQL service. Please refer to the <a href="https://www.azure.cn/support/announcement/mysql-migration-faq">migration FAQ and instructions</a>.</p>
                 </div>
                 <p>Azure Database for MySQL delivers fully trusted, enterprise-ready Community MySQL database as a service. The MySQL Community edition helps you easily move to the cloud using languages and frameworks of your choice. Most importantly, you will get built-in high availability and dynamic scaling to help you easily adapt to changes in customer demands. In addition, you can benefit from unrivaled security and compliance, including Azure IP advantage and Azure’s industry leading business coverage. All these with a flexible pricing model so that you can choose the resources for your workload without any hidden cost.</p>
 
@@ -197,6 +197,14 @@
                         </div>
                     </div>
                 </div>
+            <div class="pricing-page-section">
+                <div class="more-detail">
+                    <h2>FAQ</h2>
+                    <h3>MySQL Database on Azure Retirement Customer FAQ</h3>
+                    <p>We have summarized detailed FAQ for your better migration experiences from MySQL Database on Azure. Please refer to the <a href="https://www.azure.cn/support/announcement/mysql-migration-faq">MySQL Database on Azure migration FAQ and instructions</a>.</p>
+                </div>
+            </div>
+            
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More --> <!-- <div class="pricing-page-section link-group-container">
                 <h1>了解更多</h1>
                 <ul>
@@ -208,6 +216,7 @@
             </div> --> <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->             
     
     ]]></bodyText>
+    <redirectURL>/azure.microsoft.com/en-us/services/mysql/</redirectURL>
     <pageTitle>Azure Database for MySQL - fully trusted services - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-mysql</linkid>

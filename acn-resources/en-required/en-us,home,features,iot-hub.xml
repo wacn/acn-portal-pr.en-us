@@ -1,9 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2016-07-04T10:41:59" urlName="iot-hub" writerName="content" creatorName="content">
+  <TextpageLeftNav template="302" createDate="2014-08-05T07:49:24" updateDate="2016-07-04T10:41:59" urlName="iot-hub" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
-           <tags ms.service="iot-hub" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
+           <tags ms.service="iot-hub" ms.date="09/30/2015" wacn.date="11/27/2015"></tags>
+           <style>
+                .cognitive-banner{
+                    margin: 30px 0;
+                }
+                .cognitive-figure{
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px #ccc solid;
+                    overflow: hidden;
+                }
+                .cognitive-figure .col-md-3{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .cognitive-figure .col-md-9{
+                    padding-left: 2%;
+                    padding-right: 0;
+                }
+                .pricing-page-section .cognitive-figure .col-md-9 h2, .container .pure-content .pricing-page-section .cognitive-icon-group .cognitive-text h2{
+                    margin-top: 4px !important;
+                }
+                .cognitive-icon-group{
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    list-style:none;
+                    padding-left:0 !important;
+                }
+                .cognitive-icon-group li{
+                    width:100%;
+                    overflow:hidden;
+                    margin-bottom: 30px !important;
+                }
+                .cognitive-icon-group li div{
+                    float: left;
+                }
+                .cognitive-icon{
+                    width: 10%;
+                    min-width: 100px;
+                    margin-right:-120px;
+                }
+                .cognitive-text{                   
+                    margin-left:120px;
+                }
+                .cognitive-icon-group li:last-child{
+                    margin-bottom: 0 !important;
+                }
+                @media only screen and (max-width: 769px){
+                    .cognitive-figure{
+                        padding-bottom: 20px;
+                    }
+                    .cognitive-figure .col-md-9{
+                        padding-left: 0;
+                    }
+                    .pricing-page-section .cognitive-figure .col-md-9 h2{
+                        margin-top: 26px !important;
+                    }
+                }
+            </style>
+            <!-- BEGIN: Product-Detail-TopBanner -->
             <div class="common-banner col-top-banner" data-config="{'backgroundColor':'#e3f4ff', 'backgroundImage':'//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/css/azure-Iot-hub.jpg','imageHeight':'auto'}">
                 <div class="common-banner-image">
                     <div class="common-banner-title">
@@ -16,29 +75,42 @@
             </div>
             <!-- END: Product-Detail-TopBanner --> <!-- BEGIN: Product-Detail-Content -->
             <div class="pricing-page-section">
-                <h1>Connect, monitor, and control
-billions of IoT assets</h1>
-                <ul>
-                    <li>Quick Start</li>
-                    <li>Connect millions of IoT assets</li>
-                    <li>Supports a variety of operating systems and protocols</li>
-                    <li>Establish reliable two-way communication</li>
-                    <li>Increase the security of IoT solutions</li>
-                </ul>
-                <h2>Establish two-way communication with millions of IoT devices</h2>
-                <p>Easily connect IoT assets with Azure IoT Hub. Use device-to-cloud telemetry to find out the status of devices and assets and take immediate action as soon as devices need attention. Reliably send instructions and notifications to connected devices using cloud-to-device messaging, and track message delivery using confirmation receipts. Adapt to intermittently connected devices by sending device messages with persistent methods.</p>
-
-                <h2>Use familiar platforms and protocols</h2>
-                <p>Add new devices and connect existing devices with open source device SDKs that work on multiple platforms (including Linux, Windows and real-time operating systems). Use standard protocols and custom protocols including HTTP, Premium Message Queuing Protocol (AMQP) and Message Queuing Telemetry Transport (MQTT).</p>
-
-                <h2>Increase the security of IoT solutions with authentication for every device</h2>
-                <p>Set identifiers and credentials for each connected device to help you keep cloud-to-device and device-to-cloud messages confidential. To maintain system integrity, please revoke access permissions for specific devices.</p>
-
-                <h2>Manage IoT devices on a large scale using device management</h2>
-                <p>Using Azure IoT Hub’s device management function, administrators can remotely maintain, update and manage IoT devices on a large scale, eliminating the need to develop and maintain custom device management solutions and expend further resources on maintaining global assets, and delivering savings in terms of both time and costs.</p>
-
-                <h2>Make use of the intelligent edge via the Azure IoT gateway SDK</h2>
-                <p>The IoT SDK provides a powerful framework to generate, configure and deploy edge logic, enabling you to do even more with Azure IoT. Whether you are choosing strategies or other data processing to connect to old devices, reduce bandwidth costs or improve security, the IoT Gateway SDK simplifies the deployment process, so that you can focus on the issues that really matter. Learn more about <a href="/home/features/iot-hub/iot-gateway-sdk/" id="iot-hub_iot-gateway-sdk">Azure IoT Gateway SDK</a>.</p>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/product-iot-hub-establish.svg" alt="Establish two-way communication with billions of IoT devices">
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Establish two-way communication with billions of IoT devices</h2>
+                        <p>Use device-to-cloud telemetry data to understand the state of your devices and define message routes to other Azure services without writing any code. In cloud-to-device messages, reliably send commands and notifications to your connected devices and track message delivery with acknowledgement receipts. Device messages are sent in a durable way to accommodate intermittently connected devices.</p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-9">
+                        <h2>Increase the security of IoT solutions with authentication for every device</h2>
+                        <p>Set up individual identities and credentials for each of your connected devices, and help retain the confidentiality of both cloud-to-device and device-to-cloud messages. To maintain the integrity of your system, selectively revoke access rights for specific devices as needed.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/product-iot-hub-authenticate.svg" alt="Increase the security of IoT solutions with authentication for every device">
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/product-iot-hub-automate.svg" alt="Automate IoT device provisioning and registration to accelerate your IoT deployment">
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Automate IoT device provisioning and registration to accelerate your IoT deployment</h2>
+                        <p>Speed up your IoT deployment by registering and provisioning devices with zero touch in a secure and scalable way. IoT Hub Device Provisioning Service supports any type of IoT device compatible with IoT Hub. <a href="https://docs.azure.cn/iot-dps/">Read the documentation</a></p>
+                    </div>
+                </div>
+                <div class="cognitive-figure">
+                    <div class="col-md-9">
+                        <h2>Extend the power of the cloud to your edge device</h2>
+                        <p>Take advantage of IoT Edge to make hybrid cloud and edge IoT solutions a reality. IoT Edge provides easy orchestration between code and services so they flow securely between cloud and edge to distribute intelligence across a range of devices. Enable artificial intelligence and other advanced analytics at the edge, reduce your IoT solution costs, ease development efforts, and operate devices offline or with intermittent connectivity. <a href="https://www.azure.cn/home/features/iot-edge/">Explore IoT Edge</a></p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="//wacnppe.blob.core.chinacloudapi.cn/marketing-resource/media/product-iot-hub-extend.svg" alt="Extend the power of the cloud to your edge device">
+                    </div>
+                </div>
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
             <div class="pricing-page-section link-group-container">
@@ -50,6 +122,7 @@ billions of IoT assets</h1>
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->              
     
     ]]></bodyText>
+    <redirectURL>/azure.microsoft.com/en-us/services/iot-hub/</redirectURL>
     <pageTitle>Azure IoT Hub_IoT - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-iot-hub</linkid>

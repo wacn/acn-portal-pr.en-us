@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="2" createDate="2016-06-29T13:44:24" updateDate="2018-07-18T13:46:59" urlName="sql-database" writerName="content" creatorName="content">
+  <TextpageLeftNav template="302" createDate="2016-06-29T13:44:24" updateDate="2018-07-18T13:46:59" urlName="sql-database" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
            <tags ms.service="sql-database" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
@@ -72,6 +72,7 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->               
     
     ]]></bodyText>
+    <redirectURL>/azure.microsoft.com/en-us/services/sql-database/</redirectURL>
     <pageTitle>Azure SQL Database_Trusted Database Services - Azure Cloud Computing</pageTitle>
     <sitemapHide>0</sitemapHide>
     <linkid>home-features-SQL-Database</linkid>

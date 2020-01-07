@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localize>
-  <TextpageLeftNav template="2" createDate="2014-08-05T07:49:24" updateDate="2014-10-20T09:41:59" urlName="virtual-machines" writerName="content" creatorName="content">
+  <TextpageLeftNav template="302" createDate="2014-08-05T07:49:24" updateDate="2014-10-20T09:41:59" urlName="virtual-machines" writerName="content" creatorName="content">
     <bodyText><![CDATA[
       
             <tags ms.service="cdn" ms.date="09/30/2015" wacn.date="11/27/2015"></tags> <!-- BEGIN: Product-Detail-TopBanner -->
@@ -19,7 +19,7 @@
                 <!-- <p>Azure CDN 将内容缓存到距离用户最近的位置，通过智能缓存和调度策略，为用户计算最优节点，使用户在任何位置都能享受高速的网络访问体验。</p> -->
                 <h1>Advantages and features</h1>
                 <ul>
-                <li><strong>Full coverage: </strong>More than 20 TB of domestic bandwidth reserves, 600+ node coverage, various provincial regions, and several carriers including China Unicom, China Telecom, and China Mobile.</li>
+                <li><strong>Total coverage: </strong>cover 1000+ domestic, 600+ overseas nodes and all the mainstream carriers in six continents and 34 provincial regions in China</li>
 
                 <li><strong>Outstanding performance: </strong>The BGP network’s middle layer effectively eliminates carrier barriers, increases back to source effectiveness, and reduces stress on the source site. The edge CDN uses hierarchical storage to easily cope with huge numbers of concurrent accesses and quickly presents content to users.</li>
 
@@ -40,8 +40,8 @@
                 <p>Supports mainstream streaming protocols including RTMP and HTTP. Provides a complete solution for content storage, slice transcoding, and pornography detection, and supports the distribution and rapid streaming of interactive live streams on thousands of channels.</p>
                 <h2>HTTPS secure acceleration</h2>
                 <p>The whole network supports the HTTPS transmission protocol, to prevent content from being hijacked and tampered with. This ensures data security and meets the requirements for scenarios including e-commerce, finance, and banking.</p>
-                <h2>Dynamic application acceleration</h2>
-                <p>Enables applications to carry more concurrent requests without changing the business logic, through dedicated line and basic BGP network access, combined with technologies including TCP optimization, long connection, and multiplexing, reducing delays to tens of milliseconds. Widely used in mobile Internet and IoT scenarios.</p>
+                <!-- <h2>动态、应用加速</h2>
+                <p>无需改变业务逻辑，通过专线、BGP 基础网络接入，结合 TCP 优化、长连接、多路复用等技术，让应用程序承载更多的并发请求，延时缩短至数十毫秒，广泛应用于移动互联网、IoT 场景。</p> -->
                  
             </div>
             <!-- END: Product-Detail-Content --> <!-- BEGIN: Read-More -->
@@ -60,6 +60,7 @@
             <!-- END: Read-More --> <!--BEGIN: Support and service code chunk--> <?UMBRACO_MACRO chunkpath="production" chunkname="production-bottom-banner" macroAlias="blankCodeChunk" />  <!--END: Support and service code chunk-->   
         
     ]]></bodyText>
+    <redirectURL>/azure.microsoft.com/en-us/services/cdn/</redirectURL>
     <pageTitle>CDN Content Delivery Network CDN acceleration CDN services - Azure Cloud Computing</pageTitle>
     <metaKeywords>Azure, CDN, content delivery, CDN acceleration, CDN services, website acceleration, cloud CDN, API acceleration, live streaming acceleration, application acceleration, HTTPS, HTTP2</metaKeywords>
     <metaDescription><![CDATA[Azure CDN caches content to the nearest location to a user and computes optimal nodes for users using smart caching and scheduling policies, enabling users to enjoy high-speed Internet access anywhere.]]></metaDescription>
